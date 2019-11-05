@@ -4,7 +4,7 @@ seo-title: Funções e responsabilidades do projeto do AEM Screens
 description: A página descreve as funções e responsabilidades do projeto do AEM Screens
 seo-description: A página descreve as funções e responsabilidades do projeto do AEM Screens
 translation-type: tm+mt
-source-git-commit: fb13c72f0ab841e075ab3cf6918d872949739609
+source-git-commit: 67bbe7228a896c89a9aac80f2a15c1d6fefb6bb6
 
 ---
 
@@ -44,7 +44,7 @@ O Integrador A/V é o fornecedor/parceiro de hardware. Essa é a parte que lida 
 
 Um integrador AV é responsável por realizar a descoberta com clientes finais para definir os requisitos que determinam o escopo do projeto para projetar, criar e gerenciar eficientemente implantações em hardware de sinalização digital.
 
-### Considerando o parceiro de hardware {#selecting-hardware-partner}
+#### Considerando o parceiro de hardware {#selecting-hardware-partner}
 
 É fundamental selecionar o parceiro de hardware correto. Devem ser consideradas as seguintes questões:
 
@@ -147,12 +147,18 @@ A seguir está um exemplo de gráfico RACI usando as definições de função e 
 | Plano de atualização de conteúdo | I | RA | C | C |
 | Plano de transição do piloto para a produção | RA | RA | I | I |
 | Transferência de conhecimento | RA | RA | I | I |
+
+| **Fase** | **Integrador A/V** | **Implementador do AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
+|---|---|---|---|---|
 | *Dia Um: Implementação do projeto (disponibilidade para varejo)* |
 | Pedido e armazenamento de hardware | RA | I | I | I |
 | Agendamento integrado de varejo | I | I | C | RA |
 | Teste de aceitação de usuário temporário | I | C | RA |  |
 | Configuração em massa de hardware | RA | I | C | I |
 | Contrato de suporte pós-lançamento | RA | C | RA | C |
+
+| **Fase** | **Integrador A/V** | **Implementador do AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
+|---|---|---|---|---|
 | *Dia Um: Dia Um: Implementação do projeto (Hardware)* |
 | Acordo sobre as funções e responsabilidades | RA | RA | RA | RA |
 | O Design de varejo inclui operações de fiação | - | - | - | - |
