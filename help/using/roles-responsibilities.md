@@ -4,7 +4,7 @@ seo-title: Funções e responsabilidades do projeto do AEM Screens
 description: A página descreve as funções e responsabilidades do projeto do AEM Screens
 seo-description: A página descreve as funções e responsabilidades do projeto do AEM Screens
 translation-type: tm+mt
-source-git-commit: 67bbe7228a896c89a9aac80f2a15c1d6fefb6bb6
+source-git-commit: 7b55a3e847c533fbfc1bec77d1521889c24b66a2
 
 ---
 
@@ -118,9 +118,10 @@ A seguir está um exemplo de gráfico RACI usando as definições de função.
 
 A seguir está um exemplo de gráfico RACI usando as definições de função e fornecendo um exemplo de tarefas e considerações comuns em um projeto do AEM Screens.
 
+A tabela a seguir resume o **Dia Zero: Considerações** pré-vendas:
+
 | **Fase** | **Integrador A/V** | **Implementador do AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
 |---|---|---|---|---|
-| *Dia Zero: Considerações pré-vendas* |
 | Formação de Equipe e Seleção de Fornecedor | I | I | RA | RA |
 | Acordo sobre as funções e responsabilidades | RA | RA | RA | RA |
 | Alinhamento em objetivos estratégicos | CI | I | RA | RA |
@@ -129,9 +130,10 @@ A seguir está um exemplo de gráfico RACI usando as definições de função e 
 | Definição do processo de suporte | C | I | RA | I |
 | Definir Escopo do Trabalho e Plano do Projeto | RA | RA | C | C |
 
+A tabela a seguir resume o **Dia Um: Implementação do projeto (Design do aplicativo)**:
+
 | **Fase** | **Integrador A/V** | **Implementador do AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
 |---|---|---|---|---|
-| *Dia Um: Implementação do projeto (Design do aplicativo)* |
 | Acordo sobre Funções e Responsabilidades | RA | RA | RA | RA |
 | Alinhamento com o plano e a programação do projeto | RA | RA | C | C |
 | Avaliar os ambientes atuais do servidor | I | RA | I | I |
@@ -148,18 +150,20 @@ A seguir está um exemplo de gráfico RACI usando as definições de função e 
 | Plano de transição do piloto para a produção | RA | RA | I | I |
 | Transferência de conhecimento | RA | RA | I | I |
 
+A tabela a seguir resume o **Dia Um: Implementação do projeto (disponibilidade para varejo)**:
+
 | **Fase** | **Integrador A/V** | **Implementador do AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
 |---|---|---|---|---|
-| *Dia Um: Implementação do projeto (disponibilidade para varejo)* |
 | Pedido e armazenamento de hardware | RA | I | I | I |
 | Agendamento integrado de varejo | I | I | C | RA |
 | Teste de aceitação de usuário temporário | I | C | RA |  |
 | Configuração em massa de hardware | RA | I | C | I |
 | Contrato de suporte pós-lançamento | RA | C | RA | C |
 
+A tabela a seguir resume o **Dia Um: Dia Um: Implementação do projeto (Hardware)**:
+
 | **Fase** | **Integrador A/V** | **Implementador do AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
 |---|---|---|---|---|
-| *Dia Um: Dia Um: Implementação do projeto (Hardware)* |
 | Acordo sobre as funções e responsabilidades | RA | RA | RA | RA |
 | O Design de varejo inclui operações de fiação | - | - | - | - |
 | Seleção de hardware do player | RAC | - | - | - |
