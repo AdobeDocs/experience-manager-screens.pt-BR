@@ -4,7 +4,7 @@ seo-title: Funções e responsabilidades do projeto do AEM Screens
 description: A página descreve as funções e responsabilidades do projeto do AEM Screens
 seo-description: A página descreve as funções e responsabilidades do projeto do AEM Screens
 translation-type: tm+mt
-source-git-commit: fe5a340e817488dc4c3a92d607c990756ac259b6
+source-git-commit: fb13c72f0ab841e075ab3cf6918d872949739609
 
 ---
 
@@ -38,13 +38,27 @@ Os recursos personalizados necessários para atender aos parâmetros UX (Experi�
 
 Em geral, os Implementadores do AEM implantarão a funcionalidade personalizada em fases ao longo do tempo para locais. Por exemplo, eles podem primeiro estabelecer suporte para reprodução de vídeo básico em loop ou conteúdo gráfico estático. A próxima fase pode incluir a capacidade de suportar a reprodução de conteúdo localizado por meio de modelos dinâmicos e tags de metadados, com fases adicionais que incorporam suporte para elementos interativos por meio de telas de toque, sensores, acionadores dinâmicos e assim por diante.
 
-### Integradores AV {#av-integrators}
+### Integradores de AV {#av-integrators}
 
 O Integrador A/V é o fornecedor/parceiro de hardware. Essa é a parte que lida com o design de varejo e a preparação do site, incluindo aquisição de hardware, configuração e implantação. Geralmente, é um terceiro contratado que tem acesso a um NOC (Network Operations Center, centro de operações de rede). Em muitos casos, o Integrador A/V é o proprietário do projeto devido ao seu envolvimento contínuo após o lançamento.
 
 Um integrador AV é responsável por realizar a descoberta com clientes finais para definir os requisitos que determinam o escopo do projeto para projetar, criar e gerenciar eficientemente implantações em hardware de sinalização digital.
 
-### Estratégistas de negócios {#business-strategist}
+### Considerando o parceiro de hardware {#selecting-hardware-partner}
+
+É fundamental selecionar o parceiro de hardware correto. Devem ser consideradas as seguintes questões:
+
+1. Quais são os termos do contrato de nível de serviço?
+
+1. O que é a cobertura Global?
+
+1. É suporte 24 horas?
+
+1. Como os dispositivos serão gerenciados?
+
+1. Quais são os sistemas ativos de vigilância e de alerta?
+
+### Estrategistas de negócios {#business-strategist}
 
 Os Business Estratégicos representam os tomadores de decisão da empresa. Essa função está muito envolvida nas etapas de descoberta e requisitos e é o principal impulsionador do projeto.
 
@@ -114,28 +128,31 @@ A seguir está um exemplo de gráfico RACI usando as definições de função e 
 | Visita ao site e requisitos de hardware | RA | I | C | C |
 | Definição do processo de suporte | C | I | RA | I |
 | Definir Escopo do Trabalho e Plano do Projeto | RA | RA | C | C |
+
+| **Fase** | **Integrador A/V** | **Implementador do AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
+|---|---|---|---|---|
 | *Dia Um: Implementação do projeto (Design do aplicativo)* |
 | Acordo sobre Funções e Responsabilidades | RA | RA | RA | RA |
 | Alinhamento com o plano e a programação do projeto | RA | RA | C | C |
 | Avaliar os ambientes atuais do servidor | I | RA | I | I |
-| Requisitos de design UX | I | AR | C | AR |
+| Requisitos de design UX | I | RA | C | RA |
 | Validação dos requisitos técnicos | I | RA | RA | C |
-| Design de arquitetura | I | AR | I | I |
-| Validar estrutura de dados com design de interface | I | AR | C | C |
+| Design de arquitetura | I | RA | I | I |
+| Validar estrutura de dados com design de interface | I | RA | C | C |
 | Desenvolvimento de aplicativos | RA | RA | RA | RA |
-| Configuração do projeto do AEM Screens | I | AR | C | I |
-| Implementação do Analytics | I | AR | C | - |
-| Teste e implantação | AR | C | AR | I |
-| Configuração do servidor | I | AR | I | I |
-| Plano de atualização de conteúdo | I | AR | C | C |
-| Plano de transição do piloto para a produção | AR | AR | I | I |
-| Transferência de conhecimento | AR | AR | I | I |
+| Configuração do projeto do AEM Screens | I | RA | C | I |
+| Implementação do Analytics | I | RA | C | - |
+| Teste e implantação | RA | C | RA | I |
+| Configuração do servidor | I | RA | I | I |
+| Plano de atualização de conteúdo | I | RA | C | C |
+| Plano de transição do piloto para a produção | RA | RA | I | I |
+| Transferência de conhecimento | RA | RA | I | I |
 | *Dia Um: Implementação do projeto (disponibilidade para varejo)* |
-| Pedido e armazenamento de hardware | AR | I | I | I |
-| Agendamento integrado de varejo | I | I | C | AR |
-| Teste de aceitação de usuário temporário | I | C | AR |  |
-| Configuração em massa de hardware | AR | I | C | I |
-| Contrato de suporte pós-lançamento | AR | C | AR | C |
+| Pedido e armazenamento de hardware | RA | I | I | I |
+| Agendamento integrado de varejo | I | I | C | RA |
+| Teste de aceitação de usuário temporário | I | C | RA |  |
+| Configuração em massa de hardware | RA | I | C | I |
+| Contrato de suporte pós-lançamento | RA | C | RA | C |
 | *Dia Um: Dia Um: Implementação do projeto (Hardware)* |
 | Acordo sobre as funções e responsabilidades | RA | RA | RA | RA |
 | O Design de varejo inclui operações de fiação | - | - | - | - |
