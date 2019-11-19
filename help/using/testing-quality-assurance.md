@@ -4,7 +4,7 @@ seo-title: Teste e garantia de qualidade para o AEM Screens
 description: A página descreve o Guia de práticas recomendadas de teste e garantia de qualidade para o AEM Screens
 seo-description: A página descreve o Guia de práticas recomendadas de teste e garantia de qualidade para o AEM Screens
 translation-type: tm+mt
-source-git-commit: 2301922de9638ffb5586202d1631d0fa4754aecc
+source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
 
 ---
 
@@ -54,7 +54,7 @@ O AEM Screens inclui um módulo do Device Control Center que permite o gerenciam
 Refere-se a qualquer dispositivo de hardware do *player* que tenha o aplicativo do player do Screens instalado e esteja registrado para uma instância do AEM.
 Este módulo permite:
 
-1. Monitorar registros de erros do aplicativo
+1. Monitorar registros de erros do aplicativo do player
 1. Gerenciar capturas de tela remota
 1. Gerenciar downloads de conteúdo
 1. Gerenciar problemas de reinicialização do aplicativo
@@ -66,8 +66,8 @@ Para saber mais detalhes sobre o Centro ***de controle de*** dispositivos, consu
 >
 > 1. Instalar novas versões do aplicativo do player
 > 1. Monitorar recursos no nível do sistema
-> 1. Configurar configurações no nível do sistema
-> 1. Permita a intervenção remota da área de trabalho.
+> 1. Solução de problemas de erros no nível do sistema
+> 1. Permitir a intervenção remota do ambiente de trabalho
 
 
 
@@ -80,6 +80,6 @@ Poucos exemplos são:
 
 * Gerenciamento de dispositivos Google Chrome
 * TeamViewer
-* AirWatch42
-* Ursos
-* Soti
+* AirWatch
+* 42Gears
+* Middleware proprietário do AV Integrator
