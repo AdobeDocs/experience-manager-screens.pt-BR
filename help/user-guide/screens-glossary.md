@@ -11,12 +11,12 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 09d6104e-903b-4cff-a4e2-1469653352c3
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
 
 ---
 
 
-# Glossário{#glossary}
+# Glossário {#glossary}
 
 **Canal** do aplicativo Um Canal do aplicativo mostra um aplicativo criado por um desenvolvedor que exibe conteúdo interativo.
 
@@ -28,9 +28,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 **Live Copy** Uma Live Copy é uma cópia do conteúdo específico do site para o qual uma relação ativa com a fonte original é mantida. Este relacionamento dinâmico permite que a live copy herde as propriedades do conteúdo e da página de origem.
 
-**Locais de localização** hospedam a configuração das telas de acordo com onde as várias telas estão.
+**Localização/Localização Pasta** Locais ou locais dentro da pasta de localização hospedam a configuração das telas de acordo com onde estão as várias telas.
 
-**Player Software** O player é o software executado em um dispositivo que permitirá que você mostre um canal em uma tela.
+**Player Software** O player é o aplicativo de software em execução em um dispositivo que permitirá que você mostre um canal em uma tela.
 
 **Tela** Uma tela é um monitor físico ou qualquer outro sistema capaz de produzir saída visual, que mostra o conteúdo vindo de seu dispositivo.
 
