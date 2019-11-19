@@ -4,7 +4,7 @@ seo-title: Teste e garantia de qualidade para o AEM Screens
 description: A página descreve o Guia de práticas recomendadas de teste e garantia de qualidade para o AEM Screens
 seo-description: A página descreve o Guia de práticas recomendadas de teste e garantia de qualidade para o AEM Screens
 translation-type: tm+mt
-source-git-commit: 12b1cc4f2b359742966c2073d233b0113459e2de
+source-git-commit: 86f01fbe2ae7750ad961df0693e72a84d785344e
 
 ---
 
@@ -20,9 +20,12 @@ Nesta fase, todos os sistemas de ensaio devem ser construídos e completamente t
 
 Deve ser criada uma lista de verificação que identifique todos os KPIs previamente definidos e meça o material para distribuição em relação a eles.
 
+>[!NOTE]
+> Essa fase também deve ser usada como uma ferramenta para a criação de um guia de instalação e de usuário que possa ser enviado posteriormente com o equipamento e mantido no local para futura referência.
+
 Devem ser considerados os seguintes elementos:
 
-## 1. Considerações mecânicas {#mechanical-considerations}
+## 1. Considerações Mecânicas {#mechanical-considerations}
 
 As seguintes considerações mecânicas são recomendadas:
 
@@ -42,8 +45,6 @@ As seguintes considerações de software são recomendadas:
 * reprodução
 * dependências do banco de dados (definidas anteriormente)
 
->[!NOTE]
-> Essa fase também deve ser usada como uma ferramenta para a criação de um guia de instalação e de usuário que possa ser enviado posteriormente com o equipamento e mantido no local para futura referência.
 
 ## 3. Considerações sobre o gerenciamento de dispositivos {#device-management-considerations}
 
@@ -58,8 +59,10 @@ Este módulo permite:
 1. Gerenciar downloads de conteúdo
 1. Reinicialização do aplicativo
 
+Para saber mais detalhes sobre o Centro ***de controle de*** dispositivos, consulte [Solução de problemas do Centro](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) de controle de dispositivos no Guia **do usuário do** AEM Screens.
+
 >[!CAUTION]
-> VOCÊ NÃO DEVE USAR O Device Control Center PARA:
+> Você não deve usar o Device Control Center para:
 >
 > 1. Instalar novas versões do aplicativo do player
 > 1. Monitorar recursos no nível do sistema
