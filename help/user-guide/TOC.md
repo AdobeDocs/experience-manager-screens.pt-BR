@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Screens 6.5 Help
+user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: bc3c14ded553d2675865a6dcf8a1f71de501cd33
+source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
 
 ---
 
@@ -22,13 +22,14 @@ source-git-commit: bc3c14ded553d2675865a6dcf8a1f71de501cd33
    + [Parte 4: Gerenciamento e implantação do projeto](project-management-and-deployment.md)
    + [Parte 5: Considerações sobre suporte](support-considerations.md)
 + Administração {#administering}
-   + [Configuração de servidor do AEM Screens](configuring-screens-introduction.md)
-   + [Configuração do AEM Screens Player](working-with-screens-player.md)
+   + [Configurações do servidor do Screens](configuring-screens-introduction.md)
    + [Configuração de configurações do Dispatcher](dispatcher-configurations-aem-screens.md)
-   + [Configuração de ACLs](setting-up-acls.md)
+   + [Instalando o reprodutor de telas](installing-screens-player.md)
+   + [Conectando o aplicativo do player do Screens](working-with-screens-player.md)
    + [Registro do dispositivo](device-registration.md)
+   + [Configuração de ACLs](setting-up-acls.md)
    + [Transição do ContentSync para o SmartSync](smartsync.md)
-   + Player do AEM Screens {#screens-player}
+   + Instalando cliente {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Uso do Chrome Player como extensão para solução de problemas](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
