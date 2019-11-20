@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
+source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
 
 ---
 
@@ -25,11 +25,11 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
    + [Configurações do servidor do Screens](configuring-screens-introduction.md)
    + [Configuração de configurações do Dispatcher](dispatcher-configurations-aem-screens.md)
    + [Instalando o reprodutor de telas](installing-screens-player.md)
-   + [Conectando o aplicativo do player do Screens](working-with-screens-player.md)
+   + [Reprodutor de telas de conexão](working-with-screens-player.md)
    + [Registro do dispositivo](device-registration.md)
    + [Configuração de ACLs](setting-up-acls.md)
    + [Transição do ContentSync para o SmartSync](smartsync.md)
-   + Instalando cliente {#installing-client}
+   + Considerações específicas do cliente {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Uso do Chrome Player como extensão para solução de problemas](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
@@ -37,7 +37,10 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
    + Author Publish {#author-publish}
       + [Visão geral da arquitetura de publicação do autor](author-publish-architecture-overview.md)
       + [Configuração do autor e publicação](author-and-publish.md)
-+ Criação {#authoring}
+   + Integração do Analytics com o AEM Screens {#analytics-integration}
+      + [Integração do Adobe Analytics](adobe-analytics-integration-aem-screens.md)
+      + [Configuração do Adobe Analytics com o AEM Screens](configuring-adobe-analytics-aem-screens.md)
++ Exemplos de casos de criação e uso {#authoring}
    + Configurando um projeto do Screens {#setting-up-projects}
       + [Criação e gerenciamento de projetos](creating-a-screens-project.md)
       + [Criação e gerenciamento de canais](managing-channels.md)
@@ -63,9 +66,11 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
       + [Lançamentos](launches.md)
       + [Novo Importador de Projeto do Arquivo](project-importer.md)
       + [Duração da reprodução de imagem em massa no nível do canal](channel-level-image-playback.md)
-   + Integração do Analytics com o AEM Screens {#analytics-integration}
-      + [Integração do Adobe Analytics](adobe-analytics-integration-aem-screens.md)
-      + [Configuração do Adobe Analytics com o AEM Screens](configuring-adobe-analytics-aem-screens.md)
+   + Exemplos de caso de uso {#use-case-examples}
+      + [Canais de emergência](emergency-channel.md)
+      + [Ativação da temperatura do centro de viagens](local-temperature-activation.md)
+      + [Ativação da Reserva de Hospitalidade](hospitality-reservation-activation.md)
+      + [Ativação direcionada para inventário de varejo](retail-inventory-activation.md)
 + Desenvolvimento {#developing}
    + [REST APIs](rest-api.md)
    + [Desenvolvimento de um componente personalizado para o AEM Screens](developing-custom-component-tutorial-develop.md)
@@ -74,11 +79,6 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
    + [Criação de componentes](creating-components.md)
    + [Configuração do ContextHub no AEM Screens](configuring-context-hub.md)
    + [Criação de modelos personalizados de layouts de várias zonas](creating-custom-templates-multizone-layouts.md)
-+ Exemplos de caso de uso {#use-case-examples}
-   + [Canais de emergência](emergency-channel.md)
-   + [Ativação da temperatura do centro de viagens](local-temperature-activation.md)
-   + [Ativação da Reserva de Hospitalidade](hospitality-reservation-activation.md)
-   + [Ativação direcionada para inventário de varejo](retail-inventory-activation.md)
 + Resolução de Problemas{#troubleshooting}
    + [Perguntas frequentes sobre o AEM Screens](aem-screens-faqs.md)
    + [Solução de problemas do Device Control Center](monitoring-screens.md)
