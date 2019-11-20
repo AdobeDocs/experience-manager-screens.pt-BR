@@ -10,12 +10,12 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
 
-# Transição do ContentSync para o SmartSync{#transitioning-from-contentsync-to-smartsync}
+# Transição do ContentSync para o SmartSync {#transitioning-from-contentsync-to-smartsync}
 
 Esta seção fornece uma visão geral do recurso SmartSync e como ele minimiza a carga/armazenamento do servidor e o tráfego da rede para reduzir custos.
 
@@ -74,18 +74,17 @@ Siga as etapas abaixo para fazer a transição de ContentSync para SmartSync:
    >
    >Todo o cache de conteúdo deve ser limpo antes de usar o SmartSync pela primeira vez.
 
-1. Navegue até **Configuração do console da Web do Adobe Experience Manager **via instância do AEM —&gt; ícone de martelo —&gt; **Operações** —&gt; Console **da** Web.
+1. Navegue até Configuração **do console da Web do** Adobe Experience Manager por meio da instância do AEM —&gt; ícone de martelo —&gt; **Operações** —&gt; Console **da** Web.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
 1. **A configuração do console da Web do Adobe Experience Manager **é aberta. Procure *offline econtentservices*.
 
-   Para pesquisar a propriedade **Screens Offline Content Service **, pressione **Command+F** para **Mac** e **Control+F** para **Windows**.
+   Para pesquisar a propriedade **Screens Offline Content Service** , pressione **Command+F** para **Mac** e **Control+F** para **Windows**.
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. Clique em **Salvar** para ativar a propriedade **Screens Offline Content Services* ***e, portanto, usar o SmartSync para AEM Screens.
+1. Clique em **Salvar** para ativar a propriedade **Screens Offline Content Services** e, portanto, usar SmartSync para AEM Screens.
 1. Depois de habilitar o SmartSync, você deve navegar até o projeto e clicar em **Atualizar conteúdo** offline *(na barra de ações),* conforme mostrado na figura abaixo.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)
-
