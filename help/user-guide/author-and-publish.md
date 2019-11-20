@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
 
 ---
 
@@ -321,6 +321,22 @@ Siga as etapas abaixo para fornecer atualizações de conteúdo do autor para pu
    >Por padrão, todas as caixas serão marcadas e você terá que desmarcar manualmente as caixas para publicar todos os módulos em seu projeto.
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
+
+   **Noções Gerais da caixa de diálogo Incluir filhos**
+
+   A etapa mencionada acima mostra como você pode publicar o conteúdo inteiro. Caso deseje usar as outras três alternativas disponíveis, será necessário verificar essa opção específica.
+Por exemplo, a imagem a seguir permite que você gerencie e atualize somente as páginas modificadas no seu projeto:
+   ![image](assets/author-publish-manage.png)
+
+   Siga as explicações abaixo para entender as opções disponíveis:
+
+   1. **Incluir apenas filhos**imediatos:
+Essa opção permite gerenciar atualizações somente nos subnós da estrutura do projeto.
+   1. **Incluir somente páginas**modificadas:
+Essa opção permite gerenciar atualizações somente nas páginas modificadas do projeto em que as alterações são encontradas na estrutura do projeto.
+   1. **Incluir somente páginas**de atualizações:
+Essa opção permite gerenciar atualizações somente para as páginas que foram publicadas antes.
+
 
 1. Clique em **Publicar** no assistente **Gerenciar publicação.**
 
