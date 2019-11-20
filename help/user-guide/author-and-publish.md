@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
@@ -334,7 +334,7 @@ Por exemplo, a imagem a seguir permite que você gerencie e atualize somente as 
 Essa opção permite gerenciar atualizações somente nos subnós da estrutura do projeto.
    1. **Incluir somente páginas**modificadas:
 Essa opção permite gerenciar atualizações somente nas páginas modificadas do projeto em que as alterações são encontradas na estrutura do projeto.
-   1. **Incluir somente páginas**de atualizações:
+   1. **Incluir somente páginas**já publicadas:
 Essa opção permite gerenciar atualizações somente para as páginas que foram publicadas antes.
 
 
