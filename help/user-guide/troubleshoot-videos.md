@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
@@ -54,7 +54,7 @@ Verifique se ffmpeg está instalado e os perfis de vídeo.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. Carregue um vídeo de teste e clique em **Ok **para começar a transcodificação.
+1. Carregue um vídeo de teste e clique em **Ok** para começar a transcodificação.
 
    Se a transcodificação falhar, expanda a saída ffmpeg para entender quaisquer erros na saída do console de ffmpeg.
 
