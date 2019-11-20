@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
+source-git-commit: e9d479171db686ea1e2dccc38d5651e68982d5a2
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
 # Guia do usuário do AEM Screens {#user-guide}
 
 + [Introdução ao Screens](aem-screens-introduction.md)
-+ Visão geral {#overview}
++ Visão geral e guia de início rápido {#overview}
    + [Guia de Início Rápido](kickstart-for-aem-screens.md)
    + [Termos principais](screens-glossary.md)
 + Noções básicas sobre redes de cartazes digitais {#digital-signage-network}
@@ -21,7 +21,7 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
    + [Parte 3: Teste, POCs, Pilotos e Rollouts](testing-pocs-pilots-rollouts.md)
    + [Parte 4: Gerenciamento e implantação do projeto](project-management-and-deployment.md)
    + [Parte 5: Considerações sobre suporte](support-considerations.md)
-+ Administração {#administering}
++ Configuração e administração {#administering}
    + [Configurações do servidor do Screens](configuring-screens-introduction.md)
    + [Configuração de configurações do Dispatcher](dispatcher-configurations-aem-screens.md)
    + [Instalando o reprodutor de telas](installing-screens-player.md)
@@ -71,7 +71,8 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
       + [Ativação da temperatura do centro de viagens](local-temperature-activation.md)
       + [Ativação da Reserva de Hospitalidade](hospitality-reservation-activation.md)
       + [Ativação direcionada para inventário de varejo](retail-inventory-activation.md)
-+ Desenvolvimento {#developing}
+      + [Aplicar transições](applying-transitions.md)
++ Recursos do desenvolvedor e da API {#developing}
    + [REST APIs](rest-api.md)
    + [Desenvolvimento de um componente personalizado para o AEM Screens](developing-custom-component-tutorial-develop.md)
    + [Canais offline](offline-channels.md)
@@ -79,7 +80,7 @@ source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
    + [Criação de componentes](creating-components.md)
    + [Configuração do ContextHub no AEM Screens](configuring-context-hub.md)
    + [Criação de modelos personalizados de layouts de várias zonas](creating-custom-templates-multizone-layouts.md)
-+ Resolução de Problemas{#troubleshooting}
++ Solução de problemas e perguntas frequentes {#troubleshooting}
    + [Perguntas frequentes sobre o AEM Screens](aem-screens-faqs.md)
    + [Solução de problemas do Device Control Center](monitoring-screens.md)
    + [Configuração de reprodução de vídeo](troubleshoot-videos.md)
