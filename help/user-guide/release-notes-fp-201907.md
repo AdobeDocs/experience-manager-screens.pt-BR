@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
@@ -34,13 +34,13 @@ A data de lançamento do AEM Screens Feature Pack 201907 é 31 de julho de 2019.
 
 O player muda para um canal que mostra as informações de emergência após receber um evento acionado pelo sistema de emergência. O canal toca exclusivamente até que a situação de emergência acabe.
 
-Consulte Caso de uso de canal [**de**](emergency-channel.md) emergência para obter detalhes sobre a implementação.
+Consulte Caso de uso de canal [de](emergency-channel.md) emergência para obter detalhes sobre a implementação.
 
 * **Definição de metas ativada para componentes assíncronos (*como vídeos, sequência*incorporada)**
 
-A definição de metas*** agora pode ser ativada para ativos usados no projeto do AEM Screens.
+A definição de metas agora pode ser ativada para ativos usados no projeto do AEM Screens.
 
-Para saber mais sobre como ativar a definição de metas para ativos no projeto do AEM Screens, consulte [**Configuração do ContextHub nas telas**](configuring-context-hub.md)do AEM.
+Para saber mais sobre como ativar a definição de metas para ativos no projeto do AEM Screens, consulte [Configuração do ContextHub nas telas](configuring-context-hub.md)do AEM.
 
 Depois de configurar o ContextHub para seu projeto do AEM Screens, siga diferentes casos de uso para entender como os ativos acionados por dados desempenham um papel vital em diferentes setores:
 
@@ -57,11 +57,11 @@ O manipulador de atualizações agora analisa os fragmentos da experiência e co
 * **Lançamentos**
 
 As inicializações permitem que os autores de conteúdo criem uma versão futura dos canais. Com a ajuda de inicializações, os autores podem visualizar cada canal na inicialização e devem poder iniciar uma solicitação de revisão. O grupo de aprovadores receberá uma notificação e poderá aprovar ou rejeitar a solicitação. Quando a data ao vivo é atingida, o conteúdo é reproduzido nos dispositivos.
-Consulte [**Inicializações**](launches.md) para obter mais detalhes.
+Consulte [Inicializações](launches.md) para obter mais detalhes.
 
 * **Configurações off-line em fragmentos de experiência**
 
-Agora você pode adicionar configurações offline (bibliotecas do lado do cliente e arquivos estáticos) ao configurar o fragmento de experiência do Screens. Consulte [**Uso de fragmentos**](experience-fragments-in-screens.md) de experiência para obter mais detalhes.
+Agora você pode adicionar configurações offline (bibliotecas do lado do cliente e arquivos estáticos) ao configurar o fragmento de experiência do Screens. Consulte [Uso de fragmentos](experience-fragments-in-screens.md) de experiência para obter mais detalhes.
 
 ### AEM Screens Players lançados {#released-aem-screens-players}
 
@@ -73,4 +73,4 @@ Os seguintes AEM Screens Players são lançados para o AEM 6.4.5 Feature Pack 5 
 
 #### Downloads do AEM Screens Player {#aem-screens-player-downloads}
 
-Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte Downloads [**do reprodutor do**](https://download.macromedia.com/screens/)AEM Screens.
+Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte Downloads [do reprodutor do](https://download.macromedia.com/screens/)AEM Screens.
