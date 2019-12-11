@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
 
 ---
 
@@ -50,7 +50,7 @@ Siga as etapas abaixo para configurar um canal de emergência:
 
    1. Selecione a pasta **Canais** e clique em **Criar** para abrir o assistente para criar um canal.
 
-   1. Selecione **Canal de sequência **no assistente e crie o canal chamado **MainAdChannel**.
+   1. Selecione Canal **de** sequência no assistente e crie o canal chamado **MainAdChannel**.
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **Adicionar conteúdo ao canal de sequência**
@@ -63,7 +63,7 @@ Siga as etapas abaixo para configurar um canal de emergência:
 
    1. Selecione a pasta **Canais** .
    1. Clique em **Criar** para abrir o assistente para criar um canal.
-   1. Selecione **Canal de sequência **no assistente e crie o canal chamado **EmergencyChannel**.
+   1. Selecione Canal **de** sequência no assistente e crie o canal chamado **EmergencyChannel**.
    >[!NOTE]
    >
    >Normalmente, seu canal de emergência é adicionado ao projeto de produção pré-existente.
@@ -96,9 +96,9 @@ Siga as etapas abaixo para configurar um canal de emergência:
 
 1. Atribua as duas exibições à sua programação e defina as prioridades
 
-   1. Selecione o agendamento** (StoreSchedule)** e clique em **Dashboard** na barra de ações.
+   1. Selecione o agendamento **(StoreSchedule)** e clique em **Dashboard** na barra de ações.
 
-   1. Clique em **+ Atribuir canal** no painel **CANAIS ATRIBUÍDOS **CANAIS.
+   1. Clique em **+ Atribuir canal** no painel CANAIS **ATRIBUÍDOS** .
 
    1. Na caixa de diálogo Atribuição **de** canal:
 
@@ -113,7 +113,7 @@ Siga as etapas abaixo para configurar um canal de emergência:
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. Clique em **+ Atribuir canal** no painel **CANAIS ATRIBUÍDOS **CANAIS.
+1. Clique em **+ Atribuir canal** no painel CANAIS **ATRIBUÍDOS** .
 
 1. Na caixa de diálogo Atribuição **de** canal:
 
@@ -131,7 +131,7 @@ Siga as etapas abaixo para configurar um canal de emergência:
 
 1. **Atribuindo Programação a cada Exibição**
 
-   1. Navegue até cada exibição, como **EmergencyChannel** —&gt; **Locais** —&gt; **Loja **—&gt;**LojaFront**.
+   1. Navegue até cada exibição, como **EmergencyChannel** —&gt; **Locais** —&gt; **Loja** —&gt;**LojaFront**.
 
    1. Click **Dashboard** from the action to open the display dashboard.
    1. **Clique em**... no painel CANAIS E PROGRAMAS **ATRIBUÍDOS** e clique em **+Atribuir agendamento**.
