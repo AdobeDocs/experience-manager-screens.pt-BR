@@ -6,19 +6,19 @@ seo-description: Siga esta página para saber como aplicar transições em seus 
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
+source-git-commit: 4078050ada4c53c2a9de00928d2198279aaa1e34
 
 ---
 
 
 # Aplicar transições {#applying-transitions}
 
-Esta seção descreve como um componente de **Transição** permite que você adicione uma transição ao seu projeto do Screens.
+Esta seção descreve como você pode aplicar o componente **Transição** entre diferentes ativos (imagens e vídeos) em um canal.
 
 
 >[!CAUTION]
 >
->Para saber mais detalhes sobre as propriedades do componente Transição, consulte [Transições](adding-components-to-a-channel.md#transition)
+>Para saber mais detalhes sobre as propriedades do componente Transição, consulte [Transições](adding-components-to-a-channel.md#transition).
 
 ## Adicionar componente de transição aos ativos em um canal {#adding-transition}
 
@@ -43,15 +43,13 @@ Siga as etapas abaixo para adicionar um componente de transição ao seu projeto
 1. Arraste e solte o componente **Transição** no editor.
    >[!CAUTION]
    >
-   >Antes de adicionar a transição aos seus ativos no canal, verifique se:
-Você não adiciona transição antes do primeiro ativo no canal sequencial. O primeiro item em seu canal deve ser um ativo e não uma transição.
+   >Antes de adicionar a transição aos ativos no canal, certifique-se de não adicionar a transição antes do primeiro ativo no canal sequencial. O primeiro item em seu canal deve ser um ativo e não uma transição.
 
    ![image3](assets/transitions3.png)
 
    > [!NOTE]
    >
-   >Por padrão, o componente de transição é definido como Tipo como **Normal** com **Duração** definida como *600 ms*.  Além disso, não é aconselhável definir um tempo de duração de transição maior do que o ativo ao qual está sendo aplicado.
-
+   >Por padrão, as propriedades do componente de transição, como **Tipo** , estão definidas como **Normal** e a **Duração** está definida como *600 ms*.  Além disso, não é aconselhável definir um tempo de duração de transição maior do que o ativo ao qual está sendo aplicado.
 
 ## Adicionar componente de transição a vídeos em um canal {#adding-transition-videos}
 
