@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
+source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 ---
 
@@ -34,7 +34,7 @@ Os seguintes pontos chave abaixo ajudam a configurar e o servidor AEM a estar pr
 
 #### Permitir solicitações de referenciador vazias {#allow-empty-referrer-requests}
 
-1. Navegue até **Configuração do console da Web do Adobe Experience Manager **via instância do AEM —&gt; ícone de martelo —&gt; **Operações** —&gt; Console **da** Web.
+1. Navegue até Configuração **do console da Web do** Adobe Experience Manager por meio da instância do AEM —&gt; ícone de martelo —&gt; **Operações** —&gt; Console **da** Web.
 
    ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
@@ -57,7 +57,7 @@ O AEM Screens requer a interface de usuário TOQUE e não funcionará com a inte
 1. Navegue até *&lt;yourAuthorInstance&gt;/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. Certifique-se de que o modo **de criação da interface de usuário** padrão esteja definido como **TOUCH (TOQUE**), como mostrado na figura abaixo
 
-Como alternativa, você também pode executar a mesma configuração usando as ferramentas*&lt;yourAuthorInstance&gt; *-&gt;* (ícone de martelo)* -&gt; **Operations** -&gt;** Web Console** e procurar o Serviço **de modo de interface de criação** WCM.
+Como alternativa, você também pode executar a mesma configuração usando *&lt;yourAuthorInstance&gt;*-&gt;*ferramentas (ícone de martelo)* -&gt; **Operações** -&gt; Console **da** Web e pesquisar o Serviço **de modo de interface de criação** WCM.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -83,7 +83,7 @@ Você pode configurar ***DeviceServiceImpl*** a partir do link abaixo para habil
 
 Siga as etapas abaixo para configurar ***DeviceServiceImpl***:
 
-1. Navegue até **Configuração do console da Web do Adobe Experience Manager **via instância do AEM —&gt; ícone de martelo —&gt; **Operações** —&gt; Console **da** Web.
+1. Navegue até Configuração **do console da Web do** Adobe Experience Manager por meio da instância do AEM —&gt; ícone de martelo —&gt; **Operações** —&gt; Console **da** Web.
 
 1. **A configuração do console da Web do Adobe Experience Manager **é aberta. Procure o serviço de dispositivos. Para pesquisar a propriedade, pressione **Command+F** para **Mac** e **Control+F** para **Windows**.
 
