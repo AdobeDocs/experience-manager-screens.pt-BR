@@ -11,7 +11,7 @@ topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -24,7 +24,7 @@ O caso de uso a seguir demonstra o uso da ativação de reservas de hospital com
 
 Para este caso de uso, o Google Sheet é preenchido com a porcentagem de reserva em dois restaurantes **Restaurant1** e **Restaurant2**. Uma fórmula é aplicada com base nos valores de Restaurant1 e Restaurant2 e, com base na fórmula, o valor 1 ou 2 é atribuído à Coluna **AdTarget** .
 
-Se o valor de **Restaurant1** &gt; **Restaurant2**, então o **AdTarget** recebe o valor** 1 **caso contrário, o **AdTarget** recebe o valor **2**. O Valor 1 gera a opção *Abate* e o Valor 2 resulta na exibição da opção *Tailandês Food* na tela.
+Se o valor de **Restaurant1** &gt; **Restaurant2**, então **AdTarget** receberá o valor **1** ; caso contrário, **AdTarget** **** receberá o valor 2. O Valor 1 gera a opção *Abate* e o Valor 2 resulta na exibição da opção *Tailandês Food* na tela.
 
 ## Condições prévias {#preconditions}
 
@@ -44,18 +44,18 @@ Siga as etapas abaixo para implementar o caso de uso de ativação de reserva de
 
 1. **Configurar os segmentos em Públicos conforme os requisitos**
 
-   1. Navegue até os segmentos em seu público-alvo (Consulte a ***Etapa 2: Configuração da segmentação*** de público-alvo em ** [Configuração do ContextHub na página do AEM Screens](configuring-context-hub.md)** para obter mais detalhes).
+   1. Navegue até os segmentos em seu público-alvo (Consulte a ***Etapa 2: Configuração da segmentação*** de público-alvo em **[Configuração do ContextHub na página de telas](configuring-context-hub.md)** AEM para obter mais detalhes).
 
    1. Selecione as **planilhas A1 1** e clique em **Editar**.
 
    1. Selecione a propriedade de comparação e clique no ícone de configuração para editar as propriedades.
    1. Selecione **googlesheets/value/1/2** no menu suspenso no nome **da propriedade**
 
-   1. Selecione o **Operador** como **igual **no menu suspenso
+   1. Selecione o **Operador** como **igual** no menu suspenso
 
    1. Insira o **Valor** como **1**
 
-   1. Da mesma forma, selecione as** Sheets A1 2 **e clique em **Editar**.
+   1. Da mesma forma, selecione as **planilhas A1 2** e clique em **Editar**.
 
    1. Selecione a propriedade de comparação e clique no ícone de configuração para editar as propriedades.
    1. Selecione **googlesheets/value/1/2** no menu suspenso no nome **da propriedade**
