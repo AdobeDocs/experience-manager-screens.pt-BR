@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: da25cdc7-c814-493e-8d8e-b6191fee2831
 noindex: true
 translation-type: tm+mt
-source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -22,7 +22,7 @@ Esta seção descreve o agendamento do nível do ativo para os ativos usados em 
 
 Os seguintes tópicos são abordados nesta seção:
 
-* Visão geralW
+* Visão geral
 * Usando o Agendamento de Nível de Ativo
 * Tratamento de recorrência em ativos
 * Agendamento de vários ativos
@@ -70,7 +70,7 @@ Siga as etapas abaixo para executar a programação de nível de ativos:
 
    ![screen_shot_2018-04-23at112348am](assets/screen_shot_2018-04-23at112348am.png)
 
-1. É possível especificar a data no seletor de datas nos campos **Ativo de** e **Ativo até** .
+1. Você pode especificar a data no seletor de datas nos campos **Ativo de** e **Ativo até** .
 
    Se você selecionar **Ativo de e** Ativo até **** a data e hora, o ativo será exibido e fará loop apenas entre a data/hora de início e a data/hora de término, respectivamente.
 
