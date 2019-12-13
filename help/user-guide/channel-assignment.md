@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -68,7 +68,7 @@ Siga as etapas abaixo para atribuir um canal a uma exibição:
 
    A prioridade é usada para ordenar as atribuições, no caso de várias delas corresponderem aos critérios de reprodução. A atribuição com o valor mais alto sempre terá precedência sobre aquelas com valores mais baixos. Por exemplo, se houver dois canais, A e B, em que A tem uma prioridade de 1 e B tem uma prioridade de 2, o canal B será exibido, pois tem uma prioridade mais alta que A.
 
-   A prioridade de um canal é definida como um número (1 para o mínimo) na caixa de diálogo **Atribuição de canal **conforme mencionado acima. Além disso, os canais atribuídos são classificados com base em uma prioridade decrescente.
+   A prioridade de um canal é definida como um número (1 para o valor mínimo) na caixa de diálogo **Atribuição de canal**, conforme mencionado acima. Além disso, os canais atribuídos são classificados com base em uma prioridade decrescente.
 
    **Eventos compatíveis**:
 
