@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 5ce1e0b9-1926-49dc-b4dd-44b649a3e710
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -56,7 +56,7 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
    1. Clique em **Criar** para criar um novo projeto do Screens (consulte a figura abaixo).
    1. Select **Screens** from the **Create Screens Project** wizard and click **Next**.
 
-   1. Enter the title as *Test_Project *and click **Create**.
+   1. Enter the title as *Test_Project*  and click **Create**.
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
    Depois que o projeto é criado, ele retorna ao console do Screens Project. Agora, você pode selecionar seu projeto. Em um projeto, existem cinco tipos de pastas, **Aplicativos**, **Canais**, **Dispositivos**, **Locais** e **Agendamentos**, conforme mostrado na figura abaixo.
@@ -77,8 +77,8 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
 
    1. Navigate to the *Test_Project* you created and select the **Channels** folder.
 
-   1. Clique em** Criar** na barra de ações (veja a figura abaixo). Um assistente será aberto.
-   1. Choose the **Sequence Channel **and click **Next**.
+   1. Click **Create** from the action bar (see the figure below). Um assistente será aberto.
+   1. Choose the **Sequence Channel** and click **Next**.
 
    1. Enter the **Name** and **Title** as *TestChannel* and click **Create**.
    ![chlimage_1-6](assets/chlimage_1-6.png)
@@ -95,9 +95,9 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
 
    Siga as etapas abaixo para adicionar conteúdo ao canal (*TestChannel*) em seu projeto:
 
-   1. Navigate to the *Test_Project* you created and select the **Channels **folder.
+   1. Navigate to the *Test_Project* you created and select the **Channels** folder.
 
-   1. Click **Edit** from the action bar (see the figure below). O editor do* TestChannel* é aberto.
+   1. Click **Edit** from the action bar (see the figure below). The editor for the *TestChannel* opens.
 
    1. Clique no ícone que alterna o painel lateral no lado esquerdo da barra de ações para abrir os ativos e componentes.
    1. Arraste e solte os componentes que você deseja adicionar ao seu canal.
@@ -115,7 +115,7 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
 
    Siga as etapas abaixo para criar um novo local para seu projeto:
 
-   1. Navegue até o *Test_Project* que você criou e selecione a pasta **Locais **Locais.
+   1. Navigate to the *Test_Project* you created and select the **Locations** folder.
 
    1. Clique em **Criar** ao lado do ícone de adição na barra de ação (consulte a figura abaixo). Um assistente será aberto.
    1. Select **Location** from the wizard and click **Next**.
@@ -135,8 +135,8 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
 
    1. Navegue até o local onde deseja criar sua exibição (*Test_* Project —&gt; **Locais** —&gt; *TestLocation)* , conforme mostrado na figura acima, e selecione *TestLocation*.
 
-   1. Clique em** Criar **na barra de ações.
-   1. Select **Display **from the **Create** wizard and click **Next**.
+   1. Clique em **Criar** na barra de ações.
+   1. Select **Display** from the **Create** wizard and click **Next**.
 
    1. Insira **Nome** e **Título** para o local de exibição (insira o título como *TestDisplay*).
 
@@ -161,7 +161,7 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
 
    1. Navegue até a pasta **Programações** de Test_Project —&gt; **Programações**.
 
-   1. Clique em** Criar **na barra de ações. Um assistente será aberto.
+   1. Clique em **Criar** na barra de ações. Um assistente será aberto.
    1. Selecione **Agendar** na página do assistente **Criar** .
 
    1. Informe o **Nome** e o **Título** como *MorningSchedule* na página de propriedades.
@@ -187,13 +187,13 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
 
    1. Enter the **Channel Role** as *LiveStream*.
 
-   1. Selecione o Caminho do canal** (*Test_Project* —&gt; *Canais* —&gt; *TestChannel* ) no **canal**.
+   1. Selecione o Caminho **do** canal (*Test_Project* —&gt; *Canais* —&gt; *TestChannel* ) no **canal**.
 
    1. Select the **Priority** for this channel as *1*.
 
-   1. Choose the **Supported Events** as **Initial Load **and **Idle Screen**.
+   1. Choose the **Supported Events** as **Initial Load** and **Idle Screen**.
 
-   1. Insira **Agendamento **e selecione as datas em **ativo** e **ativo até**.
+   1. Informe **Agendamento** e selecione as datas em **ativo** e **ativo até**.
 
    1. Clique em **Salvar**.
    O canal é criado e adicionado ao painel.
@@ -241,7 +241,7 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
 
    ![chlimage_1-19](assets/chlimage_1-19.png)
 
-   Enter **Title** and click **Register **and** **the device will be registered.
+   Enter **Title** and click **Register** and the device will be registered.
 
    Clique em **Concluir** para concluir a etapa de registro do dispositivo.
 
