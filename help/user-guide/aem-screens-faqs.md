@@ -6,7 +6,7 @@ seo-description: Siga esta página para obter respostas para perguntas frequente
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -104,7 +104,7 @@ O ChromeOS player pode ser instalado como plug-in do Chrome Browser no modo de d
 1. Descompacte e salve no disco.
 1. Abra o navegador Chrome e clique no menu de 3 pontos e selecione **Mais ferramentas** —&gt; **Extensões** no canto superior direito ou navegue diretamente para ***chrome://extensions***.
 1. Ligue o modo **Desenvolvedor** no canto superior direito.
-1. Clique em **Carregar descompactado **no canto superior esquerdo e carregue o Chrome Player descompactado.
+1. Clique em **Carregar descompactado** no canto superior esquerdo e carregue o Chrome Player descompactado.
 1. Verifique o plug-in do Chrome Player **do** AEM Screens se estiver disponível na lista de extensões.
 1. Abra uma nova guia e clique no ícone **Aplicativos** no canto superior esquerdo ou navegue diretamente para ***chrome://apps***.
 1. Clique em **AEM Screens** Plugin para iniciar o Chrome Player. Por padrão, o player é iniciado no modo de tela cheia. Pressione **esc** para sair do modo de tela cheia.
