@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
@@ -40,7 +40,7 @@ Essa página mostra a atribuição de um canal às suas exibições.
 
 Siga as etapas abaixo para atribuir um canal a uma exibição:
 
-1. Navegue até a exibição desejada, por exemplo, **DemoProject*** *—&gt; **Locais** —&gt; **SanJose** —&gt; **StoreDisplay**.
+1. Navegue até a exibição desejada, por exemplo, **DemoProject** —&gt; **Locais** —&gt; **SanJose** —&gt; **StoreDisplay**.
 
    ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
 
@@ -48,11 +48,11 @@ Siga as etapas abaixo para atribuir um canal a uma exibição:
 
    Ou,
 
-   Tap/click **Dashboard **and** **click** +Assign Channel **from the** ASSIGNED CHANNNELS **panel to open the **Channel Assignment** dialog box.
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS** panel to open the **Channel Assignment** dialog box.
 
    ![screen_shot_2018-08-23at25938pm](assets/screen_shot_2018-08-23at25938pm.png)
 
-   Você pode configurar as seguintes propriedades na caixa de diálogo **Atribuição de canal **da:
+   É possível configurar as seguintes propriedades na caixa de diálogo **Atribuição de canal**:
 
    **Função de canal**:
 
