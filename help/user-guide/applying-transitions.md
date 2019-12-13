@@ -6,19 +6,19 @@ seo-description: Siga esta página para saber como aplicar transições em seus 
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 4078050ada4c53c2a9de00928d2198279aaa1e34
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
 
 # Aplicar transições {#applying-transitions}
 
-Esta seção descreve como você pode aplicar o componente **Transição** entre diferentes ativos (imagens e vídeos) em um canal.
+Esta seção descreve como você pode aplicar o componente **Transição** entre diferentes ativos (imagens e vídeos) e sequências incorporadas em um canal.
 
 
 >[!CAUTION]
 >
->Para saber mais detalhes sobre as propriedades do componente Transição, consulte [Transições](adding-components-to-a-channel.md#transition).
+>Para saber mais detalhes sobre as propriedades do componente **Transição** , consulte [Transições](adding-components-to-a-channel.md#transition).
 
 ## Adicionar componente de transição aos ativos em um canal {#adding-transition}
 
@@ -51,8 +51,12 @@ Siga as etapas abaixo para adicionar um componente de transição ao seu projeto
    >
    >Por padrão, as propriedades do componente de transição, como **Tipo** , estão definidas como **Normal** e a **Duração** está definida como *600 ms*.  Além disso, não é aconselhável definir um tempo de duração de transição maior do que o ativo ao qual está sendo aplicado.
 
+1. Além disso, se você adicionar um componente de Sequência **** incorporada (que inclui um canal de sequência) a esse editor de canal, poderá adicionar um componente de transição no final, para que o conteúdo seja reproduzido em ordem, como demonstrado na figura abaixo:
+
+   ![image3](assets/transitions5.png)
+
 ## Adicionar componente de transição a vídeos em um canal {#adding-transition-videos}
 
-Ao aplicar o componente de transição entre vídeos, sempre defina o **Tipo** como **Desvanecer** e a Duração **** da sequência como **1600 ms**.
+Ao aplicar o componente de transição entre vídeos, é recomendável definir o **Tipo** como **Desvanecer** e a Duração **da** sequência como **1600 ms**.
 
 ![image3](assets/transitions4.png)
