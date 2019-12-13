@@ -11,7 +11,7 @@ topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -86,9 +86,9 @@ Clique em **Propriedades** para exibir a caixa de diálogo Propriedades **do** d
 
 ### Exibir captura de tela do player {#view-player-screenshot}
 
-Você pode exibir a captura de tela do player do dispositivo a partir do painel **PLAYER SCREENSHOT **.
+Você pode exibir a captura de tela do player do dispositivo no painel **PLAYER SCREENSHOT** .
 
-Clique (**...**) no canto superior direito do painel Captura de tela do player e selecione **Atualizar captura de tela **para exibir o instantâneo do player em execução.
+Clique (**...**) no canto superior direito do painel Captura de tela do player e selecione **Atualizar captura de tela** para exibir o instantâneo do player em execução.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -136,7 +136,7 @@ Atualmente, alguns desses recursos só estão disponíveis se o Filtro de refer�
 Siga as etapas abaixo para ativar o Filtro de referência Apache Sling que permite vazio
 
 1. Navegue até Configuração **do console da Web do** Adobe Experience Manager, ou seja, `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-1. Marque a opção **allow.empty **5.
+1. Verifique a opção **allow.empty** .
 1. Clique em **Salvar**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
