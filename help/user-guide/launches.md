@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -104,7 +104,7 @@ Siga as etapas abaixo para implementar a funcionalidade de publicação futura e
 
    ![screen_shot_2019-06-25at20128pm](assets/screen_shot_2019-06-25at20128pm.png)
 
-1. Digite o Título **do** lançamento como **SummerPromotions** e não é necessário definir a*** Data de lançamento**, como mostra a figura abaixo. Clique em **Criar**.
+1. Insira o Título **da** Inicialização como **SummerPromotions** e não é necessário definir a Data **de** Inicialização, conforme mostrado na figura abaixo. Clique em **Criar**.
 
    >[!NOTE]
    >
@@ -137,7 +137,7 @@ Siga as etapas abaixo para editar as propriedades de inicialização:
 
    >[!NOTE]
    >
-   >Selecione a opção **Árvore de conteúdo **no painel esquerdo para abrir a inicialização criada.
+   >Selecione a opção **Árvore** de conteúdo no painel esquerdo para abrir a inicialização criada.
 
    ![screen_shot_2019-06-25at25852pm](assets/screen_shot_2019-06-25at25852pm.png)
 
