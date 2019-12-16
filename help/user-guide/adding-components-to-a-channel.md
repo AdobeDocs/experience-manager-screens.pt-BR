@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
 
 ---
 
@@ -228,7 +228,7 @@ O ativo de imagem possui três guias: **Imagem**, **Acessibilidade** e **Sequên
 | **Acessibilidade** |
 | ***Texto alternativo*** | Texto alternativo para a imagem. |
 | **Sequência** |
-| ***Duração*** | Selecione a duração inteira da imagem. Definir a duração como -1 indica que a imagem incorporada executará sua duração total em um canal específico. |
+| ***Duração*** | Por padrão, a duração é definida como *8000 ms*. Se desejar alterar a duração da reprodução da imagem, atualize o campo **Duração** . |
 
 ### Transição {#transition}
 
