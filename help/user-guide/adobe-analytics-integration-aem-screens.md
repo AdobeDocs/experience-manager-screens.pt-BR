@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 3621082c7880e61f659d3bca956159d22d7df6de
 
 ---
 
@@ -22,8 +22,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 >
 >Esta funcionalidade do AEM Screens só estará disponível se você tiver instalado o AEM 6.4.2 Feature Pack 2 e o AEM 6.3.3 Feature Pack 4.
 
+>[!NOTE]
 >Para obter acesso a qualquer um desses Pacotes de recursos, entre em contato com o Suporte da Adobe e solicite acesso. Com as devidas permissões, você pode baixá-lo em Compartilhamento de pacotes.
->
+
 Esta seção aborda os seguintes tópicos:
 
 * **Visão geral**
@@ -32,7 +33,7 @@ Esta seção aborda os seguintes tópicos:
 
 ## Visão geral {#overview}
 
-***O AEM Screens*** aproveita o Adobe Analytics e, com isso, você pode obter algo único no mercado - análises entre canais que ajudam a correlacionar o conteúdo exibido no local com outras fontes de dados.
+***O AEM Screens ***aproveita o Adobe Analytics e, com isso, você pode obter algo único no mercado - análises entre canais que ajudam a correlacionar o conteúdo exibido no local com outras fontes de dados.
 
 O AEM Screens fornece uma integração imediata com o Adobe Analytics e fornece uma prova de reprodução.
 
@@ -69,14 +70,16 @@ Navegue até Configuração **do console da Web do** Adobe Experience Manager pa
 ## Análises de telas: Fluxo de ativação {#screens-analytics-enablement-flow}
 
 >[!CAUTION]
-Antes de configurar as propriedades, entre em contato com seu Gerente de relacionamento da Adobe para criar um ticket para obter uma chave **de API do** Analytics e um projeto **do** Analytics para uso com o AEM Screens.
+>
+>Antes de configurar as propriedades, entre em contato com seu Gerente de relacionamento da Adobe para criar um ticket para obter uma chave **de API do** Analytics e um projeto **do** Analytics para uso com o AEM Screens.
 
 ![]()
 
 ### Configuração das propriedades {#configuring-the-properties}
 
 >[!CAUTION]
-Antes de configurar as propriedades, entre em contato com seu Gerente de relacionamento da Adobe para criar um ticket para obter uma chave **de API do** Analytics e um projeto **do** Analytics para uso com o AEM Screens.
+>
+>Antes de configurar as propriedades, entre em contato com seu Gerente de relacionamento da Adobe para criar um ticket para obter uma chave **de API do** Analytics e um projeto **do** Analytics para uso com o AEM Screens.
 
 A tabela a seguir destaca as propriedades com sua descrição para configurar o Adobe Analytics para AEM Screens:
 
@@ -88,19 +91,20 @@ A tabela a seguir destaca as propriedades com sua descrição para configurar o 
   </tr>
   <tr>
    <td><strong>URL do Analytics</strong></td>
-   <td>URL para publicar dados de análise do player<br /> </td>
+   <td>URL para publicar dados de análise do player. <br>
+   Para desenvolvimento/estágio</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>For Production</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Chave da API do Analytics</strong></td>
-   <td>Chave da API para autenticação no servidor do Adobe Analytics (fornecida pelo Gerenciador de contas)</td>
+   <td>Chave da API para autenticação no servidor do Adobe Analytics (fornecida pelo Gerenciador de contas).</td>
   </tr>
   <tr>
    <td><strong>Projeto do Analytics</strong></td>
-   <td>Projeto do AEM Screens configurado em sua análise para receber dados (fornecido pelo Gerente de contas)</td>
+   <td>Projeto do AEM Screens configurado em sua análise para receber dados (fornecido pelo Gerente de contas).</td>
   </tr>
   <tr>
    <td><strong>Autor</strong></td>
-   <td><p>Estágio ou ambiente de produção.</p> <p><em>Para desenvolvimento/estágio</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>For Production</em> - https://cc-api-data.adobe.io/ingest/</p> </td>
+   <td><p>Estágio ou Ambiente de produção (escolha Estágio ou Produção).</p></td>
   </tr>
   <tr>
    <td><strong>Frequência de envio do Analytics</strong></td>
@@ -110,7 +114,8 @@ A tabela a seguir destaca as propriedades com sua descrição para configurar o 
 </table>
 
 >[!NOTE]
-Por padrão, a **Frequência de envio do Analytics **é de 15 minutos.
+>
+>Por padrão, a Frequência **de envio do** Analytics é de 15 minutos.
 
 #### Usar o Adobe Analytics Service no AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
@@ -119,5 +124,6 @@ Esse cenário chama a API do Analytics por meio de chamadas REST de um serviço 
 Os eventos do Analytics são armazenados offline no indexedDB e posteriormente são separados e enviados para a nuvem.
 
 >[!NOTE]
-Para saber mais sobre o ***Sequenciamento*** e o Modelo de dados ***padrão para eventos***, consulte **[Configuração do Adobe Analytics para telas](configuring-adobe-analytics-aem-screens.md)** AEM.
+>
+>Para saber mais sobre o ***Sequenciamento ***e o Modelo de dados***padrão para eventos***, consulte **[Configuração do Adobe Analytics para telas](configuring-adobe-analytics-aem-screens.md)**AEM.
 
