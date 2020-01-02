@@ -5,16 +5,15 @@ description: Siga este caso de uso para criar um canal de aquisição de uso ún
 seo-description: Siga este caso de uso para criar um canal de aquisição de uso único.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 58229f2ecbc098522d5d62972ba7f9362a538997
+source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
 
 ---
 
 
 # Canal de aquisição de uso único {#single-use-takeover-channel}
 
-A página a seguir descreve um caso de uso que enfatiza a configuração de um projeto sobre como criar um canal de aquisição que é reproduzido apenas uma vez.
+A página a seguir mostra um caso de uso que enfatiza a configuração de um projeto sobre como criar um canal de Tomada única que é reproduzido apenas uma vez para um horário específico.
 
-Aguarde para revisão.
 
 ## Descrição do caso de uso {#use-case-description}
 
@@ -40,7 +39,7 @@ Siga as etapas abaixo para configurar um projeto:
 
 **Configuração dos canais e do monitor**
 
-1. Crie um projeto do AEM Screens intitulado como **TakeoverLoop**, como mostrado abaixo.
+1. Crie um projeto do AEM Screens intitulado como **SingleUseTakeOver**, como mostrado abaixo.
 
    ![ativo](assets/single-takeover1.png)
 
@@ -52,8 +51,9 @@ Siga as etapas abaixo para configurar um projeto:
 
    ![ativo](assets/single-takeover2.png)
 
-   >[!Nnota]
-   > O **MainAdChannel** neste exemplo demonstra um canal de sequência que reproduz conteúdo continuamente.
+
+   >[!NOTE]
+   >O **MainAdChannel** neste exemplo demonstra um canal de sequência que reproduz conteúdo continuamente.
 
    ![ativo](assets/single-takeover3.png)
 
