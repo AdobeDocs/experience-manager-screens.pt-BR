@@ -5,7 +5,7 @@ description: Siga este caso de uso para criar um canal de aquisição de uso ún
 seo-description: Siga este caso de uso para criar um canal de aquisição de uso único.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
+source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
 
 ---
 
@@ -76,7 +76,7 @@ Siga as etapas abaixo para configurar um projeto:
    >[!NOTE]
    >Para saber como atribuir um canal a uma exibição, consulte Atribuição **[de](channel-assignment.md)**canal.
 
-1. Preencha os campos (Caminho **do** canal, **Prioridade** e Eventos **** suportados) da caixa de diálogo Atribuição **de** canal e clique em **Salvar**. Agora, você atribuiu o **MainAdChannel** à sua exibição.
+1. Preencha os campos (Caminho **do** canal, **Prioridade** e Eventos **** suportados) da caixa de diálogo Atribuição **de** canal e clique em **Salvar**. Agora você atribuiu o **MainAdChannel** à sua exibição.
 
    ![ativo](assets/single-takeover7.png)
 
@@ -91,6 +91,13 @@ Siga as etapas abaixo para configurar um projeto:
 O texto da **Agenda** mencionada neste exemplo é *no dia 31 de dezembro depois das 23:58 e também no dia 1 de janeiro antes das 00:01*.
 
       ![ativo](assets/single-takeover8.png)
+
+      Navegue até a exibição de **SingleUseTakeOver** —> **Locations** —> **Lobby** —> **Main Lobby Display** e clique em **Dashboard** na barra de ações para exibir os canais atribuídos com suas prioridades, como mostrado abaixo.
+
+      >[!NOTE]
+      >É obrigatório definir a prioridade mais elevada do canal de aquisição.
+
+      ![ativo](assets/single-takeover9.png)
 
       >[!NOTE]
       >Você pode mencionar o agendamento para casos de uso diferentes. Consulte Caso de uso perpétuo para obter mais detalhes.
