@@ -4,20 +4,20 @@ seo-title: Funções e responsabilidades do projeto do AEM Screens
 description: A página descreve as funções e responsabilidades do projeto do AEM Screens
 seo-description: A página descreve as funções e responsabilidades do projeto do AEM Screens
 translation-type: tm+mt
-source-git-commit: 7b55a3e847c533fbfc1bec77d1521889c24b66a2
+source-git-commit: 50d36d89b8dcc746a043e5e72ffc0148d99854ad
 
 ---
 
 
 # Funções e responsabilidades do projeto {#roles-responsibilities}
 
-Como um implementador AEM experiente, você provavelmente terá visto as funções serem chamadas de *Autores*, *Desenvolvedores* e *TI/Técnicos*.
+Como um implementador de AEM experiente, provavelmente você já viu funções conhecidas como *Autores*, *Desenvolvedores* e *TI/Técnicos*.
 
 Em um projeto típico do AEM Screens, as funções são ainda mais refinadas, pois cada um deles tem um propósito importante no projeto.
 
 O diagrama abaixo mostra as funções que referiremos ao longo do guia.
 
-![](/help/assets/roles-used.png)
+![](/help/assets/project-roles-revised.png)
 
 >[!NOTE]
 > Muitas dessas funções podem ser internas ou terceirizadas, dependendo de como cada projeto é configurado.
@@ -95,8 +95,8 @@ Para oferecer suporte a uma implantação bem-sucedida do Digital Signage, é co
 
 >[!NOTE]
 >
-> Embora este guia coloque a ênfase principalmente no *Dia Um* e no *Dia Dois*, é necessário prestar atenção aos três estágios para executar um projeto bem-sucedido de sinalização digital.
-Siga um vídeo adicional sobre Gerenciamento de **[projetos e Implantação](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** para saber mais sobre a pré-produção do projeto, o início do projeto e a progressão do projeto.
+> Embora este guia enfatize principalmente o *Primeiro Dia* e o *Segundo dia*, é necessário prestar atenção aos três estágios para executar um projeto bem-sucedido de sinalização digital.
+Siga um vídeo adicional sobre Gerenciamento de **[projetos e Implantação](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**para saber mais sobre a pré-produção do projeto, o início do projeto e a progressão do projeto.
 
 ## Gráfico RACI {#raci-chart}
 
