@@ -4,17 +4,17 @@ description: Siga esta página para saber mais sobre o caso de uso de MultiZone 
 seo-description: Casos de uso de Transições de MultiZone para SingleZone.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 0cae7c19759fe3418a13ab2d7cc68f1b220f397d
+source-git-commit: 6f770734941635a0cd404986c259022137355af3
 
 ---
 
 
-# Transição de MultiZone para SingleZone {#multizone-to-singlezone-use-case}
+# Transição de várias zonas para uma única zona {#multizone-to-singlezone-use-case}
 
 
 ## Descrição do caso de uso {#use-case-description}
 
-Esta seção descreve um exemplo de caso de uso que enfatiza como configurar um canal de layout multizona que alterna com um canal de layout de zona única. Cada canal tem ativos de imagem/vídeo em sequência.
+Esta seção descreve um exemplo de caso de uso que enfatiza como configurar um canal de layout multizona que alterna com um canal de layout de zona única. O canal de várias zonas tem ativos de imagem/vídeo em sequência e mostra como você pode configurar projetos que alternam de várias zonas para uma única zona e vice-versa.
 
 ### Condições prévias {#preconditions}
 
@@ -29,50 +29,55 @@ Antes de iniciar este caso de uso, certifique-se de saber como:
 
 Autores de conteúdo
 
-##  Configuração do projeto {#setting-up-the-project}
+## Configuração do projeto {#setting-up-the-project}
 
 Siga as etapas abaixo para configurar um projeto:
 
-1. Crie um projeto do AEM Screens chamado de **ChannelTransition**, como mostrado abaixo.
+1. Crie um projeto do AEM Screens chamado de **TakeoverLoop**, conforme mostrado abaixo.
+
+   ![ativo](assets/mz-to-sz1.png)
 
 
-
-1. **Criação de um canal de tela dividida**
+1. **Criando um canal de telas de várias zonas**
 
    1. Selecione a pasta **Canais** e clique em **Criar** na barra de ações para abrir o assistente para criar um canal.
    1. Selecione Canal **de tela dividida da barra** esquerda L no assistente e crie o canal chamado **MultiZoneLayout**.
+   1. Adicione conteúdo ao canal. Arraste e solte os ativos em cada uma das zonas. O exemplo a seguir mostra um canal **MultiZoneLayout** composto de um vídeo, uma imagem e um banner de texto (em uma sequência incorporada), como mostrado abaixo.
+   ![ativo](assets/mz-to-sz2.png)
+
+   >[!NOTE]
+   >
+   >Para saber mais sobre como criar um layout de várias zonas no seu canal, consulte Layout [de](multi-zone-layout-aem-screens.md)várias zonas.
 
 
+1. Crie outro canal chamado **TakeoverChannel** para a pasta **Canais** .
 
-   1. Select the **MultiZoneLayout** channel and click **Edit** from the action bar to open the editor. Arraste e solte os ativos em cada uma das zonas. O exemplo a seguir mostra um vídeo, uma imagem e um banner de texto no canal, como mostrado abaixo.
+   ![ativo](assets/mz-to-sz3.png)
 
+1. Clique em **Editar** na barra de ações para adicionar conteúdo a este canal. Adicione um componente de **Canal** e um ativo de imagem para o qual você deseja alternar, a este canal, conforme mostrado na figura abaixo:
 
-1. **Criação de um canal 2X2 com quatro imagens**
+   ![ativo](assets/mz-to-sz4.png)
 
-   1. Selecione a pasta **Canais** e clique em **Criar** na barra de ações para abrir o assistente para criar um canal.
+1. Abra as configurações do componente Canal e aponte-o para o canal **MultiZoneLayout** criado na *etapa 2*.
 
-   1. Selecione o modelo Canal **de tela dividida** 2X2 no assistente e crie o canal chamado **TwobyTwoChannel**.
+   ![ativo](assets/mz-to-sz5.png)
 
+1. Defina a duração do campo **Sequência** como **10000 ms**.
 
-   1. Selecione o canal e clique em **Editar** na barra de ações para abrir o editor e arraste e solte quatro imagens (quatro zonas diferentes) nesse canal, como mostrado abaixo.
+   ![ativo](assets/mz-to-sz6.png)
 
+1. Da mesma forma, abra as configurações para a Imagem (ativo adicionado) e defina sua duração do campo **Sequência** para **3000 ms**.
 
-1. **Criação de um canal de tela dividida 1X2 com duas imagens**
+   ![ativo](assets/mz-to-sz7.png)
 
-   1. Selecione a pasta **Canais** e clique em **Criar** na barra de ações para abrir o assistente para criar um canal.
+## Verificando a visualização {#checking-the-preview}
 
-   1. Selecione o modelo **1X2 de Canal** de Tela Dividida do assistente e crie o canal chamado **OneTwoChannel**.
+Você pode exibir a saída desejada do player ou apenas clicando em **Visualizar** no editor.
 
+A saída demonstrará como um layout de várias zonas é reproduzido por *10000 ms* e, em seguida, muda para um layout de zona única com duração de reprodução de *3000 ms* e, em seguida, volta para o layout de várias zonas.
 
-   1. Selecione o canal e clique em **Editar** na barra de ações para abrir o editor e arraste e solte duas imagens (duas zonas diferentes) nesse canal, como mostrado abaixo.
+>[!VIDEO](https://video.tv.adobe.com/v/30366)
 
-
-1. **Criação de um canal com um vídeo em tela cheia**
-
-   1. Selecione a pasta **Canais** e clique em **Criar** na barra de ações para abrir o assistente para criar um canal.
-
-   1. Selecione o modelo de Canal **de** sequência no assistente e crie o canal chamado **FullScreensVideo**.
-
-
-   1. Selecione o canal e clique em **Editar** na barra de ações para abrir o editor, arrastar e soltar o componente de vídeo nesse canal e adicionar o vídeo desejado, como mostrado abaixo.
-
+>[!NOTE]
+>
+>Você pode personalizar sua transição de canal (de várias zonas para o layout de uma única zona ou vice-versa), conforme suas necessidades.
