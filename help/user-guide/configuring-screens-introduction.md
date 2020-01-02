@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 
 ---
 
@@ -34,7 +34,7 @@ Os seguintes pontos chave abaixo ajudam a configurar e o servidor AEM a estar pr
 
 #### Permitir solicitações de referenciador vazias {#allow-empty-referrer-requests}
 
-1. Navegue até Configuração **do console da Web do** Adobe Experience Manager por meio da instância do AEM —&gt; ícone de martelo —&gt; **Operações** —&gt; Console **da** Web.
+1. Navegue até Configuração **do console da Web do** Adobe Experience Manager por meio da instância do AEM —> ícone de martelo —> **Operações** —> Console **da** Web.
 
    ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
@@ -44,7 +44,7 @@ Os seguintes pontos chave abaixo ajudam a configurar e o servidor AEM a estar pr
 
    ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
 
-1. Marque a opção **Permitir vazio **conforme mostrado na figura abaixo.
+1. Marque a opção **Permitir vazio** , conforme mostrado na figura abaixo.
 
    ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
 
@@ -54,10 +54,10 @@ Os seguintes pontos chave abaixo ajudam a configurar e o servidor AEM a estar pr
 
 O AEM Screens requer a interface de usuário TOQUE e não funcionará com a interface de usuário CLASSIC do Adobe Experience Manager (AEM).
 
-1. Navegue até *&lt;yourAuthorInstance&gt;/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
+1. Navegue até *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. Certifique-se de que o modo **de criação da interface de usuário** padrão esteja definido como **TOUCH (TOQUE**), como mostrado na figura abaixo
 
-Como alternativa, você também pode executar a mesma configuração usando *&lt;yourAuthorInstance&gt;*-&gt;*ferramentas (ícone de martelo)* -&gt; **Operações** -&gt; Console **da** Web e pesquisar o Serviço **de modo de interface de criação** WCM.
+Como alternativa, você também pode executar a mesma configuração usando *&lt;yourAuthorInstance>*->*ferramentas (ícone de martelo)* -> **Operações** -> Console **da** Web e pesquisar o Serviço **de modo de interface de criação** WCM.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -75,15 +75,15 @@ Isso é necessário para que o AEM Screens Player reproduza canais online.
 
 #### Restrições de senha {#password-restrictions}
 
-Com as alterações mais recentes em ***DeviceServiceImpl***, não é necessário remover as restrições de senha.
+Com as alterações mais recentes em ***DeviceServiceImpl ***, não é necessário remover as restrições de senha.
 
-Você pode configurar ***DeviceServiceImpl*** a partir do link abaixo para habilitar a restrição de senha ao criar a senha para os usuários do dispositivo de telas:
+Você pode configurar ***DeviceServiceImpl ***a partir do link abaixo para habilitar a restrição de senha ao criar a senha para os usuários do dispositivo de telas:
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
-Siga as etapas abaixo para configurar ***DeviceServiceImpl***:
+Siga as etapas abaixo para configurar ***DeviceServiceImpl ***:
 
-1. Navegue até Configuração **do console da Web do** Adobe Experience Manager por meio da instância do AEM —&gt; ícone de martelo —&gt; **Operações** —&gt; Console **da** Web.
+1. Navegue até Configuração **do console da Web do** Adobe Experience Manager por meio da instância do AEM —> ícone de martelo —> **Operações** —> Console **da** Web.
 
 1. **A configuração do console da Web do Adobe Experience Manager **é aberta. Procure o serviço de dispositivos. Para pesquisar a propriedade, pressione **Command+F** para **Mac** e **Control+F** para **Windows**.
 
@@ -95,7 +95,7 @@ Para saber como configurar o dispatcher para um projeto do AEM Screens, consulte
 
 #### Codificação Java {#java-encoding}
 
-Defina a codificação ****** Java como Unicode. Por exemplo, *Dfile.encoding=Cp1252* não funcionará.
+Defina a codificação ******Java como Unicode. Por exemplo,*Dfile.encoding=Cp1252 *não funcionará.
 
 >[!NOTE]
 >
