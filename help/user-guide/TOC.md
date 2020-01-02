@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
+source-git-commit: d7097a5e0156951ac041fb54241faa8c2878f7ae
 
 ---
 
@@ -76,6 +76,8 @@ source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
       + [Ativação da Reserva de Hospitalidade](hospitality-reservation-activation.md)
       + [Ativação direcionada para inventário de varejo](retail-inventory-activation.md)
       + [Aplicar transições](applying-transitions.md)
+      + [Transições de várias zonas para uma única zona](multizone-to-singlezone.md)
+      + [Canal de aquisição de uso único](single-use-takeover-channel.md)
 + Recursos do desenvolvedor e da API {#developing}
    + [REST APIs](rest-api.md)
    + [Desenvolvimento de um componente personalizado para o AEM Screens](developing-custom-component-tutorial-develop.md)
@@ -90,8 +92,8 @@ source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
    + [Solução de problemas do Device Control Center](monitoring-screens.md)
    + [Configuração de reprodução de vídeo](troubleshoot-videos.md)
 + Notas de versão {#release-notes}
-   + [Notas de versão do Feature Pack 201809](screens-release-notes.md)
-   + [Notas de versão do Feature Pack 201812](release-notes-fp-201812.md)
-   + [Notas de versão do Feature Pack 201905](screens-release-notes-fp-201905.md)
-   + [Notas de versão do Feature Pack 201907](release-notes-fp-201907.md)
    + [Notas de versão do Feature Pack 201909](release-notes-fp-201909.md)
+   + [Notas de versão do Feature Pack 201907](release-notes-fp-201907.md)
+   + [Notas de versão do Feature Pack 201905](screens-release-notes-fp-201905.md)
+   + [Notas de versão do Feature Pack 201812](release-notes-fp-201812.md)
+   + [Notas de versão do Feature Pack 201809](screens-release-notes.md)
