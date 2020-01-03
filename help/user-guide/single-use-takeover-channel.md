@@ -5,7 +5,7 @@ description: Siga este caso de uso para criar um canal de aquisição de uso ún
 seo-description: Siga este caso de uso para criar um canal de aquisição de uso único.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
+source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
 
 ---
 
@@ -86,18 +86,20 @@ Siga as etapas abaixo para configurar um projeto:
 
    * **Caminho** do canal: Selecione o caminho para o canal TakeOver
    * **Prioridade**: Defina a prioridade deste canal maior que o **MainAdChannel**. Por exemplo, a prioridade definida neste exemplo é 8.
+      >[!NOTE]
+      >A prioridade pode ser qualquer valor maior que o valor de prioridade do canal de reprodução normal.
    * **Eventos** suportados: Selecione Tela **** inativa e **Temporizador**.
    * **Agendamento**: Insira o texto para o agendamento no qual você deseja que este canal execute a exibição. Por exemplo, o texto aqui permite que o conteúdo seja reproduzido 2 minutos antes das 12:00 da manhã de 31 de dezembro até as 12:01 da manhã.
 O texto da **Agenda** mencionada neste exemplo é *no dia 31 de dezembro depois das 23:58 e também no dia 1 de janeiro antes das 00:01*.
 
       ![ativo](assets/single-takeover8.png)
 
-      Navegue até a exibição de **SingleUseTakeOver** —> **Locations** —> **Lobby** —> **Main Lobby Display** e clique em **Dashboard** na barra de ações para exibir os canais atribuídos com suas prioridades, como mostrado abaixo.
+      Navegue até a exibição de **SingleUseTakeOver** —> **Locations** —> **Lobby** —> **MainLobbyDisplay** e clique em **Dashboard** na barra de ação para exibir os canais atribuídos com suas prioridades, como mostrado abaixo.
 
       >[!NOTE]
       >É obrigatório definir a prioridade mais elevada do canal de aquisição.
 
       ![ativo](assets/single-takeover9.png)
 
-      >[!NOTE]
-      >Você pode mencionar o agendamento para casos de uso diferentes. Consulte Caso de uso perpétuo para obter mais detalhes.
+>[!NOTE]
+>Uma vez reproduzido, é uma prática recomendada excluir o canal do Single Use TakeOver.
