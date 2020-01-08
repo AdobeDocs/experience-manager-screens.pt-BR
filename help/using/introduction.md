@@ -3,8 +3,8 @@ title: Introdução ao [!UICONTROL AEM Screens]
 seo-title: Guia de práticas recomendadas para projetos do [!UICONTROL AEM Screens]
 description: Esta página é uma seção de introdução ao AEM Screens
 seo-description: Esta página fornece uma introdução ao AEM Screens
-translation-type: ht
-source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+translation-type: tm+mt
+source-git-commit: 8a80ea5c79bfd9890211bd7e0d958ab0d4c2d4b6
 
 ---
 
@@ -52,9 +52,9 @@ O AEM Screens fornece uma plataforma unificada de criação/reprodução para im
 
 * **Experiências interativas**: um aplicativo de quiosque habilitado para toque pode ser criado e entregue em um canal do Screens, usando o AEM e o editor SPA. É uma prática recomendada aplicar propriedades consistentes de design de omnicanal, um temporizador de inatividade para redefinir a experiência e um call to action claro para quais tarefas o aplicativo pode executar. A página de aterrissagem deve consistir em elementos digitais principais, criados para transmitir valor, atrair o usuário para a tela e solicitar que o usuário se envolva.
 
-O AEM Screens fornece uma estrutura para implantar conteúdo em dispositivos físicos. O conteúdo é atribuído a Canais no Screens, que podem conter conteúdo de mídia ou aplicativos de tela sensível ao toque. Dentro dessa estrutura, um aplicativo do AEM Site pode ser fornecido como conteúdo por meio de um Canal.
+O AEM Screens fornece uma estrutura para implantar conteúdo em dispositivos físicos. O conteúdo é atribuído a Canais no Screens, que podem conter conteúdo de mídia ou aplicativos de tela sensível ao toque. Dentro dessa estrutura, um aplicativo do AEM Sites pode ser entregue como conteúdo por meio de um canal.
 
-Antes de ser lançado em um Canal no Screens, um AEM Site deve ser formatado para uso nas dimensões do dispositivo de exibição para o qual se destina.
+Antes de ser solto em um Canal no Screens, um AEM Sites deve ser formatado para uso nas dimensões do dispositivo de exibição para o qual está destinado.
 
 > [!NOTE]
 >
