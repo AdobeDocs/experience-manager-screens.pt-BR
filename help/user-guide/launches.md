@@ -11,13 +11,12 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
 
 ---
 
 
 # Lançamentos {#launches}
-
 
 Os autores de conteúdo podem criar uma versão futura do(s) canal(s), conhecido como **Iniciar** e definir a data de ativação para esta inicialização permite que o conteúdo seja exibido em dispositivos ou players.
 
@@ -33,7 +32,7 @@ A seção a seguir explica o Período de carência e como configurá-lo de forma
 
 ### Compreensão do período de carência {#understanding-grace-period}
 
-A configuração a seguir permite que o administrador configure o Período ***de*** carência, necessário em Inicializações.
+A configuração a seguir permite que o administrador configure o Período ***de ***carência, necessário em Inicializações.
 
 **Período** de carência, inclui:
 
@@ -61,9 +60,9 @@ Baixe as seguintes configurações de teste:
 
 Se quiser alterar a configuração acima, siga as instruções abaixo:
 
-* crie o arquivo ***sling:OsgiConfig/ nt:file em /apps/system/config*** com o nome **com.adobe.cq.wcm.launch.impl.LaunchesEventHandler.config** e conteúdo
+* crie o arquivo ***sling:OsgiConfig/ nt:file em /apps/system/config ***com o nome**com.adobe.cq.wcm.launch.impl.LaunchesEventHandler.config **e conteúdo
 
-   *launch.eventhandler.updatelastmodify=B"false"launch.eventhandler.launch.growth.grafperiod=["/content/screens(/.*):600"]launch.eventhandler.threadpool.maxsize=I"5"launch.eventhandler.threadpool.priority="MIN"*
+   *launch.eventhandler.updatelastmodify=B&quot;false&quot;launch.eventhandler.launch.growth.grafperiod=[&quot;/content/screens(/.*):600&quot;]launch.eventhandler.threadpool.maxsize=I&quot;5&quot;launch.eventhandler.threadpool.priority=&quot;MIN&quot;*
 
 * `launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/.&#42;):600"`, permite definir um período de carência de 600 segundos no caminho */conteúdo/telas*.
 
@@ -80,7 +79,7 @@ Siga a seção abaixo para implementar Inicializações no projeto do AEM Screen
 
 Siga as etapas abaixo para implementar a funcionalidade de publicação futura em seu projeto do AEM Screens:
 
-1. Navegue até o canal no projeto do AEM Screens, por exemplo, **LaunchesDemo** —&gt; **Channels** —&gt; **FutureLaunch**, como mostrado abaixo.
+1. Navegue até o canal no projeto do AEM Screens, por exemplo, **LaunchesDemo** —> **Channels** —> **FutureLaunch**, como mostrado abaixo.
 
    >[!CAUTION]
    >
@@ -154,12 +153,9 @@ Siga as etapas abaixo para editar as propriedades de inicialização:
    >
    >Compreensão das entradas Inicializações em Promoção **automática**:
 
-   >* **Data** de lançamento: refere-se à data ativa, ou seja, a data/hora em que o conteúdo será reproduzido no player do Screens, de acordo com o fuso horário do player.
-   >
-   >
+   >    * **Data** de lançamento: refere-se à data ativa, ou seja, a data/hora em que o conteúdo será reproduzido no player do Screens, de acordo com o fuso horário do player.
    >    * **Produção pronta**, permite a promoção dos canais e significa que o lançamento está pronto para ser utilizado.
-
-   * **Escopo**, refere-se aos canais que podem ser promovidos durante um lançamento.
+   >    * **Escopo**, refere-se aos canais que podem ser promovidos durante um lançamento.
 
 
    As três opções a seguir estão disponíveis para configurar o escopo:
@@ -169,7 +165,8 @@ Siga as etapas abaixo para editar as propriedades de inicialização:
    ![screen_shot_2019-06-26at113805am](assets/screen_shot_2019-06-26at113805am.png)
 
    >[!CAUTION]
-   A promoção de inicialização respeita o fuso horário do player/dispositivo em vez do do servidor.
+   >
+   >A promoção de inicialização respeita o fuso horário do player/dispositivo em vez do do servidor.
 
 1. Clique em **Salvar e fechar** para navegar de volta para o canal **FutureLaunch** .
 
