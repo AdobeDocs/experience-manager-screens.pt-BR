@@ -6,7 +6,7 @@ seo-description: 'Siga esta página para saber mais sobre a Atualização de con
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
+source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
 
 ---
 
@@ -57,7 +57,7 @@ Essa opção permite gerenciar atualizações somente nos subnós da estrutura d
    1. **Incluir somente páginas**modificadas:
 Essa opção permite gerenciar atualizações somente nas páginas modificadas do projeto em que as alterações são encontradas na estrutura do projeto.
    1. **Incluir somente páginas**já publicadas:
-Essa opção permite gerenciar atualizações somente para as páginas que foram publicadas antes.
+Essa opção permite gerenciar atualizações somente nas páginas que foram publicadas antes.
 
 
 1. Clique em **Publicar** no assistente **Gerenciar publicação.**
@@ -69,26 +69,25 @@ Essa opção permite gerenciar atualizações somente para as páginas que foram
    >Aguarde alguns segundos/minutos para que o conteúdo chegue à instância de publicação.
    >
    >
-   >O processo **Gerenciar publicação** com atualizar o conteúdo offline é de duas etapas e as etapas devem estar na ordem correta.
-   >
-   >
-   >
-   >    1. O fluxo de trabalho não funcionará se **Atualizar conteúdo** offline for acionado antes de publicar usando **Gerenciar publicação**.
-      >
-      >    
-   1. O fluxo de trabalho não funcionará se não houver alterações no projeto e nada para **Atualizar conteúdo** offline.
+   >    1. O fluxo de trabalho não funcionará se não houver alterações no projeto e nada para **Atualizar conteúdo** offline.
    >    1. O fluxo de trabalho não funcionará se o autor não concluir o processo de replicação (o conteúdo ainda está sendo carregado para a instância de publicação) depois de clicar no botão **Publicar** no fluxo de trabalho de gerenciamento da publicação.
 
 
-1. Após concluir o fluxo de trabalho de gerenciamento da publicação, você deve acionar a atualização do conteúdo offline no autor, que criará a atualização offline na instância do autor.
+   > [!CAUTION]
+   > Se você quiser ver as alterações nos dispositivos anexados à instância do autor como autor ou criador de conteúdo, clique em **Atualizar conteúdo** offline no painel do canal ou selecionando o projeto. Nesse caso, a atualização do conteúdo offline é executada somente na instância do autor.
 
-   Navegue até o projeto e clique em **Atualizar conteúdo** offline na barra de ações. Essa ação encaminha o mesmo comando para publicar a instância, de modo que os zips offline também sejam criados na instância de publicação.
+1. Navegue até o projeto e clique em **Atualizar conteúdo** offline na barra de ações. Essa ação encaminha o mesmo comando para publicar a instância, de modo que os zips offline também sejam criados na instância de publicação.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
+
+   >[!NOTE]
+   >
+   >Após concluir o fluxo de trabalho de gerenciamento da publicação e se houver um player apontando para a instância do autor, você deverá disparar a atualização do conteúdo offline do autor, que criará a atualização offline na instância do autor.
+
    >[!CAUTION]
    >
-   >Primeiro, você deve publicar e depois acionar a atualização do conteúdo offline, como resumido nas etapas anteriores.
+   >É necessário acionar a atualização do conteúdo offline na instância do autor, se você tiver um player registrado no servidor do autor. Atualizar conteúdo offline não é necessário para o player registrado para a instância de publicação.
 
 ### Gerenciando a publicação de um canal {#managing-publication-for-a-channel}
 
