@@ -5,7 +5,7 @@ description: Siga este caso de uso para criar um Canal de assumpção perpétua.
 seo-description: Siga este caso de uso ao configurar um projeto que cria um canal de Tomada Perpétua que é reproduzido por um dia e hora específicos continuamente.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 9bf6799e41b0cabba3ce3e68770e14005ff62fce
+source-git-commit: ba7086ec041f6cfe41d8847b97e97948526cc205
 
 ---
 
@@ -17,7 +17,7 @@ A página a seguir mostra um caso de uso que enfatiza a configuração de um pro
 ## Descrição do caso de uso {#use-case-description}
 
 Este caso de uso explica como criar um canal que *assume* o controle do canal de reprodução normal para um monitor ou grupo de monitores. A aquisição ocorrerá por um dia e hora específicos, perpetuamente.
-Por exemplo, há um canal de TakeOver Perpetual que é reproduzido todas as sextas-feiras das 9h às 10h. Durante esse tempo, nenhum outro canal deve ser reproduzido. O exemplo a seguir mostra a criação de um canal de aquisição perpétuo que é reproduzido permite que o conteúdo seja reproduzido toda quarta-feira por 2 horas, das 17h às 19h.
+Por exemplo, há um canal de TakeOver Perpetual que é reproduzido todas as sextas-feiras das 9h às 10h. Durante esse tempo, nenhum outro canal deve ser reproduzido. O exemplo a seguir mostra a criação de um canal de golpe perpétuo que é reproduzido permite que o conteúdo seja reproduzido toda quarta-feira por 2 horas, das 14h até as 16h.
 
 ### Condições prévias {#preconditions}
 
@@ -86,6 +86,8 @@ Siga as etapas abaixo para configurar um projeto:
    * **Prioridade**: Defina a prioridade deste canal maior que o **MainAdChannel**. Por exemplo, a prioridade definida neste exemplo é 8.
    * **Eventos** suportados: Selecione Tela **** inativa e **Temporizador**.
    * **Agendamento**: Insira o texto para o agendamento no qual você deseja que este canal execute a exibição. O texto da **Programação** mencionada neste exemplo é *na quarta-feira depois das 14:00 e antes das 16:00*.
+      [!NOTE]
+      > Para saber mais sobre as expressões que você pode adicionar ao **Agendamento**, consulte a seção Expressões [de](#example-expressions) exemplo abaixo
    * **ativo** de: Data e hora de início.
    * **ativo até**: Data e hora de término.
    Por exemplo, o texto em **Agendamento** e **ativo** e **ativo até** a data e hora aqui permite que o conteúdo seja reproduzido toda quarta-feira das 14:00 horas até as 16:00 horas.
