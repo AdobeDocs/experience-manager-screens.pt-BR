@@ -5,7 +5,7 @@ description: Siga este caso de uso para criar um Canal de assumpção perpétua.
 seo-description: Siga este caso de uso ao configurar um projeto que cria um canal de Tomada Perpétua que é reproduzido por um dia e hora específicos continuamente.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 5c89be38d0a8dade2f829bcce6fb3154789d3579
+source-git-commit: 9bf6799e41b0cabba3ce3e68770e14005ff62fce
 
 ---
 
@@ -106,4 +106,11 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 
 | **Expressão** | **Interpretação** |
 |---|---|
+| antes das 8:00 | o canal é reproduzido antes das 8:00 da manhã todos os dias |
+| depois das 14:00 | o canal é reproduzido depois das 14:00 horas todos os dias |
 | depois das 12:15 e antes das 12:45 | o canal é reproduzido depois das 12h15 todos os dias por 30 minutos |
+| antes das 12:15 também depois das 12:45 | o canal é reproduzido antes das 12h15 todos os dias e depois também depois das 12h45 |
+| no primeiro dia de janeiro depois das 14:00 também no dia 2 de janeiro também no dia 3 de janeiro antes das 15:00 | o canal começa a reproduzir depois das 12h45 do dia 1º de janeiro, continua reproduzindo o dia inteiro em 2º de janeiro até as 3h do dia 3 |
+| no dia 1-2 de janeiro depois das 14:00 também no dia 2-3 de janeiro antes das 3:00 | o canal inicia o player depois das 12h45 do dia 1º de janeiro, continua reproduzindo até as 15h do dia 2 de janeiro, depois começa novamente em 2º de janeiro às 12h45 e continua reproduzindo até as 3h do dia 3 de janeiro |
+
+Observe que você também pode usar a notação de tempo __ militar (ou seja, 14:00) em vez da notação AM/pm (ou seja, 14:00)
