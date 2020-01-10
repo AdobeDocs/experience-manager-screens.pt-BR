@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: d7097a5e0156951ac041fb54241faa8c2878f7ae
+source-git-commit: b723f58ce58ccba6d0b7df7acf7ee00df98c2348
 
 ---
 
@@ -78,6 +78,7 @@ source-git-commit: d7097a5e0156951ac041fb54241faa8c2878f7ae
       + [Aplicar transições](applying-transitions.md)
       + [Transições de várias zonas para uma única zona](multizone-to-singlezone.md)
       + [Canal de aquisição de uso único](single-use-takeover-channel.md)
+      + [Canal de Aquisição de Uso Perpétuo](perpetual-takeover-channel.md)
 + Recursos do desenvolvedor e da API {#developing}
    + [REST APIs](rest-api.md)
    + [Desenvolvimento de um componente personalizado para o AEM Screens](developing-custom-component-tutorial-develop.md)
