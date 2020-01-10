@@ -5,7 +5,7 @@ description: Siga este caso de uso para criar um Canal de assumpção perpétua.
 seo-description: Siga este caso de uso ao configurar um projeto que cria um canal de Tomada Perpétua que é reproduzido por um dia e hora específicos continuamente.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: ab7b6637619cc0074cc0198202d69b1245b1b1f5
+source-git-commit: 5c89be38d0a8dade2f829bcce6fb3154789d3579
 
 ---
 
@@ -85,17 +85,20 @@ Siga as etapas abaixo para configurar um projeto:
    * **Caminho** do canal: Selecione o caminho para o canal **TakeOver**
    * **Prioridade**: Defina a prioridade deste canal maior que o **MainAdChannel**. Por exemplo, a prioridade definida neste exemplo é 8.
    * **Eventos** suportados: Selecione Tela **** inativa e **Temporizador**.
-   * **Agendamento**: Insira o texto para o agendamento no qual você deseja que este canal execute a exibição. Por exemplo, o texto aqui permite que o conteúdo seja reproduzido toda quarta-feira das 14:00 às 16:00.
-O texto da **Programação** mencionada neste exemplo é *na quarta-feira depois das 14:00 e antes das 16:00*.
+   * **Agendamento**: Insira o texto para o agendamento no qual você deseja que este canal execute a exibição. O texto da **Programação** mencionada neste exemplo é *na quarta-feira depois das 14:00 e antes das 16:00*.
+   * **ativo** de: Data e hora de início.
+   * **ativo até**: Data e hora de término.
+   Por exemplo, o texto em **Agendamento** e **ativo** e **ativo até** a data e hora aqui permite que o conteúdo seja reproduzido toda quarta-feira das 14:00 horas até as 16:00 horas.
 
-      ![ativo](assets/p_usecase7.png)
 
-      Navegue até a exibição de **TakeOver** —> **Locations** —> **MainLobby** —> **MainLobbyDisplay** e clique em **Dashboard** na barra de ações para exibir os canais atribuídos com suas prioridades, como mostrado abaixo.
+   ![ativo](assets/p_usecase7.png)
 
-      >[!NOTE]
-      >É obrigatório definir a prioridade mais elevada do canal de aquisição.
+   Navegue até a exibição de **TakeOver** —> **Locations** —> **MainLobby** —> **MainLobbyDisplay** e clique em **Dashboard** na barra de ações para exibir os canais atribuídos com suas prioridades, como mostrado abaixo.
 
-      ![ativo](assets/p_usecase8.png)Agora, o canal **TakeOver** assumirá o **MainAdChannel** às 14:00 horas por duas horas até às 16:00 todas as quartas-feiras e reproduzirá seu conteúdo de 9 de janeiro de 2020 a 31 de janeiro de 2020.
+   >[!NOTE]
+   >É obrigatório definir a prioridade mais elevada do canal de aquisição.
+
+   ![ativo](assets/p_usecase8.png)Agora, o canal **TakeOver** assumirá o **MainAdChannel** às 14:00 horas por duas horas até às 16:00 todas as quartas-feiras e reproduzirá seu conteúdo de 9 de janeiro de 2020 a 31 de janeiro de 2020.
 
 ### Expressões de exemplo {#example-expressions}
 
