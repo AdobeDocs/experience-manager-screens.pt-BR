@@ -5,7 +5,7 @@ description: Siga este caso de uso para criar um Canal de assumpção perpétua.
 seo-description: Siga este caso de uso ao configurar um projeto que cria um canal de Tomada Perpétua que é reproduzido por um dia e hora específicos continuamente.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: ba7086ec041f6cfe41d8847b97e97948526cc205
+source-git-commit: 5e80a23674528467dd6eca7054e0730471646baf
 
 ---
 
@@ -86,8 +86,8 @@ Siga as etapas abaixo para configurar um projeto:
    * **Prioridade**: Defina a prioridade deste canal maior que o **MainAdChannel**. Por exemplo, a prioridade definida neste exemplo é 8.
    * **Eventos** suportados: Selecione Tela **** inativa e **Temporizador**.
    * **Agendamento**: Insira o texto para o agendamento no qual você deseja que este canal execute a exibição. O texto da **Programação** mencionada neste exemplo é *na quarta-feira depois das 14:00 e antes das 16:00*.
-      [!NOTE]
-      > Para saber mais sobre as expressões que você pode adicionar ao **Agendamento**, consulte a seção Expressões [de](#example-expressions) exemplo abaixo
+      >[!NOTE]
+      >Para saber mais sobre as expressões que você pode adicionar ao **Agendamento**, consulte a seção Expressões [de](#example-expressions) exemplo abaixo
    * **ativo** de: Data e hora de início.
    * **ativo até**: Data e hora de término.
    Por exemplo, o texto em **Agendamento** e **ativo** e **ativo até** a data e hora aqui permite que o conteúdo seja reproduzido toda quarta-feira das 14:00 horas até as 16:00 horas.
@@ -115,4 +115,5 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 | no primeiro dia de janeiro depois das 14:00 também no dia 2 de janeiro também no dia 3 de janeiro antes das 15:00 | o canal começa a reproduzir depois das 12h45 do dia 1º de janeiro, continua reproduzindo o dia inteiro em 2º de janeiro até as 3h do dia 3 |
 | no dia 1-2 de janeiro depois das 14:00 também no dia 2-3 de janeiro antes das 3:00 | o canal inicia o player depois das 12h45 do dia 1º de janeiro, continua reproduzindo até as 15h do dia 2 de janeiro, depois começa novamente em 2º de janeiro às 12h45 e continua reproduzindo até as 3h do dia 3 de janeiro |
 
-Observe que você também pode usar a notação de tempo __ militar (ou seja, 14:00) em vez da notação AM/pm (ou seja, 14:00)
+>[!NOTE]
+>Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez da notação AM/pm (ou seja, 14:00).
