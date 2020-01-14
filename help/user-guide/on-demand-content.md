@@ -6,7 +6,7 @@ seo-description: 'Siga esta página para saber mais sobre a Atualização de con
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
+source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
 
@@ -114,9 +114,7 @@ Siga as etapas abaixo para fornecer atualizações de conteúdo do autor para pu
    >
    >Aguarde alguns segundos/minutos para que o conteúdo chegue à instância de publicação.
 
-1. Após concluir o fluxo de trabalho de gerenciamento da publicação, você deve acionar a atualização do conteúdo offline no autor, que criará a atualização offline na instância do autor.
-
-   Navegue até o painel do canal e clique em **Atualizar conteúdo** offline. Essa ação encaminha o mesmo comando para publicar a instância, de modo que os zips offline também sejam criados na instância de publicação.
+1. Acionador **Atualizar conteúdo** offline no painel do canal somente envia o conteúdo offline para a instância do autor, mas não para a instância de publicação. As etapas de 1 a 4 são para enviar conteúdo offline para a instância de publicação.
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 
