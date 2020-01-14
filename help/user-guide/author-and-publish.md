@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
+source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
 
@@ -126,7 +126,9 @@ Para cada instância de publicação:
 
 1. Vá até `https://<host>:<port>/system/console/configMgr`
 1. Selecione **Apache Sling Oak Discovery Service** Configuration.
-1. Atualizar URLs do conector de topologia: adicionar URLs de todas as instâncias de publicação de participação que sejam, `https://localhost:4502/libs/sling/topology/connector`
+1. Atualizar URLs do conector de topologia: adicionar URLs de todas as instâncias de publicação de participação que sejam:
+   * `https://localhost:4503/libs/sling/topology/connector`
+   * `https://localhost:4504/libs/sling/topology/connector`
 1. Lista de permissões do conector de topologia: adaptar a IPs ou sub-redes que abrangem instâncias de publicação de participação
 1. Ativar loops locais de **interrupção automática**
 
@@ -237,7 +239,7 @@ Verifique seu player e você verá o conteúdo que você adicionou ao seu canal.
 
 **Verificação do dispositivo**
 
-Antes, execute as etapas abaixo para verificar a ID do dispositivo. Para verificar, procure a ID do dispositivo no CRXDELite, com o caminho como */home/users/screens/{project}/devices*.
+Antes, execute as etapas abaixo para verificar a ID do dispositivo. Para verificar, procure a ID do dispositivo no CRXDELite, com o caminho como */home/users/screens/we-retail/devices*.
 
 Siga as etapas abaixo para replicar o usuário do dispositivo:
 
@@ -275,11 +277,15 @@ Os pontos a seguir resumem a lista Verificação de publicação:
 * *Agendamento* - se estiver usando um agendamento, verifique se isso foi publicado
 * *Localização, Agendamentos e Pasta* de canal - se os recursos correspondentes estiverem dentro de uma pasta.
 
-Depois de verificar a lista de verificação, é necessário verificar as seguintes alterações/comportamento em seu canal:
+Siga as etapas abaixo para verificar o comportamento de autor/publicação:
 
-* Depois de publicar a configuração do dispositivo, abra a configuração do player do Screens e aponte-a para a instância de Publicação. Além disso, você também pode ativar o dispositivo no console de gerenciamento de dispositivos.
-* Atualize algum conteúdo de canal no Autor e publique-o e verifique se o canal atualizado agora é exibido no player do AEM Screens.
-* Conecte o player do Screens a uma instância de publicação diferente e verifique o comportamento acima.
+1. Atualizar algum conteúdo de canal na instância do autor
+1. Executar **Gerenciar publicação** para publicar novas alterações em todas as instâncias de publicação
+1. Pressione **Ativate (Ativar** ) para ativar o dispositivo a partir do **Gerenciador de dispositivos**
+1. **Editar URL** do URL de instância do autor para um dos URL de instância de publicação
+1. Verifique se o conteúdo atualizado do canal é exibido no player do AEM Screens
+1. Repita essas etapas usando uma instância de publicação diferente
+
 
 #### Etapa 5: Apontar o dispositivo para publicar a instância no painel Admin {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
@@ -296,5 +302,7 @@ Como alternativa, você também pode atualizar/editar o URL do servidor no conso
 1. Selecione o dispositivo e clique em **Editar URL** do servidor na barra de ações, como mostrado na figura abaixo, e suas alterações serão propagadas para o AEM Screens player.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
+
+O recurso **Gerenciar publicação** permite fornecer atualizações de conteúdo do autor para publicar no dispositivo. Você pode publicar/cancelar a publicação de conteúdo para todo o projeto do AEM Screens ou somente para um de seus canais, locais, dispositivos, aplicativos ou agendamentos. Para saber mais sobre esse recurso, consulte Atualização [](on-demand-content.md)de conteúdo sob demanda.
 
 
