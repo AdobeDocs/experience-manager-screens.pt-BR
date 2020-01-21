@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
+source-git-commit: d076b0f2362b5feccc78d3984306d3036a6d916b
 
 ---
 
@@ -28,9 +28,42 @@ Esta página mostra como instalar e configurar os players do Screens em seus dis
 >
 >O AEM Screens player não usa o token CSRF (Cross-Site Request Forgery). Portanto, para configurar e o servidor AEM estar pronto para usar para o AEM Screens, ignore o filtro de referenciador permitindo referenciadores vazios.
 
+## Estrutura de verificação de integridade {#health-check-framework}
+
+A estrutura de verificação de integridade permite que o usuário verifique se duas configurações necessárias estão configuradas antes de executar um projeto do AEM Screens.
+
+Ele permite que o usuário verifique as duas verificações de configuração a seguir para executar um projeto do AEM Screens, ou seja, para verificar o estado dos dois filtros a seguir:
+
+1. **Permitir Referenciador Vazio**
+2. **https**
+
+Siga as etapas abaixo para verificar se essas duas configurações vitais estão habilitadas para o AEM Screens:
+
+1. Navegue até [Adobe Experience Manager Web ConsoleVerificação](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=)de integridade do Sling.
+
+   ![ativos](assets/health-check1.png)
+
+
+2. Clique em **Executar verificações** de integridade selecionadas para executar a validação de duas propriedades listadas acima.
+
+   Se ambos os filtros estiverem ativados, o Serviço **de Integridade da Configuração da** Tela mostrará o **Resultado** como **OK** com ambas as configurações como ativado.
+
+   ![ativos](assets/health-check2.png)
+
+   Se um ou ambos os filtros estiverem desativados, um alerta será exibido para o usuário, como mostra a figura abaixo.
+
+   O alerta a seguir mostra se os dois filtros estão desativados:
+   ![ativos](assets/health-check3.png)
+
+>[!NOTE]
+>
+>* Para habilitar o Filtro **do Referenciador do** Apache Sling, consulte [Permitir solicitações](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests)vazias do referenciador.
+>* Para habilitar o serviço **HTTP** , consulte [Apache Felix Jetty Based HTTP Service](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
+
+
 ### Pré-requisitos {#prerequisites}
 
-Os seguintes pontos chave abaixo ajudam a configurar e o servidor AEM a estar pronto para uso no AEM Screens:
+Os seguintes pontos chave abaixo ajudam a configurar e o servidor AEM a estar pronto para uso no AEM Screens.
 
 #### Permitir solicitações de referenciador vazias {#allow-empty-referrer-requests}
 
@@ -49,6 +82,22 @@ Os seguintes pontos chave abaixo ajudam a configurar e o servidor AEM a estar pr
    ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
 
 1. Clique em **Salvar** para ativar o Filtro de referência Apache Sling Permitir vazio.
+
+#### Serviço HTTP Apache Felix Jetty {#allow-apache-felix-service}
+
+1. Navegue até Configuração **do console da Web do** Adobe Experience Manager por meio da instância do AEM —> ícone de martelo —> **Operações** —> Console **da** Web.
+
+   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+
+1. **A Configuração** do console da Web do Adobe Experience Manager é aberta. Procure o serviço HTTP baseado em Jetty do Apache Felix.
+
+   Para pesquisar essa propriedade, pressione **Command+F** para **Mac** e **Control+F** para **Windows**.
+
+1. Marque a opção **ATIVAR HTTP** , conforme mostrado na figura abaixo.
+
+   ![screen_shot_2019-07-31at91807am](assets/http-image.png)
+
+1. Clique em **Salvar** para ativar o serviço *http* .
 
 #### Ativar interface de usuário de toque para telas AEM {#enable-touch-ui-for-aem-screens}
 
@@ -102,4 +151,11 @@ Defina a codificação ******Java como Unicode. Por exemplo,*Dfile.encoding=Cp12
 >**Recomendação:**
 >
 >É recomendável usar HTTPS para o AEM Screens Server em uso de produção.
+
+
+
+
+
+
+
 
