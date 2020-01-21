@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: d076b0f2362b5feccc78d3984306d3036a6d916b
+source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
 
 ---
 
@@ -50,7 +50,7 @@ Siga as etapas abaixo para verificar se essas duas configurações vitais estão
 
    ![ativos](assets/health-check2.png)
 
-   Se um ou ambos os filtros estiverem desativados, um alerta será exibido para o usuário, como mostra a figura abaixo.
+   Se um ou ambos os filtros estiverem desativados, um alerta será exibido para o usuário, como mostrado na figura abaixo.
 
    O alerta a seguir mostra se os dois filtros estão desativados:
    ![ativos](assets/health-check3.png)
