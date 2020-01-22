@@ -4,7 +4,7 @@ seo-title: Uso do Chrome Player como uma extensão
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 1753009451e4bed75eb8241bcca887f7abe2f77b
 
 ---
 
@@ -19,7 +19,7 @@ O ChromeOS player pode ser instalado como plug-in do Chrome Browser no modo de d
 
 Siga esta página para saber mais sobre como instalar o player do cromo como uma extensão do navegador.
 
-1. Clique aqui para baixar o Chrome Player mais recente.
+1. Clique [aqui](https://download.macromedia.com/screens/) para baixar o Chrome Player mais recente.
 
 1. Descompacte e salve no disco.
 
@@ -48,7 +48,7 @@ Siga esta página para saber mais sobre como instalar o player do cromo como uma
    > Se o URL mencionado acima não funcionar, significa que o player não recebeu uma exibição ou o conteúdo não foi baixado com êxito. Verifique na guia de rede a configuração do player JSON para ver se os detalhes corretos foram obtidos pelo player e se há problemas de rede no download.
 
 1. Você pode clicar com o botão direito do mouse e inspecionar três camadas do player de cromo
-   **Depurar conteúdo**: Clique com o botão direito do mouse e inspecione o conteúdo para depurar o conteúdo em execução (Deve haver um único item chamado "Inspecionar" no menu de contexto)
+   **Depurar conteúdo**: Clique com o botão direito do mouse e inspecione o conteúdo para depurar o conteúdo em execução (Deve haver um único item chamado &quot;Inspecionar&quot; no menu de contexto)
 
    **Firmware** de depuração: Abra a interface do usuário do administrador e clique com o botão direito do mouse e inspecione-a para depurar o código do firmware (player) (Deve haver uma opção para inspecionar e inspecionar a página em segundo plano e simular a reinicialização do navegador)
 
