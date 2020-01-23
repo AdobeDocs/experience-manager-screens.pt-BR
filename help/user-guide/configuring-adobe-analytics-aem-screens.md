@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
 
 ---
 
@@ -20,10 +20,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 >[!CAUTION]
 >
->Esta funcionalidade do AEM Screens só estará disponível se você tiver instalado o AEM 6.4.2 Feature Pack 2 e o AEM 6.3.3 Feature Pack 4.
-
+>Esta funcionalidade do AEM Screens só estará disponível se você tiver instalado o AEM 6.4.2 Feature Pack 2 e o AEM 6.3.3 Feature Pack 4.\
 >Para obter acesso a qualquer um desses Pacotes de recursos, entre em contato com o Suporte da Adobe e solicite acesso. Com as devidas permissões, você pode baixá-lo em Compartilhamento de pacotes.
->
+
 Esta seção aborda os seguintes tópicos:
 
 * **Sequenciamento no Adobe Analytics com o AEM Screens**
@@ -31,7 +30,7 @@ Esta seção aborda os seguintes tópicos:
 
 ## Sequenciamento no Adobe Analytics com o AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-O processo ***de*** sequenciamento começa com o serviço de armazenamento de dados que ativa o serviço do Adobe Analytics. O conteúdo do canal envia eventos do Adobe Analytics com folha de pagamento, ou seja, captura de teste de dados para E/S do Windows e eventos de permanência são acionados. Os eventos são salvos no banco de dados de índice e são posteriormente colocados no repositório de objetos. Com base na programação, o administrador define, corta os dados do repositório de objetos e os transfere ainda mais no repositório de segmentos. Ele tenta enviar a quantidade máxima de dados, quando conectado.
+O processo ***de ***sequenciamento começa com o serviço de armazenamento de dados que ativa o serviço do Adobe Analytics. O conteúdo do canal envia eventos do Adobe Analytics com folha de pagamento, ou seja, captura de teste de dados para E/S do Windows e eventos de permanência são acionados. Os eventos são salvos no banco de dados de índice e são posteriormente colocados no repositório de objetos. Com base na programação, o administrador define, corta os dados do repositório de objetos e os transfere ainda mais no repositório de segmentos. Ele tenta enviar a quantidade máxima de dados, quando conectado.
 
 ### Diagrama de Sequência {#sequencing-diagram}
 
