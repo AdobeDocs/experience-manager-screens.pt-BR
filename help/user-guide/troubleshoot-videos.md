@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
 
 ---
 
@@ -27,7 +27,7 @@ Depois de fazer upload do vídeo para o canal, o AEM deve começar a criar algum
 
 Para exibir o vídeo:
 
-1. Navegue até o vídeo, por exemplo `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
+1. Navegue até seu vídeo, por exemplo `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
 1. Clique no vídeo, expanda o menu superior esquerdo e clique em **Representações**.
 
 Deve haver representações diferentes (um MP4 ou M4V).
@@ -38,7 +38,7 @@ Se não houver renderização, verifique se você tem ffmpeg instalado no SO em 
 >
 >Se não houver renderização, verifique se você tem ffmpeg instalado no SO em que o AEM está sendo executado.
 >
->Clique [aqui](https://evermeet.cx/ffmpeg/) para instalar o ffmpeg.
+>Clique [aqui](https://www.ffmpeg.org/download.html) para instalar o ffmpeg.
 
 ## Ativos de vídeo {#video-assets}
 
@@ -78,7 +78,7 @@ Verifique a lista de perfis do design da página se o componente de vídeo não 
 
 1. Selecione o vídeo e abra a caixa de diálogo **Editar** . Open the **Profiles** tab.
 
-   Selecione perfis diferentes (pelo menos o perfil "H.264" de alta qualidade deve estar presente).
+   Selecione perfis diferentes (pelo menos o perfil &quot;H.264&quot; de alta qualidade deve estar presente).
 
    ![chlimage_1-7](assets/chlimage_1-7.png)
 
@@ -107,7 +107,7 @@ Caso o reprodutor do AEM Screens capture o vídeo, mas não o exiba, é necessá
 
 Siga as etapas abaixo para solucionar o problema de sinalização da política de reprodução automática do google:
 
-1. Navegue até ***chrome://flags/#autoplay-policy***
+1. Navegue até ***chrome://flags/#autoplay-policy ***
 1. Alterar a política **de reprodução** automática de **Padrão** para **nenhum gesto de usuário é necessário**
 
 1. Reinicie o navegador da Web e atualize o player
@@ -149,7 +149,7 @@ Siga as etapas abaixo para configurar uma estratégia absoluta:
 **Alinhamento de blocos no OS X** Siga as etapas abaixo para alinhar os relógios no OSX:
 
 1. Abrir preferências de **data e hora** em cada caixa OSX
-1. Verificar** Definir data e hora automaticamente**
+1. Verificar **Definir data e hora automaticamente**
 1. Cole o valor 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com na lista suspensa ou simplesmente execute *sudo ntpdate -u -v 0.pool.ntp.org*
 1. Iniciar mais de 2 players
 
