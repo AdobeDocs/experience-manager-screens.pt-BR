@@ -9,7 +9,7 @@ contentOwner: jsyal
 discoiquuid: 046ec5ae-600d-422f-aa59-c39f16cf71de
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
 
 ---
 
@@ -20,11 +20,15 @@ O Dispatcher é a ferramenta de balanceamento de carga e/ou cache do Adobe Exper
 
 A página a seguir fornece as diretrizes para configurar o dispatcher para um projeto do AEM Screens.
 
+>[!NOTE]
+>Se um dispatcher estiver disponível, as conexões com o servlet de registro podem ser impedidas filtrando nas regras do dispatcher.
+>Se não houver despachante, desative o servlet de registro na lista de componentes OSGi.
+
 ## Pré-requisitos {#pre-requisites}
 
 Antes de configurar o dispatcher para um projeto do AEM Screens, você deve ter conhecimento prévio do Dispatcher.
 
-Consulte **[Configuração do Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)** para obter mais detalhes.
+Consulte [Configuração do Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) para obter mais detalhes.
 
 ## Configurando o Dispatcher {#configuring-dispatcher}
 
@@ -42,7 +46,7 @@ Adicionar o seguinte à `/clientheaders` seção
 
 ### Etapa 2: Configuração de filtros de tela {#step-configuring-screens-filters}
 
-Para configurar os filtros de Telas, adicione o seguinte a ***/filtre***.
+Para configurar os filtros de Telas, adicione o seguinte a ***/filtre ***.
 
 ```
 ## AEM Screens Filters
@@ -64,4 +68,4 @@ Para configurar os filtros de Telas, adicione o seguinte a ***/filtre***.
 
 ### Etapa 3: Desabilitando o Cache do Dispatcher {#step-disabling-dispatcher-cache}
 
-Desative o cache do dispatcher para ***/content/screens path***.
+Desative o cache do dispatcher para ***/content/screens path ***.
