@@ -4,7 +4,7 @@ seo-title: Usando sincronização de comandos
 description: Siga esta página para saber mais sobre como usar a Sincronização de comandos.
 seo-description: Siga esta página para saber mais sobre como usar a Sincronização de comandos.
 translation-type: tm+mt
-source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
+source-git-commit: d1c2715f516f9089c346241280d8693118b49873
 
 ---
 
@@ -31,7 +31,7 @@ Antes de usar o recurso de Sincronização de comandos, verifique se você tem u
 
 1. O exemplo a seguir mostra um projeto de demonstração chamado **CommandSyncDemo** e um canal de sequência **ChannelLobby**.
 
-   ![image1](assets/command-sync1.png)
+   ![image1](assets/command-sync/command-sync1.png)
 
    >[!NOTE]
    >
@@ -39,17 +39,17 @@ Antes de usar o recurso de Sincronização de comandos, verifique se você tem u
 
    O canal contém o seguinte conteúdo, como mostrado na figura abaixo.
 
-   ![image1](assets/command-sync2.png)
+   ![image1](assets/command-sync/command-sync2.png)
 
 1. Crie uma exibição na pasta **Locais** , como mostrado na figura abaixo.
-   ![image1](assets/command-sync3.png)
+   ![image1](assets/command-sync/command-sync3.png)
 
 1. Atribua o canal, **ChannelLobby** a seu **LobbyDisplay**.
-   ![image1](assets/command-sync4.png)
+   ![image1](assets/command-sync/command-sync4.png)
 
    >[!NOTE]
    >
-   >Para saber como atribuir um canal a uma exibição, consulte [Criação e gerenciamento de exibições](/help/user-guide/managing-displays.md)
+   >Para saber como atribuir um canal a uma exibição, consulte [Criação e gerenciamento de exibições](/help/user-guide/managing-displays.md).
 
 1. Navegue até a pasta **Dispositivos** e clique em Gerenciador **de** dispositivos na barra de ações para registrar os dispositivos.
 
@@ -59,8 +59,23 @@ Antes de usar o recurso de Sincronização de comandos, verifique se você tem u
    >
    >Para saber como atribuir um canal a uma exibição, consulte [Criação e gerenciamento de exibições](/help/user-guide/managing-displays.md)
 
-1. Para fins de demonstração, este exemplo mostra um dispositivo com cromo e um Web player como dois dispositivos separados. Ambos os dispositivos apontam para a mesma tela.
+1. Para fins de demonstração, este exemplo mostra um dispositivo de cromo e um Windows player como dois dispositivos separados. Ambos os dispositivos apontam para a mesma tela.
    ![image1](assets/command-sync6.png)
+
+### Atualizando configurações de canal
+
+1. Navegue até **ChannelLobby** e clique em **Editar** na barra de ações para atualizar as configurações de canal.
+
+1. Selecione o canal inteiro como mostrado na figura abaixo.
+   ![image1](assets/command-sync/command-sync7.png)
+
+1. Clique no ícone de chave para abrir a caixa de diálogo **Página** .
+   ![image1](assets/command-sync/command-sync8.png)
+
+1. Digite a palavra-chave *sincronizada* no campo **Estratégia** .
+
+   ![image1](assets/command-sync/command-sync9.png)
+
 
 ### Configuração de um mestre {#setting-up-master}
 
