@@ -4,7 +4,7 @@ seo-title: Notas de versão do Feature Pack 201912
 description: Siga esta página para obter informações sobre o AEM Screens Feature Pack 201912 lançado em 20 de janeiro de 2020.
 seo-description: Siga esta página para obter informações sobre o AEM Screens Feature Pack 201912 lançado em 20 de janeiro de 2020.
 translation-type: tm+mt
-source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
+source-git-commit: eb3fb0111aa3e9bdb7a265028809949fffab2e40
 
 ---
 
@@ -23,8 +23,8 @@ A data de lançamento do AEM Screens Feature Pack 2019 é 21 de janeiro de 2020.
 
 ### Novidades {#what-s-new}
 
-* **Sincronização de comandos para reprodução de ativos**
-
+* **A Sincronização de comandos para a**Sincronização de comandos de reprodução de ativos permite a reprodução sincronizada entre diferentes players. Os players podem reproduzir conteúdo diferente, mas cada ativo precisa ter a mesma duração.
+Para saber mais sobre a Sincronização de comandos e como configurar o mestre e os clientes, consulte [Usando sincronização](using-command-sync.md)de comandos.
 
 * **Estrutura de verificação de integridade para mostrar o status de https e permitir referenciador vazio** A estrutura de verificação de integridade permite que o usuário verifique se duas configurações necessárias (Permitir solicitações de referenciador vazias e Serviço HTTP baseado em Jetty do Apache Felix) estão configuradas antes de executar um projeto do AEM Screens.
 
