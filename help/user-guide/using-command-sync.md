@@ -4,7 +4,7 @@ seo-title: Usando sincronização de comandos
 description: Siga esta página para saber mais sobre como usar a Sincronização de comandos.
 seo-description: Siga esta página para saber mais sobre como usar a Sincronização de comandos.
 translation-type: tm+mt
-source-git-commit: f7827b604ca738c3927772fb26b4df68b7e793a0
+source-git-commit: 69a3bc339cc5fa7e457800e010709ee01db33b03
 
 ---
 
