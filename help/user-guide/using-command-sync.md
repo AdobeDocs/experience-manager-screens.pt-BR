@@ -4,7 +4,7 @@ seo-title: Usando sincronização de comandos
 description: Siga esta página para saber mais sobre como usar a Sincronização de comandos.
 seo-description: Siga esta página para saber mais sobre como usar a Sincronização de comandos.
 translation-type: tm+mt
-source-git-commit: 69a3bc339cc5fa7e457800e010709ee01db33b03
+source-git-commit: bd29a09608066bd5030254812e6ddd7d757879cf
 
 ---
 
@@ -31,7 +31,7 @@ Antes de usar o recurso de Sincronização de comandos, verifique se você tem u
 
 1. O exemplo a seguir mostra um projeto de demonstração chamado **CommandSyncDemo** e um canal de sequência **ChannelLobby**.
 
-   ![image1](assets/command-sync/command-sync1.png)
+   ![image1](assets/command-sync/command-sync1-1.png)
 
    >[!NOTE]
    >
@@ -39,13 +39,13 @@ Antes de usar o recurso de Sincronização de comandos, verifique se você tem u
 
    O canal contém o seguinte conteúdo, como mostrado na figura abaixo.
 
-   ![image1](assets/command-sync/command-sync2.png)
+   ![image1](assets/command-sync/command-sync2-1.png)
 
 1. Crie uma exibição na pasta **Locais** , como mostrado na figura abaixo.
-   ![image1](assets/command-sync/command-sync3.png)
+   ![image1](assets/command-sync/command-sync3-1.png)
 
 1. Atribua o canal, **ChannelLobby** a seu **LobbyDisplay**.
-   ![image1](assets/command-sync/command-sync4.png)
+   ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
@@ -67,29 +67,29 @@ Antes de usar o recurso de Sincronização de comandos, verifique se você tem u
 1. Navegue até **ChannelLobby** e clique em **Editar** na barra de ações para atualizar as configurações de canal.
 
 1. Selecione o canal inteiro como mostrado na figura abaixo.
-   ![image1](assets/command-sync/command-sync7.png)
+   ![image1](assets/command-sync/command-sync7-1.png)
 
 1. Clique no ícone de chave para abrir a caixa de diálogo **Página** .
-   ![image1](assets/command-sync/command-sync8.png)
+   ![image1](assets/command-sync/command-sync8-1.png)
 
 1. Digite a palavra-chave *sincronizada* no campo **Estratégia** .
 
-   ![image1](assets/command-sync/command-sync9.png)
+   ![image1](assets/command-sync/command-sync9-1.png)
 
 
 ### Configuração de um mestre {#setting-up-master}
 
 1. Navegue até o painel de exibição em **CommandSyncDemo** —> **Locations** —> **Lobby** —> **LobbyDisplay** e clique em **Dashboard** na barra de ação.
 Você verá os dois dispositivos (cromo e Windows player) no painel **DISPOSITIVOS** , como mostra a figura abaixo.
-   ![image1](assets/command-sync/command-sync10.png)
+   ![image1](assets/command-sync/command-sync10-1.png)
 
 1. No painel **DISPOSITIVOS** , selecione o dispositivo que deseja definir como mestre. O exemplo a seguir demonstra como configurar o dispositivo Chrome como mestre. Clique em **Definir como dispositivo** mestre.
 
-   ![image1](assets/command-sync/command-sync11.png)
+   ![image1](assets/command-sync/command-sync11-1.png)
 
 1. Digite o endereço IP em **Definir como dispositivo** mestre e clique em **Salvar**.
 
-   ![image1](assets/command-sync/command-sync12.png)
+   ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
 > É possível configurar vários dispositivos como master.
@@ -99,13 +99,13 @@ Você verá os dois dispositivos (cromo e Windows player) no painel **DISPOSITIV
 1. Depois de definir o dispositivo Chrome como master, você poderá sincronizar o outro dispositivo (neste caso, o Windows player) para sincronizar com o master.
 Selecione o outro dispositivo (neste caso, o Windows player) no painel **DISPOSITIVOS** e clique em **Sincronizar com o dispositivo** mestre, como mostrado na figura abaixo.
 
-   ![image1](assets/command-sync/command-sync13.png)
+   ![image1](assets/command-sync/command-sync13-1.png)
 
 1. Selecione o dispositivo na lista e clique em **Salvar**.
 
 1. Quando o dispositivo (Windows player) for sincronizado com o master (Chrome player), você verá o dispositivo sincronizado no painel **DISPOSITIVOS** .
 
-   ![image1](assets/command-sync/command-sync14.png)
+   ![image1](assets/command-sync/command-sync14-1.png)
 
 ### Remoção ou cancelamento de sincronização com o mestre {#desync-up-master}
 
