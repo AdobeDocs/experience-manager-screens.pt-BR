@@ -4,7 +4,7 @@ seo-title: Usando sincronização de comandos
 description: Siga esta página para saber mais sobre como usar a Sincronização de comandos.
 seo-description: Siga esta página para saber mais sobre como usar a Sincronização de comandos.
 translation-type: tm+mt
-source-git-commit: bd29a09608066bd5030254812e6ddd7d757879cf
+source-git-commit: 4735e1bcea3b635a55ef5d57e6e10a5948d8fc29
 
 ---
 
@@ -103,11 +103,24 @@ Selecione o outro dispositivo (neste caso, o Windows player) no painel **DISPOSI
 
 1. Selecione o dispositivo na lista e clique em **Salvar**.
 
+   >[OBSERVAÇÃO:]
+   > A caixa de diálogo **Sincronizar com dispositivo** mestre mostrará a lista de dispositivos mestre. Você pode selecionar a preferência desejada.
+
 1. Quando o dispositivo (Windows player) for sincronizado com o master (Chrome player), você verá o dispositivo sincronizado no painel **DISPOSITIVOS** .
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### Remoção ou cancelamento de sincronização com o mestre {#desync-up-master}
+### Cancelamento de sincronização com o mestre {#desync-up-master}
 
-Depois de sincronizar um dispositivo ou dispositivos com um mestre, você pode dessincronizar ou remover a atribuição desse dispositivo. Para remover a sincronização do dispositivo mestre, selecione o dispositivo e clique em **Dessincronizar** no painel **DISPOSITIVOS** .
+Depois de sincronizar um dispositivo ou dispositivos com um mestre, você pode dessincronizar a atribuição desse dispositivo. Para remover a sincronização do dispositivo mestre, siga as etapas abaixo:
 
+1. Navegue até o painel **DISPOSITIVOS** e selecione o dispositivo.
+
+1. Clique em **Desync device(s)** (Dispositivos dessincronizados)para sincronizar automaticamente o cliente a partir do dispositivo mestre.
+
+   ![image1](assets/command-sync/command-sync15-1.png)
+
+1. Clique em **Confirmar** para dessincronizar o dispositivo selecionado do mestre.
+
+   >[OBSERVAÇÃO:]
+   > Se você selecionar o dispositivo mestre e usar a opção dessincronizar, todos os dispositivos conectados ao mestre serão dessincronizados em uma etapa.
