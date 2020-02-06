@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: ed79a3c9e2b99ef1de6e293fe2e86adfa8dde85c
 
 ---
 
@@ -40,7 +40,7 @@ O diagrama a seguir fornece uma representação visual de como as Configuraçõe
 
 ## Condições prévias {#preconditions}
 
-Antes de iniciar a configuração de um armazenamento de dados para configurar as Configurações do Context Hub para um projeto do AEM Screens, você deve configurar o Google Sheets (para fins de demonstração).
+Antes de iniciar a configuração das Configurações do Context Hub para um projeto do AEM Screens, você deve configurar as Google Sheets (para fins de demonstração).
 
 >[!CAUTION]
 >
@@ -50,21 +50,29 @@ Antes de iniciar a configuração de um armazenamento de dados para configurar a
 
 ## Etapa 1: Configuração de um armazenamento de dados {#step-setting-up-a-data-store}
 
-Siga as etapas abaixo para configurar um armazenamento de dados que permite usar configurações do ContextHub e caminho de segmentos para o canal do AEM Screens.
+Você pode configurar o armazenamento de dados como um evento de E/S local ou como um evento de banco de dados local.
+
+### Evento de E/S local {#local-io-event}
+
+Siga as etapas abaixo para configurar um armazenamento de dados como um evento ASCII que permite usar configurações do ContextHub e caminho de segmentos para o canal do AEM Screens.
+
+### Evento de banco de dados local {#local-db-event}
+
+Siga as etapas abaixo para configurar um armazenamento de dados, como uma planilha do Excel, que permite usar configurações do ContextHub e caminho de segmentos para o canal do AEM Screens.
 
 1. **Navegar para o ContextHub**
 
-   Navegue até a instância do AEM e clique no ícone de ferramentas na barra lateral esquerda. Clique em **Sites** —&gt; **ContextHub**, como mostrado na figura abaixo.
+   Navegue até a instância do AEM e clique no ícone de ferramentas na barra lateral esquerda. Clique em **Sites** —> **ContextHub**, como mostrado na figura abaixo.
 
    ![screen_shot_2019-04-22at53222pm](assets/screen_shot_2019-04-22at53222pm.png)
 
 1. **Criando uma nova configuração de armazenamento do ContextHub**
 
-   1. Navegue até **global** &gt; **padrão** &gt; Configuração **do** ContextHub.
+   1. Navegue até **global** > **padrão** > Configuração **do** ContextHub.
 
-   1. Clique em** Criar &gt; Contêiner de configuração **e insira o título como** ContextHubDemo**.
+   1. Clique em** Criar > Contêiner de configuração **e insira o título como** ContextHubDemo**.
 
-   1. **** Navegue **até** ContextHubDemo **&gt; Configuração da loja** do ContentHub... para abrir o assistente **Configurar**.
+   1. **** Navegue **até** ContextHubDemo **> Configuração da loja** do ContentHub... para abrir o assistente **Configurar**.
 
    1. Insira o **Título** como **Google Sheets**, **Store Name** como **googlesheets** e **Store Type** **como contexthub.generic-jsonp**
 
@@ -93,7 +101,7 @@ Siga as etapas abaixo para configurar um armazenamento de dados que permite usar
    >No código de amostra acima, **pollInterval** define a frequência na qual os valores são atualizados (em ms).
    >
    >
-   >Substitua o código por sua *&lt;ID da planilha&gt;* e *&lt;chave da API&gt;*, que você buscou ao configurar as planilhas do Google.
+   >Substitua o código por sua *&lt;ID da planilha>* e *&lt;chave da API>*, que você buscou ao configurar as planilhas do Google.
 
    >[!CAUTION]
    Se você criar suas configurações de armazenamento do Google Sheets fora da pasta herdada (por exemplo, na sua própria pasta de projeto), o direcionamento não funcionará da caixa.
@@ -101,9 +109,9 @@ Siga as etapas abaixo para configurar um armazenamento de dados que permite usar
 
 1. **Criação de uma marca nas atividades**
 
-   1. Navegue da instância do AEM para **Personalização** &gt; **Atividades**
+   1. Navegue da instância do AEM para **Personalização** > **Atividades**
 
-   1. Clique em **Criar** &gt; **Criar marca**
+   1. Clique em **Criar** > **Criar marca**
 
    1. Select **Brand** from the **Create Page** wizard and click **Next**
 
@@ -133,9 +141,9 @@ Depois de configurar um armazenamento de dados e definir sua marca, siga as etap
 
 1. **Criação de segmentos em públicos-alvo**
 
-   1. Navegue da instância do AEM para **Personalização** &gt; **Públicos** &gt; **We.Retail**.
+   1. Navegue da instância do AEM para **Personalização** > **Públicos** > **We.Retail**.
 
-   1. Clique em **Criar** &gt; **Criar segmento do Context Hub.** A caixa de diálogo **Novo segmento** do ContextHub é aberta.
+   1. Clique em **Criar** > **Criar segmento do Context Hub.** A caixa de diálogo **Novo segmento** do ContextHub é aberta.
 
    1. Enter the **Title** as **SheetA1 1** and click **Create**. Da mesma forma, crie outro segmento chamado **SheetA2 2**.
 
@@ -171,7 +179,7 @@ Depois de configurar um armazenamento de dados e definir sua marca, siga as etap
 
 Siga as etapas abaixo para ativar a definição de metas em seus canais.
 
-1. Navegue até um dos canais do AEM Screens**. **As etapas a seguir demonstram como ativar a definição de metas usando o **DataDrivenRetail** criado em um Canal do AEM Screens.
+1. Navegue até um dos canais do AEM Screens. As etapas a seguir demonstram como habilitar a definição de metas usando **DataDrivenRetail** criado em um Canal do AEM Screens.
 
 1. Selecione o canal **DataDrivenRetail** e clique em **Propriedades** na barra de ações.
 
@@ -179,9 +187,9 @@ Siga as etapas abaixo para ativar a definição de metas em seus canais.
 
 1. Selecione a guia **Personalização** para configurar as configurações do ContextHub.
 
-   1. Selecione o Caminho **do** ContextHub como **libs** &gt; **configurações** &gt; **configurações** de nuvem &gt; **padrão** **** ****&gt; Configurações doContextHube clique em Selecionar.
+   1. Selecione o Caminho **do** ContextHub como **libs** > **configurações** > **configurações** de nuvem > **padrão** **** ****> Configurações doContextHube clique em Selecionar.
 
-   1. Selecione o Caminho **dos** segmentos como **conf** &gt; **We.Retail** &gt; **configurações** &gt; **wcm** **** ****&gt;segmentos e clique emSelect.
+   1. Selecione o Caminho **dos** segmentos como **conf** > **We.Retail** > **configurações** > **wcm** **** ****>segmentos e clique emSelect.
 
    1. Clique em **Salvar e fechar**.
    >[!NOTE]
@@ -189,7 +197,7 @@ Siga as etapas abaixo para ativar a definição de metas em seus canais.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navegue e selecione **DataDrivenRetail** em **DataDrivenAssets** &gt; **Canais** e clique em **Editar** na barra de ações.
+1. Navegue e selecione **DataDrivenRetail** em **DataDrivenAssets** > **Canais** e clique em **Editar** na barra de ações.
 
    >[!NOTE]
    Se você configurou tudo corretamente, verá a opção **Definição de metas** na lista suspensa do editor, como mostrado na figura abaixo.
