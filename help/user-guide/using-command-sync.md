@@ -4,7 +4,7 @@ seo-title: Usando sincronização de comandos
 description: Siga esta página para saber mais sobre como usar a Sincronização de comandos.
 seo-description: Siga esta página para saber mais sobre como usar a Sincronização de comandos.
 translation-type: tm+mt
-source-git-commit: 4735e1bcea3b635a55ef5d57e6e10a5948d8fc29
+source-git-commit: c46f246f9c5b8ab09f1100c798d0a1a240388c18
 
 ---
 
@@ -116,11 +116,12 @@ Depois de sincronizar um dispositivo ou dispositivos com um mestre, você pode d
 
 1. Navegue até o painel **DISPOSITIVOS** e selecione o dispositivo.
 
-1. Clique em **Desync device(s)** (Dispositivos dessincronizados)para sincronizar automaticamente o cliente a partir do dispositivo mestre.
+1. Clique em **Dessincronizar dispositivos** para dessincronizar o cliente do dispositivo mestre.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. Clique em **Confirmar** para dessincronizar o dispositivo selecionado do mestre.
+1. Clique em **Confirmar** para dessincronizar o dispositivo selecionado da página mestre.
 
    >[OBSERVAÇÃO:]
    > Se você selecionar o dispositivo mestre e usar a opção dessincronizar, todos os dispositivos conectados ao mestre serão dessincronizados em uma etapa.
+
