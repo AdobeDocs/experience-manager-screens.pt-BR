@@ -4,7 +4,7 @@ seo-title: Replicar acionadores de dados para publicar o servidor
 description: Replicar acionadores de dados para publicar o servidor.
 seo-description: Replicar acionadores de dados para publicar o servidor.
 translation-type: tm+mt
-source-git-commit: ae6ec7dd240b1d6f6adb46359e702eefc167b7b8
+source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
 
 ---
 
@@ -89,9 +89,9 @@ Se a conexão de teste falhar durante a replicação das configurações do Cont
 1. Navegue até Ferramentas > **Implantação** > **Distribuição** > **Publicar agente**.
 
 1. Clique em **Editar** na barra de ações e verifique se o URL do ponto final no campo Pontos finais **do** importador também aponta para o URL do servidor de publicação no Distribution Agent.
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers3.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
-1. Se você não estiver usando as credenciais de administrador padrão, será necessário configurar o agente de distribuição com uma senha de administrador diferente.
+1. Se você não estiver usando as credenciais de administrador padrão, será necessário configurar o agente de distribuição com um nome de usuário e senha diferentes.
 Siga as etapas abaixo:
 
    1. Navegue até Ferramentas > **Operações** > Console **da** Web `http://localhost:4502/system/console/configMgr`para abrir a tela **do console da Web do** Adobe Experience Manager.
