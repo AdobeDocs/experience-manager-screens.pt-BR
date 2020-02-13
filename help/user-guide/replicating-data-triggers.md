@@ -4,7 +4,7 @@ seo-title: Replicar acionadores de dados para publicar o servidor
 description: Replicar acionadores de dados para publicar o servidor.
 seo-description: Replicar acionadores de dados para publicar o servidor.
 translation-type: tm+mt
-source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
+source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
 
 ---
 
@@ -41,7 +41,7 @@ Siga as etapas abaixo para replicar os acionadores de dados para publicar o serv
    >[!Nnota]
    >Se o teste falhar, será necessário corrigir a configuração do agente de replicação entre a instância de autor e publicação. Consulte [Solução de problemas de conexão](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) de teste para obter mais detalhes.
 
-1. Selecione **Adicionar** na árvore de tela Agente **de** distribuição e selecione o caminho de configuração para o seu projeto, por exemplo, `/conf/screens/settings/cloudsettings/configuration)`.
+1. Selecione **Adicionar** na árvore de tela Agente **de** distribuição e selecione o caminho de configuração para o seu projeto, por exemplo, `/conf/screens/settings/cloudsettings/configuration`.
 
 1. Clique em **Enviar**
 
@@ -51,7 +51,7 @@ Siga as etapas abaixo para replicar os acionadores de dados para publicar o serv
 
 1. Detalhe na pasta do projeto, por exemplo, `/conf/screens/`.
 
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers5.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
 1. Selecione todos os públicos-alvo e segmentos na interface do usuário.
 
@@ -114,3 +114,6 @@ Siga as etapas abaixo:
 
    1. Clique em **Salvar** e execute a conexão de teste novamente na tela **Distribution Agent** da sua instância do AEM.
 
+   1. O usuário precisará visitar novamente a página **Distribution Agent** da instância do AEM para atualizar/substituir o URL padrão de `localhost:4503` para seu próprio url de publicação.
+
+      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
