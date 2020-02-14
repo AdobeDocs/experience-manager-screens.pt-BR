@@ -4,7 +4,7 @@ seo-title: Replicar acionadores de dados para publicar o servidor
 description: Replicar acionadores de dados para publicar o servidor.
 seo-description: Replicar acionadores de dados para publicar o servidor.
 translation-type: tm+mt
-source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
+source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
 
 ---
 
@@ -71,8 +71,8 @@ Siga as etapas abaixo para replicar os acionadores de dados para publicar o serv
 
 1. Clique em **Avançar** e **Publicar**.
 
-   > [!Nnota]
-   >A replicação de configurações e públicos-alvo do ContextHub é feita durante a configuração do projeto, enquanto as atividades de replicação e serão necessárias sempre que a definição de metas for alterada dentro de um canal.
+> [!Nnota]
+> **Importante **:>A replicação de configurações e públicos-alvo do ContextHub é feita durante a configuração do projeto, enquanto as atividades de replicação e serão necessárias sempre que a definição de metas for alterada dentro de um canal.
 
 #### Resultado {#result}
 
@@ -113,7 +113,3 @@ Siga as etapas abaixo:
    1. Atualize o `(name=default)` com `(name=slingTransportSecretProvider)`.
 
    1. Clique em **Salvar** e execute a conexão de teste novamente na tela **Distribution Agent** da sua instância do AEM.
-
-   1. O usuário precisará visitar novamente a página **Distribution Agent** da instância do AEM para atualizar/substituir o URL padrão de `localhost:4503` para seu próprio url de publicação.
-
-      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
