@@ -4,7 +4,7 @@ seo-title: Replicar acionadores de dados para publicar o servidor
 description: Replicar acionadores de dados para publicar o servidor.
 seo-description: Replicar acionadores de dados para publicar o servidor.
 translation-type: tm+mt
-source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
+source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
 
 ---
 
@@ -43,7 +43,7 @@ Siga as etapas abaixo para replicar os acionadores de dados para publicar o serv
 
 1. Selecione **Adicionar** na árvore de tela Agente **de** distribuição e selecione o caminho de configuração para o seu projeto, por exemplo, `/conf/screens/settings/cloudsettings/configuration`.
 
-1. Clique em **Enviar**
+1. Clique em **Enviar**.
 
 ### Replicação dos públicos-alvo {#replicating-audiences}
 
@@ -71,8 +71,9 @@ Siga as etapas abaixo para replicar os acionadores de dados para publicar o serv
 
 1. Clique em **Avançar** e **Publicar**.
 
-> [!Nnota]
-> **Importante **:>A replicação de configurações e públicos-alvo do ContextHub é feita durante a configuração do projeto, enquanto as atividades de replicação e serão necessárias sempre que a definição de metas for alterada dentro de um canal.
+>[!IMPORTANT]
+>
+>A replicação de configurações e públicos-alvo do ContextHub é feita durante a configuração do projeto, enquanto as atividades de replicação e serão necessárias sempre que a definição de metas for alterada dentro de um canal.
 
 #### Resultado {#result}
 
@@ -92,10 +93,10 @@ Se a conexão de teste falhar durante a replicação das configurações do Cont
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Se você não estiver usando as credenciais de administrador padrão, será necessário configurar o agente de distribuição com um nome de usuário e senha diferentes.
-Siga as etapas abaixo:
+
+   Siga as etapas abaixo:
 
    1. Navegue até Ferramentas > **Operações** > Console **da** Web `http://localhost:4502/system/console/configMgr`para abrir a tela **do console da Web do** Adobe Experience Manager.
-
    1. Procurar credenciais de transporte de distribuição do **Apache Sling - baseadas em credenciais do usuário DistributionTransportSecretProvider**
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
@@ -105,11 +106,9 @@ Siga as etapas abaixo:
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
    1. Clique em **Salvar**
-
    1. Use `Cmd +F` para procurar o **Apache Sling Distribution Agent - Fábrica** de Agentes Encaminhados para abrir as configurações e procurar o **Transport Secret Provider**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Atualize o `(name=default)` com `(name=slingTransportSecretProvider)`.
-
    1. Clique em **Salvar** e execute a conexão de teste novamente na tela **Distribution Agent** da sua instância do AEM.
