@@ -5,7 +5,7 @@ description: Siga esta página para saber mais sobre a criação de modelos pers
 seo-description: Siga esta página para saber mais sobre a criação de modelos personalizados em layouts MultiZone.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 6a0967580d06e749db878d74aad2ffb1fec82f43
+source-git-commit: 23208ed9e4e293cfcec65305918f35573c20cc02
 
 ---
 
@@ -60,15 +60,26 @@ Siga as etapas abaixo para criar um layout Left20-LandscapeHD3Zone para um proje
 
 1. Copie o modelo da barra esquerda de `/libs/screens/core/templates/splitscreenchannel/lbar-left` para `/apps/customtemplate/template`.
 
-1. Renomeie a barra **esquerda** copiada (`/apps/customtemplate/template`) para o **meu layout** personalizado.
+1. Renomeie a barra **esquerda** copiada (`/apps/customtemplate/template`) para o **meu layout**personalizado.
+   ![image](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
 1. Navegue até `/apps/customtemplate/template/my-custom-layout` e atualize as propriedades **jcr:description** para *Template para Left20-LandscapeHD3Zone* e **jcr:title** para *Left20-LandscapeHD3Zone*.
 
+   ![image](/help/user-guide/assets/custom-multizone/custom-template4.png)
+
 1. Navegue até o nó **offline-config** de `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` e atualize o **jcr:title** para *Left20-LandscapeHD3Zone*.
+
+   ![image](/help/user-guide/assets/custom-multizone/custom-template5.png)
 
 1. Navegue até a propriedade *jcr:content* do **my-custom-template** de `/apps/customtemplate/template/my-custom-layout/jcr:content` e atualize a propriedade **cq:cssClass** para **aem-Layout my-custom-layout**.
 
-1. Referindo-se à etapa (4), na qual você copiou o modelo à esquerda da barra, visualizará 3 grades responsivas em `my-custom-layout/jcr:content`. Adicione a classe css personalizada a cada grade responsiva na propriedade *cq:cssClass* , por exemplo, *my-custom-layout—top-left*, *my-custom-layout—top-right*, *my-custom-layout—bottom*.
+   ![image](/help/user-guide/assets/custom-multizone/custom-template6.png)
+
+1. Referindo-se à etapa (4), na qual você copiou o modelo à esquerda da barra, visualizará 3 grades responsivas em `my-custom-layout/jcr:content`. Adicione a classe css personalizada a cada grade responsiva na propriedade *cq:cssClass* , por exemplo, *my-custom-layout — top-left* para o nó *r1c1* .
+
+   ![image](/help/user-guide/assets/custom-multizone/custom-template7.png)
+
+   Da mesma forma, adicione *my-custom-layout—top-right* para *r1c2* e, *my-custom-layout—bottom* para nó *r2c1* .
 
    >[!NOTE]
    >Essas classes personalizadas serão usadas no css para definir a largura/altura dessas grades responsivas.
@@ -76,72 +87,51 @@ Siga as etapas abaixo para criar um layout Left20-LandscapeHD3Zone para um proje
    >[!NOTE]
    > Você pode adicionar ou remover as grades responsivas com base no número total de grades que deseja. Neste exemplo, mostramos 2 grades na primeira linha e 1 grade na segunda linha, de modo que há um total de 3 grades responsivas (r1c1, r1c2, r2c1).
 
-1. Copiar `/libs/settings/wcm/designs/screens` para `/apps/settings/wcm/designs/` e renomear como designs de modelo **personalizados**
+1. Copie `/libs/settings/wcm/designs/screens` para `/apps/settings/wcm/designs/` e renomeie o design copiado como modelos-designs **** personalizados.
 
 1. Navegue até `/apps/settings/wcm/designs/custom-template-designs` e atualize a propriedade *jcr:title* de **custom-template-designs** para **customtemplate-design**.
 
-1. atualize o `/apps/settings/wcm/designs/<project>-designs/static.css` conteúdo para corresponder ao seguinte
+1. Navegue até `/apps/settings/wcm/designs/custom-template-designs` e crie um arquivo static.css.
 
-## Criando modelo personalizado com uma configuração específica {#basic-flow-setting}
-
-![image](assets/custom-template1.png)
-
-Siga as etapas abaixo para criar um modelo personalizado.
-
-1. Crie o modelo em `/apps/<project>/templates/my-custom-layout`
+1. Copie o conteúdo para o arquivo static.css:
 
    ```shell
-    <?xml version="1.0" encoding="UTF-8"?>
-    <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:description="My Custom 3-zones layout "
-    jcr:primaryType="cq:Template"
-    jcr:title="3-zones layout"
-    allowedParents="[/libs/screens/core/templates/channelfolder]"
-    allowedPaths="[/content/screens(/.*)?]"
-    ranking="{Long}20000">
-    <jcr:content
-        cq:cssClass="aem-Layout aem-Layout--3x1 my-CustomLayout"
-        cq:designPath="/apps/settings/wcm/designs/<project>"
-        cq:deviceGroups="[mobile/groups/responsive]"
-        jcr:primaryType="cq:PageContent"
-        sling:resourceSuperType="screens/core/components/channel"
-        sling:resourceType="screens/core/components/multiscreenchannel">
-        <r1c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-top"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <r2c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-middle"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <r3c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-bottom"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <cq:responsive jcr:primaryType="nt:unstructured">
-            <breakpoints jcr:primaryType="nt:unstructured"/>
-        </cq:responsive>
-        <offline-config/>
-    </jcr:content>
-   </jcr:root>
+       /*my-custom-layout styles*/
+      .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--top-left {
+       width:20%;
+       height: 36%;
+      float: left !important;
+      }
+     .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--top-right {
+      width:80%;
+      height: 36%;
+     float: left !important;
+     }
+     .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--bottom {
+     width:100%;
+     height: 64%;
+     }
    ```
-
-1. Criar um design de página no `/apps/settings/wcm/designs/<project>`.
 
    >[!NOTE]
-   >
-   >Certifique-se de que a imagem `cq:designPath` acima corresponde ao caminho.
+   > É possível atualizar as porcentagens para corresponder aos requisitos do modelo personalizado.
 
-1. Atualize o nó **offline-config** para que o design aponte também para o novo caminho
+1. Navegue até `/apps/<project>/templates/my-custom-layout/jcr:content` a propriedade *cq:designPath* e atualize-a para `/apps/settings/wcm/designs/customtemplate-designs` carregar os estilos configurados em static.css
 
-1. Adicione um arquivo **static.css** na `/apps/settings/wcm/designs/<project>` pasta e defina seu conteúdo como
+   >[!NOTE]
+   > É recomendável digitar todos os estilos em vez de copiar ou colar, o que pode causar espaços em branco, resultando em problemas de estilização em css.
 
-   ```shell
-   .cq-Screens-channel--multizone.my-CustomLayout {}
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-top { height: 150px; }
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-middle { height: 1470px; }
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-bottom { height: 300px; }
-   ```
+## Como visualizar o resultado {#viewing-result}
+
+Siga as etapas abaixo para usar o modelo personalizado acima em seu projeto do AEM Screens:
+
+1. Navegue até o projeto do Screens criado na etapa 1 e selecione a pasta **Canais** .
+
+   ![image](/help/user-guide/assets/custom-multizone/custom-template8.png)
+
+1. Clique em **Criar** na barra de ação e selecione o modelo **Left20-LandscapeHD3Zone** no assistente de **Criação** .
+
+1. Depois de criar um canal com o modelo personalizado, você pode adicionar ativos ao seu canal a partir do editor.
 
 ## Inserir uma imagem como a camada de plano de fundo {#inserting-image}
 
