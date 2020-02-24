@@ -5,7 +5,7 @@ description: Siga esta página para saber mais sobre a criação de modelos pers
 seo-description: Siga esta página para saber mais sobre a criação de modelos personalizados em layouts MultiZone.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 87a86d60de9ea09dae93d08a1e0b42271c39249f
+source-git-commit: 6a0967580d06e749db878d74aad2ffb1fec82f43
 
 ---
 
@@ -16,7 +16,7 @@ Esta página mostra como você pode criar um modelo personalizado em um layout m
 
 ## Convenção de nomenclatura {#name-terms}
 
-Antes de entender como criar modelos personalizados de várias zonas para usar em um projeto do AEM Screens, é obrigatório entender a versão dos modelos que você deseja criar.
+Antes de entender como criar modelos personalizados de várias zonas para usar em um projeto do AEM Screens, é recomendável entender a versão dos modelos que você deseja criar.
 
 | **Nome do layout** | **Descrição** |
 |---|---|
@@ -26,9 +26,9 @@ Antes de entender como criar modelos personalizados de várias zonas para usar e
 
 ##  Casos de uso de exemplo {#example-use-cases}
 
-## Criação de um layout Left20-LandscapeHD3Zone {#landscape-layout-one}
+## Layout Left20-LandscapeHD3Zone {#custom-template-one}
 
-Siga a seção abaixo demonstra como criar um modelo personalizado com a seguinte configuração:
+Siga a seção abaixo para criar um modelo personalizado *Left20-LandscapeHD3Zone* com a seguinte configuração:
 
 * **Left20** refere-se à zona superior à esquerda, que cobre 20% do tamanho da tela horizontal e vertical.
 * **Paisagem** refere-se à orientação do ecrã
@@ -41,24 +41,50 @@ O layout Left20-LandscapeHD3Zone permite criar o seguinte layout de várias zona
 
 ![image](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
 
+## Criação de um layout Left20-LandscapeHD3Zone {#landscape-layout-one}
 
+Siga as etapas abaixo para criar um layout Left20-LandscapeHD3Zone para um projeto do AEM Screens:
 
+1. Crie um projeto do AEM Screens chamado de **customtemplate**.
 
+   ![image](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
+1. Navegue até **CRXDE Lite** da sua instância do AEM —> Ferramentas —> **CRXDE Lite**.
 
-## Criação de um layout Upper20-PortraitHD2Zone {#landscape-layout-two}
+1. Crie uma pasta em **aplicativos** intitulados como modelo **personalizado**. Da mesma forma, crie outra pasta chamada **template** em **customtemplate**, conforme mostrado na figura abaixo.
 
-Siga a seção abaixo demonstra como criar um modelo personalizado com a seguinte configuração:
+   ![image](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
+   > [!NOTE]
+   > É recomendável clicar em **Salvar tudo** na barra de ação do CRXDE Lite sempre que criar, editar ou copiar conteúdo para qualquer um dos nós, caso contrário, você não poderá confirmar as atualizações.
 
+1. Copie o modelo da barra esquerda de `/libs/screens/core/templates/splitscreenchannel/lbar-left` para `/apps/customtemplate/template`.
 
+1. Renomeie a barra **esquerda** copiada (`/apps/customtemplate/template`) para o **meu layout** personalizado.
 
+1. Navegue até `/apps/customtemplate/template/my-custom-layout` e atualize as propriedades **jcr:description** para *Template para Left20-LandscapeHD3Zone* e **jcr:title** para *Left20-LandscapeHD3Zone*.
 
+1. Navegue até o nó **offline-config** de `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` e atualize o **jcr:title** para *Left20-LandscapeHD3Zone*.
 
-![image](assets/custom-template1.png)
+1. Navegue até a propriedade *jcr:content* do **my-custom-template** de `/apps/customtemplate/template/my-custom-layout/jcr:content` e atualize a propriedade **cq:cssClass** para **aem-Layout my-custom-layout**.
 
+1. Referindo-se à etapa (4), na qual você copiou o modelo à esquerda da barra, visualizará 3 grades responsivas em `my-custom-layout/jcr:content`. Adicione a classe css personalizada a cada grade responsiva na propriedade *cq:cssClass* , por exemplo, *my-custom-layout—top-left*, *my-custom-layout—top-right*, *my-custom-layout—bottom*.
+
+   >[!NOTE]
+   >Essas classes personalizadas serão usadas no css para definir a largura/altura dessas grades responsivas.
+
+   >[!NOTE]
+   > Você pode adicionar ou remover as grades responsivas com base no número total de grades que deseja. Neste exemplo, mostramos 2 grades na primeira linha e 1 grade na segunda linha, de modo que há um total de 3 grades responsivas (r1c1, r1c2, r2c1).
+
+1. Copiar `/libs/settings/wcm/designs/screens` para `/apps/settings/wcm/designs/` e renomear como designs de modelo **personalizados**
+
+1. Navegue até `/apps/settings/wcm/designs/custom-template-designs` e atualize a propriedade *jcr:title* de **custom-template-designs** para **customtemplate-design**.
+
+1. atualize o `/apps/settings/wcm/designs/<project>-designs/static.css` conteúdo para corresponder ao seguinte
 
 ## Criando modelo personalizado com uma configuração específica {#basic-flow-setting}
+
+![image](assets/custom-template1.png)
 
 Siga as etapas abaixo para criar um modelo personalizado.
 
