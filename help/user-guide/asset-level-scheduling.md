@@ -4,7 +4,7 @@ seo-title: Ativação de nível de ativo
 description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
 seo-description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
 translation-type: tm+mt
-source-git-commit: 94e6e61462e72b17d9aa09aa020dbfdc5524be44
+source-git-commit: e58d2ffa1886199f1602de933dc0d8e5fb293cdd
 
 ---
 
@@ -95,11 +95,16 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 
 | **Expressão** | **Interpretação** |
 |---|---|
-| antes das 8:00 | o canal é reproduzido antes das 8:00 da manhã todos os dias |
-| depois das 14:00 | o canal é reproduzido depois das 14:00 horas todos os dias |
-| depois das 12:15 e antes das 12:45 | o canal é reproduzido depois das 12h15 todos os dias por 30 minutos |
-| antes das 12:15 também depois das 12:45 | o canal é reproduzido antes das 12h15 todos os dias e depois também depois das 12h45 |
-| Seg,Ter,Qua ou Qua | o ativo é reproduzido no canal de segunda a quarta-feira |
+| antes das 8:00 | o ativo no canal é reproduzido antes das 8:00 da manhã todos os dias |
+| depois das 14:00 | o ativo no canal é reproduzido depois das 14:00 horas todos os dias |
+| depois das 12:15 e antes das 12:45 | o ativo no canal é reproduzido depois das 12h15 todos os dias por 30 minutos |
+| antes das 12:15 também depois das 12:45 | o ativo no canal é reproduzido antes das 12h15 todos os dias e depois também depois das 12h45 |
+| Seg,Ter,Qua ou Qua | o ativo é reproduzido no ativo no canal de segunda a quarta |
+| no primeiro dia de janeiro depois das 14:00 também no dia 2 de janeiro também no dia 3 de janeiro antes das 15:00 | o ativo no canal começa a ser reproduzido depois das 14:00 horas do dia 1º de janeiro, continua sendo reproduzido durante todo o dia do dia 2 de janeiro até as 15:00 da manhã do dia 3 de janeiro |
+| no dia 1-2 de janeiro depois das 14:00 também no dia 2-3 de janeiro antes das 3:00 | o ativo no canal inicia o player depois das 14:00 horas de 1º de janeiro, continua reproduzindo até as 15:00 da manhã de 2º de janeiro, e começa novamente em 2º de janeiro às 14:00 e continua reproduzindo até as 15:00 da manhã de 3 de janeiro |
+
+>[!NOTE]
+>Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
 
 ### Semana de Partida {#week-parting}
 
@@ -118,10 +123,14 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 
 | **Expressão** | **Interpretação** |
 |---|---|
-| antes das 8:00 | o canal é reproduzido antes das 8:00 da manhã todos os dias |
-| depois das 14:00 | o canal é reproduzido depois das 14:00 horas todos os dias |
-| depois das 12:15 e antes das 12:45 | o canal é reproduzido depois das 12h15 todos os dias por 30 minutos |
+| Seg,Ter,Qua ou Qua | o ativo é reproduzido no ativo no canal de segunda a quarta |
+| antes das 8:00 | o ativo no canal é reproduzido antes das 8:00 da manhã todos os dias |
+| depois das 14:00 | o ativo no canal é reproduzido depois das 14:00 horas todos os dias |
+| depois das 12:15 e antes das 12:45 | o ativo no canal é reproduzido depois das 12h15 todos os dias por 30 minutos |
 | antes das 12:15 também depois das 12:45 | o canal é reproduzido antes das 12h15 todos os dias e depois também depois das 12h45 |
+
+>[!NOTE]
+>Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
 
 
 ### Mês de separação {#month-parting}
@@ -141,12 +150,12 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 | **Expressão** | **Interpretação** |
 |---|---|
 | de fevereiro,maio,agosto,novembro | o ativo é reproduzido no canal em fevereiro, maio, agosto, novembro |
-| depois das 14:00 | o canal é reproduzido depois das 14:00 horas todos os dias |
-| depois das 12:15 e antes das 12:45 | o canal é reproduzido depois das 12h15 todos os dias por 30 minutos |
-| antes das 12:15 também depois das 12:45 | o canal é reproduzido antes das 12h15 todos os dias e depois também depois das 12h45 |
 
 > [!NOTE]
 > Ao definir dias da semana e meses, você pode usar as notas de mão curta e de nome completo, como Mon/Segunda e Jan/Janeiro.
+
+>[!NOTE]
+> Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
 
 ## Ativação de vários ativos {#multi-asset-scheduling}
 
@@ -187,18 +196,3 @@ Siga as etapas abaixo para selecionar vários ativos e agendar sua exibição em
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
 
-## Expressões de exemplo {#example-expressions}
-
-A tabela a seguir resume algumas expressões de exemplo que podem ser adicionadas ao agendamento enquanto o canal é atribuído a uma exibição.
-
-| **Expressão** | **Interpretação** |
-|---|---|
-| antes das 8:00 | o canal é reproduzido antes das 8:00 da manhã todos os dias |
-| depois das 14:00 | o canal é reproduzido depois das 14:00 horas todos os dias |
-| depois das 12:15 e antes das 12:45 | o canal é reproduzido depois das 12h15 todos os dias por 30 minutos |
-| antes das 12:15 também depois das 12:45 | o canal é reproduzido antes das 12h15 todos os dias e depois também depois das 12h45 |
-| no primeiro dia de janeiro depois das 14:00 também no dia 2 de janeiro também no dia 3 de janeiro antes das 15:00 | o canal começa a reproduzir depois das 14:00 em 1º de janeiro, continua reproduzindo o dia inteiro em 2º de janeiro até as 15:00 em 3 de janeiro |
-| no dia 1-2 de janeiro depois das 14:00 também no dia 2-3 de janeiro antes das 3:00 | o canal inicia o player depois das 14:00 horas do dia 1º de janeiro, continua reproduzindo até as 15:00 da manhã do dia 2º de janeiro, e começa novamente no dia 2º de janeiro às 14:00 e continua reproduzindo até as 15:00 da manhã do dia 3 de janeiro |
-
->[!NOTE]
->Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
