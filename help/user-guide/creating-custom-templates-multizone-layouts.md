@@ -5,7 +5,7 @@ description: Siga esta página para saber mais sobre a criação de modelos pers
 seo-description: Siga esta página para saber mais sobre a criação de modelos personalizados em layouts MultiZone.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 9e3f26e10a5168511b2bf138f8ce36b94778b339
+source-git-commit: 90d3d91f127432d8783748f00440bc6949262826
 
 ---
 
@@ -51,7 +51,7 @@ Siga a seção abaixo para criar um modelo personalizado *Left20-LandscapeHD3Zon
 
 O layout Left20-LandscapeHD3Zone permite criar o seguinte layout de várias zonas no seu projeto:
 
-![image](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
+![image](/help/user-guide/assets/custom-multizone/landscape-3-zone-new.png)
 
 ## Criação de um layout Left20-LandscapeHD3Zone {#landscape-layout-one}
 
