@@ -1,32 +1,28 @@
 ---
-title: Agendamento do nível do ativo
-seo-title: Agendamento do nível do ativo
+title: Ativação de nível de ativo
+seo-title: Ativação de nível de ativo
 description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
 seo-description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
-uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
-contentOwner: jsyal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: da25cdc7-c814-493e-8d8e-b6191fee2831
-noindex: true
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 94e6e61462e72b17d9aa09aa020dbfdc5524be44
 
 ---
 
 
-# Agendamento do nível do ativo {#asset-level-scheduling}
+# Ativação de nível de ativo {#asset-level-scheduling}
 
-Esta seção descreve o agendamento do nível do ativo para os ativos usados em Canais.
+Esta seção descreve a ativação de nível de ativo para os ativos usados em Canais.
 
 Os seguintes tópicos são abordados nesta seção:
 
 * Visão geral
-* Usando o Agendamento de Nível de Ativo
+* Janela de ativação
+* Reprodução de evento único
 * Tratamento de recorrência em ativos
-* Agendamento de vários ativos
-
+   * Programação de anúncios
+   * Semana de Partida
+   * Mês de separação
+* Ativação de vários ativos
 
 >[!CAUTION]
 >
@@ -36,15 +32,15 @@ Os seguintes tópicos são abordados nesta seção:
 
 ## Visão geral {#overview}
 
-***Agendamento*** de nível de ativo, permite ativar um ativo específico em um canal para um período agendado no fuso horário local do player. Isso está disponível para imagens, vídeos, transições, páginas e canais incorporados (dinâmicos ou estáticos).
+***Ativação*** de nível de ativo, permite ativar um ativo específico em um canal para um período agendado no fuso horário local do player. Isso está disponível para imagens, vídeos, transições, páginas e canais incorporados (dinâmicos ou estáticos).
 
 *Por exemplo*, você deseja que uma promoção especial seja exibida somente durante a hora de felicidade (de 2h às 5h) nas segundas e quartas-feiras.
 
 Com esse recurso, não somente você pode especificar a data e a hora de início e término, como também um padrão de recorrência.
 
-## Usando o Agendamento de Nível de Ativo {#using-asset-level-scheduling}
+## Reprodução de evento único {#single-event-playback}
 
-O Agendamento de nível de ativo é feito configurando a guia **Ativação** ao acessar as propriedades de um ativo.
+A Ativação no nível do ativo é feita configurando a guia **Ativação** ao acessar as propriedades de um ativo.
 
 Siga as etapas abaixo para executar a programação de nível de ativos:
 
@@ -62,46 +58,107 @@ Siga as etapas abaixo para executar a programação de nível de ativos:
 
 1. Clique em **Editar** para abrir o editor de canal e selecionar um ativo ao qual deseja aplicar o agendamento.
 
-   ![screen_shot_2018-04-24at90434pm](assets/screen_shot_2018-04-24at90434pm.png)
+   ![screen_shot_2018-04-24at90434pm](/help/user-guide/assets/asset-activation/asset-level1.png)
 
 1. Selecione o ativo e clique no ícone **Configurar** na parte superior esquerda para abrir as propriedades da imagem.
 
    Click the **Activation** tab.
 
-   ![screen_shot_2018-04-23at112348am](assets/screen_shot_2018-04-23at112348am.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
 
-1. Você pode especificar a data no seletor de datas nos campos **Ativo de** e **Ativo até** .
+1. Você pode especificar a data do seletor de datas usando os campos **Ativo de** e **Ativo até** .
 
    Se você selecionar **Ativo de e** Ativo até **** a data e hora, o ativo será exibido e fará loop apenas entre a data/hora de início e a data/hora de término, respectivamente.
 
-   ![screen_shot_2018-04-23at113545am](assets/screen_shot_2018-04-23at113545am.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 ## Tratamento de recorrência em ativos {#handling-recurrence-in-assets}
 
 Você pode programar a recorrência de ativos em determinados intervalos, diariamente, semanalmente ou mensalmente, de acordo com sua necessidade.
 
-Suponha que você queira exibir uma imagem somente às sextas-feiras das 13:00 às 10:00 horas. Você pode usar a guia Ativação para definir o intervalo recorrente desejado para o ativo.
+Suponha que você queira exibir uma imagem somente às sextas-feiras das 13:00 às 10:00 horas. Você pode usar a guia **Ativação** para definir o intervalo recorrente desejado para o ativo.
 
-### Adicionar um evento recorrente para seu ativo {#adding-a-recurring-event-for-your-asset}
+### Programação de anúncios {#day-parting}
 
 1. Selecione o ativo e clique no ícone **Configurar** para abrir a caixa de diálogo de propriedades.
-1. Depois de inserir a data/hora de início e a hora de término/data, você pode usar uma expressão cron ou uma versão de texto natural para especificar a programação de recorrência.
 
-   Você pode pesquisar na Web um gerador de expressão cron livre e, em seguida, copiar e colar a expressão cron na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
+1. Depois de inserir a data/hora de início e a hora de término/data, você pode usar uma expressão ou uma versão de texto natural para especificar a programação de recorrência.
 
-   *Como alternativa*, em vez de usar a expressão cron, você também pode usar a versão de texto natural, como *depois das 6:00 e antes das 18:00* da sexta-feira, para realizar sua tarefa. Insira o texto na **Programação** para exibir o ativo.
+   > [!NOTE]
+   > Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, conforme sua necessidade.
 
-## Agendamento de vários ativos {#multi-asset-scheduling}
+1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
+
+#### Expressões de exemplo para programação de anúncios {#example-one}
+
+A tabela a seguir resume algumas expressões de exemplo que podem ser adicionadas ao agendamento enquanto o canal é atribuído a uma exibição.
+
+| **Expressão** | **Interpretação** |
+|---|---|
+| antes das 8:00 | o canal é reproduzido antes das 8:00 da manhã todos os dias |
+| depois das 14:00 | o canal é reproduzido depois das 14:00 horas todos os dias |
+| depois das 12:15 e antes das 12:45 | o canal é reproduzido depois das 12h15 todos os dias por 30 minutos |
+| antes das 12:15 também depois das 12:45 | o canal é reproduzido antes das 12h15 todos os dias e depois também depois das 12h45 |
+| Seg,Ter,Qua ou Qua | o ativo é reproduzido no canal de segunda a quarta-feira |
+
+### Semana de Partida {#week-parting}
+
+1. Selecione o ativo e clique no ícone **Configurar** para abrir a caixa de diálogo de propriedades.
+
+1. Depois de inserir a data/hora de início e a hora de término/data, você pode usar uma expressão ou uma versão de texto natural para especificar a programação de recorrência.
+
+   > [!NOTE]
+   > Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, conforme sua necessidade.
+
+1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
+
+#### Expressões de exemplo para programação de semana {#example-two}
+
+A tabela a seguir resume algumas expressões de exemplo que podem ser adicionadas ao agendamento enquanto o canal é atribuído a uma exibição.
+
+| **Expressão** | **Interpretação** |
+|---|---|
+| antes das 8:00 | o canal é reproduzido antes das 8:00 da manhã todos os dias |
+| depois das 14:00 | o canal é reproduzido depois das 14:00 horas todos os dias |
+| depois das 12:15 e antes das 12:45 | o canal é reproduzido depois das 12h15 todos os dias por 30 minutos |
+| antes das 12:15 também depois das 12:45 | o canal é reproduzido antes das 12h15 todos os dias e depois também depois das 12h45 |
+
+
+### Mês de separação {#month-parting}
+
+1. Selecione o ativo e clique no ícone **Configurar** para abrir a caixa de diálogo de propriedades.
+1. Depois de inserir a data/hora de início e a hora de término/data, você pode usar uma expressão ou uma versão de texto natural para especificar a programação de recorrência.
+
+   > [!NOTE]
+   > Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, conforme sua necessidade.
+
+1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
+
+#### Expressões de exemplo para a separação mensal {#example-three}
+
+A tabela a seguir resume algumas expressões de exemplo que podem ser adicionadas ao agendamento enquanto o canal é atribuído a uma exibição.
+
+| **Expressão** | **Interpretação** |
+|---|---|
+| de fevereiro,maio,agosto,novembro | o ativo é reproduzido no canal em fevereiro, maio, agosto, novembro |
+| depois das 14:00 | o canal é reproduzido depois das 14:00 horas todos os dias |
+| depois das 12:15 e antes das 12:45 | o canal é reproduzido depois das 12h15 todos os dias por 30 minutos |
+| antes das 12:15 também depois das 12:45 | o canal é reproduzido antes das 12h15 todos os dias e depois também depois das 12h45 |
+
+> [!NOTE]
+> Ao definir dias da semana e meses, você pode usar as notas de mão curta e de nome completo, como Mon/Segunda e Jan/Janeiro.
+
+## Ativação de vários ativos {#multi-asset-scheduling}
 
 >[!CAUTION]
 >
->O recurso Agendamento **** de vários ativos só estará disponível se você tiver instalado o AEM 6.3 Feature Pack 5 ou o AEM 6.4 Feature Pack 3.
+>O recurso Ativação **de** vários ativos só estará disponível se você tiver instalado o AEM 6.3 Feature Pack 5 ou o AEM 6.4 Feature Pack 3.
 
-***O Multi-asset Scheduling*** permite que o usuário selecione vários ativos e aplique um cronograma de reprodução a todos os ativos selecionados.
+***A Ativação*** de vários ativos permite que o usuário selecione vários ativos e aplique um cronograma de reprodução a todos os ativos selecionados.
 
 ### Pré-requisitos {#prerequisites}
 
-Para usar a programação de vários ativos em nível para seus ativos, crie um projeto do AEM Screens com um canal de sequência. Por exemplo, o caso de uso a seguir mostra a implementação do recurso:
+Para usar a ativação em nível de vários ativos, crie um projeto do AEM Screens com um canal de sequência. Por exemplo, o caso de uso a seguir mostra a implementação do recurso:
 
 * Criar um projeto do AEM Screens chamado de **MultiAssetDemo**
 * Crie um canal chamado **MultiAssetChannel** e adicione conteúdo ao canal, como mostrado na figura abaixo
@@ -126,7 +183,22 @@ Siga as etapas abaixo para selecionar vários ativos e agendar sua exibição em
 
    >[!NOTE]
    >
-   >O ícone de programação fica visível no canto superior direito para os ativos que têm programação de vários ativos.
+   >O ícone de programação fica visível no canto superior direito para os ativos que têm ativação de vários ativos.
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
 
+## Expressões de exemplo {#example-expressions}
+
+A tabela a seguir resume algumas expressões de exemplo que podem ser adicionadas ao agendamento enquanto o canal é atribuído a uma exibição.
+
+| **Expressão** | **Interpretação** |
+|---|---|
+| antes das 8:00 | o canal é reproduzido antes das 8:00 da manhã todos os dias |
+| depois das 14:00 | o canal é reproduzido depois das 14:00 horas todos os dias |
+| depois das 12:15 e antes das 12:45 | o canal é reproduzido depois das 12h15 todos os dias por 30 minutos |
+| antes das 12:15 também depois das 12:45 | o canal é reproduzido antes das 12h15 todos os dias e depois também depois das 12h45 |
+| no primeiro dia de janeiro depois das 14:00 também no dia 2 de janeiro também no dia 3 de janeiro antes das 15:00 | o canal começa a reproduzir depois das 14:00 em 1º de janeiro, continua reproduzindo o dia inteiro em 2º de janeiro até as 15:00 em 3 de janeiro |
+| no dia 1-2 de janeiro depois das 14:00 também no dia 2-3 de janeiro antes das 3:00 | o canal inicia o player depois das 14:00 horas do dia 1º de janeiro, continua reproduzindo até as 15:00 da manhã do dia 2º de janeiro, e começa novamente no dia 2º de janeiro às 14:00 e continua reproduzindo até as 15:00 da manhã do dia 3 de janeiro |
+
+>[!NOTE]
+>Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
