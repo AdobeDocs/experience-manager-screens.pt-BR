@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ed79a3c9e2b99ef1de6e293fe2e86adfa8dde85c
+source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
 
 ---
 
@@ -70,14 +70,14 @@ Siga as etapas abaixo para configurar um armazenamento de dados, como uma planil
 
    1. Navegue até **global** > **padrão** > Configuração **do** ContextHub.
 
-   1. Clique em** Criar > Contêiner de configuração **e insira o título como** ContextHubDemo**.
+   1. Clique em **Criar** > Contêiner **** de configuração e insira o título como **ContextHubDemo**.
 
    1. **** Navegue **até** ContextHubDemo **> Configuração da loja** do ContentHub... para abrir o assistente **Configurar**.
 
    1. Insira o **Título** como **Google Sheets**, **Store Name** como **googlesheets** e **Store Type** **como contexthub.generic-jsonp**
 
    1. Clique em **Avançar**
-   1. Digite sua configuração json específica**.** Por exemplo, você pode usar o json a seguir para fins de demonstração.
+   1. Digite sua configuração json específica. Por exemplo, você pode usar o json a seguir para fins de demonstração.
    1. Clique em **Salvar**.
 
    ```
