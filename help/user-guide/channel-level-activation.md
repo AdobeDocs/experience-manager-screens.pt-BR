@@ -11,16 +11,24 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
+source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
 
 ---
 
 
 # Ativação de nível de canal {#channel-level-activation-single-event-playback}
 
-O uso da Ativação de nível de canal aborda os seguintes tópicos:
+Esta página descreve a ativação no nível do canal para os ativos usados em Canais.
+
+Os seguintes tópicos são abordados nesta seção:
 
 * Visão geral
+* Janela de ativação
+* Usando a ativação de nível de canal como uma reprodução de evento único
+* Tratamento de recorrência para ativos em um canal
+   * Programação de anúncios
+   * Semana de Partida
+   * Mês de separação
 * Usando a ativação de nível de canal como uma reprodução de evento único
 
 ## Visão geral {#overview}
@@ -33,7 +41,7 @@ O exemplo a seguir fornece uma solução focando nos seguintes termos principais
 * um canal ***de evento*** único que é executado somente uma vez em um horário definido
 * um cronograma ***definido e prioridade*** para o evento de reprodução única que ocorre dentro do canal da sequência principal
 
-## Usando a ativação de nível de canal {#using-channel-level-activation}
+## Janela de ativação {#using-channel-level-activation}
 
 A seção a seguir explica a criação de uma única reprodução de evento dentro de um canal para um projeto do AEM Screens.
 
@@ -141,4 +149,85 @@ O player exibe o conteúdo do **MainAdChannel** e exatamente às 23:59 horas (co
 Para saber mais sobre o AEM Screen Player, consulte os seguintes recursos:
 * [Downloads do AEM Screens Player](https://download.macromedia.com/screens/)
 * [Trabalhar com o AEM Screens Player](working-with-screens-player.md)
+
+
+
+## Tratamento de recorrência para ativos em um canal{#handling-recurrence-in-assets}
+
+Você pode programar ativos em um canal para recorrência em determinados intervalos, diariamente, semanalmente ou mensalmente, de acordo com suas necessidades.
+
+Suponha que você queira exibir o conteúdo de um canal somente às sextas-feiras das 13:00 às 10:00 horas. Você pode usar a guia **Ativação** para definir o intervalo recorrente desejado para o ativo.
+
+### Programação de anúncios {#day-parting}
+
+1. Selecione o canal e clique em **Painel** na barra de ações para abrir o painel do canal.
+
+1. Depois de inserir a data/hora de início e a hora de término/data na caixa de diálogo Atribuição **de** canal, você pode usar uma expressão ou uma versão de texto natural para especificar sua programação de recorrência.
+
+   >[!NOTE]Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, conforme sua necessidade.
+
+1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
+
+#### Expressões de exemplo para programação de anúncios {#example-one}
+
+A tabela a seguir resume algumas expressões de exemplo que podem ser adicionadas ao agendamento enquanto o canal é atribuído a uma exibição.
+
+| **Expressão** | **Interpretação** |
+|---|---|
+| antes das 8:00 | o ativo no canal é reproduzido antes das 8:00 da manhã todos os dias |
+| depois das 14:00 | o ativo no canal é reproduzido depois das 14:00 horas todos os dias |
+| depois das 12:15 e antes das 12:45 | o ativo no canal é reproduzido depois das 12h15 todos os dias por 30 minutos |
+| antes das 12:15 também depois das 12:45 | o ativo no canal é reproduzido antes das 12h15 todos os dias e depois também depois das 12h45 |
+| Seg,Ter,Qua ou Qua | o ativo é reproduzido no ativo no canal de segunda a quarta |
+| no primeiro dia de janeiro depois das 14:00 também no dia 2 de janeiro também no dia 3 de janeiro antes das 15:00 | o ativo no canal começa a ser reproduzido depois das 14:00 horas do dia 1º de janeiro, continua sendo reproduzido durante todo o dia do dia 2 de janeiro até as 15:00 da manhã do dia 3 de janeiro |
+| no dia 1-2 de janeiro depois das 14:00 também no dia 2-3 de janeiro antes das 3:00 | o ativo no canal inicia o player depois das 14:00 horas de 1º de janeiro, continua reproduzindo até as 15:00 da manhã de 2º de janeiro, e começa novamente em 2º de janeiro às 14:00 e continua reproduzindo até as 15:00 da manhã de 3 de janeiro |
+
+>[!NOTE]Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
+
+### Semana de Partida {#week-parting}
+
+1. Selecione o canal e clique em **Painel** na barra de ações para abrir o painel do canal.
+
+1. Depois de inserir a data/hora de início e a hora de término/data na caixa de diálogo Atribuição **de** canal, você pode usar uma expressão ou uma versão de texto natural para especificar sua programação de recorrência.
+
+   >[!NOTE]Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, conforme sua necessidade.
+
+1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
+
+#### Expressões de exemplo para programação de semana {#example-two}
+
+A tabela a seguir resume algumas expressões de exemplo que podem ser adicionadas ao agendamento enquanto o canal é atribuído a uma exibição.
+
+| **Expressão** | **Interpretação** |
+|---|---|
+| Seg,Ter,Qua ou Qua | o ativo é reproduzido no ativo no canal de segunda a quarta |
+| antes das 8:00 | o ativo no canal é reproduzido antes das 8:00 da manhã todos os dias |
+| depois das 14:00 | o ativo no canal é reproduzido depois das 14:00 horas todos os dias |
+| depois das 12:15 e antes das 12:45 | o ativo no canal é reproduzido depois das 12h15 todos os dias por 30 minutos |
+| antes das 12:15 também depois das 12:45 | o canal é reproduzido antes das 12h15 todos os dias e depois também depois das 12h45 |
+
+>[!NOTE]Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
+
+
+### Mês de separação {#month-parting}
+
+1. Selecione o canal e clique em **Painel** na barra de ações para abrir o painel do canal.
+
+1. Depois de inserir a data/hora de início e a hora de término/data na caixa de diálogo Atribuição **de** canal, você pode usar uma expressão ou uma versão de texto natural para especificar sua programação de recorrência.
+
+   >[!NOTE]Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, conforme sua necessidade.
+
+1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
+
+#### Expressões de exemplo para a separação mensal {#example-three}
+
+A tabela a seguir resume algumas expressões de exemplo que podem ser adicionadas ao agendamento enquanto o canal é atribuído a uma exibição.
+
+| **Expressão** | **Interpretação** |
+|---|---|
+| de fevereiro,maio,agosto,novembro | o ativo é reproduzido no canal em fevereiro, maio, agosto, novembro |
+
+>[!NOTE]Ao definir dias da semana e meses, você pode usar as notas de mão curta e de nome completo, como Mon/Segunda e Jan/Janeiro.
+
+>[!NOTE]Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
 
