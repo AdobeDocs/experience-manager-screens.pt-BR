@@ -5,28 +5,40 @@ description: Siga esta página para saber mais sobre a criação de modelos pers
 seo-description: Siga esta página para saber mais sobre a criação de modelos personalizados em layouts MultiZone.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 23208ed9e4e293cfcec65305918f35573c20cc02
+source-git-commit: 9e3f26e10a5168511b2bf138f8ce36b94778b339
 
 ---
 
 
-# Criação de modelos personalizados em layouts de várias zonas {#creating-custom-templates-multizone}
+# Criação de modelos personalizados para layouts de várias zonas {#creating-custom-templates-multizone}
 
-Esta página mostra como você pode criar um modelo personalizado em um layout multizona.
+Esta página mostra como você pode criar um modelo personalizado para um layout multizona.
 
-## Convenção de nomenclatura {#name-terms}
+## Considerações importantes {#considerations}
 
-Antes de entender como criar modelos personalizados de várias zonas para usar em um projeto do AEM Screens, é recomendável entender a versão dos modelos que você deseja criar.
+Há duas considerações importantes que você deve estar ciente antes de criar um modelo personalizado no layout de várias zonas:
 
-| **Nome do layout** | **Descrição** |
-|---|---|
-| Left20-LandscapeHD3Zone | Refere-se a um layout paisagem de 3 zonas que permite criar 3 zonas com zona 1 como 20% do ecrã horizontal e vertical a partir da esquerda, zona 2 como 80 % do ecrã horizontal e 20 % do ecrã vertical justificado à direita, zona 3 como 100 % da horizontal e 80 % do ecrã vertical com relação de aspecto de 16:9 |
-| Upper20-PortraitHD2Zone | Refere-se a um modelo de retrato de 2 zonas que cobre 20% da tela do topo, com proporção de 16:9 |
-| Right20-LandscapeSD3Zone | Refere-se a um modelo de 3 zonas que cobre 20% da tela da direita, com relação de aspecto de 4:3 |
+1. **Tamanho ou porcentagens** de pixels fixos:
 
-##  Casos de uso de exemplo {#example-use-cases}
+   Você deve decidir se deseja usar o tamanho de pixel fixo para diferentes zonas para o layout personalizado ou se deseja criar um layout personalizado usando porcentagens.
 
-## Layout Left20-LandscapeHD3Zone {#custom-template-one}
+   > [!NOTE]
+   > A vantagem de usar a porcentagem para definir zonas para seu layout personalizado permite reutilizar o modelo em uma variedade de tamanhos de tela.
+
+1. **Convenção** de nomenclatura:
+
+   Antes de entender como criar modelos personalizados de várias zonas para usar em um projeto do AEM Screens, é recomendável entender a versão dos modelos que você deseja criar.
+
+   | **Nome do layout** | **Descrição** |
+   |---|---|
+   | Left20-LandscapeHD3Zone | Refere-se a um layout paisagem de 3 zonas que permite criar 3 zonas com zona 1 como 20% do ecrã horizontal e vertical a partir da esquerda, zona 2 como 80 % do ecrã horizontal e 20 % do ecrã vertical justificado à direita, zona 3 como 100 % da horizontal e 80 % do ecrã vertical com relação de aspecto de 16:9 |
+   | Upper20-PortraitHD2Zone | Refere-se a um modelo de retrato de 2 zonas que cobre 20% da tela do topo, com proporção de 16:9 |
+   | Right20-LandscapeSD3Zone | Refere-se a um modelo de 3 zonas que cobre 20% da tela da direita, com relação de aspecto de 4:3 |
+
+   > [!IMPORTANT]
+   > As zonas definidas no layout personalizado podem não corresponder à proporção geral do layout inteiro. A convenção de nomenclatura seguida neste documento especifica a proporção do layout personalizado como um todo.
+
+## Exemplo de uso de caso Left20-LandscapeHD3Zone Layout {#custom-template-one}
 
 Siga a seção abaixo para criar um modelo personalizado *Left20-LandscapeHD3Zone* com a seguinte configuração:
 
@@ -131,13 +143,17 @@ Siga as etapas abaixo para usar o modelo personalizado acima em seu projeto do A
 
 1. Clique em **Criar** na barra de ação e selecione o modelo **Left20-LandscapeHD3Zone** no assistente de **Criação** .
 
-1. Depois de criar um canal com o modelo personalizado, você pode adicionar ativos ao seu canal a partir do editor.
+   ![image](/help/user-guide/assets/custom-multizone/custom-template9.png)
+
+1. Depois de criar um canal com o modelo personalizado, você pode adicionar ativos ao seu canal a partir do editor. A visualização a seguir mostra as imagens em um modelo personalizado.
+
+   ![image](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
 ## Inserir uma imagem como a camada de plano de fundo {#inserting-image}
 
 É possível inserir uma imagem como uma camada de plano de fundo no layout:
 
-Você pode ajustar a regra CSS para usar o que é chamado de &quot;data-uri&quot; e inserir diretamente a imagem (codificada em Base64) no arquivo CSS.
+Você pode ajustar a regra CSS para usar o que é chamado de &quot;data-uri&quot; e inserir diretamente a imagem (codificada em Base64) no arquivo CSS, criado em (etapa 13), *static.css*.
 
 Isso é feito da seguinte forma:
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
@@ -150,7 +166,7 @@ Ou você pode seguir as etapas abaixo:
 
 ## Atualização da cor de fundo {#updating-color}
 
-Para alterar a cor do plano de fundo, adicione o seguinte código ao arquivo xml:
+Para alterar a cor do plano de fundo, adicione o seguinte código ao arquivo xml (etapa 13), *static.css*.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
 
