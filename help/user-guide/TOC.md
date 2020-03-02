@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
+source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
 
 ---
 
@@ -57,12 +57,12 @@ source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
       + [Atualização em massa off-line](bulk-offline-update.md)
       + [Serviço de notificações do AEM Screens](screens-notifications-service.md)
       + [Uso de Fragmentos de experiência](experience-fragments-in-screens.md)
-      + [Agendamento do nível do ativo](asset-level-scheduling.md)
+      + [Ativação de nível de ativo](asset-level-scheduling.md)
+      + [Ativação de nível de canal](channel-level-activation.md)
       + [Criação e gerenciamento de uma Live Copy](managing-livecopy.md)
       + [Criando um fluxo de trabalho de preenchimento de vídeo](creating-a-video-padding-workflow.md)
       + [Adição de componentes a um canal](adding-components-to-a-channel.md)
       + [Sequências incorporadas](embedded-sequences.md)
-      + [Ativação no nível do canal - Reprodução de evento único](channel-level-activation.md)
       + [Layout de várias zonas](multi-zone-layout-aem-screens.md)
       + [Representações de vídeo](generating-renditions.md)
       + [Uso de uma sequência incorporada dinâmica](dynamic-embedded-sequences.md)
@@ -89,7 +89,7 @@ source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
    + [Criação de componentes](creating-components.md)
    + [Como incorporar um aplicativo REACT usando o editor SPA AEM e como integrar ao AEM Screens Analytics](embedding-react-app.md)
    + [Configuração do ContextHub no AEM Screens](configuring-context-hub.md)
-   + [Criação de modelos personalizados de layouts de várias zonas](creating-custom-templates-multizone-layouts.md)
+   + [Criação de modelos personalizados para layouts de várias zonas](creating-custom-templates-multizone-layouts.md)
 + Solução de problemas e perguntas frequentes {#troubleshooting}
    + [Perguntas frequentes sobre o AEM Screens](aem-screens-faqs.md)
    + [Solução de problemas do Device Control Center](monitoring-screens.md)
