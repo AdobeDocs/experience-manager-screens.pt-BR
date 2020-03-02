@@ -4,7 +4,7 @@ seo-title: Ativação de nível de ativo
 description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
 seo-description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
 translation-type: tm+mt
-source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
+source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
 
 ---
 
@@ -46,7 +46,7 @@ Siga as etapas abaixo para executar a programação de nível de ativos:
 
 1. Selecione qualquer canal e clique em **Editar** na barra de ações para adicionar ou editar conteúdo em seu canal.
 
-   ![screen_shot_2018-04-23at111422am](assets/screen_shot_2018-04-23at111422am.png)
+   ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
    >[!NOTE]
    >
@@ -58,13 +58,13 @@ Siga as etapas abaixo para executar a programação de nível de ativos:
 
 1. Clique em **Editar** para abrir o editor de canal e selecionar um ativo ao qual deseja aplicar o agendamento.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
 
 1. Selecione o ativo e clique no canto superior esquerdo de **Configurar** (ícone de chave) para abrir as propriedades da imagem.
 
    Click the **Activation** tab.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. Você pode especificar a data do seletor de datas usando os campos **Ativo de** e **Ativo até** .
 
