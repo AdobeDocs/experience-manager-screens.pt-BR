@@ -4,14 +4,14 @@ seo-title: Ativação de nível de ativo
 description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
 seo-description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
 translation-type: tm+mt
-source-git-commit: e58d2ffa1886199f1602de933dc0d8e5fb293cdd
+source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
 
 ---
 
 
 # Ativação de nível de ativo {#asset-level-scheduling}
 
-Esta seção descreve a ativação de nível de ativo para os ativos usados em Canais.
+Esta página descreve a ativação de nível de ativo para os ativos usados em Canais.
 
 Os seguintes tópicos são abordados nesta seção:
 
@@ -58,9 +58,9 @@ Siga as etapas abaixo para executar a programação de nível de ativos:
 
 1. Clique em **Editar** para abrir o editor de canal e selecionar um ativo ao qual deseja aplicar o agendamento.
 
-   ![screen_shot_2018-04-24at90434pm](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level1.png)
 
-1. Selecione o ativo e clique no ícone **Configurar** na parte superior esquerda para abrir as propriedades da imagem.
+1. Selecione o ativo e clique no canto superior esquerdo de **Configurar** (ícone de chave) para abrir as propriedades da imagem.
 
    Click the **Activation** tab.
 
@@ -80,7 +80,7 @@ Suponha que você queira exibir uma imagem somente às sextas-feiras das 13:00 �
 
 ### Programação de anúncios {#day-parting}
 
-1. Selecione o ativo e clique no ícone **Configurar** para abrir a caixa de diálogo de propriedades.
+1. Selecione o ativo e clique em **Configurar** (ícone de chave) para abrir a caixa de diálogo de propriedades.
 
 1. Depois de inserir a data/hora de início e a hora de término/data, você pode usar uma expressão ou uma versão de texto natural para especificar a programação de recorrência.
 
@@ -108,7 +108,7 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 
 ### Semana de Partida {#week-parting}
 
-1. Selecione o ativo e clique no ícone **Configurar** para abrir a caixa de diálogo de propriedades.
+1. Selecione o ativo e clique em **Configurar** (ícone de chave) para abrir a caixa de diálogo de propriedades.
 
 1. Depois de inserir a data/hora de início e a hora de término/data, você pode usar uma expressão ou uma versão de texto natural para especificar a programação de recorrência.
 
@@ -135,7 +135,8 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 
 ### Mês de separação {#month-parting}
 
-1. Selecione o ativo e clique no ícone **Configurar** para abrir a caixa de diálogo de propriedades.
+1. Selecione o ativo e clique em **Configurar** (ícone de chave) para abrir a caixa de diálogo de propriedades.
+
 1. Depois de inserir a data/hora de início e a hora de término/data, você pode usar uma expressão ou uma versão de texto natural para especificar a programação de recorrência.
 
    > [!NOTE]
