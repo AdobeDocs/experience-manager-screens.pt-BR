@@ -4,7 +4,7 @@ seo-title: Ativação de nível de ativo
 description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
 seo-description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
 translation-type: tm+mt
-source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
+source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
 
 ---
 
@@ -38,7 +38,7 @@ Os seguintes tópicos são abordados nesta seção:
 
 Com esse recurso, não somente você pode especificar a data e a hora de início e término, como também um padrão de recorrência.
 
-## Reprodução de evento único {#single-event-playback}
+## Janela de ativação {#single-event-playback}
 
 A Ativação no nível do ativo é feita configurando a guia **Ativação** ao acessar as propriedades de um ativo.
 
