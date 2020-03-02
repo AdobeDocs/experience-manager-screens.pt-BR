@@ -11,12 +11,12 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
 
 ---
 
 
-# Ativação no nível do canal - Reprodução de evento único {#channel-level-activation-single-event-playback}
+# Ativação de nível de canal {#channel-level-activation-single-event-playback}
 
 O uso da Ativação de nível de canal aborda os seguintes tópicos:
 
@@ -87,7 +87,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 1. **Criar exibição em Localização**
 
-   1. Navegue até Ativação **de nível de** canal &gt; **Locais** &gt; **Região**.
+   1. Navegue até Ativação **de nível de** canal > **Locais** > **Região**.
    1. Selecione **Região** e clique em **+ Criar** na barra de ações.
    1. Selecione **Exibir** no assistente e crie uma exibição chamada **RegionDisplay.**
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
@@ -96,10 +96,10 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
    Para **MainAdChannel:**
 
-   1. Navegue até Ativação **de nível de** canal &gt; **Locais** &gt; **Região** &gt; **Exibição** de região e clique em **Atribuir canal** na barra de ações.
+   1. Navegue até Ativação **de nível de** canal > **Locais** > **Região** > **Exibição** de região e clique em **Atribuir canal** na barra de ações.
    1. **A caixa de diálogo Atribuição** de canal é aberta.
    1. Select **Reference Channel**.. by path.
-   1. Selecione o Caminho **do** canal como Ativação **de nível de** canal —&gt; ***Canais*** —&gt; ***MainAdChannel***.
+   1. Selecione o Caminho **do** canal como Ativação **de nível de** canal —> ***Canais*** —> ***MainAdChannel***.
    1. A Função **de** canal é preenchida como **canal principal**.
    1. Selecione a **Prioridade** como **1**.
    1. Select the **Supported Events** as **Initial Load** and **Idle Screen**.
@@ -108,14 +108,14 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
    >[!NOTE]
    >
-   >Você também pode atribuir canal do painel de exibição navegando até **Channel Level Ativation** —&gt; **Locations** —&gt; **Region** —&gt; **RegionDisplay** e clicando em **Dashboard** na barra de ação. Clique em **+ Atribuir canal** no painel CANAIS E PROGRAMAS **ATRIBUÍDOS** .
+   >Você também pode atribuir canal do painel de exibição navegando até **Channel Level Ativation** —> **Locations** —> **Region** —> **RegionDisplay** e clicando em **Dashboard** na barra de ação. Clique em **+ Atribuir canal** no painel CANAIS E PROGRAMAS **ATRIBUÍDOS** .
 
    Da mesma forma, atribua channel **TargetedSinglePlay** para display**:
 
-   1. Navegue até **Channel Level Ativation** —&gt; **Locations** —&gt; **Region** —&gt; **RegionDisplay** e clique em **Atribuir canal** na barra de ações.
+   1. Navegue até **Channel Level Ativation** —> **Locations** —> **Region** —> **RegionDisplay** e clique em **Atribuir canal** na barra de ações.
    1. **A caixa de diálogo Atribuição** de canal é aberta.
    1. Select **Reference Channel**.. by path.
-   1. Selecione o Caminho **do** canal como Ativação **de nível de** canal* —&gt; ***Canais*** —&gt; ***TargetedSinglePlay***.
+   1. Selecione o Caminho **do** canal como Ativação **de nível de** canal* —> ***Canais*** —> ***TargetedSinglePlay***.
    1. A Função **de** canal é preenchida como **targetedsingleplay**.
    1. Defina a **Prioridade** como **2**.
    1. Selecione os eventos **** suportados como carga **** inicial, tela **** inativa e **temporizador**, *conforme mostrado na figura abaixo.
