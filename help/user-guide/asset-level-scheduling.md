@@ -4,7 +4,7 @@ seo-title: Ativação de nível de ativo
 description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
 seo-description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
 translation-type: tm+mt
-source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
+source-git-commit: bae1749c6b39d263e3cf2a187a3b928981e5eadc
 
 ---
 
@@ -99,9 +99,7 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 | depois das 14:00 | o ativo no canal é reproduzido depois das 14:00 horas todos os dias |
 | depois das 12:15 e antes das 12:45 | o ativo no canal é reproduzido depois das 12h15 todos os dias por 30 minutos |
 | antes das 12:15 também depois das 12:45 | o ativo no canal é reproduzido antes das 12h15 todos os dias e depois também depois das 12h45 |
-| Seg,Ter,Qua ou Mon-Qua | o ativo é reproduzido no ativo no canal de segunda a quarta |
-| no primeiro dia de janeiro depois das 14:00 também no dia 2 de janeiro também no dia 3 de janeiro antes das 15:00 | o ativo no canal começa a ser reproduzido depois das 14:00 horas do dia 1º de janeiro, continua sendo reproduzido durante todo o dia do dia 2 de janeiro até as 15:00 da manhã do dia 3 de janeiro |
-| no dia 1-2 de janeiro depois das 14:00 também no dia 2-3 de janeiro antes das 15:00 | o ativo no canal inicia o player depois das 14:00 horas de 1º de janeiro, continua reproduzindo até as 15:00 da manhã de 2º de janeiro, e começa novamente em 2º de janeiro às 14:00 e continua reproduzindo até as 15:00 da manhã de 3 de janeiro |
+
 
 >[!NOTE]
 >Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
@@ -123,14 +121,11 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 
 | **Expressão** | **Interpretação** |
 |---|---|
-| Seg,Ter,Qua ou Mon-Qua | o ativo é reproduzido no ativo no canal de segunda a quarta |
-| antes das 8:00 | o ativo no canal é reproduzido antes das 8:00 da manhã todos os dias |
-| depois das 14:00 | o ativo no canal é reproduzido depois das 14:00 horas todos os dias |
-| depois das 12:15 e antes das 12:45 | o ativo no canal é reproduzido depois das 12h15 todos os dias por 30 minutos |
-| antes das 12:15 também depois das 12:45 | o canal é reproduzido antes das 12h15 todos os dias e depois também depois das 12h45 |
+| Seg,Qua,Sex | o ativo é reproduzido no canal de segunda, quarta e sexta-feira |
+| Mon-Thu | o ativo é reproduzido no canal de segunda a quinta |
 
 >[!NOTE]
->Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
+>Você também pode usar a notação _completa_ (isto é, segunda, quarta, sexta-feira, sexta-feira) em vez da notação de mão _curta_ (isto é, Seg, Qua, Qua, Sex).
 
 
 ### Mês de separação {#month-parting}
@@ -150,13 +145,39 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 
 | **Expressão** | **Interpretação** |
 |---|---|
-| de fevereiro,maio,agosto,novembro | o ativo é reproduzido no canal em fevereiro, maio, agosto, novembro |
+| de fevereiro,maio,agosto,novembro | o ativo é reproduzido no canal em fevereiro, maio, agosto e novembro |
+| de fevereiro a julho | o ativo é reproduzido no canal de fevereiro até o final de julho |
+
+> [!NOTE]
+> Ao definir dias da semana e meses, você pode usar as notas de mão curta e de nome completo, como Mon/Segunda e Jan/Janeiro.
+
+### Combinações de peças {#combined-parting}
+
+1. Selecione o ativo e clique em **Configurar** (ícone de chave) para abrir a caixa de diálogo de propriedades.
+
+1. Depois de inserir a data/hora de início e a hora de término/data, você pode usar uma expressão ou uma versão de texto natural para especificar a programação de recorrência.
+
+   > [!NOTE]
+   > Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
+
+1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
+
+#### Expressões de exemplo para combinações de partições {#example-four}
+
+A tabela a seguir resume algumas expressões de exemplo que podem ser adicionadas ao agendamento enquanto o canal é atribuído a uma exibição.
+
+| **Expressão** | **Interpretação** |
+|---|---|
+| depois das 6:00 e antes das 18:00 em Lua,Qua de Jan-Mar | o ativo é reproduzido no canal entre as 18h e as 18h de segunda e quarta, de janeiro a fim de março |
+| no primeiro dia de janeiro depois das 14:00 também no dia 2 de janeiro também no dia 3 de janeiro antes das 15:00 | o ativo no canal começa a ser reproduzido depois das 14:00 horas do dia 1º de janeiro, continua sendo reproduzido durante todo o dia do dia 2 de janeiro até as 15:00 da manhã do dia 3 de janeiro |
+| no dia 1-2 de janeiro depois das 14:00 também no dia 2-3 de janeiro antes das 15:00 | o ativo no canal inicia o player depois das 14:00 horas de 1º de janeiro, continua reproduzindo até as 15:00 da manhã de 2º de janeiro, e começa novamente em 2º de janeiro às 14:00 e continua reproduzindo até as 15:00 da manhã de 3 de janeiro |
 
 > [!NOTE]
 > Ao definir dias da semana e meses, você pode usar as notas de mão curta e de nome completo, como Mon/Segunda e Jan/Janeiro.
 
 >[!NOTE]
-> Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
+>Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
+
 
 ## Ativação de vários ativos {#multi-asset-scheduling}
 
