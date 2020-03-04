@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 23ecaf3533c2298d98c37f2bbcb6cbe50aed17fc
 
 ---
 
@@ -22,7 +22,7 @@ Using ***Embedded Sequences***, for channels, allows the user to add components 
 
 ## Adição de sequências incorporadas {#adding-embedded-sequences}
 
-Você tem a opção de adicionar os seguintes componentes ao canal de sequência:
+Você tem a opção de adicionar os seguintes componentes ao seu canal de sequência:
 
 * Sequência incorporada
 * Sequência incorporada dinâmica
@@ -37,13 +37,13 @@ Você pode adicionar uma sequência incorporada ao seu canal. Uma sequência inc
 
 >[!NOTE]
 >
->***Caminho do canal ***define uma referência explícita ao canal.
+>***O Caminho*** do canal define uma referência explícita ao canal.
 >
 >Para saber mais sobre *Caminho do canal*, consulte [Atribuição de canal](channel-assignment.md) na seção sobre criação da documentação do Screens.
 
 Siga as etapas abaixo para adicionar uma sequência incorporada ao seu canal:
 
-1. Selecione o canal em que você deseja incorporar uma página. For example, **We.Retail In-Store** --&gt; **Channels** --&gt;** Idle Channel**.
+1. Selecione o canal em que você deseja incorporar uma página. For example, **We.Retail In-Store** --> **Channels** --> **Idle Channel**.
 
 1. Click **Edit** from the action bar to open the channel in the editor mode.
 1. Clique no ícone de componentes na barra lateral esquerda para adicionar a página incorporada. Drag and drop the **Embedded Sequence** to the editor.
@@ -53,12 +53,9 @@ Siga as etapas abaixo para adicionar uma sequência incorporada ao seu canal:
 
 1. Defina a Estratégia **de reprodução** medida como **normal**.
 
-By default, it is set to **normal**. Setting the value to **normal*** (Play all items)* means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item*** (Play a single item)* and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
+By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
 
->[!NOTE]
->
->**Importante:**
->
+>[!Iimportante]
 >Você deve atribuir o canal (usado em sequência incorporada) à mesma exibição.
 >
 >Siga as etapas abaixo depois de adicionar uma sequência incorporada ao seu canal a partir das etapas anteriores:
@@ -94,15 +91,15 @@ Você pode adicionar uma sequência incorporada dinâmica ao seu canal. Uma sequ
 
 Siga as etapas abaixo para adicionar uma sequência incorporada ao seu canal:
 
-1. Selecione o canal em que você deseja incorporar uma sequência dinâmica. For example, **We.Retail In-Store** --&gt; **Channels** --&gt; **Idle Channel**.
+1. Selecione o canal em que você deseja incorporar uma sequência dinâmica. For example, **We.Retail In-Store** --> **Channels** --> **Idle Channel**.
 
 1. Click **Edit** from the action bar to open the channel in the editor mode.
 1. Clique no ícone de componentes na barra lateral esquerda para adicionar a sequência incorporada dinâmica. Arraste e **solte o item Dinâmico** **Sequência incorporada **para o editor.
 
-1. Double-click the **Dynamic** **Embedded Sequence **component to add the page to your sequence channel.
+1. Double-click the **Dynamic** **Embedded Sequence** component to add the page to your sequence channel.
 
 1. Enter the **Channel Assignment Role**.
-1. Defina a Estratégia **de reprodução** medida como **normal**. By default, it is set to **normal**. Setting the value to **normal*** (Play all items)* means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item*** (Play a single item)* and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
+1. Defina a Estratégia **de reprodução** medida como **normal**. By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
 
 1. Select the **Duration (ms)** in **Sequence** tab for your embedded channel in the sequence.
 
