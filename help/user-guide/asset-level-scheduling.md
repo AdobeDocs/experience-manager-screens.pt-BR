@@ -4,7 +4,7 @@ seo-title: Ativação de nível de ativo
 description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
 seo-description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
 translation-type: tm+mt
-source-git-commit: bae1749c6b39d263e3cf2a187a3b928981e5eadc
+source-git-commit: 74b0a98e3123f703db7f353685aed69d6012709d
 
 ---
 
@@ -173,10 +173,7 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 | no dia 1-2 de janeiro depois das 14:00 também no dia 2-3 de janeiro antes das 15:00 | o ativo no canal inicia o player depois das 14:00 horas de 1º de janeiro, continua reproduzindo até as 15:00 da manhã de 2º de janeiro, e começa novamente em 2º de janeiro às 14:00 e continua reproduzindo até as 15:00 da manhã de 3 de janeiro |
 
 > [!NOTE]
-> Ao definir dias da semana e meses, você pode usar as notas de mão curta e de nome completo, como Mon/Segunda e Jan/Janeiro.
-
->[!NOTE]
->Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
+> Ao definir dias da semana e meses, você pode usar as notas de mão curta e de nome completo, como Mon/Segunda e Jan/Janeiro.  Além disso, você também pode usar a notação de tempo __ militar (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
 
 
 ## Ativação de vários ativos {#multi-asset-scheduling}
