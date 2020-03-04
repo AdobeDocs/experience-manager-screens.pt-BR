@@ -19,7 +19,7 @@ Os seguintes tópicos são abordados nesta seção:
 * Janela de ativação
 * Reprodução de evento único
 * Tratamento de recorrência em ativos
-   * Programação de anúncios
+   * Partilha de Dia
    * Semana de Partida
    * Mês de separação
 * Ativação de vários ativos
@@ -78,14 +78,14 @@ Você pode programar a recorrência de ativos em determinados intervalos, diaria
 
 Suponha que você queira exibir uma imagem somente às sextas-feiras das 13:00 às 10:00 horas. Você pode usar a guia **Ativação** para definir o intervalo recorrente desejado para o ativo.
 
-### Programação de anúncios {#day-parting}
+### Partilha de Dia {#day-parting}
 
 1. Selecione o ativo e clique em **Configurar** (ícone de chave) para abrir a caixa de diálogo de propriedades.
 
 1. Depois de inserir a data/hora de início e a hora de término/data, você pode usar uma expressão ou uma versão de texto natural para especificar a programação de recorrência.
 
    > [!NOTE]
-   > Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, conforme sua necessidade.
+   > Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
 
 1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
 
@@ -99,9 +99,9 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 | depois das 14:00 | o ativo no canal é reproduzido depois das 14:00 horas todos os dias |
 | depois das 12:15 e antes das 12:45 | o ativo no canal é reproduzido depois das 12h15 todos os dias por 30 minutos |
 | antes das 12:15 também depois das 12:45 | o ativo no canal é reproduzido antes das 12h15 todos os dias e depois também depois das 12h45 |
-| Seg,Ter,Qua ou Qua | o ativo é reproduzido no ativo no canal de segunda a quarta |
+| Seg,Ter,Qua ou Mon-Qua | o ativo é reproduzido no ativo no canal de segunda a quarta |
 | no primeiro dia de janeiro depois das 14:00 também no dia 2 de janeiro também no dia 3 de janeiro antes das 15:00 | o ativo no canal começa a ser reproduzido depois das 14:00 horas do dia 1º de janeiro, continua sendo reproduzido durante todo o dia do dia 2 de janeiro até as 15:00 da manhã do dia 3 de janeiro |
-| no dia 1-2 de janeiro depois das 14:00 também no dia 2-3 de janeiro antes das 3:00 | o ativo no canal inicia o player depois das 14:00 horas de 1º de janeiro, continua reproduzindo até as 15:00 da manhã de 2º de janeiro, e começa novamente em 2º de janeiro às 14:00 e continua reproduzindo até as 15:00 da manhã de 3 de janeiro |
+| no dia 1-2 de janeiro depois das 14:00 também no dia 2-3 de janeiro antes das 15:00 | o ativo no canal inicia o player depois das 14:00 horas de 1º de janeiro, continua reproduzindo até as 15:00 da manhã de 2º de janeiro, e começa novamente em 2º de janeiro às 14:00 e continua reproduzindo até as 15:00 da manhã de 3 de janeiro |
 
 >[!NOTE]
 >Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
@@ -113,7 +113,7 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 1. Depois de inserir a data/hora de início e a hora de término/data, você pode usar uma expressão ou uma versão de texto natural para especificar a programação de recorrência.
 
    > [!NOTE]
-   > Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, conforme sua necessidade.
+   > Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
 
 1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
 
@@ -123,7 +123,7 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 
 | **Expressão** | **Interpretação** |
 |---|---|
-| Seg,Ter,Qua ou Qua | o ativo é reproduzido no ativo no canal de segunda a quarta |
+| Seg,Ter,Qua ou Mon-Qua | o ativo é reproduzido no ativo no canal de segunda a quarta |
 | antes das 8:00 | o ativo no canal é reproduzido antes das 8:00 da manhã todos os dias |
 | depois das 14:00 | o ativo no canal é reproduzido depois das 14:00 horas todos os dias |
 | depois das 12:15 e antes das 12:45 | o ativo no canal é reproduzido depois das 12h15 todos os dias por 30 minutos |
@@ -140,7 +140,7 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 1. Depois de inserir a data/hora de início e a hora de término/data, você pode usar uma expressão ou uma versão de texto natural para especificar a programação de recorrência.
 
    > [!NOTE]
-   > Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, conforme sua necessidade.
+   > Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
 
 1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
 
@@ -168,7 +168,7 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 
 ### Pré-requisitos {#prerequisites}
 
-Para usar a ativação em nível de vários ativos, crie um projeto do AEM Screens com um canal de sequência. Por exemplo, o caso de uso a seguir mostra a implementação do recurso:
+Para usar a ativação de vários ativos no nível dos ativos, crie um projeto do AEM Screens com um canal de sequência. Por exemplo, o caso de uso a seguir mostra a implementação do recurso:
 
 * Criar um projeto do AEM Screens chamado de **MultiAssetDemo**
 * Crie um canal chamado **MultiAssetChannel** e adicione conteúdo ao canal, como mostrado na figura abaixo
