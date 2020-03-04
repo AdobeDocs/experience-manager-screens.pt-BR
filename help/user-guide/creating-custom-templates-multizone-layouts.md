@@ -20,7 +20,7 @@ Há duas considerações importantes que você deve estar ciente antes de criar 
 
 1. **Tamanho ou porcentagens** de pixels fixos:
 
-   Você deve decidir se deseja usar o tamanho de pixel fixo para diferentes zonas para o layout personalizado ou se deseja criar um layout personalizado usando porcentagens.
+   Você deve decidir se deseja usar o tamanho de pixel fixo para diferentes zonas para seu layout personalizado ou se deseja criar um layout personalizado usando porcentagens.
 
    > [!NOTE]
    > A vantagem de usar a porcentagem para definir zonas para seu layout personalizado permite reutilizar o modelo em uma variedade de tamanhos de tela.
@@ -44,7 +44,7 @@ Siga a seção abaixo para criar um modelo personalizado *Left20-LandscapeHD3Zon
 
 * **Left20** refere-se à zona superior à esquerda, que cobre 20% do tamanho da tela horizontal e vertical.
 * **Paisagem** refere-se à orientação do ecrã
-* **HD** refere-se à proporção de 16:9
+* **HD** refere-se à relação de aspecto como 16:9
 * **3A zona** se refere a três zonas do monitor
 
 ## Representação visual do layout de várias zonas {#multi-layout-visual-one}
@@ -164,7 +164,7 @@ Ou você pode seguir as etapas abaixo:
 1. Use um link direto para a imagem no CSS acima, em vez da variante &quot;data-uri&quot;
 
 
-## Atualização da cor de fundo {#updating-color}
+## Atualização da cor do plano de fundo {#updating-color}
 
 Para alterar a cor do plano de fundo, adicione o seguinte código ao arquivo xml (etapa 13), *static.css*.
 
