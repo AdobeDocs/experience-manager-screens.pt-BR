@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
+source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 
 ---
 
@@ -29,6 +29,7 @@ Os seguintes tópicos são abordados nesta seção:
    * Partilha de Dia
    * Semana de Partida
    * Mês de separação
+   * Combinação de peças
 * Usando a ativação de nível de canal como uma reprodução de evento único
 
 ## Visão geral {#overview}
@@ -237,4 +238,28 @@ Ao definir dias da semana e meses, você pode usar as notas de mão curta e de n
 
 >[!NOTE]
 Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
+
+### Combinação de peças {#combined-parting}
+
+1. Selecione o canal e clique em **Painel** na barra de ações para abrir o painel do canal.
+
+1. Depois de inserir a data/hora de início e a hora de término/data na caixa de diálogo Atribuição **de** canal, você pode usar uma expressão ou uma versão de texto natural para especificar sua programação de recorrência.
+
+   >[!NOTE]
+Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
+
+1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
+
+#### Expressões de exemplo para combinação de partições {#example-four}
+
+A tabela a seguir resume algumas expressões de exemplo que podem ser adicionadas ao agendamento enquanto o canal é atribuído a uma exibição.
+
+| **Expressão** | **Interpretação** |
+|---|---|
+| depois das 6:00 e antes das 18:00 em Lua,Qua de Jan-Mar | o ativo é reproduzido no canal entre as 18h e as 18h de segunda e quarta, de janeiro a fim de março |
+| no primeiro dia de janeiro depois das 14:00 também no dia 2 de janeiro também no dia 3 de janeiro antes das 15:00 | o ativo no canal começa a ser reproduzido depois das 14:00 horas do dia 1º de janeiro, continua sendo reproduzido durante todo o dia do dia 2 de janeiro até as 15:00 da manhã do dia 3 de janeiro |
+| no dia 1-2 de janeiro depois das 14:00 também no dia 2-3 de janeiro antes das 15:00 | o ativo no canal inicia o player depois das 14:00 horas de 1º de janeiro, continua reproduzindo até as 15:00 da manhã de 2º de janeiro, e começa novamente em 2º de janeiro às 14:00 e continua reproduzindo até as 15:00 da manhã de 3 de janeiro |
+
+>[!NOTE]
+Ao definir dias da semana e meses, você pode usar as notas de mão curta e de nome completo, como Mon/Segunda e Jan/Janeiro.  Além disso, você também pode usar a notação de tempo __ militar (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
 
