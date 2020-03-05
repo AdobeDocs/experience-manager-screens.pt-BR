@@ -4,7 +4,7 @@ seo-title: Ativação de nível de ativo
 description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
 seo-description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
 translation-type: tm+mt
-source-git-commit: 74b0a98e3123f703db7f353685aed69d6012709d
+source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 
 ---
 
@@ -22,6 +22,7 @@ Os seguintes tópicos são abordados nesta seção:
    * Partilha de Dia
    * Semana de Partida
    * Mês de separação
+   * Combinação de peças
 * Ativação de vários ativos
 
 >[!CAUTION]
@@ -151,7 +152,7 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 > [!NOTE]
 > Ao definir dias da semana e meses, você pode usar as notas de mão curta e de nome completo, como Mon/Segunda e Jan/Janeiro.
 
-### Combinações de peças {#combined-parting}
+### Combinação de peças {#combined-parting}
 
 1. Selecione o ativo e clique em **Configurar** (ícone de chave) para abrir a caixa de diálogo de propriedades.
 
@@ -162,7 +163,7 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 
 1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
 
-#### Expressões de exemplo para combinações de partições {#example-four}
+#### Expressões de exemplo para combinação de partições {#example-four}
 
 A tabela a seguir resume algumas expressões de exemplo que podem ser adicionadas ao agendamento enquanto o canal é atribuído a uma exibição.
 
