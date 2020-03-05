@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
+source-git-commit: d6006c553b53dc7dfb52a03cfeb1a50e8e8de792
 
 ---
 
@@ -34,7 +34,7 @@ Os seguintes tópicos são abordados nesta seção:
 
 ## Visão geral {#overview}
 
-***A Ativação*** de nível de canal permite que os canais alternem após uma programação definida em particular. O canal de evento único substitui o canal principal após um agendamento definido e é reproduzido por um determinado tempo, até que o canal principal reproduza seu conteúdo novamente.
+***A Ativação*** de nível de canal permite que os canais mudem após uma programação definida específica. O canal de evento único substitui o canal principal após um agendamento definido e é reproduzido por um determinado tempo, até que o canal principal reproduza seu conteúdo novamente.
 
 O exemplo a seguir fornece uma solução focando nos seguintes termos principais:
 
