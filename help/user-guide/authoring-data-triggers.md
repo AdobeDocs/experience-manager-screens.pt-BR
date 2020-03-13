@@ -12,22 +12,15 @@ source-git-commit: 24fda825220c6c2863fd76098a2f06209d9e0190
 
 Esta seção destaca como ativar a definição de metas em seus canais.
 
->>[!IImportante]A versão mínima que suporta acionadores de dados em um canal do AEM Screens é AEM 6.4.3 Feature Pack 3.
->
-
 ## Pré-requisitos {#prereqs}
 
-Antes de seguir as etapas abaixo para ativar a definição de metas nos canais, você deve aprender os [principais termos em Configuração nas telas](configuring-context-hub.md) AEM necessárias para entender o ContextHub e a definição de metas nas telas AEM.
+Antes de seguir as etapas abaixo para ativar a definição de metas nos canais, você deve saber os seguintes tópicos:
 
->[!Iimportante]
-> É recomendável que você entenda e configure as configurações do ContextHub antes de ativar a definição de metas em um canal do AEM Screens.
+1. Termos chave na configuração no AEM Screens
+1. Configurar o Data Store
+1. Configurar a segmentação do público-alvo
 
-Siga os links abaixo para obter mais informações:
-
-1. **[Configuração do armazenamento de dados](configuring-context-hub.md)**
-1. **[Configuração da segmentação do público-alvo](configuring-context-hub.md)**
-
-Após concluir as etapas anteriores, você estará pronto para ativar a definição de metas em seus canais.
+Depois de concluir as etapas anteriores, você pode estar pronto para ativar a definição de metas em seus canais.
 
 ## Visão geral da criação com acionadores de dados {#author-targeting}
 
@@ -37,7 +30,7 @@ Após concluir as etapas anteriores, você estará pronto para ativar a definiç
 
 Siga as etapas abaixo para ativar a definição de metas em seus canais.
 
-1. Navegue até um dos canais do AEM Screens. As etapas a seguir demonstram como habilitar a definição de metas usando **DataDrivenRetail** *(canal de sequência)* criado em um Canal do AEM Screens.
+1. Navegue até um dos canais do AEM Screens. As etapas a seguir demonstram como habilitar a definição de metas usando **DataDrivenRetail** criado em um Canal do AEM Screens.
 
 1. Selecione o canal **DataDrivenRetail** e clique em **Propriedades** na barra de ações.
 
