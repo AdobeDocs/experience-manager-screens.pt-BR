@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
+source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
 
 ---
 
@@ -39,7 +39,7 @@ source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
       + [Windows Player](implementing-windows-player.md)
    + Author Publish {#author-publish}
       + [Visão geral da arquitetura de publicação do autor](author-publish-architecture-overview.md)
-      + [Configuração do autor e publicação](author-and-publish.md)
+      + [Configuração do autor e da publicação](author-and-publish.md)
    + Integração do Analytics com o AEM Screens {#analytics-integration}
       + [Integração do Adobe Analytics](adobe-analytics-integration-aem-screens.md)
       + [Configuração do Adobe Analytics com o AEM Screens](configuring-adobe-analytics-aem-screens.md)
@@ -60,7 +60,7 @@ source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
       + [Ativação de nível de ativo](asset-level-scheduling.md)
       + [Ativação de nível de canal](channel-level-activation.md)
       + [Criação e gerenciamento de uma Live Copy](managing-livecopy.md)
-      + [Criando um fluxo de trabalho de preenchimento de vídeo](creating-a-video-padding-workflow.md)
+      + [Criação de um fluxo de trabalho de preenchimento de vídeo](creating-a-video-padding-workflow.md)
       + [Adição de componentes a um canal](adding-components-to-a-channel.md)
       + [Sequências incorporadas](embedded-sequences.md)
       + [Layout de várias zonas](multi-zone-layout-aem-screens.md)
@@ -68,6 +68,7 @@ source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
       + [Uso de uma sequência incorporada dinâmica](dynamic-embedded-sequences.md)
       + [Duração da reprodução de imagem em massa no nível do canal](channel-level-image-playback.md)
       + [Sincronização de comandos](using-command-sync.md)
+      + [Criação com acionadores de dados](authoring-data-triggers.md)
    + Gerenciamento de atualizações de conteúdo {#content-updates}
       + [Atualização de conteúdo sob demanda](on-demand-content.md)
       + [Atualização de conteúdo como serviço](content-update-as-a-service.md)
@@ -76,7 +77,7 @@ source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
       + [Canais de emergência](emergency-channel.md)
       + [Ativação da temperatura do centro de viagens](local-temperature-activation.md)
       + [Ativação da Reserva de Hospitalidade](hospitality-reservation-activation.md)
-      + [Ativação direcionada para inventário de varejo](retail-inventory-activation.md)
+      + [Ativação Direcionada para Inventário de Varejo](retail-inventory-activation.md)
       + [Aplicar transições](applying-transitions.md)
       + [Transições de várias zonas para uma única zona](multizone-to-singlezone.md)
       + [Canal de aquisição de uso único](single-use-takeover-channel.md)
