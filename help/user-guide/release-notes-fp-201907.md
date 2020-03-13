@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 1f90169ea2dab8bd63874d50708c6eb6ba61b370
 
 ---
 
@@ -36,7 +36,7 @@ O player muda para um canal que mostra as informações de emergência após rec
 
 Consulte Caso de uso de canal [de](emergency-channel.md) emergência para obter detalhes sobre a implementação.
 
-* **Definição de metas ativada para componentes assíncronos (*como vídeos, sequência*incorporada)**
+* **Definição de metas ativada para componentes assíncronos
 
 A definição de metas agora pode ser ativada para ativos usados no projeto do AEM Screens.
 
@@ -44,7 +44,7 @@ Para saber mais sobre como ativar a definição de metas para ativos no projeto 
 
 Depois de configurar o ContextHub para seu projeto do AEM Screens, siga diferentes casos de uso para entender como os ativos acionados por dados desempenham um papel vital em diferentes setores:
 
-**[Ativação direcionada para inventário de varejo](retail-inventory-activation.md)**
+**[Ativação Direcionada para Inventário de Varejo](retail-inventory-activation.md)**
 
 **[Ativação da temperatura do centro de viagens](local-temperature-activation.md)**
 
