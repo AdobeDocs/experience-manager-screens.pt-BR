@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 20c5be209d0ab1e5371e21b377d83bc05c0ec256
 
 ---
 
@@ -21,7 +21,7 @@ O tutorial a seguir percorre as etapas para criar um componente personalizado pa
 
 ## Visão geral {#overview}
 
-Este tutorial destina-se a desenvolvedores novos no AEM Screens. Neste tutorial, um componente simples "Hello World" é criado para um canal de Sequência no AEM Screens. Uma caixa de diálogo permite que os autores atualizem o texto exibido.
+Este tutorial destina-se a desenvolvedores novos no AEM Screens. Neste tutorial, um componente simples &quot;Hello World&quot; é criado para um canal de Sequência no AEM Screens. Uma caixa de diálogo permite que os autores atualizem o texto exibido.
 
 ![overview whellow](assets/overviewhellow.png)
 
@@ -46,7 +46,7 @@ O código-fonte de um projeto do Screens geralmente é gerenciado como um projet
    [Obter arquivo](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Obter arquivo](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
-   **Opcionalmente** , se estiver trabalhando com o Eclipse ou outro IDE, baixe o pacote de origem abaixo. Implante o projeto para uma instância AEM local usando o comando Maven:
+   **Opcionalmente** , se estiver trabalhando com o Eclipse ou outro IDE, baixe o pacote de origem abaixo. Implante o projeto para uma instância do AEM local usando o comando Maven:
 
    **`mvn -PautoInstallPackage clean install`**
 
@@ -83,15 +83,15 @@ O código-fonte de um projeto do Screens geralmente é gerenciado como um projet
    * `/content/screens/we-retail-run`
    Este pacote contém o conteúdo inicial e a estrutura de configuração necessária para o projeto. **`/conf/we-retail-run`** contém todas as configurações para o projeto We.Retail Run. **`/content/dam/we-retail-run`** inclui o início de ativos digitais para o projeto. **`/content/screens/we-retail-run`** contém a estrutura de conteúdo do Screens. O conteúdo abaixo de todos esses caminhos é atualizado principalmente no AEM. Para promover a consistência entre ambientes (local, Dev, Stage, Prod), geralmente uma estrutura de conteúdo base é salva no controle de origem.
 
-1. **Navegue até o projeto AEM Screens &gt; Execução We.Retail:**
+1. **Navegue até o projeto AEM Screens > Execução We.Retail:**
 
-   No menu Iniciar do AEM &gt; Clique no ícone Telas. Verifique se o projeto We.Retail Run (Execução do We.Retail) pode ser visto.
+   No menu Iniciar do AEM > Clique no ícone Telas. Verifique se o projeto We.Retail Run (Execução do We.Retail) pode ser visto.
 
    ![we-retaiul-run-starter](assets/we-retaiul-run-starter.png)
 
-## Criar o componente Hello World {#hello-world-cmp}
+## Crie o componente Hello World {#hello-world-cmp}
 
-O componente Hello World é um componente simples que permite ao usuário inserir uma mensagem para ser exibida na tela. O componente é baseado no modelo de componente do [AEM Screens: https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template).
+O componente Hello World é um componente simples que permite que um usuário insira uma mensagem para ser exibida na tela. O componente é baseado no modelo de componente do [AEM Screens: https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template).
 
 O AEM Screens tem algumas limitações interessantes que não são necessariamente verdadeiras para os componentes tradicionais do WCM Sites.
 
@@ -133,7 +133,7 @@ O AEM Screens tem algumas limitações interessantes que não são necessariamen
    <sly data-sly-test="${!production}" data-sly-include="edit.html" />
    ```
 
-   Os componentes da tela exigem duas renderizações diferentes, dependendo do modo [de](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#PageModes) criação utilizado:
+   Os componentes da tela exigem duas renderizações diferentes, dependendo de qual modo [de](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#PageModes) criação está sendo usado:
 
    1. **Produção**: Modo de visualização ou publicação (wcmmode=disabled)
    1. **Editar**: usado para todos os outros modos de criação, ou seja, edição, design, andaime, desenvolvedor...
@@ -306,7 +306,7 @@ Os componentes do AEM Screens são renderizados de forma diferente no modo de ed
 
    ![2018-04-30_at_3_11pm](assets/2018-04-30_at_3_11pm.png)
 
-   Em vez de gravar CSS diretamente, este tutorial usa MENOS. [LESS](https://lesscss.org/) é um pré-compilador de CSS popular que suporta variáveis, mixins e funções de CSS. As bibliotecas de clientes AEM oferecem suporte nativo a compilação LESS. É possível usar Sass ou outros pré-compiladores, mas eles precisam ser compilados fora do AEM.
+   Em vez de gravar CSS diretamente, este tutorial usa MENOS. [LESS](https://lesscss.org/) é um pré-compilador de CSS popular que suporta variáveis, mixins e funções de CSS. As bibliotecas de clientes AEM oferecem suporte nativo para a compilação LESS. É possível usar Sass ou outros pré-compiladores, mas eles precisam ser compilados fora do AEM.
 
 1. Preencha `/apps/weretail-run/components/content/helloworld/clientlibs/shared/css/styles.less` com o seguinte:
 
@@ -399,7 +399,7 @@ Abaixo de uma página We.Retail Run Design é criada e armazenará todas as conf
 
 O componente Hello World deve ser usado em um Canal de sequência. Para testar o componente, um novo Canal de sequência é criado.
 
-1. No menu Iniciar do AEM, navegue até **Telas** &gt; **We.Retail** Run &gt; e selecione **Canais**.
+1. No menu Iniciar do AEM, navegue até **Telas** > **We.Retail** Run > e selecione **Canais**.
 
 1. Clique no botão **Criar**
 
@@ -408,11 +408,11 @@ O componente Hello World deve ser usado em um Canal de sequência. Para testar o
 
 1. No assistente Criar:
 
-1. Etapa do modelo - escolher** Canal de sequência**
+1. Etapa do modelo - escolher Canal **de sequência**
 
    1. Etapa Propriedades
-   * Guia Básica &gt; Título = Canal **Ocioso**
-   * Guia Canal &gt; marcar **Colocar canal online**
+   * Guia Básica > Título = Canal **Ocioso**
+   * Guia Canal > marcar **Colocar canal online**
    ![canal ocioso](assets/idle-channel.gif)
 
 1. Abra as propriedades de página do Canal ocioso. Atualize o campo Design para apontar para `/apps/settings/wcm/designs/we-retail-run,`a página de design criada na seção anterior.
@@ -440,11 +440,89 @@ O componente Hello World deve ser usado em um Canal de sequência. Para testar o
 
    Configuração de design em /apps/settings/wcm/designs/we-retail-run
 
+## Modelo para manipuladores personalizados {#custom-handlers}
+
+A seção abaixo destaca o Modelo para o manipulador personalizado e os requisitos mínimos no pom.xml para esse projeto específico.
+
+```java
+   package …;
+
+   import javax.annotation.Nonnull;
+
+   import org.apache.felix.scr.annotations.Component;
+   import org.apache.felix.scr.annotations.Reference;
+   import org.apache.felix.scr.annotations.Service;
+   import org.apache.sling.api.resource.Resource;
+   import org.apache.sling.api.resource.ResourceUtil;
+   import org.apache.sling.api.resource.ValueMap;
+
+   import com.adobe.cq.screens.visitor.OfflineResourceHandler;
+
+   @Service(value = OfflineResourceHandler.class)
+   @Component(immediate = true)
+   public class MyCustomHandler extends AbstractResourceHandler 
+   {
+
+    @Reference
+    private …; // OSGi services injection
+
+    /**
+     * The resource types that are handled by the handler.
+     * @return the handled resource types
+     */
+    @Nonnull
+    @Override
+    public String[] getSupportedResourceTypes() {
+        return new String[] { … };
+   }
+
+    /**
+     * Accept the provided resource, visit and traverse it as needed.
+     * @param resource The resource to accept
+     */
+    @Override
+    public void accept(@Nonnull Resource resource) 
+      {
+        ValueMap properties = ResourceUtil.getValueMap(resource);
+        String assetPath = properties.get("myCustomPath", String.class); // retrieve a custom property path
+        String referencedResource = properties.get("myOtherResource", String.class); // a dependent resource that also needs parsing
+        …
+        this.visitor.visit(…); // visit the asset/rendition/path to be added to the manifest
+        this.visitor.accept(referencedResource); // accept/parse the dependent resource as well
+        …
+      }
+   }
+```
+
+O código a seguir fornece os requisitos mínimos no pom.xml para esse projeto específico:
+
+```css
+   <dependencies>
+        …
+        <!-- Felix annotations -->
+        <dependency>
+            <groupId>org.apache.felix</groupId>
+            <artifactId>org.apache.felix.scr.annotations</artifactId>
+            <version>1.9.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Screens core bundle with OfflineResourceHandler/AbstractResourceHandler -->
+        <dependency>
+            <groupId>com.adobe.cq.screens</groupId>
+            <artifactId>com.adobe.cq.screens</artifactId>
+            <version>1.5.90</version>
+            <scope>provided</scope>
+        </dependency>
+        …
+      </dependencies>
+```
+
 ## Juntando tudo {#putting-it-all-together}
 
 O vídeo abaixo mostra o componente finalizado e como ele pode ser adicionado a um canal de Sequência. O Canal é então adicionado a uma exibição Local e, por fim, atribuído a um player do Screens.
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
 
 ## Código finalizado {#finished-code}
 
