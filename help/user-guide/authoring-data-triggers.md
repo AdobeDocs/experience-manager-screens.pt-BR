@@ -3,7 +3,7 @@ title: Criação com acionadores de dados
 seo-title: Criação com acionadores de dados
 description: Siga esta página para saber como criar com acionadores de dados.
 translation-type: tm+mt
-source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
+source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 Esta seção destaca como ativar a definição de metas em seus canais.
 
 >[!IMPORTANT]
-> A versão mínima que suporta acionadores de dados em um canal do AEM Screens é AEM 6.4.3 Feature Pack 3.
+> A versão mínima que suporta acionadores de dados em um canal do AEM Screens é AEM 6.5.3 Feature Pack 3.
 
 ## Pré-requisitos {#prereqs}
 
@@ -56,17 +56,17 @@ Siga as etapas abaixo para ativar a definição de metas em seus canais.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navegue e selecione **DataDrivenRetail** em **DataDrivenAssets** > **Canais** e clique em **Editar** na barra de ações.
+1. Navegue e selecione **DataDrivenRetail** em **DataDrivenAssets** > **Canais** e clique em **Editar** na barra de ações. Arraste e solte os ativos no editor de canal.
 
    >[!NOTE]
    >
-   >Se você configurou tudo corretamente, verá a opção **Definição de metas** na lista suspensa do editor, como mostra a figura abaixo.
+   >Se você configurou tudo corretamente, verá a opção **Definição de metas** na lista suspensa do editor, como mostrado na figura abaixo.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-   >[!NOTE]
-   >
-   >Depois de configurar as configurações do ContextHub para o seu canal, siga as etapas anteriores de 1 a 4, para os outros três canais de sequência também se desejar seguir todos os casos de uso abaixo.
+1. Clique em **Definição de metas**.
+
+1. Selecione **Marca** e a **Atividade** no menu suspenso e clique em **Iniciar direcionamento**.
 
 ### Saiba mais: Casos de uso de exemplo {#learn-more-example-use-cases}
 
