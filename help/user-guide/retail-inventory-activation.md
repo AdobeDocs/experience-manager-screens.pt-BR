@@ -1,6 +1,6 @@
 ---
-title: Ativação direcionada para inventário de varejo
-seo-title: Ativação direcionada para inventário de varejo
+title: Ativação Direcionada para Inventário de Varejo
+seo-title: Ativação Direcionada para Inventário de Varejo
 description: Este caso de uso mostra o estoque de estoque de varejo para três camisas coloridas diferentes. Dependendo do número de camisas disponíveis em estoque que são gravadas nas planilhas do Google, a imagem (camiseta vermelha, verde ou azul) com o maior número é exibida na tela.
 seo-description: Este caso de uso mostra o estoque de estoque de varejo para três camisas coloridas diferentes. Dependendo do número de camisas disponíveis em estoque que são gravadas nas planilhas do Google, a imagem (camiseta vermelha, verde ou azul) com o maior número é exibida na tela.
 uuid: 8e7faa65-b004-42b3-8865-4f71eb5dc1b1
@@ -11,12 +11,12 @@ topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
 
 
-# Ativação direcionada para inventário de varejo {#retail-inventory-targeted-activation}
+# Ativação Direcionada para Inventário de Varejo {#retail-inventory-targeted-activation}
 
 O caso de uso a seguir demonstra três imagens diferentes com base nos valores em sua planilha do Google.
 
@@ -44,7 +44,7 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de Inventári
 
 1. **Configurar os públicos-alvo de acordo com os requisitos**
 
-   1. Navegue até os segmentos em seu público-alvo (Consulte a ***Etapa 2: Configuração da segmentação*** de público-alvo em **[Configuração do ContextHub na página de telas](configuring-context-hub.md)** AEM para obter mais detalhes).
+   1. Navegue até os segmentos em seu público-alvo (Consulte a ***Etapa 2: Configuração da segmentação*** de público-alvo em **[Configuração do ContextHub na página de telas](configuring-context-hub.md)**AEM para obter mais detalhes).
 
    1. Adicione três novos segmentos **Para_Vermelho**, **Para_Verde** e **Para_Azul**.
 
@@ -53,16 +53,16 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de Inventári
    1. Arraste e solte a **comparação: Propriedade - Propriedade** do editor e clique no ícone de configuração para editar as propriedades.
    1. Selecione **googlesheets/value/1/2** no menu suspenso em **Nome da propriedade**
 
-   1. Selecione o **Operador** como **maior que **no menu suspenso
+   1. Selecione o **Operador** como **maior que** no menu suspenso
 
    1. Selecionar Tipo **de** Dados como **número**
 
-   1. Selecione **googlesheets/value/1/1** no menu suspenso no nome da **segunda propriedade**
+   1. Selecione **googlesheets/value/1/1** no menu suspenso no nome **da** segunda propriedade.
 
-   1. Arraste e solte **outra comparação: Propriedade - Propriedade **para o editor e clique no ícone de configuração para editar as propriedades.
-   1. Selecione **googlesheets/value/1/2** no menu suspenso em **Nome da propriedade**
+   1. Arraste e solte **outra comparação: Propriedade - Propriedade** do editor e clique no ícone de configuração para editar as propriedades.
+   1. Selecione **googlesheets/value/1/2** na lista suspensa no nome **da** primeira propriedade.
 
-   1. Selecione o **Operador** como **maior que **no menu suspenso
+   1. Selecione o **Operador** como **maior que** no menu suspenso
 
    1. Selecionar tipo **de** dados como **número**
 
@@ -87,7 +87,7 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de Inventári
 
    >[!CAUTION]
    >
-   >Você deve ter configurado suas **Configurações** do **ContextHub** usando a guia **Propriedades** do canal —&gt; **Personalização** .
+   >Você deve ter configurado suas **Configurações** do **ContextHub** usando a guia **Propriedades** do canal —> **Personalização** .
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
