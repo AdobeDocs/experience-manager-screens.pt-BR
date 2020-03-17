@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
 ---
 
@@ -24,16 +24,16 @@ Esta seção descreve como configurar o reprodutor do Windows 10 do AEM Screens.
 
 Para implementar o Windows Player para o AEM Screens, instale o Windows Player para o AEM Screens.
 
-Visite a página Downloads [****](https://download.macromedia.com/screens/) do AEM 6.4 Player.
+Visite a página Downloads [****](https://download.macromedia.com/screens/)do AEM 6.4 Player.
 
 ### Método ad-hoc {#ad-hoc-method}
 
-O método Ad-Hoc permite instalar o Windows Player mais recente (*.exe*). Visite a página Downloads [****](https://download.macromedia.com/screens/) do AEM 6.4 Player.
+O método Ad-Hoc permite instalar o Windows Player mais recente (*.exe*). Visite a página Downloads [****](https://download.macromedia.com/screens/)do AEM 6.4 Player.
 
 Depois de baixar o aplicativo, siga as etapas no player para concluir a instalação ad-hoc:
 
 1. Pressione longamente no canto superior esquerdo para abrir o painel admin.
-1. Navegue até **Configuração** no menu de ação esquerdo e digite o local (endereço) da instância do AEM à qual deseja se conectar e clique em **Salvar**.
+1. Navegue até **Configuração** no menu de ação esquerdo e digite o local (endereço) da instância do AEM à qual você deseja se conectar e clique em **Salvar**.
 1. Navegue até o link **Device** **Registration** no menu de ação esquerdo para verificar o status do processo de registro do dispositivo.
 
 >[!NOTE]
@@ -66,7 +66,7 @@ A tabela a seguir resume os atributos de política com um exemplo de política J
 
 | **Nome da política** | **Propósito** |
 |---|---|
-| server | O URL para o servidor Adobe Experience Manager (AEM). |
+| server | O URL para o servidor do Adobe Experience Manager (AEM). |
 | resolução | A resolução do dispositivo. |
 | rebootSchedule | O cronograma para reinicializar o player. |
 | enableAdminUI | Ative a interface de usuário do administrador para configurar o dispositivo no site. Definido como falso depois que estiver totalmente configurado e em produção. |
@@ -92,7 +92,7 @@ Quando você estiver implantando o Windows player, é importante ativar um modo 
 
 >[!CAUTION]
 >
->A Adobe recomenda uma solução de gerenciamento de dispositivos para ativar o Kiosk para Windows. Siga as etapas abaixo se você não tiver uma solução de gerenciamento de dispositivos para ativar o modo Kiosk. Este método usa o recurso Shell Launcher disponível nas empresas Windows 10 e Edu. Qualquer outro meio recomendado pela Microsoft para aplicativos que não sejam de UWP também pode ser aplicado para ativar o Kiosk, especialmente em outras edições do Windows.
+>A Adobe recomenda uma solução de gerenciamento de dispositivos para habilitar o Kiosk para Windows. Siga as etapas abaixo se você não tiver uma solução de gerenciamento de dispositivos para ativar o modo Kiosk. Este método usa o recurso Shell Launcher disponível nas empresas Windows 10 e Edu. Qualquer outro meio recomendado pela Microsoft para aplicativos que não sejam de UWP também pode ser aplicado para ativar o Kiosk, especialmente em outras edições do Windows.
 
 Siga as etapas abaixo para ativar o modo Kiosk:
 
@@ -102,13 +102,13 @@ Siga as etapas abaixo para ativar o modo Kiosk:
 
 1. Ative o Shell Launcher.
 
-   Consulte a seção ***Configurar o Shell Launcher*** na página **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** pelo suporte do Microsoft Windows para obter mais informações.
+   Consulte a seção ***Configurar o Shell Launcher*** na página do **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**pelo suporte do Microsoft Windows para obter mais informações.
 
 1. Crie um usuário não administrativo (se você já não tiver um) para ser usado para o Kiosk. Pode ser um usuário local ou de domínio.
 1. Instale o Windows player para esse usuário do Kiosk na página Downloads [do](https://download.macromedia.com/screens/) AEM Screens Player.
 1. Consulte [Usar o Shell Launcher para criar um quiosque](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) do Windows 10 para modificar o script do PowerShell para obter mais informações.
 
-   Modifique o script do PowerShell para substituir o nome de usuário pelo que você criou. Verifique se o caminho para o executável do aplicativo está correto. Isso definirá o shell personalizado como aplicativo do Windows player para o usuário do quiosque e o padrão como explorer.exe para outros usuários.
+   Modifique o script do PowerShell para substituir o nome de usuário pelo que você criou. Verifique se o caminho para o executável do aplicativo está correto. Isso definirá o shell personalizado como o aplicativo do Windows player para o usuário do quiosque e o padrão como explorer.exe para outros usuários.
 
 1. Execute o script do PowerShell como administrador.
 1. Reinicialize e faça login como o usuário do Kiosk e o aplicativo do player devem iniciar corretamente.
@@ -119,7 +119,7 @@ Se você receber uma tela preta ao fazer login como usuário do Kiosk, isso sign
 
 O caminho de instalação padrão do Windows player é:
 
-***C:\Users\&amp;lt;your user&gt;\AppData\Local\Programs\@aem-screensscreens-player-eletron\AEM Screens Player.exe***
+***C:\Users\&amp;lt;your user>\AppData\Local\Programs\@aem-screensscreens-player-eletron\AEM Screens Player.exe***
 
 O script de amostra nos links ativará e desativará o shell personalizado. Portanto, talvez seja necessário dividir o script em duas e ativar/desativar as linhas aplicáveis abaixo:
 
