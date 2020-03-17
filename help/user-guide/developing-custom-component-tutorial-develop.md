@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: 20c5be209d0ab1e5371e21b377d83bc05c0ec256
+source-git-commit: f8d4b612d9c10d3f9f43ff4792ca48a1bf9407d0
 
 ---
 
@@ -442,7 +442,7 @@ O componente Hello World deve ser usado em um Canal de sequência. Para testar o
 
 ## Modelo para manipuladores personalizados {#custom-handlers}
 
-A seção abaixo destaca o Modelo para o manipulador personalizado e os requisitos mínimos no pom.xml para esse projeto específico.
+A seção abaixo mostra o modelo para o manipulador personalizado e os requisitos mínimos no pom.xml para esse projeto específico.
 
 ```java
    package …;
