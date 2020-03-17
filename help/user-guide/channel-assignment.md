@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: f8d4b612d9c10d3f9f43ff4792ca48a1bf9407d0
 
 ---
 
@@ -40,7 +40,7 @@ Essa página mostra a atribuição de um canal às suas exibições.
 
 Siga as etapas abaixo para atribuir um canal a uma exibição:
 
-1. Navegue até a exibição desejada, por exemplo, **DemoProject** —&gt; **Locais** —&gt; **SanJose** —&gt; **StoreDisplay**.
+1. Navegue até a exibição desejada, por exemplo, **DemoProject** —> **Locais** —> **SanJose** —> **StoreDisplay**.
 
    ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
 
@@ -90,7 +90,7 @@ Siga as etapas abaixo para atribuir um canal a uma exibição:
 
 ### Segmentação de dia {#dayparting}
 
-Schedules when when combined with **Dayparting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Schedules when combined with **Dayparting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 A Segmentação de dia refere-se ao processo de dividir um dia em períodos de tempo e especificar qual conteúdo é reproduzido no horário desejado. O AEM Screens permite agendar canais em termos de segmentação de dia para uma frequência diária, semanal ou mensal, de acordo com a sua exigência.
 
@@ -148,7 +148,7 @@ Aqui, você criará a segmentação de dia com base em meses, de modo que o cont
 
 >[!NOTE]
 >
->Além disso, você pode definir uma ***Prioridade**para cada um dos canais.* Por exemplo, se dois canais forem definidos para o mesmo dia e horário ou para o mesmo mês, o canal com prioridade mais alta será reproduzido primeiro. O valor mínimo para a prioridade pode ser definido como 0.
+>Além disso, você pode definir uma ***Prioridade*** para cada um dos canais. Por exemplo, se dois canais forem definidos para o mesmo dia e horário ou para o mesmo mês, o canal com prioridade mais alta será reproduzido primeiro. O valor mínimo para a prioridade pode ser definido como 0.
 
 #### Reprodução do conteúdo para canais com a mesma prioridade {#playing-content-for-channels-with-same-priority}
 
