@@ -1,8 +1,8 @@
 ---
 title: Canais offline
 seo-title: Canais offline
-description: 'O AEM Screens player fornece suporte offline para canais aproveitando a tecnologia ContentSync. Siga esta página para saber mais sobre os manipuladores de atualização e ativar a configuração offline para um canal.  '
-seo-description: 'O AEM Screens player fornece suporte offline para canais aproveitando a tecnologia ContentSync. Siga esta página para saber mais sobre os manipuladores de atualização e ativar a configuração offline para um canal.  '
+description: 'O AEM Screens player fornece suporte offline para canais aproveitando a tecnologia ContentSync. Siga esta página para saber mais sobre os manipuladores de atualização e habilitar a configuração offline para um canal.  '
+seo-description: 'O AEM Screens player fornece suporte offline para canais aproveitando a tecnologia ContentSync. Siga esta página para saber mais sobre os manipuladores de atualização e habilitar a configuração offline para um canal.  '
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 content-type: reference
@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9da83030c5ad90f446befc7a488fac6c9435ea76
 
 ---
 
@@ -93,7 +93,7 @@ Siga as etapas abaixo para ativar a configuração offline para um canal:
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. **Navegue até o painel do canal e clique em**... no Painel INFORMAÇÕES **** DO CANAL para alterar as propriedades.
+1. Navegue até o painel do canal e clique em **...** no Painel INFORMAÇÕES **** DO CANAL para alterar as propriedades.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
@@ -113,3 +113,5 @@ Siga as etapas abaixo para ativar a configuração offline para um canal:
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
+>[!NOTE]
+> Para saber mais sobre o modelo para manipuladores de recursos offline personalizados e os requisitos mínimos no `pom.xml` para esse projeto específico, consulte [Modelo para manipuladores](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) personalizados em **Desenvolvimento de um componente personalizado para telas** AEM.
