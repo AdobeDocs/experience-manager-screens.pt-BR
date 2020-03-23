@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
 
 ---
 
@@ -44,7 +44,7 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
 >
 >Uma Sequência Incorporada Dinâmica é semelhante a uma sequência incorporada, mas permite que o usuário siga uma hierarquia na qual as alterações/atualizações feitas em um canal são propagadas para outro em relação a outro. Ele segue a hierarquia pai-filho e também inclui ativos como imagens ou vídeos.
 >
->***Sequências*** incorporadas dinâmicas permitem exibir conteúdo específico do local, enquanto as Sequências ****** incorporadas exibem apenas a apresentação geral do conteúdo. Além disso, ao configurar Sequências incorporadas dinâmicas, é necessário configurar o canal usando a função e o nome do canal. Consulte as etapas abaixo para ver a implementação prática.
+>***Sequências*** incorporadas dinâmicas permitem exibir conteúdo específico do local, enquanto as Sequências ****** incorporadas exibem apenas a apresentação geral de slides do conteúdo. Além disso, ao configurar Sequências incorporadas dinâmicas, é necessário configurar o canal usando a função e o nome do canal. Consulte as etapas abaixo para ver a implementação prática.
 >
 >Para saber mais sobre a implementação de sequências incorporadas, consulte Sequências [](embedded-sequences.md) incorporadas nas telas AEM.
 
@@ -56,7 +56,7 @@ O exemplo a seguir fornece uma solução focando nos seguintes termos principais
 
 >[!NOTE]
 >
->To learn more about channel assignment, see **[Channel Assignment](channel-assignment.md)** under Authoring section in AEM Screens documentation.
+>To learn more about channel assignment, see **[Channel Assignment](channel-assignment.md)**under Authoring section in AEM Screens documentation.
 
 ## Uso de uma sequência incorporada dinâmica {#using-dynamic-embedded-sequence-2}
 
@@ -111,7 +111,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
    >
    >Ao criar a pasta de localização **Região A** , certifique-se de inserir o **Título** como **Região A** e pode deixar o campo **Nome** vazio, de modo que o nome **região a** seja selecionado automaticamente.
    >
-   >Semelhante, é o caso para criar a pasta de localização **Região B**, como mostrado abaixo:
+   >Semelhante, é o caso para a criação da pasta de localização **Região B**, como mostrado abaixo:
 
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
@@ -121,13 +121,13 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 1. **Crie dois locais e um canal em cada pasta de localização.**
 
-   1. Navegue até **Demonstração** —&gt; **Locais** —&gt; **Região A**.
+   1. Navegue até **Demonstração** —> **Locais** —> **Região A**.
    1. Selecione **Região A** e clique em **+ Criar** na barra de ações.
-   1. Selecione **Local** no assistente com **Título** como **Loja 1**. Da mesma forma, crie outro local do assistente chamado **Loja 2** com **Título** como **Loja 2**. Você pode deixar o campo **Nome** vazio ao criar a **Loja 1** e a **Loja 2**.
+   1. Selecione **Local** no assistente com **Título** como **Loja 1**. Da mesma forma, crie outro local do assistente intitulado como **Loja 2** com **Título** como **Loja 2**. Você pode deixar o campo **Nome** vazio ao criar a **Loja 1** e a **Loja 2**.
    1. Repita a etapa (b) e, agora, selecione Canal **de sequência** no assistente. Digite o **Título** como **Região A** e **Nome** como **região **para este canal.
    >[!CAUTION]
    >
-   >Ao criar a **Região A** do canal, digite o **Título** como **Região A **e o **Nome** como **região**.
+   >Ao criar a **Região A** do canal, digite o **Título** como **Região A** e o **Nome** como **região**.
 
    ![screen_shot_2018-09-13at22857pm](assets/screen_shot_2018-09-13at22857pm.png)
 
@@ -141,7 +141,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 1. **Crie a Exibição e o Canal em cada Local.**
 
-   1. Navegue até **Demonstração** —&gt; **Locais** —&gt; **Região A** —&gt; **Loja 1**.
+   1. Navegue até **Demonstração** —> **Locais** —> **Região A** —> **Loja 1**.
    1. Selecione **Loja 1** e clique em **+ Criar** na barra de ações.
    1. Selecione **Exibir** no assistente e crie **Store1Display.**
    1. Repita a etapa (b) e, desta vez, selecione Canal **de sequência** no assistente. Insira o **Título** como **Loja1 Canal** e o **Nome** como **armazenamento**.
@@ -153,7 +153,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
 
-   Da mesma forma, crie uma exibição como **Store2Display** e um canal **Store2Channel** em** Store 2** (com nome como **loja**).
+   Da mesma forma, crie uma exibição como **Store2Display** e um canal **Store2Channel** em **Store 2** (com nome como **store**).
 
    >[!NOTE]
    >
@@ -173,7 +173,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 1. **Adicione conteúdo aos canais em seus respectivos locais.**
 
-   Navegue até a **demonstração** -&gt; **Locais** -&gt; **Região A** -&gt; **Região A** e clique em **Editar** na barra de ações. Arraste e solte os ativos que deseja adicionar ao seu canal.
+   Navegue até a **demonstração** -> **Locais** -> **Região A** -> **Região A** e clique em **Editar** na barra de ações. Arraste e solte os ativos que deseja adicionar ao seu canal.
 
    >[!NOTE]
    >
@@ -181,7 +181,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
-   Da mesma forma, navegue até a **demonstração** -&gt; **Locais** -&gt; **Região B** -&gt; **Região B** e clique em **Editar** na barra de ação para arrastar e soltar os ativos em seu canal, como mostrado abaixo:
+   Da mesma forma, navegue até a **demonstração** -> **Locais** -> **Região B** -> **Região B** e clique em **Editar** na barra de ação para arrastar e soltar os ativos em seu canal, como mostrado abaixo:
 
    ![screen_shot_2018-09-12at13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
@@ -202,10 +202,10 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 1. **Atribuir canais a uma programação**
 
-   1. Navegue até **Demo** —&gt; **Programações** —&gt; **AdSchedule** e clique em **Dashboard** na barra de ações.
+   1. Navegue até **Demo** —> **Programações** —> **AdSchedule** e clique em **Dashboard** na barra de ações.
    1. Clique em **+ Atribuir canal** do painel CANAIS **** ATRIBUÍDOS para abrir a caixa de diálogo Atribuição **de** canal.
    1. Select **Reference Channel**.. by path.
-   1. Selecione o Caminho **do** canal como **Demo*** —&gt; ***Canais*** —&gt; ***Global***.
+   1. Selecione o Caminho **do** canal como **demonstração** —> ***Canais*** —> ***Global***.
    1. Enter the **Channel Role** as **GlobalAdSegment**.
    1. Selecione os eventos **** suportados como carga **** inicial, tela **** inativa e interação **com** o usuário.
    1. Clique em **Salvar**.
@@ -213,10 +213,10 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
    1. Clique em **+ Atribuir canal** do painel CANAIS **** ATRIBUÍDOS para abrir a caixa de diálogo Atribuição **de** canal.
    1. Selecione Canal **de** referência.. por nome.
-   1. Digite o Nome **do** Canal como **região***.*
+   1. Digite o Nome **do** canal como **região***.
    1. Enter the **Channel Role** as **RegionAdSegment**.
    1. Clique em **Salvar**.
-   **Atribuir canal por função para a loja:**
+   **Atribuir canal por função para a loja:
 
    1. Clique em **+ Atribuir canal** do painel CANAIS **** ATRIBUÍDOS para abrir a caixa de diálogo Atribuição **de** canal.
    1. Selecione Canal **de** referência.. por nome.
@@ -245,10 +245,10 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 1. **Atribuindo Programação a cada Exibição**
 
-   1. Navegue até cada exibição, como **Demonstração** —&gt; **Locais** —&gt; **Região A** —&gt;**Loja 1** —&gt;**Loja1 Exibição**.
+   1. Navegue até cada exibição, como **Demonstração** —> **Locais** —> **Região A** —>**Loja 1** —>**Loja1 Exibição**.
    1. Click **Dashboard** from the action to open the display dashboard.
-   1. **Clique em**... no painel CANAIS E PROGRAMAS **ATRIBUÍDOS** e clique em **+Atribuir agendamento**.
-   1. Selecione o caminho para Agendamento (por exemplo, aqui, **Demonstração** —&gt; **Agendamentos** —&gt;**AdSchedule**).
+   1. Clique em **...** no painel CANAIS E PROGRAMAS **ATRIBUÍDOS** e clique em **+Atribuir agendamento**.
+   1. Selecione o caminho para Agendamento (por exemplo, aqui, **Demonstração** —> **Agendamentos** —>**AdSchedule**).
    1. Clique em **Salvar**.
 
 ## Exibição dos resultados {#viewing-the-results}
@@ -268,19 +268,19 @@ A saída a seguir confirma o conteúdo do canal no player do AEM Screens, depend
 
 **Cenário 1**:
 
-Se você atribuir o caminho de exibição como **Demo** —&gt; **Locais** —&gt; **Região A** —&gt;** Loja 1** —&gt; **Loja1Exibição**, o seguinte conteúdo será exibido no player do AEM Screens.
+Se você atribuir o caminho de exibição como **Demo** —> **Locais** —> **Região A** —>** Loja 1** —> **Loja1Exibição**, o seguinte conteúdo será exibido no player do AEM Screens.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **Cenário 1**:
 
-Se você atribuir o caminho de exibição como **Demo** —&gt; **Locais** —&gt; **Região B** —&gt;** Loja 3** —&gt; **Loja 3Display**, o seguinte conteúdo será exibido no player do AEM Screens.
+Se você atribuir o caminho de exibição como **Demo** —> **Locais** —> **Região B** —> **Loja 3** —> **Loja 3Display**, o seguinte conteúdo será exibido no player do AEM Screens.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
 ## Restrição de usuários e modificação das ACLs {#restricting-users-and-modifying-the-acls}
 
-Você pode criar autores globais, regionais ou locais para editar o conteúdo relevante para eles, ao mesmo tempo em que é restrito a partir de canais de edição superiores na hierarquia.
+Você pode criar autores globais, regionais ou locais para editar o conteúdo relevante para eles, ao mesmo tempo em que é restrito a partir de canais de edição mais altos na hierarquia.
 
 É necessário modificar as ACLs para restringir o acesso dos usuários ao conteúdo com base em sua localização.
 
@@ -309,7 +309,7 @@ Siga as etapas abaixo para criar grupos, usuários e modificar as ACLs de acordo
 1. **Criar grupos**
 
    1. Navegue até **Adobe Experience Manager**.
-   1. Clique em **Ferramentas** —&gt; **Segurança** —&gt; **Grupos**.
+   1. Click **Tools** --> **Security** --> **Groups**.
    1. Clique em **Criar grupo** e digite **Global-Author** na **ID**.
    1. Clique em **Salvar e fechar**.
    Da mesma forma, crie dois outros grupos, como **Região-Autor** e **Loja-Autor**.
@@ -319,7 +319,7 @@ Siga as etapas abaixo para criar grupos, usuários e modificar as ACLs de acordo
 1. **Criar usuários e adicionar usuários a grupos**
 
    1. Navegue até **Adobe Experience Manager**.
-   1. Clique em **Ferramentas** —&gt; **Segurança** —&gt; **Usuários**.
+   1. Click **Tools** --> **Security** --> **Users**.
    1. Clique em **Criar usuário** e insira Usuário **** global na **ID**.
    1. Digite a **senha** e confirme a senha para este usuário.
    1. Clique na guia **Grupos** e digite o nome do grupo em **Selecionar grupo**, por exemplo, digite **Global-Author** para adicionar **Global-User** a esse grupo específico.
@@ -335,7 +335,7 @@ Siga as etapas abaixo para criar grupos, usuários e modificar as ACLs de acordo
 1. **Adicionar todos os grupos aos contribuidores**
 
    1. Navegue até **Adobe Experience Manager**.
-   1. Clique em **Ferramentas** —&gt; **Segurança** —&gt; **Grupos**.
+   1. Click **Tools** --> **Security** --> **Groups**.
    1. Selecione **Colaboradores** na lista e selecione a guia **Membros** .
    1. Selecione o **Grupo** , como **Global-Author**, **Region-Author,** e **Store-Author** para os contribuidores.
    1. Clique em **Salvar e fechar**.
@@ -365,9 +365,9 @@ Siga as etapas abaixo para criar grupos, usuários e modificar as ACLs de acordo
    **Para Região-Autor:**
 
    1. Navigate to the **Permissions** tab.
-   1. Navegue até ***/content/screens/demo*** e verifique apenas as permissões*** Ler**.
+   1. Navegue até ***/content/screens/demo*** e verifique somente as permissões de **Leitura** .
    1. Navegue até ***/content/screens/demo/localizações*** e verifique apenas as permissões de **Leitura** .
-   1. Navegue até ***/content/screens/demo/anners ***e desmarque as permissões do canal**Global **.***
+   1. Navegue até ***/content/screens/demo/anners ***e desmarque as permissões do canal **Global**.***
    1. Navegue até ***/content/screens/demo/location***/***region-a*** e verifique todas as permissões. Da mesma forma, verifique as permissões para **region-b**.
    Consulte a figura abaixo para entender as etapas:
 
@@ -389,7 +389,7 @@ Siga as etapas abaixo para criar grupos, usuários e modificar as ACLs de acordo
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   A imagem a seguir mostra que agora a **Loja-Usuário** tem acesso apenas aos quatro armazenamentos, a **Loja 1**, **Loja 2**, **Loja 3** e **Loja 4** **** ****, mas não tem permissão para acessar os canais Globalou Região A**Região A **e Região B.
+   A imagem a seguir mostra que agora a **Loja-Usuário** tem acesso apenas aos quatro armazenamentos, a **Loja 1**, **Loja 2**, **Loja 3** e **Loja 4** ******** ****, mas não tem permissões para acessar os canais Global ou região (Região Ae Região B).
 
    ![loja](assets/store.gif)
 
