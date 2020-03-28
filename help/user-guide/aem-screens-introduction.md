@@ -76,4 +76,4 @@ Consulte os seguintes tutoriais e recursos para saber mais sobre o Adobe Experie
 
 * **Guia de práticas recomendadas para projetos do AEM Screens**
 
-   Siga o Guia de práticas **[recomendadas para projetos](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**do AEM Screens, projetado para identificar armadilhas comuns ao implementar um projeto do AEM Screens. O material foca principalmente em Funções e Responsabilidades do Projeto, Gráfico RACI para Funções Diferentes Configurações da Plataforma AEM e Suporte e Monitoramento.
+   Siga o Guia de práticas [recomendadas para projetos](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html) do AEM Screens, projetado para identificar armadilhas comuns ao implementar um projeto do AEM Screens. O material foca principalmente em Funções e Responsabilidades do Projeto, Gráfico RACI para Funções Diferentes Configurações da Plataforma AEM e Suporte e Monitoramento.
