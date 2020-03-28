@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
+source-git-commit: 23a6019e27f10ff0e207ddc9c279dc7d42942098
 
 ---
 
@@ -56,20 +56,24 @@ A figura a seguir define as personas e suas funções para o AEM Screens.
 
 >[!NOTE]
 >
->*Além disso, para exibir responsabilidades diferentes conforme as funções, clique nas pessoas mencionadas acima.*
+>*Além disso, para visualização de diferentes responsabilidades de acordo com as funções, clique nas pessoas mencionadas acima.*
 
 ## Conhecimento pré-requisito {#pre-requisite-knowledge}
 
-Antes de começar a trabalhar em um projeto de sinalização digital usando o AEM Screens, o conhecimento do Adobe Experience Manager (AEM) é necessário e deve ser concluído antes de trabalhar em um projeto do AEM Screens.
+Antes de start para trabalhar em um projeto de sinalização digital usando o AEM Screens, o conhecimento do Adobe Experience Manager (AEM) é necessário e deve ser concluído antes de trabalhar em um projeto do AEM Screens.
 
 Consulte os seguintes tutoriais e recursos para saber mais sobre o Adobe Experience Manager 6.5:
 
-* **** Introdução ao Adobe Experience Manager: Descubra artigos de introdução e tutoriais em vídeo do Adobe Experience Manager.
+* **Introdução ao Adobe Experience Manager:** Descubra artigos de introdução e tutoriais em vídeo do Adobe Experience Manager.
 * **Tutoriais e vídeos** do AEM 6.5: Uma coleção de tutoriais e vídeos destacando recursos novos e atualizados para o AEM Sites, Assets, Forms, Screens e Foundation com o lançamento do AEM 6.5.
-* **Conceitos** principais do AEM: Uma visão geral dos conceitos principais de como o AEM está estruturado e como desenvolvê-lo, incluindo a compreensão do JCR, Sling, OSGi, o dispatcher, fluxos de trabalho e MSM.
+* **Conceitos** principais do AEM: Uma visão geral dos conceitos principais de como o AEM está estruturado e como desenvolvê-lo, incluindo a compreensão do JCR, Sling, OSGi, o dispatcher, workflows e MSM.
 
-### Princípios básicos de implementação guiada {#guided-implementation-essentials}
+## Additional Resources {#additional-resources}
 
-Siga o caminho de aprendizado guiado **[AEM Screens Implementation Essentials](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**, que abrange recursos fundamentais e avançados suportados no AEM Screens.
+* **Princípios básicos de implementação guiada**
 
-Ao criar um novo projeto, funções diferentes podem se sobrepor dependendo de suas necessidades organizacionais e comerciais.
+   Siga o caminho de aprendizado guiado **[AEM Screens Implementation Essentials](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**, que abrange recursos fundamentais e avançados suportados no AEM Screens.
+
+* **Guia de práticas recomendadas para projetos do AEM Screens**
+
+   Siga o Guia de práticas **[recomendadas para projetos](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**do AEM Screens, projetado para identificar armadilhas comuns ao implementar um projeto do AEM Screens. O material foca principalmente em Funções e Responsabilidades do Projeto, Gráfico RACI para Funções Diferentes Configurações da Plataforma AEM e Suporte e Monitoramento.
