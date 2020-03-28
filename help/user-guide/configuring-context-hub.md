@@ -1,7 +1,7 @@
 ---
 title: Configuração do ContextHub no AEM Screens
 seo-title: Configuração do ContextHub no AEM Screens
-description: Siga esta página para saber mais sobre o ContextHub no mecanismo de definição de metas para definir o armazenamento de dados com a finalidade de acionar a alteração de conteúdo.
+description: Siga esta página para saber mais sobre o ContextHub no mecanismo de definição de metas para definir o armazenamento de dados com a finalidade de acionar a alteração do conteúdo.
 seo-description: Siga esta página para saber mais sobre o ContextHub no mecanismo de definição de metas para definir o armazenamento de dados com a finalidade de acionar a alteração de conteúdo.
 uuid: be06bda8-7de9-40d6-a84b-5ed8d8b3d180
 contentOwner: jsyal
@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
+source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 
 ---
 
@@ -22,25 +22,25 @@ Esta seção enfatiza a criação e o gerenciamento de alterações de ativos or
 
 ## Termos principais {#key-terms}
 
-Antes de entrarmos nos detalhes da criação e gerenciamento de canais orientados por inventário em seu projeto do AEM Screens, você deve saber alguns termos importantes e relevantes para os diferentes cenários.
+Antes de entrarmos nos detalhes da criação e gerenciamento de canais orientados por inventário em seu projeto do AEM Screens, você deve saber alguns dos termos principais que são importantes e relevantes para os diferentes cenários.
 
 **Marca** Refere-se à descrição de seu projeto de alto nível.
 
 **Área** Refere-se ao nome do projeto do AEM Screens, como Sinalização de anúncios digitais
 
-**Atividade** Define a categoria da regra, como Dirigida ao inventário, Orientada ao tempo, Orientada à disponibilidade do departamento e assim por diante.
+**Atividade** Define a categoria da regra, como Orientada ao inventário, Orientada ao tempo, Orientada à disponibilidade do departamento e assim por diante.
 
-**Público-alvo** Define a regra.
+**Audiência** Define a regra.
 
 **Segmento** Refere-se à versão do ativo a ser reproduzido para a regra específica, como se a temperatura estiver abaixo de 50 graus fahrenheit, então a tela exibe uma imagem de um café quente, caso contrário, uma bebida fria.
 
-O diagrama a seguir fornece uma representação visual de como as Configurações do ContextHub coincidem com Atividade, Público-alvo e Canais.
+O diagrama a seguir fornece uma representação visual de como as Configurações do ContextHub coincidem com Atividade, Audiência e Canais.
 
 ![screen_shot_2019-05-29at53729pm](assets/screen_shot_2019-05-29at53729pm.png)
 
 ## Condições prévias {#preconditions}
 
-Antes de iniciar a configuração das Configurações do Context Hub para um projeto do AEM Screens, você deve configurar as Google Sheets (para fins de demonstração).
+Antes de start a configuração das Configurações do Context Hub para um projeto do AEM Screens, você deve configurar o Google Sheets (para fins de demonstração).
 
 >[!CAUTION]
 >
@@ -48,17 +48,34 @@ Antes de iniciar a configuração das Configurações do Context Hub para um pro
 >
 >Para obter mais informações, consulte [Obter chave](https://developers.google.com/maps/documentation/javascript/get-api-key) da API na documentação do Google.
 
+
 ## Etapa 1: Configuração de um armazenamento de dados {#step-setting-up-a-data-store}
 
 Você pode configurar o armazenamento de dados como um evento de E/S local ou como um evento de banco de dados local.
 
-### Evento de E/S local {#local-io-event}
+O exemplo de acionadores de dados de nível de ativo a seguir mostra um evento de banco de dados local que configura um armazenamento de dados como uma planilha do Excel que permite usar configurações do ContextHub e caminho de segmentos para o canal do AEM Screens.
 
-Siga as etapas abaixo para configurar um armazenamento de dados como um evento ASCII que permite usar configurações do ContextHub e caminho de segmentos para o canal do AEM Screens.
+Depois de configurar a planilha do Google corretamente, por exemplo, como mostrado abaixo:
 
-### Evento de banco de dados local {#local-db-event}
+![image](/help/user-guide/assets/context-hub/context-hub1.png)
 
-Siga as etapas abaixo para configurar um armazenamento de dados, como uma planilha do Excel, que permite usar configurações do ContextHub e caminho de segmentos para o canal do AEM Screens.
+A seguinte validação é o que você visualização ao verificar sua conexão digitando a ID da planilha do Google e a chave da API no formato abaixo:
+
+`https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
+
+![image](/help/user-guide/assets/context-hub/context-hub2.png)
+
+
+>[!NOTE]
+>**Usar os valores do Google Sheet no AEM **>As planilhas do Google exporão seus valores na loja do ContextHub e estarão disponíveis em`<store-name>/values/<i>/<j>`, onde`<i>`e`<j>`são os índices de linha e coluna na planilha (a partir de 0).
+>
+> * /values/0/0 pontos para A1
+> * /values/5/0 pontos para A5
+> * /values/0/5 pontos para E1
+
+
+O exemplo específico abaixo mostra a planilha do Excel como um armazenamento de dados que acionará a alteração de ativos se o valor for maior que 100 ou menor que 50.
+
 
 1. **Navegar para o ContextHub**
 
@@ -70,9 +87,9 @@ Siga as etapas abaixo para configurar um armazenamento de dados, como uma planil
 
    1. Navegue até **global** > **padrão** > Configuração **do** ContextHub.
 
-   1. Clique em **Criar** > Contêiner **** de configuração e insira o título como **ContextHubDemo**.
+   1. Clique em **Criar** > Container **** de configuração e insira o título como **ContextHubDemo**.
 
-   1. **** Navegue **até** ContextHubDemo **> Configuração da loja** do ContentHub... para abrir o assistente **Configurar**.
+   1. **Navegue** até **ContextHubDemo** > Configuração da loja **do ContentHub...** para abrir o assistente **Configurar**.
 
    1. Insira o **Título** como **Google Sheets**, **Store Name** como **googlesheets** e **Store Type** **como contexthub.generic-jsonp**
 
@@ -85,14 +102,14 @@ Siga as etapas abaixo para configurar um armazenamento de dados, como uma planil
      "service": {
        "host": "sheets.googleapis.com",
        "port": 80,
-       "path": "/v4/spreadsheets/<your sheet it>/values/Sheet1",
+       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
        "jsonp": false,
        "secure": true,
        "params": {
-         "key": "<your API key>"
+         "key": "<your Google API key>"
        }
      },
-     "pollInterval": 3000
+     "pollInterval": 10000
    }
    ```
 
@@ -104,12 +121,12 @@ Siga as etapas abaixo para configurar um armazenamento de dados, como uma planil
    >Substitua o código por sua *&lt;ID da planilha>* e *&lt;chave da API>*, que você buscou ao configurar as planilhas do Google.
 
    >[!CAUTION]
-   Se você criar suas configurações de armazenamento do Google Sheets fora da pasta herdada (por exemplo, na sua própria pasta de projeto), o direcionamento não funcionará da caixa.
-   Caso deseje configurar as configurações de armazenamento do Google Sheets fora da pasta herdada global, defina o Nome **da** loja como **segmentação** e Tipo **de** armazenamento como **aem.segmentation**. Além disso, é necessário ignorar o processo de definição do json, conforme definido acima.
+   Se você criar suas configurações de armazenamento do Google Sheets fora da pasta global (por exemplo, na sua própria pasta de projeto), a definição de metas não funcionará automaticamente.
+   Caso deseje configurar as configurações de armazenamento do Google Sheets fora da pasta global, você deve definir o Nome **da** loja como **segmentação** e Tipo **de** armazenamento como **aem.segmentation**. Além disso, é necessário ignorar o processo de definição do json, conforme definido acima.
 
-1. **Criação de uma marca nas atividades**
+1. **Criação de uma marca no Atividade**
 
-   1. Navegue da instância do AEM para **Personalização** > **Atividades**
+   1. Navegue da instância do AEM para **Personalização** > **Atividade**
 
    1. Clique em **Criar** > **Criar marca**
 
@@ -133,15 +150,15 @@ Siga as etapas abaixo para configurar um armazenamento de dados, como uma planil
    1. Select **Area** from the **Create Page** wizard and click Next
 
    1. Enter the **Title** as **GoogleSheets** and click **Create**.
-Sua área será criada em sua atividade.
+Sua área será criada na sua atividade.
 
-## Etapa 2: Configuração da segmentação do público-alvo {#step-setting-up-audience-segmentation}
+## Etapa 2: Configuração da segmentação da Audiência {#step-setting-up-audience-segmentation}
 
-Depois de configurar um armazenamento de dados e definir sua marca, siga as etapas abaixo para configurar os segmentos do público-alvo.
+Depois de configurar um armazenamento de dados e definir sua marca, siga as etapas abaixo para configurar segmentos de audiência.
 
-1. **Criação de segmentos em públicos-alvo**
+1. **Criação de segmentos no Audiência**
 
-   1. Navegue da instância do AEM para **Personalização** > **Públicos** > **We.Retail**.
+   1. Navegue da instância do AEM para **Personalização** > **Audiências** > **telas**.
 
    1. Clique em **Criar** > **Criar segmento do Context Hub.** A caixa de diálogo **Novo segmento** do ContextHub é aberta.
 
@@ -149,7 +166,7 @@ Depois de configurar um armazenamento de dados e definir sua marca, siga as etap
 
 1. **Editar os segmentos**
 
-   1. Selecione as **planilhas de segmentos A1 1** (criadas na etapa 5) e clique em **Editar** na barra de ações.
+   1. Selecione as **planilhas de segmentos A1 1** e clique em **Editar** na barra de ações.
 
    1. Arraste e solte a **Comparação: Propriedade - componente de valor** para o editor.
    1. Clique no ícone de chave para abrir a caixa de diálogo **Comparação de uma propriedade com valor** .
@@ -172,14 +189,15 @@ Depois de configurar um armazenamento de dados e definir sua marca, siga as etap
    1. Selecione o **Operador** como **igual** no menu suspenso.
 
    1. Informe o **Valor** como **2**.
-   >[!NOTE]
-   As regras aplicadas nas etapas anteriores são apenas um exemplo de como você configura segmentos para implementar os seguintes casos de uso.
 
-## Etapa 3: Habilitar definição de metas em canais {#step-enabling-targeting-in-channels}
+
+
+
+## Etapa 3: Ativar a definição de metas em Canais {#step-enabling-targeting-in-channels}
 
 Siga as etapas abaixo para ativar a definição de metas em seus canais.
 
-1. Navegue até um dos canais do AEM Screens. As etapas a seguir demonstram como habilitar a definição de metas usando **DataDrivenRetail** criado em um Canal do AEM Screens.
+1. Navegue até um dos canais do AEM Screens. As etapas a seguir demonstram como ativar a definição de metas usando **DataDrivenRetail** criado em um Canal do AEM Screens.
 
 1. Selecione o canal **DataDrivenRetail** e clique em **Propriedades** na barra de ações.
 
@@ -205,12 +223,12 @@ Siga as etapas abaixo para ativar a definição de metas em seus canais.
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
    >[!NOTE]
-   Depois de configurar as configurações do ContextHub para o seu canal, siga as etapas anteriores de 1 a 4, para os outros três canais de sequência também se desejar seguir todos os casos de uso abaixo.
+   Depois de configurar as configurações do ContextHub para o seu canal, siga as etapas anteriores de 1 a 4, para os outros três canais de sequência também se quiser seguir todos os casos de uso abaixo.
 
 ## Saiba mais: Casos de uso de exemplo {#learn-more-example-use-cases}
 
 Depois de configurar o ContextHub para seu projeto do AEM Screens, você pode seguir os diferentes Casos de uso para entender como os ativos acionados por dados desempenham um papel vital em diferentes setores:
 
 1. **[Ativação direcionada para inventário de varejo](retail-inventory-activation.md)**
-1. **[Ativação da temperatura do centro de viagens](local-temperature-activation.md)**
-1. **[Ativação da Reserva de Hospitalidade](hospitality-reservation-activation.md)**
+1. **[Ativação de temperatura do centro de viagens](local-temperature-activation.md)**
+1. **[Ativação de reserva de hospitalidade](hospitality-reservation-activation.md)**
