@@ -4,7 +4,7 @@ seo-title: Configuração do fluxo de trabalho de disposição direta
 description: Esta página destaca a Configuração do Fluxo de Trabalho de Disposição Direta.
 seo-description: Esta página destaca a Configuração do Fluxo de Trabalho de Disposição Direta.
 translation-type: tm+mt
-source-git-commit: 0f64047955a3b1b2eb523ed222168b87994a7a99
+source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 
 ---
 
@@ -29,3 +29,13 @@ Como alternativa, como autor de conteúdo, você pode clicar manualmente em **At
 
 ## Configuração do fluxo de trabalho de disposição direta {#configuring-workflow}
 
+>[!IMPORTANT]
+> Antes de start da configuração, você deve instalar o Pacote [de](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)demonstração. Depois de instalar o pacote, você deve ser capaz de visualização e acessá-lo da sua instância do AEM —> Ferramentas (ícone) —> **Fluxo de trabalho** —> Modelos **de** fluxo de trabalho.
+
+Siga as etapas abaixo para configurar o fluxo de trabalho de disposição direta:
+
+1. Navegue até AEM Screens em sua instância do AEM e crie um projeto do Screens intitulado como Fluxo de trabalho **do** ativo.
+
+1. Crie um canal chamado **Workflow-Assets** na pasta **Canais** .
+
+1. 
