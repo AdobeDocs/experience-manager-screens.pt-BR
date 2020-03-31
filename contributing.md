@@ -1,41 +1,59 @@
 ---
-source-git-commit: 26214b3a0c8510a66a340e8f9566aeb4692a23d7
+source-git-commit: 93dda5a30065f2989427b4fadbb2576dad1c13b8
 translation-type: tm+mt
 
 ---
-# Contribuição
+# Contribuição para a documentação da tela do Adobe Experience Manager
 
-Obrigado por escolher contribuir!
+Obrigado por escolher contribuir para a documentação do Adobe Experience Manager Screens! Saudamos as contribuições de conteúdo de toda nossa comunidade de leitores, bem como de outros funcionários da Adobe.
 
-A seguir está um conjunto de orientações a serem seguidas ao contribuir para esse projeto.
+Este arquivo descreve como você pode contribuir, além de apontar as diretrizes a serem seguidas ao fazer suas contribuições.
 
-## Código de Conduta
+## Código de conduta Adobe Open Source
 
-This project adheres to the Adobe [code of conduct](code-of-conduct.md). Ao participar, é necessário manter este código. Please report unacceptable behavior to
-[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Este projeto adotou o Código de Conduta [de Código Aberto da](code-of-conduct.md)Adobe. Ao contribuir para a documentação do AEM, você concorda em seguir este código de conduta. Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Tem Alguma Pergunta?
+## Diretrizes para contribuir
 
-Comece arquivando um problema. Os atuais responsáveis por este projeto trabalham para chegar a um consenso sobre a direção do projeto e para emitir soluções dentro dos processos de emissão (quando apropriado).
+Embora nos congratulemos com quaisquer contribuições para melhorar a documentação do AEM, pedimos que as contribuições sigam, sempre que possível, determinadas diretrizes e normas. Consulte as [Diretrizes para contribuir para a documentação](guidelines.md) do AEM para obter mais informações.
 
-## Contrato de licença do contribuidor
+## Como contribuir
 
-Todas as contribuições de terceiros para este projeto devem ser acompanhadas por um contrato de licença de contribuição assinado. Isso dá à Adobe a permissão de redistribuir suas contribuições como parte do projeto. [Assine nosso CLA](http://opensource.adobe.com/cla.html). Você só precisa enviar um CLA da Adobe uma vez, portanto, se você já enviou um anteriormente, é bom ir!
+Queremos facilitar ao máximo a submissão das vossas contribuições. Você pode contribuir de duas formas:
 
-## Revisões de código
+* [Criar um problema](#create-an-issue)
+* [Criar uma solicitação de baixa automática](#create-a-pull-request)
 
-Todos os envios devem vir na forma de solicitações de envio e precisam ser revisados pelos confirmadores do projeto. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/)
-for more information on sending pull requests.
+Qual método você escolhe depende do quão confortável você está editando a documentação no GitHub.
 
-<!--
-Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
-submitting a pull request!
--->
+>[!NOTE]
+>
+>As contribuições enviadas são cobertas pelos termos de uso da [Adobe.](https://www.adobe.com/legal/terms.html)
 
-## Do Contribuinte Para O Compartilhador
+### Criar um problema {#create-an-issue}
 
-Adoramos contribuições de nossa comunidade! Se você quiser ir um passo além do contribuinte e se tornar um comitê com pleno acesso à gravação e voz no projeto, você deve ser convidado para o projeto. Os comitês existentes utilizam um processo de nomeação interna que deve alcançar um consenso lento (silêncio é aprovação) antes de os convites serem emitidos. Se você se sentir qualificado e quiser se envolver mais profundamente, sinta-se à vontade para alcançar os compromissos existentes e conversar sobre isso.
+Você tem uma sugestão, uma observação sobre os documentos atuais, ou pergunta como algo é descrito? Em seguida, crie um problema. Os problemas também são excelentes se você tiver algo para contribuir, mas não se sinta confortável em editar os documentos ou fazer uma solicitação por push.
 
-## Problemas de segurança
+Os problemas permitem que você descreva facilmente sua ideia para melhorar os documentos e um membro da equipe de documentos do AEM pode analisá-la. Basta clicar no link **Registrar um problema** na parte superior do painel de navegação direito em qualquer página para criar um problema.
 
-Problemas de segurança não devem ser relatados neste rastreador de problemas. Em vez disso, [envie um problema para nossos especialistas em segurança](https://helpx.adobe.com/security/alertus.html)
+### Criar uma solicitação de recebimento {#create-a-pull-request}
+
+Se você vir um problema e souber exatamente como corrigi-lo, considere criar uma solicitação de baixa automática. As solicitações de recebimento permitem que você faça suas próprias edições na documentação, que são então revisadas para inclusão por um membro da equipe de documentos do AEM. Basta clicar no link **Editar esta página** na parte superior do painel de navegação direito em qualquer página para fazer as alterações sugeridas e criar a solicitação de baixa automática.
+
+Todas as solicitações pull devem ser acompanhadas por um contrato de licença de [contribuinte assinado ou CLA.](https://opensource.adobe.com/cla.html)  Isso dá à Adobe a permissão de redistribuir suas contribuições como parte do projeto. Você só precisa enviar um Adobe CLA uma vez, portanto, se você já enviou um anteriormente, você pode ir!
+
+### Introdução rápida ao vídeo
+
+Assista ao vídeo a seguir para obter uma rápida visão geral de como criar problemas e solicitações.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27069)
+
+### Contribuições de funcionários da Adobe
+
+Se você for um funcionário da Adobe e quiser fazer uma solicitação pull, use o repositório privado em `https://git.corp.adobe.com/AdobeDocs`.
+
+Por problemas, sinta-se à vontade para usar os repositórios públicos.
+
+## Informações adicionais
+
+Consulte o Guia [do colaborador do](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) Adobe Docs para obter mais detalhes sobre como usar a plataforma de criação do GitHub.
