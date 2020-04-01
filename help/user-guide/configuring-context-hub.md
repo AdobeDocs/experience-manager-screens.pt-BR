@@ -1,7 +1,7 @@
 ---
 title: Configuração do ContextHub no AEM Screens
 seo-title: Configuração do ContextHub no AEM Screens
-description: Siga esta página para saber mais sobre o ContextHub no mecanismo de definição de metas para definir o armazenamento de dados com a finalidade de acionar a alteração do conteúdo.
+description: Siga esta página para saber mais sobre o ContextHub no mecanismo de definição de metas para definir o armazenamento de dados com a finalidade de acionar a alteração de conteúdo.
 seo-description: Siga esta página para saber mais sobre o ContextHub no mecanismo de definição de metas para definir o armazenamento de dados com a finalidade de acionar a alteração de conteúdo.
 uuid: be06bda8-7de9-40d6-a84b-5ed8d8b3d180
 contentOwner: jsyal
@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
+source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
 
 ---
 
@@ -59,70 +59,71 @@ Depois de configurar a planilha do Google corretamente, por exemplo, como mostra
 
 ![image](/help/user-guide/assets/context-hub/context-hub1.png)
 
-A seguinte validação é o que você visualização ao verificar sua conexão digitando a ID da planilha do Google e a chave da API no formato abaixo:
+A validação a seguir é a que será visualização ao verificar sua conexão, inserindo os dois valores: ID *da planilha do* google e chave *da* API no formato abaixo:
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
 ![image](/help/user-guide/assets/context-hub/context-hub2.png)
 
-
 >[!NOTE]
->**Usar os valores do Google Sheet no AEM **>As planilhas do Google exporão seus valores na loja do ContextHub e estarão disponíveis em`<store-name>/values/<i>/<j>`, onde`<i>`e`<j>`são os índices de linha e coluna na planilha (a partir de 0).
->
-> * /values/0/0 pontos para A1
-> * /values/5/0 pontos para A5
-> * /values/0/5 pontos para E1
+> O exemplo específico abaixo mostra as planilhas do google como um armazenamento de dados que acionará a alteração de ativos se o valor for maior que 100 ou menor que 50.
 
-
-O exemplo específico abaixo mostra a planilha do Excel como um armazenamento de dados que acionará a alteração de ativos se o valor for maior que 100 ou menor que 50.
-
+## Etapa 2: Conexão das Google Sheets à instância do AEM {#step-connecting-aem-instance}
 
 1. **Navegar para o ContextHub**
 
    Navegue até a instância do AEM e clique no ícone de ferramentas na barra lateral esquerda. Clique em **Sites** —> **ContextHub**, como mostrado na figura abaixo.
 
-   ![screen_shot_2019-04-22at53222pm](assets/screen_shot_2019-04-22at53222pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub3.png)
 
 1. **Criando uma nova configuração de armazenamento do ContextHub**
 
-   1. Navegue até **global** > **padrão** > Configuração **do** ContextHub.
+   1. Navegue até o container de configuração intitulado como **telas**.
 
-   1. Clique em **Criar** > Container **** de configuração e insira o título como **ContextHubDemo**.
+   1. Clique em **Criar** > **Criar Container** de configuração e insira o título como **ContextHubDemo**.
 
-   1. **Navegue** até **ContextHubDemo** > Configuração da loja **do ContentHub...** para abrir o assistente **Configurar**.
+      ![image](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. Insira o **Título** como **Google Sheets**, **Store Name** como **googlesheets** e **Store Type** **como contexthub.generic-jsonp**
+   1. **Navegue** até **ContextHubDemo** > **Criar** configuração **** do ContentHub e clique em **Salvar**.
 
-   1. Clique em **Avançar**
-   1. Digite sua configuração json específica. Por exemplo, você pode usar o json a seguir para fins de demonstração.
-   1. Clique em **Salvar**.
+      >[!NOTE]
+      > Depois de clicar em **Salvar** , você estará na tela Configuração **do** ContextHub.
 
-   ```
-   {
-     "service": {
-       "host": "sheets.googleapis.com",
-       "port": 80,
-       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
-       "jsonp": false,
-       "secure": true,
-       "params": {
-         "key": "<your Google API key>"
+   1. Na tela Configuração **do** ContextHub, clique em **Criar** > Configuração de armazenamento **do ContentHub.**
+
+      ![image](/help/user-guide/assets/context-hub/context-hub5.png)
+
+   1. Insira o **Título** como **Google Sheets**, **Store Name** como **googlesheets** e **Store Type** **** ****como contexthub.generic-jsonp e clique em Next.
+      ![image](/help/user-guide/assets/context-hub/context-hub6.png)
+
+   1. Digite sua configuração json específica. Por exemplo, você pode usar o json a seguir para fins de demonstração e clicar em **Salvar** e verá a configuração da loja intitulada como **Google Sheets** na configuração do ContextHub.
+
+      >[!IMPORTANT]
+      >Certifique-se de substituir o código por sua *&lt;ID da planilha>* e *&lt;chave da API>*, que você buscou ao configurar as planilhas do Google.
+
+      ```
+       {
+        "service": {
+        "host": "sheets.googleapis.com",
+        "port": 80,
+        "path": "/v4/spreadsheets/<your google sheets id>/values/Sheet1",
+        "jsonp": false,
+        "secure": true,
+        "params": {
+        "key": "<your Google API key>"
        }
-     },
-     "pollInterval": 10000
-   }
-   ```
+      },
+      "pollInterval": 10000
+      }
+      ```
 
-   >[!NOTE]
-   >
-   >No código de amostra acima, **pollInterval** define a frequência na qual os valores são atualizados (em ms).
-   >
-   >
-   >Substitua o código por sua *&lt;ID da planilha>* e *&lt;chave da API>*, que você buscou ao configurar as planilhas do Google.
+      >[!NOTE]
+      No código de amostra acima, **pollInterval** define a frequência na qual os valores são atualizados (em ms).
+Substitua o código por sua *&lt;ID da planilha>* e *&lt;chave da API>*, que você buscou ao configurar as planilhas do Google.
 
-   >[!CAUTION]
-   Se você criar suas configurações de armazenamento do Google Sheets fora da pasta global (por exemplo, na sua própria pasta de projeto), a definição de metas não funcionará automaticamente.
-   Caso deseje configurar as configurações de armazenamento do Google Sheets fora da pasta global, você deve definir o Nome **da** loja como **segmentação** e Tipo **de** armazenamento como **aem.segmentation**. Além disso, é necessário ignorar o processo de definição do json, conforme definido acima.
+      >[!CAUTION]
+      Se você criar suas configurações de armazenamento do Google Sheets fora da pasta global (por exemplo, na sua própria pasta de projeto), a definição de metas não funcionará automaticamente.
+   >Caso deseje configurar as configurações de armazenamento do Google Sheets fora da pasta global, você deve definir o Nome **da** loja como **segmentação** e Tipo **de** armazenamento como **aem.segmentation**. Além disso, é necessário ignorar o processo de definição do json, conforme definido acima.
 
 1. **Criação de uma marca no Atividade**
 
