@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
+source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 
 ---
 
@@ -134,40 +134,10 @@ Substitua o código por sua *&lt;ID da planilha>* e *&lt;chave da API>*, que voc
       >[!NOTE]
 Você tem que pular o processo de definição do json e deixá-lo em branco.
 
-## Etapa 3: Configurando a marca e a área {#setting-brand-area}
 
-1. **Criação de uma marca no Atividade**
+## Etapa 3: Configuração da Audiência {#setting-up-audience}
 
-   1. Navegue da instância do AEM para **Personalização** > **Atividade**
-
-   1. Clique em **Criar** > **Criar marca**
-
-   1. Select **Brand** from the **Create Page** wizard and click **Next**
-
-   1. Enter the **Title** as **ScreensBrand** and click **Create**. Sua marca foi criada conforme mostrado abaixo.
-
-      ![image](/help/user-guide/assets/context-hub/context-hub8.png)
-
-
-      >[!CAUTION]
-      Problema conhecido:
-Para adicionar uma área, remova o mestre do URL, como
-      `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
-
-1. **Criação de uma área em sua marca**
-
-   Siga as etapas abaixo para criar uma área na marca:
-
-   1. Clique em **Criar** e em **Criar área**
-
-   1. Select **Area** from the **Create Page** wizard and click Next
-
-   1. Enter the **Title** as **GoogleSheets** and click **Create**.
-Sua área será criada na sua atividade.
-
-## Etapa 4: Configuração da segmentação da Audiência {#step-setting-up-audience-segmentation}
-
-Depois de configurar um armazenamento de dados e definir sua marca, siga as etapas abaixo para configurar segmentos de audiência.
+Pendente: para adicionar propriedades
 
 1. **Criação de segmentos no Audiência**
 
@@ -175,11 +145,32 @@ Depois de configurar um armazenamento de dados e definir sua marca, siga as etap
 
    1. Clique em **Criar** > **Criar segmento do Context Hub.** A caixa de diálogo **Novo segmento** do ContextHub é aberta.
 
-   1. Enter the **Title** as **SheetA1 1** and click **Create**. Da mesma forma, crie outro segmento chamado **SheetA2 2**.
+   1. Enter the **Title** as **TargetValue1** and click **Create**. Da mesma forma, crie outro segmento chamado **TargetValue2**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+
+
+
+## Etapa 4: Configuração da segmentação da Audiência {#step-setting-up-audience-segmentation}
+
+Pendente para adicionar edição
+
+Depois de configurar um armazenamento de dados e definir sua atividade (marca e área), siga as etapas abaixo para configurar segmentos de audiência:
+
+1. **Criação de segmentos no Audiência**
+
+   1. Navegue da instância do AEM para **Personalização** > **Audiências** > **telas**.
+
+   1. Clique em **Criar** > **Criar segmento do Context Hub.** A caixa de diálogo **Novo segmento** do ContextHub é aberta.
+
+   1. Enter the **Title** as **TargetValue1** and click **Create**. Da mesma forma, crie outro segmento chamado **TargetValue2**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+
 
 1. **Editar os segmentos**
 
-   1. Selecione as **planilhas de segmentos A1 1** e clique em **Editar** na barra de ações.
+   1. Selecione o segmento **TargetValue1** e clique em **Editar** na barra de ações.
 
    1. Arraste e solte a **Comparação: Propriedade - componente de valor** para o editor.
    1. Clique no ícone de chave para abrir a caixa de diálogo **Comparação de uma propriedade com valor** .
@@ -193,7 +184,7 @@ Depois de configurar um armazenamento de dados e definir sua marca, siga as etap
 
    ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
 
-   Da mesma forma, edite os valores de propriedade para as **planilhas A1 2**.
+   Da mesma forma, edite os valores de propriedade para **TargetValue2**.
 
    1. Arraste e solte a **Comparação: Propriedade - componente de valor** para o editor.
    1. Clique no ícone de chave para abrir a caixa de diálogo **Comparação de uma propriedade com valor** .
@@ -205,6 +196,56 @@ Depois de configurar um armazenamento de dados e definir sua marca, siga as etap
 
 
 
+## Etapa 5: Configurando a marca e a área {#setting-brand-area}
+
+Siga as etapas abaixo para criar uma marca em suas atividades e área sob a marca:
+
+1. **Criação de uma marca no Atividade**
+
+   1. Navegue da instância do AEM para **Personalização** > **Atividades**.
+
+   1. Clique em **Criar** > **Criar marca**.
+
+   1. Select **Brand** from the **Create Page** wizard and click **Next**.
+
+   1. Enter the **Title** as **ScreensBrand** and click **Create**. Sua marca foi criada conforme mostrado abaixo.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub8.png)
+
+
+      >[!CAUTION]
+      Problema conhecido:
+Para adicionar uma área, remova o mestre do URL, como
+      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
+
+1. **Criação de uma área em sua marca**
+
+   Siga as etapas abaixo para criar uma área na marca:
+
+   1. Clique em **Criar** e em **Criar área**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub9.png)
+
+   1. Select **Area** from the **Create Page** wizard and click **Next**.
+
+   1. Enter the **Title** as **ScreensValue** and click **Create**.
+Uma área será criada em sua marca.
+
+## Etapa 6: Configuração da Atividade {#step-setting-up-activity}
+
+Siga as etapas abaixo para criar uma área na marca:
+
+1. Navegue até **ScreensValue** (criado na etapa anterior) e clique em **Criar** > **Criar Atividade**.
+
+1. O Assistente **para configuração de Atividade** é aberto. Informe o **Título** como **target-valueccheck** e **Nome** como **targetvalueeccheck**. Selecione o mecanismo **de** definição de metas como **ContextHub (AEM)** no menu suspenso e clique em **Avançar**.
+
+1. Clique em **Adicionar experiência** no Assistente para **configurar Atividade**.
+
+1. Nas **Audiências**, selecione o **TargetValue1** e clique em **Adicionar experiência** e insira o **Título** como **valuecheck** **** **** Namecomo valuecheck.
+
+1. Da mesma forma, nas **Audiências**, selecione o **TargetValue2** e clique em **Adicionar experiência** e insira o **Título** como **valuecheck** **** **** Namecomo valuecheck2.
+
+1. Click **Next** and then **Save**.
 
 ## Ativar a definição de metas em Canais {#step-enabling-targeting-in-channels}
 
