@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
+source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
       + [Serviço de notificações do AEM Screens](screens-notifications-service.md)
       + [Uso de Fragmentos de experiência](experience-fragments-in-screens.md)
       + [Ativação de nível de ativo](asset-level-scheduling.md)
-      + [Ativação de nível de canal](channel-level-activation.md)
+      + [Ativação de nível de Canal](channel-level-activation.md)
       + [Criação e gerenciamento de uma Live Copy](managing-livecopy.md)
       + [Criação de um fluxo de trabalho de preenchimento de vídeo](creating-a-video-padding-workflow.md)
       + [Adição de componentes a um canal](adding-components-to-a-channel.md)
@@ -66,7 +66,7 @@ source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
       + [Layout de várias zonas](multi-zone-layout-aem-screens.md)
       + [Representações de vídeo](generating-renditions.md)
       + [Uso de uma sequência incorporada dinâmica](dynamic-embedded-sequences.md)
-      + [Duração da reprodução de imagem em massa no nível do canal](channel-level-image-playback.md)
+      + [Duração da reprodução de imagem em massa no nível do Canal](channel-level-image-playback.md)
       + [Sincronização de comandos](using-command-sync.md)
       + [Criação com acionadores de dados](authoring-data-triggers.md)
    + Gerenciamento de atualizações de conteúdo {#content-updates}
@@ -75,22 +75,23 @@ source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
       + [Atualização de conteúdo usando inicializações](launches.md)
    + Exemplos de caso de uso {#use-case-examples}
       + [Canais de emergência](emergency-channel.md)
-      + [Ativação da temperatura do centro de viagens](local-temperature-activation.md)
-      + [Ativação da Reserva de Hospitalidade](hospitality-reservation-activation.md)
-      + [Ativação Direcionada para Inventário de Varejo](retail-inventory-activation.md)
-      + [Aplicar transições](applying-transitions.md)
+      + [Ativação de temperatura do centro de viagens](local-temperature-activation.md)
+      + [Ativação de reserva de hospitalidade](hospitality-reservation-activation.md)
+      + [Ativação direcionada para inventário de varejo](retail-inventory-activation.md)
+      + [Aplicação de Transições](applying-transitions.md)
       + [Transições de várias zonas para uma única zona](multizone-to-singlezone.md)
-      + [Canal de aquisição de uso único](single-use-takeover-channel.md)
-      + [Canal de Aquisição de Uso Perpétuo](perpetual-takeover-channel.md)
+      + [Canal Take-Over de Uso Único](single-use-takeover-channel.md)
+      + [Canal Take-Over de Uso Perpétuo](perpetual-takeover-channel.md)
 + Recursos do desenvolvedor e da API {#developing}
    + [REST APIs](rest-api.md)
    + [Desenvolvimento de um componente personalizado para o AEM Screens](developing-custom-component-tutorial-develop.md)
-   + [Canais offline](offline-channels.md)
+   + [Canais off-line](offline-channels.md)
    + [Extensão de um componente do AEM Screens](extending-component-tutorial-develop.md)
    + [Criação de componentes](creating-components.md)
    + [Como incorporar um aplicativo REACT usando o editor SPA AEM e como integrar ao AEM Screens Analytics](embedding-react-app.md)
    + [Configuração do ContextHub no AEM Screens](configuring-context-hub.md)
    + [Criação de modelos personalizados para layouts de várias zonas](creating-custom-templates-multizone-layouts.md)
+   + [Aplicação de marca personalizada e estilo para sobreposições de texto](custom-branding-text-overlays.md)
 + Solução de problemas e perguntas frequentes {#troubleshooting}
    + [Perguntas frequentes sobre o AEM Screens](aem-screens-faqs.md)
    + [Solução de problemas do Device Control Center](monitoring-screens.md)
