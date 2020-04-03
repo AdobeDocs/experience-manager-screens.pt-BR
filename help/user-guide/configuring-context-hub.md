@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
+source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
 
 ---
 
@@ -42,12 +42,11 @@ O diagrama a seguir fornece uma representação visual de como as Configuraçõe
 
 Antes de start a configuração das Configurações do Context Hub para um projeto do AEM Screens, você deve configurar o Google Sheets (para fins de demonstração).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >O Google Sheets é usado no exemplo a seguir como um sistema de banco de dados de amostra de onde os valores são obtidos e é usado exclusivamente para fins educacionais. A Adobe não endossa o uso do Google Sheets para ambientes de produção.
 >
 >Para obter mais informações, consulte [Obter chave](https://developers.google.com/maps/documentation/javascript/get-api-key) da API na documentação do Google.
-
 
 ## Etapa 1: Configuração de um armazenamento de dados {#step-setting-up-a-data-store}
 
@@ -68,7 +67,7 @@ A validação a seguir é a que será visualização ao verificar sua conexão, 
 >[!NOTE]
 > O exemplo específico abaixo mostra as planilhas do google como um armazenamento de dados que acionará a alteração de ativos se o valor for maior que 100 ou menor que 50.
 
-## Etapa 2: Conexão das Google Sheets à instância do AEM {#step-connecting-aem-instance}
+## Etapa 2: Configuração das configurações da loja {#step-setting-store-configurations}
 
 1. **Navegar para o ContextHub**
 
@@ -123,7 +122,19 @@ Substitua o código por sua *&lt;ID da planilha>* e *&lt;chave da API>*, que voc
 
       >[!CAUTION]
       Se você criar suas configurações de armazenamento do Google Sheets fora da pasta global (por exemplo, na sua própria pasta de projeto), a definição de metas não funcionará automaticamente.
-   >Caso deseje configurar as configurações de armazenamento do Google Sheets fora da pasta global, você deve definir o Nome **da** loja como **segmentação** e Tipo **de** armazenamento como **aem.segmentation**. Além disso, é necessário ignorar o processo de definição do json, conforme definido acima.
+
+1. **Configuração da segmentação da loja**
+
+   1. Navegue até Configuração de armazenamento do **ContentHub.** e crie outra configuração de loja no container de configuração de telas e defina o **Título** como **segmentation-contexthub**, **Store Name** como **segmentation** e **Store Type** **** como aem.segmentation.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub7.png)
+
+   1. Click **Next** and then **Save**.
+
+      >[!NOTE]
+Você tem que pular o processo de definição do json e deixá-lo em branco.
+
+## Etapa 3: Configurando a marca e a área {#setting-brand-area}
 
 1. **Criação de uma marca no Atividade**
 
@@ -133,14 +144,15 @@ Substitua o código por sua *&lt;ID da planilha>* e *&lt;chave da API>*, que voc
 
    1. Select **Brand** from the **Create Page** wizard and click **Next**
 
-   1. Enter the **Title** as **ContextHubDemo** and click **Create**. Sua marca foi criada conforme mostrado abaixo.
-   ![screen_shot_2019-05-05at44305pm](assets/screen_shot_2019-05-05at44305pm.png)
+   1. Enter the **Title** as **ScreensBrand** and click **Create**. Sua marca foi criada conforme mostrado abaixo.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub8.png)
 
 
-   >[!CAUTION]
-   Problema conhecido:
-   Para adicionar uma área, remova o mestre do URL, como
-   `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
+      >[!CAUTION]
+      Problema conhecido:
+Para adicionar uma área, remova o mestre do URL, como
+      `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
 
 1. **Criação de uma área em sua marca**
 
@@ -153,7 +165,7 @@ Substitua o código por sua *&lt;ID da planilha>* e *&lt;chave da API>*, que voc
    1. Enter the **Title** as **GoogleSheets** and click **Create**.
 Sua área será criada na sua atividade.
 
-## Etapa 2: Configuração da segmentação da Audiência {#step-setting-up-audience-segmentation}
+## Etapa 4: Configuração da segmentação da Audiência {#step-setting-up-audience-segmentation}
 
 Depois de configurar um armazenamento de dados e definir sua marca, siga as etapas abaixo para configurar segmentos de audiência.
 
@@ -194,7 +206,7 @@ Depois de configurar um armazenamento de dados e definir sua marca, siga as etap
 
 
 
-## Etapa 3: Ativar a definição de metas em Canais {#step-enabling-targeting-in-channels}
+## Ativar a definição de metas em Canais {#step-enabling-targeting-in-channels}
 
 Siga as etapas abaixo para ativar a definição de metas em seus canais.
 
