@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 23ecaf3533c2298d98c37f2bbcb6cbe50aed17fc
+source-git-commit: 1222b1fcfedcc68c360c69867d3db4044ce8e7d8
 
 ---
 
@@ -22,7 +22,7 @@ Using ***Embedded Sequences***, for channels, allows the user to add components 
 
 ## Adição de sequências incorporadas {#adding-embedded-sequences}
 
-Você tem a opção de adicionar os seguintes componentes ao seu canal de sequência:
+Você tem a opção de adicionar os seguintes componentes ao canal de sequência:
 
 * Sequência incorporada
 * Sequência incorporada dinâmica
@@ -37,7 +37,7 @@ Você pode adicionar uma sequência incorporada ao seu canal. Uma sequência inc
 
 >[!NOTE]
 >
->***O Caminho*** do canal define uma referência explícita ao canal.
+>***O Caminho*** do Canal define uma referência explícita ao canal.
 >
 >Para saber mais sobre *Caminho do canal*, consulte [Atribuição de canal](channel-assignment.md) na seção sobre criação da documentação do Screens.
 
@@ -55,21 +55,21 @@ Siga as etapas abaixo para adicionar uma sequência incorporada ao seu canal:
 
 By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
 
->[!Iimportante]
+>[!IMPORTANT]
 >Você deve atribuir o canal (usado em sequência incorporada) à mesma exibição.
 >
 >Siga as etapas abaixo depois de adicionar uma sequência incorporada ao seu canal a partir das etapas anteriores:
 >
 >1. Navegue até a exibição e selecione a exibição na pasta **Locais** .
->1. Clique em **Painel** na barra de ação para navegar até o painel de exibição.
->1. Selecione **+ Atribuir canais** nos PAINÉIS **CANAIS** ATRIBUÍDOS E PROGRAMADOS para abrir a caixa **de diálogo Atribuição de** canal.
+>1. Clique no **Painel** da barra de ação para navegar até o painel de exibição.
+>1. Selecione **+ Atribuir Canais** nos PAINÉIS **CANAIS** ATRIBUÍDOS E AGENDADOS para abrir a caixa **de diálogo Atribuição de** Canais.
    >
    >
-1. Selecione o caminho do canal (usado na sequência incorporada) no Caminho **do** canal.
->1. Certifique-se de que a **Prioridade** seja inferior ao canal principal.
+1. Selecione o caminho do canal (usado em sequência incorporada) no Caminho **do** Canal.
+>1. Certifique-se de que a **Prioridade** seja menor que o canal principal.
    >
    >
-1. Você não deve selecionar nenhum evento **suportado**.
+1. Você não deve selecionar nenhum Evento **** suportado.
 >1. Clique em **Salvar** uma vez concluído.
 >
 
