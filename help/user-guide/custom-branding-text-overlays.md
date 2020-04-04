@@ -5,7 +5,7 @@ description: Siga esta página para saber como aplicar marcas e estilos personal
 seo-description: Siga esta página para saber como aplicar marcas e estilos personalizados a sobreposições de texto.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 835e801909d8d126042acd713fc68075ff598712
+source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
 
 ---
 
@@ -18,7 +18,7 @@ Siga esta página para saber como aplicar marcas e estilos personalizados a sobr
 
 Siga as etapas abaixo para criar marcas e estilos personalizados para sobreposições de texto:
 
-1. Crie um projeto do AEM Screens intitulado como estilo **** personalizado e um canal chamado **DemoBrand**, como mostrado na figura abaixo.
+1. Crie um projeto do AEM Screens. Este exemplo mostra a funcionalidade ao criar um projeto chamado **customstyle** e um canal chamado **DemoBrand** , como mostrado na figura abaixo.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -38,16 +38,26 @@ Siga as etapas abaixo para criar marcas e estilos personalizados para sobreposi�
 1. Navegue até o arquivo *static.css* e defina as seguintes regras css. Também é mostrado como um exemplo na figura abaixo das regras css.
 
    ```shell
-    //global styles
-    .cq-Screens-textOverlay
-    { … }
-    //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay { … }
-    // light text variant
-    .cq-Screens-textOverlay-color--light
-    { … }
-     // dark text variant
-    .cq-Screens-textOverlay-color--dark { … }
+     //global styles
+     cq-Screens-textOverlay {
+     padding: 1em;
+     font-size: 3rem;
+     line-height: 1em;
+      }
+     //authoring overrides
+    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+     display: none;
+     padding: 0;
+     font-size: 1rem;
+     }
+      // light text variant
+     .cq-Screens-textOverlay-color--light {
+      background-color: rgba(0, 0, 0, .6);
+      }
+      // dark text variant
+      .cq-Screens-textOverlay-color--dark {
+       background-color: rgba(255, 255, 255, .6);
+     }
    ```
    ![image](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
@@ -67,6 +77,13 @@ Siga as etapas abaixo para criar marcas e estilos personalizados para sobreposi�
 
 1. Clique em **Salvar e fechar** para atualizar o caminho do design.
 
+### Atualizando ACLs {#updating-acls}
+
+Você deve atualizar as ACLs para esses designs para que possam ser baixados pelo player.
+
+1. Navegue até useradmin e escolha o `screens-<project>-devices group` e conceda permissão de leitura ao caminho de design personalizado.
+
+1. Forneça ao `screens-<project>-administrators` grupo permissões de leitura e modificação para este caminho.
 
 ## Como visualizar o resultado {#viewing-the-result}
 
