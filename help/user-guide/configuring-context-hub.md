@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
+source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
 
 ---
 
@@ -217,36 +217,39 @@ Depois de configurar um armazenamento de dados e definir sua atividade (marca e 
 
       ![image](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## Etapa 5: Editar os segmentos {#editing-audience-segmentation}
+## Etapa 5: Editar os segmentos no Audiência{#editing-audience-segmentation}
 
 1. **Editar os segmentos**
 
-   1. 
-      1. Navegue da instância do AEM para **Personalização** > **Atividades** > **TelasMarca** >**ScreensValue** >**ValueCheck50**.
-   1. Selecione o segmento **ValueCheck50** e clique em **Editar** na barra de ações.
+   1. Navegue da instância do AEM para **Personalização** > **Audiências** > **telas**.
+
+   1. Selecione o segmento **Superior a 50** e clique em **Editar** na barra de ações.
 
    1. Arraste e solte a **Comparação: Propriedade - componente de valor** para o editor.
+
    1. Clique no ícone de chave para abrir a caixa de diálogo **Comparação de uma propriedade com valor** .
+
    1. Selecione **googlesheets/value/1/0** no menu suspenso em Nome **da** propriedade.
 
-   1. Selecione o **Operador** como **igual** no menu suspenso.
+   1. Selecione o **Operador** como **maior que** no menu suspenso.
 
-   1. Informe o **Valor** como **1**.
+   1. Informe o **Valor** como **50**.
    >[!NOTE]
    O AEM valida seus dados do Google Sheet mostrando seu segmento como verde.
 
    ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
 
-   Da mesma forma, edite os valores de propriedade para **TargetValue2**.
+   Da mesma forma, edite os valores de propriedade para **Lowerthan50**.
 
    1. Arraste e solte a **Comparação: Propriedade - componente de valor** para o editor.
+
    1. Clique no ícone de chave para abrir a caixa de diálogo **Comparação de uma propriedade com valor** .
+
    1. Selecione **googlesheets/value/1/0** no menu suspenso em Nome **da** propriedade.
 
-   1. Selecione o **Operador** como **igual** no menu suspenso.
+   1. Selecione o **Operador** como **menor que** no menu suspenso.
 
-   1. Informe o **Valor** como **2**.
-
+   1. Informe o **Valor** como **50**.
 
 
 
