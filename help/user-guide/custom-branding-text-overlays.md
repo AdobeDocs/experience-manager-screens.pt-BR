@@ -5,7 +5,7 @@ description: Siga esta página para saber como aplicar marcas e estilos personal
 seo-description: Siga esta página para saber como aplicar marcas e estilos personalizados a sobreposições de texto.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: a475e373b0717b69610cb78907542f1da9ad8992
 
 ---
 
@@ -85,7 +85,7 @@ Siga as etapas abaixo para criar marcas e estilos personalizados para sobreposi�
    1. Sobreposição `/libs/screens/core/templates/sequencechannel` em `/apps/screens/core/templates/sequencechannel`.
    1. Modifique a propriedade *cq:designPath* para apontar `/apps/screens/core/templates/sequencechannel/jcr:content` para o novo design.
 
-1. Para criar completamente seu próprio modelo:
+1. Para criar seu próprio modelo completamente:
    1. Copie `/libs/screens/core/templates/sequencechannel` para `/apps/customstyle/templates/styled-sequencechannel`.
    1. Modifique a propriedade *cq:designPath* para apontar `/apps/customstyle/templates/styled-sequencechannel/jcr:content` para o novo design.
 
