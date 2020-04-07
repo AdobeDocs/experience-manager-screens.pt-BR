@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
+source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ---
 
@@ -150,7 +150,7 @@ Você tem que pular o processo de definição do json e deixá-lo em branco.
    1. Selecione o segmento **Superior a 50** e clique em **Propriedades** na barra de ações.
       ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. Selecione a guia **Personalização** em Propriedades **do** segmento. Defina Caminho **do** ContextHub como `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` e Caminho **de** segmentos como `/conf/screens/settings/wcm/segments` e clique em **Salvar**, como mostrado na figura abaixo.
+   1. Selecione a guia **Personalização** em Propriedades **do** segmento. Defina Caminho **do** ContextHub como `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` e Caminho **de** segmentos como `/conf/screens/settings/wcm/segments` e clique em **Salvar**, como mostrado na figura abaixo.
 
       ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -239,11 +239,11 @@ A **googlesheets/value/1/0** refere-se à linha 2 e à coluna como preenchido na
    1. Selecione o **Operador** como **maior que** no menu suspenso.
 
    1. Insira o **Valor** como **70**.
-   >[!NOTE]
-   O AEM valida seus dados do Google Sheet mostrando seu segmento como verde.
 
-   ![image](/help/user-guide/assets/context-hub/context-hub18.png)
+      >[!NOTE]
+      O AEM valida seus dados do Google Sheet mostrando seu segmento como verde.
 
+      ![image](/help/user-guide/assets/context-hub/context-hub18.png)
    Da mesma forma, edite os valores de propriedade para **Lowerthan50**.
 
    1. Arraste e solte a **Comparação: Propriedade - componente de valor** para o editor.
@@ -262,11 +262,11 @@ A **googlesheets/value/1/0** refere-se à linha 2 e à coluna como preenchido na
 
 Siga as etapas abaixo para ativar a definição de metas em seus canais.
 
-1. Navegue até um dos canais do AEM Screens. As etapas a seguir demonstram como ativar a definição de metas usando **DataDrivenRetail** criado em um Canal do AEM Screens.
+1. Navegue até um dos canais do AEM Screens. As etapas a seguir demonstram como ativar a definição de metas usando **DataDrivenChannel** criado em um Canal do AEM Screens.
 
-1. Selecione o canal **DataDrivenRetail** e clique em **Propriedades** na barra de ações.
+1. Selecione o canal **TargetChannel** e clique em **Propriedades** na barra de ações.
 
-   ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub19.png)
 
 1. Selecione a guia **Personalização** para configurar as configurações do ContextHub.
 
@@ -275,20 +275,18 @@ Siga as etapas abaixo para ativar a definição de metas em seus canais.
    1. Selecione o Caminho **dos** segmentos como **conf** > **We.Retail** > **configurações** > **wcm** **** ****>segmentos e clique emSelect.
 
    1. Clique em **Salvar e fechar**.
-   >[!NOTE]
-   Use o ContextHub e o caminho Segmentos, onde você salvou inicialmente suas configurações e segmentos do hub de contexto.
 
-   ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
+      >[!NOTE]
+      Use o ContextHub e o caminho Segmentos, onde você salvou inicialmente suas configurações e segmentos do hub de contexto.
 
-1. Navegue e selecione **DataDrivenRetail** em **DataDrivenAssets** > **Canais** e clique em **Editar** na barra de ações.
+      ![image](/help/user-guide/assets/context-hub/context-hub20.png)
 
-   >[!NOTE]
-   Se você configurou tudo corretamente, verá a opção **Definição de metas** na lista suspensa do editor, como mostra a figura abaixo.
+   1. Navegue e selecione o canal **TargetChannel** e clique em **Editar** na barra de ações.
 
-   ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
+      >[!NOTE]
+      Se você configurou tudo corretamente, verá a opção **Definição de metas** na lista suspensa do editor, como mostra a figura abaixo.
 
-   >[!NOTE]
-   Depois de configurar as configurações do ContextHub para o seu canal, siga as etapas anteriores de 1 a 4, para os outros três canais de sequência também se quiser seguir todos os casos de uso abaixo.
+      ![image](/help/user-guide/assets/context-hub/context-hub21.png)
 
 ## Saiba mais: Casos de uso de exemplo {#learn-more-example-use-cases}
 
