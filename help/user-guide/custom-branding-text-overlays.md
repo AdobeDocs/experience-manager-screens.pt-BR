@@ -5,7 +5,7 @@ description: Siga esta página para saber como aplicar marcas e estilos personal
 seo-description: Siga esta página para saber como aplicar marcas e estilos personalizados a sobreposições de texto.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
+source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ---
 
@@ -35,7 +35,7 @@ Siga as etapas abaixo para criar marcas e estilos personalizados para sobreposi�
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Navegue até o arquivo *static.css* e defina as seguintes regras css. Também é mostrado como um exemplo na figura abaixo das regras css.
+1. Crie o arquivo *static.css* e defina as seguintes regras css. Também é mostrado como um exemplo na figura abaixo das regras css.
 
    ```shell
      //global styles
@@ -76,6 +76,19 @@ Siga as etapas abaixo para criar marcas e estilos personalizados para sobreposi�
    ![image](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
 1. Clique em **Salvar e fechar** para atualizar o caminho do design.
+
+>[!IMPORTANT]
+> Você tem a opção de sobrepor os modelos existentes do Screens para injetar seus próprios designs por padrão ou criar seu próprio modelo completamente. Consulte as etapas abaixo para obter mais detalhes.
+
+1. Para sobrepor os modelos existentes do Screens para injetar seus próprios designs por padrão:
+
+   1. Sobreposição `/libs/screens/core/templates/sequencechannel` em `/apps/screens/core/templates/sequencechannel`.
+   1. Modifique a propriedade *cq:designPath* para apontar `/apps/screens/core/templates/sequencechannel/jcr:content` para o novo design.
+
+1. Para criar completamente seu próprio modelo:
+   1. Copie `/libs/screens/core/templates/sequencechannel` para `/apps/customstyle/templates/styled-sequencechannel`.
+   1. Modifique a propriedade *cq:designPath* para apontar `/apps/customstyle/templates/styled-sequencechannel/jcr:content` para o novo design.
+
 
 ### Atualizando ACLs {#updating-acls}
 
