@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
+source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
 
 ---
 
@@ -231,13 +231,18 @@ Depois de configurar um armazenamento de dados e definir sua atividade (marca e 
 
    1. Selecione **googlesheets/value/1/0** no menu suspenso em Nome **da** propriedade.
 
+      >[!NOTE]
+A **googlesheets/value/1/0** refere-se à linha 2 e à coluna como preenchido nas planilhas do Google na figura abaixo:
+
+      ![image](/help/user-guide/assets/context-hub/context-hub17.png)
+
    1. Selecione o **Operador** como **maior que** no menu suspenso.
 
-   1. Informe o **Valor** como **50**.
+   1. Insira o **Valor** como **70**.
    >[!NOTE]
    O AEM valida seus dados do Google Sheet mostrando seu segmento como verde.
 
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub18.png)
 
    Da mesma forma, edite os valores de propriedade para **Lowerthan50**.
 
@@ -278,7 +283,7 @@ Siga as etapas abaixo para ativar a definição de metas em seus canais.
 1. Navegue e selecione **DataDrivenRetail** em **DataDrivenAssets** > **Canais** e clique em **Editar** na barra de ações.
 
    >[!NOTE]
-   Se você configurou tudo corretamente, verá a opção **Definição de metas** na lista suspensa do editor, como mostrado na figura abaixo.
+   Se você configurou tudo corretamente, verá a opção **Definição de metas** na lista suspensa do editor, como mostra a figura abaixo.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
