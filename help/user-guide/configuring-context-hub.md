@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: 358c22018bf933e5b5418f202eb70b1a39a49783
 
 ---
 
@@ -270,11 +270,9 @@ Siga as etapas abaixo para ativar a definição de metas em seus canais.
 
 1. Selecione a guia **Personalização** para configurar as configurações do ContextHub.
 
-   1. Selecione o Caminho **do** ContextHub como **libs** > **configurações** > **configurações** de nuvem > **padrão** **** ****> Configurações doContextHube clique em Selecionar.
+   1. Defina Caminho **do** ContextHub como `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` e Caminho **de** segmentos como `/conf/screens/settings/wcm/segments` e clique em **Salvar**.
 
-   1. Selecione o Caminho **dos** segmentos como **conf** > **We.Retail** > **configurações** > **wcm** **** ****>segmentos e clique emSelect.
-
-   1. Clique em **Salvar e fechar**.
+   1. Click **Save &amp; Close**.
 
       >[!NOTE]
       Use o ContextHub e o caminho Segmentos, onde você salvou inicialmente suas configurações e segmentos do hub de contexto.
