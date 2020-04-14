@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
+source-git-commit: bde770227dfbe72e96254d27ba14e7469eed1b5c
 
 ---
 
@@ -20,8 +20,8 @@ source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
 Esta seção aborda os seguintes tópicos:
 
-* **Atribuindo um canal**
-* **Noções Gerais das Propriedades da caixa de diálogo Atribuição de Canal**
+* **Atribuição de um Canal**
+* **Noções Gerais das Propriedades da caixa de diálogo Atribuição de Canais**
 * **Segmentação de dia**
 
 Depois de definir uma exibição, é necessário atribuir um canal a ela.
@@ -32,7 +32,7 @@ Essa página mostra a atribuição de um canal às suas exibições.
 
 * [Configuração e implantação do Screens](configuring-screens-introduction.md)
 * [Criar e gerenciar projetos de telas](creating-a-screens-project.md)
-* [Criar e gerenciar canais](managing-channels.md)
+* [Criar e gerenciar Canais](managing-channels.md)
 * [Criar e gerenciar locais](managing-locations.md)
 * [Criar e gerenciar exibições](managing-displays.md)
 
@@ -50,43 +50,57 @@ Siga as etapas abaixo para atribuir um canal a uma exibição:
 
    Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS** panel to open the **Channel Assignment** dialog box.
 
-   ![screen_shot_2018-08-23at25938pm](assets/screen_shot_2018-08-23at25938pm.png)
+   ![image](/help/user-guide/assets/channel-assign1.png)
 
-   É possível configurar as seguintes propriedades na caixa de diálogo **Atribuição de canal**:
+   You can configure the following properties from the **Channel Assignment** dialog box in the section below.
 
-   **Função de canal**:
+### Como entender as propriedades do Canal {#channel-properties}
 
-   A função de canal define o contexto da exibição. A função é o alvo de várias ações e não depende do canal real que a atende.
+#### Fazer referência ao canal {#ref-channel}
 
-   **Fazer referência ao canal**:
+A opção Fazer referência ao canal permite que você forneça uma referência ao canal desejado, seja por nome ou por caminho do canal.
 
-   A opção Fazer referência ao canal permite que você forneça uma referência ao canal desejado, seja por nome ou por caminho do canal.
+* **por caminho**: você fornece uma referência explícita usando o caminho absoluto do canal.
 
-   * **por caminho**: você fornece uma referência explícita usando o caminho absoluto do canal.
-   * **pelo nome**: Insira o nome do canal que será resolvido para um canal real por contexto. Esse recurso permite que você crie a versão local de um canal para resolver dinamicamente o conteúdo específico da localização. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
-   **Prioridade:**
+* **pelo nome**: Insira o nome do canal que será resolvido para um canal real por contexto. Esse recurso permite que você crie a versão local de um canal para resolver dinamicamente o conteúdo específico da localização. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-   A prioridade é usada para ordenar as atribuições, no caso de várias delas corresponderem aos critérios de reprodução. A atribuição com o valor mais alto sempre terá precedência sobre aquelas com valores mais baixos. Por exemplo, se houver dois canais, A e B, em que A tem uma prioridade de 1 e B tem uma prioridade de 2, o canal B será exibido, pois tem uma prioridade mais alta que A.
+#### Função de canal {#role-channel}
 
-   A prioridade de um canal é definida como um número (1 para o valor mínimo) na caixa de diálogo **Atribuição de canal**, conforme mencionado acima. Além disso, os canais atribuídos são classificados com base em uma prioridade decrescente.
+A função de canal define o contexto da exibição. A função é o alvo de várias ações e não depende do canal real que a atende.
 
-   **Eventos compatíveis**:
+#### Prioridade {#priority-channel}
 
-   * **Carga inicial**: carrega o canal quando o player é iniciado. Esse evento pode ser atribuído a vários canais em combinação com o agendamento
-   * **Tela inativa**: carregado quando a tela está inativa. Esse evento pode ser atribuído a vários canais em combinação com o agendamento
-   * **Temporizador**: precisa ser definido quando um agendamento é fornecido
-   * **Interação do usuário**: o player mudará para o canal especificado se houver uma interação de usuário na tela (toque) em um canal inativo e será carregado quando a tela for tocada
-   **Agendamento**:
+A prioridade é usada para ordenar as atribuições, no caso de várias delas corresponderem aos critérios de reprodução. A atribuição com o valor mais alto sempre terá precedência sobre aquelas com valores mais baixos. Por exemplo, se houver dois canais, A e B, em que A tem uma prioridade de 1 e B tem uma prioridade de 2, o canal B será exibido, pois tem uma prioridade mais alta que A.
 
-   o agendamento permite que você forneça uma descrição no texto informando quando o canal deve aparecer. Ele também permite definir uma data de início (**ativo desde**) e uma data de término (**ativo até**) para o canal a ser mostrado. A sintaxe da expressão de agendamento é baseada nas sintaxes de text e cron de later.js:
+>[!NOTE]
+>A prioridade de um canal é definida como um número (1 para o valor mínimo) na caixa de diálogo **Atribuição de canal**, conforme mencionado acima. Além disso, os canais atribuídos são classificados com base em uma prioridade decrescente.
 
-   * [https://bunkat.github.io/later/parsers.html#text](https://bunkat.github.io/later/parsers.html#text)
-   * [https://bunkat.github.io/later/parsers.html#cron](https://bunkat.github.io/later/parsers.html#cron)
-   **Mostrar dica de ferramenta da atração**:
+#### Eventos compatíveis {#supported-events-channel}
 
-   Mostrar dica de ferramenta da atração define se a dica de ferramenta de atração (“*Toque em qualquer lugar para começar*”) deve ser mostrada ou não enquanto o canal está em execução.
+* **Carga inicial**: carrega o canal quando o player é iniciado. Esse evento pode ser atribuído a vários canais em combinação com o agendamento
+* **Tela inativa**: carregado quando a tela está inativa. Esse evento pode ser atribuído a vários canais em combinação com o agendamento
+* **Temporizador**: precisa ser definido quando um agendamento é fornecido
+* **Interação do usuário**: o player mudará para o canal especificado se houver uma interação de usuário na tela (toque) em um canal inativo e será carregado quando a tela for tocada
 
-1. Clique em **Salvar** para atribuir o canal criado a uma exibição.
+#### Método de interrupção {#interruption-method-channel}
+
+Como autor de conteúdo, você deve ser capaz de especificar quando um canal é interrompido para que possa optar por interromper o conteúdo não crítico, mas ter a opção de permitir que o conteúdo importante seja reproduzido totalmente antes de interromper a reprodução devido ao agendamento.
+As seguintes opções estão disponíveis para definir o método de interrupção na caixa de diálogo Atribuição **de** Canais:
+
+* **Imediatamente**: sempre que o agendamento é ativado ou uma atualização é recebida, interrompemos a reprodução e atualizamos ou reproduzimos imediatamente o novo conteúdo
+* **No final do ponto** atual: quando um novo agendamento é ativado ou uma atualização é recebida, esperamos que o item atual na sequência termine a reprodução e somente depois disso atualizamos ou reproduzimos o novo conteúdo
+   >[!NOTE]
+   >Essa é a opção padrão selecionada.
+* **No final da sequência**: quando um novo agendamento é ativado ou uma atualização é recebida, esperamos que a sequência inteira atinja seu fim e logo antes de revertermos para o primeiro elemento, atualizamos ou reproduzimos o novo conteúdo
+
+#### Agendamento {#schedule-channel}
+
+o agendamento permite que você forneça uma descrição no texto informando quando o canal deve aparecer. Ele também permite definir uma data de início (**ativo desde**) e uma data de término (**ativo até**) para o canal a ser mostrado.
+
+**Mostrar dica de ferramenta da atração**:
+
+Mostrar dica de ferramenta da atração define se a dica de ferramenta de atração (“*Toque em qualquer lugar para começar*”) deve ser mostrada ou não enquanto o canal está em execução.
+
 
 ### Segmentação de dia {#dayparting}
 
@@ -158,4 +172,10 @@ Este exemplo mostra a segmentação de dia para uma loja que exibe sua coleção
 |---|---|---|---|
 | A | inverno | 1 | 01 de dez de 2017 - 31 de dez de 2017 |
 | B | Natal | 2 | 24 de dez de 2017 - 31 de dez de 2017 |
+
+>[!IMPORTANT]
+> Para saber mais sobre a separação de horário, consulte as seções abaixo:
+>* [Tratamento de recorrência em ativos](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
+>* [Tratamento da recorrência de ativos em um Canal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
+
 
