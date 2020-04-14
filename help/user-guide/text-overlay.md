@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 translation-type: tm+mt
-source-git-commit: f15009ab8432756c2be3c6c7fc6699eab9b3a6a8
+source-git-commit: 651627223e1b9bd0f650b010d2b92f004b9e2ea2
 
 ---
 
@@ -22,8 +22,8 @@ Esta seção aborda os seguintes tópicos:
 
 * **Visão geral**
 * **Uso da sobreposição de texto**
-* **Pré-requisitos**
 * **Como entender as propriedades da sobreposição de texto**
+* **Uso de valores do ContextHub na sobreposição de texto**
 
 >[!CAUTION]
 >
@@ -117,7 +117,7 @@ Depois de configurar as configurações necessárias para o seu projeto, siga as
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
-1. Adicione um componente de imagem e sobreposição de texto à imagem, conforme descrito na seção **Uso da sobreposição** de texto desta página.
+1. Adicione um componente de imagem e sobreposição de texto à imagem, conforme descrito na seção [Uso da sobreposição](/help/user-guide/text-overlay.md#using-text-overlay) de texto desta página.
 
 1. Clique em **Configurar** (ícone de chave) para abrir a caixa de diálogo **Imagem** .
 
