@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: bde770227dfbe72e96254d27ba14e7469eed1b5c
+source-git-commit: 7d0925076ecf2038c666b0d53669e5d84c66eedf
 
 ---
 
@@ -52,9 +52,9 @@ Siga as etapas abaixo para atribuir um canal a uma exibição:
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   You can configure the following properties from the **Channel Assignment** dialog box in the section below.
+   É possível entender e configurar as propriedades na caixa de diálogo Atribuição **de** Canais na seção abaixo.
 
-### Como entender as propriedades do Canal {#channel-properties}
+### Como entender as propriedades do Canal da atribuição do Canal {#channel-properties}
 
 #### Fazer referência ao canal {#ref-channel}
 
@@ -84,14 +84,17 @@ A prioridade é usada para ordenar as atribuições, no caso de várias delas co
 
 #### Método de interrupção {#interruption-method-channel}
 
+>[IMPORTANTE]
+> Essa opção só está disponível com o AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
+
 Como autor de conteúdo, você deve ser capaz de especificar quando um canal é interrompido para que possa optar por interromper o conteúdo não crítico, mas ter a opção de permitir que o conteúdo importante seja reproduzido totalmente antes de interromper a reprodução devido ao agendamento.
 As seguintes opções estão disponíveis para definir o método de interrupção na caixa de diálogo Atribuição **de** Canais:
 
-* **Imediatamente**: sempre que o agendamento é ativado ou uma atualização é recebida, interrompemos a reprodução e atualizamos ou reproduzimos imediatamente o novo conteúdo
-* **No final do ponto** atual: quando um novo agendamento é ativado ou uma atualização é recebida, esperamos que o item atual na sequência termine a reprodução e somente depois disso atualizamos ou reproduzimos o novo conteúdo
+* **Imediatamente**: sempre que o agendamento é ativado ou uma atualização é recebida, você pode interromper a reprodução e atualizar ou reproduzir imediatamente o novo conteúdo
+* **No final do ponto** atual: quando um novo agendamento é ativado ou uma atualização é recebida, você tem a opção de esperar que o item atual na sequência termine a reprodução e somente depois disso você atualiza ou reproduz o novo conteúdo
    >[!NOTE]
    >Essa é a opção padrão selecionada.
-* **No final da sequência**: quando um novo agendamento é ativado ou uma atualização é recebida, esperamos que a sequência inteira atinja seu fim e logo antes de revertermos para o primeiro elemento, atualizamos ou reproduzimos o novo conteúdo
+* **No final da sequência**: quando uma nova programação é ativada ou uma atualização é recebida, você tem a opção de esperar que a sequência inteira atinja sua extremidade, e logo antes da sequência desejada, você volta ao primeiro elemento, atualiza ou reproduz o novo conteúdo
 
 #### Agendamento {#schedule-channel}
 
