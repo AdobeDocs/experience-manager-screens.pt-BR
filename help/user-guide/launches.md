@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7e3610aef5950bf92423147a39053dea64ab71da
+source-git-commit: 9cc4b31ecd66530a85a7a526e306faf1ec371b2e
 
 ---
 
@@ -177,43 +177,43 @@ Depois de criar a inicialização, é necessário editar as propriedades de inic
 
 Siga as etapas abaixo para editar as propriedades de inicialização:
 
-1. Navegue até o canal (**FutureLaunch**) e selecione o canal, como mostrado na figura abaixo. Abra o painel **Referências** no painel lateral esquerdo.
+1. Navegue até o canal **FutureLaunch***(que é a inicialização pendente)* e selecione o canal, como mostrado na figura abaixo.
 
-   >[!NOTE]
-   >
-   >Selecione a opção **Árvore** de conteúdo no painel esquerdo para abrir a inicialização criada.
+   ![image](/help/user-guide/assets/launches-images/launches-17.png)
 
-   ![screen_shot_2019-06-25at25852pm](assets/screen_shot_2019-06-25at25852pm.png)
+1. Clique no **Painel** da barra de ação e você verá o painel **PENDENTES INICIALIZAÇÕES** do painel do canal.
 
-1. Navegue até **Inicializações** e selecione a inicialização (**SummerPromotions**) que você criou. Clique em **Editar propriedades**.
+   ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-   ![screen_shot_2019-06-25at30008pm](assets/screen_shot_2019-06-25at30008pm.png)
+1. Selecione a inicialização e clique em qualquer uma das ações desejadas no painel INICIALIZAÇÕES **PENDENTES** .
 
-1. A caixa de diálogo Iniciar **SummerPromotions** é aberta. Preencha os seguintes campos:
+   ![image](/help/user-guide/assets/launches-images/launches-19.png)
+
+1. Por exemplo, você clica em **Iniciar propriedades** para editar as propriedades do **SummerPromotions**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-20.png)
+
+1. Você pode editar o Título da **Luanch** e preencher os seguintes campos:
 
    * Selecionar a data de **lançamento**
    * Verifique se a **produção está pronta**
    * Selecione **Promover páginas** aprovadas do **Escopo**
-   >[!NOTE]
-   >
-   >Compreensão das entradas Inicializações em Promoção **automática**:
+   **Compreensão das entradas Inicializações em Promoção automática:**
 
-   >    * **Data** de lançamento: refere-se à data de ativação, ou seja, a data/hora em que o conteúdo será reproduzido no player do Screens, de acordo com o fuso horário do player.
-   >    * **Produção pronta**, permite a promoção dos canais e significa que o lançamento está pronto para ser utilizado.
-   >    * **Escopo**, refere-se aos canais que podem ser promovidos durante um lançamento.
-
-
+   * **Data** de lançamento: refere-se à data de ativação, ou seja, a data/hora em que o conteúdo será reproduzido no player do Screens, de acordo com o fuso horário do player.
+   * **Produção pronta**, permite a promoção dos canais e significa que o lançamento está pronto para ser utilizado.
+   * **Escopo**, refere-se aos canais que podem ser promovidos durante um lançamento.
    As três opções a seguir estão disponíveis para configurar o escopo:
-   1. **Promover o lançamento** completo: Todos os canais do lançamento são promovidos na data de ativação definida.
-   1. **Promover páginas** modificadas: Somente recursos de lançamento editados serão promovidos. É recomendável usar essa opção quando a revisão de inicialização não for necessária. Permite promover as modificações nos canais de lançamento.
-   1. **Promover páginas** aprovadas: Somente as páginas aprovadas são promovidas na data de ativação definida.
-   ![screen_shot_2019-06-26at113805am](assets/screen_shot_2019-06-26at113805am.png)
 
-   >[!CAUTION]
-   >
-   >A promoção de inicialização respeita o fuso horário do player/dispositivo em vez do do servidor.
+   * **Promover o lançamento** completo: Todos os canais do lançamento são promovidos na data de ativação definida.
+   * **Promover páginas** modificadas: Somente recursos de lançamento editados serão promovidos. É recomendável usar essa opção quando a revisão de inicialização não for necessária. Permite promover as modificações nos canais de lançamento.
+   * **Promover páginas** aprovadas: Somente as páginas aprovadas são promovidas na data de ativação definida.
+
+      >[!CAUTION]
+      >
+      >A promoção de inicialização respeita o fuso horário do player/dispositivo em vez do do servidor.
+
+
 
 1. Clique em **Salvar e fechar** para navegar de volta para **FutureLaunch** canal.
-
-   ![screen_shot_2019-06-26at114332am](assets/screen_shot_2019-06-26at114332am.png)
 
