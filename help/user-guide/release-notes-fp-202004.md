@@ -4,7 +4,7 @@ seo-title: Notas de versão do Feature Pack 202004
 description: Siga esta página para obter informações sobre o AEM Screens Feature Pack 2004 lançado em 15 de abril de 2020.
 seo-description: Siga esta página para obter informações sobre o AEM Screens Feature Pack 2004 lançado em 15 de abril de 2020.
 translation-type: tm+mt
-source-git-commit: d6635c0d6bb4e3126fda6b39e933272f0693b576
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
@@ -25,12 +25,15 @@ A data de lançamento do AEM Screens Feature Pack 2004 é 15 de abril de 2020.
 
 * **Opções de estratégia de interrupção de reprodução**
 
-   Como autor, agora você pode especificar quando um canal é interrompido ou não, para que o autor do conteúdo possa optar por interromper o conteúdo não crítico, mas ter a opção de permitir que o conteúdo importante seja reproduzido totalmente antes de interromper a reprodução devido ao agendamento.
+   Como autor de conteúdo, você deve ser capaz de especificar quando um canal é interrompido para que possa optar por interromper o conteúdo não crítico, mas ter a opção de permitir que o conteúdo importante seja reproduzido totalmente antes de interromper a reprodução devido ao agendamento.
 
+   Consulte a seção Método **[de](/help/user-guide/channel-assignment.md#interruption-method-channel)**interrupção para saber mais sobre as opções disponíveis na caixa de diálogo Atribuição **de**Canais para implementar esse recurso no projeto do AEM Screens.
 
-* **Lançamentos**
+* **Telas são abertas**
 
    O fluxo de experiência do usuário do autor de conteúdo foi aprimorado e reduzido o número de cliques para usar a publicação futura.
+
+   Consulte Atualização de **[conteúdo usando o Screens Launch](launches.md)**para obter mais detalhes.
 
 * **Painel do canal**
 
@@ -39,11 +42,15 @@ A data de lançamento do AEM Screens Feature Pack 2004 é 15 de abril de 2020.
 
 * **Exibir manifesto**
 
-   Você pode visualização o manifesto do painel do canal.
+   Agora você pode visualização o arquivo manifest do painel do canal.
+
+   Consulte **[Visualização do Manifesto](/help/user-guide/managing-channels.md#view-manifest)**.
 
 * **Sobreposição de texto**
 
-   Ao adicionar teste à função de sobreposição de texto, o tamanho da fonte agora é muito mais preciso e atualizado.
+   Ao adicionar o teste à função de sobreposição de texto, o tamanho da fonte é preciso e melhorado.
+
+   Consulte Sobreposição **[de](text-overlay.md)**texto para criar uma experiência atraente em um Canal de sequência, fornecendo um título ou uma descrição sobreposta sobre uma imagem.
 
 * **Melhorias na sincronização de comandos**
 
