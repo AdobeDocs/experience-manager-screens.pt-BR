@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Screens Help
+user-guide-title: Ajuda do Adobe Experience Manager Screens
 translation-type: tm+mt
-source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
@@ -72,7 +72,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
    + Gerenciamento de atualizações de conteúdo {#content-updates}
       + [Atualização de conteúdo sob demanda](on-demand-content.md)
       + [Atualização de conteúdo como serviço](content-update-as-a-service.md)
-      + [Atualização de conteúdo usando inicializações](launches.md)
+      + [Atualização de conteúdo usando o Screens Launch](launches.md)
    + Exemplos de caso de uso {#use-case-examples}
       + [Canais de emergência](emergency-channel.md)
       + [Ativação de temperatura do centro de viagens](local-temperature-activation.md)
