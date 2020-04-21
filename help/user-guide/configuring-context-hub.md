@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 358c22018bf933e5b5418f202eb70b1a39a49783
+source-git-commit: 2a36ecd81d250f449e3fa870309674bf2dc771d0
 
 ---
 
@@ -92,8 +92,13 @@ A validação a seguir é a que será visualização ao verificar sua conexão, 
 
       ![image](/help/user-guide/assets/context-hub/context-hub5.png)
 
-   1. Insira o **Título** como **Google Sheets**, **Store Name** como **googlesheets** e **Store Type** **** ****como contexthub.generic-jsonp e clique em Next.
+   1. Insira o **Título** como **Google Sheets**, **Store Name** como **googlesheets** e **Store Type** **** **** como contexthub.generic-jsonp e clique em Next.
+
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
+
+      >[!NOTE]
+      >
+      >No AEM 6.4, insira o Título **** de configuração como **googlesheets** e o Tipo **de** loja como **contexthub.generic-jsonp**.
 
    1. Digite sua configuração json específica. Por exemplo, você pode usar o json a seguir para fins de demonstração e clicar em **Salvar** e verá a configuração da loja intitulada como **Google Sheets** na configuração do ContextHub.
 
@@ -282,7 +287,7 @@ Siga as etapas abaixo para ativar a definição de metas em seus canais.
    1. Navegue e selecione o canal **TargetChannel** e clique em **Editar** na barra de ações.
 
       >[!NOTE]
-      Se você configurou tudo corretamente, verá a opção **Definição de metas** na lista suspensa do editor, como mostra a figura abaixo.
+      Se você configurou tudo corretamente, verá a opção **Definição de metas** na lista suspensa do editor, como mostrado na figura abaixo.
 
       ![image](/help/user-guide/assets/context-hub/context-hub21.png)
 
