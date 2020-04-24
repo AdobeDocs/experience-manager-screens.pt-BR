@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 0f30c01ee936d48a215e0a42eb983daea7fbe731
+source-git-commit: 076aeecd353ebf89893fd01ab28192b9145c844a
 
 ---
 
@@ -78,7 +78,7 @@ Por exemplo, se a data de ativação for definida como 24 de novembro, 9:00 da m
 
 ## Uso do Screens Launch {#using-launches}
 
-Siga a seção abaixo para implementar o Screens Launch em seu projeto do AEM Screens.
+Esta seção demonstra como implementar o Screens Launch no projeto do AEM Screens.
 
 ### Criação de uma inicialização de telas {#creating-a-launch}
 
@@ -104,8 +104,6 @@ Siga as etapas abaixo para implementar a funcionalidade de inicialização de te
 
    >[!NOTE]
    >Você pode usar a opção **+ Adicionar Canais** para adicionar outro canal para o qual deseja criar a inicialização.
-
-   ![image](/help/user-guide/assets/launches-images/launches-13.png)
 
    Para usar a opção **Adicionar Canais** , navegue até o canal para o qual deseja criar a inicialização e clique em **Selecionar**.
 
@@ -173,13 +171,13 @@ Siga as etapas abaixo para editar as propriedades de inicialização:
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-#### Edição do Screens Launch para Adicionar ou Remover Canais {#editing-the-screens-launch-to-add-or-remove-channels}
+### Edição do Screens Launch para Adicionar ou Remover Canais {#editing-the-screens-launch-to-add-or-remove-channels}
 
-Depois de criar a inicialização, você pode adicionar ou remover canais à inicialização existente usando a ação **Editar inicialização** .
+Depois de criar a inicialização, você pode adicionar ou remover canais à inicialização existente usando a opção **Editar inicialização** .
 
 Quando terminar, clique em **Salvar** para navegar de volta para o canal **FutureLaunch** .
 
-#### Promover a inicialização das telas manualmente{#promote-the-screens-launch-manually}
+### Promover a inicialização das telas manualmente{#promote-the-screens-launch-manually}
 
 Você pode promover a inicialização manualmente usando a opção **Promover lançamento** no painel **INICIALIZAÇÕES** PENDENTES.
 
@@ -196,11 +194,10 @@ Você pode escolher os recursos que deseja promover como parte desta promoção 
 1. Clique em **Avançar** no assistente **Promover lançamento** .
 1. Clique em **Promover** para promover o lançamento.
 
+### Excluindo a inicialização de telas {#deleting-the-screens-launch}
 
-#### Excluindo a inicialização de telas {#deleting-the-screens-launch}
-
-Você pode excluir a inicialização usando a ação **Excluir inicialização** .
+Você pode excluir a inicialização usando a opção **Excluir inicialização** do painel **INICIALIZAÇÕES** PENDENTES.
 
 >[ATENÇÃO]
->Essa ação excluirá todas as inicializações aninhadas descendentes também.
+>Essa ação também excluirá todos os descendentes (inicializações aninhadas).
 
