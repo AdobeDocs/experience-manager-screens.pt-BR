@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 654b4eb6ac5cab74df3044fd82d367bf26588364
+source-git-commit: 0f30c01ee936d48a215e0a42eb983daea7fbe731
 
 ---
 
@@ -20,13 +20,15 @@ source-git-commit: 654b4eb6ac5cab74df3044fd82d367bf26588364
 
 Os autores de conteúdo podem criar uma versão futura do(s) canal(s), conhecida como Inicialização **de** telas, e ainda definir a data de ativação desta inicialização. Isso permite que o conteúdo seja exibido em dispositivos ou players na data ativa especificada.
 
-Com a ajuda do **Screens Launches**, os autores podem pré-visualização cada canal na inicialização e devem poder iniciar uma solicitação de revisão. O grupo de aprovadores receberá uma notificação e poderá aprovar ou rejeitar a solicitação. Quando a data ao vivo é atingida, o conteúdo é reproduzido nos dispositivos.
+Com a ajuda do ***Screens Launch***, os autores podem pré-visualização cada canal na inicialização e devem poder iniciar uma solicitação de revisão. O grupo de aprovadores receberá uma notificação e poderá aprovar ou rejeitar a solicitação. Quando a data ao vivo é atingida, o conteúdo é reproduzido nos dispositivos.
 
-Por exemplo, se o autor quiser criar versões futuras de c1, c2 (canais), uma inicialização será criada e uma data ativa será definida (por exemplo, 10 de novembro de 8:00 AM). Quaisquer atualizações adicionais no conteúdo são enviadas para revisão. Uma vez aprovada e na data de ativação (10 de novembro, 8:00 AM), essa inicialização reproduz o conteúdo nos dispositivos ou players.
+Por exemplo, se o autor quiser criar versões futuras de c1, c2 (canais), uma inicialização será criada e uma data ativa será definida (por exemplo, 10 de novembro de 8:00 AM). Quaisquer atualizações adicionais no conteúdo são enviadas para revisão.
+
+Uma vez aprovada e na data de ativação (10 de novembro, 8:00 AM), essa inicialização reproduz o conteúdo nos dispositivos ou players.
 
 ## Requisitos {#requirements}
 
-Antes de utilizar o start Screens Launches em um projeto do AEM Screens, certifique-se de entender o conceito de Período de carência e sua relevância.
+Antes de aproveitar o lançamento *de* telas em um projeto do AEM Screens, certifique-se de entender o conceito de Período de carência e sua relevância.
 
 A execução de uma experiência na data de ativação definida no player envolve:
 
@@ -36,29 +38,31 @@ A execução de uma experiência na data de ativação definida no player envolv
 
 * tempo gasto pela atualização do conteúdo offline para concluir (normalmente leva alguns minutos)
 
-* tempo gasto pelos players para baixar o conteúdo da instância de publicação (normalmente leva minutos dependendo da largura de banda n/w e do tamanho dos ativos que precisam ser baixados)
+* tempo gasto pelos players para baixar o conteúdo da instância de publicação (normalmente leva minutos dependendo da largura de banda e do tamanho dos ativos que precisam ser baixados)
 
 * diferenças de tempo entre o servidor e o player
 
 ### Compreensão do período de carência {#understanding-grace-period}
 
-Para que o player possa start a reprodução do conteúdo na data de ativação definida, é necessário start as atividades mencionadas antes da data de ativação.
+Para que o player possa start a reprodução do conteúdo na data de ativação definida, é necessário start as atividades anteriores antes da data de ativação.
 
 Se a data de ativação for 24 *de novembro, 9:00 da manhã* e o período de carência for de *24 horas*, a sequência de ações acima será start em (data de ativação - período de carência), ou seja, 23 de novembro, 9:00 da hora do servidor. Isso dá 24 horas de tempo para concluir todas as ações acima mencionadas e o conteúdo chegará aos players. Os players entenderão que este é um conteúdo de inicialização, portanto, o conteúdo não será reproduzido imediatamente, mas os players armazenarão esse conteúdo como uma versão futura e serão reproduzidos em start exatamente na data de ativação definida no fuso horário do player.
 
-Por exemplo, digamos que o servidor esteja no PST e os dispositivos estejam no EST, a diferença de tempo máximo é de 3 horas nesse caso e suponha que a promoção levará 1 minuto e a publicação do autor para publicar leva 10 minutos e o player pode baixar os recursos normalmente em 10 a 15 minutos. Em seguida, período de carência = diferença de tempo (3 horas) + tempo para promover a inicialização (1 min) + tempo para publicar a inicialização (10 min) + tempo para baixar no player (10 a 15 min) + buffer (para ser seguro, digamos 30 min) = 3 horas 56 min = 14160 segundos. Então, quando agendarmos qualquer lançamento ao vivo, a promoção será start cedo por este deslocamento. Na equação acima, a maioria dos itens não leva muito tempo, podemos usar uma suposição decente para esse deslocamento assim que soubermos a diferença de tempo máxima por segundo no servidor e em qualquer player.
+Por exemplo, digamos que o servidor esteja no PST e os dispositivos estejam no EST, a diferença de tempo máximo é de 3 horas nesse caso e suponha que a promoção levará 1 minuto e a publicação do autor para publicar leva 10 minutos e o player pode baixar os recursos normalmente em 10 a 15 minutos. Em seguida, período de carência = diferença de tempo (3 horas) + tempo para promover a inicialização (1 min) + tempo para publicar a inicialização (10 min) + tempo para baixar no player (10 a 15 min) + buffer (para ser seguro, digamos 30 min) = 3 horas 56 min = 14160 segundos.
+
+Assim, sempre que agendarmos qualquer lançamento ao vivo, a promoção será start cedo por este deslocamento. Na equação acima, a maioria dos itens não leva muito tempo, podemos usar uma suposição decente para esse deslocamento assim que soubermos a diferença de tempo máxima entre o servidor e qualquer player.
 
 >[!NOTE]
->O período de carência para inicializações de telas é definido como 24 horas, o que significa que quando definimos a data de ativação para qualquer inicialização dos recursos em */content/screens*, a promoção será start com esse deslocamento.
+>O período de carência para o lançamento do Screens é definido como 24 horas, o que significa que quando definimos a data de ativação para qualquer lançamento dos recursos em */content/screens*, a promoção será start com esse deslocamento.
 
 ### Atualização do período de carência predefinido {#updating-out-of-the-box-grace-period}
 
-Esta seção explica como você pode atualizar um Período de carência predefinido para 10 minutos:
+Esta seção explica como você pode atualizar um Período de carência predefinido para 10 minutos.
 
 1. Navegue até CRXDE Lite e, em seguida, vá para `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 2. Clique com o botão direito do mouse e copie o arquivo.
 3. Navegue até `/apps/system/config` e clique com o botão direito do mouse e cole.
-4. Clique em Duplo `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` para abrir o arquivo no editor no CRXDE Lite. Deve mostrar o período de carência para o caminho */conteúdo/telas/* como 86400. Altere esse valor para **600**.
+4. Clique em Duplo `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` para abrir o arquivo no editor no CRXDE Lite. Ele deve mostrar o período de carência para o caminho */conteúdo/telas/* como **86400**. Altere esse valor para **600**.
 
 Agora, o conteúdo no arquivo de texto deve ser semelhante a:
 
@@ -68,17 +72,17 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
    ]
 ```
 
-Como você definiu o período de carência como 10 minutos no exemplo anterior, ao definir a data ativa para qualquer inicialização dos recursos em */content/screens*, a promoção será start com esse deslocamento.
+Como você definiu o Período de carência para 10 minutos no exemplo anterior, quando você define a data de ativação para qualquer inicialização dos recursos em */content/telas*, a promoção será start com esse deslocamento.
 
 Por exemplo, se a data de ativação for definida como 24 de novembro, 9:00 da manhã e o período de carência for de 600 segundos, o trabalho promocional será start em 24 de novembro às 8:50 da manhã.
 
 ## Uso do Screens Launch {#using-launches}
 
-Siga a seção abaixo para implementar inicializações em seu projeto do AEM Screens.
+Siga a seção abaixo para implementar o Screens Launch em seu projeto do AEM Screens.
 
 ### Criação de uma inicialização de telas {#creating-a-launch}
 
-Siga as etapas abaixo para implementar a funcionalidade de inicializações no seu projeto do AEM Screens:
+Siga as etapas abaixo para implementar a funcionalidade de inicialização de telas no seu projeto do AEM Screens:
 
 1. Crie um canal de sequência em seu projeto do AEM Screens, por exemplo, **LaunchesDemo** —> **Canais** —> **FutureLaunch**, como mostrado abaixo.
 
@@ -96,16 +100,20 @@ Siga as etapas abaixo para implementar a funcionalidade de inicializações no s
 
 1. Clique em **Avançar** no assistente **Criar lançamento** . A opção **Incluir subpáginas** está selecionada por padrão.
 
-   ![image](/help/user-guide/assets/launches-images/launches-b.png)
+   ![image](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
-   >Você pode usar a opção **+ Adicionar Canais** para adicionar o canal para o qual deseja criar a inicialização.
+   >Você pode usar a opção **+ Adicionar Canais** para adicionar outro canal para o qual deseja criar a inicialização.
 
    ![image](/help/user-guide/assets/launches-images/launches-13.png)
 
-   >1. Navegue até o canal para o qual deseja criar a inicialização e clique em **Selecionar**. A opção **Selecionar** será desativada se você tentar selecionar vários canais ou uma pasta para adicionar a inicialização.
-   >
-   >![image](/help/user-guide/assets/launches-images/launches-14.png)
+   Para usar a opção **Adicionar Canais** , navegue até o canal para o qual deseja criar a inicialização e clique em **Selecionar**.
+
+   A opção **Selecionar** será desativada se você tentar selecionar vários canais ou uma pasta para adicionar a inicialização.
+
+   ![image](/help/user-guide/assets/launches-images/launches-14.png)
+
+   Depois de selecionar o(s) canal(s), clique em **Avançar**.
 
 
 1. Insira o Título **da** Inicialização como **SummerPromotions** e não é necessário definir a Data **de** Inicialização, conforme mostrado na figura abaixo. Clique em **Criar**.
@@ -123,6 +131,16 @@ Siga as etapas abaixo para implementar a funcionalidade de inicializações no s
    >
    >É possível definir a data de ativação em tempo real nesta etapa ou configurá-la posteriormente ao editar as propriedades da inicialização depois que ela já tiver sido criada.
 
+   **Entendendo o escopo de promoção do lançamento**
+
+   * **Promover o lançamento** completo: Todos os canais do lançamento são promovidos na data de ativação definida.
+   * **Promover páginas** modificadas: Só serão promovidos os recursos de lançamento modificados. É recomendável usar essa opção quando a revisão de inicialização não for necessária.
+   * **Promover páginas** aprovadas: Essa opção requer que o fluxo de trabalho de aprovação de inicialização seja executado nos canais de inicialização. Somente as páginas aprovadas serão promovidas na data de ativação definida.
+
+      >[!CAUTION]
+      >
+      >A data de lançamento respeita o fuso horário do player/dispositivo em vez do do servidor.
+
 1. Você verá que sua inicialização foi criada. Você pode clicar em **Abrir** para visualização das páginas no editor ou clicar em **Concluído** para navegar de volta ao seu projeto.
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
@@ -134,7 +152,12 @@ Siga as etapas abaixo para implementar a funcionalidade de inicializações no s
 
 ### Editar as propriedades de inicialização para definir a data e o escopo em tempo real {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
-Depois de criar a inicialização, é necessário editar as propriedades de inicialização para definir a data ativa do escopo da inicialização.
+Depois que a inicialização for criada, você poderá atualizar as propriedades, como data ativa, título de inicialização e escopo de promoção usando Propriedades **de** inicialização.
+
+* **Data** de lançamento: refere-se à data de ativação, ou seja, a data ou a hora em que o conteúdo será reproduzido no player do Screens, de acordo com o fuso horário do player.
+* **Production Ready (Pronto** para produção), permite que os canais sejam publicados após promovê-los; isso é ativado, portanto, não é necessário alterar isso.
+* **Escopo**, decide quais canais serão promovidos durante a promoção do lançamento.
+
 
 Siga as etapas abaixo para editar as propriedades de inicialização:
 
@@ -154,15 +177,30 @@ Siga as etapas abaixo para editar as propriedades de inicialização:
 
 Depois de criar a inicialização, você pode adicionar ou remover canais à inicialização existente usando a ação **Editar inicialização** .
 
-Quando terminar, clique em **Salvar e fechar** para navegar de volta para o canal **FutureLaunch** .
+Quando terminar, clique em **Salvar** para navegar de volta para o canal **FutureLaunch** .
 
 #### Promover a inicialização das telas manualmente{#promote-the-screens-launch-manually}
 
-Você pode promover a inicialização manualmente usando a ação **Promover lançamento** .
+Você pode promover a inicialização manualmente usando a opção **Promover lançamento** no painel **INICIALIZAÇÕES** PENDENTES.
 
 Você pode escolher os recursos que deseja promover como parte desta promoção manual no Assistente **de promoção de** lançamento.
+
+![image](/help/user-guide/assets/launches-images/launches-e.png)
+
+1. Você pode ativar ou desativar a opção para excluir a inicialização após a produção.
+1. É possível definir o **Escopo** da inicialização, com as seguintes opções:
+   1. **Promover o lançamento** completo: Todos os canais do lançamento são promovidos na data de ativação definida.
+   1. **Promover páginas** modificadas: Só serão promovidos os recursos de lançamento modificados. É recomendável usar essa opção quando a revisão de inicialização não for necessária.
+   1. **Promover páginas** aprovadas: Essa opção requer que o fluxo de trabalho de aprovação de inicialização seja executado nos canais de inicialização. Somente as páginas aprovadas serão promovidas na data de ativação definida.
+   1. **Promover a página** atual: Essa opção exige que o fluxo de trabalho de aprovação de inicialização seja executado somente para a página atual.
+1. Clique em **Avançar** no assistente **Promover lançamento** .
+1. Clique em **Promover** para promover o lançamento.
+
 
 #### Excluindo a inicialização de telas {#deleting-the-screens-launch}
 
 Você pode excluir a inicialização usando a ação **Excluir inicialização** .
+
+>[ATENÇÃO]
+>Essa ação excluirá todas as inicializações aninhadas descendentes também.
 
