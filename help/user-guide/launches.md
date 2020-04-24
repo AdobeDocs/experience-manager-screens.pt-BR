@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 076aeecd353ebf89893fd01ab28192b9145c844a
+source-git-commit: b26af144f01b48ffaffb77d0218b5549a5b7d2f5
 
 ---
 
@@ -177,7 +177,7 @@ Depois de criar a inicialização, você pode adicionar ou remover canais à ini
 
 Quando terminar, clique em **Salvar** para navegar de volta para o canal **FutureLaunch** .
 
-### Promover a inicialização das telas manualmente{#promote-the-screens-launch-manually}
+### Promover o lançamento manual das telas{#promote-the-screens-launch-manually}
 
 Você pode promover a inicialização manualmente usando a opção **Promover lançamento** no painel **INICIALIZAÇÕES** PENDENTES.
 
