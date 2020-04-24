@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 14a45b58862477ec6be082ab1c059f991b086755
+source-git-commit: 654b4eb6ac5cab74df3044fd82d367bf26588364
 
 ---
 
@@ -74,10 +74,7 @@ Por exemplo, se a data de ativação for definida como 24 de novembro, 9:00 da m
 
 ## Uso do Screens Launch {#using-launches}
 
-Siga a seção abaixo para implementar inicializações em seu projeto do AEM Screens. Esta seção aborda estes tópicos:
-
-1. **Criação de uma inicialização de telas**
-1. **Edição de uma inicialização de telas para definir a data e o escopo ativos**
+Siga a seção abaixo para implementar inicializações em seu projeto do AEM Screens.
 
 ### Criação de uma inicialização de telas {#creating-a-launch}
 
@@ -97,60 +94,19 @@ Siga as etapas abaixo para implementar a funcionalidade de inicializações no s
 
 1. O assistente **Criar lançamento** é aberto. Você pode selecionar o canal que já está visível no assistente ou clicar em **+ Adicionar Canais** para adicionar o canal para o qual deseja criar a inicialização.
 
-
-#### Uso do Canal existente {#existing-channel-launch}
-
-1. Selecione o canal que já existe no assistente **Criar inicialização** e clique em **Avançar**.
+1. Clique em **Avançar** no assistente **Criar lançamento** . A opção **Incluir subpáginas** está selecionada por padrão.
 
    ![image](/help/user-guide/assets/launches-images/launches-b.png)
 
-1. Selecione o canal e clique em **Avançar** na barra de ações.
-
    >[!NOTE]
-   >**A opção Incluir subpáginas** está selecionada por padrão.
-
-   ![Imagem](/help/user-guide/assets/launches-images/launches-b.png)
-
-1. Insira o Título **da** Inicialização como **SummerPromotions** e não é necessário definir a Data **de** Inicialização, conforme mostrado na figura abaixo. Clique em **Criar**.
-
-   >[!NOTE]
-   >
-   >*Habilitar ou marcar* a opção **Herdar dados** ao vivo da página de origem permite que os canais sejam criados como cópias ao vivo na inicialização. Se qualquer alteração for feita no canal original, essas alterações serão automaticamente aplicadas aos canais de inicialização.
-   >
-   >
-   >*Desabilitar ou desmarcar* a opção **Herdar dados** ativos da página de origem permite que os canais sejam copiados sem nenhuma relação ao vivo na inicialização. Portanto, se forem feitas alterações no canal original, essas alterações não serão aplicadas aos canais de lançamento.
-
-   ![Imagem](/help/user-guide/assets/launches-images/launches-c.png)
-
-   >[!NOTE]
-   >
-   >É possível definir a data de ativação em tempo real nesta etapa ou configurá-la posteriormente ao editar as propriedades da inicialização depois que ela já tiver sido criada.
-
-1. Você verá que sua inicialização foi criada. Você pode clicar em **Abrir** para visualização das páginas no editor ou clicar em **Concluído** para navegar de volta ao seu projeto.
-
-   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
-
-   Clicar em **Concluído** permite que você navegue de volta para seu canal **FutureLaunch** .
-
-   ![Imagem](/help/user-guide/assets/launches-images/launches-16.png)
-
-
-#### Uso da opção Adicionar Canais {#add-channel-launch}
-
-1. Clique em **+ Adicionar Canais** para adicionar o canal para o qual você deseja criar a inicialização.
+   >Você pode usar a opção **+ Adicionar Canais** para adicionar o canal para o qual deseja criar a inicialização.
 
    ![image](/help/user-guide/assets/launches-images/launches-13.png)
 
-   >[!NOTE]
-   >A opção **Selecionar** será desativada se você tentar selecionar vários canais ou uma pasta para adicionar a inicialização.
+   >1. Navegue até o canal para o qual deseja criar a inicialização e clique em **Selecionar**. A opção **Selecionar** será desativada se você tentar selecionar vários canais ou uma pasta para adicionar a inicialização.
+   >
+   >![image](/help/user-guide/assets/launches-images/launches-14.png)
 
-1. Navegue até o canal para o qual deseja criar a inicialização e clique em **Selecionar**.
-
-   ![image](/help/user-guide/assets/launches-images/launches-14.png)
-
-1. Agora você pode selecionar o canal adicionado para criar uma inicialização e clicar em **Avançar**.
-
-   ![image](/help/user-guide/assets/launches-images/launches-15.png)
 
 1. Insira o Título **da** Inicialização como **SummerPromotions** e não é necessário definir a Data **de** Inicialização, conforme mostrado na figura abaixo. Clique em **Criar**.
 
@@ -175,7 +131,8 @@ Siga as etapas abaixo para implementar a funcionalidade de inicializações no s
 
    ![Imagem](/help/user-guide/assets/launches-images/launches-16.png)
 
-### Editar as propriedades de inicialização para definir a data e o escopo ativos {#editing-the-launch-properties-to-set-the-live-date-and-scope}
+
+### Editar as propriedades de inicialização para definir a data e o escopo em tempo real {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
 Depois de criar a inicialização, é necessário editar as propriedades de inicialização para definir a data ativa do escopo da inicialização.
 
@@ -189,35 +146,23 @@ Siga as etapas abaixo para editar as propriedades de inicialização:
 
    ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Selecione a inicialização e clique em qualquer uma das ações desejadas no painel INICIALIZAÇÕES **PENDENTES** .
+1. Selecione a inicialização e clique em **Iniciar propriedades** no painel **INICIALIZAÇÕES** PENDENTES.
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-1. Por exemplo, você clica em **Iniciar propriedades** para editar as propriedades do **SummerPromotions**.
+#### Edição do Screens Launch para Adicionar ou Remover Canais {#editing-the-screens-launch-to-add-or-remove-channels}
 
-   ![image](/help/user-guide/assets/launches-images/launches-20.png)
+Depois de criar a inicialização, você pode adicionar ou remover canais à inicialização existente usando a ação **Editar inicialização** .
 
-1. Você pode editar o Título da **Luanch** e preencher os seguintes campos:
+Quando terminar, clique em **Salvar e fechar** para navegar de volta para o canal **FutureLaunch** .
 
-   * Selecionar a data de **lançamento**
-   * Verifique se a **produção está pronta**
-   * Selecione **Promover páginas** aprovadas do **Escopo**
-   **Compreensão das entradas Inicializações em Promoção automática:**
+#### Promover a inicialização das telas manualmente{#promote-the-screens-launch-manually}
 
-   * **Data** de lançamento: refere-se à data de ativação, ou seja, a data/hora em que o conteúdo será reproduzido no player do Screens, de acordo com o fuso horário do player.
-   * **Produção pronta**, permite a promoção dos canais e significa que o lançamento está pronto para ser utilizado.
-   * **Escopo**, refere-se aos canais que podem ser promovidos durante um lançamento.
-   As três opções a seguir estão disponíveis para configurar o escopo:
+Você pode promover a inicialização manualmente usando a ação **Promover lançamento** .
 
-   * **Promover o lançamento** completo: Todos os canais do lançamento são promovidos na data de ativação definida.
-   * **Promover páginas** modificadas: Somente recursos de lançamento editados serão promovidos. É recomendável usar essa opção quando a revisão de inicialização não for necessária. Permite promover as modificações nos canais de lançamento.
-   * **Promover páginas** aprovadas: Somente as páginas aprovadas são promovidas na data de ativação definida.
+Você pode escolher os recursos que deseja promover como parte desta promoção manual no Assistente **de promoção de** lançamento.
 
-      >[!CAUTION]
-      >
-      >A promoção de inicialização respeita o fuso horário do player/dispositivo em vez do do servidor.
+#### Excluindo a inicialização de telas {#deleting-the-screens-launch}
 
-
-
-1. Clique em **Salvar e fechar** para navegar de volta para **FutureLaunch** canal.
+Você pode excluir a inicialização usando a ação **Excluir inicialização** .
 
