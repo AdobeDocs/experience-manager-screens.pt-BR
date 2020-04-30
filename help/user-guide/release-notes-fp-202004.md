@@ -4,7 +4,7 @@ seo-title: Notas de versão do Feature Pack 202004
 description: Siga esta página para obter informações sobre o AEM Screens Feature Pack 2004 lançado em 20 de abril de 2020.
 seo-description: Siga esta página para obter informações sobre o AEM Screens Feature Pack 2004 lançado em 20 de abril de 2020.
 translation-type: tm+mt
-source-git-commit: 8784ba269e510c3933c2573df43950fde79bf899
+source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
 
 ---
 
@@ -45,7 +45,7 @@ A data de lançamento do AEM Screens Feature Pack 2004 é 20 de abril de 2020.
 
 * **Painel do canal**
 
-   Atualizar Instruções na caixa de diálogo painel e offline do canal para ler... &quot;Atualizar conteúdo offline&quot; substitui a palavra &quot;Atualizar cache&quot;
+   Reflete atualizações às instruções no painel do canal no painel INFORMAÇÕES **do** CANAL.
 
 
 * **Exibir manifesto**
@@ -64,6 +64,8 @@ A data de lançamento do AEM Screens Feature Pack 2004 é 20 de abril de 2020.
 
    Com esta versão do pacote de recursos, as melhorias no atraso de sincronização de comandos entre as alterações de ativos são refletidas.
 
+   Consulte **[Sincronização](using-command-sync.md)**de comandos para obter mais detalhes.
+
 ### AEM Screens Players lançados {#released-aem-screens-players}
 
 Os seguintes AEM Screens Players são lançados para o AEM Screens, lançados pelo AEM 6.4 Feature Pack 8 e AEM 6.5 Feature Pack 4:
@@ -72,6 +74,6 @@ Os seguintes AEM Screens Players são lançados para o AEM Screens, lançados pe
 * Windows
 * Android
 
-#### Downloads do AEM Screens Player {#aem-screens-player-downloads}
+#### Downloads do AEM Screens Player  {#aem-screens-player-downloads}
 
-Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte Downloads [**do reprodutor do **](https://download.macromedia.com/screens/)AEM Screens.
+Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte Downloads **[do reprodutor do](https://download.macromedia.com/screens/)**AEM Screens.
