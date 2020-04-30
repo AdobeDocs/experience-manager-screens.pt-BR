@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Ajuda do Adobe Experience Manager Screens
 translation-type: tm+mt
-source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
+source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
 
 ---
 
@@ -65,7 +65,7 @@ source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
       + [Sequências incorporadas](embedded-sequences.md)
       + [Layout de várias zonas](multi-zone-layout-aem-screens.md)
       + [Representações de vídeo](generating-renditions.md)
-      + [Uso de uma sequência incorporada dinâmica](dynamic-embedded-sequences.md)
+      + [Sequência incorporada dinâmica](dynamic-embedded-sequences.md)
       + [Duração da reprodução de imagem em massa no nível do Canal](channel-level-image-playback.md)
       + [Sincronização de comandos](using-command-sync.md)
       + [Criação com acionadores de dados](authoring-data-triggers.md)
