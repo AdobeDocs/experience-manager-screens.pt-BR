@@ -1,8 +1,8 @@
 ---
 title: Configuração do ContextHub no AEM Screens
 seo-title: Configuração do ContextHub no AEM Screens
-description: Siga esta página para saber mais sobre o ContextHub no mecanismo de definição de metas para definir o armazenamento de dados com a finalidade de acionar a alteração de conteúdo.
-seo-description: Siga esta página para saber mais sobre o ContextHub no mecanismo de definição de metas para definir o armazenamento de dados com a finalidade de acionar a alteração de conteúdo.
+description: Siga esta página para saber mais sobre o ContextHub no mecanismo de definição de metas para definir o armazenamento de dados com a finalidade de acionar a alteração do conteúdo.
+seo-description: Siga esta página para saber mais sobre o ContextHub no mecanismo de definição de metas para definir o armazenamento de dados com a finalidade de acionar a alteração do conteúdo.
 uuid: be06bda8-7de9-40d6-a84b-5ed8d8b3d180
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -11,7 +11,10 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
+source-git-commit: 4a70228068a6effb68d46b7e31726e2be84c08cc
+workflow-type: tm+mt
+source-wordcount: '1531'
+ht-degree: 1%
 
 ---
 
@@ -91,6 +94,20 @@ A validação a seguir é a que será visualização ao verificar sua conexão, 
    1. Na tela Configuração **do** ContextHub, clique em **Criar** > Configuração de armazenamento **do ContentHub.**
 
       ![image](/help/user-guide/assets/context-hub/context-hub5.png)
+
+      >[!CAUTION]
+      >Como parte do AEM 6.5 Feature Pack 4 ou do AEM 6.4 Feature Pack 8, os clientes devem atualizar `/conf/screens/settings/cloudsettings` para `sling:Folder`.
+      >Siga as etapas abaixo:
+      >
+      >1. Navegue até CRXDE Lite e, em seguida, vá para `/conf/screens/settings/cloudsettings`.
+      >1. Verifique se `cloudsettings jcr:primaryType` está em `sling:Folder`. Se o não `jcr:primaryType` estiver em `sling:folder`, siga para as etapas seguintes.
+      > 1. Clique com o botão direito do mouse em `/conf/screens/settings` e crie um novo nó com *nome* como **cloudsettings1** e *Type* como **sling:Folder** e salve as alterações.
+      >1. Mova todos os nós em `/conf/screens/settings/cloudsettings` para `cloudsettings1`.
+      >1. Exclua `cloudsettings` e salve.
+      >1. Renomeie `cloudsettings1` para `cloudsettings` e salve.
+      >1. Agora você deve observar que /conf/screens/settings/cloudsettings tem `jcr:primaryType` as mesmas configurações `sling:Folder`.
+Você deve seguir essas etapas em autor e publicar antes ou depois da atualização.
+
 
    1. Insira o **Título** como **Google Sheets**, **Store Name** como **googlesheets** e **Store Type** **** **** como contexthub.generic-jsonp e clique em Next.
 
@@ -288,7 +305,7 @@ Siga as etapas abaixo para ativar a definição de metas em seus canais.
    1. Navegue e selecione o canal **TargetChannel** e clique em **Editar** na barra de ações.
 
       >[!NOTE]
-      Se você configurou tudo corretamente, verá a opção **Definição de metas** na lista suspensa do editor, como mostrado na figura abaixo.
+      Se você configurou tudo corretamente, verá a opção **Definição de metas** na lista suspensa do editor, como mostra a figura abaixo.
 
       ![image](/help/user-guide/assets/context-hub/context-hub21.png)
 
