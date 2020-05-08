@@ -4,7 +4,10 @@ seo-title: Notas de versão do Feature Pack 202004
 description: Siga esta página para obter informações sobre o AEM Screens Feature Pack 2004 lançado em 20 de abril de 2020.
 seo-description: Siga esta página para obter informações sobre o AEM Screens Feature Pack 2004 lançado em 20 de abril de 2020.
 translation-type: tm+mt
-source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
+source-git-commit: 7f9373c57e60081789d76069b0062ce1a0c30b9c
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
 
 O AEM Screens lançou o AEM 6.4 Feature Pack 8 e o AEM 6.5 Feature Pack 4.
 
-Você pode baixar o pacote de recursos mais recente para a versão 6.4.8 ou AEM Screens 6.5.4 do link ** pendente.
+Você pode baixar o pacote de recursos mais recente do AEM Screens 6.4.8 ou da versão 6.5.4 do Gerenciamento [da](https://www.adobeaemcloud.com/content/packageshare/tools/login.html?resource=%2Fcontent%2Fmarketplace%2FmarketplaceProxy.html%3FpackagePath%3D%2Fcontent%2Fcompanies%2Fprivate%2Fsanjeev-adobe%2Fpackages%2FAEM%2520Screens%25206.5%2520FP4%2Fcq-6.5.0-featurepack-screens&amp;$$login$$=%24%24login%24%24) Adobe Experience Manager Cloud usando sua Adobe ID.
 
 >[!NOTE]
 >Consulte [Como trabalhar com pacotes](https://docs.adobe.com/help/en/experience-manager-65/administering/contentmanagement/package-manager.html) para saber como os pacotes permitem a importação e exportação de conteúdo do repositório e como você pode acessar e/ou manter os pacotes do Package Manager ou do Package Share.
