@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: e33175a8c4282d89ed77fc430b1a48eb8470585f
+source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '797'
 ht-degree: 8%
 
 ---
@@ -126,7 +126,10 @@ Se quiser que as zonas exibam a sequência de imagens ou conteúdo e uma imagem 
 
 Depois de implementar layouts de várias zonas usando as etapas anteriores, a saída a seguir é exibida, como mostra a figura abaixo.
 
-A saída a seguir no Screens Player exibe o conteúdo em três zonas diferentes. As zonas esquerda e direita (ambas usam a sequência incorporada como um componente) exibem a sequência de imagens e a zona abaixo exibe uma imagem estática.
+Clique na **Pré-visualização** do editor de canais para visualização da seguinte saída que exibe o conteúdo em duas zonas diferentes. As zonas esquerda e direita (ambas usam a sequência incorporada como um componente).
+
+>[!NOTE]
+>Se estiver tentando visualização do conteúdo no player do Screens, clique em **Atualizar conteúdo** offline do painel do canal.
 
 ![new2-1](/help/user-guide/assets/multi-zone/screens-multi1.gif)
 
