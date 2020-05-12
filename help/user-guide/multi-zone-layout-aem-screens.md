@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
+source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 6%
@@ -176,7 +176,7 @@ Depois de configurar um local e uma tela, siga as etapas abaixo para registrar o
    >[!NOTE]
    >Se estiver tentando visualização do conteúdo no player do Screens, clique em **Atualizar conteúdo** offline do painel do canal.
 
-#### Como visualizar o resultado {#viewing-the-result}
+### Como visualizar o resultado {#viewing-the-result}
 
 Depois de implementar layouts de várias zonas usando as etapas anteriores, a saída a seguir é exibida.
 
