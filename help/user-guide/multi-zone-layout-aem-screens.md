@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 9e267326da9c8163d85402425e6b46886e4d19f9
+source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1189'
 ht-degree: 6%
 
 ---
@@ -91,7 +91,9 @@ Se quiser que as zonas exibam a sequência de imagens e um vídeo em duas zonas 
    1. Selecione Canal **de** sequência no assistente **Criar** para criar um canal chamado **Zona1**.
    1. Select **Zone1** and click **Edit** from the action bar to open the editor.
    1. Arraste e solte algumas imagens neste canal.
-   Da mesma forma, crie outro canal de sequência chamado **Zone2** na pasta **EmbeddedChannels** .
+   1. Da mesma forma, crie outro canal de sequência chamado **Zone2** na pasta **EmbeddedChannels** .
+   1. Arraste e solte um vídeo neste canal.
+   A figura a seguir mostra os canais **Zone1** e **Zone2**:
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
@@ -99,7 +101,7 @@ Se quiser que as zonas exibam a sequência de imagens e um vídeo em duas zonas 
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   Adicione um vídeo ao editor do canal de sequência **Zone2** , conforme mostrado na figura abaixo:
+   O vídeo adicionado ao editor do canal de sequência **Zone2** é mostrado abaixo:
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
@@ -107,7 +109,7 @@ Se quiser que as zonas exibam a sequência de imagens e um vídeo em duas zonas 
 
    1. Navegue até **Zonas** —> **Canais** —> **MultiZona**.
    1. Clique em **Editar** na barra de ações para abrir o editor.
-   1. Arraste e solte o componente Sequência **** incorporada em duas zonas.
+   1. Arraste e solte o componente Sequência **** incorporada em ambas as zonas.
    1. Selecione a sequência incorporada em uma das zonas.
    1. Clique no ícone **Configurar** (chave) para uma das sequências incorporadas no editor.
    1. Selecione o caminho do canal como **Zonas** —> **Canais** —> Canais **Incorporados** —> **Zona1**, conforme mostrado na figura abaixo.
