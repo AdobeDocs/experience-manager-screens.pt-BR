@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
+source-git-commit: ae05d169dce9d02562159524f9bf43e88a29e43f
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 6%
@@ -151,7 +151,7 @@ Você deve criar um local e uma exibição para visualização do conteúdo no p
    1. Defina os Eventos **** suportados como **Carregamento** inicial, Tela **** inativa e **Temporizador**.
    1. Clique em **Salvar**.
 
-      ![image](/help/user-guide/assets/multi-zone/multizone-img7.png)
+      ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. Da mesma forma, você deve atribuir os outros dois canais incorporados (**Zona1** e **Zona2**) a essa exibição usando a etapa (2).
    1. Depois de atribuir os três canais à tela **Sala de espera** , você deve ser capaz de visualização dos canais atribuídos do painel de exibição.
 
