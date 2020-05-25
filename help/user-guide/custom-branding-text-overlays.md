@@ -5,7 +5,10 @@ description: Siga esta página para saber como aplicar marcas e estilos personal
 seo-description: Siga esta página para saber como aplicar marcas e estilos personalizados a sobreposições de texto.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: a475e373b0717b69610cb78907542f1da9ad8992
+source-git-commit: 04639198c5220e01af5945b8032c5fd86dc27499
+workflow-type: tm+mt
+source-wordcount: '626'
+ht-degree: 1%
 
 ---
 
@@ -59,6 +62,7 @@ Siga as etapas abaixo para criar marcas e estilos personalizados para sobreposi�
        background-color: rgba(255, 255, 255, .6);
      }
    ```
+
    ![image](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
 1. Copie o caminho para o seu projeto, nesse caso, o caminho será `/apps/settings/wcm/designs/customstyle`.
