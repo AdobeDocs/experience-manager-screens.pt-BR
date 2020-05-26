@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
+source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1198'
 ht-degree: 6%
 
 ---
@@ -38,7 +38,7 @@ De acordo com os requisitos do projeto, às vezes você precisa usar várias zon
 
 ### Pré-requisitos {#prerequisites}
 
-Antes de implementar esta funcionalidade, certifique-se de que tem conhecimento conceitual sobre:
+Antes de implementar esta funcionalidade, certifique-se de ter conhecimento conceitual sobre:
 
 * [Criar um projeto do AEM Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
 * [Criação de uma exibição](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
@@ -61,7 +61,7 @@ Ao criar um canal, você pode usar modelos diferentes para criar zonas em seu ca
 
 ### Uso de ativos únicos em uma ou mais zonas {#using-single-assets-in-one-or-more-zones}
 
-Você pode usar ativos únicos, como uma imagem ou um vídeo, em todas as três zonas diferentes. Siga as etapas abaixo para a implementação:
+Você pode usar ativos únicos, como uma imagem ou um vídeo, em todas as zonas individuais. Siga as etapas abaixo para a implementação:
 
 1. **Adicionar conteúdo ao Canal**
 
@@ -76,7 +76,7 @@ Você pode usar ativos únicos, como uma imagem ou um vídeo, em todas as três 
 
 ### Uso de conteúdo sequenciado em uma ou mais zonas {#using-sequenced-content-in-one-or-more-zones}
 
-Se quiser que as zonas exibam a sequência de imagens e um vídeo em duas zonas diferentes, siga as etapas abaixo para obter detalhes.
+Se desejar que as zonas exibam uma sequência de imagens e um vídeo nas diferentes zonas, siga as etapas abaixo para obter detalhes.
 
 1. **Criação de uma pasta de Canais**
 
@@ -135,7 +135,7 @@ Você deve criar um local e uma exibição para visualização do conteúdo no p
    1. Select **Display** from the **Create** wizard and click **Next**.
    1. Enter the **Title** as **Lobby** and click **Create**.
 
-### Atribuindo Canal à tela {#channel-channel}
+### Atribuindo Canais à tela {#channel-channel}
 
 É necessário atribuir os canais à exibição para visualização do conteúdo. Siga as etapas abaixo para atribuir o canal à tela.
 
@@ -174,7 +174,7 @@ Depois de configurar um local e uma tela, siga as etapas abaixo para registrar o
    1. Enter the **Title** as **Chrome-Device1** and click **Register**.
    1. Selecione **Atribuir exibição** e selecione o caminho para a configuração do dispositivo.
    >[!NOTE]
-   >Se estiver tentando visualização do conteúdo no player do Screens, clique em **Atualizar conteúdo** offline do painel do canal.
+   >Se estiver tentando visualização do conteúdo no player do Screens, clique em **Atualizar conteúdo** offline no painel do canal para cada canal atribuído à exibição.
 
 ### Como visualizar o resultado {#viewing-the-result}
 
