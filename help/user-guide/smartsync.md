@@ -10,7 +10,7 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+source-git-commit: 7832176cfb1e4647a49852ce382862978dddbfe2
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 1%
@@ -81,7 +81,7 @@ Siga as etapas abaixo para transição de ContentSync para SmartSync:
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **A configuração do console da Web do Adobe Experience Manager **é aberta. Procure *offlinecontentservice*.
+1. **A Configuração** do console da Web do Adobe Experience Manager é aberta. Procure *offlinecontentservice*.
 
    Para pesquisar a propriedade **Screens Offline Content Service** , pressione **Command+F** para **Mac** e **Control+F** para **Windows**.
 
