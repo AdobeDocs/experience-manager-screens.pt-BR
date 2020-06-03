@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 87961076fd756c8bd018ded08d493e4024992738
+source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1102'
 ht-degree: 8%
 
 ---
@@ -71,11 +71,9 @@ Siga as etapas abaixo para aproveitar o conteúdo de **We.Retail** até seu **Te
 
 1. **Navegue até a página Sites em We.Retail**
 
-   1. Navegue até Sites e selecione **We.Retail In-Store** -> Estados **Unidos** ->**Inglês** e selecione a página **Equipment** (Equipamento) para usá-lo como um fragmento de experiência para seu canal Screens.
+   1. Navegue até Sites e selecione **We.Retail In-Store** -> **Canais** ->**Idle Canal - Night** e selecione esta página para usá-la como um fragmento de experiência para seu canal Screens.
 
    1. Clique em **Editar** na barra de ações para abrir a página que deseja usar como um fragmento de experiência para o canal do Screens.
-
-      ![screen_shot_2018-06-06at105309am](assets/screen_shot_2018-06-06at105309am.png)
 
 1. **Reutilizar o conteúdo**
 
