@@ -1,8 +1,8 @@
 ---
 title: Transição do ContentSync para o SmartSync
 seo-title: Transição do ContentSync para o SmartSync
-description: Siga esta página para saber mais sobre o recurso SmartSync e como fazer a transição de ContentSync para SmartSync.
-seo-description: Siga esta página para saber mais sobre o recurso SmartSync e como fazer a transição de ContentSync para SmartSync.
+description: Siga esta página para saber mais sobre o recurso SmartSync e como você pode transição de ContentSync para SmartSync.
+seo-description: Siga esta página para saber mais sobre o recurso SmartSync e como você pode transição de ContentSync para SmartSync.
 uuid: c0619b56-1f6f-465a-a428-6df28e40b555
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
@@ -10,7 +10,10 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +53,7 @@ O recurso SmartSync oferece vários benefícios ao seu projeto do AEM Screens. P
 
 >[!NOTE]
 >
->Se você já tiver instalado o AEM 6.3 Feature Pack 5 e o AEM 6.4 Feature Pack 3, poderá habilitar o SmartSync para ativos para melhorar o uso do espaço em disco. Para habilitar o SmartSync, siga a seção abaixo para fazer a transição do ContentSync para o SmartSync, habilitando o SmartSync.
+>Se você já tiver instalado o AEM 6.3 Feature Pack 5 e o AEM 6.4 Feature Pack 3, poderá habilitar o SmartSync para ativos para melhorar o uso do espaço em disco. Para habilitar o SmartSync, siga a seção abaixo para transição de ContentSync para SmartSync, habilitando o SmartSync.
 >
 >O SmartSync está disponível para o Screens Player com servidores compatíveis com o AEM 6.4.3 FP3.
 >
@@ -62,7 +65,7 @@ O recurso SmartSync oferece vários benefícios ao seu projeto do AEM Screens. P
 | Chrome OS | 1.0.136 |
 | Windows | 1.0.136 |
 
-Siga as etapas abaixo para fazer a transição de ContentSync para SmartSync:
+Siga as etapas abaixo para transição de ContentSync para SmartSync:
 
 1. A migração do ContentSync para o SmartSync requer a limpeza do cache do ContentSync antes de ativar o SmartSync.
 
@@ -74,11 +77,11 @@ Siga as etapas abaixo para fazer a transição de ContentSync para SmartSync:
    >
    >Todo o cache de conteúdo deve ser limpo antes de usar o SmartSync pela primeira vez.
 
-1. Navegue até Configuração **do console da Web do** Adobe Experience Manager por meio da instância do AEM —&gt; ícone de martelo —&gt; **Operações** —&gt; Console **da** Web.
+1. Navegue até Configuração **do console da Web do** Adobe Experience Manager por meio da instância do AEM —> ícone de martelo —> **Operações** —> Console **da** Web.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **A configuração do console da Web do Adobe Experience Manager **é aberta. Procure *offline econtentservices*.
+1. **A configuração do console da Web do Adobe Experience Manager **é aberta. Procure *offlinecontentservice*.
 
    Para pesquisar a propriedade **Screens Offline Content Service** , pressione **Command+F** para **Mac** e **Control+F** para **Windows**.
 
