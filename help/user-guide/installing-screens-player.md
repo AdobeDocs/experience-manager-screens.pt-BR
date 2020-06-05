@@ -5,7 +5,10 @@ description: Instalando o reprodutor de telas
 seo-description: Instalando o reprodutor de telas
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
+source-git-commit: 6d123b844831dd5c07261bcadd170029f972ee7d
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +19,7 @@ Esta página descreve como instalar o AEM Screens player.
 
 ## Player de telas disponíveis {#available-players}
 
-O AEM Screens player está disponível para Android, Chrome OS, iOS e Windows.
+O AEM Screens player está disponível para Android, Chrome OS e Windows.
 
 Para baixar o **AEM Screens Player**, visite a página Downloads [do](https://download.macromedia.com/screens/) AEM 6.5 Player.
 
@@ -29,12 +32,12 @@ Para baixar o **AEM Screens Player**, visite a página Downloads [do](https://do
 >1. Clique no link **Registro** no menu de ação esquerdo e nas etapas abaixo para concluir o processo de registro do dispositivo.
 
 
-### Additional Resources {#additional-resources}
+### Recursos adicionais {#additional-resources}
 
-Consulte os seguintes tópicos para obter informações detalhadas:
+Consulte os tópicos a seguir para obter informações detalhadas:
 
 * Para baixar o Android Player, visite o **Google Play**. Para saber mais sobre como implementar o Android Watchdog, consulte [Implementação do Android Player](implementing-android-player.md).
 
-* Para implementar o Chrome OS Player, consulte o [Chrome Management Console](implementing-chrome-os-player.md) para obter mais informações.
+* Para implementar o Chrome OS Player, consulte o Console [de gerenciamento do](implementing-chrome-os-player.md) Chrome para obter mais informações.
 
 * Para configurar o AEM Screens Windows player, consulte [Implementação do Windows Player](implementing-windows-player.md).
