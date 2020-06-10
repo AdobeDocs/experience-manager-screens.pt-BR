@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1100'
 ht-degree: 8%
 
 ---
@@ -25,7 +25,7 @@ Esta página aborda os seguintes tópicos:
 
 * **Visão geral**
 * **Usando Fragmentos de experiência no AEM Screens**
-* **Propagando alterações da página mestre**
+* **Propagando alterações na página**
 
 ## Visão geral {#overview}
 
@@ -79,6 +79,7 @@ Siga as etapas abaixo para aproveitar o conteúdo de **We.Retail** até seu **Te
 
    1. Selecione o fragmento que deseja incluir no seu canal.
    1. Clique no último ícone à direita para abrir a caixa de diálogo **Converter em fragmento** de experiência.
+
    ![screen_shot_2019-07-29at105314am](assets/screen_shot_2019-07-29at105314am.png)
 
 1. **Criar fragmento de experiência**
@@ -91,12 +92,14 @@ Siga as etapas abaixo para aproveitar o conteúdo de **We.Retail** até seu **Te
    1. Enter the **Fragment Title** as **ScreensFragment**.
 
    1. Clique na marca de seleção para concluir a criação de um novo fragmento de experiência.
+
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
 1. **Criar Live Copy do fragmento de experiência**
 
    1. Navegue até o home page AEM.
    1. Selecione Fragmentos **de** experiência e destaque o Fragmento de **tela** e clique em **Variação como live-copy**, como mostrado na figura abaixo:
+
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
    c. Selecione o** ScreensFragment** do assistente **Criar Live Copy** e clique em **Avançar**.
@@ -118,6 +121,7 @@ Siga as etapas abaixo para aproveitar o conteúdo de **We.Retail** até seu **Te
    1. Navegue até **ScreensFragment** (criado nas etapas anteriores) e clique em **Propriedades** na barra de ações.
 
    1. Selecione a guia Configuração **offline** , conforme mostrado na figura abaixo.
+
    Você pode adicionar as Bibliotecas **do lado do** cliente (java e css) e os Arquivos **** estáticos ao fragmento da experiência.
 
    O exemplo a seguir mostra a adição de bibliotecas do lado do cliente e de fontes como parte de arquivos estáticos ao fragmento da experiência.  ![fragmento](assets/fragment.gif)
@@ -129,6 +133,7 @@ Siga as etapas abaixo para aproveitar o conteúdo de **We.Retail** até seu **Te
 
    1. Clique no ícone de componentes na guia lateral.
    1. Arraste e solte o Fragmento **de** experiência em seu canal.
+
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
    e. Selecione o componente Fragmento **de** experiência e selecione o ícone superior esquerdo (chave) para abrir a caixa de diálogo Fragmento **de** experiência.
@@ -163,7 +168,7 @@ Após concluir as etapas anteriores, você pode validar seu fragmento de experi�
 Você fará a visualização do conteúdo da página **Sites** (live-copy do fragmento da experiência) no seu canal, como mostrado na figura abaixo:\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
-## Propagando alterações da página mestre {#propagating-changes-from-the-master-page}
+## Propagando alterações na página {#propagating-changes-from-the-master-page}
 
 ***A Live Copy*** se refere à cópia (da origem), mantida pelas ações de sincronização, conforme definido pelas configurações de implantação.
 
@@ -175,7 +180,7 @@ Como o Fragmento de experiência, nós criamos uma cópia ao vivo das páginas *
 
 Siga as etapas abaixo para propagar as alterações do canal mestre para o canal de destino:
 
-1. Selecione o Fragmento de experiência na página **Sites** (Mestre) e clique no ícone de lápis para editar os itens no Fragmento de experiência.
+1. Selecione o Fragmento de experiência na página **Sites** (mestre) e clique no ícone de lápis para editar os itens no Fragmento de experiência.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
