@@ -4,7 +4,10 @@ seo-title: Usando sincronização de comandos
 description: Siga esta página para saber mais sobre como usar a Sincronização de comandos.
 seo-description: Siga esta página para saber mais sobre como usar a Sincronização de comandos.
 translation-type: tm+mt
-source-git-commit: 7b842534e00e50aa1f066e73539edfa3915aa5e6
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+workflow-type: tm+mt
+source-wordcount: '777'
+ht-degree: 2%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 7b842534e00e50aa1f066e73539edfa3915aa5e6
 A página a seguir descreve como usar a Sincronização de comandos. A Sincronização de comandos permite a reprodução sincronizada em diferentes players. Os players podem reproduzir conteúdo diferente, mas cada ativo precisa ter a mesma duração.
 
 >[!IMPORTANT]
->Esse recurso não oferece suporte a Sequências incorporadas, Sequências incorporadas dinâmicas, Canais de aplicativos ou Transições.
+>Esse recurso não oferece suporte para Sequências incorporadas, Sequências incorporadas dinâmicas, Canais de aplicativos ou Transições.
 
 ## Visão geral {#overview}
 
@@ -22,7 +25,7 @@ As soluções de sinalização digital precisam suportar paredes de vídeo e rep
 
 Para usar a Sincronização de comandos, um player atua como *mestre* e envia comandos e todos os outros players atuam como *clientes* e são reproduzidos quando recebem o comando.
 
-O *mestre* envia um comando para todos os clientes registrados quando está prestes a iniciar a reprodução de um item. A carga desse elemento pode ser o índice do item a ser reproduzido e/ou o html externo do elemento a ser reproduzido.
+O *mestre* envia um comando para todos os clientes registrados quando está prestes a reproduzir um start de um item. A carga desse elemento pode ser o índice do item a ser reproduzido e/ou o html externo do elemento a ser reproduzido.
 
 ## Implementação da sincronização de comandos {#using-command-sync}
 
@@ -41,7 +44,7 @@ Antes de usar o recurso de Sincronização de comandos, verifique se você tem u
 
    >[!NOTE]
    >
-   >Para saber como criar um canal ou adicionar conteúdo a um canal, consulte [Criar e gerenciar canais](/help/user-guide/managing-channels.md)
+   >Para saber como criar um canal ou adicionar conteúdo a um canal, consulte [Criação e gerenciamento de Canais](/help/user-guide/managing-channels.md)
 
    O canal contém o seguinte conteúdo, como mostrado na figura abaixo.
 
@@ -55,7 +58,7 @@ Antes de usar o recurso de Sincronização de comandos, verifique se você tem u
 
    >[!NOTE]
    >
-   >Para saber como atribuir um canal a uma exibição, consulte [Criação e gerenciamento de exibições](/help/user-guide/managing-displays.md).
+   >Para saber como atribuir um canal a uma exibição, consulte [Criar e gerenciar exibições](/help/user-guide/managing-displays.md).
 
 1. Navegue até a pasta **Dispositivos** e clique em Gerenciador **de** dispositivos na barra de ações para registrar os dispositivos.
 
@@ -63,14 +66,14 @@ Antes de usar o recurso de Sincronização de comandos, verifique se você tem u
 
    >[!NOTE]
    >
-   >Para saber como atribuir um canal a uma exibição, consulte [Criação e gerenciamento de exibições](/help/user-guide/managing-displays.md)
+   >Para saber como atribuir um canal a uma exibição, consulte [Criar e gerenciar exibições](/help/user-guide/managing-displays.md)
 
 1. Para fins de demonstração, este exemplo mostra um dispositivo de cromo e um Windows player como dois dispositivos separados. Ambos os dispositivos apontam para a mesma tela.
    ![image1](assets/command-sync6.png)
 
-### Atualizando configurações de canal
+### Atualização das configurações do Canal
 
-1. Navegue até **ChannelLobby** e clique em **Editar** na barra de ações para atualizar as configurações de canal.
+1. Navegue até **ChannelLobby** e clique em **Editar** na barra de ações para atualizar as configurações do canal.
 
 1. Selecione o canal inteiro como mostrado na figura abaixo.
    ![image1](assets/command-sync/command-sync7-1.png)
@@ -85,7 +88,7 @@ Antes de usar o recurso de Sincronização de comandos, verifique se você tem u
 
 ### Configuração de um mestre {#setting-up-master}
 
-1. Navegue até o painel de exibição em **CommandSyncDemo** —> **Locations** —> **Lobby** —> **LobbyDisplay** e clique em **Dashboard** na barra de ação.
+1. Navegue até o painel de exibição de **CommandSyncDemo** —> **Locations** —> **Lobby** —> **LobbyDisplay** e clique no **Painel** da barra de ação.
 Você verá os dois dispositivos (cromo e Windows player) no painel **DISPOSITIVOS** , como mostra a figura abaixo.
    ![image1](assets/command-sync/command-sync10-1.png)
 
@@ -110,7 +113,7 @@ Selecione o outro dispositivo (neste caso, o Windows player) no painel **DISPOSI
 1. Selecione o dispositivo na lista e clique em **Salvar**.
 
    >[OBSERVAÇÃO:]
-   > A caixa de diálogo **Sincronizar com dispositivo** mestre mostrará a lista de dispositivos mestre. Você pode selecionar a preferência desejada.
+   > A caixa de diálogo **Sincronizar com dispositivo** mestre mostrará a lista dos dispositivos mestre. Você pode selecionar a preferência desejada.
 
 1. Depois que o dispositivo (Windows player) for sincronizado com o master (Chrome player), você verá o dispositivo sincronizado no painel **DISPOSITIVOS** .
 
