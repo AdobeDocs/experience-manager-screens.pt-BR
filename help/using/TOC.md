@@ -1,12 +1,14 @@
 ---
 user-guide-title: Guia de práticas recomendadas para projetos do AEM Screens
-solution-title: Experience Cloud
+solution-title: AEM Screens
 getting-started-title: Experience League
-getting-started-url: https://landing.adobe.com/experience-league/
-tutorials-title: Tutoriais
-tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
-translation-type: ht
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+product: experience manager
+audience: end-user
+translation-type: tm+mt
+source-git-commit: 07eda12ba6b92572fc3a1fbc41ff3d54f45d4fde
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 100%
 
 ---
 
