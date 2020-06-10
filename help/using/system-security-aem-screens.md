@@ -4,12 +4,18 @@ seo-title: Lista de verificação de segurança para telas AEM
 description: A página descreve a Lista de verificação de segurança para o AEM Screens
 seo-description: A página descreve a Lista de verificação de segurança para o AEM Screens
 translation-type: tm+mt
-source-git-commit: 72551a4b56d1db851cad71abd2ce8c0b02bbbc30
+source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 1%
 
 ---
 
 
 # Considerações sobre segurança do sistema para o AEM Screens {#security-checklist}
+
+>[!IMPORTANT]
+>Este é um recurso interno do Git.
 
 Esta página destaca as considerações de segurança do sistema para telas AEM.
 
