@@ -4,9 +4,9 @@ seo-title: Entender servidores proxy
 description: A página descreve os servidores proxy
 seo-description: A página descreve os servidores proxy
 translation-type: tm+mt
-source-git-commit: e8161ece44fcc945b66713b3797935a505675104
+source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 0%
 
 # Introdução às configurações de rede padrão {#intro-standard-networks}
 
-Uma Configuração de rede pode ter várias estruturas. Esta seção fornece uma visão geral das estruturas de rede implantadas em um ambiente.
+Uma Configuração de rede pode ter várias estruturas. Esta seção fornece uma visão geral das estruturas de rede implantadas em um ambiente. Há configurações diferentes que às vezes são implementadas do zero.
+
+Esta seção destaca uma introdução aos servidores proxy seguida pelas diferentes estruturas de rede configuradas em diferentes organizações.
 
 ## Servidores proxy {#proxy-servers}
 
@@ -24,9 +26,40 @@ Uma vantagem de um servidor proxy é que seu cache pode atender a todos os usuá
 
 ## Como entender as configurações de rede {#network-setups}
 
-Para implementar uma Configuração de rede, consulte os seguintes cenários com prós e contras. Há três tipos principais de configurações de rede:
+Para implementar uma Configuração de rede, consulte os seguintes cenários com prós e contras.
 
-1. Acesso à Internet
+Há três tipos principais de configurações de rede:
+
+1. Configuração do Internet Access
 1. Configuração de rede móvel
-1. Redes corporativas fechadas
+1. Configuração de rede corporativa fechada
+
+A tabela a seguir descreve os diferentes tipos de configurações de rede com vantagens e desvantagens:
+
+<table>
+ <tbody>
+  <tr>
+   <td><strong>Configuração de rede</strong></td>
+   <td><strong>Vantagens</strong></td>
+   <td><strong>Desvantagens</strong></td>
+  </tr>
+  <tr>
+   <td><strong>Configuração do Internet Access</strong></td>
+   <td>Fácil e direto para configurar<br>Boa escolha para instalações de médio ou maior porteRede<br>dedicada pode ser encapsulada<br>Poucos pontos de falha<br>Escalabilidade relativamente barata<br>Boa</td>
+   <td>Necessário um plano de dados da Internet</td>
+  </tr>
+    <tr>
+   <td><strong>Configuração de rede móvel</strong></td>
+   <td>Fácil e direto para configurar<br>Boa escolha para instalações de médio ou grande porteA Rede<br>dedicada pode ser encapsulada<br>Poucos pontos de falha<br>Relativamente barata<br>Boa escalabilidade</br></td>
+   <td>Conexão com a Internet apropriada obrigatória</td>
+  </tr>
+    <tr>
+   <td><strong>Rede corporativa fechada</strong></td>
+   <td>Alta flexibilidade e escalabilidade<br>Altamente seguras devido a diferentes linhas de redes<br>encapsuladas de defesa<br>fáceis de monitorar e manter<br>confiáveis</td>
+   <td>Recomendados especialistas em<br>rede complicados e caros ou integradores de sistema</td>
+  </tr>
+  </tr>
+ </tbody>
+</table>
+
 
