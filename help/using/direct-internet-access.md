@@ -2,9 +2,9 @@
 title: Acesso direto à Internet
 description: Acesso direto à Internet
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ As portas podem variar devido à configuração de sua configuração de AEM ded
 A configuração também inclui um ISP (Internet Access by any Internet Provedor de serviço) e o Internet Line. A maioria dos ISPs fornece um roteador de Internet que cobre o modem da Internet, switch de rede, ponto de acesso WIFI, firewall e outras funcionalidades de rede (dependendo do fabricante e do modelo).
 
 >[!NOTE]
->**Dica de solução de problemas **>Se o AEM Screens não se conectar corretamente e mostrar o conteúdo esperado:
+>**Dica de solução de problemas **>Se o AEM Screens não se conectar corretamente e não mostrar o conteúdo esperado:
 >
 >1. Verifique o Firewall do Internet Router se há restrições relacionadas a `TCP/IP Port 80/443`.
 >1. Verifique se todas as portas necessárias são permitidas e tente novamente.
