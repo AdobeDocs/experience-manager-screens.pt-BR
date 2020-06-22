@@ -2,9 +2,9 @@
 title: Configuração de rede móvel
 description: A página descreve a Configuração de rede móvel
 translation-type: tm+mt
-source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
+source-git-commit: e24fa2fbec09cbe863a3615e722ae61b57da5012
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -12,11 +12,13 @@ ht-degree: 0%
 
 # Configurações de rede móvel {#mobile-network-setup}
 
-Os Players do Adobe AEM Screens também podem ser conectados usando redes móveis/celulares executando pelo menos uma rede 3G.
-Nos AEM Screens, o conteúdo necessário é baixado fisicamente no Player Controller/Computer e armazenado corretamente no sistema operacional subjacente. Dessa forma, a largura de banda em questão está afetando apenas os tempos de download iniciais e não influencia o desempenho dos sistemas de exibição.
-Conexão de players AEM Screens com uma conexão celular 3/4/5G ao seu provedor de dados do Mobile Service. O benefício desta configuração é que o roteador móvel pode ser colocado em um ponto otimizado para garantir a melhor cobertura disponível da rede. Geralmente, está numa posição elevada e aberta, com o máximo de concreto circundante ou de construção metálica possível.
-Essa configuração permite que os usuários de tela do AEM tenham uma grande flexibilidade, pois não há necessidade de uma linha fixa para conectar AEM Screens.
+Os Players AEM Screens também podem ser conectados usando redes móveis ou celulares executando pelo menos uma rede 3G.
 
+Nos AEM Screens, o conteúdo necessário é baixado fisicamente no Player Controller ou no Computador e armazenado corretamente no sistema operacional subjacente. Dessa forma, a largura de banda em questão afeta apenas os tempos iniciais de download e não influencia o desempenho dos monitores.
+
+Conexão de players AEM Screens com uma conexão celular 3/4/5G ao seu provedor de dados do Mobile Service. A vantagem desta configuração é que o roteador móvel pode ser colocado em um local otimizado para garantir a melhor cobertura disponível da rede. Geralmente, está numa posição elevada e aberta, com o máximo de concreto circundante ou de construção metálica possível.
+
+Essa configuração permite que os usuários de tela do AEM tenham uma grande flexibilidade, pois não há uma conexão fixa necessária para conectar AEM Screens.
 
 ![](/help/using/assets/mobile-network-1.png)
 
@@ -25,7 +27,6 @@ Essa configuração permite que os usuários de tela do AEM tenham uma grande fl
 >
 >1. Verifique o Firewall do Internet Router se há restrições relacionadas a `TCP/IP Port 80/443`.
 >1. Verifique se todas as portas necessárias são permitidas e tente novamente.
-
 
 
 
