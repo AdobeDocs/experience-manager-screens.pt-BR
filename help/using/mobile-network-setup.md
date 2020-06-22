@@ -2,9 +2,9 @@
 title: Configuração de rede móvel
 description: A página descreve a Configuração de rede móvel
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,18 @@ Conexão de players AEM Screens com uma conexão celular 3/4/5G ao seu provedor 
 Essa configuração permite que os usuários de tela do AEM tenham uma grande flexibilidade, pois não há necessidade de uma linha fixa para conectar AEM Screens.
 
 
-## Requisitos para a configuração da rede de acesso direto {#requirements-direct}
+![](/help/using/assets/mobile-network-1.png)
+
+>[!NOTE]
+>**Dica de solução de problemas **>Se o AEM Screens não se conectar corretamente e não mostrar o conteúdo esperado:
+>
+>1. Verifique o Firewall do Internet Router se há restrições relacionadas a `TCP/IP Port 80/443`.
+>1. Verifique se todas as portas necessárias são permitidas e tente novamente.
+
+
+
+
+## Requisitos para a configuração da rede móvel {#requirements-direct}
 
 A Configuração de rede, conforme descrito em 5.5, pode ser logicamente separada em três blocos. O Bloco WAN/Outer World/Internet Connection (aqui, conexão de dados móveis), a rede local/LAN interna e as subseções opcionais da LAN separadas por componentes de rede ativos.
 Para proporcionar o melhor desempenho possível, é necessário garantir que ambas as seções correspondam aos padrões mínimos recomendados.
