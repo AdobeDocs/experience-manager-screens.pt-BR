@@ -5,10 +5,10 @@ getting-started-title: Guia de práticas recomendadas do AEM Screens
 product: experience manager
 audience: end-user
 translation-type: tm+mt
-source-git-commit: bf40f06a782ba0ac665697900570d5c905dd4ddc
+source-git-commit: 6690af1a6d453fc9ca8a76bc0d5220450f222fc6
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 95%
+source-wordcount: '130'
+ht-degree: 76%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 95%
 + Resumo da implantação {#deployment-brief}
    + [Configurações da AEM Platform](aem-platform-configurations.md)
    + [Taxonomia e implementação do projeto](project-taxonomy-implementation.md)
+   + Gerenciamento do tráfego de rede {#manage-network-traffic}
+      + [Rede Internet direta (com fio/sem fio)](/help/using/direct-internet-network.md)
+      + [Rede móvel direta](/help/using/mobile-network.md)
+      + [Rede móvel com roteador de dados móvel e componentes de rede ativos](/help/using/mobile-network-router.md)
+      + [Rede corporativa fechada (com fio/sem fio)](/help/using/enclosed-corporate-network.md)
    + [Configurações do dispositivo](device-configurations.md)
    + [Teste e garantia da qualidade](testing-quality-assurance.md)
    + [Estratégia de engajamento do fornecedor](vendor-engagement.md)
