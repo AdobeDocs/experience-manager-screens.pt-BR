@@ -2,9 +2,9 @@
 title: Rede móvel direta
 description: A página descreve a configuração de rede móvel direta
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,8 @@ Siga as etapas abaixo para conectar players de tela AEM nesta configuração:
 
 
 1. Verifique se a configuração do adaptador de rede corresponde à configuração do roteador.
-1. Verifique se o roteador está conectado corretamente à ISP Wide Area Network (Internet Link). Normalmente, isso também pode ser identificado usando um LED de sinal nos roteadores padrão.
+
+1. Verifique se o roteador está conectado corretamente à ISP Wide Area Network (Internet Link). Isso também pode ser identificado usando um LED de sinal nos roteadores padrão.
 
 1. Caso a chamada de URL tenha êxito, você pode continuar instalando os AEM Screens e registrá-los de acordo. AEM Screens Start.
 
