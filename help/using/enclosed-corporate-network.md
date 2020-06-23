@@ -2,9 +2,9 @@
 title: Rede corporativa fechada
 description: Rede corporativa fechada
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,7 @@ Para operação normal, por exemplo, tendo definido uma lista de reprodução qu
 
 As tabelas a seguir ofertas uma boa visão geral do que os dados chave de conectividade da rede significam para o desempenho que pode ser esperado e os possíveis tempos de espera.
 
-Todas as informações devem ser vistas como o consumo de cada dispositivo na rede que solicita e baixa uma fonte de Internet. Portanto, cada uma dessas solicitações somam e estendem o Tempo de Download.
+>[!NOTE]
+>Todas as informações devem ser vistas como o consumo de cada dispositivo na rede que solicita e baixa uma fonte de Internet. Cada uma dessas solicitações adiciona e estende o Tempo de download.
 
 ![](/help/using/assets/enclosed-network-download.png)
