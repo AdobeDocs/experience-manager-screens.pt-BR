@@ -2,15 +2,15 @@
 title: Rede corporativa fechada
 description: Rede corporativa fechada
 translation-type: tm+mt
-source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
+source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 
-# Redes corporativas fechadas {#enclosed-corporate-networks}
+# Redes corporativas fechadas (com fio/sem fio) {#enclosed-corporate-networks}
 
 A Enclosure Corporate Network SetUp é aplicável a empresas menores, maiores e corporativas. Pode ser teoricamente mais complexo, mas a Configuração lógica é mostrada na figura abaixo.
 
