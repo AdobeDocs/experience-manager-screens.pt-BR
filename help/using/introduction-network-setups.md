@@ -4,9 +4,9 @@ seo-title: Introdução às configurações de rede padrão
 description: A página descreve Configurações de rede padrão
 seo-description: A página descreve Configurações de rede padrão
 translation-type: tm+mt
-source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
+source-git-commit: 77cf87cbce39a00528b2690d9689861b91e61fc5
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -14,24 +14,24 @@ ht-degree: 0%
 
 # Gerenciamento do tráfego de rede {#managing-network-traffic}
 
-Uma Configuração de rede pode ter várias estruturas. Esta seção fornece uma visão geral das estruturas de rede implantadas em um ambiente. Há configurações diferentes que às vezes são implementadas do zero.
+Uma Configuração de rede pode ter várias estruturas. Esta seção descreve as configurações de rede mais comuns dentro da configuração de rede de uma organização.
 
-Esta seção destaca uma introdução aos servidores proxy seguida pelas diferentes estruturas de rede configuradas em diferentes organizações.
+Este guia destaca uma introdução aos servidores proxy seguido pelas várias estruturas de rede configuradas em diferentes organizações.
 
 >[!NOTE]
->**Requisitos de rede para AEM Screens **>Os AEM Screens se comunicam diretamente com o Cloud Service do AEM, portanto, é necessário estabelecer uma conexão estável entre esses dois nós. Os firewalls são absolutamente obrigatórios para o acesso comercial à Internet e o cliente precisa saber quais portas de comunicação precisam ser abertas em Firewalls e outros componentes de rede relacionados à segurança da TI que estejam sob o controle do cliente.
+>**Requisitos de rede para AEM Screens **>Os AEM Screens se comunicam diretamente com o AEM como um Cloud Service, portanto, é necessário estabelecer uma conexão estável entre os dois nós. Os firewalls são absolutamente obrigatórios para acesso comercial à Internet e, como cliente, você deve entender quais portas de comunicação precisam ser abertas em firewalls e outros componentes de rede relacionados à segurança da TI.
 
-## Servidores proxy {#proxy-servers}
+## Visão geral para servidores proxy {#proxy-servers}
 
-Um servidor proxy é um computador dedicado ou um sistema de software em execução em um computador que atua como intermediário entre um dispositivo de ponto de extremidade, como um computador, e outro servidor do qual um usuário ou cliente solicita um serviço. O servidor proxy pode existir na mesma máquina que um servidor de firewall ou pode estar em um servidor separado, que encaminha solicitações por meio do firewall.
+Uma conexão com a Internet depende do uso de um servidor proxy. Um servidor proxy é um computador dedicado ou um sistema de software em execução em um computador que atua como intermediário entre um dispositivo de ponto de extremidade, como um computador, e outro servidor do qual um usuário ou cliente solicita um serviço. O servidor proxy pode existir na mesma máquina que um servidor de firewall ou pode estar em um servidor separado, que encaminha solicitações por meio do firewall.
 
-Uma vantagem de um servidor proxy é que seu cache pode atender a todos os usuários. Se um ou mais sites da Internet forem solicitados com frequência, provavelmente estarão no cache do proxy, o que melhorará o tempo de resposta do usuário. Um proxy também pode registrar suas interações, o que pode ser útil para a solução de problemas.
+Uma vantagem de um servidor proxy é que seu cache pode atender a todos os usuários. Se um ou mais sites da Internet forem solicitados com frequência, é provável que eles estejam no cache do proxy, isso melhora o tempo de resposta do usuário. Um proxy também pode registrar suas interações, que são usadas para solução de problemas.
 
 ## Como entender as configurações de rede padrão {#network-setups}
 
-Para implementar uma Configuração de rede, consulte os seguintes cenários com pontos fortes e detalhes de implantação.
+Para implementar uma Configuração de rede, consulte os seguintes cenários com seus pontos fortes e detalhes de implantação.
 
-Há três tipos principais de configurações de rede:
+Há quatro tipos principais de configurações de rede:
 
 1. [Rede Internet direta (com fio/sem fio)](/help/using/direct-internet-network.md)
 1. [Rede móvel direta](/help/using/mobile-network.md)
@@ -48,27 +48,27 @@ A tabela a seguir descreve os diferentes tipos de configurações de rede com va
    <td><strong>Desvantagens</strong></td>
   </tr>
   <tr>
-   <td><strong>Acesso direto à Internet</strong></td>
-   <td>Fácil e direto para configurar<br>Boa escolha para instalações de médio ou maior porteRede<br>dedicada pode ser encapsulada<br>Poucos pontos de falha<br>Escalabilidade relativamente barata<br>Boa</td>
-   <td>Necessário um plano de dados da Internet</td>
+   <td><strong>Rede Internet direta (com fio/sem fio)</strong></td>
+   <td>Fácil e direto para configurar<br>Boa escolha para instalações de médio ou maior porteRede<br>dedicada pode ser Encapsulada<br>Poucos pontos de falha<br>Escalabilidade relativamente barata<br>boa</td>
+   <td>Plano obrigatório de dados da Internet </td>
   </tr>
     <tr>
    <td><strong>Rede móvel direta</strong></td>
-   <td>Fácil e direto para configurar<br>Boa escolha para instalações de médio ou maior porte<br>Boa escalabilidadeTelas<br>encapsuladas
+   <td>Fácil de configurar<br>boa escolha para instalações de médio ou maior porte<br>Telas<br>encapsuladas de dimensionamentoBom
 </td>
-   <td>Conexão com a Internet apropriada obrigatória</td>
+   <td>Conexão obrigatória com a Internet</td>
   </tr>
     <tr>
 <tr>
    <td><strong>Rede móvel com roteador de dados móvel e componentes de rede ativos</strong></td>
-   <td>Fácil e direto para configurar<br>Boa escolha para instalações de médio ou grande porteA Rede<br>dedicada pode ser encapsulada<br>Poucos pontos de falha<br>Relativamente barata<br>Boa escalabilidade</br></td>
-   <td>Necessário um plano de dados da Internet</td>
+   <td>A fácil configuração<br>boa opção para instalações de médio ou maior porteRede<br>dedicada pode ser encapsulada<br>em poucos pontos de falha<br>relativamente barata<br>Boa escalabilidade</br></td>
+   <td>Plano obrigatório de dados da Internet</td>
   </tr>
     <tr>
 
-<td><strong>Rede corporativa fechada</strong></td>
+<td><strong>Rede corporativa fechada (com fio/sem fio)</strong></td>
    <td>Alta flexibilidade e escalabilidade<br>Altamente seguras devido a diferentes linhas de redes<br>encapsuladas de defesa<br>fáceis de monitorar e manter<br>confiáveis</td>
-   <td>Recomendados especialistas em<br>rede complicados e caros ou integradores de sistema</td>
+   <td>Complicado e caro<br>recomendado para especialistas de rede ou integradores de sistema</td>
   </tr>
   </tr>
  </tbody>
