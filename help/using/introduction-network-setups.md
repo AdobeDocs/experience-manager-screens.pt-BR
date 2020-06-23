@@ -4,15 +4,15 @@ seo-title: Introdução às configurações de rede padrão
 description: A página descreve Configurações de rede padrão
 seo-description: A página descreve Configurações de rede padrão
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: ae7da9c48188c3f7567d05d0e9a5a6b72383d539
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
 
-# Introdução às configurações de rede padrão {#intro-standard-networks}
+# Gerenciamento do tráfego de rede {#managing-network-traffic}
 
 Uma Configuração de rede pode ter várias estruturas. Esta seção fornece uma visão geral das estruturas de rede implantadas em um ambiente. Há configurações diferentes que às vezes são implementadas do zero.
 
@@ -27,7 +27,7 @@ Um servidor proxy é um computador dedicado ou um sistema de software em execuç
 
 Uma vantagem de um servidor proxy é que seu cache pode atender a todos os usuários. Se um ou mais sites da Internet forem solicitados com frequência, provavelmente estarão no cache do proxy, o que melhorará o tempo de resposta do usuário. Um proxy também pode registrar suas interações, o que pode ser útil para a solução de problemas.
 
-## Como entender as configurações de rede {#network-setups}
+## Como entender as configurações de rede padrão {#network-setups}
 
 Para implementar uma Configuração de rede, consulte os seguintes cenários com pontos fortes e detalhes de implantação.
 
