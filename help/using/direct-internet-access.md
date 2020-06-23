@@ -2,9 +2,9 @@
 title: Acesso direto à Internet
 description: Acesso direto à Internet
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,7 @@ Siga as etapas abaixo para conectar players de tela AEM nesta configuração:
 1. Verifique se a configuração do adaptador de rede corresponde à configuração do roteador e se a quantidade máxima de endereços IP disponíveis na rede não foi atingida.
 
 1. Verifique se o roteador está conectado corretamente à ISP Wide Area Network (Internet Link). Normalmente, isso também pode ser identificado usando um LED de sinal nos roteadores padrão.
-1. Caso a chamada de URL tenha sido bem-sucedida, você pode continuar instalando os AEM Screens e registrá-los adequadamente
-1. AEM Screens Start.
+1. Se a chamada de URL for bem-sucedida, você poderá continuar instalando os AEM Screens e registrá-los de acordo. AEM Screens Start.
 
    >[!NOTE]
    >**Dica de solução de problemas**
@@ -62,7 +61,9 @@ A configuração da rede de acesso direto pode ser logicamente separada em dois 
 
 ### Rede de área ampla {#wan-connection}
 
-O desempenho da conexão com a Internet, além da acessibilidade da rede, é fornecer largura de banda suficiente para operar AEM Screens de forma agradável e suave. Em detalhes, &quot;suficiente&quot; depende da quantidade de telas AEM conectadas e do uso de outros consumidores dentro da rede, como Smartphones, Tablets, caixas, Computadores ou redes WIFI Convidadas.
+O desempenho da conexão com a Internet, além da acessibilidade da rede, é fornecer largura de banda suficiente para operar AEM Screens de forma agradável e suave.
+
+*O suficiente* depende da quantidade de telas AEM conectadas e do uso de outros consumidores dentro da rede, como Smartphones, Tablets, caixas, computadores ou redes WIFI Convidadas.
 
 >[!NOTE]
 >Todos os dispositivos têm acesso simultâneo à conexão com a Internet e a largura de banda geralmente diminui linearmente quando você adiciona mais consumidores/computadores à rede.
@@ -83,9 +84,10 @@ Os AEM Screens oferecem uma grande vantagem aos usuários de placas digitais. El
 Para operações normais, por exemplo, tendo definido uma lista de reprodução que não é alterada com muita frequência durante o dia, isso oferta uma operação próxima da operação independente da rede, depois que todos os arquivos tiverem sido salvos no player.
 Para os casos de uso em que há mais interações com sensores ou outros acionadores e o conteúdo é muito dinâmico, uma conexão de rede rápida e confiável é essencial para uma reação imediata na tela, a fim de garantir a melhor experiência possível do cliente.
 
-A tabela a seguir fornece uma visão geral sobre os dados principais de conectividade de rede:
+A tabela a seguir fornece uma visão geral sobre os dados principais de conectividade de rede.
+
+>[!NOTE]
+>As informações permitem que você visualização o consumo de cada dispositivo na rede solicitando e baixando uma fonte da Internet. Cada uma dessas solicitações adiciona e estende o Tempo de download.
 
 ![](/help/assets/download-times-direct.png)
 
->[!NOTE]
->As informações permitem que você visualização o consumo de cada dispositivo na rede solicitando e baixando uma fonte da Internet. Portanto, cada uma dessas solicitações somam e estendem o Tempo de Download.
