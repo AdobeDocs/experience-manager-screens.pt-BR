@@ -2,7 +2,7 @@
 title: Acesso direto à Internet
 description: Acesso direto à Internet
 translation-type: tm+mt
-source-git-commit: e24fa2fbec09cbe863a3615e722ae61b57da5012
+source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 0%
@@ -72,7 +72,7 @@ O desempenho da conexão com a Internet, além da acessibilidade da rede, é for
 O desempenho da LAN (Local Area Network, Rede local), além da acessibilidade da rede, fornece largura de banda suficiente para operar AEM Screens de forma agradável e suave.
 
 A rede LAN normalmente corresponde a uma rede de 100 MBit/s, de modo que há largura de banda suficiente para conectar muitos dispositivos com bom desempenho ao sistema.
-Caso uma solução WIFI esteja planejada para conectar AEM Screens ao Internet Link, é recomendável usar no mínimo padrões WIFI modernos, como IEEE 802.11g. Este padrão suporta conexões de até 54 Mbit. Todos os padrões *mais recentes* como o 802.11h-n são de melhor qualidade.
+Caso uma solução WIFI esteja planejada para conectar AEM Screens ao Internet Link, é recomendável usar no mínimo padrões WIFI modernos, como IEEE 802.11g. Este padrão suporta conexões de até 54 Mbps. Todos os padrões *mais recentes* como o 802.11h-n são de melhor qualidade.
 
 >[!NOTE]
 >Se um WIFI Repeater for necessário, recomendamos enfaticamente as tecnologias de ponto de acesso WIFI em malha, como Google Nest Mesh WIFI ou similar. Outras tecnologias de repetição WiFi acabam com uma perda maciça de largura de banda na rede geral.
