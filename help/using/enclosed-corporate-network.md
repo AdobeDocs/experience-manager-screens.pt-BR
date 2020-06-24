@@ -2,9 +2,9 @@
 title: Rede corporativa fechada
 description: Rede corporativa fechada
 translation-type: tm+mt
-source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
+source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,10 @@ Por exemplo, os componentes de rede devem corresponder pelo menos ao padrão de 
 
 ### Outras especificações de redes corporativas {#other-networks}
 
-Normalmente, as redes corporativas têm uma carga de dispositivos conectados, podem ser separadas em várias sub-redes e podem ter conexões redundantes ou multiplexadas com a Internet para fornecer desempenho suficiente para muitos milhares de acessos simultâneos.
-O schema acima é simplificado e se encaixa na maioria dos casos no ambiente disponível para o cliente.
-Caso uma solução WiFI esteja planejada para conectar a tela ao Internet Link, é recomendável usar no mínimo padrões WIFI modernos, como IEEE 802.11g. Este padrão suporta conexões de até 54 Mbps. Todos os padrões &quot;mais recentes&quot; como o 802.11h-n são de melhor qualidade. Se um WIFI Repeater for necessário, recomendamos enfaticamente as tecnologias de ponto de acesso WIFI em malha, como Google Nest Mesh WIFI ou similar.
+Geralmente, as redes corporativas têm vários dispositivos conectados, podem ser separados em várias sub-redes e podem ter conexões redundantes ou multiplexadas com a Internet para fornecer desempenho suficiente para muitos milhares de acessos simultâneos.
+Esse schema é simplificado e se encaixa na maioria dos casos no ambiente disponível para o cliente.
+
+Caso uma solução WIFI esteja planejada para conectar a tela ao Internet Link, é recomendável usar padrões WIFI modernos, como `IEEE 802.11g` mínimo. Este padrão suporta conexões de até 54 Mbps. Quaisquer padrões *mais recentes* como `802.11h-n` são de melhor qualidade. Se um WIFI Repeater for necessário, recomendamos enfaticamente as tecnologias de ponto de acesso WIFI em malha, como Google Nest Mesh WIFI ou similar.
 Outras tecnologias de repetição WiFi acabam com uma perda maciça de largura de banda na rede geral.
 
 ## Download de mídia e ativos {#download}
