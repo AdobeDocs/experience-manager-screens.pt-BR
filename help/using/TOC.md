@@ -5,10 +5,10 @@ getting-started-title: Guia de práticas recomendadas do AEM Screens
 product: experience manager
 audience: end-user
 translation-type: tm+mt
-source-git-commit: 14334261ae572f31754b5dba230b53717cd46626
+source-git-commit: 0a7aa7ea477cd1acbe8adfe31760be1bc4236c17
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 76%
+source-wordcount: '133'
+ht-degree: 74%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 76%
    + [Configurações da AEM Platform](aem-platform-configurations.md)
    + [Taxonomia e implementação do projeto](project-taxonomy-implementation.md)
    + Gerenciamento de tráfego de rede {#manage-network-traffic}
+      + [Gerenciamento do tráfego de rede](/help/using/managing-network-traffic.md)
       + [Rede Internet direta (com fio/sem fio)](/help/using/direct-internet-network.md)
       + [Rede móvel direta](/help/using/mobile-network.md)
       + [Rede móvel com roteador de dados móvel e componentes de rede ativos](/help/using/mobile-network-router.md)
