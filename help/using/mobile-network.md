@@ -2,9 +2,9 @@
 title: Rede móvel direta
 description: A página descreve a configuração de rede móvel direta
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Siga as etapas abaixo para garantir a conexão correta dos players de tela do AE
 
 1. Se a chamada de URL for bem-sucedida, você poderá continuar instalando os AEM Screens e registrando-se. AEM Screens Start.
 
-## Requisitos para a configuração da rede móvel {#requirements-direct}
+## Configurando a rede móvel direta {#requirements-direct}
 
 A configuração de rede pode ser logicamente separada em dois blocos:
 
