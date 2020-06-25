@@ -2,9 +2,9 @@
 title: Rede corporativa fechada
 description: Rede corporativa fechada
 translation-type: tm+mt
-source-git-commit: eaeea4933be708beca0628438e6cef6142a0490f
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Siga as etapas abaixo para garantir a conexão correta dos players de tela do AE
    >1. Verifique se todas as portas necessárias são permitidas.
 
 
-## Requisitos para a criação de redes corporativas integradas {#requirements-enclosed-networks}
+## Configurando redes corporativas fechadas {#requirements-enclosed-networks}
 
 A configuração de rede corporativa incluída pode ser logicamente separada em dois blocos:
 
