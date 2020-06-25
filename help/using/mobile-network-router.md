@@ -2,9 +2,9 @@
 title: Rede móvel com roteador de dados móvel e componentes de rede ativos
 description: A página descreve Rede móvel com roteador de dados móvel e componentes de rede ativos
 translation-type: tm+mt
-source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
+source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Os Players do Adobe AEM Screens também podem ser conectados usando redes móveis ou celulares executando pelo menos uma rede 3G.
 
-Dentro dos AEM Screens, o conteúdo necessário é baixado fisicamente no controlador do player ou no computador e armazenado corretamente no sistema operacional subjacente. Portanto, a largura de banda fornecida afeta apenas os tempos de download iniciais e não influencia o desempenho dos sistemas de exibição.
+No AEM Screens, o conteúdo necessário é baixado fisicamente no controlador do player ou no computador e armazenado corretamente no sistema operacional subjacente. Portanto, a largura de banda fornecida afeta apenas os tempos de download iniciais e não influencia o desempenho dos sistemas de exibição.
 
 A vantagem desta configuração é que o roteador móvel pode ser colocado em um ponto otimizado para garantir a melhor cobertura disponível da rede. Geralmente, está numa posição elevada e aberta, com o máximo de concreto circundante ou de construção metálica possível.
 Essa configuração permite que os usuários de tela do AEM tenham flexibilidade, pois não há necessidade de uma linha fixa para se conectar aos AEM Screens.
@@ -25,14 +25,14 @@ O diagrama a seguir mostra a configuração Rede móvel com roteador de dados m�
 
 ## Conectando o AEM Screens Player à rede móvel com o Mobile Data Router e os componentes de rede ativos {#connecting-aem-screens-players}
 
-Siga as etapas abaixo para conectar players de tela AEM nesta configuração:
+Siga as etapas abaixo para garantir a conexão correta dos players de tela do AEM nesta configuração:
 
 A configuração contém um Acesso à Internet de qualquer um dos Controladores de AEM Screens por Acesso direto à Internet usando um link de dados 3/4/5G próprio.
 
 1. Verifique se o Mobile Data Router está conectado corretamente à Rede de dados celular, conforme indicado no sistema operacional, e se cada um dos players de tela AEM está conectado à Rede de roteadores.
 1. Teste a conexão com a Internet chamando um URL no navegador do sistema.
    >[!NOTE]
-   >Caso receba uma mensagem de erro, verifique as configurações de rede. Basicamente, existem duas opções para uma conexão de rede adequada:
+   >Caso receba um erro, verifique as configurações de rede. Basicamente, existem duas opções para uma conexão de rede adequada:
    >* DHCP
    >* Configuração de IP manual
 
@@ -40,14 +40,13 @@ A configuração contém um Acesso à Internet de qualquer um dos Controladores 
 1. Verifique se a configuração do adaptador de rede corresponde à configuração do roteador.
 
 1. Verifique se o roteador está conectado corretamente à ISP Wide Area Network (Internet Link). Isso também pode ser identificado usando um LED de sinal nos roteadores padrão.
-1. Caso a chamada de URL tenha sido bem-sucedida, você pode continuar instalando os AEM Screens e registrá-los adequadamente. AEM Screens Start.
+1. Se a chamada de URL for bem-sucedida, você poderá continuar instalando os AEM Screens e registrando-se. AEM Screens Start.
 
    >[!NOTE]
    >**Dica de solução de problemas**
-   >Se o AEM Screens não se conectar corretamente e não mostrar o conteúdo esperado:
+   >Se o AEM Screens não se conectar corretamente e o conteúdo esperado não for exibido:
    >
-   >1. Verifique o Firewall do Internet Router se há restrições relacionadas a `TCP/IP Port 80/443`.
-   >1. Verifique se todas as portas necessárias são permitidas.
+   >1. Verifique o firewall do Internet Router se há restrições relacionadas a `TCP/IP Port 80/443`.
 
 
 
@@ -61,21 +60,19 @@ A configuração de rede pode ser logicamente separada em dois blocos:
 
 ### Conexão com a Internet móvel {#mobile-internet-connection}
 
-O desempenho da Conexão com a Internet, além da capacidade de alcance da rede já descrita, fornece largura de banda suficiente para operar AEM Screens de forma agradável e suave.
+O desempenho da conexão com a Internet, além da capacidade de alcance da rede já descrita, fornece largura de banda suficiente para operar AEM Screens de forma agradável e suave.
 
-*O suficiente* depende da quantidade de telas AEM conectadas e do uso de outros consumidores dentro da rede, como Smartphones, Tablets, caixas, computadores ou redes WIFI Convidadas.
+*O suficiente* depende da quantidade de telas AEM conectadas e do uso de outros consumidores na rede, como Smartphones, Tablets, caixas, computadores ou redes Wi-Fi Convidadas.
 Lembre-se de que todos os dispositivos têm acesso simultâneo à conexão com a Internet e que a largura de banda geralmente diminui linearmente, adicionando mais consumidores/computadores à rede.
 Para além da ligação teórica específica à rede, é necessário garantir que a cobertura do roteador móvel seja pelo menos &quot;boa&quot;. Além disso, o plano mensal subjacente tem que cobrir capacidade de dados suficiente e largura de banda suficiente para atender a todos os clientes conectados dentro da LAN conectada.
-As redes de dados fornecem largura de banda padrão com:
 
-**3G**
-* 42 Mbps
+A tabela a seguir destaca as redes de dados com sua largura de banda padrão:
 
-**4G**
-* 150 Mbps
-
-**5G**
-* 1000 Mbps-10000 Mbps
+| Rede de dados | Largura de banda |
+|--- |--- |
+| 3G | 42 Mbps |
+| 4G | 150 Mbps |
+| 5G | 1000 - 10000 Mbps |
 
 Ao considerar qual rede de dados deve ser usada, é recomendável responder às seguintes perguntas:
 
@@ -97,7 +94,7 @@ O desempenho da LAN, além da capacidade de alcance da rede já descrita, fornec
 
 Por exemplo, os componentes de rede devem corresponder pelo menos ao padrão de 100 Mbps e à largura de banda fornecida pela especificação Internet Access/Router.
 
-Caso uma solução WIFI esteja planejada para conectar a tela ao Internet Link, é recomendável usar no mínimo padrões WIFI modernos, como IEEE 802.11g. Este padrão suporta conexões de até 54 Mbps. Todos os padrões *mais recentes* como o 802.11h-n são de melhor qualidade. Se um WIFI Repeater for necessário, recomendamos enfaticamente as tecnologias de ponto de acesso WIFI em malha, como Google Nest Mesh WIFI ou similar.
+Caso esteja prevista uma solução Wi-Fi para conectar a tela ao Internet Link, é recomendável usar no mínimo padrões Wi-Fi modernos, como IEEE 802.11g. Este padrão suporta conexões de até 54 Mbps. Todos os padrões *mais recentes* como o 802.11h-n são de melhor qualidade. Se for necessário um Repetidor de Wi-Fi, recomendamos enfaticamente as tecnologias de ponto de acesso de malha Wi-Fi, como o Google Nest Mesh Wi-Fi ou similar.
 
 ## Download de mídia e ativos {#download}
 
