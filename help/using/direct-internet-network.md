@@ -2,9 +2,9 @@
 title: Acesso direto à Internet
 description: Acesso direto à Internet
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Siga as etapas abaixo para garantir a conexão correta dos players de tela do AE
    >1. Verifique se todas as portas necessárias são permitidas.
 
 
-## Requisitos para a configuração da rede de acesso direto {#requirements-direct}
+## Configurando a rede de acesso direto {#requirements-direct}
 
 A Direct Internet Network é logicamente separada em dois blocos:
 
