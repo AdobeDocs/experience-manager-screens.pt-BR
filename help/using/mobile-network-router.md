@@ -2,9 +2,9 @@
 title: Rede móvel com roteador de dados móvel e componentes de rede ativos
 description: A página descreve Rede móvel com roteador de dados móvel e componentes de rede ativos
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ A configuração contém um Acesso à Internet de qualquer um dos Controladores 
 
 
 
-## Requisitos para a configuração de rede móvel com roteador de dados móvel e componentes de rede ativos {#requirements-direct}
+## Configuração de rede móvel com roteador de dados móvel e componentes de rede ativos {#requirements-direct}
 
 A configuração de rede pode ser logicamente separada em dois blocos:
 
