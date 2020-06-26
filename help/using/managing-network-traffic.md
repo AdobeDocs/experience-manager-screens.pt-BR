@@ -2,9 +2,9 @@
 title: Gerenciamento do tráfego de rede
 description: A página descreve Configurações de rede padrão e como gerenciar o tráfego de rede.
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: 173ce977549ed64e3750bb751a8fe1b27e277aa2
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
