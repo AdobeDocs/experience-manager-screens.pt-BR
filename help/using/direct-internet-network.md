@@ -2,9 +2,9 @@
 title: Acesso direto à Internet
 description: Acesso direto à Internet
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: da1fb07fef33bca771693f8bd4cc7bce256d808e
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 A Direct Internet Network contém um ponto de acesso de entrada para acesso à Internet, a fim de alcançar os AEM cloud services aos quais o AEM Screens precisa se conectar.
 
 As Portas padrão para comunicação com AEM Screens são:
-* `http (TCP Port 80)`
+* `ssl-secured https (TCP Port 443)`
 
    <br>Ou,</br>
 
-* `ssl-secured https (TCP Port 443)`
+* `http (TCP Port 80)`, se seu caso de uso específico não exigir esse nível de segurança.
 
 As portas podem variar devido à configuração de sua configuração de AEM dedicada configurada. Dentro desta configuração, todos os dispositivos são conectados diretamente ao seu roteador de Internet, como mostra a figura abaixo.
 
@@ -31,7 +31,7 @@ A configuração também inclui um acesso à Internet por qualquer ISP (Internet
 
 Siga as etapas abaixo para garantir a conexão correta dos players de tela do AEM nesta configuração:
 
-1. Verifique se cada um dos players de tela do AEM está conectado à rede de roteadores.
+1. Verifique se cada um dos players de tela do AEM está conectado à rede do roteador.
 1. Teste a conexão com a Internet chamando um URL no navegador do sistema.
 
    >[!NOTE]
