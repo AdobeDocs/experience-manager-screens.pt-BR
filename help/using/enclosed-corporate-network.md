@@ -2,9 +2,9 @@
 title: Rede corporativa fechada
 description: Rede corporativa fechada
 translation-type: tm+mt
-source-git-commit: 768c40545907ab473d61a56367940cfbbf8f2dc9
+source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Rede corporativa fechada (com fio/sem fio) {#enclosed-corporate-networks}
 
-A Enclosure Corporate Network SetUp é aplicável a empresas menores, maiores e corporativas. Pode ser teoricamente mais complexo, e a Configuração lógica é mostrada na figura abaixo.
+A Enclosure Corporate Network SetUp é aplicável a empresas menores, maiores e corporativas. Pode ser teoricamente mais complexo e a configuração lógica é mostrada na figura abaixo.
 
 ![](/help/using/assets/enclosed-network-1.png)
 
@@ -52,7 +52,7 @@ A configuração de rede corporativa incluída pode ser logicamente separada em 
 
 ### Rede de área ampla {#wan-connection}
 
-O desempenho da conexão com a Internet além da acessibilidade da rede é fornecer largura de banda suficiente para operar AEM Screens de forma agradável e suave.
+O desempenho da conexão com a Internet, além da acessibilidade da rede, tem que fornecer largura de banda suficiente para operar atualizações de conteúdo do AEM Screens sem problemas.
 *A largura de banda* suficiente depende da quantidade de telas AEM conectadas e do uso de outros consumidores dentro da rede, como smartphones, tablets, caixas, computadores ou redes Wi-Fi convidadas.
 
 >[!NOTE]
@@ -60,11 +60,11 @@ O desempenho da conexão com a Internet além da acessibilidade da rede é forne
 
 ### Rede local {#lan-connection}
 
-O desempenho da LAN (Local Area Network, Rede local), além da acessibilidade da rede, é fornecer largura de banda suficiente para operar AEM Screens sem problemas.
+O desempenho da LAN (Local Area Network, Rede local), além da acessibilidade da rede, tem que fornecer largura de banda suficiente para operar atualizações de conteúdo de AEM Screens sem problemas.
 
 A rede LAN dentro das organizações corporativas é geralmente de pelo menos 1000 MBit/s, de modo que há largura de banda suficiente para conectar muitos dispositivos com bom desempenho ao sistema. Ao usar outros componentes ativos da Rede, é obrigatório que todos eles correspondam aos requisitos de largura de banda da Rede.
 
-Por exemplo, os componentes de Rede devem corresponder pelo menos ao padrão de 1000 Mbps e à largura de banda fornecida pela especificação de acesso/roteador da Internet.
+Por exemplo, os componentes de Rede devem corresponder pelo menos ao padrão de 100 Mbps e à largura de banda fornecida pela especificação de acesso/roteador da Internet.
 
 ### Outras especificações de redes corporativas {#other-networks}
 
