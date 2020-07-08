@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1227'
+ht-degree: 59%
 
 ---
 
@@ -50,7 +53,7 @@ Siga as etapas abaixo para atribuir um canal a uma exibição:
 
    Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS** panel to open the **Channel Assignment** dialog box.
 
-   ![image](/help/user-guide/assets/channel-assign1.png)
+   ![imagem](/help/user-guide/assets/channel-assign1.png)
 
    É possível entender e configurar as propriedades na caixa de diálogo Atribuição **de** Canais na seção abaixo.
 
@@ -181,7 +184,9 @@ Este exemplo mostra a segmentação de dia para uma loja que exibe sua coleção
 | B | Natal | 2 | 24 de dez de 2017 - 31 de dez de 2017 |
 
 >[!IMPORTANT]
+>
 > Para saber mais sobre a separação de horário, consulte as seções abaixo:
+>
 >* [Tratamento de recorrência em ativos](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Tratamento da recorrência de ativos em um Canal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
 
