@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1222b1fcfedcc68c360c69867d3db4044ce8e7d8
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '833'
+ht-degree: 42%
 
 ---
 
@@ -56,6 +59,7 @@ Siga as etapas abaixo para adicionar uma sequência incorporada ao seu canal:
 By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
 
 >[!IMPORTANT]
+>
 >Você deve atribuir o canal (usado em sequência incorporada) à mesma exibição.
 >
 >Siga as etapas abaixo depois de adicionar uma sequência incorporada ao seu canal a partir das etapas anteriores:
@@ -63,14 +67,17 @@ By default, it is set to **normal**. Setting the value to **normal** (Play all i
 >1. Navegue até a exibição e selecione a exibição na pasta **Locais** .
 >1. Clique no **Painel** da barra de ação para navegar até o painel de exibição.
 >1. Selecione **+ Atribuir Canais** nos PAINÉIS **CANAIS** ATRIBUÍDOS E AGENDADOS para abrir a caixa **de diálogo Atribuição de** Canais.
+
    >
    >
 1. Selecione o caminho do canal (usado em sequência incorporada) no Caminho **do** Canal.
 >1. Certifique-se de que a **Prioridade** seja menor que o canal principal.
+
    >
    >
 1. Você não deve selecionar nenhum Evento **** suportado.
 >1. Clique em **Salvar** uma vez concluído.
+
 >
 
 
