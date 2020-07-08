@@ -2,9 +2,9 @@
 title: Rede corporativa fechada
 description: Rede corporativa fechada
 translation-type: tm+mt
-source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,7 @@ O desempenho da conexão com a Internet, além da acessibilidade da rede, tem qu
 *A largura de banda* suficiente depende da quantidade de telas AEM conectadas e do uso de outros consumidores dentro da rede, como smartphones, tablets, caixas, computadores ou redes Wi-Fi convidadas.
 
 >[!NOTE]
+>
 >Todos os dispositivos têm acesso simultâneo à conexão com a Internet e a largura de banda diminui linearmente quando você adiciona mais consumidores ou computadores à rede.
 
 ### Rede local {#lan-connection}
@@ -85,6 +86,7 @@ Para cenários, em que há mais interações com sensores ou acionadores e conte
 A tabela a seguir fornece uma visão geral sobre os dados principais de conectividade de rede.
 
 >[!NOTE]
+>
 >As informações permitem que você visualização o consumo de cada dispositivo na rede solicitando e baixando uma fonte da Internet. Cada uma dessas solicitações adiciona e estende o Tempo de download.
 
 ![](/help/using/assets/enclosed-network-download.png)
