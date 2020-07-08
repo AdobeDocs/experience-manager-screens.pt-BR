@@ -2,7 +2,7 @@
 title: Acesso direto à Internet
 description: Acesso direto à Internet
 translation-type: tm+mt
-source-git-commit: da1fb07fef33bca771693f8bd4cc7bce256d808e
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -68,6 +68,7 @@ O desempenho da conexão com a Internet além da acessibilidade da rede é forne
 *O suficiente* depende do número de telas AEM conectadas e do uso de outros consumidores na rede, como smartphones, tablets, caixas, computadores ou redes Wi-Fi convidadas.
 
 >[!NOTE]
+>
 >Todos os dispositivos mencionados acima têm acesso simultâneo à conexão com a Internet e a largura de banda diminui linearmente quando você adiciona mais consumidores ou computadores à rede.
 
 ### Rede local {#lan-connection}
@@ -78,6 +79,7 @@ A rede LAN normalmente corresponde a uma rede de 100 Mbps, de modo que haja larg
 Caso esteja prevista uma solução Wi-Fi para conectar AEM Screens ao Internet Link, é recomendável usar padrões Wi-Fi modernos, como `IEEE 802.11g` mínimo. Este padrão suporta conexões de até 54 Mbps. Quaisquer padrões *mais recentes* como `802.11h-n` são de melhor qualidade.
 
 >[!NOTE]
+>
 >Se for necessário um Repetidor Wi-Fi, é altamente recomendável um ponto de acesso Wi-Fi Mesh, como o Google Nest Mesh Wi-Fi ou similar. Outras tecnologias de repetição Wi-Fi acabam com uma perda enorme de largura de banda na rede geral.
 
 ## Download de mídia e ativos {#download}
@@ -91,6 +93,7 @@ Para cenários, em que há mais interações com sensores ou acionadores e conte
 A tabela a seguir fornece uma visão geral sobre os dados principais de conectividade de rede.
 
 >[!NOTE]
+>
 >As informações permitem que você visualização o consumo de cada dispositivo na rede solicitando e baixando uma fonte da Internet. Cada uma dessas solicitações adiciona e estende o Tempo de download.
 
 ![](/help/assets/download-times-direct.png)
