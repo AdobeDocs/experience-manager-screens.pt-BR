@@ -2,9 +2,9 @@
 title: Rede móvel com roteador de dados móvel e componentes de rede ativos
 description: A página descreve Rede móvel com roteador de dados móvel e componentes de rede ativos
 translation-type: tm+mt
-source-git-commit: ec8af4e49694937a79ccbd78d51569f1031ca251
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -81,10 +81,12 @@ Ao considerar qual rede de dados deve ser usada, é recomendável responder às 
 * Quantas alterações de conteúdo são esperadas e quais são esses tamanhos médios de arquivo?
 
 >[!NOTE]
+>
 >O Pacote de dados necessário deve ser pelo menos:
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
+>
 >Para o upload inicial de arquivos de mídia, por exemplo, ao integrar novos players, é necessário esperar uma quantidade maior de dados e um aumento do tempo de download, que está sendo refletido nas premissas acima. Uma rede 4G com *boa* cobertura e dados ilimitados deve corresponder às instalações mais comuns nesta Configuração de rede.
 
 
@@ -104,6 +106,7 @@ Para os casos de uso em que há mais interações com Sensores ou outros Acionad
 As tabelas a seguir ofertas uma boa visão geral do que os dados chave de conectividade da rede significam para o desempenho que pode ser esperado e os possíveis tempos de espera.
 
 >[!NOTE]
+>
 >Todas as informações se referem ao consumo de cada dispositivo na rede que solicita e baixa uma fonte de Internet. Cada uma dessas solicitações adiciona e estende o Tempo de download.
 
 ![](/help/using/assets/mobile-router-download.png)
