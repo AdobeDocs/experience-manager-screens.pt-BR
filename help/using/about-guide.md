@@ -4,7 +4,10 @@ seo-title: Descrição no Guia
 description: Esta página descreve a intenção do Guia de práticas recomendadas
 seo-description: Esta página descreve a intenção do Guia de práticas recomendadas
 translation-type: tm+mt
-source-git-commit: 2c73039b61f713d9cc862a1bef9b3dcda5b0c351
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +29,9 @@ No entanto, deve-se salientar que muitas outras funções também se beneficiar�
 O AEM Screens é uma nova extensão do Adobe Experience Manager (AEM) e, como as ferramentas são novas e suas possíveis aplicações variam, é essencial identificar considerações importantes e fatores de risco comuns envolvidos no desenvolvimento e na implantação do AEM Screens.
 
 Este guia não só fornece um insight abrangente e conselhos práticos para imaginar, criar e proporcionar experiências intencionais do cliente para a implementação da sinalização digital, como também orienta sobre como criar um impacto positivo na empresa, usando algumas das práticas recomendadas seguidas ao implantar um projeto de sinalização digital no AEM Screens.
+
 >[!IMPORTANT]
+>
 > Este guia foi desenvolvido para identificar armadilhas comuns na implementação de um projeto do AEM Screens e o material foca principalmente nos seguintes tópicos:
 >
 > * **[Funções e responsabilidades do projeto](roles-responsibilities.md)**
@@ -36,6 +41,7 @@ Este guia não só fornece um insight abrangente e conselhos práticos para imag
 
 
 >[!NOTE]
+>
 > Termos usados neste Guia (no contexto do AEM Screens):
 >
 > * **UX** refere-se às experiências de sinalização digital oferecidas aos clientes finais.
