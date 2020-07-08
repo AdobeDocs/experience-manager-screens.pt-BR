@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1400'
+ht-degree: 45%
 
 ---
 
@@ -69,6 +72,7 @@ O exemplo a seguir mostra a criação de um Canal de sequência (*ChannelOne*) p
 >Você pode criar diferentes zonas usando opções de modelo, como os canais de tela dividida 1x2 e 2x2 ou o canal de 2 a 3 telas divididas mencionados acima.
 
 >[!IMPORTANT]
+>
 > Depois de criar e adicionar conteúdo ao seu canal, o próximo passo é criar uma localização seguida pela criação de uma exibição. Além disso, você precisa atribuir esse canal a uma exibição. Consulte os recursos abaixo no final da seção para saber mais.
 
 ## Trabalhar com canais {#working-with-channels}
@@ -143,7 +147,7 @@ Siga estas etapas para ativar esta opção do painel do canal:
 1. **Definir o Canal como off-line**
    1. Selecione o canal e selecione **Propriedades** na barra de ações
    1. Navegue até a guia **Canal** e certifique-se de desmarcar a opção **Developer Mode (forçar o canal a ficar on-line)**
-   1. Click **Save &amp; Close**
+   1. Clique em **Salvar e fechar**
 1. **Atualizar conteúdo offline**
    1. Selecione o canal e o **Painel** na barra de ação
    1. Navegue até o painel INFORMAÇÕES **do** CANAL e clique em *...*
@@ -250,6 +254,7 @@ As exibições associadas serão listadas no painel **Exibições atribuídas**,
 >
 >* [Criar e gerenciar locais](managing-locations.md)
 >* [Criar e gerenciar exibições](managing-displays.md)
+
 >
 
 
