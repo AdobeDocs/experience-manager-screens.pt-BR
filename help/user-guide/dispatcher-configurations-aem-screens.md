@@ -1,8 +1,8 @@
 ---
-title: Configurações do Dispatcher para telas AEM
-seo-title: Configurações do Dispatcher para telas AEM
-description: Esta página destaca as diretrizes para configurar o dispatcher para um projeto do AEM Screens.
-seo-description: Esta página destaca as diretrizes para configurar o dispatcher para um projeto do AEM Screens.
+title: Configurações Dispatcher para AEM Screens
+seo-title: Configurações Dispatcher para AEM Screens
+description: Esta página destaca as diretrizes para configurar o dispatcher para um projeto de AEM Screens.
+seo-description: Esta página destaca as diretrizes para configurar o dispatcher para um projeto de AEM Screens.
 uuid: ec5219b7-73f9-4026-99e5-e4a02201b128
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -11,30 +11,35 @@ topic-tags: administering
 discoiquuid: 1b1a36a4-4f95-41e3-b0a8-74249efb0119
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9bee12b69ae85e84572b6f9e8c70f792895d9a32
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 7%
 
 ---
 
 
-# Configurações do Dispatcher para telas AEM{#dispatcher-configurations-for-aem-screens}
+# Configurações Dispatcher para AEM Screens{#dispatcher-configurations-for-aem-screens}
 
 O Dispatcher é a ferramenta de balanceamento de carga e/ou cache do Adobe Experience Manager.
 
-A página a seguir fornece as diretrizes para configurar o dispatcher para um projeto do AEM Screens.
+A página a seguir fornece as diretrizes para configurar o dispatcher para um projeto de AEM Screens.
 
 >[!NOTE]
+>
 >Se um dispatcher estiver disponível, as conexões com o servlet de registro podem ser impedidas filtrando nas regras do dispatcher.
+>
 >Se não houver despachante, desative o servlet de registro na lista de componentes OSGi.
 
 ## Pré-requisitos {#pre-requisites}
 
-Antes de configurar o dispatcher para um projeto do AEM Screens, você deve ter conhecimento prévio do Dispatcher.
+Antes de configurar o dispatcher para um projeto do AEM Screens, você deve ter conhecimento prévio da Dispatcher.
 
 Consulte [Configuração do Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) para obter mais detalhes.
 
 ## Configurando o Dispatcher {#configuring-dispatcher}
 
-Siga as etapas abaixo para configurar o dispatcher para um projeto do AEM Screens.
+Siga as etapas abaixo para configurar o dispatcher para um projeto de AEM Screens.
 
 ### Etapa 1: Configurando cabeçalhos do cliente {#step-configuring-client-headers}
 
@@ -46,9 +51,9 @@ Adicione o seguinte à `/clientheaders`seção:
 
 **X-REQUEST-COMMAND**
 
-### Etapa 2: Configuração de filtros de tela {#step-configuring-screens-filters}
+### Etapa 2: Configuração de Filtros do Screens {#step-configuring-screens-filters}
 
-Para configurar os filtros de Telas, adicione o seguinte a ***/filtre ***.
+Para configurar filtros do Screens, adicione o seguinte a ***/filtre***.
 
 ```
 ## AEM Screens Filters
@@ -68,6 +73,6 @@ Para configurar os filtros de Telas, adicione o seguinte a ***/filtre ***.
 /0210 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### Etapa 3: Desabilitando o Cache do Dispatcher {#step-disabling-dispatcher-cache}
+### Etapa 3: Desabilitando o Cache Dispatcher {#step-disabling-dispatcher-cache}
 
-Desative o cache do dispatcher para ***/content/screens path ***.
+Desative o cache do dispatcher para ***/content/screens path***.
