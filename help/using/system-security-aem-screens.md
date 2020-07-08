@@ -1,10 +1,10 @@
 ---
-title: Lista de verificação de segurança para telas AEM
-seo-title: Lista de verificação de segurança para telas AEM
-description: A página descreve a Lista de verificação de segurança para o AEM Screens
-seo-description: A página descreve a Lista de verificação de segurança para o AEM Screens
+title: Lista de verificação de segurança para AEM Screens
+seo-title: Lista de verificação de segurança para AEM Screens
+description: A página descreve a Lista de verificação de segurança para AEM Screens
+seo-description: A página descreve a Lista de verificação de segurança para AEM Screens
 translation-type: tm+mt
-source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 1%
@@ -12,12 +12,13 @@ ht-degree: 1%
 ---
 
 
-# Considerações sobre segurança do sistema para o AEM Screens {#security-checklist}
+# Considerações sobre segurança do sistema para AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
+>
 >Este é um recurso interno do Git.
 
-Esta página destaca as considerações de segurança do sistema para telas AEM.
+Esta página destaca as Considerações sobre segurança do sistema para AEM Screens.
 
 
 ## White paper for AEM Screens Security {#white-paper}
@@ -74,10 +75,12 @@ O dispositivo é seguro?
 
 Um player fisicamente comprometido pode, teoricamente, ser manipulado para reproduzir qualquer conteúdo. Você também poderia conectar o player e conectar um pente USB/HDMI.
 
-Portanto, é recomendável colocar os dispositivos fora do alcance, de preferência em um container seguro, com cabeamento preso também. Desabilite também quaisquer portas IR-remotas.
+Portanto, é recomendável colocar os dispositivos fora do alcance, de preferência em um container seguro, com cabos também fixos. Desabilite também quaisquer portas IR-remotas.
 
 Se o SO do dispositivo não for atualizado regularmente, o SO poderá ser deixado exposto a buracos de segurança e permitir ataques remotos na rede.
+
 >[!NOTE]
+>
 >É recomendável instrumentar os dispositivos com recursos adequados de atualização e controle remotos (desktop remoto, solução MDM etc.). Também é recomendável usar uma rede privada, não exposta à WIFI pública, por exemplo.
 
 
