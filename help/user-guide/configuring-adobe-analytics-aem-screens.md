@@ -1,6 +1,6 @@
 ---
-title: Configuração do Adobe Analytics com o AEM Screens
-seo-title: Configuração do Adobe Analytics com o AEM Screens
+title: Configuração do Adobe Analytics com AEM Screens
+seo-title: Configuração do Adobe Analytics com AEM Screens
 description: 'Siga esta seção para saber mais sobre como sequenciar e enviar eventos personalizados usando o Adobe Analytics offline '
 seo-description: 'Siga esta seção para saber mais sobre como sequenciar e enviar eventos personalizados usando o Adobe Analytics offline '
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
@@ -11,36 +11,40 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 11%
 
 ---
 
 
-# Configuração do Adobe Analytics com o AEM Screens {#configuring-adobe-analytics-with-aem-screens}
+# Configuração do Adobe Analytics com AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
 >[!CAUTION]
 >
->Esta funcionalidade do AEM Screens só estará disponível se você tiver instalado o AEM 6.4.2 Feature Pack 2 e o AEM 6.3.3 Feature Pack 4.\
+>Esta funcionalidade de AEM Screens só estará disponível se você tiver instalado o AEM 6.4.2 Feature Pack 2 e o AEM 6.3.3 Feature Pack 4.
+>
 >Para obter acesso a qualquer um desses Pacotes de recursos, entre em contato com o Suporte da Adobe e solicite acesso. Com as devidas permissões, você pode baixá-lo em Compartilhamento de pacotes.
 
 Esta seção aborda os seguintes tópicos:
 
-* **Sequenciamento no Adobe Analytics com o AEM Screens**
-* **Envio de eventos personalizados usando o Adobe Analytics offline**
+* **Sequenciamento no Adobe Analytics com AEM Screens**
+* **Envio de Eventos personalizados usando o Adobe Analytics offline**
 
-## Sequenciamento no Adobe Analytics com o AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
+## Sequenciamento no Adobe Analytics com AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-O processo ***de ***sequenciamento começa com o serviço de armazenamento de dados que ativa o serviço do Adobe Analytics. O conteúdo do canal envia eventos do Adobe Analytics com folha de pagamento, ou seja, captura de teste de dados para E/S do Windows e eventos de permanência são acionados. Os eventos são salvos no banco de dados de índice e são posteriormente colocados no repositório de objetos. Com base na programação, o administrador define, corta os dados do repositório de objetos e os transfere ainda mais no repositório de segmentos. Ele tenta enviar a quantidade máxima de dados, quando conectado.
+O processo de ***sequenciamento é*** start com o serviço de armazenamento de dados que ativa o serviço Adobe Analytics. O conteúdo do Canal envia eventos do Adobe Analytics com folha de pagamento, ou seja, a captura de teste de dados para E/S do Windows e os eventos de permanência são acionados. Os eventos são salvos no banco de dados de índice e são posteriormente colocados no repositório de objetos. Com base no agendamento, o administrador define, corta os dados do repositório de objetos e os transfere ainda mais no repositório de segmentos. Ele tenta enviar a quantidade máxima de dados, quando conectado.
 
 ### Diagrama de Sequência {#sequencing-diagram}
 
-O diagrama de sequência a seguir explica a integração do Adobe Analytics com as telas AEM:
+O diagrama de sequência a seguir explica a Integração do Adobe Analytics com AEM Screens:
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
-## Envio de eventos personalizados usando o Adobe Analytics offline {#sending-custom-events-using-offline-adobe-analytics}
+## Envio de Eventos personalizados usando o Adobe Analytics offline {#sending-custom-events-using-offline-adobe-analytics}
 
-A tabela a seguir resume o modelo de dados padrão para eventos. Ela lista todos os campos enviados para o Adobe Analytics:
+A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos os campos enviados para o Adobe Analytics:
 
 <table>
  <tbody>
@@ -54,8 +58,8 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ela lista todos
    <td><strong>Descrição</strong></td> 
   </tr>
   <tr>
-   <td><strong><em>Principal/Evento</em></strong></td> 
-   <td>GUID do evento</td> 
+   <td><strong><em>Core/Evento</em></strong></td> 
+   <td>GUID do Evento</td> 
    <td>event.guid</td> 
    <td>recomendado</td> 
    <td>string</td> 
@@ -64,7 +68,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ela lista todos
   </tr>
   <tr>
    <td> </td> 
-   <td>Data e hora da coleta do evento</td> 
+   <td>Data e hora da recolha do evento</td> 
    <td>event.coll_dts</td> 
    <td>opcional</td> 
    <td>string</td> 
@@ -73,12 +77,12 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ela lista todos
   </tr>
   <tr>
    <td> </td> 
-   <td>Data e hora do evento (início)</td> 
+   <td>Data e hora do evento (start)</td> 
    <td>event.dts_start</td> 
    <td>recomendado</td> 
    <td>string</td> 
    <td>carimbo de data e hora - UTC</td> 
-   <td>A hora de início do evento, se você NÃO especificar isso, a hora do evento será assumida como a hora em que foi recebido pelo servidor</td> 
+   <td>A data e hora do start do Evento, se você NÃO especificar isso, a hora do evento será assumida como a hora em que foi recebido pelo servidor</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -87,7 +91,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ela lista todos
    <td>opcional</td> 
    <td>string</td> 
    <td>carimbo de data e hora - UTC</td> 
-   <td>Hora de conclusão do evento</td> 
+   <td>Hora de conclusão do Evento</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -105,20 +109,20 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ela lista todos
    <td>required</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Categoria principal (DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Agrupamento de tipos de eventos - <strong>Enviamos Player</strong></td> 
+   <td>Categoria principal (DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Agrupamento de tipos de evento - <strong>Enviamos o player</strong></td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>Subcategoria</td> 
+   <td>Sub Categoria</td> 
    <td>event.subcategory</td> 
    <td>recomendado</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Subcategoria - Seção de um fluxo de trabalho ou Área de uma tela etc. (Arquivos recentes, Arquivos CC, Criações móveis etc.)</td> 
+   <td>SubCategoria - Seção de um fluxo de trabalho ou Área de uma tela etc. (Arquivos recentes, Arquivos CC, Criações móveis etc.)</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>Tipo de evento/ação</td> 
+   <td>Tipo de Evento/ação</td> 
    <td>event.type</td> 
    <td>required</td> 
    <td>string</td> 
@@ -132,7 +136,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ela lista todos
    <td>recomendado</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Subtipo de evento (criar, atualizar, excluir, publicar etc.) - Detalhes adicionais da ação do usuário</td> 
+   <td>Subtipo de Evento (criar, atualizar, excluir, publicar etc.) - Detalhes adicionais da ação do usuário</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -141,7 +145,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ela lista todos
    <td>opcional</td> 
    <td>boolean</td> 
    <td> </td> 
-   <td>O evento foi gerado enquanto a ação estava offline/online (true/false)</td> 
+   <td>O Evento foi gerado enquanto a ação estava offline/online (true/false)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -159,7 +163,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ela lista todos
    <td>recomendado</td> 
    <td>string</td> 
    <td> </td> 
-   <td>A localidade do usuário é uma string baseada nas convenções de marcação de idioma da RFC 3066 (por exemplo, en-US, fr-FR ou es-ES)</td> 
+   <td>A localidade do usuário é uma string com base nas convenções de marcação de idioma da RFC 3066 (por exemplo, en-US, fr-FR ou es-ES)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -195,7 +199,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ela lista todos
    <td>obrigatório para AA</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Suporte do Adobe Analytics para Nome de página personalizado</td> 
+   <td>Suporte da Adobe Analytics para Nome de página personalizado</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -204,7 +208,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ela lista todos
    <td>opcional</td> 
    <td>string</td> 
    <td> </td> 
-   <td>URL da propriedade da Web ou esquema móvel - deve incluir URL totalmente qualificado</td> 
+   <td>URL da propriedade da Web ou do schema móvel - deve incluir um URL totalmente qualificado</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -303,7 +307,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ela lista todos
    <td>required</td> 
    <td>string</td> 
    <td>UUID</td> 
-   <td>ID exclusiva que preferencialmente adere ao UUID v4</td> 
+   <td>ID exclusiva que, de preferência, adere ao UUID v4</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -317,7 +321,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ela lista todos
   <tr>
    <td> </td> 
    <td>Quantidade</td> 
-   <td>trn.amount</td> 
+   <td>trn.quantity</td> 
    <td>required</td> 
    <td>string</td> 
    <td> </td> 
