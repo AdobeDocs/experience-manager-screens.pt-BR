@@ -4,7 +4,7 @@ seo-title: Usando sincronização de comandos
 description: Siga esta página para saber mais sobre como usar a Sincronização de comandos.
 seo-description: Siga esta página para saber mais sobre como usar a Sincronização de comandos.
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 2%
@@ -17,21 +17,23 @@ ht-degree: 2%
 A página a seguir descreve como usar a Sincronização de comandos. A Sincronização de comandos permite a reprodução sincronizada em diferentes players. Os players podem reproduzir conteúdo diferente, mas cada ativo precisa ter a mesma duração.
 
 >[!IMPORTANT]
+>
 >Esse recurso não oferece suporte para Sequências incorporadas, Sequências incorporadas dinâmicas, Canais de aplicativos ou Transições.
 
 ## Visão geral {#overview}
 
 As soluções de sinalização digital precisam suportar paredes de vídeo e reprodução sincronizada para suportar cenários como contagens de Ano Novo ou vídeos grandes fatiados para serem reproduzidos em várias telas e é aqui que a Sincronização de Comando entra em ação.
 
-Para usar a Sincronização de comandos, um player atua como *mestre* e envia comandos e todos os outros players atuam como *clientes* e são reproduzidos quando recebem o comando.
+Para usar a Sincronização de comandos, um player atua como um *principal* e envia um comando, e todos os outros players atuam como *clientes* e são reproduzidos quando recebem o comando.
 
-O *mestre* envia um comando para todos os clientes registrados quando está prestes a reproduzir um start de um item. A carga desse elemento pode ser o índice do item a ser reproduzido e/ou o html externo do elemento a ser reproduzido.
+O *principal* envia um comando para todos os clientes registrados quando está prestes a reproduzir o start de um item. A carga desse elemento pode ser o índice do item a ser reproduzido e/ou o html externo do elemento a ser reproduzido.
 
 ## Implementação da sincronização de comandos {#using-command-sync}
 
 A seção a seguir descreve como você pode usar a Sincronização de comandos em um projeto do AEM Screens.
 
 >[!NOTE]
+>
 >Para a reprodução sincronizada, é necessário que todos os dispositivos de hardware tenham as mesmas especificações de hardware e, de preferência, o mesmo sistema operacional. Não é recomendado sincronizar entre hardware e sistemas operacionais diferentes.
 
 ### Configuração do projeto {#setting-up}
@@ -86,55 +88,57 @@ Antes de usar o recurso de Sincronização de comandos, verifique se você tem u
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
-### Configuração de um mestre {#setting-up-master}
+### Configurar um principal {#setting-up-master}
 
 1. Navegue até o painel de exibição de **CommandSyncDemo** —> **Locations** —> **Lobby** —> **LobbyDisplay** e clique no **Painel** da barra de ação.
 Você verá os dois dispositivos (cromo e Windows player) no painel **DISPOSITIVOS** , como mostra a figura abaixo.
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. No painel **DISPOSITIVOS** , selecione o dispositivo que deseja definir como mestre. O exemplo a seguir demonstra como configurar o dispositivo Chrome como mestre. Clique em **Definir como dispositivo** mestre.
+1. No painel **DISPOSITIVOS** , selecione o dispositivo que deseja definir como principal. O exemplo a seguir demonstra como configurar o dispositivo Chrome como o principal. Clique em **Definir como dispositivo** principal.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
-1. Digite o endereço IP em **Definir como dispositivo** mestre e clique em **Salvar**.
+1. Digite o endereço IP em **Definir como dispositivo** principal e clique em **Salvar**.
 
    ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
-> É possível configurar vários dispositivos como master.
+>
+>Você pode configurar vários dispositivos como principais.
 
-### Sincronizando com o Master {#sync-up-master}
+### Sincronização com Principal {#sync-up-master}
 
-1. Depois de definir o dispositivo Chrome como master, você poderá sincronizar o outro dispositivo (neste caso, o Windows player) para sincronizar com o master.
-Selecione o outro dispositivo (neste caso, o Windows player) no painel **DISPOSITIVOS** e clique em **Sincronizar com o dispositivo** mestre, como mostrado na figura abaixo.
+1. Depois de definir o dispositivo Chrome como principal, você pode sincronizar o outro dispositivo (neste caso, o Windows player) para sincronizar com o principal.
+Selecione o outro dispositivo (neste caso, o Windows player) no painel **DISPOSITIVOS** e clique em **Sincronizar com dispositivo** principal, como mostrado na figura abaixo.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
 1. Selecione o dispositivo na lista e clique em **Salvar**.
 
    >[OBSERVAÇÃO:]
-   > A caixa de diálogo **Sincronizar com dispositivo** mestre mostrará a lista dos dispositivos mestre. Você pode selecionar a preferência desejada.
+   > A caixa de diálogo **Sincronizar com dispositivo** principal mostrará a lista de dispositivos principais. Você pode selecionar a preferência desejada.
 
-1. Depois que o dispositivo (Windows player) for sincronizado com o master (Chrome player), você verá o dispositivo sincronizado no painel **DISPOSITIVOS** .
+1. Depois que o dispositivo (Windows player) for sincronizado com o principal (Chrome player), você verá o dispositivo sincronizado no painel **DISPOSITIVOS** .
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### Cancelamento de sincronização com o mestre {#desync-up-master}
+### Cancelamento de sincronização com o Principal {#desync-up-master}
 
-Depois de sincronizar um dispositivo ou dispositivos com um mestre, você pode dessincronizar a atribuição desse dispositivo.
+Depois de sincronizar um dispositivo ou dispositivos com um principal, você pode dessincronizar a atribuição desse dispositivo.
 
 >[!NOTE]
->Se você dessincronizar um dispositivo mestre, ele também desvinculará todos os dispositivos cliente associados a esse dispositivo mestre.
+>
+>Se você dessincronizar um dispositivo principal, ele também desvinculará todos os dispositivos cliente associados a esse dispositivo principal.
 
-Para remover a sincronização do dispositivo mestre, siga as etapas abaixo:
+Para remover a sincronização do dispositivo principal, siga as etapas abaixo:
 
 1. Navegue até o painel **DISPOSITIVOS** e selecione o dispositivo.
 
-1. Clique em **Dessincronizar dispositivos** para dessincronizar o cliente do dispositivo mestre.
+1. Clique em **Desync device(s)** (Dispositivos dessincronizados)para dessincronizar o cliente a partir do dispositivo principal.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. Clique em **Confirmar** para dessincronizar o dispositivo selecionado do mestre.
+1. Clique em **Confirmar** para dessincronizar o dispositivo selecionado do principal.
 
    >[OBSERVAÇÃO:]
-   > Se você selecionar o dispositivo mestre e usar a opção de dessincronização, todos os dispositivos conectados ao mestre serão dessincronizados em uma etapa.
+   > Se você selecionar o dispositivo principal e usar a opção de dessincronização, todos os dispositivos conectados ao principal serão dessincronizados em uma etapa.
