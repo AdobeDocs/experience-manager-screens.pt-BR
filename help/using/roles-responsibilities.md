@@ -1,10 +1,10 @@
 ---
 title: Funções e responsabilidades do projeto do AEM Screens
 seo-title: Funções e responsabilidades do projeto do AEM Screens
-description: A página descreve as funções e responsabilidades do projeto do AEM Screens
-seo-description: A página descreve as funções e responsabilidades do projeto do AEM Screens
+description: A página descreve Funções e Responsabilidades do Projeto do AEM Screens
+seo-description: A página descreve Funções e Responsabilidades do Projeto do AEM Screens
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 11%
@@ -16,13 +16,14 @@ ht-degree: 11%
 
 Como um implementador de AEM experiente, provavelmente você já viu funções conhecidas como *Autores*, *Desenvolvedores* e *TI/Técnicos*.
 
-Em um projeto típico do AEM Screens, as funções são ainda mais refinadas, pois cada um deles tem um propósito importante no projeto.
+Num projeto típico de AEM Screens, os papéis são mais refinados, pois cada um deles tem um propósito importante no projeto.
 
 O diagrama abaixo mostra as funções que referiremos ao longo do guia.
 
 ![](/help/assets/project-roles-revised.png)
 
 >[!NOTE]
+>
 > Muitas dessas funções podem ser internas ou terceirizadas, dependendo de como cada projeto é configurado.
 
 ## Definindo Funções {#roles}
@@ -31,7 +32,7 @@ A seção a seguir fornece uma visão geral sobre a audiência do público alvo:
 
 ### Adobe {#adobe-audience}
 
-A Adobe inclui recursos de Serviços gerenciados da Adobe, como o CSE (Customer Success Engineer) e o suporte da Adobe.
+A Adobe inclui recursos da Adobe Managed Services, como o CSE (Customer Success Engineer) e o suporte da Adobe.
 
 ### Implementadores do AEM {#aem-implementors}
 
@@ -79,11 +80,11 @@ Os Criativos e a Gestão de conteúdo podem ser os seguintes:
 
 ### Gerentes de projeto {#project-managers}
 
-Gerentes de projeto geralmente gerenciam toda a implantação para sua implantação do AEM Screens. Um gerente de projeto é a pessoa principal para toda a implementação do projeto designado e desempenha grandes responsabilidades, como definir prazos, lidar com as necessidades e as comunicações da equipe, enfrentar os desafios e garantir que as metas sejam cumpridas.
+Gerentes de projeto geralmente gerenciam toda a implantação para sua implantação de AEM Screens. Um gerente de projeto é a pessoa principal para toda a implementação do projeto designado e desempenha grandes responsabilidades, como definir prazos, lidar com as necessidades e as comunicações da equipe, enfrentar os desafios e garantir que as metas sejam cumpridas.
 
 >[!NOTE]
 >
-> Para saber mais detalhes sobre diferentes funções e responsabilidades e a audiência de públicos alvos para um projeto de sinalização digital, visite Funções e responsabilidades **[do projeto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Para saber mais detalhes sobre diferentes funções e responsabilidades e a audiência de públicos alvos para um projeto de sinalização digital, visite Funções e responsabilidades **[do projeto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
 ## Estágios do projeto {#project-stages}
@@ -98,7 +99,7 @@ Para oferecer suporte a uma implantação bem-sucedida do Digital Signage, é co
 
 >[!NOTE]
 >
-> Embora este guia enfatize principalmente o *Primeiro Dia* e o *Segundo dia*, é necessário prestar atenção aos três estágios para executar um projeto bem-sucedido de sinalização digital.
+>Embora este guia enfatize principalmente o *Primeiro Dia* e o *Segundo dia*, é necessário prestar atenção aos três estágios para executar um projeto bem-sucedido de sinalização digital.
 Siga um vídeo adicional sobre Gerenciamento e implantação **[do](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**projeto para saber mais sobre a pré-produção do projeto, a iniciação do projeto e a progressão do projeto.
 
 ## Gráfico RACI {#raci-chart}
@@ -107,7 +108,7 @@ A seguir está um exemplo de gráfico RACI usando as definições de função.
 
 >[!NOTE]
 >
-> Este gráfico não se destina a ser seguido exatamente, mas a fornecer um exemplo de tarefas e considerações comuns em projetos do AEM Screens.
+>Este gráfico não se destina a ser seguido exatamente, mas a fornecer um exemplo de tarefas e considerações comuns em projetos AEM Screens.
 
 ### Definições de RACI {#raci-definitions}
 
@@ -119,7 +120,7 @@ A seguir está um exemplo de gráfico RACI usando as definições de função.
 
 * **Informado**: Mantido informado sobre o progresso da tarefa, mas não envolvido nos detalhes do produto.
 
-A seguir está um exemplo de gráfico RACI usando as definições de função e fornecendo um exemplo de tarefas e considerações comuns em um projeto do AEM Screens.
+A seguir está um exemplo de gráfico RACI usando as definições de função e fornecendo um exemplo de tarefas e considerações comuns em um projeto de AEM Screens.
 
 A tabela a seguir resume o **Dia Zero: Considerações** pré-vendas:
 
@@ -145,7 +146,7 @@ A tabela a seguir resume o **Dia Um: Implementação do projeto (Design do aplic
 | Design de arquitetura | I | RA | I | I |
 | Validar estrutura de dados com design de interface | I | RA | C | C |
 | Desenvolvimento de aplicativos | RA | RA | RA | RA |
-| Configuração do projeto do AEM Screens | I | RA | C | I |
+| Configuração de projeto do AEM Screens | I | RA | C | I |
 | Implementação do Analytics | I | RA | C | - |
 | Teste e implantação | RA | C | RA | I |
 | Configuração do servidor | I | RA | I | I |
@@ -170,17 +171,17 @@ A tabela a seguir resume o **Dia Um: Dia Um: Implementação do projeto (Hardwar
 | Acordo sobre as funções e responsabilidades | RA | RA | RA | RA |
 | O Design de varejo inclui operações de fiação | - | - | - | - |
 | Seleção de hardware do player | RAC | - | - | - |
-| Gerenciamento de dispositivos do mestre | RA | I | - | - |
+| Gerenciamento de dispositivos de principal | RA | I | - | - |
 | Pedidos e armazenamento e configuração de dispositivos | RA | CI | I | - |
 | Definição do processo de suporte | RA | I | RA | C |
 
 >[!NOTE]
 >
-> As funções mudam durante o Dia Dois (Suporte pós-lançamento).
+>As funções mudam durante o Dia Dois (Suporte pós-lançamento).
 
 * **Autor**: Gestão de conteúdo + Estratégia
 
-* **Desenvolvedor**: Geralmente, um membro da equipe de implementação do AEM Screens, ou faça a entrega para a equipe interna de desenvolvimento
+* **Desenvolvedor**: Geralmente, um membro da equipe de implementação de AEM Screens ou entrega para a equipe de desenvolvimento interno
 
 * **Técnico**: Ou é contratado pelo integrador AV ou faz parte da mesma empresa.
 
