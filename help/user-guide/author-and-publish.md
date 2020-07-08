@@ -11,10 +11,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
-source-wordcount: '1907'
-ht-degree: 2%
+source-wordcount: '1893'
+ht-degree: 3%
 
 ---
 
@@ -156,8 +156,9 @@ Em cada instância de publicação:
 Como cada instância de publicação por padrão tem chaves de criptografia exclusivas, é necessário executar essa etapa em cada instância de pub e salvar a chave exclusiva para a próxima configuração.
 
 >[!NOTE]
->A senha deve ser start e terminar com chaves.
->Por exemplo:{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a6 10e}
+>
+>A senha deve ser start e terminar com chaves. Por exemplo:
+>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Etapa 4: Ativar Cluster de Artemis AtiveMQ {#step-activate-activemq-artemis-cluster}
 
@@ -247,7 +248,7 @@ Antes, execute as etapas abaixo para verificar a ID do dispositivo. Para verific
 Siga as etapas abaixo para replicar o usuário do dispositivo:
 
 1. Navegue até a página de administração do usuário (por exemplo: `https://localhost:4502/useradmin`
-1. Procurar o grupo **screens-devices-master**
+1. Procurar o grupo **screens-devices-principal**
 1. Clique com o botão direito do mouse no grupo e clique em **Ativar**
 
 >[!CAUTION]
