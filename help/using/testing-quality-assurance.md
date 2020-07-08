@@ -1,10 +1,13 @@
 ---
 title: Teste e garantia da qualidade
-seo-title: Teste e garantia de qualidade para o AEM Screens
-description: A página descreve o Guia de práticas recomendadas de teste e garantia de qualidade para o AEM Screens
-seo-description: A página descreve o Guia de práticas recomendadas de teste e garantia de qualidade para o AEM Screens
+seo-title: Teste e garantia de qualidade para AEM Screens
+description: A página descreve o Guia de práticas recomendadas de teste e garantia de qualidade para AEM Screens
+seo-description: A página descreve o Guia de práticas recomendadas de teste e garantia de qualidade para AEM Screens
 translation-type: tm+mt
-source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +24,8 @@ Nesta fase, todos os sistemas de ensaio devem ser construídos e completamente t
 Deve ser criada uma lista de verificação que identifique todos os KPIs previamente definidos e meça o material para distribuição em relação a eles.
 
 >[!NOTE]
-> Essa fase também deve ser usada como uma ferramenta para a criação de um guia de instalação e de usuário que possa ser enviado posteriormente com o equipamento e mantido no local para futura referência.
+>
+>Essa fase também deve ser usada como uma ferramenta para a criação de um guia de instalação e de usuário que possa ser enviado posteriormente com o equipamento e mantido no local para futura referência.
 
 Devem ser considerados os seguintes elementos:
 
@@ -49,19 +53,20 @@ As seguintes considerações de software são recomendadas:
 ## 3. Considerações sobre o gerenciamento de dispositivos {#device-management-considerations}
 
 
-O AEM Screens inclui um módulo do Device Control Center que permite o gerenciamento de pontos finais do aplicativo do player do Screens.
+O AEM Screens inclui um módulo do Device Control Center que permite o gerenciamento de pontos finais do aplicativo do Screens player.
 
 Refere-se a qualquer dispositivo de hardware do *player* que tenha o aplicativo do player do Screens instalado e esteja registrado para uma instância do AEM.
-Este módulo permite:
+Este módulo permite que você:
 
 1. Monitorar registros de erros do aplicativo do player
 1. Gerenciar capturas de tela remota
 1. Gerenciar downloads de conteúdo
 1. Gerenciar problemas de reinicialização do aplicativo
 
-Para saber mais detalhes sobre o Centro ***de controle de*** dispositivos, consulte [Solução de problemas do Centro](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) de controle de dispositivos no Guia **do usuário do** AEM Screens.
+Para saber mais detalhes sobre o Centro ***de controle de*** dispositivos, consulte [Troubleshooting Device Control Center (Centro](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) de controle de dispositivos) no Guia **do usuário do** AEM Screens.
 
 >[!CAUTION]
+>
 > Você não deve usar o Device Control Center para:
 >
 > 1. Instalar novas versões do aplicativo do player
@@ -72,9 +77,10 @@ Para saber mais detalhes sobre o Centro ***de controle de*** dispositivos, consu
 
 
 >[!NOTE]
+>
 > A Adobe recomenda que as plataformas dedicadas de gerenciamento de dispositivos de terceiros sejam usadas para todas as implantações.
 
-A plataforma específica escolhida depende de vários fatores, incluindo o sistema ***operacional de*** destino, os requisitos ***do*** projeto e o ***número de pontos*** finais.
+A plataforma específica escolhida depende de vários fatores, incluindo o sistema ***operacional do*** público alvo, os requisitos ***do*** projeto e o ***número de pontos*** finais.
 
 Poucos exemplos são:
 
