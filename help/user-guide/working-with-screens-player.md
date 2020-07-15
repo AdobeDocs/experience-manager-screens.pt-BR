@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
+source-git-commit: 8d904ae752181844f62f95cfcd1f5657957b1780
+workflow-type: tm+mt
+source-wordcount: '1065'
+ht-degree: 42%
 
 ---
 
@@ -21,7 +24,7 @@ Você pode gerenciar o conteúdo do canal e outras configurações no AEM Screen
 
 >[!NOTE]
 >
->Pressione ***Ctrl+Cmd+F**para sair do modo de tela cheia do Player do AEM Screens para OS X.*
+>Pressione ***Ctrl+Cmd+F*** para sair do modo de tela cheia do Player do AEM Screens para OS X.
 
 Depois que você atribui um canal a uma exibição, o Player do AEM Screens exibe o conteúdo. Você pode definir as configurações do seu player usando as preferências da interface do usuário do administrador (no painel) ou no próprio player.
 
@@ -29,7 +32,7 @@ Depois que você atribui um canal a uma exibição, o Player do AEM Screens exib
 
 Você pode configurar as preferências do seu dispositivo no painel Dispositivos, acessível na sua instância de criação do AEM.
 
-1. Navigate to the device dashboard from your project, for example, ***Test Project*** --&gt; ***Devices***.
+1. Navigate to the device dashboard from your project, for example, ***Test Project*** --> ***Devices***.
 
    Select **Devices** and **Device Manager** from the action bar.
 
@@ -55,19 +58,33 @@ Para exibir a interface do usuário do administrador no player do Screens, press
 
 ![chlimage_1-3](assets/chlimage_1-3.gif)
 
-Se você selecionar a opção **Configuração** no menu lateral, também poderá redefinir **Firmware**, **Preferências** ou **Para fábrica** nessa caixa de diálogo.
+#### Acesso às opções do menu Configuração {#configuration-options}
 
-Além disso, você pode especificar o número máximo de arquivos de log a serem mantidos para um player do AEM Screens no **Máximo Não. dos arquivos de log a serem mantidos**. Consulte a captura de tela abaixo para obter mais detalhes.
+Você pode atualizar suas configurações, se selecionar a opção **Configuração** no menu lateral, conforme mostrado na figura abaixo:
+
+![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
+
+O menu Configuração permite modificar as seguintes configurações:
+
+* Reset **Firmware**, **Preferences**, or **To Factory** from this dialog box.
+
+* Especifique o número máximo de arquivos de log a serem mantidos para um player de AEM Screens no **Nº Máx. dos arquivos de log a serem mantidos**.
+
+* Ative ou desative **Admin Menu**, **Canal Switcher** e **Atividade UI** para o player do Screens.
+
+   Se a interface do usuário **da** Atividade estiver ativada no menu **Configuração** , o player do AEM Screens exibirá as mensagens *sincronizadas* no canto superior direito do player, como mostrado na figura abaixo.
+
+   ![imagem](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
 >A opção **Atualizar firmware** só funciona no cordova, como players Android.
 
-![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
-
 >[!NOTE]
 >
 >Recomenda-se que a interface do usuário **** Admin esteja desativada em Implantações de Produção.
+
+#### Acessar as opções do menu Cache de conteúdo {#content-cache-options}
 
 Você pode limpar o cache de canais e aplicativos da Interface do usuário do administrador no player do AEM Screens.
 
@@ -113,10 +130,10 @@ Siga estas etapas para alterar as preferências do seu Player:
 |---|---|
 | O armazenamento do player está cheio | Eliminar arquivos desnecessários |
 | Player perdeu a rede | Use o cabo Cat-5/Cat-6. Para wifi, reduza a distância do roteador ao dispositivo do player |
-| O AEM Screens Player falhou | É recomendável ter um aplicativo de monitoramento que verifique se o AEM Screens Player sempre é executado |
+| Reprodutor de AEM Screens travado | É recomendável ter um aplicativo Watchdog que certifique-se de que o AEM Screens Player sempre execute |
 | Configurações perdidas do AEM Screens Player | Verificar conexão com o servidor AEM |
-| O AEM Screens Player não inicia automaticamente após reiniciar/reiniciar o Player | Verificar a pasta de início do SO ou o procedimento de inicialização |
-| O AEM Screens Player mostra conteúdo incorreto/antigo | Verificar conexão de rede |
+| O AEM Screens Player não start automaticamente após reiniciar/reiniciar o Player | Verifique a pasta do start do SO ou o procedimento de inicialização |
+| O AEM Screens Player mostra conteúdo incorreto/antigo | Verifique a conexão de rede |
 
 ### Atualizações para o Player do AEM Screens {#updates-for-aem-screens-player}
 
@@ -138,7 +155,7 @@ A seção a seguir fornece as diretrizes de seleção de hardware para um projet
 * Verifique sempre os requisitos de energia e o condicionamento de energia.
 * Analise cuidadosamente as necessidades de desempenho e as portas de E/S necessárias para o aplicativo.
 
-A tabela a seguir resume as configurações de hardware com casos de uso típicos de um projeto do AEM Screens:
+A tabela a seguir resume as configurações de hardware com casos de uso típicos de um projeto de AEM Screens:
 
 <table>
  <tbody>
@@ -146,7 +163,7 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
    <td>Configuração do player</td>
    <td>Processador</td>
    <td>Memória</td>
-   <td>SSD de armazenamento</td>
+   <td>Armazenamento SSD</td>
    <td>GPU</td>
    <td>Exibir</td>
    <td>E/S</td>
@@ -154,7 +171,7 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
   </tr>
   <tr>
    <td>Básico</td>
-   <td>Processador Intel® Atom dual core, i3 ou quad core básico</td>
+   <td>Processador Intel® Atom de núcleo duplo, i3 ou núcleo quádruplo básico</td>
    <td><p>4 GB de memória</p> <p>2 MB de cache</p> </td>
    <td><p>・ChromeOS 32 GB</p> <p>・ Windows 128GB</p> </td>
    <td>OnBoard</td>
@@ -163,7 +180,7 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
    <td>
     <ul>
      <li>Looping padrão em tela cheia<br /> </li>
-     <li>Programação de anúncios</li>
+     <li>Partilha de Dia</li>
     </ul> </td>
   </tr>
   <tr>
@@ -173,7 +190,7 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
    <td>128 GBB</td>
    <td>OnBoard</td>
    <td>3840 x 2160 (4 K)</td>
-   <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 2xUSB</td>
+   <td>DVI, HDMI<br /> Ethernet / sem fio,<br /> 2xUSB</td>
    <td>
     <ul>
      <li>Conteúdo dinâmico de origem única</li>
@@ -182,7 +199,7 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
     </ul> </td>
   </tr>
   <tr>
-   <td>Avançado</td>
+   <td>Avançado </td>
    <td>Quad Core com hyperthreading, processador Intel® Core i7</td>
    <td><p>16 GB de memória</p> <p>8 MB de cache</p> </td>
    <td>256 GB</td>
