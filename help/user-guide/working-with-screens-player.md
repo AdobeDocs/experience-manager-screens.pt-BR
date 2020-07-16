@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: 8d904ae752181844f62f95cfcd1f5657957b1780
+source-git-commit: 5aea3e032cc5279de7f3abab679825aa2794a89e
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1066'
 ht-degree: 42%
 
 ---
@@ -68,11 +68,11 @@ O menu Configuração permite modificar as seguintes configurações:
 
 * Reset **Firmware**, **Preferences**, or **To Factory** from this dialog box.
 
-* Especifique o número máximo de arquivos de log a serem mantidos para um player de AEM Screens no **Nº Máx. dos arquivos de log a serem mantidos**.
+* Especifique o número máximo de arquivos de log a serem guardados para um player de AEM Screens no **Nº Máx. dos arquivos de log a serem mantidos**.
 
 * Ative ou desative **Admin Menu**, **Canal Switcher** e **Atividade UI** para o player do Screens.
 
-   Se a interface do usuário **da** Atividade estiver ativada no menu **Configuração** , o player do AEM Screens exibirá as mensagens *sincronizadas* no canto superior direito do player, como mostrado na figura abaixo.
+   Se a interface do usuário **da** Atividade estiver ativada no menu **Configuração** , o player do AEM Screens exibirá as notificações *de atividade do* player no canto superior direito do player, como mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/activity_ui.png)
 
