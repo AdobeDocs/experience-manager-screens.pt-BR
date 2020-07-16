@@ -11,24 +11,27 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
+source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 0%
 
 ---
 
 
 # Implementação do Windows 10 Player {#implementing-windows-player}
 
-Esta seção descreve como configurar o reprodutor do Windows 10 do AEM Screens. Ele fornece informações sobre o arquivo de configuração e as opções disponíveis e recomendações sobre quais configurações usar para desenvolvimento e teste.
+Esta seção descreve como configurar o AEM Screens Windows 10 player. Ele fornece informações sobre o arquivo de configuração e as opções disponíveis e recomendações sobre quais configurações usar para desenvolvimento e teste.
 
 ## Instalação do Windows Player {#installing-windows-player}
 
-Para implementar o Windows Player para o AEM Screens, instale o Windows Player para o AEM Screens.
+Para implementar o Windows Player para AEM Screens, instale o Windows Player para AEM Screens.
 
-Visite a página Downloads [****](https://download.macromedia.com/screens/)do AEM 6.4 Player.
+Visite a página Downloads [****](https://download.macromedia.com/screens/)do AEM 6.5 Player.
 
 ### Método ad-hoc {#ad-hoc-method}
 
-O método Ad-Hoc permite instalar o Windows Player mais recente (*.exe*). Visite a página Downloads [****](https://download.macromedia.com/screens/)do AEM 6.4 Player.
+O método Ad-Hoc permite instalar o Windows Player mais recente (*.exe*). Visite a página Downloads [****](https://download.macromedia.com/screens/)do AEM 6.5 Player.
 
 Depois de baixar o aplicativo, siga as etapas no player para concluir a instalação ad-hoc:
 
@@ -66,12 +69,12 @@ A tabela a seguir resume os atributos de política com um exemplo de política J
 
 | **Nome da política** | **Propósito** |
 |---|---|
-| server | O URL para o servidor do Adobe Experience Manager (AEM). |
+| server | O URL para o servidor Adobe Experience Manager (AEM). |
 | resolução | A resolução do dispositivo. |
 | rebootSchedule | O cronograma para reinicializar o player. |
 | enableAdminUI | Ative a interface de usuário do administrador para configurar o dispositivo no site. Definido como falso depois que estiver totalmente configurado e em produção. |
-| enableOSD | Ative a interface do comutador de canal para que os usuários alternem os canais no dispositivo. Considere a configuração como false depois de estar totalmente configurada e em produção. |
-| enableActivityUI | Permite mostrar o progresso de atividades como download e sincronização. Ative para solução de problemas e desabilite-o assim que estiver totalmente configurado e em produção. |
+| enableOSD | Ative a interface do comutador de canais para que os usuários alternem canais no dispositivo. Considere a configuração como false depois de estar totalmente configurada e em produção. |
+| enableActivityUI | Ative para mostrar o progresso de atividades como download e sincronização. Ative para solução de problemas e desabilite-o assim que estiver totalmente configurado e em produção. |
 
 #### Exemplo de arquivo JSON de política {#example-policy-json-file}
 
@@ -111,7 +114,7 @@ Siga as etapas abaixo para ativar o modo Kiosk:
    Modifique o script do PowerShell para substituir o nome de usuário pelo que você criou. Verifique se o caminho para o executável do aplicativo está correto. Isso definirá o shell personalizado como o aplicativo do Windows player para o usuário do quiosque e o padrão como explorer.exe para outros usuários.
 
 1. Execute o script do PowerShell como administrador.
-1. Reinicialize e faça login como o usuário do Kiosk e o aplicativo do player devem iniciar corretamente.
+1. Reinicialize e faça login como o usuário do Kiosk e o aplicativo do player devem ser start imediatamente.
 
 ### Resolução de Problemas{#troubleshooting}
 
@@ -119,13 +122,13 @@ Se você receber uma tela preta ao fazer login como usuário do Kiosk, isso sign
 
 O caminho de instalação padrão do Windows player é:
 
-***C:\Users\&amp;lt;your user>\AppData\Local\Programs\@aem-screensscreens-player-eletron\AEM Screens Player.exe***
+***C:\Users\&amp;lt;your user>\AppData\Local\Programs\@aem-screensscreensscreens-player-eletron\AEM Screens Player.exe***
 
 O script de amostra nos links ativará e desativará o shell personalizado. Portanto, talvez seja necessário dividir o script em duas e ativar/desativar as linhas aplicáveis abaixo:
 
 >[!NOTE]
 >
->Em alguns ambientes Windows, os scripts do PowerShell podem ser restringidos por política (especialmente scripts não assinados). Para executar o script, talvez seja necessário desativar e reativar temporariamente essa restrição para executar o script. Abra uma janela do PowerShell e use esses comandos.
+>Em alguns ambientes do Windows, os scripts do PowerShell podem ser restritos por política (especialmente scripts não assinados). Para executar o script, talvez seja necessário desativar e reativar temporariamente essa restrição para executar o script. Abra uma janela do PowerShell e use esses comandos.
 >
 >*set-Executionpolicy sem restrições* - para remover temporariamente restrições
 >
