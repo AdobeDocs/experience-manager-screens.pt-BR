@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '1809'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Esta página descreve a ativação no nível do canal para os ativos usados em C
 Os seguintes tópicos são abordados nesta seção:
 
 * Visão geral
-* Janela Ativação
+* Janela de ativação
 * Uso da Ativação de nível de Canal como reprodução de um único Evento
 * Tratamento da recorrência de ativos em um Canal
    * Partilha de Dia
@@ -45,7 +45,7 @@ O exemplo a seguir fornece uma solução focando nos seguintes termos principais
 * um ***único canal*** de evento que é executado apenas uma vez em um horário definido
 * um cronograma ***definido e prioridade*** para o evento de reprodução único que ocorre dentro do canal da sequência principal
 
-## Janela Ativação {#using-channel-level-activation}
+## Janela de ativação {#using-channel-level-activation}
 
 A seção a seguir explica a criação de uma reprodução de um único evento dentro de um canal para um projeto de AEM Screens.
 
@@ -154,7 +154,7 @@ Depois que a configuração para canais e a exibição for concluída, inicie o 
 O player exibe o conteúdo do **MainAdChannel** e exatamente às 23:59 horas (conforme definido no agendamento), o canal **TargetedSinglePlay** exibirá seu conteúdo até as 12:05 e o **MainAdChannel** retomará a reprodução do conteúdo novamente.
 
 >[!NOTE]
-Para saber mais sobre o AEM Screen Player, consulte os seguintes recursos:
+Para saber mais sobre AEM reprodutor de tela, consulte os seguintes recursos:
 * [Downloads do AEM Screens Player](https://download.macromedia.com/screens/)
 * [Trabalhar com o AEM Screens Player](working-with-screens-player.md)
 
