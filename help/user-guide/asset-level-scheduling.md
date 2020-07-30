@@ -4,7 +4,7 @@ seo-title: Ativação de nível de ativo
 description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
 seo-description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 2%
@@ -19,7 +19,7 @@ Esta página descreve a ativação no nível do ativo para os ativos usados em C
 Os seguintes tópicos são abordados nesta seção:
 
 * Visão geral
-* Janela Ativação
+* Janela de ativação
 * Reprodução de Evento único
 * Tratamento de recorrência em ativos
    * Partilha de Dia
@@ -30,7 +30,7 @@ Os seguintes tópicos são abordados nesta seção:
 
 >[!CAUTION]
 >
->Esta funcionalidade do AEM Screens só estará disponível se você tiver instalado o AEM 6.3 Feature Pack 3 ou o AEM 6.4 Screens Pack 1.
+>Esta funcionalidade de AEM Screens só estará disponível se você tiver instalado AEM 6.3 Feature Pack 3 ou AEM 6.4 Screens Pack 1.
 >
 >Para obter acesso a esse Feature Pack, você deve entrar em contato com o Suporte da Adobe e solicitar acesso. Com as devidas permissões, você pode baixá-lo em Compartilhamento de pacotes.
 
@@ -42,7 +42,7 @@ Os seguintes tópicos são abordados nesta seção:
 
 Com esse recurso, não somente você pode especificar o start e a data e hora de término, como também um padrão de recorrência.
 
-## Janela Ativação {#single-event-playback}
+## Janela de ativação {#single-event-playback}
 
 A Ativação de nível de ativo é feita configurando a guia **Ativação** ao acessar as propriedades de um ativo.
 
@@ -88,8 +88,8 @@ Suponha que você queira exibir uma imagem somente às sextas-feiras das 13:00 �
 
 1. Depois de inserir a data/hora e a hora de término/data do start, você pode usar uma expressão ou uma versão de texto natural para especificar a programação de recorrência.
 
-   > [!NOTE]
-   > Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
+   >[!NOTE]
+   >Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
 
 1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
 
@@ -115,8 +115,8 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 
 1. Depois de inserir a data/hora e a hora de término/data do start, você pode usar uma expressão ou uma versão de texto natural para especificar a programação de recorrência.
 
-   > [!NOTE]
-   > Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
+   >[!NOTE]
+   >Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
 
 1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
 
@@ -140,8 +140,8 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 
 1. Depois de inserir a data/hora e a hora de término/data do start, você pode usar uma expressão ou uma versão de texto natural para especificar a programação de recorrência.
 
-   > [!NOTE]
-   > Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
+   >[!NOTE]
+   >Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
 
 1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
 
@@ -154,8 +154,8 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 | de fevereiro,maio,agosto,novembro | o ativo é reproduzido no canal em fevereiro, maio, agosto e novembro |
 | de fevereiro a julho | o ativo é reproduzido no canal de fevereiro até o final de julho |
 
-> [!NOTE]
-> Ao definir dias da semana e meses, você pode usar as notas de mão curta e de nome completo, como Mon/Segunda e Jan/Janeiro.
+>[!NOTE]
+>Ao definir dias da semana e meses, você pode usar as notas de mão curta e de nome completo, como Mon/Segunda e Jan/Janeiro.
 
 ### Combinação de peças {#combined-parting}
 
@@ -163,8 +163,8 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 
 1. Depois de inserir a data/hora e a hora de término/data do start, você pode usar uma expressão ou uma versão de texto natural para especificar a programação de recorrência.
 
-   > [!NOTE]
-   > Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
+   >[!NOTE]
+   >Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
 
 1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
 
@@ -178,15 +178,15 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 | no primeiro dia de janeiro depois das 14:00 também no dia 2 de janeiro também no dia 3 de janeiro antes das 15:00 | o ativo nos start do canal reproduzindo depois das 14:00 em 1º de janeiro, continua reproduzindo o dia inteiro em 2º de janeiro até as 15:00 em 3 de janeiro |
 | no dia 1-2 de janeiro depois das 14:00 também no dia 2-3 de janeiro antes das 15:00 | o ativo no player de start de canais depois das 14:00 horas de 1º de janeiro, continua sendo reproduzido até as 15:00 da manhã de 2º de janeiro, depois start novamente em 2º de janeiro às 14:00 e continua sendo reproduzido até as 15:00 da manhã de 3 de janeiro |
 
-> [!NOTE]
-> Ao definir dias da semana e meses, você pode usar as notas de mão curta e de nome completo, como Mon/Segunda e Jan/Janeiro.  Além disso, você também pode usar a notação de tempo __ militar (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
+>[!NOTE]
+>Ao definir dias da semana e meses, você pode usar as notas de mão curta e de nome completo, como Mon/Segunda e Jan/Janeiro.  Além disso, você também pode usar a notação de tempo __ militar (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
 
 
 ## Ativação de vários ativos {#multi-asset-scheduling}
 
 >[!CAUTION]
 >
->O recurso de Ativação **** de vários ativos só estará disponível se você tiver instalado o AEM 6.3 Feature Pack 5 ou o AEM 6.4 Feature Pack 3.
+>O recurso de Ativação **** de vários ativos só estará disponível se você tiver instalado o AEM 6.3 Feature Pack 5 ou AEM 6.4 Feature Pack 3.
 
 ***A Ativação*** de vários ativos permite que o usuário selecione vários ativos e aplique um cronograma de reprodução a todos os ativos selecionados.
 
