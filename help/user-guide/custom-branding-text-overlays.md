@@ -5,7 +5,7 @@ description: Siga esta página para saber como aplicar marcas e estilos personal
 seo-description: Siga esta página para saber como aplicar marcas e estilos personalizados a sobreposições de texto.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Siga as etapas abaixo para criar marcas e estilos personalizados para sobreposi�
    >[!NOTE]
    >Para saber como adicionar uma sobreposição de texto ao ativo em um editor de canais, consulte Sobreposição de [texto](/help/user-guide/text-overlay.md).
 
-1. Navegue até CRXDE Lite da sua instância do AEM —> Ferramentas —> **CRXDE Lite**.
+1. Navegue até CRXDE Lite da sua instância AEM —> Ferramentas —> **CRXDE Lite**.
 
 1. É necessário criar um design personalizado em `/apps/settings/wcm/designs/<your-project>/`, por exemplo, neste caso, navegar até `/apps/settings/wcm/designs/customstyle/`
 
@@ -41,26 +41,26 @@ Siga as etapas abaixo para criar marcas e estilos personalizados para sobreposi�
 1. Crie o arquivo *static.css* e defina as seguintes regras css. Também é mostrado como um exemplo na figura abaixo das regras css.
 
    ```shell
-     //global styles
-     cq-Screens-textOverlay {
-     padding: 1em;
-     font-size: 3rem;
-     line-height: 1em;
-      }
-     //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
-     display: none;
-     padding: 0;
-     font-size: 1rem;
+    //global styles
+    cq-Screens-textOverlay {
+    padding: 1em;
+    font-size: 3rem;
+    line-height: 1em;
      }
-      // light text variant
-     .cq-Screens-textOverlay-color--light {
-      background-color: rgba(0, 0, 0, .6);
-      }
-      // dark text variant
-      .cq-Screens-textOverlay-color--dark {
-       background-color: rgba(255, 255, 255, .6);
+    //authoring overrides
+   .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+    display: none;
+    padding: 0;
+    font-size: 1rem;
+    }
+     // light text variant
+    .cq-Screens-textOverlay-color--light {
+     background-color: rgba(0, 0, 0, .6);
      }
+     // dark text variant
+     .cq-Screens-textOverlay-color--dark {
+      background-color: rgba(255, 255, 255, .6);
+    }
    ```
 
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand4.png)
@@ -83,7 +83,7 @@ Siga as etapas abaixo para criar marcas e estilos personalizados para sobreposi�
 
 >[!IMPORTANT]
 >
-> Você tem a opção de sobrepor os modelos existentes do Screens para injetar seus próprios designs por padrão ou criar seu próprio modelo completamente. Consulte as etapas abaixo para obter mais detalhes.
+>Você tem a opção de sobrepor os modelos existentes do Screens para injetar seus próprios designs por padrão ou criar seu próprio modelo completamente. Consulte as etapas abaixo para obter mais detalhes.
 
 1. Para sobrepor os modelos existentes do Screens para injetar seus próprios designs por padrão:
 
