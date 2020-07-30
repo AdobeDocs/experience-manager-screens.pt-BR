@@ -5,7 +5,10 @@ description: Siga esta página para saber mais sobre a criação de modelos pers
 seo-description: Siga esta página para saber mais sobre a criação de modelos personalizados em layouts MultiZone.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 90d3d91f127432d8783748f00440bc6949262826
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+workflow-type: tm+mt
+source-wordcount: '948'
+ht-degree: 1%
 
 ---
 
@@ -22,8 +25,8 @@ Há duas considerações importantes que você deve estar ciente antes de criar 
 
    Você deve decidir se deseja usar o tamanho de pixel fixo para diferentes zonas para seu layout personalizado ou se deseja criar um layout personalizado usando porcentagens.
 
-   > [!NOTE]
-   > A vantagem de usar a porcentagem para definir zonas para seu layout personalizado permite reutilizar o modelo em uma variedade de tamanhos de tela.
+   >[!NOTE]
+   >A vantagem de usar a porcentagem para definir zonas para seu layout personalizado permite reutilizar o modelo em uma variedade de tamanhos de tela.
 
 1. **Convenção** de nomenclatura:
 
@@ -35,8 +38,8 @@ Há duas considerações importantes que você deve estar ciente antes de criar 
    | Upper20-PortraitHD2Zone | Refere-se a um modelo de retrato de 2 zonas que cobre 20% da tela do topo, com proporção de 16:9 |
    | Right20-LandscapeSD3Zone | Refere-se a um modelo de 3 zonas que cobre 20% da tela da direita, com relação de aspecto de 4:3 |
 
-   > [!IMPORTANT]
-   > As zonas definidas no layout personalizado podem não corresponder à proporção geral do layout inteiro. A convenção de nomenclatura seguida neste documento especifica a proporção do layout personalizado como um todo.
+   >[!IMPORTANT]
+   >As zonas definidas no layout personalizado podem não corresponder à proporção geral do layout inteiro. A convenção de nomenclatura seguida neste documento especifica a proporção do layout personalizado como um todo.
 
 ## Exemplo de uso de caso Left20-LandscapeHD3Zone Layout {#custom-template-one}
 
@@ -51,45 +54,45 @@ Siga a seção abaixo para criar um modelo personalizado *Left20-LandscapeHD3Zon
 
 O layout Left20-LandscapeHD3Zone permite criar o seguinte layout de várias zonas no seu projeto:
 
-![image](/help/user-guide/assets/custom-multizone/landscape-3-zone-new.png)
+![imagem](/help/user-guide/assets/custom-multizone/landscape-3-zone-new.png)
 
 ## Criação de um layout Left20-LandscapeHD3Zone {#landscape-layout-one}
 
-Siga as etapas abaixo para criar um layout Left20-LandscapeHD3Zone para um projeto do AEM Screens:
+Siga as etapas abaixo para criar um layout Left20-LandscapeHD3Zone para um projeto de AEM Screens:
 
-1. Crie um projeto do AEM Screens chamado de **customtemplate**.
+1. Crie um projeto de AEM Screens chamado de **modelo** personalizado.
 
-   ![image](/help/user-guide/assets/custom-multizone/custom-template2.png)
+   ![imagem](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. Navegue até **CRXDE Lite** da sua instância do AEM —> Ferramentas —> **CRXDE Lite**.
+1. Navegue até **CRXDE Lite** da sua instância AEM —> Ferramentas —> **CRXDE Lite**.
 
 1. Crie uma pasta em **aplicativos** intitulados como modelo **personalizado**. Da mesma forma, crie outra pasta chamada **template** em **customtemplate**, conforme mostrado na figura abaixo.
 
-   ![image](/help/user-guide/assets/custom-multizone/custom-template1.png)
+   ![imagem](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
-   > [!NOTE]
-   > É recomendável clicar em **Salvar tudo** na barra de ação do CRXDE Lite sempre que criar, editar ou copiar conteúdo para qualquer um dos nós, caso contrário, você não poderá confirmar as atualizações.
+   >[!NOTE]
+   >É recomendável clicar em **Salvar tudo** na barra de ações no CRXDE Lite sempre que criar, editar ou copiar conteúdo para qualquer um dos nós, caso contrário, você não poderá confirmar as atualizações.
 
 1. Copie o modelo da barra esquerda de `/libs/screens/core/templates/splitscreenchannel/lbar-left` para `/apps/customtemplate/template`.
 
 1. Renomeie a barra **esquerda** copiada (`/apps/customtemplate/template`) para o **meu layout**personalizado.
-   ![image](/help/user-guide/assets/custom-multizone/custom-template3.png)
+   ![imagem](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
 1. Navegue até `/apps/customtemplate/template/my-custom-layout` e atualize as propriedades **jcr:description** para *Template para Left20-LandscapeHD3Zone* e **jcr:title** para *Left20-LandscapeHD3Zone*.
 
-   ![image](/help/user-guide/assets/custom-multizone/custom-template4.png)
+   ![imagem](/help/user-guide/assets/custom-multizone/custom-template4.png)
 
 1. Navegue até o nó **offline-config** de `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` e atualize o **jcr:title** para *Left20-LandscapeHD3Zone*.
 
-   ![image](/help/user-guide/assets/custom-multizone/custom-template5.png)
+   ![imagem](/help/user-guide/assets/custom-multizone/custom-template5.png)
 
 1. Navegue até a propriedade *jcr:content* do **my-custom-template** de `/apps/customtemplate/template/my-custom-layout/jcr:content` e atualize a propriedade **cq:cssClass** para **aem-Layout my-custom-layout**.
 
-   ![image](/help/user-guide/assets/custom-multizone/custom-template6.png)
+   ![imagem](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
-1. Referindo-se à etapa (4), na qual você copiou o modelo à esquerda da barra, visualizará 3 grades responsivas em `my-custom-layout/jcr:content`. Adicione a classe css personalizada a cada grade responsiva na propriedade *cq:cssClass* , por exemplo, *my-custom-layout — top-left* para o nó *r1c1* .
+1. Referindo-se à etapa (4), na qual, você copiou o modelo à esquerda da barra, visualização 3 grades responsivas em `my-custom-layout/jcr:content`. Adicione a classe css personalizada a cada grade responsiva na propriedade *cq:cssClass* , por exemplo, *my-custom-layout — top-left* para o nó *r1c1* .
 
-   ![image](/help/user-guide/assets/custom-multizone/custom-template7.png)
+   ![imagem](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
    Da mesma forma, adicione *my-custom-layout—top-right* para *r1c2* e, *my-custom-layout—bottom* para nó *r2c1* .
 
@@ -97,7 +100,7 @@ Siga as etapas abaixo para criar um layout Left20-LandscapeHD3Zone para um proje
    >Essas classes personalizadas serão usadas no css para definir a largura/altura dessas grades responsivas.
 
    >[!NOTE]
-   > Você pode adicionar ou remover as grades responsivas com base no número total de grades que deseja. Neste exemplo, mostramos 2 grades na primeira linha e 1 grade na segunda linha, de modo que há um total de 3 grades responsivas (r1c1, r1c2, r2c1).
+   >Você pode adicionar ou remover as grades responsivas com base no número total de grades que deseja. Neste exemplo, mostramos 2 grades na primeira linha e 1 grade na segunda linha, de modo que há um total de 3 grades responsivas (r1c1, r1c2, r2c1).
 
 1. Copie `/libs/settings/wcm/designs/screens` para `/apps/settings/wcm/designs/` e renomeie o design copiado como modelos-designs **** personalizados.
 
@@ -126,30 +129,30 @@ Siga as etapas abaixo para criar um layout Left20-LandscapeHD3Zone para um proje
    ```
 
    >[!NOTE]
-   > É possível atualizar as porcentagens para corresponder aos requisitos do modelo personalizado.
+   >É possível atualizar as porcentagens para corresponder aos requisitos do modelo personalizado.
 
 1. Navegue até `/apps/<project>/templates/my-custom-layout/jcr:content` a propriedade *cq:designPath* e atualize-a para `/apps/settings/wcm/designs/customtemplate-designs` carregar os estilos configurados em static.css
 
    >[!NOTE]
-   > É recomendável digitar todos os estilos em vez de copiar ou colar, o que pode causar espaços em branco, resultando em problemas de estilização em css.
+   >É recomendável digitar todos os estilos em vez de copiar ou colar, o que pode causar espaços em branco, resultando em problemas de estilização em css.
 
 ## Como visualizar o resultado {#viewing-result}
 
-Siga as etapas abaixo para usar o modelo personalizado acima em seu projeto do AEM Screens:
+Siga as etapas abaixo para usar o modelo personalizado acima em seu projeto de AEM Screens:
 
-1. Navegue até o projeto do Screens criado na etapa 1 e selecione a pasta **Canais** .
+1. Navegue até o projeto do Screens que você criou na etapa 1 e selecione a pasta **Canais** .
 
-   ![image](/help/user-guide/assets/custom-multizone/custom-template8.png)
+   ![imagem](/help/user-guide/assets/custom-multizone/custom-template8.png)
 
 1. Clique em **Criar** na barra de ação e selecione o modelo **Left20-LandscapeHD3Zone** no assistente de **Criação** .
 
-   ![image](/help/user-guide/assets/custom-multizone/custom-template9.png)
+   ![imagem](/help/user-guide/assets/custom-multizone/custom-template9.png)
 
-1. Depois de criar um canal com o modelo personalizado, você pode adicionar ativos ao seu canal a partir do editor. A visualização a seguir mostra as imagens em um modelo personalizado.
+1. Depois de criar um canal com o modelo personalizado, você pode adicionar ativos ao seu canal a partir do editor. A pré-visualização a seguir mostra as imagens em um modelo personalizado.
 
-   ![image](/help/user-guide/assets/custom-multizone/custom-template10.png)
+   ![imagem](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## Inserir uma imagem como a camada de plano de fundo {#inserting-image}
+## Inserir uma imagem como a camada de plano de fundo  {#inserting-image}
 
 É possível inserir uma imagem como uma camada de plano de fundo no layout:
 
