@@ -6,7 +6,7 @@ seo-description: Siga esta página para saber como aplicar transições a seus p
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -51,7 +51,7 @@ Siga as etapas abaixo para adicionar um componente de transição ao seu projeto
 
    ![image3](assets/transitions3.png)
 
-   > [!NOTE]
+   >[!NOTE]
    >
    >Por padrão, as propriedades do componente de transição, como **Tipo** , estão definidas como **Desvanecer** e a **Duração** está definida como *1600 ms*.  Além disso, não é aconselhável definir um tempo de duração de transição maior do que o ativo ao qual está sendo aplicado.
 
