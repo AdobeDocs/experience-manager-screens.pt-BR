@@ -1,47 +1,31 @@
 ---
 title: Atribuição de canal
 seo-title: Atribuição de canal
-description: Siga esta página para saber mais sobre Atribuição de canal e Segmentação do dia.
-seo-description: Siga esta página para saber mais sobre Atribuição de canal e Segmentação do dia.
-uuid: fe429485-dcc9-4507-864c-b04393cedeee
-contentOwner: Jyotika syal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
-docset: aem65
+description: Siga esta página para saber mais sobre Atribuição de Canais e Programação de anúncios.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 59%
+source-wordcount: '1335'
+ht-degree: 42%
 
 ---
 
 
 # Atribuição de canal {#channel-assignment}
 
-Esta seção aborda os seguintes tópicos:
+Depois de definir uma exibição, é necessário atribuir um canal a uma exibição.
 
-* **Atribuição de um Canal**
-* **Noções Gerais das Propriedades da caixa de diálogo Atribuição de Canais**
-* **Segmentação de dia**
+Esta página mostra como atribuir um canal à sua exibição.
 
-Depois de definir uma exibição, é necessário atribuir um canal a ela.
+>[!NOTE]
+>É possível atribuir vários canais a uma exibição.
 
-Essa página mostra a atribuição de um canal às suas exibições.
-
-**Pré-requisitos**:
-
-* [Configuração e implantação do Screens](configuring-screens-introduction.md)
-* [Criar e gerenciar projetos de telas](creating-a-screens-project.md)
-* [Criar e gerenciar Canais](managing-channels.md)
-* [Criar e gerenciar locais](managing-locations.md)
-* [Criar e gerenciar exibições](managing-displays.md)
-
-## Atribuir um canal {#assign-a-channel}
+## Assigning a Channel {#assign-a-channel}
 
 Siga as etapas abaixo para atribuir um canal a uma exibição:
+
+>[!Iimportante]
+>A caixa de diálogo a seguir para atribuição de canais é diferente para a versão do Feature Pack do Adobe Experience 6.5.5 e superior. Consulte Atribuição de [Canais](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) para obter mais detalhes.
 
 1. Navegue até a exibição desejada, por exemplo, **DemoProject** —> **Locais** —> **SanJose** —> **StoreDisplay**.
 
@@ -55,7 +39,29 @@ Siga as etapas abaixo para atribuir um canal a uma exibição:
 
    ![imagem](/help/user-guide/assets/channel-assign1.png)
 
-   É possível entender e configurar as propriedades na caixa de diálogo Atribuição **de** Canais na seção abaixo.
+   Você pode configurar as propriedades na caixa de diálogo Atribuição de **Canais** na seção abaixo. Consulte a seção Propriedades [do](#channel-properties) Canal para saber mais sobre as propriedades do canal.
+
+## Atribuição de um Canal para o Pacote de recursos do AEM 6.5.5 Screens {#assign-a-channel-new-release}
+
+Siga as etapas abaixo para atribuir um canal a uma exibição:
+
+1. Navegue até a exibição desejada, por exemplo, **DemoProject** —> **Locais** —> **SanJose** —> **StoreDisplay**.
+
+
+1. Tap/click **Assign Channel** from the action bar
+
+   Ou,
+
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
+
+1. Na opção Configuração, é possível escolher o canal por caminho ou por nome, inserir a função do canal, a prioridade, os Eventos suportados.
+
+   >[!NOTE]
+   >Consulte a seção Propriedades [do](#channel-properties) Canal para saber mais sobre as propriedades do canal.
+
+1. Na opção **Programações** , selecione o Fuso horário **de** referência, a Janela **de** Ativação e a Programação **de** recorrência.
+
+1. Clique em **Salvar** depois de configurar suas preferências.
 
 ### Como entender as propriedades do Canal da atribuição do Canal {#channel-properties}
 
@@ -88,7 +94,7 @@ A prioridade é usada para ordenar as atribuições, no caso de várias delas co
 #### Método de interrupção {#interruption-method-channel}
 
 >[IMPORTANTE]
-> Essa opção só está disponível com o AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
+> Esta opção só está disponível com AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
 
 Como autor de conteúdo, você deve ser capaz de especificar quando um canal é interrompido para que possa optar por interromper o conteúdo não crítico, mas ter a opção de permitir que o conteúdo importante seja reproduzido totalmente antes de interromper a reprodução devido ao agendamento.
 
@@ -111,18 +117,17 @@ o agendamento permite que você forneça uma descrição no texto informando qua
 
 Mostrar dica de ferramenta da atração define se a dica de ferramenta de atração (“*Toque em qualquer lugar para começar*”) deve ser mostrada ou não enquanto o canal está em execução.
 
+### Programação {#dayparting}
 
-### Segmentação de dia {#dayparting}
+Schedules when combined with **Day-parting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
-Schedules when combined with **Dayparting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+A Segmentação de dia refere-se ao processo de dividir um dia em períodos de tempo e especificar qual conteúdo é reproduzido no horário desejado. A AEM Screens permite programar canais em termos de programação de anúncios em um dia, semana ou mês, de acordo com a necessidade.
 
-A Segmentação de dia refere-se ao processo de dividir um dia em períodos de tempo e especificar qual conteúdo é reproduzido no horário desejado. O AEM Screens permite agendar canais em termos de segmentação de dia para uma frequência diária, semanal ou mensal, de acordo com a sua exigência.
-
-Os exemplos a seguir explicam a segmentação de dia em três cenários diferentes:
+Os exemplos a seguir explicam a programação em canais em três cenários diferentes:
 
 #### Reprodução do conteúdo em um único dia, dividido em vários períodos de tempo {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-Este exemplo mostra como um restaurante usa a segmentação de dia para mostrar seu menu de café da manhã, almoço e jantar.
+Este exemplo mostra como um Restaurante usa a programação de um dia para mostrar seu menu de café da manhã, almoço e jantar.
 
 Aqui, dividiremos cada dia em três períodos de tempo diferentes, para que o conteúdo do canal seja reproduzido de acordo com o horário do dia especificado:
 
@@ -161,9 +166,9 @@ Este exemplo mostra a segmentação de dia feita em um cassino que apresenta um 
 
 #### Reprodução do conteúdo para um ou mais meses específicos {#playing-content-for-a-particular-month-months}
 
-Este exemplo mostra a segmentação de dia para uma loja que exibe sua coleção de inverno de junho a agosto e sua coleção de primavera de setembro até o final de outubro.
+Este exemplo mostra a programação de uma loja que exibe sua coleção de verão dos meses de junho a agosto e a coleção de outono de setembro até o final de outubro.
 
-Aqui, você criará a segmentação de dia com base em meses, de modo que o conteúdo do canal seja reproduzido de acordo com os meses especificados do ano.
+Aqui, você criará anúncios por mês, para que o conteúdo do canal seja reproduzido conforme os meses especificados do ano.
 
 | **Canal** | **Função** | **Prioridade** | **Agendamento** |
 |---|---|---|---|
@@ -176,16 +181,17 @@ Aqui, você criará a segmentação de dia com base em meses, de modo que o cont
 
 #### Reprodução do conteúdo para canais com a mesma prioridade {#playing-content-for-channels-with-same-priority}
 
-Este exemplo mostra a segmentação de dia para uma loja que exibe sua coleção de verão com o mesmo agendamento no mês de dezembro. Porém, como o Canal B tem a prioridade definida como 2, na semana em questão, ele reproduzirá seu conteúdo no lugar do Canal A.
+Este exemplo mostra a programação para uma loja que exibe sua coleção de inverno com a mesma programação no mês de dezembro. Porém, como o Canal B tem a prioridade definida como 2, na semana em questão, ele reproduzirá seu conteúdo no lugar do Canal A.
 
 | **Canal** | **Função** | **Prioridade** | **Agendamento** |
 |---|---|---|---|
 | A | inverno | 1 | 01 de dez de 2017 - 31 de dez de 2017 |
 | B | Natal | 2 | 24 de dez de 2017 - 31 de dez de 2017 |
 
+
 >[!IMPORTANT]
 >
-> Para saber mais sobre a separação de horário, consulte as seções abaixo:
+> Para saber mais sobre a programação de anúncios, consulte as seções abaixo:
 >
 >* [Tratamento de recorrência em ativos](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Tratamento da recorrência de ativos em um Canal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
