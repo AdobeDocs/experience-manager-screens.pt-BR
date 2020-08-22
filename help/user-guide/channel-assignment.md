@@ -3,9 +3,9 @@ title: Atribuição de canal
 seo-title: Atribuição de canal
 description: Siga esta página para saber mais sobre Atribuição de Canais e Programação de anúncios.
 translation-type: tm+mt
-source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1333'
 ht-degree: 42%
 
 ---
@@ -24,7 +24,8 @@ Esta página mostra como atribuir um canal à sua exibição.
 
 Siga as etapas abaixo para atribuir um canal a uma exibição:
 
->[!Iimportante]
+>[!IMPORTANT]
+>
 >A caixa de diálogo a seguir para atribuição de canais é diferente para a versão do Feature Pack do Adobe Experience 6.5.5 e superior. Consulte Atribuição de [Canais](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) para obter mais detalhes.
 
 1. Navegue até a exibição desejada, por exemplo, **DemoProject** —> **Locais** —> **SanJose** —> **StoreDisplay**.
@@ -93,7 +94,8 @@ A prioridade é usada para ordenar as atribuições, no caso de várias delas co
 
 #### Método de interrupção {#interruption-method-channel}
 
->[IMPORTANTE]
+>[!IMPORTANT]
+>
 > Esta opção só está disponível com AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
 
 Como autor de conteúdo, você deve ser capaz de especificar quando um canal é interrompido para que possa optar por interromper o conteúdo não crítico, mas ter a opção de permitir que o conteúdo importante seja reproduzido totalmente antes de interromper a reprodução devido ao agendamento.
