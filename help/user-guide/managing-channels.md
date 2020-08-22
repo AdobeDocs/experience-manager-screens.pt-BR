@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1399'
 ht-degree: 45%
 
 ---
@@ -54,7 +54,7 @@ As seguintes opções de modelo estão disponíveis ao usar o assistente, entre 
 | Canal do aplicativo | Permite mostrar seu aplicativo web personalizado no player do Screens. |
 | Canal de tela dividida 1x1 | Permite visualização do componente em uma única zona. |
 | Canal de tela dividida 1x2 | Permite visualização dos ativos em duas zonas (divididas horizontalmente). |
-| Canal de tela dividida 2X1 | Permite visualização dos ativos em duas zonas (divisão vertical). |
+| canal de tela dividida 2X1 | Permite visualização dos ativos em duas zonas (divisão vertical). |
 | Canal de tela dividida 2x2 | Permite visualização dos ativos em quatro zonas (divididas horizontal e verticalmente em uma matriz). |
 | Canal de 2 a 3 telas divididas | Permite visualização dos ativos em duas zonas (divididas horizontalmente) com uma das zonas maior que a outra. |
 | Canal de tela dividida da barra L esquerda ou direita | Permite que os autores de conteúdo visualizações tipos diferentes de ativos em zonas de tamanho apropriado. |
@@ -94,7 +94,7 @@ Para adicionar ou editar conteúdo em um canal, siga as etapas abaixo:
 
 >[!NOTE]
 >
->Você pode adicionar componentes ao seu canal. Consulte **[Adicionando componentes a um Canal](adding-components-to-a-channel.md)**para obter mais detalhes.
+>Você pode adicionar componentes ao seu canal. Consulte **[Adicionando componentes a um Canal](adding-components-to-a-channel.md)** para obter mais detalhes.
 
 ![demochannel1](assets/demochannel1.gif)
 
@@ -140,8 +140,9 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 
 Você pode visualização o manifesto do painel do canal.
 
->[IMPORTANTE]
-> Essa opção só está disponível com o AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
+>[!IMPORTANT]
+>
+>Esta opção só está disponível com AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
 
 Siga estas etapas para ativar esta opção do painel do canal:
 1. **Definir o Canal como off-line**
@@ -231,8 +232,8 @@ A tabela a seguir resume os eventos associados às atualizações automáticas e
     <ul>
      <li>Exibir (canal forçado)</li>
      <li>Device</li>
-     <li>Atribuições de Canal (novo canal, canal removido)</li>
-     <li>Atribuição de Canais (função, evento, agendamento)</li>
+     <li>Atribuições de canal (novo canal, canal removido)</li>
+     <li>Atribuição de canais (função, evento, agendamento)</li>
     </ul> </td>
    <td>Configuração atualizada automaticamente</td>
    <td><p>Configuração atualizada no <strong><i>dispositivo: Configuração de push</i></strong></p> <p>Ou,</p> <p>Configuração atualizada no <strong><i>dispositivo: Reiniciar</i></strong></p> </td>
