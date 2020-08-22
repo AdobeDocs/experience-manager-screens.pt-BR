@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ Por exemplo, se o autor quiser criar versões futuras de c1, c2 (canais), uma in
 
 Uma vez aprovada e na data de ativação (10 de novembro, 8:00 AM), essa inicialização reproduz o conteúdo nos dispositivos ou players.
 
-## Requisitos {#requirements}
+## Introdução {#requirements}
 
-Antes de utilizar o start *Screens Launch* em um projeto de AEM Screens, certifique-se de entender o conceito de período de carência e sua relevância.
+Antes de utilizar o start *Screens Launch* em um projeto da AEM Screens, certifique-se de entender o conceito de período de carência e sua relevância.
 
 A execução de uma experiência na data de ativação definida no player envolve:
 
@@ -53,7 +53,7 @@ Se a data de ativação for 24 *de novembro, 9:00 da manhã* e o período de car
 
 Por exemplo, digamos que o servidor esteja no PST e os dispositivos estejam no EST, a diferença de tempo máximo é de 3 horas nesse caso e suponha que a promoção levará 1 minuto e a publicação do autor para publicar leva 10 minutos e o player pode baixar os recursos normalmente em 10 a 15 minutos. Em seguida, período de carência = diferença de tempo (3 horas) + tempo para promover a inicialização (1 min) + tempo para publicar a inicialização (10 min) + tempo para baixar no player (10 a 15 min) + buffer (para ser seguro, digamos 30 min) = 3 horas 56 min = 14160 segundos.
 
-Assim, sempre que agendarmos qualquer lançamento ao vivo, a promoção será start cedo por este deslocamento. Na equação acima, a maioria dos itens não leva muito tempo, podemos usar uma suposição decente para esse deslocamento quando soubermos a diferença de tempo máxima entre o servidor e qualquer player.
+Assim, sempre que agendarmos qualquer lançamento ao vivo, a promoção será start cedo por este deslocamento. Na equação acima, a maioria dos itens não leva muito tempo, podemos usar uma suposição decente para esse deslocamento assim que soubermos a diferença de tempo máxima entre o servidor e qualquer player.
 
 >[!NOTE]
 >
@@ -63,10 +63,10 @@ Assim, sempre que agendarmos qualquer lançamento ao vivo, a promoção será st
 
 Esta seção explica como você pode atualizar um Período de carência predefinido para 10 minutos.
 
-1. Navegue até CRXDE Lite e, em seguida, vá para `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
+1. Navegue até CRXDE Lite e depois para `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 2. Clique com o botão direito do mouse e copie o arquivo.
 3. Navegue até `/apps/system/config` e clique com o botão direito do mouse e cole.
-4. Clique em Duplo `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` para abrir o arquivo no editor no CRXDE Lite. Ele deve mostrar o período de carência para o caminho */conteúdo/telas/* como **86400**. Altere esse valor para **600**.
+4. Clique em duplo `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` para abrir o arquivo no editor no CRXDE Lite. Ele deve mostrar o período de carência para o caminho */conteúdo/telas/* como **86400**. Altere esse valor para **600**.
 
 Agora, o conteúdo no arquivo de texto deve ser semelhante a:
 
@@ -82,17 +82,17 @@ Por exemplo, se a data de ativação for definida como 24 de novembro, 9:00 da m
 
 ## Uso do Screens Launch {#using-launches}
 
-Esta seção demonstra como implementar o Screens Launch no seu projeto de AEM Screens.
+Esta seção demonstra como implementar o Screens Launch no seu projeto da AEM Screens.
 
 ### Criação de uma inicialização de telas {#creating-a-launch}
 
-Siga as etapas abaixo para implementar a funcionalidade Screens Launch no seu projeto de AEM Screens:
+Siga as etapas abaixo para implementar a funcionalidade Screens Launch no seu projeto da AEM Screens:
 
-1. Crie um canal de sequência em seu projeto de AEM Screens, por exemplo, **LaunchesDemo** —> **Canais** —> **FutureLaunch**, como mostrado abaixo.
+1. Crie um canal de sequência em seu projeto da AEM Screens, por exemplo, **LaunchesDemo** —> **Canais** —> **FutureLaunch**, como mostrado abaixo.
 
    >[!CAUTION]
    >
-   >Você deve criar uma inicialização a partir de um canal pré-existente em seu projeto de AEM Screens.
+   >Você deve criar uma inicialização a partir de um canal pré-existente no seu projeto AEM Screens.
 
    ![Imagem](/help/user-guide/assets/launches-images/launches-11.png)
 
@@ -202,6 +202,7 @@ Você pode escolher os recursos que deseja promover como parte desta promoção 
 
 Você pode excluir a inicialização usando a opção **Excluir inicialização** do painel **INICIALIZAÇÕES** PENDENTES.
 
->[ATENÇÃO]
+>[!CAUTION]
+>
 >Essa ação também excluirá todos os descendentes (inicializações aninhadas).
 
