@@ -4,9 +4,9 @@ seo-title: Replicar acionadores de dados para publicar o servidor
 description: Replicar acionadores de dados para publicar o servidor.
 seo-description: Replicar acionadores de dados para publicar o servidor.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '524'
 ht-degree: 2%
 
 ---
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # Replicação de acionadores de dados para servidores de publicação {#replicating-data-triggers}
 
-Ao usar o ContextHub e o AEM Targeting Engine para personalizar o conteúdo com base em acionadores de dados em uma configuração de autor/publicação, todas as configurações relacionadas ao ContextHub e Personalização não são replicadas automaticamente com os canais quando são publicadas.
+Ao usar o ContextHub e o AEM Targeting Engine para personalizar o conteúdo com base em acionadores de dados em uma configuração de autor/publicação, todas as configurações relacionadas ao ContextHub e à Personalização não são replicadas automaticamente com os canais quando eles são publicados.
 
-Siga esta página para saber mais sobre as etapas de manuais necessárias para publicar essas configurações separadamente.
+Siga esta página para saber as etapas de manuais necessárias para publicar essas configurações separadamente.
 
 Isso se resume basicamente à publicação manual:
 
 1. Configurações dos módulos de armazenamento e interface do usuário do ContextHub
-1. audiências de personalização
-1. atividades de personalização
+1. Audiências de personalização
+1. Atividades de personalização
 
 ## Etapas para replicar acionadores de dados para publicar o servidor {#replicating-data-triggers-publish}
 
@@ -34,14 +34,16 @@ Siga as etapas abaixo para replicar os acionadores de dados para publicar o serv
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
-   >[!Nnota]
+   >[!NOTE]
+   >
    >Como alternativa, você pode usar o para navegar `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` para a tela diretamente para configurar e testar a conexão.
 
 1. Clique em **Testar conexão** na barra de ação para validar a comunicação do autor com a instância de publicação, como mostrado na figura abaixo.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
-   >[!Nnota]
+   >[!NOTE]
+   >
    >Se o teste falhar, será necessário corrigir a configuração do agente de replicação entre a instância de autor e publicação. Consulte [Solução de problemas de conexão](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) de teste para obter mais detalhes.
 
 1. Selecione **Adicionar** na árvore de tela Agente **de** distribuição e selecione o caminho de configuração para o seu projeto, por exemplo, `/conf/screens/settings/cloudsettings/configuration`.
@@ -50,7 +52,7 @@ Siga as etapas abaixo para replicar os acionadores de dados para publicar o serv
 
 ### Replicação das Audiências {#replicating-audiences}
 
-1. Navegue até sua instância do AEM > **Personalização** > **Audiências** ou use `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` para navegar diretamente.
+1. Navegue até sua instância AEM > **Personalização** > **Audiências** ou use `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` para navegar diretamente.
 
 1. Detalhe na pasta do projeto, por exemplo, `/conf/screens/`.
 
@@ -64,7 +66,7 @@ Siga as etapas abaixo para replicar os acionadores de dados para publicar o serv
 
 ### Replicação das Atividades  {#replicating-activities}
 
-1. Navegue até sua instância do AEM > **Personalização** > **Atividades** ou use `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` para navegar diretamente.
+1. Navegue até sua instância AEM > **Personalização** > **Atividades** ou use `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` para navegar diretamente.
 
 1. Faça uma busca detalhada na sua pasta de projeto, ou seja, `/content/campaigns/screens/…`.
 
@@ -109,9 +111,9 @@ Se a conexão de teste falhar durante a replicação das configurações do Cont
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
    1. Clique em **Salvar**
-   1. Use `Cmd +F` para pesquisar o **Apache Sling Distribution Agent - Fábrica** de Agentes Encaminhados para abrir as configurações e procurar o **Transport Secret Provider**.
+   1. Use `Cmd +F` para procurar o **Apache Sling Distribution Agent - Fábrica** de Agentes Encaminhados para abrir as configurações e procurar o **Transport Secret Provider**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Atualize o `(name=default)` com `(name=slingTransportSecretProvider)`.
-   1. Clique em **Salvar** e execute a conexão de teste novamente na tela **Distribution Agent** da sua instância do AEM.
+   1. Clique em **Salvar** e execute a conexão de teste novamente na tela **Distribution Agent** da instância de AEM.
