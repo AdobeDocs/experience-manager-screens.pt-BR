@@ -2,12 +2,12 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Ajuda das telas Adobe Experience Manager
+user-guide-title: Ajuda do Adobe Experience Manager Screens
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: 5f3fc27ae60de86ae40ba71a67cdc6ff43dea4fb
+source-git-commit: 3fa254a48e780a5c20ba925644420cc36f409122
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '394'
 ht-degree: 13%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 13%
    + [Parte 5: Considerações sobre suporte](support-considerations.md)
 + Configuração e administração {#administering}
    + [Configurações do servidor do Screens](configuring-screens-introduction.md)
-   + [Configuração das configurações do Dispatcher](dispatcher-configurations-aem-screens.md)
+   + [Configuração de configurações do Dispatcher](dispatcher-configurations-aem-screens.md)
    + [Instalando o reprodutor de telas](installing-screens-player.md)
    + [Reprodutor de telas de conexão](working-with-screens-player.md)
    + [Registro do dispositivo](device-registration.md)
@@ -43,11 +43,11 @@ ht-degree: 13%
       + [Android Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
    + Author Publish {#author-publish}
-      + [Visão geral da arquitetura de publicação do autor](author-publish-architecture-overview.md)
+      + [Visão geral da arquitetura de publicação de autor](author-publish-architecture-overview.md)
       + [Configuração do autor e da publicação](author-and-publish.md)
-   + Integração Analytics com AEM Screens {#analytics-integration}
-      + [Integração do Adobe Analytics](adobe-analytics-integration-aem-screens.md)
-      + [Configuração do Adobe Analytics com AEM Screens](configuring-adobe-analytics-aem-screens.md)
+   + Integração do Analytics com o AEM Screens {#analytics-integration}
+      + [Integração Adobe Analytics](adobe-analytics-integration-aem-screens.md)
+      + [Configuração do Adobe Analytics com o AEM Screens](configuring-adobe-analytics-aem-screens.md)
 + Exemplos de casos de criação e uso {#authoring}
    + Configurando um projeto do Screens {#setting-up-projects}
       + [Criação e gerenciamento de projetos](creating-a-screens-project.md)
@@ -56,14 +56,16 @@ ht-degree: 13%
       + [Criação e gerenciamento de localizações](managing-locations.md)
       + [Criação e gerenciamento de agendamentos](managing-schedules.md)
       + [Gerenciamento de dispositivos](managing-devices.md)
-      + [Atribuição de canal](channel-assignment.md)
+      + Atribuição de canais {#assigning-channels}
+         + [Atribuição do canal: AEM 6.5.5 Screens FP e posterior](channel-assignment.md)
+         + [Atribuição do canal: FP antigo](channel-assignment.md)
    + Uso dos principais recursos do produto {#product-features}
       + [Sobreposição de texto](text-overlay.md)
       + [Atualização em massa off-line](bulk-offline-update.md)
-      + [Serviço de notificações de AEM Screens](screens-notifications-service.md)
+      + [Serviço de notificações da AEM Screens](screens-notifications-service.md)
       + [Uso de Fragmentos de experiência](experience-fragments-in-screens.md)
       + [Ativação de nível de ativo](asset-level-scheduling.md)
-      + [Ativação de nível de Canal](channel-level-activation.md)
+      + [Ativação de nível de canal](channel-level-activation.md)
       + [Criação e gerenciamento de uma Live Copy](managing-livecopy.md)
       + [Criação de um fluxo de trabalho de preenchimento de vídeo](creating-a-video-padding-workflow.md)
       + [Adição de componentes a um canal](adding-components-to-a-channel.md)
@@ -71,7 +73,7 @@ ht-degree: 13%
       + [Layout de várias zonas](multi-zone-layout-aem-screens.md)
       + [Representações de vídeo](generating-renditions.md)
       + [Sequência incorporada dinâmica](dynamic-embedded-sequences.md)
-      + [Duração da reprodução de imagem em massa no nível do Canal](channel-level-image-playback.md)
+      + [Duração da reprodução de imagem em massa no nível do canal](channel-level-image-playback.md)
       + [Sincronização de comandos](using-command-sync.md)
       + [Criação com acionadores de dados](authoring-data-triggers.md)
    + Gerenciamento de atualizações de conteúdo {#content-updates}
@@ -93,12 +95,12 @@ ht-degree: 13%
    + [Canais off-line](offline-channels.md)
    + [Extensão de um componente AEM Screens](extending-component-tutorial-develop.md)
    + [Criação de componentes](creating-components.md)
-   + [Incorporação de um aplicativo REACT usando o editor SPA AEM e integração com o AEM Screens Analytics](embedding-react-app.md)
-   + [Configuração do ContextHub em AEM Screens](configuring-context-hub.md)
+   + [Incorporação de um aplicativo REACT usando AEM editor SPA e integração com o AEM Screens Analytics](embedding-react-app.md)
+   + [Configuração do ContextHub no AEM Screens](configuring-context-hub.md)
    + [Criação de modelos personalizados para layouts de várias zonas](creating-custom-templates-multizone-layouts.md)
    + [Aplicação de marca personalizada e estilo para sobreposições de texto](custom-branding-text-overlays.md)
 + Solução de problemas e perguntas frequentes {#troubleshooting}
-   + [Perguntas frequentes sobre AEM Screens](aem-screens-faqs.md)
+   + [Perguntas frequentes da AEM Screens](aem-screens-faqs.md)
    + [Solução de problemas do Device Control Center](monitoring-screens.md)
    + [Configuração de reprodução de vídeo](troubleshoot-videos.md)
 + Notas de versão {#release-notes}
