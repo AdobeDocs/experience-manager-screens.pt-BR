@@ -3,17 +3,20 @@ title: Atribuição de canal
 seo-title: Atribuição de canal
 description: Siga esta página para saber mais sobre Atribuição de Canais e Programação de anúncios.
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 42%
+source-wordcount: '1218'
+ht-degree: 45%
 
 ---
 
 
 # Atribuição de canal {#channel-assignment}
 
-Depois de definir uma exibição, é necessário atribuir um canal a uma exibição.
+>[!IMPORTANT]
+>Esta seção destaca a atribuição de Canais e o agendamento de canais para Pacotes de recursos anteriores à versão AEM 6.5.5 Screens.
+
+Depois de configurar uma exibição, é necessário atribuir um canal a uma exibição para visualização do conteúdo.
 
 Esta página mostra como atribuir um canal à sua exibição.
 
@@ -23,10 +26,6 @@ Esta página mostra como atribuir um canal à sua exibição.
 ## Assigning a Channel {#assign-a-channel}
 
 Siga as etapas abaixo para atribuir um canal a uma exibição:
-
->[!IMPORTANT]
->
->A caixa de diálogo a seguir para atribuição de canais é diferente para a versão do Feature Pack do Adobe Experience 6.5.5 e superior. Consulte Atribuição de [Canais](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) para obter mais detalhes.
 
 1. Navegue até a exibição desejada, por exemplo, **DemoProject** —> **Locais** —> **SanJose** —> **StoreDisplay**.
 
@@ -42,31 +41,10 @@ Siga as etapas abaixo para atribuir um canal a uma exibição:
 
    Você pode configurar as propriedades na caixa de diálogo Atribuição de **Canais** na seção abaixo. Consulte a seção Propriedades [do](#channel-properties) Canal para saber mais sobre as propriedades do canal.
 
-## Atribuição de um Canal para o Pacote de recursos do AEM 6.5.5 Screens {#assign-a-channel-new-release}
 
-Siga as etapas abaixo para atribuir um canal a uma exibição:
+## Como entender as propriedades do Canal da atribuição do Canal {#channel-properties}
 
-1. Navegue até a exibição desejada, por exemplo, **DemoProject** —> **Locais** —> **SanJose** —> **StoreDisplay**.
-
-
-1. Tap/click **Assign Channel** from the action bar
-
-   Ou,
-
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
-
-1. Na opção Configuração, é possível escolher o canal por caminho ou por nome, inserir a função do canal, a prioridade, os Eventos suportados.
-
-   >[!NOTE]
-   >Consulte a seção Propriedades [do](#channel-properties) Canal para saber mais sobre as propriedades do canal.
-
-1. Na opção **Programações** , selecione o Fuso horário **de** referência, a Janela **de** Ativação e a Programação **de** recorrência.
-
-1. Clique em **Salvar** depois de configurar suas preferências.
-
-### Como entender as propriedades do Canal da atribuição do Canal {#channel-properties}
-
-#### Fazer referência ao canal {#ref-channel}
+### Fazer referência ao canal {#ref-channel}
 
 A opção Fazer referência ao canal permite que você forneça uma referência ao canal desejado, seja por nome ou por caminho do canal.
 
@@ -74,25 +52,25 @@ A opção Fazer referência ao canal permite que você forneça uma referência 
 
 * **pelo nome**: Insira o nome do canal que será resolvido para um canal real por contexto. Esse recurso permite que você crie a versão local de um canal para resolver dinamicamente o conteúdo específico da localização. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-#### Função de canal {#role-channel}
+### Função de canal {#role-channel}
 
 A função de canal define o contexto da exibição. A função é o alvo de várias ações e não depende do canal real que a atende.
 
-#### Prioridade {#priority-channel}
+### Prioridade {#priority-channel}
 
 A prioridade é usada para ordenar as atribuições, no caso de várias delas corresponderem aos critérios de reprodução. A atribuição com o valor mais alto sempre terá precedência sobre aquelas com valores mais baixos. Por exemplo, se houver dois canais, A e B, em que A tem uma prioridade de 1 e B tem uma prioridade de 2, o canal B será exibido, pois tem uma prioridade mais alta que A.
 
 >[!NOTE]
 >A prioridade de um canal é definida como um número (1 para o valor mínimo) na caixa de diálogo **Atribuição de canal**, conforme mencionado acima. Além disso, os canais atribuídos são classificados com base em uma prioridade decrescente.
 
-#### Eventos compatíveis {#supported-events-channel}
+### Eventos compatíveis {#supported-events-channel}
 
 * **Carga inicial**: carrega o canal quando o player é iniciado. Esse evento pode ser atribuído a vários canais em combinação com o agendamento
 * **Tela inativa**: carregado quando a tela está inativa. Esse evento pode ser atribuído a vários canais em combinação com o agendamento
 * **Temporizador**: precisa ser definido quando um agendamento é fornecido
 * **Interação do usuário**: o player mudará para o canal especificado se houver uma interação de usuário na tela (toque) em um canal inativo e será carregado quando a tela for tocada
 
-#### Método de interrupção {#interruption-method-channel}
+### Método de interrupção {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -111,7 +89,7 @@ Selecione uma das seguintes opções disponíveis para definir o método de inte
    >[!NOTE]
    >Usar a segunda ou a terceira opção pode resultar em tempos de programação definidos na atribuição ligeiramente adiados, já que o player aguardará o fim do item ou da sequência (após o tempo especificado) antes de atualizar. O atraso dependerá da duração da reprodução do item.
 
-#### Agendamento {#schedule-channel}
+### Agendamento {#schedule-channel}
 
 o agendamento permite que você forneça uma descrição no texto informando quando o canal deve aparecer. Ele também permite definir uma data de início (**ativo desde**) e uma data de término (**ativo até**) para o canal a ser mostrado.
 
@@ -191,7 +169,7 @@ Este exemplo mostra a programação para uma loja que exibe sua coleção de inv
 | B | Natal | 2 | 24 de dez de 2017 - 31 de dez de 2017 |
 
 
->[!IMPORTANT]
+>[!NOTE]
 >
 > Para saber mais sobre a programação de anúncios, consulte as seções abaixo:
 >
