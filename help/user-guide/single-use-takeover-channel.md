@@ -90,21 +90,20 @@ Siga as etapas abaixo para configurar um projeto:
    * **Caminho** do Canal: Selecione o caminho para o canal TakeOver
    * **Prioridade**: Defina a prioridade deste canal maior que o **MainAdChannel**. Por exemplo, a prioridade definida neste exemplo é 8.
       >[!NOTE]
+      >Prioridade pode ser qualquer valor maior que o valor de prioridade do canal que está sendo reproduzido normalmente.
+   * **Eventos** suportados: Selecione Tela **inativa** e **Temporizador**.
+   **Agendamento**: Insira o texto para o agendamento no qual você deseja que este canal execute a exibição. Por exemplo, o texto aqui permite que o conteúdo seja reproduzido 2 minutos antes das 12:00 da manhã de 31 de dezembro até as 12:01 da manhã.
+   O texto da **Agenda** mencionada neste exemplo é *no dia 31 de dezembro depois das 23:58 e também no dia 1 de janeiro antes das 00:01*.
+
+      ![ativo](assets/single-takeover8.png)
+
+      Navegue até a exibição de **SingleUseTakeOver** —> **Locations** —> **Lobby** —> **MainLobbyDisplay** e clique no **Painel** da barra de ação para visualização dos canais atribuídos com suas prioridades, como mostrado abaixo.
+
       >[!NOTE]
+      >É obrigatório definir a prioridade mais elevada do canal de aquisição.
 
-   * **Prioridade pode ser qualquer valor maior que o valor de prioridade do canal que está sendo reproduzido normalmente.**********
-   * **Eventos** suportados: Selecione Tela **** inativa e **Temporizador**.
-
-      **Agendamento**: Insira o texto para o agendamento no qual você deseja que este canal execute a exibição. Por exemplo, o texto aqui permite que o conteúdo seja reproduzido 2 minutos antes das 12:00 da manhã de 31 de dezembro até as 12:01 da manhã.
-O texto da **Agenda** mencionada neste exemplo é *no dia 31 de dezembro depois das 23:58 e também no dia 1 de janeiro antes das 00:01*.
-
-      ![ativo](assets/single-takeover8.png)****************
-
-      >Navegue até a exibição de **SingleUseTakeOver** —> **Locations** —> **Lobby** —> **MainLobbyDisplay** e clique no **Painel** da barra de ação para visualização dos canais atribuídos com suas prioridades, como mostrado abaixo.      >[!NOTE]
-
-
-      ![É obrigatório definir a prioridade mais elevada do canal de aquisição.](assets/single-takeover9.png)
+      ![ativo](assets/single-takeover9.png)
 
 >[!NOTE]
 >
->![ativo](assets/single-takeover9.png)
+>It is a best practice to delete the Single Use TakeOver channel, once it plays.
