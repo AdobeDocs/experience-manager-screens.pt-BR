@@ -3,10 +3,10 @@ title: Atribuição de canais - FP mais recente
 seo-title: Atribuição de canais - FP mais recente
 description: Siga esta página para saber mais sobre Atribuição de Canais e Programação de anúncios.
 translation-type: tm+mt
-source-git-commit: 1c6a7342288a5d78dbea91d29ff8e5d6c8fec486
+source-git-commit: c022e583a52d68e20d7916a8f02341905bb957b6
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 31%
+source-wordcount: '1495'
+ht-degree: 28%
 
 ---
 
@@ -80,41 +80,55 @@ Depois que a configuração do projeto for concluída, será necessário atribui
    >[!NOTE]
    >Consulte a seção Propriedades [do](#channel-properties) Canal para saber mais sobre as propriedades do canal.
 
-1. Na opção **Programações** , selecione o Fuso horário **de** referência, a Janela **de** Ativação e a Programação **de** recorrência.
+1. Na opção **Programações** , selecione o Fuso horário **de** referência, a Janela **de** Ativação e a Programação **de**recorrência.
+   ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+   >[!NOTE]
+   >Consulte a seção Propriedades [do](#channel-properties) Canal para saber mais sobre as propriedades do canal.
 
 1. Clique em **Salvar** depois de configurar suas preferências.
 
 ### Exibição do conteúdo no Chrome Player {#viewing-content-output}
 
+Este exemplo mostra a saída em um Chrome Player. Depois de atribuir o canal ao seu monitor, você deve registrar o dispositivo em um player.
+
+Consulte Registro [do](device-registration.md) dispositivo para saber como registrar um dispositivo em um player AEM Screens.
+
+Você visualização a seguinte saída na sua escolha do player:
+
 ### Como entender as propriedades do Canal da atribuição do Canal {#channel-properties}
 
-### Fazer referência ao canal {#ref-channel}
+As seguintes propriedades são definidas na opção **Configurações** na caixa de diálogo Atribuição **de** Canais.
 
-A opção Fazer referência ao canal permite que você forneça uma referência ao canal desejado, seja por nome ou por caminho do canal.
+![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+#### Selecionar um canal {#select-channel}
+
+Selecionar um canal permite fornecer uma referência ao canal desejado, seja por nome de canal ou por caminho de canal.
 
 * **por caminho**: você fornece uma referência explícita usando o caminho absoluto do canal.
 
 * **pelo nome**: Insira o nome do canal que será resolvido para um canal real por contexto. Esse recurso permite que você crie a versão local de um canal para resolver dinamicamente o conteúdo específico da localização. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-### Função de canal {#role-channel}
+#### Função de canal {#role-channel}
 
 A função de canal define o contexto da exibição. A função é o alvo de várias ações e não depende do canal real que a atende.
 
-### Prioridade {#priority-channel}
+#### Prioridade {#priority-channel}
 
 A prioridade é usada para ordenar as atribuições, no caso de várias delas corresponderem aos critérios de reprodução. A atribuição com o valor mais alto sempre terá precedência sobre aquelas com valores mais baixos. Por exemplo, se houver dois canais, A e B, em que A tem uma prioridade de 1 e B tem uma prioridade de 2, o canal B será exibido, pois tem uma prioridade mais alta que A.
 
 >[!NOTE]
 >A prioridade de um canal é definida como um número (1 para o valor mínimo) na caixa de diálogo **Atribuição de canal**, conforme mencionado acima. Além disso, os canais atribuídos são classificados com base em uma prioridade decrescente.
 
-### Eventos compatíveis {#supported-events-channel}
+#### Eventos compatíveis {#supported-events-channel}
 
 * **Carga inicial**: carrega o canal quando o player é iniciado. Esse evento pode ser atribuído a vários canais em combinação com o agendamento
 * **Tela inativa**: carregado quando a tela está inativa. Esse evento pode ser atribuído a vários canais em combinação com o agendamento
 * **Temporizador**: precisa ser definido quando um agendamento é fornecido
 * **Interação do usuário**: o player mudará para o canal especificado se houver uma interação de usuário na tela (toque) em um canal inativo e será carregado quando a tela for tocada
 
-### Método de interrupção {#interruption-method-channel}
+#### Método de interrupção {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -132,3 +146,73 @@ Selecione uma das seguintes opções disponíveis para definir o método de inte
 
    >[!NOTE]
    >Usar a segunda ou a terceira opção pode resultar em tempos de programação definidos na atribuição ligeiramente adiados, já que o player aguardará o fim do item ou da sequência (após o tempo especificado) antes de atualizar. O atraso dependerá da duração da reprodução do item.
+
+
+As seguintes propriedades são definidas na opção **Agendar** na caixa de diálogo Atribuição **de** Canais.
+
+#### Fuso horário de referência {#reference-timezone}
+
+O fuso horário de referência permite selecionar o fuso horário para a exibição do conteúdo.
+
+#### Janela de ativação {#activation-window}
+
+A janela Ativação permite selecionar uma data **de** Start e uma data **de** término para exibir seu conteúdo.
+
+#### Programação de recorrência {#recurrence-schedule}
+
+A Programação de recorrência permite definir uma programação recorrente para o seu conteúdo. Clique em **+ Adicionar agendamento** para adicionar um agendamento de recorrência ao seu canal.
+
+>[!NOTE]
+>Você pode adicionar várias programações recorrentes ao seu canal.
+>Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+
+É possível definir as seguintes opções:
+
+* **Nome**: Título do seu agendamento de recorrência.
+* **Repetir**: Escolha se a programação é executada **Diariamente**, **Semanalmente**, **Mensalmente** ou **Anualmente**.
+* **Start**: A hora do start para o seu horário.
+* **Fim**: A hora de término do seu agendamento. Você pode defini-lo por:
+* **Hora**: O agendamento terminará em um horário especificado.
+* **Duração**: O agendamento é executado por uma duração específica em horas ou minutos.
+
+### DayParting {#dayparting}
+
+A Segmentação de dia refere-se ao processo de dividir um dia em períodos de tempo e especificar qual conteúdo é reproduzido no horário desejado. A AEM Screens permite que você programe canais em termos de DayParting em um dia, semana ou mês de acordo com a necessidade.
+
+Os exemplos a seguir explicam DayParting em canais em três cenários diferentes:
+
+#### Reprodução do conteúdo em um único dia, dividido em vários períodos de tempo {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+
+Este exemplo mostra como um Restaurante usa o DayParting para mostrar seu café da manhã, almoço e menu de jantar todos os dias.
+
+Aqui, dividiremos cada dia em três períodos de tempo diferentes, para que o conteúdo do canal seja reproduzido de acordo com o horário do dia especificado. O definirá as seguintes propriedades da Programação de recorrência para reproduzir o conteúdo conforme este caso de uso.
+
+| **Nome** | **Repetir** | **Início** | **End** |
+|---|---|---|---|
+| Café da manhã | Diariamente | 06:00 | 11:00 |
+| Café da manhã | Diariamente | 11:02 | 15:00 |
+| Café da manhã | Diariamente | 15:01 | 20:00 |
+
+#### Reprodução do conteúdo em um determinado dia da semana {#playing-content-on-a-particular-day-of-the-week}
+
+Este exemplo mostra o DayParting alcançado em um casino onde o evento ao vivo ocorre todo fim de semana, das 20h às 22h e os especiais estão disponíveis para o menu do jantar depois das 22h até às 13h.
+
+
+#### Reprodução do conteúdo para um ou mais meses específicos {#playing-content-for-a-particular-month-months}
+
+Este exemplo mostra o DayParting para uma loja que exibe sua coleção de verão dos meses de junho a agosto e a coleção de outono de setembro até o final de outubro.
+
+Aqui, você criará DayParting como por mês, para que o conteúdo do canal seja reproduzido conforme os meses especificados do ano.
+
+
+>[!NOTE]
+>
+>Além disso, você pode definir uma ***Prioridade*** para cada um dos canais. Por exemplo, se dois canais forem definidos para o mesmo dia e horário ou para o mesmo mês, o canal com prioridade mais alta será reproduzido primeiro. O valor mínimo para a prioridade pode ser definido como 0.
+
+#### Reprodução do conteúdo para canais com a mesma prioridade {#playing-content-for-channels-with-same-priority}
+
+Este exemplo mostra o DayParting para uma loja que exibe sua coleção de inverno com a mesma programação no mês de dezembro. Porém, como o Canal B tem a prioridade definida como 2, na semana em questão, ele reproduzirá seu conteúdo no lugar do Canal A.
+
+
+
+
