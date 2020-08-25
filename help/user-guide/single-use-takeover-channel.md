@@ -105,6 +105,6 @@ O texto da **Agenda** mencionada neste exemplo é *no dia 31 de dezembro depois 
 
       ![É obrigatório definir a prioridade mais elevada do canal de aquisição.](assets/single-takeover9.png)
 
->![ativo](assets/single-takeover9.png)
->
 >[!NOTE]
+>
+>![ativo](assets/single-takeover9.png)
