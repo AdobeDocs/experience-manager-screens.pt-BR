@@ -3,10 +3,10 @@ title: Atribuição de canais - FP mais recente
 seo-title: Atribuição de canais - FP mais recente
 description: Siga esta página para saber mais sobre Atribuição de Canais e Programação de anúncios.
 translation-type: tm+mt
-source-git-commit: c022e583a52d68e20d7916a8f02341905bb957b6
+source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 28%
+source-wordcount: '1548'
+ht-degree: 26%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 28%
 # Atribuição de canal {#channel-assignment}
 
 >[!IMPORTANT]
->Esta seção destaca a atribuição de Canais e o agendamento de canais para o AEM 6.5.5 Screens Feature Pack e posterior.
+>Esta seção destaca a atribuição de canais e o agendamento de canais para o AEM 6.5.5 Screens Feature Pack e posterior.
 
 Depois de configurar uma exibição, é necessário atribuir um canal a uma exibição para visualização do conteúdo.
 
@@ -73,18 +73,18 @@ Depois que a configuração do projeto for concluída, será necessário atribui
 
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. Na opção **Configurações** , é possível escolher o canal por caminho ou por nome, inserir a função do canal, a prioridade, os eventos suportados e os métodos de interrupção. Além disso, é possível ativar a opção de dica de ferramenta de atração nessa caixa de diálogo.
+1. Na opção **Configurações** , você pode escolher o canal por caminho ou nome, digitar a Função **do** Canal, **Prioridade**, Eventos **** suportados e Métodos **de** interrupção. Além disso, você pode ativar a dica de ferramenta **Atração** nessa caixa de diálogo.
 
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >Consulte a seção Propriedades [do](#channel-properties) Canal para saber mais sobre as propriedades do canal.
+   >Consulte a seção Propriedades [do](#channel-properties) Canal para saber mais sobre as propriedades de atribuição do canal.
 
 1. Na opção **Programações** , selecione o Fuso horário **de** referência, a Janela **de** Ativação e a Programação **de**recorrência.
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >Consulte a seção Propriedades [do](#channel-properties) Canal para saber mais sobre as propriedades do canal.
+   >Consulte a seção Propriedades [do](#channel-properties) Canal para saber mais sobre as propriedades de atribuição do canal.
 
 1. Clique em **Salvar** depois de configurar suas preferências.
 
@@ -96,7 +96,9 @@ Consulte Registro [do](device-registration.md) dispositivo para saber como regis
 
 Você visualização a seguinte saída na sua escolha do player:
 
-### Como entender as propriedades do Canal da atribuição do Canal {#channel-properties}
+![new1](assets/channel-assignment/channel-assign-output.gif)
+
+### Noções Gerais das Propriedades do Canal na Caixa de Diálogo Atribuição do Canal {#channel-properties}
 
 As seguintes propriedades são definidas na opção **Configurações** na caixa de diálogo Atribuição **de** Canais.
 
@@ -185,18 +187,27 @@ Os exemplos a seguir explicam DayParting em canais em três cenários diferentes
 
 Este exemplo mostra como um Restaurante usa o DayParting para mostrar seu café da manhã, almoço e menu de jantar todos os dias.
 
-Aqui, dividiremos cada dia em três períodos de tempo diferentes, para que o conteúdo do canal seja reproduzido de acordo com o horário do dia especificado. O definirá as seguintes propriedades da Programação de recorrência para reproduzir o conteúdo conforme este caso de uso.
+Aqui, dividiremos cada dia em intervalos de tempo diferentes, para que o conteúdo do canal seja reproduzido conforme a hora especificada do dia. Defina as seguintes propriedades da Programação de recorrência para reproduzir o conteúdo conforme esse caso de uso.
 
 | **Nome** | **Repetir** | **Início** | **End** |
 |---|---|---|---|
 | Café da manhã | Diariamente | 06:00 | 11:00 |
-| Café da manhã | Diariamente | 11:02 | 15:00 |
-| Café da manhã | Diariamente | 15:01 | 20:00 |
+| Almoço | Diariamente | 11:02 | 15:00 |
+| Jantar | Diariamente | 15:01 | 20:00 |
 
 #### Reprodução do conteúdo em um determinado dia da semana {#playing-content-on-a-particular-day-of-the-week}
 
-Este exemplo mostra o DayParting alcançado em um casino onde o evento ao vivo ocorre todo fim de semana, das 20h às 22h e os especiais estão disponíveis para o menu do jantar depois das 22h até às 13h.
+Este exemplo mostra o DayParting implementado em um casino onde o evento ao vivo ocorre todo fim de semana, das 20h às 22h e os especiais estão disponíveis para o menu do jantar depois das 22h até às 13h.
 
+| **Nome** | **Repetir** | **Início** | **End** |
+|---|---|---|---|
+| Final de semana | Semanalmente | 20:00 | 22:00 |
+| Especial | Diariamente | 22:00 | 01:00 |
+
+**Final de semana**
+
+
+**Especial**
 
 #### Reprodução do conteúdo para um ou mais meses específicos {#playing-content-for-a-particular-month-months}
 
@@ -213,6 +224,11 @@ Aqui, você criará DayParting como por mês, para que o conteúdo do canal seja
 
 Este exemplo mostra o DayParting para uma loja que exibe sua coleção de inverno com a mesma programação no mês de dezembro. Porém, como o Canal B tem a prioridade definida como 2, na semana em questão, ele reproduzirá seu conteúdo no lugar do Canal A.
 
+## Timeline View {#timeline-view}
+
+Depois de atribuir um canal a uma exibição e configurar um agendamento de recorrência, você pode visualização a linha do tempo do painel CANAIS **ATRIBUÍDOS e AGENDAMENTOS** .
+
+Siga as etapas abaixo para navegar até a visualização da linha do tempo:
 
 
 
