@@ -3,10 +3,10 @@ title: Atribuição de canais - FP mais recente
 seo-title: Atribuição de canais - FP mais recente
 description: Siga esta página para saber mais sobre Atribuição de Canais e Programação de anúncios.
 translation-type: tm+mt
-source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
+source-git-commit: 1c6a7342288a5d78dbea91d29ff8e5d6c8fec486
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 37%
+source-wordcount: '895'
+ht-degree: 31%
 
 ---
 
@@ -23,20 +23,59 @@ Esta página mostra como atribuir um canal à sua exibição.
 >[!NOTE]
 >É possível atribuir vários canais a uma exibição.
 
+
 ## Assigning a Channel {#assign-a-channel-new-release}
 
-Siga as etapas abaixo para atribuir um canal a uma exibição:
+Siga as seções abaixo para criar um projeto AEM Screens e atribuir um canal a uma tela.
 
-1. Navegue até a exibição desejada, por exemplo, **DemoProject** —> **Locais** —> **SanJose** —> **StoreDisplay**.
+### Criação de um projeto e Canais da AEM Screens {#creating-project}
 
+Siga as etapas abaixo para configurar um projeto e um canal:
 
-1. Tap/click **Assign Channel** from the action bar
+1. Crie um projeto da AEM Screens intitulado como **DemoScreens**.
+
+   ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
+
+   >[!NOTE]
+   >Consulte [Criação e gerenciamento de projetos](creating-a-screens-project.md) para saber como criar um projeto da AEM Screens.
+
+1. Crie um canal de sequência chamado **Cafeteria** na pasta **Canais** .
+
+1. Selecione o canal e clique em **Editar** na barra de ações para adicionar conteúdo ao seu canal.
+
+   ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
+
+   Por exemplo, o canal **Cafeteria** agora exibe as seguintes imagens:
+
+   ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
+
+1. Crie um local chamado **SanJose** e uma tela como **Sala de espera**.
+
+   ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
+
+### Atribuindo Canal a uma exibição {#assigning-channel-to-display}
+
+Depois que a configuração do projeto for concluída, será necessário atribuir o canal a uma exibição para visualização do conteúdo.
+
+1. Navegue até a exibição desejada, por exemplo, **DemoScreens** —> **Locais** —> **SanJose** —> **Sala de espera**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Ou,
 
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
+   Toque/clique em **Painel** e clique em **+Atribuir Canal** no painel CANAIS **ATRIBUÍDOS e AGENDAMENTOS** .
 
-1. Na opção Configuração, é possível escolher o canal por caminho ou por nome, inserir a função do canal, a prioridade, os Eventos suportados.
+   ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
+
+1. The **Channel Assignment** dialog box opens.
+
+   ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+1. Na opção **Configurações** , é possível escolher o canal por caminho ou por nome, inserir a função do canal, a prioridade, os eventos suportados e os métodos de interrupção. Além disso, é possível ativar a opção de dica de ferramenta de atração nessa caixa de diálogo.
+
+   ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >Consulte a seção Propriedades [do](#channel-properties) Canal para saber mais sobre as propriedades do canal.
@@ -45,7 +84,9 @@ Siga as etapas abaixo para atribuir um canal a uma exibição:
 
 1. Clique em **Salvar** depois de configurar suas preferências.
 
-## Como entender as propriedades do Canal da atribuição do Canal {#channel-properties}
+### Exibição do conteúdo no Chrome Player {#viewing-content-output}
+
+### Como entender as propriedades do Canal da atribuição do Canal {#channel-properties}
 
 ### Fazer referência ao canal {#ref-channel}
 
