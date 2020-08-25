@@ -3,10 +3,10 @@ title: Atribuição de canal
 seo-title: Atribuição de canal
 description: Siga esta página para saber mais sobre Atribuição de Canais e Programação de anúncios.
 translation-type: tm+mt
-source-git-commit: ae823357be22c45150b0687252cbd58b8022508b
+source-git-commit: 39da8293fb64321fdb28acaa67be579483ba4f0d
 workflow-type: tm+mt
 source-wordcount: '1215'
-ht-degree: 45%
+ht-degree: 43%
 
 ---
 
@@ -97,9 +97,9 @@ o agendamento permite que você forneça uma descrição no texto informando qua
 
 Mostrar dica de ferramenta da atração define se a dica de ferramenta de atração (“*Toque em qualquer lugar para começar*”) deve ser mostrada ou não enquanto o canal está em execução.
 
-### Programação {#dayparting}
+### DayParting {#dayparting}
 
-Schedules when combined with **Day-parting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Schedules when combined with **DayParting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 A Segmentação de dia refere-se ao processo de dividir um dia em períodos de tempo e especificar qual conteúdo é reproduzido no horário desejado. A AEM Screens permite programar canais em termos de programação de anúncios em um dia, semana ou mês, de acordo com a necessidade.
 
@@ -119,7 +119,7 @@ Aqui, dividiremos cada dia em três períodos de tempo diferentes, para que o co
 
 #### Reprodução do conteúdo em um determinado dia da semana {#playing-content-on-a-particular-day-of-the-week}
 
-Este exemplo mostra a segmentação de dia feita em um cassino que apresenta um evento ao vivo todos os finais de semana, das 20h às 22h, e disponibiliza opções especiais para o menu do jantar das 22h à 1h da manhã.
+Este exemplo mostra o dayParting alcançado em um casino onde o evento ao vivo ocorre todo fim de semana, das 20h às 22h e os especiais estão disponíveis para o menu do jantar depois das 22h até às 13h.
 
 <table>
  <tbody>
@@ -146,7 +146,7 @@ Este exemplo mostra a segmentação de dia feita em um cassino que apresenta um 
 
 #### Reprodução do conteúdo para um ou mais meses específicos {#playing-content-for-a-particular-month-months}
 
-Este exemplo mostra a programação de uma loja que exibe sua coleção de verão dos meses de junho a agosto e a coleção de outono de setembro até o final de outubro.
+Este exemplo mostra o DayParting para uma loja que exibe sua coleção de verão dos meses de junho a agosto e a coleção de outono de setembro até o final de outubro.
 
 Aqui, você criará anúncios por mês, para que o conteúdo do canal seja reproduzido conforme os meses especificados do ano.
 
@@ -161,7 +161,7 @@ Aqui, você criará anúncios por mês, para que o conteúdo do canal seja repro
 
 #### Reprodução do conteúdo para canais com a mesma prioridade {#playing-content-for-channels-with-same-priority}
 
-Este exemplo mostra a programação para uma loja que exibe sua coleção de inverno com a mesma programação no mês de dezembro. Porém, como o Canal B tem a prioridade definida como 2, na semana em questão, ele reproduzirá seu conteúdo no lugar do Canal A.
+Este exemplo mostra o DayParting para uma loja que exibe sua coleção de inverno com a mesma programação no mês de dezembro. Porém, como o Canal B tem a prioridade definida como 2, na semana em questão, ele reproduzirá seu conteúdo no lugar do Canal A.
 
 | **Canal** | **Função** | **Prioridade** | **Agendamento** |
 |---|---|---|---|
@@ -171,7 +171,7 @@ Este exemplo mostra a programação para uma loja que exibe sua coleção de inv
 
 >[!NOTE]
 >
-> Para saber mais sobre a programação de anúncios, consulte as seções abaixo:
+> Para saber mais sobre o DayParting, consulte as seções abaixo:
 >
 >* [Tratamento de recorrência em ativos](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Tratamento da recorrência de ativos em um Canal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
