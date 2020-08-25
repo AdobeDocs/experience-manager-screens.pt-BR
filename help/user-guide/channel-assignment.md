@@ -3,9 +3,9 @@ title: Atribuição de canal
 seo-title: Atribuição de canal
 description: Siga esta página para saber mais sobre Atribuição de Canais e Programação de anúncios.
 translation-type: tm+mt
-source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
+source-git-commit: ae823357be22c45150b0687252cbd58b8022508b
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1215'
 ht-degree: 45%
 
 ---
@@ -29,7 +29,7 @@ Siga as etapas abaixo para atribuir um canal a uma exibição:
 
 1. Navegue até a exibição desejada, por exemplo, **DemoProject** —> **Locais** —> **SanJose** —> **StoreDisplay**.
 
-   ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
+   ![imagem](assets/screen_shot_2018-08-23at25359pm.png)
 
 1. Tap/click **Assign Channel** in the action bar
 
