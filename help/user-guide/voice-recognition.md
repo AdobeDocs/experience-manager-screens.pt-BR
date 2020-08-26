@@ -2,10 +2,10 @@
 title: Reconhecimento de voz no AEM Screens
 description: A página descreve o recurso de reconhecimento de voz no AEM Screens.
 translation-type: tm+mt
-source-git-commit: cbf50b5c530b51d2926d9fdacef25dabcd28d605
+source-git-commit: b7d7d4ec200d3eb7cd7bac4253c8664e5bd4de81
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 1%
+source-wordcount: '847'
+ht-degree: 3%
 
 ---
 
@@ -81,7 +81,7 @@ Siga as etapas abaixo para adicionar tags ao seu canal:
 
 1. Navegue até a guia **Noções básicas** e selecione uma tag já existente no campo **Tags** ou crie uma nova.
 
-   Você pode criar uma nova tag digitando um novo nome para ela, como mostra a figura abaixo:
+   Você pode criar uma nova tag digitando um novo nome para sua tag e tecla de ocorrência, como mostra a figura abaixo: `return`
 
    ![imagem](assets/voice-recognition/vr-6.png)
 
@@ -122,9 +122,11 @@ Siga as etapas abaixo para criar tags:
 
 1. Defina as seguintes propriedades para cada um dos canais, enquanto atribui o canal.
 
-   * Principal
-   * HotBeks
-   * Bebidas frias
+   | **Nome do canal** | **Prioridade** | **Eventos compatíveis** |
+   |---|---|---|
+   | Principal | 2 | Carga inicial, Tela inativa, Temporizador |
+   | HotBeks | 1 | Interação do usuário |
+   | Bebidas frias | 1 | Interação do usuário |
 
    >[!NOTE]
    >
