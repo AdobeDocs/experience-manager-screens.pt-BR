@@ -3,10 +3,10 @@ title: Atribuição de canais - FP mais recente
 seo-title: Atribuição de canais - FP mais recente
 description: Siga esta página para saber mais sobre Atribuição de Canais e Programação de anúncios.
 translation-type: tm+mt
-source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
+source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 26%
+source-wordcount: '1551'
+ht-degree: 25%
 
 ---
 
@@ -187,7 +187,7 @@ Os exemplos a seguir explicam DayParting em canais em três cenários diferentes
 
 Este exemplo mostra como um Restaurante usa o DayParting para mostrar seu café da manhã, almoço e menu de jantar todos os dias.
 
-Aqui, dividiremos cada dia em intervalos de tempo diferentes, para que o conteúdo do canal seja reproduzido conforme a hora especificada do dia. Defina as seguintes propriedades da Programação de recorrência para reproduzir o conteúdo conforme esse caso de uso.
+Aqui, dividiremos cada dia em intervalos de tempo diferentes, para que o conteúdo do canal seja reproduzido conforme a hora especificada do dia. Defina as seguintes propriedades da Programação de recorrência para que seu canal reproduza o conteúdo de acordo com este caso de uso.
 
 | **Nome** | **Repetir** | **Início** | **End** |
 |---|---|---|---|
