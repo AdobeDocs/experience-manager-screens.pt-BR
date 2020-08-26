@@ -2,15 +2,22 @@
 title: Reconhecimento de voz no AEM Screens
 description: A página descreve o recurso de reconhecimento de voz no AEM Screens.
 translation-type: tm+mt
-source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
+source-git-commit: cbf50b5c530b51d2926d9fdacef25dabcd28d605
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 2%
+source-wordcount: '827'
+ht-degree: 1%
 
 ---
 
 
 # Reconhecimento de voz no AEM Screens {#voice-recognition}
+
+>[IMPORTANTE]
+>**Informações importantes sobre privacidade**
+>Ao usar o recurso de Reconhecimento de voz, siga todas as diretrizes legais e éticas aplicáveis à sua região (incluindo, mas não se limitando a, fornecer um aviso visível aos usuários finais de que o player está usando o Reconhecimento de voz). A Adobe Inc. não recebe, armazena ou processa nenhuma das informações relacionadas à voz. Os players AEM Screens usam a API de fala da Web padrão integrada ao mecanismo de navegação. Nos bastidores, uma forma de onda de seu discurso é enviada aos servidores do Google para conversão de fala em texto e esse texto é correspondido pelo player em relação às palavras-chave configuradas.
+>
+>Consulte o White paper [Google Privacy sobre API](https://www.google.com/chrome/privacy/whitepaper.html#speech) de fala na Web para obter mais detalhes.
+
 
 ## Visão geral {#overview}
 
@@ -80,30 +87,44 @@ Siga as etapas abaixo para adicionar tags ao seu canal:
 
    Ou,
 
-   Você pode criar tags de sua instância AEM antecipadamente para seu projeto e selecioná-las também.
+   Você pode criar tags de sua instância AEM antecipadamente para seu projeto e selecioná-las também. Depois de seguir as etapas explicadas em [Criar tags](#creating-tags), você pode selecionar a tag do local e adicioná-la ao seu canal, como mostra a figura abaixo:
 
-   Siga as etapas abaixo para criar tags:
-
-   1. Navegue até sua instância AEM.
-   1. Clique em ferramentas —> **Marcação**.
-      ![imagem](assets/voice-recognition/vr-7.png)
+   ![imagem](assets/voice-recognition/vr-tag1.png)
 
 1. Clique em **Salvar e fechar** quando terminar.
 
-Da mesma forma, adicione uma tag chamada de **quente** ao canal **HotDrinks** e **frio** ao canal **ColdDrinks** .
+Da mesma forma, adicione a tag denominada **hot** ao canal **HotDrinks** .
 
-### Atribuindo Canal a uma exibição {#channel-assignment}
+#### Criação de tags {#creating-tags}
+
+Siga as etapas abaixo para criar tags:
+
+1. Navegue até sua instância AEM.
+1. Clique em ferramentas —> **Marcação**.
+   ![imagem](assets/voice-recognition/vr-7.png)
+1. Clique em **Criar** —> **Criar Namespace**.
+   ![imagem](assets/voice-recognition/vr-7.png)
+1. Digite o nome do seu projeto, por exemplo: **VoiceDemo** e clique em Criar.
+1. Selecione o projeto **VoiceDemo** e clique em **Criar tag** na barra de ações.
+1. Clique em **Enviar**.
+
+
+### Atribuindo Canal a uma Exibição e Habilitando o Reconhecimento de Voz {#channel-assignment}
 
 1. Crie uma exibição na pasta **Locais** , como mostrado na figura abaixo.
 
+   ![imagem](assets/voice-recognition/vr-loc.png)
+
    >[!NOTE]
-   >
    >Para saber como atribuir um canal a uma exibição, consulte [Criar e gerenciar exibições](/help/user-guide/managing-displays.md).
 
 1. Atribua os canais **Principal**, **ColdBeinks** e **HotDrinks** ao seu **LobbyDisplay**.
 
+1. Defina as seguintes propriedades para cada um dos canais, enquanto atribui o canal.
 
-1. Defina as seguintes propriedades para cada um dos canais.
+   * Principal
+   * HotBeks
+   * Bebidas frias
 
    >[!NOTE]
    >
@@ -113,16 +134,26 @@ Da mesma forma, adicione uma tag chamada de **quente** ao canal **HotDrinks** e 
 
 1. Navegue até a guia **Exibir** e ative a opção **Voz ativada** em **Conteúdo**.
 
-   >[!NOTE]
+   ![imagem](assets/voice-recognition/vr-disp.png)
+
+   >[!IMPORTANT]
    >É obrigatório ativar o recurso de reconhecimento de voz da tela.
 
-## Visualização do conteúdo no Chrome Player {#viewing-content}
+#### Visualização do conteúdo no Chrome Player {#viewing-content}
 
 Quando as etapas anteriores estiverem concluídas, você poderá registrar seu dispositivo de cromo e visualização a saída.
 
-Siga as etapas abaixo:
+>[!NOTE]
+>Consulte Registro [do](device-registration.md) dispositivo para saber como registrar um dispositivo em um player AEM Screens.
 
-1. Navegue até a pasta **Dispositivos** e clique em Gerenciador **de** dispositivos na barra de ações para registrar os dispositivos.
+Este exemplo mostra a saída em um Chrome Player.
+
+![nova imagem](assets/voice-recognition/voice-video.gif)
+
+
+
+
+
 
 
 
