@@ -2,10 +2,10 @@
 title: Notas de versão do Feature Pack 2008
 description: A página descreve as Notas de versão do Feature Pack 2008.
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 5%
+source-wordcount: '277'
+ht-degree: 3%
 
 ---
 
@@ -30,9 +30,23 @@ A data de lançamento do AEM Screens Feature Pack 2008 é 31 de agosto de 2020.
 
 * **Visualização da linha do tempo no Painel agendado**
 
+   A Visualização da linha do tempo permite que o usuário visualização os agendamentos atribuídos ao canal a partir do painel de exibição.
+
+   Consulte Visualização [da](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) linha do tempo para obter mais detalhes.
+
 * **Programação de recorrência**
 
+   A Programação de recorrência permite definir uma programação recorrente para o seu canal. Você configura várias programações de recorrência para um canal.
+
+   Consulte Agendamento de [recorrência](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obter mais detalhes.
+
 * **Recursos de reconhecimento de voz para AEM Screens**
+
+   O recurso de Reconhecimento de voz permite a alteração do conteúdo em um canal AEM Screens orientada pela interação de voz.
+
+   Um autor de conteúdo pode configurar uma exibição para ser habilitada para voz. A finalidade desse recurso é permitir que os clientes utilizem o discurso como método de interagir com seus vídeos.
+
+   Consulte Reconhecimento [de](voice-recognition.md) voz para obter mais detalhes.
 
 * **As preferências do dispositivo atualizam no modo de autor/publicação**
 
@@ -40,7 +54,7 @@ A data de lançamento do AEM Screens Feature Pack 2008 é 31 de agosto de 2020.
 
 Os seguintes AEM Screens Players foram lançados para o AEM Screens AEM 6.5 Feature Pack 5:
 
-* ChromeOS
+* Chrome OS
 * Windows
 * Android
 
