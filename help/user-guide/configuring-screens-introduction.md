@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '750'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Ele permite que o usuário verifique as duas verificações de configuração a 
 
 Siga as etapas abaixo para verificar se essas duas configurações vitais estão habilitadas para AEM Screens:
 
-1. Navegue até Verificação [de integridade de sling do Console da Web](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=)Adobe Experience Manager.
+1. Navegue até Verificação [de Integridade do Console da Web do](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=)Adobe Experience Manager.
 
    ![ativos](assets/health-check1.png)
 
@@ -72,25 +72,24 @@ Os seguintes pontos chave abaixo ajudam a configurar e AEM o servidor a estar pr
 
 1. Navegue até Configuração **do console da Web do** Adobe Experience Manager por AEM instância —> ícone de martelo —> **Operações** —> Console **da** Web.
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![imagem](assets/config/empty-ref1.png)
 
 1. **A Configuração** do Adobe Experience Manager Web Console é aberta. Procure por quem indicou de sling.
 
    Para pesquisar a propriedade sling quem indicou, pressione **Command+F** para **Mac** e **Control+F** para **Windows**.
 
-   ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
-
 1. Marque a opção **Permitir vazio** , conforme mostrado na figura abaixo.
 
-   ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
+   ![imagem](assets/config/empty-ref2.png)
 
 1. Clique em **Salvar** para ativar o Filtro de Quem indicou Apache Sling Permitir vazio.
+
 
 #### Serviço HTTP Apache Felix Jetty {#allow-apache-felix-service}
 
 1. Navegue até Configuração **do console da Web do** Adobe Experience Manager por AEM instância —> ícone de martelo —> **Operações** —> Console **da** Web.
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![imagem](assets/config/empty-ref1.png)
 
 1. **A Configuração** do Adobe Experience Manager Web Console é aberta. Procure o serviço HTTP baseado em Jetty do Apache Felix.
 
@@ -98,7 +97,7 @@ Os seguintes pontos chave abaixo ajudam a configurar e AEM o servidor a estar pr
 
 1. Marque a opção **ATIVAR HTTP** , conforme mostrado na figura abaixo.
 
-   ![screen_shot_2019-07-31at91807am](assets/http-image.png)
+   ![imagem](assets/config/config-1.png)
 
 1. Clique em **Salvar** para ativar o serviço *http* .
 
