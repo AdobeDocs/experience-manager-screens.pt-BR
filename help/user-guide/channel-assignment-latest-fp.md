@@ -3,9 +3,9 @@ title: Atribuição de canais - FP mais recente
 seo-title: Atribuição de canais - FP mais recente
 description: Siga esta página para saber mais sobre Atribuição de Canais e Programação de anúncios.
 translation-type: tm+mt
-source-git-commit: f5d80f3765993277c552b64685d12244658915bb
+source-git-commit: c326c9e83b8c7edcda535b0c775c62c50dd3a29f
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1491'
 ht-degree: 24%
 
 ---
@@ -170,6 +170,8 @@ Selecione uma das seguintes opções disponíveis para definir o método de inte
 
 As seguintes propriedades são definidas na opção **Agendar** na caixa de diálogo Atribuição **de** Canais.
 
+![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 ### Fuso horário de referência {#reference-timezone}
 
 O fuso horário de referência permite selecionar o fuso horário para a exibição do conteúdo.
@@ -182,9 +184,6 @@ A janela Ativação permite selecionar uma data **de** Start e uma data **de** t
 
 A Programação de recorrência permite definir uma programação recorrente para o seu conteúdo. Clique em **+ Adicionar agendamento** para adicionar um agendamento de recorrência ao seu canal.
 
-![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
-
-
 >[!NOTE]
 >Você pode adicionar várias programações recorrentes ao seu canal.
 >Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
@@ -194,9 +193,9 @@ A Programação de recorrência permite definir uma programação recorrente par
 * **Nome**: Título do seu agendamento de recorrência.
 * **Repetir**: Escolha se a programação é executada **Diariamente**, **Semanalmente**, **Mensalmente** ou **Anualmente**.
 * **Start**: A hora do start para o seu horário.
-* **Fim**: A hora de término do seu agendamento. Você pode defini-lo por:
-* **Hora**: O agendamento terminará em um horário especificado.
-* **Duração**: O agendamento é executado por uma duração específica em horas ou minutos.
+* **Fim**: A hora de término do seu agendamento. Você pode defini-la por tempo ou duração.
+   * **Hora**: O agendamento terminará em um horário especificado.
+   * **Duração**: O agendamento é executado por uma duração específica em horas ou minutos.
 
 ### DayParting {#dayparting}
 
