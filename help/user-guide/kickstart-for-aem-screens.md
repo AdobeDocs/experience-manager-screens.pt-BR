@@ -2,52 +2,56 @@
 title: Guia de Início Rápido
 seo-title: Guia de Início Rápido
 description: Siga esta página para criar um projeto de demonstração do AEM Screens. Ajuda a criar uma experiência de assinatura digital começando pela instalação e configurando um novo projeto para exibir seu conteúdo no AEM Screens player.
-seo-description: Siga esta página para criar um projeto de demonstração do AEM Screens. Ajuda a criar uma experiência de assinatura digital começando pela instalação e configurando um novo projeto para exibir seu conteúdo no AEM Screens player.
-uuid: 587b6611-07a3-44b4-b888-9edf2ef4e12c
-contentOwner: Jyotika syal
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 5ce1e0b9-1926-49dc-b4dd-44b649a3e710
-docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 8ffa53c6ffb24ff80adfdce33a69a9d80e03bb75
+workflow-type: tm+mt
+source-wordcount: '1630'
+ht-degree: 13%
 
 ---
 
 
 # Guia de Início Rápido {#kickstart-guide}
 
-Esta seção é um início rápido para o AEM Screens e mostra como realizar ações básicas. Ele o orienta a configurar uma experiência básica de sinalização digital com conteúdo/ativos e publicação em um player do Screens. Para obter uma compreensão profunda de todos os componentes para o desenvolvimento do Screens, consulte os recursos no final da página.
+Esta seção é um início rápido para a AEM Screens e mostra como realizar ações básicas. Ele o orienta a configurar uma experiência básica de sinalização digital com conteúdo/ativos e publicação em um player do Screens.
 
-## Criação de uma experiência de sinalização digital em 5 minutos {#creating-a-digital-signage-experience-in-minutes}
+## Criação de uma experiência com cartazes digitais em 5 minutos {#creating-a-digital-signage-experience-in-minutes}
 
 As etapas a seguir permitem que você crie um projeto de amostra para o Screens e publique conteúdo no Screens player.
 
-1. Para baixar o **AEM Screens Player**, clique [aqui](https://download.macromedia.com/screens/).
+Para baixar o **AEM Screens Player**, clique [aqui](https://download.macromedia.com/screens/).
 
-   O AEM Screens também está disponível no **Google Play**.
 
-   Para obter mais informações sobre a implementação do Chrome OS Player, consulte Console [de gerenciamento do](implementing-chrome-os-player.md) Chrome.
+Para obter mais informações sobre a implementação do Chrome OS Player, consulte Console [de gerenciamento do](implementing-chrome-os-player.md) Chrome.
 
-   Consulte [Instalação e configuração de telas](configuring-screens-introduction.md) para obter mais detalhes.
+Para instalar e configurar os players de telas em seus dispositivos, consulte [Instalação e configuração de telas](configuring-screens-introduction.md) para obter mais detalhes.
 
-   >[!NOTE]
-   >
-   >**Configurações de OSGI**
-   >
-   >
-   >É necessário ativar o referenciador vazio para permitir que o dispositivo publique dados no servidor. Por exemplo, se a propriedade de referenciador vazia estiver desativada, o dispositivo não poderá postar uma captura de tela novamente. Atualmente, alguns desses recursos só estão disponíveis se o Filtro de referência Apache Sling Permitir vazio estiver ativado na configuração OSGI. O painel pode exibir um aviso de que as configurações de segurança podem impedir que alguns desses recursos funcionem.
-   >
-   >
-   >Siga as etapas abaixo para ativar o Filtro de referência do ***Apache Sling Permitir vazio***:
-   >
-   >
-   >
-   >    1. Navegue até Configuração **do console da Web do** Adobe Experience Manager, ou seja, `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-   >    1. Verifique a opção **allow.empty** .
-   >    1. Clique em **Salvar**.
+>[!NOTE]
+>**Configurações de OSGI**
+>É necessário ativar a quem indicou vazia para permitir que o dispositivo publique dados no servidor. Por exemplo, se a propriedade quem indicou vazia estiver desativada, o dispositivo não poderá postar uma captura de tela novamente. Atualmente, alguns desses recursos só estão disponíveis se o Filtro de Quem indicou Apache Sling Permitir vazio estiver ativado na configuração OSGI. O painel pode exibir um aviso de que as configurações de segurança podem impedir que alguns desses recursos funcionem.
+>
+>
+>Siga as etapas abaixo para ativar o Filtro de Quem indicou Sling ***Apache Permitir vazio***:
 
+
+## Permitir solicitações de Quem indicou vazias {#allow-empty-referrer-requests}
+
+1. Navegue até Configuração **do console da Web do** Adobe Experience Manager por AEM instância —> ícone de martelo —> **Operações** —> Console **da** Web.
+
+   ![imagem](assets/config/empty-ref1.png)
+
+1. **A Configuração** do Adobe Experience Manager Web Console é aberta. Procure por quem indicou de sling.
+
+   Para pesquisar a propriedade sling quem indicou, pressione **Command+F** para **Mac** e **Control+F** para **Windows**.
+
+1. Marque a opção **Permitir vazio** , conforme mostrado na figura abaixo.
+
+   ![imagem](assets/config/empty-ref2.png)
+
+1. Clique em **Salvar** para ativar o Filtro de Quem indicou Apache Sling Permitir vazio.
+
+
+## Tutorial {#tutorial}
 
 1. **Criação de um novo projeto**
 
@@ -57,9 +61,10 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
    1. Select **Screens** from the **Create Screens Project** wizard and click **Next**.
 
    1. Enter the title as *Test_Project*  and click **Create**.
+
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
-   Depois que o projeto é criado, ele retorna ao console do Screens Project. Agora, você pode selecionar seu projeto. Em um projeto, existem cinco tipos de pastas, **Aplicativos**, **Canais**, **Dispositivos**, **Locais** e **Agendamentos**, conforme mostrado na figura abaixo.
+   Depois que o projeto é criado, ele o traz de volta ao console do Screens Project. Agora, você pode selecionar seu projeto. Em um projeto, existem cinco tipos de pastas, **Aplicativos**, **Canais**, **Dispositivos**, **Locais** e **Agendamentos**, conforme mostrado na figura abaixo.
 
    >[!NOTE]
    >
@@ -71,7 +76,7 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
 
 1. **Criação de um novo canal**
 
-   Depois que o projeto estiver em andamento, será necessário criar um novo canal no qual você gerencia o conteúdo.
+   Depois que o projeto estiver em andamento, será necessário criar um novo canal no qual você gerenciará o conteúdo.
 
    Siga as etapas abaixo para criar um novo canal para seu projeto:
 
@@ -81,17 +86,18 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
    1. Choose the **Sequence Channel** and click **Next**.
 
    1. Enter the **Name** and **Title** as *TestChannel* and click **Create**.
+
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-   O *TestChannel* é criado e adicionado à sua pasta de canais, como mostrado na figura abaixo.
+   O *TestChannel* é criado e adicionado à pasta canais, como mostrado na figura abaixo.
 
    ![chlimage_1-7](assets/chlimage_1-7.png)
 
-   Consulte Gerenciamento [de](managing-channels.md) canal para obter mais detalhes sobre como criar e gerenciar canais.
+   Consulte Gerenciamento [de](managing-channels.md) Canais para obter mais detalhes sobre como criar e gerenciar canais.
 
-1. **Adicionar conteúdo a um canal**
+1. **Adicionar conteúdo a um Canal**
 
-   Depois que o seu canal estiver no lugar, você precisará adicionar conteúdo ao seu canal que o player do Screens exibirá.
+   Depois que o canal estiver no lugar, você precisará adicionar conteúdo ao canal que o Reprodutor do Screens exibirá.
 
    Siga as etapas abaixo para adicionar conteúdo ao canal (*TestChannel*) em seu projeto:
 
@@ -101,6 +107,7 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
 
    1. Clique no ícone que alterna o painel lateral no lado esquerdo da barra de ações para abrir os ativos e componentes.
    1. Arraste e solte os componentes que você deseja adicionar ao seu canal.
+
    ![chlimage_1-8](assets/chlimage_1-8.png)
 
    Neste exemplo, o editor mostra uma imagem adicionada ao canal.
@@ -121,6 +128,7 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
    1. Select **Location** from the wizard and click **Next**.
 
    1. Enter the **Name** and **Title** for your location (enter the title as *TestLocation*) and click **Create**.
+
    ![chlimage_1-10](assets/chlimage_1-10.png)
 
    O *TestLocation* é criado e adicionado à pasta **Locais** .
@@ -133,7 +141,7 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
 
    ***As telas*** representam a experiência digital executada em uma ou várias telas.
 
-   1. Navegue até o local onde deseja criar sua exibição (*Test_* Project —&gt; **Locais** —&gt; *TestLocation)* , conforme mostrado na figura acima, e selecione *TestLocation*.
+   1. Navegue até o local onde deseja criar sua exibição (*Test_* Project —> **Locais** —> *TestLocation)* , conforme mostrado na figura acima, e selecione *TestLocation*.
 
    1. Clique em **Criar** na barra de ações.
    1. Select **Display** from the **Create** wizard and click **Next**.
@@ -147,6 +155,7 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
       1. Choose the **Number of Devices Horizontally** as 1.
       1. Choose the **Number of Devices Vertically** as 1.
    1. Clique em **Criar**.
+
    Uma nova tela (*TestDisplay*) é adicionada à sua localização *TestLocation)*, como mostrado na figura abaixo.
 
    ![chlimage_1-12](assets/chlimage_1-12.png)
@@ -157,9 +166,9 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
 
    >[!NOTE]
    >
-   >Essa funcionalidade do Screens só estará disponível se você tiver instalado o AEM 6.3 Sites Feature Pack 1. Para obter acesso a esse Feature Pack, você deve entrar em contato com o Suporte da Adobe e solicitar acesso. Com as devidas permissões, você pode baixá-lo em Compartilhamento de pacotes.
+   >Esta funcionalidade do Screens só estará disponível se você tiver instalado o AEM 6.3 Sites Feature Pack 1. Para obter acesso a esse Feature Pack, você deve entrar em contato com o Suporte da Adobe e solicitar acesso. Com as devidas permissões, você pode baixá-lo em Compartilhamento de pacotes.
 
-   1. Navegue até a pasta **Programações** de Test_Project —&gt; **Programações**.
+   1. Navegue até a pasta **Programações** de Test_Project —> **Programações**.
 
    1. Clique em **Criar** na barra de ações. Um assistente será aberto.
    1. Selecione **Agendar** na página do assistente **Criar** .
@@ -167,9 +176,10 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
    1. Informe o **Nome** e o **Título** como *MorningSchedule* na página de propriedades.
 
    1. Clique em **Criar** e o agendamento será adicionado à pasta **Programações** , como mostrado na figura abaixo.
+
    ![chlimage_1-13](assets/chlimage_1-13.png)
 
-   Além disso, selecione o agendamento (*MorningSchedule*) e clique em **Dashboard** na barra de ação para exibir o painel de agendamentos. Você pode exibir/alterar as propriedades da programação, atribuir canais e exibir exibições atribuídas usando o painel.
+   Além disso, selecione o agendamento (*MorningSchedule*) e clique em **Painel** na barra de ação para visualização do painel agendado. Você pode visualização/alterar as propriedades do agendamento, atribuir canais e visualização atribuída a exibições usando o painel.
 
    ![chlimage_1-14](assets/chlimage_1-14.png)
 
@@ -177,17 +187,17 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
 
 1. **Atribuição de um canal**
 
-   1. Navigate to the display from *Test_Project* --&gt; **Locations** --&gt; *TestLocation* --&gt; *TestDisplay*.
+   1. Navigate to the display from *Test_Project* --> **Locations** --> *TestLocation* --> *TestDisplay*.
 
    1. Select *TestDisplay* and tap/click **Assign Channel **from the action bar, *Or*,
 
-   1. Click **Dashboard** and select **+Assign Channel** at the top right from **ASSIGNED CHANNELS &amp; SCHEDULES** panel, as shown in the figure below. **A caixa de diálogo Atribuição** de canal é aberta.
+   1. Click **Dashboard** and select **+Assign Channel** at the top right from **ASSIGNED CHANNELS &amp; SCHEDULES** panel, as shown in the figure below. **A caixa de diálogo Atribuição** do canal é aberta.
 
    1. Select **Reference Channel** by **path**
 
    1. Enter the **Channel Role** as *LiveStream*.
 
-   1. Selecione o Caminho **do** canal (*Test_Project* —&gt; *Canais* —&gt; *TestChannel* ) no **canal**.
+   1. Selecione o Caminho **do** Canal (*Test_Project* —> *Canais* —> *TestChannel* ) no **Canal**.
 
    1. Select the **Priority** for this channel as *1*.
 
@@ -196,21 +206,23 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
    1. Informe **Agendamento** e selecione as datas em **ativo** e **ativo até**.
 
    1. Clique em **Salvar**.
+
    O canal é criado e adicionado ao painel.
 
    ![chlimage_1-15](assets/chlimage_1-15.png)
 
-   Para saber mais sobre a caixa de diálogo Atribuição **de** canal e as propriedades associadas a ela, consulte [Atribuir canais](channel-assignment.md).
+   Para saber mais sobre a caixa de diálogo Atribuição de **Canais** e as propriedades associadas a ela, consulte [Atribuir Canais](channel-assignment.md).
 
-1. **Adicionar agendamento a um canal**
+1. **Adicionar programação a um Canal**
 
-   1. Navigate to the display from *Test_Project* --&gt; **Locations** --&gt; *TestLocation* --&gt; *TestDisplay*.
+   1. Navigate to the display from *Test_Project* --> **Locations** --> *TestLocation* --> *TestDisplay*.
 
    1. Click **Dashboard** and select **+Assign Schedule** at the top right from **ASSIGNED CHANNELS &amp; SCHEDULES** panel, as shown in the figure above. **A caixa de diálogo Agendar atribuição** é aberta.
 
-   1. Escolha o caminho onde você criou seu agendamento (aqui, *Test_Project* —&gt; **Programações** —&gt; *MorningSchedule*).
+   1. Escolha o caminho onde você criou seu agendamento (aqui, *Test_Project* —> **Programações** —> *MorningSchedule*).
 
    1. Clique em **Salvar** para adicionar seu agendamento ao canal.
+
    ![chlimage_1-16](assets/chlimage_1-16.png)
 
 1. **Registrando um dispositivo**
@@ -219,16 +231,17 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
 
    >[!NOTE]
    >
-   >Você pode abrir o player do Screens usando o aplicativo AEM Screens que você baixou ou usando o navegador da Web.
+   >Você pode abrir o Screens player usando o aplicativo AEM Screens que você baixou ou usando o navegador da Web.
 
-   Para exibir o dispositivo pendente:
+   Para visualização do dispositivo pendente:
 
    1. Inicialize uma janela de navegador separada.
    1. Go to Screens player using the *web browser* `https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` or launch the AEM Screens app. Ao abrir o dispositivo, você perceberá o estado do dispositivo como não registrado.
-   1. From the AEM dashboard, navigate to *Test_Project* --&gt; **Devices**
+   1. From the AEM dashboard, navigate to *Test_Project* --> **Devices**
 
    1. Click **Device Manager** from the action bar.
    1. Clique em **Device Registration (Registro** do dispositivo) e você verá os dispositivos pendentes, conforme mostrado na figura abaixo.
+
    ![chlimage_1-17](assets/chlimage_1-17.png)
 
    Select the device you want to register and click **Register Device**.
@@ -263,13 +276,14 @@ As etapas a seguir permitem que você crie um projeto de amostra para o Screens 
 
    1. Selecione o dispositivo que deseja atribuir.
    1. Click **Assign Device** from the action bar.
-   1. Selecione o caminho de exibição do seu canal como `/content/screens/Test_Project/***Locations***/TestLocation/TestDisplay.`
+   1. Selecione o caminho de exibição para seu canal como `/content/screens/Test_Project/***Locations***/TestLocation/TestDisplay.`
 
    1. Click **Assign**.
    1. Click **Finish** to complete the process, and now the device is assigned.
+
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
-   O painel de exibição é aberto e você verá todas as informações relacionadas aos canais e programações atribuídos, juntamente com os detalhes de configuração do dispositivo.
+   O painel de exibição é aberto e você verá todas as informações relacionadas aos canais e programações atribuídos junto com os detalhes de configuração do dispositivo.
 
    ![screen_shot_2017-12-18at122041pm](assets/screen_shot_2017-12-18at122041pm.png)
 
