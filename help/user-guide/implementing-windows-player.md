@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '940'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,21 @@ Esta seção descreve como configurar o AEM Screens Windows 10 player. Ele forne
 Para implementar o Windows Player para AEM Screens, instale o Windows Player para AEM Screens.
 
 Visite a página [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
+
+### Configuração do Ambiente para o AEM Screens 6.5.5 Feature Pack e posterior {#fp-environment-setup}
+
+Você deve configurar um ambiente para o Windows player se estiver usando o AEM Screens 6.5.5 Feature Pack.
+
+Siga as etapas abaixo:
+
+1. Navegue até **Adobe Experience Manager Web ConsoleConfiguration** usando `http://localhost:4502/system/console/configMgr`.
+
+1. Procure por *Adobe Granite Token Authentication Handler*.
+
+1. Defina o atributo **SameSite para os cookies** do token de login de **Lax** para **None**.
+   ![imagem](/help/user-guide/assets/granite-updates.png)
+
+1. Clique em **Salvar**.
 
 ### Método ad-hoc {#ad-hoc-method}
 
@@ -115,21 +130,6 @@ Siga as etapas abaixo para ativar o modo Kiosk:
 
 1. Execute o script do PowerShell como administrador.
 1. Reinicialize e faça login como o usuário do Kiosk e o aplicativo do player devem ser start imediatamente.
-
-### Configuração do Ambiente para o AEM Screens 6.5.5 Feature Pack e posterior {#fp-environment-setup}
-
-Você deve configurar um ambiente para o Windows player se estiver usando o AEM Screens 6.5.5 Feature Pack.
-
-Siga as etapas abaixo:
-
-1. Navegue até **Adobe Experience Manager Web ConsoleConfiguration** usando `http://localhost:4502/system/console/configMgr`.
-
-1. Procure por *Adobe Granite Token Authentication Handler*.
-
-1. Defina o atributo **SameSite para os cookies** do token de login de **Lax** para **None**.
-   ![imagem](/help/user-guide/assets/granite-updates.png)
-
-1. Clique em **Salvar**.
 
 ### Resolução de problemas {#troubleshooting}
 
