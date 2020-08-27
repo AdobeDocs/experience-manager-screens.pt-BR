@@ -2,10 +2,10 @@
 title: Reconhecimento de voz no AEM Screens
 description: A página descreve o recurso de reconhecimento de voz no AEM Screens.
 translation-type: tm+mt
-source-git-commit: 3422a62af9b9c0930ce433c0a9cd29f4089592d3
+source-git-commit: 1063f1ab19344ceacfba6b53ad5cf32901c3843d
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 3%
+source-wordcount: '1215'
+ht-degree: 2%
 
 ---
 
@@ -41,6 +41,13 @@ A seção a seguir descreve como você pode ativar e usar o recurso Reconhecimen
 
 ### Configuração do projeto {#setting-up}
 
+Você pode configurar seu projeto usando um dos dois modelos:
+
+* [Canal de sequência](#sequence-channel)
+* [Canal Dividir telas](#split-channel)
+
+#### Uso do Canal de sequência como modelo {#sequence-channel}
+
 Antes de usar o recurso Reconhecimento de voz, verifique se você tem um projeto e um canal com conteúdo configurado para o seu projeto.
 
 1. O exemplo a seguir mostra um projeto de demonstração chamado **VoiceDemo** e três canais de sequência **Main**, **ColdBeinks** e **HotDrinks**, como mostrado na figura abaixo.
@@ -66,6 +73,34 @@ Antes de usar o recurso Reconhecimento de voz, verifique se você tem um projeto
    **HotBeinks**:
 
    ![imagem](assets/voice-recognition/vr-2.png)
+
+#### Usando o Canal Dividir telas como um modelo {#split-channel}
+
+Antes de usar o recurso Reconhecimento de voz, verifique se você tem um projeto e um canal com conteúdo configurado para o seu projeto.
+
+1. O exemplo a seguir mostra um projeto de demonstração chamado **VoiceDemo** e três canais de sequência **Main**, **ColdBeinks** e **HotDrinks**, **SplitChannel** , conforme mostrado na figura abaixo.
+
+
+
+   >[!NOTE]
+   >
+   >Para saber como criar um canal ou adicionar conteúdo a um canal, consulte [Criação e gerenciamento de Canais](/help/user-guide/managing-channels.md)
+
+1. Navegue até cada canal e adicione conteúdo. Por exemplo, navegue até **VoiceDemo** —> **Canais** —> **Principal** e selecione o canal. Clique em **Editar** na barra de ações para abrir o editor e adicionar conteúdo (imagens/vídeos) conforme necessário. Da mesma forma, adicione conteúdo a **ColdDrinks** e ao canal **HotDrinks** .
+
+   Os canais agora contêm ativos (imagens), como mostrado nas figuras abaixo.
+
+   **Principal**:
+
+
+
+   **Bebidas frias**:
+
+
+   **HotBeinks**:
+
+1. Navegue até **SplitChannel** e adicione conteúdo. Arraste e solte duas sequências incorporadas e adicione o caminho ao **canal ColdDrinks** e **HotDrinks** , conforme mostrado na figura abaixo.
+
 
 ### Configuração de tags para Canais {#setting-tags}
 
@@ -94,6 +129,8 @@ Siga as etapas abaixo para adicionar tags ao seu canal:
 1. Clique em **Salvar e fechar** quando terminar.
 
 Da mesma forma, adicione a tag denominada **hot** ao canal **HotDrinks** .
+
+Se você estiver usando um Canal de telas divididas como um modelo, certifique-se de adicionar ambas as tags (**quente** e **frio**) às propriedades do Canal.
 
 #### Criação de tags {#creating-tags}
 
@@ -145,14 +182,16 @@ Agora, você pode usar essas tags em seu projeto do AEM Screens.
    >[!IMPORTANT]
    >É obrigatório ativar o recurso de reconhecimento de voz da tela.
 
-#### Visualização do conteúdo no Chrome Player {#viewing-content}
+### Visualização do conteúdo no Chrome Player {#viewing-content}
 
-Quando as etapas anteriores estiverem concluídas, você poderá registrar seu dispositivo de cromo e visualização a saída.
+Quando as etapas anteriores estiverem concluídas, você poderá registrar seu dispositivo de cromo para visualização da saída.
 
 >[!NOTE]
 >Consulte Registro [do](device-registration.md) dispositivo para saber como registrar um dispositivo em um player AEM Screens.
 
 Este exemplo mostra a saída em um Chrome Player.
+
+#### Para Canal sequencial {#sequential-output}
 
 O canal **principal** está reproduzindo seu conteúdo, mas quando você usa palavras com palavras-chave **quentes** , como *eu gostaria de uma bebida* quente, os start do canal reproduzindo o conteúdo do canal **HotDrinks** .
 
@@ -161,10 +200,12 @@ Da mesma forma, se você usar a palavra com uma palavra-chave **fria** como *eu 
 ![nova imagem](assets/voice-recognition/voice-video.gif)
 
 
+#### Para Canal Dividir telas {#split-screen-output}
 
 
+O canal **principal** está reproduzindo seu conteúdo, mas quando você usa palavras com palavras-chave **quentes** , como *eu gostaria de uma bebida* quente, os start do canal reproduzindo o conteúdo do canal **HotDrinks** .
 
-
+Da mesma forma, se você usar a palavra com uma palavra-chave **fria** como *eu gostaria de ter algo frio*, os start do canal reproduzindo o conteúdo do canal **ColdBeinks** .
 
 
 
