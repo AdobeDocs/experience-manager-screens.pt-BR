@@ -3,9 +3,9 @@ title: Atribuição de canais - FP mais recente
 seo-title: Atribuição de canais - FP mais recente
 description: Siga esta página para saber mais sobre Atribuição de Canais e Programação de anúncios.
 translation-type: tm+mt
-source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
+source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1480'
 ht-degree: 25%
 
 ---
@@ -80,8 +80,8 @@ Depois que a configuração do projeto for concluída, será necessário atribui
    >[!NOTE]
    >Consulte a seção Propriedades [do](#channel-properties) Canal para saber mais sobre as propriedades de atribuição do canal.
 
-1. Na opção **Programações** , selecione o Fuso horário **de** referência, a Janela **de** Ativação e a Programação **de**recorrência.
-   ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+1. Na opção **Agendar** , selecione o Fuso horário **de** referência, a Janela **de** Ativação e a Programação **de**recorrência.
+   ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >Consulte a seção Propriedades [do](#channel-properties) Canal para saber mais sobre as propriedades de atribuição do canal.
@@ -152,6 +152,7 @@ Selecione uma das seguintes opções disponíveis para definir o método de inte
 
 As seguintes propriedades são definidas na opção **Agendar** na caixa de diálogo Atribuição **de** Canais.
 
+
 #### Fuso horário de referência {#reference-timezone}
 
 O fuso horário de referência permite selecionar o fuso horário para a exibição do conteúdo.
@@ -163,6 +164,9 @@ A janela Ativação permite selecionar uma data **de** Start e uma data **de** t
 #### Programação de recorrência {#recurrence-schedule}
 
 A Programação de recorrência permite definir uma programação recorrente para o seu conteúdo. Clique em **+ Adicionar agendamento** para adicionar um agendamento de recorrência ao seu canal.
+
+![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 
 >[!NOTE]
 >Você pode adicionar várias programações recorrentes ao seu canal.
@@ -204,25 +208,9 @@ Este exemplo mostra o DayParting implementado em um casino onde o evento ao vivo
 | Final de semana | Semanalmente | 20:00 | 22:00 |
 | Especial | Diariamente | 22:00 | 01:00 |
 
-**Final de semana**
-
-
-**Especial**
-
-#### Reprodução do conteúdo para um ou mais meses específicos {#playing-content-for-a-particular-month-months}
-
-Este exemplo mostra o DayParting para uma loja que exibe sua coleção de verão dos meses de junho a agosto e a coleção de outono de setembro até o final de outubro.
-
-Aqui, você criará DayParting como por mês, para que o conteúdo do canal seja reproduzido conforme os meses especificados do ano.
-
-
 >[!NOTE]
 >
 >Além disso, você pode definir uma ***Prioridade*** para cada um dos canais. Por exemplo, se dois canais forem definidos para o mesmo dia e horário ou para o mesmo mês, o canal com prioridade mais alta será reproduzido primeiro. O valor mínimo para a prioridade pode ser definido como 0.
-
-#### Reprodução do conteúdo para canais com a mesma prioridade {#playing-content-for-channels-with-same-priority}
-
-Este exemplo mostra o DayParting para uma loja que exibe sua coleção de inverno com a mesma programação no mês de dezembro. Porém, como o Canal B tem a prioridade definida como 2, na semana em questão, ele reproduzirá seu conteúdo no lugar do Canal A.
 
 ## Timeline View {#timeline-view}
 
@@ -230,5 +218,16 @@ Depois de atribuir um canal a uma exibição e configurar um agendamento de reco
 
 Siga as etapas abaixo para navegar até a visualização da linha do tempo:
 
+1. Navegue até a exibição desejada, por exemplo, **DemoScreens** —> **Locais** —> **SanJose** —> **Sala de espera**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   Ou,
+
+   Toque/clique em **Painel** e clique em **Linha** do tempo no painel CANAIS **ATRIBUÍDOS e PROGRAMAS** .
+
+1. Imagens pendentes (a serem corrigidas)
 
 
