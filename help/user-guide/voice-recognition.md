@@ -2,9 +2,9 @@
 title: Reconhecimento de voz no AEM Screens
 description: A página descreve o recurso de reconhecimento de voz no AEM Screens.
 translation-type: tm+mt
-source-git-commit: f5d80f3765993277c552b64685d12244658915bb
+source-git-commit: 8a44e92408ff02b3d0b9e0a0e55de73c54a1afcd
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1570'
 ht-degree: 3%
 
 ---
@@ -279,7 +279,12 @@ Quando as etapas anteriores estiverem concluídas, você poderá registrar seu d
 
 Este exemplo mostra a saída em um Chrome Player.
 
-O canal **principal** está reproduzindo seu conteúdo, mas quando você usa palavras com palavra-chave **quente** e **frio** juntas, como *eu gostaria de ver o menu para bebidas* quentes e frias, os start do canal reproduzindo o conteúdo do canal **SplitScreen** .
+O canal **principal** está reproduzindo seu conteúdo, mas quando você usa palavras com palavra-chave **quente** e **frio** juntas, como *eu gostaria de ver o menu para bebidas* quentes e frias, os start do canal reproduzindo o conteúdo do canal **SplitScreen** . Se você *retornar ao menu* principal, ele retorna ao canal principal.
+
+![nova imagem](assets/voice-recognition/vr-video-2.gif)
+
+
+
 
 
 
