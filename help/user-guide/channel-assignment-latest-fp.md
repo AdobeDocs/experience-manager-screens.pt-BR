@@ -3,10 +3,10 @@ title: Atribuição de canais - FP mais recente
 seo-title: Atribuição de canais - FP mais recente
 description: Siga esta página para saber mais sobre Atribuição de Canais e Programação de anúncios.
 translation-type: tm+mt
-source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
+source-git-commit: f5d80f3765993277c552b64685d12244658915bb
 workflow-type: tm+mt
-source-wordcount: '1480'
-ht-degree: 25%
+source-wordcount: '1488'
+ht-degree: 24%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 25%
 
 Depois de configurar uma exibição, é necessário atribuir um canal a uma exibição para visualização do conteúdo.
 
-Esta página mostra como atribuir um canal à sua exibição.
+Esta página mostra como atribuir um canal à sua exibição, compreender as propriedades do canal e DayParting.
 
 >[!NOTE]
 >É possível atribuir vários canais a uma exibição.
@@ -55,7 +55,7 @@ Siga as etapas abaixo para configurar um projeto e um canal:
 
 ### Atribuindo Canal a uma exibição {#assigning-channel-to-display}
 
-Depois que a configuração do projeto for concluída, será necessário atribuir o canal a uma exibição para visualização do conteúdo.
+Quando a configuração do projeto for concluída, você deverá atribuir o canal a uma exibição para visualização do conteúdo.
 
 1. Navegue até a exibição desejada, por exemplo, **DemoScreens** —> **Locais** —> **SanJose** —> **Sala de espera**.
 
@@ -65,7 +65,7 @@ Depois que a configuração do projeto for concluída, será necessário atribui
 
    Ou,
 
-   Toque/clique em **Painel** e clique em **+Atribuir Canal** no painel CANAIS **ATRIBUÍDOS e AGENDAMENTOS** .
+   Toque/clique em **Painel** na barra de ações e clique em **+Atribuir Canal** do painel CANAIS e AGENDAMENTOS **** ATRIBUÍDOS.
 
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -73,7 +73,7 @@ Depois que a configuração do projeto for concluída, será necessário atribui
 
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. Na opção **Configurações** , você pode escolher o canal por caminho ou nome, digitar a Função **do** Canal, **Prioridade**, Eventos **** suportados e Métodos **de** interrupção. Além disso, você pode ativar a dica de ferramenta **Atração** nessa caixa de diálogo.
+1. Na opção **Configurações** , você pode escolher o canal **por caminho** ou **por nome**, informar a Função **do** Canal, **Prioridade**********, Eventos Suportados, e Métodos de Interrupção. Além disso, você pode ativar a dica de ferramenta de atração dessa caixa de diálogo.
 
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -98,13 +98,31 @@ Você visualização a seguinte saída na sua escolha do player:
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-### Noções Gerais das Propriedades do Canal na Caixa de Diálogo Atribuição do Canal {#channel-properties}
+## Timeline View {#timeline-view}
+
+Depois de atribuir um canal a uma exibição e configurar um agendamento de recorrência, você pode visualização a linha do tempo do painel CANAIS **ATRIBUÍDOS e AGENDAMENTOS** .
+
+Siga as etapas abaixo para navegar até a visualização da linha do tempo:
+
+1. Navegue até a exibição desejada, por exemplo, **DemoScreens** —> **Locais** —> **SanJose** —> **Sala de espera**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   Ou,
+
+   Toque/clique em **Painel** e clique em **Linha** do tempo no painel CANAIS **ATRIBUÍDOS e PROGRAMAS** .
+
+1. Imagens pendentes (a serem corrigidas)
+
+## Noções Gerais das Propriedades do Canal na Caixa de Diálogo Atribuição do Canal {#channel-properties}
 
 As seguintes propriedades são definidas na opção **Configurações** na caixa de diálogo Atribuição **de** Canais.
 
 ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-#### Selecionar um canal {#select-channel}
+### Selecionar um canal {#select-channel}
 
 Selecionar um canal permite fornecer uma referência ao canal desejado, seja por nome de canal ou por caminho de canal.
 
@@ -112,25 +130,25 @@ Selecionar um canal permite fornecer uma referência ao canal desejado, seja por
 
 * **pelo nome**: Insira o nome do canal que será resolvido para um canal real por contexto. Esse recurso permite que você crie a versão local de um canal para resolver dinamicamente o conteúdo específico da localização. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-#### Função de canal {#role-channel}
+### Função de canal {#role-channel}
 
 A função de canal define o contexto da exibição. A função é o alvo de várias ações e não depende do canal real que a atende.
 
-#### Prioridade {#priority-channel}
+### Prioridade {#priority-channel}
 
 A prioridade é usada para ordenar as atribuições, no caso de várias delas corresponderem aos critérios de reprodução. A atribuição com o valor mais alto sempre terá precedência sobre aquelas com valores mais baixos. Por exemplo, se houver dois canais, A e B, em que A tem uma prioridade de 1 e B tem uma prioridade de 2, o canal B será exibido, pois tem uma prioridade mais alta que A.
 
 >[!NOTE]
 >A prioridade de um canal é definida como um número (1 para o valor mínimo) na caixa de diálogo **Atribuição de canal**, conforme mencionado acima. Além disso, os canais atribuídos são classificados com base em uma prioridade decrescente.
 
-#### Eventos compatíveis {#supported-events-channel}
+### Eventos compatíveis {#supported-events-channel}
 
 * **Carga inicial**: carrega o canal quando o player é iniciado. Esse evento pode ser atribuído a vários canais em combinação com o agendamento
 * **Tela inativa**: carregado quando a tela está inativa. Esse evento pode ser atribuído a vários canais em combinação com o agendamento
 * **Temporizador**: precisa ser definido quando um agendamento é fornecido
 * **Interação do usuário**: o player mudará para o canal especificado se houver uma interação de usuário na tela (toque) em um canal inativo e será carregado quando a tela for tocada
 
-#### Método de interrupção {#interruption-method-channel}
+### Método de interrupção {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -152,16 +170,15 @@ Selecione uma das seguintes opções disponíveis para definir o método de inte
 
 As seguintes propriedades são definidas na opção **Agendar** na caixa de diálogo Atribuição **de** Canais.
 
-
-#### Fuso horário de referência {#reference-timezone}
+### Fuso horário de referência {#reference-timezone}
 
 O fuso horário de referência permite selecionar o fuso horário para a exibição do conteúdo.
 
-#### Janela de ativação {#activation-window}
+### Janela de ativação {#activation-window}
 
 A janela Ativação permite selecionar uma data **de** Start e uma data **de** término para exibir seu conteúdo.
 
-#### Programação de recorrência {#recurrence-schedule}
+### Programação de recorrência {#recurrence-schedule}
 
 A Programação de recorrência permite definir uma programação recorrente para o seu conteúdo. Clique em **+ Adicionar agendamento** para adicionar um agendamento de recorrência ao seu canal.
 
@@ -211,23 +228,4 @@ Este exemplo mostra o DayParting implementado em um casino onde o evento ao vivo
 >[!NOTE]
 >
 >Além disso, você pode definir uma ***Prioridade*** para cada um dos canais. Por exemplo, se dois canais forem definidos para o mesmo dia e horário ou para o mesmo mês, o canal com prioridade mais alta será reproduzido primeiro. O valor mínimo para a prioridade pode ser definido como 0.
-
-## Timeline View {#timeline-view}
-
-Depois de atribuir um canal a uma exibição e configurar um agendamento de recorrência, você pode visualização a linha do tempo do painel CANAIS **ATRIBUÍDOS e AGENDAMENTOS** .
-
-Siga as etapas abaixo para navegar até a visualização da linha do tempo:
-
-1. Navegue até a exibição desejada, por exemplo, **DemoScreens** —> **Locais** —> **SanJose** —> **Sala de espera**.
-
-1. Tap/click **Assign Channel** from the action bar.
-
-   ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
-   Ou,
-
-   Toque/clique em **Painel** e clique em **Linha** do tempo no painel CANAIS **ATRIBUÍDOS e PROGRAMAS** .
-
-1. Imagens pendentes (a serem corrigidas)
-
 
