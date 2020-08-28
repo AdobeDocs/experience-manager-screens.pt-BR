@@ -2,9 +2,9 @@
 title: Reconhecimento de voz no AEM Screens
 description: A página descreve o recurso de reconhecimento de voz no AEM Screens.
 translation-type: tm+mt
-source-git-commit: 8a44e92408ff02b3d0b9e0a0e55de73c54a1afcd
+source-git-commit: 4e64227cf63fc801c2f6fdfbc44b23df0a4d0bb0
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1559'
 ht-degree: 3%
 
 ---
@@ -16,15 +16,14 @@ ht-degree: 3%
 >
 >**Informações importantes sobre privacidade**
 >
->Ao usar o recurso de Reconhecimento de voz, siga todas as diretrizes legais e éticas aplicáveis à sua região (incluindo, mas não se limitando a, fornecer um aviso visível aos usuários finais de que o player está usando o Reconhecimento de voz). A Adobe Inc. não recebe, armazena ou processa nenhuma das informações relacionadas à voz. Os players AEM Screens usam a API de fala da Web padrão integrada ao mecanismo de navegação. Nos bastidores, uma forma de onda de seu discurso é enviada aos servidores do Google para conversão de fala em texto e esse texto é correspondido pelo player em relação às palavras-chave configuradas.
+>Ao usar o recurso de reconhecimento de voz, siga todas as diretrizes legais e éticas aplicáveis à sua região (incluindo, mas não se limitando a, fornecer um aviso visível aos usuários finais de que o player está usando o Reconhecimento de voz). A Adobe Inc. não recebe, armazena ou processa nenhuma das informações relacionadas à voz. Os players AEM Screens usam a API de fala da Web padrão integrada ao mecanismo de navegação. Em segundo plano, essa API envia uma forma de onda de seu discurso para os servidores do Google para conversão de fala em texto e esse texto é correspondido pelo player em relação às palavras-chave configuradas.
 >
 >Consulte o White paper [Google Privacy sobre API](https://www.google.com/chrome/privacy/whitepaper.html#speech) de fala na Web para obter mais detalhes.
 
 
+O recurso de reconhecimento de voz permite a alteração do conteúdo em um canal AEM Screens, impulsionado pela interação de voz.
 
-O recurso de Reconhecimento de voz permite a alteração do conteúdo em um canal AEM Screens orientada pela interação de voz.
-
-Um autor de conteúdo pode configurar uma exibição para ser habilitada para voz. A finalidade desse recurso é permitir que os clientes utilizem o discurso como método de interagir com seus vídeos. Alguns casos de uso semelhantes incluem encontrar recomendações de produtos em lojas, solicitar itens de menu em restaurantes e restaurantes. Este recurso aumenta a acessibilidade para os usuários e pode melhorar muito a experiência do cliente.
+Um autor de conteúdo pode configurar uma exibição para ser habilitada para voz. A finalidade desse recurso é permitir que os clientes utilizem o discurso como um método de interação com seus vídeos. Alguns casos de uso semelhantes incluem encontrar recomendações de produtos em lojas, solicitar itens de menu em restaurantes e restaurantes. Este recurso aumenta a acessibilidade para os usuários e pode melhorar muito a experiência do cliente.
 
 >[!NOTE]
 >O hardware do player deve suportar a entrada de voz, como um microfone.
@@ -32,18 +31,13 @@ Um autor de conteúdo pode configurar uma exibição para ser habilitada para vo
 ## Implementação do reconhecimento de voz {#implementing}
 
 >[!IMPORTANT]
-> O recurso Reconhecimento de voz está disponível somente nos players Chrome OS e Eletron.
+> O recurso Reconhecimento de voz está disponível somente nos players Chrome OS e Windows.
 
 Para implementar o reconhecimento de voz em seu projeto do AEM Screens, você deve ativar o reconhecimento de voz para a Exibição e associar cada canal a uma tag exclusiva para acionar uma transição de canal.
 
 A seção a seguir descreve como você pode ativar e usar o recurso Reconhecimento de voz em um projeto da AEM Screens.
 
-Você pode configurar seu projeto usando um dos dois modelos:
-
-* [Canal de sequência](#sequence-channel)
-* [Canal Dividir telas](#split-channel)
-
-## Uso do Canal de sequência como um modelo {#sequence-channel}
+## Caso de uso 1: Exibição de conteúdo no switch de Canal em tela cheia {#sequence-channel}
 
 Antes de usar o recurso Reconhecimento de voz, verifique se você tem um projeto e um canal com conteúdo configurado para o seu projeto.
 
@@ -171,7 +165,7 @@ Da mesma forma, se você usar a palavra com uma palavra-chave **fria** como *eu 
 ![nova imagem](assets/voice-recognition/voice-video.gif)
 
 
-## Usando o Canal Dividir telas como um modelo {#split-channel}
+## Caso de uso 2: Exibição de conteúdo no switch de Canal de tela dividida {#split-channel}
 
 Antes de usar o recurso Reconhecimento de voz, verifique se você tem um projeto e um canal com conteúdo configurado para o seu projeto.
 
