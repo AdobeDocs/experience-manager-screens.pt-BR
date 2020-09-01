@@ -1,29 +1,22 @@
 ---
-title: Configurações Dispatcher para AEM Screens
-seo-title: Configurações Dispatcher para AEM Screens
-description: Esta página destaca as diretrizes para configurar o dispatcher para um projeto de AEM Screens.
-seo-description: Esta página destaca as diretrizes para configurar o dispatcher para um projeto de AEM Screens.
-uuid: ec5219b7-73f9-4026-99e5-e4a02201b128
-contentOwner: jsyal
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-content-type: reference
-topic-tags: administering
-discoiquuid: 1b1a36a4-4f95-41e3-b0a8-74249efb0119
-docset: aem65
+title: Configurações do Dispatcher para AEM Screens
+seo-title: Configurações do Dispatcher para AEM Screens
+description: Esta página destaca as diretrizes para configurar o dispatcher para um projeto da AEM Screens.
+seo-description: Esta página destaca as diretrizes para configurar o dispatcher para um projeto da AEM Screens.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 7%
+source-wordcount: '227'
+ht-degree: 10%
 
 ---
 
 
-# Configurações Dispatcher para AEM Screens{#dispatcher-configurations-for-aem-screens}
+# Configurações do Dispatcher para AEM Screens{#dispatcher-configurations-for-aem-screens}
 
 O Dispatcher é a ferramenta de balanceamento de carga e/ou cache do Adobe Experience Manager.
 
-A página a seguir fornece as diretrizes para configurar o dispatcher para um projeto de AEM Screens.
+A página a seguir fornece as diretrizes para configurar o dispatcher para um projeto da AEM Screens.
 
 >[!NOTE]
 >
@@ -33,13 +26,13 @@ A página a seguir fornece as diretrizes para configurar o dispatcher para um pr
 
 ## Pré-requisitos {#pre-requisites}
 
-Antes de configurar o dispatcher para um projeto do AEM Screens, você deve ter conhecimento prévio da Dispatcher.
+Antes de configurar o dispatcher para um projeto da AEM Screens, você deve ter conhecimento prévio do Dispatcher.
 
-Consulte [Configuração do Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) para obter mais detalhes.
+Consulte [Configuração do Dispatcher](https://docs.adobe.com/content/help/pt-BR/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) para obter mais detalhes.
 
 ## Configurando o Dispatcher {#configuring-dispatcher}
 
-Siga as etapas abaixo para configurar o dispatcher para um projeto de AEM Screens.
+Siga as etapas abaixo para configurar o dispatcher para um projeto da AEM Screens.
 
 ### Etapa 1: Configurando cabeçalhos do cliente {#step-configuring-client-headers}
 
@@ -59,20 +52,56 @@ Para configurar filtros do Screens, adicione o seguinte a ***/filtre***.
 ## AEM Screens Filters
 ## # Login, Ping and Device Configurations
 /0200 { /type "allow" /method "POST" /url "/libs/granite/core/content/login.validate/j_security_check" }
-/0201 { /type "allow" /method "GET" /url "/content/screens/svc.json" }
-/0202 { /type "allow" /method "GET" /url "/content/screens/svc.ping.json" }
-/0203 { /type "allow" /method "GET" /url "/content/screens/svc.config.json" }
+/0201 { /type "allow" /method "GET" /url "/libs/granite/csrf/token.json" }
+/0202 { /type "allow" /method "GET" /url "/content/screens/svc.json" }
+/0203 { /type "allow" /method "GET" /url "/content/screens/svc.ping.json" }
+/0204 { /type "allow" /method "GET" /url "/content/screens/svc.config.json" }
 ## # Device Dashboard Configurations
-/0204 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.preferences.json" }
-/0205 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.logs.json" }
-/0206 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.statusinfo.json" }
-/0207 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.screenshot.json" }
+/0210 { /type "allow" /method '(GET|POST)' /url "/home/users/screens/*/devices/*/profile_screens.preferences.json" }
+/0211 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.logs.json" }
+/0212 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.statusinfo.json" }
+/0213 { /type "allow" /method "POST" /url "/home/users/screens/*/devices/*/profile_screens.screenshot.json" }
 ## # Content Configurations
-/0208 { /type "allow" /method '(GET|HEAD)' /url "/content/screens/*" }
-/0209 { /type "allow" /method '(GET|HEAD)' /url "/content/screens/*/jcr:content/*/offline-config_*.zip" }
-/0210 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
+/0220 { /type "allow" /method '(GET|HEAD)' /url "/content/screens/*" }
+/0221 { /type "allow" /method '(GET|HEAD)' /url "/content/screens/*/jcr:content/*/offline-config_*.zip" }
+/0222 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### Etapa 3: Desabilitando o Cache Dispatcher {#step-disabling-dispatcher-cache}
+### Etapa 3: Desabilitando o Cache do Dispatcher {#step-disabling-dispatcher-cache}
 
 Desative o cache do dispatcher para ***/content/screens path***.
+
+Os players de telas usam uma sessão autenticada, de modo que o dispatcher não armazena em cache nenhuma solicitação dos players de telas para `channels/assets`.
+
+Para ativar o cache dos ativos para que os ativos sejam servidos do cache do dispatcher, você deve:
+
+* Adicionar `/allowAuthorization 1` na `/cache` seção
+* Adicione as regras abaixo à seção `/rule`s de `/cache`
+
+```xml
+/0000
+    {
+        /glob "*"
+        /type "allow"
+    }   
+
+/0001
+    {
+        # Disable Dispatcher Cache for Screens channels
+        /glob "/content/screens/*.html"
+        /type "deny" 
+    }
+
+/0002
+    {
+    # Disable Dispatcher Cache for Screens offline manifests
+    /glob "/content/screens/*.json"
+    /type "deny"
+    }
+
+/0003
+    { # Disable Dispatcher Cache for Screens devices json 
+    /glob "/home/users/screens/*.json"
+    /type "deny"
+    }
+```
