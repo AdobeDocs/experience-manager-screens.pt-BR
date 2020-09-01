@@ -1,17 +1,10 @@
 ---
-title: Configuração do autor e publicação em AEM Screens
-seo-title: Configuração do autor e publicação em AEM Screens
-description: A arquitetura AEM Screens se parece com uma arquitetura AEM Sites tradicional. O conteúdo é criado em uma instância do autor de AEM e, em seguida, replicado para várias instâncias de publicação. Siga esta página para saber como configurar o autor e publicar para AEM Screens.
-seo-description: A arquitetura AEM Screens se parece com uma arquitetura AEM Sites tradicional. O conteúdo é criado em uma instância do autor de AEM e, em seguida, replicado para várias instâncias de publicação. Siga esta página para saber como configurar o autor e publicar para AEM Screens.
-uuid: 0a6e87e7-0018-42ef-b484-9a3da61c636a
-contentOwner: jsyal
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
-docset: aem65
+title: Configuração do autor e publicação no AEM Screens
+seo-title: Configuração do autor e publicação no AEM Screens
+description: A arquitetura AEM Screens se parece com uma arquitetura AEM Sites tradicional. O conteúdo é criado em uma instância do autor AEM e, em seguida, replicado para várias instâncias de publicação. Siga esta página para saber como configurar o autor e publicar para AEM Screens.
+seo-description: A arquitetura AEM Screens se parece com uma arquitetura AEM Sites tradicional. O conteúdo é criado em uma instância do autor AEM e, em seguida, replicado para várias instâncias de publicação. Siga esta página para saber como configurar o autor e publicar para AEM Screens.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
 workflow-type: tm+mt
 source-wordcount: '1893'
 ht-degree: 3%
@@ -19,7 +12,7 @@ ht-degree: 3%
 ---
 
 
-# Configuração do autor e publicação em AEM Screens {#configuring-author-and-publish-in-aem-screens}
+# Configuração do autor e publicação no AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
 Esta página destaca os seguintes tópicos:
 
@@ -31,19 +24,19 @@ Esta página destaca os seguintes tópicos:
 
 Antes de começar a usar os servidores de autor e publicação, você deve ter conhecimento prévio de:
 
-* **Topologia do AEM**
-* **Criação e gerenciamento de projetos do AEM Screens**
+* **Topologia AEM**
+* **Criação e gerenciamento do AEM Screens Project**
 * **Processo de registro do dispositivo**
 
 >[!NOTE]
 >
->Essa funcionalidade de AEM Screens só estará disponível se você tiver instalado o AEM 6.4 Screens Pack 2. Para obter acesso a esse Feature Pack, você deve entrar em contato com o Suporte da Adobe e solicitar acesso. Com as devidas permissões, você pode baixá-lo em Compartilhamento de pacotes.
+>Esta funcionalidade do AEM Screens só estará disponível se você tiver instalado AEM 6.4 Screens Pack 2. Para obter acesso a esse Feature Pack, você deve entrar em contato com o Suporte da Adobe e solicitar acesso. Com as devidas permissões, você pode baixá-lo em Compartilhamento de pacotes.
 
 ## Configuração de instâncias de autor e publicação {#configuring-author-and-publish-instances}
 
 >[!NOTE]
 >
->Para saber mais sobre o autor e publicar a visão geral da arquitetura e como o conteúdo é criado em uma instância do autor de AEM e, em seguida, replicado para várias instâncias de publicação, consulte Visão geral [da arquitetura do](author-publish-architecture-overview.md)autor e publicação.
+>Para saber mais sobre o autor e publicar a visão geral da arquitetura e como o conteúdo é criado em uma instância do autor AEM e, em seguida, replicado para várias instâncias de publicação, consulte Visão geral [da arquitetura do](author-publish-architecture-overview.md)autor e publicação.
 
 A seção a seguir explica como configurar agentes de replicação na topologia de criação e publicação.
 
@@ -67,7 +60,7 @@ Há três agentes de replicação necessários para o Screens:
 
 Siga as etapas abaixo para criar um agente de replicação padrão:
 
-1. Navegue até sua instância do AEM —> ícone de martelo —> **Operações** —> **Configuração**.
+1. Navegue até sua instância AEM —> ícone de martelo —> **Operações** —> **Configuração**.
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
@@ -111,8 +104,8 @@ Siga as etapas abaixo para criar um agente de replicação padrão:
 
 #### Criando Agentes de Replicação de Telas {#creating-screens-replication-agents}
 
-1. Criar agente de replicação de AEM Screens para pub1. Completo, há um chamado Screens Replication Agent que aponta para a porta 4503. Isso precisa ser habilitado.
-1. Criar agente de replicação de AEM Screens para pub2. Copie o agente de replicação Screens para pub1 e altere a porta para 4504 para pub2.
+1. Criar agente de replicação AEM Screens para pub1. Completo, há um chamado Screens Replication Agent que aponta para a porta 4503. Isso precisa ser habilitado.
+1. Criar agente de replicação AEM Screens para pub2. Copie o agente de replicação Screens para pub1 e altere a porta para 4504 para pub2.
 
 #### Criando Agentes de Replicação Reversa de Telas {#creating-screens-reverse-replication-agents}
 
@@ -150,7 +143,7 @@ Em cada instância de publicação:
 
 1. No console OSGi, navegue até **MAIN** —> Suporte **** Crypto (*https://&lt;host>:&lt;porta>/system/console/crypto*).
 1. Digite a senha de texto sem formatação desejada (a mesma para todas as instâncias) em Texto **sem formatação**
-1. Clique em **Proteger**.
+1. Clique em **Protect**.
 1. Copie o valor Texto **** protegido para o bloco de notas ou editor de texto. Esse valor será usado na configuração OSGi para AtiveMQ.
 
 Como cada instância de publicação por padrão tem chaves de criptografia exclusivas, é necessário executar essa etapa em cada instância de pub e salvar a chave exclusiva para a próxima configuração.
@@ -168,7 +161,7 @@ Em cada instância de publicação:
 1. Selecionar a configuração do provedor **** JMS do Apache AtiveMQ Artemis
 1. Atualize o seguinte:
 
-* ***Senha*** do cluster: (usar valor criptografado de etapa anterior por instância respectiva)
+* ***Senha*** do cluster: (use valor criptografado de etapa anterior por instância respectiva)
 * ***Tópicos***: {nome: &#39;command&#39;, endereço: &#39;com.adobe.cq.screens.command&#39;, maxConsumers: 50}
 
 #### Verifique o cluster AtiveMQ Artemis {#verify-activemq-artemis-cluster}
@@ -210,7 +203,7 @@ Depois de configurar a ferramenta de publicação, é necessário configurar as 
 >
 >**Pré-requisitos**
 >
->Para começar a usar este exemplo, crie um novo projeto de AEM Screens seguido de criação de um local, exibição e canal em seu projeto. Adicione conteúdo ao seu canal e atribua o canal a uma exibição.
+>Para começar a usar este exemplo, crie um novo projeto do AEM Screens seguido de criação de um local, exibição e canal no seu projeto. Adicione conteúdo ao seu canal e atribua o canal a uma exibição.
 
 #### Etapa 1: Iniciar um AEM Screens Player (dispositivo) {#step-starting-an-aem-screens-player-device}
 
@@ -219,7 +212,7 @@ Depois de configurar a ferramenta de publicação, é necessário configurar as 
 
 >[!NOTE]
 >
->Você pode abrir um player do AEM Screens usando o aplicativo do AEM Screens que você baixou ou usando o navegador da Web.
+>Você pode abrir um AEM Screens player usando o aplicativo AEM Screens baixado ou usando o navegador da Web.
 
 #### Etapa 2: Registrando um dispositivo no autor {#step-registering-a-device-on-author}
 
@@ -265,17 +258,17 @@ Você também pode ativar o dispositivo a partir do Console de Gerenciamento de 
 
 >[!NOTE]
 >
->Como alternativa, depois de ativar o dispositivo, você também pode editar ou atualizar o URL do servidor clicando em **Editar URL** do servidor na barra de ação, como mostrado na figura abaixo, e suas alterações serão propagadas para o player do AEM Screens.
+>Como alternativa, depois de ativar o dispositivo, você também pode editar ou atualizar o URL do servidor clicando em **Editar URL** do servidor na barra de ação, como mostrado na figura abaixo, e suas alterações serão propagadas para o AEM Screens player.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
-### lista de verificação de publicação {#publishing-check-list}
+### Lista de verificação de publicação {#publishing-check-list}
 
 Os pontos a seguir resumem a lista de verificação de publicação:
 
-* *Usuário* do dispositivo de telas - é armazenado como um usuário do AEM e deve ser ativado em **Ferramentas** > **Segurança** > **Usuários**. O usuário receberá o prefixo &quot;telas&quot; com uma string serializada longa.
+* *Screens Device User* - É armazenado como um usuário AEM e deve ser ativado em **Ferramentas** > **Segurança** > **Usuários**. O usuário receberá o prefixo &quot;telas&quot; com uma string serializada longa.
 
-* *Projeto* - O projeto dos AEM Screens.
+* *Projeto* - O projeto da AEM Screens.
 * *Localização* - Local ao qual o dispositivo está conectado.
 * *Canais* - um ou mais canais que estão sendo exibidos no local
 * *Agendamento* - se estiver usando um agendamento, verifique se isso foi publicado
@@ -287,26 +280,26 @@ Siga as etapas abaixo para verificar o comportamento de autor/publicação:
 1. Executar **Gerenciar publicação** para publicar novas alterações em todas as instâncias de publicação
 1. Pressione **Ativate (Ativar** ) para ativar o dispositivo a partir do **Gerenciador de dispositivos**
 1. **Editar URL** do URL de instância do autor para um dos URL de instância de publicação
-1. Verifique se o conteúdo atualizado do canal é exibido no player do AEM Screens
+1. Verifique se o conteúdo atualizado do canal é exibido no AEM Screens player
 1. Repita essas etapas usando uma instância de publicação diferente
 
 
 #### Etapa 5: Apontar o dispositivo para publicar a instância no painel Admin {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. Visualização a interface do usuário do administrador no player do Screens, mantenha pressionada a tecla no canto superior esquerdo para abrir o menu Admin, no player de AEM Screens ativado pelo toque ou usando um mouse.
+1. Visualização a interface do usuário do administrador no player do Screens, mantenha pressionada a tecla no canto superior esquerdo para abrir o menu Admin, no AEM Screens player habilitado para toque ou usando um mouse.
 1. Clique na opção **Configuração** no painel lateral.
 1. Altere a instância do autor para publicar a instância no **Servidor**.
 
-Visualização as alterações no player do AEM Screens.
+Visualização as alterações no AEM Screens player.
 
 Como alternativa, você também pode atualizar/editar o URL do servidor no console de gerenciamento de dispositivos usando as seguintes etapas:
 
 1. Navegue até o projeto do AEM Screens e selecione a pasta **Dispositivos** .
 1. Click **Device Manager** from the action bar.
-1. Selecione o dispositivo e clique em **Editar URL** do servidor na barra de ações, como mostrado na figura abaixo, e suas alterações serão propagadas para o player do AEM Screens.
+1. Selecione o dispositivo e clique em **Editar URL** do servidor na barra de ação, como mostrado na figura abaixo, e suas alterações serão propagadas para o AEM Screens player.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-O recurso **Gerenciar publicação** permite que você forneça atualizações de conteúdo do autor para publicar no dispositivo. Você pode publicar/desfazer a publicação de conteúdo para todo o seu projeto de AEM Screens ou somente para um de seus canais, local, dispositivo, aplicativo ou agendamento. Para saber mais sobre esse recurso, consulte Atualização [de conteúdo](on-demand-content.md)sob demanda.
+O recurso **Gerenciar publicação** permite que você forneça atualizações de conteúdo do autor para publicar no dispositivo. Você pode publicar/cancelar a publicação de conteúdo para todo o seu projeto do AEM Screens ou somente para um de seus canais, local, dispositivo, aplicativo ou agendamento. Para saber mais sobre esse recurso, consulte Atualização [de conteúdo](on-demand-content.md)sob demanda.
 
 
