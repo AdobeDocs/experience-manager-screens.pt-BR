@@ -2,9 +2,9 @@
 title: Notas de versão do Feature Pack 2008
 description: A página descreve as Notas de versão do Feature Pack 2008.
 translation-type: tm+mt
-source-git-commit: 7e3830eed45fd74a334c97dfd49b1913c455c5b8
+source-git-commit: 37025002d02603ab8a5c571086524be858389557
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '306'
 ht-degree: 2%
 
 ---
@@ -59,9 +59,6 @@ Você deve configurar um ambiente para Windows ou Android player, se estiver usa
 ### Players AEM Screens lançados {#released-aem-screens-players}
 
 Os seguintes AEM Screens Players foram lançados para o AEM Screens AEM 6.5 Feature Pack 5.
-
->[!IMPORTANT]
->Se você instalou o AEM Service Pack 6.5.5, poderá encontrar problemas de replicação nos players do Screens. Instale [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) para corrigir o problema.
 
 * Chrome OS
 * Windows
