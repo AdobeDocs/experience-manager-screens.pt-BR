@@ -4,10 +4,10 @@ seo-title: Configurações do Dispatcher para AEM Screens
 description: Esta página destaca as diretrizes para configurar o dispatcher para um projeto da AEM Screens.
 seo-description: Esta página destaca as diretrizes para configurar o dispatcher para um projeto da AEM Screens.
 translation-type: tm+mt
-source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
+source-git-commit: 37025002d02603ab8a5c571086524be858389557
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 10%
+source-wordcount: '251'
+ht-degree: 9%
 
 ---
 
@@ -33,6 +33,21 @@ Consulte [Configuração do Dispatcher](https://docs.adobe.com/content/help/pt-B
 ## Configurando o Dispatcher {#configuring-dispatcher}
 
 Siga as etapas abaixo para configurar o dispatcher para um projeto da AEM Screens.
+
+### Habilitar Sessões Aderentes {#enable-sticky-session}
+
+Se alguém quiser usar mais de uma instância de publicação com o dispatcher, ele deverá atualizar o dispatcher.any arquivo em seu dispatcher.
+
+```xml
+/stickyConnections {
+  /paths
+  {
+    "/content/screens"
+    "/home/users/screens"
+    "/libs/granite/csrf/token.json"
+  }
+}
+```
 
 ### Etapa 1: Configurando cabeçalhos do cliente {#step-configuring-client-headers}
 
@@ -76,7 +91,7 @@ Os players de telas usam uma sessão autenticada, de modo que o dispatcher não 
 Para ativar o cache dos ativos para que os ativos sejam servidos do cache do dispatcher, você deve:
 
 * Adicionar `/allowAuthorization 1` na `/cache` seção
-* Adicione as regras abaixo à seção `/rule`s de `/cache`
+* Adicione as regras abaixo à `/rules` seção de `/cache`
 
 ```xml
 /0000
