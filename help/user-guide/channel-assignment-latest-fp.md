@@ -3,10 +3,10 @@ title: Atribuição de canais - FP mais recente
 seo-title: Atribuição de canais - FP mais recente
 description: Siga esta página para saber mais sobre Atribuição de Canais e DayParting.
 translation-type: tm+mt
-source-git-commit: 87dac70f6cf349d8c67f153b813d605f4da378d1
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 24%
+source-wordcount: '1471'
+ht-degree: 23%
 
 ---
 
@@ -193,7 +193,7 @@ A Programação de recorrência permite definir uma programação recorrente par
 
 ### DayParting {#dayparting}
 
-A Segmentação de dia refere-se ao processo de dividir um dia em períodos de tempo e especificar qual conteúdo é reproduzido no horário desejado. A AEM Screens permite que você programe canais em termos de DayParting em um dia, semana ou mês de acordo com a necessidade.
+DayParting refere-se à divisão de um dia em intervalos de tempo e à especificação de qual conteúdo é reproduzido no horário desejado. A AEM Screens permite que você programe canais em termos de DayParting em um dia, semana ou mês de acordo com a necessidade.
 
 Os exemplos a seguir explicam DayParting em canais em três cenários diferentes:
 
