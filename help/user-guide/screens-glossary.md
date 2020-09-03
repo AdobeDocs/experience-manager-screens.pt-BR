@@ -4,10 +4,10 @@ seo-title: Glossário
 description: Siga esta página para entender os termos principais associados ao AEM Screens.
 seo-description: Siga esta página para entender os termos principais associados ao AEM Screens.
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 12%
+source-wordcount: '469'
+ht-degree: 11%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 12%
 **Canal** do aplicativo Um Canal do aplicativo mostra um aplicativo criado por um desenvolvedor que exibe conteúdo interativo.
 
 **Repetir** um loop de atrair é definido como o estado *inicial* ou *ocioso* quando a exibição tem dois ou mais estados nos quais pode existir. Seu papel é *atrair* os clientes para o monitor e incentivá-los a se engajar, geralmente tocando na tela, mas também pode ser interagindo com um produto.
+
+**DayParting DayParting** se refere à divisão de um dia em intervalos de tempo e à especificação de qual conteúdo é reproduzido no horário desejado. A AEM Screens permite que você programe canais em termos de DayParting em um dia, semana ou mês de acordo com a necessidade.
 
 **Dispositivo** Um dispositivo tem a capacidade de executar o software do player para produzir uma saída visual. Ele é capaz de controlar a exibição de uma parte recortada, dimensionada e traduzida de conteúdo ou experiência comuns. A configuração da tela está vinculada a uma tela, mas pode ser substituída em caso de falha técnica.
 
