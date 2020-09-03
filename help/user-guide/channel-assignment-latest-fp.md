@@ -1,12 +1,12 @@
 ---
 title: Atribuição de canais - FP mais recente
 seo-title: Atribuição de canais - FP mais recente
-description: Siga esta página para saber mais sobre Atribuição de Canais e Programação de anúncios.
+description: Siga esta página para saber mais sobre Atribuição de Canais e DayParting.
 translation-type: tm+mt
-source-git-commit: 4ce9bd954a30282d94e30a6868d269b4df0a0f5e
+source-git-commit: 87dac70f6cf349d8c67f153b813d605f4da378d1
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 23%
+source-wordcount: '1472'
+ht-degree: 24%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 23%
 
 Depois de configurar uma exibição, é necessário atribuir um canal a uma exibição para visualização do conteúdo.
 
-Esta página mostra como atribuir um canal à sua exibição, compreender as propriedades do canal e a programação de anúncios.
+Esta página mostra como atribuir um canal à sua exibição, compreender as propriedades do canal e DayParting.
 
 >[!NOTE]
 >É possível atribuir vários canais a uma exibição.
@@ -108,13 +108,11 @@ Siga as etapas abaixo para navegar até a visualização da linha do tempo:
 
 1. Tap/click **Assign Channel** from the action bar.
 
-   ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
    Ou,
 
    Toque/clique em **Painel** e clique em **Linha** do tempo no painel CANAIS **ATRIBUÍDOS e PROGRAMAS** .
 
-1. Imagens pendentes (a serem corrigidas)
+   ![imagem](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
 ## Noções Gerais das Propriedades do Canal na Caixa de Diálogo Atribuição do Canal {#channel-properties}
 
@@ -182,7 +180,7 @@ A Programação de recorrência permite definir uma programação recorrente par
 
 >[!NOTE]
 >Você pode adicionar várias programações recorrentes ao seu canal.
->Recurrence Schedules introduces *day-parting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+>Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 É possível definir as seguintes opções:
 
@@ -193,15 +191,15 @@ A Programação de recorrência permite definir uma programação recorrente par
    * **Hora**: O agendamento terminará em um horário especificado.
    * **Duração**: O agendamento é executado por uma duração específica em horas ou minutos.
 
-### Programação {#dayparting}
+### DayParting {#dayparting}
 
-A separação de dias se refere à divisão de um dia em intervalos de tempo e à especificação de qual conteúdo é reproduzido no horário desejado. A AEM Screens permite programar canais em termos de programação de anúncios em um dia, semana ou mês, de acordo com a necessidade.
+A Segmentação de dia refere-se ao processo de dividir um dia em períodos de tempo e especificar qual conteúdo é reproduzido no horário desejado. A AEM Screens permite que você programe canais em termos de DayParting em um dia, semana ou mês de acordo com a necessidade.
 
-Os exemplos a seguir explicam a programação em canais em três cenários diferentes:
+Os exemplos a seguir explicam DayParting em canais em três cenários diferentes:
 
 #### Reprodução do conteúdo em um único dia, dividido em vários períodos de tempo {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-Este exemplo mostra como um restaurante usa a folia do dia para mostrar seu café da manhã, almoço e menu de jantar todos os dias.
+Este exemplo mostra como um restaurante usa o DayParting para mostrar seu café da manhã, almoço e menu de jantar todos os dias.
 
 Aqui, dividiremos cada dia em intervalos de tempo diferentes, para que o conteúdo do canal seja reproduzido conforme a hora especificada do dia. Defina as seguintes propriedades da Programação de recorrência para que seu canal reproduza o conteúdo de acordo com este caso de uso.
 
@@ -213,7 +211,7 @@ Aqui, dividiremos cada dia em intervalos de tempo diferentes, para que o conteú
 
 #### Reprodução do conteúdo em um determinado dia da semana {#playing-content-on-a-particular-day-of-the-week}
 
-Este exemplo mostra a programação de anúncios implementada em um casino onde o evento ao vivo ocorre todo fim de semana, das 20h às 22h e os especiais estão disponíveis para o menu do jantar depois das 22h até às 13h.
+Este exemplo mostra o DayParting implementado em um casino onde o evento ao vivo ocorre todo fim de semana, das 20h às 22h e os especiais estão disponíveis para o menu do jantar depois das 22h até às 13h.
 
 | **Nome** | **Repetições** | **Início** | **End** |
 |---|---|---|---|
