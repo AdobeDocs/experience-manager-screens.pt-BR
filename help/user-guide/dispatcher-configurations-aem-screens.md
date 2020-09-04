@@ -4,9 +4,9 @@ seo-title: Configurações do Dispatcher para AEM Screens
 description: Esta página destaca as diretrizes para configurar o dispatcher para um projeto da AEM Screens.
 seo-description: Esta página destaca as diretrizes para configurar o dispatcher para um projeto da AEM Screens.
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '248'
 ht-degree: 9%
 
 ---
@@ -36,7 +36,7 @@ Siga as etapas abaixo para configurar o dispatcher para um projeto da AEM Screen
 
 ### Habilitar Sessões Aderentes {#enable-sticky-session}
 
-Se alguém quiser usar mais de uma instância de publicação com o dispatcher, ele deverá atualizar o dispatcher.any arquivo em seu dispatcher.
+Se você quiser usar mais de uma instância de publicação com o dispatcher, será necessário atualizar o `dispatcher.any` arquivo.
 
 ```xml
 /stickyConnections {
