@@ -2,9 +2,9 @@
 title: Notas de versão do Feature Pack 2008
 description: A página descreve as Notas de versão do Feature Pack 2008.
 translation-type: tm+mt
-source-git-commit: 583e9e6bb591cc9cf5ec60a60e10ccba480a7e14
+source-git-commit: f13adf375631e3b7d7d03324458d91d9d55b0f80
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '333'
 ht-degree: 2%
 
 ---
@@ -68,4 +68,4 @@ Os seguintes AEM Screens Players foram lançados para o AEM Screens AEM 6.5 Feat
 
 #### Downloads do AEM Screens Player  {#aem-screens-player-downloads}
 
-Para baixar o AEM Screens player mais recente e saber mais sobre as correções de erros, consulte Downloads **[do](https://download.macromedia.com/screens/)** AEM Screens Player.
+Para baixar o AEM Screens player mais recente e saber mais sobre as correções de erros, consulte Downloads **[do](https://download.macromedia.com/screens/index.html)** AEM Screens Player.
