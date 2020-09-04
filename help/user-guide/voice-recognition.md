@@ -2,9 +2,9 @@
 title: Reconhecimento de voz no AEM Screens
 description: A página descreve o recurso de reconhecimento de voz no AEM Screens.
 translation-type: tm+mt
-source-git-commit: a9e13dca2ed8ac667356780db25cbe7e0c81c1c5
+source-git-commit: e355d648846034c4762ef8fdcb3e218d868044b6
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1124'
 ht-degree: 3%
 
 ---
@@ -35,11 +35,11 @@ Um autor de conteúdo pode configurar uma exibição para ser habilitada para vo
 
 Para implementar o reconhecimento de voz em seu projeto do AEM Screens, você deve ativar o reconhecimento de voz para a Exibição e associar cada canal a uma tag exclusiva para acionar uma transição de canal.
 
-A seção a seguir descreve como você pode ativar e usar o recurso Reconhecimento de voz em um projeto da AEM Screens.
+A seção a seguir descreve como você pode ativar e usar o recurso de reconhecimento de voz em um projeto do AEM Screens.
 
 ## Exibição de conteúdo em tela cheia ou alternância de Canal de tela dividida {#sequence-channel}
 
-Antes de usar o recurso Reconhecimento de voz, verifique se você tem um projeto e um canal com conteúdo configurado para o seu projeto.
+Antes de usar o recurso de reconhecimento de voz, verifique se você tem um projeto e um canal com o conteúdo configurado para o seu projeto.
 
 1. O exemplo a seguir mostra um projeto de demonstração chamado **VoiceDemo** e três canais de sequência **Main**, **ColdBeinks** e **HotDrinks**, como mostrado na figura abaixo.
 
@@ -177,7 +177,7 @@ Quando as etapas anteriores estiverem concluídas, você poderá registrar seu d
 
 O canal **principal** está reproduzindo seu conteúdo, mas quando você usa palavras com palavras-chave **quentes** , como *eu gostaria de uma bebida* quente, os start do canal reproduzindo o conteúdo do canal **HotDrinks** .
 
-Da mesma forma, se você usar a palavra com uma palavra-chave **fria** como *eu gostaria de ter algo frio*, os start do canal reproduzindo o conteúdo do canal **ColdBeinks** .
+Da mesma forma, se você usar a palavra com uma palavra-chave **gelada** como *eu gostaria de ter algo frio*, os start do canal reproduzindo o conteúdo do canal **ColdBeinks** .
 
 **Saída desejada para o Canal de telas divididas**
 
