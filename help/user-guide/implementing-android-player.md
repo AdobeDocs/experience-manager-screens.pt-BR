@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
+source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 1%
@@ -33,7 +33,8 @@ Visite a página [**AEM 6.5 Player Downloads**](https://download.macromedia.com/
 
 ### Configuração do Ambiente para o AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
-Você deve configurar um ambiente para o Android player se estiver usando o AEM Screens 6.5.5 Service Pack.
+>[!NOTE]
+>Você deve configurar um ambiente para o Android player se estiver usando o AEM Screens 6.5.5 Service Pack.
 
 Defina o atributo **SameSite para os cookies** de token de login do **Lax** para **None** do **Adobe Experience Manager Web ConsoleConfiguration** em todas as instâncias de autor e publicação AEM.
 
