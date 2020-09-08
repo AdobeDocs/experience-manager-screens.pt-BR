@@ -3,9 +3,9 @@ title: Guia de Início Rápido
 seo-title: Guia de Início Rápido
 description: Siga esta página para criar um projeto de demonstração do AEM Screens. Ajuda a criar uma experiência de assinatura digital começando pela instalação e configurando um novo projeto para exibir seu conteúdo no AEM Screens player.
 translation-type: tm+mt
-source-git-commit: 6f95322e35861ef4b552c89320847d97f9644a4b
+source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1317'
 ht-degree: 5%
 
 ---
@@ -81,9 +81,9 @@ Siga as etapas abaixo para criar um novo canal para seu projeto:
 
    ![imagem](assets/kickstart/demo-4.png)
 
-O *TestChannel* é criado e adicionado à pasta canais, como mostrado na figura abaixo.
+   O *TestChannel* é criado e adicionado à pasta canais, como mostrado na figura abaixo.
 
-![imagem](assets/kickstart/demo-5.png)
+   ![imagem](assets/kickstart/demo-5.png)
 
 ### Adding Content to a Channel {#adding-content}
 
@@ -144,9 +144,9 @@ Depois de criar um local, é necessário criar uma nova exibição para o seu lo
 
    ![imagem](assets/kickstart/demo-disp3.png)
 
-Uma nova tela chamada **TestDisplay** agora é adicionada à sua localização **TestLocation**, como mostrado na figura abaixo.
+   Uma nova tela chamada **TestDisplay** agora é adicionada à sua localização **TestLocation**, como mostrado na figura abaixo.
 
-![imagem](assets/kickstart/demo-disp4.png)
+   ![imagem](assets/kickstart/demo-disp4.png)
 
 ### Assigning a Channel {#assigning-channel}
 
@@ -182,7 +182,7 @@ Quando a configuração do projeto for concluída, você deverá atribuir o cana
 
 1. Clique em **Salvar** depois de configurar suas preferências.
 
-### Registrando um dispositivo e atribuindo um dispositivo a um monitor{#registering-device}
+### Registrando um dispositivo e atribuindo um dispositivo a um monitor {#registering-device}
 
 Você precisa registrar seu dispositivo usando o painel AEM.
 
@@ -244,7 +244,7 @@ Quando o player do ChromeOS estiver ativado, siga as etapas abaixo para registra
 
 Todos os ativos em seu canal agora estão sendo reproduzidos em seu dispositivo Chrome.
 
-Parabéns por você estar reproduzindo um canal AEM Screens!
+Parabéns por você estar reproduzindo conteúdo em um canal AEM Screens!
 
 ![imagem](assets/kickstart/demo-video-screens.gif)
 
