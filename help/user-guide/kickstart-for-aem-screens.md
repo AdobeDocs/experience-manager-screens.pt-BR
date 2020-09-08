@@ -3,9 +3,9 @@ title: Guia de Início Rápido
 seo-title: Guia de Início Rápido
 description: Siga esta página para criar um projeto de demonstração do AEM Screens. Ajuda a criar uma experiência de assinatura digital começando pela instalação e configurando um novo projeto para exibir seu conteúdo no AEM Screens player.
 translation-type: tm+mt
-source-git-commit: 78ddd2b45f39d69b66f740910327eef475bcdcac
+source-git-commit: 988872003c1d01c90ccdb38fa77c99019b9a6966
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '985'
 ht-degree: 6%
 
 ---
@@ -18,7 +18,7 @@ Esta seção é um kickstart para a AEM Screens e demonstra como configurar e ex
 >[!NOTE]
 >Antes de start para trabalhar nos detalhes do projeto, certifique-se de ter instalado o Feature Pack mais recente. Você pode baixar o pacote de recursos mais recente para a versão AEM Screens 6.5.5 do Portal [de distribuição de](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) software usando seu Adobe ID.
 
-## Criação de uma experiência com cartazes digitais em 5 minutos {#creating-a-digital-signage-experience-in-minutes}
+## Pré-requisitos {#prerequisites}
 
 Siga as etapas abaixo para criar um projeto de amostra para o AEM Screens e publicar ainda mais o conteúdo no Screens player.
 
@@ -48,7 +48,7 @@ Siga as etapas abaixo para criar um projeto de amostra para o AEM Screens e publ
 1. Clique em **Salvar** para ativar o Filtro de Quem indicou Apache Sling Permitir vazio.
 
 
-## Tutorial {#tutorial}
+## Criação de uma experiência com cartazes digitais em 5 minutos {#creating-a-digital-signage-experience-in-minutes}
 
 ### Creating an AEM Screens Project {#creating-project}
 
@@ -134,11 +134,19 @@ Depois de criar um local, é necessário criar uma nova exibição para o seu lo
 
 1. Clique em **Criar** na barra de ações.
 
+   ![imagem](assets/kickstart/demo-disp1.png)
+
 1. Select **Display** from the **Create** wizard and click **Next**.
+
+   ![imagem](assets/kickstart/demo-disp2.png)
 
 1. Enter the **Title** as **LobbyDisplay** and click **Create**.
 
+   ![imagem](assets/kickstart/demo-disp3.png)
+
 Uma nova tela chamada **TestDisplay** agora é adicionada à sua localização **TestLocation**, como mostrado na figura abaixo.
+
+![imagem](assets/kickstart/demo-disp4.png)
 
 ### Assigning a Channel {#assigning-channel}
 
