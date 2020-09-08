@@ -3,9 +3,9 @@ title: Guia de Início Rápido
 seo-title: Guia de Início Rápido
 description: Siga esta página para criar um projeto de demonstração do AEM Screens. Ajuda a criar uma experiência de assinatura digital começando pela instalação e configurando um novo projeto para exibir seu conteúdo no AEM Screens player.
 translation-type: tm+mt
-source-git-commit: 63e828543a8543cc8ced678221369fe1e0431f60
+source-git-commit: c1a8317b835e000478591e4caa94b92f32a123d2
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1259'
 ht-degree: 5%
 
 ---
@@ -168,7 +168,8 @@ Quando a configuração do projeto for concluída, você deverá atribuir o cana
 
 1. Na opção **Configurações** , escolha o canal **por caminho** e Eventos **** suportados como **Carregamento** inicial e Tela **** inativa.
 
-   >[OBSERVAÇÃO]
+   >[!NOTE]
+   >
    >Por padrão, a função **do** Canal, a **prioridade** e os métodos **de** interrupção são preenchidos. Consulte a seção Propriedades [do](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) Canal para saber mais sobre as propriedades de atribuição do canal.
 
    ![imagem](assets/kickstart/demo-assign3.png)
