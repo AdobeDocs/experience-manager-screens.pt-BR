@@ -1,25 +1,28 @@
 ---
 title: Criação e gerenciamento de agendamentos
 seo-title: Gerenciamento de agendamentos
-description: Siga esta página para saber mais sobre Agendamentos, que permitem organizar canais em grupos reutilizáveis, para que você não precise repetir a atribuição individualmente para cada exibição na qual deseja mostrar seu conteúdo.
-seo-description: Siga esta página para saber mais sobre Agendamentos, que permitem organizar canais em grupos reutilizáveis, para que você não precise repetir a atribuição individualmente para cada exibição na qual deseja mostrar seu conteúdo.
+description: Siga esta página para saber mais sobre Agendamentos, que permite organizar canais em grupos reutilizáveis para que você não precise repetir suas atribuições individualmente para cada exibição na qual deseja exibir seu conteúdo.
+seo-description: Siga esta página para saber mais sobre Agendamentos, que permite organizar canais em grupos reutilizáveis para que você não precise repetir suas atribuições individualmente para cada exibição na qual deseja exibir seu conteúdo.
 uuid: c05328a0-620a-4597-b7b3-f4433e78d4e9
-contentOwner: Jyotika syal
+contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 48%
 
 ---
 
 
 # Criação e gerenciamento de agendamentos {#creating-and-managing-schedules}
 
-No AEM Screens, o recurso **Agendamentos** permite organizar canais em grupos reutilizáveis, para que você não precise repetir a atribuição individualmente para cada exibição na qual deseja mostrar seu conteúdo.
+**O agendamento**, no AEM Screens, permite que você organize canais em grupos reutilizáveis para que não seja necessário repetir a atribuição individualmente para cada exibição na qual deseja exibir o conteúdo.
 
-Schedules when combined with ***Dayparting***, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Schedules when combined with ***DayParting***, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 >[!NOTE]
 >
@@ -40,7 +43,6 @@ Siga as etapas abaixo para criar um agendamento para o seu canal:
 
 Você verá uma pasta de agendamentos com nome e título designados no seu projeto.
 
-![chlimage_1](assets/chlimage_1.gif)
 
 ## Visualização do painel {#viewing-dashboard}
 
@@ -58,9 +60,9 @@ Siga as etapas abaixo para visualizar o painel de agendamentos. O exemplo a segu
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Programar painel** de informações Clique em Propriedades no canto superior direito do Painel de informações AGENDAMENTO para exibir/alterar as propriedades do agendamento.
+   **Programar painel** de informações Clique em Propriedades no canto superior direito do Painel de informações AGENDAMENTO para visualização/alterar as propriedades do agendamento.
 
-   **Painel** Canais atribuídos Clique em +Atribuir canal no canto superior direito do Painel CANAIS ATRIBUÍDOS para abrir a caixa de diálogo Atribuição de canal. Consulte Atribuição de canais para obter mais detalhes.
+   **Painel** Canais atribuídos Clique em +Atribuir Canal no canto superior direito do Painel CANAIS ATRIBUÍDOS para abrir a caixa de diálogo Atribuição de Canais.
 
    **Painel** de telas atribuídas Selecione qualquer uma das telas do Painel de telas atribuídas para abrir o painel de exibição.
 
