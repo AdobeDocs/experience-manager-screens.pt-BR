@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 translation-type: tm+mt
-source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+source-git-commit: 8a2ed4e0a27175d43abfadda63232c3577d5387b
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -81,9 +81,8 @@ Verifique a lista de perfis do design da página se o componente de vídeo não 
 
 1. Selecione o vídeo e abra a caixa de diálogo **Editar** . Open the **Profiles** tab.
 
-   >[!OBSERVAÇÃO
+   >[!NOTE]
    >Selecione perfis diferentes (pelo menos o perfil &quot;H.264&quot; de alta qualidade deve estar presente).
-
 
 ### Como verificar o vídeo no Web Player {#checking-the-video-in-the-web-player}
 
