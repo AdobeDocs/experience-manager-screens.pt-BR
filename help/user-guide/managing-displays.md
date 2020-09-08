@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: b06ebef5d22daed81e8705c0928501505fd3d297
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 59%
 
 ---
 
@@ -27,7 +30,7 @@ Esta página mostra como criar e gerenciar as exibições do Screens.
 
 * [Configuração e implantação do Screens](configuring-screens-introduction.md)
 * [Criar e gerenciar projetos de telas](creating-a-screens-project.md)
-* [Criar e gerenciar canais](managing-channels.md)
+* [Criar e gerenciar Canais](managing-channels.md)
 * [Criar e gerenciar locais](managing-locations.md)
 
 ## Criação de uma nova exibição {#creating-a-new-display}
@@ -88,7 +91,7 @@ Quando uma configuração de dispositivo for definida para a exibição na local
 >
 >As shown in the figure below, if the device config is displayed as unassigned in the **DEVICES** pannel, if no channel is assigned to that particular device config.
 >
->Você deve compreender como criar e gerenciar canais. Consulte [Criar e gerenciar canais](managing-channels.md) para obter mais detalhes.
+>Você deve compreender como criar e gerenciar canais. Consulte [Criar e gerenciar Canais](managing-channels.md) para obter mais detalhes.
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
@@ -110,35 +113,30 @@ O painel Exibição oferece diferentes painéis para gerenciar os dispositivos d
 
 O painel **INFORMAÇÕES SOBRE A EXIBIÇÃO** fornece as propriedades de exibição.
 
-Click on the (**...**) in the top right corner in the **DISPLAY INFORMATION **panel to view the properties and preview the display.
+Clique em (**...**) no canto superior direito do painel **INFORMAÇÕES SOBRE A EXIBIÇÃO** para visualizar as propriedades e a exibição.
 
-![chlimage_1-10](assets/chlimage_1-10.png)
 
 #### Exibição de propriedades {#viewing-properties}
 
 Clique em **Propriedades** para ver ou alterar as propriedades da sua exibição.
 
-Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout **property under **Display** tab. O valor padrão é definido para *300 segundos*.
+Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. O valor padrão é definido para *300 segundos*.
 
 Use **CRXDE Lite**, to access the **idleTimeout** property, that is, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
 
-![chlimage_1-1](assets/chlimage_1-1.gif)
 
 ### Painel Canais atribuídos {#assigned-channels-panel}
 
 O painel **CANAIS ATRIBUÍDOS** mostra os canais atribuídos a este dispositivo.
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
 ### Painel Dispositivos {#devices-panel}
 
 O painel **DISPOSITIVOS** fornece informações sobre configurações de dispositivos.
 
-Click on the (**...**) in the top right corner in the **DEVICES **panel to add device configs and update devices.
+Click on the (**...**) in the top right corner in the **DEVICES** panel to add device configs and update devices.
 
-![chlimage_1-12](assets/chlimage_1-12.png)
-
-Além disso, clique na configuração do dispositivo para exibir as propriedades, atribuir um dispositivo ou excluí-lo completamente.
+Além disso, clique na configuração do dispositivo para propriedades de visualização, atribua um dispositivo ou exclua-o completamente.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 
