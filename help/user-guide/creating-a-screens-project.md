@@ -1,6 +1,6 @@
 ---
 title: Criação e gerenciamento de projetos
-seo-title: Criação de um projeto
+seo-title: 'Criação de um projeto  '
 description: Siga esta página para saber mais sobre como criar um novo projeto do Screens.
 seo-description: Siga esta página para saber mais sobre como criar um novo projeto do Screens.
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
@@ -10,18 +10,22 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '396'
+ht-degree: 38%
 
 ---
 
 
-# Criação e gerenciamento de projetos {#creating-and-managing-projects}
+# Creating and Managing Projects {#creating-and-managing-projects}
 
 O AEM Screens está disponível com a seleção do link do Adobe Experience Manager (no canto superior esquerdo) e, em seguida, do Screens.
 
-Em alternativa, pode aceder diretamente a: `http://localhost:4502/screens.html/content/screens`![chlimage_1-14](assets/chlimage_1-14.png)
+Em alternativa, pode aceder diretamente a: `http://localhost:4502/screens.html/content/screens`
+![chlimage_1-14](assets/chlimage_1-14.png)
 
-Diferentes projetos podem ser de marcas, implantações e clientes distintos, entre outros.
+Diferentes projetos podem ser diferentes marcas, implantações, clientes e assim por diante.
 
 ![screen_shot_2018-08-23at105748am](assets/screen_shot_2018-08-23at105748am.png)
 
@@ -29,14 +33,14 @@ Diferentes projetos podem ser de marcas, implantações e clientes distintos, en
 >
 >**Dica de navegação:**
 >
->Você também pode usar as teclas de cursor para navegar por pastas diferentes no AEM. Além disso, depois de selecionar uma entidade específica, pressione a barra de espaço para editar ou visualizar as propriedades dessa pasta específica.
+>Você também pode usar as teclas de cursor para navegar por pastas diferentes no AEM. Além disso, depois de selecionar uma entidade específica, pressione a barra de espaço para editar ou visualização as propriedades dessa pasta específica.
 
 ## Criação de um novo projeto do Screens {#creating-a-new-screens-project}
 
 Siga as etapas abaixo para criar um novo projeto do Screens:
 
 1. Selecione **Screens** no painel do AEM.
-1. Click **Create **--&gt;** Create Project **and **Create Screens Project** wizard will open.
+1. Click **Create** --> **Create Project** and **Create Screens Project** wizard will open.
 
 1. Select the **Screens** template and click **Next**.
 
@@ -72,7 +76,7 @@ The following options allow you to edit/change properties of your *DemoProject*.
 
 ### Criação de uma pasta personalizada {#creating-a-custom-folder}
 
-Você também pode criar sua própria pasta personalizada em **Programações**, **Locais**, **Aplicativos**, **Canais** e Páginas mestras **de Dispositivos** disponíveis no projeto.
+Você também pode criar sua própria pasta personalizada em **Programações**, **Locais**, **Aplicativos**, **Canais** e **Dispositivos** principais, disponíveis em seu projeto.
 
 Para criar uma pasta personalizada:
 
@@ -81,7 +85,7 @@ Para criar uma pasta personalizada:
 1. Clique em **Avançar**.
 1. Insira as propriedades e clique em **Criar**.
 
-As etapas a seguir mostram a criação de uma pasta de aplicativos para sua página mestre **Aplicativos** no *DemoProject*.
+As etapas a seguir mostram a criação de uma pasta de aplicativos para a página principal **Aplicativos** no *DemoProject*.
 
 ![player2-1](assets/player2-1.gif)
 
