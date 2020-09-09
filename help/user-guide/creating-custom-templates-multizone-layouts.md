@@ -5,9 +5,9 @@ description: Siga esta página para saber mais sobre a criação de modelos pers
 seo-description: Siga esta página para saber mais sobre a criação de modelos personalizados em layouts MultiZone.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '947'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Há duas considerações importantes que você deve estar ciente antes de criar 
 
 1. **Convenção** de nomenclatura:
 
-   Antes de entender como criar modelos personalizados de várias zonas para usar em um projeto do AEM Screens, é recomendável entender a versão dos modelos que você deseja criar.
+   Antes de entender como criar modelos personalizados de várias zonas para usar em um projeto da AEM Screens, é recomendável entender a versão dos modelos que você deseja criar.
 
    | **Nome do layout** | **Descrição** |
    |---|---|
@@ -58,9 +58,9 @@ O layout Left20-LandscapeHD3Zone permite criar o seguinte layout de várias zona
 
 ## Criação de um layout Left20-LandscapeHD3Zone {#landscape-layout-one}
 
-Siga as etapas abaixo para criar um layout Left20-LandscapeHD3Zone para um projeto de AEM Screens:
+Siga as etapas abaixo para criar um layout Left20-LandscapeHD3Zone para um projeto do AEM Screens:
 
-1. Crie um projeto de AEM Screens chamado de **modelo** personalizado.
+1. Crie um projeto da AEM Screens chamado de **modelo** personalizado.
 
    ![imagem](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
@@ -108,7 +108,7 @@ Siga as etapas abaixo para criar um layout Left20-LandscapeHD3Zone para um proje
 
 1. Navegue até `/apps/settings/wcm/designs/custom-template-designs` e crie um arquivo static.css.
 
-1. Copie o conteúdo para o arquivo static.css:
+1. Copie o conteúdo para o `static.css` arquivo:
 
    ```shell
        /*my-custom-layout styles*/
@@ -138,7 +138,7 @@ Siga as etapas abaixo para criar um layout Left20-LandscapeHD3Zone para um proje
 
 ## Como visualizar o resultado {#viewing-result}
 
-Siga as etapas abaixo para usar o modelo personalizado acima em seu projeto de AEM Screens:
+Siga as etapas abaixo para usar o modelo personalizado acima em seu projeto AEM Screens:
 
 1. Navegue até o projeto do Screens que você criou na etapa 1 e selecione a pasta **Canais** .
 
