@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '834'
 ht-degree: 42%
 
 ---
@@ -39,9 +39,7 @@ Você tem a opção de adicionar os seguintes componentes ao canal de sequência
 Você pode adicionar uma sequência incorporada ao seu canal. Uma sequência incorporada é outro canal que inclui ativos como imagens ou vídeos. A adição de uma sequência incorporada permite que o usuário adicione a sequência a um canal por ***Caminho do canal***.
 
 >[!NOTE]
->
->***O Caminho*** do Canal define uma referência explícita ao canal.
->
+>***Channel Path*** defines an explicit reference to the channel.
 >Para saber mais sobre *Caminho do canal*, consulte [Atribuição de canal](channel-assignment.md) na seção sobre criação da documentação do Screens.
 
 Siga as etapas abaixo para adicionar uma sequência incorporada ao seu canal:
@@ -101,7 +99,7 @@ Siga as etapas abaixo para adicionar uma sequência incorporada ao seu canal:
 1. Selecione o canal em que você deseja incorporar uma sequência dinâmica. For example, **We.Retail In-Store** --> **Channels** --> **Idle Channel**.
 
 1. Click **Edit** from the action bar to open the channel in the editor mode.
-1. Clique no ícone de componentes na barra lateral esquerda para adicionar a sequência incorporada dinâmica. Arraste e **solte o item Dinâmico** **Sequência incorporada **para o editor.
+1. Clique no ícone de componentes na barra lateral esquerda para adicionar a sequência incorporada dinâmica. Drag and drop the **Dynamic** **Embedded Sequence**  to the editor.
 
 1. Double-click the **Dynamic** **Embedded Sequence** component to add the page to your sequence channel.
 
