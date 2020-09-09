@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 45%
@@ -107,7 +107,6 @@ Siga as etapas abaixo para fazer upload de vídeos no seu canal:
 1. Selecione **Vídeos** em Ativos e arraste e solte os vídeos necessários.
 
 >[!NOTE]
->
 >If you encounter issues uploading videos in your channel, see [Troubleshooting Videos](troubleshoot-videos.md).
 
 ### Exibição de propriedades {#viewing-properties}
@@ -145,6 +144,7 @@ Você pode visualização o manifesto do painel do canal.
 >Esta opção só está disponível com AEM 6.4 Feature Pack 8 ou AEM 6.5 Feature Pack 4.
 
 Siga estas etapas para ativar esta opção do painel do canal:
+
 1. **Definir o Canal como off-line**
    1. Selecione o canal e selecione **Propriedades** na barra de ações
    1. Navegue até a guia **Canal** e certifique-se de desmarcar a opção **Developer Mode (forçar o canal a ficar on-line)**
