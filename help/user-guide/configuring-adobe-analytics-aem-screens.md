@@ -1,6 +1,6 @@
 ---
-title: Configuração do Adobe Analytics com AEM Screens
-seo-title: Configuração do Adobe Analytics com AEM Screens
+title: Configuração do Adobe Analytics com o AEM Screens
+seo-title: Configuração do Adobe Analytics com o AEM Screens
 description: 'Siga esta seção para saber mais sobre como sequenciar e enviar eventos personalizados usando o Adobe Analytics offline '
 seo-description: 'Siga esta seção para saber mais sobre como sequenciar e enviar eventos personalizados usando o Adobe Analytics offline '
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 11%
@@ -19,13 +19,13 @@ ht-degree: 11%
 ---
 
 
-# Configuração do Adobe Analytics com AEM Screens {#configuring-adobe-analytics-with-aem-screens}
+# Configuração do Adobe Analytics com o AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
 >[!CAUTION]
 >
->Esta funcionalidade de AEM Screens só estará disponível se você tiver instalado o AEM 6.4.2 Feature Pack 2 e o AEM 6.3.3 Feature Pack 4.
+>Esta funcionalidade do AEM Screens só estará disponível se você tiver instalado AEM 6.4.2 Feature Pack 2 e AEM 6.3.3 Feature Pack 4.
 >
->Para obter acesso a qualquer um desses Pacotes de recursos, entre em contato com o Suporte da Adobe e solicite acesso. Com as devidas permissões, você pode baixá-lo em Compartilhamento de pacotes.
+>Para obter acesso a qualquer um desses Pacotes de recursos, entre em contato com o Suporte ao Adobe e solicite acesso. Com as devidas permissões, você pode baixá-lo em Compartilhamento de pacotes.
 
 Esta seção aborda os seguintes tópicos:
 
@@ -34,17 +34,17 @@ Esta seção aborda os seguintes tópicos:
 
 ## Sequenciamento no Adobe Analytics com AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-O processo de ***sequenciamento é*** start com o serviço de armazenamento de dados que ativa o serviço Adobe Analytics. O conteúdo do Canal envia eventos do Adobe Analytics com folha de pagamento, ou seja, a captura de teste de dados para E/S do Windows e os eventos de permanência são acionados. Os eventos são salvos no banco de dados de índice e são posteriormente colocados no repositório de objetos. Com base no agendamento, o administrador define, corta os dados do repositório de objetos e os transfere ainda mais no repositório de segmentos. Ele tenta enviar a quantidade máxima de dados, quando conectado.
+O processo de ***sequenciamento é*** start com o serviço de armazenamento de dados que ativa o serviço Adobe Analytics. O conteúdo do canal envia eventos Adobe Analytics com folha de pagamento, ou seja, a captura de teste de dados para E/S do Windows e os eventos de permanência são acionados. Os eventos são salvos no banco de dados de índice e são posteriormente colocados no repositório de objetos. Com base no agendamento, o administrador define, corta os dados do repositório de objetos e os transfere ainda mais no repositório de segmentos. Ele tenta enviar a quantidade máxima de dados, quando conectado.
 
 ### Diagrama de Sequência {#sequencing-diagram}
 
-O diagrama de sequência a seguir explica a Integração do Adobe Analytics com AEM Screens:
+O diagrama de sequência a seguir explica a integração do Adobe Analytics com o AEM Screens:
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
 ## Envio de Eventos personalizados usando o Adobe Analytics offline {#sending-custom-events-using-offline-adobe-analytics}
 
-A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos os campos enviados para o Adobe Analytics:
+A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos os campos enviados para a Adobe Analytics:
 
 <table>
  <tbody>
@@ -59,7 +59,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
   </tr>
   <tr>
    <td><strong><em>Core/Evento</em></strong></td> 
-   <td>GUID do Evento</td> 
+   <td>GUID do evento</td> 
    <td>event.guid</td> 
    <td>recomendado</td> 
    <td>string</td> 
@@ -82,7 +82,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td>recomendado</td> 
    <td>string</td> 
    <td>carimbo de data e hora - UTC</td> 
-   <td>A data e hora do start do Evento, se você NÃO especificar isso, a hora do evento será assumida como a hora em que foi recebido pelo servidor</td> 
+   <td>A data e hora do start do evento, se você NÃO especificar isso, a hora do evento será assumida como a hora em que foi recebido pelo servidor</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -91,7 +91,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td>opcional</td> 
    <td>string</td> 
    <td>carimbo de data e hora - UTC</td> 
-   <td>Hora de conclusão do Evento</td> 
+   <td>Hora de conclusão do evento</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -122,12 +122,12 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
   </tr>
   <tr>
    <td> </td> 
-   <td>Tipo de Evento/ação</td> 
+   <td>Tipo de evento/ação</td> 
    <td>event.type</td> 
    <td>required</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Tipo de evento (renderizar, clicar, aproximar, aplicar zoom) - Ação principal do usuário</td> 
+   <td>tipo de evento (renderizar, clicar, aproximar, aplicar zoom) - Ação principal do usuário</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -136,7 +136,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td>recomendado</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Subtipo de Evento (criar, atualizar, excluir, publicar etc.) - Detalhes adicionais da ação do usuário</td> 
+   <td>Subtipo de evento (criar, atualizar, excluir, publicar etc.) - Detalhes adicionais da ação do usuário</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -145,7 +145,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td>opcional</td> 
    <td>boolean</td> 
    <td> </td> 
-   <td>O Evento foi gerado enquanto a ação estava offline/online (true/false)</td> 
+   <td>O evento foi gerado enquanto a ação estava offline/online (true/false)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -268,7 +268,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td> </td> 
    <td>Device</td> 
    <td>source.device</td> 
-   <td>obrigatório c/execuções</td> 
+   <td>obrigatório sem exceções</td> 
    <td>string</td> 
    <td> </td> 
    <td>Nome do player</td> 
@@ -277,7 +277,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td> </td> 
    <td>Versão do SO</td> 
    <td>source.os_version</td> 
-   <td>obrigatório c/execuções</td> 
+   <td>obrigatório sem exceções</td> 
    <td>string</td> 
    <td> </td> 
    <td>Versão O/S</td> 
