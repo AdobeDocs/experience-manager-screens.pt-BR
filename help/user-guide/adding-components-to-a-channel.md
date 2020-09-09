@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '1464'
+ht-degree: 60%
 
 ---
 
@@ -30,7 +33,7 @@ Sempre que criar um projeto do AEM Screens, você verá uma lista de componentes
 
 Para visualizar os componentes padrão no seu projeto do Screens, siga as etapas abaixo:
 
-1. Selecione o canal. Por exemplo, **We.Retail In Store** --&gt; **Canais** --&gt; **Canal ocioso**.
+1. Selecione o canal. Por exemplo, **We.Retail In Store** --> **Canais** --> **Canal ocioso**.
 
 1. Clique em **Editar** na barra de ações para abrir o editor do AEM.
 1. Clique no ícone **+** na barra lateral para abrir os componentes.
@@ -44,12 +47,12 @@ O AEM fornece vários outros componentes. Você sempre pode adicionar outros com
 
 O exemplo a seguir mostra a adição de um componente do Livefyre a um projeto do AEM Screens:
 
-1. Selecione o canal ao qual você deseja adicionar um novo componente. Por exemplo, **We.Retail In Store** --&gt; **Canais** --&gt; **Canal ocioso**.
+1. Selecione o canal ao qual você deseja adicionar um novo componente. Por exemplo, **We.Retail In Store** --> **Canais** --> **Canal ocioso**.
 
 1. Clique em **Editar** na barra de ações para abrir o editor.
 1. Selecione o modo de **Design.**
 1. Selecione o editor de design inteiro à direita e clique no símbolo de configurações para abrir a caixa de diálogo **ParSys (Design)**.
-1. Você pode selecionar os componentes que deseja importar para o projeto do AEM Screens. O exemplo a seguir mostra a adição do componente **Livefyre** a um projeto do AEM Screens.
+1. Você pode selecionar os componentes que deseja importar para o projeto do AEM Screens. The following example shows the addition of **Livefyre** component to an AEM Screens project.
 
 ![add_components](assets/adding_components.gif)
 
@@ -59,7 +62,7 @@ O exemplo a seguir mostra a adição de um componente do Livefyre a um projeto d
 
 ## Noções básicas sobre os componentes do AEM Screens {#understanding-aem-screen-components}
 
-A seção a seguir explica os componentes do AEM Screens que você pode usar em seu projeto.
+A seção a seguir explica os componentes do AEM Screens que você pode usar no seu projeto.
 
 >[!NOTE]
 >
@@ -76,9 +79,9 @@ O componente Aplicativo tem as seguintes propriedades:
 | ***Caminho do aplicativo*** | Selecione o caminho absoluto no qual o aplicativo existe. |
 | ***Duração (ms)*** | Selecione a duração do aplicativo. Por padrão, a duração é definida como -1, o que significa que o elemento é executado para sempre (ou seja, um aplicativo de página única). Definir o valor de duração como maior que 0 mostra o elemento pela duração especificada e, em seguida, avança para o próximo. |
 
-O exemplo a seguir mostra como incorporar um componente de aplicativo junto com a visualização de suas propriedades:
+O exemplo a seguir mostra como incorporar um componente de aplicativo junto com a pré-visualização de suas propriedades:
 
-![add_components_application](assets/adding_componentsapplication.gif)
+![add_componentsaplicativo](assets/adding_componentsapplication.gif)
 
 >[!NOTE]
 >
@@ -192,9 +195,9 @@ A sequência incorporada dinâmica tem as seguintes propriedades:
 
 ### Fragmento de experiência {#experience-fragment}
 
-Um Fragmento de experiência permite que você adicione um fragmento de experiência (grupo de um ou mais componentes, incluindo conteúdo e layout que podem ser referenciados nas páginas) ao canal do AEM Screens. Arraste e solte o componente no editor de AEM e selecione o fragmento da experiência.
+Um Fragmento de experiência permite que você adicione um fragmento de experiência (grupo de um ou mais componentes, incluindo conteúdo e layout que podem ser referenciados nas páginas) ao seu canal AEM Screens. Arraste e solte o componente para AEM editor e selecione o fragmento da experiência.
 
-Para saber mais sobre como criar um fragmento de experiência e aproveitá-lo em um projeto do AEM Screens, consulte [Uso de fragmentos](experience-fragments-in-screens.md)de experiência.
+Para saber mais sobre como criar um fragmento de experiência e aproveitá-lo em um projeto da AEM Screens, consulte [Uso de fragmentos](experience-fragments-in-screens.md)de experiência.
 
 ![exp](assets/exp.gif)
 
@@ -202,7 +205,7 @@ Para saber mais sobre como criar um fragmento de experiência e aproveitá-lo em
 |---|---|
 | **Fragmento de experiência** |
 | ***Fragmento de experiência*** | Selecione o fragmento da experiência. |
-| ***Duração*** | Selecione a duração inteira do fragmento de experiência que é reproduzido no canal. |
+| ***Duração*** | Selecione a duração inteira do fragmento da experiência que é reproduzido no canal. |
 | **Configuração offline** |
 | ***Bibliotecas do lado do cliente*** | Arquivos Javascript e CSS. |
 | ***Arquivos estáticos*** | Arquivos estáticos que você pode adicionar como configurações offline ao fragmento da sua experiência. |
@@ -228,7 +231,7 @@ O ativo de imagem possui três guias: **Imagem**, **Acessibilidade** e **Sequên
 | **Acessibilidade** |
 | ***Texto alternativo*** | Texto alternativo para a imagem. |
 | **Sequência** |
-| ***Duração*** | Por padrão, a duração é definida como *8000 ms*. Se desejar alterar a duração da reprodução da imagem, atualize o campo **Duração** . |
+| ***Duração*** | Por padrão, a duração é definida como *8000 ms*. Se você quiser alterar a duração da reprodução da imagem, atualize o campo **Duração** . |
 
 ### Transição {#transition}
 
@@ -238,7 +241,7 @@ A imagem a seguir mostra o componente de transição (adicionado por arrastar e 
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Selecione o ícone de transição e clique em **Configurar** (ícone de chave) para abrir a caixa de diálogo **Transição** . Essa caixa de diálogo inclui três guias:
+Selecione o ícone transição e clique em **Configurar** (ícone de chave) para abrir a caixa de diálogo **Transição** . Essa caixa de diálogo inclui três guias:
 
 * **Transição**
 * **Sequência**
