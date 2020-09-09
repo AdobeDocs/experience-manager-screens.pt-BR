@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 translation-type: tm+mt
-source-git-commit: d49ceecab42762425d779d50a31291091088ee19
+source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 42%
@@ -37,7 +37,7 @@ Siga as etapas abaixo para criar um novo projeto do Screens:
 
 1. Clique em **Criar projeto** de telas.
 
-1. Enter the title as **TestProject** and click **Create**.
+1. Enter the title as **TestScreens** and click **Save**.
 
 O projeto é criado, e você retorna ao console Projeto do Screens. Agora, você pode selecionar seu projeto.
 
