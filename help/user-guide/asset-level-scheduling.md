@@ -4,9 +4,9 @@ seo-title: Ativação de nível de ativo
 description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
 seo-description: Siga esta página para saber como ativar um ativo específico em um canal por um período programado no fuso horário local do player.
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1445'
 ht-degree: 2%
 
 ---
@@ -22,15 +22,15 @@ Os seguintes tópicos são abordados nesta seção:
 * Janela de ativação
 * Reprodução de Evento único
 * Tratamento de recorrência em ativos
-   * Partilha de Dia
-   * Semana de Partida
-   * Mês de separação
+   * DayParting
+   * WeekParting
+   * MonthParting
    * Combinação de peças
 * Ativação de vários ativos
 
 >[!CAUTION]
 >
->Esta funcionalidade de AEM Screens só estará disponível se você tiver instalado AEM 6.3 Feature Pack 3 ou AEM 6.4 Screens Pack 1.
+>Esta funcionalidade do AEM Screens só estará disponível se você tiver instalado AEM 6.3 Feature Pack 3 ou AEM 6.4 Screens Pack 1.
 >
 >Para obter acesso a esse Feature Pack, você deve entrar em contato com o Suporte da Adobe e solicitar acesso. Com as devidas permissões, você pode baixá-lo em Compartilhamento de pacotes.
 
@@ -109,7 +109,7 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 >
 >Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
 
-### Semana de Partida {#week-parting}
+### WeekParting {#week-parting}
 
 1. Selecione o ativo e clique em **Configurar** (ícone de chave) para abrir a caixa de diálogo de propriedades.
 
@@ -120,7 +120,7 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 
 1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
 
-#### Expressões de exemplo para a semana de separação {#example-two}
+#### Expressões de exemplo para WeekParting {#example-two}
 
 A tabela a seguir resume algumas expressões de exemplo que podem ser adicionadas ao agendamento enquanto o canal é atribuído a uma exibição.
 
@@ -134,7 +134,7 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 >Você também pode usar a notação _completa_ (isto é, segunda, quarta, sexta-feira, sexta-feira) em vez da notação de mão _curta_ (isto é, Seg, Qua, Qua, Sex).
 
 
-### Mês de separação {#month-parting}
+### MonthParting {#month-parting}
 
 1. Selecione o ativo e clique em **Configurar** (ícone de chave) para abrir a caixa de diálogo de propriedades.
 
@@ -145,7 +145,7 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 
 1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
 
-#### Expressões de exemplo para o envio mensal {#example-three}
+#### Expressões de exemplo para MonthParting {#example-three}
 
 A tabela a seguir resume algumas expressões de exemplo que podem ser adicionadas ao agendamento enquanto o canal é atribuído a uma exibição.
 
@@ -192,14 +192,14 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 
 ### Pré-requisitos {#prerequisites}
 
-Para usar a ativação de nível de vários ativos para seus ativos, crie um projeto de AEM Screens com um canal de sequência. Por exemplo, o caso de uso a seguir mostra a implementação do recurso:
+Para usar a ativação de nível de vários ativos para seus ativos, crie um projeto AEM Screens com um canal de sequência. Por exemplo, o caso de uso a seguir mostra a implementação do recurso:
 
-* Criar um projeto de AEM Screens chamado **MultiAssetDemo**
+* Criar um projeto da AEM Screens intitulado como **MultiAssetDemo**
 * Crie um canal chamado **MultiAssetChannel** e adicione conteúdo ao canal, como mostrado na figura abaixo
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
-Siga as etapas abaixo para selecionar vários ativos e agendar sua exibição em um projeto de AEM Screens:
+Siga as etapas abaixo para selecionar vários ativos e agendar sua exibição em um projeto da AEM Screens:
 
 1. Select **MultiAssetChannel** and click **Edit** from the action bar to open the editor.
 
