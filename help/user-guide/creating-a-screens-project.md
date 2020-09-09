@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: d49ceecab42762425d779d50a31291091088ee19
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 38%
+source-wordcount: '341'
+ht-degree: 42%
 
 ---
 
@@ -22,35 +22,22 @@ ht-degree: 38%
 
 O AEM Screens está disponível com a seleção do link do Adobe Experience Manager (no canto superior esquerdo) e, em seguida, do Screens.
 
-Em alternativa, pode aceder diretamente a: `http://localhost:4502/screens.html/content/screens`
-![chlimage_1-14](assets/chlimage_1-14.png)
+Como alternativa, você pode navegar diretamente para: `http://localhost:4502/screens.html/content/screens`
 
-Diferentes projetos podem ser diferentes marcas, implantações, clientes e assim por diante.
-
-![screen_shot_2018-08-23at105748am](assets/screen_shot_2018-08-23at105748am.png)
 
 >[!NOTE]
->
 >**Dica de navegação:**
->
 >Você também pode usar as teclas de cursor para navegar por pastas diferentes no AEM. Além disso, depois de selecionar uma entidade específica, pressione a barra de espaço para editar ou visualização as propriedades dessa pasta específica.
 
 ## Criação de um novo projeto do Screens {#creating-a-new-screens-project}
 
 Siga as etapas abaixo para criar um novo projeto do Screens:
 
-1. Selecione **Screens** no painel do AEM.
-1. Click **Create** --> **Create Project** and **Create Screens Project** wizard will open.
+1. Selecione **Telas** em sua instância AEM.
 
-1. Select the **Screens** template and click **Next**.
+1. Clique em **Criar projeto** de telas.
 
-1. Enter the properties (**Title** and **Name**) as required and click **Create**.
-
-![player1](assets/player1.gif)
-
->[!NOTE]
->
->By default, the initial structure will contain the **Schedules**, **Locations**, **Applications**, **Channels**, and **Devices** master pages, but this can be manually adjusted if needed. Você pode remover as opções, se as disponíveis não forem relevantes para o seu projeto.
+1. Enter the title as **TestProject** and click **Create**.
 
 O projeto é criado, e você retorna ao console Projeto do Screens. Agora, você pode selecionar seu projeto.
 
@@ -59,22 +46,26 @@ Em um projeto, existem quatro tipos de pastas, como mostra a figura abaixo:
 * **Agendamentos**
 * **Localizações**
 * **Aplicativos**
-* **Canais**
 * **Dispositivos**
+* **Canais**
 
-![screen_shot_2018-08-23at110114am](assets/screen_shot_2018-08-23at110114am.png)
+![player1](assets/create-project.gif)
 
-### Exibição de propriedades {#viewing-properties}
+>[!NOTE]
+>
+>By default, the initial structure will contain the **Schedules**, **Locations**, **Applications**, **Channels**, and **Devices** master pages, but this can be manually adjusted if needed. Você pode remover as opções, se as disponíveis não forem relevantes para o seu projeto.
 
-Once you create the Screens project, click **Properties** on the action bar to edit properties of an exiting AEM Screens project.
 
-![screen_shot_2018-08-23at110211am](assets/screen_shot_2018-08-23at110211am.png)
+## Exibição de propriedades {#viewing-properties}
 
-The following options allow you to edit/change properties of your *DemoProject*.
+Depois de criar o projeto do Screens, selecione o projeto e clique em **Propriedades** na barra de ações para editar as propriedades do projeto.
 
-![screen_shot_2018-08-23at110409am](assets/screen_shot_2018-08-23at110409am.png)
+The following options allow you to edit/change properties of your **TestScreens**.
 
-### Criação de uma pasta personalizada {#creating-a-custom-folder}
+![imagem](assets/create-project2.png)
+
+
+## Criação de uma pasta personalizada {#creating-a-custom-folder}
 
 Você também pode criar sua própria pasta personalizada em **Programações**, **Locais**, **Aplicativos**, **Canais** e **Dispositivos** principais, disponíveis em seu projeto.
 
@@ -85,12 +76,11 @@ Para criar uma pasta personalizada:
 1. Clique em **Avançar**.
 1. Insira as propriedades e clique em **Criar**.
 
-As etapas a seguir mostram a criação de uma pasta de aplicativos para a página principal **Aplicativos** no *DemoProject*.
+As etapas a seguir mostram a criação de uma pasta de aplicativos para sua página **Aplicativos** principais no **TestScreens**.
 
-![player2-1](assets/player2-1.gif)
+![player2-1](assets/create-project3.gif)
 
 ### Próximas etapas {#the-next-steps}
 
 Once you have created your own project, see [Channel Management](managing-channels.md) to create and manage content in your channel.
 
-Além disso, você pode criar seu próprio agendamento, aplicativo, local ou dispositivo.
