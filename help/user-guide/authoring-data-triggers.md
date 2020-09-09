@@ -3,7 +3,7 @@ title: Criação com acionadores de dados
 seo-title: Criação com acionadores de dados
 description: Siga esta página para saber como criar com acionadores de dados.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Esta seção destaca como ativar a definição de metas em seus canais.
 
 ## Pré-requisitos {#prereqs}
 
-Antes de seguir as etapas abaixo para habilitar a definição de metas em canais, você deve aprender os [Principais termos na configuração em AEM Screens](configuring-context-hub.md) necessários para entender o ContextHub e a definição de metas em AEM Screens.
+Antes de seguir as etapas abaixo para habilitar a definição de metas em canais, você deve aprender os [Principais termos em Configuração no AEM Screens](configuring-context-hub.md) necessários para entender o ContextHub e a Definição de metas no AEM Screens.
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ Siga as etapas abaixo para ativar a definição de metas em seus canais.
 
    >[!NOTE]
    >
-   >Se você configurou tudo corretamente, verá a opção **Definição de metas** na lista suspensa do editor, como mostrado na figura abaixo.
+   >Se você configurou tudo corretamente, verá a opção **Definição de metas** na lista suspensa do editor, como mostra a figura abaixo.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
@@ -75,9 +75,8 @@ Siga as etapas abaixo para ativar a definição de metas em seus canais.
 
 ### Saiba mais: Casos de uso de exemplo {#learn-more-example-use-cases}
 
-Depois de configurar o ContextHub para seu projeto de AEM Screens, você pode seguir os diferentes Casos de uso para entender como os ativos acionados por dados desempenham um papel vital em diferentes setores:
+Depois de configurar o ContextHub para seu projeto AEM Screens, você pode seguir os diferentes Casos de uso para entender como os ativos acionados por dados desempenham um papel vital em diferentes setores:
 
 1. **[Ativação direcionada para inventário de varejo](retail-inventory-activation.md)**
 1. **[Ativação de temperatura do centro de viagens](local-temperature-activation.md)**
 1. **[Ativação de reserva de hospitalidade](hospitality-reservation-activation.md)**
-
