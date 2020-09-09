@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 6%
@@ -48,7 +48,7 @@ Antes de implementar esta funcionalidade, certifique-se de ter conhecimento conc
 
 Ao criar um canal, você pode usar modelos diferentes para criar zonas em seu canal. Você pode adicionar uma única imagem, vídeo ou um canal incorporado que permite que vários ativos sejam exibidos em uma sequência.
 
-**Criação do Canal**
+**Criação de um canal**
 
 1. Selecione o link do Adobe Experience Manager (parte superior esquerda) e o **Screens**. Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
 1. Navegue até a pasta **Canais** e clique em **Criar** na barra de ações.
