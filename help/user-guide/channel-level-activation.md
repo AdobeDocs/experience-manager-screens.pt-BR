@@ -1,6 +1,6 @@
 ---
-title: Ativação no nível do Canal - Reprodução de Evento único
-seo-title: Ativação no nível do Canal - Reprodução de Evento único
+title: Ativação no nível do canal - Reprodução de Evento único
+seo-title: Ativação no nível do canal - Reprodução de Evento único
 description: Siga este guia para entender a ativação no nível do canal usando a reprodução de um único evento.
 seo-description: Siga este guia para entender a ativação no nível do canal usando a reprodução de um único evento.
 uuid: 87230344-5f9a-42a4-a7a8-ae4203303612
@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1802'
 ht-degree: 0%
 
 ---
 
 
-# Ativação de nível de Canal {#channel-level-activation-single-event-playback}
+# Ativação de nível de canal {#channel-level-activation-single-event-playback}
 
 Esta página descreve a ativação no nível do canal para os ativos usados em Canais.
 
@@ -29,15 +29,15 @@ Os seguintes tópicos são abordados nesta seção:
 * Janela de ativação
 * Uso da Ativação de nível de Canal como reprodução de um único Evento
 * Tratamento da recorrência de ativos em um Canal
-   * Partilha de Dia
-   * Semana de Partida
-   * Mês de separação
+   * DayParting
+   * WeekParting
+   * MonthParting
    * Combinação de peças
 * Uso da Ativação de nível de Canal como reprodução de um único Evento
 
 ## Visão geral {#overview}
 
-***A Ativação*** de nível de Canal permite que os canais alternem após uma programação definida específica. O canal de evento único substitui o canal principal após um agendamento definido e é reproduzido por um período específico, até que o canal principal reproduza seu conteúdo novamente.
+***A Ativação*** de nível de canal permite que os canais alternem após uma programação definida específica. O canal de evento único substitui o canal principal após um agendamento definido e é reproduzido por um período específico, até que o canal principal reproduza seu conteúdo novamente.
 
 O exemplo a seguir fornece uma solução focando nos seguintes termos principais:
 
@@ -47,13 +47,13 @@ O exemplo a seguir fornece uma solução focando nos seguintes termos principais
 
 ## Janela de ativação {#using-channel-level-activation}
 
-A seção a seguir explica a criação de uma reprodução de um único evento dentro de um canal para um projeto de AEM Screens.
+A seção a seguir explica a criação de uma reprodução de um único evento dentro de um canal para um projeto AEM Screens.
 
 ### Pré-requisitos {#prerequisites}
 
 Antes de implementar essa funcionalidade no start, verifique se você tem os seguintes pré-requisitos prontos para o start implementando a ativação no nível do canal:
 
-* Criar um projeto AEM Screens, neste exemplo, Ativação de nível de **Canal**
+* Criar um projeto da AEM Screens, neste exemplo, Ativação de nível de **Canal**
 
 * Criar um canal como **MainAdChannel** na pasta **Canais**
 
@@ -80,7 +80,7 @@ A imagem a seguir mostra o projeto de Ativação **no nível do** Canal com os c
 
 ### Implementação {#implementation}
 
-A implementação da Ativação de nível de Canal em um projeto AEM Screens envolve três tarefas principais:
+A implementação da Ativação no nível do Canal em um projeto AEM Screens envolve três tarefas principais:
 
 1. **Configuração da taxonomia do projeto incluindo Canais, Locais e Exibições**
 1. **Atribuindo Canais para exibição**
@@ -90,7 +90,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 1. **Criar um local**
 
-   Navegue até a pasta **Locais** em seu projeto de AEM Screens e crie um local como **Região**.
+   Navegue até a pasta **Locais** no seu projeto AEM Screens e crie um local como **Região**.
 
    ![screen_shot_2018-11-27at112112am](assets/screen_shot_2018-11-27at112112am.png)
 
@@ -111,7 +111,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
    Para **MainAdChannel:**
 
    1. Navegue até Ativação **em Nível de** Canal > **Locais** > **Região** > **RegiãoExibir** e clique em **Atribuir Canal** na barra de ações.
-   1. **A caixa de diálogo Atribuição** do Canal é aberta.
+   1. **A caixa de diálogo Atribuição** do canal é aberta.
    1. Select **Reference Channel**.. by path.
    1. Selecione o Caminho **do** Canal como Ativação **no nível do** Canal —> ***Canais*** —> ***MainAdChannel***.
    1. A função **do** Canal é preenchida como **canal principal**.
@@ -128,7 +128,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
    Da mesma forma, atribua canal **TargetedSinglePlay** para display**:
 
    1. Navegue até a Ativação **em nível de** Canal —> **Locais** —> **Região** —> **RegiãoExibir** e clique em **Atribuir Canal** na barra de ações.
-   1. **A caixa de diálogo Atribuição** do Canal é aberta.
+   1. **A caixa de diálogo Atribuição** do canal é aberta.
    1. Select **Reference Channel**.. by path.
    1. Selecione Caminho **do** Canal como Ativação **do nível do** Canal* —> ***Canais*** —> ***TargetedSinglePlay***.
    1. A função **do** Canal é preenchida como **targetedsingleplay**.
@@ -138,7 +138,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
    1. Clique em **Salvar**.
 
    >[!CAUTION]
-   É necessário definir a prioridade para o canal **TargetedSinglePlay** superior ao canal **MainAdSegment** .
+   É necessário definir a prioridade para o canal **TargetedSinglePlay** maior que o canal **MainAdSegment** .
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
@@ -149,18 +149,16 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 ## Exibição dos resultados {#viewing-the-results}
 
-Depois que a configuração para canais e a exibição for concluída, inicie o player do AEM Screens para visualização do conteúdo.
+Depois que a configuração para canais e a exibição estiver concluída, inicie o AEM Screens player para visualização do conteúdo.
 
 O player exibe o conteúdo do **MainAdChannel** e exatamente às 23:59 horas (conforme definido no agendamento), o canal **TargetedSinglePlay** exibirá seu conteúdo até as 12:05 e o **MainAdChannel** retomará a reprodução do conteúdo novamente.
 
 >[!NOTE]
 Para saber mais sobre AEM reprodutor de tela, consulte os seguintes recursos:
-* [Downloads do AEM Screens Player](https://download.macromedia.com/screens/)
-* [Trabalhar com o AEM Screens Player](working-with-screens-player.md)
+[Downloads](https://download.macromedia.com/screens/)do AEM Screens Player[Trabalhando com o AEM Screens Player](working-with-screens-player.md)
 
 
-
-## Tratamento da recorrência de ativos em um Canal{#handling-recurrence-in-assets}
+## Tratamento da recorrência de ativos em um Canal {#handling-recurrence-in-assets}
 
 Você pode programar ativos em um canal para que recorram em determinados intervalos, diariamente, semanalmente ou mensalmente, de acordo com sua necessidade.
 
@@ -194,7 +192,7 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 >[!NOTE]
 Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
 
-### Semana de Partida {#week-parting}
+### WeekParting {#week-parting}
 
 1. Selecione o canal e clique no **Painel** na barra de ação para abrir o painel do canal.
 
@@ -205,7 +203,7 @@ Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicion
 
 1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
 
-#### Expressões de exemplo para a semana de separação {#example-two}
+#### Expressões de exemplo para WeekParting {#example-two}
 
 A tabela a seguir resume algumas expressões de exemplo que podem ser adicionadas ao agendamento enquanto o canal é atribuído a uma exibição.
 
@@ -221,7 +219,7 @@ A tabela a seguir resume algumas expressões de exemplo que podem ser adicionada
 Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
 
 
-### Mês de separação {#month-parting}
+### MonthParting {#month-parting}
 
 1. Selecione o canal e clique no **Painel** na barra de ação para abrir o painel do canal.
 
@@ -232,7 +230,7 @@ Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicion
 
 1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
 
-#### Expressões de exemplo para o envio mensal {#example-three}
+#### Expressões de exemplo para MonthParting {#example-three}
 
 A tabela a seguir resume algumas expressões de exemplo que podem ser adicionadas ao agendamento enquanto o canal é atribuído a uma exibição.
 
