@@ -3,7 +3,7 @@ title: Atribuição de canal
 seo-title: Atribuição de canal
 description: Siga esta página para saber mais sobre Atribuição de Canais e Programação de anúncios.
 translation-type: tm+mt
-source-git-commit: 39da8293fb64321fdb28acaa67be579483ba4f0d
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1215'
 ht-degree: 43%
@@ -35,7 +35,7 @@ Siga as etapas abaixo para atribuir um canal a uma exibição:
 
    Ou,
 
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS** panel to open the **Channel Assignment** dialog box.
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
 
    ![imagem](/help/user-guide/assets/channel-assign1.png)
 
