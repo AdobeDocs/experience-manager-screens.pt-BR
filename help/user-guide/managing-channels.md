@@ -11,17 +11,17 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 45%
+source-wordcount: '1343'
+ht-degree: 42%
 
 ---
 
 
 # Criação e gerenciamento de canais {#creating-and-managing-channels}
 
-Um Canal exibe uma sequência de conteúdo e imagens e vídeos de exibição, mas também pode exibir um site ou um aplicativo de página única.
+Um Canal exibe uma sequência de conteúdo e imagens e vídeos, mas também pode exibir um site ou um aplicativo de página única.
 
 Esta página mostra o processo de criar e gerenciar canais para o Screens.
 
@@ -32,16 +32,25 @@ Esta página mostra o processo de criar e gerenciar canais para o Screens.
 
 ## Criação de um novo canal {#creating-a-new-channel}
 
-Depois de criar seu projeto para o Screens, siga as etapas abaixo para criar um novo Canal para um projeto do Screens:
+Depois de criar seu projeto para AEM Screens, siga as etapas abaixo para criar um novo Canal para seu projeto:
 
-1. Selecione o link do Adobe Experience Manager (canto superior esquerdo) e, em seguida, o Screens. Alternatively, you can ﻿go directly to: `https://localhost:4502/screens.html/content/screens`.
-1. Navegue até o projeto do Screens e clique em **Canais**.
-1. Click **Create** next to the plus icon in the action bar. Um assistente será aberto (*consulte Tipos de canais para obter mais informações*).
+1. Selecione o link do Adobe Experience Manager (canto superior esquerdo) e, em seguida, o Screens. Como alternativa, você pode navegar diretamente para: `https://localhost:4502/screens.html/content/screens`.
 
-1. Select the template from the wizard and click **Next**.
-1. Enter the properties for **Title and Tags**, **More Titles and Description**, **On/Off Time**, and **Vanity URL**.
+1. Navegue até o projeto do Screens e selecione a pasta **Canais** .
 
-1. Clique em **Criar**. O canal é criado e adicionado à sua pasta de canais.
+1. Clique em **Criar** na barra de ações.
+
+   ![demochannel](assets/create-channel1.png)
+
+1. Selecione o modelo de Canal **de** sequência no assistente **Criar** e clique em **Avançar**.
+
+   ![demochannel](assets/create-channel2.png)
+
+1. Enter the Title as **ScreensChannel** and click **Create**.
+
+   ![demochannel](assets/create-project4.png)
+
+1. Um canal de sequência agora é adicionado à pasta **Canais** .
 
 ### Tipos de canais {#channel-types}
 
@@ -62,14 +71,6 @@ As seguintes opções de modelo estão disponíveis ao usar o assistente, entre 
 >[!NOTE]
 >
 >Os canais de tela dividida dividem a exibição em várias zonas para que você possa reproduzir várias experiências ao mesmo tempo, lado a lado. As experiências podem ser ativos/texto estáticos ou sequências incorporadas.
-
-O exemplo a seguir mostra a criação de um Canal de sequência (*ChannelOne*) para um projeto do Screens (*DemoProject*).
-
-![demochannel](assets/demochannel.gif)
-
->[!NOTE]
->
->Você pode criar diferentes zonas usando opções de modelo, como os canais de tela dividida 1x2 e 2x2 ou o canal de 2 a 3 telas divididas mencionados acima.
 
 >[!IMPORTANT]
 >
