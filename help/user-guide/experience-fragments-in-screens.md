@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 8%
@@ -35,10 +35,9 @@ Um ***Fragmento de experiência*** é um grupo de um ou mais componentes, inclui
 ## Usando Fragmentos de experiência no AEM Screens {#using-experience-fragments-in-aem-screens}
 
 >[!NOTE]
->
->O exemplo a seguir usa **We.Retail** como um projeto de demonstração de onde o Fragmento de experiência é aproveitado de uma página **Sites** para um projeto do AEM Screens.
+>O exemplo a seguir usa **We.Retail** como um projeto de demonstração de onde o Fragmento de experiência é aproveitado de uma página **Sites** para um projeto da AEM Screens.
 
-Como exemplo, o fluxo de trabalho a seguir demonstra o uso de fragmentos de experiência de We.Retail em Sites. Você pode escolher uma página da Web e aproveitar esse conteúdo no canal do AEM Screens em um de seus projetos.
+Como exemplo, o fluxo de trabalho a seguir demonstra o uso de fragmentos de experiência de We.Retail em Sites. Você pode escolher uma página da Web e aproveitar esse conteúdo em seu canal AEM Screens em um de seus projetos.
 
 ### Pré-requisitos {#pre-requisites}
 
@@ -50,7 +49,7 @@ Como exemplo, o fluxo de trabalho a seguir demonstra o uso de fragmentos de expe
 1. Insira o Título como **DemoProject**.
 1. Clique em **Salvar**.
 
-Um **DemoProject** será adicionado às telas do AEM.
+Um **DemoProject** será adicionado ao seu AEM Screens.
 
 ***Criação de um canal***
 
@@ -102,7 +101,7 @@ Siga as etapas abaixo para aproveitar o conteúdo de **We.Retail** até seu **Te
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Selecione o** ScreensFragment** do assistente **Criar Live Copy** e clique em **Avançar**.
+   c. Selecione o **ScreensFragment** do assistente **Criar Live Copy** e clique em **Avançar**.
 
    d. Insira o **Título** e o **Nome** como **Telas**.
 
@@ -120,7 +119,7 @@ Siga as etapas abaixo para aproveitar o conteúdo de **We.Retail** até seu **Te
 
    1. Navegue até **ScreensFragment** (criado nas etapas anteriores) e clique em **Propriedades** na barra de ações.
 
-   1. Selecione a guia Configuração **offline** , conforme mostrado na figura abaixo.
+   1. Selecione a guia Configuração **** offline, conforme mostrado na figura abaixo.
 
    Você pode adicionar as Bibliotecas **do lado do** cliente (java e css) e os Arquivos **** estáticos ao fragmento da experiência.
 
@@ -172,15 +171,15 @@ Você fará a visualização do conteúdo da página **Sites** (live-copy do fra
 
 ***A Live Copy*** se refere à cópia (da origem), mantida pelas ações de sincronização, conforme definido pelas configurações de implantação.
 
-Como o Fragmento de experiência, nós criamos uma cópia ao vivo das páginas **Sites** , portanto, se você fizer alterações nesse fragmento específico da página mestre, você visualização as alterações no canal ou no destino onde você usou o Fragmento de experiência.
+Como o Fragmento de experiência, criamos uma cópia ao vivo das páginas **Sites** , portanto, se você fizer alterações nesse fragmento específico da página principal, você visualização as alterações no canal ou no destino onde você usou o Fragmento de experiência.
 
 >[!NOTE]
 >
 >Para obter mais informações sobre o Live Copy, consulte Reutilizando conteúdo: Gerenciador de vários sites e Live Copy.
 
-Siga as etapas abaixo para propagar as alterações do canal mestre para o canal de destino:
+Siga as etapas abaixo para propagar as alterações do canal principal para o canal de destino:
 
-1. Selecione o Fragmento de experiência na página **Sites** (mestre) e clique no ícone de lápis para editar os itens no Fragmento de experiência.
+1. Selecione o Fragmento de experiência na página **Sites** (principal) e clique no ícone de lápis para editar os itens no Fragmento de experiência.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
