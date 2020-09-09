@@ -1,8 +1,8 @@
 ---
 title: Registro do dispositivo
 seo-title: Registro do dispositivo
-description: Esta página descreve o processo de registro do dispositivo em um projeto do AEM Screens.
-seo-description: Esta página descreve o processo de registro do dispositivo em um projeto do AEM Screens.
+description: Esta página descreve o processo de registro do dispositivo em um projeto da AEM Screens.
+seo-description: Esta página descreve o processo de registro do dispositivo em um projeto da AEM Screens.
 uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -11,14 +11,17 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 1%
 
 ---
 
 
 # Registro do dispositivo {#device-registration}
 
-A página a seguir descreve o processo de registro do dispositivo em um projeto do AEM Screens.
+A página a seguir descreve o processo de registro do dispositivo em um projeto da AEM Screens.
 
 ## Registrando um dispositivo {#registering-a-device}
 
@@ -29,22 +32,23 @@ O processo de registro do dispositivo é feito em duas máquinas separadas:
 
 >[!NOTE]
 >
->Depois de baixar o Windows Player mais recente (*.exe*), na página Downloads [do](https://download.macromedia.com/screens/) AEM 6.4 Player, siga as etapas no player para concluir a instalação ad hoc:
+>Depois de baixar o Windows Player mais recente (*.exe*), na página [AEM 6.4 Player Downloads](https://download.macromedia.com/screens/) , siga as etapas no player para concluir a instalação ad hoc:
 >
 >1. Pressione longamente no canto superior esquerdo para abrir o painel admin.
->1. Navegue até **Configuração** no menu de ação esquerdo, digite o endereço de localização da instância do AEM no **Servidor** e clique em **Salvar**.
+>1. Navegue até **Configuração** no menu de ação esquerdo, insira o endereço de localização da instância AEM no **Servidor** e clique em **Salvar**.
 >1. Clique no link **Registro** no menu de ação esquerdo e nas etapas abaixo para concluir o processo de registro do dispositivo.
+
 >
 
 
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
 
-1. Em seu dispositivo, inicie o AEM Screens Player. A interface do usuário de registro é exibida.
+1. Em seu dispositivo, start o AEM Screens Player. A interface do usuário de registro é exibida.
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
-1. No AEM, navegue até a pasta **Dispositivos** do seu projeto.
+1. Em AEM, navegue até a pasta **Dispositivos** do seu projeto.
 
    >[!NOTE]
    >
@@ -62,7 +66,7 @@ O processo de registro do dispositivo é feito em duas máquinas separadas:
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
-1. No AEM, aguarde o dispositivo enviar seu código de registro.
+1. Em AEM, aguarde o dispositivo enviar seu código de registro.
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
@@ -70,7 +74,7 @@ O processo de registro do dispositivo é feito em duas máquinas separadas:
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Se o Código **** de registro for o mesmo em ambos os computadores, toque/clique no botão **Validar** no AEM, como mostrado na etapa (6).
+1. Se o Código **** de registro for o mesmo em ambos os computadores, toque/clique no botão **Validar** no AEM, conforme mostrado na etapa (6).
 1. Defina o nome desejado para o dispositivo e clique em **Registrar**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
@@ -95,7 +99,7 @@ O processo de registro do dispositivo é feito em duas máquinas separadas:
 
 ### Atribuindo dispositivo a um monitor {#assigning-device-to-a-display}
 
-Se você não atribuiu o dispositivo a uma tela, siga as etapas abaixo para atribuir seu dispositivo a uma tela no projeto do AEM Screens:
+Se você não atribuiu o dispositivo a uma tela, siga as etapas abaixo para atribuir seu dispositivo a uma tela em seu projeto do AEM Screens:
 
 1. Selecione o dispositivo e clique em **Atribuir dispositivo** na barra de ações.
 
@@ -113,7 +117,7 @@ Se você não atribuiu o dispositivo a uma tela, siga as etapas abaixo para atri
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Além disso, você pode exibir o painel ao clicar em **Concluir**.
+   Além disso, você pode visualização o painel de exibição ao clicar em **Concluir**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -135,6 +139,6 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
         at org.apache.jackrabbit.oak.security.user.UserManagerImpl.onPasswordChange(UserManagerImpl.java:308)
 ```
 
-### Additional Resources {#additional-resources}
+### Recursos adicionais {#additional-resources}
 
 Para saber mais sobre o AEM Screens Player, consulte [AEM Screens Player](working-with-screens-player.md).
