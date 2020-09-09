@@ -5,9 +5,9 @@ description: Siga esta página para saber como aplicar marcas e estilos personal
 seo-description: Siga esta página para saber como aplicar marcas e estilos personalizados a sobreposições de texto.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Siga esta página para saber como aplicar marcas e estilos personalizados a sobr
 
 Siga as etapas abaixo para criar marcas e estilos personalizados para sobreposições de texto:
 
-1. Crie um projeto de AEM Screens. Este exemplo mostra a funcionalidade ao criar um projeto chamado **customstyle** e um canal chamado **DemoBrand** , como mostrado na figura abaixo.
+1. Crie um projeto da AEM Screens. Este exemplo mostra a funcionalidade ao criar um projeto chamado **customstyle** e um canal chamado **DemoBrand** , como mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -32,7 +32,7 @@ Siga as etapas abaixo para criar marcas e estilos personalizados para sobreposi�
    >[!NOTE]
    >Para saber como adicionar uma sobreposição de texto ao ativo em um editor de canais, consulte Sobreposição de [texto](/help/user-guide/text-overlay.md).
 
-1. Navegue até CRXDE Lite da sua instância AEM —> Ferramentas —> **CRXDE Lite**.
+1. Navegue até CRXDE Lite da sua instância AEM —> ferramentas —> **CRXDE Lite**.
 
 1. É necessário criar um design personalizado em `/apps/settings/wcm/designs/<your-project>/`, por exemplo, neste caso, navegar até `/apps/settings/wcm/designs/customstyle/`
 
@@ -99,7 +99,7 @@ Siga as etapas abaixo para criar marcas e estilos personalizados para sobreposi�
 
 Você deve atualizar as ACLs para esses designs para que possam ser baixados pelo player.
 
-1. Navegue até useradmin e escolha o `screens-<project>-devices group` e conceda permissão de leitura ao caminho de design personalizado.
+1. Navegue até o administrador do usuário e escolha o `screens-<project>-devices group` e conceda permissão de leitura para o caminho de design personalizado.
 
 1. Forneça ao `screens-<project>-administrators` grupo permissões de leitura e modificação para este caminho.
 
@@ -109,7 +109,7 @@ Depois de concluir as etapas anteriores, você pode atualizar seu arquivo *stata
 
 Siga as etapas abaixo para visualização do design atualizado à sobreposição de texto:
 
-1. Navegue até seu projeto de AEM Screens intitulado como **customstyle** —> **Canais** —> **DemoBrand**. Select the channel and click **Edit** from the action bar to open the editor.
+1. Navegue até o seu projeto da AEM Screens intitulado **customstyle** —> **Canais** —> **DemoBrand**. Select the channel and click **Edit** from the action bar to open the editor.
 
 1. Como você adicionou o design ao campo **Designs** , como mencionado acima, clique em **Pré-visualização** para visualização do estilo atual na imagem com a sobreposição de texto.
 
