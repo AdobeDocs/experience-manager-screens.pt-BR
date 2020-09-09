@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
@@ -108,7 +108,7 @@ A AEM Screens exige a interface do usuário TOQUE e não funcionará com a inter
 1. Navegue até *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. Certifique-se de que o modo **de criação da interface de usuário** padrão esteja definido como **TOUCH (TOQUE**), como mostrado na figura abaixo
 
-Como alternativa, você também pode executar a mesma configuração usando *&lt;yourAuthorInstance>*->*ferramentas (ícone de martelo)* -> **Operações** -> Console **da** Web e pesquisar o Serviço **de modo de interface de criação** WCM.
+Como alternativa, você também pode executar a mesma configuração usando suas ferramentas AuthorInstance *->* (ícone de martelo) -> **Operações** -> Console **da** Web e pesquisar pelo Serviço **de modo de interface de criação** WCM.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -118,7 +118,7 @@ Como alternativa, você também pode executar a mesma configuração usando *&lt
 
 #### AEM no modo de execução NOSAMPLECONTENT {#aem-in-nosamplecontent-runmode}
 
-A execução de AEM na produção usa o modo de execução **NOSAMPLECONTENT** . *Remova o cabeçalho X-Frame-Options=SAMEORIGIN* (na seção do cabeçalho de resposta adicional) de
+A execução de AEM na produção usa o modo de execução **NOSAMPLECONTENT** . Remova o cabeçalho *X-Frame-Options=SAMEORIGIN* (na seção do cabeçalho de resposta adicional) de
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -136,7 +136,7 @@ Siga as etapas abaixo para configurar ***DeviceServiceImpl***:
 
 1. Navegue até Configuração **do console da Web do** Adobe Experience Manager por AEM instância —> ícone de martelo —> **Operações** —> Console **da** Web.
 
-1. **Configuração do Adobe Experience Manager Web Console **abre. Procure o serviço de dispositivos. Para pesquisar a propriedade, pressione **Command+F** para **Mac** e **Control+F** para **Windows**.
+1. **Configuração do Adobe Experience Manager Web Console **abre. Procure por *dispositivo*. Para pesquisar a propriedade, pressione **Command+F** para **Mac** e **Control+F** para **Windows**.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
