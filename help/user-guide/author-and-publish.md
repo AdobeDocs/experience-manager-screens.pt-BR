@@ -4,9 +4,9 @@ seo-title: Configuração do autor e publicação no AEM Screens
 description: A arquitetura AEM Screens se parece com uma arquitetura AEM Sites tradicional. O conteúdo é criado em uma instância do autor AEM e, em seguida, replicado para várias instâncias de publicação. Siga esta página para saber como configurar o autor e publicar para AEM Screens.
 seo-description: A arquitetura AEM Screens se parece com uma arquitetura AEM Sites tradicional. O conteúdo é criado em uma instância do autor AEM e, em seguida, replicado para várias instâncias de publicação. Siga esta página para saber como configurar o autor e publicar para AEM Screens.
 translation-type: tm+mt
-source-git-commit: 80697595b7fc3d12c9f148a3998335d1d7cefb14
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1910'
 ht-degree: 2%
 
 ---
@@ -145,7 +145,7 @@ O usuário do cluster e a senha de todas as instâncias de publicação na topol
 
 Em cada instância de publicação:
 
-1. No console OSGi, navegue até **MAIN** —> Suporte **** Crypto (*https://&lt;host>:&lt;porta>/system/console/crypto*).
+1. No console do OSGi, navegue até **MAIN** —> Suporte **** à criptografia (`https://&lt;host&gt;:&lt;port&gt;/system/console/crypto`).
 1. Digite a senha de texto sem formatação desejada (a mesma para todas as instâncias) em Texto **sem formatação**
 1. Clique em **Protect**.
 1. Copie o valor Texto **** protegido para o bloco de notas ou editor de texto. Esse valor será usado na configuração OSGi para AtiveMQ.
@@ -161,7 +161,7 @@ Como cada instância de publicação por padrão tem chaves de criptografia excl
 
 Em cada instância de publicação:
 
-1. Navegue até o gerenciador de configuração OSGi *https://&lt;host>:&lt;porta>/system/console/configMgr*
+1. Navegue até o gerenciador de configuração OSGi `https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr`
 1. Selecionar a configuração do provedor **** JMS do Apache AtiveMQ Artemis
 1. Atualize o seguinte:
 
@@ -172,18 +172,18 @@ Em cada instância de publicação:
 
 Siga as etapas abaixo em cada instância de publicação:
 
-1. Navegue até Console OSGi -> Principal > Áreas AtiveMQ `[https://localhost:4505/system/console/mq`.
+1. Navegue até Console OSGi -> Principal > Áreas AtiveMQ `https://localhost:4505/system/console/mq`.
 1. Verifique e visualização as portas de outras instâncias em Informações do cluster > Topologia > nós=2, membros=2.
 1. Enviar uma mensagem de teste (parte superior da tela em Informações do agente)
 1. Digite as seguintes alterações nos campos:
 
    1. **Destino**: /com.adobe.cq.screens/devTestTopic
    1. **Texto**: Hello World
-   1. Visualização o error.log de cada instância para ver se a mensagem foi enviada e recebida pelo cluster
+   1. Visualização o error.log de cada instância para ver se a mensagem foi enviada e recebida no cluster
 
 >[!NOTE]
 >
->Navegar até o console OSGI pode levar alguns segundos depois de salvar a configuração na etapa anterior. Você também pode verificar error.log para obter mais detalhes.
+>Navegar no console OSGi pode levar alguns segundos depois de salvar a configuração na etapa anterior. Você também pode verificar error.log para obter mais detalhes.
 
 Como exemplo, a imagem a seguir é exibida na configuração bem-sucedida do AtiveMQ Artemis Server.
 
@@ -201,7 +201,7 @@ Siga as etapas em cada instância de Publicação:
 
 ### Configuração da instância de autor e publicação {#configuring-author-and-publish-instance}
 
-Depois de configurar a ferramenta de publicação, é necessário configurar as instâncias de autor e publicação para visualização dos resultados práticos da implementação:
+Depois de configurar a topologia de publicação, é necessário configurar as instâncias de autor e publicação para visualização dos resultados práticos da implementação:
 
 >[!NOTE]
 >
@@ -240,7 +240,7 @@ Verifique seu player e você verá o conteúdo que você adicionou ao seu canal.
 
 **Verificação do dispositivo**
 
-Antes, execute as etapas abaixo para verificar a ID do dispositivo. Para verificar, procure a ID do dispositivo no CRXDELite, com o caminho como */home/users/screens/we-retail/devices*.
+Antes, execute as etapas abaixo para verificar a ID do dispositivo. Para verificar, procure a ID do dispositivo no CRXDE Lite, com o caminho como */home/users/screens/we-retail/devices*.
 
 Siga as etapas abaixo para replicar o usuário do dispositivo:
 
@@ -304,6 +304,6 @@ Como alternativa, você também pode atualizar/editar o URL do servidor no conso
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-O recurso **Gerenciar publicação** permite que você forneça atualizações de conteúdo do autor para publicar no dispositivo. Você pode publicar/cancelar a publicação de conteúdo para todo o seu projeto do AEM Screens ou somente para um de seus canais, local, dispositivo, aplicativo ou agendamento. Para saber mais sobre esse recurso, consulte Atualização [de conteúdo](on-demand-content.md)sob demanda.
+O recurso **Gerenciar publicação** permite que você forneça atualizações de conteúdo do autor para publicar no dispositivo. Você pode publicar/desfazer a publicação de conteúdo para todo o seu projeto AEM Screens ou somente para um de seus canais, local, dispositivo, aplicativo ou agendamento. Para saber mais sobre esse recurso, consulte Atualização [de conteúdo](on-demand-content.md)sob demanda.
 
 
