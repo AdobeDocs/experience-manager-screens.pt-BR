@@ -1,19 +1,22 @@
 ---
-title: Noções básicas de sinalização digital para telas [!UICONTROL AEM]
-seo-title: Noções básicas de sinalização digital para telas [!UICONTROL AEM]
+title: Noções básicas de placas digitais para [!UICONTROL AEM Screens]
+seo-title: Noções básicas de placas digitais para [!UICONTROL AEM Screens]
 description: O guia descreve as noções básicas de um projeto de sinalização digital
 seo-description: O guia descreve as noções básicas de um projeto de sinalização digital
 translation-type: tm+mt
-source-git-commit: 30c724ea897fd2da5300bb5cad285d460af5de40
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 2%
 
 ---
 
 
-# Noções básicas de um projeto de sinalização digital {#basics-digital-signage}
+# Noções básicas de um projeto de cartazes digitais {#basics-digital-signage}
 
-Antes de mergulhar nas práticas recomendadas de implementação do AEM Screens, é importante pensar no projeto como um projeto de sinalização digital, em vez de um desenvolvimento de software tradicional.
+Antes de mergulhar nas práticas recomendadas de implementação da AEM Screens, é importante pensar no projeto como um projeto de sinalização digital, em vez de um desenvolvimento de software tradicional.
 
-Esta seção fornece recomendações sobre os principais elementos críticos antes da implementação de um projeto do AEM Screens.
+Esta seção fornece recomendações sobre os principais elementos essenciais antes da implementação de um projeto da AEM Screens.
 
 ## Elementos chave em placas digitais {#key-elements}
 
@@ -26,7 +29,7 @@ A definição dos elementos-chave é essencial antes da implementação de um pr
 1. **Hardware**
 
    O hardware define quais componentes de hardware são ideais para a implementação do projeto de sinalização digital:
-   * O dispositivo tem espaço de armazenamento suficiente para executar todas as variações das experiências off-line?
+   * O dispositivo tem espaço suficiente no armazenamento para executar todas as variações das experiências off-line?
    * Nós permitimos o tipo e a duração do cabo de vídeo? E o dispositivo suporta ambas as resoluções desejadas (HD, FullHD, 4K etc.) e codecs de vídeo que estou planejando implantar (h.264, h.265, etc.)
    * Utilização de fios físicos de cobre
    * Tamanho das telas
@@ -53,7 +56,7 @@ A definição dos elementos-chave é essencial antes da implementação de um pr
    * Suporte para correções
    * Pessoal: responsável pela instalação e conexão do equipamento à rede
    * Qual é a distância da fonte de energia do equipamento?
-   * Qual é a distância entre o painel físico e o dispositivo?
+   * Qual é a distância entre o painel físico e o dispositivo real?
 
 1. **Conteúdo**
 
@@ -75,7 +78,7 @@ A definição dos elementos-chave é essencial antes da implementação de um pr
       * Comandos seriais de envio/recebimento (encerramento de contato, PLC etc.)
       * Os dados recebidos são exibidos na tela (RSS) ou acionam o conteúdo
       * RFID/NFC/Bluetooth/iBeacon
-      * Serviços externos (tempo, tráfego, etc.)
+      * Serviços externos (meteorologia, tráfego)
 
 1. **Autor**
 
