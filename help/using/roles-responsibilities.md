@@ -1,10 +1,10 @@
 ---
-title: Funções e responsabilidades do projeto do AEM Screens
-seo-title: Funções e responsabilidades do projeto do AEM Screens
-description: A página descreve Funções e Responsabilidades do Projeto do AEM Screens
-seo-description: A página descreve Funções e Responsabilidades do Projeto do AEM Screens
+title: Funções e responsabilidades do projeto AEM Screens
+seo-title: Funções e responsabilidades do projeto AEM Screens
+description: A página descreve Funções e Responsabilidades do Projeto AEM Screens
+seo-description: A página descreve Funções e Responsabilidades do Projeto AEM Screens
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 11%
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Como um implementador de AEM experiente, provavelmente você já viu funções conhecidas como *Autores*, *Desenvolvedores* e *TI/Técnicos*.
 
-Num projeto típico de AEM Screens, os papéis são mais refinados, pois cada um deles tem um propósito importante no projeto.
+Em um projeto típico da AEM Screens, os papéis são mais refinados, pois cada um deles tem um propósito importante no projeto.
 
 O diagrama abaixo mostra as funções que referiremos ao longo do guia.
 
@@ -32,15 +32,15 @@ A seção a seguir fornece uma visão geral sobre a audiência do público alvo:
 
 ### Adobe {#adobe-audience}
 
-A Adobe inclui recursos da Adobe Managed Services, como o CSE (Customer Success Engineer) e o suporte da Adobe.
+O Adobe inclui recursos dos Serviços gerenciados da Adobe, como o CSE (Customer Success Engineer) e o Suporte ao Adobe.
 
 ### Implementadores do AEM {#aem-implementors}
 
-Os Implementadores do AEM são responsáveis por executar tarefas de desenvolvimento e integração para desenvolver a experiência do usuário, modelos personalizados e integrações de back-end para o AEM.
+AEM Implementadores são responsáveis por executar tarefas de desenvolvimento e integração para desenvolver a experiência do usuário, modelos personalizados e integrações de back-end para AEM.
 
 Os recursos personalizados necessários para atender aos parâmetros UX (Experiência do usuário) do cliente final também são capturados e disponibilizados por esse processo.
 
-Em geral, os Implementadores do AEM implantarão a funcionalidade personalizada em fases ao longo do tempo para locais. Por exemplo, eles podem primeiro estabelecer suporte para a reprodução de vídeo básico em loop ou conteúdo gráfico estático. A próxima fase pode incluir a capacidade de suportar a reprodução de conteúdo localizado por meio de modelos dinâmicos e tags de metadados, com fases adicionais que incorporam suporte para elementos interativos por meio de telas de toque, sensores, acionadores dinâmicos e assim por diante.
+AEM Implementadores normalmente implantarão a funcionalidade personalizada em fases ao longo do tempo para locais. Por exemplo, eles podem primeiro estabelecer suporte para a reprodução de vídeo básico em loop ou conteúdo gráfico estático. A próxima fase pode incluir a capacidade de suportar a reprodução de conteúdo localizado por meio de modelos dinâmicos e tags de metadados, com fases adicionais que incorporam suporte para elementos interativos por meio de telas de toque, sensores, acionadores dinâmicos e assim por diante.
 
 ### Integradores de AV {#av-integrators}
 
@@ -80,7 +80,7 @@ Os Criativos e a Gestão de conteúdo podem ser os seguintes:
 
 ### Gerentes de projeto {#project-managers}
 
-Gerentes de projeto geralmente gerenciam toda a implantação para sua implantação de AEM Screens. Um gerente de projeto é a pessoa principal para toda a implementação do projeto designado e desempenha grandes responsabilidades, como definir prazos, lidar com as necessidades e as comunicações da equipe, enfrentar os desafios e garantir que as metas sejam cumpridas.
+Gerentes de projeto geralmente gerenciam toda a implantação para sua implantação do AEM Screens. Um gerente de projeto é a pessoa principal para toda a implementação do projeto designado e desempenha grandes responsabilidades, como definir prazos, lidar com as necessidades e as comunicações da equipe, enfrentar os desafios e garantir que as metas sejam cumpridas.
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ Para oferecer suporte a uma implantação bem-sucedida do Digital Signage, é co
 >[!NOTE]
 >
 >Embora este guia enfatize principalmente o *Primeiro Dia* e o *Segundo dia*, é necessário prestar atenção aos três estágios para executar um projeto bem-sucedido de sinalização digital.
-Siga um vídeo adicional sobre Gerenciamento e implantação **[do](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**projeto para saber mais sobre a pré-produção do projeto, a iniciação do projeto e a progressão do projeto.
+Siga um vídeo adicional sobre Gerenciamento de **[projetos e Implantação](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** para saber mais sobre a pré-produção do projeto, a iniciação do projeto e a progressão do projeto.
 
 ## Gráfico RACI {#raci-chart}
 
@@ -108,7 +108,7 @@ A seguir está um exemplo de gráfico RACI usando as definições de função.
 
 >[!NOTE]
 >
->Este gráfico não se destina a ser seguido exatamente, mas a fornecer um exemplo de tarefas e considerações comuns em projetos AEM Screens.
+>Este gráfico não se destina a ser seguido exatamente, mas a fornecer um exemplo de tarefas e considerações comuns em projetos do AEM Screens.
 
 ### Definições de RACI {#raci-definitions}
 
@@ -120,23 +120,23 @@ A seguir está um exemplo de gráfico RACI usando as definições de função.
 
 * **Informado**: Mantido informado sobre o progresso da tarefa, mas não envolvido nos detalhes do produto.
 
-A seguir está um exemplo de gráfico RACI usando as definições de função e fornecendo um exemplo de tarefas e considerações comuns em um projeto de AEM Screens.
+A seguir está um exemplo de gráfico RACI usando as definições de função e fornecendo um exemplo de tarefas e considerações comuns em um projeto AEM Screens.
 
 A tabela a seguir resume o **Dia Zero: Considerações** pré-vendas:
 
-| **Fase** | **Integrador A/V** | **Implementador do AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
+| **Fase** | **Integrador A/V** | **Implementador AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
 |---|---|---|---|---|
 | Formação de Equipe e Seleção de Fornecedor | I | I | RA | RA |
 | Acordo sobre as funções e responsabilidades | RA | RA | RA | RA |
 | Alinhamento em objetivos estratégicos | CI | I | RA | RA |
-| Necessidades do Relatórios e identificação do ROI | I | C | RA | C |
+| Necessidades do relatórios e identificação do ROI | I | C | RA | C |
 | Visita ao site e requisitos de hardware | RA | I | C | C |
 | Definição do processo de suporte | C | I | RA | I |
 | Definir Escopo do Trabalho e Plano do Projeto | RA | RA | C | C |
 
 A tabela a seguir resume o **Dia Um: Implementação do projeto (Design do aplicativo)**:
 
-| **Fase** | **Integrador A/V** | **Implementador do AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
+| **Fase** | **Integrador A/V** | **Implementador AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
 |---|---|---|---|---|
 | Acordo sobre Funções e Responsabilidades | RA | RA | RA | RA |
 | Alinhamento com o plano e a programação do projeto | RA | RA | C | C |
@@ -146,17 +146,17 @@ A tabela a seguir resume o **Dia Um: Implementação do projeto (Design do aplic
 | Design de arquitetura | I | RA | I | I |
 | Validar estrutura de dados com design de interface | I | RA | C | C |
 | Desenvolvimento de aplicativos | RA | RA | RA | RA |
-| Configuração de projeto do AEM Screens | I | RA | C | I |
+| Configuração do AEM Screens Project | I | RA | C | I |
 | Implementação do Analytics | I | RA | C | - |
 | Teste e implantação | RA | C | RA | I |
 | Configuração do servidor | I | RA | I | I |
 | Plano de atualização de conteúdo | I | RA | C | C |
-| Plano de transição do piloto para a produção | RA | RA | I | I |
+| Plano do piloto para transição de produção | RA | RA | I | I |
 | Transferência de conhecimento | RA | RA | I | I |
 
 A tabela a seguir resume o **Dia Um: Implementação do projeto (disponibilidade para varejo)**:
 
-| **Fase** | **Integrador A/V** | **Implementador do AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
+| **Fase** | **Integrador A/V** | **Implementador AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
 |---|---|---|---|---|
 | Pedido e Armazenamento de hardware | RA | I | I | I |
 | Agendamento integrado de varejo | I | I | C | RA |
@@ -166,7 +166,7 @@ A tabela a seguir resume o **Dia Um: Implementação do projeto (disponibilidade
 
 A tabela a seguir resume o **Dia Um: Dia Um: Implementação do projeto (Hardware)**:
 
-| **Fase** | **Integrador A/V** | **Implementador do AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
+| **Fase** | **Integrador A/V** | **Implementador AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
 |---|---|---|---|---|
 | Acordo sobre as funções e responsabilidades | RA | RA | RA | RA |
 | O Design de varejo inclui operações de fiação | - | - | - | - |
@@ -179,9 +179,9 @@ A tabela a seguir resume o **Dia Um: Dia Um: Implementação do projeto (Hardwar
 >
 >As funções mudam durante o Dia Dois (Suporte pós-lançamento).
 
-* **Autor**: Gestão de conteúdo + Estratégia
+* **Autor**: gestão de conteúdo + Estratégia
 
-* **Desenvolvedor**: Geralmente, um membro da equipe de implementação de AEM Screens ou entrega para a equipe de desenvolvimento interno
+* **Desenvolvedor**: Geralmente, um membro da equipe de implementação da AEM Screens ou entrega para a equipe de desenvolvimento interno
 
 * **Técnico**: Ou é contratado pelo integrador AV ou faz parte da mesma empresa.
 
