@@ -1,10 +1,10 @@
 ---
 title: Teste e garantia da qualidade
-seo-title: Teste e garantia de qualidade para AEM Screens
+seo-title: Teste e controle de qualidade para AEM Screens
 description: A página descreve o Guia de práticas recomendadas de teste e garantia de qualidade para AEM Screens
 seo-description: A página descreve o Guia de práticas recomendadas de teste e garantia de qualidade para AEM Screens
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
@@ -15,7 +15,6 @@ ht-degree: 2%
 # Teste e garantia da qualidade {#testing-quality}
 
 >[!NOTE]
->
 >A parte interessada típica desta atividade é um Integrador A/V.
 
 À medida que nos aproximamos da implantação real da rede de sinalização digital, devemos criar um Plano de controle de qualidade e teste que aborde todos os elementos da rede, incluindo todos os componentes de hardware, todos os componentes de software e todos os componentes da rede.
@@ -52,8 +51,7 @@ As seguintes considerações de software são recomendadas:
 
 ## 3. Considerações sobre o gerenciamento de dispositivos {#device-management-considerations}
 
-
-O AEM Screens inclui um módulo do Device Control Center que permite o gerenciamento de pontos finais do aplicativo do Screens player.
+A AEM Screens inclui um módulo do Device Control Center que permite o gerenciamento de pontos finais do aplicativo do Screens player.
 
 Refere-se a qualquer dispositivo de hardware do *player* que tenha o aplicativo do player do Screens instalado e esteja registrado para uma instância do AEM.
 Este módulo permite que você:
@@ -63,12 +61,11 @@ Este módulo permite que você:
 1. Gerenciar downloads de conteúdo
 1. Gerenciar problemas de reinicialização do aplicativo
 
-Para saber mais detalhes sobre o Centro ***de controle de*** dispositivos, consulte [Troubleshooting Device Control Center (Centro](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) de controle de dispositivos) no Guia **do usuário do** AEM Screens.
+Para saber mais detalhes sobre o Centro ***de controle de*** dispositivos, consulte [Troubleshooting Device Control Center (Centro](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) de controle de dispositivos) no Guia **do usuário da** AEM Screens.
 
 >[!CAUTION]
 >
 > Você não deve usar o Device Control Center para:
->
 > 1. Instalar novas versões do aplicativo do player
 > 1. Monitorar recursos no nível do sistema
 > 1. Solução de problemas de erros no nível do sistema
