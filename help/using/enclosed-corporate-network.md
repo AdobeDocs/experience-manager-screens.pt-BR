@@ -2,7 +2,7 @@
 title: Rede corporativa fechada
 description: Rede corporativa fechada
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -17,11 +17,11 @@ A Enclosure Corporate Network SetUp é aplicável a empresas menores, maiores e 
 ![](/help/using/assets/enclosed-network-1.png)
 
 
-## Conexão do AEM Screens Player ao acesso direto à Internet {#connecting-aem-screens-players}
+## Conexão do AEM Screens Player ao Direct Internet Access {#connecting-aem-screens-players}
 
-Siga as etapas abaixo para garantir a conexão correta dos players de tela do AEM nesta configuração:
+Siga as etapas abaixo para garantir a conexão correta dos players de tela AEM nesta configuração:
 
-1. Verifique se cada um dos players de tela do AEM está conectado à rede de roteadores.
+1. Verifique se cada um dos players de tela AEM está conectado à Rede de roteadores.
 1. Teste a conexão com a Internet chamando um URL no navegador do sistema.
 
    >[!NOTE]
@@ -33,7 +33,7 @@ Siga as etapas abaixo para garantir a conexão correta dos players de tela do AE
 1. Verifique se a configuração do adaptador de rede corresponde às configurações do roteador e se a quantidade máxima de endereços IP disponíveis na rede não foi atingida.
 
 1. Verifique se o roteador está conectado corretamente à rede de área ampla ISP (Internet Link). Isso também pode ser identificado usando um LED de sinal nos roteadores padrão.
-1. Se a chamada de URL for bem-sucedida, você poderá continuar instalando os AEM Screens e registrando-se. AEM Screens Start.
+1. Se a chamada de URL for bem-sucedida, você pode continuar instalando o AEM Screens e se registrar. Start AEM Screens.
 
    >[!NOTE]
    >**Dica de solução de problemas**
@@ -52,7 +52,7 @@ A configuração de rede corporativa incluída pode ser logicamente separada em 
 
 ### Rede de área ampla {#wan-connection}
 
-O desempenho da conexão com a Internet, além da acessibilidade da rede, tem que fornecer largura de banda suficiente para operar atualizações de conteúdo do AEM Screens sem problemas.
+O desempenho da conexão com a Internet, além da acessibilidade da rede, tem que fornecer largura de banda suficiente para operar as atualizações de conteúdo da AEM Screens sem problemas.
 *A largura de banda* suficiente depende da quantidade de telas AEM conectadas e do uso de outros consumidores dentro da rede, como smartphones, tablets, caixas, computadores ou redes Wi-Fi convidadas.
 
 >[!NOTE]
@@ -61,7 +61,7 @@ O desempenho da conexão com a Internet, além da acessibilidade da rede, tem qu
 
 ### Rede local {#lan-connection}
 
-O desempenho da LAN (Local Area Network, Rede local), além da acessibilidade da rede, tem que fornecer largura de banda suficiente para operar atualizações de conteúdo de AEM Screens sem problemas.
+O desempenho da LAN (Local Area Network, Rede local), além da acessibilidade da rede, tem que fornecer largura de banda suficiente para operar as atualizações de conteúdo da AEM Screens sem problemas.
 
 A rede LAN dentro das organizações corporativas é geralmente de pelo menos 1000 MBit/s, de modo que há largura de banda suficiente para conectar muitos dispositivos com bom desempenho ao sistema. Ao usar outros componentes ativos da Rede, é obrigatório que todos eles correspondam aos requisitos de largura de banda da Rede.
 
@@ -77,7 +77,7 @@ Outras tecnologias de repetição Wi-Fi acabam com uma perda enorme de largura d
 
 ## Download de mídia e ativos {#download}
 
-Os AEM Screens oferecem uma grande vantagem aos usuários de placas digitais. Ele baixa e salva localmente todos os arquivos de mídia necessários, como imagens e vídeos. O principal tráfego de rede ocorre quando há novo conteúdo a ser exibido em uma tela específica.
+A AEM Screens oferece uma grande vantagem aos usuários de placas digitais. Ele baixa e salva localmente todos os arquivos de mídia necessários, como imagens e vídeos. O principal tráfego de rede ocorre quando há novo conteúdo a ser exibido em uma tela específica.
 
 Para operações normais, por exemplo, uma lista de reprodução definida que é atualizada com frequência durante o dia - oferta uma operação próxima da operação independente da rede, depois que todos os arquivos tiverem sido salvos no player.
 
@@ -86,7 +86,6 @@ Para cenários, em que há mais interações com sensores ou acionadores e conte
 A tabela a seguir fornece uma visão geral sobre os dados principais de conectividade de rede.
 
 >[!NOTE]
->
 >As informações permitem que você visualização o consumo de cada dispositivo na rede solicitando e baixando uma fonte da Internet. Cada uma dessas solicitações adiciona e estende o Tempo de download.
 
 ![](/help/using/assets/enclosed-network-download.png)
