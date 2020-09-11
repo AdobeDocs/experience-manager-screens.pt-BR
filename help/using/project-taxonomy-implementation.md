@@ -4,7 +4,10 @@ seo-title: 'Taxonomia do projeto '
 description: Esta página descreve a Taxonomia do projeto
 seo-description: A página descreve a Taxonomia do projeto
 translation-type: tm+mt
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '331'
+ht-degree: 12%
 
 ---
 
@@ -13,11 +16,11 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 
 >[!NOTE]
 >
->A parte interessada típica dessa atividade é um Implementador do AEM.
+>A parte interessada típica desta atividade é um Implementador de AEM.
 
-Antes de criar um projeto do AEM Screens, é importante entender e estrategizar todos os componentes definidos na fase Wireframing UX do projeto.
+Antes de criar um projeto AEM Screens, é importante entender e estrategizar todos os componentes definidos na fase Wireframing UX do projeto.
 
-Considere os seguintes elementos antes de implementar a solução de sinalização digital do AEM Screens:
+Considere os seguintes elementos antes de implementar sua solução de assinatura digital da AEM Screens:
 
 * **Localizações**
 * **MediaZones**
@@ -35,9 +38,9 @@ Para saber mais sobre esses termos, consulte o [Glossário](https://helpx.adobe.
 >* arquivo de configuração de texto para apontar automaticamente cada player para uma instância específica de um AEM
 
 
-## Implementação de um projeto do AEM Screens {#creating-a-project}
+## Implementação de um projeto AEM Screens {#creating-a-project}
 
-Um autor do AEM Screens é responsável por criar e gerenciar uma experiência do usuário usando os componentes disponíveis no AEM Screens. O autor cria e revisa o conteúdo e fornece uma interface gráfica de usuário fácil de usar configurando, implantando e integrando os segmentos disponíveis do AEM Screens.
+Um autor do AEM Screens é responsável por criar e gerenciar uma experiência de usuário usando os componentes disponíveis no AEM Screens. O autor cria e revisa o conteúdo e fornece uma interface gráfica de usuário fácil de usar configurando, implantando e integrando os segmentos disponíveis do AEM Screens.
 
 >[!NOTE]
 >
@@ -45,15 +48,14 @@ Um autor do AEM Screens é responsável por criar e gerenciar uma experiência d
 
 Um autor normalmente inicia um projeto do AEM Screens ao:
 
-* [criação de um projeto do AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/creating-a-screens-project.html)
+* [criação de um projeto da AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/creating-a-screens-project.html)
 * [criação de canais](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-channels.html)
 * [adicionar componentes e ativos ao canal](https://helpx.adobe.com/experience-manager/6-5/screens/using/adding-components-to-a-channel.html)
 * [criação de agendamentos](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-schedules.html)
 * [criação de locais](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-locations.html)
 * [criação de exibições](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-displays.html)
 * [atribuição de canais às exibições](https://helpx.adobe.com/experience-manager/6-5/screens/using/channel-assignment.html)
-* [exibir conteúdo em um player do AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
+* [exibição de conteúdo em um AEM Screens player](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
 
 >[!NOTE]
->
->Além disso, também é possível importar em massa um conjunto de locais de uma planilha CSV/XLS para o projeto do AEM Screens. Siga [New Project Importer from File (Novo importador de projeto) do File](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) para obter mais detalhes.
+>Além disso, você também pode importar em massa um conjunto de locais de uma planilha CSV/XLS para o seu projeto da AEM Screens. Siga [New Project Importer from File (Novo importador de projeto) do File](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) para obter mais detalhes.
