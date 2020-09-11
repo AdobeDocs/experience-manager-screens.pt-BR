@@ -4,7 +4,7 @@ seo-title: Lista de verificação de segurança para AEM Screens
 description: A página descreve a Lista de verificação de segurança para AEM Screens
 seo-description: A página descreve a Lista de verificação de segurança para AEM Screens
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 1%
@@ -15,7 +15,6 @@ ht-degree: 1%
 # Considerações sobre segurança do sistema para AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
->
 >Este é um recurso interno do Git.
 
 Esta página destaca as Considerações sobre segurança do sistema para AEM Screens.
@@ -26,11 +25,11 @@ Esta página destaca as Considerações sobre segurança do sistema para AEM Scr
 Esta seção descreve o white paper. (Anexo pendente do White Paper)
 
 
-## Perguntas frequentes sobre segurança do AEM Screens {#faqs-screens}
+## Perguntas frequentes sobre segurança AEM Screens {#faqs-screens}
 
 As Perguntas frequentes a seguir pressupõem uma arquitetura de player autenticada e registrada usando HTTPS como protocolo de comunicação entre o player e o servidor AEM.
 
-### Perguntas frequentes 1 {#faq1}
+### FAQ 1 {#faq1}
 
 O tráfego do player pode ser redirecionado para um servidor mal-intencionado e instruído a baixar e reproduzir conteúdo de mídia mal-intencionado?
 
@@ -39,7 +38,7 @@ O tráfego do player pode ser redirecionado para um servidor mal-intencionado e 
 Não é possível porque a conexão HTTPs identifica ambas as extremidades da conexão e a criptografa. Se você tentar ficar no meio e interceptá-lo, você verá somente o conteúdo criptografado e, se tentar representar o servidor, o player o recusará porque seu certificado é diferente.
 
 
-### Perguntas frequentes 2 {#faq2}
+### FAQ 2 {#faq2}
 
 Devo usar HTTP ou HTTPs?
 
@@ -48,7 +47,7 @@ Devo usar HTTP ou HTTPs?
 Use HTTPs. Isto é uma obrigação se você está preocupado com a segurança. Com HTTPs, a comunicação é criptografada entre o player e o servidor, e interceptar o conteúdo ou modificá-lo será praticamente impossível.
 
 
-### Perguntas frequentes 3 {#faq3}
+### FAQ 3 {#faq3}
 
 Em um download de conteúdo, há algum tipo de assinatura do conteúdo ou hash?
 
@@ -58,16 +57,16 @@ Todos os ativos são assinados (SHA) pelo servidor e depois validados pelo playe
 Se o hash não corresponder, tentamos revalidar 3 vezes. Após 3 tentativas, consideramos o comando download inválido.
 
 
-### Perguntas frequentes 4 {#faq4}
+### FAQ 4 {#faq4}
 
-O AEM Server é seguro?
+O servidor AEM é seguro?
 
 **Resposta**
 
 Ans 4. Supondo que você esteja no AMS, cuidaremos de toda a segurança do servidor usando os mesmos recursos que Sites ou Assets.
 
 
-### Perguntas frequentes 5 {#faq5}
+### FAQ 5 {#faq5}
 
 O dispositivo é seguro?
 
@@ -75,7 +74,7 @@ O dispositivo é seguro?
 
 Um player fisicamente comprometido pode, teoricamente, ser manipulado para reproduzir qualquer conteúdo. Você também poderia conectar o player e conectar um pente USB/HDMI.
 
-Portanto, é recomendável colocar os dispositivos fora do alcance, de preferência em um container seguro, com cabos também fixos. Desabilite também quaisquer portas IR-remotas.
+Portanto, é recomendável colocar os dispositivos fora do alcance, de preferência em um container seguro, com cabeamento preso também. Desabilite também quaisquer portas IR-remotas.
 
 Se o SO do dispositivo não for atualizado regularmente, o SO poderá ser deixado exposto a buracos de segurança e permitir ataques remotos na rede.
 
@@ -84,7 +83,7 @@ Se o SO do dispositivo não for atualizado regularmente, o SO poderá ser deixad
 >É recomendável instrumentar os dispositivos com recursos adequados de atualização e controle remotos (desktop remoto, solução MDM etc.). Também é recomendável usar uma rede privada, não exposta à WIFI pública, por exemplo.
 
 
-### Perguntas frequentes 6 {#faq6}
+### FAQ 6 {#faq6}
 
 Como um hacker tentaria comprometer um jogador?
 
