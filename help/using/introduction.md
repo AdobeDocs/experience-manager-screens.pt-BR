@@ -4,17 +4,17 @@ seo-title: Guia de práticas recomendadas para projetos do [!UICONTROL AEM Scree
 description: Esta página é uma seção de introdução ao AEM Screens
 seo-description: Esta página fornece uma introdução ao AEM Screens
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 93%
+ht-degree: 83%
 
 ---
 
 
 # Introdução ao AEM Screens {#introduction}
 
-O **AEM (Adobe Experience Manager) Screens** é uma Solução de sinalização digital que permite criar, publicar e reproduzir experiências digitais dinâmicas e interativas envolvendo diferentes tipos de telas no local, em conjunto com uma estratégia abrangente de marketing digital omnicanal.
+**A AEM (Adobe Experience Manager) Screens** é uma Solução de Sinalização Digital que permite criar, publicar e jogar experiências digitais dinâmicas e interativas envolvendo diferentes tipos de telas de exibição no local, em conjunto com uma estratégia abrangente de marketing digital de canal incorporado.
 
 O AEM Screens permite criar:
 
@@ -53,12 +53,11 @@ O AEM Screens fornece uma plataforma unificada de criação/reprodução para im
 
 * **Segmentação do loop de mídia**: configurar cada dispositivo de reprodução para ter seu próprio segmento de loop garante que o conteúdo localizado possa ser facilmente criado, publicado e reproduzido dentro da experiência digital geral. Os ativos de mídia contidos nos canais de sequência incorporados são adicionados ao segmento de loop anterior e oferecem a oportunidade de direcionar um segmento de loop de mídia para cada agrupamento de local.
 
-* **Experiências interativas**: um aplicativo de quiosque habilitado para toque pode ser criado e entregue em um canal do Screens, usando o AEM e o editor SPA. É uma prática recomendada aplicar propriedades consistentes de design de omnicanal, um temporizador de inatividade para redefinir a experiência e um call to action claro para quais tarefas o aplicativo pode executar. A página de aterrissagem deve consistir em elementos digitais principais, criados para transmitir valor, atrair o usuário para a tela e solicitar que o usuário se envolva.
+* **Experiências interativas**: um aplicativo de quiosque habilitado para toque pode ser criado e entregue em um canal do Screens, usando o AEM e o editor SPA. É uma prática recomendada aplicar propriedades consistentes de design de canal incorporado, um temporizador de inatividade para redefinir a experiência e uma chamada de ação clara para as tarefas que o aplicativo pode executar. A página de aterrissagem deve consistir em elementos digitais principais, criados para transmitir valor, atrair o usuário para a tela e solicitar que o usuário se envolva.
 
-O AEM Screens fornece uma estrutura para implantar conteúdo em dispositivos físicos. O conteúdo é atribuído a Canais no Screens, que podem conter conteúdo de mídia ou aplicativos de tela sensível ao toque. Dentro dessa estrutura, um aplicativo AEM Sites poderia ser fornecido como conteúdo por meio de um Canal.
+O AEM Screens fornece uma estrutura para implantar conteúdo em dispositivos físicos. O conteúdo é atribuído a Canais no Screens, que podem conter conteúdo de mídia ou aplicativos de tela sensível ao toque. Dentro dessa estrutura, um aplicativo AEM Sites pode ser fornecido como conteúdo por meio de um Canal.
 
-Antes de soltar em um Canal no Screens, um AEM Sites deve ser formatado para uso nas dimensões do dispositivo de exibição para o qual está destinado.
+Antes de ser solto em um Canal no Screens, um AEM Sites deve ser formatado para uso nas dimensões do dispositivo de exibição para o qual está destinado.
 
 >[!NOTE]
->
 >Muitos componentes do AEM Sites não são compatíveis com o AEM Screens. O AEM Screens é fornecido com muitos de seus próprios componentes prontos para uso, permitindo criar experiências digitais sem a necessidade de personalização. Se os requisitos do projeto permitirem, use a funcionalidade integrada do AEM Screens, quando possível.
