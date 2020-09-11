@@ -1,10 +1,10 @@
 ---
 title: Protótipos
 seo-title: Protótipos
-description: Esta página descreve protótipos de um projeto do AEM Screens
-seo-description: A página descreve protótipos de um projeto do AEM Screens
+description: Esta página descreve protótipos de um projeto AEM Screens
+seo-description: A página descreve protótipos de um projeto AEM Screens
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -31,7 +31,5 @@ Vários exemplos de casos de uso foram criados para servir como referência ou p
 
 
 >[!NOTE]
->
 > Durante a fase de design de UX, confirme se o design da interface pode ser adequadamente suportado pelos dados extraídos.
->
 > Por exemplo, é provável que nem todos os decisores estejam familiarizados com a estrutura de dados da sua base de dados de produtos. Eles podem escolher descritores em suas soluções UX que não sejam campos primários na camada de dados. Identificar precocemente onde a manipulação dos dados pode ser necessária e comunicá-los ao cliente evitará mal-entendidos posteriormente. Se o cliente decidir expandir ou alterar a rotulação da interface após o início do desenvolvimento, será necessário mais esforços para acomodar as alterações.
