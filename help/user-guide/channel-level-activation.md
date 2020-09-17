@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: dec7f93381bf37564353b76dd3c5f84ba169dd42
 workflow-type: tm+mt
 source-wordcount: '1802'
 ht-degree: 0%
@@ -171,7 +171,7 @@ Suponha que você queira exibir o conteúdo de um canal somente às sextas-feira
 1. Depois de inserir a data/hora e a hora de término/data do start na caixa de diálogo Atribuição **do** Canal, você pode usar uma expressão ou uma versão de texto natural para especificar a programação de recorrência.
 
    >[!NOTE]
-Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
+   Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
 
 1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
 
@@ -199,7 +199,7 @@ Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez d
 1. Depois de inserir a data/hora e a hora de término/data do start na caixa de diálogo Atribuição **do** Canal, você pode usar uma expressão ou uma versão de texto natural para especificar a programação de recorrência.
 
    >[!NOTE]
-Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
+   Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
 
 1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
 
@@ -226,7 +226,7 @@ Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez d
 1. Depois de inserir a data/hora e a hora de término/data do start na caixa de diálogo Atribuição **do** Canal, você pode usar uma expressão ou uma versão de texto natural para especificar a programação de recorrência.
 
    >[!NOTE]
-Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
+   Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
 
 1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
 
@@ -251,7 +251,7 @@ Você também pode usar a notação _militar do tempo_ (ou seja, 14:00) em vez d
 1. Depois de inserir a data/hora e a hora de término/data do start na caixa de diálogo Atribuição **do** Canal, você pode usar uma expressão ou uma versão de texto natural para especificar a programação de recorrência.
 
    >[!NOTE]
-Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
+   Você pode ignorar ou incluir os campos **Ativo de e** Ativo Até **** e adicionar a expressão ao campo Programações, de acordo com sua necessidade.
 
 1. Informe a expressão na **Programação** e seu ativo será exibido para o intervalo específico de dia e hora.
 
