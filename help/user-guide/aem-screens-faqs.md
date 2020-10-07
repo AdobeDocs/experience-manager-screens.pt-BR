@@ -6,7 +6,7 @@ seo-description: Siga esta página para obter respostas para perguntas frequente
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: fc923553c3813e6fd659df641f2e4363f0907827
+source-git-commit: b4f9acb68aca05ed3f6b040910742c245923dace
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 2%
@@ -36,7 +36,7 @@ A função do Canal é a abstração do canal real que é executado para que o a
 
 Para referências ** estáticas, a resolução segue apenas o caminho especificado.
 
-Para referências ** dinâmicas, a resolução ocorre quando o canal é atribuído à exibição (não ao agendamento). O caminho de exibição torna-se o contexto do canal e a resolução ocorre da seguinte forma (prioridade de mais alta a mais baixa):
+Para referências ** dinâmicas, a resolução ocorre quando o canal é atribuído à exibição (não ao agendamento). O caminho de exibição torna-se o contexto do canal e a resolução acontece da seguinte forma (da prioridade mais alta à mais baixa):
 
 1. A exibição tem um nó filho que corresponde ao nome do canal referenciado
 1. A exibição tem um nó irmão que corresponde ao nome do canal referenciado
@@ -129,7 +129,7 @@ Siga as etapas abaixo para ativar a opção Fique acordado em qualquer player An
 
 Não há modo de janela no Windows player. É sempre o modo de tela cheia.
 
-### 5. Como solucionar problemas se um reprodutor do Screens envia solicitações de login continuamente?{#requests-login}
+### 5. Como solucionar problemas se um AEM Screens player envia continuamente solicitações de logon?{#requests-login}
 
 Siga as etapas abaixo para solucionar problemas de um AEM Screens player que envia solicitações continuamente para `/content/screens/svc.json` e `/libs/granite/core/content/login.validate/j_security_check`:
 
