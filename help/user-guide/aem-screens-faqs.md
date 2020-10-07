@@ -6,9 +6,9 @@ seo-description: Siga esta página para obter respostas para perguntas frequente
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
+source-git-commit: fc923553c3813e6fd659df641f2e4363f0907827
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1483'
 ht-degree: 2%
 
 ---
@@ -125,9 +125,23 @@ Siga as etapas abaixo para ativar a opção Fique acordado em qualquer player An
 1. Navegue até Opções **do desenvolvedor**
 1. Habilitar **permanência**
 
-### 4. Como ativar o modo de janela para o Windows player?
+### 4. Como ativar o modo de janela para o Windows player?{#enable-player}
 
 Não há modo de janela no Windows player. É sempre o modo de tela cheia.
+
+### 5. Como solucionar problemas se um reprodutor do Screens envia solicitações de login continuamente?{#requests-login}
+
+Siga as etapas abaixo para solucionar problemas de um AEM Screens player que envia solicitações continuamente para `/content/screens/svc.json` e `/libs/granite/core/content/login.validate/j_security_check`:
+
+1. Quando o AEM Screens player for start, ele solicitará `/content/screens/svc.json`, quando o player receber um código de status 404 na resposta, que o player inicie uma solicitação de autenticação para autenticação `/libs/granite/core/content/login.validate/j_security_check` na instância de publicação. Se houver um manipulador de erros personalizado na instância de publicação, verifique se você retorna o código de status 404 para o usuário anônimo ativado `/content/screens/svc.json` ou `/content/screens/svc.ping.json`.
+
+1. Verifique se a configuração do seu dispatcher permite essas solicitações na `/filters` seção. Consulte [Configuração de Filtros](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) de telas para obter mais detalhes.
+
+1. Verifique se as regras de regravação do despachante estão regravando qualquer um dos caminhos de tela para um caminho diferente.
+
+1. Verifique se você tem `/etc/map` regras na instância do *autor* ou da *publicação* e os caminhos de telas são correspondentes a `sling:match` e redirecionados internamente para um caminho diferente. Resolver o url exato em /`system/console/jcrresolver` ajuda a identificar se a instância de *publicação* está regravando esses urls para qualquer outro caminho.
+
+1. Verifique se você tem alguma configuração do Apache Sling Resource Resolver Fatory que está causando regravações internas.
 
 ## Dicas gerais de solução de problemas {#general-troubleshooting-tips}
 
