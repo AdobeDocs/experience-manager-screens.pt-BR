@@ -6,7 +6,7 @@ seo-description: Siga esta página para obter respostas para perguntas frequente
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 273b537728077a309ca3bfa928ae5fc729957305
+source-git-commit: 124b766f2bbf5988a104250acb6dde7f4d7189bf
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 2%
@@ -36,7 +36,7 @@ A função do Canal é a abstração do canal real que é executado para que o a
 
 Para referências ** estáticas, a resolução segue apenas o caminho especificado.
 
-Para referências ** dinâmicas, a resolução ocorre quando o canal é atribuído à exibição (não ao agendamento). O caminho de exibição torna-se o contexto do canal e a resolução ocorre da seguinte forma (prioridade de mais alta a mais baixa):
+Para referências ** dinâmicas, a resolução ocorre quando o canal é atribuído à exibição (não ao agendamento). O caminho de exibição torna-se o contexto do canal e a resolução acontece da seguinte forma (da prioridade mais alta à mais baixa):
 
 1. A exibição tem um nó filho que corresponde ao nome do canal referenciado
 1. A exibição tem um nó irmão que corresponde ao nome do canal referenciado
@@ -136,7 +136,8 @@ Siga as etapas abaixo para solucionar problemas de um AEM Screens player que env
 1. Quando o AEM Screens player for start, ele solicitará o `/content/screens/svc.json`. Quando o player recebe um código de status 404 na resposta, ele inicia uma solicitação de autenticação usando `/libs/granite/core/content/login.validate/j_security_check` a instância de *publicação* . Se houver um manipulador de erros personalizado na instância de *publicação* , certifique-se de retornar o código de status 404 para o usuário anônimo ativado `/content/screens/svc.json` ou `/content/screens/svc.ping.json`.
 
 1. Verifique se a configuração do dispatcher permite essas solicitações no `/filters`.
-Consulte [Configuração de Filtros](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) de telas para obter mais detalhes.
+
+   Consulte [Configuração de Filtros](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) de telas para obter mais detalhes.
 
 1. Verifique se as regras de regravação do despachante estão regravando qualquer um dos caminhos de tela para um caminho diferente.
 
