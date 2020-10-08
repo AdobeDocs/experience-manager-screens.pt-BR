@@ -2,7 +2,7 @@
 title: Rede móvel com roteador de dados móvel e componentes de rede ativos
 description: A página descreve Rede móvel com roteador de dados móvel e componentes de rede ativos
 translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 0%
@@ -80,7 +80,8 @@ Ao considerar qual rede de dados deve ser usada, é recomendável responder às 
 >[!NOTE]
 >
 >O Pacote de dados necessário deve ser pelo menos:
-`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
+>
+>`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
 >
@@ -107,6 +108,3 @@ As tabelas a seguir ofertas uma boa visão geral do que os dados chave de conect
 >Todas as informações se referem ao consumo de cada dispositivo na rede que solicita e baixa uma fonte de Internet. Cada uma dessas solicitações adiciona e estende o Tempo de download.
 
 ![](/help/using/assets/mobile-router-download.png)
-
-
-
