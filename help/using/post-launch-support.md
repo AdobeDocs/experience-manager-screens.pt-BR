@@ -4,7 +4,7 @@ seo-title: Suporte pós-lançamento para AEM Screens
 description: A página descreve o Suporte de Pós-lançamento do AEM Screens Best Practices Guide
 seo-description: A página descreve o Suporte de Pós-lançamento do AEM Screens Best Practices Guide
 translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 7%
@@ -29,10 +29,12 @@ Além disso, para se preparar para o sucesso a longo prazo, é fundamental estab
 
 >[!NOTE]
 >
-> Você deve definir parâmetros operacionais previamente incluídos nos orçamentos operacionais, bem como alinhar as responsabilidades com o implementador AEM e o AV Integrator.
-A implantação é uma Rede de publicidade com muitas partes interessadas ligadas a uma rede monetizada? Isso pode determinar prazos de resolução muito mais curtos em comparação com uma rede de comunicações corporativas. 
-O aplicativo é altamente visível para a liderança executiva do cliente final? Sites com alta visibilidade podem merecer diferentes tratamentos.
-O aplicativo é crítico para operações comerciais, como painéis de menu em cadeias de fast-food? Nesses casos, o cliente final pode exigir resoluções no site com tempos de resposta muito curtos, bem como redundância no hardware de reprodução.
+>Você deve definir parâmetros operacionais previamente incluídos nos orçamentos operacionais, bem como alinhar as responsabilidades com o implementador AEM e o AV Integrator.
+>
+>* A implantação é uma Rede de publicidade com muitas partes interessadas ligadas a uma rede monetizada? Isso pode determinar prazos de resolução muito mais curtos em comparação com uma rede de comunicações corporativas.
+>* O aplicativo é altamente visível para a liderança executiva do cliente final? Sites com alta visibilidade podem merecer diferentes tratamentos.
+>* O aplicativo é crítico para operações comerciais, como painéis de menu em cadeias de fast-food? Nesses casos, o cliente final pode exigir resoluções no site com tempos de resposta muito curtos, bem como redundância no hardware de reprodução.
+
 
 ## Considerações e Query de pós-lançamento {#considerations-queries}
 
