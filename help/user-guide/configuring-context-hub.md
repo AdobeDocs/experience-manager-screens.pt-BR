@@ -1,8 +1,8 @@
 ---
 title: Configuração do ContextHub no AEM Screens
 seo-title: Configuração do ContextHub no AEM Screens
-description: Siga esta página para saber mais sobre o ContextHub no mecanismo de definição de metas para definir o armazenamento de dados com a finalidade de acionar a alteração do conteúdo.
-seo-description: Siga esta página para saber mais sobre o ContextHub no mecanismo de definição de metas para definir o armazenamento de dados com a finalidade de acionar a alteração do conteúdo.
+description: Siga esta página para saber mais sobre o ContextHub no mecanismo de definição de metas para definir o armazenamento de dados com a finalidade de acionar a alteração de conteúdo.
+seo-description: Siga esta página para saber mais sobre o ContextHub no mecanismo de definição de metas para definir o armazenamento de dados com a finalidade de acionar a alteração de conteúdo.
 uuid: be06bda8-7de9-40d6-a84b-5ed8d8b3d180
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 1%
@@ -68,6 +68,7 @@ A validação a seguir é a que será visualização ao verificar sua conexão, 
 ![imagem](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
+>
 >O exemplo específico abaixo mostra as planilhas do google como um armazenamento de dados que acionará a alteração de ativos se o valor for maior que 100 ou menor que 50.
 
 ## Etapa 2: Configuração das configurações da loja {#step-setting-store-configurations}
@@ -96,19 +97,21 @@ A validação a seguir é a que será visualização ao verificar sua conexão, 
       ![imagem](/help/user-guide/assets/context-hub/context-hub5.png)
 
       >[!CAUTION]
+      >
       >Como parte do AEM 6.5 Feature Pack 4 ou AEM 6.4 Feature Pack 8, os clientes devem atualizar `/conf/screens/settings/cloudsettings` para `sling:Folder`.
-      > 
+      >
       >Siga as etapas abaixo:
       >
       >1. Navegue até CRXDE Lite e depois para `/conf/screens/settings/cloudsettings`.
       >1. Verifique se `cloudsettings jcr:primaryType` está em `sling:Folder`. Se o não `jcr:primaryType` estiver em `sling:folder`, siga para as etapas seguintes.
-      > 1. Clique com o botão direito do mouse em `/conf/screens/settings` e crie um novo nó com *nome* como **cloudsettings1** e *Type* como **sling:Folder** e salve as alterações.
+      >1. Clique com o botão direito do mouse em `/conf/screens/settings` e crie um novo nó com *nome* como **cloudsettings1** e *Type* como **sling:Folder** e salve as alterações.
       >1. Mova todos os nós em `/conf/screens/settings/cloudsettings` para `cloudsettings1`.
       >1. Exclua `cloudsettings` e salve.
       >1. Renomeie `cloudsettings1` para `cloudsettings` e salve.
       >1. Agora você deve observar que /conf/screens/settings/cloudsettings tem `jcr:primaryType` as mesmas configurações `sling:Folder`.
-Você deve seguir essas etapas em autor e publicar antes ou depois da atualização.
 
+      >
+      >Você deve seguir essas etapas em autor e publicar antes ou depois da atualização.
 
    1. Insira o **Título** como **Google Sheets**, **Store Name** como **googlesheets** e **Store Type** **** **** como contexthub.generic-jsonp e clique em Next.
 
@@ -116,8 +119,6 @@ Você deve seguir essas etapas em autor e publicar antes ou depois da atualizaç
       >Se você estiver usando o Adobe Experience Manager (AEM) 6.4, digite o Título **da** configuração como **googlesheets** e o Tipo **de** loja como **contexthub.generic-jsonp**.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub6.png)
-
-
 
    1. Digite sua configuração json específica. Por exemplo, você pode usar o json a seguir para fins de demonstração e clicar em **Salvar** e verá a configuração da loja intitulada como **Google Sheets** na configuração do ContextHub.
 
@@ -142,10 +143,11 @@ Você deve seguir essas etapas em autor e publicar antes ou depois da atualizaç
 
       >[!NOTE]
       No código de amostra acima, **pollInterval** define a frequência na qual os valores são atualizados (em ms).
-Substitua o código por sua *&lt;ID da planilha>* e *&lt;chave da API>*, que você buscou ao configurar as planilhas do Google.
+      Substitua o código por sua *&lt;ID da planilha>* e *&lt;chave da API>*, que você buscou ao configurar as planilhas do Google.
 
       >[!CAUTION]
       Se você criar suas configurações de armazenamento do Google Sheets fora da pasta global (por exemplo, na sua própria pasta de projeto), a definição de metas não funcionará automaticamente.
+
 
 1. **Configuração da segmentação da loja**
 
