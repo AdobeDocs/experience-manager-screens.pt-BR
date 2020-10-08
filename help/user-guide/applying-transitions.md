@@ -6,7 +6,7 @@ seo-description: Siga esta página para saber como aplicar transições a seus p
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -25,13 +25,13 @@ Esta seção descreve como você pode aplicar o componente de **Transição** en
 
 ## Adicionar componente de Transição aos ativos em um Canal {#adding-transition}
 
-Siga as etapas abaixo para adicionar um componente de transição ao seu projeto de AEM Screens:
+Siga as etapas abaixo para adicionar um componente de transição ao seu projeto da AEM Screens:
 
 >[!NOTE]
 >
 >**Pré-requisitos**
 >
-> Crie um projeto do AEM Screens **TestProject** com um canal **TestTransition**. Além disso, configure um local e uma tela para visualização da saída.
+>Crie um projeto da AEM Screens **TestProject** com um canal **TestTransition**. Além disso, configure um local e uma tela para visualização da saída.
 
 1. Navegue até o Canal **TestTransition** e clique em **Editar** na barra de ações.
 
