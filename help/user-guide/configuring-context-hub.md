@@ -90,6 +90,7 @@ A validação a seguir é a que será visualização ao verificar sua conexão, 
    1. **Navegue** até **ContextHubDemo** > **Criar** configuração **** do ContentHub e clique em **Salvar**.
 
       >[!NOTE]
+      >
       > Depois de clicar em **Salvar** , você estará na tela Configuração **do** ContextHub.
 
    1. Na tela Configuração **do** ContextHub, clique em **Criar** > Configuração de armazenamento **do ContentHub.**
@@ -109,13 +110,13 @@ A validação a seguir é a que será visualização ao verificar sua conexão, 
       >1. Exclua `cloudsettings` e salve.
       >1. Renomeie `cloudsettings1` para `cloudsettings` e salve.
       >1. Agora você deve observar que /conf/screens/settings/cloudsettings tem `jcr:primaryType` as mesmas configurações `sling:Folder`.
-
       >
       >Você deve seguir essas etapas em autor e publicar antes ou depois da atualização.
 
    1. Insira o **Título** como **Google Sheets**, **Store Name** como **googlesheets** e **Store Type** **** **** como contexthub.generic-jsonp e clique em Next.
 
       >[!CAUTION]
+      >
       >Se você estiver usando o Adobe Experience Manager (AEM) 6.4, digite o Título **da** configuração como **googlesheets** e o Tipo **de** loja como **contexthub.generic-jsonp**.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub6.png)
@@ -123,6 +124,7 @@ A validação a seguir é a que será visualização ao verificar sua conexão, 
    1. Digite sua configuração json específica. Por exemplo, você pode usar o json a seguir para fins de demonstração e clicar em **Salvar** e verá a configuração da loja intitulada como **Google Sheets** na configuração do ContextHub.
 
       >[!IMPORTANT]
+      >
       >Certifique-se de substituir o código por sua *&lt;ID da planilha>* e *&lt;chave da API>*, que você buscou ao configurar as planilhas do Google.
 
       ```
@@ -142,11 +144,13 @@ A validação a seguir é a que será visualização ao verificar sua conexão, 
       ```
 
       >[!NOTE]
-      No código de amostra acima, **pollInterval** define a frequência na qual os valores são atualizados (em ms).
-      Substitua o código por sua *&lt;ID da planilha>* e *&lt;chave da API>*, que você buscou ao configurar as planilhas do Google.
+      >
+      >No código de amostra acima, **pollInterval** define a frequência na qual os valores são atualizados (em ms).
+      >Substitua o código por sua *&lt;ID da planilha>* e *&lt;chave da API>*, que você buscou ao configurar as planilhas do Google.
 
       >[!CAUTION]
-      Se você criar suas configurações de armazenamento do Google Sheets fora da pasta global (por exemplo, na sua própria pasta de projeto), a definição de metas não funcionará automaticamente.
+      >
+      >Se você criar suas configurações de armazenamento do Google Sheets fora da pasta global (por exemplo, na sua própria pasta de projeto), a definição de metas não funcionará automaticamente.
 
 
 1. **Configuração da segmentação da loja**
@@ -158,7 +162,8 @@ A validação a seguir é a que será visualização ao verificar sua conexão, 
    1. Click **Next** and then **Save**.
 
       >[!NOTE]
-Você tem que pular o processo de definição do json e deixá-lo em branco.
+      >
+      >Você tem que pular o processo de definição do json e deixá-lo em branco.
 
 
 ## Etapa 3: Configuração de segmentos na Audiência {#setting-up-audience}
@@ -200,7 +205,9 @@ Siga as etapas abaixo para criar uma marca em suas atividades e área sob a marc
 
 
       >[!CAUTION]
-      Problema conhecido:
+      >
+      >Problema conhecido:
+
 Para adicionar uma área, remova o principal do URL, como
       `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
@@ -258,7 +265,8 @@ Depois de configurar um armazenamento de dados e definir sua atividade (marca e 
    1. Selecione **googlesheets/value/1/0** no menu suspenso em Nome **da** propriedade.
 
       >[!NOTE]
-A **googlesheets/value/1/0** refere-se à linha 2 e à coluna como preenchido nas planilhas do Google na figura abaixo:
+      >
+      >A **googlesheets/value/1/0** refere-se à linha 2 e à coluna como preenchido nas planilhas do Google na figura abaixo:
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub17.png)
 
@@ -267,7 +275,8 @@ A **googlesheets/value/1/0** refere-se à linha 2 e à coluna como preenchido na
    1. Insira o **Valor** como **70**.
 
       >[!NOTE]
-      O AEM valida seus dados do Google Sheet mostrando seu segmento como verde.
+      >
+      >O AEM valida seus dados do Google Sheet mostrando seu segmento como verde.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub18.png)
    Da mesma forma, edite os valores de propriedade para **Lowerthan50**.
@@ -301,14 +310,16 @@ Siga as etapas abaixo para ativar a definição de metas em seus canais.
    1. Clique em **Salvar e fechar**.
 
       >[!NOTE]
-      Use o ContextHub e o caminho Segmentos, onde você salvou inicialmente suas configurações e segmentos do hub de contexto.
+      >
+      >Use o ContextHub e o caminho Segmentos, onde você salvou inicialmente suas configurações e segmentos do hub de contexto.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub20.png)
 
    1. Navegue e selecione o canal **TargetChannel** e clique em **Editar** na barra de ações.
 
       >[!NOTE]
-      Se você configurou tudo corretamente, verá a opção **Definição de metas** na lista suspensa do editor, como mostra a figura abaixo.
+      >
+      >Se você configurou tudo corretamente, verá a opção **Definição de metas** na lista suspensa do editor, como mostra a figura abaixo.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub21.png)
 
