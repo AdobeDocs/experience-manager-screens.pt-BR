@@ -4,7 +4,7 @@ seo-title: Funções e responsabilidades do projeto AEM Screens
 description: A página descreve Funções e Responsabilidades do Projeto AEM Screens
 seo-description: A página descreve Funções e Responsabilidades do Projeto AEM Screens
 translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 11%
@@ -92,15 +92,14 @@ Gerentes de projeto geralmente gerenciam toda a implantação para sua implanta�
 Para oferecer suporte a uma implantação bem-sucedida do Digital Signage, é comum segmentar o projeto em três estágios.  Esses estágios são comumente chamados de **Dias**. Não são dias literais, mas designações para cada grande etapa do projeto.
 
 1. A primeira etapa é conhecida como *Dia Zero*. Esta etapa inclui todos os esforços de pré-vendas e de descoberta necessários para definir totalmente o escopo do projeto.
-
 1. A segunda etapa, *Dia um*, refere-se a todas as atividades incluídas no esforço de implantação.
-
 1. A terceira e última etapa do *Dia Dois* refere-se a todas as operações e elementos de suporte em andamento como parte da solução total.
 
 >[!NOTE]
 >
 >Embora este guia enfatize principalmente o *Primeiro Dia* e o *Segundo dia*, é necessário prestar atenção aos três estágios para executar um projeto bem-sucedido de sinalização digital.
-Siga um vídeo adicional sobre Gerenciamento de **[projetos e Implantação](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** para saber mais sobre a pré-produção do projeto, a iniciação do projeto e a progressão do projeto.
+>
+>Siga um vídeo adicional sobre Gerenciamento de **[projetos e Implantação](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** para saber mais sobre a pré-produção do projeto, a iniciação do projeto e a progressão do projeto.
 
 ## Gráfico RACI {#raci-chart}
 
