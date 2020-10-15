@@ -3,12 +3,12 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Ajuda do Adobe Experience Manager Screens
-user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
+user-guide-description: Saiba como usar o AEM Screens para publicar experiências digitais interativas envolvendo diferentes tipos de telas.
 translation-type: tm+mt
 source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 13%
+source-wordcount: '414'
+ht-degree: 18%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 13%
    + [Canais off-line](offline-channels.md)
    + [Extensão de um componente AEM Screens](extending-component-tutorial-develop.md)
    + [Criação de componentes](creating-components.md)
-   + [Incorporação de um aplicativo REACT usando AEM editor SPA e integração com o AEM Screens Analytics](embedding-react-app.md)
+   + [Como incorporar um aplicativo REACT usando AEM Editor SPA e Integração com o AEM Screens Analytics](embedding-react-app.md)
    + [Configuração do ContextHub no AEM Screens](configuring-context-hub.md)
    + [Criação de modelos personalizados para layouts de várias zonas](creating-custom-templates-multizone-layouts.md)
    + [Aplicação de marca personalizada e estilo para sobreposições de texto](custom-branding-text-overlays.md)
