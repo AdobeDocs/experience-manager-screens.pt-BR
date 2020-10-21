@@ -1,16 +1,18 @@
 ---
 cloud: experience-cloud
 solution-title: AEM Screens
+solution: Experience Manager
+type: Documentation
 index: y
 solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html
 solution-image: help/assets/experience-cloud-logo-24.png
-getting-started-title: Guia do usuário e Guia de práticas recomendadas para o AEM Screens
+getting-started-title: Guia do usuário e Guia de práticas recomendadas para AEM Screens
 getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html
 tutorials-title: Tutoriais
 tutorials-url: https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html
-git-repo: https://github.com/AdobeDocs/experience-manager-screens.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-screens.pt-BR
 translation-type: tm+mt
-source-git-commit: d425a71ff5516161a8a2e571a206aaedfd1ab3a5
+source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 7%
@@ -30,4 +32,4 @@ O arquivo metadata.md inclui metadados de nível de acordo de recompra que passa
 | getting-started-url | Link para a página de introdução ao helpx |
 | tutoriais-url | Link para tutoriais em vídeo — tutoriais do helpx ou tutoriais do KT |
 | níveis minitoctoc | Determina o número de níveis de cabeçalho exibidos no painel direito. o padrão é 2 |
-| repo git | Especifica o local do acordo principal para uso interno |
+| repo git | Especifica o local do acordo de recompra principal para uso interno |
