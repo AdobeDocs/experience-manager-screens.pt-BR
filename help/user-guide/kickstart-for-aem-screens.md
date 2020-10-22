@@ -3,9 +3,9 @@ title: Guia de Início Rápido
 seo-title: Guia de Início Rápido
 description: Siga esta página para criar um projeto de demonstração do AEM Screens. Ajuda a criar uma experiência de assinatura digital começando pela instalação e configurando um novo projeto para exibir seu conteúdo no AEM Screens player.
 translation-type: tm+mt
-source-git-commit: d49ceecab42762425d779d50a31291091088ee19
+source-git-commit: 77c81b84631b090333db0095986f634fa99c8223
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1317'
 ht-degree: 5%
 
 ---
@@ -13,10 +13,10 @@ ht-degree: 5%
 
 # Guia de Início Rápido {#kickstart-guide}
 
-Esta seção é um kickstart para a AEM Screens e demonstra como configurar e executar um projeto da AEM Screens. Ele o orienta a configurar uma experiência básica de sinalização digital e adicionar conteúdo, como ativos e/ou vídeos, a cada canal e a publicar o conteúdo em um AEM Screens player.
+O kickstart para AEM Screens demonstra como configurar e executar um projeto AEM Screens. Ele o orienta a configurar uma experiência básica de sinalização digital e adicionar conteúdo, como ativos e/ou vídeos, a cada canal e a publicar o conteúdo em um AEM Screens player.
 
 >[!NOTE]
->Antes de start para trabalhar nos detalhes do projeto, certifique-se de ter instalado o Feature Pack mais recente. Você pode baixar o pacote de recursos mais recente para a versão AEM Screens 6.5.5 do Portal [de distribuição de](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) software usando seu Adobe ID.
+>Antes de start para trabalhar nos detalhes do projeto, certifique-se de ter instalado o Feature Pack mais recente para AEM Screens. Você pode baixar o pacote de recursos mais recente do Portal [de distribuição de](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) software usando seu Adobe ID.
 
 ## Pré-requisitos {#prerequisites}
 
@@ -27,7 +27,7 @@ Siga as etapas abaixo para criar um projeto de amostra para o AEM Screens e publ
 
 >[!IMPORTANT]
 >**Configurações do OSGi**
->É necessário ativar a quem indicou vazia para permitir que o dispositivo publique dados no servidor. Por exemplo, se a propriedade quem indicou vazia estiver desativada, o dispositivo não poderá postar uma captura de tela novamente. Atualmente, alguns desses recursos estão disponíveis somente se o Filtro de Quem indicou Apache Sling Permitir vazio estiver ativado na Configuração do OSGi. O painel pode exibir um aviso de que as configurações de segurança podem impedir que alguns desses recursos funcionem.
+>Você deve ativar a quem indicou vazia para permitir que o dispositivo publique dados no servidor. Por exemplo, se a propriedade quem indicou vazia estiver desativada, o dispositivo não poderá postar uma captura de tela novamente. Atualmente, alguns desses recursos estão disponíveis somente se o Filtro de Quem indicou Apache Sling Permitir vazio estiver ativado na Configuração do OSGi. O painel pode exibir um aviso de que as configurações de segurança podem impedir que alguns desses recursos funcionem.
 >Siga as etapas abaixo para ativar o Filtro de Quem indicou Sling ***Apache Permitir vazio***:
 
 
@@ -47,12 +47,11 @@ Siga as etapas abaixo para criar um projeto de amostra para o AEM Screens e publ
 
 1. Clique em **Salvar** para ativar o Filtro de Quem indicou Apache Sling Permitir vazio.
 
-
 ## Criação de uma experiência com cartazes digitais em 5 minutos {#creating-a-digital-signage-experience-in-minutes}
 
 ### Creating an AEM Screens Project {#creating-project}
 
-A primeira etapa é criar um novo projeto AEM Screens.
+A primeira etapa é criar um projeto da AEM Screens.
 
 1. Navegue até a instância do Adobe Experience Manager (AEM) e clique em **Telas**. Como alternativa, você pode navegar diretamente de `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
@@ -63,35 +62,34 @@ A primeira etapa é criar um novo projeto AEM Screens.
    >[!NOTE]
    >Depois que você cria o projeto, ele o traz de volta ao home page do Screens Project. Agora, você pode selecionar seu projeto. Em um projeto, há cinco pastas diferentes intituladas **Aplicativos**, **Canais**, **Dispositivos**, **Locais** e **Agendamentos**.
 
-
 ### Criação de um canal {#creating-channel}
 
-Depois que o projeto estiver em andamento, será necessário criar um novo canal no qual você gerenciará o conteúdo.
+Depois de criar o projeto do AEM Screens, é necessário criar um novo canal no qual você gerencia o conteúdo.
 
 Siga as etapas abaixo para criar um novo canal para seu projeto:
 
-1. Depois de criar um projeto, selecione o projeto **DemoScreens** e selecione a pasta **** Canais, como mostrado na figura abaixo. Click **+ Create** from the action bar.
+1. Depois de criar um projeto, selecione o projeto **DemoScreens** e selecione a pasta **Canais** , como mostrado na figura abaixo. Click **+ Create** from the action bar.
 
    ![imagem](assets/kickstart/demo-2.png)
 
 1. Escolha o Canal **de** sequência no assistente e clique em **Avançar**.
    ![imagem](assets/kickstart/demo-3.png)
 
-1. Enter the **Title** as *TestChannel* and click **Create**.
+1. Enter the **Title** as **TestChannel** and click **Create**.
 
    ![imagem](assets/kickstart/demo-4.png)
 
-   O *TestChannel* é criado e adicionado à pasta canais, como mostrado na figura abaixo.
+   O **TestChannel** agora é adicionado à pasta canais, como mostrado na figura abaixo.
 
    ![imagem](assets/kickstart/demo-5.png)
 
 ### Adding Content to a Channel {#adding-content}
 
-Depois que o canal estiver no lugar, você precisará adicionar conteúdo ao canal que o Reprodutor do Screens exibirá.
+Depois de colocar o canal no lugar, é necessário adicionar conteúdo ao canal que o AEM Screens player exibirá.
 
-Siga as etapas abaixo para adicionar conteúdo ao canal (*TestChannel*) em seu projeto:
+Siga as etapas abaixo para adicionar conteúdo ao canal (**TestChannel**) em seu projeto:
 
-1. Navigate to the **DemoProject** you created and select the **Channels** folder.
+1. Navigate to the **DemoProject** you created and select the **TestChannel** from the **Channels** folder.
 
 1. Click **Edit** from the action bar (see the figure below). The editor for the **TestChannel** opens.
 
@@ -118,7 +116,7 @@ Siga as etapas abaixo para criar um novo local para seu projeto:
 
 1. Select **Location** from the wizard and click **Next**.
 
-1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**.
+1. Enter the **Name** for your location (enter the title as **TestLocation**) and click **Create**.
 
 O **TestLocation** é criado e adicionado à pasta **Locais** .
 
@@ -128,7 +126,7 @@ O **TestLocation** é criado e adicionado à pasta **Locais** .
 Depois de criar um local, é necessário criar uma nova exibição para o seu local.
 
 >[!NOTE]
->***As telas*** representam a experiência digital executada em uma ou várias telas.
+>***A exibição*** representa a experiência digital executada em uma ou várias telas.
 
 1. Navegue até **TestLocation** e selecione-o.
 
@@ -213,7 +211,7 @@ Quando o player do Chrome OS estiver ativado, siga as etapas abaixo para registr
 
    ![imagem](assets/kickstart/demo-register2.png)
 
-1. Aguarde o dispositivo enviar o código de registro e, simultaneamente, verifique o Código **de** registro do dispositivo Chrome.
+1. Aguarde o dispositivo enviar seu código de registro e verifique simultaneamente o Código **de** registro do dispositivo Chrome.
    ![imagem](assets/kickstart/demo-register3.png)
 
 1. Se o Código **** de registro for o mesmo em ambos os computadores, toque/clique em **Validar** no AEM.
@@ -234,9 +232,7 @@ Quando o player do Chrome OS estiver ativado, siga as etapas abaixo para registr
 
    ![imagem](assets/kickstart/demo-register8.png)
 
-1. Tap/click **Finish** to complete the registration process.
-
-1. Você deve ser capaz de visualização seu dispositivo registrado do painel de exibição.
+1. Tap/click **Finish** to complete the registration process. Você deve ser capaz de visualização seu dispositivo registrado do painel de exibição.
 
    ![imagem](assets/kickstart/demo-register9.png)
 
@@ -247,9 +243,3 @@ Todos os ativos em seu canal agora estão sendo reproduzidos no player do Chrome
 Parabéns por você estar reproduzindo conteúdo em um canal AEM Screens!
 
 ![imagem](assets/kickstart/demo-video-screens.gif)
-
-
-
-
-
-
