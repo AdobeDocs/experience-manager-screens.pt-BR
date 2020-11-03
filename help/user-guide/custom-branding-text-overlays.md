@@ -5,9 +5,9 @@ description: Siga esta página para saber como aplicar marcas e estilos personal
 seo-description: Siga esta página para saber como aplicar marcas e estilos personalizados a sobreposições de texto.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 099000dea848810c7ab12a32f0235ca478c0d5dd
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '626'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Marca personalizada e estilo para sobreposições de texto {#creating-custom-branding-styling}
 
-Siga esta página para saber como aplicar marcas e estilos personalizados a sobreposições de texto aplicadas aos seus ativos em um canal do Screens.
+Siga esta página para saber como aplicar marcas e estilos personalizados a sobreposições de texto aplicadas a seus ativos em um canal AEM Screens.
 
 ## Criação de marcas personalizadas e de estilos para sobreposições de texto {#steps-custom-branding}
 
@@ -81,9 +81,8 @@ Siga as etapas abaixo para criar marcas e estilos personalizados para sobreposi�
 
 1. Clique em **Salvar e fechar** para atualizar o caminho do design.
 
->[!IMPORTANT]
->
->Você tem a opção de sobrepor os modelos existentes do Screens para injetar seus próprios designs por padrão ou criar seu próprio modelo completamente. Consulte as etapas abaixo para obter mais detalhes.
+   >[!IMPORTANT]
+   >Você tem a opção de sobrepor os modelos existentes do Screens para injetar seus próprios designs por padrão ou criar seu próprio modelo completamente. Consulte as etapas abaixo para obter mais detalhes.
 
 1. Para sobrepor os modelos existentes do Screens para injetar seus próprios designs por padrão:
 
@@ -129,7 +128,7 @@ Siga as etapas abaixo para visualização do design atualizado à sobreposição
 
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-Como referência ao tutorial, agora você pode atualizar sua marca e estilo personalizado para sobreposições de texto adicionadas aos seus ativos.
+   Agora você está pronto para atualizar sua marca e estilo personalizado para sobreposições de texto adicionadas aos seus ativos.
 
 
 
