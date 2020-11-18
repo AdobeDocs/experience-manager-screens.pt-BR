@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Esta página descreve a instalação e o funcionamento do Tizen Player.
 translation-type: tm+mt
-source-git-commit: 8f8973c4fda8d40f919e199be3df15ba42f0a6c6
+source-git-commit: 835da341fcee8e4abb3375c43a0a130d3f79d859
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Siga as etapas abaixo para configurar o servidor local e copiar os arquivos extr
 1. Obtenha o endereço IP da sua máquina local.
 
    >[!NOTE]
-   >Você pode obter o endereço IP do terminal de sua máquina digitando os seguintes comandos:
+   >Você pode obter o endereço IP do terminal de sua máquina usando os seguintes comandos:
    >* **Mac**: `ifconfig`
    >* **Windows**: `ipconfig`
 
