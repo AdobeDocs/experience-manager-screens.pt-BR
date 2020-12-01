@@ -6,9 +6,9 @@ seo-description: Siga esta página para obter respostas para perguntas frequente
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 63e3b9d7ad1519b575726dca492e5b5bd64c222d
+source-git-commit: a2bfbfcbeaffd663378297a6eb155f38b64c8402
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1705'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 1%
 # Perguntas frequentes da AEM Screens {#aem-screens-faqs}
 
 A seção a seguir fornece respostas para algumas das perguntas frequentes mais frequentes relacionadas a um projeto da AEM Screens.
+
+## Problema de tela em branco {#blank-screen}
+
+>[!NOTE]
+>As verificações obrigatórias listadas que devem ser testadas pelo suporte principal ou pelo suporte do cliente antes de levantar um problema:
+
+### 1. Quais devem ser as etapas de solução de problemas de primeiros socorros para qualquer cliente que esteja voltado para uma tela preta ou que não esteja reproduzindo conteúdo? {#troubleshooting-blank-screen}
+
+* Verifique se a pré-visualização do canal está funcionando.
+* Verifique se a pré-visualização do monitor está funcionando
+* Tente registrar o player como uma extensão de navegador no seu laptop para a mesma tela e verifique se ele está funcionando.
+* Com o player em execução no sistema, navegue até `http://localhost:24502`. Verifique se todo o conteúdo foi baixado corretamente.
+* Verifique se as representações apropriadas foram criadas e se a representação correta está sendo reproduzida.
+* Verifique se há algum conteúdo programado e se os horários estão corretos. Verifique se o tempo configurado no player está correto.
+* Verifique os registros do console do player e verifique se há erros? Clique com o botão direito do mouse e inspecione para ver os registros do console. Se estiver usando o Windows player, pressione `CTRL + ALT +I` para ativar o console dev para visualização dos registros.
 
 ## Gerenciamento de canais {#channel-management}
 
@@ -36,7 +51,7 @@ A função do Canal é a abstração do canal real que é executado para que o a
 
 Para *referências estáticas*, a resolução segue apenas o caminho especificado.
 
-Para *referências dinâmicas*, a resolução ocorre quando o canal é atribuído à exibição (não ao agendamento). O caminho de exibição torna-se o contexto do canal e a resolução acontece da seguinte forma (da prioridade mais alta à mais baixa):
+Para *referências dinâmicas*, a resolução ocorre quando o canal é atribuído à exibição (não ao agendamento). O caminho de exibição torna-se o contexto do canal e a resolução ocorre da seguinte forma (prioridade de mais alta a mais baixa):
 
 1. A exibição tem um nó filho que corresponde ao nome do canal referenciado
 1. A exibição tem um nó irmão que corresponde ao nome do canal referenciado
