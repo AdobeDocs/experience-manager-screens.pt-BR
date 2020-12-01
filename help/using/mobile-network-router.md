@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# Rede móvel com roteador de dados móvel e componentes de rede ativos {#mobile-network-setup}
+# Rede móvel com roteador de dados móveis e componentes de rede ativos {#mobile-network-setup}
 
 Os Players Adobe AEM Screens também podem ser conectados usando redes móveis ou celulares executando pelo menos uma rede 3G.
 
@@ -55,11 +55,11 @@ A configuração de rede pode ser logicamente separada em dois blocos:
 
 * Rede local
 
-### Conexão com a Internet móvel {#mobile-internet-connection}
+### Conexão de Internet móvel {#mobile-internet-connection}
 
 O desempenho da conexão com a Internet, além da acessibilidade da rede já descrita, tem que fornecer largura de banda suficiente para executar downloads de conteúdo da AEM Screens sem problemas.
 
-*O suficiente* depende da quantidade de dispositivos de telas AEM conectados e do uso de outros consumidores na rede, como Smartphones, Tablets, Caixas, Computadores ou Redes Wi-Fi Convidadas.
+*O* suficiente depende da quantidade de dispositivos de telas AEM conectados e do uso de outros consumidores na rede, como Smartphones, Tablets, Caixas, Computadores ou Redes Wi-Fi Convidadas.
 Lembre-se de que todos os dispositivos têm acesso simultâneo à conexão com a Internet e que a largura de banda geralmente diminui linearmente, adicionando mais consumidores/computadores à rede.
 Para além da ligação teórica à rede específica, é necessário garantir que a cobertura do roteador móvel seja pelo menos &quot;boa&quot;. Além disso, o plano mensal subjacente tem que cobrir capacidade de dados suficiente e largura de banda suficiente para atender a todos os clientes conectados dentro da LAN conectada.
 
@@ -68,8 +68,8 @@ A tabela a seguir destaca as redes de dados com sua largura de banda padrão:
 | Rede de dados | Largura de banda |
 |--- |--- |
 | 3G | 42 Mbps |
-| 4G | 150 Mbps |
-| 5G | 1000 - 10000 Mbps |
+| 4 G | 150 Mbps |
+| 5 G | 1000 - 10000 Mbps |
 
 Ao considerar qual rede de dados deve ser usada, é recomendável responder às seguintes perguntas:
 
@@ -85,7 +85,7 @@ Ao considerar qual rede de dados deve ser usada, é recomendável responder às 
 
 >[!IMPORTANT]
 >
->Para o upload inicial de arquivos de mídia, por exemplo, ao integrar novos players, é necessário esperar uma quantidade maior de dados e um aumento do tempo de download, que está sendo refletido nas premissas acima. Uma rede 4G com *boa* cobertura e dados ilimitados deve corresponder às instalações mais comuns nesta Configuração de rede.
+>Para o upload inicial de arquivos de mídia, por exemplo, ao integrar novos players, é necessário esperar uma quantidade maior de dados e um aumento do tempo de download, que está sendo refletido nas premissas acima. Uma rede 4G com *boa* cobertura e dados ilimitados devem corresponder às instalações mais comuns nesta Configuração de rede.
 
 
 ### Rede local {#lan-connection}
@@ -94,7 +94,7 @@ O desempenho da LAN, além da acessibilidade da rede já descrita, tem que forne
 
 Por exemplo, os componentes de rede devem corresponder pelo menos ao padrão de 100 Mbps e à largura de banda fornecida pela especificação Internet Access/Router.
 
-Caso esteja prevista uma solução Wi-Fi para conectar a tela ao Internet Link, é recomendável usar no mínimo padrões Wi-Fi modernos, como IEEE 802.11g. Este padrão suporta conexões de até 54 Mbps. Todos os padrões *mais recentes* como o 802.11h-n são de melhor qualidade. Se for necessário um Repetidor de Wi-Fi, recomendamos enfaticamente as tecnologias de ponto de acesso de malha Wi-Fi, como o Google Nest Mesh Wi-Fi ou similar.
+Caso esteja prevista uma solução Wi-Fi para conectar a tela ao Internet Link, é recomendável usar no mínimo padrões Wi-Fi modernos, como IEEE 802.11g. Este padrão suporta conexões de até 54 Mbps. Quaisquer *padrões mais recentes* como o 802.11h-n são de melhor qualidade. Se for necessário um Repetidor de Wi-Fi, recomendamos enfaticamente as tecnologias de ponto de acesso de malha Wi-Fi, como o Google Nest Mesh Wi-Fi ou similar.
 
 ## Download de mídia e ativos {#download}
 
