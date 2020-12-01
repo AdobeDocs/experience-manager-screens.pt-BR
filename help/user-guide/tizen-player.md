@@ -32,7 +32,7 @@ Siga as etapas abaixo para configurar o servidor local e copiar os arquivos extr
 
 1. O Tizen player baixará o instalador do servidor local.
 
-1. Copie os dois arquivos extraídos, como `AEMScreensPlayer.wgt` e `sssp_config.xml` para o diretório raiz do servidor local.
+1. Copie os dois arquivos extraídos, como `AEMScreensPlayer.wgt` e `sssp_config.xml`, para o diretório raiz do servidor local.
 
 ### Configurando atualizações no dispositivo Samsung {#config-updates}
 
@@ -40,13 +40,13 @@ Siga as etapas abaixo no dispositivo Samsung para concluir a instalação do AEM
 
 1. Vá para seu dispositivo Samsung.
 
-1. Clique no botão **Início** usando o controle remoto do dispositivo e selecione Configurações **do Iniciador de** URL.
+1. Clique no botão **Início** usando o controle remoto do dispositivo e selecione **Configurações do Iniciador de URL**.
 
 1. Insira o endereço IP do servidor host local.
 
-1. Selecione **Remoto** no Modo **de** desenvolvedor.
+1. Selecione **Remote** no **Developer Mode**.
 
-1. Clique no botão **Início** no controle remoto do dispositivo e selecione Iniciador **de URL**.
+1. Clique no botão **Início** no controle remoto do dispositivo e selecione **Iniciador de URL**.
 
 1. O AEM Screens Player agora deve instalar e iniciar automaticamente em seu dispositivo Samsung.
 
