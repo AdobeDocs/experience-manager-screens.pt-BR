@@ -12,7 +12,7 @@ ht-degree: 5%
 ---
 
 
-# Audiência público alvo {#target-audience}
+# Audiência do público alvo {#target-audience}
 
 Como um implementador de AEM experiente, provavelmente você já viu funções conhecidas como *Autores*, *Desenvolvedores* e *TI/Técnicos*.
 
@@ -47,7 +47,7 @@ O Integrador A/V é o fornecedor/parceiro de hardware. Essa é a parte que lida 
 
 Um integrador AV é responsável por realizar a descoberta com clientes finais para definir os requisitos que determinam o escopo do projeto para projetar, criar e gerenciar eficientemente implantações em hardware de sinalização digital.
 
-### Estratégista de negócios {#business-strategist}
+### Business Estratégist {#business-strategist}
 
 Os Business Estratégicos representam os tomadores de decisão na empresa. Essa função está muito envolvida nas etapas de descoberta e requisitos e é o principal impulsionador do projeto.
 
@@ -68,4 +68,4 @@ Os Criativos e a Gestão de conteúdo podem ser um dos seguintes:
 Gerentes de projeto geralmente gerenciam toda a implantação para sua implantação do AEM Screens. Um gerente de projeto é a pessoa principal para toda a implementação do projeto designado e desempenha grandes responsabilidades, como definir prazos, lidar com as necessidades e as comunicações da equipe, enfrentar os desafios e garantir que as metas sejam cumpridas.
 
 >[!NOTE]
->Para saber mais detalhes sobre diferentes funções e responsabilidades e a audiência de públicos alvos para um projeto de sinalização digital, visite Funções e responsabilidades **[do projeto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Para saber mais detalhes sobre diferentes funções e responsabilidades e a audiência do público alvo de um projeto de sinalização digital, visite **[Funções e responsabilidades do projeto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
