@@ -1,15 +1,18 @@
 ---
-title: Dependências UX para telas [!UICONTROL AEM]
-seo-title: Dependências UX para telas [!UICONTROL AEM]
-description: O guia descreve as dependências UX para telas [!UICONTROL AEM]
-seo-description: O guia descreve as dependências UX para telas [!UICONTROL AEM]
+title: Dependências UX para [!UICONTROL AEM Screens]
+seo-title: Dependências UX para [!UICONTROL AEM Screens]
+description: O guia descreve as dependências UX para [!UICONTROL AEM Screens]
+seo-description: O guia descreve as dependências UX para [!UICONTROL AEM Screens]
 translation-type: tm+mt
 source-git-commit: f73d7d10f88be953d7800c3fafe084960800a61b
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 1%
 
 ---
 
 
-# Dependências UX {#ux-dependencies}
+# Dependências de UX {#ux-dependencies}
 
 >[!NOTE]
 >
