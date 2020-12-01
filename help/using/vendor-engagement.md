@@ -23,6 +23,6 @@ Nesta atividade, é importante identificar todos os fornecedores principais nece
 
 * Defina os recursos e as tarefas para cada fornecedor, conforme elas se relacionam à categoria de produtos que eles suportam.
 
-* Confirme os *tempos de espera* do delivery para todos os resultados e crie um plano de implantação que acomode todos os tempos de espera que estejam trabalhando para trás a partir das datas de instalação desejadas das primeiras instalações necessárias.
+* Confirme o delivery *lead times* para todos os materiais de entrega e crie um plano de implantação que acomode todos os tempos de espera que estejam trabalhando para trás a partir das datas de instalação desejadas das primeiras instalações necessárias.
 
-Ao concluir todas as etapas anteriores, agora devemos ter um plano abrangente de implantação do *Dia 1* pronto para ser executado.
+Ao concluir todas as etapas anteriores, agora devemos ter um *Dia 1* Plano de implantação abrangente pronto para ser executado.
