@@ -31,16 +31,16 @@ Além disso, para se preparar para o sucesso a longo prazo, é fundamental estab
 >
 >Você deve definir parâmetros operacionais previamente incluídos nos orçamentos operacionais, bem como alinhar as responsabilidades com o implementador AEM e o AV Integrator.
 >
->* A implantação é uma Rede de publicidade com muitas partes interessadas ligadas a uma rede monetizada? Isso pode determinar prazos de resolução muito mais curtos em comparação com uma rede de comunicações corporativas.
+>* A implantação é uma rede de publicidade com muitas partes interessadas ligadas a uma rede monetizada?  Isso pode determinar prazos de resolução muito mais curtos em comparação a uma rede de comunicações corporativas.
 >* O aplicativo é altamente visível para a liderança executiva do cliente final? Sites com alta visibilidade podem merecer diferentes tratamentos.
 >* O aplicativo é crítico para operações comerciais, como painéis de menu em cadeias de fast-food? Nesses casos, o cliente final pode exigir resoluções no site com tempos de resposta muito curtos, bem como redundância no hardware de reprodução.
 
 
-## Considerações e Query de pós-lançamento {#considerations-queries}
+## Considerações e Query pós-lançamento {#considerations-queries}
 
 Algumas considerações e perguntas que ajudam a definir o suporte pós-inicialização são as seguintes:
 
-1. A implantação é uma Rede de publicidade com muitas partes interessadas ligadas a uma rede monetizada? Isso pode determinar prazos de resolução muito mais curtos em comparação com uma rede de comunicações corporativas.
+1. A implantação é uma rede de publicidade com muitas partes interessadas ligadas a uma rede monetizada?  Isso pode determinar prazos de resolução muito mais curtos em comparação a uma rede de comunicações corporativas.
  
    >[!NOTE]
    >
