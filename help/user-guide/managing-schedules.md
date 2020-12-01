@@ -22,7 +22,7 @@ ht-degree: 48%
 
 **O agendamento**, no AEM Screens, permite que você organize canais em grupos reutilizáveis para que não seja necessário repetir a atribuição individualmente para cada exibição na qual deseja exibir o conteúdo.
 
-Schedules when combined with ***DayParting***, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Agendamentos quando combinados com ***DayParting***, permitem definir uma programação global com vários canais em execução em horários específicos do dia e reutilizar essa configuração para todas as suas exibições ao mesmo tempo.
 
 >[!NOTE]
 >
@@ -34,8 +34,8 @@ Você pode criar um agendamento para o seu projeto do Screens, que gerenciará t
 
 Siga as etapas abaixo para criar um agendamento para o seu canal:
 
-1. Selecione o link do Adobe Experience Manager (canto superior esquerdo) e, em seguida, o Screens. Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
-1. Navigate to Screens project and click **Schedules**.
+1. Selecione o link do Adobe Experience Manager (canto superior esquerdo) e, em seguida, o Screens. Em alternativa, pode aceder diretamente a: `http://localhost:4502/screens.html/content/screens`.
+1. Navegue até o projeto do Screens e clique em **Programações**.
 1. Clique em **Criar** na barra de ações.
 1.  Selecione **Agendamento** no assistente **Criar** e clique em **Próximo**.
 
@@ -60,9 +60,9 @@ Siga as etapas abaixo para visualizar o painel de agendamentos. O exemplo a segu
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Programar painel** de informações Clique em Propriedades no canto superior direito do Painel de informações AGENDAMENTO para visualização/alterar as propriedades do agendamento.
+   **Agendar** painel de informaçõesClique em Propriedades no canto superior direito do Painel de informações AGENDAMENTO para visualização/alterar as propriedades do agendamento.
 
-   **Painel** Canais atribuídos Clique em +Atribuir Canal no canto superior direito do Painel CANAIS ATRIBUÍDOS para abrir a caixa de diálogo Atribuição de Canais.
+   **Painel Canais atribuídosClique em +Atribuir Canal no canto superior direito do painel CANAIS ATRIBUÍDOS para abrir a caixa de diálogo Atribuição de Canais.** 
 
-   **Painel** de telas atribuídas Selecione qualquer uma das telas do Painel de telas atribuídas para abrir o painel de exibição.
+   **Painel** de telas atribuídasSelecione qualquer uma das telas do Painel de telas atribuídas para abrir o painel de exibição.
 
