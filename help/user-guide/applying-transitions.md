@@ -14,14 +14,14 @@ ht-degree: 1%
 ---
 
 
-# Aplicação de Transições {#applying-transitions}
+# Aplicação do Transição {#applying-transitions}
 
-Esta seção descreve como você pode aplicar o componente de **Transição** entre diferentes ativos (imagens e vídeos) e sequências incorporadas em um canal.
+Esta seção descreve como você pode aplicar o componente **Transição** entre ativos diferentes (imagens e vídeos) e sequências incorporadas em um canal.
 
 
 >[!CAUTION]
 >
->Para saber mais detalhes sobre as propriedades do componente de **Transição** , consulte [Transição](adding-components-to-a-channel.md#transition).
+>Para saber mais detalhes sobre as propriedades do componente **Transição**, consulte [Transição](adding-components-to-a-channel.md#transition).
 
 ## Adicionar componente de Transição aos ativos em um Canal {#adding-transition}
 
@@ -39,12 +39,12 @@ Siga as etapas abaixo para adicionar um componente de transição ao seu projeto
 
    >[!NOTE]
    >
-   >O canal **TestTransition** já tem poucos ativos (imagens e vídeos) nele. Por exemplo, o canal **TestTransition** inclui três imagens e dois vídeos, como mostrado abaixo:
+   >O canal **TestTransition** já tem poucos ativos (imagens e vídeos). Por exemplo, o canal **TestTransition** inclui três imagens e dois vídeos, como mostrado abaixo:
 
    ![image2](assets/transitions2.png)
 
 
-1. Arraste e solte o componente de **Transição** no editor.
+1. Arraste e solte o componente **Transição** no editor.
    >[!CAUTION]
    >
    >Antes de adicionar a transição aos ativos no canal, certifique-se de não adicionar a transição antes do primeiro ativo no canal sequencial. O primeiro item em seu canal deve ser um ativo e não uma transição.
@@ -53,9 +53,9 @@ Siga as etapas abaixo para adicionar um componente de transição ao seu projeto
 
    >[!NOTE]
    >
-   >Por padrão, as propriedades do componente de transição, como **Tipo** , estão definidas como **Desvanecer** e a **Duração** está definida como *1600 ms*.  Além disso, não é aconselhável definir um tempo de duração de transição maior do que o ativo ao qual está sendo aplicado.
+   >Por padrão, as propriedades do componente de transição, como **Type**, estão definidas como **Fade** e **Duration** estão definidas como *1600 ms*.  Além disso, não é aconselhável definir um tempo de duração de transição maior do que o ativo ao qual está sendo aplicado.
 
-1. Além disso, se você adicionar um componente de Sequência **** Incorporada (que inclui um canal de sequência) a esse editor de canais, poderá adicionar um componente de transição no final, para que o conteúdo seja reproduzido em ordem, conforme demonstrado na figura abaixo:
+1. Além disso, se você adicionar um componente **Sequência incorporada** (que inclui um canal de sequência) a esse editor de canais, poderá adicionar um componente de transição no final, para que o conteúdo seja reproduzido em ordem, conforme demonstrado na figura abaixo:
 
    ![image3](assets/transitions5.png)
 
