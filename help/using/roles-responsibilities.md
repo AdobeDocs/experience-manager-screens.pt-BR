@@ -84,22 +84,22 @@ Gerentes de projeto geralmente gerenciam toda a implantação para sua implanta�
 
 >[!NOTE]
 >
->Para saber mais detalhes sobre diferentes funções e responsabilidades e a audiência de públicos alvos para um projeto de sinalização digital, visite Funções e responsabilidades **[do projeto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Para saber mais detalhes sobre diferentes funções e responsabilidades e a audiência do público alvo de um projeto de sinalização digital, visite **[Funções e responsabilidades do projeto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
 ## Estágios do projeto {#project-stages}
 
 Para oferecer suporte a uma implantação bem-sucedida do Digital Signage, é comum segmentar o projeto em três estágios.  Esses estágios são comumente chamados de **Dias**. Não são dias literais, mas designações para cada grande etapa do projeto.
 
-1. A primeira etapa é conhecida como *Dia Zero*. Esta etapa inclui todos os esforços de pré-vendas e de descoberta necessários para definir totalmente o escopo do projeto.
-1. A segunda etapa, *Dia um*, refere-se a todas as atividades incluídas no esforço de implantação.
-1. A terceira e última etapa do *Dia Dois* refere-se a todas as operações e elementos de suporte em andamento como parte da solução total.
+1. A primeira etapa é chamada de *Dia Zero*. Esta etapa inclui todos os esforços de pré-vendas e de descoberta necessários para definir totalmente o escopo do projeto.
+1. O segundo estágio, *Dia Um*, refere-se a todas as atividades incluídas no esforço de implantação.
+1. A terceira e última etapa *Dia Dois* refere-se a todas as operações e elementos de suporte em andamento como parte da solução total.
 
 >[!NOTE]
 >
 >Embora este guia enfatize principalmente o *Primeiro Dia* e o *Segundo dia*, é necessário prestar atenção aos três estágios para executar um projeto bem-sucedido de sinalização digital.
 >
->Siga um vídeo adicional sobre Gerenciamento de **[projetos e Implantação](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** para saber mais sobre a pré-produção do projeto, a iniciação do projeto e a progressão do projeto.
+>Siga um vídeo adicional em **[Gerenciamento de projetos e Implantação](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** para saber mais sobre a pré-produção do projeto, a iniciação do projeto e a progressão do projeto.
 
 ## Gráfico RACI {#raci-chart}
 
@@ -121,7 +121,7 @@ A seguir está um exemplo de gráfico RACI usando as definições de função.
 
 A seguir está um exemplo de gráfico RACI usando as definições de função e fornecendo um exemplo de tarefas e considerações comuns em um projeto AEM Screens.
 
-A tabela a seguir resume o **Dia Zero: Considerações** pré-vendas:
+A tabela a seguir resume o **Dia Zero: Considerações pré-vendas**:
 
 | **Fase** | **Integrador A/V** | **Implementador AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
 |---|---|---|---|---|
@@ -184,7 +184,7 @@ A tabela a seguir resume o **Dia Um: Dia Um: Implementação do projeto (Hardwar
 
 * **Técnico**: Ou é contratado pelo integrador AV ou faz parte da mesma empresa.
 
-A tabela a seguir resume o **Dia Dois: Gráfico** RACI de suporte pós-lançamento:
+A tabela a seguir resume o **Dia Dois: Gráfico RACI de suporte pós-lançamento**:
 
 | **Fase** | **Autor** | **Desenvolvedor** | **Técnico** |
 |---|---|---|---|
