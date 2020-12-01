@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Um Mapa de Jornadas da Experiência do Usuário foi projetado para fornecer visibilidade sobre como e por que os usuários experimentarão o conteúdo digital fornecido pela rede.
 
-## Construindo o Mapa de Jornadas da UX {#building-map}
+## Criando o Mapa de Jornada UX {#building-map}
 
 Ter um forte entendimento de como os consumidores interagirão com uma rede de sinalização digital em um espaço físico é fundamental para o sucesso e o valor oferecidos por essa rede. Também ajuda a entender como as experiências digitais serão consumidas no contexto de todos os outros canais que um cliente pode encontrar.
 
