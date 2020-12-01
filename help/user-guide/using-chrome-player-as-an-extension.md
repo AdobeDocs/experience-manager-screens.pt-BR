@@ -2,9 +2,12 @@
 title: Uso do Chrome Player como uma extensão
 seo-title: Uso do Chrome Player como uma extensão
 description: 'null'
-seo-description: 'null'
+seo-description: nulo
 translation-type: tm+mt
 source-git-commit: 1753009451e4bed75eb8241bcca887f7abe2f77b
+workflow-type: tm+mt
+source-wordcount: '452'
+ht-degree: 0%
 
 ---
 
@@ -23,17 +26,17 @@ Siga esta página para saber mais sobre como instalar o player do cromo como uma
 
 1. Descompacte e salve no disco.
 
-1. Abra o navegador Chrome e clique no menu de 3 pontos e selecione **Mais ferramentas** em **extensões** localizadas no canto superior direito ou navegue diretamente para `chrome://extensions`.
+1. Abra o navegador Chrome e clique no menu de 3 pontos e selecione **Mais ferramentas** em **Extensões**, localizado no canto superior direito ou navegue diretamente para `chrome://extensions`.
 
-1. Ative o modo **Desenvolvedor** no canto superior direito.
+1. Ative o modo **Developer** no canto superior direito.
 
 1. Clique em **Carregar descompactado** no canto superior esquerdo e carregue o Chrome Player descompactado.
 
-1. Verifique o plug-in do Chrome Player do AEM Screens se estiver disponível na lista de extensões.
+1. Verifique se o plug-in do AEM Screens Chrome Player está disponível na lista de extensões.
 
 1. Abra uma nova guia e clique no ícone Aplicativos no canto superior esquerdo ou navegue diretamente para `chrome://apps`.
 
-1. Clique em Plug-in **AEM Screens** para iniciar o Chrome Player.
+1. Clique em **AEM Screens Plugin** para iniciar o Chrome Player.
    >[!NOTE]
    >
    > Por padrão, o player é iniciado no modo de tela cheia. Pressione **esc** para sair do modo de tela cheia.
@@ -47,8 +50,8 @@ Siga esta página para saber mais sobre como instalar o player do cromo como uma
    >
    > Se o URL mencionado acima não funcionar, significa que o player não recebeu uma exibição ou o conteúdo não foi baixado com êxito. Verifique na guia de rede a configuração do player JSON para ver se os detalhes corretos foram obtidos pelo player e se há problemas de rede no download.
 
-1. Você pode clicar com o botão direito do mouse e inspecionar três camadas do player de cromo
-   **Depurar conteúdo**: Clique com o botão direito do mouse e inspecione o conteúdo para depurar o conteúdo em execução (Deve haver um único item chamado &quot;Inspecionar&quot; no menu de contexto)
+1. Você pode clicar com o botão direito do mouse e inspecionar três camadas do reprodutor de cromo
+   **Depurar conteúdo**: Clique com o botão direito do mouse e inspecione o conteúdo para depurar o conteúdo em execução (Deve haver um único item chamado &quot;Inspect&quot; no menu de contexto)
 
    **Firmware** de depuração: Abra a interface do usuário do administrador e clique com o botão direito do mouse e inspecione-a para depurar o código do firmware (player) (Deve haver uma opção para inspecionar e inspecionar a página em segundo plano e simular a reinicialização do navegador)
 
