@@ -2,10 +2,10 @@
 title: Notas de versão do Feature Pack 202011
 description: A página descreve as Notas de versão do Feature Pack 202011.
 translation-type: tm+mt
-source-git-commit: 3f1bb40a6916820b256630c7efef36798ac5fa5a
+source-git-commit: 53aa385b7f767a88ad19b834ecf971f6c9aa0f84
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 3%
+source-wordcount: '260'
+ht-degree: 4%
 
 ---
 
@@ -30,13 +30,13 @@ A data de lançamento do AEM Screens Feature Pack 2011 é 30 de novembro de 2020
 * **Relatório de atribuição de conteúdo**
 
    O recurso Relatório de atribuição de conteúdo permite que um administrador ou autor da AEM Screens exporte um *Relatório de atribuição de conteúdo* que pode estar no formato de planilha.
-Consulte **Relatório de atribuição de conteúdo** para obter mais detalhes.
+Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assignment-report.md) para obter mais detalhes.
 
 
 * **Tizen Player**
 
    Um novo player, conhecido como Tizen player, foi introduzido com o pacote de recursos mais recente para a versão 6.5.6 do AEM Screens.
-Consulte **Implementação do Tizen Player** para obter mais detalhes.
+Consulte [Implementação do Tizen Player](/help/user-guide/tizen-player.md) para obter mais detalhes.
 
 * **Funcionalidade de pesquisa do Gerenciador de dispositivos**
 
@@ -46,17 +46,15 @@ Consulte **Implementação do Tizen Player** para obter mais detalhes.
 
    O intervalo de ping padrão agora está definido como 30 segundos para esta versão.
 
-### Problemas conhecidos e correções {#known-issues}
-
-
-
 ### Jogadores AEM Screens lançados {#released-aem-screens-players}
 
-Os seguintes Players AEM Screens são lançados para AEM Screens
+Os seguintes Players AEM Screens são lançados para o AEM 6.5 Feature Pack 6:
 
 * Chrome OS
 * Windows
 * Android
+* Tizen
+* Linux
 
 #### Downloads do AEM Screens Player {#aem-screens-player-downloads}
 
