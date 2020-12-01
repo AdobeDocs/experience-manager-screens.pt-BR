@@ -22,7 +22,7 @@ A AEM Screens oferta a capacidade de capturar localmente cada evento rastreável
 
 Há duas razões fundamentais para podermos querer capturar esses dados.
 
-O primeiro envolve loops de **feedback e aprendizado** de máquinas enquanto o segundo envolve a **criação de gráficos, painéis e relatórios** destinados ao consumo humano.
+O primeiro envolve **repetições de feedback e aprendizado de máquina** enquanto o segundo envolve a **criação de gráficos, painéis e relatórios** destinados ao consumo humano.
 
 No caso de uso do ciclo de feedback, não estamos preocupados com relatórios visuais ou painéis, mas, em vez disso, queremos definir regras que AEM possam ser executadas para a modificação do conteúdo. Ao consumir e processar todos os dados de evento do player do Screens de um determinado período, podemos definir uma regra que avalia a eficácia de image1 versus image2. Ao combinar dados de vendas com dados de reprodução, AEM pode determinar que image1 tenha um impacto muito maior nas vendas e instrui automaticamente todos os players a usar image1.
 
