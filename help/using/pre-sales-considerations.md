@@ -32,6 +32,6 @@ Os principais resultados obtidos nesta fase incluem:
 
 >[!NOTE]
 >
->Identifique os dados que serão necessários para o aplicativo e de onde ele vem, o mais rápido possível. Enquanto uma exploração mais profunda acontecerá durante a implementação, leve o tempo durante o *Dia Zero* para descobrir quais dados o cliente pretende usar, onde esses dados estão armazenados no momento e como eles podem ser acessados pelo aplicativo que está sendo criado. Notificar a equipe de desenvolvimento com antecedência dos desafios que podem estar por vir ajudará a tornar a implementação mais fácil.
+>Identifique os dados que serão necessários para o aplicativo e de onde ele vem, o mais rápido possível. Enquanto uma exploração mais profunda acontecerá durante a implementação, leve o tempo *Dia Zero* para descobrir quais dados o cliente pretende usar, onde os dados estão armazenados atualmente e como eles podem ser acessados pelo aplicativo que está sendo criado. Notificar a equipe de desenvolvimento com antecedência dos desafios que podem estar por vir ajudará a tornar a implementação mais fácil.
 
-Consulte o tutorial em vídeo sobre [Considerações à medida que os projetos são Escopo](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) para obter mais informações.
+Consulte o tutorial em vídeo em [Considerações como projetos estão com escopo](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) para obter mais informações.
