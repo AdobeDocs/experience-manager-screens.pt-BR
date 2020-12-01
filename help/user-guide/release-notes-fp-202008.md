@@ -10,7 +10,7 @@ ht-degree: 2%
 ---
 
 
-# Notas de versão do Feature Pack 2008 {#release-notes-for-feature-pack}
+# Notas de versão do Feature Pack 202008 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 A AEM Screens lançou AEM 6.5 Feature Pack 5.
 
-Você pode baixar o pacote de recursos mais recente para a versão AEM Screens 6.5.5 do Portal [de distribuição de](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) software usando seu Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure **Screens** para obter o pacote de recursos mais recente.
+Você pode baixar o pacote de recursos mais recente para a versão AEM Screens 6.5.5 do [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) usando seu Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure **Screens** para obter o pacote de recursos mais recente.
 
 ## Data de lançamento {#release-date}
 
@@ -32,13 +32,13 @@ A data de lançamento do AEM Screens Feature Pack 2008 é 3 de setembro de 2020.
 
    A Visualização da linha do tempo permite que o usuário visualização os agendamentos atribuídos ao canal a partir do painel de exibição.
 
-   Consulte Visualização [da](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) linha do tempo para obter mais detalhes.
+   Consulte [Visualização de linha do tempo](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) para obter mais detalhes.
 
 * **Programação de recorrência**
 
    A Programação de recorrência permite definir uma programação recorrente para o seu canal. Você configura várias programações de recorrência para um canal.
 
-   Consulte Agendamento de [recorrência](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obter mais detalhes.
+   Consulte [Agendamento de recorrência](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obter mais detalhes.
 
 * **Recursos de reconhecimento de voz para AEM Screens**
 
@@ -46,19 +46,20 @@ A data de lançamento do AEM Screens Feature Pack 2008 é 3 de setembro de 2020.
 
    Um autor de conteúdo pode configurar uma exibição para ser habilitada para voz. A finalidade desse recurso é permitir que os clientes utilizem o discurso como método de interagir com seus vídeos.
 
-   Consulte Reconhecimento [de](voice-recognition.md) voz para obter mais detalhes.
+   Consulte [Reconhecimento de voz](voice-recognition.md) para obter mais detalhes.
 
 ### Problemas conhecidos e correções {#known-issues}
 
 Você deve configurar um ambiente para Windows ou Android player, se estiver usando o AEM Screens 6.5.5 Service Pack.
 
-Defina o atributo **SameSite para os cookies** de token de login do **Lax** para **None** do **Adobe Experience Manager Web ConsoleConfiguration** em todas as instâncias de autor e publicação AEM.
+Defina o atributo **SameSite para os cookies de token de login** de **Lax** para **None** de **Adobe Experience Manager Web Console
+Configuração** em todas as instâncias de autor e publicação AEM.
 
 * Consulte [Implementação do Windows 10 Player](implementing-windows-player.md#fp-environment-setup) para obter mais detalhes.
 
 * Consulte [Implementação do Android Player](implementing-android-player.md#fp-environment-setup) para obter mais detalhes.
 
-### Players AEM Screens lançados {#released-aem-screens-players}
+### Jogadores AEM Screens lançados {#released-aem-screens-players}
 
 Os seguintes AEM Screens Players foram lançados para o AEM Screens AEM 6.5 Feature Pack 5.
 
@@ -66,6 +67,6 @@ Os seguintes AEM Screens Players foram lançados para o AEM Screens AEM 6.5 Feat
 * Windows
 * Android
 
-#### Downloads do AEM Screens Player  {#aem-screens-player-downloads}
+#### Downloads do AEM Screens Player {#aem-screens-player-downloads}
 
-Para baixar o AEM Screens player mais recente e saber mais sobre as correções de erros, consulte Downloads **[do](https://download.macromedia.com/screens/index.html)** AEM Screens Player.
+Para baixar o AEM Screens player mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
