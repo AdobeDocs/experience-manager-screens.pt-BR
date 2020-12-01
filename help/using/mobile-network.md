@@ -45,7 +45,7 @@ A configuração de rede pode ser logicamente separada em dois blocos:
 
 * Rede local
 
-### Conexão com a Internet móvel {#mobile-internet-connection}
+### Conexão de Internet móvel {#mobile-internet-connection}
 
 O desempenho da conexão com a Internet, além da acessibilidade da rede, fornece largura de banda suficiente para operar o AEM Screens sem problemas.
 
@@ -56,8 +56,8 @@ A tabela a seguir destaca as redes de dados com sua largura de banda padrão:
 | Rede de dados | Largura de banda |
 |--- |--- |
 | 3G | 42 Mbps |
-| 4G | 150 Mbps |
-| 5G | 1000 - 10000 Mbps |
+| 4 G | 150 Mbps |
+| 5 G | 1000 - 10000 Mbps |
 
 Ao considerar qual rede de dados deve ser usada, é recomendável responder às seguintes perguntas:
 
@@ -69,10 +69,10 @@ Como acompanhamento, o Pacote de dados necessário deve ser pelo menos:
 
 
 >[!IMPORTANT]
->Para o upload inicial de arquivos de mídia, por exemplo, ao integrar novos players, é necessário esperar uma quantidade maior de dados e um aumento do tempo de download, o que está sendo refletido nos pressupostos acima. Uma rede 4G com *boa* cobertura e dados *ilimitados* devem corresponder às instalações mais comuns nesta Configuração de rede.
+>Para o upload inicial de arquivos de mídia, por exemplo, ao integrar novos players, é necessário esperar uma quantidade maior de dados e um aumento do tempo de download, o que está sendo refletido nos pressupostos acima. Uma rede 4G com *boa* cobertura e *dados ilimitados* devem corresponder às instalações mais comuns desta Configuração de Rede.
 
 >[!NOTE]
->Um plano 3G mínimo com boa cobertura de rede deve levar a um desempenho de download aceitável para um player AEM Screens. Se houver apenas uma cobertura justa disponível em um local específico, é necessário considerar mudar a configuração geral da rede para Rede [móvel com roteador de dados móvel e componentes](/help/using/mobile-network-router.md)de rede ativos.
+>Um plano 3G mínimo com boa cobertura de rede deve levar a um desempenho de download aceitável para um player AEM Screens. Se houver apenas uma cobertura justa disponível em um local específico, é necessário considerar mudar a configuração geral da rede para [Rede móvel com roteador de dados móvel e componentes de rede ativos](/help/using/mobile-network-router.md).
 
 
 ### Rede local {#lan-connection}
