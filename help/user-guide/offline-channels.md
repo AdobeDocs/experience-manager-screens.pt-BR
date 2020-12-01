@@ -19,13 +19,13 @@ ht-degree: 1%
 ---
 
 
-# Canais off-line {#offline-channels}
+# Canais offline {#offline-channels}
 
-O Screens player fornece suporte offline para os canais, aproveitando a tecnologia ***ContentSync*** .
+O player do Screens fornece suporte offline para os canais, aproveitando a tecnologia ***ContentSync***.
 
 Os players usam um servidor http local para servir o conteúdo descompactado.
 
-Quando um canal é configurado para execução *on-line*, o player serve os recursos do canal acessando o servidor AEM, mas quando o canal é configurado para execução *off-line*, ele serve os recursos do canal de um servidor http local.
+Quando um canal é configurado para executar *online*, o player serve os recursos do canal acessando o servidor AEM, mas quando o canal é configurado para executar *offline*, o player serve os recursos do canal de um servidor http local.
 
 O fluxo de trabalho do processo é o seguinte:
 
@@ -35,9 +35,9 @@ O fluxo de trabalho do processo é o seguinte:
 1. Baixe o zip e extraia-o localmente
 1. Exibir cópia local do conteúdo
 
-## Manipuladores de Atualização {#update-handlers}
+## Processadores de Atualização {#update-handlers}
 
-O ***ContentSync*** usa manipuladores de atualização para analisar e coletar todas as páginas e ativos necessários para um projeto específico. O AEM Screens usa os seguintes manipuladores de atualização:
+O ***ContentSync*** usa manipuladores de atualização para analisar e coletar todas as páginas e ativos necessários para um projeto específico. A AEM Screens usa os seguintes manipuladores de atualização:
 
 ### Opções comuns {#common-options}
 
@@ -55,7 +55,7 @@ O ***ContentSync*** usa manipuladores de atualização para analisar e coletar t
   <tr>
    <td>canais</td> 
    <td>coleta um canal</td> 
-   <td>extensão: extensão do recurso para coletar<br /> [pathSuffix='']: sufixo a ser adicionado ao caminho do canal<br /> </td> 
+   <td>extensão: extensão do recurso para coletar<br /> [pathSuffix='']: sufixo para adicionar ao caminho do canal<br /> </td> 
   </tr>
   <tr>
    <td>clientlib</td> 
@@ -75,7 +75,7 @@ O ***ContentSync*** usa manipuladores de atualização para analisar e coletar t
  </tbody>
 </table>
 
-### Teste da configuração do ContentSync {#testing-contentsync-configuration}
+### Testando a configuração do ContentSync {#testing-contentsync-configuration}
 
 Siga as etapas abaixo para testar a configuração do ContentSync:
 
@@ -88,34 +88,34 @@ Siga as etapas abaixo para testar a configuração do ContentSync:
 1. Start de um servidor local na pasta extraída
 1. Abra a página start e verifique o status do aplicativo
 
-## Ativar a configuração offline para um Canal {#enabling-offline-config-for-a-channel}
+## Ativando a configuração offline para um Canal {#enabling-offline-config-for-a-channel}
 
 Siga as etapas abaixo para ativar a configuração offline para um canal:
 
-1. Inspecione o conteúdo do canal e verifique se ele foi solicitado de uma instância do AEM (Online).
+1. Inspect o conteúdo do canal e verifique se ele foi solicitado de uma instância AEM (Online).
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. Navegue até o painel do canal e clique em **...** no Painel INFORMAÇÕES **do** CANAL para alterar as propriedades.
+1. Navegue até o painel do canal e clique em **...** no painel **INFORMAÇÕES do CANAL** para alterar as propriedades.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. Navegue até as propriedades do canal e verifique se a caixa de seleção está desativada na guia **Canal** . Clique em **Salvar e fechar**.
+1. Navegue até as propriedades do canal e verifique se a caixa de seleção está desativada na guia **Canal**. Clique em **Salvar e fechar**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   Antes que o conteúdo seja implantado corretamente no dispositivo, clique em **Atualizar conteúdo** offline.
+   Antes que o conteúdo seja implantado corretamente no dispositivo, clique em **Atualizar conteúdo offline**.
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 
-   O status **Offline** em **PROPRIEDADES** também é atualizado de acordo.
+   O status **Offline** em **PROPERTIES** também é atualizado de acordo.
 
    ![screen_shot_2017-12-19at124735pm](assets/screen_shot_2017-12-19at124735pm.png)
 
-1. Inspecione o conteúdo do canal e verifique se ele foi solicitado do Player-Cache local.
+1. Inspect o conteúdo do canal e verifique se ele foi solicitado do Player-Cache local.
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
 >[!NOTE]
 >
->Para saber mais sobre o modelo para manipuladores de recursos offline personalizados e os requisitos mínimos no `pom.xml` para esse projeto específico, consulte [Modelo para manipuladores](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) personalizados em **Desenvolvimento de um componente personalizado para AEM Screens**.
+>Para saber mais sobre o modelo para manipuladores de recursos offline personalizados e os requisitos mínimos em `pom.xml` para esse projeto específico, consulte [Modelo para manipuladores personalizados](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) em **Desenvolvimento de um componente personalizado para AEM Screens**.
