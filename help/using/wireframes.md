@@ -27,12 +27,12 @@ Esse processo pode ser aplicado a:
 
 Isso ajudará a mover o projeto da fase de prototipagem para mais perto da fase de implantação real.
 
-Em uma visualização **de nível de**ativo, devemos criar wireframes que definem várias opções de layout de conteúdo e agrupamentos de conteúdo. Isso ajuda a definir a aparência de vários conteúdos quando agrupados como um grupo.
+Em uma **visualização de nível de ativo**, devemos criar wireframes que definem várias opções de layout de conteúdo e agrupamentos de conteúdo. Isso ajuda a definir a aparência de vários conteúdos quando agrupados como um grupo.
 Normalmente, usaríamos gráficos, imagens e vídeos prontos para produção nesta atividade.
 
-A partir de uma visualização **no nível do** Canal, devemos criar wireframes que mostram como os canais do conteúdo são vinculados em conjunto na experiência geral, incluindo estratégias de reprodução para canais incorporados. Também podemos revisar transições de canais que podem ocorrer quando os acionadores de dados estão envolvidos.
+A partir de uma visualização **Nível do Canal**, devemos criar wireframes que mostrem como os canais do conteúdo são vinculados em conjunto na experiência geral, incluindo estratégias de reprodução para canais incorporados. Também podemos revisar transições de canais que podem ocorrer quando os acionadores de dados estão envolvidos.
 
-Em um nível **de** projeto, podemos criar um modelo de como várias telas ou experiências podem trabalhar juntas em um espaço físico para oferecer uma jornada completa do usuário para vários pontos de contato.
+Em um **Nível de projeto**, podemos criar start para modelar como várias telas ou experiências podem trabalhar juntas em um espaço físico para fornecer uma jornada completa do usuário de vários pontos de contato.
 
 Isso deve ser alinhado com o mapa de jornada UX criado anteriormente.
 
