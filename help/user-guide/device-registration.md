@@ -32,11 +32,11 @@ O processo de registro do dispositivo é feito em duas máquinas separadas:
 
 >[!NOTE]
 >
->Depois de baixar o Windows Player mais recente (*.exe*), na página [AEM 6.4 Player Downloads](https://download.macromedia.com/screens/) , siga as etapas no player para concluir a instalação ad hoc:
+>Depois de baixar o Windows Player mais recente (*.exe*), na página [AEM 6.4 Player Downloads](https://download.macromedia.com/screens/), siga as etapas no player para concluir a instalação ad hoc:
 >
 >1. Pressione longamente no canto superior esquerdo para abrir o painel admin.
->1. Navegue até **Configuração** no menu de ação esquerdo, insira o endereço de localização da instância AEM no **Servidor** e clique em **Salvar**.
->1. Clique no link **Registro** no menu de ação esquerdo e nas etapas abaixo para concluir o processo de registro do dispositivo.
+>1. Navegue até **Configuração** no menu de ação esquerdo e digite o endereço de localização da instância AEM em **Servidor** e clique em **Salvar**.
+>1. Clique no link **Registration** no menu de ação esquerdo e nas etapas abaixo para concluir o processo de registro do dispositivo.
 
 >
 
@@ -48,17 +48,17 @@ O processo de registro do dispositivo é feito em duas máquinas separadas:
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
-1. Em AEM, navegue até a pasta **Dispositivos** do seu projeto.
+1. Em AEM, navegue até a pasta **Devices** do seu projeto.
 
    >[!NOTE]
    >
-   >Para obter mais informações sobre como criar um novo projeto para o Screens no painel AEM, consulte [Criar e gerenciar projeto](creating-a-screens-project.md)de telas.
+   >Para obter mais informações sobre como criar um novo projeto para o Screens no painel AEM, consulte [Criar e gerenciar projeto do Screens](creating-a-screens-project.md).
 
-1. Toque/clique no botão Gerenciador **de** dispositivos na barra de ações.
+1. Toque/clique no botão **Gerenciador de dispositivos** na barra de ações.
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. Toque/clique no botão **Device Registration (Registro** do dispositivo) na parte superior direita.
+1. Toque/clique no botão **Device Registration** no canto superior direito.
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
@@ -70,32 +70,32 @@ O processo de registro do dispositivo é feito em duas máquinas separadas:
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
-1. Em seu dispositivo, verifique o Código **** de registro.
+1. No dispositivo, verifique o **Código de Registro**.
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Se o Código **** de registro for o mesmo em ambos os computadores, toque/clique no botão **Validar** no AEM, conforme mostrado na etapa (6).
-1. Defina o nome desejado para o dispositivo e clique em **Registrar**.
+1. Se o **Código de Registro** for o mesmo em ambos os computadores, toque/clique no botão **Validar** no AEM, conforme mostrado na etapa (6).
+1. Defina o nome desejado para o dispositivo e clique em **Register**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. Tap/click **Finish** to complete the registration process.
+1. Toque/clique em **Finish** para concluir o processo de registro.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
    >[!NOTE]
    >
-   >A opção **Registrar novo** permite registrar um novo dispositivo.
+   >O **Registrar Novo** permite registrar um novo dispositivo.
    >
-   >A opção **Atribuir exibição** permite que você adicione diretamente o dispositivo a uma tela.
+   >O **Atribuir Vídeo** permite que você adicione diretamente o dispositivo a uma tela.
 
-   Se você clicar em **Concluir**, será necessário atribuir o dispositivo a uma tela.
+   Se você clicar em **Concluir**, precisará atribuir o dispositivo a uma tela.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
    >[!NOTE]
    >
-   >Para saber mais sobre como criar e gerenciar uma exibição para o seu projeto do Screens, consulte [Criar e gerenciar exibições](managing-displays.md).
+   >Para saber mais sobre como criar e gerenciar uma exibição para o seu projeto do Screens, consulte [Criação e gerenciamento de exibições](managing-displays.md).
 
 ### Atribuindo dispositivo a um monitor {#assigning-device-to-a-display}
 
@@ -105,11 +105,11 @@ Se você não atribuiu o dispositivo a uma tela, siga as etapas abaixo para atri
 
    ![screen_shot_2018-11-26at11026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. Selecione o caminho da exibição no Caminho **de configuração de** vídeo/dispositivo.
+1. Selecione o caminho da exibição em **Caminho de configuração de exibição/dispositivo**.
 
    ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. Clique em **Atribuir** ao selecionar o caminho.
+1. Clique em **Atribuir** quando selecionar o caminho.
 
    ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
 
@@ -125,7 +125,7 @@ Se você não atribuiu o dispositivo a uma tela, siga as etapas abaixo para atri
 
 As restrições de senha de usuário em todo o sistema podem causar falha no registro do dispositivo. O registro do dispositivo usa uma senha gerada aleatoriamente para criar o usuário do dispositivo.
 
-Se a senha for restrita pela configuração *AuthorizableActionProvider* , a criação do usuário do dispositivo poderá falhar.
+Se a senha for restrita pela configuração *AuthorizableActionProvider*, a criação do usuário do dispositivo poderá falhar.
 
 >[!NOTE]
 >
