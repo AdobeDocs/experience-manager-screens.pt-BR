@@ -1,8 +1,8 @@
 ---
 title: Configuração de ACLs
 seo-title: Configuração de ACLs
-description: Siga esta página para saber como separar projetos usando ACLs para que cada indivíduo ou equipe gerencie seu próprio projeto.
-seo-description: Siga esta página para saber como separar projetos usando ACLs para que cada indivíduo ou equipe gerencie seu próprio projeto.
+description: Siga esta página para saber como separar projetos usando ACLs, de modo que cada indivíduo ou equipe gerencie seu próprio projeto.
+seo-description: Siga esta página para saber como separar projetos usando ACLs, de modo que cada indivíduo ou equipe gerencie seu próprio projeto.
 uuid: d5609bd9-3f13-4f11-ad4f-23c2ac3aa8fc
 contentOwner: jsyal
 content-type: reference
@@ -11,37 +11,40 @@ topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 translation-type: tm+mt
 source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
+workflow-type: tm+mt
+source-wordcount: '559'
+ht-degree: 1%
 
 ---
 
 
-# Configuração de ACLs {#setting-up-acls}
+# Configurando ACLs {#setting-up-acls}
 
 A seção a seguir explica como separar projetos usando ACLs para que cada indivíduo ou equipe gerencie seu próprio projeto.
 
-Como administrador do AEM, verifique se os membros da equipe de um projeto não interferem com outros projetos e se cada um dos usuários recebe funções específicas de acordo com os requisitos do projeto.
+Como administrador AEM, verifique se os membros da equipe de um projeto não interferem com outros projetos e se cada um dos usuários recebe funções específicas de acordo com os requisitos do projeto.
 
-## Configuração de permissões {#setting-up-permissions}
+## Configurando permissões {#setting-up-permissions}
 
 As etapas a seguir resumem o procedimento para configurar ACLs para um projeto:
 
-1. Faça logon no AEM e navegue até **Ferramentas** > **Segurança**.
+1. Faça logon para AEM e navegue até **Ferramentas** > **Segurança**.
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
 1. Clique em **Grupos** e insira uma ID (por exemplo, Acme).
 
-   Como alternativa, use este link `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
+   Como alternativa, use este link, `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
    Subsequentemente, clique em **Salvar**.
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. Selecione **Colaboradores** na lista e clique no duplo.
+1. Selecione **Contributors** na lista e clique no duplo.
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. Adicione o **Acme** (projeto criado por você) para **Adicionar membros ao grupo**. Clique em **Salvar**.
+1. Adicione o **Acme** (projeto criado por você) a **Adicionar membros ao Grupo**. Clique em **Salvar**.
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -49,17 +52,17 @@ As etapas a seguir resumem o procedimento para configurar ACLs para um projeto:
    >
    >Se você quiser que os membros da equipe do projeto registrem players (o que envolve a criação de um usuário para cada player), localize os administradores de usuários do grupo e adicione o grupo ACME aos administradores de usuários
 
-1. Adicione todos os usuários que trabalharão no **Acme** Project ao grupo **Acme** .
+1. Adicione todos os usuários que trabalharão no projeto **Acme** ao grupo **Acme**.
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. Configure as permissões para o grupo **Acme** usando esta opção `(http://localhost:4502/useradmin)`.
+1. Configure as permissões para o grupo **Acme** usando este `(http://localhost:4502/useradmin)`.
 
-   Selecione o grupo **Acme** e clique nas **permissões**.
+   Selecione o grupo **Acme** e clique em **permissões**.
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 
-### Permissões    {#permissions}
+### Permissões  {#permissions}
 
 A tabela a seguir resume o caminho com as permissões no nível do projeto:
 
@@ -93,11 +96,11 @@ A tabela a seguir resume os grupos com descrição e permissões para um projeto
   <tr>
    <td><strong>Nome do grupo</strong></td>
    <td><strong>Descrição</strong></td>
-   <td><strong>Permissões   </strong></td>
+   <td><strong>Permissões </strong></td>
   </tr>
   <tr>
-   <td>Administradores<br /> de telas Administradores de <em>telas</em></td>
-   <td>Acesso de nível administrativo para recursos do AEM Screens</td>
+   <td>Screens Admins<br /> <em>screens-admins</em></td>
+   <td>Acesso de nível administrativo para recursos AEM Screens</td>
    <td>
     <ul>
      <li>Membro Dos Contribuintes</li>
@@ -110,7 +113,7 @@ A tabela a seguir resume os grupos com descrição e permissões para um projeto
   </tr>
   <tr>
    <td>Screens Users<br /> <em>screens-users</em></td>
-   <td>Criar e atualizar canais e agendamentos e atribuir à localização no AEM Screens</td>
+   <td>Criar e atualizar canais e agendamentos e atribuir ao local no AEM Screens</td>
    <td>
     <ul>
      <li>Membro Dos Contribuintes</li>
@@ -120,7 +123,7 @@ A tabela a seguir resume os grupos com descrição e permissões para um projeto
     </ul> </td>
   </tr>
   <tr>
-   <td>Operadores<br /> de tela operadores de <em>tela</em></td>
+   <td>Operadores de tela<br /> <em>operadores de tela</em></td>
    <td>Criar e atualizar a estrutura de localização e registrar players no AEM Screens</td>
    <td>
     <ul>
@@ -131,7 +134,7 @@ A tabela a seguir resume os grupos com descrição e permissões para um projeto
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens Players<br /> <em>screens -&lt;project&gt;-devices</em></td>
+   <td>Screens Players<br /> <em>screens-&lt;project&gt;-devices</em></td>
    <td>Agrupa todos os players e todos os dispositivos são membros dos contribuidores automaticamente.</td>
    <td><p> Membro dos contribuidores</p> </td>
   </tr>
