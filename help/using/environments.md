@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Ambientes {#environments}
 
-Determine antecipadamente quais AEM ambientes o cliente tem e espera que você use, tanto para *desenvolvimento* quanto para *implantação*.
+Determine antecipadamente quais AEM ambientes o cliente tem e espera que você use, tanto para *desenvolvimento* quanto para *deployment*.
 
 >[!NOTE]
 >
