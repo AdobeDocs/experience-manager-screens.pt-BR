@@ -14,7 +14,7 @@ ht-degree: 83%
 
 # Introdução ao AEM Screens {#introduction}
 
-**A AEM (Adobe Experience Manager) Screens** é uma Solução de Sinalização Digital que permite criar, publicar e jogar experiências digitais dinâmicas e interativas envolvendo diferentes tipos de telas de exibição no local, em conjunto com uma estratégia abrangente de marketing digital de canal incorporado.
+**AEM (Adobe Experience Manager)** Screensis é uma Solução de Sinalização Digital que permite a você criar, publicar e jogar experiências digitais dinâmicas e interativas envolvendo diferentes tipos de telas de exibição no local, em conjunto com uma estratégia abrangente de marketing digital de canal incorporado.
 
 O AEM Screens permite criar:
 
