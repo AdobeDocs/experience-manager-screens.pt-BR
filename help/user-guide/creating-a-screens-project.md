@@ -18,7 +18,7 @@ ht-degree: 38%
 ---
 
 
-# Creating and Managing Projects {#creating-and-managing-projects}
+# Criação e gerenciamento de projetos {#creating-and-managing-projects}
 
 O AEM Screens está disponível com a seleção do link do Adobe Experience Manager (no canto superior esquerdo) e, em seguida, do Screens.
 
@@ -33,11 +33,11 @@ Como alternativa, você pode navegar diretamente para: `http://localhost:4502/sc
 
 Siga as etapas abaixo para criar um novo projeto do Screens:
 
-1. Selecione **Telas** em sua instância AEM.
+1. Selecione **Screens** na sua instância AEM.
 
-1. Clique em **Criar projeto** de telas.
+1. Clique em **Criar projeto de telas**.
 
-1. Enter the title as **TestScreens** and click **Save**.
+1. Insira o título como **TestScreens** e clique em **Salvar**.
 
 O projeto é criado, e você retorna ao console Projeto do Screens. Agora, você pode selecionar seu projeto.
 
@@ -53,34 +53,34 @@ Em um projeto, existem cinco tipos de pastas, como mostra a figura abaixo:
 
 >[!NOTE]
 >
->By default, the initial structure will contain the **Schedules**, **Locations**, **Applications**, **Channels**, and **Devices** master pages, but this can be manually adjusted if needed. Você pode remover as opções, se as disponíveis não forem relevantes para o seu projeto.
+>Por padrão, a estrutura inicial conterá as páginas principais **Programações**, **Locais**, **Aplicativos**, **Canais** e **Dispositivos**, mas isso pode ser ajustado manualmente se necessário. Você pode remover as opções, se as disponíveis não forem relevantes para o seu projeto.
 
 
 ## Exibição de propriedades {#viewing-properties}
 
 Depois de criar o projeto do Screens, selecione o projeto e clique em **Propriedades** na barra de ações para editar as propriedades do projeto.
 
-The following options allow you to edit/change properties of your **TestScreens**.
+As opções a seguir permitem que você edite/altere as propriedades de **TestScreens**.
 
 ![imagem](assets/create-project2.png)
 
 
 ## Criação de uma pasta personalizada {#creating-a-custom-folder}
 
-Você também pode criar sua própria pasta personalizada em **Programações**, **Locais**, **Aplicativos**, **Canais** e **Dispositivos** principais, disponíveis em seu projeto.
+Você também pode criar sua própria pasta personalizada em **Agendamentos**, **Locais**, **Aplicativos**, **Canais** e **Dispositivos** principais páginas disponíveis no seu projeto.
 
 Para criar uma pasta personalizada:
 
-1. Select your project and click on **Create** next to plus icon in the action bar.
+1. Selecione seu projeto e clique em **Criar** ao lado do ícone de adição na barra de ações.
 1. O assistente **Criar** é aberto. Selecione a opção apropriada.
 1. Clique em **Avançar**.
 1. Insira as propriedades e clique em **Criar**.
 
-As etapas a seguir mostram a criação de uma pasta de aplicativos para sua página **Aplicativos** principais no **TestScreens**.
+As etapas a seguir mostram a criação de uma pasta de aplicativos para sua página principal **Aplicativos** em **TestScreens**.
 
 ![player2-1](assets/create-project3.gif)
 
 ### Próximas etapas {#the-next-steps}
 
-Once you have created your own project, see [Channel Management](managing-channels.md) to create and manage content in your channel.
+Depois de criar seu próprio projeto, consulte [Gerenciamento de Canais](managing-channels.md) para criar e gerenciar conteúdo em seu canal.
 
