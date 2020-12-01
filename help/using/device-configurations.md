@@ -5,6 +5,9 @@ description: A página descreve as especificações do dispositivo
 seo-description: A página descreve as especificações do dispositivo
 translation-type: tm+mt
 source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 >
 >A parte interessada típica desta atividade é um Integrador A/V.
 
-Com base nas informações obtidas durante o *Dia Zero*, confirme as seguintes informações antes de iniciar o desenvolvimento:
+Com base nas informações coletadas durante *Dia Zero*, confirme as seguintes informações antes de iniciar o desenvolvimento:
 
 * Qual é a orientação, as dimensões e a resolução das telas que estão sendo usadas?
 
@@ -29,10 +32,10 @@ Com base nas informações obtidas durante o *Dia Zero*, confirme as seguintes i
 
 * Se estiver executando vídeos, certifique-se de compreender as especificações do dispositivo, para que o conteúdo seja exibido corretamente.
 
-* Com base nas considerações ambientais acima, o estado sólido ou o armazenamento em disco rígido é mais apropriado?
+* Com base nas considerações ambientais acima, o estado sólido ou o armazenamento de disco rígido é mais apropriado?
 
-* Determine a quantidade de capacidade de armazenamento necessária e quais são os requisitos de desempenho de armazenamento? Alguns exemplos:
-   * Você tem considerações especiais de armazenamento (várias unidades, dispositivos de inicialização e armazenamento em massa)?
+* Determine a capacidade do armazenamento necessária e quais são os requisitos de desempenho do armazenamento? Alguns exemplos:
+   * Você tem alguma consideração especial sobre o armazenamento (várias unidades, dispositivos de inicialização vs armazenamento em massa)?
    * Quais são seus requisitos de capacidade de RAM?
 
 
