@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Rede Internet direta (com fio/sem fio) {#direct-internet-access}
 
-A Direct Internet Network contém um ponto de acesso de entrada para acesso à Internet, a fim de alcançar os AEM cloud services aos quais o AEM Screens precisa se conectar.
+A Direct Internet Network contém um ponto de acesso de entrada para acesso à Internet a fim de acessar os serviços da AEM Cloud aos quais a AEM Screens precisa se conectar.
 
-As Portas padrão para comunicação com AEM Screens são:
+As portas padrão para comunicação AEM Screens são:
 * `ssl-secured https (TCP Port 443)`
 
    <br>Ou,</br>
@@ -27,11 +27,11 @@ As portas podem variar devido à configuração de sua configuração de AEM ded
 
 A configuração também inclui um acesso à Internet por qualquer ISP (Internet Provedor de serviço) e sua linha da Internet. A maioria dos ISPs fornece um roteador de Internet que cobre o modem da Internet, switch de rede, ponto de acesso Wi-Fi, firewall e outras funcionalidades de rede (dependendo do fabricante e do modelo).
 
-## Conexão do AEM Screens Player ao acesso direto à Internet {#connecting-aem-screens-players}
+## Conectando o AEM Screens Player ao Direct Internet Access {#connecting-aem-screens-players}
 
-Siga as etapas abaixo para garantir a conexão correta dos players de tela do AEM nesta configuração:
+Siga as etapas abaixo para garantir a conexão correta dos players de tela AEM nesta configuração:
 
-1. Verifique se cada um dos players de tela do AEM está conectado à rede do roteador.
+1. Verifique se cada um dos players de tela AEM está conectado à rede do roteador.
 1. Teste a conexão com a Internet chamando um URL no navegador do sistema.
 
    >[!NOTE]
@@ -43,7 +43,7 @@ Siga as etapas abaixo para garantir a conexão correta dos players de tela do AE
 1. Verifique se a configuração do adaptador de rede corresponde às configurações do roteador e se a quantidade máxima de endereços IP disponíveis na rede não foi atingida.
 
 1. Verifique se o roteador está conectado corretamente à rede de área ampla ISP (Internet Link). Isso também pode ser identificado usando um LED de sinal nos roteadores padrão.
-1. Se a chamada de URL for bem-sucedida, você poderá continuar instalando os AEM Screens e registrando-se. AEM Screens Start.
+1. Se a chamada de URL for bem-sucedida, você pode continuar instalando o AEM Screens e se registrar. Start AEM Screens.
 
    >[!NOTE]
    >**Dica de solução de problemas**
@@ -63,9 +63,9 @@ A Direct Internet Network é logicamente separada em dois blocos:
 
 ### Rede de área ampla {#wan-connection}
 
-O desempenho da conexão com a Internet além da acessibilidade da rede é fornecer largura de banda suficiente para operar AEM Screens.
+O desempenho da conexão com a Internet além da acessibilidade da rede é fornecer largura de banda suficiente para operar a AEM Screens.
 
-*O suficiente* depende do número de telas AEM conectadas e do uso de outros consumidores na rede, como smartphones, tablets, caixas, computadores ou redes Wi-Fi convidadas.
+*O* suficiente depende do número de telas AEM conectadas e do uso de outros consumidores na rede, como smartphones, tablets, caixas, computadores ou redes Wi-Fi convidadas.
 
 >[!NOTE]
 >
@@ -73,10 +73,10 @@ O desempenho da conexão com a Internet além da acessibilidade da rede é forne
 
 ### Rede local {#lan-connection}
 
-O desempenho da Rede local (LAN), além da acessibilidade da rede, fornece largura de banda suficiente para operar AEM Screens.
+O desempenho da Rede local (LAN), além da acessibilidade da rede, fornece largura de banda suficiente para operar o AEM Screens.
 
 A rede LAN normalmente corresponde a uma rede de 100 Mbps, de modo que haja largura de banda suficiente para conectar muitos dispositivos com bom desempenho ao sistema.
-Caso esteja prevista uma solução Wi-Fi para conectar AEM Screens ao Internet Link, é recomendável usar padrões Wi-Fi modernos, como `IEEE 802.11g` mínimo. Este padrão suporta conexões de até 54 Mbps. Quaisquer padrões *mais recentes* como `802.11h-n` são de melhor qualidade.
+Caso esteja prevista uma solução Wi-Fi para conectar a AEM Screens ao Internet Link, é recomendável usar no mínimo os padrões Wi-Fi modernos, como `IEEE 802.11g`. Este padrão suporta conexões de até 54 Mbps. Quaisquer *padrões mais recentes* como `802.11h-n` são de melhor qualidade.
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ Caso esteja prevista uma solução Wi-Fi para conectar AEM Screens ao Internet L
 
 ## Download de mídia e ativos {#download}
 
-Os AEM Screens oferecem uma grande vantagem aos usuários de placas digitais. Ele baixa e salva localmente todos os arquivos de mídia necessários, como imagens e vídeos. O principal tráfego de rede ocorre quando há novo conteúdo a ser exibido em uma tela específica.
+A AEM Screens oferece uma grande vantagem aos usuários de placas digitais. Ele baixa e salva localmente todos os arquivos de mídia necessários, como imagens e vídeos. O principal tráfego de rede ocorre quando há novo conteúdo a ser exibido em uma tela específica.
 
 Para operações normais, por exemplo, uma lista de reprodução definida que é atualizada com frequência durante o dia - oferta uma operação próxima da operação independente da rede, depois que todos os arquivos tiverem sido salvos no player.
 
