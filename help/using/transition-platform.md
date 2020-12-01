@@ -24,15 +24,15 @@ Isso incluirá o mapeamento de configurações específicas da plataforma para r
 
 Os exemplos incluem como e quando usar:
 
-* **Fragmentos** de experiência para criar agrupamentos de conteúdo
-* **Fragmentos** de conteúdo para criar variações de texto
-* **Hub** de contexto para criar armazenamentos de dados externos, SPAs para experiências interativas
-* **Serviços** OSGi para alertas de rede
-* **Link** do ativo para origem de Creative Cloud
-* **Pastas** de rede para alocação de ativos
-* **Sobreposição** de texto para dados em tempo real
-* **Agendamentos** para agrupamentos de exibição/canais
-* **Workflows** para edições de conteúdo automatizadas.
+* **Fragmentos de experiência** para criar agrupamentos de conteúdo
+* **Fragmentos de conteúdo** para criar variações de texto
+* **Context** Hubpara criar armazenamentos de dados externos, SPA para experiências interativas
+* **Serviços OSGi** para alertas de rede
+* **Ativo** Linkfor Creative Cloud sourcing
+* **Pastas de rede** para alocação de ativos
+* **Sobreposição de texto** para dados em tempo real
+* **** Agendamentos para agrupamentos de exibição/canais
+* **Fluxos de** trabalho para edições de conteúdo automatizadas.
 
 Nesta fase, é importante revisar todas as tarefas e atividades necessárias que exigirão atenção e documento corretamente para que as tarefas atribuídas possam ser rastreadas corretamente na fase de implantação.
 
