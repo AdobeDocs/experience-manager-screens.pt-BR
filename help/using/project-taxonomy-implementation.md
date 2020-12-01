@@ -25,10 +25,10 @@ Considere os seguintes elementos antes de implementar sua solução de assinatur
 * **Localizações**
 * **MediaZones**
 * **Exibições**
-* **Agendando**
+* **Programação**
 * **Visualização do conteúdo**
 
-Para saber mais sobre esses termos, consulte o [Glossário](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html).
+Para saber mais sobre esses termos, consulte [Glossário](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html).
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Para saber mais sobre esses termos, consulte o [Glossário](https://helpx.adobe.
 >* arquivo de configuração de texto para apontar automaticamente cada player para uma instância específica de um AEM
 
 
-## Implementação de um projeto AEM Screens {#creating-a-project}
+## Implementando um projeto AEM Screens {#creating-a-project}
 
 Um autor do AEM Screens é responsável por criar e gerenciar uma experiência de usuário usando os componentes disponíveis no AEM Screens. O autor cria e revisa o conteúdo e fornece uma interface gráfica de usuário fácil de usar configurando, implantando e integrando os segmentos disponíveis do AEM Screens.
 
@@ -58,4 +58,4 @@ Um autor normalmente inicia um projeto do AEM Screens ao:
 * [exibição de conteúdo em um AEM Screens player](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
 
 >[!NOTE]
->Além disso, você também pode importar em massa um conjunto de locais de uma planilha CSV/XLS para o seu projeto da AEM Screens. Siga [New Project Importer from File (Novo importador de projeto) do File](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) para obter mais detalhes.
+>Além disso, você também pode importar em massa um conjunto de locais de uma planilha CSV/XLS para o seu projeto da AEM Screens. Siga [Novo Importador de Projeto do Arquivo](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) para obter mais detalhes.
