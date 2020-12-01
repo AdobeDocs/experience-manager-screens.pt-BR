@@ -38,19 +38,19 @@ Siga as etapas abaixo para atribuir um dispositivo a um monitor:
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Select your **Devices** folder and tap/click **Device Manager** in the action bar. Os dispositivos atribuídos e não atribuídos serão exibidos.
+1. Selecione sua pasta **Dispositivos** e toque/clique em **Gerenciador de dispositivos** na barra de ações. Os dispositivos atribuídos e não atribuídos serão exibidos.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Select an unassigned device from the list, and tap/click the **Assign Device** in the action bar.
+1. Selecione um dispositivo não atribuído na lista e toque/clique em **Atribuir dispositivo** na barra de ações.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Select the display you want to assign the device to from the list, and tap/click the **Assign**.
+1. Selecione a exibição à qual deseja atribuir o dispositivo na lista e toque/clique em **Atribuir**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Tap/click the **Finish** to complete the assignment process.
+1. Toque/clique em **Concluir** para concluir o processo de atribuição.
 
 
    O painel de monitores apresenta o dispositivo atribuído no painel **DISPOSITIVOS**.
@@ -64,7 +64,7 @@ Siga as etapas abaixo para atribuir um dispositivo a um monitor:
 >[!NOTE]
 >
 >Cada vez que o primeiro dispositivo é adicionado a um novo projeto do Screens, um grupo de usuários é criado.
->For instance, if the project node name is *we-retail*, then the user group name is *screens-we-retail-devices*.
+>Por exemplo, se o nome do nó do projeto for *we-retail*, o nome do grupo de usuários será *screens-we-retail-devices*.
 >Esse grupo será adicionado como um membro do grupo **Contribuidores**, como mostrado na figura abaixo:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
