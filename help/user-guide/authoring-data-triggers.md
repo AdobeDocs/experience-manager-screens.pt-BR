@@ -21,7 +21,7 @@ Esta seção destaca como ativar a definição de metas em seus canais.
 
 ## Pré-requisitos {#prereqs}
 
-Antes de seguir as etapas abaixo para habilitar a definição de metas em canais, você deve aprender os [Principais termos em Configuração no AEM Screens](configuring-context-hub.md) necessários para entender o ContextHub e a Definição de metas no AEM Screens.
+Antes de seguir as etapas abaixo para ativar a definição de metas em canais, você deve aprender os [Termos chave em Configuração no AEM Screens](configuring-context-hub.md) necessários para entender o ContextHub e a Definição de metas no AEM Screens.
 
 >[!IMPORTANT]
 >
@@ -38,21 +38,21 @@ Após concluir as etapas anteriores, você estará pronto para ativar a definiç
 
 >[!VIDEO](https://video.tv.adobe.com/v/31921)
 
-## Ativar a definição de metas em um Canal AEM Screens {#enabling-targeting}
+## Habilitar a definição de metas em um Canal AEM Screens {#enabling-targeting}
 
 Siga as etapas abaixo para ativar a definição de metas em seus canais.
 
-1. Navegue até um dos canais AEM Screens. As etapas a seguir demonstram como ativar a definição de metas usando **DataDrivenRetail** *(canal de sequência)* criado em um Canal AEM Screens.
+1. Navegue até um dos canais AEM Screens. As etapas a seguir demonstram como habilitar a definição de metas usando **DataDrivenRetail** *(canal de sequência)* criado em um Canal AEM Screens.
 
 1. Selecione o canal **DataDrivenRetail** e clique em **Propriedades** na barra de ações.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Selecione a guia **Personalização** para configurar o ContextHub e selecionar o caminho do ContextHub e do Segments.
+1. Selecione a guia **Personalização** para configurar as configurações do ContextHub e selecione o ContextHub e o caminho de Segmentos.
 
-   1. Selecione o Caminho **do** ContextHub como **libs** > **configurações** > **configurações** de nuvem > **padrão** **** ****> Configurações doContextHube clique em Selecionar.
+   1. Selecione **Caminho do ContextHub** como **libs** > **definições** > **definições de nuvem** > **predefinição** > **Definições do ContextHub** e clique em &lt;a1 2/>Selecione **.**
 
-   1. Selecione o Caminho **dos** segmentos como **conf** > **We.Retail** > **configurações** > **wcm** **** ****>segmentos e clique emSelect.
+   1. Selecione **Caminho dos segmentos** como **conf** > **We.Retail** > **definições** > **wcm** > **segmentos** e clique em **Selecionar&lt;a 13/>.**
 
    1. Clique em **Salvar e fechar**.
    >[!NOTE]
@@ -61,19 +61,19 @@ Siga as etapas abaixo para ativar a definição de metas em seus canais.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navegue e selecione **DataDrivenRetail** em **DataDrivenAssets** > **Canais** e clique em **Editar** na barra de ações. Arraste e solte os ativos no editor de canais.
+1. Navegue e selecione **DataDrivenRetail** de **DataDrivenAssets** > **Canais** e clique em **Editar** na barra de ações. Arraste e solte os ativos no editor de canais.
 
    >[!NOTE]
    >
-   >Se você configurou tudo corretamente, verá a opção **Definição de metas** na lista suspensa do editor, como mostra a figura abaixo.
+   >Se você configurou tudo corretamente, verá a opção **Definição de metas** no menu suspenso do editor, como mostra a figura abaixo.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
 1. Clique em **Definição de metas**.
 
-1. Selecione **Marca** e a **Atividade** no menu suspenso e clique em Direcionamento de **Start**.
+1. Selecione **Marca** e **Atividade** no menu suspenso e clique em **Direcionamento de Start**.
 
-### Saiba mais: Casos de uso de exemplo {#learn-more-example-use-cases}
+### Saiba mais: Exemplo de casos de uso {#learn-more-example-use-cases}
 
 Depois de configurar o ContextHub para seu projeto AEM Screens, você pode seguir os diferentes Casos de uso para entender como os ativos acionados por dados desempenham um papel vital em diferentes setores:
 
