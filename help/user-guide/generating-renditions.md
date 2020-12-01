@@ -11,6 +11,9 @@ topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
 translation-type: tm+mt
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+workflow-type: tm+mt
+source-wordcount: '425'
+ht-degree: 64%
 
 ---
 
@@ -31,11 +34,11 @@ Siga as etapas abaixo para gerar automaticamente as representação em Full HD:
 
 1. Selecione o link do Adobe Experience Manager (canto superior esquerdo) e clique no ícone de martelo para selecionar ferramentas e escolha **Fluxo de trabalho**.
 
-   Click **Models** to enter the workflow models management.
+   Clique em **Modelos** para inserir o gerenciamento de modelos de fluxo de trabalho.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. Select the **DAM Update Asset** model and click Edit from the action bar to open the **DAM Update Asset** window.
+1. Selecione o modelo **DAM Update Asset** e clique em Editar na barra de ações para abrir a janela **DAM Update Asset**.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -43,7 +46,7 @@ Siga as etapas abaixo para gerar automaticamente as representação em Full HD:
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Selecione a guia **Processo** para editar os argumentos do processo. Enter the full HD profiles to the list in **Arguments** as: ***,profile:fullhd-bp,profile:fullhd-hp*** and click **OK**.
+1. Selecione a guia **Processo** para editar os argumentos do processo. Digite os perfis HD completos para a lista em **Arguments** como: ***,profile:fullhd-bp,profile:fullhd-hp*** e clique em **OK**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
@@ -55,7 +58,7 @@ Siga as etapas abaixo para gerar automaticamente as representação em Full HD:
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
-1. Open **Renditions** from the side rail.
+1. Abra **Representações** a partir do painel lateral.
 
    ![step11_-_open_therenditionssiderail](assets/step11_-_open_therenditionssiderail.png)
 
@@ -69,15 +72,15 @@ Siga as etapas abaixo para gerar manualmente as representação em Full HD:
 
 1. Selecione o link do Adobe Experience Manager (canto superior esquerdo) e clique no ícone de martelo para selecionar ferramentas e escolha **Fluxo de trabalho**.
 
-   Click **Models** to enter the workflow models management.
+   Clique em **Modelos** para inserir o gerenciamento de modelos de fluxo de trabalho.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. Select the **Screens Update Asset** model, and click the **Start Workflow** to open the **Run Workflow** dialog box.
+1. Selecione o modelo **Screens Update Asset** e clique no **Fluxo de trabalho do Start** para abrir a caixa de diálogo **Executar fluxo de trabalho**.
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Select the desired video in the **Payload** and click **Run**.
+1. Selecione o vídeo desejado em **Payload** e clique em **Executar**.
 
    ![step6_select_thedeiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
