@@ -26,7 +26,7 @@ Esta página mostra como atribuir um canal à sua exibição, compreender as pro
 >É possível atribuir vários canais a uma exibição.
 
 
-## Assigning a Channel {#assign-a-channel-new-release}
+## Atribuindo um Canal {#assign-a-channel-new-release}
 
 Siga as seções abaixo para criar um projeto AEM Screens e atribuir um canal a uma tela.
 
@@ -34,14 +34,14 @@ Siga as seções abaixo para criar um projeto AEM Screens e atribuir um canal a 
 
 Siga as etapas abaixo para configurar um projeto e um canal:
 
-1. Crie um projeto da AEM Screens intitulado como **DemoScreens**.
+1. Crie um projeto da AEM Screens chamado **DemoScreens**.
 
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
    >Consulte [Criação e gerenciamento de projetos](creating-a-screens-project.md) para saber como criar um projeto da AEM Screens.
 
-1. Crie um canal de sequência chamado **Cafeteria** na pasta **Canais** .
+1. Crie um canal de sequência chamado **Cafeteria** na pasta **Canais**.
 
 1. Selecione o canal e clique em **Editar** na barra de ações para adicionar conteúdo ao seu canal.
 
@@ -55,72 +55,72 @@ Siga as etapas abaixo para configurar um projeto e um canal:
 
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
-### Atribuindo Canal a uma exibição {#assigning-channel-to-display}
+### Atribuindo Canal a um monitor {#assigning-channel-to-display}
 
 Quando a configuração do projeto for concluída, você deverá atribuir o canal a uma exibição para visualização do conteúdo.
 
 1. Navegue até a exibição desejada, por exemplo, **DemoScreens** —> **Locais** —> **SanJose** —> **Sala de espera**.
 
-1. Tap/click **Assign Channel** from the action bar.
+1. Toque/clique em **Atribuir Canal** na barra de ações.
 
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Ou,
 
-   Toque/clique em **Painel** na barra de ações e clique em **+Atribuir Canal** do painel CANAIS e AGENDAMENTOS **** ATRIBUÍDOS.
+   Toque/clique em **Painel** na barra de ações e clique em **+Atribuir Canal** no painel **CANAIS ATRIBUÍDOS e AGENDAMENTOS**.
 
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
-1. The **Channel Assignment** dialog box opens.
+1. A caixa de diálogo **Atribuição de Canal** é aberta.
 
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. Na opção **Configurações** , você pode escolher o canal **por caminho** ou **por nome**, informar a Função **do** Canal, **Prioridade**********, Eventos Suportados, e Métodos de Interrupção. Além disso, você pode ativar a dica de ferramenta de atração dessa caixa de diálogo.
+1. Na opção **Configurações**, você pode escolher o canal **por caminho** ou **pelo nome**, inserir **Função do Canal**, **Prioridade**, **Eventos suportados** e &lt;a 12/>Métodos de interrupção **.** Além disso, você pode ativar a dica de ferramenta de atração dessa caixa de diálogo.
 
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >
-   >Consulte a seção Propriedades [do](#channel-properties) Canal para saber mais sobre as propriedades de atribuição do canal.
+   >Consulte a seção [Propriedades do Canal](#channel-properties) para saber mais sobre as propriedades de atribuição do canal.
 
-1. Na opção **Agendar** , selecione a Janela **de** Ativação e a Programação **de**recorrência.
+1. Na opção **Agendamento** selecione **Janela de Ativação** e **Agendamento de recorrência**.
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Consulte a seção Propriedades [do](#channel-properties) Canal para saber mais sobre as propriedades de atribuição do canal.
+   >Consulte a seção [Propriedades do Canal](#channel-properties) para saber mais sobre as propriedades de atribuição do canal.
 
 1. Clique em **Salvar** depois de configurar suas preferências.
 
-### Exibição do conteúdo no Chrome Player {#viewing-content-output}
+### Visualização do conteúdo no Chrome Player {#viewing-content-output}
 
 Este exemplo mostra a saída em um Chrome Player. Depois de atribuir o canal ao seu monitor, você deve registrar o dispositivo em um player.
 
-Consulte Registro [do](device-registration.md) dispositivo para saber como registrar um dispositivo em um player AEM Screens.
+Consulte [Device Registration](device-registration.md) para saber como registrar um dispositivo em um AEM Screens player.
 
 Você visualização a seguinte saída na sua escolha do player:
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-## Timeline View {#timeline-view}
+## Visualização da linha do tempo {#timeline-view}
 
-Depois de atribuir um canal a uma exibição e configurar um agendamento de recorrência, você pode visualização a linha do tempo do painel CANAIS **ATRIBUÍDOS e AGENDAMENTOS** .
+Depois de atribuir um canal a uma exibição e configurar um agendamento de recorrência, você pode visualização a linha do tempo do painel **CANAIS ATRIBUÍDOS e PROGRAMAS**.
 
 Siga as etapas abaixo para navegar até a visualização da linha do tempo:
 
 1. Navegue até a exibição desejada, por exemplo, **DemoScreens** —> **Locais** —> **SanJose** —> **Sala de espera**.
 
-1. Tap/click **Assign Channel** from the action bar.
+1. Toque/clique em **Atribuir Canal** na barra de ações.
 
    Ou,
 
-   Toque/clique em **Painel** e clique em **Linha** do tempo no painel CANAIS **ATRIBUÍDOS e PROGRAMAS** .
+   Toque/clique em **Painel** e clique em **Linha do tempo** no painel **CANAIS ATRIBUÍDOS e AGENDAMENTOS**.
 
    ![imagem](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
 ## Noções Gerais das Propriedades do Canal na Caixa de Diálogo Atribuição do Canal {#channel-properties}
 
-As seguintes propriedades são definidas na opção **Configurações** na caixa de diálogo Atribuição **de** Canais.
+As seguintes propriedades são definidas na opção **Settings** na caixa de diálogo **Atribuição de Canal**.
 
 ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -130,7 +130,7 @@ Selecionar um canal permite fornecer uma referência ao canal desejado, seja por
 
 * **por caminho**: você fornece uma referência explícita usando o caminho absoluto do canal.
 
-* **pelo nome**: Insira o nome do canal que será resolvido para um canal real por contexto. Esse recurso permite que você crie a versão local de um canal para resolver dinamicamente o conteúdo específico da localização. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
+* **pelo nome**: Insira o nome do canal que será resolvido para um canal real por contexto. Esse recurso permite que você crie a versão local de um canal para resolver dinamicamente o conteúdo específico da localização. Por exemplo, um canal com o nome *negocia do dia*, onde o conteúdo real seria diferente em duas cidades, mas você ainda tem a função de canal sã em todas as exibições.
 
 ### Função de canal {#role-channel}
 
@@ -158,7 +158,7 @@ A prioridade é usada para ordenar as atribuições, no caso de várias delas co
 
 Como autor de conteúdo, você deve ser capaz de especificar quando um canal é interrompido para que possa optar por interromper o conteúdo não crítico, mas ter a opção de permitir que o conteúdo importante seja reproduzido totalmente antes de interromper a reprodução devido ao agendamento.
 
-Selecione uma das seguintes opções disponíveis para definir o método de interrupção na caixa de diálogo Atribuição **de** Canais:
+Selecione uma das seguintes opções disponíveis para definir o método de interrupção na caixa de diálogo **Atribuição de Canal**:
 
 * **Imediatamente**: sempre que o agendamento é ativado ou uma atualização é recebida, você pode interromper a reprodução e atualizar ou reproduzir imediatamente o novo conteúdo
 * **No final do ponto** atual: quando um novo agendamento é ativado ou uma atualização é recebida, você tem a opção de esperar que o item atual na sequência termine a reprodução e somente depois disso você atualiza ou reproduz o novo conteúdo
@@ -171,13 +171,13 @@ Selecione uma das seguintes opções disponíveis para definir o método de inte
    >[!NOTE]
    >Usar a segunda ou a terceira opção pode resultar em tempos de programação definidos na atribuição ligeiramente adiados, já que o player aguardará o fim do item ou da sequência (após o tempo especificado) antes de atualizar. O atraso dependerá da duração da reprodução do item.
 
-As seguintes propriedades são definidas na opção **Agendar** na caixa de diálogo Atribuição **de** Canais.
+As seguintes propriedades são definidas na opção **Schedule** na caixa de diálogo **Atribuição de Canal**.
 
 ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
 ### Janela de ativação {#activation-window}
 
-A janela Ativação permite selecionar uma data **de** Start e uma data **de** término para exibir seu conteúdo.
+A janela Ativação permite selecionar uma **data do Start** e uma **Data final** para exibir seu conteúdo.
 
 ### Programação de recorrência {#recurrence-schedule}
 
@@ -185,12 +185,12 @@ A Programação de recorrência permite definir uma programação recorrente par
 
 >[!NOTE]
 >Você pode adicionar várias programações recorrentes ao seu canal.
->Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+>Programações de recorrência introduz *DayParting*, que permite definir uma programação global com vários canais em execução em momentos específicos do dia, e reutilizar essa configuração para todas as suas exibições ao mesmo tempo.
 
 É possível definir as seguintes opções:
 
 * **Nome**: Título do seu agendamento de recorrência.
-* **Repetir**: Escolha se a programação é executada **Diariamente**, **Semanalmente**, **Mensalmente** ou **Anualmente**.
+* **Repetir**: Escolha se a programação é executada  **Diariamente**,  **Semanalmente**,  **Mensalmente** ou  **Anualmente**.
 * **Start**: A hora do start para o seu horário.
 * **Fim**: A hora de término do seu agendamento. Você pode defini-la por tempo ou duração.
    * **Hora**: O agendamento terminará em um horário especificado.
@@ -218,7 +218,7 @@ Aqui, dividiremos cada dia em intervalos de tempo diferentes, para que o conteú
 
 Este exemplo mostra o DayParting implementado em um casino onde o evento ao vivo ocorre todo fim de semana, das 20h às 22h e os especiais estão disponíveis para o menu do jantar depois das 22h até às 13h.
 
-| **Nome** | **Repetições** | **Início** | **End** |
+| **Nome** | **Repetições** | **Início** | **Fim** |
 |---|---|---|---|
 | Final de semana | Semanalmente: sábado, domingo | 20:00 | 22:00 |
 | Especiais | Diariamente: De segunda a sexta | 22:00 | 01:00 |
