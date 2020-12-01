@@ -31,9 +31,9 @@ Antes de implementar essa funcionalidade no start, certifique-se de configurar u
 
 1. Crie um exemplo de projeto da AEM Screens, **ChannelLevelPlayback**.
 
-1. Crie um canal de sequência como **PlaybackChannel** na pasta **Canais** .
+1. Crie um canal de sequência como **PlaybackChannel** na pasta **Canais**.
 
-1. Adicione conteúdo ao **PlaybackChannel**.
+1. Adicione conteúdo a **PlaybackChannel**.
 
 ## Edição da Atribuição de Duração da Reprodução de Imagem no Nível do Canal {#editing-channel-level-image-playback-duration-assignment}
 
@@ -59,18 +59,18 @@ Siga as etapas abaixo para saber como atualizar a Atribuição de duração de r
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **A caixa de diálogo Página** é aberta.
+1. **A caixa** Pagedialog é aberta.
 
    >[!NOTE]
    >Por padrão, as imagens em um canal são definidas com uma duração de reprodução de 8 segundos.
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Edite a **Duração** de 8000 (ms) a 3000 (ms), ou seja, 3 segundos. Clique na marca de seleção na parte superior direita da caixa de diálogo **Página** para salvar as alterações.
+   Edite **Duration** de 8000 (ms) para 3000 (ms), ou seja, 3 segundos. Clique na marca de seleção na parte superior direita da caixa de diálogo **Página** para salvar as alterações.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
-### Como visualizar o resultado {#viewing-the-result}
+### Visualizando o resultado {#viewing-the-result}
 
 Depois de atualizar a duração da reprodução do canal (neste exemplo, todas as três imagens), você observará que as imagens serão reproduzidas por 3 segundos em vez de 8 segundos (valor padrão).
 
