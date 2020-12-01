@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# Gerenciamento do tráfego de rede {#managing-network-traffic}
+# Gerenciando o tráfego de rede {#managing-network-traffic}
 
 Uma Configuração de rede pode ter várias estruturas. Esta seção descreve as configurações de rede mais comuns e as abordagens generalizadas seguidas em uma organização.
 
@@ -28,7 +28,7 @@ Uma vantagem de um servidor proxy é que seu cache pode atender a todos os usuá
 
 Quando um servidor proxy recebe uma solicitação de um recurso da Internet (como uma página da Web ou ao se conectar a um Editor AEM), ele verifica seu cache local de urls anteriormente chamados de urls. Se encontrar a página, ela a retornará ao usuário sem encaminhar a solicitação para a Internet. Se a página não estiver no cache, o servidor proxy (atua como cliente) em nome do usuário e solicita a página do servidor na Internet. Quando o conteúdo é retornado, o servidor proxy o relaciona à solicitação original e o encaminha ao usuário.
 
-## Como entender as configurações de rede padrão {#network-setups}
+## Noções Gerais das Configurações de Rede Padrão {#network-setups}
 
 Para implementar uma Configuração de rede, consulte os seguintes cenários com seus pontos fortes e detalhes de implantação.
 
@@ -43,7 +43,7 @@ A tabela a seguir descreve os diferentes tipos de configurações de rede com va
 
 | Configuração de rede | Vantagens | Desvantagens |
 |--- |--- |--- |
-| **Rede Internet direta (com fio/sem fio)** | Fácil e direto para<br>ConfigurarBoa escolha para<br>instalações de médio ou maior porteA rede dedicada pode ser<br>EncapsuladaPoucos pontos de<br>falhaEscalabilidade relativamente<br>barata | Plano obrigatório de dados da Internet |
-| **Rede móvel direta** | Fácil de<br>configurarBoa escolha para<br>instalações médias ou maioresBoa<br>escalabilidadeTelas encapsuladas | Conexão obrigatória com a Internet |
-| **Rede móvel com roteador de dados móvel e componentes de rede ativos** | A escolha fácil de<br>configurarBoa escolha para<br>instalações médias ou maioresA rede dedicada pode ser<br>encapsuladaPoucos pontos de<br>falhaDimensionabilidade relativamente<br>barataBoa | Plano obrigatório de dados da Internet |
-| **Rede corporativa fechada (com fio/sem fio)** | Alta flexibilidade e<br>escalabilidadeAltamente seguro devido a diferentes linhas de<br>defesa<br>redes encapsuladasFácil de monitorar e<br>manterConfiável | Complicado e<br>caroRecomendado para especialistas de rede ou integradores de sistema |
+| **Rede Internet direta (com fio/sem fio)** | Fácil e direto para SetUp<br>Boa opção para instalações de médio ou maior porte<br>A rede dedicada pode ser encapsulada<br>Poucos pontos de falha<br>Ligeiramente barato<br>Boa escalabilidade | Plano obrigatório de dados da Internet |
+| **Rede móvel direta** | Fácil de configurar<br>Boa escolha para instalações de médio ou maior porte<br>Boa escalabilidade<br>ecrãs encapsulados | Conexão obrigatória com a Internet |
+| **Rede móvel com roteador de dados móvel e componentes de rede ativos** | Facilidade de configuração<br>Boa escolha para instalações de médio ou maior porte<br>A rede dedicada pode ser encapsulada<br>Poucos pontos de falha<br>Baixo custo<br>Boa escalabilidade | Plano obrigatório de dados da Internet |
+| **Rede corporativa fechada (com fio/sem fio)** | Alta flexibilidade e escalabilidade<br>Altamente segura devido a diferentes linhas de defesa<br>Redes encapsuladas<br>Fácil de monitorar e manter<br>Confiável | Complicado e caro<br>Recomendado para especialistas de rede ou integradores de sistema |
