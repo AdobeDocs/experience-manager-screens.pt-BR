@@ -11,6 +11,9 @@ topic-tags: authoring
 discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 51%
 
 ---
 
@@ -31,16 +34,16 @@ Esta página mostra como criar e gerenciar localizações para o Screens.
 
 Depois de criar seu projeto para o Screens, siga as etapas abaixo para criar um novo Local para um projeto do Screens:
 
-1. Selecione o link do Adobe Experience Manager (canto superior esquerdo) e, em seguida, o Screens. Como alternativa, você pode navegar diretamente para:  `http://localhost:4502/screens.html/content/screens`.
-1. Navigate to Screens project and click **Locations**.
-1. Click **Create** next to the plus icon in the action bar. Um assistente será aberto.
-1. Select the template **Location** from the wizard and click **Next**.
+1. Selecione o link do Adobe Experience Manager (canto superior esquerdo) e, em seguida, o Screens. Como alternativa, você pode navegar diretamente para: `http://localhost:4502/screens.html/content/screens`.
+1. Navegue até o projeto do Screens e clique em **Locais**.
+1. Clique em **Criar** ao lado do ícone de adição na barra de ações. Um assistente será aberto.
+1. Selecione o modelo **Location** no assistente e clique em **Next**.
 
-1. Enter the properties for **Title and Tags**, **More Titles and Description**, **On/Off Time**, and **Vanity URL**.
+1. Insira as propriedades para **Título e Tags**, **Mais títulos e descrição**, **Tempo ligado/desligado** e **URL personalizado**.
 
-1. Click **Create** and the location is created and added to your locations folder.
+1. Clique em **Criar** e o local será criado e adicionado à pasta de seus locais.
 
-Consulte as etapas abaixo para entender como criar um novo local para um projeto do AEM Screens. For demonstration purposes, the new location (SanJose) is created under *DemoProject*.
+Consulte as etapas abaixo para entender como criar um novo local para um projeto AEM Screens. Para fins de demonstração, o novo local (SanJose) é criado em *DemoProject*.
 
 ![player2](assets/player2.gif)
 
@@ -51,7 +54,7 @@ Depois de criar uma localização, você precisa criar uma nova exibição para 
 Para editar/acessar as propriedades de um local:
 
 1. Selecione o local.
-1. Click **Properties** from the action bar.
+1. Clique em **Propriedades** na barra de ações.
 
 ![player3](assets/player3.gif)
 
@@ -59,4 +62,4 @@ Para editar/acessar as propriedades de um local:
 
 Depois de criar uma localização, você precisa criar uma nova exibição para ela.
 
-See [Creating and Managing Displays](managing-displays.md) for more details.
+Consulte [Criação e gerenciamento de telas](managing-displays.md) para obter mais detalhes.
