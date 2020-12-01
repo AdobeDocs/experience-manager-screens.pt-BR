@@ -12,7 +12,7 @@ ht-degree: 2%
 ---
 
 
-# Noções básicas de um projeto de cartazes digitais {#basics-digital-signage}
+# Noções básicas de um projeto de sinalização digital {#basics-digital-signage}
 
 Antes de mergulhar nas práticas recomendadas de implementação da AEM Screens, é importante pensar no projeto como um projeto de sinalização digital, em vez de um desenvolvimento de software tradicional.
 
@@ -20,7 +20,7 @@ Esta seção fornece recomendações sobre os principais elementos essenciais an
 
 ## Elementos chave em placas digitais {#key-elements}
 
-Os elementos *principais* em um projeto de sinalização digital são:
+Os *Elementos-chave* em um projeto de assinatura digital são:
 
 ![](/help/assets/Elements-Revised.png)
 
