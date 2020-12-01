@@ -2,13 +2,16 @@
 title: Eventos orientados por dados
 seo-title: Eventos orientados por dados
 description: 'null'
-seo-description: 'null'
+seo-description: nulo
 page-status-flag: never-activated
 uuid: 138ceff2-84a2-47f2-981a-755522502c16
 contentOwner: jsyal
 discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 100%
 
 ---
 
@@ -30,18 +33,18 @@ Os eventos orientados por dados são categorizados em quatro categorias diferent
 * Dados de acionáveis
 * Dados da apresentação
 
-#### Dados em operacionais {#data-in-operational}
+#### Dados em operacionais  {#data-in-operational}
 
 Isso também pode ser categorizados em Interrupção de canal e Espaço reservado.
 
-#### Dados na apresentação {#data-in-presentation}
+#### Dados na apresentação  {#data-in-presentation}
 
 Os dados estão em execução no canal temporário e, após um acionador, alteram um ativo dentro de um canal.
 
-#### Dados de acionáveis {#data-out-actionable}
+#### Dados de acionáveis  {#data-out-actionable}
 
 Quando um comando é enviado à tela LCD para ligar ou desligar a tela. Exemplo: brilho ou volume da tela.
 
-#### Dados da apresentação {#data-out-presentational}
+#### Dados da apresentação  {#data-out-presentational}
 
 Gráfico que agrega informações no loop de feedback. Usa análises para avaliar e observar os eventos.
