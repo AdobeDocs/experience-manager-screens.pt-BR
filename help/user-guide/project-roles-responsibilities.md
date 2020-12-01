@@ -39,7 +39,7 @@ O Adobe inclui recursos dos Serviços gerenciados da Adobe, como o CSE (Customer
 
 #### Implementadores do AEM {#aem-implementors}
 
-Um **AEM Implementador** é responsável por executar tarefas de desenvolvimento e integração para desenvolver a experiência do usuário, modelos personalizados e integrações de back-end para AEM.
+Um **AEM Implementor** é responsável por executar tarefas de desenvolvimento e integração para desenvolver a experiência do usuário, modelos personalizados e integrações de back-end para AEM.
 
 Os recursos personalizados necessários para atender aos parâmetros UX (Experiência do usuário) do cliente final também são capturados e disponibilizados por esse processo.
 
@@ -63,4 +63,4 @@ Siga o tutorial abaixo para entender exatamente como cada parte influencia na im
 
 Depois que você entender as funções e responsabilidades do projeto na implementação de um projeto de sinalização digital, siga o próximo tutorial que mergulha em tópicos como testes e considerações pré-vendas, à medida que o projeto for expandido ao desenvolver oportunidades da AEM Screens.
 
-Navegue até a **[Parte 2: Considerações como projetos são escopo](project-considerations.md)** para obter mais detalhes.
+Navegue até **[Parte 2: Considerações como Projetos são Escopo](project-considerations.md)** para obter mais detalhes.
