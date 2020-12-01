@@ -23,7 +23,7 @@ Esta página mostra como atribuir um canal à sua exibição.
 >[!NOTE]
 >É possível atribuir vários canais a uma exibição.
 
-## Assigning a Channel {#assign-a-channel}
+## Atribuindo um Canal {#assign-a-channel}
 
 Siga as etapas abaixo para atribuir um canal a uma exibição:
 
@@ -31,15 +31,15 @@ Siga as etapas abaixo para atribuir um canal a uma exibição:
 
    ![imagem](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Tap/click **Assign Channel** in the action bar
+1. Toque/clique em **Atribuir Canal** na barra de ações
 
    Ou,
 
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
+   Toque/clique em **Painel** e clique em **+Atribuir Canal** no painel **CANAIS ATRIBUÍDOS** para abrir a caixa de diálogo **Atribuição de Canais**.
 
    ![imagem](/help/user-guide/assets/channel-assign1.png)
 
-   Você pode configurar as propriedades na caixa de diálogo Atribuição de **Canais** na seção abaixo. Consulte a seção Propriedades [do](#channel-properties) Canal para saber mais sobre as propriedades do canal.
+   Você pode configurar as propriedades na caixa de diálogo **Atribuição de Canal** na seção abaixo. Consulte a seção [Propriedades do Canal](#channel-properties) para saber mais sobre as propriedades do canal.
 
 
 ## Como entender as propriedades do Canal da atribuição do Canal {#channel-properties}
@@ -50,7 +50,7 @@ A opção Fazer referência ao canal permite que você forneça uma referência 
 
 * **por caminho**: você fornece uma referência explícita usando o caminho absoluto do canal.
 
-* **pelo nome**: Insira o nome do canal que será resolvido para um canal real por contexto. Esse recurso permite que você crie a versão local de um canal para resolver dinamicamente o conteúdo específico da localização. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
+* **pelo nome**: Insira o nome do canal que será resolvido para um canal real por contexto. Esse recurso permite que você crie a versão local de um canal para resolver dinamicamente o conteúdo específico da localização. Por exemplo, um canal com o nome *negocia do dia*, onde o conteúdo real seria diferente em duas cidades, mas você ainda tem a função de canal sã em todas as exibições.
 
 ### Função de canal {#role-channel}
 
@@ -78,7 +78,7 @@ A prioridade é usada para ordenar as atribuições, no caso de várias delas co
 
 Como autor de conteúdo, você deve ser capaz de especificar quando um canal é interrompido para que possa optar por interromper o conteúdo não crítico, mas ter a opção de permitir que o conteúdo importante seja reproduzido totalmente antes de interromper a reprodução devido ao agendamento.
 
-Selecione uma das seguintes opções disponíveis para definir o método de interrupção na caixa de diálogo Atribuição **de** Canais:
+Selecione uma das seguintes opções disponíveis para definir o método de interrupção na caixa de diálogo **Atribuição de Canal**:
 
 * **Imediatamente**: sempre que o agendamento é ativado ou uma atualização é recebida, você pode interromper a reprodução e atualizar ou reproduzir imediatamente o novo conteúdo
 * **No final do ponto** atual: quando um novo agendamento é ativado ou uma atualização é recebida, você tem a opção de esperar que o item atual na sequência termine a reprodução e somente depois disso você atualiza ou reproduz o novo conteúdo
@@ -99,7 +99,7 @@ Mostrar dica de ferramenta da atração define se a dica de ferramenta de atraç
 
 ### DayParting {#dayparting}
 
-Schedules when combined with **DayParting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Agendamentos quando combinados com **DayParting**, permitem definir uma programação global com vários canais em execução em horários específicos do dia e reutilizar essa configuração para todas as suas exibições ao mesmo tempo.
 
 A Segmentação de dia refere-se ao processo de dividir um dia em períodos de tempo e especificar qual conteúdo é reproduzido no horário desejado. A AEM Screens permite programar canais em termos de programação de anúncios em um dia, semana ou mês, de acordo com a necessidade.
 
