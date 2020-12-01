@@ -19,7 +19,7 @@ ht-degree: 11%
 ---
 
 
-# Configuração do Adobe Analytics com o AEM Screens {#configuring-adobe-analytics-with-aem-screens}
+# Configuração do Adobe Analytics com AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
 >[!CAUTION]
 >
@@ -34,7 +34,7 @@ Esta seção aborda os seguintes tópicos:
 
 ## Sequenciamento no Adobe Analytics com AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-O processo de ***sequenciamento é*** start com o serviço de armazenamento de dados que ativa o serviço Adobe Analytics. O conteúdo do canal envia eventos Adobe Analytics com folha de pagamento, ou seja, a captura de teste de dados para E/S do Windows e os eventos de permanência são acionados. Os eventos são salvos no banco de dados de índice e são posteriormente colocados no repositório de objetos. Com base no agendamento, o administrador define, corta os dados do repositório de objetos e os transfere ainda mais no repositório de segmentos. Ele tenta enviar a quantidade máxima de dados, quando conectado.
+Os start ***sequenciando process*** com o serviço de armazenamento de dados que ativa o serviço Adobe Analytics. O conteúdo do canal envia eventos Adobe Analytics com folha de pagamento, ou seja, a captura de teste de dados para E/S do Windows e os eventos de permanência são acionados. Os eventos são salvos no banco de dados de índice e são posteriormente colocados no repositório de objetos. Com base no agendamento, o administrador define, corta os dados do repositório de objetos e os transfere ainda mais no repositório de segmentos. Ele tenta enviar a quantidade máxima de dados, quando conectado.
 
 ### Diagrama de Sequência {#sequencing-diagram}
 
@@ -109,7 +109,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td>required</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Categoria principal (DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Agrupamento de tipos de evento - <strong>Enviamos o player</strong></td> 
+   <td>Categoria principal (DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Agrupamento de tipos de evento - <strong>Enviamos Player</strong></td> 
   </tr>
   <tr>
    <td> </td> 
