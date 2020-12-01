@@ -27,15 +27,15 @@ O caso de uso a seguir permite implementar um projeto de demonstração de onde 
 
 >[!NOTE]
 >**Pré-requisitos
->É necessário ter um conhecimento prévio das noções básicas de um Fragmento de experiência e como usar um Fragmento de experiência em um projeto da AEM Screens. See [Using Experience Fragments](/help/user-guide/experience-fragments-in-screens.md)
+>É necessário ter um conhecimento prévio das noções básicas de um Fragmento de experiência e como usar um Fragmento de experiência em um projeto da AEM Screens. Consulte [Usando fragmentos de experiência](/help/user-guide/experience-fragments-in-screens.md)
 
 ### Configuração do projeto de demonstração {#demo-project-setup}
 
-Crie um projeto chamado **DemoProject** e um canal de sequência chamado **TestChannel** em seu AEM Screens, como mostrado na figura abaixo.
+Crie um projeto chamado **DemoProject** e um canal de sequência chamado **TestChannel** no seu AEM Screens, como mostrado na figura abaixo.
 
 ### Implementação do fragmento de experiência em um projeto AEM Screens {#experience-fragments-implementation}
 
-Depois de criar um Fragmento de experiência e aproveitar seu projeto AEM Screens, o **DemoProject** agora pode aprimorar o fragmento de experiência conforme suas necessidades.
+Depois de criar um Fragmento de experiência e aproveitar seu projeto AEM Screens, **DemoProject** agora você pode aprimorar o fragmento de experiência conforme suas necessidades.
 
 ### Aumentando o tamanho do texto {#increasing-text-size}
 
