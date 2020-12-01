@@ -12,11 +12,11 @@ ht-degree: 2%
 
 # Diretrizes de seleção de hardware para o dispositivo do player {#hardware-selection}
 
-A seção a seguir fornece as diretrizes de seleção de hardware para um player do AEM Screens.
+A seção a seguir fornece as diretrizes de seleção de hardware para um AEM Screens player.
 
 ## Considerações importantes {#important-considerations}
 
-* Projetor ou painel de vídeo para o player do PC e para o ***monitor*** ou para o projetor, sempre obtenha componentes do nível comercial ou ***industrial*** .
+* Origine sempre os componentes de nível ***Commercial*** ou ***Industrial*** para o leitor de PC e o Painel de Exibição ou Projetor.
 
 * Sempre envolva-se com fornecedores que servem o mercado de placas digitais.
 * Considere sempre fatores ambientais como temperatura ambiente e umidade relativa.
@@ -25,7 +25,7 @@ A seção a seguir fornece as diretrizes de seleção de hardware para um player
 
 ## Configurações de hardware {#hardware-configurations}
 
-A tabela a seguir resume as configurações de hardware com casos de uso típicos de um projeto do AEM Screens:
+A tabela a seguir resume as configurações de hardware com casos de uso típicos de um projeto da AEM Screens:
 
 <table>
  <tbody>
@@ -61,7 +61,7 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
    <td>128 GBB</td>
    <td>OnBoard</td>
    <td>3840 x 2160 (4 K)</td>
-   <td>DVI, HDMI<br /> Ethernet / sem fio,<br /> 2xUSB</td>
+   <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 2xUSB</td>
    <td>
     <ul>
      <li>Conteúdo dinâmico de origem única</li>
@@ -70,7 +70,7 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
     </ul> </td>
   </tr>
   <tr>
-   <td>Avançado    </td>
+   <td>Avançado </td>
    <td>Quad Core com hyperthreading, processador Intel® Core i7</td>
    <td><p>16 GB de memória</p> <p>8 MB de cache</p> </td>
    <td>256 GB</td>
