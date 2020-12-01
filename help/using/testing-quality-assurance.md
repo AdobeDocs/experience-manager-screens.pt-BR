@@ -53,7 +53,7 @@ As seguintes considerações de software são recomendadas:
 
 A AEM Screens inclui um módulo do Device Control Center que permite o gerenciamento de pontos finais do aplicativo do Screens player.
 
-Refere-se a qualquer dispositivo de hardware do *player* que tenha o aplicativo do player do Screens instalado e esteja registrado para uma instância do AEM.
+Refere-se a qualquer dispositivo de hardware *player* que tenha o aplicativo do player do Screens instalado e esteja registrado para uma instância do AEM.
 Este módulo permite que você:
 
 1. Monitorar registros de erros do aplicativo do player
@@ -61,7 +61,7 @@ Este módulo permite que você:
 1. Gerenciar downloads de conteúdo
 1. Gerenciar problemas de reinicialização do aplicativo
 
-Para saber mais detalhes sobre o Centro ***de controle de*** dispositivos, consulte [Troubleshooting Device Control Center (Centro](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) de controle de dispositivos) no Guia **do usuário da** AEM Screens.
+Para saber mais detalhes sobre o ***Device Control Center***, consulte [Troubleshooting Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) no **AEM Screens User Guide**.
 
 >[!CAUTION]
 >
@@ -77,12 +77,12 @@ Para saber mais detalhes sobre o Centro ***de controle de*** dispositivos, consu
 >
 > A Adobe recomenda que as plataformas dedicadas de gerenciamento de dispositivos de terceiros sejam usadas para todas as implantações.
 
-A plataforma específica escolhida depende de vários fatores, incluindo o sistema ***operacional do*** público alvo, os requisitos ***do*** projeto e o ***número de pontos*** finais.
+A plataforma específica escolhida depende de vários fatores, incluindo o ***sistema operacional do público alvo***, ***requisitos do projeto*** e ***número de pontos finais***.
 
 Poucos exemplos são:
 
 * Gerenciamento de dispositivos Google Chrome
 * TeamViewer
 * AirWatch
-* 42Gears
+* 42 engrenagens
 * Middleware proprietário do AV Integrator
