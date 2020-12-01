@@ -28,7 +28,7 @@ A página a seguir fornece as diretrizes para configurar o dispatcher para um pr
 
 Antes de configurar o dispatcher para um projeto da AEM Screens, você deve ter conhecimento prévio do Dispatcher.
 
-Consulte [Configuração do Dispatcher](https://docs.adobe.com/content/help/pt-BR/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) para obter mais detalhes.
+Consulte [Configurando o Dispatcher](https://docs.adobe.com/content/help/pt-BR/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) para obter mais detalhes.
 
 ## Configurando o Dispatcher {#configuring-dispatcher}
 
@@ -36,7 +36,7 @@ Siga as etapas abaixo para configurar o dispatcher para um projeto da AEM Screen
 
 ### Habilitar Sessões Aderentes {#enable-sticky-session}
 
-Se você quiser usar mais de uma instância de publicação com o dispatcher, será necessário atualizar o `dispatcher.any` arquivo.
+Se você quiser usar mais de uma instância de publicação com o dispatcher, será necessário atualizar o arquivo `dispatcher.any`.
 
 ```xml
 /stickyConnections {
@@ -49,9 +49,9 @@ Se você quiser usar mais de uma instância de publicação com o dispatcher, se
 }
 ```
 
-### Etapa 1: Configurando cabeçalhos do cliente {#step-configuring-client-headers}
+### Etapa 1: Configurando Cabeçalhos do Cliente {#step-configuring-client-headers}
 
-Adicione o seguinte à `/clientheaders`seção:
+Adicione o seguinte à seção `/clientheaders`:
 
 **X-Requested-With**
 
@@ -59,9 +59,9 @@ Adicione o seguinte à `/clientheaders`seção:
 
 **X-REQUEST-COMMAND**
 
-### Etapa 2: Configuração de Filtros do Screens {#step-configuring-screens-filters}
+### Etapa 2: Configurando Filtros de Telas {#step-configuring-screens-filters}
 
-Para configurar filtros do Screens, adicione o seguinte a ***/filtre***.
+Para configurar filtros do Screens, adicione o seguinte a ***/filter***.
 
 ```
 ## AEM Screens Filters
@@ -86,12 +86,12 @@ Para configurar filtros do Screens, adicione o seguinte a ***/filtre***.
 
 Desative o cache do dispatcher para ***/content/screens path***.
 
-Os players de telas usam uma sessão autenticada, de modo que o dispatcher não armazena em cache nenhuma solicitação dos players de telas para `channels/assets`.
+Os players de tela usam uma sessão autenticada, de modo que o dispatcher não armazena em cache nenhuma solicitação dos players de tela para `channels/assets`.
 
 Para ativar o cache dos ativos para que os ativos sejam servidos do cache do dispatcher, você deve:
 
-* Adicionar `/allowAuthorization 1` na `/cache` seção
-* Adicione as regras abaixo à `/rules` seção de `/cache`
+* Adicionar `/allowAuthorization 1` na seção `/cache`
+* Adicione as regras abaixo à seção `/rules` de `/cache`
 
 ```xml
 /0000
