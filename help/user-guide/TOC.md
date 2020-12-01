@@ -6,9 +6,9 @@ user-guide-title: Ajuda do Adobe Experience Manager Screens
 breadcrumb-title: Guia do AEM Screens
 user-guide-description: Saiba como usar uma Solução de sinalização digital que permite a publicação de experiências e interações digitais dinâmicas e interativas.
 translation-type: tm+mt
-source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
+source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '431'
 ht-degree: 19%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 19%
       + [Uso do Chrome Player como extensão para solução de problemas](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
+      + [Tizen Player](tizen-player.md)
    + Publicação do autor {#author-publish}
       + [Visão geral da arquitetura de publicação de autor](author-publish-architecture-overview.md)
       + [Configuração do autor e da publicação](author-and-publish.md)
@@ -78,6 +79,7 @@ ht-degree: 19%
       + [Sincronização de comandos](using-command-sync.md)
       + [Criação com acionadores de dados](authoring-data-triggers.md)
       + [Reconhecimento de voz](voice-recognition.md)
+      + [Relatório de atribuição de conteúdo](content-assignment-report.md)
    + Gerenciamento de atualizações de conteúdo {#content-updates}
       + [Atualização de conteúdo sob demanda](on-demand-content.md)
       + [Atualização de conteúdo como serviço](content-update-as-a-service.md)
@@ -106,6 +108,7 @@ ht-degree: 19%
    + [Solução de problemas do Device Control Center](monitoring-screens.md)
    + [Configuração de reprodução de vídeo](troubleshoot-videos.md)
 + Notas de versão {#release-notes}
+   + [Notas de versão do Feature Pack 202011](release-notes-fp-202011.md)
    + [Notas de versão do Feature Pack 2008](release-notes-fp-202008.md)
    + [Notas de versão do Feature Pack 202004](release-notes-fp-202004.md)
    + [Notas de versão do Feature Pack 202001](release-notes-fp-202001.md)
