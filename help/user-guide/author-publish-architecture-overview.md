@@ -52,14 +52,14 @@ O diagrama a seguir ilustra os ambientes de autor e publicação.
 
 Há cinco componentes arquitetônicos, facilitando esta solução:
 
-* ***Replicação de conteúdo*** do autor para publicação para exibição por dispositivos
+* ***Replicação de*** conteúdo do autor para publicação para exibição por dispositivos
 
-* ***Reverter*** conteúdo binário de replicação de publicar (recebido de dispositivos) para criar
-* ***Envio*** de comandos do autor para publicação por meio de REST APIs específicas
-* ***Mensagens*** entre instâncias de publicação para sincronizar atualizações e comandos de informações do dispositivo
-* ***Pesquisa*** pelo autor das instâncias de publicação para obter informações do dispositivo por meio de REST APIs específicas
+* ***Reverserduplicação de conteúdo binário de publicação (recebido de dispositivos) para autor*** 
+* ****** Envio de comandos do autor para publicação por meio de REST APIs específicas
+* ****** Mensagens entre instâncias de publicação para sincronizar atualizações e comandos de informações do dispositivo
+* ***Pesquisar*** pelo autor das instâncias de publicação para obter informações do dispositivo por meio de REST APIs específicas
 
-### Replicação (Encaminhamento) de conteúdo e configurações  {#replication-forward-of-content-and-configurations}
+### Replicação (Encaminhamento) de Conteúdo e Configurações {#replication-forward-of-content-and-configurations}
 
 Os agentes de replicação padrão são usados para replicar telas o conteúdo do canal, as configurações de localização e as configurações do dispositivo. Isso permite que os autores atualizem o conteúdo de um canal e, opcionalmente, passem por algum tipo de fluxo de trabalho de aprovação antes de publicarem atualizações de canais. É necessário criar um agente de replicação para cada instância de publicação no farm de publicação.
 
@@ -71,34 +71,34 @@ O diagrama a seguir ilustra o processo de replicação:
 >
 >É necessário criar um agente de replicação para cada instância de publicação no farm de publicação.
 
-### Screens Replication Agents and Commands  {#screens-replication-agents-and-commands}
+### Screens Replication Agents and Commands {#screens-replication-agents-and-commands}
 
 Os agentes de replicação específicos do Screens personalizados são criados para enviar comandos da instância Autor para o dispositivo AEM Screens. As instâncias de publicação de AEM servem como intermediário para encaminhar esses comandos para o dispositivo.
 
 Isso permite que os autores continuem a gerenciar o dispositivo, como enviar atualizações do dispositivo e tirar capturas de tela do ambiente do autor. Os agentes de replicação AEM Screens têm uma configuração de transporte personalizada, como agentes de replicação padrão.
 
-### Mensagens entre instâncias de publicação  {#messaging-between-publish-instances}
+### Mensagens entre instâncias de publicação {#messaging-between-publish-instances}
 
 Em muitos casos, um comando deve ser enviado apenas para um dispositivo uma única vez. No entanto, em uma arquitetura de publicação com balanceamento de carga, não se sabe a qual instância de publicação o dispositivo está se conectando.
 
-Portanto, a instância do autor envia a mensagem para todas as instâncias de Publicação. No entanto, somente uma única mensagem deve ser retransmitida ao dispositivo. Para garantir mensagens corretas, é necessário fazer alguma comunicação entre as instâncias de publicação. Isso é feito usando o *Apache AtiveMQ Artemis*. Cada instância de publicação é colocada em uma Topologia amplamente acoplada usando o serviço de descoberta Sling baseado em Oak e o AtiveMQ é configurado para que cada instância de publicação possa se comunicar e criar uma única fila de mensagens. O dispositivo Screens pesquisa o farm de publicação por meio do balanceador de carga e seleciona o comando na parte superior da fila.
+Portanto, a instância do autor envia a mensagem para todas as instâncias de Publicação. No entanto, somente uma única mensagem deve ser retransmitida ao dispositivo. Para garantir mensagens corretas, é necessário fazer alguma comunicação entre as instâncias de publicação. Isso é obtido usando *Apache AtiveMQ Artemis*. Cada instância de publicação é colocada em uma Topologia amplamente acoplada usando o serviço de descoberta Sling baseado em Oak e o AtiveMQ é configurado para que cada instância de publicação possa se comunicar e criar uma única fila de mensagens. O dispositivo Screens pesquisa o farm de publicação por meio do balanceador de carga e seleciona o comando na parte superior da fila.
 
 ### Replicação reversa {#reverse-replication}
 
-Em muitos casos, após um comando, espera-se que algum tipo de resposta do dispositivo Screens seja encaminhada para a instância Autor. Para atingir esse AEM, é usada replicação ****** reversa.
+Em muitos casos, após um comando, espera-se que algum tipo de resposta do dispositivo Screens seja encaminhada para a instância Autor. Para alcançar esse AEM, ***Replicação reversa*** é usada.
 
 * Crie um agente de replicação reversa para cada instância de publicação, como os agentes de replicação padrão e os agentes de replicação de telas.
 * Uma configuração de inicializador de fluxo de trabalho escuta os nós modificados na instância de publicação e, por sua vez, aciona um fluxo de trabalho para colocar a resposta do Dispositivo na caixa de saída da instância de Publicação.
 * Uma replicação reversa neste contexto é usada apenas para dados binários (como arquivos de registro e capturas de tela) fornecidos pelos dispositivos. Os dados não binários são recuperados por pesquisa.
 * A replicação reversa pesquisada da instância do autor AEM recupera a resposta e a salva na instância do autor.
 
-### Pesquisa de instâncias de publicação  {#polling-of-publish-instances}
+### Pesquisa de instâncias de publicação {#polling-of-publish-instances}
 
 A instância do autor precisa ser capaz de sondar os dispositivos para obter uma pulsação e saber o status de funcionamento de um dispositivo conectado.
 
-Os dispositivos tocando no balanceador de carga e são roteados para uma instância de publicação. O status do dispositivo é então exposto pela instância de publicação por meio de uma API de publicação fornecida em @ **api/screens-dcc/devices/static** para todos os dispositivos ativos e **api/screens-dcc/devices/&lt;device_id>/status.json** para um único dispositivo.
+Os dispositivos tocando no balanceador de carga e são roteados para uma instância de publicação. O status do dispositivo é então exposto pela instância de publicação por meio de uma API de publicação fornecida em **api/screens-dcc/devices/static** para todos os dispositivos ativos e **api/screens-dcc/devices/&lt;device_id>/status.json** para um único dispositivo.
 
-A instância do autor pesquisa todas as instâncias de publicação e mescla as respostas de status do dispositivo em um único status. O trabalho agendado que pesquisa no autor é `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` e pode ser configurado com base em uma expressão cron.
+A instância do autor pesquisa todas as instâncias de publicação e mescla as respostas de status do dispositivo em um único status. O trabalho agendado que chama o autor é `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` e pode ser configurado com base em uma expressão cron.
 
 ## Registro {#registration}
 
@@ -110,4 +110,4 @@ Depois que um dispositivo é registrado no ambiente do autor, a configuração d
 
 ### Próximas etapas {#the-next-steps}
 
-Depois de entender o design arquitetônico do autor e publicar a configuração no AEM Screens, consulte [Configuração do autor e publicação para AEM Screens](author-and-publish.md) para obter mais detalhes.
+Depois de entender o design arquitetônico do autor e publicar a configuração no AEM Screens, consulte [Configuração do autor e publicação no AEM Screens](author-and-publish.md) para obter mais detalhes.
