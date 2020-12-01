@@ -19,7 +19,7 @@ ht-degree: 2%
 ---
 
 
-# Integração da Adobe Analytics com a AEM Screens {#adobe-analytics-integration-with-aem-screens}
+# Integração do Adobe Analytics com o AEM Screens {#adobe-analytics-integration-with-aem-screens}
 
 >[!CAUTION]
 >
@@ -37,7 +37,7 @@ Esta seção aborda os seguintes tópicos:
 
 ## Visão geral {#overview}
 
-***A AEM Screens*** aproveita a Adobe Analytics e, com isso, você pode alcançar algo único no mercado - análises entre canais que ajudam a correlacionar o conteúdo mostrado no local com outras fontes de dados.
+***AEM*** Screenstiram a Adobe Analytics e, com isso, você pode alcançar algo único no mercado - análises entre canais que ajudam a correlacionar o conteúdo mostrado no local com outras fontes de dados.
 
 A AEM Screens oferece uma integração pronta para uso com a Adobe Analytics e oferece uma prova.
 
@@ -50,7 +50,7 @@ Esta seção descreve a seguinte funcionalidade envolvida na conexão de um proj
 * Permite criar loops de feedback que rastreiam eventos de play ao longo do tempo
 * Permite que o sistema modifique conteúdo e layouts com base em critérios de sucesso definidos pelo autor do conteúdo
 
-Assim, a integração da Adobe Analytics com a AEM Screens aplica os seguintes *objetivos*:
+Assim, a integração da Adobe Analytics com a AEM Screens impõe os seguintes *objetivos*:
 
 * Ativar o ROI das implementações de sinalização digital
 * Integrar o Analytics como base para a futura ativação de coletar e analisar informações de uso
@@ -63,11 +63,11 @@ O diagrama de arquitetura a seguir explica a integração do Adobe Analytics com
 
 ![screen_shot_2018-09-12at85611am](assets/screen_shot_2018-09-12at85611am.png)
 
-## Ativação do Adobe Analytics no AEM Screens {#enabling-adobe-analytics-in-aem-screens}
+## Habilitar Adobe Analytics no AEM Screens {#enabling-adobe-analytics-in-aem-screens}
 
 As configurações do Adobe Analytics podem ser configuradas no console OSGi.
 
-Navegue até Configuração **do console da Web do** Adobe Experience Manager para configurar o Adobe Analytics para AEM Screens, como mostrado na figura abaixo:
+Navegue até **Configuração do Adobe Experience Manager Web Console** para configurar o Adobe Analytics para AEM Screens, conforme mostrado na figura abaixo:
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
@@ -75,7 +75,7 @@ Navegue até Configuração **do console da Web do** Adobe Experience Manager pa
 
 >[!CAUTION]
 >
->Antes de configurar as propriedades, entre em contato com o Gerente de relacionamentos de Adobe para criar um ticket para obter uma chave **de API do** Analytics e um projeto **do** Analytics para uso com a AEM Screens.
+>Antes de configurar as propriedades, entre em contato com seu Gerente de relacionamentos de Adobe para criar um ticket para obter uma **Chave de API do Analytics** e **Projeto do Analytics** para uso com a AEM Screens.
 
 ![]()
 
@@ -83,7 +83,7 @@ Navegue até Configuração **do console da Web do** Adobe Experience Manager pa
 
 >[!CAUTION]
 >
->Antes de configurar as propriedades, entre em contato com o Gerente de relacionamentos de Adobe para criar um ticket para obter uma chave **de API do** Analytics e um projeto **do** Analytics para uso com a AEM Screens.
+>Antes de configurar as propriedades, entre em contato com seu Gerente de relacionamentos de Adobe para criar um ticket para obter uma **Chave de API do Analytics** e **Projeto do Analytics** para uso com a AEM Screens.
 
 A tabela a seguir destaca as propriedades com sua descrição para configurar o Adobe Analytics para AEM Screens:
 
@@ -96,7 +96,7 @@ A tabela a seguir destaca as propriedades com sua descrição para configurar o 
   <tr>
    <td><strong>URL do Analytics</strong></td>
    <td>URL para publicar dados de análise do player. <br>
-   Para desenvolvimento/estágio</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>For Production</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
+   Para desenvolvimento/estágio</em>  - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>For Production</em>  - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Chave da API do Analytics</strong></td>
@@ -119,7 +119,7 @@ A tabela a seguir destaca as propriedades com sua descrição para configurar o 
 
 >[!NOTE]
 >
->Por padrão, a Frequência **de envio do** Analytics é de 15 minutos.
+>Por padrão, a **Frequência de envio do Analytics** é de 15 minutos.
 
 #### Uso do Adobe Analytics Service no AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
@@ -129,5 +129,5 @@ Os eventos do Analytics são armazenados offline no indexedDB e posteriormente s
 
 >[!NOTE]
 >
->Para saber mais sobre o ***Sequenciamento*** e o Modelo de Dados ***Padrão para Eventos***, consulte **[Configuração do Adobe Analytics para AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
+>Para saber mais sobre o ***Sequenciamento*** e o ***Modelo de Dados Padrão para Eventos***, consulte **[Configuração do Adobe Analytics para AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
 
