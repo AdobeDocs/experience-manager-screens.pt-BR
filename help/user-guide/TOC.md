@@ -4,12 +4,12 @@ product: experience manager
 audience: end-user
 user-guide-title: Ajuda do Adobe Experience Manager Screens
 breadcrumb-title: Guia do AEM Screens
-user-guide-description: Saiba como usar uma Digital Signage Solution que permite a publicação de experiências digitais dinâmicas e interativas e interações.
+user-guide-description: Saiba como usar uma Solução de sinalização digital que permite a publicação de experiências e interações digitais dinâmicas e interativas.
 translation-type: tm+mt
 source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 14%
+ht-degree: 19%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 14%
 # Guia do usuário do AEM Screens {#user-guide}
 
 + [Introdução ao Screens](aem-screens-introduction.md)
-+ Visão geral e guia de início rápido {#overview}
++ Visão geral e Guia Kickstart {#overview}
    + [Guia de Início Rápido](kickstart-for-aem-screens.md)
    + [Guia de práticas recomendadas do Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
    + [Termos principais](screens-glossary.md)
-+ Noções básicas sobre redes de cartazes digitais {#digital-signage-network}
++ Noções básicas sobre a rede de cartazes digitais {#digital-signage-network}
    + [Parte 1: Funções e responsabilidades do projeto](project-roles-responsibilities.md)
    + [Parte 2: Considerações como projetos com escopo](project-considerations.md)
    + [Parte 3: Teste, POCs, Pilotos e Rollouts](testing-pocs-pilots-rollouts.md)
@@ -43,7 +43,7 @@ ht-degree: 14%
       + [Uso do Chrome Player como extensão para solução de problemas](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
-   + Author Publish {#author-publish}
+   + Publicação do autor {#author-publish}
       + [Visão geral da arquitetura de publicação de autor](author-publish-architecture-overview.md)
       + [Configuração do autor e da publicação](author-and-publish.md)
    + Integração do Analytics com o AEM Screens {#analytics-integration}
@@ -60,7 +60,7 @@ ht-degree: 14%
       + Atribuição de canais {#assigning-channels}
          + [Atribuição de canal](channel-assignment-latest-fp.md)
          + [Atribuição do canal: Pacotes de recursos mais antigos do AEM Screens](channel-assignment.md)
-   + Uso dos principais recursos do produto {#product-features}
+   + Usando os principais recursos do produto {#product-features}
       + [Sobreposição de texto](text-overlay.md)
       + [Atualização em massa off-line](bulk-offline-update.md)
       + [Serviço de notificações da AEM Screens](screens-notifications-service.md)
