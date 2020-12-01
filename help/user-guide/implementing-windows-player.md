@@ -23,11 +23,11 @@ ht-degree: 1%
 
 Esta seção descreve como configurar o AEM Screens Windows 10 player. Ele fornece informações sobre o arquivo de configuração e as opções disponíveis e recomendações sobre quais configurações usar para desenvolvimento e teste.
 
-## Instalação do Windows Player {#installing-windows-player}
+## Instalando o Windows Player {#installing-windows-player}
 
 Para implementar o Windows Player para AEM Screens, instale o Windows Player para AEM Screens.
 
-Visite a página [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
+Visite a página [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/).
 
 >[!NOTE]
 >Não há modo de janela no Windows player. É sempre o modo de tela cheia.
@@ -37,36 +37,38 @@ Visite a página [**AEM 6.5 Player Downloads**](https://download.macromedia.com/
 >[!NOTE]
 >Você deve configurar um ambiente para o Windows player se estiver usando o AEM Screens 6.5.5 Service Pack.
 
-Defina o atributo **SameSite para os cookies** de token de login do **Lax** para **None** do **Adobe Experience Manager Web ConsoleConfiguration** em todas as instâncias de autor e publicação AEM.
+Defina o atributo **SameSite para os cookies de token de login** de **Lax** para **None** de **Adobe Experience Manager Web Console
+Configuração** em todas as instâncias de autor e publicação AEM.
 
 Siga as etapas abaixo:
 
-1. Navegue até **Adobe Experience Manager Web ConsoleConfiguration** usando `http://localhost:4502/system/console/configMgr`.
+1. Navegue até **Adobe Experience Manager Web Console
+Configuração** usando `http://localhost:4502/system/console/configMgr`.
 
-1. Procure por *Adobe Granite Token Authentication Handler*.
+1. Procure *Adobe Granite Token Authentication Handler*.
 
-1. Defina o atributo **SameSite para os cookies** do token de login de **Lax** para **None**.
+1. Defina o atributo **SameSite para os cookies de token de login** de **Lax** para **None**.
    ![imagem](/help/user-guide/assets/granite-updates.png)
 
 1. Clique em **Salvar**.
 
-### Método ad-hoc {#ad-hoc-method}
+### Método Ad-Hoc {#ad-hoc-method}
 
-O método Ad-Hoc permite instalar o Windows Player mais recente (*.exe*). Visite a página [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
+O método Ad-Hoc permite instalar o Windows Player mais recente (*.exe*). Visite a página [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/).
 
 Depois de baixar o aplicativo, siga as etapas no player para concluir a instalação ad-hoc:
 
 1. Pressione longamente no canto superior esquerdo para abrir o painel admin.
 1. Navegue até **Configuração** no menu de ação esquerdo e digite o local (endereço) da instância de AEM à qual deseja se conectar e clique em **Salvar**.
-1. Navegue até o link **Device** **Registration** no menu de ação esquerdo para verificar o status do processo de registro do dispositivo.
+1. Navegue até o link **Dispositivo** **Registro** no menu de ação esquerdo para verificar o status do processo de registro do dispositivo.
 
 >[!NOTE]
 >
->Se o **Estado** for **REGISTRADO**, você observará que o campo ID **do** dispositivo será preenchido.
+>Se **State** for **REGISTERED**, você observará que o campo **Device id** será preenchido.
 >
->Se o **estado** for **NÃO REGISTRADO**, você poderá usar o **token** para registrar o dispositivo.
+>Se **State** for **UNREGISTERED**, poderá utilizar o **Token** para registrar o dispositivo.
 
-### Configuração do servidor em massa: Registrando vários Players do Windows 10 com uma configuração {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
+### Configuração do servidor em massa: Registrando vários Players do Windows 10 com uma Configuração {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
 
 Depois de instalar o Windows player, você pode registrar vários players com uma configuração.
 
@@ -126,11 +128,11 @@ Siga as etapas abaixo para ativar o modo Kiosk:
 
 1. Ative o Shell Launcher.
 
-   Consulte a seção ***Configurar o Shell Launcher*** na página do **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** pelo suporte do Microsoft Windows para obter mais informações.
+   Consulte a seção ***Configure Shell Launcher*** na página **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** do suporte do Microsoft Windows para obter mais informações.
 
 1. Crie um usuário não administrativo (se você já não tiver um) para ser usado para o Kiosk. Pode ser um usuário local ou de domínio.
-1. Instale o Windows player para esse usuário do Kiosk na página Downloads [do](https://download.macromedia.com/screens/) AEM Screens Player.
-1. Consulte [Usar o Shell Launcher para criar um quiosque](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) do Windows 10 para modificar o script do PowerShell para obter mais informações.
+1. Instale o Windows player para esse usuário do Kiosk na página [Downloads do AEM Screens Player](https://download.macromedia.com/screens/).
+1. Consulte [Use o Shell Launcher para criar um quiosque do Windows 10](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) para modificar o script do PowerShell para obter mais informações.
 
    Modifique o script do PowerShell para substituir o nome de usuário pelo que você criou. Verifique se o caminho para o executável do aplicativo está correto. Isso definirá o shell personalizado como o aplicativo do Windows player para o usuário do quiosque e o padrão como explorer.exe para outros usuários.
 
@@ -143,7 +145,7 @@ Se você receber uma tela preta ao fazer login como usuário do Kiosk, isso sign
 
 O caminho de instalação padrão do Windows player é:
 
-***C:\Users\&amp;lt;your user>\AppData\Local\Programs\@aem-screensscreens-player-eletron\AEM Screens Player.exe***
+***C:\Users\&amp;lt;seu usuário>\AppData\Local\Programs\@aem-screensscreens-player-eletron\AEM Screens Player.exe***
 
 O script de amostra nos links ativará e desativará o shell personalizado. Portanto, talvez seja necessário dividir o script em duas e ativar/desativar as linhas aplicáveis abaixo:
 
@@ -151,7 +153,7 @@ O script de amostra nos links ativará e desativará o shell personalizado. Port
 >
 >Em alguns ambientes do Windows, os scripts do PowerShell podem ser restritos por política (especialmente scripts não assinados). Para executar o script, talvez seja necessário desativar e reativar temporariamente essa restrição para executar o script. Abra uma janela do PowerShell e use esses comandos.
 >
->*set-Executionpolicy sem restrições* - para remover temporariamente restrições
+>*set-Executionpolicy sem restrições*  - para remover temporariamente restrições
 >
 >*set-Executionpolicy restricted* - para reativar a restrição após executar o script
 
