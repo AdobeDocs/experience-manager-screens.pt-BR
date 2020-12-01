@@ -19,11 +19,11 @@ ht-degree: 1%
 ---
 
 
-# Configuring and Deploying AEM Screens {#configuring-and-deploying-aem-screens}
+# Configuração e implantação do AEM Screens {#configuring-and-deploying-aem-screens}
 
 Esta página mostra como instalar e configurar os players do Screens em seus dispositivos.
 
-## Server Configuration {#server-configuration}
+## Configuração do servidor {#server-configuration}
 
 >[!NOTE]
 >
@@ -42,14 +42,14 @@ Ele permite que o usuário verifique as duas verificações de configuração a 
 
 Siga as etapas abaixo para verificar se essas duas configurações vitais estão habilitadas para AEM Screens:
 
-1. Navegue até Verificação [de Integridade do Console da Web do](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=)Adobe Experience Manager.
+1. Navegue até [Adobe Experience Manager Web Console Sling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=).
 
    ![ativos](assets/health-check1.png)
 
 
-2. Clique em **Executar verificações** de integridade selecionadas para executar a validação de duas propriedades listadas acima.
+2. Clique em **Executar verificações de integridade selecionadas** para executar a validação de duas propriedades listadas acima.
 
-   Se ambos os filtros estiverem ativados, o Serviço **de Integridade da Configuração da** Tela mostrará o **Resultado** como **OK** com ambas as configurações como ativado.
+   Se ambos os filtros estiverem ativados, o **Serviço de Integridade da Configuração do Screens** mostrará **Resultado** como **OK** com ambas as configurações como ativadas.
 
    ![ativos](assets/health-check2.png)
 
@@ -60,8 +60,8 @@ Siga as etapas abaixo para verificar se essas duas configurações vitais estão
 
 >[!NOTE]
 >
->* Para ativar o Filtro **de Quem indicou** Apache Sling, consulte [Permitir solicitações](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests)de Quem indicou vazias.
->* Para habilitar o serviço **HTTP** , consulte [Apache Felix Jetty Based HTTP Service](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
+>* Para ativar o **Filtro de Quem indicou Sling do Apache**, consulte [Permitir solicitações de Quem indicou vazias](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests).
+>* Para ativar o serviço **HTTP**, consulte [Serviço HTTP Baseado em Jetty Apache Felix](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
 
 
 ### Pré-requisitos {#prerequisites}
@@ -70,45 +70,45 @@ Os seguintes pontos chave abaixo ajudam a configurar e AEM o servidor a estar pr
 
 #### Permitir solicitações de Quem indicou vazias {#allow-empty-referrer-requests}
 
-1. Navegue até Configuração **do console da Web do** Adobe Experience Manager por AEM instância —> ícone de martelo —> **Operações** —> Console **da** Web.
+1. Navegue até **Configuração do Adobe Experience Manager Web Console** por AEM instância —> ícone de martelo —> **Operações** —> **Console Web**.
 
    ![imagem](assets/config/empty-ref1.png)
 
-1. **A Configuração** do Adobe Experience Manager Web Console é aberta. Procure por quem indicou de sling.
+1. **A** configuração do Adobe Experience Manager Web Console é aberta. Procure por quem indicou de sling.
 
-   Para pesquisar a propriedade sling quem indicou, pressione **Command+F** para **Mac** e **Control+F** para **Windows**.
+   Para pesquisar a propriedade de quem indicou sling, pressione **Command+F** para **Mac** e **Control+F** para **Windows**.
 
-1. Marque a opção **Permitir vazio** , conforme mostrado na figura abaixo.
+1. Marque a opção **Permitir vazio**, conforme mostrado na figura abaixo.
 
    ![imagem](assets/config/empty-ref2.png)
 
 1. Clique em **Salvar** para ativar o Filtro de Quem indicou Apache Sling Permitir vazio.
 
 
-#### Serviço HTTP Apache Felix Jetty {#allow-apache-felix-service}
+#### Serviço HTTP Baseado em Jetty Apache Felix {#allow-apache-felix-service}
 
-1. Navegue até Configuração **do console da Web do** Adobe Experience Manager por AEM instância —> ícone de martelo —> **Operações** —> Console **da** Web.
+1. Navegue até **Configuração do Adobe Experience Manager Web Console** por AEM instância —> ícone de martelo —> **Operações** —> **Console Web**.
 
    ![imagem](assets/config/empty-ref1.png)
 
-1. **A Configuração** do Adobe Experience Manager Web Console é aberta. Procure o serviço HTTP baseado em Jetty do Apache Felix.
+1. **A** configuração do Adobe Experience Manager Web Console é aberta. Procure o serviço HTTP baseado em Jetty do Apache Felix.
 
-   Para pesquisar essa propriedade, pressione **Command+F** para **Mac** e **Control+F** para **Windows**.
+   Para pesquisar esta propriedade, pressione **Command+F** para **Mac** e **Control+F** para **Windows**.
 
-1. Marque a opção **ATIVAR HTTP** , conforme mostrado na figura abaixo.
+1. Verifique a opção **ENABLE HTTP**, conforme mostrado na figura abaixo.
 
    ![imagem](assets/config/config-1.png)
 
-1. Clique em **Salvar** para ativar o serviço *http* .
+1. Clique em **Salvar** para ativar o serviço *http*.
 
-#### Ativar interface de usuário para AEM Screens {#enable-touch-ui-for-aem-screens}
+#### Habilitar interface de usuário de toque para AEM Screens {#enable-touch-ui-for-aem-screens}
 
 A AEM Screens exige a interface do usuário TOQUE e não funcionará com a interface do usuário CLASSIC do Adobe Experience Manager (AEM).
 
 1. Navegue até *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
-1. Certifique-se de que o modo **de criação da interface de usuário** padrão esteja definido como **TOUCH (TOQUE**), como mostrado na figura abaixo
+1. Certifique-se de que **Modo de interface de criação predefinido** esteja definido para **TOUCH**, conforme mostrado na figura abaixo
 
-Como alternativa, você também pode executar a mesma configuração usando suas ferramentas AuthorInstance *->* (ícone de martelo) -> **Operações** -> Console **da** Web e pesquisar pelo Serviço **de modo de interface de criação** WCM.
+Como alternativa, você também pode executar a mesma configuração usando as ferramentas *->* (ícone de martelo) -> **Operations** -> **Web Console** e procurar **Serviço de Modo de Interface de Criação de WCM**.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -116,9 +116,9 @@ Como alternativa, você também pode executar a mesma configuração usando suas
 >
 >Você sempre pode ativar a interface clássica para usuários específicos usando as preferências do usuário.
 
-#### AEM no modo de execução NOSAMPLECONTENT {#aem-in-nosamplecontent-runmode}
+#### AEM em NOSAMPLECONTENT runmode {#aem-in-nosamplecontent-runmode}
 
-A execução de AEM na produção usa o modo de execução **NOSAMPLECONTENT** . Remova o cabeçalho *X-Frame-Options=SAMEORIGIN* (na seção do cabeçalho de resposta adicional) de
+Executar AEM na produção usa o modo de execução **NOSAMPLECONTENT**. Remova o cabeçalho *X-Frame-Options=SAMEORIGIN* (na seção do cabeçalho de resposta adicional) de
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -134,19 +134,19 @@ Você pode configurar ***DeviceServiceImpl*** a partir do link abaixo para habil
 
 Siga as etapas abaixo para configurar ***DeviceServiceImpl***:
 
-1. Navegue até Configuração **do console da Web do** Adobe Experience Manager por AEM instância —> ícone de martelo —> **Operações** —> Console **da** Web.
+1. Navegue até **Configuração do Adobe Experience Manager Web Console** por AEM instância —> ícone de martelo —> **Operações** —> **Console Web**.
 
-1. **A Configuração** do Adobe Experience Manager Web Console é aberta. Procure por *dispositivo*. Para pesquisar a propriedade, pressione **Command+F** para macOS e **Control+F** para Microsoft Windows.
+1. **A** configuração do Adobe Experience Manager Web Console é aberta. Procure *device service*. Para pesquisar a propriedade, pressione **Command+F** para macOS e **Control+F** para Microsoft Windows.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
 #### Configuração do Dispatcher {#dispatcher-configuration}
 
-Para saber como configurar o dispatcher para um projeto da AEM Screens, consulte [Configuração do Dispatcher para um projeto](dispatcher-configurations-aem-screens.md)da AEM Screens.
+Para saber como configurar o dispatcher para um projeto AEM Screens, consulte [Configuração do Dispatcher para um projeto AEM Screens](dispatcher-configurations-aem-screens.md).
 
 #### Codificação Java {#java-encoding}
 
-Defina a codificação ****** Java como Unicode. Por exemplo, *Dfile.encoding=Cp1252* não funcionará.
+Defina ***codificação Java*** como Unicode. Por exemplo, *Dfile.encoding=Cp1252* não funcionará.
 
 >[!NOTE]
 >**Recomendação:**
