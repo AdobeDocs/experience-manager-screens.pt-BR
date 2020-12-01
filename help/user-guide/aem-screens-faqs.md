@@ -36,7 +36,7 @@ A função do Canal é a abstração do canal real que é executado para que o a
 
 Para *referências estáticas*, a resolução segue apenas o caminho especificado.
 
-Para *referências dinâmicas*, a resolução ocorre quando o canal é atribuído à exibição (não ao agendamento). O caminho de exibição torna-se o contexto do canal e a resolução ocorre da seguinte forma (prioridade de mais alta a mais baixa):
+Para *referências dinâmicas*, a resolução ocorre quando o canal é atribuído à exibição (não ao agendamento). O caminho de exibição torna-se o contexto do canal e a resolução acontece da seguinte forma (da prioridade mais alta à mais baixa):
 
 1. A exibição tem um nó filho que corresponde ao nome do canal referenciado
 1. A exibição tem um nó irmão que corresponde ao nome do canal referenciado
