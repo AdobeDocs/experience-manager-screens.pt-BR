@@ -17,7 +17,7 @@ A Enclosure Corporate Network SetUp é aplicável a empresas menores, maiores e 
 ![](/help/using/assets/enclosed-network-1.png)
 
 
-## Conexão do AEM Screens Player ao Direct Internet Access {#connecting-aem-screens-players}
+## Conectando o AEM Screens Player ao Direct Internet Access {#connecting-aem-screens-players}
 
 Siga as etapas abaixo para garantir a conexão correta dos players de tela AEM nesta configuração:
 
@@ -53,7 +53,7 @@ A configuração de rede corporativa incluída pode ser logicamente separada em 
 ### Rede de área ampla {#wan-connection}
 
 O desempenho da conexão com a Internet, além da acessibilidade da rede, tem que fornecer largura de banda suficiente para operar as atualizações de conteúdo da AEM Screens sem problemas.
-*A largura de banda* suficiente depende da quantidade de telas AEM conectadas e do uso de outros consumidores dentro da rede, como smartphones, tablets, caixas, computadores ou redes Wi-Fi convidadas.
+*A* largura de banda suficiente depende da quantidade de telas AEM conectadas e do uso de outros consumidores na rede, como smartphones, tablets, caixas, computadores ou redes Wi-Fi convidadas.
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ A rede LAN dentro das organizações corporativas é geralmente de pelo menos 10
 
 Por exemplo, os componentes de Rede devem corresponder pelo menos ao padrão de 100 Mbps e à largura de banda fornecida pela especificação de acesso/roteador da Internet.
 
-### Outras especificações de redes corporativas {#other-networks}
+### Outros detalhes de redes corporativas {#other-networks}
 
 As redes corporativas têm vários dispositivos conectados, são separadas em várias sub-redes e têm conexões redundantes ou multiplexadas com a Internet para fornecer desempenho suficiente para muitos milhares de acessos simultâneos.
 Esse schema é simplificado e se encaixa na maioria dos casos nos ambientes disponíveis para o cliente.
 
-Caso esteja prevista uma solução Wi-Fi para conectar as telas ao link da Internet, é recomendável usar padrões Wi-Fi modernos, como `IEEE 802.11g` mínimo. Este Standard suporta conexões de até 54 Mbps. Quaisquer padrões *mais recentes* como `802.11h-n` são de melhor qualidade. Se for necessário um Repetidor de Wi-Fi, recomendamos enfaticamente tecnologias de pontos de acesso Wi-Fi de malha, como Google Nest Mesh Wi-Fi ou similar.
+Caso esteja prevista uma solução Wi-Fi para conectar as telas ao link da Internet, é recomendável usar os padrões Wi-Fi modernos, como `IEEE 802.11g`, no mínimo. Este Standard suporta conexões de até 54 Mbps. Quaisquer *padrões mais recentes* como `802.11h-n` são de melhor qualidade. Se for necessário um Repetidor de Wi-Fi, recomendamos enfaticamente tecnologias de pontos de acesso Wi-Fi de malha, como Google Nest Mesh Wi-Fi ou similar.
 Outras tecnologias de repetição Wi-Fi acabam com uma perda enorme de largura de banda na rede geral.
 
 ## Download de mídia e ativos {#download}
