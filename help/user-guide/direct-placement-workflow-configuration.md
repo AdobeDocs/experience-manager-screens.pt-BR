@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Configuração do fluxo de trabalho de disposição direta {#direct-placement-workflow}
+# Configuração do Fluxo de Trabalho de Disposição Direta {#direct-placement-workflow}
 
 Siga esta página para saber mais sobre como configurar um fluxo de trabalho de ativos que permite inserir programaticamente um ativo em um canal AEM Screens predefinido.
 
@@ -25,21 +25,21 @@ Esta seção aborda os seguintes tópicos:
 
 A Configuração do fluxo de trabalho de disposição direta mapeia um canal de projeto da AEM Screens para uma pasta específica em ativos e permite o posicionamento de qualquer ativo nessa pasta. É recomendável acionar a atualização offline em massa para concluir a publicação.
 
-Como alternativa, como autor de conteúdo, você pode clicar manualmente em **Atualizar conteúdo** offline.
+Como alternativa, como autor de conteúdo, você pode clicar manualmente em **Atualizar conteúdo offline**.
 
 >[!NOTE]
 >
->Para saber como usar a atualização offline em massa, consulte Atualização de [conteúdo como um serviço](/help/user-guide/content-update-as-a-service.md).
+>Para saber como usar a atualização offline em massa, consulte [Atualização de conteúdo como um serviço](/help/user-guide/content-update-as-a-service.md).
 
-## Configuração do fluxo de trabalho de disposição direta {#configuring-workflow}
+## Configurando o fluxo de trabalho de disposição direta {#configuring-workflow}
 
 >[!IMPORTANT]
 >
->Antes de start da configuração, você deve instalar o Pacote [de](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)demonstração. Depois de instalar o pacote, você deve ser capaz de visualização e acessá-lo da sua instância AEM —> Ferramentas (ícone) —> **Fluxo de trabalho** —> Modelos **de** fluxo de trabalho.
+>Antes de start da configuração, você deve instalar o [Demo Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). Depois de instalar o pacote, você deve ser capaz de visualização e acessá-lo de sua instância AEM —> Ferramentas (ícone) —> **Fluxo de trabalho** —> **Modelos de fluxo de trabalho**.
 
 Siga as etapas abaixo para configurar o fluxo de trabalho de disposição direta:
 
-1. Navegue até a AEM Screens a partir da sua instância AEM e crie um projeto do Screens intitulado como Fluxo de trabalho **do** ativo.
+1. Navegue até a AEM Screens a partir da sua instância AEM e crie um projeto do Screens chamado **Fluxo de trabalho do ativo**.
 
-1. Crie um canal chamado **Workflow-Assets** na pasta **Canais** .
+1. Crie um canal chamado **Workflow-Assets** na pasta **Canais**.
 
