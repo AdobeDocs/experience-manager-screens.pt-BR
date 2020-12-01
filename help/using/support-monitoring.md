@@ -27,24 +27,24 @@ O monitoramento de conteúdo permite que você solucione problemas relacionados 
 
 1. Se um problema de tela em branco for encontrado:
 
-   * Verifique a *pré-visualização* para ver se o canal está mostrando uma tela preta
-   * Registre um reprodutor *cromático* local (como extensão) no seu notebook para essa tela e veja se isso mostra uma tela preta.
-   * Clique com o botão direito do mouse e inspecione e verifique os registros *aplicáveis*.
+   * Verifique *pré-visualização* para ver se o canal está a mostrar uma tela preta
+   * Registre um *reprodutor local do cromo* (como extensão) no seu computador portátil para essa tela e veja se isso mostra uma tela preta.
+   * Clique com o botão direito do mouse e inspecione e verifique *registros aplicáveis*.
 
    Além disso, se isso não estiver acontecendo no player local, mas apenas no dispositivo:
 
-   * Verifique o tipo *de* mídia (em uso) que pode apresentar problemas nesse dispositivo e também confirme se o conteúdo foi baixado localmente (cache de canal limpo da interface do administrador).
-   * Inclua todos os registros *do* dispositivo no tíquete para uma rápida solução de problemas.
-   * *Colete registros* do dispositivo a partir do AEM.
+   * Verifique *o tipo de mídia* (em uso) que pode ter problemas nesse dispositivo e também confirme se o conteúdo foi baixado localmente (cache de canal limpo da interface do usuário do administrador).
+   * Inclua *registros do dispositivo* no ticket para solucionar rapidamente o problema.
+   * *Colete* logons do dispositivo a partir do AEM.
 
 
-## Monitoramento de dispositivos {#device-monitoring}
+## Monitoramento de dispositivo {#device-monitoring}
 
 Monitoramento de dispositivo relacionado ao monitoramento do dispositivo físico se você encontrar um problema de tela em branco:
 
 1. Se um problema de tela em branco for encontrado:
 
-   * Verifique se o *monitor* está ligado.
-   * Verifique se o *computador* está ligado e enviando sinal.
-   * Clique com o botão direito do mouse, inspecione e verifique os registros *aplicáveis*.
+   * Verifique se *display* está ligado.
+   * Verifique se o *computador* está ligado e a enviar sinal.
+   * Clique com o botão direito do mouse, inspecione e verifique *registros aplicáveis*.
 
