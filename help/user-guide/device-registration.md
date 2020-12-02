@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 1%
@@ -155,7 +155,7 @@ Depois de registrar os dispositivos no player, você poderá visualização todo
 
 * Caractere curinga, `*` é suportado para pesquisa. Caso deseje encontrar todos os dispositivos com nomes começando com *boston*, você pode usar *boston**.
 
-1. Se o nome do dispositivo for *BostonStoreLobby* e a procura por *boston* não devolverá o resultado, utilizando *boston** nos seus critérios de pesquisa, o resultado será devolvido.
+* Se o nome do dispositivo for *BostonStoreLobby* e a procura por *boston* não devolverá o resultado, utilizando *boston** nos seus critérios de pesquisa, o resultado será devolvido.
 
 ## Limitações no registro do dispositivo {#limitations-on-device-registration}
 
