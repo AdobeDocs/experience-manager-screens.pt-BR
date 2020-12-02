@@ -2,10 +2,10 @@
 title: Notas de versão do Feature Pack 202011
 description: A página descreve as Notas de versão do Feature Pack 202011.
 translation-type: tm+mt
-source-git-commit: 53aa385b7f767a88ad19b834ecf971f6c9aa0f84
+source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 4%
+source-wordcount: '277'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 A AEM Screens lançou AEM 6.5 Feature Pack 6.
 
-Você pode baixar o pacote de recursos mais recente para a versão AEM Screens 6.5.6 do [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) usando seu Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure **Screens** para obter o pacote de recursos mais recente.
+Você pode baixar o pacote de recursos mais recente para a versão AEM Screens 6.5.6 do [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) usando seu Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure **Screens** para obter o pacote de recursos mais recente intitulado como **AEM 6.5 Screens FP6**.
 
 ## Data de lançamento {#release-date}
 
@@ -41,10 +41,11 @@ Consulte [Implementação do Tizen Player](/help/user-guide/tizen-player.md) par
 * **Funcionalidade de pesquisa do Gerenciador de dispositivos**
 
    Uma nova funcionalidade de pesquisa agora está disponível na interface do usuário do Gerenciador de dispositivos com o pacote de recursos mais recente para a versão 6.5.6 do AEM Screens.
+Consulte [Procurando um dispositivo a partir do Gerenciador de dispositivos](/help/user-guide/device-registration.md#search-device) para obter mais detalhes.
 
 * **Intervalo Ping Padrão**
 
-   O intervalo de ping padrão agora está definido como 30 segundos para esta versão.
+   O intervalo de ping padrão agora está definido como 30 segundos nesta versão.
 
 ### Jogadores AEM Screens lançados {#released-aem-screens-players}
 
