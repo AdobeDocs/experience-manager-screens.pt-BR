@@ -2,10 +2,10 @@
 title: Relatório de atribuição de conteúdo
 description: Esta página descreve o download e o uso do Relatório de atribuição de conteúdo.
 translation-type: tm+mt
-source-git-commit: b93baeeb26e48b906ee1ddfc034112f8b73615af
+source-git-commit: 13c25bda83004380dad8d8970d6be25ee83e51ac
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 2%
+source-wordcount: '307'
+ht-degree: 7%
 
 ---
 
@@ -20,34 +20,21 @@ O Relatório de atribuição de conteúdo permite que um autor ou administrador 
 
 O Relatório de atribuição de conteúdo não apenas permite uma pré-visualização de todos os Canais, Ativos, Exibições e Dispositivos no projeto AEM Screens selecionado, mas também fornece uma estrutura de alto nível do seu projeto.
 
-### Usando o Relatório de Atribuição de Conteúdo {#downloading-content-assignment-report-fp}
 
-#### Configuração do projeto {#setting-up-project}
+### Pré-requisitos {#pre-reqs}
 
-Siga as etapas abaixo para baixar o Relatório de atribuição de conteúdo de um projeto da AEM Screens:
+Antes de baixar o Relatório de atribuição de conteúdo, certifique-se de configurar um projeto da AEM Screens com Canais, Locais e Dispositivos.
+Consulte os seguintes recursos para obter mais detalhes:
 
-1. Crie um AEM Screens chamado **DemoScreens**.
+1. [Criação e gerenciamento de projetos](/help/user-guide/creating-a-screens-project.md)
+1. [Criação e gerenciamento de canais](/help/user-guide/managing-channels.md)
+1. [Criação e gerenciamento de localizações](/help/user-guide/managing-locations.md)
+1. [Criação e gerenciamento de exibições](/help/user-guide/managing-displays.md)
+1. [Criação de dispositivos](/help/user-guide/managing-devices.md)
+1. [Atribuição de canais](/help/user-guide/channel-assignment-latest-fp.md)
 
-   ![imagem](/help/user-guide/assets/content-assignment-report/car-1.png)
 
-1. Crie dois canais de sequência em **DemoScreens** como **ChannelOne** e **ChannelTwo**.
-
-   ![imagem](/help/user-guide/assets/content-assignment-report/car-2.png)
-
-1. Selecione **ChannelOne** e clique em **Editar** na barra de ações. Adicione alguns ativos (imagens/vídeos) a este canal. Da mesma forma, adicione ativos a **ChannelTwo**.
-
-1. Navegue até a pasta Locais de **DemoScreens** —> **Locais** e crie três locais diferentes intitulados como **SanJose**, **Dublin** e **SãoFrancisco**.
-
-   ![imagem](/help/user-guide/assets/content-assignment-report/car-3.png)
-
-1. Navegue até cada um dos locais e crie uma exibição para cada local, como **SanJoseMain** em **SanJose**, **DublinMain** em **Dublin**, e **SanFranciscoMain** em **Localização de São Francisco**.
-
-1. Atribua um dispositivo a cada exibição.
-
-   >[!NOTE]
-   >Para saber mais sobre como atribuir um canal a uma tela, consulte [Atribuição de Canal](/help/user-guide/channel-assignment.md).
-
-#### Download do relatório de atribuição de conteúdo {#downloading-content-assignment-report}
+## Download do relatório de atribuição de conteúdo {#downloading-content-assignment-report-fp}
 
 Depois de configurar seu projeto AEM Screens e atribuir exibições a cada um dos locais, conforme mostrado nas etapas anteriores, você estará pronto para baixar o Relatório de atribuição de conteúdo.
 
@@ -64,8 +51,4 @@ Siga as instruções abaixo para baixar o Relatório de atribuição de conteúd
 
    >[!NOTE]
    >A planilha baixada consiste em quatro colunas, como **Canais**, **Ativos**, **Mostra** e **Dispositivos**, que podem ser usadas para investigar essas quatro entidades pertencentes ao seu projeto AEM Screens.
-
-
-
-
 
