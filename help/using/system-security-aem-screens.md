@@ -25,11 +25,11 @@ Esta página destaca as Considerações sobre segurança do sistema para AEM Scr
 Esta seção descreve o white paper. (Anexo pendente do White Paper)
 
 
-## Perguntas frequentes sobre segurança AEM Screens {#faqs-screens}
+## Perguntas frequentes sobre o AEM Screens Security {#faqs-screens}
 
 As Perguntas frequentes a seguir pressupõem uma arquitetura de player autenticada e registrada usando HTTPS como protocolo de comunicação entre o player e o servidor AEM.
 
-### FAQ 1 {#faq1}
+### Perguntas frequentes 1 {#faq1}
 
 O tráfego do player pode ser redirecionado para um servidor mal-intencionado e instruído a baixar e reproduzir conteúdo de mídia mal-intencionado?
 
@@ -38,7 +38,7 @@ O tráfego do player pode ser redirecionado para um servidor mal-intencionado e 
 Não é possível porque a conexão HTTPs identifica ambas as extremidades da conexão e a criptografa. Se você tentar ficar no meio e interceptá-lo, você verá somente o conteúdo criptografado e, se tentar representar o servidor, o player o recusará porque seu certificado é diferente.
 
 
-### FAQ 2 {#faq2}
+### Perguntas frequentes 2 {#faq2}
 
 Devo usar HTTP ou HTTPs?
 
@@ -47,7 +47,7 @@ Devo usar HTTP ou HTTPs?
 Use HTTPs. Isto é uma obrigação se você está preocupado com a segurança. Com HTTPs, a comunicação é criptografada entre o player e o servidor, e interceptar o conteúdo ou modificá-lo será praticamente impossível.
 
 
-### FAQ 3 {#faq3}
+### Perguntas frequentes 3 {#faq3}
 
 Em um download de conteúdo, há algum tipo de assinatura do conteúdo ou hash?
 
@@ -57,7 +57,7 @@ Todos os ativos são assinados (SHA) pelo servidor e depois validados pelo playe
 Se o hash não corresponder, tentamos revalidar 3 vezes. Após 3 tentativas, consideramos o comando download inválido.
 
 
-### FAQ 4 {#faq4}
+### Perguntas frequentes 4 {#faq4}
 
 O servidor AEM é seguro?
 
@@ -66,7 +66,7 @@ O servidor AEM é seguro?
 Ans 4. Supondo que você esteja no AMS, cuidaremos de toda a segurança do servidor usando os mesmos recursos que Sites ou Assets.
 
 
-### FAQ 5 {#faq5}
+### Perguntas frequentes 5 {#faq5}
 
 O dispositivo é seguro?
 
@@ -83,7 +83,7 @@ Se o SO do dispositivo não for atualizado regularmente, o SO poderá ser deixad
 >É recomendável instrumentar os dispositivos com recursos adequados de atualização e controle remotos (desktop remoto, solução MDM etc.). Também é recomendável usar uma rede privada, não exposta à WIFI pública, por exemplo.
 
 
-### FAQ 6 {#faq6}
+### Perguntas frequentes 6 {#faq6}
 
 Como um hacker tentaria comprometer um jogador?
 
