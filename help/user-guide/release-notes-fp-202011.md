@@ -2,10 +2,10 @@
 title: Notas de versão do Feature Pack 202011
 description: A página descreve as Notas de versão do Feature Pack 202011.
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 7380862d0d5d77a155f9c135028c7548127a645a
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 3%
+source-wordcount: '275'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ A data de lançamento do AEM Screens Feature Pack 2011 é 30 de novembro de 2020
 
 * **Relatório de atribuição de conteúdo**
 
-   O recurso Relatório de atribuição de conteúdo permite que um administrador ou autor da AEM Screens exporte um *Relatório de atribuição de conteúdo* que pode estar no formato de planilha.
+   O recurso Relatório de atribuição de conteúdo permite que um administrador ou autor da AEM Screens exporte um *Relatório de atribuição de conteúdo* em um formato de planilha.
 Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assignment-report.md) para obter mais detalhes.
 
 
