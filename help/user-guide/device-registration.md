@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '761'
 ht-degree: 1%
 
 ---
@@ -120,6 +120,29 @@ Se você não atribuiu o dispositivo a uma tela, siga as etapas abaixo para atri
    Além disso, você pode visualização o painel de exibição ao clicar em **Concluir**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
+
+### Como pesquisar um dispositivo no Gerenciador de dispositivos {#search-device}
+
+Depois de registrar os dispositivos no player, você poderá visualização todos os dispositivos da interface do usuário do Gerenciador de dispositivos.
+
+1. Navegue até a interface do usuário do Gerenciador de dispositivos do seu projeto AEM Screens, por exemplo, **DemoScreens** —> **Dispositivos**.
+
+1. Selecione a pasta **Dispositivos** e clique em **Gerenciador de dispositivos** na barra de ações.
+
+1. A lista dos dispositivos registrados é exibida.
+
+1. Se você tiver uma lista longa de dispositivos registrados, poderá pesquisar usando o ícone de pesquisa na barra de ação ou simplesmente clicar em `/` (barra) para chamar a funcionalidade de pesquisa.
+
+#### Limitações da funcionalidade de pesquisa {#limitations}
+
+* O usuário poderá pesquisar qualquer palavra na ID do dispositivo ou no nome do dispositivo. Certifique-se de armazenar os nomes dos dispositivos em várias palavras, como &quot;Boston Store Lobby&quot;, em vez de &quot;BostonStoreLobby&quot;.
+
+* No primeiro caso, permite procurar qualquer palavra &quot;boston&quot;, &quot;store&quot;, &quot;lobby&quot;, mas no segundo caso, procurar &quot;boston&quot; não mostrará os resultados.
+
+* Caractere curinga, `*` é suportado para pesquisa. Caso deseje encontrar todos os dispositivos com o nome começando por **boston**, você pode usar **boston***.
+
+1. Se o nome do dispositivo for **BostonStoreLobby** e procurar **boston** não retornará o resultado, mas **boston*** retornará o resultado.
+
 
 ## Limitações no registro do dispositivo {#limitations-on-device-registration}
 
