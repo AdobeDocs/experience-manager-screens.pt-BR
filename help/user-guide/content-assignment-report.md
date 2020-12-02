@@ -2,10 +2,10 @@
 title: Relatório de atribuição de conteúdo
 description: Esta página descreve o download e o uso do Relatório de atribuição de conteúdo.
 translation-type: tm+mt
-source-git-commit: 13c25bda83004380dad8d8970d6be25ee83e51ac
+source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 7%
+source-wordcount: '332'
+ht-degree: 6%
 
 ---
 
@@ -45,10 +45,14 @@ Siga as instruções abaixo para baixar o Relatório de atribuição de conteúd
 
 1. Navegue até o projeto do AEM Screens e selecione o projeto **DemoScreens**.
 
-1. Clique em **Relatório de atribuição de conteúdo** na barra de ações. Uma planilha do Excel deve ser baixada para a máquina local.
+1. Clique em **Relatório de atribuição de conteúdo** na barra de ações.
 
    ![imagem](/help/user-guide/assets/content-assignment-report/can-download.png)
 
    >[!NOTE]
    >A planilha baixada consiste em quatro colunas, como **Canais**, **Ativos**, **Mostra** e **Dispositivos**, que podem ser usadas para investigar essas quatro entidades pertencentes ao seu projeto AEM Screens.
+
+1. Uma planilha do Excel é baixada para a máquina local com o nome idêntico prefixo do nome do projeto do AEM Screens. Por exemplo, se o nome do projeto for **DemoScreens**, o nome do arquivo baixado será **demoscreens-content-assign-report.xlxs**.
+
+   ![imagem](/help/user-guide/assets/content-assignment-report/car-download1.png)
 
