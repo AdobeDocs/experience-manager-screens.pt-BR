@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
+source-git-commit: e2096260d06cc2db17d690ecbc39e8dc4f1b5aa7
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '1132'
 ht-degree: 1%
 
 ---
@@ -109,3 +109,65 @@ O diagrama a seguir mostra a implementação do serviço de vigilância:
 >No Android, o *AlarmManager* é usado para registrar os *pensamentos pendentes* que podem ser executados mesmo que o aplicativo tenha travado e seu delivery de alarme seja inexato da API 19 (Kitkat). Mantenha algum espaçamento entre o intervalo do temporizador e o alarme *AlarmManager&#39;s* *pendenteIntent*.
 
 **3. Falha do aplicativo** Em caso de falha, o pendenteIntent para reinicialização registrado no AlarmManager não é mais redefinido e, portanto, executa uma reinicialização ou reinicialização do aplicativo (dependendo das permissões disponíveis no momento da inicialização do plug-in cordova).
+
+## Provisionamento em massa do Android Player {#bulk-provision-android-player}
+
+Ao implantar o player Android em massa, é necessário provisionar o player para apontar para uma instância AEM, bem como configurar outras propriedades sem inseri-las manualmente na interface do usuário do Admin.
+
+>[!NOTE]
+>Este recurso está disponível no Android player 42.0.372.
+
+Siga as etapas abaixo para permitir o provisionamento em massa no player Android:
+
+1. Crie um arquivo JSON de configuração com o nome `player-config.default.json`.
+Consulte uma [Exemplo de Política JSON](#example-json), bem como uma tabela que descreve o uso dos vários [Atributos de Política](#policy-attributes).
+
+1. Use um explorador de arquivos MDM ou ADB ou Android Studio para soltar esse arquivo JSON de política na pasta *sdcard* no dispositivo Android.
+
+1. Depois que o arquivo for implantado, use o MDM para instalar o aplicativo do player.
+
+1. Quando o aplicativo do player for iniciado, ele lerá esse arquivo de configuração e apontará para o servidor AEM aplicável, onde ele poderá ser registrado e subsequentemente controlado.
+
+   >[!NOTE]
+   >Este arquivo é *somente leitura* na primeira vez que o aplicativo é iniciado e não pode ser usado para configurações subsequentes. Se o player for iniciado antes que o arquivo de configuração seja descartado, basta desinstalar e reinstalar o aplicativo no dispositivo.
+
+### Atributos de política {#policy-attributes}
+
+A tabela a seguir resume os atributos de política com um exemplo de política JSON para referência:
+
+| **Nome da política** | **Propósito** |
+|---|---|
+| *server* | O URL para o servidor Adobe Experience Manager. |
+| *resolução* | A resolução do dispositivo. |
+| *rebootSchedule* | O agendamento para reinicialização se aplica a todas as plataformas. |
+| *enableAdminUI* | Ative a interface de usuário do administrador para configurar o dispositivo no site. Defina como *false* quando estiver totalmente configurado e em produção. |
+| *enableOSD* | Ative a interface do comutador de canais para que os usuários alternem canais no dispositivo. Considere a configuração como *false* depois de estar totalmente configurada e em produção. |
+| *enableActivityUI* | Ative para mostrar o progresso de atividades como download e sincronização. Ative para solução de problemas e desabilite-o assim que estiver totalmente configurado e em produção. |
+| *enableNativeVideo* | Ative para usar a aceleração de hardware nativa para reprodução de vídeo (somente Android). |
+
+### Exemplo de política JSON {#example-json}
+
+```java
+{
+  "server": "https://author-screensdemo.adobecqms.net",
+"device": "",
+"user": "",
+"password": "",
+"resolution": "auto",
+"rebootSchedule": "at 4:00 am",
+"maxNumberOfLogFilesToKeep": 10,
+"logLevel": 3,
+"enableAdminUI": true,
+"enableOSD": true,
+"enableActivityUI": false,
+"enableNativeVideo": false,
+"enableAutoScreenshot": false,
+"cloudMode": false,
+"cloudUrl": "https://screens.adobeioruntime.net",
+"cloudToken": "",
+"enableDeveloperMode": true
+}
+```
+
+>[!NOTE]
+>Todos os dispositivos Android têm uma pasta *sdcard* se um *sdcard* real está inserido ou não. Esse arquivo quando implantado seria do mesmo nível da pasta Downloads. Alguns MDMs, como Samsung Knox, podem se referir ao *local da pasta sdcard* como *armazenamento interno*.
