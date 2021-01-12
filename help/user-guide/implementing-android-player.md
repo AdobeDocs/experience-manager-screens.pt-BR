@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: e2096260d06cc2db17d690ecbc39e8dc4f1b5aa7
+source-git-commit: 2b72d9a83735beb327f519a66e8b3c0e8bf04409
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1134'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ Siga as etapas abaixo para assinar o aplicativo android usando as teclas do fabr
 1. &lt;pathto> /zipalignment -fv 4 aemscreensplayer.apk aemscreensalinhado.apk
 1. Instale ***aemscreensalinhado.apk*** usando a instalação do adb no dispositivo
 
-## Implementação do Android Watchdog {#android-watchdog-implementation}
+## Noções básicas sobre os serviços do Android Watchdog {#android-watchdog-services}
 
 O serviço de monitoramento entre Android é implementado como um plug-in do cordova usando *AlarmManager*.
 
