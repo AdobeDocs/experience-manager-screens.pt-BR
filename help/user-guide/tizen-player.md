@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Esta página descreve a instalação e o funcionamento do Tizen Player.
 translation-type: tm+mt
-source-git-commit: 4c005ace7b1da94ed527164d6cfa09666d746273
+source-git-commit: 092be09ec9477c9ff7561347d8f05641a90a9b40
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -23,22 +23,24 @@ Siga as etapas abaixo para implementar o Tizen Player para AEM Screens:
 ## Isentando os agentes de usuário com o problema de cookie do Samesite {#exempting-user-agents}
 
 >[!IMPORTANT]
->**Esta seção aplica-se ao AEM 6.5.5 a AEM 6.5.7**
->Há alguns mecanismos de navegador que são incompatíveis com o atributo *SameSite=None* usado no token de logon emitido pelo AEM 6.5 para AEM 6.7. Na maioria dos casos, o problema pode ser resolvido atualizando o navegador para a versão mais recente disponível. Em alguns casos, essas atualizações podem não ser possíveis, como com telas inteligentes, caixas de configuração ou outros dispositivos com mecanismos de navegação incorporados. Para isentar esses clientes incompatíveis ao usar SameSite=None, use as seguintes etapas.
+>**Esta seção se aplica ao Adobe Experience Manager (AEM) 6.5.5 a AEM 6.5.7**
+>Há alguns mecanismos de navegador que são incompatíveis com o atributo *SameSite=None* usado no token de logon emitido pelo AEM 6.5 para AEM 6.7. Na maioria dos casos, o problema pode ser resolvido atualizando o navegador para a versão mais recente disponível. Em alguns casos, essas atualizações podem não ser possíveis, como com telas inteligentes, caixas de configuração ou outros dispositivos com mecanismos de navegação incorporados.
 
-1. Baixe o patch *arquivo jar* de `https://artifactory.corp.adobe.com/artifactory/maven-aem-release-local/com/adobe/granite/crx-auth-token/2.6.10/`.
+Siga as etapas abaixo para isentar esses clientes incompatíveis ao usar *SameSite=None*:
+
+1. Atualize para Adobe Experience Manager (AEM) Service Pack 6.5.8.
 
 1. Navegue até `/system/console/bundles` no AEM e clique no botão `install/update`.
 
 1. Instale o arquivo jar `crx-auth-token`. Talvez seja necessário desligar e reiniciar o AEM após a instalação deste jar, pois ele está relacionado à autenticação.
 
-1. Depois que AEM reiniciar, vá para `/system/console/configMgr` e procure **Adobe Granite Token Authentication Handler**. Defina o valor da configuração SameSite como Nenhum.
+1. Depois que AEM reiniciar, vá para `/system/console/configMgr` e procure **Adobe Granite Token Authentication Handler**. Defina o valor para o valor **SameSite** como **None**.
 
 1. Você deve ver uma nova opção *Agentes de usuário que serão isentos do mesmo atributo*. Preencha isso com um regex correspondente aos agentes do usuário que são (são) incompatíveis com o atributo *SameSite=None*.
    >[!NOTE]
-   >Consulte [SameSite=None: Clientes incompatíveis conhecidos](https://www.chromium.org/updates/same-site/incompatible-clients) para obter mais detalhes.
+   >Consulte [SameSite=None: Clientes incompatíveis conhecidos](https://www.chromium.org/updates/same-site/incompatible-clients) para obter mais detalhes. Para o Tizen player, use o regex: `(.*)Tizen (4|5)(.*)`.
 
-1. Para o Tizen player, use o regex: `(.*)Tizen (4|5)(.*)` Registre o Tizen player em sua instância AEM 6.5.5 e superior e ele deve registrar e mostrar o conteúdo normalmente.
+1. Registre o Tizen player em sua instância AEM 6.5.5 e superior e ele deve registrar e mostrar o conteúdo normalmente.
 
 
 ## Configuração do servidor local e extração de arquivos Zip {#setting-local-server}
@@ -113,21 +115,21 @@ Siga as etapas abaixo para inscrever o dispositivo Tizen no Samsung Remote Manag
 
 1. Configure TLS, se necessário. Navegue até a porta e selecione o número da porta no servidor. Clique em **Salvar**.
 
-1. Navegue até a guia Dispositivo e procure o dispositivo que acabou de configurar.
+1. Navegue até a guia **Dispositivo** e verifique o dispositivo que você acabou de configurar. Depois que um dispositivo for encontrado, clique na caixa de seleção e selecione **Aprovar**.
 
-1. Depois que um dispositivo for encontrado, clique na caixa de seleção e selecione **Aprovar**.
-
-1. Preencha as informações necessárias e selecione um grupo de dispositivos. Clique em **Ok** para concluir o processo de aprovação.
+1. Preencha as informações necessárias e selecione um grupo de dispositivos. Clique em **OK** para concluir o processo de aprovação.
 
    >![imagem](/help/user-guide/assets/tizen/rms-7.png)
 
-1. Depois que o dispositivo for aprovado, ele deverá aparecer na Lista do dispositivo. Clique no botão *Information* localizado na caixa do dispositivo **i**.
+1. Depois que o dispositivo for aprovado, ele deverá aparecer na Lista do dispositivo. Clique no botão *Information* localizado na caixa do dispositivo, ou seja **i**, conforme mostrado na figura abaixo.
 
    >![imagem](/help/user-guide/assets/tizen/rms-6.png)
 
 1. A caixa de diálogo de informações do dispositivo é exibida. Selecione a guia **Informações do dispositivo** e clique em **Editar**.
 
-1. Edite as opções de Dispositivo e selecione a guia **Configuração**. Navegue até a seção **Iniciador de URL** e insira o URL que hospeda o wgt e `SSSP config file` para instalar um aplicativo `SSSP`, conforme mostrado na figura abaixo.
+   >![imagem](/help/user-guide/assets/tizen/rms-5.png)
+
+1. Edite as opções do dispositivo e selecione a guia **Configuração**. Navegue até a seção **Iniciador de URL** e insira o URL que hospeda o wgt e `SSSP config file` para instalar um aplicativo `SSSP`, conforme mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/tizen/rms-9.png)
 
