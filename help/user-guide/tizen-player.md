@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Esta página descreve a instalação e o funcionamento do Tizen Player.
 translation-type: tm+mt
-source-git-commit: 1ec3e3541755550f719dbe53e83326d9796de14f
+source-git-commit: dc2fedaa5726e1013e1b51f429ba19e4a709de28
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
@@ -82,24 +82,35 @@ Siga as etapas abaixo para inscrever o Tizen Device no Samsung Remote Management
 >[!NOTE]
 >Verifique as configurações de rede e o monitor.
 
-1. Pressione Menu no controle remoto e vá para Sistema e pressione Enter em Reproduzir via.
+1. Navegue até **Menu** -> **Rede** -> **Definições de Rede do Servidor** e prima **Enter**.
 
    >[!NOTE]
-   >Verifique se a tela está configurada para Reproduzir por meio do Inicializador de URL
-1. Navegue até **Menu** -> **Rede** -> **Definições de Rede do Servidor** e prima **Enter**.
+   >Verifique se a tela está configurada para Reproduzir por meio do URL Launcher.
 
 1. Navegue até Server Address (Endereço do servidor) e digite o acesso ao URL MagicInfo e pressione Done (Concluído).
 
-1. Navegue até a guia Dispositivo depois de conectado ao MIS
-1. Procure o dispositivo que você acabou de configurar, observando o endereço IP e/ou seu endereço Mac.
-1. Depois que um dispositivo for encontrado, clique na caixa de seleção e selecione Aprovar
-1. Verifique se a tela está configurada para Reproduzir por meio do URL Launcher
-1. Pressione Menu no controle remoto e vá para Sistema e pressione Enter no Play Via
-1. Navegue até Menu -> Rede -> Configurações de rede do servidor e pressione Enter
-1. Vá para Endereço do servidor e digite o acesso ao URL MagicInfo e pressione Concluído
 1. Configure TLS para usar ou Não usar, dependendo do caso
-1. Vá para a porta e selecione o número da porta no servidor.
-1. Pressione Salvar quando as opções estiverem prontas.
+   1. Vá para a porta e selecione o número da porta no servidor.
+   1. Pressione Salvar quando as opções estiverem prontas.
+
+1. Navegue até a guia Dispositivo depois de conectado ao MIS
+   1. Procure o dispositivo que você acabou de configurar, observando o endereço IP e/ou seu endereço Mac.
+   1. Depois que um dispositivo for encontrado, clique na caixa de seleção e selecione Aprovar.
+
+1. Depois de clicar no botão Aprovado, o seguinte pop-up será exibido
+   1. Preencha as informações necessárias
+   1. selecionar um grupo de dispositivos
+   1. Clique no botão OK para concluir o processo de aprovação.
+
+1. Depois que o dispositivo é aprovado, ele deve aparecer como a seguir na Lista do dispositivo.
+   1. Clique no botão Information (Informações) localizado na caixa &quot;i&quot; do dispositivo
+
+1. O menu Device Information Pop-up (Informações do dispositivo) será exibido como segue e clique no botão Edit (Editar).
+
+1. As opções Editar dispositivo serão exibidas conforme a seguir e selecione a guia Configuração.
+
+1. Localize a Seção Iniciador de URL e insira o URL que hospeda o wgt e `SSSP config file` para instalar um aplicativo SSSP.
+
 
 
 
