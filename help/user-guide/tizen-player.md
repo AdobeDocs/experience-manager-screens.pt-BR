@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Esta página descreve a instalação e o funcionamento do Tizen Player.
 translation-type: tm+mt
-source-git-commit: b3209d1dcce6defff347f288c704a1e7ea075ecf
+source-git-commit: 1ec3e3541755550f719dbe53e83326d9796de14f
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Siga as etapas abaixo para implementar o Tizen Player para AEM Screens:
 
-1. Navegue até a página [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) para baixar o Tizen Player.
+1. Navegue até a página [AEM 6.5 Player Downloads](https://download.macromedia.com/screens/) para baixar o Tizen Player.
 
-1. Instale o arquivo do Tizen player (.zip) do computador local.
+1. Instale o arquivo Tizen player *(.zip)* do computador local.
 
 ## Configuração do servidor local e extração de arquivos Zip {#setting-local-server}
 
@@ -32,15 +32,23 @@ Siga as etapas abaixo para configurar o servidor local e copiar os arquivos extr
 
 1. O Tizen player baixará o instalador do servidor local.
 
-1. Copie os dois arquivos extraídos, como `AEMScreensPlayer.wgt` e `sssp_config.xml`, para o diretório raiz do servidor local.
+1. Copie os dois arquivos extraídos, como `AEMScreensPlayer.wgt` e `sssp_config.xml`, para o diretório raiz do servidor Web Apache local.
+
+   >[!NOTE]
+   >O `AEMScreensPlayer.wgt`é o aplicativo Tizen player real e `sssp_config.xml` contém informações sobre esse mapa que ajudam a instalá-lo no dispositivo Tizen.
 
 ### Configurando atualizações no dispositivo Samsung {#config-updates}
 
 Siga as etapas abaixo no dispositivo Samsung para concluir a instalação do AEM Screens player no dispositivo:
 
-1. Vá para seu dispositivo Samsung.
+1. Navegue até seu dispositivo Samsung e ligue-o.
 
-1. Clique no botão **Início** usando o controle remoto do dispositivo e selecione **Configurações do Iniciador de URL**.
+1. Clique no botão **MENU** do controle remoto do dispositivo e role para baixo até **System** da barra de navegação esquerda.
+
+1. Role para baixo e selecione a opção **Reproduzir por meio do URL Launcher**.
+   ![imagem](/help/user-guide/assets/tizen/url-launcher.png)
+
+1. Pressione o botão **Home** do seu controle remoto.
 
 1. Insira o endereço IP do servidor host local.
 
@@ -49,6 +57,49 @@ Siga as etapas abaixo no dispositivo Samsung para concluir a instalação do AEM
 1. Clique no botão **Início** no controle remoto do dispositivo e selecione **Iniciador de URL**.
 
 1. O AEM Screens Player agora deve instalar e iniciar automaticamente em seu dispositivo Samsung.
+
+## Provisionamento em massa do Tizen Player {#bulk-provisioning-tizen-player}
+
+>[!NOTE]
+>Pode ser um esforço tedioso inserir manualmente o endereço do servidor AEM na interface do usuário do administrador de cada dispositivo para um grande número de dispositivos. É recomendável usar a solução Samsung Remote Management (RMS) para implantar e gerenciar a solução. Consulte [Registrando o dispositivo Tizen no serviço de gerenciamento remoto Samsung (RMS)](#enroll-tizen-device-rm) para obter mais detalhes.
+
+Siga as etapas abaixo para fornecer o aplicativo em massa para apontar para a instância do autor AEM quando ele for iniciado:
+
+1. Baixe e instale o [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download).
+1. Abra o arquivo `wgt` usando o estúdio Tizen.
+1. Abra o arquivo `firmware-platform.js` e procure `DEFAULT_PREFERENCES` e altere o URL do servidor para o URL do autor AEM e salve.
+1. Crie o novo arquivo `wgt`.
+
+   >[!NOTE]
+   >Talvez seja necessário criar ou configurar um certificado de assinatura.
+
+1. Implante este novo arquivo `wgt` RMS e quando o player o iniciar, ele deverá apontar automaticamente para o servidor para que você não precise inseri-lo manualmente em todos os dispositivos.
+
+### Registrando o dispositivo Tizen no serviço de gerenciamento remoto Samsung (RMS) {#enroll-tizen-device-rms}
+
+Siga as etapas abaixo para inscrever o Tizen Device no Samsung Remote Management Service (RMS) e configurar remotamente o URL Launcher:
+
+>[!NOTE]
+>Verifique as configurações de rede e o monitor.
+
+1. Pressione Menu no controle remoto e vá para Sistema e pressione Enter em Reproduzir via.
+
+   >[!NOTE]
+   >Verifique se a tela está configurada para Reproduzir por meio do Inicializador de URL
+1. Navegue até **Menu** -> **Rede** -> **Definições de Rede do Servidor** e prima **Enter**.
+
+1. Navegue até Server Address (Endereço do servidor) e digite o acesso ao URL MagicInfo e pressione Done (Concluído).
+
+1. Navegue até a guia Dispositivo depois de conectado ao MIS
+1. Procure o dispositivo que você acabou de configurar, observando o endereço IP e/ou seu endereço Mac.
+1. Depois que um dispositivo for encontrado, clique na caixa de seleção e selecione Aprovar
+1. Verifique se a tela está configurada para Reproduzir por meio do URL Launcher
+1. Pressione Menu no controle remoto e vá para Sistema e pressione Enter no Play Via
+1. Navegue até Menu -> Rede -> Configurações de rede do servidor e pressione Enter
+1. Vá para Endereço do servidor e digite o acesso ao URL MagicInfo e pressione Concluído
+1. Configure TLS para usar ou Não usar, dependendo do caso
+1. Vá para a porta e selecione o número da porta no servidor.
+1. Pressione Salvar quando as opções estiverem prontas.
 
 
 
