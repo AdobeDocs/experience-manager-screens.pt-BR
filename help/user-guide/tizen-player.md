@@ -2,10 +2,10 @@
 title: Tizen Player
 description: Esta página descreve a instalação e o funcionamento do Tizen Player.
 translation-type: tm+mt
-source-git-commit: 6f93922bf94b9f0f752c0953c7bed35b5d056e4b
+source-git-commit: 0c8ca6c509208d19d2ea23e5bff712aaf780d2fe
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 0%
+source-wordcount: '930'
+ht-degree: 1%
 
 ---
 
@@ -30,6 +30,9 @@ Siga as etapas abaixo para isentar esses clientes incompatíveis ao usar *SameSi
 
 1. Atualize para Adobe Experience Manager (AEM) Service Pack 6.5.8.
 
+   >[!NOTE]
+   >Se estiver instalando o AEM 6.5.8, você pode ignorar as etapas 2 e 3.
+
 1. Navegue até `/system/console/bundles` no AEM e clique no botão `install/update`.
 
 1. Instale o arquivo jar `crx-auth-token`. Talvez seja necessário desligar e reiniciar o AEM após a instalação deste jar, pois ele está relacionado à autenticação.
@@ -38,27 +41,23 @@ Siga as etapas abaixo para isentar esses clientes incompatíveis ao usar *SameSi
 
 1. Você deve ver uma nova opção *Agentes de usuário que serão isentos do mesmo atributo*. Preencha isso com um regex correspondente aos agentes do usuário que são (são) incompatíveis com o atributo *SameSite=None*.
    >[!NOTE]
-   >Consulte [SameSite=None: Clientes incompatíveis conhecidos](https://www.chromium.org/updates/same-site/incompatible-clients) para obter mais detalhes. Para o Tizen player, use o regex: `(.*)Tizen (4|5)(.*)`.
+   >Consulte [SameSite=None: Clientes incompatíveis conhecidos](https://www.chromium.org/updates/same-site/incompatible-clients) para obter mais detalhes. Para o Tizen player, use o regex: `(.*)Tizen(.*)`.
 
 1. Registre o Tizen player em sua instância AEM 6.5.5 e superior e ele deve registrar e mostrar o conteúdo normalmente.
 
 
 ## Configuração do servidor local e extração de arquivos Zip {#setting-local-server}
 
-Siga as etapas abaixo para configurar o servidor local e copiar os arquivos extraídos:
-
-1. Obtenha o endereço IP da sua máquina local.
-   >[!NOTE]
-   >Consulte a documentação oficial para saber como ativar o servidor local em sua plataforma.
-
-1. No terminal, navegue até o mesmo diretório da pasta do instalador descompactado e verifique se o host local está funcionando.
-
-1. O Tizen player baixará o instalador do servidor local.
+Siga as etapas abaixo:
 
 1. Copie os dois arquivos extraídos, como `AEMScreensPlayer.wgt` e `sssp_config.xml`, para o diretório raiz do servidor Web Apache local.
 
    >[!NOTE]
    >O `AEMScreensPlayer.wgt`é o aplicativo Tizen player real e `sssp_config.xml` contém informações sobre esse mapa que ajudam a instalá-lo no dispositivo Tizen.
+
+1. Obtenha o IP ou o URL do servidor HTTP local (e o caminho para a pasta que contém os arquivos extraídos na etapa 2 se extraídos para uma subpasta e não para a pasta raiz)
+
+1. O Tizen player baixará o instalador do servidor local.
 
 ### Configurando atualizações no dispositivo Samsung {#config-updates}
 
@@ -73,7 +72,9 @@ Siga as etapas abaixo no dispositivo Samsung para concluir a instalação do AEM
 
 1. Depois que o Iniciador de URL estiver definido, pressione o botão **Home** do seu controle remoto.
 
-1. Navegue até **Configurações do Iniciador de URL** e insira o endereço IP do servidor de host local.
+1. Navegue até **Configurações do Iniciador de URL** e insira o endereço IP do servidor de host local e clique em **Concluído**.
+   >[!NOTE]
+   >O Tizen player deve ser capaz de se conectar ao servidor http.
 
 1. O AEM Screens Player agora deve instalar e iniciar automaticamente em seu dispositivo Samsung.
 
@@ -115,6 +116,8 @@ Siga as etapas abaixo para inscrever o dispositivo Tizen no Samsung Remote Manag
 1. Configure TLS, se necessário. Navegue até a porta e selecione o número da porta no servidor e clique em **Salvar**.
 
 1. Navegue até a guia **Dispositivo** e verifique o dispositivo que você acabou de configurar. Depois que um dispositivo for encontrado, clique na caixa de seleção e selecione **Aprovar**.
+
+   >![imagem](/help/user-guide/assets/tizen/rms-3.png)
 
 1. Preencha as informações necessárias e selecione um grupo de dispositivos. Clique em **OK** para concluir o processo de aprovação.
 
