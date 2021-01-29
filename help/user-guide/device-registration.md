@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
+source-git-commit: 85d50951caa27b62b1e05fc808de96ffb4e526b5
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 1%
@@ -121,7 +121,7 @@ Se você não atribuiu o dispositivo a uma tela, siga as etapas abaixo para atri
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-### Como pesquisar um dispositivo no Gerenciador de dispositivos {#search-device}
+## Como pesquisar um dispositivo no Gerenciador de dispositivos {#search-device}
 
 Depois de registrar os dispositivos no player, você poderá visualização todos os dispositivos da interface do usuário do Gerenciador de dispositivos.
 
@@ -144,14 +144,14 @@ Depois de registrar os dispositivos no player, você poderá visualização todo
    ![imagem](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
-#### Limitações da funcionalidade de pesquisa {#limitations}
+### Limitações da funcionalidade de pesquisa {#limitations}
 
 * O usuário poderá pesquisar qualquer palavra existente na *ID do dispositivo* ou *Nome do dispositivo*.
 
    >[!NOTE]
    >É recomendável criar os nomes dos dispositivos em várias palavras, como *Boston Store Lobby*, em vez de um único *BostonStoreLobby*.
 
-* Se você criar nomes de dispositivos como *Boston Store Lobby*, ele permitirá procurar por qualquer palavra *boston*, *store* ou *lobby*, mas se o nome do dispositivo for conhecido como *BostonStoreLobby* pesquisando &lt;a1010/>boston *não mostrará os resultados.*
+* Se você criar nomes de dispositivos como *Boston Store Lobby*, ele permitirá procurar por qualquer palavra *boston*, *store* ou *lobby*, mas se o nome do dispositivo for conhecido como *BostonStoreLobby* pesquisando *boston* não mostrará os resultados.
 
 * Caractere curinga, `*` é suportado para pesquisa. Caso deseje encontrar todos os dispositivos com nomes começando com *boston*, você pode usar *boston**.
 
