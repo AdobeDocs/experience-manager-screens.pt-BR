@@ -4,10 +4,10 @@ seo-title: Configurações do Dispatcher para AEM Screens
 description: Esta página destaca as diretrizes para configurar o dispatcher para um projeto da AEM Screens.
 seo-description: Esta página destaca as diretrizes para configurar o dispatcher para um projeto da AEM Screens.
 translation-type: tm+mt
-source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
+source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 9%
+source-wordcount: '380'
+ht-degree: 6%
 
 ---
 
@@ -32,22 +32,26 @@ Consulte [Configurando o Dispatcher](https://docs.adobe.com/content/help/pt-BR/e
 
 ## Configurando o Dispatcher {#configuring-dispatcher}
 
+Os players/dispositivos AEM Screens usam uma sessão autenticada para acessar os recursos nas instâncias de publicação também. Portanto, quando você tem várias instâncias de publicação, as solicitações devem sempre ir para a mesma instância de publicação para que a sessão autenticada seja válida para todas as solicitações provenientes dos players/dispositivos AEM Screens.
+
 Siga as etapas abaixo para configurar o dispatcher para um projeto da AEM Screens.
 
 ### Habilitar Sessões Aderentes {#enable-sticky-session}
 
-Se você quiser usar mais de uma instância de publicação com o dispatcher, será necessário atualizar o arquivo `dispatcher.any`.
+Se quiser usar várias instâncias de publicação encaminhadas por um único despachante, será necessário atualizar o arquivo `dispatcher.any` para ativar a aderência
 
 ```xml
 /stickyConnections {
   /paths
   {
-    "/content/screens"
-    "/home/users/screens"
-    "/libs/granite/csrf/token.json"
+    "/"
   }
-}
+ }
 ```
+
+Se você tiver uma instância de publicação encaminhada por um despachante, ativar a adesão no despachante não ajudará, pois o balanceador de carga pode enviar cada solicitação ao despachante. Nesse caso, você deve ativar a aderência no nível do balanceador de carga.
+
+Por exemplo, se você estiver usando AWS ALB, consulte [Grupos alvos para seus Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) para ativar aderência no nível ALB. Habilite a adesão por 1 dia.
 
 ### Etapa 1: Configurando Cabeçalhos do Cliente {#step-configuring-client-headers}
 
