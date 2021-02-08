@@ -4,9 +4,9 @@ seo-title: Configurações do Dispatcher para AEM Screens
 description: Esta página destaca as diretrizes para configurar o dispatcher para um projeto da AEM Screens.
 seo-description: Esta página destaca as diretrizes para configurar o dispatcher para um projeto da AEM Screens.
 translation-type: tm+mt
-source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
+source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '391'
 ht-degree: 6%
 
 ---
@@ -49,7 +49,9 @@ Se quiser usar várias instâncias de publicação encaminhadas por um único de
  }
 ```
 
-Se você tiver uma instância de publicação encaminhada por um despachante, ativar a adesão no despachante não ajudará, pois o balanceador de carga pode enviar cada solicitação ao despachante. Nesse caso, você deve ativar a aderência no nível do balanceador de carga.
+Se você tiver uma instância de publicação encaminhada por um despachante, ativar a adesão no despachante não ajudará, pois o balanceador de carga pode enviar cada solicitação ao despachante. Nesse caso, clique em **Ativar** no campo **Ventilação** para ativá-lo no nível do balanceador de carga, como mostrado na figura abaixo:
+
+![imagem](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
 Por exemplo, se você estiver usando AWS ALB, consulte [Grupos alvos para seus Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) para ativar aderência no nível ALB. Habilite a adesão por 1 dia.
 
