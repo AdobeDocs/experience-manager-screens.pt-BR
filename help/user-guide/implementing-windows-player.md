@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
+source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '995'
 ht-degree: 1%
 
 ---
@@ -71,6 +71,25 @@ Depois de baixar o aplicativo, siga as etapas no player para concluir a instala�
 ### Configuração do servidor em massa: Registrando vários Players do Windows 10 com uma Configuração {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
 
 Depois de instalar o Windows player, você pode registrar vários players com uma configuração.
+
+## Instalação usando CLI (PowerShell) {#install-powershell}
+
+1. Crie um local personalizado **dedicado** para o Screens Player, por exemplo:
+   `C:\Users\User\screens-player`)
+1. Instalar
+   `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
+1. Abrir
+   `Start-Process C:\Users\User\screens-player\AEMScreensPlayer.exe`
+
+**Exemplo**
+
+```shell
+C:\Users\User\Downloads> mkdir screens-player
+
+C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\Downloads\screens-player
+
+C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
+```
 
 >[!NOTE]
 >
