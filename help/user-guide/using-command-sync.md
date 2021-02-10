@@ -4,9 +4,9 @@ seo-title: Usando sincronização de comandos
 description: Siga esta página para saber mais sobre como usar a Sincronização de comandos.
 seo-description: Siga esta página para saber mais sobre como usar a Sincronização de comandos.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '794'
 ht-degree: 2%
 
 ---
@@ -52,10 +52,10 @@ Antes de usar o recurso de Sincronização de comandos, verifique se você tem u
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Crie uma exibição na pasta **Locations**, conforme mostrado na figura abaixo.
+1. Crie um local **Sala de espera** e, subsequentemente, uma tela chamada **Sala de espera** na pasta **Locais**, conforme mostrado na figura abaixo.
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. Atribua o canal, **ChannelLobby** ao seu **LobbyDisplay**.
+1. Atribua o canal, **ChannelLobby** ao seu **LobbyDisplay**. Agora você pode visualização o canal atribuído à exibição a partir do painel de exibição.
    ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
@@ -68,7 +68,7 @@ Antes de usar o recurso de Sincronização de comandos, verifique se você tem u
 
    >[!NOTE]
    >
-   >Para saber como atribuir um canal a uma exibição, consulte [Criação e gerenciamento de vídeos](/help/user-guide/managing-displays.md)
+   >Para saber como registrar um dispositivo, consulte [Device Registration](/help/user-guide/device-registration.md)
 
 1. Para fins de demonstração, este exemplo mostra um dispositivo de cromo e um Windows player como dois dispositivos separados. Ambos os dispositivos apontam para a mesma tela.
    ![image1](assets/command-sync6.png)
