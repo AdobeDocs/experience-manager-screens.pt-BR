@@ -6,9 +6,9 @@ seo-description: Siga esta página para obter respostas para perguntas frequente
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 359c15d16c83e5d3cecee0bbe2ef7e68a815e660
+source-git-commit: 7869e462417b93dab568e1a8e6b5c608832ba5bd
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1819'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,12 @@ A seção a seguir fornece respostas para algumas das perguntas frequentes mais 
 * Verifique se as representações apropriadas foram criadas e se a representação correta está sendo reproduzida.
 * Verifique se há algum conteúdo programado e se os horários estão corretos. Verifique se o tempo configurado no player está correto.
 * Inspect os registros do console do player e verifique se há erros. Clique com o botão direito do mouse e inspecione para ver os registros do console. Se estiver usando o Windows player, pressione `CTRL + ALT +I` para ativar o console dev para visualização dos registros.
+
+### 2. Como resolver problemas de tela em branco no AEM Screens ao criar um Canal padrão ou um agendamento?
+
+Para evitar telas em branco ou cinza no campo, crie um canal global padrão ou uma programação, atribuída a cada tela com prioridade mínima 1. Caso ocorra algum problema com as atualizações de conteúdo (devido à rede, player, servidor ou replicação), já que os players já possuem esse conteúdo em cache no disco, que deve ser reproduzido normalmente e evitar telas cinza.
+
+Todo o outro conteúdo, como canais ou agendamentos, terá prioridade maior que 1, de modo que o outro conteúdo tenha prioridade e o canal global ou conteúdo de agendamento (com prioridade 1) será reproduzido somente como opção de fallback.
 
 ## Gerenciamento de canais {#channel-management}
 
