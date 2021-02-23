@@ -6,9 +6,9 @@ seo-description: Siga esta página para obter respostas para perguntas frequente
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 3c78dd2f2f5cff421917eb5d657d8fd6fb2e3229
+source-git-commit: 70e94631a808c81fae79de396d3ead8094c903e1
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1898'
 ht-degree: 1%
 
 ---
@@ -165,6 +165,24 @@ Siga as etapas abaixo para solucionar problemas de um AEM Screens player que env
 1. Verifique se você tem `/etc/map` regras na instância *author* ou *publish* e os caminhos de telas correspondem a `sling:match` e são redirecionados internamente para um caminho diferente. Resolver o url exato em `/system/console/jcrresolver` ajuda a identificar se a instância *publish* está regravando esses URLs para qualquer outro caminho.
 
 1. Verifique se a configuração do Apache Sling Resource Resolver Fatory está causando regravações internas.
+
+### Como obter os detalhes da exibição e do dispositivo da API do player?
+
+Há duas maneiras de obter os detalhes por meio de:
+
+* **uma API JS interna**
+* **uma loja** do ContextHub: Três armazenamentos do ContextHub são definidos  `/libs/screens/clientlibs/contexthub` para expor canais, dispositivos e informações de exibição.
+
+   Siga as etapas abaixo para usar esses valores de armazenamento do ContentHub:
+
+   * Edite as propriedades do canal e defina o caminho do ContextHub na guia personalização para o valor (como mencionado acima)
+   * No canal JS, você pode usar:
+
+      ```shell
+         ContextHub.getStore('screens-device');
+         ContextHub.getStore('screens-display');
+         ContextHub.getStore('screens-channels');
+      ```
 
 ## Dicas gerais de solução de problemas {#general-troubleshooting-tips}
 
