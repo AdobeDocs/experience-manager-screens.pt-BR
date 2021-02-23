@@ -6,9 +6,9 @@ seo-description: Siga esta página para obter respostas para perguntas frequente
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 70e94631a808c81fae79de396d3ead8094c903e1
+source-git-commit: 7f9eacb456b26d9b7efb595397fff2f64335be8c
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1900'
 ht-degree: 1%
 
 ---
@@ -166,9 +166,9 @@ Siga as etapas abaixo para solucionar problemas de um AEM Screens player que env
 
 1. Verifique se a configuração do Apache Sling Resource Resolver Fatory está causando regravações internas.
 
-### Como obter os detalhes da exibição e do dispositivo da API do player?
+### 6. Como obter os detalhes da exibição e do dispositivo da API do player?
 
-Há duas maneiras de obter os detalhes por meio de:
+Você pode obter os detalhes da tela e do dispositivo por meio de:
 
 * **uma API JS interna**
 * **uma loja** do ContextHub: Três armazenamentos do ContextHub são definidos  `/libs/screens/clientlibs/contexthub` para expor canais, dispositivos e informações de exibição.
