@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 8f64009e121a0ff9936006abc8fc63479b502a48
+source-git-commit: 529bcaf7ded850b8f7fec95d2f85e84c5d79a66a
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '997'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,10 @@ Depois de baixar o aplicativo, siga as etapas no player para concluir a instala�
 >Se **State** for **REGISTERED**, você observará que o campo **Device id** será preenchido.
 >
 >Se **State** for **UNREGISTERED**, poderá utilizar o **Token** para registrar o dispositivo.
+
+## Alteração das opções padrão no Windows Installer {#changing-default-options}
+
+Siga esta seção para saber como alterar as opções padrão no Windows Installer e a lista de personalizações disponíveis.
 
 ## Instalação usando CLI (PowerShell) {#install-powershell}
 
