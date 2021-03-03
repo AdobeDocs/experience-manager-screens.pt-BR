@@ -2,10 +2,10 @@
 title: Notas de versão do Feature Pack 202103
 description: A página destaca as Notas de versão do Feature Pack 202103.
 translation-type: tm+mt
-source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
+source-git-commit: 56432654d0895b892223677c8a03f10181864271
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 9%
+source-wordcount: '421'
+ht-degree: 8%
 
 ---
 
@@ -46,6 +46,15 @@ A data de lançamento do Feature Pack 202103 do AEM Screens é 8 de março de 20
 * A migração do SmartSync quebraria o reprodutor, se o cache não fosse invalidado.
 
 * Os caches offline não foram criados, se a Atribuição tivesse *OfflineConfig*.
+
+* Atualizações para problemas do Tizen player porque a política de referência origem estrita quando origem cruzada não é suportada.
+
+* A alteração do campo &quot;Repetir&quot; do agendamento do canal atribuído estava quebrando a interface do usuário.
+
+* A atualização do conteúdo offline falhava com exceções de consulta.
+
+* A migração do SmartSync estava quebrando o reprodutor, se o cache não foi invalidado
+
 
 ### Players do AEM Screens {#released-aem-screens-players} liberados
 
