@@ -2,10 +2,10 @@
 title: Notas de versão do Feature Pack 202103
 description: A página destaca as Notas de versão do Feature Pack 202103.
 translation-type: tm+mt
-source-git-commit: 56432654d0895b892223677c8a03f10181864271
+source-git-commit: 34f93df3fa212eaae713b0c8686d95beeb0c7b67
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 8%
+source-wordcount: '355'
+ht-degree: 2%
 
 ---
 
@@ -33,11 +33,8 @@ A data de lançamento do Feature Pack 202103 do AEM Screens é 8 de março de 20
 
 * **Provisionamento em massa do Android Player usando o Gerenciamento de mobilidade empresarial**
 
-   Ao implantar o reprodutor Android em massa, torna-se entediante registrar manualmente cada reprodutor no AEM. É altamente recomendável usar uma solução EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron ou Samsung Knox para provisionar e gerenciar remotamente sua implantação. O AEM Screens Android player é compatível com o padrão do setor Aplicativo EMM para permitir provisionamento remoto.
+   Ao implantar o reprodutor Android em massa, torna-se entediante registrar manualmente cada reprodutor no AEM. É altamente recomendável usar uma solução EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron ou Samsung Knox para provisionar e gerenciar remotamente sua implantação. O AEM Screens Android player é compatível com o EMM AppConfig padrão do setor para permitir provisionamento remoto.
 
-* **Bloquear página em um canal do AEM Screens**
-
-   O AEM Screens agora oferece suporte a *Locking a Page*, conforme já implementado no AEM Sites. O Adobe Experience Manager (AEM) permite bloquear uma página, de modo que ninguém mais possa modificar o conteúdo. Isso é útil quando você está fazendo diversas edições para uma página específica ou quando precisa congelar uma página por pouco tempo.
 
 ### Correções de erros {#bug-fixes}
 
