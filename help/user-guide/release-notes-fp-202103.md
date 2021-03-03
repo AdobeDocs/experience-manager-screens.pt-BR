@@ -2,10 +2,10 @@
 title: Notas de versão do Feature Pack 202103
 description: A página destaca as Notas de versão do Feature Pack 202103.
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 11%
+source-wordcount: '379'
+ht-degree: 9%
 
 ---
 
@@ -30,6 +30,10 @@ A data de lançamento do Feature Pack 202103 do AEM Screens é 8 de março de 20
 * **Registro e atribuição em massa do AEM Screens**
 
    O registro em massa de milhares de jogadores manualmente é muito complicado e aumenta o tempo e o custo. Para simplificar esse processo, o recurso Registro em massa permite especificar uma chave pré-compartilhada no AEM que pode ser provisionada em um player por meio de um arquivo de configuração ou de uma solução de Gerenciamento de dispositivo móvel (MDM).
+
+* **Provisionamento em massa do Android Player usando o Gerenciamento de mobilidade empresarial**
+
+   Ao implantar o reprodutor Android em massa, torna-se entediante registrar manualmente cada reprodutor no AEM. É altamente recomendável usar uma solução EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron ou Samsung Knox para provisionar e gerenciar remotamente sua implantação. O AEM Screens Android player é compatível com o padrão do setor Aplicativo EMM para permitir provisionamento remoto.
 
 * **Bloquear página em um canal do AEM Screens**
 
