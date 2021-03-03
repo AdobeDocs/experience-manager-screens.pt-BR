@@ -3,9 +3,9 @@ title: Uso de MDM ou EMM para provisionamento em massa do Android Player
 seo-title: Provisionamento em massa do reprodutor Android usando EMM ou MDM
 description: Siga esta página para saber mais sobre o provisionamento em massa do Android Player usando EMM ou MDM
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Provisionamento em massa do reprodutor Android usando o Enterprise Mobility Management {#bulk-provisioning}
 
-Ao implantar o reprodutor Android em massa, torna-se entediante registrar manualmente cada reprodutor no AEM. É altamente recomendável usar uma solução EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron ou Samsung Knox para provisionar e gerenciar remotamente sua implantação. O AEM Screens Android player é compatível com o padrão do setor Aplicativo EMM para permitir provisionamento remoto. Siga as etapas abaixo para provisionar seus players em massa.
+Ao implantar o reprodutor Android em massa, torna-se entediante registrar manualmente cada reprodutor no AEM. É altamente recomendável usar uma solução EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron ou Samsung Knox para provisionar e gerenciar remotamente sua implantação. O AEM Screens Android player é compatível com o padrão do setor Aplicativo EMM para permitir provisionamento remoto.
 
 ## Implementação do provisionamento em massa do Android Player usando o Enterprise Mobility Management {#implementation}
 
