@@ -3,9 +3,9 @@ title: Registro automático de jogadores
 seo-title: Registro automático de jogadores
 description: Siga esta página para saber mais sobre o Registro automático de players com AMS/Telas no local.
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 56432654d0895b892223677c8a03f10181864271
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -13,17 +13,28 @@ ht-degree: 0%
 
 # Registro automático de jogadores {#auto-registration}
 
-O registro em massa de milhares de jogadores manualmente pode se tornar muito complicado e aumenta o tempo e o custo. Para simplificar esse processo, o recurso de registro em massa permite especificar uma chave pré-compartilhada no AEM que pode ser provisionada em um reprodutor por meio de um arquivo de configuração ou uma solução de Gerenciamento de dispositivos móveis (MDM).
+O registro em massa de milhares de jogadores manualmente pode se tornar muito complicado e aumenta o tempo e o custo. Para simplificar esse processo, o recurso de registro em massa permite especificar uma chave pré-compartilhada no AEM que pode ser provisionada em um reprodutor por meio de um arquivo de configuração ou de uma solução de Gerenciamento de dispositivos móveis (MDM).
 
 ## Implementando o registro automático de players {#bulk-registering-implementation}
 
 Siga as etapas abaixo para implementar o registro automático de players:
 
-1. Faça logon na instância do AEM e selecione o projeto do AEM Screens, clique em propriedades e na guia Advanced .
-1. Você deve ver uma seção de registro em massa onde pode especificar um código de registro em massa e uma exibição padrão opcional para atribuir ao reprodutor que está registrado em massa
-1. Digite um código de sua escolha e selecione uma exibição padrão se necessário
-1. Provisione os reprodutores com o URL do servidor e o código de registro adequados usando um arquivo MDM ou JSON de configuração. Consulte a página de implementação do reprodutor específico para seu sistema operacional para obter detalhes exatos. Você também pode usar a interface do usuário do administrador para inserir o código de registro.
+1. Faça logon na instância do AEM e selecione o projeto de telas do AEM e clique em **Propriedades** na barra de ações.
+1. Selecione a guia **Advanced** para exibir a seção **Device registration**, conforme mostrado abaixo.
+
+   ![imagem](/help/user-guide/assets/auto-registration/auto-register1.png)
+
+1. Especifique um código de registro automático no campo **Código de registro em massa** e uma exibição padrão opcional em **Atribuição de exibição padrão** para atribuir ao reprodutor que é registrado automaticamente.
+   >[!NOTE]
+   >Digite um código de sua escolha e selecione uma exibição padrão, se necessário.
+1. Provisione os reprodutores com o URL do servidor e o código de registro adequados usando um arquivo MDM ou JSON de configuração.
+
+   >[!NOTE]
+   >Consulte a página de implementação do reprodutor específico do sistema operacional (SO) para obter mais detalhes. Você também pode usar a interface do usuário do administrador para inserir o código de registro.
+
 1. Se o atributo `registrationKey` corresponder ao configurado no AEM, o reprodutor se registrará automaticamente e, se uma exibição padrão for configurada, esse conteúdo será baixado e reproduzido.
+
+   ![imagem](/help/user-guide/assets/auto-registration/auto-register2.png)
 
 ## Práticas recomendadas de segurança {#security-best-practices}
 
