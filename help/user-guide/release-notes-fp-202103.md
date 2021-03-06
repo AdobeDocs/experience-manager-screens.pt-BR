@@ -2,9 +2,9 @@
 title: Notas de versão do Feature Pack 202103
 description: A página destaca as Notas de versão do Feature Pack 202103.
 translation-type: tm+mt
-source-git-commit: 3701c6f72ceadb5b61cd608503a95af11d631c49
+source-git-commit: dfbf904c1f23f7e41a9d65a270c5ca667ddcdb31
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '389'
 ht-degree: 2%
 
 ---
@@ -65,7 +65,6 @@ Os seguintes players do AEM Screens foram lançados para o Feature Pack 7 do AEM
 
 * Chrome OS
 * Windows
-* Tizen
 * Linux
 
 #### Downloads do Player do AEM Screens {#aem-screens-player-downloads}
