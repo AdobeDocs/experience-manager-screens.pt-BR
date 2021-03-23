@@ -4,10 +4,13 @@ seo-title: Aplicação de marca personalizada e estilo para sobreposições de t
 description: Siga esta página para saber como aplicar marcas e estilos personalizados a sobreposições de texto.
 seo-description: Siga esta página para saber como aplicar marcas e estilos personalizados a sobreposições de texto.
 contentOwner: Jyotika Syal
+feature: Desenvolvendo telas
+role: Desenvolvedor
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 099000dea848810c7ab12a32f0235ca478c0d5dd
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
@@ -15,13 +18,13 @@ ht-degree: 1%
 
 # Marca personalizada e estilo para sobreposições de texto {#creating-custom-branding-styling}
 
-Siga esta página para saber como aplicar marcas e estilos personalizados a sobreposições de texto aplicadas a seus ativos em um canal AEM Screens.
+Siga esta página para saber como aplicar marcas e estilos personalizados a Sobreposições de texto aplicadas a seus ativos em um canal do AEM Screens.
 
 ## Criação de marca personalizada e estilo para sobreposições de texto {#steps-custom-branding}
 
 Siga as etapas abaixo para criar marcas e estilos personalizados para sobreposições de texto:
 
-1. Crie um projeto da AEM Screens. Este exemplo mostra a funcionalidade ao criar um projeto chamado **customstyle** e um canal chamado **DemoBrand**, conforme mostrado na figura abaixo.
+1. Crie um projeto do AEM Screens. Este exemplo mostra a funcionalidade ao criar um projeto chamado **customstyle** e um canal chamado **DemoBrand** , conforme mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -30,15 +33,15 @@ Siga as etapas abaixo para criar marcas e estilos personalizados para sobreposi�
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
    >[!NOTE]
-   >Para saber como adicionar uma sobreposição de texto ao ativo em um editor de canais, consulte [Sobreposição de texto](/help/user-guide/text-overlay.md).
+   >Para saber como adicionar uma sobreposição de texto ao seu ativo em um editor de canal, consulte [Sobreposição de texto](/help/user-guide/text-overlay.md).
 
-1. Navegue até CRXDE Lite da sua instância AEM —> ferramentas —> **CRXDE Lite**.
+1. Navegue até CRXDE Lite da sua instância de AEM —> ferramentas —> **CRXDE Lite**.
 
-1. É necessário criar um design personalizado em `/apps/settings/wcm/designs/<your-project>/`, por exemplo, neste caso, navegue até `/apps/settings/wcm/designs/customstyle/`
+1. Você precisa criar um design personalizado em `/apps/settings/wcm/designs/<your-project>/`, por exemplo, neste caso, navegue até `/apps/settings/wcm/designs/customstyle/`
 
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Crie o arquivo *static.css* e defina as seguintes regras css. Também é mostrado como um exemplo na figura abaixo das regras css.
+1. Crie o arquivo *static.css* e defina as seguintes regras de css. Também mostrado como um exemplo na figura abaixo das regras de css.
 
    ```shell
     //global styles
@@ -65,15 +68,15 @@ Siga as etapas abaixo para criar marcas e estilos personalizados para sobreposi�
 
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
-1. Copie o caminho para o seu projeto; nesse caso, o caminho será `/apps/settings/wcm/designs/customstyle`.
+1. Copie o caminho para seu projeto. Nesse caso, o caminho será `/apps/settings/wcm/designs/customstyle`.
 
-1. Navegue até o canal chamado **DemoBrand** (criado na etapa 1) e clique em **Propriedades** na barra de ações após selecionar o canal.
+1. Navegue até o canal chamado **DemoBrand** (criado na etapa 1) e clique em **Properties** na barra de ações depois de selecionar o canal.
 
-1. Navegue até a guia **Avançado** e verifique o campo **Design**.
+1. Navegue até a guia **Advanced** e marque o campo **Design**.
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
-   >Seja padrão, o campo **Design** mostra o caminho que aponta para designs na pasta libs.
+   >Seja padrão, o campo **Design** mostra o caminho apontando para designs na pasta libs.
 
 1. Atualize o campo **Design** com o caminho para a pasta do projeto. Nesse caso, será `/apps/settings/wcm/designs/customstyle`.
 
@@ -86,49 +89,49 @@ Siga as etapas abaixo para criar marcas e estilos personalizados para sobreposi�
 
 1. Para sobrepor os modelos existentes do Screens para injetar seus próprios designs por padrão:
 
-   1. Sobreposição `/libs/screens/core/templates/sequencechannel` em `/apps/screens/core/templates/sequencechannel`.
+   1. Sobreponha `/libs/screens/core/templates/sequencechannel` em `/apps/screens/core/templates/sequencechannel`.
    1. Modifique a propriedade *cq:designPath* em `/apps/screens/core/templates/sequencechannel/jcr:content` para apontar para o novo design.
 
-1. Para criar seu próprio modelo completamente:
+1. Para criar seu próprio template completamente:
    1. Copie `/libs/screens/core/templates/sequencechannel` para `/apps/customstyle/templates/styled-sequencechannel`.
    1. Modifique a propriedade *cq:designPath* em `/apps/customstyle/templates/styled-sequencechannel/jcr:content` para apontar para o novo design.
 
 
 ### Atualizando ACLs {#updating-acls}
 
-Você deve atualizar as ACLs para esses designs para que possam ser baixados pelo player.
+Você deve atualizar as ACLs desses designs para que elas possam ser baixadas pelo reprodutor.
 
-1. Navegue até o administrador do usuário e escolha `screens-<project>-devices group` e conceda a ele permissão de leitura para o caminho de design personalizado.
+1. Navegue até user admin e escolha o `screens-<project>-devices group` e conceda a ele permissão de leitura para o caminho de design personalizado.
 
 1. Forneça ao grupo `screens-<project>-administrators` permissões de leitura e modificação para este caminho.
 
-## Visualizando o resultado {#viewing-the-result}
+## Visualização do resultado {#viewing-the-result}
 
-Depois de concluir as etapas anteriores, você pode atualizar seu arquivo *statis.css* de **CRXDE Lite** e, consequentemente, visualização a atualização para sua sobreposição de texto que já está adicionada ao ativo.
+Depois de concluir as etapas anteriores, você pode atualizar seu arquivo *statis.css* de **CRXDE Lite** e, consequentemente, exibir a atualização para sua sobreposição de texto que já está adicionada ao ativo.
 
-Siga as etapas abaixo para visualização do design atualizado à sobreposição de texto:
+Siga as etapas abaixo para exibir o design atualizado para a sobreposição de texto:
 
-1. Navegue até o seu projeto AEM Screens chamado **customstyle** —> **Canais** —> **DemoBrand**. Selecione o canal e clique em **Editar** na barra de ações para abrir o editor.
+1. Navegue até o projeto do AEM Screens chamado **customstyle** —> **Channels** —> **DemoBrand**. Selecione o canal e clique em **Edit** na barra de ações para abrir o editor.
 
-1. Como você adicionou o design ao campo **Designs**, conforme mencionado acima, clique em **Pré-visualização** para visualização do estilo atual na imagem com a sobreposição de texto.
+1. Como você adicionou o design ao seu campo **Designs**, conforme mencionado acima, clique em **Preview** para exibir o estilo atual na imagem com sobreposição de texto.
 
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Navegue até o arquivo *static.css* no CRXDE Lite e adicione a fonte como `font-family: "Lucida Console", Courier, monospace;` a esse arquivo, conforme mostrado abaixo.
+1. Navegue até o arquivo *static.css* no CRXDE Lite e adicione a fonte, como `font-family: "Lucida Console", Courier, monospace;`, a esse arquivo, conforme mostrado abaixo.
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
-1. Depois de salvar as alterações e recarregar a pré-visualização, você verá uma atualização na fonte da sobreposição de texto, como mostrado na figura abaixo.
+1. Depois de salvar as alterações e recarregar a visualização, você verá uma atualização na fonte da sobreposição de texto, como mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
 1. Além disso, você pode remover os dois últimos blocos de código do arquivo *static.css* para remover o estilo in a box em torno da sobreposição de texto.
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand10.png)
 
-1. A alteração atualizada será visualização na sua pré-visualização, onde a sobreposição de texto será adicionada à imagem.
+1. Você visualizará a alteração atualizada na sua visualização, onde a sobreposição de texto é adicionada à imagem.
 
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-   Agora você está pronto para atualizar sua marca e estilo personalizado para sobreposições de texto adicionadas aos seus ativos.
+   Agora, você está pronto para atualizar a marca e o estilo personalizado para as sobreposições de texto adicionadas aos ativos.
 
 
 
