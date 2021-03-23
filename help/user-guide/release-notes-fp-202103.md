@@ -5,7 +5,7 @@ feature: Pacote de recursos
 role: Desenvolvedor
 level: Intermediário
 translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: aa1338fad19893e56ead4bb466e4f32a90116b65
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 3%
@@ -41,7 +41,7 @@ A data de lançamento do AEM Screens Feature Pack 202103 é 5 de março de 2021.
 
    Ao implantar o reprodutor Android em massa, é entediante registrar manualmente cada reprodutor com AEM. É altamente recomendável usar uma solução EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron ou Samsung Knox para provisionar e gerenciar remotamente sua implantação. O AEM Screens Android player é compatível com o EMM AppConfig padrão do setor para permitir provisionamento remoto.
 
-   Consulte [Provisionamento em massa do Android Player usando o Enterprise Mobility Management](/help/user-guide/using-emm-bulkprovision-android-player.md) para obter mais detalhes.
+   Consulte [Provisionamento em massa do Android Player usando o Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) para obter mais detalhes.
 
 
 ### Correções de erros {#bug-fixes}
