@@ -4,10 +4,11 @@ breadcrumb-title: Guia de práticas recomendadas do AEM Screens
 solution-title: AEM Screens
 getting-started-title: Guia de práticas recomendadas do AEM Screens
 getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
+feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
 translation-type: tm+mt
-source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 78%
@@ -40,7 +41,7 @@ ht-degree: 78%
    + [Taxonomia e implementação do projeto](project-taxonomy-implementation.md)
    + Gerenciamento de tráfego de rede {#manage-network-traffic}
       + [Gerenciamento do tráfego de rede](/help/using/managing-network-traffic.md)
-      + [Rede Internet direta (com fio/sem fio)](/help/using/direct-internet-network.md)
+      + [Rede direta da Internet (com fio/sem fio)](/help/using/direct-internet-network.md)
       + [Rede móvel direta](/help/using/mobile-network.md)
       + [Rede móvel com roteador de dados móvel e componentes de rede ativos](/help/using/mobile-network-router.md)
       + [Rede corporativa fechada (com fio/sem fio)](/help/using/enclosed-corporate-network.md)
