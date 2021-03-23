@@ -10,11 +10,14 @@ content-type: reference
 topic-tags: release-notes
 discoiquuid: 1209bd96-9de5-428e-a1b5-950507e66c0b
 docset: aem65
+feature: Pacote de recursos
+role: Desenvolvedor
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 1%
+source-wordcount: '329'
+ht-degree: 2%
 
 ---
 
@@ -23,9 +26,9 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->É recomendável atualizar para a versão mais recente do Adobe Experience Manager (AEM). O Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
+>É recomendável atualizar para a versão mais recente do Adobe Experience Manager (AEM). O Screens fornece suporte de manutenção para AEM plataforma do Screens 6.3.
 
-O AEM Screens lançou o AEM 6.3.3.3 Feature Pack 6 e o AEM 6.4.4.0 Feature Pack 4 com os seguintes detalhes.
+O AEM Screens lançou AEM 6.3.3.3 Feature Pack 6 e AEM 6.4.4.0 Feature Pack 4 com os seguintes detalhes.
 
 ## Data de lançamento {#release-date}
 
@@ -35,36 +38,36 @@ A data de lançamento do AEM Screens Feature Pack 201905 é 16 de maio de 2019.
 
 * **Importador de projetos**
 
-O Importador de projetos é um recurso disponível no AEM Screens que permite importar em massa um conjunto de locais de uma planilha CSV/XLS para seu projeto AEM Screens.
+O Importador de projetos é um recurso disponível no AEM Screens que permite importar em massa um conjunto de locais de uma planilha CSV/XLS para o seu projeto do AEM Screens.
 
-Consulte **[Novo Importador de Projeto do Arquivo](project-importer.md)** para obter mais detalhes.
+Consulte **[Novo importador de projeto do arquivo](project-importer.md)** para obter mais detalhes.
 
-* **Transição do ContentSync para o SmartSync**
+* **Transição de ContentSync para SmartSync**
 
 O SmartSync minimiza a carga/armazenamento do servidor e o tráfego da rede para reduzir custos.
 
-Consulte **[Transição do ContentSync para o SmartSync](smartsync.md)** para obter mais detalhes.
+Consulte **[Transição de ContentSync para SmartSync](smartsync.md)** para obter mais detalhes.
 
 * **Canal de emergência**
 
-Este exemplo de caso de uso enfatiza a criação e o gerenciamento de um canal de emergência que o autor do conteúdo pode alternar de um canal de sequência no caso de uma pré-condição.
+Este exemplo de caso de uso enfatiza a criação e o gerenciamento de um canal de emergência que o autor de conteúdo pode alternar de um canal de sequência no caso de uma pré-condição.
 
-Consulte **[Canal de emergência](emergency-channel.md)** Caso de uso para obter mais detalhes.
+Consulte **[Caso de uso do canal de emergência](emergency-channel.md)** para obter mais detalhes.
 
-* **Como incorporar um aplicativo REACT usando o AEM SPA Editor e como Integrar-se ao AEM Screens Analytics**
+* **Como incorporar um aplicativo REACT usando o Editor de SPA de AEM e Integração com o AEM Screens Analytics**
 
-Esta seção descreve como incorporar um aplicativo interativo de página única usando REACT (ou Angular) usando o editor de SPA AEM que pode ser configurado por profissionais de negócios em AEM e também como integrar seu aplicativo interativo com o Adobe Analytics offline.
+Esta seção descreve como incorporar um aplicativo de página única interativo usando REACT (ou Angular) usando o editor de SPA AEM que pode ser configurado pelos profissionais de negócios no AEM e também como integrar seu aplicativo interativo ao Adobe Analytics offline.
 
-Consulte **[Incorporar um aplicativo REACT usando o Editor de SPA AEM e Integração com o AEM Screens Analytics](embedding-react-app.md)** para obter mais detalhes.
+Consulte **[Incorporação de um aplicativo REACT usando o Editor de SPA de AEM e Integração com o AEM Screens Analytics](embedding-react-app.md)** para obter mais detalhes.
 
-### Jogadores AEM Screens lançados {#released-aem-screens-players}
+### Players AEM Screens liberados {#released-aem-screens-players}
 
-Os seguintes Players AEM Screens são lançados para o AEM 6.3.3.3 Feature Pack 6 e AEM 6.4.4.0 Feature Pack 4:
+Os seguintes Players do AEM Screens são lançados para o AEM 6.3.3.3 Feature Pack 6 e AEM 6.4.4.0 Feature Pack 4:
 
 * ChromeOS
 * Windows
 * Android
 
-#### Downloads do AEM Screens Player {#aem-screens-player-downloads}
+#### Downloads do Player do AEM Screens {#aem-screens-player-downloads}
 
-Para baixar o AEM Screens player mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/)**.
+Para baixar o player do AEM Screens mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/)**.
