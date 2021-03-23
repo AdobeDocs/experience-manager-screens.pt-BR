@@ -1,85 +1,88 @@
 ---
-title: Implementação do Chrome OS Player
-seo-title: Implementação do Chrome OS Player
-description: Siga esta página para saber mais sobre a implementação do Chrome OS Player usando o Chrome Management Console.
-seo-description: Siga esta página para saber mais sobre a implementação do Chrome OS Player usando o Chrome Management Console.
+title: Implementação do reprodutor do sistema operacional Chrome
+seo-title: Implementação do reprodutor do sistema operacional Chrome
+description: Siga esta página para saber mais sobre a implementação do Player do sistema operacional Chrome usando o Console de gerenciamento do Chrome.
+seo-description: Siga esta página para saber mais sobre a implementação do Player do sistema operacional Chrome usando o Console de gerenciamento do Chrome.
 uuid: eee84286-fa81-475c-ad6f-db2d6cf1fed5
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
+feature: Administração do Screens
+role: Administrador
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
 
 
-# Implementação do Chrome OS Player {#implementing-chrome-os-player}
+# Implementação do reprodutor do Chrome OS {#implementing-chrome-os-player}
 
-Esta seção descreve como implementar o Chrome OS Player usando o Chrome Management Console.
+Esta seção descreve como implementar o Player do sistema operacional Chrome usando o Console de gerenciamento do Chrome.
 
-## Usando o Chrome Management Console {#using-chrome-management-console}
+## Usando o Console de Gerenciamento do Chrome {#using-chrome-management-console}
 
-Siga as etapas abaixo para configurar o console de gerenciamento de cromo:
+Siga as etapas abaixo para configurar o console de gerenciamento do Chrome:
 
-1. Registre-se no Chrome Management Console. É necessário obter uma licença para o Chrome Management Console. Entre em contato com [Suporte do Google](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) para gerenciar as configurações do dispositivo Chrome para obter mais informações.
-1. Registre seu dispositivo do Chrome OS no domínio e aguarde 15 minutos para que o dispositivo seja sincronizado com o Chrome Management Console. Para saber mais sobre como inscrever o dispositivo de cromo, clique [aqui](https://support.google.com/chrome/a/answer/1360534?hl=en).
-1. O Chrome Player estará disponível na loja da Web do Chrome.
+1. Inscreva-se no Console de Gerenciamento do Chrome. Você precisa obter uma licença para o Chrome Management Console. Entre em contato com o [Suporte do Google](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) para gerenciar as configurações do dispositivo Chrome para obter mais informações.
+1. Inscreva o dispositivo do sistema operacional Chrome no domínio e aguarde 15 minutos para que o dispositivo sincronize com o Chrome Management Console. Para saber mais sobre a inscrição do dispositivo chrome, clique [aqui](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. O Player do Chrome estará disponível na loja da Web do Chrome.
 
 >[!NOTE]
 >
->Uma solução de gerenciamento de dispositivos como o Chrome Management Console é recomendada para implantação e gerenciamento de dispositivos do Chrome OS. Embora este documento ofereça implementação para o Chrome Management Console, há outros fornecedores que afirmam fornecer funcionalidade semelhante. Entre em contato com o fornecedor do software de gerenciamento de dispositivos.
+>Uma solução de gerenciamento de dispositivos como o Console de gerenciamento do Chrome é recomendada para a implantação e o gerenciamento de dispositivos SO Chrome. Embora esse documento forneça implementação para o Console de gerenciamento do Chrome, há outros fornecedores que afirmam fornecer funcionalidade semelhante. Entre em contato com o fornecedor do software de gerenciamento de dispositivos.
 
 ### Ativando o modo de quiosque {#enabling-kiosk-mode}
 
-Siga as etapas abaixo para ativar o modo Kiosk:
+Siga as etapas abaixo para ativar o modo Quiosque:
 
-1. Faça logon no Chrome Developer Console.
+1. Faça logon no Console do desenvolvedor do Chrome.
 
    ![screen_shot_2017-12-08at20303pm](assets/screen_shot_2017-12-08at20303pm.png)
 
-1. Navegue até **Gerenciamento de dispositivos** > **Gerenciamento do Chrome** > **Configurações do dispositivo**.
-1. Role para baixo até **Configurações do Kiosk** e clique em **Gerenciar aplicativos do Kiosk**.
+1. Navegue até **Device management** > **Chrome Management** > **Device Settings**.
+1. Role para baixo até **Configurações do Quiosque** e clique em **Gerenciar Aplicativos do Quiosque**.
 
    ![quiosque](assets/kiosk.png)
 
-1. Selecione o AEM Screens Player na Chrome Web Store.
+1. Selecione o Player do AEM Screens na Chrome Web Store.
 
    >[!NOTE]
    >
-   >Um aplicativo publicado recentemente pode levar cerca de 15 minutos para ser exibido nesta lista.
+   >Um aplicativo publicado recentemente pode levar cerca de 15 minutos para ser exibido nessa lista.
 
-1. Selecione **AEM Screens Player** na lista suspensa **Iniciar automaticamente o aplicativo Kiosk**.
+1. Selecione **AEM Screens Player** na lista suspensa **Iniciar automaticamente o aplicativo do Quiosque**.
 
-   Pode levar alguns minutos, dependendo da rede, para que as alterações entrem em vigor. É recomendável reinicializar.
+   Pode levar alguns minutos, dependendo da rede, para que as alterações entrem em vigor. É recomendável reiniciar.
 
 #### Verificando o status do dispositivo remoto {#checking-remote-device-status}
 
-1. Faça logon no Chrome Developer Console.
-1. Navegue até **Gerenciamento de dispositivos** > **Dispositivos Chrome** e selecione o dispositivo que deseja controlar.
+1. Faça logon no Console do desenvolvedor do Chrome.
+1. Navegue até **Device management** > **Chrome Devices** e selecione o dispositivo que deseja controlar.
 1. Clique em **Atividade do sistema e solução de problemas**.
-1. Verifique as propriedades **Reinicializar dispositivo** e **Captura de tela** do dispositivo. Você também pode verificar o status e as informações de integridade do dispositivo.
+1. Verifique as propriedades **Reboot Device** e **Screen Capture** do dispositivo. Você também pode verificar o status do dispositivo e as informações de integridade.
 
 >[!NOTE]
 >
->Observe que essas configurações podem estar ativadas alguns minutos depois que o dispositivo é inscrito. Cada opção pode ser ativada ao longo do tempo.
+>Observe que essas configurações podem ser ativadas alguns minutos após a inscrição do dispositivo. Cada opção pode ser ativada ao longo do tempo.
 
 ### Configuração remota de players do Chrome OS {#configuring-remote-configuration-of-chrome-os-players}
 
-O AEM Screens Player é um aplicativo habilitado para Kiosk que também habilita a Configuração de política remota para players do Chrome OS.
+O AEM Screens Player é um aplicativo habilitado para Quiosque que também habilita a Configuração de Política Remota para Players SO Chrome.
 
-Siga as etapas abaixo para configurar várias opções do player:
+Siga as etapas abaixo para configurar várias opções do reprodutor:
 
-1. Faça logon no Chrome Management Console.
-1. Clique em **Gerenciamento de dispositivos** > **Gerenciamento do Chrome** > **Gerenciamento de aplicativos**. O AEM Screens Player é exibido na lista.
+1. Faça logon no Console de gerenciamento do Chrome.
+1. Clique em **Gerenciamento de dispositivos** > **Gerenciamento do Chrome** > **Gerenciamento de aplicativos**. O Player do AEM Screens é exibido na lista.
 1. Clique no aplicativo **AEM Screens Player**.
-1. Clique em **Configurações do Kiosk** e selecione sua organização (*se estiver usando um ambiente de teste*).
-1. Clique em **carregar arquivo de configuração** e faça upload da política de configuração (*arquivo Json*).
-1. Clique em **Salvar**. É necessário reinicializar o dispositivo para sincronizar a política.
+1. Clique em **Configurações do Quiosque** e selecione sua organização (*se estiver usando um ambiente de teste*).
+1. Clique em **carregar arquivo de configuração** e faça upload da política de configuração (*Arquivo Json*).
+1. Clique em **Salvar**. Você deve reiniciar o dispositivo para sincronizar a política.
 
 >[!NOTE]
 >
@@ -110,19 +113,19 @@ Siga as etapas abaixo para configurar várias opções do player:
 }
 ```
 
-### Atributos e finalidade da política {#policy-attributes-and-purpose}
+### Atributos de política e finalidade {#policy-attributes-and-purpose}
 
-A tabela a seguir resume as políticas com suas funções.
+O quadro seguinte resume as políticas com as suas funções.
 
 | **Nome da política** | **Propósito** |
 |---|---|
-| *server* | O URL do Adobe Experience Manager Server |
-| *resolução* | A resolução do dispositivo do Chrome OS |
-| *rebootSchedule* | O cronograma para reiniciar o Chrome player |
-| *enableAdminUI* | Ative a interface de usuário do administrador para que os técnicos configurem o dispositivo no local. Definido como falso depois que estiver totalmente configurado e em produção. |
-| *enableOSD* | Ative a interface do comutador de canais para que os usuários alternem canais no dispositivo. Considere a configuração como false depois de estar totalmente configurada e em produção. |
-| *enableActivityUI* | Ative para mostrar o progresso de atividades como download e sincronização. Ative para solução de problemas e desabilite-o assim que estiver totalmente configurado e em produção. |
+| *server* | O URL para o servidor Adobe Experience Manager |
+| *resolução* | A resolução do dispositivo SO Chrome |
+| *reotSchedule* | O agendamento para reiniciar o player do Chrome |
+| *enableAdminUI* | Ative a interface do usuário do administrador para que os técnicos configurem o dispositivo no local. Defina como false depois que estiver totalmente configurado e em produção. |
+| *enableOSD* | Ative a interface do usuário do seletor de canal para que os usuários alternem os canais no dispositivo. Considere a configuração como false depois de estar totalmente configurada e em produção. |
+| *enableActivityUI* | Ative para mostrar o progresso de atividades como download e sincronização. Ative para solução de problemas e desative assim que estiver totalmente configurado e em produção. |
 
 >[!NOTE]
 >
->As configurações de política são rigorosamente aplicadas e não são substituídas manualmente na interface do usuário do administrador do player. Para permitir a configuração manual do player para uma política específica, não especifique a política na configuração ***política,*** por exemplo, se você deseja permitir a configuração manual para a programação de reinicialização, não especifique a chave ***rebootSchedule*** na configuração de política.
+>As configurações de política são estritamente aplicadas e não são manualmente substituídas na interface do usuário do administrador do player. Para permitir a configuração manual do player para uma política específica, não especifique a política na configuração da política ***por exemplo,***, se você deseja permitir a configuração manual para o agendamento de reinicialização, não especifique a chave ***reotSchedule*** na configuração da política.
