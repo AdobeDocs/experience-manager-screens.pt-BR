@@ -1,11 +1,14 @@
 ---
 title: Notas de versão do Feature Pack 202103
-description: A página destaca as Notas de versão do Feature Pack 202103.
+description: '"Siga esta página para obter informações sobre o AEM Screens Feature Pack 202103 lançado em 05 de março de 2021."'
+feature: Pacote de recursos
+role: Desenvolvedor
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: dfbf904c1f23f7e41a9d65a270c5ca667ddcdb31
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 2%
+source-wordcount: '398'
+ht-degree: 3%
 
 ---
 
@@ -13,17 +16,17 @@ ht-degree: 2%
 # Notas de versão do Feature Pack 202103 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->É recomendável atualizar para a versão mais recente do Adobe Experience Manager (AEM). O Screens fornece suporte de manutenção para a plataforma do AEM 6.3 Screens.
+>É recomendável atualizar para a versão mais recente do Adobe Experience Manager (AEM). O Screens fornece suporte de manutenção para AEM plataforma do Screens 6.3.
 
 ## Disponibilidade {#availability}
 
-O AEM Screens lançou o AEM 6.5 Feature Pack 7.
+A AEM Screens lançou AEM 6.5 Feature Pack 7.
 
-Você pode baixar o pacote de recursos mais recente para a versão do AEM Screens 6.5.7 no [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o pacote de recursos mais recente intitulado como **AEM 6.5 Screens FP7**.
+Você pode baixar o pacote de recursos mais recente da versão 6.5.7 do AEM Screens a partir do [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o pacote de recursos mais recente intitulado como **AEM 6.5 Screens FP7**.
 
 ## Data de lançamento {#release-date}
 
-A data de lançamento do Feature Pack 202103 do AEM Screens é 5 de março de 2021.
+A data de lançamento do AEM Screens Feature Pack 202103 é 5 de março de 2021.
 
 ### Novidades {#what-is-new}
 
@@ -36,7 +39,7 @@ A data de lançamento do Feature Pack 202103 do AEM Screens é 5 de março de 20
 
 * **Provisionamento em massa do Android Player usando o Gerenciamento de mobilidade empresarial**
 
-   Ao implantar o reprodutor Android em massa, torna-se entediante registrar manualmente cada reprodutor no AEM. É altamente recomendável usar uma solução EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron ou Samsung Knox para provisionar e gerenciar remotamente sua implantação. O AEM Screens Android player é compatível com o EMM AppConfig padrão do setor para permitir provisionamento remoto.
+   Ao implantar o reprodutor Android em massa, é entediante registrar manualmente cada reprodutor com AEM. É altamente recomendável usar uma solução EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron ou Samsung Knox para provisionar e gerenciar remotamente sua implantação. O AEM Screens Android player é compatível com o EMM AppConfig padrão do setor para permitir provisionamento remoto.
 
    Consulte [Provisionamento em massa do Android Player usando o Enterprise Mobility Management](/help/user-guide/using-emm-bulkprovision-android-player.md) para obter mais detalhes.
 
@@ -59,9 +62,9 @@ A data de lançamento do Feature Pack 202103 do AEM Screens é 5 de março de 20
 
 * Falha na solicitação de atualização de configuração, causando a tela em branco.
 
-### Players do AEM Screens {#released-aem-screens-players} liberados
+### Players AEM Screens liberados {#released-aem-screens-players}
 
-Os seguintes players do AEM Screens foram lançados para o Feature Pack 7 do AEM 6.5:
+Os seguintes Players do AEM Screens são lançados para o AEM 6.5 Feature Pack 7:
 
 * Chrome OS
 * Windows
@@ -69,4 +72,4 @@ Os seguintes players do AEM Screens foram lançados para o Feature Pack 7 do AEM
 
 #### Downloads do Player do AEM Screens {#aem-screens-player-downloads}
 
-Para baixar o reprodutor do AEM Screens mais recente e saber mais sobre as correções de erros, consulte **[Downloads do reprodutor do AEM Screens](https://download.macromedia.com/screens/index.html)**.
+Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
