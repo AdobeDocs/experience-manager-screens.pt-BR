@@ -1,8 +1,8 @@
 ---
 title: Ativação direcionada para inventário de varejo
 seo-title: Ativação direcionada para inventário de varejo
-description: Este caso de uso mostra o estoque de estoque de varejo para três camisas coloridas diferentes. Dependendo do número de camisas disponíveis em estoque que são gravadas nas planilhas do Google, a imagem (camiseta vermelha, verde ou azul) com o maior número é exibida na tela.
-seo-description: Este caso de uso mostra o estoque de estoque de varejo para três camisas coloridas diferentes. Dependendo do número de camisas disponíveis em estoque que são gravadas nas planilhas do Google, a imagem (camiseta vermelha, verde ou azul) com o maior número é exibida na tela.
+description: Este caso de uso mostra o estoque de varejo para três camisas de suor diferentes. Dependendo do número de camisas disponíveis em estoque que são gravadas nas planilhas do Google, a imagem (camiseta vermelha, verde ou azul) com o número mais alto é exibida na tela.
+seo-description: Este caso de uso mostra o estoque de varejo para três camisas de suor diferentes. Dependendo do número de camisas disponíveis em estoque que são gravadas nas planilhas do Google, a imagem (camiseta vermelha, verde ou azul) com o número mais alto é exibida na tela.
 uuid: 8e7faa65-b004-42b3-8865-4f71eb5dc1b1
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,10 +10,13 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
+feature: Telas de criação
+role: Administrador, Desenvolvedor
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -25,30 +28,30 @@ O caso de uso a seguir demonstra três imagens diferentes com base nos valores e
 
 ## Descrição {#description}
 
-Este caso de uso mostra o estoque de estoque de varejo para três camisas coloridas diferentes. Dependendo do número de camisas disponíveis em estoque que são gravadas nas planilhas do Google, a imagem (camiseta vermelha, verde ou azul) com o maior número é exibida na tela.
+Este caso de uso mostra o estoque de varejo para três camisas de suor diferentes. Dependendo do número de camisas disponíveis em estoque que são gravadas nas planilhas do Google, a imagem (camiseta vermelha, verde ou azul) com o número mais alto é exibida na tela.
 
 Neste caso de uso, o suéter vermelho, verde ou azul será exibido na tela com base no valor mais alto do número de suéteres disponíveis.
 
 ## Pré-condições {#preconditions}
 
-Antes de implementar a ativação de direcionamento de inventário de varejo, você deve saber como configurar ***Armazenamento de dados***, ***Segmentação de Audiência*** e ***Ativar direcionamento para Canais*** em um Projeto AEM Screens.
+Antes de começar a implementar a ativação de direcionamento do inventário de varejo, você deve aprender a configurar ***Data Store***, ***Segmentação de público-alvo*** e ***Ativar direcionamento para canais*** em um projeto do AEM Screens.
 
 Consulte [Configuração do ContextHub no AEM Screens](configuring-context-hub.md) para obter informações detalhadas.
 
 ## Fluxo básico {#basic-flow}
 
-Siga as etapas abaixo para implementar o caso de uso da Ativação de Inventário de varejo:
+Siga as etapas abaixo para implementar o caso de uso de Ativação de inventário de varejo:
 
-1. **Preenchendo as planilhas do Google**
+1. **Preencher as planilhas do Google**
 
-   1. Navegue até a página do Google ContextHubDemo.
-   1. Adicione três colunas (Vermelho, Verde e Azul) com valores correspondentes para três camisas diferentes.
+   1. Navegue até o ContextHubDemo Google Sheet.
+   1. Adicione três colunas (Vermelho, Verde e Azul) com os valores correspondentes para três camisas diferentes.
 
    ![screen_shot_2019-05-06at101755am](assets/screen_shot_2019-05-06at101755am.png)
 
-1. **Configurar as Audiências de acordo com os requisitos**
+1. **Configuração dos públicos-alvo de acordo com os requisitos**
 
-   1. Navegue até os segmentos na sua audiência (Consulte ***Etapa 2: Configuração da segmentação de Audiência*** na **[Configuração do ContextHub na página AEM Screens](configuring-context-hub.md)** para obter mais detalhes).
+   1. Navegue até os segmentos em seu público-alvo (Consulte ***Etapa 2: Configuração da segmentação de público-alvo*** em **[Configuração do ContextHub na página AEM Screens](configuring-context-hub.md)** para obter mais detalhes).
 
    1. Adicione três novos segmentos **For_Red**, **For_Green** e **For_Blue**.
 
@@ -57,16 +60,16 @@ Siga as etapas abaixo para implementar o caso de uso da Ativação de Inventári
    1. Arraste e solte a **Comparação : Propriedade - Propriedade** para o editor e clique no ícone de configuração para editar as propriedades.
    1. Selecione **googlesheets/value/1/2** no menu suspenso em **Nome da primeira propriedade**
 
-   1. Selecione **Operador** como **maior-que** no menu suspenso
+   1. Selecione **Operator** como **greater-than** no menu suspenso
 
    1. Selecione **Tipo de Dados** como **número**
 
    1. Selecione **googlesheets/value/1/1** no menu suspenso em **Second Property name**.
 
-   1. Arraste e solte **outra comparação: Propriedade - Propriedade** para o editor e clique no ícone de configuração para editar as propriedades.
+   1. Arraste e solte **outra Comparação : Propriedade - Propriedade** para o editor e clique no ícone de configuração para editar as propriedades.
    1. Selecione **googlesheets/value/1/2** no menu suspenso em **Nome da primeira propriedade**.
 
-   1. Selecione **Operador** como **maior-que** no menu suspenso
+   1. Selecione **Operator** como **greater-than** no menu suspenso
 
    1. Selecione **Tipo de Dados** como **número**
 
@@ -78,38 +81,38 @@ Siga as etapas abaixo para implementar o caso de uso da Ativação de Inventári
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
-   Da mesma forma, edite e adicione regras de propriedade de comparação ao segmento ** For_Green **conforme mostrado na figura abaixo:
+   Da mesma forma, edite e adicione regras de propriedade de comparação a ** Para_verde **segmento, conforme mostrado na figura abaixo:
 
    ![screen_shot_2019-05-06at103418am](assets/screen_shot_2019-05-06at103418am.png)
 
    >[!NOTE]
    >
-   >Você observará que para os segmentos **For_Green** e **For_Green**, os dados não podem ser resolvidos no editor, pois apenas a primeira comparação é válida de agora em diante, de acordo com os valores na planilha do Google.
+   >Você observará que, para segmentos **For_Green** e **For_Green**, os dados não podem ser resolvidos no editor, pois apenas a primeira comparação é válida a partir de agora, de acordo com os valores na Folha do Google.
 
-1. Navegue e selecione seu canal **DataDrivenRetail** (um canal sequenciável) e clique em **Editar** na barra de ações.
+1. Navegue e selecione seu canal **DataDrivenRetail** (um canal sequencial) e clique em **Editar** na barra de ações.
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
    >[!CAUTION]
    >
-   >Você deve ter configurado o **ContextHub** **Configurações** usando a guia canal **Propriedades** —> **Personalização**.
+   >Você deve ter configurado seu **ContextHub** **Configurações** usando a guia **Propriedades** —> **Personalização** do canal.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   Você deve selecionar **Marca** e **Área** para que as atividades sejam listadas corretamente ao start do processo de definição de metas.
+   Você deve selecionar a **Marca** e a **Área** para que as atividades sejam listadas corretamente ao iniciar o processo de Direcionamento.
 
-1. **Adicionar uma imagem padrão**
+1. **Adição de uma imagem padrão**
 
-   1. Adicione uma imagem padrão ao seu canal e clique em **Definição de metas**.
-   1. Selecione **Marca** e **Atividade** no menu suspenso e clique em **Direcionamento de Start**.
+   1. Adicione uma imagem padrão ao seu canal e clique em **Direcionamento**.
+   1. Selecione **Marca** e **Atividade** no menu suspenso e clique em **Iniciar Direcionamento**.
 
    1. Clique em **Iniciar o direcionamento**.
 
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   Antes da definição de metas do start, você deve adicionar os segmentos (**For_Green**, **For_Red** e **For_Blue**) clicando em **+ Adicionar definição de metas de experiência** no painel lateral, conforme mostrado na figura abaixo.
+   Antes de começar a direcionar, você deve adicionar os segmentos (**For_Green**, **For_Red** e **For_Blue**) clicando em **+ Adicionar Direcionamento de experiência** no painel lateral, como mostrado na figura abaixo.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -117,10 +120,10 @@ Siga as etapas abaixo para implementar o caso de uso da Ativação de Inventári
 
    ![retail_targeting](assets/retail_targeting.gif)
 
-1. **Verificando a Pré-visualização**
+1. **Verificar a visualização**
 
-   1. Clique em **Pré-visualização.** Além disso, abra seu Google Sheet e atualize seu valor.
-   1. Altere o valor de todas as três colunas diferentes e você observará as atualizações de imagem de exibição de acordo com o valor mais alto no inventário.
+   1. Clique em **Visualizar.** Além disso, abra o Google Sheet e atualize seu valor.
+   1. Altere o valor de todas as três colunas diferentes e você notará as atualizações de imagem de exibição de acordo com o valor mais alto no inventário.
 
-   ![varejo_resultado](assets/retail_result.gif)
+   ![retail_result](assets/retail_result.gif)
 
