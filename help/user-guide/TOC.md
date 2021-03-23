@@ -5,8 +5,9 @@ audience: end-user
 user-guide-title: Ajuda do Adobe Experience Manager Screens
 breadcrumb-title: Guia do AEM Screens
 user-guide-description: Saiba como usar uma Solução de sinalização digital que permite a publicação de experiências e interações digitais dinâmicas e interativas.
+feature-set: Experience Manager Screens
 translation-type: tm+mt
-source-git-commit: dae7744bd8efb99a16807f0651cbcaff5514b73b
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 19%
@@ -51,7 +52,7 @@ ht-degree: 19%
       + [Configuração de autor e publicação](author-and-publish.md)
    + Integração do Analytics com o AEM Screens {#analytics-integration}
       + [Integração do Adobe Analytics](adobe-analytics-integration-aem-screens.md)
-      + [Configuração do Adobe Analytics com o AEM Screens](configuring-adobe-analytics-aem-screens.md)
+      + [Configuração do Adobe Analytics com AEM Screens](configuring-adobe-analytics-aem-screens.md)
 + Exemplos de casos de criação e uso {#authoring}
    + Configurar um projeto do Screens {#setting-up-projects}
       + [Criação e gerenciamento de projetos](creating-a-screens-project.md)
@@ -62,11 +63,11 @@ ht-degree: 19%
       + [Gerenciamento de dispositivos](managing-devices.md)
       + Atribuição de canais {#assigning-channels}
          + [Atribuição de canal](channel-assignment-latest-fp.md)
-         + [Atribuição de canal: Pacotes de recursos antigos do AEM Screens](channel-assignment.md)
+         + [Atribuição de canal: Pacotes de recursos mais antigos do AEM Screens](channel-assignment.md)
    + Uso dos principais recursos do produto {#product-features}
       + [Sobreposição de texto](text-overlay.md)
       + [Atualização Offline em massa](bulk-offline-update.md)
-      + [Serviço de notificações do AEM Screens](screens-notifications-service.md)
+      + [Serviço de notificações da AEM Screens](screens-notifications-service.md)
       + [Uso de Fragmentos de experiência](experience-fragments-in-screens.md)
       + [Ativação no nível do ativo](asset-level-scheduling.md)
       + [Ativação no nível do canal](channel-level-activation.md)
@@ -101,12 +102,12 @@ ht-degree: 19%
    + [Canais offline](offline-channels.md)
    + [Extensão de um componente do AEM Screens](extending-component-tutorial-develop.md)
    + [Criar componentes](creating-components.md)
-   + [Incorporação de um aplicativo REACT usando o Editor SPA do AEM e integração com o AEM Screens Analytics](embedding-react-app.md)
+   + [Como incorporar um aplicativo REACT usando AEM Editor e Integração com o AEM Screens Analytics](embedding-react-app.md)
    + [Configuração do ContextHub no AEM Screens](configuring-context-hub.md)
    + [Criação de modelos personalizados para layouts de várias zonas](creating-custom-templates-multizone-layouts.md)
    + [Aplicação de marca personalizada e estilo para sobreposições de texto](custom-branding-text-overlays.md)
 + Solução de problemas e perguntas frequentes {#troubleshooting}
-   + [Perguntas frequentes sobre o AEM Screens](aem-screens-faqs.md)
+   + [Perguntas frequentes do AEM Screens](aem-screens-faqs.md)
    + [Solução de problemas do Device Control Center](monitoring-screens.md)
    + [Configuração da reprodução de vídeo](troubleshoot-videos.md)
 + Notas de versão {#release-notes}
