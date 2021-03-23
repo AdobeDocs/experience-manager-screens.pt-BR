@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
+feature: Telas de criação
+role: Administrador, Desenvolvedor
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '727'
 ht-degree: 84%
 
 ---
@@ -22,7 +25,7 @@ ht-degree: 84%
 
 Esta página descreve como criar e gerenciar Live Copies de canais.
 
-Uma ***Live Copy*** é uma cópia do conteúdo específico do site para o qual uma relação ativa com a fonte original é mantida. Este relacionamento dinâmico permite que a live copy herde as propriedades do conteúdo e da página de origem.
+Uma ***Live Copy*** é uma cópia do conteúdo específico do site para o qual é mantido um relacionamento dinâmico com a fonte original. Este relacionamento dinâmico permite que a live copy herde as propriedades do conteúdo e da página de origem.
 
 Esta página descreve como criar uma live copy de um canal, exibir as propriedades, verificar o status e propagar as alterações de um canal para sua live copy.
 
@@ -31,10 +34,10 @@ Esta página descreve como criar uma live copy de um canal, exibir as propriedad
 
 Siga as etapas abaixo para criar uma live copy de um canal na pasta do projeto.
 
-1. Selecione o link do Adobe Experience Manager (parte superior esquerda) e o **Screens**. Em alternativa, pode aceder diretamente a: `http://localhost:4502/screens.html/content/screens`.
+1. Selecione o link do Adobe Experience Manager (parte superior esquerda) e o **Screens**. Como alternativa, você pode acessar diretamente: `http://localhost:4502/screens.html/content/screens`.
 
 1. Navegue até o projeto do Screens e clique em **Canais**.
-1. Clique em **Criar** e selecione **Live Copy** para criar uma cópia online do canal.
+1. Clique em **Criar** e selecione **Live Copy** para criar uma live copy do canal.
 
 1. Selecione o destino e clique em **Próximo**.
 1. Selecione a localização da live copy.
@@ -54,7 +57,7 @@ Uma Live Copy é uma cópia de um canal que já existe.
 
 Para exibir o conteúdo da live copy, siga as seguintes etapas:
 
-1. Navegue até o projeto do Screens e clique no local onde você criou originalmente a live copy, conforme mostrado na seção acima. (Aqui, o local foi escolhido como pasta **Canais**)
+1. Navegue até o projeto do Screens e clique no local onde você criou originalmente a live copy, conforme mostrado na seção acima. (Aqui, o local foi escolhido como pasta **Channels**)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
@@ -82,7 +85,7 @@ Além disso, é possível exibir as propriedades do seu canal Live Copy.
 
 O modo **Status da Live Copy**, como mostrado na figura abaixo, permite visualizar o status do relacionamento de todos os ativos no canal.
 
-1. Clique em **Editar** para escolher **Status da Live Copy** e visualização a associação do conteúdo do canal ao canal original (a partir do qual a live copy é gerada).
+1. Clique em **Editar** para escolher o **Status da Live Copy** e exibir a associação do conteúdo do seu canal ao canal original (do qual a live copy é gerada).
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -128,7 +131,7 @@ Siga as etapas abaixo para garantir que as alterações sejam propagadas do cana
 
    ![chlimage_1-21](assets/chlimage_1-29.png)
 
-1. Clique em **Sincronizar** para confirmar as alterações. Clique em **Salvar e fechar** para navegar de volta para o painel AEM.
+1. Clique em **Sincronizar** para confirmar as alterações. Clique em **Salvar e fechar** para navegar de volta ao painel de AEM.
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
