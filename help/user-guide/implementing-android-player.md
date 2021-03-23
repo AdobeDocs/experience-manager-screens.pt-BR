@@ -14,7 +14,7 @@ feature: Administração do Screens, reprodutor do Android
 role: Administrador
 level: Intermediário
 translation-type: tm+mt
-source-git-commit: 4dd6d40603f4a54ede67c35b07373ac6c6649d3f
+source-git-commit: 6978d9d13f2b7f723812561554fdb0a606ddb4fc
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 1%
@@ -186,8 +186,8 @@ Siga as etapas abaixo para permitir o provisionamento em massa no Android Player
 1. Certifique-se de que o dispositivo Android seja compatível com os serviços do Google Play.
 1. Registre seus dispositivos Android player com sua solução EMM favorita compatível com o AppConfig.
 1. Faça logon no console do EMM e extraia o aplicativo AEM Screens Player do Google Play.
-1. Selecione a configuração gerenciada (ou a opção relacionada).
-1. Agora, você deve ver uma lista de opções do player que podem ser configuradas (como servidor e código de registro em massa).
+1. Selecione a opção de configuração gerenciada ou a opção relacionada.
+1. Agora você deve ver uma lista de opções do player que podem ser configuradas, como servidor e código de registro em massa.
 1. Configure esses parâmetros, salve e implante a política nos dispositivos.
 
    >[!NOTE]
