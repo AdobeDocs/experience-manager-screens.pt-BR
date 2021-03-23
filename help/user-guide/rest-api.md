@@ -1,18 +1,21 @@
 ---
 title: REST APIs
 seo-title: REST API
-description: A AEM Screens fornece uma API RESTful simples que segue a especificação Siren. Siga esta página para saber como navegar na estrutura de conteúdo e enviar comandos para dispositivos no ambiente.
-seo-description: A AEM Screens fornece uma API RESTful simples que segue a especificação Siren. Siga esta página para saber como navegar na estrutura de conteúdo e enviar comandos para dispositivos no ambiente.
+description: A AEM Screens fornece uma API RESTful simples que segue a especificação Siren. Siga esta página para saber como navegar pela estrutura de conteúdo e enviar comandos para dispositivos no ambiente.
+seo-description: A AEM Screens fornece uma API RESTful simples que segue a especificação Siren. Siga esta página para saber como navegar pela estrutura de conteúdo e enviar comandos para dispositivos no ambiente.
 uuid: 5988fdcb-cda5-4d3e-a2ab-f9ee4179e568
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
+feature: Desenvolvendo telas
+role: Desenvolvedor
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
@@ -20,13 +23,13 @@ ht-degree: 0%
 
 # REST APIs{#rest-apis}
 
-A AEM Screens fornece uma API RESTful simples que segue a especificação [Siren](https://github.com/kevinswiber/siren). Ele permite navegar pela estrutura de conteúdo e enviar comandos para dispositivos no ambiente.
+O AEM Screens fornece uma API RESTful simples que segue a especificação [Siren](https://github.com/kevinswiber/siren). Ele permite navegar pela estrutura de conteúdo e enviar comandos para dispositivos no ambiente.
 
 A API pode ser acessada em [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).
 
-## Navegação na estrutura do conteúdo {#navigating-content-structure}
+## Estrutura de conteúdo de navegação {#navigating-content-structure}
 
-O JSON retornado pelas chamadas da API lista as entidades relacionadas ao recurso atual. Após o autolink listado, cada uma dessas entidades é novamente acessível como um recurso REST.
+O JSON retornado pelas chamadas de API lista as entidades relacionadas ao recurso atual. Após o autolink listado, cada uma dessas entidades é novamente acessível como um recurso REST.
 
 Por exemplo, para acessar as exibições em nosso local de sinalização de demonstração, você pode chamar:
 
@@ -35,7 +38,7 @@ GET /api/screens/content/screens/we-retail/locations/demo/flagship.json HTTP/1.1
 Host: http://localhost:4502
 ```
 
-Ou usando a curva:
+Ou usando curl:
 
 ```xml
 curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship.json
@@ -95,7 +98,7 @@ O resultado seria:
 }
 ```
 
-E então para acessar a tela única, você pode chamar:
+E, para acessar o Single Screen Display, você pode chamar:
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
@@ -104,16 +107,16 @@ Host: http://localhost:4502
 
 ## Executando Ações no Recurso {#executing-actions-on-the-resource}
 
-O JSON retornado pelas chamadas de API pode conter uma lista de ações que estão disponíveis no recurso.
+O JSON retornado pelas chamadas de API pode conter uma lista de ações disponíveis no recurso .
 
-O monitor, por exemplo, lista uma ação *broadcast-command* que permite enviar um comando para todos os dispositivos atribuídos a esse monitor.
+A exibição, por exemplo, lista uma ação *transmissão-comando* que permite enviar um comando para todos os dispositivos atribuídos a essa exibição.
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
 Host: http://localhost:4502
 ```
 
-Ou usando a curva:
+Ou usando curl:
 
 ```xml
 curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
@@ -151,7 +154,7 @@ curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/
 }
 ```
 
-Para acionar esta ação, você chamaria:
+Para acionar essa ação, é necessário chamar:
 
 ```xml
 POST /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
@@ -160,7 +163,7 @@ Host: http://localhost:4502
 :operation=broadcast-command&msg=reboot
 ```
 
-Ou usando a curva:
+Ou usando curl:
 
 ```xml
 curl -u admin:admin -X POST -d ':operation=broadcast-command&msg=reboot' http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
