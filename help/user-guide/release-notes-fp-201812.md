@@ -10,11 +10,14 @@ content-type: reference
 topic-tags: release-notes
 discoiquuid: 08ace4d8-bccf-4783-a664-a28bbae7ecc3
 noindex: true
+feature: Pacote de recursos
+role: Desenvolvedor
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 2%
+source-wordcount: '279'
+ht-degree: 3%
 
 ---
 
@@ -23,9 +26,9 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->É recomendável atualizar para a versão mais recente do Adobe Experience Manager (AEM). O Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
+>É recomendável atualizar para a versão mais recente do Adobe Experience Manager (AEM). O Screens fornece suporte de manutenção para AEM plataforma do Screens 6.3.
 
-A AEM Screens lançou AEM 6.3 Feature Pack 5 e AEM 6.4 Feature Pack 3 com os seguintes detalhes.
+O AEM Screens lançou AEM 6.3 Feature Pack 5 e AEM 6.4 Feature Pack 3 com os seguintes detalhes.
 
 ## Data de lançamento {#release-date}
 
@@ -33,30 +36,30 @@ A data de lançamento do AEM Screens Feature Pack 201812 é 16 de janeiro de 201
 
 ### Novidades {#what-s-new}
 
-* **Sobreposição de texto em ativos no Canal**:
+* **Sobreposição de texto em ativos no canal**:
 
-   A sobreposição de texto é um recurso disponível no AEM Screens que permite criar uma experiência atraente em um Canal de sequência, fornecendo um título ou uma descrição sobreposta na parte superior de uma imagem. Consulte [**Sobreposição de texto**](text-overlay.md) para saber mais.
+   A sobreposição de texto é um recurso disponível no AEM Screens que permite criar uma experiência atraente em um Canal de sequência fornecendo um título ou uma descrição sobreposta a uma imagem. Consulte [**Sobreposição de texto**](text-overlay.md) para saber mais.
 
-* **Agendamento** de vários ativos:
+* **Programação de vários ativos**:
 
    O Agendamento de vários ativos permite que o usuário selecione vários ativos e aplique um agendamento de reprodução a todos os ativos selecionados. Consulte a seção **Agendamento de vários ativos** em **[Agendamento de ativos](asset-level-scheduling.md)** para saber mais.
 
-* **Layout** de várias zonas:
+* **Layout de várias zonas**:
 
-   O Layout de várias zonas permite que você crie conteúdo de várias zonas e use diversos ativos, como vídeos, imagens e texto, que podem ser combinados em uma única tela. Consulte **[Layout de várias zonas](multi-zone-layout-aem-screens.md)** para saber mais.
+   O Layout de várias zonas permite que você crie conteúdo de várias zonas e use uma variedade de ativos, como vídeos, imagens e texto, que podem ser combinados em uma única tela. Consulte **[Layout de várias zonas](multi-zone-layout-aem-screens.md)** para saber mais.
 
 * **Sincronização inteligente de ativos para players**
-* **Implantação de autor/publicação (Hardening)**
+* **Implantação Autor/Publicação (Otimização)**
 
-### Jogadores AEM Screens lançados {#released-aem-screens-players}
+### Players AEM Screens liberados {#released-aem-screens-players}
 
-Os seguintes AEM Screens Players são lançados para o AEM 6.3 Feature Pack 5 e AEM 6.4 Feature Pack 3:
+Os seguintes Players do AEM Screens são lançados para o AEM 6.3 Feature Pack 5 e AEM 6.4 Feature Pack 3:
 
 * ChromeOS
 * Windows
 * Android
 * iOS
 
-#### Downloads do AEM Screens Player {#aem-screens-player-downloads}
+#### Downloads do Player do AEM Screens {#aem-screens-player-downloads}
 
-Para baixar o AEM Screens player mais recente e saber mais sobre as correções de erros, consulte [**Downloads do AEM Screens Player**](https://download.macromedia.com/screens/).
+Para baixar o player do AEM Screens mais recente e saber mais sobre as correções de erros, consulte [**Downloads do AEM Screens Player**](https://download.macromedia.com/screens/).
