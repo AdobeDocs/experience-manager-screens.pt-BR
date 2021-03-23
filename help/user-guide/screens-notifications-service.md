@@ -9,52 +9,55 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
+feature: Telas de criação
+role: Administrador, Desenvolvedor
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '561'
 ht-degree: 5%
 
 ---
 
 
-# AEM Screens Notifications Service{#aem-screens-notifications-service}
+# Serviço de notificações do AEM Screens{#aem-screens-notifications-service}
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
-***O AEM Screens Notifications Service*** descreve o recurso no qual você pode monitorar a atividade do dispositivo.
+***AEM Screens Notifications Service***, descreve o recurso no qual você pode monitorar a atividade do dispositivo.
 
 Esta seção aborda os seguintes tópicos:
 
 * **Visão geral**
-* **Configuração de configurações de email**
+* **Definição das configurações de email**
 * **Notificação por email**
 * **Exemplo de caso de uso**
 
 >[!CAUTION]
 >
->Esta funcionalidade do AEM Screens só estará disponível se você tiver instalado AEM 6.3.2 Feature Pack 3 ou AEM 6.4.1 Screens Pack 1.
+>Essa funcionalidade do AEM Screens só estará disponível se você tiver instalado AEM 6.3.2 Feature Pack 3 ou AEM 6.4.1 Screens Feature Pack 1.
 >
 >Para obter acesso a esse Feature Pack, você deve entrar em contato com o Suporte da Adobe e solicitar acesso. Com as devidas permissões, você pode baixá-lo em Compartilhamento de pacotes.
 
 ## Visão geral {#overview}
 
-***O AEM Screens Notifications Service*** permite que os administradores recebam um email se um reprodutor de telas AEM não fizer ping por um período de tempo configurável.
+***AEM Screens Notifications Service***, permite que os administradores recebam um email se um reprodutor de telas de AEM não fizer ping por um período de tempo configurável.
 
 Esse serviço pode ser configurado no console da Web OSGi.
 
-## Configuração de E-mail {#configuring-email-settings}
+## Definição das configurações de email {#configuring-email-settings}
 
 Siga as etapas abaixo para definir as configurações de notificação por email:
 
-1. Abra **Configuração do Adobe Experience Manager Web Console**.
-1. Abra **Serviço de Monitoramento de Correio Eletrônico do Dispositivo de Ecrã**.
+1. Abra **Configuração do Console Web do Adobe Experience Manager**.
+1. Abra **Serviço de Monitoramento de Email do Dispositivo do Screens**.
 
    ![screen_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
 
-1. Defina os seguintes campos para definir suas configurações para o email:
+1. Defina os seguintes campos para definir as configurações do email:
 
-   **Caminho** dos dispositivosInsira o caminho para os projetos de telas que deseja monitorar. O caminho normalmente é `/home/users/screens/<Name of your project>`.
+   **Caminho dos dispositivosInsira o caminho para os projetos do Screens que você deseja monitorar.** Normalmente, o caminho é `/home/users/screens/<Name of your project>`.
 
    Por exemplo, se seu projeto for **We.Retail**, você usará o caminho do projeto como ***/home/users/screens/we-retail***.
 
@@ -62,37 +65,37 @@ Siga as etapas abaixo para definir as configurações de notificação por email
    >
    >Especifique o caminho do projeto, onde os usuários do dispositivo estão localizados.
 
-   **Agendar** frequênciaEspecifique uma hora (por exemplo, 17:00 ou 17:00) ou frequência em horas (por exemplo, 1) na qual este monitor deve enviar emails.
+   **Agendar** frequênciaEspecifique uma hora (por exemplo, 17:00 ou 17:00) ou frequência em horas (por exemplo, 1) em que esse monitor deve enviar emails.
 
-   **Tempo** limite de pingEspecifica o intervalo em minutos após o qual um dispositivo deve ser considerado inacessível.
+   **Tempo** limite do pingEspecifica o intervalo em minutos após o qual um dispositivo deve ser considerado inacessível.
 
-   **Servidor** SMTP Especifica o Servidor SMTP usado para enviar emails.
+   **Servidor SMTP** Especifica o Servidor SMTP usado para enviar emails.
 
-   **Porta SMTPnsira a** porta SMTP.
+   **Porta SMTPnta a porta SMTP.** 
 
-   **Usar o** TLSTransport Layer Security (TLS) permite usar uma comunicação segura com o Servidor SMTP.
+   **Usar o TLST (** Transport Layer Security) permite usar uma comunicação segura com o Servidor SMTP.
 
-   É recomendável usar o TLS para conexão segura com servidores de e-mail corporativos. Consulte o administrador de e-mail para obter os valores apropriados.
+   É recomendável usar TLS para conexão segura com servidores de email corporativos. Verifique com seu administrador de email se há valores apropriados.
 
-   **nome de** usuárioEspecifique o nome de usuário para enviar emails.
+   **** nome de usuárioEspecifique o nome de usuário para enviar emails.
 
    **** senhaEspecifique a senha para enviar emails.
 
-   **Destinatário** Especifique o endereço de email do recipient.
+   **** RecipientEspecifique o endereço de email do recipient.
 
    >[!NOTE]
    >
-   >Você pode digitar apenas um endereço de email. Para enviar um email em massa, crie uma lista de grupo ou distribuição com os usuários relevantes.
+   >Você pode inserir somente um endereço de email. Para enviar um email em massa, crie uma lista de grupo ou distribuição com os usuários relevantes.
 
-1. Clique em **Salvar** para configurar a atividade do monitor por meio de um email para seu dispositivo AEM Screens.
+1. Clique em **Save** para configurar a atividade do monitor por meio de um email para seu dispositivo AEM Screens.
 
 ## Notificação por email {#email-notification}
 
-Depois de definir a configuração para suas notificações por email, você receberá uma notificação por email que conterá o link para o dispositivo real relatado de inatividade.
+Depois de definir a configuração das notificações por email, você receberá uma notificação por email contendo o link para o dispositivo real relatado de inatividade.
 
-Acessar esse link o levará diretamente para o painel do dispositivo.
+Acessar esse link o direcionará diretamente para o painel do dispositivo.
 
-Os emails só serão enviados se houver pelo menos um dispositivo que não tenha feito ping para o tempo limite de ping fornecido e ainda não esteja fazendo ping no momento da geração do email.
+Os emails só serão enviados se houver pelo menos um dispositivo que não tenha pingado pelo tempo limite de ping fornecido e ainda não tenha ping no momento da geração do email.
 
 ### Exemplo de casos de uso {#example-use-cases}
 
@@ -100,8 +103,8 @@ O exemplo a seguir descreve alguns cenários para referência, para configurar a
 
 **Cenário 1**:
 
-Se você definir a frequência de programação como 1:00 am e o tempo limite de ping como 60, se o dispositivo Screens não fizer ping entre 12:00 pm e 13:00 pm, você receberá uma notificação por email confirmando a inatividade do dispositivo.
+Se você definir a frequência de agendamento como 1:00 e o tempo limite de ping como 60, se o dispositivo Screens não fizer ping entre 12:00 e 13:00 horas, você receberá uma notificação por email confirmando a inatividade do dispositivo.
 
 **Cenário 2**:
 
-Se você definir a frequência de programação como 1 e o tempo limite de ping como 60, então se o dispositivo do Screens não fizer ping entre uma vez em qualquer horário específico do dia, você receberá uma notificação por email confirmando a inatividade do dispositivo.
+Se você definir a frequência de agendamento como 1 e o tempo limite de ping como 60, se o dispositivo Screens não fizer ping entre uma vez em um horário específico do dia, você receberá uma notificação por email confirmando a inatividade do dispositivo.
