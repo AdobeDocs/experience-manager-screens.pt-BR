@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
+feature: Telas de criação
+role: Administrador, Desenvolvedor
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '430'
 ht-degree: 64%
 
 ---
@@ -34,11 +37,11 @@ Siga as etapas abaixo para gerar automaticamente as representação em Full HD:
 
 1. Selecione o link do Adobe Experience Manager (canto superior esquerdo) e clique no ícone de martelo para selecionar ferramentas e escolha **Fluxo de trabalho**.
 
-   Clique em **Modelos** para inserir o gerenciamento de modelos de fluxo de trabalho.
+   Clique em **Models** para entrar no gerenciamento de modelos de fluxo de trabalho.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. Selecione o modelo **DAM Update Asset** e clique em Editar na barra de ações para abrir a janela **DAM Update Asset**.
+1. Selecione o modelo **Ativo de atualização do DAM** e clique em Editar na barra de ações para abrir a janela **Ativo de atualização do DAM**.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -46,7 +49,7 @@ Siga as etapas abaixo para gerar automaticamente as representação em Full HD:
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Selecione a guia **Processo** para editar os argumentos do processo. Digite os perfis HD completos para a lista em **Arguments** como: ***,profile:fullhd-bp,profile:fullhd-hp*** e clique em **OK**.
+1. Selecione a guia **Processo** para editar os argumentos do processo. Insira os perfis full HD na lista em **Argumentos** como: ***,profile:fullhd-bp,profile:fullhd-hp*** e clique em **OK**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
@@ -54,11 +57,11 @@ Siga as etapas abaixo para gerar automaticamente as representação em Full HD:
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. Navegue até **Assets** e faça o upload de um novo vídeo. Clique no vídeo e abra o painel lateral Representações e você notará os dois vídeos em HD completos.
+1. Navegue até **Assets** e faça o upload de um novo vídeo. Clique no vídeo e abra o painel lateral Representações e você notará os dois vídeos em full HD.
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
-1. Abra **Representações** a partir do painel lateral.
+1. Abra **Representações** no painel lateral.
 
    ![step11_-_open_therenditionssiderail](assets/step11_-_open_therenditionssiderail.png)
 
@@ -72,17 +75,17 @@ Siga as etapas abaixo para gerar manualmente as representação em Full HD:
 
 1. Selecione o link do Adobe Experience Manager (canto superior esquerdo) e clique no ícone de martelo para selecionar ferramentas e escolha **Fluxo de trabalho**.
 
-   Clique em **Modelos** para inserir o gerenciamento de modelos de fluxo de trabalho.
+   Clique em **Models** para entrar no gerenciamento de modelos de fluxo de trabalho.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. Selecione o modelo **Screens Update Asset** e clique no **Fluxo de trabalho do Start** para abrir a caixa de diálogo **Executar fluxo de trabalho**.
+1. Selecione o modelo **Ativo de atualização do Screens** e clique em **Iniciar fluxo de trabalho** para abrir a caixa de diálogo **Executar fluxo de trabalho**.
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Selecione o vídeo desejado em **Payload** e clique em **Executar**.
+1. Selecione o vídeo desejado em **Carga** e clique em **Executar**.
 
-   ![step6_select_thedeiredvideo](assets/step6_-_select_thedesiredvideo.png)
+   ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
 1. Navegue até **Assets**, faça um detalhamento até o seu ativo e clique nele.
 
