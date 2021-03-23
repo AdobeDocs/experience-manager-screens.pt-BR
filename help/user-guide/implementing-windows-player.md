@@ -1,8 +1,8 @@
 ---
 title: Implementação do Windows 10 Player
 seo-title: Implementação do Windows 10 Player
-description: Siga esta página para saber mais sobre a configuração do player do AEM Screens Windows 10.
-seo-description: Siga esta página para saber mais sobre a configuração do player do AEM Screens Windows 10.
+description: Siga esta página para saber mais sobre a configuração do AEM Screens Windows 10 player.
+seo-description: Siga esta página para saber mais sobre a configuração do AEM Screens Windows 10 player.
 uuid: da7e88bf-c251-481e-9029-f8fc4768b309
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,10 +10,13 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
+feature: Administração do Screens, Windows Player
+role: Administrador
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: ab67806751e8c57249c9ad656e931ca1339ab6d4
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1003'
 ht-degree: 1%
 
 ---
@@ -21,13 +24,13 @@ ht-degree: 1%
 
 # Implementação do Windows 10 Player {#implementing-windows-player}
 
-Esta seção descreve como configurar o reprodutor do AEM Screens para Windows 10. Ele fornece informações sobre o arquivo de configuração e as opções disponíveis, além de recomendações sobre quais configurações usar para desenvolvimento e teste.
+Esta seção descreve como configurar o player do AEM Screens Windows 10. Ele fornece informações sobre o arquivo de configuração e as opções disponíveis, além de recomendações sobre quais configurações usar para desenvolvimento e teste.
 
 ## Instalar o Windows Player {#installing-windows-player}
 
-Para implementar o Windows Player no AEM Screens, instale o Windows Player para o AEM Screens.
+Para implementar o Windows Player para AEM Screens, instale o Windows Player para AEM Screens.
 
-Visite a página [**Downloads de Player do AEM 6.5**](https://download.macromedia.com/screens/).
+Visite a página [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/).
 
 >[!NOTE]
 >Não há um modo de janela no Windows Player. É sempre o modo de tela cheia.
@@ -37,12 +40,12 @@ Visite a página [**Downloads de Player do AEM 6.5**](https://download.macromedi
 >[!NOTE]
 >Você deve configurar um ambiente para o Windows Player se estiver usando o AEM Screens 6.5.5 Service Pack.
 
-Defina o atributo **SameSite para os cookies do token de login** de **Lax** para **None** de **Console da Web do Adobe Experience Manager
-Configuração** em todas as instâncias de criação e publicação do AEM.
+Defina o atributo **SameSite para os cookies do token de login** de **Lax** para **None** de **Adobe Experience Manager Web Console
+Configuração** em todas as instâncias de criação e publicação AEM.
 
 Siga as etapas abaixo:
 
-1. Navegue até **Console da Web do Adobe Experience Manager
+1. Navegue até **Adobe Experience Manager Web Console
 Configuração** usando `http://localhost:4502/system/console/configMgr`.
 
 1. Procure por *Adobe Granite Token Authentication Handler*.
@@ -54,12 +57,12 @@ Configuração** usando `http://localhost:4502/system/console/configMgr`.
 
 ### Método ad-hoc {#ad-hoc-method}
 
-O método Ad-Hoc permite instalar o Windows Player mais recente (*.exe*). Visite a página [**Downloads de Player do AEM 6.5**](https://download.macromedia.com/screens/).
+O método Ad-Hoc permite instalar o Windows Player mais recente (*.exe*). Visite a página [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/).
 
 Depois de baixar o aplicativo, siga as etapas no reprodutor para concluir a instalação ad-hoc:
 
 1. Pressione e segure no canto superior esquerdo para abrir o painel do administrador.
-1. Navegue até **Configuration** no menu de ação esquerdo e insira o local (endereço) da instância do AEM à qual você deseja se conectar e clique em **Save**.
+1. Navegue até **Configuration** a partir do menu de ação esquerdo e insira o local (endereço) da instância de AEM à qual deseja se conectar e clique em **Save**.
 1. Navegue até o link **Device** **Registration** no menu de ação esquerdo para verificar o status do processo de registro do dispositivo.
 
 >[!NOTE]
@@ -135,7 +138,7 @@ Ao implantar o Windows player, é importante ativar um modo Quiosque para que ou
 
 >[!CAUTION]
 >
->A Adobe recomenda uma solução de gerenciamento de dispositivos para ativar o Quiosque para Windows. Siga as etapas abaixo, se você não tiver uma solução de gerenciamento de dispositivos para ativar o modo Quiosque. Esse método usa o recurso Shell Launcher disponível no Windows 10 Enterprise e no Edu. Qualquer outro meio recomendado pela Microsoft para aplicativos que não sejam UWP também pode ser aplicado para ativar o Quiosque, especialmente em outras edições do Windows.
+>O Adobe recomenda uma solução de gerenciamento de dispositivos para ativar o Quiosque para Windows. Siga as etapas abaixo, se você não tiver uma solução de gerenciamento de dispositivos para ativar o modo Quiosque. Esse método usa o recurso Shell Launcher disponível no Windows 10 Enterprise e no Edu. Qualquer outro meio recomendado pela Microsoft para aplicativos que não sejam UWP também pode ser aplicado para ativar o Quiosque, especialmente em outras edições do Windows.
 
 Siga as etapas abaixo para ativar o modo Quiosque:
 
@@ -148,7 +151,7 @@ Siga as etapas abaixo para ativar o modo Quiosque:
    Consulte a seção ***Configurar o Shell Launcher*** na página **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** pelo suporte do Microsoft Windows para obter mais informações.
 
 1. Crie um usuário não administrativo (se você já não tiver um) para ser usado no Quiosque. Pode ser um usuário local ou de domínio.
-1. Instale o windows player para esse usuário do Quiosque na página [Downloads do Player do AEM Screens](https://download.macromedia.com/screens/) .
+1. Instale o windows player para esse usuário do Quiosque na página [Downloads do AEM Screens Player](https://download.macromedia.com/screens/).
 1. Consulte [Usar o Shell Launcher para criar um quiosque do Windows 10](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) para modificar o script do PowerShell para obter mais informações.
 
    Modifique o script do PowerShell para substituir o nome de usuário pelo que você criou. Verifique se o caminho para o executável do aplicativo está correto. Isso definirá o shell personalizado como o aplicativo do windows player para o usuário do quiosque e o padrão como explorer.exe para outros usuários.
