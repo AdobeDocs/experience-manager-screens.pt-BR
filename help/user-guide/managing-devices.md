@@ -9,11 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
+feature: Telas de criação
+role: Administrador, Desenvolvedor
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 70%
+source-wordcount: '273'
+ht-degree: 69%
 
 ---
 
@@ -38,7 +41,7 @@ Siga as etapas abaixo para atribuir um dispositivo a um monitor:
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Selecione sua pasta **Dispositivos** e toque/clique em **Gerenciador de dispositivos** na barra de ações. Os dispositivos atribuídos e não atribuídos serão exibidos.
+1. Selecione a pasta **Dispositivos** e toque/clique em **Gerenciador de dispositivos** na barra de ações. Os dispositivos atribuídos e não atribuídos serão exibidos.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
@@ -46,7 +49,7 @@ Siga as etapas abaixo para atribuir um dispositivo a um monitor:
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Selecione a exibição à qual deseja atribuir o dispositivo na lista e toque/clique em **Atribuir**.
+1. Selecione o monitor ao qual deseja atribuir o dispositivo na lista e toque/clique em **Atribuir**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
