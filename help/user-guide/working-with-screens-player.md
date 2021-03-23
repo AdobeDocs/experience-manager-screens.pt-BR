@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
+feature: Administração do Screens
+role: Administrador
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 5aea3e032cc5279de7f3abab679825aa2794a89e
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1070'
 ht-degree: 42%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 42%
 
 # Trabalhar com o AEM Screens Player {#working-with-aem-screens-player}
 
-Você pode gerenciar o conteúdo do canal e outras configurações no AEM Screens Player.
+Você pode gerenciar o conteúdo do canal e outras configurações no Player do AEM Screens.
 
 >[!NOTE]
 >
@@ -32,9 +35,9 @@ Depois que você atribui um canal a uma exibição, o Player do AEM Screens exib
 
 Você pode configurar as preferências do seu dispositivo no painel Dispositivos, acessível na sua instância de criação do AEM.
 
-1. Navegue até o painel do dispositivo do seu projeto, por exemplo, ***Testar projeto*** —> ***Dispositivos***.
+1. Navegue até o painel Dispositivos do seu projeto, por exemplo, ***Testar projeto*** —> ***Dispositivos***.
 
-   Selecione **Dispositivos** e **Gerenciador de dispositivos** na barra de ações.
+   Selecione **Dispositivos** e **Gerenciador de Dispositivos** na barra de ações.
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
@@ -42,13 +45,13 @@ Você pode configurar as preferências do seu dispositivo no painel Dispositivos
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
-1. Verifique o painel **PREFERÊNCIAS**. Você pode habilitar/desabilitar as **IU de administração** e **Comutador de Canais** para seu player a partir dessas duas opções.
+1. Verifique o painel **PREFERÊNCIAS**. Você pode habilitar/desabilitar o **Interface do usuário do administrador** e o **Seletor de canal** para o seu player a partir dessas duas opções.
 
    ![chlimage_1-68](assets/chlimage_1-68.png)
 
 ### A Interface do usuário do administrador {#the-admin-ui}
 
-Habilitar **IU administrativa** do painel de preferências permite que o usuário abra as configurações de administrador no Player do Screens. Além disso, se você desativar essa opção no painel Dispositivos, o usuário não poderá abrir a interface do usuário do administrador.
+Ativar a **Interface do usuário do administrador** no painel de preferências permite que o usuário abra as configurações do administrador no Player do Screens. Além disso, se você desativar essa opção no painel Dispositivos, o usuário não poderá abrir a interface do usuário do administrador.
 
 Para exibir a interface do usuário do administrador no player do Screens, pressione e segure no canto superior esquerdo para abrir o menu Admin, no player do AEM Screens ativado para toque ou com o uso de um mouse. Ele mostra informações após a conclusão do registro e o carregamento dos canais.
 
@@ -60,19 +63,19 @@ Para exibir a interface do usuário do administrador no player do Screens, press
 
 #### Acessar as opções do menu de configuração {#configuration-options}
 
-Você pode atualizar suas configurações, se selecionar a opção **Configuração** no menu lateral, conforme mostrado na figura abaixo:
+Você pode atualizar suas configurações, se selecionar a opção **Configuration** no menu lateral, conforme mostrado na figura abaixo:
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
 O menu Configuração permite modificar as seguintes configurações:
 
-* Redefina **Firmware**, **Preferências** ou **Para a fábrica** desta caixa de diálogo.
+* Redefina **Firmware**, **Preferências** ou **Para fábrica** desta caixa de diálogo.
 
-* Especifique o número máximo de arquivos de log a serem mantidos para um player AEM Screens em **Nº máx. de arquivos de log para manter**.
+* Especifique o número máximo de arquivos de log a serem mantidos para um reprodutor AEM Screens em **Nº Máx. de arquivos de log a serem mantidos**.
 
-* Ative ou desative **Menu Admin**, **Comutador de Canais** e **IU de Atividade** para o player do Screens.
+* Ative ou desative **Admin Menu**, **Channel Switcher** e **Activity UI** para o player do Screens.
 
-   Se **IU de Atividade** estiver ativado no menu **Configuração**, o AEM Screens player exibirá as *notificações de atividade do player* no canto superior direito do player, como mostrado na figura abaixo.
+   Se a **Interface do usuário de atividade** estiver ativada no menu **Configuração**, o player do AEM Screens exibirá as *notificações de atividade do player* no canto superior direito do player, conforme mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/activity_ui.png)
 
@@ -82,9 +85,9 @@ O menu Configuração permite modificar as seguintes configurações:
 
 >[!NOTE]
 >
->Recomenda-se que **IU de administração** seja desativada em Implantações de produção.
+>Recomenda-se que a **Interface do usuário do administrador** seja desativada em Implantações de produção.
 
-#### Acessar as opções do menu Cache de conteúdo {#content-cache-options}
+#### Acessar as opções do menu da Cache de conteúdo {#content-cache-options}
 
 Você pode limpar o cache de canais e aplicativos da Interface do usuário do administrador no player do AEM Screens.
 
@@ -94,7 +97,7 @@ Selecione **Cache de conteúdo** no painel lateral para atualizar o cache.
 
 ### O Seletor de canal {#the-channel-switcher}
 
-Habilitar **Comutador de Canais** do painel de preferências permite que o usuário abra a seleção/configurações do canal no Reprodutor de telas.
+Habilitar o **Seletor de canal** no painel de preferências permite que o usuário abra a seleção/as configurações do canal no Player do Screens.
 
 Além disso, se você desativar essa opção no painel Dispositivos, o usuário não poderá controlar as preferências de canal no Player do Screens.
 
@@ -117,8 +120,8 @@ Você também pode alterar as configurações da interface do usuário do admini
 Siga estas etapas para alterar as preferências do seu Player:
 
 1. Pressione e segure no canto superior esquerdo do canal inativo para abrir o painel do administrador.
-1. Navegue até **Configuração** no menu de ação esquerdo.
-1. Ative/desabilite a configuração para **IU de administração** ou **Comutador de Canais**.
+1. Navegue até **Configuração** no menu de ação à esquerda.
+1. Ative/desative a configuração para **Interface do usuário do administrador** ou **Seletor de canal**.
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
@@ -128,42 +131,42 @@ Siga estas etapas para alterar as preferências do seu Player:
 
 | **Problemas** | **Recomendações** |
 |---|---|
-| O armazenamento do player está cheio | Eliminar arquivos desnecessários |
-| Player perdeu a rede | Use o cabo Cat-5/Cat-6. Para wifi, reduza a distância do roteador ao dispositivo do player |
-| O AEM Screens Player falhou | É recomendável ter um aplicativo watchdog que verifique se o AEM Screens Player sempre executa |
-| Configurações perdidas do AEM Screens Player | Verifique a conexão com AEM servidor |
-| O AEM Screens Player não start automaticamente após reiniciar/reiniciar o Player | Verifique a pasta do start do SO ou o procedimento de inicialização |
-| O AEM Screens Player mostra conteúdo incorreto/antigo | Verifique a conexão de rede |
+| O armazenamento do reprodutor está cheio | Elimine arquivos desnecessários |
+| Rede perdida do reprodutor | Use o cabo Cat-5/Cat-6. Para wifi, reduza a distância do roteador para o dispositivo do player |
+| AEM Screens Player travado | É recomendável ter um aplicativo watchdog que garanta que o Player do AEM Screens sempre seja executado |
+| Configurações perdidas do AEM Screens Player | Verificar conexão com AEM servidor |
+| O AEM Screens Player não inicia automaticamente após a reinicialização/reinicialização do Player | Verificar a pasta inicial do SO ou o procedimento de inicialização |
+| O AEM Screens Player mostra conteúdo errado/antigo | Verificar conexão de rede |
 
 ### Atualizações para o Player do AEM Screens {#updates-for-aem-screens-player}
 
 Existem dois tipos de atualizações para o Player do AEM Screens:
 
-| **Método** | **Detalhes** | **via remoto** | **Automatizado** | **0 Tempo de inatividade** |
+| **Método** | **Detalhes** | **via Remoto** | **Automatizado** | **0 Tempo de inatividade** |
 |---|---|---|---|---|
-| Atualização do firmware | Aplicado em Players instalados existentes via comando remoto. Após a atualização, o Player será recarregado automaticamente com o conteúdo existente. | Sim | Personalizado | Quase - 1 a 3 segundos |
-| Atualizações do shell do player | Este é um novo executável a ser implantado no Player. É necessário fazer uma cópia remota do novo binário no player, interromper a execução atual e iniciar a nova versão. Pode ser necessário fazer um novo download do pré-carregamento dos pacotes. | Sim (via shell remoto) | Personalizado | Não |
+| Atualização de firmware | Aplicado em Players instalados existentes via comando remoto. Após a atualização, o Player será recarregado automaticamente com o conteúdo existente. | Sim | Personalizado | Quase - 1 a 3 segundos |
+| Atualizações do Shell do Player | Este é um novo executável a ser implantado no Player. É necessário fazer uma cópia remota do novo binário no player, interromper a execução atual e iniciar a nova versão. Pode ser necessário fazer um novo download do pré-carregamento dos pacotes. | Sim (via shell remoto) | Personalizado | Não |
 
-## Diretrizes de seleção de hardware para o dispositivo do player {#hardware-selection-guidelines-for-player-device}
+## Diretrizes de seleção de hardware para o dispositivo reprodutor {#hardware-selection-guidelines-for-player-device}
 
-A seção a seguir fornece as diretrizes de seleção de hardware para um projeto do Screens:
+A seção a seguir fornece as diretrizes de seleção de hardware para um Projeto do Screens:
 
-* Origine sempre os componentes de nível ***Commercial*** ou ***Industrial*** para o leitor de PC e o Painel de Exibição ou Projetor.
+* Gerar sempre componentes de nível ***Comercial*** ou ***Industrial*** para o reprodutor do PC e o Painel de Exibição ou Projetor.
 
-* Sempre envolva-se com fornecedores que servem o mercado de placas digitais.
-* Considere sempre fatores ambientais como temperatura ambiente e umidade relativa.
+* Sempre envolva-se com fornecedores que atendem ao mercado de sinalização digital.
+* Considere sempre fatores ambientais como a temperatura ambiente e a humidade relativa.
 * Verifique sempre os requisitos de energia e o condicionamento de energia.
 * Analise cuidadosamente as necessidades de desempenho e as portas de E/S necessárias para o aplicativo.
 
-A tabela a seguir resume as configurações de hardware com casos de uso típicos de um projeto da AEM Screens:
+A tabela a seguir resume as configurações de hardware com casos de uso típicos de um projeto do AEM Screens:
 
 <table>
  <tbody>
   <tr>
-   <td>Configuração do player</td>
+   <td>Configuração do reprodutor</td>
    <td>Processador</td>
    <td>Memória</td>
-   <td>Armazenamento SSD</td>
+   <td>SSD de armazenamento</td>
    <td>GPU</td>
    <td>Exibir</td>
    <td>E/S</td>
@@ -173,14 +176,14 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
    <td>Básico</td>
    <td>Processador Intel® Atom de núcleo duplo, i3 ou núcleo quádruplo básico</td>
    <td><p>4 GB de memória</p> <p>2 MB de cache</p> </td>
-   <td><p>・ChromeOS 32 GB</p> <p>・ Windows 128GB</p> </td>
+   <td><p>・ChromeOS 32 GB</p> <p>・Windows 128GB</p> </td>
    <td>OnBoard</td>
    <td>1920x1080</td>
-   <td>DVI,<br /> Ethernet / sem fio,<br /> 2xUSB</td>
+   <td>DVI,<br /> Ethernet / Wireless,<br /> 2xUSB</td>
    <td>
     <ul>
-     <li>Looping padrão em tela cheia<br /> </li>
-     <li>Partilha de Dia</li>
+     <li>Looping de tela cheia padrão<br /> </li>
+     <li>Divisão de dia</li>
     </ul> </td>
   </tr>
   <tr>
@@ -189,22 +192,22 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
    <td><p>8 GB de memória</p> <p>4 MB de cache</p> </td>
    <td>128 GBB</td>
    <td>OnBoard</td>
-   <td>3840 x 2160 (4 K)</td>
+   <td>3840x2160 (4K)</td>
    <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 2xUSB</td>
    <td>
     <ul>
-     <li>Conteúdo dinâmico de origem única</li>
-     <li>Interativo simples</li>
-     <li>1-3 Layouts de zona</li>
+     <li>Conteúdo dinâmico de fonte única</li>
+     <li>Simples interativo</li>
+     <li>1-3 Layouts de zonas</li>
     </ul> </td>
   </tr>
   <tr>
    <td>Avançado </td>
-   <td>Quad Core com hyperthreading, processador Intel® Core i7</td>
+   <td>Quad Core com hiperthreading, processador Intel® Core i7</td>
    <td><p>16 GB de memória</p> <p>8 MB de cache</p> </td>
    <td>256 GB</td>
    <td>GPU de gráficos dedicados</td>
-   <td>3840 x 2160 (4 K)</td>
+   <td>3840x2160 (4K)</td>
    <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 4xUSB</td>
    <td>
     <ul>
