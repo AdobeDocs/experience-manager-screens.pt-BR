@@ -10,10 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
+feature: Telas de criação
+role: Administrador, Desenvolvedor
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1469'
 ht-degree: 60%
 
 ---
@@ -52,9 +55,9 @@ O exemplo a seguir mostra a adição de um componente do Livefyre a um projeto d
 1. Clique em **Editar** na barra de ações para abrir o editor.
 1. Selecione o modo de **Design.**
 1. Selecione o editor de design inteiro à direita e clique no símbolo de configurações para abrir a caixa de diálogo **ParSys (Design)**.
-1. Você pode selecionar os componentes que deseja importar para o projeto do AEM Screens. O exemplo a seguir mostra a adição do componente **Livefyre** a um projeto da AEM Screens.
+1. Você pode selecionar os componentes que deseja importar para o projeto do AEM Screens. O exemplo a seguir mostra a adição do componente **Livefyre** a um projeto do AEM Screens.
 
-![add_components](assets/adding_components.gif)
+![adicionar_componentes](assets/adding_components.gif)
 
 >[!NOTE]
 >
@@ -62,7 +65,7 @@ O exemplo a seguir mostra a adição de um componente do Livefyre a um projeto d
 
 ## Noções básicas sobre os componentes do AEM Screens  {#understanding-aem-screen-components}
 
-A seção a seguir explica os componentes do AEM Screens que você pode usar no seu projeto.
+A seção a seguir explica os componentes do AEM Screens que podem ser usados no projeto.
 
 >[!NOTE]
 >
@@ -77,11 +80,11 @@ O componente Aplicativo tem as seguintes propriedades:
 | **Propriedade** | **Descrição** |
 |---|---|
 | ***Caminho do aplicativo*** | Selecione o caminho absoluto no qual o aplicativo existe. |
-| ***Duração (ms)*** | Selecione a duração do aplicativo. Por padrão, a duração é definida como -1, o que significa que o elemento é executado para sempre (ou seja, um aplicativo de página única). Definir o valor de duração como maior que 0 mostra o elemento pela duração especificada e, em seguida, avança para o próximo. |
+| ***Duração (ms)*** | Selecione a duração do aplicativo. Por padrão, a duração é definida como -1, o que significa que o elemento é executado para sempre (ou seja, aplicativo de página única). Definir o valor de duração como maior que 0 mostra o elemento pela duração especificada e, em seguida, avança para o próximo. |
 
-O exemplo a seguir mostra como incorporar um componente de aplicativo junto com a pré-visualização de suas propriedades:
+O exemplo a seguir mostra como incorporar um componente de aplicativo junto com a visualização de suas propriedades:
 
-![add_componentsaplicativo](assets/adding_componentsapplication.gif)
+![add_components_application](assets/adding_componentsapplication.gif)
 
 >[!NOTE]
 >
@@ -105,7 +108,7 @@ O componente Canal tem as seguintes propriedades:
   </tr>
   <tr>
    <td><strong><em>Duração (ms)</em></strong></td>
-   <td>Selecione toda a duração do canal. Definir a duração como -1 indica que o canal incorporado executará sua duração total em um canal específico.</td>
+   <td>Selecione toda a duração do canal. Definir a duração como -1 indica que o canal incorporado será executado até o final em um canal específico.</td>
   </tr>
  </tbody>
 </table>
@@ -128,7 +131,7 @@ A Página incorporada tem as seguintes propriedades:
   </tr>
   <tr>
    <td><strong><em>Duração (ms)</em></strong></td>
-   <td>Selecione toda a duração do canal. Definir a duração como -1 indica que o canal incorporado executará sua duração total em um canal específico.</td>
+   <td>Selecione toda a duração do canal. Definir a duração como -1 indica que o canal incorporado será executado até o final em um canal específico.</td>
   </tr>
  </tbody>
 </table>
@@ -137,7 +140,7 @@ A Página incorporada tem as seguintes propriedades:
 
 >[!NOTE]
 >
->Consulte [Sequências incorporadas](embedded-sequences.md) na seção Telas de criação para saber mais detalhes sobre as sequências incorporadas.
+>Consulte [Sequências incorporadas](embedded-sequences.md) na seção Telas de criação para saber mais detalhes sobre sequências incorporadas.
 
 Uma sequência incorporada permite adicionar um canal de sequência incorporada ao seu canal existente (com outros ativos).
 
@@ -155,11 +158,11 @@ A Sequência incorporada tem as seguintes propriedades de página:
   </tr>
   <tr>
    <td><strong><em>Duração (ms)</em></strong></td>
-   <td>Selecione toda a duração do canal. Definir a duração como -1 indica que o canal incorporado executará sua duração total em um canal específico.</td>
+   <td>Selecione toda a duração do canal. Definir a duração como -1 indica que o canal incorporado será executado até o final em um canal específico.</td>
   </tr>
   <tr>
    <td><strong><em>Estratégia</em></strong></td>
-   <td>Defina para <strong>original</strong> ou <strong>single</strong>. Definir o valor como <strong>original</strong> significa que a subsequente será executada completamente em cada ciclo da sequência pai. O outro valor possível é <strong>single</strong> e que mostraria apenas um item da subsequente em cada execução (por exemplo, o primeiro item no primeiro loop, o segundo item no segundo loop e assim por diante).</td>
+   <td>Defina como <strong>original</strong> ou <strong>único</strong>. Definir o valor como <strong>original</strong> significa que a subsequência será totalmente executada em cada ciclo da sequência pai. O outro valor possível é <strong>single</strong> e mostraria apenas um item da subsequência em cada execução (por exemplo, o primeiro item no primeiro loop, o segundo item no segundo loop e assim por diante).</td>
   </tr>
  </tbody>
 </table>
@@ -168,7 +171,7 @@ A Sequência incorporada tem as seguintes propriedades de página:
 
 Uma sequência incorporada dinâmica permite adicionar uma sequência semelhante à mencionada acima, exceto pela função do canal.
 
-Consulte [Sequências incorporadas](embedded-sequences.md) na seção Telas de criação para saber mais detalhes sobre as sequências incorporadas.
+Consulte [Sequências incorporadas](embedded-sequences.md) na seção Telas de criação para saber mais detalhes sobre sequências incorporadas.
 
 A sequência incorporada dinâmica tem as seguintes propriedades:
 
@@ -184,35 +187,35 @@ A sequência incorporada dinâmica tem as seguintes propriedades:
   </tr>
   <tr>
    <td><strong><em>Duração (ms)</em></strong></td>
-   <td>Selecione toda a duração do canal. Definir a duração como -1 indica que o canal incorporado executará sua duração total em um canal específico.</td>
+   <td>Selecione toda a duração do canal. Definir a duração como -1 indica que o canal incorporado será executado até o final em um canal específico.</td>
   </tr>
   <tr>
    <td><strong><em>Estratégia</em></strong></td>
-   <td>Defina para <strong>original</strong> ou <strong>single</strong>. Definir o valor como <strong>original</strong> significa que a subsequente será executada completamente em cada ciclo da sequência pai. O outro valor possível é <strong>single</strong> e que mostraria apenas um item da subsequente em cada execução (por exemplo, o primeiro item no primeiro loop, o segundo item no segundo loop e assim por diante).</td>
+   <td>Defina como <strong>original</strong> ou <strong>único</strong>. Definir o valor como <strong>original</strong> significa que a subsequência será totalmente executada em cada ciclo da sequência pai. O outro valor possível é <strong>single</strong> e mostraria apenas um item da subsequência em cada execução (por exemplo, o primeiro item no primeiro loop, o segundo item no segundo loop e assim por diante).</td>
   </tr>
  </tbody>
 </table>
 
 ### Fragmento de experiência {#experience-fragment}
 
-Um Fragmento de experiência permite que você adicione um fragmento de experiência (grupo de um ou mais componentes, incluindo conteúdo e layout que podem ser referenciados nas páginas) ao seu canal AEM Screens. Arraste e solte o componente para AEM editor e selecione o fragmento da experiência.
+Um Fragmento de experiência permite adicionar um fragmento de experiência (grupo de um ou mais componentes, incluindo o conteúdo e o layout que podem ser referenciados nas páginas) ao canal do AEM Screens. Arraste e solte o componente no editor de AEM e selecione o fragmento de experiência.
 
-Para saber mais sobre como criar um fragmento de experiência e aproveitá-lo em um projeto da AEM Screens, consulte [Uso de fragmentos de experiência](experience-fragments-in-screens.md).
+Para saber mais sobre como criar um fragmento de experiência e aproveitá-lo em um projeto do AEM Screens, consulte [Uso de fragmentos de experiência](experience-fragments-in-screens.md).
 
 ![exp](assets/exp.gif)
 
 | **Propriedade** | **Descrição** |
 |---|---|
 | **Fragmento de experiência** |
-| ***Fragmento de experiência*** | Selecione o fragmento da experiência. |
-| ***Duração*** | Selecione a duração inteira do fragmento da experiência que é reproduzido no canal. |
+| ***Fragmento de experiência*** | Selecione o fragmento de experiência. |
+| ***Duração*** | Selecione a duração inteira do fragmento de experiência que é reproduzido no canal. |
 | **Configuração offline** |
 | ***Bibliotecas do lado do cliente*** | Arquivos Javascript e CSS. |
-| ***Arquivos estáticos*** | Arquivos estáticos que você pode adicionar como configurações offline ao fragmento da sua experiência. |
+| ***Arquivos estáticos*** | Arquivos estáticos que você pode adicionar como configurações offline ao seu fragmento de experiência. |
 
 >[!NOTE]
 >
->As **Bibliotecas do lado do cliente** e os **Arquivos estáticos** adicionados a partir deste componente serão adicionados às **Bibliotecas do lado do cliente** já configuradas e aos Arquivos estáticos adicionados a partir de **Propriedades** do fragmento de experiência.
+>As **Bibliotecas do lado do cliente** e os **Arquivos estáticos** adicionados a partir deste componente serão adicionados às **Bibliotecas do lado do cliente** já configuradas e aos Arquivos estáticos adicionados a partir das **Propriedades** do fragmento de experiência.
 
 ### Imagem {#image}
 
@@ -231,13 +234,13 @@ O ativo de imagem possui três guias: **Imagem**, **Acessibilidade** e **Sequên
 | **Acessibilidade** |
 | ***Texto alternativo*** | Texto alternativo para a imagem. |
 | **Sequência** |
-| ***Duração*** | Por padrão, a duração é definida como *8000 ms*. Se desejar alterar a duração da reprodução da imagem, atualize o campo **Duração**. |
+| ***Duração*** | Por padrão, a duração é definida como *8000 ms*. Se desejar alterar a duração da reprodução da imagem, atualize o campo **Duration**. |
 
 ### Transição {#transition}
 
 O componente Transição permite adicionar uma transição ao seu projeto do Screens.
 
-A imagem a seguir mostra o componente de transição (adicionado por arrastar e soltar) ao editor.
+A imagem a seguir mostra o componente de transição (adicionado por meio do arrastar e soltar) para o editor.
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
@@ -249,7 +252,7 @@ Selecione o ícone de transição e clique em **Configurar** (ícone de chave) p
 
 >[!NOTE]
 >
->Por padrão, a sequência é definida como 600 ms. Você pode atualizar a sequência de transição para outro valor usando a guia **Sequência**.
+>Por padrão, a sequência é definida como 600 ms. Você pode atualizar a sequência de transição para outro valor usando a guia **Sequence**.
 
 ![transição](assets/transition.gif)
 
@@ -290,15 +293,15 @@ O componente de transição tem as seguintes propriedades:
    <td></td>
   </tr>
   <tr>
-   <td><strong><em>Ativa de</em></strong></td>
-   <td>Carimbo de data e hora que descreve de quando a transição pode estar ativa.<br /> </td>
+   <td><strong><em>Ativo de</em></strong></td>
+   <td>Carimbo de data e hora que descreve a partir de quando a transição pode estar ativa.<br /> </td>
   </tr>
   <tr>
    <td><strong><em>Ativa até</em></strong></td>
    <td>Carimbo de data e hora que descreve até quando a transição pode estar ativa.</td>
   </tr>
   <tr>
-   <td><strong><em>Agendamento</em></strong></td>
+   <td><strong><em>Programação</em></strong></td>
    <td>Adicione um agendamento predefinido.</td>
   </tr>
  </tbody>
