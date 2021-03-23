@@ -3,11 +3,14 @@ title: Notas de versão do Feature Pack 202004
 seo-title: Notas de versão do Feature Pack 202004
 description: Siga esta página para obter informações sobre o AEM Screens Feature Pack 2004 lançado em 20 de abril de 2020.
 seo-description: Siga esta página para obter informações sobre o AEM Screens Feature Pack 2004 lançado em 20 de abril de 2020.
+feature: Pacote de recursos
+role: Desenvolvedor
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: d22a8ad78a8276b736a4d7455792996234d23ca3
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 3%
+source-wordcount: '396'
+ht-degree: 6%
 
 ---
 
@@ -16,13 +19,13 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->É recomendável atualizar para a versão mais recente do Adobe Experience Manager (AEM). O Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
+>É recomendável atualizar para a versão mais recente do Adobe Experience Manager (AEM). O Screens fornece suporte de manutenção para AEM plataforma do Screens 6.3.
 
 ## Disponibilidade {#availability}
 
-A AEM Screens lançou AEM 6.4 Feature Pack 8 e AEM 6.5 Feature Pack 4.
+O AEM Screens lançou o AEM 6.4 Feature Pack 8 e o AEM 6.5 Feature Pack 4.
 
-Você pode baixar o pacote de recursos mais recente para AEM Screens 6.4.8 ou AEM Screens 6.5.4 do [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) usando seu Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure **Screens** para obter o pacote de recursos mais recente.
+Você pode baixar o pacote de recursos mais recente para a versão do AEM Screens 6.4.8 ou AEM Screens 6.5.4 no [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o pacote de recursos mais recente.
 
 ## Data de lançamento {#release-date}
 
@@ -30,49 +33,49 @@ A data de lançamento do AEM Screens Feature Pack 2004 é 20 de abril de 2020.
 
 ### Novidades {#what-s-new}
 
-* **Opções de estratégia de interrupção de reprodução**
+* **Opções de estratégia de interrupção da reprodução**
 
-   Como autor de conteúdo, você deve ser capaz de especificar quando um canal é interrompido para que possa optar por interromper o conteúdo não crítico, mas ter a opção de permitir que o conteúdo importante seja reproduzido totalmente antes de interromper a reprodução devido ao agendamento.
+   Como autor de conteúdo, você deve ser capaz de especificar quando um canal é interrompido, para que possa optar por cortar conteúdo não crítico, mas ter a opção de permitir que o conteúdo importante seja totalmente reproduzido antes de interromper a reprodução devido ao agendamento.
 
-   Consulte a seção **[Método de interrupção](/help/user-guide/channel-assignment.md#interruption-method-channel)** para saber mais sobre as opções disponíveis na caixa de diálogo **Atribuição de Canal** para implementar esse recurso no seu projeto AEM Screens.
+   Consulte a seção **[Método de interrupção](/help/user-guide/channel-assignment.md#interruption-method-channel)** para saber mais sobre as opções disponíveis na caixa de diálogo **Atribuição de canal** para implementar esse recurso no projeto do AEM Screens.
 
-* **Telas são abertas**
+* **Lançamentos do Screens**
 
-   O fluxo de experiência do usuário do autor de conteúdo foi aprimorado e reduzido o número de cliques para usar a publicação futura.
+   O fluxo de experiência do usuário do autor de conteúdo foi aprimorado e reduzido o número de cliques para usar publicações futuras.
 
    Consulte **[Atualização de conteúdo usando o Screens Launch](launches.md)** para obter mais detalhes.
 
 * **Painel do canal**
 
-   Reflete atualizações às instruções no painel do canal no painel **INFORMAÇÕES do CANAL**.
+   Reflete atualizações a instruções no painel de canal no painel **INFORMAÇÕES DO CANAL**.
 
 
 * **Exibir manifesto**
 
-   Agora você pode visualização o arquivo manifest do painel do canal.
+   Agora é possível exibir o arquivo de manifesto no painel do canal.
 
-   Consulte **[Ver o Manifesto](/help/user-guide/managing-channels.md#view-manifest)**.
+   Consulte **[Exibição do Manifesto](/help/user-guide/managing-channels.md#view-manifest)**.
 
 * **Sobreposição de texto**
 
-   Ao adicionar o teste à função de sobreposição de texto, o tamanho da fonte é preciso e melhorado.
+   Ao adicionar o teste à função de sobreposição de texto, o tamanho da fonte é preciso e aprimorado.
 
-   Consulte **[Sobreposição de texto](text-overlay.md)** para criar uma experiência atraente em um Canal de sequência, fornecendo um título ou uma descrição sobreposta sobre uma imagem.
+   Consulte **[Sobreposição de texto](text-overlay.md)** para criar uma experiência atraente em um Canal de sequência fornecendo um título ou uma descrição sobreposta sobre uma imagem.
 
 * **Melhorias na sincronização de comandos**
 
    Com esta versão do pacote de recursos, as melhorias no atraso de sincronização de comandos entre as alterações de ativos são refletidas.
 
-   Consulte **[Command Sync](using-command-sync.md)** para obter mais detalhes.
+   Consulte **[Sincronização de Comando](using-command-sync.md)** para obter mais detalhes.
 
-### Jogadores AEM Screens lançados {#released-aem-screens-players}
+### Players AEM Screens liberados {#released-aem-screens-players}
 
-Os seguintes AEM Screens Players foram lançados para o AEM Screens AEM 6.4 Feature Pack 8 e AEM 6.5 Feature Pack 4:
+Os seguintes Players do AEM Screens foram lançados para o AEM Screens lançados AEM 6.4 Feature Pack 8 e AEM 6.5 Feature Pack 4:
 
 * ChromeOS
 * Windows
 * Android
 
-#### Downloads do AEM Screens Player {#aem-screens-player-downloads}
+#### Downloads do Player do AEM Screens {#aem-screens-player-downloads}
 
-Para baixar o AEM Screens player mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/)**.
+Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/)**.
