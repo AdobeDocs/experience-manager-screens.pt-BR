@@ -4,9 +4,9 @@ seo-title: Instalar o reprodutor do Screens
 description: Siga esta página para saber mais sobre a instalação do AEM Screens Player disponível.
 seo-description: Instalar o reprodutor do Screens
 contentOwner: jsyal
-feature: Administração do Screens
-role: Administrador
-level: Intermediário
+feature: Administering Screens
+role: Administrator
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

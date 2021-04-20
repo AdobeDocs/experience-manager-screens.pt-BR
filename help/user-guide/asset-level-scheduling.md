@@ -3,9 +3,9 @@ title: Ativação no nível do ativo
 seo-title: Ativação no nível do ativo
 description: Siga esta página para saber como ativar um ativo específico em um canal para um período agendado no fuso horário local do player.
 seo-description: Siga esta página para saber como ativar um ativo específico em um canal para um período agendado no fuso horário local do player.
-feature: Telas de criação, Ativação no nível de ativo
-role: Administrador, Desenvolvedor
-level: Intermediário
+feature: Authoring Screens, Asset Level Activation
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

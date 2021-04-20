@@ -1,9 +1,9 @@
 ---
 title: Relatório de atribuição de conteúdo
 description: Esta página descreve o download e o uso do Relatório de atribuição de conteúdo.
-feature: Telas de criação
-role: Desenvolvedor
-level: Intermediário
+feature: Authoring Screens
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

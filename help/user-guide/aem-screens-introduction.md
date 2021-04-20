@@ -2,9 +2,9 @@
 title: O que é o AEM Screens?
 seo-title: O que é o AEM Screens?
 description: '"AEM Screens - uma Solução de sinalização digital que permite a publicação de experiências e interações digitais dinâmicas e interativas envolvendo diferentes tipos de telas, juntamente com uma plataforma abrangente de marketing digital."'
-feature: Visão geral, sinalização digital
-role: Profissional
-level: Iniciante
+feature: Overview, Digital Signage
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

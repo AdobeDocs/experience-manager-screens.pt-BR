@@ -1,9 +1,9 @@
 ---
 title: Notas de versão do Feature Pack 202103
 description: '"Siga esta página para obter informações sobre o AEM Screens Feature Pack 202103 lançado em 05 de março de 2021."'
-feature: Pacote de recursos
-role: Desenvolvedor
-level: Intermediário
+feature: Feature Pack
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: aa1338fad19893e56ead4bb466e4f32a90116b65
 workflow-type: tm+mt

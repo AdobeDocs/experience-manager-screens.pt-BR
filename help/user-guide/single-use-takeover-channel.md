@@ -4,9 +4,9 @@ seo-title: Canal de Tomada a cargo de Uso Único
 description: Siga este caso de uso para criar um Canal de tomada de decisão de uso único.
 seo-description: Siga este caso de uso para criar um Canal de tomada de decisão de uso único.
 contentOwner: jsyal
-feature: Telas de criação
-role: Administrador, Desenvolvedor
-level: Intermediário
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

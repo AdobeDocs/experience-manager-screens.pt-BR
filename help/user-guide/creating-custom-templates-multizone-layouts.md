@@ -4,9 +4,9 @@ seo-title: Criação de modelos personalizados em layouts de várias zonas
 description: Siga esta página para saber mais sobre como criar modelos personalizados em layouts de várias zonas.
 seo-description: Siga esta página para saber mais sobre como criar modelos personalizados em layouts de várias zonas.
 contentOwner: Jyotika Syal
-feature: Desenvolvendo telas
-role: Desenvolvedor
-level: Intermediário
+feature: Developing Screens
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

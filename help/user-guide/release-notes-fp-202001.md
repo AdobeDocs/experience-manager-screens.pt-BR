@@ -3,9 +3,9 @@ title: Notas de versão do Feature Pack 202001
 seo-title: Notas de versão do Feature Pack 202001
 description: Siga esta página para obter informações sobre o AEM Screens Feature Pack 2001 lançado em 31 de janeiro de 2020.
 seo-description: Siga esta página para obter informações sobre o AEM Screens Feature Pack 2001 lançado em 31 de janeiro de 2020.
-feature: Pacote de recursos
-role: Desenvolvedor
-level: Intermediário
+feature: Feature Pack
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

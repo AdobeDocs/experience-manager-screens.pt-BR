@@ -2,9 +2,9 @@
 title: Atribuição de canal - FP mais recente
 seo-title: Atribuição de canal - FP mais recente
 description: Siga esta página para saber mais sobre Atribuição de canal e DayParting.
-feature: Telas de criação, atribuição de canal
-role: Administrador, Desenvolvedor
-level: Intermediário
+feature: Authoring Screens, Channel Assignment
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

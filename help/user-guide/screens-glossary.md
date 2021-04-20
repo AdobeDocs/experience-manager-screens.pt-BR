@@ -3,9 +3,9 @@ title: Glossário
 seo-title: Glossário
 description: Siga esta página para entender os termos principais associados ao AEM Screens.
 seo-description: Siga esta página para entender os termos principais associados ao AEM Screens.
-feature: Visão geral
-role: Profissional
-level: Iniciante
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

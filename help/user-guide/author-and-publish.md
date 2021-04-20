@@ -3,9 +3,9 @@ title: Configuração do autor e publicação no AEM Screens
 seo-title: Configuração do autor e publicação no AEM Screens
 description: A arquitetura AEM Screens se parece com uma arquitetura AEM Sites tradicional. O conteúdo é criado em uma instância de autor de AEM e depois replicado para várias instâncias de publicação. Siga esta página para saber como configurar o autor e a publicação para o AEM Screens.
 seo-description: A arquitetura AEM Screens se parece com uma arquitetura AEM Sites tradicional. O conteúdo é criado em uma instância de autor de AEM e depois replicado para várias instâncias de publicação. Siga esta página para saber como configurar o autor e a publicação para o AEM Screens.
-feature: Administração do Screens
-role: Administrador, Desenvolvedor
-level: Intermediário
+feature: Administering Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

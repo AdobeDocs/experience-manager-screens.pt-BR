@@ -3,9 +3,9 @@ title: Replicar acionadores de dados para publicar servidores
 seo-title: Replicar acionadores de dados para publicar o servidor
 description: Siga esta página para saber como replicar acionadores de dados para publicar o servidor.
 seo-description: Replicar os acionadores de dados para publicar o servidor.
-feature: Administração de telas, acionador de dados
-role: Desenvolvedor
-level: Intermediário
+feature: Administering Screens, Data Trigger
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

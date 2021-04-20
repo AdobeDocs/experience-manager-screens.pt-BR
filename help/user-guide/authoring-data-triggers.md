@@ -2,9 +2,9 @@
 title: Criação com acionadores de dados
 seo-title: Criação com acionadores de dados
 description: Siga esta página para saber como criar com acionadores de dados.
-feature: Telas de criação
-role: Administrador, Desenvolvedor
-level: Intermediário
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

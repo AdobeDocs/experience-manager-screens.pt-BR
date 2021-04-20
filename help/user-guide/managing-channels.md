@@ -3,9 +3,9 @@ title: Criação e gerenciamento de canais
 seo-title: Gerenciamento de canais
 description: Siga esta página para saber como criar e gerenciar canais. Ela também explica as funções do painel Canal e como editar o conteúdo de um canal.
 seo-description: Siga esta página para saber como criar e gerenciar canais. Ela também explica as funções do painel Canal e como editar o conteúdo de um canal.
-feature: Telas de criação
-role: Administrador, Desenvolvedor
-level: Intermediário
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

@@ -3,9 +3,9 @@ title: Lista de verificação de segurança
 seo-title: Lista de verificação de segurança
 description: A página descreve as principais áreas de segurança com uma lista de verificação de perguntas e considerações.
 seo-description: A página descreve a Lista de verificação de segurança
-feature: Administração do Screens
-role: Administrador
-level: Intermediário
+feature: Administering Screens
+role: Administrator
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

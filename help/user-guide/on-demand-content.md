@@ -5,9 +5,9 @@ description: 'Siga esta página para saber mais sobre a atualização de conteú
 seo-description: 'Siga esta página para saber mais sobre a atualização de conteúdo sob demanda.  '
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
-feature: Telas de criação
-role: Desenvolvedor
-level: Intermediário
+feature: Authoring Screens
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
