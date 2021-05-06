@@ -6,10 +6,10 @@ user-guide-title: Ajuda do Adobe Experience Manager Screens
 breadcrumb-title: Guia do AEM Screens
 user-guide-description: Saiba como usar uma Solução de sinalização digital que permite a publicação de experiências e interações digitais dinâmicas e interativas.
 translation-type: tm+mt
-source-git-commit: fe83efff8f4078c45ee03ec24c83544ae30816ab
+source-git-commit: e0e6a865bcdec88d8c9096d66b5ac3ce5227dbc3
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 20%
+source-wordcount: '445'
+ht-degree: 19%
 
 ---
 
@@ -104,6 +104,7 @@ ht-degree: 20%
    + [Configuração do ContextHub no AEM Screens](configuring-context-hub.md)
    + [Criação de modelos personalizados para layouts de várias zonas](creating-custom-templates-multizone-layouts.md)
    + [Aplicação de marca personalizada e estilo para sobreposições de texto](custom-branding-text-overlays.md)
+   + [Automatizar atualizações de canal com fluxo de trabalho](automate-channel-updates-workflow.md)
 + Solução de problemas e perguntas frequentes {#troubleshooting}
    + [Perguntas frequentes do AEM Screens](aem-screens-faqs.md)
    + [Solução de problemas do Device Control Center](monitoring-screens.md)
