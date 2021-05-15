@@ -9,18 +9,17 @@ topic-tags: developing
 feature: Desenvolvendo telas
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 1667fd10f415214a5301e9740d205eb33cc34f89
+source-git-commit: 8d1633dab9e70ea988516cf9ee4d1b0a780bc7e9
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 3%
+source-wordcount: '536'
+ht-degree: 2%
 
 ---
 
 
 # Usar fluxo de trabalho para automatizar atualizações de ativos para um canal AEM Screens {#automate-channel-updates-workflow}
 
-Saiba como criar um workflow para processar automaticamente ativos carregados no Adobe Experience Manager e atribuí-los dinamicamente a um canal do Screens. Neste exemplo, quando uma imagem é adicionada a uma pasta específica, é acionado um fluxo de trabalho que aplica uma marca d&#39;água dinâmica e atribui a imagem a um canal do Screens. As lições aprendidas com este exemplo podem ser aplicadas a uma grande variedade de cenários de automação.
+Saiba como criar um workflow para processar automaticamente ativos carregados no Adobe Experience Manager e atribuí-los dinamicamente a um canal do Screens. Neste exemplo, quando uma imagem é adicionada a uma pasta específica, é acionado um fluxo de trabalho que aplica uma sobreposição de texto dinâmico (processo de marca d&#39;água) e atribui a imagem a um canal do Screens. As lições aprendidas com este exemplo podem ser aplicadas a uma grande variedade de cenários de automação.
 
 ## Pré-requisitos {#prerequisites}
 
