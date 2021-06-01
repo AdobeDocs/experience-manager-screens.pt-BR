@@ -3,8 +3,7 @@ title: Wireframes
 seo-title: Wireframes para AEM Screens
 description: A página descreve Wireframes para um projeto AEM Screens
 seo-description: A página descreve Wireframes para um projeto AEM Screens
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
@@ -15,24 +14,24 @@ ht-degree: 0%
 # Wireframes {#wireframes}
 
 >[!NOTE]
->A parte interessada típica desta atividade é um Estratégista de marketing/negócios.
+>A parte interessada típica desta atividade é um Estrategista de marketing/negócios.
 
-Wireframes são uma representação visual da experiência digital esperada que pretendemos oferecer.
+Wireframes são uma representação visual da experiência digital prevista que pretendemos entregar.
 
 Esse processo pode ser aplicado a:
 
-* Visualização de nível de ativo
-* Visualização de nível de canal
-* Visualização de nível de projeto
+* Exibição do nível de ativo
+* Exibição de nível de canal
+* Exibição do nível do projeto
 
-Isso ajudará a mover o projeto da fase de prototipagem para mais perto da fase de implantação real.
+Isso ajudará a mover o projeto da fase de protótipo para mais perto da fase de implantação real.
 
-Em uma **visualização de nível de ativo**, devemos criar wireframes que definem várias opções de layout de conteúdo e agrupamentos de conteúdo. Isso ajuda a definir a aparência de vários conteúdos quando agrupados como um grupo.
-Normalmente, usaríamos gráficos, imagens e vídeos prontos para produção nesta atividade.
+Em uma **Exibição do nível de ativo**, devemos criar wireframes que definam várias opções de layout de conteúdo e agrupamentos de conteúdo. Isso ajuda a definir a aparência de vários conteúdos quando reunidos em grupo.
+Normalmente, estaríamos usando gráficos, imagens e vídeos prontos para produção nesta atividade.
 
-A partir de uma visualização **Nível do Canal**, devemos criar wireframes que mostrem como os canais do conteúdo são vinculados em conjunto na experiência geral, incluindo estratégias de reprodução para canais incorporados. Também podemos revisar transições de canais que podem ocorrer quando os acionadores de dados estão envolvidos.
+Em uma **Exibição de nível de canal**, devemos criar wireframes que mostrem como os canais de conteúdo são vinculados na experiência geral, incluindo estratégias de reprodução para canais incorporados. Também podemos rever as transições de canal que podem ocorrer enquanto os acionadores de dados estão envolvidos.
 
-Em um **Nível de projeto**, podemos criar start para modelar como várias telas ou experiências podem trabalhar juntas em um espaço físico para fornecer uma jornada completa do usuário de vários pontos de contato.
+Em um **Nível do projeto**, podemos começar a modelar como várias telas ou experiências podem trabalhar juntas em um espaço físico para fornecer uma jornada completa do usuário de vários pontos de contato.
 
-Isso deve ser alinhado com o mapa de jornada UX criado anteriormente.
+Isso deve estar alinhado com o mapa de Jornada UX criado anteriormente.
 
