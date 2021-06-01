@@ -2,13 +2,12 @@
 title: Registro automático de jogadores
 seo-title: Registro automático de jogadores
 description: Siga esta página para saber mais sobre o Registro automático de players com AMS/Telas no local.
-feature: Administering Screens, Players
+feature: Administração de telas, players
 role: Administrator
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
