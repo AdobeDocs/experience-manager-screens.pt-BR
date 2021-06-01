@@ -9,14 +9,13 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
-feature: Developing Screens
+feature: Desenvolvendo telas
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1856'
-ht-degree: 2%
+source-wordcount: '1854'
+ht-degree: 1%
 
 ---
 
@@ -53,7 +52,7 @@ O código-fonte de um projeto do Screens geralmente é gerenciado como um projet
 
 1. Baixe e instale os seguintes pacotes usando **o pacote CRX manage** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
-   [Obter arquivo](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
+[Obter arquivo](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Obter arquivo](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    **Como opção,** se estiver trabalhando com o Eclipse ou outro IDE, baixe o pacote de origem abaixo. Implante o projeto em uma instância de AEM local usando o comando Maven:
@@ -62,7 +61,7 @@ O código-fonte de um projeto do Screens geralmente é gerenciado como um projet
 
    Projeto de execução We.Retail do SRC Start Screens
 
-   [Obter arquivo](assets/start-poster-screens-weretail-run.zip)
+[Obter arquivo](assets/start-poster-screens-weretail-run.zip)
 
 1. Em **Gerenciador de Pacotes CRX** `http://localhost:4502/crx/packmgr/index.jsp` os dois pacotes a seguir estão instalados:
 
