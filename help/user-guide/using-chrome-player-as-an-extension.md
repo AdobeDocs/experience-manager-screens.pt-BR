@@ -3,13 +3,12 @@ title: Uso do Chrome Player como uma extensão
 seo-title: Uso do Chrome Player como uma extensão
 description: Siga esta página para saber mais sobre a instalação do chrome player como uma extensão de navegador.
 seo-description: 'null'
-feature: Administering Screens
+feature: Administração do Screens
 role: Administrator
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
