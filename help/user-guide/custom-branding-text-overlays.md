@@ -4,13 +4,12 @@ seo-title: Aplicação de marca personalizada e estilo para sobreposições de t
 description: Siga esta página para saber como aplicar marcas e estilos personalizados a sobreposições de texto.
 seo-description: Siga esta página para saber como aplicar marcas e estilos personalizados a sobreposições de texto.
 contentOwner: Jyotika Syal
-feature: Developing Screens
+feature: Desenvolvendo telas
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '628'
 ht-degree: 1%
 
 ---
