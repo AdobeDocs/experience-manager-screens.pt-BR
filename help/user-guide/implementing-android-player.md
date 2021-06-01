@@ -10,14 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
-feature: Administering Screens, Android Player
+feature: Administração do Screens, reprodutor do Android
 role: Administrator
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 6978d9d13f2b7f723812561554fdb0a606ddb4fc
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 1%
+source-wordcount: '1439'
+ht-degree: 0%
 
 ---
 
@@ -179,7 +178,7 @@ A tabela a seguir resume os atributos de política com um exemplo de JSON de pol
 
 Ao implantar o reprodutor Android em massa, é entediante registrar manualmente cada reprodutor com AEM. É altamente recomendável usar uma solução EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron ou Samsung Knox para provisionar e gerenciar remotamente sua implantação. O AEM Screens Android player é compatível com o EMM AppConfig padrão do setor para permitir provisionamento remoto.
 
-### Implementação do provisionamento em massa do Android Player usando o Enterprise Mobility Management {#implementation}
+### Implementação do provisionamento em massa do Android Player usando o Gerenciamento de mobilidade empresarial {#implementation}
 
 Siga as etapas abaixo para permitir o provisionamento em massa no Android Player:
 
