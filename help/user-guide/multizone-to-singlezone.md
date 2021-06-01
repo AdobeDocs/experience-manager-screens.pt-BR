@@ -3,13 +3,12 @@ title: Caso de uso de transições de várias zonas para uma única zona
 description: Siga esta página para saber mais sobre o caso de uso de Transições de várias zonas para uma única zona.
 seo-description: Caso de uso de Transições de MultiZone para SingleZone.
 contentOwner: Jyotika Syal
-feature: Authoring Screens
+feature: Telas de criação
 role: Developer, Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '403'
 ht-degree: 3%
 
 ---
