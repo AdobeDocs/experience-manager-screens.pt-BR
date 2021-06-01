@@ -2,13 +2,12 @@
 title: '"Parte 1: Funções e responsabilidades do projeto"'
 seo-title: '"Parte 1: Funções e responsabilidades do projeto"'
 description: Siga este tutorial para entender melhor as funções, responsabilidades e linhas do tempo necessárias durante os ciclos de vida de vendas e projetos de um projeto de sinalização digital.
-feature: Overview
+feature: Visão geral
 role: Business Practitioner, Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '472'
 ht-degree: 2%
 
 ---
