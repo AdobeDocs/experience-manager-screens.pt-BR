@@ -9,14 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
-feature: Administering Screens
+feature: Administração do Screens
 role: Administrator
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 2%
+source-wordcount: '561'
+ht-degree: 1%
 
 ---
 
@@ -65,7 +64,7 @@ As etapas a seguir resumem o procedimento para configurar ACLs para um projeto:
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 
-### Permissões  {#permissions}
+### Permissões {#permissions}
 
 A tabela a seguir resume o caminho com as permissões no nível do projeto:
 
