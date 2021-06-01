@@ -1,10 +1,9 @@
 ---
-title: Dependências UX para [!UICONTROL AEM Screens]
-seo-title: Dependências UX para [!UICONTROL AEM Screens]
-description: O guia descreve as dependências UX para [!UICONTROL AEM Screens]
-seo-description: O guia descreve as dependências UX para [!UICONTROL AEM Screens]
-translation-type: tm+mt
-source-git-commit: f73d7d10f88be953d7800c3fafe084960800a61b
+title: Dependências de UX para [!UICONTROL AEM Screens]
+seo-title: Dependências de UX para [!UICONTROL AEM Screens]
+description: O guia descreve as Dependências de UX para [!UICONTROL AEM Screens]
+seo-description: O guia descreve as Dependências de UX para [!UICONTROL AEM Screens]
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 1%
@@ -16,29 +15,29 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->A parte interessada típica desta atividade é um Estratégista de marketing/negócios.
+>A parte interessada típica desta atividade é um Estrategista de marketing/negócios.
 
-As Dependências UX definem onde e como o conteúdo é estrategizado, para que seja mais impactante.
+Dependências de UX define onde e como o conteúdo é estrategizado para ser mais impactante.
 
 As seguintes perguntas devem ser consideradas ao definir a estratégia de conteúdo de hardware:
 
 1. Como o layout de varejo deve ser alinhado à estratégia de conteúdo?
 
-1. Serão necessárias interações (isto é, tela sensível ao toque, detecção de movimento)?
+1. As interações (ou seja, tela de toque, detecção de movimento) são necessárias?
 
-1. Qual é o propósito da sinalização digital?
+1. Qual é o objetivo da sinalização digital?
 
    * É para configuração de produto?
-   * É encontrar um caminho?
-   * Mostra anúncios?
+   * Está achando?
+   * Ele mostra anúncios?
 
-1. Como as conexões e os cabos de rede estão configurados?
+1. Como as conexões e a fiação de rede estão configuradas?
 
 1. Com que frequência os computadores e a conexão estarão ligados e desligados?
 
 1. O design de fixação suporta acessibilidade?
 
-1. São necessários vários dispositivos para um monitor (como, várias zonas, placas extragrande)?
+1. Vários dispositivos são necessários para um monitor (como, várias zonas, placas extras grandes)?
 
 1. Quais são as considerações ambientais, como brilho, temperatura e estação?
 
