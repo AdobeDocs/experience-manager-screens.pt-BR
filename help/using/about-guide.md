@@ -3,8 +3,7 @@ title: Sobre este guia
 seo-title: Descrição no Guia
 description: Esta página descreve a intenção do Guia de práticas recomendadas
 seo-description: Esta página descreve a intenção do Guia de práticas recomendadas
-translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 98%
