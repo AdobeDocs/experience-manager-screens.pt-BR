@@ -9,13 +9,12 @@ topic-tags: administering
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
-feature: Administering Screens
+feature: Administração do Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1028'
 ht-degree: 3%
 
 ---
@@ -88,7 +87,7 @@ Portanto, a instância do autor envia a mensagem para todas as instâncias de Pu
 
 ### Replicação reversa {#reverse-replication}
 
-Em muitos casos, após um comando, espera-se que algum tipo de resposta do dispositivo Screens seja encaminhada para a instância do autor. Para alcançar esse AEM, ***Reverse replication*** é usado.
+Em muitos casos, após um comando, é esperado um tipo de resposta do dispositivo Screens para ser encaminhado à instância do autor. Para alcançar esse AEM, ***Reverse replication*** é usado.
 
 * Crie um agente de replicação reversa para cada instância de publicação, semelhante aos agentes de replicação padrão e aos agentes de replicação de telas.
 * Uma configuração de iniciador de fluxo de trabalho escuta nós modificados na instância de publicação e, por sua vez, aciona um fluxo de trabalho para colocar a resposta do Dispositivo na caixa de saída da instância de publicação.
