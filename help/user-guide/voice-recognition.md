@@ -1,13 +1,12 @@
 ---
 title: Reconhecimento de voz no AEM Screens
 description: A página descreve o recurso de reconhecimento de voz no AEM Screens.
-feature: Authoring Screens
+feature: Telas de criação
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1126'
 ht-degree: 3%
 
 ---
@@ -31,7 +30,7 @@ Um autor de conteúdo pode configurar uma exibição para ser habilitada para vo
 >[!NOTE]
 >O hardware do player deve suportar a entrada de voz, como um microfone.
 
-## Implementando o reconhecimento de voz {#implementing}
+## Implementação do reconhecimento de voz {#implementing}
 
 >[!IMPORTANT]
 > O recurso de reconhecimento de voz está disponível somente nos players do Chrome OS e Windows.
@@ -154,7 +153,7 @@ Agora, você pode usar essas tags em seu projeto do AEM Screens.
    | Principal | 2 | Carga inicial, Tela inativa, Temporizador |
    | HotBeinks | 1 | Interação do usuário |
    | ColdBeinks | 1 | Interação do usuário |
-   | SplitScreen | 3 | Interação do usuário |
+   | SplitScreen | 1 | Interação do usuário |
 
    >[!NOTE]
    >
