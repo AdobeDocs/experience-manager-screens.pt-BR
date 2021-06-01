@@ -3,13 +3,12 @@ title: Criação e gerenciamento de canais
 seo-title: Gerenciamento de canais
 description: Siga esta página para saber como criar e gerenciar canais. Ela também explica as funções do painel Canal e como editar o conteúdo de um canal.
 seo-description: Siga esta página para saber como criar e gerenciar canais. Ela também explica as funções do painel Canal e como editar o conteúdo de um canal.
-feature: Authoring Screens
+feature: Telas de criação
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1328'
 ht-degree: 42%
 
 ---
@@ -243,9 +242,7 @@ As exibições associadas serão listadas no painel **Exibições atribuídas**,
 >Para saber mais sobre como criar uma exibição em uma localização, consulte:
 >
 >* [Criar e gerenciar locais](managing-locations.md)
->* [Criar e gerenciar exibições](managing-displays.md)
-
->
+* [Criar e gerenciar exibições](managing-displays.md)
 
 
 
