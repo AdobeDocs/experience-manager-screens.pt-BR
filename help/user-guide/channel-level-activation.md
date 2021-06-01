@@ -10,13 +10,12 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-feature: Authoring Screens, Channel Level Activation
+feature: Telas de criação, Ativação no nível do canal
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1807'
 ht-degree: 0%
 
 ---
@@ -73,11 +72,8 @@ A imagem a seguir mostra o projeto **Channel Level Ativation** com os canais **M
 >Para obter informações adicionais sobre como criar um projeto e como criar um canal de sequência, consulte os recursos abaixo:
 >
 >* [Criação e gerenciamento de projetos](creating-a-screens-project.md)
-   >
-   >
-* [Gerenciamento de um canal](managing-channels.md)
 
->
+* [Gerenciamento de um canal](managing-channels.md)
 
 
 
@@ -98,8 +94,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
    ![screen_shot_2018-11-27at112112am](assets/screen_shot_2018-11-27at112112am.png)
 
    >[!NOTE]
-   >
-   >Para saber como criar uma localização, consulte **[Criação e gerenciamento de localizações](managing-locations.md)**.
+   Para saber como criar uma localização, consulte **[Criação e gerenciamento de localizações](managing-locations.md)**.
 
 1. **Criar exibição em Localização**
 
@@ -125,8 +120,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
-   >
-   >Você também pode atribuir canal no painel de exibição navegando até **Ativação no nível do canal** —> **Localizações** —> **Região** —> **RegionDisplay** e clicando em **Painel** na barra de ações. Clique em **+ Atribuir canal** no painel **CANAIS ATRIBUÍDOS E AGENDAMENTOS**.
+   Você também pode atribuir canal no painel de exibição navegando até **Ativação no nível do canal** —> **Localizações** —> **Região** —> **RegionDisplay** e clicando em **Painel** na barra de ações. Clique em **+ Atribuir canal** no painel **CANAIS ATRIBUÍDOS E AGENDAMENTOS**.
 
    Da mesma forma, atribua o canal **TargetedSinglePlay** para exibição**:
 
