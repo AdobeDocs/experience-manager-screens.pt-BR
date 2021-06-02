@@ -4,10 +4,10 @@ description: '"Siga esta página para obter informações sobre o AEM Screens Fe
 feature: Pacote de recursos
 role: Developer
 level: Intermediate
-source-git-commit: 0568e55557dcae8e2afa6bebfc5898480892dda0
+source-git-commit: c237486b9fe574727f14b3425f634c8d13d33596
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 7%
+source-wordcount: '210'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ Você pode baixar o pacote de recursos mais recente para a versão do AEM Screen
 
 ## Data de lançamento {#release-date}
 
-A data de lançamento do AEM Screens Feature Pack 202105 é 1 de junho de 2021.
+A data de lançamento do AEM Screens Feature Pack 202105 é 3 de junho de 2021.
 
 ### Novidades {#what-is-new}
 
@@ -32,8 +32,8 @@ A data de lançamento do AEM Screens Feature Pack 202105 é 1 de junho de 2021.
 
 ### Correções de erros {#bug-fixes}
 
-* O player exibia uma tela preta quando a alternância para o canal contém uma sequência incorporada dinâmica.
 * Melhorias no desempenho da geração de manifesto do canal.
+* O player exibia uma tela preta quando a alternância para o canal contém uma sequência incorporada dinâmica.
 * Os players do Screens agora bloqueiam a alternância para qualquer canal quebrado que evite mais o erro 404 ou uma página com uma mensagem de erro.
 
 ### Players AEM Screens liberados {#released-aem-screens-players}
@@ -45,7 +45,6 @@ Os seguintes Players do AEM Screens são lançados para o AEM 6.5 Feature Pack 8
 * Tizen
 * Android
 * Linux
-* iOS
 
 #### Downloads do Player do AEM Screens {#aem-screens-player-downloads}
 
