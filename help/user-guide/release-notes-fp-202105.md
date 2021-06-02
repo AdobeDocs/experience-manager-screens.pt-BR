@@ -4,9 +4,9 @@ description: '"Siga esta página para obter informações sobre o AEM Screens Fe
 feature: Pacote de recursos
 role: Developer
 level: Intermediate
-source-git-commit: e9539d91b1215240c371bdea62a304b2e62df8ec
+source-git-commit: 0c3e8835174e34c5e8455f1849351717884b6d0e
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '286'
 ht-degree: 13%
 
 ---
@@ -36,10 +36,8 @@ A data de lançamento do AEM Screens Feature Pack 202105 é 3 de junho de 2021.
 
    Geração de manifesto de canal mais rápida com desempenho aprimorado, como alocar menos recursos no servidor.
 
-
 ### Correções de erros {#bug-fixes}
 
-* Melhorias no desempenho da geração de manifesto do canal.
 * O player exibia uma tela preta quando a alternância para o canal contém uma sequência incorporada dinâmica.
 * Os players do Screens agora bloqueiam a alternância para qualquer canal quebrado que evite mais o erro 404 ou uma página com uma mensagem de erro.
 
