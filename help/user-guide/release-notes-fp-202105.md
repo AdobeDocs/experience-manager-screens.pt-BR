@@ -4,10 +4,10 @@ description: '"Siga esta página para obter informações sobre o AEM Screens Fe
 feature: Pacote de recursos
 role: Developer
 level: Intermediate
-source-git-commit: c237486b9fe574727f14b3425f634c8d13d33596
+source-git-commit: 02177449f203c3cc98a9b1b3db9cca4467130b62
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 6%
+source-wordcount: '274'
+ht-degree: 14%
 
 ---
 
@@ -28,7 +28,10 @@ A data de lançamento do AEM Screens Feature Pack 202105 é 3 de junho de 2021.
 
 ### Novidades {#what-is-new}
 
-* Bloquear página
+* **Bloquear página em um canal do AEM Screens**
+
+   O AEM Screens agora oferece suporte para *Bloquear uma página*, conforme já implementado no AEM Sites. O Adobe Experience Manager (AEM) permite bloquear uma página, de modo que ninguém mais possa modificar o conteúdo. Isso é útil quando você está fazendo diversas edições para uma página específica ou quando precisa congelar uma página por pouco tempo.
+
 
 ### Correções de erros {#bug-fixes}
 
