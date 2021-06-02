@@ -4,10 +4,10 @@ description: '"Siga esta página para obter informações sobre o AEM Screens Fe
 feature: Pacote de recursos
 role: Developer
 level: Intermediate
-source-git-commit: ffd8a340af2e826d5c3a4fec4fd0ec471da671e8
+source-git-commit: 0568e55557dcae8e2afa6bebfc5898480892dda0
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 6%
+source-wordcount: '211'
+ht-degree: 7%
 
 ---
 
@@ -28,15 +28,13 @@ A data de lançamento do AEM Screens Feature Pack 202105 é 1 de junho de 2021.
 
 ### Novidades {#what-is-new}
 
-* **Registro automático de players do AEM Screens**
-
-   O reprodutor é exibido como tela preta ao alternar para o canal contém uma sequência incorporada dinâmica
+* Bloquear página
 
 ### Correções de erros {#bug-fixes}
 
-* O reprodutor é exibido como uma tela preta quando a alternância para o canal contém uma sequência incorporada dinâmica.
-
-
+* O player exibia uma tela preta quando a alternância para o canal contém uma sequência incorporada dinâmica.
+* Melhorias no desempenho da geração de manifesto do canal.
+* Os players do Screens agora bloqueiam a alternância para qualquer canal quebrado que evite mais o erro 404 ou uma página com uma mensagem de erro.
 
 ### Players AEM Screens liberados {#released-aem-screens-players}
 
