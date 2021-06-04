@@ -1,13 +1,13 @@
 ---
 title: Notas de versão do Feature Pack 202105
-description: '"Siga esta página para obter informações sobre o AEM Screens Feature Pack 202105 lançado em 1 de junho de 2021."'
+description: '"Siga esta página para obter informações sobre o AEM Screens Feature Pack 202105 lançado em 04 de junho de 2021."'
 feature: Pacote de recursos
 role: Developer
 level: Intermediate
-source-git-commit: 0c3e8835174e34c5e8455f1849351717884b6d0e
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 13%
+source-wordcount: '394'
+ht-degree: 9%
 
 ---
 
@@ -24,21 +24,33 @@ Você pode baixar o pacote de recursos mais recente para a versão do AEM Screen
 
 ## Data de lançamento {#release-date}
 
-A data de lançamento do AEM Screens Feature Pack 202105 é 3 de junho de 2021.
+A data de lançamento do AEM Screens Feature Pack 202105 é 4 de junho de 2021.
 
 ### Novidades {#what-is-new}
 
-* **Bloquear página em um canal do AEM Screens**
+* **Bloquear página em um canal da AEM Screens**
 
    O AEM Screens agora oferece suporte para *Bloquear uma página*, conforme já implementado no AEM Sites. O Adobe Experience Manager (AEM) permite bloquear uma página, de modo que ninguém mais possa modificar o conteúdo. Isso é útil quando você está fazendo diversas edições para uma página específica ou quando precisa congelar uma página por pouco tempo.
 
+* **Como nomear dispositivo reprodutor do AEM Screens**
+
+   Os players do AEM Screens agora incluem a capacidade de enviar um nome de dispositivo para o Adobe Experience Manager (AEM).
+Por padrão, quando o registro em massa é usado para registrar um dispositivo, um nome de usuário gerado pelo sistema é inserido no campo de título. Como alternativa, um cliente pode usar uma tag de ativo ou outro nome amigável para que seja visível em AEM e fácil atribuir o conteúdo apropriado.
+
+   Consulte a seguinte documentação para saber como configurar o nome em cada sistema operacional suportado:
+
+       * [Android](/help/user-guide/implementing-android-player.md#name-android)
+       * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+       * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+       * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+   
 * **Geração de Manifesto**
 
    Geração de manifesto de canal mais rápida com desempenho aprimorado, como alocar menos recursos no servidor.
 
 ### Correções de erros {#bug-fixes}
 
-* O player exibia uma tela preta quando a alternância para o canal contém uma sequência incorporada dinâmica.
+* O player exibia uma tela preta ao alternar para um canal que continha uma sequência incorporada dinâmica.
 * Os players do Screens agora bloqueiam a alternância para qualquer canal quebrado que evite mais o erro 404 ou uma página com uma mensagem de erro.
 
 ### Players AEM Screens liberados {#released-aem-screens-players}
