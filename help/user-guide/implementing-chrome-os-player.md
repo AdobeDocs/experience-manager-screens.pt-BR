@@ -12,9 +12,9 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administração do Screens
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,27 @@ Siga as etapas abaixo para configurar o console de gerenciamento do Chrome:
 >[!NOTE]
 >
 >Uma solução de gerenciamento de dispositivos como o Console de gerenciamento do Chrome é recomendada para a implantação e o gerenciamento de dispositivos SO Chrome. Embora esse documento forneça implementação para o Console de gerenciamento do Chrome, há outros fornecedores que afirmam fornecer funcionalidade semelhante. Entre em contato com o fornecedor do software de gerenciamento de dispositivos.
+
+## Nomeando o reprodutor do sistema operacional Chrome {#name-chrome}
+
+Você pode atribuir um nome de dispositivo amigável ao seu player do Chrome, enviando o nome do dispositivo atribuído ao Adobe Experience Manager (AEM). Esse recurso permite não apenas nomear o player do Chrome, mas também atribuir facilmente o conteúdo apropriado.
+
+Siga as etapas abaixo para configurar o nome no Chrome player:
+
+1. Opcionalmente, é possível permitir que integradores de AV ou administradores de TI definam a ID do ativo e o local como parte da inscrição corporativa.
+
+   ![imagem](/help/user-guide/assets/chrome-device/chrome1.png)
+
+1. Você verá as opções quando conseguir inscrever o dispositivo.
+
+   ![imagem](/help/user-guide/assets/chrome-device/chrome2.jpg)
+
+1. Você pode definir a ID do ativo como parte da inscrição corporativa, bem como no console de gerenciamento do Chrome.
+
+   ![imagem](/help/user-guide/assets/chrome-device/chrome3.png)
+
+   >[!NOTE]
+   >Os Players do Chrome devem ser inscritos na inscrição corporativa e o player do Chrome deve ser implantado por meio do Console de Gerenciamento do Chrome; caso contrário, a ID do ativo retornará em branco (por exemplo, chrome como uma extensão). O nome do dispositivo só é registrado no momento do registro. As alterações futuras não serão selecionadas pelo Adobe Experience Manager (AEM).
 
 ### Ativando o modo de quiosque {#enabling-kiosk-mode}
 
