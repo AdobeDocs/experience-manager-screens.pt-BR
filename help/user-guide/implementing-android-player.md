@@ -13,9 +13,9 @@ docset: aem65
 feature: Administração do Screens, reprodutor do Android
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -177,6 +177,15 @@ A tabela a seguir resume os atributos de política com um exemplo de JSON de pol
 ## Provisionamento em massa do reprodutor Android usando o Enterprise Mobility Management {#bulk-provisioning}
 
 Ao implantar o reprodutor Android em massa, é entediante registrar manualmente cada reprodutor com AEM. É altamente recomendável usar uma solução EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron ou Samsung Knox para provisionar e gerenciar remotamente sua implantação. O AEM Screens Android player é compatível com o EMM AppConfig padrão do setor para permitir provisionamento remoto.
+
+## Nomear o reprodutor do Android {#name-android}
+
+Você pode atribuir um nome de dispositivo amigável ao seu player Android, enviando o nome de dispositivo atribuído ao Adobe Experience Manager (AEM). Esse recurso permite não apenas nomear o player Android, mas também atribuir facilmente o conteúdo apropriado.
+
+Siga as etapas abaixo para configurar o nome no player do Android:
+
+1. Navegue até **configurações** —> **Sobre o dispositivo**
+1. Edite e defina o nome do seu dispositivo com o nome do seu reprodutor Android
 
 ### Implementação do provisionamento em massa do Android Player usando o Gerenciamento de mobilidade empresarial {#implementation}
 
