@@ -4,9 +4,9 @@ description: Esta página descreve a instalação e o funcionamento do Tizen Pla
 feature: Administração de telas, players
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '985'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,15 @@ Siga as etapas abaixo:
 1. Obtenha o IP ou o URL do seu servidor HTTP local (e o caminho para a pasta que contém os arquivos extraídos na etapa 2, se extraídos para uma subpasta e não para a pasta raiz)
 
 1. O Tizen player baixará o instalador do servidor local.
+
+### Nomear reprodutor Tizen {#name-tizen}
+
+Você pode atribuir um nome de dispositivo amigável ao seu player Tizen, enviando o nome do dispositivo atribuído ao Adobe Experience Manager (AEM). Esse recurso permite não apenas nomear o player Tizen, mas também atribuir facilmente o conteúdo apropriado.
+
+Siga as etapas abaixo para configurar o nome no Tizen player:
+
+1. Clique no botão de menu no controle remoto.
+1. Navegue até **network** —> **Nome do Dispositivo** para atribuir um nome ao player.
 
 ### Configurando atualizações no dispositivo Samsung {#config-updates}
 
