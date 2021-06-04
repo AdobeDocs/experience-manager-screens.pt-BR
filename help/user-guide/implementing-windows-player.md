@@ -13,9 +13,9 @@ docset: aem65
 feature: Administração do Screens, Windows Player
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1074'
 ht-degree: 1%
 
 ---
@@ -69,6 +69,16 @@ Depois de baixar o aplicativo, siga as etapas no reprodutor para concluir a inst
 >Se **State** for **REGISTERED**, você notará que o campo **Device id** será preenchido.
 >
 >Se **State** for **UNREGISTERED**, você poderá usar o **Token** para registrar o dispositivo.
+
+## Nomear o Windows Player {#name-windows}
+
+Você pode atribuir um nome de dispositivo amigável ao seu player do Windows, enviando o nome de dispositivo atribuído ao Adobe Experience Manager (AEM). Esse recurso permite não apenas nomear o player do Windows, mas também atribuir facilmente o conteúdo apropriado.
+
+Siga as etapas abaixo para configurar o nome no Windows Player:
+
+1. Clique em **iniciar** —> **executar**
+1. Insira `system.cpl`
+1. Use a guia nome do computador para definir o nome do host do computador
 
 ## Alterar as opções padrão no Windows Installer {#changing-default-options}
 
