@@ -4,9 +4,9 @@ description: Esta página descreve a instalação e o funcionamento do Tizen Pla
 feature: Administração de telas, players
 role: Administrator
 level: Intermediate
-source-git-commit: e955838d33cbe74719b237e568fb0bfd1a6844a2
+source-git-commit: ee731bc5169d2c76665bbfa18e3b8529619d83ce
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1213'
 ht-degree: 1%
 
 ---
@@ -124,9 +124,9 @@ O quadro seguinte resume as políticas com as suas funções.
 | resolução | A resolução do dispositivo. |
 | reotSchedule | O agendamento para reiniciar o reprodutor. |
 | enableAdminUI | Ative a interface do usuário do administrador para configurar o dispositivo no site. Defina como false depois que estiver totalmente configurado e em produção. |
-| enableOSD | Ative a interface do usuário do seletor de canal para que os usuários alternem os canais no dispositivo. Considere a configuração como false depois de estar totalmente configurada e em produção. |
+| enableOSD | Ative a interface do usuário do seletor de canal para que os usuários alternem os canais no dispositivo. Considere a configuração como false, depois de estar totalmente configurada e em produção. |
 | enableActivityUI | Ative para mostrar o progresso de atividades como download e sincronização. Ative para solução de problemas e desative assim que estiver totalmente configurado e em produção. |
-| cloudMode | Defina como true se desejar que o Tizen player se conecte a telas como um serviço de nuvem. falso para se conectar ao AMS ou ao AEM do onPrem. |
+| cloudMode | Defina como true se desejar que o Tizen player se conecte ao Screens como um Cloud Service. Defina como false para se conectar ao AMS ou AEM no local. |
 | cloudToken | Token de registro para registrar-se no Screens como um Cloud Service. |
 
 
