@@ -4,9 +4,9 @@ description: Esta página descreve a instalação e o funcionamento do Tizen Pla
 feature: Administração de telas, players
 role: Administrator
 level: Intermediate
-source-git-commit: ee731bc5169d2c76665bbfa18e3b8529619d83ce
+source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1208'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,11 @@ Siga as etapas abaixo:
 
 1. Obtenha o IP ou o URL do seu servidor HTTP local (e o caminho para a pasta que contém os arquivos extraídos na etapa 2, se extraídos para uma subpasta e não para a pasta raiz)
 
-1. O Tizen player baixará o instalador do servidor local.
+1. O Tizen player baixa o instalador do servidor local.
 
 ### Nomear reprodutor Tizen {#name-tizen}
 
-Você pode atribuir um nome de dispositivo amigável ao seu player Tizen, enviando o nome do dispositivo atribuído ao Adobe Experience Manager (AEM). Esse recurso permite não apenas nomear o player Tizen, mas também atribuir facilmente o conteúdo apropriado.
+Você pode atribuir um nome de dispositivo simples ao player do Tizen, enviando o nome do dispositivo atribuído ao Adobe Experience Manager (AEM). Esse recurso permite não apenas nomear o player Tizen, mas também atribuir facilmente o conteúdo apropriado.
 
 Siga as etapas abaixo para configurar o nome no Tizen player:
 
@@ -74,7 +74,7 @@ Siga as etapas abaixo no dispositivo Samsung para concluir a instalação do pla
 
 >[!IMPORTANT]
 >**Esta seção aplica-se ao Adobe Experience Manager (AEM) 6.5.5 a AEM 6.5.7**
->Há alguns mecanismos de navegador incompatíveis com o atributo *SameSite=None* usado no token de logon emitido pelo AEM 6.5 para AEM 6.7. Na maioria dos casos, o problema pode ser resolvido atualizando o navegador para a versão mais recente disponível. Em alguns casos, essas atualizações podem não ser possíveis, como com telas inteligentes, caixas de seleção ou outros dispositivos com mecanismos de navegação incorporados.
+>Há alguns mecanismos de navegador incompatíveis com o atributo *SameSite=None* usado no token de logon emitido pelo AEM 6.5 para AEM 6.7. Normalmente, o problema pode ser resolvido atualizando o navegador para a versão mais recente disponível. Em alguns casos, essas atualizações podem não ser possíveis, como com telas inteligentes, caixas de seleção ou outros dispositivos com mecanismos de navegação incorporados.
 
 Siga as etapas abaixo para isentar esses clientes incompatíveis ao usar *SameSite=None*:
 
@@ -82,7 +82,7 @@ Siga as etapas abaixo para isentar esses clientes incompatíveis ao usar *SameSi
 
 1. Depois AEM reiniciar, vá para `/system/console/configMgr` e procure por **Adobe Granite Token Authentication Handler**. Defina o valor do valor **SameSite** para **None**.
 
-1. Você deve ver uma nova opção *Agentes do usuário a serem isentos do mesmo atributo do site*. Preencha isso com um regex correspondente ao(s) agente(s) do usuário que é(são) incompatível(m) com o atributo *SameSite=None* .
+1. Você deve ver uma nova opção *Agentes do usuário a serem isentos do mesmo atributo do site*. Preencha com um regex correspondente ao agente do usuário que é (são) incompatível com o atributo *SameSite=None*.
    >[!NOTE]
    >Consulte [SameSite=None: Clientes incompatíveis conhecidos](https://www.chromium.org/updates/same-site/incompatible-clients) para obter mais detalhes. Para o reprodutor Tizen, use o regex: `(.*)Tizen(.*)`.
 
