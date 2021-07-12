@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 feature: Administração do Screens
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 1%
 
 ---
 
-
-# Configurando ACLs {#setting-up-acls}
+# Configuração de ACLs {#setting-up-acls}
 
 A seção a seguir explica como segregar projetos usando ACLs para que cada indivíduo ou equipe gerencie seu próprio projeto.
 
@@ -81,7 +81,7 @@ A tabela a seguir resume o caminho com as permissões no nível do projeto:
 >
 >Em alguns casos, é possível separar as funções de autor (como gerenciar ativos e criar canais) das funções de administrador (como registrar players). Nesse cenário, crie dois grupos e adicione o grupo de autores aos colaboradores e o grupo de administradores aos contribuidores e aos usuários-administradores.
 
-### Criando Grupos {#creating-groups}
+### Criação de grupos {#creating-groups}
 
 A criação de um novo projeto também deve criar grupos de usuários padrão com um conjunto básico de permissões atribuídas. Você deve estender as permissões para as funções típicas que temos para o AEM Screens.
 
@@ -142,4 +142,3 @@ A tabela a seguir resume os grupos com descrição e permissões para um projeto
   </tr>
  </tbody>
 </table>
-
