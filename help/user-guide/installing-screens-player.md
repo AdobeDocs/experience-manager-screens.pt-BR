@@ -5,17 +5,17 @@ description: Siga esta página para saber mais sobre a instalação do AEM Scree
 seo-description: Instalar o reprodutor do Screens
 contentOwner: jsyal
 feature: Administração do Screens
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 1%
 
 ---
 
-
-# Instalar o AEM Screens Player {#installing-player}
+# Instalação do AEM Screens Player {#installing-player}
 
 Esta página descreve como instalar o AEM Screens player.
 
