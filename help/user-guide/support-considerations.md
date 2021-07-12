@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
 feature: Visão geral
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
 
 ---
-
 
 # Parte 5: Considerações de suporte {#part-support-considerations}
 
@@ -45,7 +45,7 @@ O planejamento inclui:
 * Identificação do melhor método para a mediação de problemas na rede.
 * Conduzir o alinhamento entre o Implementador de AEM e o Integrador de AV na elaboração dos planos de suporte do Dia 2
 
-## Resumo das principais considerações envolvidas no suporte do dia 2 {#summary-of-key-considerations-involved-in-day-support}
+## Resumo das principais considerações envolvidas no suporte ao Dia 2 {#summary-of-key-considerations-involved-in-day-support}
 
 Veja a seguir algumas considerações importantes para o Suporte do dia 2:
 
@@ -72,4 +72,3 @@ Siga este tutorial de conclusão para um tutorial de série de 5 partes abaixo q
 ## Conclusão {#conclusion}
 
 Essas cinco séries de partes são focadas em considerações essenciais para garantir o sucesso do seu projeto. Consulte outras seções do Guia do usuário do AEM Screens para obter detalhes sobre a implementação.
-
