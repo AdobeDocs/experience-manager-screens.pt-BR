@@ -5,17 +5,17 @@ description: Siga este caso de uso para criar um Canal de tomada de decisão de 
 seo-description: Siga este caso de uso para criar um Canal de tomada de decisão de uso único.
 contentOwner: jsyal
 feature: Telas de criação
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 2%
 
 ---
 
-
-# Canal de aquisição de uso único {#single-use-takeover-channel}
+# Canal de Tomada a cargo de Uso Único {#single-use-takeover-channel}
 
 A página a seguir mostra um caso de uso que enfatiza a configuração de um projeto sobre como criar um canal de Retorno Único que é reproduzido apenas uma vez por um tempo específico.
 
@@ -34,11 +34,11 @@ Antes de iniciar este caso de uso, certifique-se de entender como:
 * **[Criar e gerenciar agendamentos](managing-schedules.md)**
 * **[Registro do dispositivo](device-registration.md)**
 
-### Atores Primários {#primary-actors}
+### Atores principais {#primary-actors}
 
 Autores de conteúdo
 
-## Configurando o projeto {#setting-up-the-project}
+## Configuração do projeto {#setting-up-the-project}
 
 Siga as etapas abaixo para configurar um projeto:
 
