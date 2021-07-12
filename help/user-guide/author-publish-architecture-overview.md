@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
 feature: Administração do Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 3%
 
 ---
-
 
 # Visão geral da arquitetura de criação e publicação {#author-and-publish-architectural-overview}
 
@@ -61,7 +61,7 @@ Há cinco componentes arquiteturais, facilitando essa solução:
 * ****** Mensagens entre instâncias de publicação para sincronizar atualizações e comandos de informações do dispositivo
 * ****** Consultar o autor das instâncias de publicação para obter informações do dispositivo por meio de APIs REST específicas
 
-### Replicação (encaminhamento) de conteúdo e configurações {#replication-forward-of-content-and-configurations}
+### Replicação (encaminhamento) de conteúdo e configurações  {#replication-forward-of-content-and-configurations}
 
 Os agentes de replicação padrão são usados para replicar o conteúdo do canal de telas, as configurações de localização e as configurações do dispositivo. Isso permite que os autores atualizem o conteúdo de um canal e, como opção, passem por algum tipo de fluxo de trabalho de aprovação antes de publicar atualizações de canal. Um agente de replicação precisa ser criado para cada instância de publicação no farm de publicação.
 
@@ -73,13 +73,13 @@ O diagrama a seguir ilustra o processo de replicação:
 >
 >Um agente de replicação precisa ser criado para cada instância de publicação no farm de publicação.
 
-### Agentes e comandos de replicação do Screens {#screens-replication-agents-and-commands}
+### Agentes e comandos de replicação do Screens  {#screens-replication-agents-and-commands}
 
 Os agentes de replicação específicos do Custom Screens são criados para enviar comandos da instância do autor para o dispositivo AEM Screens. As instâncias de Publicação do AEM servem como um intermediário para encaminhar esses comandos para o dispositivo.
 
 Isso permite que os autores continuem a gerenciar o dispositivo, como enviar atualizações de dispositivos e capturar tela do ambiente de criação. Os agentes de replicação do AEM Screens têm uma configuração de transporte personalizada, como agentes de replicação padrão.
 
-### Mensagens entre instâncias de publicação {#messaging-between-publish-instances}
+### Mensagens entre instâncias de publicação  {#messaging-between-publish-instances}
 
 Em muitos casos, um comando só deve ser enviado para um dispositivo uma única vez. No entanto, em uma arquitetura de publicação com balanceamento de carga, é desconhecido a instância de publicação à qual o dispositivo está se conectando.
 
@@ -87,14 +87,14 @@ Portanto, a instância do autor envia a mensagem para todas as instâncias de Pu
 
 ### Replicação reversa {#reverse-replication}
 
-Em muitos casos, após um comando, é esperado um tipo de resposta do dispositivo Screens para ser encaminhado à instância do autor. Para alcançar esse AEM, ***Reverse replication*** é usado.
+Em muitos casos, após um comando, espera-se que algum tipo de resposta do dispositivo Screens seja encaminhada para a instância do autor. Para alcançar esse AEM, ***Reverse replication*** é usado.
 
 * Crie um agente de replicação reversa para cada instância de publicação, semelhante aos agentes de replicação padrão e aos agentes de replicação de telas.
 * Uma configuração de iniciador de fluxo de trabalho escuta nós modificados na instância de publicação e, por sua vez, aciona um fluxo de trabalho para colocar a resposta do Dispositivo na caixa de saída da instância de publicação.
 * Uma replicação reversa nesse contexto é usada apenas para dados binários (como arquivos de log e capturas de tela) fornecidos pelos dispositivos. Dados não binários são recuperados por pesquisa.
 * A replicação inversa pesquisada da instância do autor de AEM recupera a resposta e a salva na instância do autor.
 
-### Pesquisa de instâncias de publicação {#polling-of-publish-instances}
+### Pesquisa de instâncias de publicação  {#polling-of-publish-instances}
 
 A instância do autor precisa ser capaz de pesquisar os dispositivos para obter uma pulsação e saber o status de integridade de um dispositivo conectado.
 
