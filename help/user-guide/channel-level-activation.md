@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 feature: Telas de criação, Ativação no nível do canal
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 0%
 
 ---
-
 
 # Ativação no nível do canal {#channel-level-activation-single-event-playback}
 
@@ -144,7 +144,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
    ![new1](assets/new1.gif)
 
-## Visualização dos resultados {#viewing-the-results}
+## Exibir os resultados {#viewing-the-results}
 
 Depois de configurar os canais e exibir, inicie o reprodutor do AEM Screens para exibir o conteúdo.
 
@@ -228,7 +228,7 @@ Você também pode usar a notação _militar time_ (ou seja, 14:00) em vez da no
 
 1. Insira a expressão no **Schedule** e o ativo será exibido para o intervalo específico de dia e hora.
 
-#### Exemplo de expressões para MonthParting {#example-three}
+#### Expressões de exemplo para MonthParting {#example-three}
 
 A tabela a seguir resume alguns exemplos de expressões que podem ser adicionadas ao agendamento, enquanto o canal é atribuído a uma exibição.
 
@@ -265,4 +265,3 @@ A tabela a seguir resume alguns exemplos de expressões que podem ser adicionada
 
 >[!NOTE]
 Ao definir dias da semana e meses, você pode usar as notações de mão curta e de nome completo, como Mon/Segunda e Jan/Janeiro.  Além disso, você também pode usar a notação _militar time_ (ou seja, 14:00) em vez da notação *am/pm* (ou seja, 14:00).
-
