@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
 feature: Telas de criação
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 4%
 
 ---
-
 
 # Duração da reprodução de imagem em massa no nível do canal {#channel-level-bulk-image-playback-duration}
 
@@ -72,9 +72,8 @@ Siga as etapas abaixo para saber como atualizar a Atribuição de duração da r
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
-### Visualização do resultado {#viewing-the-result}
+### Como visualizar o resultado {#viewing-the-result}
 
 Depois de atualizar a duração da reprodução do canal (neste exemplo, todas as três imagens), você observará que as imagens agora serão reproduzidas por 3 segundos em vez de 8 segundos (valor padrão).
 
 ![channel_preview](assets/channel_preview.gif)
-
