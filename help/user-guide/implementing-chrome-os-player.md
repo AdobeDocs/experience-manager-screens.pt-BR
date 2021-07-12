@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administração do Screens
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
 
 ---
 
-
-# Implementação do reprodutor do Chrome OS {#implementing-chrome-os-player}
+# Implementação do reprodutor do sistema operacional Chrome  {#implementing-chrome-os-player}
 
 Esta seção descreve como implementar o Player do sistema operacional Chrome usando o Console de gerenciamento do Chrome.
 
@@ -36,7 +36,7 @@ Siga as etapas abaixo para configurar o console de gerenciamento do Chrome:
 >
 >Uma solução de gerenciamento de dispositivos como o Console de gerenciamento do Chrome é recomendada para a implantação e o gerenciamento de dispositivos SO Chrome. Embora esse documento forneça implementação para o Console de gerenciamento do Chrome, há outros fornecedores que afirmam fornecer funcionalidade semelhante. Entre em contato com o fornecedor do software de gerenciamento de dispositivos.
 
-## Nomeando o reprodutor do sistema operacional Chrome {#name-chrome}
+## Como nomear o reprodutor do sistema operacional Chrome {#name-chrome}
 
 Você pode atribuir um nome de dispositivo amigável ao seu player do Chrome, enviando o nome do dispositivo atribuído ao Adobe Experience Manager (AEM). Esse recurso permite não apenas nomear o player do Chrome, mas também atribuir facilmente o conteúdo apropriado.
 
@@ -57,7 +57,7 @@ Siga as etapas abaixo para configurar o nome no Chrome player:
    >[!NOTE]
    >Os Players do Chrome devem ser inscritos na inscrição corporativa e o player do Chrome deve ser implantado por meio do Console de Gerenciamento do Chrome; caso contrário, a ID do ativo retornará em branco (por exemplo, chrome como uma extensão). O nome do dispositivo só é registrado no momento do registro. As alterações futuras não serão selecionadas pelo Adobe Experience Manager (AEM).
 
-### Ativando o modo de quiosque {#enabling-kiosk-mode}
+### Ativação do modo de quiosque {#enabling-kiosk-mode}
 
 Siga as etapas abaixo para ativar o modo Quiosque:
 
@@ -133,7 +133,7 @@ Siga as etapas abaixo para configurar várias opções do reprodutor:
 }
 ```
 
-### Atributos de política e finalidade {#policy-attributes-and-purpose}
+### Atributos e finalidade da política {#policy-attributes-and-purpose}
 
 O quadro seguinte resume as políticas com as suas funções.
 
