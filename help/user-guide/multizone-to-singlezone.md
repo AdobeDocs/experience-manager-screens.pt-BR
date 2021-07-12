@@ -4,15 +4,15 @@ description: Siga esta página para saber mais sobre o caso de uso de Transiçõ
 seo-description: Caso de uso de Transições de MultiZone para SingleZone.
 contentOwner: Jyotika Syal
 feature: Telas de criação
-role: Developer, Business Practitioner
+role: Developer, User
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 3%
 
 ---
-
 
 # Transição de várias zonas para uma única zona {#multizone-to-singlezone-use-case}
 
@@ -30,11 +30,11 @@ Antes de iniciar este caso de uso, certifique-se de entender como:
 * **[Criar e gerenciar agendamentos](managing-schedules.md)**
 * **[Registro do dispositivo](device-registration.md)**
 
-### Atores Primários {#primary-actors}
+### Atores principais {#primary-actors}
 
 Autores de conteúdo
 
-## Configurando o projeto {#setting-up-the-project}
+## Configuração do projeto {#setting-up-the-project}
 
 Siga as etapas abaixo para configurar um projeto:
 
@@ -76,7 +76,7 @@ Siga as etapas abaixo para configurar um projeto:
 
    ![ativo](assets/mz-to-sz7.png)
 
-## Verificando a Visualização {#checking-the-preview}
+## Verificar a visualização {#checking-the-preview}
 
 Você pode exibir o resultado desejado do reprodutor ou apenas clicando em **Preview** no editor.
 
