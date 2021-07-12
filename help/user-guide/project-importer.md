@@ -11,15 +11,15 @@ topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
 feature: Administração do Screens
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 2%
 
 ---
-
 
 # Novo importador de projetos do arquivo {#new-project-importer-from-file}
 
@@ -70,7 +70,7 @@ O arquivo da planilha (CSV/XLS) requer as seguintes colunas:
 >
 >Qualquer coluna que não corresponda às condições acima será ignorada. Por exemplo, se você tiver qualquer outra coluna definida em seu arquivo de planilha (CSV/XLS) diferente de **path**,**template**,**title**, e **description** em seu arquivo, esses campos serão ignorados e **Importador de projeto** não validará esses campos adicionais campos para importar o projeto para o projeto do AEM Screens.
 
-## Usando o Importador de Projetos {#using-project-importer}
+## Uso do Importador de projetos {#using-project-importer}
 
 A seção a seguir descreve como o Importador de projeto é usado em um projeto do AEM Screens.
 
@@ -126,4 +126,3 @@ Siga as etapas abaixo para importar um arquivo para a pasta de locais com os cam
 1. Como resultado, agora você poderá visualizar todos os locais importados para o seu projeto.
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
-
