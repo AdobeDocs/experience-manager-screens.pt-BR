@@ -11,15 +11,15 @@ topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
 feature: Telas de criação
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 0%
 
 ---
-
 
 # Ativação direcionada para inventário de varejo {#retail-inventory-targeted-activation}
 
@@ -123,6 +123,4 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de inventári
 
    1. Clique em **Visualizar.** Além disso, abra o Google Sheet e atualize seu valor.
    1. Altere o valor de todas as três colunas diferentes e você notará as atualizações de imagem de exibição de acordo com o valor mais alto no inventário.
-
    ![retail_result](assets/retail_result.gif)
-
