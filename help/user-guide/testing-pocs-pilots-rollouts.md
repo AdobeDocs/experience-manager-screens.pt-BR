@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
 feature: Visão geral
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
 
 ---
-
 
 # Parte 3: Teste, POCs, pilotos e rotações {#part-testing-pocs-pilots-rollouts}
 
@@ -41,7 +41,7 @@ Este tutorial aborda os seguintes pontos relevantes para uma implantação bem-s
 
 Por exemplo, as partes interessadas de um programa de sinalização digital em um ambiente de varejo podem incluir: Marketing na loja, ambiente de loja ou merchandising visual, operações de loja, segurança de TI, suporte de TI, a categoria de produto e o fornecedor, que podem estar cofinanciando a solução.
 
-## Resumo dos principais termos envolvidos em um plano de projeto global {#summary-of-key-terms-involved-in-an-overall-project-plan}
+## Resumo dos principais termos envolvidos em um plano de projeto geral {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
 A seção a seguir fornece uma visão geral dos termos principais envolvidos em um plano de projeto geral, como ciclo do projeto, ações relacionadas a testes de hardware, Prova de Conceito, pilotos e lançamentos.
 
