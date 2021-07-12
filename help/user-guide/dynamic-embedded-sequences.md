@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 feature: Telas de criação
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3208d058-0812-44e1-83e3-b727b384876a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '2537'
 ht-degree: 3%
 
 ---
-
 
 # Uso de uma sequência incorporada dinâmica {#using-dynamic-embedded-sequence}
 
@@ -258,7 +258,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
    1. Selecione o caminho para o Agendamento (por exemplo, aqui, **Demo** —> **Agendamentos** —>**AdSchedule**).
    1. Clique em **Salvar**.
 
-## Visualização dos resultados {#viewing-the-results}
+## Exibir os resultados {#viewing-the-results}
 
 Depois de configurar os canais e exibir, inicie o reprodutor do AEM Screens para exibir o conteúdo.
 
@@ -406,4 +406,3 @@ Siga as etapas abaixo para criar grupos, usuários e modificar as ACLs de acordo
 
 >[!NOTE]
 Para saber mais detalhes sobre como configurar permissões, consulte [Configuração de ACLs](setting-up-acls.md).
-
