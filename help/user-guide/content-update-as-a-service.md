@@ -6,15 +6,15 @@ seo-description: Siga esta página para saber mais sobre a Atualização de cont
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
 feature: Telas de criação
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 8%
 
 ---
-
 
 # Atualização de conteúdo como um serviço {#content-update-as-a-service}
 
@@ -39,11 +39,11 @@ Também é possível agendar essa atividade por um tempo de tráfego de rede men
 >
 >O recurso Atualização offline em massa é otimizado para atualizar apenas os canais que foram modificados.
 
-## Usando a atualização offline em massa {#using-bulk-offline-update}
+## Como usar a atualização em massa off-line {#using-bulk-offline-update}
 
 Você pode usar manualmente a atualização offline em massa na interface do usuário ou agendar a atualização em massa dos serviços OSGi.
 
-### Usando a interface do usuário do AEM Screens {#using-aem-screens-user-interface}
+### Usar a interface do usuário do AEM Screens {#using-aem-screens-user-interface}
 
 Siga as etapas abaixo para usar a atualização offline em massa para um projeto do AEM Screens:
 
@@ -52,7 +52,7 @@ Siga as etapas abaixo para usar a atualização offline em massa para um projeto
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
-### Configuração do Console Web do Adobe Experience Manager {#adobe-experience-manager-web-console-configuration}
+### Configuração do Console da Web do Adobe Experience Manager {#adobe-experience-manager-web-console-configuration}
 
 Siga as etapas abaixo para usar a atualização offline em massa para um projeto do AEM Screens:
 
@@ -74,4 +74,3 @@ Siga as etapas abaixo para usar a atualização offline em massa para um projeto
    **Agendar** frequênciaEspecifique uma hora, por exemplo, 17:00 ou 17:00, em que este serviço deve atualizar o conteúdo offline.
 
 1. Clique em **Salvar** para salvar suas configurações e seu conteúdo será atualizado no horário especificado.
-
