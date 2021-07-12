@@ -11,15 +11,15 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 feature: Administração do Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 0%
 
 ---
-
 
 # Integração do Adobe Analytics com o AEM Screens {#adobe-analytics-integration-with-aem-screens}
 
@@ -65,7 +65,7 @@ O diagrama de arquitetura a seguir explica a Integração do Adobe Analytics com
 
 ![screen_shot_2018-09-12at85611am](assets/screen_shot_2018-09-12at85611am.png)
 
-## Ativar o Adobe Analytics no AEM Screens {#enabling-adobe-analytics-in-aem-screens}
+## Ativação do Adobe Analytics no AEM Screens {#enabling-adobe-analytics-in-aem-screens}
 
 As configurações do Adobe Analytics podem ser definidas no console OSGi.
 
@@ -81,7 +81,7 @@ Navegue até **Configuração do Adobe Experience Manager Web Console** para con
 
 ![]()
 
-### Configurar as propriedades {#configuring-the-properties}
+### Configuração das propriedades {#configuring-the-properties}
 
 >[!CAUTION]
 >
@@ -123,7 +123,7 @@ A tabela a seguir destaca as propriedades com sua descrição para configurar o 
 >
 >Por padrão, a **Frequência de envio do Analytics** é de 15 minutos.
 
-#### Uso do Adobe Analytics Service no AEM Screens {#using-adobe-analytics-service-in-aem-screens}
+#### Usar o Adobe Analytics Service no AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
 Esse cenário chama a API do Analytics por meio de chamadas REST de um serviço de análise nos componentes principais de tela de firmware e instrumento para criar e enviar explicitamente eventos específicos a um caso de uso específico, permitindo a extensibilidade em que qualquer mensagem personalizada pode ser enviada para o Analytics a partir de um canal desenvolvido personalizado.
 
@@ -132,4 +132,3 @@ Os eventos do Analytics são armazenados offline no indexedDB e, posteriormente,
 >[!NOTE]
 >
 >Para saber mais sobre o ***Sequenciamento*** e ***Modelo de Dados Padrão para Eventos***, consulte **[Configuração do Adobe Analytics para AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
-
