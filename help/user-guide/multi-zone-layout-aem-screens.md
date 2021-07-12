@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 feature: Telas de criação
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 6%
 
 ---
-
 
 # Layout de várias zonas {#multi-zone-layout}
 
@@ -46,7 +46,7 @@ Antes de implementar esta funcionalidade, verifique se você tem conhecimento co
 * [Criação de uma exibição](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
 * [Atribuição de um canal a uma exibição](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/channel-assignment.html)
 
-## Criar layout de várias zonas {#creating-multi-zone-layout}
+## Criação de layout de várias zonas {#creating-multi-zone-layout}
 
 Ao criar um canal, você pode usar modelos diferentes para criar zonas no seu canal. É possível adicionar uma única imagem, vídeo ou canal incorporado que permite que vários ativos sejam exibidos em uma sequência.
 
@@ -76,7 +76,7 @@ Você pode usar ativos únicos, como uma imagem ou um vídeo em todas as zonas i
 
    ![imagem](/help/user-guide/assets/multi-zone/multizone-img3.png)
 
-### Uso do conteúdo sequenciado em uma ou mais zonas {#using-sequenced-content-in-one-or-more-zones}
+### Uso de conteúdo sequenciado em uma ou mais zonas {#using-sequenced-content-in-one-or-more-zones}
 
 Se desejar que as zonas exibam a sequência de imagens e um vídeo nas diferentes zonas, siga as etapas abaixo para obter detalhes.
 
@@ -121,7 +121,7 @@ Se desejar que as zonas exibam a sequência de imagens e um vídeo nas diferente
 
       ![imagem](/help/user-guide/assets/multi-zone/multizone-3.png)
 
-### Criação de um local e uma exibição {#creating-location}
+### Criação de uma localização e uma exibição {#creating-location}
 
 Você deve criar um local e uma exibição para exibir o conteúdo no player do Screens. Siga as etapas abaixo para criar um local e uma exibição.
 
@@ -139,7 +139,7 @@ Você deve criar um local e uma exibição para exibir o conteúdo no player do 
    1. Selecione **Exibir** no assistente **Criar** e clique em **Próximo**.
    1. Insira o **Título** como **Lobby** e clique em **Criar**.
 
-### Atribuindo Canais à Exibição {#channel-channel}
+### Atribuição de canais à exibição {#channel-channel}
 
 Você deve atribuir os canais à exibição para visualizar o conteúdo. Siga as etapas abaixo para atribuir o canal à exibição.
 
@@ -183,7 +183,7 @@ Depois de configurar um local e uma exibição, siga as etapas abaixo para regis
    >[!NOTE]
    >Se você estiver tentando exibir o conteúdo no player do Screens, clique em **Atualizar conteúdo offline** no painel do canal para cada um dos canais atribuídos à exibição.
 
-### Visualização do resultado {#viewing-the-result}
+### Como visualizar o resultado {#viewing-the-result}
 
 Depois de implementar layouts de várias zonas usando as etapas anteriores, a saída a seguir é exibida.
 
@@ -192,5 +192,3 @@ Marque o player do Screens para exibir a saída que exibe o conteúdo em duas zo
 A zona esquerda é um canal de sequência e a zona direita inclui um vídeo.
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
-
-
