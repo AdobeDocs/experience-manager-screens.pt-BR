@@ -3,15 +3,15 @@ title: Atribuição de canal - FP mais recente
 seo-title: Atribuição de canal - FP mais recente
 description: Siga esta página para saber mais sobre Atribuição de canal e DayParting.
 feature: Telas de criação, atribuição de canal
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1475'
 ht-degree: 23%
 
 ---
-
 
 # Atribuição de canal {#channel-assignment}
 
@@ -28,7 +28,7 @@ Esta página mostra a atribuição de um canal a sua exibição, as propriedades
 >Você pode atribuir vários canais a uma exibição.
 
 
-## Atribuindo um Canal {#assign-a-channel-new-release}
+## Atribuição de um canal {#assign-a-channel-new-release}
 
 Siga as seções abaixo para criar um projeto do AEM Screens e atribuir um canal a uma exibição.
 
@@ -57,7 +57,7 @@ Siga as etapas abaixo para configurar um projeto e um canal:
 
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
-### Atribuindo canal a um monitor {#assigning-channel-to-display}
+### Atribuição de canal a uma exibição {#assigning-channel-to-display}
 
 Quando a configuração do projeto for concluída, você deverá atribuir o canal a uma exibição para visualizar o conteúdo.
 
