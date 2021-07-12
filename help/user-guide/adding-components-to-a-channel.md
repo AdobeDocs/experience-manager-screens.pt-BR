@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 feature: Telas de criação
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 60%
 
 ---
-
 
 # Adição de componentes a um canal{#adding-components-to-a-channel}
 
@@ -29,7 +29,7 @@ Componentes são os elementos fundamentais da experiência do AEM (Adobe Experie
 
 O AEM Screens fornece diferentes componentes do AEM que podem ser usados em um projeto do Screens.
 
-### Visualização de componentes do AEM Screens  {#viewing-aem-screens-components}
+### Visualização de componentes do AEM Screens {#viewing-aem-screens-components}
 
 Sempre que criar um projeto do AEM Screens, você verá uma lista de componentes padrão que podem ser adicionados ao projeto.
 
@@ -62,7 +62,7 @@ O exemplo a seguir mostra a adição de um componente do Livefyre a um projeto d
 >
 >Da mesma forma, você pode adicionar ao seu projeto qualquer número de outros novos componentes compatíveis com o AEM Screens.
 
-## Noções básicas sobre os componentes do AEM Screens  {#understanding-aem-screen-components}
+## Noções básicas sobre os componentes do AEM Screens {#understanding-aem-screen-components}
 
 A seção a seguir explica os componentes do AEM Screens que podem ser usados no projeto.
 
@@ -336,4 +336,3 @@ O componente Vídeo tem as seguintes propriedades:
   </tr>
  </tbody>
 </table>
-
