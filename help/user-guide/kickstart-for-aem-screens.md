@@ -3,15 +3,15 @@ title: Guia do Kickstart
 seo-title: Guia do Kickstart
 description: Siga esta página para criar um projeto de demonstração do AEM Screens. Ajuda a criar uma experiência de assinatura digital, começando pela instalação e configurando um novo projeto para visualizar o conteúdo no AEM Screens player.
 feature: Visão geral, sinalização digital
-role: Business Practitioner
+role: User
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 5%
 
 ---
-
 
 # Guia do Kickstart {#kickstart-guide}
 
@@ -123,7 +123,7 @@ Siga as etapas abaixo para criar um novo local para o seu projeto:
 O **TestLocation** é criado e adicionado à sua pasta **Locations**.
 
 
-### Criando uma Exibição para Localização {#creating-display}
+### Criação de uma exibição para localização {#creating-display}
 
 Depois de criar uma localização, você precisa criar uma nova exibição para ela.
 
@@ -148,7 +148,7 @@ Depois de criar uma localização, você precisa criar uma nova exibição para 
 
    ![imagem](assets/kickstart/demo-disp4.png)
 
-### Atribuindo um Canal {#assigning-channel}
+### Atribuição de um canal {#assigning-channel}
 
 Quando a configuração do projeto for concluída, você deverá atribuir o canal a uma exibição para visualizar o conteúdo.
 
