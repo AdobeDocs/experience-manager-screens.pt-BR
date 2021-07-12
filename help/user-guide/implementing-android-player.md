@@ -11,15 +11,15 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 feature: Administração do Screens, reprodutor do Android
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 0%
 
 ---
-
 
 # Implementação do Android Player {#implementing-android-player}
 
@@ -27,13 +27,13 @@ Esta seção descreve como configurar o Android player. Ele fornece informaçõe
 
 Além disso, **Watchdog** é uma solução para recuperar o reprodutor de falhas. Um aplicativo precisa se registrar no serviço de vigilância e enviar mensagens periodicamente ao serviço de que está vivo. Caso o serviço de watchdog não receba uma mensagem keep-alive dentro de um tempo determinado, o serviço tenta reinicializar o dispositivo para uma recuperação limpa (se ele tiver os privilégios suficientes) ou reiniciar o aplicativo.
 
-## Instalar o reprodutor do Android {#installing-android-player}
+## Instalação do Android Player {#installing-android-player}
 
 Para implementar o Android Player no AEM Screens, instale o Android Player no AEM Screens.
 
 Visite a página [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/).
 
-### Configuração do ambiente para o AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
+### Configuração do Ambiente para o AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
 >Você deve configurar um ambiente para o Android player, se estiver usando o AEM Screens 6.5.5 Service Pack.
@@ -69,11 +69,11 @@ Depois de baixar o aplicativo, siga as etapas no reprodutor para concluir a inst
 >
 >Se **State** for **UNREGISTERED**, você poderá usar o **Token** para registrar o dispositivo.
 
-## Implementando o Android Watchdog {#implementing-android-watchdog}
+## Implementação do Android Watchdog {#implementing-android-watchdog}
 
 Devido à arquitetura do Android, a reinicialização do dispositivo requer que o aplicativo tenha privilégios de sistema. Para fazer isso, é necessário assinar o apk usando as chaves de assinatura do fabricante; caso contrário, o watchdog reiniciará o aplicativo do reprodutor e não reinicializará o dispositivo.
 
-### Sinalização de aplicativos Android usando Chaves de Fabricante {#signage-of-android-apks-using-manufacturer-keys}
+### Sinalização de aplicativos Android usando chaves de fabricante {#signage-of-android-apks-using-manufacturer-keys}
 
 Para acessar algumas das APIs privilegiadas do Android, como *PowerManager* ou *HDMIControlServices*, é necessário assinar o painel do Android usando as chaves do fabricante.
 
@@ -174,11 +174,11 @@ A tabela a seguir resume os atributos de política com um exemplo de JSON de pol
 >[!NOTE]
 >Todos os dispositivos Android têm uma pasta *sdcard* se um *sdcard* real estiver inserido ou não. Esse arquivo, quando implantado, estaria no mesmo nível da pasta Downloads. Alguns MDMs como Samsung Knox podem se referir a esse local de pasta *sdcard* como *Internal storage*.
 
-## Provisionamento em massa do reprodutor Android usando o Enterprise Mobility Management {#bulk-provisioning}
+## Provisionamento em massa do Android Player usando o Gerenciamento de mobilidade empresarial {#bulk-provisioning}
 
 Ao implantar o reprodutor Android em massa, é entediante registrar manualmente cada reprodutor com AEM. É altamente recomendável usar uma solução EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron ou Samsung Knox para provisionar e gerenciar remotamente sua implantação. O AEM Screens Android player é compatível com o EMM AppConfig padrão do setor para permitir provisionamento remoto.
 
-## Nomear o reprodutor do Android {#name-android}
+## Nomenclatura do reprodutor Android {#name-android}
 
 Você pode atribuir um nome de dispositivo amigável ao seu player Android, enviando o nome de dispositivo atribuído ao Adobe Experience Manager (AEM). Esse recurso permite não apenas nomear o player Android, mas também atribuir facilmente o conteúdo apropriado.
 
