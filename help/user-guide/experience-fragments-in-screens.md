@@ -1,8 +1,8 @@
 ---
 title: Uso de Fragmentos de experiência
 seo-title: Uso de Fragmentos de experiência
-description: 'Siga esta página para saber mais sobre o uso de Fragmentos de experiência no AEM Screens. '
-seo-description: 'Siga esta página para saber mais sobre o uso de Fragmentos de experiência no AEM Screens. '
+description: Siga esta página para saber mais sobre o uso de Fragmentos de experiência no AEM Screens.
+seo-description: Siga esta página para saber mais sobre o uso de Fragmentos de experiência no AEM Screens.
 uuid: 6ee16a94-3c53-43e0-99d5-c35cb9e01120
 contentOwner: jsyal
 content-type: reference
@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 feature: Telas de criação, Fragmentos de experiência
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 13c0d75e-435f-433e-8886-f451df863517
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 8%
 
 ---
-
 
 # Uso de Fragmentos de experiência {#using-experience-fragments}
 
@@ -161,7 +161,7 @@ Siga as etapas abaixo para aproveitar o conteúdo de **We.Retail** para seu **Te
 
    j. Clique na marca de seleção para concluir o processo.
 
-### Validando o Resultado {#validating-the-result}
+### Validando o resultado {#validating-the-result}
 
 Após concluir as etapas anteriores, você pode validar seu fragmento de experiência em **ChannelOne** ao:
 
@@ -219,4 +219,3 @@ Siga as etapas abaixo para confirmar as alterações no seu canal:
 
 A imagem a seguir ilustra as alterações em seu **TestChannel**:\
 ![screen_shot_2018-06-08at3351pm](assets/screen_shot_2018-06-08at33351pm.png)
-
