@@ -4,17 +4,17 @@ seo-title: Lista de verificação de segurança
 description: A página descreve as principais áreas de segurança com uma lista de verificação de perguntas e considerações.
 seo-description: A página descreve a Lista de verificação de segurança
 feature: Administração do Screens
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3d2835c8-d844-46fd-b35a-30feaced9dd8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
-
-# Lista de verificação de segurança do AEM Screens {#security-checklist}
+# Lista de verificação de segurança do AEM Screens  {#security-checklist}
 
 A página Lista de verificação de segurança do AEM Screens descreve as principais áreas de segurança com uma lista de verificação de perguntas e considerações.
 
@@ -29,6 +29,6 @@ A página Lista de verificação de segurança do AEM Screens descreve as princi
 | **Segurança de aplicativos** | ***a.*** *Você desabilitou a interface do usuário do administrador, o Seletor de canal e a interface do usuário da atividade para produção?* <br>***b.*** *Você minimizou o nível de log para produção?* <br>***c.*** *Você está usando https para se conectar ao AEM?* <br>***d.*** *Você está usando um certificado assinado pela CA ou um PKI corporativo? (não certificados autoassinados)*<br>***e.*** *Você está usando TLS e não SSL v3?*<br>***f.*** *Você está validando o token de registro no dispositivo e AEM ao se registrar?*<br> ***g.*** *Você classificou os dados que estão sendo usados e que nenhuma PII ou PHI existe no dispositivo?*<br> ***h.*** *Você classificou os dados que estão sendo usados e que nenhuma informação de identificação pessoal (PII) ou informação de saúde protegida (PHI) existe no dispositivo?*<br> ***i.*** *Você configurou o monitoramento de e-mails e possui um SOP em vigor para responder ao monitoramento de e-mails e ao tratamento de dispositivos que não são ping?* |
 | **Controle de acesso** | ***a.*** *Você tem um Controle de Acesso Baseado em Função (RBAC) identificado e gerenciado internamente?* <br>***b.*** *Você seguiu o princípio do menor privilégio ao fornecer acesso a autores, administradores e players usando práticas recomendadas do Adobe?* |
 
-### Download da Lista de Verificação de Segurança {#download-checklist}
+### Download da lista de verificação de segurança {#download-checklist}
 
 Para baixar a lista de verificação de segurança do AEM Screens, clique [aqui](/help/user-guide/assets/AEMScreens-SecurityChecklist.pdf).
