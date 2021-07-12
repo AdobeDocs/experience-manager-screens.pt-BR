@@ -11,15 +11,15 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 feature: Administração de telas, Registro de dispositivo
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
 
 ---
-
 
 # Registro do dispositivo {#device-registration}
 
@@ -123,7 +123,7 @@ Se você não atribuiu o dispositivo a um monitor, siga as etapas abaixo para at
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-## Pesquisando um dispositivo no Gerenciador de dispositivos {#search-device}
+## Como pesquisar um dispositivo no Gerenciador de dispositivos {#search-device}
 
 Depois de registrar os dispositivos no player, você pode exibir todos os dispositivos na interface do usuário do Gerenciador de dispositivos.
 
@@ -159,7 +159,7 @@ Depois de registrar os dispositivos no player, você pode exibir todos os dispos
 
 * Se o nome do dispositivo for *BostonStoreLobby* e a pesquisa por *boston* não retornará o resultado usando *boston** nos seus critérios de pesquisa retornará o resultado.
 
-## Limitações no Registro do Dispositivo {#limitations-on-device-registration}
+## Limitações no registro de dispositivos {#limitations-on-device-registration}
 
 Restrições de senha de usuário em todo o sistema podem causar falha no registro do dispositivo. O registro do dispositivo usa uma senha gerada aleatoriamente para criar o usuário do dispositivo.
 
