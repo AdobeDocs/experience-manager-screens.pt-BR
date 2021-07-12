@@ -2,19 +2,19 @@
 title: Tizen Player
 description: Esta página descreve a instalação e o funcionamento do Tizen Player.
 feature: Administração de telas, players
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
+exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
 
 ---
 
-
 # Implementação do Tizen Player {#tizen-player}
 
-## Instalar o Tizen Player {#installing-tizen-player}
+## Instalação do Tizen Player {#installing-tizen-player}
 
 Siga as etapas abaixo para implementar o Tizen Player no AEM Screens:
 
@@ -38,7 +38,7 @@ Siga as etapas abaixo:
 
 1. O Tizen player baixa o instalador do servidor local.
 
-### Nomear reprodutor Tizen {#name-tizen}
+### Como nomear o Tizen Player {#name-tizen}
 
 Você pode atribuir um nome de dispositivo simples ao player do Tizen, enviando o nome do dispositivo atribuído ao Adobe Experience Manager (AEM). Esse recurso permite não apenas nomear o player Tizen, mas também atribuir facilmente o conteúdo apropriado.
 
@@ -70,7 +70,7 @@ Siga as etapas abaixo no dispositivo Samsung para concluir a instalação do pla
    >O dispositivo Tizen e o servidor `http` devem ser capazes de se conectar, ou seja, o servidor deve estar acessível ao reprodutor Tizen.
 
 
-## Isentando Agentes de Usuário com o Problema de Cookie SameSite {#exempting-user-agents}
+## Isentando agentes de usuário com o problema de cookie SameSite {#exempting-user-agents}
 
 >[!IMPORTANT]
 >**Esta seção aplica-se ao Adobe Experience Manager (AEM) 6.5.5 a AEM 6.5.7**
@@ -164,4 +164,3 @@ Siga as etapas abaixo para inscrever o dispositivo Tizen no Samsung Remote Manag
    ![imagem](/help/user-guide/assets/tizen/rms-9.png)
 
 1. Clique em **Save** para que as alterações sejam exibidas na tela de exibição.
-
