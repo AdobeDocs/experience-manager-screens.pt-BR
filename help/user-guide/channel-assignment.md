@@ -3,15 +3,15 @@ title: Atribuição de canal
 seo-title: Atribuição de canal
 description: Siga esta página para saber mais sobre Atribuição de canal e Divisão de dia.
 feature: Telas de criação, atribuição de canal
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 42%
 
 ---
-
 
 # Atribuição de canal {#channel-assignment}
 
@@ -25,7 +25,7 @@ Esta página mostra como atribuir um canal à exibição.
 >[!NOTE]
 >Você pode atribuir vários canais a uma exibição.
 
-## Atribuindo um Canal {#assign-a-channel}
+## Atribuição de um canal {#assign-a-channel}
 
 Siga as etapas abaixo para atribuir um canal a uma exibição:
 
@@ -177,5 +177,4 @@ Este exemplo mostra o DayParting para uma loja que exibe sua coleção de invern
 >
 >* [Lidar com a recorrência em ativos](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Lidar com a recorrência de ativos em um canal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
-
 
