@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
 feature: Visão geral
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
 
 ---
-
 
 # Parte 4: Gerenciamento e implantação do projeto {#part-project-management-and-deployment}
 
@@ -41,7 +41,7 @@ Esta página abrange a pré-produção do projeto, a iniciação do projeto e a 
 
 Para oferecer suporte a uma implantação bem-sucedida do Digital Signage, é comum segmentar o projeto em três estágios. Geralmente, esses estágios são chamados de ***days***.
 
-### Atividades do Dia Zero {#day-zero-activities}
+### Dia Zero Atividades {#day-zero-activities}
 
 O primeiro estágio é conhecido como ***Dia Zero***. Esse estágio inclui todos os esforços de pré-vendas e detecção necessários para definir totalmente o escopo dos projetos. A segunda etapa, Dia um, refere-se a todas as atividades incluídas no esforço de implantação. Por fim, o segundo dia refere-se a todas as operações e elementos de suporte em andamento como parte da solução total.
 
@@ -58,7 +58,7 @@ O Dia Zero consiste em oito etapas principais que abrangem todos os aspectos do 
 * Considerando energia e conectividade
 * Revisão de planos ou desenhos técnicos
 
-### Atividades do primeiro dia {#day-one-activities}
+### Atividades do dia um {#day-one-activities}
 
 A segunda etapa, ***Dia um***, refere-se a todas as atividades incluídas no esforço de implantação. Outro documento técnico importante para um projeto bem-sucedido é o Gráfico de Gantt de implantação.
 
@@ -78,7 +78,7 @@ A última parte de uma iniciativa do Dia um é completar um NOC Handoff. Se um p
 
 Esta reunião consiste principalmente em representantes do AV Integrator de Gerenciamento de Contas, Operações de Rede, Logística de Campo, Serviços de Conteúdo e Contabilidade. Representantes de Gerenciamento de projetos do Adobe, do Implementador de AEM e do Cliente Final geralmente estão envolvidos em conjunto, com o Integrador de AV definindo cronograma, cadência e portagens. Gerentes de projeto são normalmente os melhores para coordenar discussões, a fim de garantir o alinhamento das partes apropriadas e desenvolver a documentação necessária para a reunião de handoff do NOC. A documentação de suporte crítico provavelmente virá da equipe de TI e/ou da engenharia de AV, além dos recursos de vendas e gerenciamento de conta de todas as partes envolvidas. Para quaisquer clientes que necessitem de suporte de assistência técnica de um NOC, a documentação precisará ser fornecida aos supervisores do NOC para ser carregada em uma plataforma da Base de conhecimento.
 
-## Parte 4: Tutorial em vídeo sobre gerenciamento e implantação de projeto {#part-video-tutorial-on-project-management-and-deployment}
+## Parte 4: Tutorial em vídeo sobre gerenciamento e implantação de projetos {#part-video-tutorial-on-project-management-and-deployment}
 
 Siga este tutorial para saber mais sobre o gerenciamento de projetos e a preparação da implantação e definir os principais fatores pelos quais o AV Integrator é responsável em relação ao gerenciamento de projetos e à preparação da implantação.
 
@@ -93,4 +93,3 @@ Siga este tutorial para saber mais sobre o gerenciamento de projetos e a prepara
 Depois de concluir as principais considerações sobre o Gerenciamento de projetos para implantações do AEM Screens;
 
 Navegue até **[Parte 5: Considerações sobre suporte](support-considerations.md)** para entender o suporte ao dia 2 e os processos envolvidos.
-
