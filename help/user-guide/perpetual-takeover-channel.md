@@ -5,17 +5,17 @@ description: Siga este caso de uso para criar um Canal Tomada de Controle Perpé
 seo-description: Siga este caso de uso ao configurar um projeto que crie um canal de Retorno Perpétuo que será reproduzido por um dia e hora específicos continuamente.
 contentOwner: jsyal
 feature: Telas de criação
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 1%
 
 ---
 
-
-# Canal de Tomada de Controle Perpétuo {#perpetual-takeover-channel}
+# Canal de Assumição Perpétua {#perpetual-takeover-channel}
 
 A página a seguir mostra um caso de uso que enfatiza a configuração de um projeto sobre como criar um canal de Retorno Perpétuo que é reproduzido continuamente por um dia e hora específicos.
 
@@ -33,11 +33,11 @@ Antes de iniciar este caso de uso, certifique-se de entender como:
 * **[Criar e gerenciar agendamentos](managing-schedules.md)**
 * **[Registro do dispositivo](device-registration.md)**
 
-### Atores Primários {#primary-actors}
+### Atores principais {#primary-actors}
 
 Autores de conteúdo
 
-## Configurando o projeto {#setting-up-the-project}
+## Configuração do projeto {#setting-up-the-project}
 
 Siga as etapas abaixo para configurar um projeto:
 
@@ -98,7 +98,7 @@ Siga as etapas abaixo para configurar um projeto:
    * **ativo de**: Data e hora de início.
    * **ativo até**: Data e hora de término.
 
-      Por exemplo, o texto em **Schedule** e **ative from** e **ative até** data e hora aqui permite que o conteúdo seja reproduzido todas as quartas-feiras, das 14 horas às 16 horas.
+      Por exemplo, o texto em **Schedule** e **ative from** e **ative até** data e hora aqui permite que o conteúdo seja reproduzido todas as quartas-feiras, das 14h às 16h.
 
 
       ![ativo](assets/p_usecase7.png)
@@ -111,7 +111,7 @@ Siga as etapas abaixo para configurar um projeto:
       ![](assets/p_usecase8.png)
 assetNow, o  **** TakeOverchannel assumirá o  **** MainAdChannelat 14h por duas horas até às 16h todas as quartas-feiras e reproduzirá seu conteúdo de 09 de janeiro de 2020 a 31 de janeiro de 2020.
 
-## Exemplo de expressões {#example-expressions}
+## Expressões de exemplo {#example-expressions}
 
 A tabela a seguir resume alguns exemplos de expressões que podem ser adicionadas ao agendamento, enquanto o canal é atribuído a uma exibição.
 
