@@ -2,15 +2,15 @@
 title: Reconhecimento de voz no AEM Screens
 description: A página descreve o recurso de reconhecimento de voz no AEM Screens.
 feature: Telas de criação
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 3%
 
 ---
-
 
 # Reconhecimento de voz no AEM Screens {#voice-recognition}
 
@@ -39,7 +39,7 @@ Para implementar o reconhecimento de voz em seu projeto do AEM Screens, você de
 
 A seção a seguir descreve como você pode ativar e usar o recurso de reconhecimento de voz em um projeto do AEM Screens.
 
-## Visualização de conteúdo em tela cheia ou no switch de canal de tela dividida {#sequence-channel}
+## Exibição de conteúdo em tela cheia ou switch de canal de tela dividida {#sequence-channel}
 
 Antes de usar o recurso de reconhecimento de voz, verifique se você tem um projeto e um canal com o conteúdo configurado para o seu projeto.
 
@@ -184,8 +184,3 @@ Da mesma forma, se você usar uma palavra com uma palavra-chave **frias** como *
 **Saída desejada para o canal Split Screens**
 
 O canal **Principal** está reproduzindo seu conteúdo, mas quando você usa palavras com a palavra-chave **hot** e **frito** juntas, como *Gostaria de ver o menu de bebidas quentes e frias*, o canal começa a reproduzir o conteúdo do canal **SplitScreen**. Se você disser *de volta ao menu principal*, ele alternará de volta para o canal principal.
-
-
-
-
-
