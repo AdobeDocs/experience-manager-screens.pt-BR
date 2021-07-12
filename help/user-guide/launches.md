@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 feature: Telas de criação, inicializações
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 0%
 
 ---
-
 
 # Atualização de conteúdo usando o Screens Launch {#launches}
 
@@ -47,7 +47,7 @@ A execução de uma experiência na data de ativação definida no reprodutor en
 
 * qualquer diferença de tempo do servidor e do reprodutor
 
-### Noções básicas sobre o período de carência {#understanding-grace-period}
+### Compreensão do período de carência {#understanding-grace-period}
 
 Para que o reprodutor possa iniciar a reprodução do conteúdo na data de ativação definida, é necessário iniciar as atividades anteriores antes da data de ativação.
 
@@ -177,13 +177,13 @@ Siga as etapas abaixo para editar as propriedades do launch:
 
    ![imagem](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Editar a inicialização do Screens para adicionar ou remover canais {#editing-the-screens-launch-to-add-or-remove-channels}
+### Editar a inicialização do Screens para adicionar ou remover canais  {#editing-the-screens-launch-to-add-or-remove-channels}
 
 Depois de criar o lançamento, você pode adicionar ou remover canais ao lançamento existente usando a opção **Editar lançamento**.
 
 Quando terminar, clique em **Save** para navegar de volta para o canal **FutureLaunch**.
 
-### Promover o Screens Launch manualmente{#promote-the-screens-launch-manually}
+### Promoção do lançamento do Screens manualmente{#promote-the-screens-launch-manually}
 
 É possível promover a inicialização manualmente usando a opção **Promover lançamento** do painel **PENDENTE LAUNCHES**.
 
@@ -200,11 +200,10 @@ Você pode escolher os recursos que deseja promover como parte dessa promoção 
 1. Clique em **Next** no assistente **Promover lançamento**.
 1. Clique em **Promover** para promover o lançamento.
 
-### Excluindo o Screens Launch {#deleting-the-screens-launch}
+### Exclusão do Screens Launch {#deleting-the-screens-launch}
 
 É possível excluir a inicialização usando a opção **Delete Launch** do painel **PENDING LAUNCHES**.
 
 >[!CAUTION]
 >
 >Esta ação também excluirá todos os descendentes (inicializações aninhadas).
-
