@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 1%
 
 ---
-
 
 # Configuração e implantação do AEM Screens {#configuring-and-deploying-aem-screens}
 
@@ -102,7 +102,7 @@ Os pontos-chave a seguir ajudam a configurar e AEM o servidor a estar pronto par
 
 1. Clique em **Save** para ativar o serviço *http*.
 
-#### Habilitar interface de toque para AEM Screens {#enable-touch-ui-for-aem-screens}
+#### Ativar a interface do usuário de toque para AEM Screens {#enable-touch-ui-for-aem-screens}
 
 O AEM Screens requer a interface TOUCH e não funcionará com a interface CLASSIC do Adobe Experience Manager (AEM).
 
@@ -152,11 +152,3 @@ Defina ***Codificação Java*** como Unicode. Por exemplo, *Dfile.encoding=Cp125
 >[!NOTE]
 >**Recomendação:**
 >É recomendável usar HTTPS para o AEM Screens Server em uso de produção.
-
-
-
-
-
-
-
-
