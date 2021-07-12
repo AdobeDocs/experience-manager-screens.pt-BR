@@ -11,21 +11,21 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 feature: Administração do Screens, Windows Player
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 1%
 
 ---
 
-
 # Implementação do Windows 10 Player {#implementing-windows-player}
 
 Esta seção descreve como configurar o player do AEM Screens Windows 10. Ele fornece informações sobre o arquivo de configuração e as opções disponíveis, além de recomendações sobre quais configurações usar para desenvolvimento e teste.
 
-## Instalar o Windows Player {#installing-windows-player}
+## Instalação do Windows Player {#installing-windows-player}
 
 Para implementar o Windows Player para AEM Screens, instale o Windows Player para AEM Screens.
 
@@ -34,7 +34,7 @@ Visite a página [**AEM 6.5 Player Downloads**](https://download.macromedia.com/
 >[!NOTE]
 >Não há um modo de janela no Windows Player. É sempre o modo de tela cheia.
 
-### Configuração do ambiente para o AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
+### Configuração do Ambiente para o AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
 >Você deve configurar um ambiente para o Windows Player se estiver usando o AEM Screens 6.5.5 Service Pack.
@@ -70,7 +70,7 @@ Depois de baixar o aplicativo, siga as etapas no reprodutor para concluir a inst
 >
 >Se **State** for **UNREGISTERED**, você poderá usar o **Token** para registrar o dispositivo.
 
-## Nomear o Windows Player {#name-windows}
+## Como nomear o Windows Player {#name-windows}
 
 Você pode atribuir um nome de dispositivo amigável ao seu player do Windows, enviando o nome de dispositivo atribuído ao Adobe Experience Manager (AEM). Esse recurso permite não apenas nomear o player do Windows, mas também atribuir facilmente o conteúdo apropriado.
 
@@ -141,7 +141,7 @@ A tabela a seguir resume os atributos de política com um exemplo de JSON de pol
 }
 ```
 
-## Ativando o modo de quiosque {#enabling-kiosk-mode}
+## Ativação do modo de quiosque {#enabling-kiosk-mode}
 
 Ao implantar o Windows player, é importante ativar um modo Quiosque para que outros aplicativos ou a barra de tarefas não apareçam na área de trabalho do Windows.
 
@@ -193,4 +193,3 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
-
