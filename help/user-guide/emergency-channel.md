@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 feature: Telas de criação
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d409ba46-b48a-44db-b305-27c392cd55de
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 9%
 
 ---
-
 
 # Canal de emergência {#emergency-channel}
 
@@ -35,11 +35,11 @@ Antes de iniciar este caso de uso, certifique-se de entender como:
 * **[Criar e gerenciar agendamentos](managing-schedules.md)**
 * **[Registro do dispositivo](device-registration.md)**
 
-### Atores Primários {#primary-actors}
+### Atores principais {#primary-actors}
 
 Autores de conteúdo
 
-## Fluxo básico: Configurando o projeto {#basic-flow-setting-up-the-project}
+## Fluxo básico: Configuração do projeto {#basic-flow-setting-up-the-project}
 
 Siga as etapas abaixo para configurar um canal de emergência:
 
@@ -161,7 +161,7 @@ Siga as etapas abaixo para configurar um canal de emergência:
 
    ![new30](assets/new30.gif)
 
-## Alternando para Canal de emergência {#switching-to-emergency-channel}
+## Mudança para Canal de Emergência {#switching-to-emergency-channel}
 
 Em caso de emergência, execute as seguintes etapas:
 
