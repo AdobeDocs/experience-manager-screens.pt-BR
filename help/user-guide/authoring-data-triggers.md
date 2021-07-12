@@ -3,15 +3,15 @@ title: Criação com acionadores de dados
 seo-title: Criação com acionadores de dados
 description: Siga esta página para saber como criar com acionadores de dados.
 feature: Telas de criação
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 1%
 
 ---
-
 
 # Criação com acionadores de dados {#authoring-with-data-triggers}
 
