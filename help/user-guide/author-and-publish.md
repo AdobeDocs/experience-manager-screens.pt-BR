@@ -4,15 +4,15 @@ seo-title: Configuração do autor e publicação no AEM Screens
 description: A arquitetura AEM Screens se parece com uma arquitetura AEM Sites tradicional. O conteúdo é criado em uma instância de autor de AEM e depois replicado para várias instâncias de publicação. Siga esta página para saber como configurar o autor e a publicação para o AEM Screens.
 seo-description: A arquitetura AEM Screens se parece com uma arquitetura AEM Sites tradicional. O conteúdo é criado em uma instância de autor de AEM e depois replicado para várias instâncias de publicação. Siga esta página para saber como configurar o autor e a publicação para o AEM Screens.
 feature: Administração do Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 2%
 
 ---
-
 
 # Configuração do autor e publicação no AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
@@ -38,7 +38,7 @@ Antes de começar a usar os servidores de criação e publicação, você deve t
 >
 >Se quiser usar mais de uma instância de publicação com o dispatcher, atualize o arquivo dispatcher.any no dispatcher. Consulte [Ativar sessões adesivas](dispatcher-configurations-aem-screens.md#enable-sticky-session) para obter mais detalhes.
 
-## Configurar instâncias de Autor e Publicação {#configuring-author-and-publish-instances}
+## Configuração de instâncias de autor e publicação {#configuring-author-and-publish-instances}
 
 >[!NOTE]
 >
@@ -103,12 +103,12 @@ Siga as etapas abaixo para criar um agente de replicação padrão:
    >Também é possível copiar e renomear um agente de replicação padrão existente.
 
 
-#### Criando Agentes de Replicação Padrão {#creating-standard-replication-agents}
+#### Criação de agentes de replicação padrão  {#creating-standard-replication-agents}
 
 1. Criar agente de replicação padrão para pub1 (o agente padrão pronto para uso já deve estar configurado) (por exemplo, *https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*)
 1. Crie um agente de replicação padrão para pub2. Você pode copiar o agente de representante para pub1 e atualizar o transporte a ser usado para pub2 alterando a porta na configuração de transporte. (por exemplo, *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
 
-#### Criando agentes de replicação do Screens {#creating-screens-replication-agents}
+#### Criação de agentes de replicação do Screens {#creating-screens-replication-agents}
 
 1. Crie o agente de replicação do AEM Screens para pub1. Pronto para uso, há um chamado Screens Replication Agent que aponta para a porta 4503. Isso precisa ser ativado.
 1. Crie o agente de replicação do AEM Screens para pub2. Copie o agente de replicação do Screens para pub1 e altere a porta para 4504 para pub2.
@@ -118,9 +118,9 @@ Siga as etapas abaixo para criar um agente de replicação padrão:
 1. Criar agente de replicação inversa padrão para pub1.
 1. Criar agente de replicação inversa padrão para pub2. Você pode copiar o agente de representante reverso para pub1 e atualizar o transporte a ser usado para pub2 alterando a porta na configuração de transporte.
 
-## Configuração da Topologia de Publicação {#setting-up-publish-topology}
+## Configuração da topologia de publicação {#setting-up-publish-topology}
 
-### Etapa 1: Configurar Descoberta Baseada no Apache Sling Oak {#step-configure-apache-sling-oak-based-discovery}
+### Etapa 1: Configurar a descoberta baseada no Apache Sling Oak {#step-configure-apache-sling-oak-based-discovery}
 
 Configurar a Descoberta Baseada no Apache Sling Oak para todas as instâncias de Publicação na topologia
 
@@ -136,7 +136,7 @@ Para cada instância de publicação:
 
 A configuração deve ser idêntica para cada instância de publicação e o loop Local de interrupção automática impede um loop infinito.
 
-#### Etapa 2: Verificar Topologia de Publicação {#step-verify-publish-topology}
+#### Etapa 2: Verificar topologia de publicação {#step-verify-publish-topology}
 
 Para qualquer uma das instâncias de publicação, navegue até `https://:/system/console/topology`. Você deve ver cada instância de publicação representada na topologia em **Outgoing topology connectors**.
 
@@ -159,7 +159,7 @@ Como cada instância de publicação por padrão tem chaves de criptografia excl
 >A senha deve começar e terminar com chaves. Por exemplo:
 >`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
-#### Etapa 4: Ativar Cluster AtiveMQ Artemis {#step-activate-activemq-artemis-cluster}
+#### Etapa 4: Ativar Cluster de Artemis AtiveMQ {#step-activate-activemq-artemis-cluster}
 
 Em cada instância de publicação:
 
@@ -170,7 +170,7 @@ Em cada instância de publicação:
    * ***Senha*** do Cluster: usar valor criptografado da etapa anterior por instância respectiva
    * ***Tópicos***:  `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
-#### Verifique o Cluster do AtiveMQ Artemis {#verify-activemq-artemis-cluster}
+#### Verificar Cluster de Artemis do AtiveMQ {#verify-activemq-artemis-cluster}
 
 Siga as etapas abaixo em cada instância de publicação:
 
@@ -211,7 +211,7 @@ Depois de configurar a topologia de publicação, é necessário configurar as i
 >
 >Para começar a usar este exemplo, crie um novo projeto do AEM Screens seguido de criar um local, exibição e canal no seu projeto. Adicione conteúdo ao canal e atribua o canal a uma exibição.
 
-#### Etapa 1: Iniciar um Player do AEM Screens (dispositivo) {#step-starting-an-aem-screens-player-device}
+#### Etapa 1: Iniciar um reprodutor do AEM Screens (dispositivo) {#step-starting-an-aem-screens-player-device}
 
 1. Inicialize uma janela de navegador separada.
 1. Vá para o player do Screens usando o *navegador da Web*, ou seja,`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` ou inicie o aplicativo AEM Screens. Ao abrir o dispositivo, você perceberá o estado do dispositivo como não registrado.
@@ -229,7 +229,7 @@ Depois de configurar a topologia de publicação, é necessário configurar as i
 1. Verifique o código de registro e clique em **Validate**.
 1. Insira um título para o dispositivo e clique em **Register**.
 
-#### Etapa 3: Atribuindo o Dispositivo para Exibir {#step-assigning-the-device-to-display}
+#### Etapa 3: Atribuição do dispositivo à exibição {#step-assigning-the-device-to-display}
 
 1. Clique em **Atribuir exibição** na caixa de diálogo da etapa anterior.
 1. Selecione o caminho de exibição do seu canal na pasta **Locations**.
@@ -290,7 +290,7 @@ Siga as etapas abaixo para verificar o comportamento de criação/publicação:
 1. Repita essas etapas usando uma instância de publicação diferente
 
 
-#### Etapa 5: Apontando o dispositivo para publicar a instância no painel de administração {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
+#### Etapa 5: Apontar o dispositivo para publicar a instância no painel de administração {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. Visualize a interface do usuário do administrador no player do Screens, pressione e segure no canto superior esquerdo para abrir o menu Admin, no player do AEM Screens habilitado para toque ou usando um mouse.
 1. Clique na opção **Configuração** no painel lateral.
@@ -307,5 +307,3 @@ Como alternativa, você também pode atualizar/editar o URL do servidor no conso
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 O recurso **Gerenciar publicação** permite que você forneça atualizações de conteúdo do autor para publicar no dispositivo. Você pode publicar/cancelar a publicação de conteúdo para todo o projeto do AEM Screens ou somente para um de seus canais, locais, dispositivos, aplicativos ou agendamentos. Para saber mais sobre esse recurso, consulte [Atualização de conteúdo sob demanda](on-demand-content.md).
-
-
