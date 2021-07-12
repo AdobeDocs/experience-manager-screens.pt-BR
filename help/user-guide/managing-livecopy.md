@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
 feature: Telas de criação
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 84%
 
 ---
-
 
 # Criação e gerenciamento de uma Live Copy {#creating-and-managing-a-live-copy}
 
@@ -80,7 +80,7 @@ Além disso, é possível exibir as propriedades do seu canal Live Copy.
 
    ![chlimage_1-21](assets/chlimage_1-21.png)
 
-### Status da Live Copy    {#live-copy-status}
+### Status da Live Copy   {#live-copy-status}
 
 O modo **Status da Live Copy**, como mostrado na figura abaixo, permite visualizar o status do relacionamento de todos os ativos no canal.
 
@@ -135,4 +135,3 @@ Siga as etapas abaixo para garantir que as alterações sejam propagadas do cana
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
    Você notará que a imagem também foi excluída do canal da live copy.
-
