@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
 feature: Telas de criação
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 0%
 
 ---
-
 
 # Criação de um fluxo de trabalho de preenchimento de vídeo {#creating-a-video-padding-workflow}
 
@@ -85,7 +85,7 @@ Siga as etapas abaixo para criar um fluxo de trabalho para o seu vídeo:
 
    Insira o formato no **Mime Types** (como ***video/mp4***) e o comando como (**/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=color=black&quot; cq5dam.video.fullhd-hp.mp4**) para iniciar o workflow no campo **Commands**.
 
-   Consulte os detalhes sobre **Tipos Mime** e **Comandos** na nota abaixo.
+   Consulte os detalhes em **Tipos Mime** e **Comandos** na nota abaixo.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
@@ -113,7 +113,7 @@ Siga as etapas abaixo para usar o fluxo de trabalho no seu projeto do AEM Screen
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 
-## Validando a saída do workflow {#validating-the-output-for-the-workflow}
+## Validar a saída do fluxo de trabalho {#validating-the-output-for-the-workflow}
 
 Você pode validar sua saída ao:
 
@@ -121,4 +121,3 @@ Você pode validar sua saída ao:
 * Navegue até ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** no CRXDE Lite, conforme mostrado na figura abaixo:
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)
-
