@@ -4,15 +4,15 @@ seo-title: Ativação no nível do ativo
 description: Siga esta página para saber como ativar um ativo específico em um canal para um período agendado no fuso horário local do player.
 seo-description: Siga esta página para saber como ativar um ativo específico em um canal para um período agendado no fuso horário local do player.
 feature: Telas de criação, Ativação no nível de ativo
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 2%
 
 ---
-
 
 # Ativação no nível do ativo {#asset-level-scheduling}
 
@@ -78,7 +78,7 @@ Siga as etapas abaixo para executar a programação de nível de ativo:
 
    ![imagem](/help/user-guide/assets/asset-activation/asset-level3.png)
 
-## Lidar com a recorrência no Assets {#handling-recurrence-in-assets}
+## Lidar com a recorrência em ativos {#handling-recurrence-in-assets}
 
 Você pode programar ativos para recorrência em determinados intervalos diariamente, semanalmente ou mensalmente, de acordo com sua necessidade.
 
@@ -147,7 +147,7 @@ A tabela a seguir resume alguns exemplos de expressões que podem ser adicionada
 
 1. Insira a expressão no **Schedule** e o ativo será exibido para o intervalo específico de dia e hora.
 
-#### Exemplo de expressões para MonthParting {#example-three}
+#### Expressões de exemplo para MonthParting {#example-three}
 
 A tabela a seguir resume alguns exemplos de expressões que podem ser adicionadas ao agendamento, enquanto o canal é atribuído a uma exibição.
 
@@ -222,4 +222,3 @@ Siga as etapas abaixo para selecionar vários ativos e agendar a exibição dele
    >O ícone de agendamento é visível no canto superior direito dos ativos que têm ativação de vários ativos.
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
-
