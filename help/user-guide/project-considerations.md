@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
 feature: Visão geral
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 1%
 
 ---
-
 
 # Parte 2: Considerações quanto ao escopo dos projetos {#part-considerations-as-projects-are-scoped}
 
@@ -42,7 +42,7 @@ Os componentes principais de um programa de sinalização digital necessários p
 >
 >É importante definir uma Estratégia de conteúdo que considere como o aplicativo usará os recursos de software, hardware e conectividade para fornecer com sucesso o valor pretendido.
 
-## Resumo das considerações do projeto em uma sinalização digital {#summary-of-project-considerations-in-a-digital-signage}
+## Resumo das considerações do projeto em uma sinalização digital  {#summary-of-project-considerations-in-a-digital-signage}
 
 Ao desenvolver uma Estratégia de conteúdo, há várias considerações, incluindo camadas de E/S, tipos de ativos, segmentações de público-alvo e requisitos de programação de programação de anúncios diários.
 
@@ -67,11 +67,11 @@ Os pontos a seguir são considerados como entendendo a intenção do cliente fin
 
 A inclusão de estratégias de programação pode permitir que os clientes finais segmentem seu conteúdo e direcionem as mensagens para o público certo na hora certa. Isso é especialmente eficaz para redes de publicidade ou de varejo, onde muitos contribuidores de conteúdo compõem toda uma lista de reprodução.
 
-### Requisitos de operações de negócios {#business-operations-requirements}
+### Requisitos de operações comerciais {#business-operations-requirements}
 
 As operações comerciais também são importantes para definir em conversas sobre a Estratégia de conteúdo. A formalização dos requisitos de suporte dos clientes finais ajudará a gerenciar as expectativas após a implantação, garantindo que os esforços de suporte sejam medidos adequadamente.
 
-### Requisitos A/V {#a-v-requirements}
+### Requisitos de A/V {#a-v-requirements}
 
 Os cenários de montagem também precisam de definição, assim como as considerações relativas ao acesso do dispositivo para a manutenção do equipamento. Isso afetará não apenas as recomendações de mão de obra e equipamentos de instalação inicial, mas também determinará os requisitos contínuos de serviço e suporte.
 
