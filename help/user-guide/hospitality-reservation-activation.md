@@ -11,15 +11,15 @@ topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 feature: Telas de criação
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
 
 ---
-
 
 # Ativação de Reserva de Hospitalidade {#hospitality-reservation-activation}
 
@@ -86,6 +86,4 @@ Siga as etapas abaixo para implementar o caso de uso de ativação de reserva de
 
    1. Clique em **Visualizar.** Além disso, abra suas planilhas do Google e atualize seu valor.
    1. Atualize o valor nas colunas **Restaurant1** e **Restaurant2**. Se **Restaurant1** > **Restaurant2,** você poderá visualizar uma imagem de *Steak* alimento, *Thai* a imagem da comida será exibida na sua tela.
-
    ![resultado5](assets/result5.gif)
-
