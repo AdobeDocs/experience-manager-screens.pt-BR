@@ -4,15 +4,15 @@ seo-title: Usando a sincronização de comandos
 description: Siga esta página para saber mais sobre como usar a Sincronização de comandos.
 seo-description: Siga esta página para saber mais sobre como usar a Sincronização de comandos.
 feature: Telas de criação
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 2%
 
 ---
-
 
 # Sincronização de comandos {#command-sync}
 
@@ -30,7 +30,7 @@ Para usar a Sincronização de comandos, um reprodutor age como *principal* e en
 
 O *principal* envia um comando para todos os clientes registrados quando está prestes a iniciar a reprodução de um item. A carga disso pode ser o índice do item a ser reproduzido e/ou o html externo do elemento a ser reproduzido.
 
-## Implementando a sincronização de comandos {#using-command-sync}
+## Implementando sincronização de comandos {#using-command-sync}
 
 A seção a seguir descreve como usar a Sincronização de comandos em um projeto do AEM Screens.
 
@@ -38,7 +38,7 @@ A seção a seguir descreve como usar a Sincronização de comandos em um projet
 >
 >Para reprodução sincronizada, é necessário que todos os dispositivos de hardware tenham as mesmas especificações de hardware e, de preferência, o mesmo sistema operacional. Não é recomendável sincronizar entre diferentes hardware e sistemas operacionais.
 
-### Configurando o projeto {#setting-up}
+### Configuração do projeto {#setting-up}
 
 Antes de usar o recurso de Sincronização de comandos, verifique se você tem um projeto e um canal com o conteúdo configurado para o seu projeto.
 
@@ -90,7 +90,7 @@ Antes de usar o recurso de Sincronização de comandos, verifique se você tem u
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
-### Configurar um {#setting-up-master} principal
+### Configuração de uma principal {#setting-up-master}
 
 1. Navegue até o painel de exibição em **CommandSyncDemo** —> **Locations** —> **Lobby** —> **LobbyDisplay** e clique em **Dashboard** na barra de ações.
 Você verá os dois dispositivos (chrome e windows player) no painel **DEVICES**, conforme mostrado na figura abaixo.
@@ -108,7 +108,7 @@ Você verá os dois dispositivos (chrome e windows player) no painel **DEVICES**
 >
 >Você pode configurar vários dispositivos como principais.
 
-### Sincronização com {#sync-up-master} Principal
+### Sincronização com Principal {#sync-up-master}
 
 1. Depois de definir o dispositivo Chrome como principal, você pode sincronizar o outro dispositivo (neste caso, o windows player) para sincronizar com o principal.
 Selecione o outro dispositivo (neste caso, windows player) no painel **DEVICES** e clique em **Sincronizar para dispositivo principal**, conforme mostrado na figura abaixo.
@@ -124,7 +124,7 @@ Selecione o outro dispositivo (neste caso, windows player) no painel **DEVICES**
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### Cancelamento de sincronização com o {#desync-up-master} Principal
+### Dessincronização com o Principal {#desync-up-master}
 
 Depois de sincronizar um dispositivo ou dispositivos a um principal, você pode cancelar a sincronização da atribuição desse dispositivo.
 
