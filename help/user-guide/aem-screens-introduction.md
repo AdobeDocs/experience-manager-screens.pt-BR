@@ -6,10 +6,10 @@ feature: Visão geral, sinalização digital
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: da5abdb3b12f8e1e71af2f9dbc80ec2434ae08ed
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 8%
 **AEM (Adobe Experience Manager) Screens**  - uma Solução de sinalização digital que permite a publicação de experiências e interações digitais dinâmicas e interativas envolvendo diferentes tipos de telas, juntamente com uma plataforma abrangente de marketing digital.
 
 Comece a trabalhar com uma experiência simples de assinatura digital, usando o [Kickstart para AEM Screens](kickstart-for-aem-screens.md).
+
+Para saber como configurar e criar o projeto do AEM Screens no AEM como um Cloud Service, consulte [aqui](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/screens-as-cloud-service/home.html?lang=en).
 
 ## Visão geral {#overview}
 
