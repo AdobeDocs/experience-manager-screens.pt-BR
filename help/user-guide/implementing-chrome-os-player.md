@@ -13,9 +13,9 @@ feature: Administração do Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,9 @@ Siga as etapas abaixo para configurar o console de gerenciamento do Chrome:
 ## Como nomear o reprodutor do sistema operacional Chrome {#name-chrome}
 
 Você pode atribuir um nome de dispositivo amigável ao seu player do Chrome, enviando o nome do dispositivo atribuído ao Adobe Experience Manager (AEM). Esse recurso permite não apenas nomear o player do Chrome, mas também atribuir facilmente o conteúdo apropriado.
+
+>[!NOTE]
+>Você pode escolher o nome do Player somente antes do registro. Depois que o Player é registrado, o nome do Player não pode mais ser alterado.
 
 Siga as etapas abaixo para configurar o nome no Chrome player:
 
