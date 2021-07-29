@@ -14,9 +14,9 @@ feature: Administração do Screens, reprodutor do Android
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -181,6 +181,9 @@ Ao implantar o reprodutor Android em massa, é entediante registrar manualmente 
 ## Nomenclatura do reprodutor Android {#name-android}
 
 Você pode atribuir um nome de dispositivo amigável ao seu player Android, enviando o nome de dispositivo atribuído ao Adobe Experience Manager (AEM). Esse recurso permite não apenas nomear o player Android, mas também atribuir facilmente o conteúdo apropriado.
+
+>[!NOTE]
+>Você pode escolher o nome do Player somente antes do registro. Depois que o Player é registrado, o nome do Player não pode mais ser alterado.
 
 Siga as etapas abaixo para configurar o nome no player do Android:
 
