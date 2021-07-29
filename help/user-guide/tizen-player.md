@@ -5,9 +5,9 @@ feature: Administração de telas, players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1229'
 ht-degree: 1%
 
 ---
@@ -41,6 +41,9 @@ Siga as etapas abaixo:
 ### Como nomear o Tizen Player {#name-tizen}
 
 Você pode atribuir um nome de dispositivo simples ao player do Tizen, enviando o nome do dispositivo atribuído ao Adobe Experience Manager (AEM). Esse recurso permite não apenas nomear o player Tizen, mas também atribuir facilmente o conteúdo apropriado.
+
+>[!NOTE]
+>Você pode escolher o nome do Player somente antes do registro. Depois que o Player é registrado, o nome do Player não pode mais ser alterado.
 
 Siga as etapas abaixo para configurar o nome no Tizen player:
 
