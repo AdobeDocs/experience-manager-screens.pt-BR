@@ -7,7 +7,7 @@ feature: Administração do Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: ee7e37c5a3b4fa20f1a5cb27ceaf8db4b56a03da
+source-git-commit: 89b4bc6b7eca18d37246be188eddad87443a96d6
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 4%
@@ -135,7 +135,7 @@ Para ativar o cache dos ativos para que os ativos sejam disponibilizados a parti
 
 Certifique-se de permitir esses filtros e regras de cache em dispatchers que encaminham as instâncias de publicação para o funcionamento do Screens.
 
-## Pré-requisitos para a versão do manifesto v3{#prerequisites3}
+### Pré-requisitos para a versão do manifesto v3{#prerequisites3}
 
 Siga estes dois pré-requisitos antes de configurar o Dispatcher (versão de manifesto v3) para o AEM Screens:
 
