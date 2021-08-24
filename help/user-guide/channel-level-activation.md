@@ -3,13 +3,13 @@ title: Ativação no nível do canal - Reprodução de evento único
 seo-title: Ativação no nível do canal - Reprodução de evento único
 description: Siga este guia para entender a ativação no nível do canal usando a reprodução de um único evento.
 topic-tags: authoring
-feature: Telas de criação, Ativação no nível do canal
+feature: Telas de criação, canais
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 72352b9ece8fde2d02b9fa0ccd25c6dfd7d602fd
+source-git-commit: 9eece68a4fa1577dd7222dd1fd7aa5d0b0da314b
 workflow-type: tm+mt
-source-wordcount: '1795'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
