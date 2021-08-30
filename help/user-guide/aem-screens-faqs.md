@@ -1,20 +1,18 @@
 ---
 title: Perguntas frequentes do AEM Screens
-seo-title: Perguntas frequentes do AEM Screens
+seo-title: AEM Screens FAQs
 description: Siga esta página para obter respostas para as perguntas frequentes relacionadas a um projeto do AEM Screens.
-seo-description: Siga esta página para obter respostas para as perguntas frequentes relacionadas a um projeto do AEM Screens.
-uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
-contentOwner: jsyal
-feature: Sinalização digital, conteúdo
+seo-description: Follow this page to get answers to FAQs related to an AEM Screens project.
+feature: Digital Signage, Content
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
+source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1872'
 ht-degree: 1%
 
 ---
-
 
 # Perguntas frequentes do AEM Screens {#aem-screens-faqs}
 
@@ -84,9 +82,9 @@ A solicitação de registro é uma solicitação de POST.
 
 ### 3. Existe uma maneira de recusar uma solicitação de registro de dispositivo? {#is-there-a-way-to-decline-a-device-registration-request}
 
-Não é possível recusar as solicitações de registro. Em vez disso, as solicitações de registro devem expirar após um tempo limite configurado no [Adobe Experience Manager Web Console](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl). Por padrão, esse valor é definido como um dia e armazenado em um cache de memória.
+Não é possível recusar as solicitações de registro. Em vez disso, as solicitações de registro devem expirar após um tempo limite configurado em `Adobe Experience Manager Web Console`. Por padrão, esse valor é definido como um dia e armazenado em um cache de memória.
 
-## Relatórios de monitoramento e integridade de dispositivo {#device-monitoring-and-health-reports}
+## Relatórios de monitoramento e integridade de dispositivos {#device-monitoring-and-health-reports}
 
 ### 1. Como soluciono o problema, se o meu reprodutor AEM Screens exibir tela em branco? {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
 
@@ -148,7 +146,7 @@ Siga as etapas abaixo para ativar e ativar a opção Permanecer ativo em qualque
 1. Navegue até **Opções do Desenvolvedor**
 1. Ativar **Estar Awake**
 
-### 4. Como ativar o modo de janela para o Windows player?{#enable-player}
+### 4. Como ativar o modo de janela para o Windows Player?{#enable-player}
 
 Não há um modo de janela no Windows Player. É sempre o modo de tela cheia.
 
@@ -210,5 +208,3 @@ O AEM Screens cria definições de índice para as consultas usadas pelo produto
 Se houver *AVISOs de passagem de consulta* no `error.log`, crie um índice personalizado para sua consulta. Consulte [Configuração de Índices](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) para obter mais detalhes.
 
 Também é possível consultar um recurso adicional em [Documentação do Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
-
-
