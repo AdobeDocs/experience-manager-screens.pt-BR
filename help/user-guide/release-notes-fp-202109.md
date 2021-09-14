@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: e96c314ea7487932d2ab994ffc41ca8d2af61c5c
+source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 10%
+source-wordcount: '334'
+ht-degree: 2%
 
 ---
 
@@ -29,30 +29,23 @@ A data de lançamento do AEM Screens Feature Pack 202109 é 9 de setembro de 202
 
 ### Novidades {#what-is-new}
 
-* **Bloquear página em um canal da AEM Screens**
+* **Suporte a miniaturas para vídeos**
 
-   O AEM Screens agora oferece suporte para *Bloquear uma página*, conforme já implementado no AEM Sites. O Adobe Experience Manager (AEM) permite bloquear uma página, de modo que ninguém mais possa modificar o conteúdo. Isso é útil quando você está fazendo diversas edições para uma página específica ou quando precisa congelar uma página por pouco tempo.
+   O suporte a miniaturas de vídeos no agora é compatível com o AEM Screens. Um autor de conteúdo pode definir uma miniatura de vídeos para que a imagem possa ser usada como um espaço reservado e testar corretamente a reprodução e o direcionamento do conteúdo, enquanto o vídeo real está sendo finalizado pela equipe apropriada. A imagem também pode ser usada caso a reprodução do vídeo falhe.
+Consulte Suporte de miniaturas para vídeos para obter mais detalhes.
 
-* **Como nomear dispositivo reprodutor do AEM Screens**
+* **Monitoramento básico da reprodução**
 
-   Os players do AEM Screens agora incluem a capacidade de enviar um nome de dispositivo para o Adobe Experience Manager (AEM).
-Por padrão, quando o registro em massa é usado para registrar um dispositivo, um nome de usuário gerado pelo sistema é inserido no campo de título. Como alternativa, um cliente pode usar uma tag de ativo ou outro nome amigável para que seja visível em AEM e fácil atribuir o conteúdo apropriado.
+   O AEM Screens agora é compatível com o monitoramento básico de reprodução. O reprodutor reportará várias métricas de reprodução a cada ping (o padrão é 30 segundos). Com base nas métricas, ele fornece a capacidade de detectar vários casos de borda (experiência travada, tela em branco, problema de agendamento, etc.). Esse recurso permite que a equipe monitore remotamente se um player estiver reproduzindo conteúdo corretamente, melhora a reatividade em telas em branco ou falha de experiências no campo e diminui o risco de mostrar uma experiência quebrada para o usuário final.
+Consulte Monitoramento básico da reprodução para obter mais detalhes.
 
-   Consulte a seguinte documentação para saber como configurar o nome em cada sistema operacional suportado:
+* **Atualizações do Relatório de atribuição de conteúdo**
 
-   * [Android](/help/user-guide/implementing-android-player.md#name-android)
-   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
-* **Geração de Manifesto**
-
-   Geração de manifesto de canal mais rápida com desempenho aprimorado, como alocar menos recursos no servidor.
 
 ### Correções de erros {#bug-fixes}
 
-* O player exibia uma tela preta ao alternar para um canal que continha uma sequência incorporada dinâmica.
-* Os players do Screens agora bloqueiam a alternância para qualquer canal quebrado que evite mais o erro 404 ou uma página com uma mensagem de erro.
+
 
 ### Players AEM Screens lançados {#released-aem-screens-players}
 
