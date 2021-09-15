@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
+source-git-commit: 33e71d5d9b02036aa91db093274dcb058769f288
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '397'
 ht-degree: 2%
 
 ---
@@ -41,6 +41,10 @@ Consulte Monitoramento básico da reprodução para obter mais detalhes.
 
 * **Atualizações do Relatório de atribuição de conteúdo**
 
+* **Suporte para manifesto V3**
+
+   Agora você pode configurar o Dispatcher para a Versão de manifesto v3. Consulte [Configuração do Dispatcher para Versão do Manifesto v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) para obter mais detalhes.
+Além disso, se você estiver usando componentes personalizados como parte de manifestos v3, consulte [Modelo para manipuladores personalizados](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
 ### Correções de erros {#bug-fixes}
