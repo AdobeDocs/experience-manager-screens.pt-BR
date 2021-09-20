@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 060ab6a906597ab8e8789fab6932cec310cc06f5
+source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---
@@ -40,6 +40,8 @@ Consulte Suporte de miniaturas para vídeos para obter mais detalhes.
 Consulte Monitoramento básico da reprodução para obter mais detalhes.
 
 * **Atualizações do Relatório de atribuição de conteúdo**
+
+   O Relatório de atribuição de conteúdo agora é otimizado e aprimorado com a experiência aprimorada do usuário. O relatório baixável exibe entidades aprimoradas relacionadas ao player, como locais, exibições e dispositivos, em uma guia da planilha e as informações do provedor de conteúdo, como canais e ativos em outra guia.
 
 * **Suporte para manifesto V3**
 
