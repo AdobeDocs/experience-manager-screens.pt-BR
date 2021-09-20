@@ -1,11 +1,11 @@
 ---
 title: Notas de versão do Feature Pack 202109
-description: '"Siga esta página para obter informações sobre o AEM Screens Feature Pack 202105 lançado em 22 de setembro de 2021."'
+description: Siga esta página para obter informações sobre o AEM Screens Feature Pack 202105 lançado em 23 de setembro de 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 33e71d5d9b02036aa91db093274dcb058769f288
+source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Você pode baixar o pacote de recursos mais recente da versão 6.5.9 do AEM Scre
 
 ## Data de lançamento {#release-date}
 
-A data de lançamento do AEM Screens Feature Pack 202109 é 9 de setembro de 2021.
+A data de lançamento do AEM Screens Feature Pack 202109 é 23 de setembro de 2021.
 
 ### Novidades {#what-is-new}
 
