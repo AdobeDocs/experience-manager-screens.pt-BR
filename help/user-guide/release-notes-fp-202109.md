@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
+source-git-commit: 060ab6a906597ab8e8789fab6932cec310cc06f5
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 2%
+source-wordcount: '720'
+ht-degree: 1%
 
 ---
 
@@ -49,11 +49,85 @@ Além disso, se você estiver usando componentes personalizados como parte de ma
 
 ### Correções de erros {#bug-fixes}
 
+**Lado do reprodutor**
+
+* Correção de erros de armazenamento em cache de arquivos ao substituir ativos por representações.
+
+* Os players agora só expõem representações de ativos, se o mapeamento de representação estiver presente.
+
+* Agora você pode configurar alertas de atraso com base em logs de partes.
+
+* Aprimore o ping para autenticar novamente se a resposta não for um JSON válido.
+
+* Nomes/funções de canal numéricos causavam tela em branco.
+
+* Baixe representações otimizadas via SmartSync.
+
+* Transforme o mapeamento em uma lista de chaves de representação.
+
+* Remova o acesso a cmd.exe e reg.exe no windows player.
+
+* Limitar chamadas de token csrf.
+
+* Um reprodutor precisa relatar seu último evento de reprodução bem-sucedido.
+
+* Um reprodutor precisa relatar seu status de reprodução.
+
+* O reprodutor não faz o download de Ativos novamente quando o cache `ALL` é limpo.
+
+* Como Administrador do player, agora você pode escolher um nome para o player.
+
+* A remoção da atribuição de canal da exibição não é refletida no reprodutor.
+
+* Se o player for recarregado durante o download da atualização do canal, ele ignorará a atualização.
+
+* O Componente de página incorporada não respeita o evento de toque.
+
+* O provisionamento remoto do Tizen player agora é compatível.
+
+**Lado do servidor**
+
+* O vídeo do Target não está sendo exibido
+* Condição de corrida na transmissão de dados de exibição para subsequências.
+
+* A Visualização de canal não funciona para canais que contêm vídeos.
+
+* Modo de visualização que mostra em branco para o canal de tela dividida.
+
+* As miniaturas de vídeo renderizam em branco com representações adaptáveis ativadas.
+
+* Atualize automaticamente o manifesto do canal se a página referenciada estiver publicada.
+
+* Canais JSON não inclui canais personalizados (#942)
+
+* Dispositivos excluídos agora não bloqueiam a fila de replicação do Screens.
+
+* O manifesto não contém conteúdo direcionado nem páginas incorporadas de Sites.
+
+* Novo componente de imagem principal não adicionado ao manifesto do canal.
+
+* O download de representações otimizadas via SmartSync agora é suportado.
+
+* Reproduzir representação otimizada para todos os ativos.
+
+* Adição de suporte para vários tipos de provedores de conteúdo
+
+* A Estratégia de reprodução de sequência incorporada foi interrompida e isso foi corrigido.
+
+* Manifesto offline usando o parâmetro de solicitação `wcmmode` para entrada html, tornando-o inarmazenável em cache.
+
+* Uma sequência incorporada dinâmica vazia às vezes causa tela em branco.
+
+* Um reprodutor precisa relatar seu status de reprodução.
+
+* O vídeo está sendo reproduzido no `Tiny mode` e não é reproduzido como vídeo de tela cheia no dispositivo.
+
+* As senhas OSGi são visíveis como texto simples.
 
 
 ### Players AEM Screens lançados {#released-aem-screens-players}
 
-Os seguintes Players do AEM Screens são lançados para o AEM 6.5 Feature Pack 8:
+Os seguintes players do AEM Screens são lançados para o AEM 6.5 Feature Pack 9:
 
 * ChromeOS
 * Windows
