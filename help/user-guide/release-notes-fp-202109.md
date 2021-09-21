@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
+source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '753'
 ht-degree: 1%
 
 ---
@@ -59,17 +59,15 @@ Além disso, se você estiver usando componentes personalizados como parte de ma
 
 * Agora você pode configurar alertas de atraso com base em logs de partes.
 
-* Aprimore o ping para autenticar novamente se a resposta não for um JSON válido.
+* O ping foi aprimorado para autenticar novamente se a resposta não for um JSON válido.
 
 * Nomes/funções de canal numéricos causavam tela em branco.
 
 * Baixe representações otimizadas via SmartSync.
 
-* Transforme o mapeamento em uma lista de chaves de representação.
+* O mapeamento foi transformado em lista de chaves de representação.
 
-* Remova o acesso a cmd.exe e reg.exe no windows player.
-
-* Limitar chamadas de token csrf.
+* Remoção do acesso a `cmd.exe` e `reg.exe` no player do Windows.
 
 * Um reprodutor precisa relatar seu último evento de reprodução bem-sucedido.
 
@@ -83,7 +81,7 @@ Além disso, se você estiver usando componentes personalizados como parte de ma
 
 * Se o player for recarregado durante o download da atualização do canal, ele ignorará a atualização.
 
-* O Componente de página incorporada não respeita o evento de toque.
+* O Componente de página incorporada agora respeita o evento de toque.
 
 * O provisionamento remoto do Tizen player agora é compatível.
 
@@ -100,13 +98,11 @@ Além disso, se você estiver usando componentes personalizados como parte de ma
 
 * Atualize automaticamente o manifesto do canal se a página referenciada estiver publicada.
 
-* Canais JSON não inclui canais personalizados (#942)
-
 * Dispositivos excluídos agora não bloqueiam a fila de replicação do Screens.
 
-* O manifesto não contém conteúdo direcionado nem páginas incorporadas de Sites.
+* O manifesto não continha conteúdo direcionado nem páginas incorporadas de Sites. Isso foi corrigido.
 
-* Novo componente de imagem principal não adicionado ao manifesto do canal.
+* Agora, um novo componente de imagem principal é adicionado ao manifesto do canal.
 
 * O download de representações otimizadas via SmartSync agora é suportado.
 
@@ -118,14 +114,11 @@ Além disso, se você estiver usando componentes personalizados como parte de ma
 
 * Manifesto offline usando o parâmetro de solicitação `wcmmode` para entrada html, tornando-o inarmazenável em cache.
 
-* Uma sequência incorporada dinâmica vazia às vezes causa tela em branco.
+* Uma sequência incorporada dinâmica vazia às vezes causava tela em branco.
 
-* Um reprodutor precisa relatar seu status de reprodução.
+* O reprodutor agora relata seu status de reprodução.
 
-* O vídeo está sendo reproduzido no `Tiny mode` e não é reproduzido como vídeo de tela cheia no dispositivo.
-
-* As senhas OSGi são visíveis como texto simples.
-
+* O vídeo estava sendo reproduzido no `Tiny mode` e não era reproduzido como vídeo de tela cheia no dispositivo, e o problema foi corrigido agora.
 
 ### Players AEM Screens lançados {#released-aem-screens-players}
 

@@ -2,9 +2,9 @@
 title: Representações adaptáveis no AEM Screens
 description: Esta página descreve a Visão geral da arquitetura e as configurações para representações adaptativas no AEM Screens.
 index: false
-source-git-commit: 75f7cf722880bb0a1f35ac663308cf049cd4fd20
+source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '712'
 ht-degree: 1%
 
 ---
@@ -104,4 +104,4 @@ Considere as seguintes recomendações em Autor e Publicação antes de usar as 
 
 ## Próximas etapas {#next-steps}
 
-Depois de fazer upload das representações, você pode usar as Representações adaptativas, nos canais do AEM Screens. Consulte Uso de representações adaptativas para obter mais detalhes.
+Depois de configurar e fazer upload das representações, você pode usar as Representações adaptativas nos canais do AEM Screens. Consulte Uso de representações adaptativas para obter mais detalhes.
