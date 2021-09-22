@@ -2,9 +2,9 @@
 title: Representações adaptáveis no AEM Screens
 description: Esta página descreve a Visão geral da arquitetura e as configurações para representações adaptativas no AEM Screens.
 index: false
-source-git-commit: d3a2c7695afb296e9344aa55f6630798db5b1941
+source-git-commit: b597370d9ee9e2b06ebcd6915ecd949c003f8a50
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,12 @@ As Representações adaptativas são baseadas na ideia de ter várias representa
 
 ## Configuração para usar representações adaptativas {#setup-adaptive-renditions}
 
-Para ativar o recurso Representações adaptativas, as regras de mapeamento devem estar presentes e a Configuração sensível ao contexto pode ser resolvida para canais e é exibida:
+Para ativar o recurso Representações adaptativas, as regras de mapeamento devem estar presentes e a Configuração sensível ao contexto (CA) pode ser resolvida para canais e exibições.
+
+>[!NOTE]
+>Para saber mais sobre as configurações sensíveis a conteúdo, consulte [aqui](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html).
+
+Siga as etapas abaixo para configurar a configuração:
 
 1. Verifique se a configuração de mapeamento de representação existe em `JCR`. Todos os pacotes de recursos mais recentes têm essa estrutura de nós pré-preenchida.
 
@@ -74,4 +79,4 @@ Considere as seguintes recomendações em Autor e Publicação antes de usar as 
 
 ## Próximas etapas {#next-steps}
 
-Depois de configurar e fazer upload das representações, como um Autor de conteúdo, agora você pode usar as Representações adaptativas e também migrar seus dispositivos para aplicar esse recurso, nos canais do AEM Screens. Consulte [Usando representações adaptativas](/help/user-guide/using-adaptive-renditions.md) para obter mais detalhes.
+Depois de configurar e fazer upload das representações, como um Autor de conteúdo, agora você pode usar as Representações adaptativas e também migrar seus dispositivos para redes grandes para aproveitar esse recurso, nos canais do AEM Screens. Consulte [Usando representações adaptativas](/help/user-guide/using-adaptive-renditions.md) para obter mais detalhes.
