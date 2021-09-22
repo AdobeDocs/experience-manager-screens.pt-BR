@@ -2,9 +2,9 @@
 title: Representações adaptáveis no AEM Screens
 description: Esta página descreve a Visão geral da arquitetura e as configurações para representações adaptativas no AEM Screens.
 index: false
-source-git-commit: f9e10463418ddc44f75c7d6c689298dcba20338f
+source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '552'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ A capacidade de ter um padrão de nomenclatura de representação associado defi
 
 ![imagem](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
-## Configuração para usar representações adaptativas {#setup-adaptive-renditions}
+## Adicionar propriedade de mapeamento de representação ao projeto do Screens {#rendition-mapping-new}
 
 Para ativar o recurso Representações adaptativas, as seguintes regras de mapeamento devem estar presentes e a Configuração com reconhecimento de contexto (CA) deve ser resolvida para canais e exibições.
 
@@ -37,22 +37,22 @@ Para ativar o recurso Representações adaptativas, as seguintes regras de mapea
 
 Siga as etapas abaixo para configurar a configuração:
 
-1. Navegue até **CRXDE Lite**. Marque a opção se a configuração **rendition-mapping** existir em `JCR`, conforme mostrado na figura abaixo.
+1. Navegue até **CRXDE Lite**. Marque a opção se a configuração **rendition-mapping** existir em `/conf/screens/sling:configs/rendition-mapping`, conforme mostrado na figura abaixo.
 
-   >[!NOTE]
-   >Todos os pacotes de recursos mais recentes têm essa estrutura de nós pré-preenchida.
+   >![imagem](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
-   ![imagem](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
+   >[!IMPORTANT]
+   >Se tiver instalado o Feature Pack 202109 mais recente, você verá a estrutura de nó **rendition-mapping** pré-preenchida em `/conf/screens/sling:configs/rendition-mapping` no CRXDE Lite. Consulte [Notas de versão do Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) para obter detalhes sobre o pacote de recursos mais recente.
+   >Para projetos existentes, verifique se o projeto do Screens tem a configuração **rendition-mapping** associada. Consulte a seção [Adicionar mapeamento de representação a um projeto existente](#rendition-mapping-existing) para saber mais.
 
-1. Certifique-se de que o projeto do Screens tenha a configuração de mapeamento de representação associada a ele.
+### Adicionar propriedade de mapeamento de representação a um projeto existente {#rendition-mapping-existing}
 
-   * Cada novo projeto criado com o assistente de projeto do Screens conterá uma referência que aponta para a configuração **rendition-mapping**.
+1. Navegue até **CRXDE Lite**.
 
-      ![imagem](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
+1. Defina explicitamente a associação de mapeamento de representação adicionando a propriedade `sling:configRef` apontando `/conf/screens` para o nó de conteúdo do projeto, conforme mostrado na figura abaixo.
 
-   * Em uma versão mais antiga dos projetos do Screens, é necessário definir explicitamente a associação adicionando a propriedade `sling:configRef` apontando `/conf/screens` para o nó de conteúdo do projeto.
+   ![imagem](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
-      ![imagem](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
 ## Configuração de autor e publicação {#setup-author-publish}
 
