@@ -2,7 +2,7 @@
 title: Representações adaptáveis no AEM Screens
 description: Esta página descreve a Visão geral da arquitetura e as configurações para representações adaptativas no AEM Screens.
 index: false
-source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
+source-git-commit: 375024848ed736104add828251ea494406a4f7ba
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -48,8 +48,6 @@ Para ativar o recurso Representações adaptativas, as regras de mapeamento deve
    * Em uma versão mais antiga dos projetos do Screens, a associação deve ser explicitamente definida adicionando a propriedade `sling:configRef` apontando `/conf/screens` para o nó de conteúdo do projeto.
 
       ![imagem](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
-
-
 
 ## Configuração de autor e publicação {#setup-author-publish}
 
