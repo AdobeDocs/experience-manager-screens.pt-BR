@@ -2,9 +2,9 @@
 title: Representações adaptáveis no AEM Screens
 description: Esta página descreve a Visão geral da arquitetura e as configurações para representações adaptativas no AEM Screens.
 index: false
-source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
+source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -49,24 +49,7 @@ Para ativar o recurso Representações adaptativas, as regras de mapeamento deve
 
       ![imagem](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
-## Estratégia de migração {#migration-strategy}
 
->[!IMPORTANT]
->Para redes grandes, é recomendável que a migração seja feita gradualmente para reduzir os riscos, pois o recurso introduzirá alterações no formato de armazenamento de arquivos e manifesto.
-
-O diagrama a seguir descreve a estratégia de migração para redes grandes:
-
-![imagem](/help/user-guide/assets/adaptive-renditions/migration-strategy1.png)
-
-Para ativar o recurso, adicione pelo menos uma regra de mapeamento e verifique se a configuração de mapeamento de representação é resolvível no contexto de exibições e canais. Siga as etapas abaixo para migrar:
-
-1. Adicione [Regras de mapeamento de representação](#adding-rendition-mapping-rules).
-1. Crie uma pasta para novos canais e adicione uma referência apontando para a configuração do mapeamento de representação.
-1. Crie novos canais substituindo os antigos e faça upload de representações.
-1. Atribuir novamente exibições aos novos canais.
-1. Adicione uma referência às exibições ou locais migrados apontando para a configuração do mapeamento de representação.
-1. Repita as etapas 3, 4 e 5 para todos os canais e exibições restantes.
-1. Após concluir a migração, remova todas as referências de configuração de canais, exibições e locais e adicione uma única ao nó de conteúdo do projeto.
 
 ## Configuração de autor e publicação {#setup-author-publish}
 
@@ -90,17 +73,6 @@ Considere as seguintes recomendações em Autor e Publicação antes de usar as 
    ![imagem](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
 
 
-## Upload de representações {#upload-renditions}
-
-1. Crie uma versão do ativo que melhor se adapte à exibição de sinalização, por exemplo, `portrait orientation`.
-
-1. Escolha o padrão de nomenclatura de representação, por exemplo,`portrait`.
-
-1. Renomeie o arquivo de ativo para que ele contenha o padrão, por exemplo, `my_asset_portrait.png`.
-
-1. Clique em **Adicionar representação** para carregar a representação, como mostrado na figura abaixo.
-
-   ![imagem](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
 
 ## Próximas etapas {#next-steps}
 
