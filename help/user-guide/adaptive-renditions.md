@@ -2,7 +2,7 @@
 title: Representações adaptáveis no AEM Screens
 description: Esta página descreve a Visão geral da arquitetura e as configurações para representações adaptativas no AEM Screens.
 index: false
-source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
+source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -30,7 +30,7 @@ As Representações adaptativas são baseadas na ideia de ter várias representa
 
 ## Configuração para usar representações adaptativas {#setup-adaptive-renditions}
 
-Para ativar o recurso Representações adaptativas, as regras de mapeamento devem estar presentes e a configuração da CA pode ser resolvida para canais e é exibida:
+Para ativar o recurso Representações adaptativas, as regras de mapeamento devem estar presentes e a Configuração sensível ao contexto pode ser resolvida para canais e é exibida:
 
 1. Verifique se a configuração de mapeamento de representação existe em `JCR`. Todos os pacotes de recursos mais recentes têm essa estrutura de nós pré-preenchida.
 
