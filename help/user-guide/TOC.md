@@ -6,9 +6,9 @@ user-guide-title: Ajuda do Adobe Experience Manager Screens
 breadcrumb-title: Guia do AEM Screens
 user-guide-description: Saiba como usar uma Solução de sinalização digital que permite a publicação de experiências e interações digitais dinâmicas e interativas.
 feature-set: Experience Manager Screens
-source-git-commit: 21bb9194d470bc4842a00e20ab3e3d7f517effed
+source-git-commit: a2a214964a2b2785bf9b57d7af4148e62d58245f
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '449'
 ht-degree: 19%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 19%
    + [Transição de ContentSync para SmartSync](smartsync.md)
    + [Novo importador de projetos do arquivo](project-importer.md)
    + [Replicação de dados de acionadores para servidores de publicação](replicating-data-triggers.md)
+   + [Suporte a miniaturas para vídeos](thumbnail-support.md)
    + Considerações específicas do cliente {#installing-client}
       + [Player do Chrome OS](implementing-chrome-os-player.md)
       + [Uso do Chrome Player como extensão para solução de problemas](using-chrome-player-as-an-extension.md)
