@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
+source-git-commit: 0ffdf33afd6a97246e886fadb692d1b9a2ef55ab
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '832'
 ht-degree: 2%
 
 ---
@@ -65,8 +65,6 @@ Além disso, se você estiver usando componentes personalizados como parte de ma
 * Correção de erros de armazenamento em cache de arquivos ao substituir ativos por representações.
 
 * Os players agora só expõem representações de ativos, se o mapeamento de representação estiver presente.
-
-* Agora você pode configurar alertas de atraso com base em logs de partes.
 
 * O ping foi aprimorado para autenticar novamente se a resposta não for um JSON válido.
 

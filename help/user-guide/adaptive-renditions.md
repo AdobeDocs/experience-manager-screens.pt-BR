@@ -2,9 +2,9 @@
 title: Representações adaptáveis no AEM Screens
 description: Esta página descreve a Visão geral da arquitetura e as configurações para representações adaptativas no AEM Screens.
 index: false
-source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
+source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '671'
 ht-degree: 1%
 
 ---
@@ -64,16 +64,39 @@ Considere as seguintes recomendações em Autor e Publicação antes de usar as 
 
 ## Adicionar regras de mapeamento de representação {#add-rendition-mapping-rules}
 
-1. Para adicionar uma regra de mapeamento, você precisa criar um nó do tipo `nt:unstructured` no nó **rendition-mapping**.
+Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
 
-1. Adicione a propriedade expression com o valor que contém a expressão query.
+1. Navegue até esse caminho `/conf/screens/sling:configs/rendition-mapping` de **CRXDE Lite**.
+
+1. Crie um nó em **rendition-mapping**. Clique com o botão direito do mouse em **rendition-mapping** e clique em **Create** —> **Create Node**, conforme mostrado na figura abaixo.
+
+   ![imagem](/help/user-guide/assets/adaptive-renditions/add-node1.png)
+
+1. Insira o **Nome** para sua regra de mapeamento, como **rule1** e o nó **Type** como **nt:unstructured** na caixa de diálogo **Criar nó**. Clique em **OK**.
+
+   ![imagem](/help/user-guide/assets/adaptive-renditions/add-node2.png)
+
+
+1. É necessário adicionar a propriedade expression com o valor que contém a expressão query.
 
    >[!NOTE]
    >Consulte [Usando a sintaxe de consulta de mídia](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) para saber mais.
 
+   Clique em **rule1** que você criou e insira **expression** em **Name** e **(orientation:landscape)** em **Value**, conforme mostrado abaixo. Clique em **Adicionar**.
+
+   ![imagem](/help/user-guide/assets/adaptive-renditions/add-node3.png)
+
+
+
 1. Adicione a propriedade pattern com o valor contendo o padrão de nomenclatura de representação que será selecionado, se a expressão for avaliada como true.
 
-   ![imagem](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
+   Para adicionar a propriedade de padrão, clique em **rule1** que você criou e insira **pattern** em **Name** e **landscape** em **Value**, conforme mostrado abaixo. Clique em **Adicionar**.
+
+   ![imagem](/help/user-guide/assets/adaptive-renditions/add-node4.png)
+
+1. Clique em **Salvar tudo** e você verá as propriedades no nó criado em **rendition-mapping**.
+
+   ![imagem](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
 
 ## Próximas etapas {#next-steps}
