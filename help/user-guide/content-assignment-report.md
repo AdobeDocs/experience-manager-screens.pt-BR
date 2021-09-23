@@ -1,22 +1,22 @@
 ---
 title: Relatório de atribuição de conteúdo
 description: Esta página descreve o download e o uso do Relatório de atribuição de conteúdo.
-feature: Telas de criação
+feature: Authoring Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
+source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 7%
+source-wordcount: '372'
+ht-degree: 6%
 
 ---
-
 
 # Relatório de atribuição de conteúdo {#content-assignment-report}
 
 O recurso Relatório de atribuição de conteúdo permite que um administrador ou autor do AEM Screens exporte um *Relatório de atribuição de conteúdo* em um formato de planilha.
 
-## Usando o relatório de atribuição de conteúdo {#using-content-assignment-report}
+## Uso do relatório de atribuição de conteúdo {#using-content-assignment-report}
 
 O Relatório de atribuição de conteúdo permite que um autor do AEM Screens ou um administrador baixe o relatório que contém todos os ativos, como imagens, vídeos em todos os canais criados em um projeto do AEM Screens. Além disso, inclui as informações de todos os canais atribuídos a todas as exibições designadas e, a partir de então, todos os dispositivos atribuídos às suas exibições designadas.
 
@@ -51,10 +51,13 @@ Siga as instruções abaixo para baixar o Relatório de atribuição de conteúd
 
    ![imagem](/help/user-guide/assets/content-assignment-report/can-download.png)
 
+1. A planilha baixada consiste em duas guias, como **Locations** e **Content**. A guia Local exibe quatro colunas, como **Localizações**, **Exibe**, **Canais** e **Dispositivos**, que podem ser usadas para investigar ainda mais essas quatro entidades pertencentes ao seu projeto do AEM Screens.
+
+   ![imagem](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
+
    >[!NOTE]
-   >A planilha baixada consiste em quatro colunas, como **Canais**, **Ativos**, **Exibições** e **Dispositivos**, que podem ser usadas para investigar ainda mais essas quatro entidades pertencentes ao seu projeto do AEM Screens.
+   >Os dados exibidos na planilha são classificados alfabeticamente em um formato de fácil leitura.
 
-1. Uma planilha do excel é baixada no computador local com o nome idêntico prefixo do nome do projeto do AEM Screens. Por exemplo, se o nome do projeto for **DemoScreens**, o nome de arquivo baixado será **demoscreens-content-assigned-report.xlxs**.
+1. Você pode clicar em qualquer um dos canais da coluna **Channels** para abrir a guia **Content** que o navegará diretamente para esse canal e também fornecerá informações sobre ativos (imagens e vídeos) associados a esse canal específico, conforme mostrado na figura abaixo.
 
-   ![imagem](/help/user-guide/assets/content-assignment-report/car-download1.png)
-
+   ![imagem](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

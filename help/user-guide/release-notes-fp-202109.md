@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 375024848ed736104add828251ea494406a4f7ba
+source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 2%
@@ -32,24 +32,25 @@ A data de lançamento do AEM Screens Feature Pack 202109 é 23 de setembro de 20
 * **Suporte a miniaturas para vídeos**
 
    O suporte a miniaturas de vídeos no agora é compatível com o AEM Screens. Um autor de conteúdo pode definir uma miniatura de vídeos para que a imagem possa ser usada como um espaço reservado e testar corretamente a reprodução e o direcionamento do conteúdo, enquanto o vídeo real está sendo finalizado pela equipe apropriada. A imagem também pode ser usada caso a reprodução do vídeo falhe.
-Consulte Suporte de miniaturas para vídeos para obter mais detalhes.
+Consulte [Suporte de miniaturas para vídeos](/help/user-guide/thumbnail-support.md) para obter mais detalhes.
 
 * **Monitoramento básico da reprodução**
 
    O AEM Screens agora é compatível com o monitoramento básico de reprodução. O reprodutor reportará várias métricas de reprodução a cada ping (o padrão é 30 segundos). Com base nas métricas, ele fornece a capacidade de detectar vários casos de borda (experiência travada, tela em branco, problema de agendamento, etc.). Esse recurso permite que a equipe monitore remotamente se um player estiver reproduzindo conteúdo corretamente, melhora a reatividade em telas em branco ou falha de experiências no campo e diminui o risco de mostrar uma experiência quebrada para o usuário final.
-Consulte Monitoramento básico da reprodução para obter mais detalhes.
+Consulte [Monitoramento básico da reprodução](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) para obter mais detalhes.
 
 * **Atualizações do Relatório de atribuição de conteúdo**
 
    O Relatório de atribuição de conteúdo agora é otimizado e aprimorado com a experiência aprimorada do usuário. O relatório baixável exibe entidades aprimoradas relacionadas ao player, como locais, exibições e dispositivos, em uma guia da planilha e as informações do provedor de conteúdo, como canais e ativos em outra guia.
+Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assignment-report.md) para obter mais detalhes.
 
 * **Representações adaptativas**
 
    As Representações adaptativas permitem que os dispositivos selecionem automaticamente a melhor representação para um dispositivo com base nas regras definidas pelo cliente.
 
-   Como desenvolvedor do AEM Screens, agora você pode configurar representações de ativos específicas do dispositivo para serem baixadas e reproduzidas automaticamente sem precisar criar todas as variações de conteúdo manualmente. Consulte Representações adaptativas: Visão geral da arquitetura e configurações para saber mais.
+   Como desenvolvedor do AEM Screens, agora você pode configurar representações de ativos específicas do dispositivo para serem baixadas e reproduzidas automaticamente sem precisar criar todas as variações de conteúdo manualmente.
 
-   Além disso, como um Autor de conteúdo do AEM Screens, agora você pode usar Representações adaptativas em seu projeto do AEM Screens e também aplicar a estratégia de migração para redes grandes. Consulte Uso de representações adaptativas para obter mais detalhes.
+   Além disso, como um Autor de conteúdo do AEM Screens, agora você pode usar Representações adaptativas em seu projeto do AEM Screens e também aplicar a estratégia de migração para redes grandes.
 
 * **Suporte para manifesto V3**
 
