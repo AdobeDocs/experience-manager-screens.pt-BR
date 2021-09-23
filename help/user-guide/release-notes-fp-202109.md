@@ -1,10 +1,10 @@
 ---
 title: Notas de versão do Feature Pack 202109
-description: Siga esta página para obter informações sobre o AEM Screens Feature Pack 202105 lançado em 23 de setembro de 2021.
+description: Siga esta página para obter informações sobre o AEM Screens Feature Pack 202109 lançado em 23 de setembro de 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
+source-git-commit: 238d53377acdad857d722c2c53f74f3a29868b57
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 2%
