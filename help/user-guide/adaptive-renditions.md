@@ -2,9 +2,9 @@
 title: Representações adaptáveis no AEM Screens
 description: Esta página descreve a Visão geral da arquitetura e as configurações para representações adaptativas no AEM Screens.
 index: false
-source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
+source-git-commit: 3ced907f4611ff7499ca4c013c4b25e1315e3726
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '686'
 ht-degree: 1%
 
 ---
@@ -86,9 +86,10 @@ Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
+1. Adicione a propriedade pattern com o valor que contém o padrão de nomeação de representação.
 
-
-1. Adicione a propriedade pattern com o valor contendo o padrão de nomenclatura de representação que será selecionado, se a expressão for avaliada como true.
+   >[!NOTE]
+   >O valor definido na propriedade pattern será correspondido à nova representação do ativo e será selecionado, se a expressão for avaliada como true.
 
    Para adicionar a propriedade de padrão, clique em **rule1** que você criou e insira **pattern** em **Name** e **landscape** em **Value**, conforme mostrado abaixo. Clique em **Adicionar**.
 
