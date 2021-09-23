@@ -4,10 +4,9 @@ description: Siga esta página para obter informações sobre o AEM Screens Feat
 feature: Feature Pack
 role: Developer
 level: Intermediate
-index: false
-source-git-commit: 0ffdf33afd6a97246e886fadb692d1b9a2ef55ab
+source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '842'
 ht-degree: 2%
 
 ---
@@ -48,7 +47,7 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
 
    As Representações adaptativas permitem que os dispositivos selecionem automaticamente a melhor representação para um dispositivo com base nas regras definidas pelo cliente.
 
-   Como desenvolvedor do AEM Screens, agora você pode configurar representações de ativos específicas do dispositivo para serem baixadas e reproduzidas automaticamente sem precisar criar todas as variações de conteúdo manualmente.
+   Como desenvolvedor do AEM Screens, agora você pode configurar representações de ativos específicas do dispositivo para serem baixadas e reproduzidas automaticamente sem precisar criar todas as variações de conteúdo manualmente. Consulte [Representações adaptativas: Visão geral da arquitetura e configurações](/help/user-guide/adaptive-renditions.md) para obter mais detalhes
 
    Além disso, como um Autor de conteúdo do AEM Screens, agora você pode usar Representações adaptativas em seu projeto do AEM Screens e também aplicar a estratégia de migração para redes grandes.
 

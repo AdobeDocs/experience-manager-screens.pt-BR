@@ -1,13 +1,13 @@
 ---
 title: Tizen Player
 description: Esta página descreve a instalação e o funcionamento do Tizen Player.
-feature: Administração de telas, players
+feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
+source-git-commit: 0f99b96e90f0aac6bf923343ecefa1708d5cfd17
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1222'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Siga as etapas abaixo para implementar o Tizen Player no AEM Screens:
 
 1. Instale o arquivo Tizen player *(.zip)* do computador local.
 
-## Configuração do servidor local e extração de arquivos Zip {#setting-local-server}
+## Configuração do servidor http {#setting-local-server}
 
 >[!NOTE]
 > Extraia o arquivo zip e disponibilize o reprodutor Tizen por meio de um `http server`. (O `http server` não precisa ser um servidor Local ou Apache).

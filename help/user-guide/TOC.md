@@ -6,9 +6,9 @@ user-guide-title: Ajuda do Adobe Experience Manager Screens
 breadcrumb-title: Guia do AEM Screens
 user-guide-description: Saiba como usar uma Solução de sinalização digital que permite a publicação de experiências e interações digitais dinâmicas e interativas.
 feature-set: Experience Manager Screens
-source-git-commit: a2a214964a2b2785bf9b57d7af4148e62d58245f
+source-git-commit: f710bb2004cac8e10bf6cd0e0ccde4f9d10120a6
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '460'
 ht-degree: 19%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 19%
    + [Transição de ContentSync para SmartSync](smartsync.md)
    + [Novo importador de projetos do arquivo](project-importer.md)
    + [Replicação de dados de acionadores para servidores de publicação](replicating-data-triggers.md)
-   + [Suporte a miniaturas para vídeos](thumbnail-support.md)
    + Considerações específicas do cliente {#installing-client}
       + [Player do Chrome OS](implementing-chrome-os-player.md)
       + [Uso do Chrome Player como extensão para solução de problemas](using-chrome-player-as-an-extension.md)
@@ -82,6 +81,7 @@ ht-degree: 19%
       + [Criação com acionadores de dados](authoring-data-triggers.md)
       + [Reconhecimento de voz](voice-recognition.md)
       + [Relatório de atribuição de conteúdo](content-assignment-report.md)
+      + [Suporte a miniaturas para vídeos](thumbnail-support.md)
    + Gerenciamento de atualizações de conteúdo {#content-updates}
       + [Atualização de conteúdo sob demanda](on-demand-content.md)
       + [Atualização de conteúdo como serviço](content-update-as-a-service.md)
@@ -105,11 +105,13 @@ ht-degree: 19%
    + [Configuração do ContextHub no AEM Screens](configuring-context-hub.md)
    + [Criação de modelos personalizados para layouts de várias zonas](creating-custom-templates-multizone-layouts.md)
    + [Aplicação de marca personalizada e estilo para sobreposições de texto](custom-branding-text-overlays.md)
+   + [Representações adaptativas: Visão geral e configurações da arquitetura](/help/user-guide/adaptive-renditions.md)
 + Solução de problemas e perguntas frequentes {#troubleshooting}
    + [Perguntas frequentes do AEM Screens](aem-screens-faqs.md)
    + [Solução de problemas do Device Control Center](monitoring-screens.md)
    + [Configuração da reprodução de vídeo](troubleshoot-videos.md)
 + Notas de versão {#release-notes}
+   + [Notas de versão do Feature Pack 202109](release-notes-fp-202109.md)
    + [Notas de versão do Feature Pack 202105](release-notes-fp-202105.md)
    + [Notas de versão do Feature Pack 202103](release-notes-fp-202103.md)
    + [Notas de versão do Feature Pack 202011](release-notes-fp-202011.md)

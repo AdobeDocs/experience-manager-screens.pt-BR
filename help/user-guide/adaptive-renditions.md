@@ -1,11 +1,10 @@
 ---
-title: Representações adaptáveis no AEM Screens
-description: Esta página descreve a Visão geral da arquitetura e as configurações para representações adaptativas no AEM Screens.
-index: false
-source-git-commit: 884bee85c6f081cbd0969a8b51125f18e2d85413
+title: Visão geral e configurações da arquitetura de representações adaptativas
+description: Esta página descreve a Visão geral da arquitetura e as configurações no CRXDE Lite para representações adaptativas no AEM Screens.
+source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 1%
+source-wordcount: '648'
+ht-degree: 2%
 
 ---
 
@@ -54,14 +53,6 @@ Siga as etapas abaixo para configurar a configuração:
    ![imagem](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
 
-## Configuração de autor e publicação {#setup-author-publish}
-
-Considere as seguintes recomendações em Autor e Publicação antes de usar as Representações adaptativas:
-
-* O mapeamento de representação tem de ser replicado manualmente.
-
-* As representações de ativos não são replicadas por padrão. Todos os ativos relevantes precisam ser replicados manualmente.
-
 ## Adicionar regras de mapeamento de representação {#add-rendition-mapping-rules}
 
 Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
@@ -102,4 +93,4 @@ Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
 
 ## Próximas etapas {#next-steps}
 
-Depois de ter adicionado as propriedades e regras de mapeamento de representação, agora como um Autor de conteúdo, você pode configurar seus ativos para usar as Representações adaptativas e também migrar seus dispositivos para redes grandes para aproveitar esse recurso, nos canais do AEM Screens. Consulte [Usando representações adaptativas](/help/user-guide/using-adaptive-renditions.md) para obter mais detalhes.
+Depois de ter adicionado as propriedades e regras de mapeamento de representação, agora como um Autor de conteúdo, você pode configurar seus ativos para usar as Representações adaptativas e também migrar seus dispositivos para redes grandes para aproveitar esse recurso, nos canais do AEM Screens.

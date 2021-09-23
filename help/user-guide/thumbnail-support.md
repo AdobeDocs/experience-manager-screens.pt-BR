@@ -1,11 +1,11 @@
 ---
 title: Suporte a miniaturas para vídeos no AEM Screens
 description: Esta página descreve como adicionar suporte a miniaturas para vídeos no Screens.
-index: false
-source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
+exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
+source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '425'
+ht-degree: 1%
 
 ---
 
@@ -34,13 +34,23 @@ Siga as etapas abaixo para usar a miniatura em vídeos:
 
 1. Selecione o canal e clique em **Editar** na barra de ações para abrir o editor.
 
+   ![imagem](/help/user-guide/assets/thumbnails/thumbnail-1.png)
+
 1. Adicione ou edite um componente de vídeo existente, conforme mostrado na figura abaixo.
+
+   ![imagem](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
 1. Selecione o vídeo e clique no ícone *chave* para abrir as propriedades do vídeo.
 
+   ![imagem](/help/user-guide/assets/thumbnails/thumbnail-3.png)
+
 1. A caixa de diálogo **Vídeo** é aberta, onde você visualizará a área de soltar **Miniatura**.
 
+   ![imagem](/help/user-guide/assets/thumbnails/thumbnail-4.png)
+
 1. Arraste e solte uma imagem do seletor de ativos para a área de soltar **Miniatura** e clique em **Concluído**.
+
+   ![imagem](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
 1. Clique em **Visualizar**.
 
