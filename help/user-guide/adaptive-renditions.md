@@ -2,9 +2,9 @@
 title: Representações adaptáveis no AEM Screens
 description: Esta página descreve a Visão geral da arquitetura e as configurações para representações adaptativas no AEM Screens.
 index: false
-source-git-commit: 3ced907f4611ff7499ca4c013c4b25e1315e3726
+source-git-commit: 884bee85c6f081cbd0969a8b51125f18e2d85413
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '691'
 ht-degree: 1%
 
 ---
@@ -102,4 +102,4 @@ Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
 
 ## Próximas etapas {#next-steps}
 
-Depois de configurar e fazer upload das representações, como um Autor de conteúdo, agora você pode usar as Representações adaptativas e também migrar seus dispositivos para redes grandes para aproveitar esse recurso, nos canais do AEM Screens. Consulte [Usando representações adaptativas](/help/user-guide/using-adaptive-renditions.md) para obter mais detalhes.
+Depois de ter adicionado as propriedades e regras de mapeamento de representação, agora como um Autor de conteúdo, você pode configurar seus ativos para usar as Representações adaptativas e também migrar seus dispositivos para redes grandes para aproveitar esse recurso, nos canais do AEM Screens. Consulte [Usando representações adaptativas](/help/user-guide/using-adaptive-renditions.md) para obter mais detalhes.
