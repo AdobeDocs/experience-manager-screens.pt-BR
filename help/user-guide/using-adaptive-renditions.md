@@ -1,9 +1,9 @@
 ---
 title: Uso de representações adaptativas no AEM Screens
 description: Esta página descreve como usar Representações adaptativas no AEM Screens.
-source-git-commit: 68e7a47d7a9b10d1d3fecb7a7f7d96bbbde1c48a
+source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,11 @@ Siga as etapas abaixo para aplicar representações aos ativos, que você deseja
 
 1. Escolha o padrão de nomenclatura de representação, por exemplo,`landscape`, semelhante ao que foi definido na propriedade **pattern** em **CRXDE Lite**. Consulte [Adicionar regras de mapeamento de representação](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) para obter mais detalhes.
 
-1. Renomeie o arquivo de ativo para que ele contenha o padrão (definido na etapa 3), por exemplo, `seahorse-landscape.png`.
-
 1. Clique em **Adicionar representação** para carregar a representação, como mostrado na figura abaixo.
 
-   ![imagem](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+   ![imagem](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
+
+1. Selecione o arquivo de ativo renomeado. A representação que você está adicionando deve conter o padrão (definido na etapa 3), por exemplo, `seahorse-landscape.png`.
 
 1. Após adicionar o ativo, selecione-o e clique em **Gerenciar publicação** na barra de ações para publicar o ativo.
 

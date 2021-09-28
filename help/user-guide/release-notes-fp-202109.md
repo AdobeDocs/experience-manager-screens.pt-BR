@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 609cb66ea1cc34262bb57c020eb07fd18bd31f0d
+source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 2%
+source-wordcount: '859'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +50,7 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
 
    Como desenvolvedor do AEM Screens, agora você pode configurar representações de ativos específicas do dispositivo para serem baixadas e reproduzidas automaticamente sem precisar criar todas as variações de conteúdo manualmente. Consulte [Representações adaptativas: Visão geral da arquitetura e configurações](/help/user-guide/adaptive-renditions.md) para obter mais detalhes.
 
-   Além disso, como um Autor de conteúdo do AEM Screens, agora você pode usar Representações adaptativas em seu projeto do AEM Screens e também aplicar a estratégia de migração para redes grandes.
+   Além disso, como um Autor de conteúdo do AEM Screens, você pode configurar seus ativos para usar as Representações adaptativas e também migrar seus dispositivos para redes grandes para aproveitar esse recurso, nos canais do AEM Screens. Consulte [Uso de representações adaptativas no AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obter mais detalhes.
 
 * **Suporte para manifesto V3**
 
