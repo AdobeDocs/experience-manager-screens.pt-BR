@@ -1,9 +1,9 @@
 ---
 title: Uso de representações adaptativas no AEM Screens
 description: Esta página descreve como usar Representações adaptativas no AEM Screens.
-source-git-commit: 99102513b100f1f3b086eff9dcd21e5afb4f493c
+source-git-commit: 68e7a47d7a9b10d1d3fecb7a7f7d96bbbde1c48a
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,18 @@ Siga as etapas abaixo para aplicar representações aos ativos, que você deseja
 
 1. Escolha o padrão de nomenclatura de representação, por exemplo,`landscape`, semelhante ao que foi definido na propriedade **pattern** em **CRXDE Lite**. Consulte [Adicionar regras de mapeamento de representação](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) para obter mais detalhes.
 
-1. Renomeie o arquivo de ativo para que ele contenha o padrão (definido na etapa 3), por exemplo, `seahorse_landscape.png`.
+1. Renomeie o arquivo de ativo para que ele contenha o padrão (definido na etapa 3), por exemplo, `seahorse-landscape.png`.
 
 1. Clique em **Adicionar representação** para carregar a representação, como mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+
+1. Após adicionar o ativo, selecione-o e clique em **Gerenciar publicação** na barra de ações para publicar o ativo.
+
+   ![imagem](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
+
+   >[!NOTE]
+   >Consulte [Atualização de conteúdo sob demanda](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en) para saber mais sobre como gerenciar a publicação e fornecer atualizações de conteúdo de Autor para publicação no dispositivo.
 
 
 ## Estratégia de migração {#migration-strategy}
