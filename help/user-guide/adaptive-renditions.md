@@ -1,13 +1,13 @@
 ---
 title: Visão geral e configurações da arquitetura de representações adaptativas
 description: Esta página descreve a Visão geral da arquitetura e as configurações no CRXDE Lite para representações adaptativas no AEM Screens.
-source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
+exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
+source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '658'
 ht-degree: 2%
 
 ---
-
 
 # Representações adaptativas: Visão geral e configurações da arquitetura {#adaptive-renditions}
 
@@ -93,4 +93,4 @@ Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
 
 ## Próximas etapas {#next-steps}
 
-Depois de ter adicionado as propriedades e regras de mapeamento de representação, agora como um Autor de conteúdo, você pode configurar seus ativos para usar as Representações adaptativas e também migrar seus dispositivos para redes grandes para aproveitar esse recurso, nos canais do AEM Screens.
+Depois de ter adicionado as propriedades e regras de mapeamento de representação, agora como um Autor de conteúdo, você pode configurar seus ativos para usar as Representações adaptativas e também migrar seus dispositivos para redes grandes para aproveitar esse recurso, nos canais do AEM Screens. Consulte [Uso de representações adaptativas no AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obter mais detalhes.
