@@ -1,8 +1,8 @@
 ---
 title: Atualização de conteúdo usando o Screens Launch
-seo-title: Atualização de conteúdo usando o Screens Launch
+seo-title: Content Update using Screens Launch
 description: Os autores de conteúdo podem criar versões futuras do(s) canal(s), conhecido como Launch , e outras configurações de data de ativação para esse lançamento permitirão que o conteúdo seja ativado em dispositivos ou players.
-seo-description: Os autores de conteúdo podem criar versões futuras do(s) canal(s), conhecido como Launch , e outras configurações de data de ativação para esse lançamento permitirão que o conteúdo seja ativado em dispositivos ou players.
+seo-description: Content authors can create future version of the channel(s), known as Launch and further setting live date for this launch allows content to be live in devices or players.
 uuid: fb13117c-b99b-48bd-adb6-040dbd13af16
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,20 +10,20 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
-feature: Telas de criação, inicializações
+feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 2cc613454d0d20a42871858e3d754e1b0e161dc3
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1580'
 ht-degree: 0%
 
 ---
 
 # Atualização de conteúdo usando o Screens Launch {#launches}
 
-Os autores de conteúdo podem criar versões futuras do(s) canal(s), conhecido como **Screens Launch**, e definir ainda mais a data de ativação para esta inicialização. Isso permite que o conteúdo fique ativo em dispositivos ou reprodutores na data de ativação especificada.
+Os autores de conteúdo podem criar versões futuras do(s) canal(s), conhecido como **Screens Launch**, e definir ainda mais a data de ativação para esta inicialização. Isso permite que o conteúdo seja exibido em dispositivos ou reprodutores na data de ativação especificada.
 
 Com a ajuda do ***Screens Launch***, os autores podem visualizar cada canal na inicialização e devem ser capazes de iniciar uma solicitação para revisão. O grupo de aprovadores receberá uma notificação e poderá aprovar ou rejeitar a solicitação. Quando a data de ativação é atingida, o conteúdo é reproduzido nos dispositivos.
 
