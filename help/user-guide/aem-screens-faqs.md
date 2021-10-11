@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+source-git-commit: 467526b82c07fd3594c704c1720477c72ecb9d38
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1978'
 ht-degree: 1%
 
 ---
@@ -65,6 +65,17 @@ Para *referências dinâmicas*, a resolução ocorre quando o canal é atribuíd
 1. O local principal da exibição tem um nó filho que corresponde ao nome do canal referenciado
 
 E assim por diante, até atingir a pasta de localizações e parar lá no momento (de modo que não seja possível fazer referência a um canal que estaria na pasta de canais, por exemplo, apenas canais na subárvore de localizações).
+
+### 5. Como configurar a configuração offline personalizada clientlib no Canal AEM Screens?
+
+Ao usar um código personalizado do lado do cliente `clientlib` em um canal AEM Screens, as etapas a seguir são necessárias para garantir que os arquivos `clientlib` sejam carregados com êxito no canal (`manifest.json`) e conterão o caminho do `clientlib`.
+
+Siga as etapas abaixo no editor de canais:
+
+1. Selecione um canal e clique em **Editar** na barra de ações para abrir o editor de canais.
+1. Selecione o componente ao qual deseja adicionar o `clientlib` personalizado.
+1. Clique no botão configurar (o ícone de chave inglesa).
+1. Navegue até a guia **Config offline** e adicione o caminho à sua clientlib personalizada em **Bibliotecas do lado do cliente**.
 
 ## Registro do dispositivo {#device-registration}
 
