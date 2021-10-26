@@ -7,7 +7,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 6f491825c8cbc7159de1a41dd6f902b086325606
+source-git-commit: 77ec3e6de6760bc5e31675399ed91bac4150ae69
 workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 1%
@@ -221,7 +221,7 @@ Se houver algum *ADVERTÊNCIAS DE travessia de query* no `error.log`, crie um í
 Também é possível consultar um recurso adicional em [Documentação do Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
-### 3. O que é necessário para configurar os manifesto v3 {#configure-v3}
+### 3. O que é necessário para configurar Manifestações v3? {#configure-v3}
 
 Para habilitar o Manifesto v3, você deve:
 
