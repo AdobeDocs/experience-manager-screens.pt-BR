@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
+source-git-commit: 6433e586f505df889fef7ddb9ee5f530f5d6d46c
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 A AEM Screens lançou AEM 6.5 Feature Pack 9.
 
-Você pode baixar o pacote de recursos mais recente da versão 6.5.9 do AEM Screens a partir do [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o pacote de recursos mais recente intitulado como **AEM 6.5 Screens FP9**.
+Você pode baixar o pacote de recursos mais recente da versão 6.5.9 do AEM Screens [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegar para **Adobe Experience Manager** e pesquisar por **Telas** para obter o pacote de recursos mais recente intitulado como **AEM 6.5 Screens FP9**.
 
 ## Data de lançamento {#release-date}
 
@@ -32,7 +32,7 @@ A data de lançamento do AEM Screens Feature Pack 202109 é 23 de setembro de 20
 * **Suporte a miniaturas para vídeos**
 
    O suporte a miniaturas de vídeos no agora é compatível com o AEM Screens. Um autor de conteúdo pode definir uma miniatura de vídeos para que a imagem possa ser usada como um espaço reservado e testar corretamente a reprodução e o direcionamento do conteúdo, enquanto o vídeo real está sendo finalizado pela equipe apropriada. A imagem também pode ser usada caso a reprodução do vídeo falhe.
-Consulte [Suporte de miniaturas para vídeos](/help/user-guide/thumbnail-support.md) para obter mais detalhes.
+Consulte [Suporte a miniaturas para vídeos](/help/user-guide/thumbnail-support.md) para obter mais detalhes.
 
 * **Monitoramento básico da reprodução**
 
@@ -48,14 +48,17 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
 
    As Representações adaptativas permitem que os dispositivos selecionem automaticamente a melhor representação para um dispositivo com base nas regras definidas pelo cliente.
 
-   Como desenvolvedor do AEM Screens, agora você pode configurar representações de ativos específicas do dispositivo para serem baixadas e reproduzidas automaticamente sem precisar criar todas as variações de conteúdo manualmente. Consulte [Representações adaptativas: Visão geral da arquitetura e configurações](/help/user-guide/adaptive-renditions.md) para obter mais detalhes.
+   Como desenvolvedor do AEM Screens, agora você pode configurar representações de ativos específicas do dispositivo para serem baixadas e reproduzidas automaticamente sem precisar criar todas as variações de conteúdo manualmente. Consulte [Representações adaptativas: Visão geral e configurações da arquitetura](/help/user-guide/adaptive-renditions.md) para obter mais detalhes.
 
    Além disso, como um Autor de conteúdo do AEM Screens, você pode configurar seus ativos para usar as Representações adaptativas e também migrar seus dispositivos para redes grandes para aproveitar esse recurso, nos canais do AEM Screens. Consulte [Uso de representações adaptativas no AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obter mais detalhes.
 
 * **Suporte para manifesto V3**
 
-   Agora você pode configurar o Dispatcher para a Versão de manifesto v3. Consulte [Configuração do Dispatcher para Versão do Manifesto v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) para obter mais detalhes.
-Além disso, se você estiver usando componentes personalizados como parte de manifestos v3, consulte [Modelo para manipuladores personalizados](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+   Agora você pode configurar o Dispatcher para a Versão de manifesto v3. Para habilitar o Manifesto v3, é necessário configurar: * Atualizar dispatcher * Atualizar componente personalizado * Desativar ContentSync em `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+* Ativar o SmartSync em `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+
+   Consulte [Configurar o Dispatcher para a Versão de Manifesto v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) para obter mais detalhes.
+Além disso, se você estiver usando componentes personalizados como parte de manifestos v3, consulte [Modelo para Manipuladores Personalizados](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
 ### Correções de erros {#bug-fixes}
@@ -74,13 +77,13 @@ Além disso, se você estiver usando componentes personalizados como parte de ma
 
 * O mapeamento foi transformado em lista de chaves de representação.
 
-* Remoção do acesso a `cmd.exe` e `reg.exe` no player do Windows.
+* Remoção do acesso ao `cmd.exe` e `reg.exe` no windows player.
 
 * Um reprodutor precisa relatar seu último evento de reprodução bem-sucedido.
 
 * Um reprodutor precisa relatar seu status de reprodução.
 
-* O reprodutor não faz o download de Ativos novamente quando o cache `ALL` é limpo.
+* O reprodutor não faz o download de ativos ao `ALL` O cache é limpo.
 
 * Como Administrador do player, agora você pode escolher um nome para o player.
 
@@ -119,13 +122,13 @@ Além disso, se você estiver usando componentes personalizados como parte de ma
 
 * A Estratégia de reprodução de sequência incorporada foi interrompida e isso foi corrigido.
 
-* Manifesto offline usando o parâmetro de solicitação `wcmmode` para entrada html, tornando-o inarmazenável em cache.
+* Manifesto offline usando o parâmetro de solicitação `wcmmode` para entrada html, tornando-a imarmazenável em cache.
 
 * Uma sequência incorporada dinâmica vazia às vezes causava tela em branco.
 
 * O reprodutor agora relata seu status de reprodução.
 
-* O vídeo estava sendo reproduzido no `Tiny mode` e não era reproduzido como vídeo de tela cheia no dispositivo, e o problema foi corrigido agora.
+* O vídeo estava sendo reproduzido no `Tiny mode` e não reproduzido como vídeo em tela cheia no dispositivo, e o problema foi corrigido agora.
 
 ### Players AEM Screens lançados {#released-aem-screens-players}
 

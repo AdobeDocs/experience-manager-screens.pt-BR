@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 467526b82c07fd3594c704c1720477c72ecb9d38
+source-git-commit: 6f491825c8cbc7159de1a41dd6f902b086325606
 workflow-type: tm+mt
-source-wordcount: '1978'
+source-wordcount: '2040'
 ht-degree: 1%
 
 ---
@@ -28,10 +28,10 @@ A seção a seguir fornece respostas para algumas das perguntas frequentes mais 
 * Verifique se a visualização do canal está funcionando.
 * Verifique se a visualização de exibição está funcionando
 * Tente registrar o reprodutor como uma extensão de navegador em seu sistema para a mesma exibição e verificar se isso está funcionando.
-* Com o player em execução no sistema, navegue até `http://localhost:24502`. Verifique se todo o conteúdo foi baixado corretamente.
+* Com o reprodutor em execução no sistema, navegue até `http://localhost:24502`. Verifique se todo o conteúdo foi baixado corretamente.
 * Verifique se as representações apropriadas foram criadas e se a representação correta está sendo reproduzida.
 * Verifique se há conteúdo programado e se os horários estão corretos. Verifique se o tempo configurado no reprodutor está correto.
-* Inspect os registros do console do player e verifique se há erros. Clique com o botão direito do mouse e inspecione para ver os logs do console. Se estiver usando o windows player, pressione `CTRL + ALT +I` para ativar o console dev para visualizar os logs.
+* Inspect os registros do console do player e verifique se há erros. Clique com o botão direito do mouse e inspecione para ver os logs do console. Se estiver usando o windows player, pressione `CTRL + ALT +I` para exibir o console dev para exibir os logs.
 
 ### 2. Como resolver o problema de tela cinza no AEM Screens criando um canal ou cronograma padrão?
 
@@ -47,7 +47,7 @@ Um ***Canal online*** mostrará o conteúdo atualizado no ambiente em tempo real
 
 ### 2. Como faço para criar um canal online? {#how-do-i-make-a-channel-online}
 
-Selecione o canal e navegue até as propriedades do canal na barra de ações. Marque o **Modo do desenvolvedor (forçar o canal a ficar online)** na guia **Canal** para tornar o canal online.
+Selecione o canal e navegue até as propriedades do canal na barra de ações. Verificar **Modo Desenvolvedor (forçar o canal a ficar online)** under **Canal** para tornar o canal online.
 
 ### 3. Qual é o uso do campo Função do canal? {#what-is-the-use-of-the-channel-role-field}
 
@@ -68,14 +68,14 @@ E assim por diante, até atingir a pasta de localizações e parar lá no moment
 
 ### 5. Como configurar a configuração offline personalizada clientlib no Canal AEM Screens?
 
-Ao usar um código personalizado do lado do cliente `clientlib` em um canal AEM Screens, as etapas a seguir são necessárias para garantir que os arquivos `clientlib` sejam carregados com êxito no canal (`manifest.json`) e conterão o caminho do `clientlib`.
+Ao usar um código personalizado do lado do cliente incorporado `clientlib` em um canal AEM Screens, as etapas a seguir são necessárias para garantir que a variável `clientlib` os arquivos são carregados com êxito no canal (`manifest.json`) e conterão o caminho da variável `clientlib`.
 
 Siga as etapas abaixo no editor de canais:
 
 1. Selecione um canal e clique em **Editar** na barra de ações para abrir o editor de canais.
-1. Selecione o componente ao qual deseja adicionar o `clientlib` personalizado.
+1. Selecione o componente ao qual deseja adicionar o `clientlib`.
 1. Clique no botão configurar (o ícone de chave inglesa).
-1. Navegue até a guia **Config offline** e adicione o caminho à sua clientlib personalizada em **Bibliotecas do lado do cliente**.
+1. Navegue até o **Configuração offline** e adicione o caminho à sua clientlib personalizada em **Bibliotecas do lado do cliente**.
 
 ## Registro do dispositivo {#device-registration}
 
@@ -109,8 +109,8 @@ Verifique as seguintes possibilidades para solucionar o problema de tela em bran
 
 Você precisa ativar o Filtro de referenciador do Apache Sling Permitir vazio. Isso é necessário para a operação ideal do protocolo de controle entre o AEM Screens Player e o servidor AEM Screens.
 
-1. Navegue até **Configuração do Console Web do Adobe Experience Manager**
-1. Marque a opção **allow.empty**.
+1. Navegar para **Configuração do Console da Web do Adobe Experience Manager**
+1. Verifique a **allow.empty** opção.
 1. Clique em **Salvar**.
 
 ### 3. Como solucionar problemas se, durante o registro de um reprodutor do AEM Screens, o dispositivo mostrar FAILURE e os registros do console exibirem o erro ENAME_NOT_FOUND? {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
@@ -127,7 +127,7 @@ Para obter mais informações sobre como implementar o Android Player, consulte 
 
 Dependendo do que você deseja para fora do monitoramento e dos alertas, um novo recurso do serviço de Notificações da AEM Screens notifica você se um dispositivo não tiver pingado por algum tempo. As ferramentas de terceiros dependerão do seu sistema operacional (SO), de seus recursos e das necessidades específicas do cliente.
 
-Para obter mais informações sobre onde você pode monitorar a atividade do dispositivo, consulte [**AEM Screens Notifications Service**](screens-notifications-service.md).
+Para obter mais informações sobre onde você pode monitorar a atividade do dispositivo, consulte [**Serviço de notificações da AEM Screens**](screens-notifications-service.md).
 
 ## Player do AEM Screens {#aem-screens-player}
 
@@ -135,27 +135,27 @@ Para obter mais informações sobre onde você pode monitorar a atividade do dis
 
 O player do ChromeOS pode ser instalado como plug-in do navegador Chrome no modo de desenvolvedor sem precisar do dispositivo do player do Chrome. Para instalação, siga as etapas abaixo:
 
-1. Clique [aqui](https://download.macromedia.com/screens/) para baixar o Player mais recente do Chrome.
+1. Clique em [here](https://download.macromedia.com/screens/) para baixar o Player do Chrome mais recente.
 1. Descompacte-o e salve-o no disco.
 1. Abra o navegador Chrome e selecione **Extensões** no menu ou navegue diretamente para ***chrome://extensions***.
-1. Ative o **Modo de desenvolvedor** a partir do canto superior direito.
-1. Clique em **Carregar descompactado** do canto superior esquerdo e carregue o Chrome Player descompactado.
-1. Verifique o plug-in **AEM Screens Chrome Player** se estiver disponível na lista de extensões.
-1. Abra uma nova guia e clique no ícone **Apps** no canto superior esquerdo ou navegue diretamente para ***chrome://apps***.
-1. Clique no plug-in **AEM Screens** para iniciar o Chrome Player. Por padrão, o reprodutor é iniciado no modo de tela cheia. Pressione **esc** para sair do modo de tela cheia.
+1. Ative o **Modo de desenvolvedor** do canto superior direito.
+1. Clique em **Carregar desempacotado** no canto superior esquerdo e carregar o Chrome Player descompactado.
+1. Verificar **Player do AEM Screens Chrome** plug-in se estiver disponível na lista de extensões.
+1. Abra uma nova guia e clique no botão **Aplicativos** ícone no canto superior esquerdo ou navegue diretamente para ***chrome://apps***.
+1. Clique em **AEM Screens** Plug-in para iniciar o Chrome Player. Por padrão, o reprodutor é iniciado no modo de tela cheia. Press **esc** para sair do modo de tela cheia.
 
 ### 2. Como solucionar problemas se o reprodutor do Screens não conseguir se autenticar por meio da instância de publicação com o manipulador de erros personalizado? {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
 
-Quando o reprodutor do AEM Screens é iniciado, ele faz uma solicitação para ***/content/screens/svc.ping.json***, quando o reprodutor recebe um erro 404. O reprodutor inicia uma solicitação de autenticação para autenticação na instância de publicação. Se houver um manipulador de erro personalizado na instância de publicação, retorne o código de status 404 para usuário anônimo em ***/content/screens/svc.ping.json***.
+Quando o reprodutor do AEM Screens é iniciado, ele faz uma solicitação para ***/content/screens/svc.ping.json***, quando o reprodutor recebe um erro 404. O reprodutor inicia uma solicitação de autenticação para autenticação na instância de publicação. Se houver um manipulador de erros personalizado na instância de publicação, retorne o código de status 404 para usuário anônimo em ***/content/screens/svc.ping.json***.
 
 ### 3. Como definir a tela do dispositivo para permanecer em um Android Player? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
 Siga as etapas abaixo para ativar e ativar a opção Permanecer ativo em qualquer player Android:
 
-1. Navegue até as configurações do player do Android —> **Sobre**
-1. Toque 7 vezes no número de compilação para ativar **Opções do Desenvolvedor** em **Configurações**
-1. Navegue até **Opções do Desenvolvedor**
-1. Ativar **Estar Awake**
+1. Navegue até as configurações do Android Player —> **Sobre**
+1. Toque 7 vezes no número de compilação para ativar **Opções do desenvolvedor** em **Configurações**
+1. Navegar para **Opções do desenvolvedor**
+1. Habilitar **Fique acordado**
 
 ### 4. Como ativar o modo de janela para o Windows Player?{#enable-player}
 
@@ -163,17 +163,17 @@ Não há um modo de janela no Windows Player. É sempre o modo de tela cheia.
 
 ### 5. Como solucionar problemas se um reprodutor do AEM Screens enviar solicitações de logon continuamente?{#requests-login}
 
-Siga as etapas abaixo para solucionar problemas de um reprodutor do AEM Screens que envia continuamente solicitações para `/content/screens/svc.json` e `/libs/granite/core/content/login.validate/j_security_check`:
+Siga as etapas abaixo para solucionar problemas de um reprodutor do AEM Screens que envia solicitações continuamente para o `/content/screens/svc.json` e `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. Quando o reprodutor do AEM Screens é iniciado, ele solicita `/content/screens/svc.json`. Quando o reprodutor recebe um código de status 404 na resposta, ele inicia uma solicitação de autenticação usando `/libs/granite/core/content/login.validate/j_security_check` na instância *publish*. Se houver um manipulador de erro personalizado na instância *publish*, retorne o código de status 404 para usuário anônimo em `/content/screens/svc.json` ou `/content/screens/svc.ping.json`.
+1. Quando o reprodutor do AEM Screens é iniciado, ele solicita para `/content/screens/svc.json`. Quando o reprodutor recebe um código de status 404 na resposta, ele inicia uma solicitação de autenticação usando `/libs/granite/core/content/login.validate/j_security_check` contra *publicar* instância. Se houver um manipulador de erro personalizado na *publicar* , certifique-se de retornar o código de status 404 para usuário anônimo em `/content/screens/svc.json` ou `/content/screens/svc.ping.json`.
 
 1. Verifique se a configuração do dispatcher permite essas solicitações no `/filters`.
 
-   Consulte [Configuração de filtros do Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) para obter mais detalhes.
+   Consulte [Configuração dos filtros do Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) para obter mais detalhes.
 
 1. Verifique se as regras de reescrita do dispatcher estão reescrevendo qualquer um dos caminhos de tela para um caminho diferente.
 
-1. Verifique se você tem regras `/etc/map` na instância *author* ou *publish* e os caminhos de tela são correspondidos a `sling:match` e redirecionados internamente para um caminho diferente. Resolver o url exato em `/system/console/jcrresolver` ajuda a identificar se a instância *publish* está reescrevendo esses URLs para qualquer outro caminho.
+1. Verifique se você `/etc/map` as regras *autor* ou *publicar* os caminhos de instância e tela são correspondidos a `sling:match` e internamente redirecionado para um caminho diferente. Resolver o url exato em `/system/console/jcrresolver` ajuda a identificar se a variável *publicar* A instância do está reescrevendo esses URLs para qualquer outro caminho.
 
 1. Verifique se a configuração da Fábrica do Resolvedor de Recursos do Apache Sling está causando regravações internas.
 
@@ -182,7 +182,7 @@ Siga as etapas abaixo para solucionar problemas de um reprodutor do AEM Screens 
 Você pode obter os detalhes da exibição e do dispositivo por meio de:
 
 * **uma API JS interna**
-* **um armazenamento** do ContextHub: Três armazenamentos do ContextHub são definidos no  `/libs/screens/clientlibs/contexthub` para expor canais, dispositivos e informações de exibição.
+* **um armazenamento do ContextHub**: Três armazenamentos do ContextHub são definidos em `/libs/screens/clientlibs/contexthub` para expor canais, dispositivo e informações de exibição.
 
    Siga as etapas abaixo para usar esses valores de armazenamento do ContentHub:
 
@@ -205,17 +205,32 @@ Para desativar o Livefyre para evitar erros de log:
 
    * Vá até `https://&lt;host&gt;:&lt;port&gt;/system/console/bundles`
    * Procure pelo pacote AEM Livefyre: `com.adobe.cq.social.cq-social-livefyre`
-   * Clique em **Parar**
+   * Clique em **Stop**
 
 1. ***Desative o Livefyre poler:***
 
    * No CRXDE Lite, navegue até `/etc/importers/polling/livefyre-poller/jcr:content`
-   * Adicionar uma nova propriedade *enabled* tipo *Boolean*
-   * Defina **propriedade ativada** para **false**
+   * Adicionar uma nova propriedade *ativado* type *Booleano*
+   * Definir **propriedade ativada** para **false**
 
 ### 2. Como adicionar informações sobre o índice Oak? {#add-oak-index-info}
 
 O AEM Screens cria definições de índice para as consultas usadas pelo produto.
-Se houver *AVISOs de passagem de consulta* no `error.log`, crie um índice personalizado para sua consulta. Consulte [Configuração de Índices](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) para obter mais detalhes.
+Se houver algum *ADVERTÊNCIAS DE travessia de query* no `error.log`, crie um índice personalizado para o seu query. Consulte [Configuração dos índices](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) para obter mais detalhes.
 
 Também é possível consultar um recurso adicional em [Documentação do Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+
+
+### 3. O que é necessário para configurar os manifesto v3 {#configure-v3}
+
+Para habilitar o Manifesto v3, você deve:
+
+* Atualize o Dispatcher.
+Consulte [Configurar o Dispatcher para a Versão de Manifesto v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) para obter mais detalhes.
+
+* Atualizar componente personalizado.
+Consulte [Modelo para Manipuladores Personalizados](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers) para obter mais detalhes.
+
+* Desative o ContentSync em `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
+
+* Ativar o SmartSync em `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
