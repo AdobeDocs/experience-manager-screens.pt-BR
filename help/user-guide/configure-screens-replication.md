@@ -3,9 +3,9 @@ title: Configurar agentes de replicação do Screens
 description: Siga esta página para obter informações sobre como configurar os agentes de replicação do Screens.
 role: Developer
 level: Intermediate
-source-git-commit: 137480ddaf6d7b73452c26402d56588230aa8c30
+source-git-commit: d35a8f1e4c8537560ca47c5a4ef4877137b8f7ea
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '493'
 ht-degree: 3%
 
 ---
@@ -34,7 +34,7 @@ Siga as etapas abaixo para habilitar os usuários e atualizar a senha para scree
 >[!NOTE]
 >Por motivos de segurança, é recomendável evitar o uso da senha do administrador para screens-receipt-user.
 
-1. Navegue até a instância de AEM.
+1. Navegue até a instância do autor do AEM.
 
 1. Clique nas ferramentas —> **Segurança** —> **Usuários**.
 
@@ -65,7 +65,7 @@ Siga as etapas abaixo para habilitar os usuários e atualizar a senha para scree
 1. Digite uma nova senha no **Alterar senha** e clique em **Salvar**.
 
    >[!NOTE]
-   >Você deve inserir **administrador** em **Sua senha** campo.
+   >Você deve inserir a senha de usuário administrador existente em **Sua senha** campo.
 
    ![imagem](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
@@ -92,6 +92,9 @@ Siga as etapas abaixo para habilitar os usuários e atualizar a senha para scree
 
 Siga a seção abaixo para atualizar as configurações no agente de Replicação do Screens:
 
+>[!IMPORTANT]
+>Você deve concluir as etapas a seguir em TODOS os agentes de replicação de telas existentes.
+
 1. Navegue até a instância de AEM.
 
 1. Clique nas ferramentas —> **Implantação** —> **Replicação**.
@@ -117,9 +120,11 @@ Siga a seção abaixo para atualizar as configurações no agente de Replicaçã
 
    ![imagem](/help/user-guide/assets/screens-replication/screens-replication1e.png)
 
-1. Navegar para **Transportes** na guia do **Configurações do agente** e digite a mesma senha definida anteriormente na etapa 8 de [Ativar usuários e atualizar a senha](#enable-users). Clique em **OK**.
+1. Navegar para **Transportes** na guia do **Configurações do agente** e atualize a caixa de diálogo **Usuário** para **screens-receipt-user** e digite a mesma senha definida anteriormente na etapa 8 de [Ativar usuários e atualizar a senha](#enable-users).
 
-   ![imagem](/help/user-guide/assets/screens-replication/screens-replication1f.png)
+   ![imagem](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
+
+1. Clique em **OK**.
 
 1. Depois de concluir as etapas anteriores, você pode clicar em **Testar conexão** para verificar a conexão.
 
