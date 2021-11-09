@@ -3,10 +3,10 @@ title: Configurar o agente de replicação do Screens
 description: Siga esta página para obter informações sobre como configurar o Screens Replication Agent.
 role: Developer
 level: Intermediate
-source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
+source-git-commit: 42e6adb7f8aa60854637a48fbb08525a0a971276
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 5%
+source-wordcount: '440'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,10 @@ Você deve concluir ambas as seções para concluir a configuração do Screens 
 
 ## Ativar usuários e atualizar a senha {#enable-users}
 
-Siga as etapas abaixo:
+Siga as etapas abaixo para habilitar os usuários e atualizar a senha para screens-receipt-user:
+
+>[!NOTE]
+>Por motivos de segurança, é recomendável evitar o uso da senha do administrador para screens-receipt-user.
 
 1. Navegue até a instância de AEM.
 
