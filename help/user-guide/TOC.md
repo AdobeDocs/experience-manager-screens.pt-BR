@@ -6,9 +6,9 @@ user-guide-title: Ajuda do Adobe Experience Manager Screens
 breadcrumb-title: Guia do AEM Screens
 user-guide-description: Saiba como usar uma Solução de sinalização digital que permite a publicação de experiências e interações digitais dinâmicas e interativas.
 feature-set: Experience Manager Screens
-source-git-commit: 8676b259304326ef3319ef40aa072b9d2a292a2e
+source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '470'
 ht-degree: 18%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 18%
 # Guia do usuário do AEM Screens {#user-guide}
 
 + [Introdução ao Screens](aem-screens-introduction.md)
-+ Visão geral e Guia do Kickstart {#overview}
++ Visão geral e guia de início rápido {#overview}
    + [Guia do Kickstart](kickstart-for-aem-screens.md)
    + [Guia de práticas recomendadas do Screens](https://docs.adobe.com/content/help/pt-BR/experience-manager-screens/using/about-guide.html)
    + [Termos principais](screens-glossary.md)
@@ -38,6 +38,7 @@ ht-degree: 18%
    + [Transição de ContentSync para SmartSync](smartsync.md)
    + [Novo importador de projetos do arquivo](project-importer.md)
    + [Replicação de dados de acionadores para servidores de publicação](replicating-data-triggers.md)
+   + [Configurando agentes de replicação do Screens](configure-screens-replication.md)
    + Considerações específicas do cliente {#installing-client}
       + [Player do Chrome OS](implementing-chrome-os-player.md)
       + [Uso do Chrome Player como extensão para solução de problemas](using-chrome-player-as-an-extension.md)
@@ -45,14 +46,14 @@ ht-degree: 18%
       + [Windows Player](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
       + [Registro automático de jogadores](auto-registration-players.md)
-   + Publicar autor {#author-publish}
+   + Publicação do autor {#author-publish}
       + [Visão geral da arquitetura de publicação de autores](author-publish-architecture-overview.md)
       + [Configuração de autor e publicação](author-and-publish.md)
    + Integração do Analytics com o AEM Screens {#analytics-integration}
       + [Integração do Adobe Analytics](adobe-analytics-integration-aem-screens.md)
       + [Configuração do Adobe Analytics com AEM Screens](configuring-adobe-analytics-aem-screens.md)
 + Exemplos de casos de criação e uso {#authoring}
-   + Configurar um projeto do Screens {#setting-up-projects}
+   + Configuração de um projeto do Screens {#setting-up-projects}
       + [Criação e gerenciamento de projetos](creating-a-screens-project.md)
       + [Criação e gerenciamento de canais](managing-channels.md)
       + [Criação e gerenciamento de exibições](managing-displays.md)
