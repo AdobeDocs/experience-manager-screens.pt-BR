@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 9e9c7d49db3e3745719ded2505b1c41358ceeddd
+source-git-commit: c746fb991c02a015a5366187699e49d441ee2d88
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2120'
 ht-degree: 1%
 
 ---
@@ -115,7 +115,7 @@ Você precisa ativar o Filtro de referenciador do Apache Sling Permitir vazio. I
 
 ### 3. Como solucionar problemas se, durante o registro de um reprodutor do AEM Screens, o dispositivo mostrar FAILURE e os registros do console exibirem o erro ENAME_NOT_FOUND? {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
 
-Esse problema pode ocorrer se o reprodutor não conseguir localizar o DNS do AEM Screens Server. Tente usar o endereço IP para se conectar. Para obter o IP do servidor, use: *arp &lt;server_dns_name>*.
+Esse problema pode ocorrer se o reprodutor não conseguir localizar o DNS do AEM Screens Server. Você pode tentar usar o endereço IP para se conectar. Para obter o IP do servidor, use: *arp &lt;server_dns_name>*.
 
 ### 4. O AMS recomenda a implementação de um Android Watchdog em todos os dispositivos? O plug-in Watchdog (Cordova) é incluído como parte do APK? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
@@ -240,3 +240,7 @@ Consulte [Modelo para Manipuladores Personalizados](https://experienceleague.ado
 * Navegue até o **Configuração offline** guia .
 
 * Enter `clientlibs `e pastas para arquivos estáticos que precisam ser adicionados ao manifesto.
+
+### 4. O que você deve fazer se, após o pacote screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 e os pacotes principais de telas estiverem instalados, mas não ativos?
+
+Você deve instalar uma versão mínima do AMS AEM 6.5 Feature Pack 8 para que o conector AMS funcione. Consulte a [Disponibilidade](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) para obter a versão mínima do feature pack.
