@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: c746fb991c02a015a5366187699e49d441ee2d88
+source-git-commit: a3bed3baf7e825299a82ccf624c3cdf876830cd0
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: '2119'
 ht-degree: 1%
 
 ---
@@ -243,4 +243,4 @@ Consulte [Modelo para Manipuladores Personalizados](https://experienceleague.ado
 
 ### 4. O que você deve fazer se, após o pacote screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 e os pacotes principais de telas estiverem instalados, mas não ativos?
 
-Você deve instalar uma versão mínima do AMS AEM 6.5 Feature Pack 8 para que o conector AMS funcione. Consulte a [Disponibilidade](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) para obter a versão mínima do feature pack.
+Você deve instalar uma versão mínima do AEM 6.5 Feature Pack 8 para que o conector AMS funcione. Consulte a [Disponibilidade](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) para obter a versão mínima do feature pack.
