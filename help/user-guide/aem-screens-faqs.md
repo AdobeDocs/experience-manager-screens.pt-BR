@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: fc120c02e01d0159ca0294a9b5326b53a0fa48f0
+source-git-commit: 089bf4eebe5234d77d6f02ae6fc3b8bb75ba6ea2
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: '2185'
 ht-degree: 1%
 
 ---
@@ -244,3 +244,13 @@ Consulte [Modelo para Manipuladores Personalizados](https://experienceleague.ado
 ### 4. O que você deve fazer se, após o pacote screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 e os pacotes principais de telas estiverem instalados, mas não ativos?
 
 Você deve instalar uma versão mínima do AEM 6.5 Feature Pack 8 para que o conector AMS funcione. Consulte a [Disponibilidade](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) para obter a versão mínima do pacote de recursos do Screens.
+
+### 5. Como configurar o serviço CQ Link Externalizer no Screens?
+
+O serviço é usado para definir o nome do host público para as instâncias de autor e publicação, e os valores são usados para atualizar os URLs do servidor de dispositivos e também para o direcionamento do ContextHub.
+
+O serviço CQ Link Externalizer no Screens pode ser configurado via:
+
+1. Vá até `http://localhost:4502/system/console/configMgr`
+1. Externalizador de links CQ do dia
+1. Altere o nome de host para a `author/publish` entradas, conforme necessário
