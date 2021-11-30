@@ -1,18 +1,14 @@
 ---
 title: Configuração do autor e publicação no AEM Screens
-seo-title: Configuring Author and Publish in AEM Screens
 description: A arquitetura AEM Screens se parece com uma arquitetura AEM Sites tradicional. O conteúdo é criado em uma instância de autor de AEM e depois replicado para várias instâncias de publicação. Siga esta página para saber como configurar o autor e a publicação para o AEM Screens.
-seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
-feature: Administering Screens
-role: Admin, Developer
-level: Intermediate
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
+source-git-commit: c152c6b46e33b42376cedeb7245d69c7c09ecd44
 workflow-type: tm+mt
-source-wordcount: '1882'
-ht-degree: 3%
+source-wordcount: '2006'
+ht-degree: 2%
 
 ---
+
 
 # Configuração do autor e publicação no AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
@@ -310,3 +306,22 @@ Como alternativa, você também pode atualizar/editar o URL do servidor no conso
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 O **Gerenciar publicação** permite que você forneça atualizações de conteúdo do autor para publicar no dispositivo. Você pode publicar/cancelar a publicação de conteúdo para todo o projeto do AEM Screens ou somente para um de seus canais, locais, dispositivos, aplicativos ou agendamentos. Para saber mais sobre esse recurso, consulte [Atualização de conteúdo sob demanda](on-demand-content.md).
+
+## Dicas de solução de problemas {#troubleshoot-tips}
+
+Siga a seção abaixo para obter respostas para perguntas frequentes relacionadas à configuração de criação/publicação.
+
+### Como adicionar um Redirecionamento de https para http após o registro e a atribuição iniciais? {#add-redirect}
+
+**Solução**
+Definir Ativar `Proxy/Load Balancer Connection in the Jetty configuration` para `true`.
+
+### Como atualizar conteúdo offline e problemas de download de reprodutor com ativos fora do `/content/dam/projects/<project>`? {#update-offline-content}
+
+**Solução**
+Fornecer permissões de leitura para o grupo de serviço em massa offline-update-screens-service e screens-devices-principal para todos `/content/dam` ou os ativos específicos que deseja usar, se desejar ser mais restritivo.
+
+### Como resolver erros do Screens Replication Agent? {#replication-agent}
+
+**Solução**
+Certifique-se de não ter marcado a opção Use for reverse replication na configuração do agente. O Screens Replication Agent não pode ser usado como um agente de replicação inversa e o escopo desse recurso é encaminhar comandos de dispositivo do autor para publicação.
