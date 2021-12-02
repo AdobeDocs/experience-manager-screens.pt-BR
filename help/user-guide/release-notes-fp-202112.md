@@ -4,10 +4,10 @@ description: Siga esta página para obter informações sobre o AEM Screens Feat
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: a01458fd34bb2fca01ef3f498ccaab1cf258e9f8
+source-git-commit: 2b1396762134c72836f6b05b6936a9cec380dd97
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 9%
+source-wordcount: '269'
+ht-degree: 6%
 
 ---
 
@@ -29,15 +29,26 @@ A data de lançamento do AEM Screens Feature Pack 202112 é 3 de dezembro de 202
 
 ### Novidades {#what-is-new}
 
-* As atualizações de aplicativos Android devem direcionar o Android 11 (nível de API 30).
+* As atualizações de aplicativos Android agora são direcionadas para Android 11 (nível de API 30). Atualmente, o Android player está no nível 29 da API de destino.
+
+* Como desenvolvedor, agora você visualizará representações de ativos para serem listadas apenas como entradas de representações em ativos correspondentes no manifesto para garantir a extensibilidade, clareza e facilidade do manuseio de manifesto.
 
 ### Correções de erros {#bug-fixes}
 
+* Agora é possível filtrar eventos de análise com base no tipo de evento.
+
+* Colete os logs do Player no local e analise-os para a tela preta.
+
+* O reprodutor que mostra a tela em branco com o canal de tela dividida agora é corrigido
+
+* Correção de documentos personalizados do manipulador ao adicionar o pacote principal no maven público.
+
+* O reprodutor não atualizava a versão do firmware após a atualização. Isso foi corrigido.
 
 
 ### Players AEM Screens lançados {#released-aem-screens-players}
 
-Os seguintes players do AEM Screens são lançados para o AEM 6.5 Feature Pack 9:
+Os seguintes players do AEM Screens são lançados para o AEM 6.5 Feature Pack 10:
 
 * ChromeOS
 * Windows
