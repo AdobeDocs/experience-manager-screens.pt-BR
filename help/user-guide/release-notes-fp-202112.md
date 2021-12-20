@@ -4,7 +4,7 @@ description: Siga esta página para obter informações sobre o AEM Screens Feat
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: a80b7d81df0ddcfad814e3462604e4d64f0c88ac
+source-git-commit: ab67ce4704b3e3cb3f38ffca6e6964d94709967d
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 6%
@@ -25,7 +25,7 @@ Você pode baixar o pacote de recursos mais recente da versão 6.5.10 do AEM Scr
 
 ## Data de lançamento {#release-date}
 
-A data de lançamento do AEM Screens Feature Pack 202112 é 6 de dezembro de 2021.
+A data de lançamento do AEM Screens Feature Pack 202112 é 17 de dezembro de 2021.
 
 ### Novidades {#what-is-new}
 
