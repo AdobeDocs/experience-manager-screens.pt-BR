@@ -4,13 +4,13 @@ description: Siga esta página para obter informações sobre o AEM Screens Feat
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 2243a2a87fc5826a02c3eff60030dc296fa77a0f
+exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
+source-git-commit: 3366a918c75dd1485dfe8716797d7254b3b5c2b3
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 6%
+source-wordcount: '291'
+ht-degree: 5%
 
 ---
-
 
 # Notas de versão do Feature Pack 202112 {#release-notes-for-feature-pack}
 
@@ -45,6 +45,11 @@ A data de lançamento do AEM Screens Feature Pack 202112 é 17 de dezembro de 20
 
 * O reprodutor não atualizava a versão do firmware após a atualização. Isso foi corrigido.
 
+* A visualização está parada na configuração anterior do player.
+
+* A pré-visualização de exibição não é renderizada em algumas condições.
+
+* Correção de erros de download simultâneos no SmartSync.
 
 ### Players AEM Screens lançados {#released-aem-screens-players}
 
