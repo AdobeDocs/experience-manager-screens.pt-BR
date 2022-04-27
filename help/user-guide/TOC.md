@@ -6,10 +6,10 @@ user-guide-title: Ajuda do Adobe Experience Manager Screens
 breadcrumb-title: Guia do AEM Screens
 user-guide-description: Saiba como usar uma Solução de sinalização digital que permite a publicação de experiências e interações digitais dinâmicas e interativas.
 feature-set: Experience Manager Screens
-source-git-commit: 3602eda37d662017ec5a1d31735e42b6b6f0f89d
+source-git-commit: 411b3c98b70b998fb5a134a8c33ad77478b15fe0
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 18%
+source-wordcount: '480'
+ht-degree: 20%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 18%
       + [Canal de Tomada a cargo de Uso Único](single-use-takeover-channel.md)
       + [Canal de aquisição de uso pessoal](perpetual-takeover-channel.md)
 + Recursos do desenvolvedor e da API {#developing}
-   + [REST APIs](rest-api.md)
+   + [APIs REST](rest-api.md)
    + [Desenvolvimento de um componente personalizado para o AEM Screens](developing-custom-component-tutorial-develop.md)
    + [Canais offline](offline-channels.md)
    + [Extensão de um componente do AEM Screens](extending-component-tutorial-develop.md)
@@ -113,6 +113,7 @@ ht-degree: 18%
    + [Solução de problemas do Device Control Center](monitoring-screens.md)
    + [Configuração da reprodução de vídeo](troubleshoot-videos.md)
 + Notas de versão {#release-notes}
+   + [Notas de versão do Feature Pack 202204](release-notes-fp-202204.md)
    + [Notas de versão do Feature Pack 202112](release-notes-fp-202112.md)
    + [Notas de versão do Feature Pack 202109](release-notes-fp-202109.md)
    + [Notas de versão do Feature Pack 202105](release-notes-fp-202105.md)
