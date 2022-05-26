@@ -1,21 +1,21 @@
 ---
 title: Implementação do reprodutor do sistema operacional Chrome
-seo-title: Implementação do reprodutor do sistema operacional Chrome
+seo-title: Implementing Chrome OS Player
 description: Siga esta página para saber mais sobre a implementação do Player do sistema operacional Chrome usando o Console de gerenciamento do Chrome.
-seo-description: Siga esta página para saber mais sobre a implementação do Player do sistema operacional Chrome usando o Console de gerenciamento do Chrome.
+seo-description: Follow  this page to learn about the implementation of the Chrome OS Player using the Chrome Management Console.
 uuid: eee84286-fa81-475c-ad6f-db2d6cf1fed5
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
-feature: Administração do Screens
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
+source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ Esta seção descreve como implementar o Player do sistema operacional Chrome us
 
 Siga as etapas abaixo para configurar o console de gerenciamento do Chrome:
 
-1. Inscreva-se no Console de Gerenciamento do Chrome. Você precisa obter uma licença para o Chrome Management Console. Entre em contato com o [Suporte do Google](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) para gerenciar as configurações do dispositivo Chrome para obter mais informações.
-1. Inscreva o dispositivo do sistema operacional Chrome no domínio e aguarde 15 minutos para que o dispositivo sincronize com o Chrome Management Console. Para saber mais sobre a inscrição do dispositivo chrome, clique [aqui](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. Inscreva-se no Console de Gerenciamento do Chrome. Você precisa obter uma licença para o Chrome Management Console. Contato [Suporte Google](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) para gerenciar as configurações do dispositivo Chrome para obter mais informações.
+1. Inscreva o dispositivo do sistema operacional Chrome no domínio e aguarde 15 minutos para que o dispositivo sincronize com o Chrome Management Console. Para saber mais sobre a inscrição do dispositivo chrome, clique em [here](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. O Player do Chrome estará disponível na loja da Web do Chrome.
 
 >[!NOTE]
@@ -68,8 +68,8 @@ Siga as etapas abaixo para ativar o modo Quiosque:
 
    ![screen_shot_2017-12-08at20303pm](assets/screen_shot_2017-12-08at20303pm.png)
 
-1. Navegue até **Device management** > **Chrome Management** > **Device Settings**.
-1. Role para baixo até **Configurações do Quiosque** e clique em **Gerenciar Aplicativos do Quiosque**.
+1. Navegue até **Gerenciamento de dispositivos** > **Gerenciamento do Chrome** > **Configurações do dispositivo**.
+1. Role para baixo até **Configurações de Quiosque** e clique em **Gerenciar aplicativos de quiosque**.
 
    ![quiosque](assets/kiosk.png)
 
@@ -79,16 +79,16 @@ Siga as etapas abaixo para ativar o modo Quiosque:
    >
    >Um aplicativo publicado recentemente pode levar cerca de 15 minutos para ser exibido nessa lista.
 
-1. Selecione **AEM Screens Player** na lista suspensa **Iniciar automaticamente o aplicativo do Quiosque**.
+1. Selecionar **Player do AEM Screens** do **Iniciar automaticamente o aplicativo Quiosque** lista suspensa.
 
    Pode levar alguns minutos, dependendo da rede, para que as alterações entrem em vigor. É recomendável reiniciar.
 
 #### Verificando o status do dispositivo remoto {#checking-remote-device-status}
 
 1. Faça logon no Console do desenvolvedor do Chrome.
-1. Navegue até **Device management** > **Chrome Devices** e selecione o dispositivo que deseja controlar.
+1. Navegue até **Gerenciamento de dispositivos** > **Dispositivos Chrome** e selecione o dispositivo que deseja controlar.
 1. Clique em **Atividade do sistema e solução de problemas**.
-1. Verifique as propriedades **Reboot Device** e **Screen Capture** do dispositivo. Você também pode verificar o status do dispositivo e as informações de integridade.
+1. Verifique a **Reinicializar dispositivo** e **Captura de tela** propriedades do dispositivo. Você também pode verificar o status do dispositivo e as informações de integridade.
 
 >[!NOTE]
 >
@@ -102,8 +102,8 @@ Siga as etapas abaixo para configurar várias opções do reprodutor:
 
 1. Faça logon no Console de gerenciamento do Chrome.
 1. Clique em **Gerenciamento de dispositivos** > **Gerenciamento do Chrome** > **Gerenciamento de aplicativos**. O Player do AEM Screens é exibido na lista.
-1. Clique no aplicativo **AEM Screens Player**.
-1. Clique em **Configurações do Quiosque** e selecione sua organização (*se estiver usando um ambiente de teste*).
+1. Clique no aplicativo **Player do AEM Screens**.
+1. Clique em **Configurações de quiosque** e selecione sua organização (*se estiver usando um ambiente de teste*).
 1. Clique em **carregar arquivo de configuração** e faça upload da política de configuração (*Arquivo Json*).
 1. Clique em **Salvar**. Você deve reiniciar o dispositivo para sincronizar a política.
 
@@ -151,4 +151,8 @@ O quadro seguinte resume as políticas com as suas funções.
 
 >[!NOTE]
 >
->As configurações de política são estritamente aplicadas e não são manualmente substituídas na interface do usuário do administrador do player. Para permitir a configuração manual do player para uma política específica, não especifique a política na configuração da política ***por exemplo,***, se você deseja permitir a configuração manual para o agendamento de reinicialização, não especifique a chave ***reotSchedule*** na configuração da política.
+>As configurações de política são estritamente aplicadas e não são manualmente substituídas na interface do usuário do administrador do player. Para permitir a configuração manual do reprodutor para uma política específica, não especifique a política no ***configuração da política,*** por exemplo, se você deseja permitir a configuração manual para o cronograma de reinicialização, não especifique a chave ***reotSchedule*** na configuração da política.
+
+### Uso do controle remoto do Screens {#using-remote-control}
+
+O AEM Screens fornece a funcionalidade de Controle remoto. Saiba mais sobre este recurso aqui: [Controle remoto do Screens](implementing-remote-control.md)
