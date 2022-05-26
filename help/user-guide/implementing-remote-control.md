@@ -12,7 +12,7 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: ff59c3748ea69a37ca68e81e5bf753881e8464b0
+source-git-commit: a256f624c4b647deb4cee7668665ad7b576932e7
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -52,4 +52,6 @@ O diagrama a seguir ilustra o uso de chave em um controle remoto da Samsung:
 >[!NOTE]
 >Se você definir os valores de configuração do dispositivo de enableAdminUI e/ou enableOSD como false, o controle remoto não alternará a interface do usuário do administrador e o seletor de canal. Você também não poderá usar as teclas de seta para navegar na interface do usuário ou nos canais do administrador. No entanto, ainda é possível limpar o cache e recarregar o player. Você pode desativar o recurso de controle remoto se qualquer combinação de teclado entrar em conflito com seu conteúdo interativo usando este código:
 
-```javascript require(/['util/ScreensDisplay'/], function() /{window.ScreensDisplay.ignoreRemoteControl = true;/}); ```
+```
+require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 
+```
