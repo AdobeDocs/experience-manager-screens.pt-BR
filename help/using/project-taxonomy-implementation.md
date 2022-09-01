@@ -1,15 +1,15 @@
 ---
 title: Taxonomia do projeto
-seo-title: 'Taxonomia do projeto '
+seo-title: Project Taxonomy
 description: Esta página descreve a taxonomia do projeto
-seo-description: A página descreve a taxonomia do projeto
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes Project Taxonomy
+exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
+source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 12%
+source-wordcount: '361'
+ht-degree: 11%
 
 ---
-
 
 # Taxonomia do projeto {#project-taxonomy}
 
@@ -27,7 +27,7 @@ Considere os seguintes elementos antes de implementar a solução de sinalizaç�
 * **Programação**
 * **Visualização do conteúdo**
 
-Para saber mais sobre esses termos, consulte [Glossário](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html).
+Para saber mais sobre esses termos, consulte [Glossário](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
 
 >[!NOTE]
 >
@@ -47,14 +47,15 @@ Um autor do AEM Screens é responsável por criar e gerenciar uma experiência d
 
 Um autor normalmente inicia um projeto do AEM Screens por:
 
-* [criação de um projeto do AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/creating-a-screens-project.html)
-* [criação de canais](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-channels.html)
-* [adição de componentes e ativos ao canal](https://helpx.adobe.com/experience-manager/6-5/screens/using/adding-components-to-a-channel.html)
-* [criação de programações](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-schedules.html)
-* [criação de locais](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-locations.html)
-* [criação de exibições](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-displays.html)
-* [atribuição de canais às exibições](https://helpx.adobe.com/experience-manager/6-5/screens/using/channel-assignment.html)
-* [visualização de conteúdo em um reprodutor do AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
+* [criação de um projeto do AEM Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html?lang=en)
+* [criação de canais](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels.html?lang=en)
+* [adição de componentes e ativos ao canal](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel.html?lang=en)
+* [criação de programações](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules.html?lang=en)
+* [criação de locais](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations.html?lang=en)
+* [criação de exibições](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html?lang=en)
+* [atribuição de canais às exibições](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment.html?lang=en)
+
+* [visualização de conteúdo em um reprodutor do AEM Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/working-with-screens-player.html?lang=en)
 
 >[!NOTE]
->Além disso, também é possível importar em massa um conjunto de locais de uma planilha CSV/XLS para o seu projeto do AEM Screens. Siga [Novo importador de projeto do arquivo](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) para obter mais detalhes.
+>Também é possível importar em massa um conjunto de locais de uma planilha CSV/XLS para o seu projeto do AEM Screens. Seguir [Novo importador de projetos do arquivo](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/project-importer.html?lang=en) para obter mais detalhes.

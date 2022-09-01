@@ -6,9 +6,9 @@ user-guide-title: Ajuda do Adobe Experience Manager Screens
 breadcrumb-title: Guia do AEM Screens
 user-guide-description: Saiba como usar uma Solução de sinalização digital que permite a publicação de experiências e interações digitais dinâmicas e interativas.
 feature-set: Experience Manager Screens
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: ce0524a11f693e5413c08cc79b46121260333de2
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '482'
 ht-degree: 20%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 20%
 + [Introdução ao Screens](aem-screens-introduction.md)
 + Visão geral e guia de início rápido {#overview}
    + [Guia do Kickstart](kickstart-for-aem-screens.md)
-   + [Guia de práticas recomendadas do Screens](https://docs.adobe.com/content/help/pt-BR/experience-manager-screens/using/about-guide.html)
+   + [Guia de práticas recomendadas do Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html?lang=pt-BR)
    + [Termos principais](screens-glossary.md)
 + Noções básicas da rede de sinalização digital {#digital-signage-network}
    + [Parte 1: Funções e responsabilidades do projeto](project-roles-responsibilities.md)
@@ -64,7 +64,7 @@ ht-degree: 20%
       + Atribuição de canais {#assigning-channels}
          + [Atribuição de canal](channel-assignment-latest-fp.md)
          + [Atribuição de canal: Pacotes de recursos mais antigos do AEM Screens](channel-assignment.md)
-   + Uso dos principais recursos do produto {#product-features}
+   + Uso dos recursos principais do produto {#product-features}
       + [Sobreposição de texto](text-overlay.md)
       + [Atualização Offline em massa](bulk-offline-update.md)
       + [Serviço de notificações da AEM Screens](screens-notifications-service.md)
