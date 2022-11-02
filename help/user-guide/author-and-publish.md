@@ -2,9 +2,9 @@
 title: Configuração do autor e publicação no AEM Screens
 description: A arquitetura AEM Screens se parece com uma arquitetura AEM Sites tradicional. O conteúdo é criado em uma instância de autor de AEM e depois replicado para várias instâncias de publicação. Siga esta página para saber como configurar o autor e a publicação para o AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: c152c6b46e33b42376cedeb7245d69c7c09ecd44
+source-git-commit: 458ecfbbfb072a07d97d68f2a7ef1eb51f3db598
 workflow-type: tm+mt
-source-wordcount: '2006'
+source-wordcount: '1974'
 ht-degree: 2%
 
 ---
@@ -240,8 +240,6 @@ Verifique o player e você verá o conteúdo adicionado no canal.
 #### Etapa 4: Publicação da configuração do dispositivo para publicar instâncias {#step-publishing-device-configuration-to-publish-instances}
 
 **Verificando o dispositivo**
-
-Antes, execute as etapas abaixo para verificar a ID do dispositivo. Para verificar, procure a ID do dispositivo no CRXDE Lite, com o caminho como */home/users/screens/we-retail/devices*.
 
 Siga as etapas abaixo para replicar o usuário do dispositivo:
 
