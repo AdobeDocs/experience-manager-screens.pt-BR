@@ -2,9 +2,9 @@
 title: Configuração do autor e publicação no AEM Screens
 description: A arquitetura AEM Screens se parece com uma arquitetura AEM Sites tradicional. O conteúdo é criado em uma instância de autor de AEM e depois replicado para várias instâncias de publicação. Siga esta página para saber como configurar o autor e a publicação para o AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: ed9debd55cc4e142a46eda05e9e1aabc32532311
+source-git-commit: ab959584c01c10f76c231ab89b574886ad7346c5
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1988'
 ht-degree: 2%
 
 ---
@@ -128,9 +128,10 @@ Para cada instância de publicação:
 1. Vá até `https://<host>:<port>/system/console/configMgr`
 1. Selecionar **Serviço de Descoberta Baseado em Oak do Apache Sling** Configuração.
 1. Atualizar URLs do conector de Topologia: adicione URLs de todas as instâncias de publicação de participação que sejam:
-   * `https://localhost:4503/libs/sling/topology/connector`
-   * `https://localhost:4504/libs/sling/topology/connector`
-1. **Lista de permissões do conector de topologia**: adaptar a IPs ou sub-redes que abrangem instâncias de publicação de participação
+   * `https://publish:4503/libs/sling/topology/connector`
+   * `https://publish:4504/libs/sling/topology/connector`
+1. **Lista de permissões do conector de topologia**: Adapte-se aos IPs ou sub-redes que abrangem todas as instâncias de publicação. Coloque o IP/nome do host na lista de permissões de todas as instâncias de publicação sem o número da porta.
+
 1. Habilitar **Interromper automaticamente loops locais**
 
 A configuração deve ser idêntica para cada instância de publicação e o loop Local de interrupção automática impede um loop infinito.
