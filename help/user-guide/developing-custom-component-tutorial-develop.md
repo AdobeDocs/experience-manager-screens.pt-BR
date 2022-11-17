@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2275'
 ht-degree: 2%
 
 ---
@@ -553,6 +553,15 @@ O código a seguir fornece os requisitos mínimos na variável `pom.xml` para es
 O vídeo abaixo mostra o componente finalizado e como ele pode ser adicionado a um canal de Sequência. O Canal é adicionado a uma exibição Local e, em última análise, atribuído a um player do Screens.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+
+## Considerações adicionais para componentes personalizados que incorporam outras páginas ou fragmentos {#additional-considerations}
+
+Se o componente personalizado que você está desenvolvendo tiver o objetivo de incluir outras páginas ou fragmentos de experiência e se você quiser que as alterações no conteúdo incorporado sejam automaticamente selecionadas pelo reprodutor sem precisar republicar o canal, será necessário considerar essas duas restrições:
+
+1. Em vez de estender diretamente `foundation/components/parbase`, você teria que estender `screens/core/components/content/page` ou `screens/core/components/content/experiencefragment`
+2. O nome da propriedade usada para referenciar o conteúdo incorporado precisa ser `pagePath`
+
+O aproveitamento desses dois componentes principais do Screens também vem com o benefício adicional de que eles podem cuidar para agrupar algumas das dependências necessárias (bibliotecas do lado do cliente, fontes, etc.) por meio das opções de configuração offline na caixa de diálogo do componente, o que reduz a responsabilidade de qualquer manipulador offline personalizado que você teria que usar para isso, às vezes removendo completamente a necessidade de usar um em primeiro lugar.
 
 ## Código concluído {#finished-code}
 
