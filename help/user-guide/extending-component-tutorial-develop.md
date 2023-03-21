@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 29116a15d5486b2c446cae0d092c4d4b802fe9e7
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1771'
 ht-degree: 2%
 
 ---
@@ -40,11 +40,11 @@ O componente Pôster personalizado é criado estendendo o componente Imagem .
 
 Para concluir este tutorial, você precisa do seguinte:
 
-1. [AEM 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/release-notes.html?lang=pt-BR) ou [AEM 6.3](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=pt-BR) + Pacote de recursos do Screens mais recente
+1. AEM 6.5 + Pacote de recursos do Screens mais recente
 1. [Player do AEM Screens](/help/user-guide/aem-screens-introduction.md)
 1. Ambiente de desenvolvimento local
 
-As etapas tutoriais e capturas de tela são executadas usando o CRXDE-Lite. [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/aem-eclipse.html) ou [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/ht-intellij.html) Os IDEs também podem ser usados para concluir o tutorial. Mais informações sobre como usar um IDE para [desenvolver com AEM pode ser encontrado aqui](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
+As etapas tutoriais e capturas de tela são executadas usando o CRXDE-Lite. [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/aem-eclipse.html) ou [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/ht-intellij.html) Os IDEs também podem ser usados para concluir o tutorial. Mais informações sobre como usar um IDE para [desenvolver com AEM pode ser encontrado aqui](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
 
 ## Configuração do projeto {#project-setup}
 
