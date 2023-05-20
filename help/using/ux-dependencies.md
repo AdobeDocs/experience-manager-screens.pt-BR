@@ -1,44 +1,42 @@
 ---
 title: Dependências de UX para [!UICONTROL AEM Screens]
-seo-title: Dependências de UX para [!UICONTROL AEM Screens]
-description: O guia descreve as Dependências de UX para [!UICONTROL AEM Screens]
-seo-description: O guia descreve as Dependências de UX para [!UICONTROL AEM Screens]
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-title: UX Dependencies for [!UICONTROL AEM Screens]
+description: O guia descreve as dependências de UX para [!UICONTROL AEM Screens]
+seo-description: The guide describes UX Dependencies for [!UICONTROL AEM Screens]
+exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '138'
 ht-degree: 1%
 
 ---
-
 
 # Dependências de UX {#ux-dependencies}
 
 >[!NOTE]
 >
->A parte interessada típica desta atividade é um Estrategista de marketing/negócios.
+>Uma parte interessada típica dessa atividade é um estrategista de marketing/negócios.
 
-Dependências de UX define onde e como o conteúdo é estrategizado para ser mais impactante.
+As dependências de UX definem onde e como o conteúdo é estrategizado para que seja mais impactante.
 
-As seguintes perguntas devem ser consideradas ao definir a estratégia de conteúdo de hardware:
+As seguintes perguntas devem ser consideradas durante a definição da estratégia de conteúdo do hardware:
 
 1. Como o layout de varejo deve ser alinhado à estratégia de conteúdo?
 
-1. As interações (ou seja, tela de toque, detecção de movimento) são necessárias?
+1. Serão necessárias interações (ou seja, tela de toque, detecção de movimento)?
 
-1. Qual é o objetivo da sinalização digital?
+1. Qual é o propósito da sinalização digital?
 
-   * É para configuração de produto?
-   * Está achando?
+   * É para a configuração do produto?
+   * Está achando o caminho?
    * Ele mostra anúncios?
 
-1. Como as conexões e a fiação de rede estão configuradas?
+1. Como são configuradas as conexões e a fiação de rede?
 
 1. Com que frequência os computadores e a conexão estarão ligados e desligados?
 
 1. O design de fixação suporta acessibilidade?
 
-1. Vários dispositivos são necessários para um monitor (como, várias zonas, placas extras grandes)?
+1. São necessários vários dispositivos para uma única exibição (como várias zonas, placas extragrandes)?
 
-1. Quais são as considerações ambientais, como brilho, temperatura e estação?
-
-
+1. Quais são as considerações ambientais, como brilho, temperatura e estação do ano?

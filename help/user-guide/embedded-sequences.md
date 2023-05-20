@@ -1,8 +1,8 @@
 ---
 title: Sequências incorporadas
-seo-title: Sequências incorporadas
-description: Siga esta página para saber mais sobre sequências incorporadas para canais que permitem ao usuário adicionar componentes no canal pai e também reutilizar o conteúdo de um canal diferente e incorporá-lo ao canal pai.
-seo-description: Siga esta página para saber mais sobre sequências incorporadas para canais que permitem ao usuário adicionar componentes no canal pai e também reutilizar o conteúdo de um canal diferente e incorporá-lo ao canal pai.
+seo-title: Embedded Sequences
+description: Siga esta página para saber mais sobre sequências incorporadas para canais que permitem que o usuário adicione componentes no canal principal e também reutilize o conteúdo de um canal diferente e incorpore-o ao canal principal.
+seo-description: Follow this page to learn about embedded sequences for channels that allows the user to add components in the parent channel and also to re-use the content from a different channel and embed it into the parent channel.
 uuid: 72a8d4e6-e5ce-4069-bf3b-864d03f61585
 contentOwner: jsyal
 content-type: reference
@@ -10,104 +10,99 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
-feature: Telas de criação
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 43%
+source-wordcount: '794'
+ht-degree: 2%
 
 ---
 
 # Sequências incorporadas {#embedded-sequences}
 
-Usar ***Sequências incorporadas***, para canais, permite que o usuário adicione componentes ao canal pai e também reutilize o conteúdo de um canal diferente e incorpore-o ao canal pai.
+Usar ***Sequências incorporadas***, para canais, permite que o usuário adicione componentes no canal principal e também reutilize o conteúdo de um canal diferente e o incorpore ao canal principal.
 
-## Adição de sequências incorporadas {#adding-embedded-sequences}
+## Adicionar sequências incorporadas {#adding-embedded-sequences}
 
-Você tem a opção de adicionar os seguintes componentes ao seu canal de sequência:
+Você tem a opção de adicionar os seguintes componentes ao canal de sequência:
 
 * Sequência incorporada
 * Sequência incorporada dinâmica
 
 >[!NOTE]
 >
->Para aprender a usar outros componentes no seu projeto do Screens, consulte [Adição de componentes a um canal](adding-components-to-a-channel.md).
+>Para saber mais sobre como usar outros componentes em seu projeto do Screens, consulte [Adicionar componentes a um canal](adding-components-to-a-channel.md).
 
 ### Adição de uma sequência incorporada {#adding-an-embedded-sequence}
 
-Você pode adicionar uma sequência incorporada ao seu canal. Uma sequência incorporada é outro canal que inclui ativos como imagens ou vídeos. A adição de uma sequência incorporada permite que o usuário adicione a sequência a um canal por ***Caminho do canal***.
+Você pode adicionar uma sequência incorporada ao canal. Uma sequência incorporada é outro canal que inclui ativos como imagens ou vídeos. A adição de uma sequência incorporada permite que o usuário adicione a sequência a um canal ao ***Caminho do canal***.
 
 >[!NOTE]
 >***Caminho do canal*** define uma referência explícita ao canal.
->Para saber mais sobre *Caminho do canal*, consulte [Atribuição de canal](channel-assignment.md) na seção sobre criação da documentação do Screens.
+>Para saber mais sobre *Caminho do canal*, consulte [Atribuição de canal](channel-assignment.md) em Criação de telas.
 
-Siga as etapas abaixo para adicionar uma sequência incorporada ao seu canal:
+Siga as etapas abaixo para adicionar uma sequência incorporada ao canal:
 
-1. Selecione o canal em que você deseja incorporar uma página. Por exemplo, **We.Retail In-Store** —> **Canais** —> **Canal ocioso**.
+1. Selecione o canal no qual deseja incorporar uma página. Por exemplo, **We.Retail Na Loja** —> **Canais** —> **Canal ocioso**.
 
-1. Clique em **Editar** na barra de ações para abrir o canal no modo de editor.
-1. Clique no ícone de componentes na barra lateral esquerda para adicionar a página incorporada. Arraste e solte o **Embedded Sequence** no editor.
-1. Clique duas vezes no componente **Sequência incorporada** para adicionar o canal ao seu canal de sequência original.
-1. Selecione o **Caminho do canal.**
-1. Selecione **Duration (ms)** para seu canal incorporado na guia **Sequence**. Por padrão, a duração é definida como **-1**, o que significa que o canal incorporado é totalmente executado. Se o usuário especificar uma duração, a subsequência será interrompida (ou seja, será cortada) no tempo especificado.
+1. Clique em **Editar** na barra de ações para abrir o canal no modo editor.
+1. Clique no ícone Componentes na barra lateral esquerda para adicionar a página incorporada. Arraste e solte a **Sequência incorporada** ao editor.
+1. Clique duas vezes no ícone **Sequência incorporada** para adicionar o canal ao canal de sequência original.
+1. Selecione o **Caminho do canal** do canal.
+1. Selecione o **Duração (ms)** para o canal integrado na **Sequência** guia. Por padrão, a duração é definida como **-1**, ou seja, o canal incorporado é totalmente executado. Se o usuário especificar uma duração, a subsequência será interrompida (ou seja, o corte) no horário especificado.
 
-1. Defina a **Estratégia de reprodução medida** para **normal**.
+1. Defina o **Estratégia medida de reprodução** para **normal**.
 
-Por padrão, ele é definido como **normal**. Definir o valor como **normal** (Reproduzir todos os itens) significa que a subsequência será totalmente executada em cada ciclo da sequência pai. O outro valor possível é **Reproduzir um único item** (Reproduzir um único item) e que mostraria apenas um item da subsequência em cada execução (por exemplo, o primeiro item no primeiro loop, o segundo item no segundo loop e assim por diante).
+Por padrão, é definido como **normal**. Definir o valor para **normal** (Reproduzir todos os itens) significa que a subsequência será totalmente executada em cada ciclo da sequência principal. O outro valor possível é **Reproduzir um único item** (Reproduzir um único item) e que mostraria apenas um item da subsequência em cada execução (por exemplo, o primeiro item no primeiro loop, o segundo item no segundo loop e assim por diante).
 
 >[!IMPORTANT]
 >
->Você deve atribuir o canal (usado em sequência incorporada), à mesma exibição.
+>Você deve atribuir o canal (usado na sequência incorporada), à mesma exibição.
 >
->Siga as etapas abaixo após adicionar uma sequência incorporada ao seu canal a partir das etapas anteriores:
+>Siga as etapas abaixo depois de adicionar uma sequência incorporada ao canal a partir das etapas anteriores:
 >
->1. Navegue até a exibição e selecione a exibição da pasta **Localizações**.
->1. Clique em **Dashboard** na barra de ações para navegar até o painel de exibição.
->1. Selecione **+ Atribuir canais** a partir de **CANAIS ATRIBUÍDOS E PAINÉIS AGENDADOS** para abrir a caixa de diálogo **Atribuição de canal**.
-
-   >
-   >
-1. Selecione o caminho do canal (usado em sequência incorporada) em **Caminho do Canal**.
->1. Certifique-se de que a **Priority** seja inferior ao canal principal.
-
-   >
-   >
-1. Você não deve selecionar **Eventos Suportados**.
->1. Clique em **Salvar** uma vez concluído.
+>1. Navegue até a exibição e selecione-a em **Localizações** pasta.
+>1. Clique em **Painel** na barra de ações para navegar até o painel de exibição.
+>1. Selecionar **+ Atribuir canais** do **CANAIS ATRIBUÍDOS E PAINÉIS PROGRAMADOS** para abrir o **Caixa de diálogo Atribuição de canal**.
+>
+>1. Selecione o caminho do canal no qual você (usado na sequência incorporada) **Caminho do canal**.
+>1. Certifique-se de que a variável **Prioridade** é inferior ao canal principal.
+>
+>1. Você não deve selecionar nenhum **Eventos suportados**.
+>1. Clique em **Salvar** depois de concluído.
 
 >
 
 
-
-O exemplo a seguir mostra a adição de uma sequência incorporada (**Canal ocioso - Noite**) a um canal já existente (**Canal ocioso**).
+O exemplo a seguir mostra a adição de uma sequência incorporada (**Canal ocioso - Noite**) para um canal já existente (**Canal ocioso**).
 
 ![new2](assets/new2.gif)
 
-### Adição de uma sequência incorporada dinâmica {#adding-a-dynamic-embedded-sequence}
+### Adicionar uma sequência incorporada dinâmica {#adding-a-dynamic-embedded-sequence}
 
-Você pode adicionar uma sequência incorporada dinâmica ao seu canal. Uma sequência incorporada dinâmica é semelhante a uma sequência incorporada, mas permite que o usuário siga uma hierarquia em que as alterações/atualizações feitas em um canal sejam propagadas para o outro usuário. Ela segue a hierarquia pai/filho e também inclui ativos como imagens ou vídeos. Adicionar uma sequência dinâmica permite que o usuário adicione um canal por função de canal.
+Você pode adicionar uma sequência incorporada dinâmica ao seu canal. Uma sequência incorporada dinâmica é semelhante a uma sequência incorporada, mas permite que o usuário siga uma hierarquia em que as alterações/atualizações feitas em um canal são propagadas para outro relacionado. Ela segue a hierarquia pai/filho e também inclui ativos como imagens ou vídeos. A adição de uma sequência dinâmica permite que o usuário adicione um canal por função de canal.
 
 >[!NOTE]
 >
->***Função do canal*** define o contexto da exibição.
+>***Função do canal*** define a função Canal define o contexto da exibição.
 >
->Para saber mais sobre *Função do canal*, consulte [Atribuição de canal](channel-assignment.md) na seção sobre criação da documentação do Screens.
+>Para saber mais sobre *Função do canal*, consulte [Atribuição de canal](channel-assignment.md) em Criação de telas.
 
-Siga as etapas abaixo para adicionar uma sequência incorporada ao seu canal:
+Siga as etapas abaixo para adicionar uma sequência incorporada ao canal:
 
-1. Selecione o canal em que você deseja incorporar uma sequência dinâmica. Por exemplo, **We.Retail In-Store** —> **Canais** —> **Canal ocioso**.
+1. Selecione o canal no qual deseja incorporar uma sequência dinâmica. Por exemplo, **We.Retail Na Loja** —> **Canais** —> **Canal ocioso**.
 
-1. Clique em **Editar** na barra de ações para abrir o canal no modo de editor.
-1. Clique no ícone de componentes na barra lateral esquerda para adicionar a sequência incorporada dinâmica. Arraste e solte o **Dinâmico** **Sequência incorporada** no editor.
+1. Clique em **Editar** na barra de ações para abrir o canal no modo editor.
+1. Clique no ícone componentes na barra lateral esquerda para adicionar a sequência incorporada dinâmica. Arraste e solte a **Dinâmico** **Sequência incorporada**  ao editor.
 
-1. Clique duas vezes no componente **Dinâmico** **Sequência incorporada** para adicionar a página ao seu canal de sequência.
+1. Clique duas vezes no ícone **Dinâmico** **Sequência incorporada** para adicionar a página ao canal de sequência.
 
-1. Insira a **Função de Atribuição de Canal**.
-1. Defina a **Estratégia de reprodução medida** para **normal**. Por padrão, ele é definido como **normal**. Definir o valor como **normal** (Reproduzir todos os itens) significa que a subsequência será totalmente executada em cada ciclo da sequência pai. O outro valor possível é **Reproduzir um único item** (Reproduzir um único item) e que mostraria apenas um item da subsequência em cada execução (por exemplo, o primeiro item no primeiro loop, o segundo item no segundo loop e assim por diante).
+1. Insira o **Função da atribuição do canal**.
+1. Defina o **Estratégia medida de reprodução** para **normal**. Por padrão, é definido como **normal**. Definir o valor para **normal** (Reproduzir todos os itens) significa que a subsequência será totalmente executada em cada ciclo da sequência principal. O outro valor possível é **Reproduzir um único item** (Reproduzir um único item) e que mostraria apenas um item da subsequência em cada execução (por exemplo, o primeiro item no primeiro loop, o segundo item no segundo loop e assim por diante).
 
-1. Selecione a guia **Duration (ms)** em **Sequence** para seu canal incorporado na sequência.
+1. Selecione o **Duração (ms)** in **Sequência** para o canal incorporado na sequência.
 
 ![mais recente](assets/latest.gif)

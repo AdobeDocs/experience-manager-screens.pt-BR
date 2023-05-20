@@ -1,6 +1,6 @@
 ---
-title: Notas de versão do Feature Pack 202112
-description: Siga esta página para obter informações sobre o AEM Screens Feature Pack 202112 lançado em 12 de janeiro de 2022.
+title: Notas de versão do Pacote de recursos 202112
+description: Siga esta página para obter informações sobre o Pacote de recursos do AEM Screens 202112 lançado em 12 de janeiro de 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -12,54 +12,54 @@ ht-degree: 5%
 
 ---
 
-# Notas de versão do Feature Pack 202112 {#release-notes-for-feature-pack}
+# Notas de versão do Pacote de recursos 202112 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->É recomendável atualizar para a versão mais recente do Adobe Experience Manager (AEM). O Screens fornece suporte de manutenção para AEM plataforma do Screens 6.3.
+>É recomendável atualizar para a versão mais recente do Adobe Experience Manager (AEM). O Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
 
 ## Disponibilidade {#availability}
 
-A AEM Screens lançou AEM 6.5 Feature Pack 10.
+A AEM Screens lançou o AEM 6.5 Feature Pack 10.
 
-Você pode baixar o pacote de recursos mais recente da versão 6.5.10 do AEM Screens no [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegar para **Adobe Experience Manager** e pesquisar por **Telas** para obter o pacote de recursos mais recente intitulado como **AEM 6.5 Screens FP10**.
+Baixe o pacote de recursos mais recente do AEM Screens 6.5.10 na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até **Adobe Experience Manager** e pesquisar **Screens** para obter o pacote de recursos mais recente intitulado como **AEM 6.5 Screens FP10**.
 
 ## Data de lançamento {#release-date}
 
-A data de lançamento do AEM Screens Feature Pack 202112 é 12 de janeiro de 2022.
+A data de lançamento do Pacote de recursos do AEM Screens 202112 é 12 de janeiro de 2022.
 
 ### Novidades {#what-is-new}
 
-* As atualizações de aplicativos Android agora são direcionadas para Android 11 (nível de API 30). Atualmente, o Android player está no nível 29 da API de destino.
+* As atualizações de aplicativos do Android agora direcionam o Android 11 (API nível 30). Atualmente, o Android player está no nível 29 da API de destino.
 
-* A visualização está parada na configuração anterior do player
+* A visualização da exibição está paralisada na configuração anterior do reprodutor
 
-* A pré-visualização de exibição não está sendo renderizada em algumas condições
+* A visualização da exibição não é renderizada em algumas condições
 
-* Correção de erros de download simultâneos no SmartSync
+* Corrigir erros de download simultâneos no SmartSync
 
-* Como desenvolvedor, agora você visualizará representações de ativos para serem listadas apenas como entradas de representações em ativos correspondentes no manifesto para garantir a extensibilidade, clareza e facilidade do manuseio de manifesto.
+* Como desenvolvedor, agora você verá as representações de ativos para serem listadas somente como entradas de representação em ativos correspondentes no manifesto, para garantir a extensibilidade, a clareza e a facilidade de manipulação do manifesto.
 
 ### Correções de erros {#bug-fixes}
 
 * Agora é possível filtrar eventos de análise com base no tipo de evento.
 
-* Colete os logs do Player no local e analise-os para a tela preta.
+* Coletar registros do player no local e analisá-los em relação à tela preta.
 
-* O reprodutor que mostra a tela em branco com o canal de tela dividida agora é corrigido
+* O reprodutor que exibe tela em branco com canal de tela dividida agora está corrigido
 
-* Correção de documentos personalizados do manipulador ao adicionar o pacote principal no maven público.
+* Corrigidos os documentos do manipulador personalizado ao adicionar o pacote principal no Maven público.
 
-* O reprodutor não atualizava a versão do firmware após a atualização. Isso foi corrigido.
+* O player não estava atualizando a versão do firmware após a atualização. Isso foi corrigido.
 
-* A visualização está parada na configuração anterior do player.
+* A visualização da exibição está paralisada na configuração anterior do reprodutor.
 
-* A pré-visualização de exibição não é renderizada em algumas condições.
+* A visualização da exibição não é renderizada em algumas condições.
 
-* Correção de erros de download simultâneos no SmartSync.
+* Corrigir erros de download simultâneos no SmartSync.
 
-### Players AEM Screens lançados {#released-aem-screens-players}
+### Players do AEM Screens lançados {#released-aem-screens-players}
 
-Os seguintes players do AEM Screens são lançados para o AEM 6.5 Feature Pack 10:
+Os seguintes players de AEM Screens são lançados para AEM 6.5 Feature Pack 10:
 
 * ChromeOS
 * Windows

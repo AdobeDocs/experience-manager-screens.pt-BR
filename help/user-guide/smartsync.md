@@ -1,95 +1,95 @@
 ---
-title: Transição de ContentSync para SmartSync
-seo-title: Transição de ContentSync para SmartSync
+title: Transição do ContentSync para o SmartSync
+seo-title: Transitioning from ContentSync to SmartSync
 description: Siga esta página para saber mais sobre o recurso SmartSync e como fazer a transição de ContentSync para SmartSync.
-seo-description: Siga esta página para saber mais sobre o recurso SmartSync e como fazer a transição de ContentSync para SmartSync.
+seo-description: Follow this page to learn about SmartSync feature and how you can transition from ContentSync to SmartSync.
 uuid: c0619b56-1f6f-465a-a428-6df28e40b555
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
-feature: Administração do Screens
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
 
-# Transição de ContentSync para SmartSync {#transitioning-from-contentsync-to-smartsync}
+# Transição do ContentSync para o SmartSync {#transitioning-from-contentsync-to-smartsync}
 
-Esta seção fornece uma visão geral do recurso SmartSync e como ele minimiza a carga/armazenamento do servidor e o tráfego da rede para reduzir custos.
+Esta seção fornece uma visão geral do recurso SmartSync e como ele minimiza a carga/armazenamento do servidor e o tráfego de rede para reduzir o custo.
 
 ## Visão geral {#overview}
 
-O SmartSync é o mecanismo mais recente usado pelo AEM Screens. Ele serve como uma substituição do método atual usado para armazenar em cache canais offline e entregá-los ao player.
+O SmartSync é o mecanismo mais recente usado pelo AEM Screens. Ele serve como uma substituição do método atual usado para armazenar canais offline em cache e entregá-los ao reprodutor.
 
-Ele é executado no lado do servidor e do cliente.
+Ele é executado no lado do servidor e no lado do cliente.
 
-**No lado** do servidor:
+**No lado do servidor**:
 
-* O conteúdo dos canais, incluindo ativos, é armazenado em cache em */var/contentsync*.
+* O conteúdo dos canais, incluindo ativos, é armazenado em cache no */var/contentsync*.
 * O cache é exposto aos players por meio de um manifesto que descreve o conteúdo disponível para uma exibição.
 
-**No lado** do cliente:
+**No lado do cliente**:
 
-* O reprodutor atualiza seu conteúdo com base no manifesto gerado acima.
+* O player atualiza o conteúdo com base no manifesto gerado acima.
 
 ### Benefícios do uso do SmartSync {#benefits-of-using-smartsync}
 
-O recurso SmartSync oferece vários benefícios ao seu projeto AEM Screens. Permite
+O recurso SmartSync fornece vários benefícios para o seu projeto do AEM Screens. Ele permite
 
-* Redução drástica do tráfego de rede e dos requisitos de armazenamento do lado do servidor
-* O reprodutor baixa ativos de forma inteligente somente se o ativo estiver ausente ou alterado
+* Redução drástica do tráfego de rede e dos requisitos de armazenamento no servidor
+* O player baixa ativos de forma inteligente somente se o ativo estiver ausente ou for alterado
 * Otimizações de armazenamento do lado do servidor e do lado do cliente
 
 >[!NOTE]
 >
->A Adobe recomenda enfaticamente usar o SmartSync para projetos da AEM Screens.
+>A Adobe recomenda o uso do SmartSync em projetos AEM Screens.
 
-## Migração do ContentSync para SmartSync {#migrating-from-contentsync-to-smartsync}
+## Migração de ContentSync para SmartSync {#migrating-from-contentsync-to-smartsync}
 
 >[!NOTE]
 >
->Se você já tiver instalado AEM 6.3 Feature Pack 5 e AEM 6.4 Feature Pack 3, poderá ativar o SmartSync para ativos para melhorar o uso do espaço em disco. Para ativar o SmartSync, siga a seção abaixo para fazer a transição de ContentSync para SmartSync, permitindo assim o SmartSync.
+>Se você já instalou o Pacote de recursos 5 do AEM 6.3 e o Pacote de recursos 3 do AEM 6.4, é possível habilitar o SmartSync para ativos a fim de melhorar o uso do espaço em disco. Para habilitar o SmartSync, siga a seção abaixo para fazer a transição de ContentSync para SmartSync, habilitando o SmartSync.
 >
 >O SmartSync está disponível para o Screens Player com servidores compatíveis AEM 6.4.3 FP3.
 >
->Consulte os [Downloads do AEM Screens Player](https://download.macromedia.com/screens/) para baixar o player mais recente. A tabela a seguir descreve a versão mínima do reprodutor necessária para cada plataforma:
+>Consulte a [Downloads do AEM Screens Player](https://download.macromedia.com/screens/) para baixar o player mais recente. A tabela a seguir descreve a versão mínima do player necessária para cada plataforma:
 
-| **Plataforma** | **Versão mínima suportada do reprodutor** |
+| **Platform** | **Versão mínima suportada do reprodutor** |
 |---|---|
 | Android | 3.3.72 |
-| Chrome OS | 1.0.136 |
+| SO Chrome | 1.0.136 |
 | Windows | 1.0.136 |
 
-Siga as etapas abaixo para fazer a transição do ContentSync para o SmartSync:
+Siga as etapas abaixo para fazer a transição de ContentSync para SmartSync:
 
-1. A migração do ContentSync para o SmartSync requer a limpeza do cache do ContentSync antes de ativar o SmartSync.
+1. A migração de ContentSync para SmartSync requer a limpeza do cache ContentSync antes da ativação do SmartSync.
 
-   Navegue até o console ContentSync da sua instância usando o link ***https://localhost:4502/libs/cq/contentsync/content/console.html*** e clique em **Limpar Cache**, conforme mostrado na figura abaixo:
+   Navegue até o console ContentSync a partir da sua instância usando o link ***https://localhost:4502/libs/cq/contentsync/content/console.html*** e clique em **Limpar cache**, conforme mostrado na figura abaixo:
 
    ![clear_contesync_cache](assets/clear_contesync_cache.png)
 
    >[!CAUTION]
    >
-   >Todo o cache de conteúdo deve ser limpo antes de usar o SmartSync pela primeira vez.
+   >Todo o cache de conteúdo deve ser limpo antes da primeira utilização do SmartSync.
 
-1. Navegue até **Configuração do Adobe Experience Manager Web Console** por meio de AEM instância —> ícone de martelo —> **Operações** —> **Web Console**.
+1. Navegue até **Configuração do console da Web do Adobe Experience Manager** via instância do AEM —> ícone de martelo —> **Operações** —> **Console da Web**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **A** Configuração do Console da Web do Adobe Experience Manager é aberta. Procure por *offlinecontentservice*.
+1. **Configuração do console da Web do Adobe Experience Manager** é aberto. Pesquisar por *offlinecontentservice*.
 
-   Para pesquisar a propriedade **Screens Offline Content Service**, pressione **Command+F** para **Mac** e **Control+F** para **Windows**.
+   Para pesquisar o **Serviço de conteúdo offline do Screens** propriedade, pressione **Command+F** para **Mac** e **Ctrl+F** para **Windows**.
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. Clique em **Salvar** para ativar a propriedade **Serviços de Conteúdo Offline do Screens** e, portanto, usar o SmartSync para AEM Screens.
-1. Depois de habilitar o SmartSync, você deve navegar até o projeto e clicar em **Atualizar conteúdo offline** *(na barra de ações),* conforme mostrado na figura abaixo.
+1. Clique em **Salvar** para habilitar o **Serviços de conteúdo offline do Screens** propriedade e, portanto, usar SmartSync para AEM Screens.
+1. Após habilitar o SmartSync, navegue até o projeto e clique em **Atualizar conteúdo offline** *(na barra de ações),* conforme mostrado na figura abaixo.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

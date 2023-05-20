@@ -1,19 +1,19 @@
 ---
 title: Introdução ao [!UICONTROL AEM Screens]
-seo-title: Guia de práticas recomendadas para projetos do [!UICONTROL AEM Screens]
+seo-title: Best Practices Guide for [!UICONTROL AEM Screens] Projects
 description: Esta página é uma seção de introdução ao AEM Screens
-seo-description: Esta página fornece uma introdução ao AEM Screens
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: This page provides an introduction to AEM Screens
+exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '673'
 ht-degree: 83%
 
 ---
 
-
 # Introdução ao AEM Screens {#introduction}
 
-**AEM (Adobe Experience Manager)** Screensis é uma Solução de sinalização digital que permite criar, publicar e reproduzir experiências digitais dinâmicas e interativas envolvendo diferentes tipos de telas no local, em conjunto com uma estratégia abrangente de marketing digital omnicanal.
+**Telas de AEM (Adobe Experience Manager)** O é uma Solução de sinalização digital que permite criar, publicar e reproduzir experiências digitais dinâmicas e interativas envolvendo diferentes tipos de telas no local, em conjunto com uma estratégia abrangente de marketing digital omnicanal.
 
 O AEM Screens permite criar:
 
@@ -54,9 +54,9 @@ O AEM Screens fornece uma plataforma unificada de criação/reprodução para im
 
 * **Experiências interativas**: um aplicativo de quiosque habilitado para toque pode ser criado e entregue em um canal do Screens, usando o AEM e o editor SPA. É uma prática recomendada aplicar propriedades consistentes de design omnicanal, um temporizador de inatividade para redefinir a experiência e um call to action claro para quais tarefas o aplicativo pode executar. A página de aterrissagem deve consistir em elementos digitais principais, criados para transmitir valor, atrair o usuário para a tela e solicitar que o usuário se envolva.
 
-O AEM Screens fornece uma estrutura para implantar conteúdo em dispositivos físicos. O conteúdo é atribuído a Canais no Screens, que podem conter conteúdo de mídia ou aplicativos de tela sensível ao toque. Dentro dessa estrutura, um aplicativo AEM Sites pode ser fornecido como conteúdo por meio de um Canal.
+O AEM Screens fornece uma estrutura para implantar conteúdo em dispositivos físicos. O conteúdo é atribuído a Canais no Screens, que podem conter conteúdo de mídia ou aplicativos de tela sensível ao toque. Dentro dessa estrutura, um aplicativo do AEM Sites pode ser fornecido como conteúdo por meio de um Canal.
 
-Antes de ser lançado em um Canal no Screens, um AEM Sites deve ser formatado para uso nas dimensões do dispositivo de exibição para o qual se destina.
+Antes de ser lançado em um Canal no Screens, uma AEM Sites deve ser formatada para uso nas dimensões do dispositivo de exibição para o qual se destina.
 
 >[!NOTE]
 >Muitos componentes do AEM Sites não são compatíveis com o AEM Screens. O AEM Screens é fornecido com muitos de seus próprios componentes prontos para uso, permitindo criar experiências digitais sem a necessidade de personalização. Se os requisitos do projeto permitirem, use a funcionalidade integrada do AEM Screens, quando possível.

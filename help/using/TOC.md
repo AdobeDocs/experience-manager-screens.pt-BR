@@ -10,7 +10,7 @@ audience: end-user
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 77%
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 77%
 
 + [Sobre este guia](about-guide.md)
 + Visão geral {#overview}
-   + [Introdução ao AEM Screens](introduction.md)
+   + [Introdução para o AEM Screens](introduction.md)
    + [Funções e responsabilidades do projeto](roles-responsibilities.md)
    + [Pré-requisitos](pre-requisites.md)
    + [Principais elementos de um Projeto de sinalização digital](getting-started-digital-signage.md)
@@ -39,11 +39,11 @@ ht-degree: 77%
    + [Configurações da AEM Platform](aem-platform-configurations.md)
    + [Taxonomia e implementação do projeto](project-taxonomy-implementation.md)
    + Gerenciamento de tráfego de rede {#manage-network-traffic}
-      + [Gerenciamento do tráfego de rede](/help/using/managing-network-traffic.md)
-      + [Rede direta da Internet (com fio/sem fio)](/help/using/direct-internet-network.md)
+      + [Gerenciando o tráfego de rede](/help/using/managing-network-traffic.md)
+      + [Rede de Internet Direta (Com Fio/Sem Fio)](/help/using/direct-internet-network.md)
       + [Rede móvel direta](/help/using/mobile-network.md)
-      + [Rede móvel com roteador de dados móvel e componentes de rede ativos](/help/using/mobile-network-router.md)
-      + [Rede corporativa fechada (com fio/sem fio)](/help/using/enclosed-corporate-network.md)
+      + [Rede Móvel com Roteador de Dados Móvel e Componentes de Rede Ativos](/help/using/mobile-network-router.md)
+      + [Rede corporativa fechada (com fio/wireless)](/help/using/enclosed-corporate-network.md)
    + [Configurações do dispositivo](device-configurations.md)
    + [Teste e garantia da qualidade](testing-quality-assurance.md)
    + [Estratégia de engajamento do fornecedor](vendor-engagement.md)

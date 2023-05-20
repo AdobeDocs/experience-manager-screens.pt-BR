@@ -1,50 +1,49 @@
 ---
 title: Eventos orientados por dados
-seo-title: Eventos orientados por dados
-description: 'null'
-seo-description: nulo
+seo-title: Data Driven Events
+description: null
+seo-description: null
 page-status-flag: never-activated
 uuid: 138ceff2-84a2-47f2-981a-755522502c16
 contentOwner: jsyal
 discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
-translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 0%
 
 ---
 
 
 # Eventos orientados por dados{#data-driven-events}
 
-Na assinatura digital, os eventos orientados por dados envolvem e transmitem informações em tempo real por meio do uso interativo de menus digitais e murais de vídeo. É possível maximizar o experiência do usuário com os eventos orientados por dados.
+Na sinalização digital, os eventos orientados por dados envolvem e transmitem informações em tempo real pelo uso interativo de menus digitais e paredes de vídeo. Você pode maximizar a experiência do usuário com eventos orientados por dados.
 
-## Usar o Context Hub para eventos orientados por dados {#using-context-hub-for-data-driven-events}
+## Uso do Context Hub para eventos orientados por dados {#using-context-hub-for-data-driven-events}
 
-O AEM Screens permite eventos conduzidos por dados no Context Hub. O Context Hub, permite usar em tempo real
+O AEM Screens ativa eventos orientados por dados por meio do Context Hub. Context Hub, permite usar o recurso de
 
-### Categorizar eventos orientados por dados {#categorizing-data-driven-events}
+### Categorização de eventos orientados por dados {#categorizing-data-driven-events}
 
-Os eventos orientados por dados são categorizados em quatro categorias diferentes:
+Os eventos orientados por dados são classificados em quatro categorias diferentes:
 
-* Dados em operacionais
-* Dados na apresentação
-* Dados de acionáveis
-* Dados da apresentação
+* Dados em Operacional
+* Dados na Apresentação
+* Saída de dados acionável
+* Apresentação de saída de dados
 
-#### Dados em operacionais  {#data-in-operational}
+#### Dados em Operacional {#data-in-operational}
 
-Isso também pode ser categorizados em Interrupção de canal e Espaço reservado.
+Isso pode ser categorizado em Interrupção de canal e Espaço reservado.
 
-#### Dados na apresentação  {#data-in-presentation}
+#### Dados na Apresentação {#data-in-presentation}
 
-Os dados estão em execução no canal temporário e, após um acionador, alteram um ativo dentro de um canal.
+Os dados estão sendo executados no canal temporário do e, após um acionador, o altera um ativo dentro de um canal.
 
-#### Dados de acionáveis  {#data-out-actionable}
+#### Saída de dados acionável {#data-out-actionable}
 
-Quando um comando é enviado à tela LCD para ligar ou desligar a tela. Exemplo: brilho ou volume da tela.
+Quando um comando é enviado à tela de LCD para ligar e desligar a tela. Exemplo, brilho ou volume da tela.
 
-#### Dados da apresentação  {#data-out-presentational}
+#### Apresentação de dados {#data-out-presentational}
 
-Gráfico que agrega informações no loop de feedback. Usa análises para avaliar e observar os eventos.
+Gráfico agregando as informações no loop de comentários. Ele usa o Analytics para avaliar e observar eventos.

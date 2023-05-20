@@ -1,41 +1,41 @@
 ---
 title: Glossário
-seo-title: Glossário
+seo-title: Glossary
 description: Siga esta página para entender os termos principais associados ao AEM Screens.
-seo-description: Siga esta página para entender os termos principais associados ao AEM Screens.
-feature: Visão geral
+seo-description: Follow this page to understand the key terms associated with AEM Screens.
+feature: Overview
 role: User
 level: Beginner
 exl-id: 5b5d5251-90bf-4ef0-8300-76093f725291
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 11%
+source-wordcount: '456'
+ht-degree: 0%
 
 ---
 
 # Glossário {#glossary}
 
-**Canal** de aplicativoUm Canal de aplicativo mostra um aplicativo criado por um desenvolvedor que exibe o conteúdo interativo.
+**Canal do aplicativo** Um Canal de aplicativo mostra um aplicativo criado por um desenvolvedor que exibe conteúdo interativo.
 
-**Loop de** atraçãoUm loop de atrair é definido como o  ** hipotético ou  ** vazio quando o monitor tem dois ou mais estados em que pode existir. Sua função é *atrair* clientes para o monitor e incentivá-los a se engajarem, geralmente tocando na tela, mas também pode ser interagindo com um produto.
+**Atrair loop** Um loop de atração é definido como o *home* ou *ocioso* quando a exibição tiver dois ou mais estados nos quais pode existir. O seu papel é *atrair* Os clientes do ao monitor e incentivá-los a se envolver, geralmente tocando na tela, mas também pode ser interagindo com um produto.
 
-**** DayPartingDayParting refere-se à divisão de um dia em períodos de tempo e à especificação de qual conteúdo é reproduzido no horário desejado. O AEM Screens permite agendar canais em termos de DayParting em um dia, semana ou mês, de acordo com a necessidade.
+**DayParting** DayParting refere-se à divisão de um dia em intervalos de tempo e à especificação de qual conteúdo é reproduzido no horário desejado. O AEM Screens permite agendar canais em termos de DayParting em um dia, semana ou mês, de acordo com o requisito.
 
-**** DispositivoUm dispositivo tem a capacidade de executar o software do player para produzir uma saída visual. Ele é capaz de controlar a exibição de uma parte recortada, dimensionada e traduzida de conteúdo ou experiência comum. A configuração da tela está vinculada a uma exibição, mas pode ser substituída caso ocorra um defeito técnico.
+**Dispositivo** Um dispositivo pode executar o software do reprodutor para produzir uma saída visual. Ele é capaz de controlar a exibição de uma parte cortada, dimensionada e traduzida do conteúdo ou da experiência comum. A configuração da tela é vinculada a um monitor, mas pode ser substituída caso ocorra um defeito técnico.
 
-**** ExibiçãoUma exibição é um agrupamento virtual de telas que geralmente são posicionadas próximas umas das outras. A exibição é, em geral, permanente com relação a uma instalação. Esse será o objeto no qual os autores de conteúdo irão trabalhar e é sempre referenciado como uma exibição lógica em vez de suas contrapartes físicas.
+**Exibir** Uma exibição é um agrupamento virtual de telas que geralmente são posicionadas uma ao lado da outra. O visor é geralmente permanente em relação a uma instalação. Esse será o objeto com o qual os autores de conteúdo trabalharão e sempre se referirão como exibição lógica em vez de suas contrapartes físicas.
 
-**** FirmwareFirmware é o termo dado ao software que é executado no dispositivo dentro do aplicativo do player em uma exibição da Web. É uma camada de javascript que executa o conteúdo contido em um canal no iFrames e fornece acesso a recursos nativos por meio de plug-ins. O firmware pode ser atualizado sem atualizar o aplicativo do player.
+**Firmware** Firmware é o termo dado ao software que é executado no dispositivo dentro do aplicativo do reprodutor em uma visualização da Web. É uma camada javascript que executa o conteúdo contido em um canal dentro do iFrames e fornece acesso a recursos nativos por meio de plug-ins. O firmware pode ser atualizado sem atualizar o aplicativo do reprodutor.
 
-**Live** CopyUma Live Copy é uma cópia do conteúdo específico do site para o qual é mantido um relacionamento dinâmico com a fonte original. Este relacionamento dinâmico permite que a live copy herde as propriedades do conteúdo e da página de origem.
+**Live Copy** Uma Live Copy é uma cópia do conteúdo específico do site para o qual é mantido um relacionamento dinâmico com a origem original. Esse relacionamento dinâmico permite que a live copy herde conteúdo e propriedades de página da origem.
 
-**Localização/localização** PastaLocalizações ou locais dentro da pasta de localização hospedam a configuração das exibições de acordo com onde estão as várias telas.
+**Pasta de local/local** Os locais ou locais dentro da pasta de local hospedam a configuração das exibições de acordo com o local em que as várias telas estão.
 
-**Player** SoftwareO player é o aplicativo de software executado em um dispositivo que permitirá que você mostre um canal em um monitor.
+**Software do reprodutor** O reprodutor é o aplicativo de software em execução em um dispositivo que permitirá mostrar um canal em uma tela.
 
-**** TelaUma tela é um monitor físico ou qualquer outro sistema capaz de produzir saída visual, que mostra o conteúdo proveniente de seu dispositivo.
+**Tela** Uma tela é um monitor físico ou qualquer outro sistema capaz de produzir saída visual, que mostra o conteúdo proveniente de seu dispositivo.
 
-**Canal de sequência** Um Canal de sequência é uma página que você pode criar componentes que serão mostrados um por um em uma apresentação de slides.
+**Canal de sequência** Um Canal de sequência é uma página que você pode criar contendo componentes que serão mostrados um por um em uma apresentação de slides.
 
-**** ZonesZones são segmentação de exibições que são usadas como entidades endereçáveis primárias para canais. Em instâncias, onde exibições abrangem várias telas, é vantajoso definir as zonas para corresponder às dimensões da tela, especialmente se as telas mostrarem uma borda física de destaque.
+**Zonas** As zonas são a segmentação de exibições usadas como entidades endereçáveis principais para canais. Nos casos em que as exibições abrangem várias telas, é vantajoso definir as zonas para corresponder às dimensões da tela, especialmente se as telas mostrarem uma borda física proeminente.

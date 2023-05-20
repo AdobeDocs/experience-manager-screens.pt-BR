@@ -1,7 +1,7 @@
 ---
 title: Implementação do controle remoto
 seo-title: Impementing the Remote Control
-description: Siga esta página para saber mais sobre o recurso de controle remoto do Screens.
+description: Siga esta página para saber mais sobre o recurso Controle remoto do Screens.
 seo-description: Follow  this page to learn about using the Screens Remote Control Feature.
 uuid: eee84286-fa81-475c-ad6f-db2d6cf1fed5
 contentOwner: jsyal
@@ -12,7 +12,8 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: a256f624c4b647deb4cee7668665ad7b576932e7
+exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
+source-git-commit: 6cd68194bf3128464ec368f3e7fd69d20925c3d6
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -21,36 +22,36 @@ ht-degree: 0%
 
 # Uso do controle remoto do Screens  {#implementing-remote-control}
 
-O recurso de controle remoto facilita o acesso à interface do usuário do administrador, ao seletor de canal ou a recursos como Limpar cache e recarregar. Além disso, ele fornece um método para ver a versão do firmware local e as informações do sistema no player. Isso é especialmente útil porque pode ser difícil conectar um mouse e operar em dispositivos de produção que estão fora do alcance e ainda mais se o reprodutor tiver perdido a conexão com o AEM. Isso também é útil ao usar o RMS da Samsung, pois a diferença de resolução pode tornar muito difícil localizar e abrir a interface do usuário do administrador usando um mouse.
+O recurso de controle remoto facilita o acesso à interface do Administrador, ao alternador de canal ou a recursos como Limpar cache e recarregar. Além disso, ele fornece um método para ver a versão do firmware local e as informações do sistema no reprodutor. Isso é especialmente útil porque pode ser difícil conectar um mouse e operar em dispositivos de produção que estão fora de alcance e ainda mais se o reprodutor tiver perdido a conexão com o AEM. Isso também é útil ao usar o Samsung RMS, pois a diferença de resolução pode dificultar muito a localização e a abertura da interface do usuário do Administrador usando um mouse.
 
-## Combinações Comuns De Teclas De Controle Remoto {#using-common-remote-control}
+## Combinações de teclas comuns do controle remoto {#using-common-remote-control}
 
-Em todos os players, você pode usar as seguintes combinações de teclas no Controle Remoto do Screens:
+Em todos os reprodutores você pode usar as seguintes combinações de teclas no controle remoto do Screens:
 
 1. Alternar interface do administrador - CTRL + 1
-1. Alternar seletor de canal - CTRL + 2
+1. Alternar alternador de canal - CTRL + 2
 1. Limpar cache - CTRL + ALT + 3
-1. Recarregar reprodutor - CTRL + 4
+1. Recarregar player - CTRL + 4
 
-## Ajustar combinações específicas de teclas de controle remoto {#using-tizen-remote-control}
+## Combinações de teclas específicas do controle remoto {#using-tizen-remote-control}
 
-Específico para o Tizen player, você pode usar o controle remoto de hardware ou o software disponível no Samsung RMS para acessar esses recursos:
+Específico para o reprodutor Tizen, você pode usar o remoto de hardware ou o remoto de software disponível no Samsung RMS para acessar esses recursos:
 
-1. A - Alternar a interface do usuário do administrador
-1. B - Alternar seletor de canal
+1. A - Alternar a interface do administrador
+1. B - Alternar alternador de canal
 1. C - Limpar cache
-1. D - Recarregar reprodutor
+1. D - Recarregar player
 
-## Observações adicionais de uso {#using-additional-remote-control}
+## Observações de uso adicionais {#using-additional-remote-control}
 
-1. Com a Interface do usuário do administrador aberta, você pode usar as setas para cima e para baixo para navegar pelas guias e exibir as informações nas guias.
-1. Com o seletor de canal aberto, você pode usar as teclas das setas para cima e para baixo para navegar pelos canais e pode pressionar a tecla enter (ou o botão no centro das setas no controle remoto) para trocar de canal.
+1. Com a interface do usuário do Administrador aberta, é possível usar as setas para cima e para baixo para navegar pelas guias e exibir informações nas guias.
+1. Com o alternador de canais aberto, você pode usar as teclas de seta para cima e para baixo para navegar pelos canais e pressionar a tecla Enter (ou o botão no centro das setas no controle remoto) para alternar canais.
 
-O diagrama a seguir ilustra o uso de chave em um controle remoto da Samsung:
+O diagrama a seguir ilustra o uso de chaves em um remoto Samsung:
 ![imagem](assets/tizen/remote.png)
 
 >[!NOTE]
->Se você definir os valores de configuração do dispositivo de enableAdminUI e/ou enableOSD como false, o controle remoto não alternará a interface do usuário do administrador e o seletor de canal. Você também não poderá usar as teclas de seta para navegar na interface do usuário ou nos canais do administrador. No entanto, ainda é possível limpar o cache e recarregar o player. Você pode desativar o recurso de controle remoto se qualquer combinação de teclado entrar em conflito com seu conteúdo interativo usando este código:
+>Se você definir os valores de configuração de dispositivo de enableAdminUI e/ou enableOSD como false, o remoto não alternará a interface do administrador e o alternador de canal. Você também não poderá usar as teclas de seta para navegar pela interface do administrador ou pelos canais. No entanto, ainda é possível limpar o cache e recarregar o player. Você pode desativar o recurso de controle remoto se qualquer uma das combinações de teclado entrar em conflito com seu conteúdo interativo usando este código:
 
 ```
 require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 

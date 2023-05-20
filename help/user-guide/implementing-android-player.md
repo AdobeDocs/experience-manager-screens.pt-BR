@@ -23,129 +23,129 @@ ht-degree: 0%
 
 # Implementação do Android Player {#implementing-android-player}
 
-Esta seção descreve como configurar o Android player. Ele fornece informações sobre o arquivo de configuração e as opções disponíveis, além de recomendações sobre quais configurações usar para desenvolvimento e teste.
+Esta seção descreve a configuração do Android Player. Ele fornece informações do arquivo de configuração e as opções disponíveis, além de recomendações sobre quais configurações usar para desenvolvimento e teste.
 
-Além disso, **Guardião** é uma solução para recuperar o reprodutor de falhas. Um aplicativo precisa se registrar no serviço de vigilância e enviar mensagens periodicamente ao serviço de que está vivo. Caso o serviço de watchdog não receba uma mensagem keep-alive dentro de um tempo determinado, o serviço tenta reinicializar o dispositivo para uma recuperação limpa (se ele tiver os privilégios suficientes) ou reiniciar o aplicativo.
+Além disso, **Watchdog** O é uma solução para recuperar o reprodutor de falhas. Um aplicativo precisa se registrar no serviço de vigia e enviar periodicamente mensagens para o serviço informando que ele está ativo. Caso o serviço de vigia não receba uma mensagem de manutenção de atividade em um tempo estipulado, o serviço tentará reinicializar o dispositivo para uma recuperação limpa (se ele tiver privilégios suficientes) ou reiniciar o aplicativo.
 
 ## Instalação do Android Player {#installing-android-player}
 
-Para implementar o Android Player no AEM Screens, instale o Android Player no AEM Screens.
+Para implementar o Android Player para AEM Screens, instale o Android Player para AEM Screens.
 
-Visite o [**Downloads do AEM 6.5 Player**](https://download.macromedia.com/screens/) página.
+Visite o [**Downloads do reprodutor AEM 6.5**](https://download.macromedia.com/screens/) página.
 
-### Configuração do Ambiente para o AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
+### Configuração do ambiente para o AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
->Você deve configurar um ambiente para o Android player, se estiver usando o AEM Screens 6.5.5 Service Pack.
+>Você deve configurar um ambiente para o Android Player se estiver usando o AEM Screens 6.5.5 Service Pack.
 
-Defina as **Atributo SameSite para os cookies do token de logon** from **Lax** para **Nenhum** from **Configuração do Console da Web do Adobe Experience Manager** em todas as instâncias de criação e publicação AEM.
+Defina o **Atributo SameSite para os cookies de token de logon** de **Lax** para **Nenhum** de **Configuração do console da Web do Adobe Experience Manager** em todas as instâncias de autor e publicação do AEM.
 
 Siga as etapas abaixo:
 
-1. Navegar para **Configuração do Console da Web do Adobe Experience Manager** usar `http://localhost:4502/system/console/configMgr`.
+1. Navegue até **Configuração do console da Web do Adobe Experience Manager** usar `http://localhost:4502/system/console/configMgr`.
 
-1. Procurar por *Manipulador de Autenticação de Token do Adobe Granite*.
+1. Pesquisar por *Manipulador de autenticação de token do Adobe Granite*.
 
-1. Defina as **Atributo SameSite para os cookies do token de logon** from **Lax** para **Nenhum**.
+1. Defina o **Atributo SameSite para os cookies de token de logon** de **Lax** para **Nenhum**.
    ![imagem](/help/user-guide/assets/granite-updates.png)
 
 1. Clique em **Salvar**.
 
 
-### Método ad-hoc {#ad-hoc-method}
+### Método Ad-Hoc {#ad-hoc-method}
 
-O método Ad-Hoc permite instalar o Player do Android mais recente (*.exe*). Visita [**Downloads do AEM 6.5 Player**](https://download.macromedia.com/screens/) página.
+O método Ad-Hoc permite instalar o Player mais recente do Android (*.exe*). Visita [**Downloads do reprodutor AEM 6.5**](https://download.macromedia.com/screens/) página.
 
 Depois de baixar o aplicativo, siga as etapas no reprodutor para concluir a instalação ad-hoc:
 
-1. Pressione e segure no canto superior esquerdo para abrir o painel do administrador.
-1. Navegar para **Configuração** no menu ação à esquerda, digite o local (endereço) da instância de AEM à qual deseja se conectar e clique em **Salvar**.
+1. Pressione e segure no canto superior esquerdo para abrir o painel de administração.
+1. Navegue até **Configuração** no menu de ação esquerdo, digite o local (endereço) da instância de AEM à qual deseja se conectar e clique em **Salvar**.
 
-1. Navegue até o **Dispositivo** **Registro** link no menu de ação à esquerda para verificar o status do processo de registro do dispositivo.
+1. Navegue até a **Dispositivo** **Registro** no menu de ação esquerdo para verificar o status do processo de registro do dispositivo.
 
 >[!NOTE]
 >
->Se a variável **Estado** é **REGISTRADO**, você observará o **ID do dispositivo** será preenchida.
+>Se a variável **Estado** é **REGISTRADO**, você observará o **ID do dispositivo** será preenchido.
 >
 >Se a variável **Estado** é **NÃO REGISTRADO**, você pode usar o **Token** para registrar o dispositivo.
 
-## Implementação do Android Watchdog {#implementing-android-watchdog}
+## Implementação do Watchdog do Android {#implementing-android-watchdog}
 
-Devido à arquitetura do Android, a reinicialização do dispositivo requer que o aplicativo tenha privilégios de sistema. Para fazer isso, é necessário assinar o apk usando as chaves de assinatura do fabricante; caso contrário, o watchdog reiniciará o aplicativo do reprodutor e não reinicializará o dispositivo.
+Devido à arquitetura do Android, a reinicialização do dispositivo requer que o aplicativo tenha privilégios de sistema. Para fazer isso, você precisa assinar o apk usando as chaves de assinatura do fabricante, caso contrário, o watchdog reiniciará o aplicativo de reprodução e não reinicializará o dispositivo.
 
-### Sinalização de aplicativos Android usando chaves de fabricante {#signage-of-android-apks-using-manufacturer-keys}
+### Sinalização de apks Android usando chaves do fabricante {#signage-of-android-apks-using-manufacturer-keys}
 
-Para acessar algumas das APIs privilegiadas do Android, como *PowerManager* ou *HDMIControlServices*, é necessário assinar o aplicativo android usando as chaves do fabricante.
+Para acessar algumas APIs privilegiadas do Android, como *PowerManager* ou *HDMIControlServices*, você precisa assinar o apk android usando as chaves do fabricante.
 
 >[!CAUTION]
 >
 >Pré-requisitos:
 >
->Você deve ter o SDK do android instalado antes de executar as etapas a seguir.
+>Você deve ter o Android SDK instalado antes de executar as etapas a seguir.
 
-Siga as etapas abaixo para assinar o aplicativo android usando as chaves do fabricante:
+Siga as etapas abaixo para assinar o apk android usando as chaves do fabricante:
 
-1. Baixe o apk do Google Play ou do [Downloads do AEM Screens Player](https://download.macromedia.com/screens/) página
-1. Obtenha as chaves da plataforma do fabricante para obter uma *pk8* e *pem* arquivo
+1. Baixe o aplicativo da Google Play ou do [Downloads do AEM Screens Player](https://download.macromedia.com/screens/) página
+1. Obtenha as chaves de plataforma do fabricante para obter um *pk8* e uma *pem* arquivo
 
-1. Localize a ferramenta do assinante no sdk do android usando find ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;
+1. Localize a ferramenta apksigner no Android Sdk usando find ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;
 1. &lt;pathto> /apksigner sign —key platform.pk8 —cert platform.x509.pem aemscreensplayer.apk
-1. Encontre o caminho para a ferramenta zip align no android sdk
-1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensalign.apk
-1. Instalar ***aemscreensalign.apk*** usando adb install para o dispositivo
+1. Encontre o caminho para a ferramenta de alinhamento do zip no Android Sdk
+1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk
+1. Instalar ***aemscreensaligned.apk*** usando adb install para o dispositivo
 
-## Noções básicas sobre os serviços do Android Watchdog {#android-watchdog-services}
+## Noções básicas sobre os serviços de Watchdog do Android {#android-watchdog-services}
 
-O serviço de monitoramento entre Android é implementado como um plug-in cordova usando *AlarmManager*.
+O serviço de vigia entre Android é implementado como um plug-in cordova usando *GerenciadorDeAlarmes*.
 
-O diagrama a seguir mostra a implementação do serviço de vigilância:
+O diagrama a seguir mostra a implementação do serviço de vigia do:
 
 ![chlimage_1-31](assets/chlimage_1-31.png)
 
-**1. Inicialização** No momento da inicialização do plugin cordova, as permissões são verificadas para ver se temos privilégios de sistema e, portanto, a permissão Reinicialização . Se esses dois critérios forem atendidos, um Propósito pendente de reinicialização será criado; caso contrário, um Propósito pendente de reiniciar o aplicativo (com base em sua Atividade de inicialização) será criado.
+**1. Inicialização** No momento da inicialização do plug-in cordova, as permissões são verificadas para ver se temos privilégios de sistema e, portanto, a permissão Reinicializar. Se esses dois critérios forem atendidos, uma intenção pendente de reinicialização será criada; caso contrário, uma intenção pendente de reiniciar o aplicativo (com base em sua atividade de inicialização) será criada.
 
-**2. Manter Temporizador Vivo** Um temporizador keep alive é usado para acionar um evento a cada 15 segundos. Nesse caso, você precisa cancelar a intenção pendente existente (para reiniciar ou reiniciar o aplicativo) e registrar uma nova intenção pendente por 60 segundos no futuro (essencialmente adiar a reinicialização).
+**2. Temporizador Keep Alive** Um temporizador keep-alive é usado para acionar um evento a cada 15 segundos. Nesse caso, é necessário cancelar a intenção pendente existente (reinicializar ou reiniciar o aplicativo) e registrar uma nova intenção pendente pelos mesmos 60 segundos no futuro (essencialmente adiando a reinicialização).
 
 >[!NOTE]
 >
->No Android, a variável *AlarmManager* é usado para registrar a variável *pendingIntents* que pode ser executado mesmo que o aplicativo tenha travado e sua entrega de alarme seja inexata da API 19 (Kitkat). Mantenha algum espaçamento entre o intervalo do cronômetro e a variável *do AlarmManager* *pendingIntent&#39;s* alarme.
+>No Android, a variável *GerenciadorDeAlarmes* é usado para registrar o *pendingIntents* que pode ser executado mesmo se o aplicativo tiver falhado e o delivery do alarme for inexato da API 19 (Kitkat). Mantenha algum espaçamento entre o intervalo do cronômetro e o *do AlarmManager* *pendingIntent* alarme.
 
-**3. Falha do aplicativo** Em caso de falha, o pendingIntent for Reboot registrado com o AlarmManager não será mais redefinido e, portanto, ele executará uma reinicialização ou reinicialização do aplicativo (dependendo das permissões disponíveis no momento da inicialização do plug-in cordova).
+**3. Falha do aplicativo** No caso de uma falha, o pendingIntent para reinicialização registrado com o AlarmManager não é mais redefinido e, portanto, executa uma reinicialização ou reinicialização do aplicativo (dependendo das permissões disponíveis no momento da inicialização do plug-in cordova).
 
-## Provisionamento em massa do reprodutor Android {#bulk-provision-android-player}
+## Provisionamento em massa do Android Player {#bulk-provision-android-player}
 
-Ao implantar o reprodutor do Android em massa, é necessário provisionar o reprodutor para apontar para uma instância do AEM, bem como configurar outras propriedades sem inseri-las manualmente na interface do usuário do administrador.
+Ao implantar o reprodutor Android em massa, é necessário provisionar o reprodutor para apontar para uma instância de AEM, bem como configurar outras propriedades sem inserir manualmente essas propriedades na interface do administrador.
 
 >[!NOTE]
 >Esse recurso está disponível no Android player 42.0.372.
 
 Siga as etapas abaixo para permitir o provisionamento em massa no reprodutor Android:
 
-1. Criar um arquivo JSON de configuração com o nome `player-config.default.json`.
-Consulte um [Exemplo de política JSON](#example-json) , bem como uma tabela que descreve o uso das várias [Atributos de política](#policy-attributes).
+1. Crie um arquivo JSON de configuração com o nome `player-config.default.json`.
+Consulte uma [Exemplo de política JSON](#example-json) bem como uma tabela que descreve a utilização dos vários [Atributos da política](#policy-attributes).
 
-1. Use um explorador de arquivos MDM ou ADB ou Android Studio para soltar esse arquivo JSON de política no *sdcard* no dispositivo Android.
+1. Use um explorador de arquivos MDM, ADB ou Android Studio para soltar esse arquivo JSON de política no *sdcard* no dispositivo Android.
 
 1. Depois que o arquivo for implantado, use o MDM para instalar o aplicativo do reprodutor.
 
-1. Quando o aplicativo do reprodutor for iniciado, ele lerá esse arquivo de configuração e apontará para o servidor de AEM aplicável, onde ele pode ser registrado e controlado posteriormente.
+1. Quando o aplicativo reprodutor for iniciado, ele lerá esse arquivo de configuração e apontará para o servidor AEM aplicável, onde ele poderá ser registrado e controlado subsequentemente.
 
    >[!NOTE]
-   >Este arquivo é *somente leitura* a primeira vez que o aplicativo é iniciado e não pode ser usado para configurações subsequentes. Se o reprodutor for iniciado antes da queda do arquivo de configuração, basta desinstalar e reinstalar o aplicativo no dispositivo.
+   >Este arquivo é *somente leitura* na primeira vez que o aplicativo é iniciado e não pode ser usado para configurações subsequentes. Se o reprodutor for iniciado antes que o arquivo de configuração seja descartado, basta desinstalar e reinstalar o aplicativo no dispositivo.
 
-### Atributos de política {#policy-attributes}
+### Atributos da política {#policy-attributes}
 
-A tabela a seguir resume os atributos de política com um exemplo de JSON de política para referência:
+A tabela a seguir resume os atributos da política com um exemplo de JSON de política para referência:
 
 | **Nome da política** | **Propósito** |
 |---|---|
-| *server* | O URL para o servidor Adobe Experience Manager. |
+| *servidor* | O URL para o servidor do Adobe Experience Manager. |
 | *resolução* | A resolução do dispositivo. |
-| *reotSchedule* | O agendamento para reinicialização se aplica a todas as plataformas. |
-| *enableAdminUI* | Ative a interface do usuário do administrador para configurar o dispositivo no site. Defina como *false* depois de estar totalmente configurado e em produção. |
-| *enableOSD* | Ative a interface do usuário do seletor de canal para que os usuários alternem os canais no dispositivo. Considere a configuração de *false* depois de estar totalmente configurado e em produção. |
-| *enableActivityUI* | Ative para mostrar o progresso de atividades como download e sincronização. Ative para solução de problemas e desative assim que estiver totalmente configurado e em produção. |
-| *enableNativeVideo* | Ative o uso da aceleração de hardware nativa para reprodução de vídeo (somente Android). |
+| *rebootSchedule* | O cronograma para reinicializar se aplica a todas as plataformas. |
+| *enableAdminUI* | Habilite a interface do Administrador para configurar o dispositivo no site. Defina como *false* depois que estiver totalmente configurado e em produção. |
+| *enableOSD* | Habilite a interface do alternador de canal para que os usuários alternem canais no dispositivo. Considere configurar como *false* depois que estiver totalmente configurado e em produção. |
+| *enableActivityUI* | Permite mostrar o progresso de atividades como download e sincronização. Ative para solução de problemas e desative depois que estiver totalmente configurado e em produção. |
+| *enableNativeVideo* | Permitir o uso da aceleração de hardware nativa para reprodução de vídeo (somente Android). |
 
 ### Exemplo de política JSON {#example-json}
 
@@ -172,40 +172,40 @@ A tabela a seguir resume os atributos de política com um exemplo de JSON de pol
 ```
 
 >[!NOTE]
->Todos os dispositivos Android têm um *sdcard* pasta se uma *sdcard* é inserido ou não. Esse arquivo, quando implantado, estaria no mesmo nível da pasta Downloads. Alguns MDMs como Samsung Knox podem se referir a isso *sdcard* localização da pasta como *Armazenamento interno*.
+>Todos os dispositivos Android têm um *sdcard* pasta se um real *sdcard* foi inserido ou não. Esse arquivo, quando implantado, estaria no mesmo nível que a pasta Downloads. Alguns MDMs, como Samsung Knox, podem se referir a isso *sdcard* local da pasta como *Armazenamento interno*.
 
-## Provisionamento em massa do Android Player usando o Gerenciamento de mobilidade empresarial {#bulk-provisioning}
+## Provisionamento em massa do Android Player usando o Enterprise Mobility Management {#bulk-provisioning}
 
-Ao implantar o reprodutor Android em massa, é entediante registrar manualmente cada reprodutor com AEM. É altamente recomendável usar uma solução EMM (Enterprise Mobility Management) como VMWare Airwatch, MobileIron ou Samsung Knox para provisionar e gerenciar remotamente sua implantação. O AEM Screens Android player é compatível com o EMM AppConfig padrão do setor para permitir provisionamento remoto.
+Ao implantar o reprodutor Android em massa, é entediante registrar manualmente cada um dos reprodutores com AEM. É altamente recomendável usar uma solução EMM (Enterprise Mobility Management), como VMWare Airwatch, MobileIron ou Samsung Knox, para provisionar e gerenciar remotamente sua implantação. O AEM Screens Android Player oferece suporte ao EMM AppConfig padrão do setor para permitir o provisionamento remoto.
 
-## Nomenclatura do reprodutor Android {#name-android}
+## Nomeação do reprodutor Android {#name-android}
 
-Você pode atribuir um nome de dispositivo amigável ao seu player Android, enviando o nome de dispositivo atribuído ao Adobe Experience Manager (AEM). Esse recurso permite não apenas nomear o player Android, mas também atribuir facilmente o conteúdo apropriado.
+Você pode atribuir um nome de dispositivo amigável ao seu reprodutor Android, enviando assim o nome de dispositivo atribuído ao Adobe Experience Manager (AEM). Esse recurso não só permite nomear o player do Android, como também permite atribuir facilmente o conteúdo apropriado.
 
 >[!NOTE]
 >Você pode escolher o nome do Player somente antes do registro. Depois que o Player é registrado, o nome do Player não pode mais ser alterado.
 
-Siga as etapas abaixo para configurar o nome no player do Android:
+Siga as etapas abaixo para configurar o nome no reprodutor Android:
 
-1. Navegar para **configurações** —> **Sobre dispositivo**
-1. Edite e defina o nome do seu dispositivo com o nome do seu reprodutor Android
+1. Navegue até **configurações** —> **Sobre o dispositivo**
+1. Edite e defina o nome do dispositivo para nomear o player do Android
 
 ### Implementação do provisionamento em massa do Android Player usando o Gerenciamento de mobilidade empresarial {#implementation}
 
 Siga as etapas abaixo para permitir o provisionamento em massa no Android Player:
 
-1. Certifique-se de que o dispositivo Android seja compatível com os serviços da Google Play.
-1. Registre seus dispositivos Android player com sua solução EMM favorita compatível com o AppConfig.
+1. Verifique se o dispositivo Android oferece suporte aos serviços da Google Play.
+1. Inscreva seus dispositivos Android player com sua solução EMM favorita compatível com AppConfig.
 1. Faça logon no console do EMM e extraia o aplicativo AEM Screens Player do Google Play.
-1. Selecione a opção de configuração gerenciada ou a opção relacionada.
+1. Selecione a configuração gerenciada ou a opção relacionada.
 1. Agora você deve ver uma lista de opções do player que podem ser configuradas, como servidor e código de registro em massa.
 1. Configure esses parâmetros, salve e implante a política nos dispositivos.
 
    >[!NOTE]
-   >Os dispositivos devem receber o aplicativo junto com a configuração e apontar para o servidor de AEM correto com a configuração selecionada. Se você optar por configurar o código de registro em massa e mantê-lo igual ao configurado no AEM, o reprodutor deverá ser capaz de se registrar automaticamente. Se você tiver configurado uma exibição padrão, ela também poderá baixar e mostrar algum conteúdo padrão (que poderá ser alterado posteriormente de acordo com sua conveniência).
+   >Os dispositivos devem receber o aplicativo junto com a configuração e apontar para o servidor AEM correto com a configuração selecionada. Se você optar por configurar o código de registro em massa e mantê-lo conforme configurado no AEM, o reprodutor deverá ser capaz de se registrar automaticamente. Se você tiver configurado uma exibição padrão, ela também poderá baixar e mostrar algum conteúdo padrão (que poderá ser alterado posteriormente de acordo com sua conveniência).
 
-Além disso, verifique com seu fornecedor de EMM o suporte ao AppConfig. Os mais populares, como [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [Ferro Móvel](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) e [Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) entre outros, são compatíveis com esse padrão do setor.
+Além disso, você deve consultar o fornecedor de EMM sobre o suporte ao AppConfig. Os mais populares, como [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [Ferro móvel](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [UEM do Blackberry](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) e [Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) entre outros, suportam esse padrão do setor.
 
 ### Uso do controle remoto do Screens {#using-remote-control}
 
-O AEM Screens fornece a funcionalidade de Controle remoto. Saiba mais sobre este recurso aqui: [Controle remoto do Screens](implementing-remote-control.md)
+O AEM Screens oferece a funcionalidade de Controle remoto. Saiba mais sobre esse recurso aqui: [Controle remoto do Screens](implementing-remote-control.md)

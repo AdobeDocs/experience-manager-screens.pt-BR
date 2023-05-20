@@ -1,95 +1,95 @@
 ---
 title: Representações de vídeo
-seo-title: Representações de vídeo
-description: Siga esta página para saber como gerar representações em full HD para seu projeto do Screens.
-seo-description: Siga esta página para saber como gerar representações em full HD para seu projeto do Screens.
+seo-title: Video Renditions
+description: Siga esta página para saber mais sobre como gerar representações de alta definição total para o seu projeto do Screens.
+seo-description: Follow this page to learn about generating full HD renditions for your Screens project.
 uuid: 0a3b009e-8a97-4396-ad47-97077fe26cde
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
-feature: Telas de criação
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 64%
+source-wordcount: '409'
+ht-degree: 0%
 
 ---
 
 # Representações de vídeo {#video-renditions}
 
-Você pode gerar representações em Full HD manuais e automáticas. A seção a seguir descreve o fluxo de trabalho para adicionar representações aos seus ativos.
+Você pode gerar representações manuais e automáticas de Full HD. A seção a seguir descreve o fluxo de trabalho para adicionar representações aos seus ativos.
 
-## Geração automática de representações em Full HD  {#automatically-generating-full-hd-renditions}
+## Gerando representações de alta definição total automaticamente  {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->Caso as representações de vídeo do AEM Screens não sejam reproduzidas de maneira ideal no seu dispositivo, entre em contato com o fornecedor de hardware para obter as especificações do vídeo. Isso ajudará a obter o melhor desempenho no dispositivo e, portanto, criar seu próprio perfil de vídeo personalizado, fornecendo os parâmetros apropriados para o FFMPEG gerar sua representação. Em seguida, use as etapas abaixo para adicionar seu perfil de vídeo personalizado à lista de perfis.
+>Se as representações de vídeo do AEM Screens não forem executadas de forma ideal no dispositivo, entre em contato com o fornecedor do hardware para obter as especificações do vídeo. Isso ajudará a obter o melhor desempenho no dispositivo e, portanto, criar seu próprio perfil de vídeo personalizado, onde você fornece os parâmetros apropriados para o FFMPEG gerar sua representação. Posteriormente, use as etapas abaixo para adicionar seu perfil de vídeo personalizado à lista de perfis.
 >
->Além disso, consulte [Solução de problemas de vídeo](troubleshoot-videos.md) para depurar e solucionar problemas de reprodução de vídeo no seu canal.
+>Além disso, consulte [Vídeos de solução de problemas](troubleshoot-videos.md) para depurar e solucionar problemas de reprodução de vídeo no seu canal.
 
-Siga as etapas abaixo para gerar automaticamente as representação em Full HD:
+Siga as etapas abaixo para gerar representações de alta definição total automaticamente:
 
-1. Selecione o link do Adobe Experience Manager (canto superior esquerdo) e clique no ícone de martelo para selecionar ferramentas e escolha **Fluxo de trabalho**.
+1. Selecione o link Adobe Experience Manager (parte superior esquerda) e clique no ícone de martelo para selecionar ferramentas **Fluxo de trabalho**.
 
-   Clique em **Models** para entrar no gerenciamento de modelos de fluxo de trabalho.
+   Clique em **Modelos** para inserir o gerenciamento de modelos de workflow.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. Selecione o modelo **Ativo de atualização do DAM** e clique em Editar na barra de ações para abrir a janela **Ativo de atualização do DAM**.
+1. Selecione o **Ativo de atualização DAM** e clique em Editar na barra de ações para abrir a variável **Ativo de atualização DAM** janela.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
-1. Clique duas vezes na etapa **Transcodificação de FFmpeg**.
+1. Clique duas vezes no ícone **Transcodificação FFmpeg** etapa.
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Selecione a guia **Processo** para editar os argumentos do processo. Insira os perfis full HD na lista em **Argumentos** como: ***,profile:fullhd-bp,profile:fullhd-hp*** e clique em **OK**.
+1. Selecione o **Processo** para editar os argumentos do processo. Insira os perfis de alta definição total na lista em **Argumentos** como: ***,profile:fullhd-bp,profile:fullhd-hp*** e clique em **OK**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. Clique em **Salvar** no canto superior esquerdo da tela **Ativo de atualização DAM**.
+1. Clique em **Salvar** na parte superior esquerda do **Ativo de atualização DAM** tela.
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. Navegue até **Assets** e faça o upload de um novo vídeo. Clique no vídeo e abra o painel lateral Representações e você notará os dois vídeos em full HD.
+1. Navegue até **Assets** e carregue um novo vídeo. Clique no vídeo e abra o painel lateral Representações e você notará os dois vídeos em alta definição total.
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
-1. Abra **Representações** no painel lateral.
+1. Abertura **Representações** do painel lateral.
 
    ![step11_-_open_therenditionssiderail](assets/step11_-_open_therenditionssiderail.png)
 
-1. Você notará duas novas renderizações em full HD.
+1. Você observará duas novas execuções de alta definição total.
 
    ![step12_-_2_new_renditionsareaddedtothevideo](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
 
-## Geração manual de representações em Full HD {#manually-generating-full-hd-renditions}
+## Gerando manualmente representações de alta definição total {#manually-generating-full-hd-renditions}
 
-Siga as etapas abaixo para gerar manualmente as representação em Full HD:
+Siga as etapas abaixo para gerar representações de alta definição total manualmente:
 
-1. Selecione o link do Adobe Experience Manager (canto superior esquerdo) e clique no ícone de martelo para selecionar ferramentas e escolha **Fluxo de trabalho**.
+1. Selecione o link Adobe Experience Manager (parte superior esquerda) e clique no ícone de martelo para selecionar ferramentas **Fluxo de trabalho**.
 
-   Clique em **Models** para entrar no gerenciamento de modelos de fluxo de trabalho.
+   Clique em **Modelos** para inserir o gerenciamento de modelos de workflow.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. Selecione o modelo **Ativo de atualização do Screens** e clique em **Iniciar fluxo de trabalho** para abrir a caixa de diálogo **Executar fluxo de trabalho**.
+1. Selecione o **Ativo de atualização do Screens** e clique no link **Iniciar fluxo de trabalho** para abrir o **Executar fluxo de trabalho** caixa de diálogo.
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Selecione o vídeo desejado em **Carga** e clique em **Executar**.
+1. Selecione o vídeo desejado na caixa **Carga** e clique em **Executar**.
 
-   ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
+   ![etapa6_-_select_thedesejredvideo](assets/step6_-_select_thedesiredvideo.png)
 
-1. Navegue até **Assets**, faça um detalhamento até o seu ativo e clique nele.
+1. Navegue até **Assets**, faça drill-down para o ativo e clique nele.
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 
-1. Abra o painel lateral **Representações**. Você perceberá as novas representações em full HD.
+1. Abra o **Representações** painel lateral e você notará as novas execuções de alta definição total.
 
    ![step8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)

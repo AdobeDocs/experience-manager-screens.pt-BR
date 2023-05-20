@@ -1,49 +1,48 @@
 ---
 title: Abordagem recomendada
-seo-title: Abordagem recomendada em um projeto AEM Screens
+seo-title: Recommended Approach in an AEM Screens Project
 description: A página descreve a abordagem recomendada em um projeto do AEM Screens
-seo-description: A página descreve a abordagem recomendada em um projeto do AEM Screens
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes recommended approach in an AEM Screens project
+exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
 
-
 # Abordagem recomendada {#recommended-approach}
 
-É uma prática recomendada pensar em qualquer projeto AEM Screens de nível empresarial como uma empresa de longo prazo. É provável que um projeto tenha uma duração de um ou mais anos, especialmente se a solução permitir uma interação complexa entre usuários ou for implantado em vários dispositivos e locais.
+É uma prática recomendada considerar qualquer projeto AEM Screens de nível empresarial como um empreendimento de longo prazo. É provável que o projeto tenha uma duração de um ou mais anos, especialmente se a solução permitir uma interação complexa do usuário ou se for implantada em uma variedade de dispositivos e locais.
 
 ## Diretrizes antes de desenvolver uma estratégia de sinalização digital {#signage-strategy}
 
 Consulte as poucas recomendações antes de desenvolver e implantar um projeto de sinalização digital:
 
-* **Controle** de escopo: Se a solução desejada for ambiciosa, é recomendável dividir os resultados em fases distintas para controlar o escopo do projeto.
+* **Controle do escopo**: se a solução desejada for ambiciosa, é recomendável dividir os resultados em fases distintas para controlar o escopo do projeto.
 
-* **Casos** de uso definidos: As fases do projeto devem fornecer casos de uso bem definidos, com critérios de sucesso claramente identificados.
+* **Casos de uso definidos**: as fases do projeto devem fornecer casos de uso bem definidos com critérios de sucesso claramente identificados.
 
-* **Deliverables** incrementais: Concentre-se em fornecer recursos de forma incremental.
+* **Entregáveis incrementais**: Concentre-se em fornecer recursos de forma incremental.
 
-* **Estimativa do resultado** desejado: Comece com recursos prontos para uso do AEM Screens antes de criar componentes e integrações personalizadas. Sempre faça um brainstorm de que o resultado desejado possa ser alcançado usando os componentes e recursos que vêm de acordo com o AEM Screens.
+* **Estimativa do resultado desejado**: comece com recursos prontos para uso do AEM Screens antes de criar componentes e integrações personalizados. Sempre faça um brainstorming se o resultado desejado puder ser atingido usando os componentes e recursos que acompanham o AEM Screens por padrão.
 
-* **Definir pilotos, implantações e POCs**: Desenvolver uma Prova de Conceito (POCs) e adaptar-se conforme necessário por meio de um piloto e lançamento.
+* **Definição de pilotos, implantações e POCs**: desenvolva uma Prova de conceito (POCs) e adapte-a conforme necessário por meio de um piloto e uma implantação.
 
-* **Pré-definição da estratégia** de conteúdo: Estabeleça uma estratégia de conteúdo, incluindo objetivos de curto e longo prazo. Além disso, alinhe as metas da marca/KPIs com as melhorias de recursos.
-
-   >[!NOTE]
-   >
-   > Os custos iniciais são frequentemente mais altos em um projeto da AEM Screens devido à necessidade de investir em hardware, correções e designs de site; portanto, manter as soluções de conteúdo inicial mais simples pode ajudar a gerenciar as expectativas de orçamento.
-
-* **Estimando produtos de grande escala**: Se a solução for fornecida em grande escala, recomenda-se que você distribua os componentes do aplicativo para locais piloto cuidadosamente escolhidos para uso experimental. Enviar delivery para novos locais e dispositivos conforme o aplicativo passa pela validação.
+* **Estratégia de conteúdo predefinida**: Estabeleça uma estratégia de conteúdo, incluindo metas de curto e longo prazo. Além disso, alinhe as metas da marca/KPIs com as melhorias de recursos.
 
    >[!NOTE]
    >
-   > Comece a coletar análises durante o piloto para ajudar as equipes de negócios a validar o sucesso da solução em relação às métricas específicas que estão tentando alcançar. Saber como o piloto está se saindo ajuda a equipe de negócios a determinar quais melhorias precisam ser feitas.
+   > Os custos iniciais geralmente são mais altos em um projeto AEM Screens devido à necessidade de investir em hardware, dispositivos e designs de site; portanto, manter as soluções de conteúdo inicial mais simples pode ajudar a gerenciar as expectativas de orçamento.
 
-* **Dividindo os Deliverables em tarefas** mensuráveis: Dividir a entrega de recursos em tarefas mensuráveis permitirá um feedback em tempo hábil, fornecerá alvos mais alcançáveis e reduzirá os riscos gerais do projeto.
+* **Estimativa de materiais de entrega em grande escala**: se a solução for fornecida em larga escala, é recomendável implantar os componentes do aplicativo em locais piloto escolhidos cuidadosamente para uso de avaliação. Enviar para novos locais e dispositivos à medida que o aplicativo passar na validação.
 
-* **Desenvolvimento de um roteiro**: Se o cliente quiser um produto rico em recursos, forneça uma parte da funcionalidade planejada no início do projeto e agende outros recursos para fases futuras. Um primeiro delivery com muitos recursos apresenta maior risco e será mais difícil validar com o cliente.
+   >[!NOTE]
+   >
+   > Comece a coletar análises durante o piloto para ajudar as equipes de negócios a validar o sucesso da solução em relação às métricas específicas que estão tentando alcançar. Saber como está o desempenho do piloto ajuda a equipe de negócios a determinar quais melhorias precisam ser feitas.
 
-* **Noções básicas sobre o escopo das integrações** personalizadas: Os componentes interativos com interação de tela sensível ao toque, sensor de movimento ou RFID exigirão um desenvolvimento personalizado significativo no método de implementação. Uma apresentação de slides, anúncio de vídeo ou menu estático podem ser entregues como conteúdo gráfico ou HTML em um canal do Screens.
+* **Dividindo Entregáveis em tarefas mensuráveis**: dividir a entrega de recursos em tarefas mensuráveis permitirá feedback pontual, fornecerá metas mais alcançáveis e reduzirá os riscos gerais do projeto.
 
+* **Desenvolver um roteiro**: se o cliente quiser um produto com muitos recursos, forneça uma parte da funcionalidade planejada no início do projeto e programe outros recursos para as fases futuras. Um primeiro produto com muitos recursos traz mais riscos e será mais difícil de validar com o cliente.
+
+* **Noções básicas sobre o escopo de integrações personalizadas**: componentes interativos com interação na tela de toque, sensor de movimento ou RFID exigirão um desenvolvimento personalizado significativo no método de implementação. Uma apresentação de slides, anúncio de vídeo ou menu estático pode ser fornecido como conteúdo gráfico ou HTML em um canal do Screens.

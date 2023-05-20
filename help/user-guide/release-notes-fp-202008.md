@@ -1,74 +1,73 @@
 ---
-title: Notas de versão do Feature Pack 202008
-description: '"Siga esta página para obter informações sobre o AEM Screens Feature Pack 2008 lançado em 3 de setembro de 2020."'
-feature: Pacote de recursos
+title: Notas de versão do Pacote de recursos 202008
+description: "Siga esta página para obter informações sobre o AEM Screens Feature Pack 202008 lançado em 3 de setembro de 2020."
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 3%
+source-wordcount: '339'
+ht-degree: 4%
 
 ---
 
-
-# Notas de versão do Feature Pack 2008 {#release-notes-for-feature-pack}
+# Notas de versão do Pacote de recursos 202008 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->É recomendável atualizar para a versão mais recente do Adobe Experience Manager (AEM). O Screens fornece suporte de manutenção para AEM plataforma do Screens 6.3.
+>É recomendável atualizar para a versão mais recente do Adobe Experience Manager (AEM). O Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
 
 ## Disponibilidade {#availability}
 
-A AEM Screens lançou AEM 6.5 Feature Pack 5.
+O AEM Screens lançou o AEM 6.5 Feature Pack 5.
 
-Você pode baixar o pacote de recursos mais recente da versão 6.5.5 do AEM Screens a partir do [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o pacote de recursos mais recente.
+Baixe o pacote de recursos mais recente do AEM Screens 6.5.5 na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até **Adobe Experience Manager** e pesquisar **Screens** para obter o pacote de recursos mais recente.
 
 ## Data de lançamento {#release-date}
 
-A data de lançamento do AEM Screens Feature Pack 2008 é 3 de setembro de 2020.
+A data de lançamento do Pacote de recursos do AEM Screens 202008 é 3 de setembro de 2020.
 
 ### Novidades {#what-is-new}
 
-* **Exibição da Linha do Tempo no Painel de Programação**
+* **Exibição da linha do tempo no painel de agendamento**
 
-   A Exibição de linha do tempo permite que o usuário exiba os agendamentos atribuídos ao canal no painel de exibição.
+   A Exibição da linha do tempo permite que o usuário visualize os agendamentos atribuídos ao canal no painel de exibição.
 
    Consulte [Exibição da linha do tempo](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) para obter mais detalhes.
 
 * **Programação de recorrência**
 
-   O Agendamento de recorrência permite que você defina um agendamento recorrente para seu canal. Você configura várias programações de recorrência para um canal.
+   O Cronograma recorrente permite que você defina um cronograma recorrente para seu canal. Você configura vários agendamentos de recorrência para um canal.
 
-   Consulte [Agendamento de recorrência](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obter mais detalhes.
+   Consulte [Agendamento recorrente](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obter mais detalhes.
 
 * **Recursos de reconhecimento de voz para o AEM Screens**
 
-   O recurso Reconhecimento de voz permite a alteração de conteúdo em um canal AEM Screens orientado pela interação de voz.
+   O recurso de Reconhecimento de voz permite a alteração de conteúdo em um canal do AEM Screens orientado por interação de voz.
 
-   Um autor de conteúdo pode configurar uma exibição para ser habilitada para voz. A finalidade desse recurso é permitir que os clientes utilizem o discurso como método de interação com suas exibições.
+   Um autor de conteúdo pode configurar uma exibição para ser ativada por voz. O objetivo deste recurso é permitir que os clientes utilizem a fala como método de interação com seus monitores.
 
-   Consulte [Reconhecimento de Voz](voice-recognition.md) para obter mais detalhes.
+   Consulte [Reconhecimento de voz](voice-recognition.md) para obter mais detalhes.
 
-### Problemas e correções conhecidos {#known-issues}
+### Problemas conhecidos e correções {#known-issues}
 
-Você deve configurar um ambiente para o Windows ou o Android player, se estiver usando o AEM Screens 6.5.5 Service Pack.
+Você deve configurar um ambiente para o Windows ou Android Player, se estiver usando o AEM Screens 6.5.5 Service Pack.
 
-Defina o atributo **SameSite para os cookies do token de login** de **Lax** para **None** de **Adobe Experience Manager Web Console
-Configuração** em todas as instâncias de criação e publicação AEM.
+Defina o **Atributo SameSite para os cookies de token de logon** de **Lax** para **Nenhum** de **Configuração do console da Web do Adobe Experience Manager** em todas as instâncias de autor e publicação do AEM.
 
 * Consulte [Implementação do Windows 10 Player](implementing-windows-player.md#fp-environment-setup) para obter mais detalhes.
 
 * Consulte [Implementação do Android Player](implementing-android-player.md#fp-environment-setup) para obter mais detalhes.
 
-### Players AEM Screens liberados {#released-aem-screens-players}
+### Players do AEM Screens lançados {#released-aem-screens-players}
 
-Os seguintes Players AEM Screens foram lançados para o AEM Screens AEM 6.5 Feature Pack 5.
+Os seguintes AEM Screens Players foram lançados para o AEM Screens lançado com AEM 6.5 Feature Pack 5.
 
-* Chrome OS
+* SO Chrome
 * Windows
 * Android
 
-#### Downloads do Player do AEM Screens {#aem-screens-player-downloads}
+#### Downloads do AEM Screens Player  {#aem-screens-player-downloads}
 
 Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

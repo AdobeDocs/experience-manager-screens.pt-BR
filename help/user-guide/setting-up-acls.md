@@ -1,66 +1,66 @@
 ---
-title: Configuração de ACLs
-seo-title: Configuração de ACLs
-description: Siga esta página para saber como segregar projetos usando ACLs para que cada indivíduo ou equipe gerencie seu próprio projeto.
-seo-description: Siga esta página para saber como segregar projetos usando ACLs para que cada indivíduo ou equipe gerencie seu próprio projeto.
+title: Configurando ACLs
+seo-title: Setting up ACLs
+description: Siga esta página para saber como segregar projetos usando ACLs, para que cada indivíduo ou equipe lide com seu próprio projeto.
+seo-description: Follow this page to learn how to segregate projects using ACLs so that each individual or team handles their own project.
 uuid: d5609bd9-3f13-4f11-ad4f-23c2ac3aa8fc
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
-feature: Administração do Screens
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 1%
+source-wordcount: '535'
+ht-degree: 2%
 
 ---
 
-# Configuração de ACLs {#setting-up-acls}
+# Configurando ACLs {#setting-up-acls}
 
-A seção a seguir explica como segregar projetos usando ACLs para que cada indivíduo ou equipe gerencie seu próprio projeto.
+A seção a seguir explica como segregar projetos usando ACLs para que cada indivíduo ou equipe lide com seu próprio projeto.
 
-Como administrador de AEM, você deseja garantir que os membros da equipe de um projeto não interfiram com outros projetos e que cada um dos usuários receba funções específicas de acordo com os requisitos do projeto.
+Como administrador do AEM, você deve garantir que os membros da equipe de um projeto não interfiram em outros projetos e que cada um dos usuários receba funções específicas de acordo com os requisitos do projeto.
 
-## Configurar permissões {#setting-up-permissions}
+## Configuração de permissões {#setting-up-permissions}
 
 As etapas a seguir resumem o procedimento para configurar ACLs para um projeto:
 
-1. Faça logon no AEM e navegue até **Ferramentas** > **Segurança**.
+1. Faça logon no AEM e acesse **Ferramentas** > **Segurança**.
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. Clique em **Groups** e insira uma ID (por exemplo, Acme).
+1. Clique em **Grupos** e digite uma ID (por exemplo, Acme).
 
    Como alternativa, use este link, `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
-   Em seguida, clique em **Salvar**.
+   Posteriormente, clique em **Salvar**.
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. Selecione **Contributors** na lista e clique duas vezes nela.
+1. Selecionar **Colaboradores** na lista e clique duas vezes nela.
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. Adicione o **Acme** (projeto criado por você) a **Adicionar Membros ao Grupo**. Clique em **Salvar**.
+1. Adicione o **Acme** (projeto que você criou) para **Adicionar membros ao grupo**. Clique em **Salvar**.
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
    >[!NOTE]
    >
-   >Se desejar que os membros da equipe do projeto registrem os reprodutores (o que envolve a criação de um usuário para cada reprodutor), localize os usuários-administradores do grupo e adicione o grupo ACME aos usuários-administradores
+   >Se você quiser que os membros da equipe do projeto registrem players (o que envolve criar um usuário para cada player), localize os administradores de usuários do grupo e adicione o grupo ACME aos administradores de usuários
 
-1. Adicione todos os usuários que trabalharão no Projeto **Acme** ao grupo **Acme**.
+1. Adicione todos os usuários que trabalharão no **Acme** Projeto para o **Acme** grupo.
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. Configure as permissões do grupo **Acme** usando este `(http://localhost:4502/useradmin)`.
+1. Configurar as permissões para o grupo **Acme** usar este `(http://localhost:4502/useradmin)`.
 
-   Selecione o grupo **Acme** e clique em **permissions**.
+   Selecionar o grupo **Acme** e clique no link **permissões**.
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 
@@ -71,7 +71,7 @@ A tabela a seguir resume o caminho com as permissões no nível do projeto:
 | **Caminho** | **Permissão** | **Descrição** |
 |---|---|---|
 | `/apps/<project>` | LER | Fornece acesso aos arquivos do projeto (se aplicável) |
-| `/content/dam/<project>` | TODAS | Fornece acesso para armazenar os ativos dos projetos, como imagens ou vídeo no DAM |
+| `/content/dam/<project>` | TODAS | Fornece acesso para armazenar os ativos do projeto, como imagens ou vídeo no DAM |
 | `/content/screens/<project>` | TODAS | Remove o acesso a todos os outros projetos em /content/screens |
 | `/content/screens/svc` | LER | Fornece acesso ao serviço de registro |
 | `/libs/screens` | LER | Fornece acesso ao DCC |
@@ -79,7 +79,7 @@ A tabela a seguir resume o caminho com as permissões no nível do projeto:
 
 >[!NOTE]
 >
->Em alguns casos, é possível separar as funções de autor (como gerenciar ativos e criar canais) das funções de administrador (como registrar players). Nesse cenário, crie dois grupos e adicione o grupo de autores aos colaboradores e o grupo de administradores aos contribuidores e aos usuários-administradores.
+>Em alguns casos, você pode separar as funções do autor (como gerenciar ativos e criar canais) das funções de administrador (como registrar players). Nesse cenário, crie dois grupos e adicione o grupo de autores aos colaboradores e o grupo de administradores aos colaboradores e administradores de usuários.
 
 ### Criação de grupos {#creating-groups}
 
@@ -88,8 +88,8 @@ A criação de um novo projeto também deve criar grupos de usuários padrão co
 Por exemplo, você pode criar os seguintes grupos específicos de projeto:
 
 * Administradores de projeto do Screens
-* Operadores de projeto do Screens (registre reprodutores e gerencie locais e dispositivos)
-* Usuários do projeto do Screens (trabalhar com canais, agendamentos e atribuições de canal)
+* Operadores de projeto do Screens (registre players e gerencie locais e dispositivos)
+* Usuários de projeto do Screens (trabalham com canais, agendamentos e atribuições de canal)
 
 A tabela a seguir resume os grupos com descrição e permissões para um projeto do AEM Screens:
 
@@ -102,42 +102,42 @@ A tabela a seguir resume os grupos com descrição e permissões para um projeto
   </tr>
   <tr>
    <td>Administradores do Screens<br /> <em>screens-admins</em></td>
-   <td>Acesso de nível administrativo aos recursos do AEM Screens</td>
+   <td>Acesso de nível administrativo para recursos do AEM Screens</td>
    <td>
     <ul>
-     <li>Membro Dos Contribuintes</li>
-     <li>Membro de usuários-administradores</li>
-     <li>TODOS /content/screens</li>
+     <li>Membro de contribuidores</li>
+     <li>Membro DE administradores-usuários</li>
+     <li>ALL /content/screens</li>
      <li>ALL /content/dam</li>
-     <li>TODOS os /content/experience-fragments</li>
+     <li>ALL /content/experience-fragments</li>
      <li>ALL /etc/design/screens</li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Usuários do Screens<br /> <em>usuários-telas</em></td>
-   <td>Criar e atualizar canais e programações e atribuir ao local no AEM Screens</td>
+   <td>Usuários do Screens<br /> <em>screens-users</em></td>
+   <td>Criar e atualizar canais e agendamentos e atribuir à localização no AEM Screens</td>
    <td>
     <ul>
-     <li>Membro Dos Contribuintes</li>
+     <li>Membro de contribuidores</li>
      <li>&lt;project&gt; /content/screens</li>
      <li>&lt;project&gt; /content/dam</li>
      <li>&lt;project&gt; /content/experience-fragments</li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Operadores de telas<br /> <em>operadores de telas</em></td>
+   <td>Operadores do Screens<br /> <em>screens-operators</em></td>
    <td>Criar e atualizar estrutura de localização e registrar players no AEM Screens</td>
    <td>
     <ul>
-     <li>Membro Dos Contribuintes</li>
+     <li>Membro de contribuidores</li>
      <li>jcr:all /home/users/screens</li>
      <li>jcr:all /home/groups/screens</li>
      <li>&lt;project&gt; /content/screens</li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Players do Screens<br /> <em>screens-&lt;project&gt;-devices</em></td>
-   <td>Agrupa todos os players e todos dispositivos que são membros dos colaboradores automaticamente.</td>
+   <td>Players do Screens<br /> <em>telas-&lt;project&gt;-devices</em></td>
+   <td>Agrupa todos os players e todos os players/dispositivos são membros dos colaboradores automaticamente.</td>
    <td><p> Membro de contribuidores</p> </td>
   </tr>
  </tbody>

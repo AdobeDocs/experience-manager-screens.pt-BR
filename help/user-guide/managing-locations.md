@@ -1,30 +1,30 @@
 ---
-title: Criação e gerenciamento de localizações
-seo-title: Gerenciamento de localizações
-description: Siga esta página para aprender a criar/gerenciar localizações.
-seo-description: Siga esta página para aprender a criar/gerenciar localizações.
+title: Criação e Gerenciamento de Locais
+seo-title: Managing Locations
+description: Siga esta página para saber mais sobre como criar/gerenciar locais.
+seo-description: Follow this page to learn about creating/managing locations.
 uuid: f18802d4-dae8-48b2-8c94-ecc73579b29f
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
-feature: Telas de criação
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7935c206-7189-4243-9a2d-ccc322caf441
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 52%
+source-wordcount: '249'
+ht-degree: 2%
 
 ---
 
-# Criação e gerenciamento de localizações {#creating-and-managing-locations}
+# Criação e Gerenciamento de Locais {#creating-and-managing-locations}
 
-As localizações hospedam a configuração da exibição de acordo com a posição das várias telas.
+Os locais hospedam a configuração das exibições de acordo com o local em que as várias telas estão.
 
-Esta página mostra como criar e gerenciar localizações para o Screens.
+Esta página mostra a criação e o gerenciamento de locais para o Screens.
 
 **Pré-requisitos**:
 
@@ -32,26 +32,26 @@ Esta página mostra como criar e gerenciar localizações para o Screens.
 * [Criação e gerenciamento do projeto do Screens](creating-a-screens-project.md)
 * [Criação e gerenciamento de canais](managing-channels.md)
 
-## Criação de uma nova localização {#creating-a-new-location}
+## Criar um novo local {#creating-a-new-location}
 
-Depois de criar seu projeto para o Screens, siga as etapas abaixo para criar um novo Local para um projeto do Screens:
+Depois de criar o projeto para o Screens, siga as etapas abaixo para criar um novo Local para um projeto do Screens:
 
-1. Selecione o link do Adobe Experience Manager (canto superior esquerdo) e, em seguida, o Screens. Como alternativa, você pode navegar diretamente para: `http://localhost:4502/screens.html/content/screens`.
+1. Selecione o link Adobe Experience Manager (canto superior esquerdo) e, em seguida, Screens. Como alternativa, você pode navegar diretamente para: `http://localhost:4502/screens.html/content/screens`.
 1. Navegue até o projeto do Screens e clique em **Localizações**.
 1. Clique em **Criar** ao lado do ícone de adição na barra de ações. Um assistente será aberto.
-1. Selecione o modelo **Local** do assistente e clique em **Próximo**.
+1. Selecionar o modelo **Localização** no assistente e clique em **Próxima**.
 
-1. Insira as propriedades para **Título e Tags**, **Mais títulos e descrição**, **Hora de ligar/desligar** e **Vanity URL**.
+1. Insira as propriedades de **Título e tags**, **Mais títulos e descrições**, **Horário ligado/desligado**, e **Vanity URL**.
 
-1. Clique em **Criar** e o local é criado e adicionado à sua pasta de locais.
+1. Clique em **Criar** e o local é criado e adicionado à pasta locais.
 
-Consulte as etapas abaixo para entender a criação de um novo local para um projeto do AEM Screens. Para fins de demonstração, o novo local (SanJose) é criado em *DemoProject*.
+Consulte as etapas abaixo para entender a criação de um novo local para um projeto do AEM Screens. Para fins de demonstração, o novo local (San Jose) é criado em *DemoProject*.
 
 ![player2](assets/player2.gif)
 
-Depois de criar uma localização, você precisa criar uma nova exibição para ela.
+Depois de criar um local, é necessário criar uma nova exibição para o local.
 
-### Editar propriedades para um local {#editing-properties-for-a-location}
+### Editando Propriedades de um Local {#editing-properties-for-a-location}
 
 Para editar/acessar as propriedades de um local:
 
@@ -62,6 +62,6 @@ Para editar/acessar as propriedades de um local:
 
 #### Próximas etapas {#the-next-steps}
 
-Depois de criar uma localização, você precisa criar uma nova exibição para ela.
+Depois de criar um local, é necessário criar uma nova exibição para o local.
 
-Consulte [Criação e gerenciamento de exibições](managing-displays.md) para obter mais detalhes.
+Consulte [Criando e Gerenciando Exibições](managing-displays.md) para obter mais detalhes.

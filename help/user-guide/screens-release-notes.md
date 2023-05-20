@@ -1,59 +1,59 @@
 ---
-title: Notas de versão do Feature Pack 201809
-seo-title: Notas de versão do Feature Pack 201809
-description: Siga esta página para obter informações sobre o AEM Screens Feature Pack 201809 lançado em 10 de outubro de 2018.
-seo-description: Siga esta página para obter informações sobre o AEM Screens Feature Pack 201809 lançado em 10 de outubro de 2018.
+title: Notas de versão do Pacote de recursos 201809
+seo-title: Release Notes for Feature Pack 201809
+description: Siga esta página para obter informações sobre o Pacote de recursos 2018 da AEM Screens lançado em 01 de outubro de 2018.
+seo-description: Follow this page to get information for AEM Screens Feature Pack 201809 released on October 01, 2018.
 uuid: 48240e27-e4c2-48bc-bcca-2a2ec93edc47
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
 discoiquuid: 2a049c2c-26ee-498d-a505-a2967be7cbcd
-feature: Pacote de recursos
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 3%
+source-wordcount: '246'
+ht-degree: 2%
 
 ---
 
-
-# Notas de versão do Feature Pack 201809 {#release-notes-for-feature-pack}
+# Notas de versão do Pacote de recursos 201809 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->É recomendável atualizar para a versão mais recente do Adobe Experience Manager (AEM). O Screens fornece suporte de manutenção para AEM plataforma do Screens 6.3.
+>É recomendável atualizar para a versão mais recente do Adobe Experience Manager (AEM). O Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
 
-O AEM Screens lançou AEM 6.4.2 Feature Pack 2 e AEM 6.3.3 Feature Pack 4 com os seguintes detalhes.
+O AEM Screens lançou o AEM 6.4.2 Feature Pack 2 e o AEM 6.3.3 Feature Pack 4 com os seguintes detalhes.
 
 ## Data de lançamento {#release-date}
 
-A Data de lançamento do AEM Screens Feature Pack 201809 é 10 de outubro de 2018.
+A data de lançamento do Pacote de recursos 2018 da AEM Screens é 1º de outubro de 2018.
 
 ### Novidades {#what-s-new}
 
-* **Relatório de prova de reprodução do Adobe Analytics**: Consulte Integração do  [Adobe Analytics com o AEM ](adobe-analytics-integration-aem-screens.md) Screens para saber mais.
+* **Relatórios de prova de atividade do Adobe Analytics**: Consulte [Integração do Adobe Analytics com o AEM Screens](adobe-analytics-integration-aem-screens.md) para saber mais.
 
-* **Adobe Analytics Ative Players para armazenar em cache e enviar eventos de reprodução ao Adobe Analytics**: Consulte  [Configuração do Adobe Analytics com AEM ](configuring-adobe-analytics-aem-screens.md) Screens para saber mais.
+* **Adobe Analytics permite que os players armazenem em cache e enviem eventos de reprodução para o Adobe Analytics**: Consulte [Configuração do Adobe Analytics com AEM Screens](configuring-adobe-analytics-aem-screens.md) para saber mais.
 
-* **Atualização em massa do conteúdo** offline: Permite atualizar todo o canal em massa e evita a inconveniência de navegar para um canal específico e atualizar o conteúdo. Consulte [Atualização offline em massa](bulk-offline-update.md) para saber mais.
+* **Atualização em massa de conteúdo off-line**: permite atualizar todos os canais em massa e evita o incômodo de navegar até um canal específico e atualizar o conteúdo. Consulte [Atualização offline em massa](bulk-offline-update.md) para saber mais.
 
-* **Canais de publicação em massa para instâncias de publicação**
-* **Mecanismo** aprimorado de registro de player: Você pode especificar o número máximo de arquivos de log para um reprodutor do AEM Screens. Consulte [Trabalhar com um reprodutor do AEM Screens](working-with-screens-player.md) para obter mais detalhes.
+* **Canais de publicação em massa para publicar instâncias**
+* **Mecanismo aprimorado de registro do player**: é possível especificar o número máximo de arquivos de log para um reprodutor do AEM Screens. Consulte [Trabalhar com um reprodutor do AEM Screens](working-with-screens-player.md) para obter mais detalhes.
 
-* **Implantação Autor/Publicação (Otimização)**
+* **Implantação de autor/publicação (fortalecimento)**
 
-### Players AEM Screens liberados {#released-aem-screens-players}
+### Players do AEM Screens lançados {#released-aem-screens-players}
 
-Os seguintes Players do AEM Screens são lançados para o AEM 6.4.2 Feature Pack 2 e AEM 6.3.3 Feature Pack 4:
+Os seguintes players do AEM Screens são lançados para AEM 6.4.2 Feature Pack 2 e AEM 6.3.3 Feature Pack 4:
 
 * ChromeOS
 * Windows
 * Android
 * iOS
 
-#### Downloads do Player do AEM Screens {#aem-screens-player-downloads}
+#### Downloads do AEM Screens Player {#aem-screens-player-downloads}
 
-Para baixar o player do AEM Screens mais recente e saber mais sobre as correções de erros, consulte [Downloads do AEM Screens Player](https://download.macromedia.com/screens/).
+Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte [Downloads do AEM Screens Player](https://download.macromedia.com/screens/).

@@ -1,100 +1,97 @@
 ---
 title: Rede móvel direta
-description: A página descreve a configuração da rede móvel direta
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+description: A página descreve a configuração direta da rede móvel
+exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
 
 ---
 
-
 # Rede móvel direta {#mobile-network-setup}
 
-Os Players AEM Screens também podem ser conectados usando redes móveis ou celulares executando pelo menos uma rede 3G.
+Os players da AEM Screens também podem ser conectados usando redes móveis ou celulares executando pelo menos uma rede 3G.
 
-No AEM Screens, o conteúdo necessário é baixado fisicamente no controlador do reprodutor ou no computador e armazenado corretamente no sistema operacional subjacente. Portanto, a largura de banda fornecida só afeta os tempos de download iniciais, bem como as atualizações de conteúdo, e não influencia o desempenho da reprodução regular de telas.
+No AEM Screens, o conteúdo necessário é baixado fisicamente para o controlador do player ou computador e armazenado corretamente no sistema operacional subjacente. Portanto, a largura de banda fornecida afeta apenas os tempos de download iniciais, bem como as atualizações de conteúdo, e não influencia o desempenho da reprodução regular de Exibições.
 
-A vantagem de conectar os Players AEM Screens através da Rede Celular 3/4/5G ao seu Provedor de Dados do Serviço Móvel é que o Roteador Móvel pode ser colocado em um local otimizado para garantir a melhor cobertura disponível da rede. Isso geralmente está em uma posição elevada e aberta, com o menor número possível de betão circundante ou de construção de metal.
+A vantagem de conectar os players de AEM Screens pela rede celular 3/4/5G ao seu provedor de dados de serviço móvel é que o roteador móvel pode ser colocado em um ponto otimizado para garantir a melhor cobertura de rede disponível. Esta é geralmente em uma posição elevada e aberta, com o menor número possível de concreto ou construção de metal circundante.
 
-Essa configuração permite que AEM usuários de tela tenha grande flexibilidade, pois não é necessária uma conexão fixa para se conectar ao AEM Screens. Isso é particularmente interessante para configurações efêmeras ou móveis.
+Essa configuração permite que os usuários da tela AEM tenham uma grande flexibilidade, pois não é necessária uma conexão fixa para se conectar ao AEM Screens. Isso é particularmente interessante para configurações efêmeras ou móveis.
 
-O diagrama a seguir mostra o Direct Mobile Network Setup (Configuração de rede móvel direta) e consiste em um segmento de conexão de rede singular e a conexão de cada reprodutor à rede de dados móvel ou celular.
+O diagrama a seguir mostra a Configuração de rede móvel direta e consiste em um segmento único de conexão de rede e a conexão de cada player à rede de dados móveis ou celulares.
 
 ![](/help/using/assets/direct-mobile-1.png)
 
-## Conectar o AEM Screens Player à rede móvel direta {#connecting-aem-screens-players}
+## Conexão do AEM Screens Player à rede móvel direta {#connecting-aem-screens-players}
 
-Siga as etapas abaixo para garantir a conexão correta dos players de Tela de AEM nesta configuração:
+Siga as etapas abaixo para garantir a conexão correta dos reprodutores de tela AEM nesta configuração:
 
-1. Certifique-se de que cada um dos players de Tela de AEM esteja conectado à Rede do Roteador.
+1. Verifique se cada um dos reprodutores de tela AEM está conectado à rede do roteador.
 
 1. Teste a conexão com a Internet chamando um URL no navegador do sistema.
 
    >[!NOTE]
-   >Caso receba uma mensagem de erro, verifique as configurações da rede e verifique se há um link de rede suficiente e se o firewall do Sistema operacional está configurado para permitir acesso à rede usando as portas de comunicação configuradas do AEM Screens.
+   >Caso receba uma mensagem de erro, verifique as configurações de rede e verifique se há um link de rede suficiente e se o firewall do Sistema Operacional está configurado para permitir o acesso à rede usando as Portas de comunicação AEM Screens configuradas.
 
 1. Caso a chamada de URL seja bem-sucedida, você pode continuar instalando o AEM Screens e se registrar. Inicie o AEM Screens.
 
 ## Configurando a rede móvel direta {#requirements-direct}
 
-A configuração da rede pode ser logicamente separada em dois blocos:
+A configuração de rede pode ser logicamente separada em dois blocos:
 
-* Conexão de Internet móvel
+* Conexão de Internet Móvel
 
 * Rede local
 
-### Conexão de Internet móvel {#mobile-internet-connection}
+### Conexão de Internet Móvel {#mobile-internet-connection}
 
 O desempenho da conexão com a Internet além da acessibilidade da rede fornece largura de banda suficiente para operar o AEM Screens sem problemas.
 
-Na rede móvel direta, cada reprodutor é conectado a uma placa de dados móvel singular à rede de provedores de dados.
+Na Direct Mobile Network, cada player é conectado com um único cartão de dados móvel à rede de dados dos provedores.
 
 A tabela a seguir destaca as redes de dados com sua largura de banda padrão:
 
 | Rede de dados | Largura de banda |
 |--- |--- |
-| 3G | 42 Mbps |
-| 4G | 150 Mbps |
+| 3G | 42 Mbit/s |
+| 4G | 150 Mbit/s |
 | 5G | 1000 - 10000 Mbps |
 
-Ao considerar qual Rede de Dados deve ser usada, é recomendável responder as seguintes perguntas:
+Ao considerar qual rede de dados deve ser usada, é recomendável responder às seguintes perguntas:
 
-A velocidade de rede disponível depende do plano específico do provedor de dados móveis e da cobertura disponível que é alcançada no local do Controlador AEM Screens.
-Ao seguir essa configuração, também é necessário considerar que, além da largura de banda disponível, alguns planos de provedores de dados móveis limitam a quantidade disponível de dados que vêm através da conexão em um período específico. É necessário garantir que haja capacidade suficiente em quantidade de dados e largura de banda.
-Como acompanhamento, o Pacote de dados necessário deve ser pelo menos:
+A velocidade da rede disponível depende do plano específico do provedor de dados móveis e da cobertura disponível que é atingida no local do controlador do AEM Screens.
+Ao seguir essa configuração, também deve ser levado em consideração que, além da largura de banda disponível, alguns Planos do provedor de dados móveis limitam a quantidade disponível de dados provenientes da conexão em um período específico de tempo. É necessário garantir que haja capacidade suficiente em quantidade de dados e largura de banda.
+Como acompanhamento, o pacote de dados necessário deve ser, pelo menos:
 
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 
 >[!IMPORTANT]
->Para o upload inicial de arquivos de mídia, por exemplo, ao integrar novos players, é necessário esperar uma quantidade maior de dados e um maior tempo de download e refleti-los nas suposições acima. Uma rede 4G com *boa* cobertura e dados *ilimitados* devem corresponder às instalações mais comuns nesta Configuração de Rede.
+>Para o upload inicial de arquivos de mídia, por exemplo, ao integrar novos players, uma quantidade maior de dados e um tempo de download maior devem ser esperados e refletidos nas suposições acima. Uma rede 4G com *bom* cobertura e *ilimitado* Os dados devem corresponder às instalações mais comuns nesta Configuração de rede.
 
 >[!NOTE]
->Um plano mínimo de 3G com boa cobertura de rede deve levar a um desempenho de download aceitável para um reprodutor AEM Screens. Se houver apenas uma cobertura justa disponível em um local específico, é necessário considerar mudar a configuração geral da rede para [Rede móvel com roteador de dados móvel e componentes de rede ativos](/help/using/mobile-network-router.md).
+>Um plano 3G mínimo com boa cobertura de rede deve levar a um desempenho de download aceitável para um reprodutor do AEM Screens. Se houver apenas uma cobertura razoável disponível em um local específico, é importante levar em consideração a mudança da Configuração de rede geral para [Rede Móvel com Roteador de Dados Móvel e Componentes de Rede Ativos](/help/using/mobile-network-router.md).
 
 
-### Rede Local {#lan-connection}
+### Rede local {#lan-connection}
 
-As preocupações de desempenho da LAN (Local Area Network), além da acessibilidade da rede, são fornecer largura de banda suficiente para operar o AEM Screens sem problemas. A recomendação para as velocidades de rede da LAN é iniciar pelo menos em redes de 100 Mbps, de modo que haja largura de banda suficiente para conectar muitos dispositivos com bom desempenho ao sistema.
+As preocupações com o desempenho da LAN (Local Area Network), além da acessibilidade da rede, são fornecer largura de banda suficiente para operar o AEM Screens sem problemas. A recomendação para velocidades de rede LAN é iniciar redes de 100 Mbps pelo menos, para que haja largura de banda suficiente para conectar muitos dispositivos com bom desempenho ao sistema.
 
-Ao usar outros componentes de rede ativos, é obrigatório que todos correspondam aos requisitos de largura de banda da rede. Por exemplo, os componentes de rede devem corresponder pelo menos ao padrão de 100 Mbps e corresponder à largura de banda fornecida pela especificação de acesso à Internet ou Roteador. Caso contrário, a largura de banda total será limitada pelo elo mais fraco da cadeia de rede.
+Ao usar outros componentes de rede ativos, é obrigatório que todos eles correspondam aos requisitos de largura de banda da rede. Por exemplo, os componentes de rede devem corresponder pelo menos ao padrão de 100 Mbps e corresponder à largura de banda fornecida pelo acesso à Internet ou pela especificação do roteador. Caso contrário, a largura de banda total será limitada pelo link mais fraco na cadeia de rede.
 
 ## Download de mídia e ativos {#download}
 
-O AEM Screens oferece uma grande vantagem aos usuários de sinalização digital. Ele baixa e salva localmente todos os arquivos de mídia necessários, como imagens e vídeos. O principal tráfego de rede ocorre quando há novo conteúdo a ser exibido em uma exibição específica.
+O AEM Screens oferece uma grande vantagem aos usuários de sinalização digital. Ele baixa e salva localmente todos os arquivos de mídia necessários, como imagens e vídeos. A maior parte do tráfego de rede ocorre quando há conteúdo novo a ser exibido em uma exibição específica.
 
-Para operações normais, por exemplo, uma lista de reprodução definida que é atualizada com frequência durante o dia - oferece uma operação próxima da operação independente de rede, depois que todos os arquivos forem salvos no reprodutor.
+Para operações normais, por exemplo, uma lista de reprodução definida que é atualizada frequentemente durante o dia - oferece uma operação próxima à rede independente, uma vez que todos os arquivos tenham sido salvos no reprodutor.
 
-Para cenários, em que há mais interações com sensores ou acionadores e conteúdo dinâmico, uma conexão de rede rápida e confiável é essencial para uma reação de tela imediata para garantir a melhor experiência possível do cliente.
+Para cenários onde há mais interações com sensores ou acionadores e conteúdo dinâmico, uma conexão de rede rápida e confiável é essencial para uma reação imediata na tela a fim de garantir a melhor experiência possível do cliente.
 
-A tabela a seguir fornece uma visão geral sobre os dados da chave de conectividade de rede.
+A tabela a seguir fornece uma visão geral dos dados principais de conectividade de rede.
 
 >[!NOTE]
 >
->Todas as informações se referem ao consumo de cada dispositivo na rede que solicita e baixa uma fonte de Internet. Cada uma dessas solicitações adiciona e estende o Tempo de Download.
+>Todas as informações se referem ao consumo de cada dispositivo na rede que solicita e faz o download de uma fonte da Internet. Cada uma dessas solicitações adiciona e estende o Tempo de download.
 
 ![](/help/using/assets/download-times-mobile.png)
-
-
-
