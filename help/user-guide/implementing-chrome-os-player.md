@@ -13,9 +13,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -142,12 +142,15 @@ A tabela a seguir resume as políticas com suas funções.
 
 | **Nome da política** | **Propósito** |
 |---|---|
-| *servidor* | O URL para o servidor do Adobe Experience Manager |
-| *resolução* | A resolução do dispositivo Chrome OS |
-| *rebootSchedule* | O cronograma para reinicializar o reprodutor do Chrome |
-| *enableAdminUI* | Habilite a interface do Administrador para que os técnicos configurem o dispositivo no site. Defina como false depois que estiver totalmente configurado e em produção. |
-| *enableOSD* | Habilite a interface do alternador de canal para que os usuários alternem canais no dispositivo. Considere definir como false depois que estiver totalmente configurado e em produção. |
-| *enableActivityUI* | Permite mostrar o progresso de atividades como download e sincronização. Ative para solução de problemas e desative depois que estiver totalmente configurado e em produção. |
+| servidor | O URL para o servidor Adobe Experience Manager (AEM). |
+| registrationKey | Usado para registro em massa de dispositivos usando chave pré-compartilhada. |
+| resolução | A resolução do dispositivo. |
+| rebootSchedule | O cronograma para reinicializar o reprodutor. |
+| enableAdminUI | Habilite a interface do Administrador para configurar o dispositivo no site. Defina como false depois que estiver totalmente configurado e em produção. |
+| enableOSD | Habilite a interface do alternador de canal para que os usuários alternem canais no dispositivo. Considere definir como false depois que estiver totalmente configurado e em produção. |
+| enableActivityUI | Permite mostrar o progresso de atividades como download e sincronização. Ative para solução de problemas e desative depois que estiver totalmente configurado e em produção. |
+| cloudMode | Defina como verdadeiro se desejar que o reprodutor Tizen se conecte ao Screens as a Cloud Service. Defina como falso para se conectar ao AMS ou AEM local. |
+| cloudToken | Token de registro para se registrar no Screens as a Cloud Service. |
 
 >[!NOTE]
 >

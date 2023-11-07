@@ -14,9 +14,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 97bc64ce3c01ac2de301b17bf9f8610662d45f88
+source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1148'
 ht-degree: 1%
 
 ---
@@ -120,14 +120,18 @@ Siga as etapas abaixo para configurar o Windows 10 Player:
 
 A tabela a seguir resume os atributos da política com um exemplo de JSON de política para referência:
 
+
 | **Nome da política** | **Propósito** |
 |---|---|
 | servidor | O URL para o servidor Adobe Experience Manager (AEM). |
+| registrationKey | Usado para registro em massa de dispositivos usando chave pré-compartilhada. |
 | resolução | A resolução do dispositivo. |
 | rebootSchedule | O cronograma para reinicializar o reprodutor. |
 | enableAdminUI | Habilite a interface do Administrador para configurar o dispositivo no site. Defina como false depois que estiver totalmente configurado e em produção. |
 | enableOSD | Habilite a interface do alternador de canal para que os usuários alternem canais no dispositivo. Considere definir como false depois que estiver totalmente configurado e em produção. |
 | enableActivityUI | Permite mostrar o progresso de atividades como download e sincronização. Ative para solução de problemas e desative depois que estiver totalmente configurado e em produção. |
+| cloudMode | Defina como verdadeiro se desejar que o reprodutor Tizen se conecte ao Screens as a Cloud Service. Defina como falso para se conectar ao AMS ou AEM local. |
+| cloudToken | Token de registro para se registrar no Screens as a Cloud Service. |
 
 #### Exemplo de arquivo JSON de política {#example-policy-json-file}
 
