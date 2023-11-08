@@ -14,7 +14,7 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
+source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 1%
@@ -130,7 +130,7 @@ A tabela a seguir resume os atributos da política com um exemplo de JSON de pol
 | enableAdminUI | Habilite a interface do Administrador para configurar o dispositivo no site. Defina como false depois que estiver totalmente configurado e em produção. |
 | enableOSD | Habilite a interface do alternador de canal para que os usuários alternem canais no dispositivo. Considere definir como false depois que estiver totalmente configurado e em produção. |
 | enableActivityUI | Permite mostrar o progresso de atividades como download e sincronização. Ative para solução de problemas e desative depois que estiver totalmente configurado e em produção. |
-| cloudMode | Defina como verdadeiro se desejar que o reprodutor Tizen se conecte ao Screens as a Cloud Service. Defina como falso para se conectar ao AMS ou AEM local. |
+| cloudMode | Defina como verdadeiro se você deseja que o Windows player se conecte ao Screens as a Cloud Service. Defina como falso para se conectar ao AMS ou AEM local. |
 | cloudToken | Token de registro para se registrar no Screens as a Cloud Service. |
 
 #### Exemplo de arquivo JSON de política {#example-policy-json-file}
