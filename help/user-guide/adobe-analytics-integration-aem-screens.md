@@ -14,9 +14,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 97820c602885ecf581ae1e6bada6c104aeeb4c70
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '690'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Essa funcionalidade do AEM Screens só estará disponível se você tiver instalado a versão mínima do AEM 6.4.2 Feature Pack 2 ou AEM 6.3.3 Feature Pack 4.
+>Essa funcionalidade do AEM Screens só estará disponível se você tiver instalado a versão mínima do AEM 6.4.2 Feature Pack 2 ou AEM 6.3.3 Feature Pack 4. Para clientes do AEM Screens Cloud Service, entre em contato com o Gerente de relacionamento de Adobe para ativar o Adobe Analytics na Screens Cloud.
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ A tabela a seguir destaca as propriedades e a descrição para configurar o Adob
   <tr>
    <td><strong>URL do Analytics</strong></td>
    <td>URL para publicar dados de análise do reprodutor. <br>
-   Para desenvolvimento/estágio</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>Para produção</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
+   Para desenvolvimento/estágio</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>Para produção</em> - https://cc-api-data.adobe.io/ingest/<br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Chave da API do Analytics</strong></td>
