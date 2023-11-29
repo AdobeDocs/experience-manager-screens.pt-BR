@@ -14,9 +14,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 93e9514ebd25a4d84076174c4d90a0325b167393
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1513'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Antes de entrarmos nos detalhes da criação e do gerenciamento de canais orient
 
 **Área** Refere-se ao nome do projeto do AEM Screens, como Sinalização de anúncio digital
 
-**Atividade** Define a categoria da regra, como Orientado por Inventário, Orientado pelo Clima, Orientado pela Disponibilidade do Departamento e assim por diante.
+**Atividade** Define a categoria da regra, como Orientado a Inventário, Orientado ao Clima, Orientado à Disponibilidade do Departamento e assim por diante.
 
 **Público** Define a regra.
 
@@ -111,7 +111,6 @@ A validação a seguir é o que você visualizará ao verificar sua conexão ins
       >1. Excluir `cloudsettings` e salve.
       >1. Renomear `cloudsettings1` para `cloudsettings` e salve.
       >1. Observe que /conf/screens/settings/cloudsettings `jcr:primaryType` as `sling:Folder`.
-
       >
       >Você deve seguir essas etapas na criação e publicação antes ou depois da atualização.
 
@@ -144,10 +143,13 @@ A validação a seguir é o que você visualizará ao verificar sua conexão ins
       ```
 
       >[!NOTE]
+      >
       No código de amostra acima, **pollInterval** define a frequência com que os valores são atualizados (em ms).
+      >
       Substitua o código pelo seu *&lt;sheet id=&quot;&quot;>* e *&lt;api key=&quot;&quot;>*, que você buscou ao configurar o Google Sheets.
 
       >[!CAUTION]
+      >
       Se você criar as configurações de armazenamento do Google Sheets fora da pasta global (por exemplo, em sua própria pasta de projeto), o direcionamento não funcionará imediatamente.
 
 1. **Configurar a segmentação de loja**
@@ -201,7 +203,8 @@ Siga as etapas abaixo para criar uma marca em suas atividades e área sob a marc
 
 
       >[!CAUTION]
-      Problema conhecido: para adicionar uma área, remova o principal do URL, como
+      >
+      Problema conhecido: para adicionar uma área, remova o Principal do URL, como
       `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
 1. **Criar uma área na sua marca**
@@ -267,9 +270,11 @@ A variável **googlesheets/value/1/0** refere-se à linha 2 e à coluna conforme
    1. Insira o **Valor** as **70**.
 
       >[!NOTE]
+      >
       O AEM valida seus dados da Planilha do Google mostrando seu segmento como verde.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub18.png)
+
    Da mesma forma, edite os valores de propriedade para **Inferior50**.
 
    1. Arraste e solte a **Comparação: Propriedade- Valor** ao editor.
@@ -281,7 +286,6 @@ A variável **googlesheets/value/1/0** refere-se à linha 2 e à coluna conforme
    1. Selecione o **Operador** as **menor que** no menu suspenso.
 
    1. Insira o **Valor** as **50**.
-
 
 
 ## Ativação do direcionamento em canais {#step-enabling-targeting-in-channels}
@@ -296,18 +300,21 @@ Siga as etapas abaixo para ativar o direcionamento em seus canais.
 
 1. Selecione o **Personalização** para definir as configurações do ContextHub.
 
-   1. Defina o **Caminho do ContextHub** para `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` e **Caminho de segmentos** para `/conf/screens/settings/wcm/segments` e clique em **Salvar**.
+   1. Defina o **Caminho do ContextHub** para `/conf/screens/settings/wcm/segments` e **Caminho de segmentos** para `/conf/screens/settings/wcm/segments`.
+   1. Definir marca como **ScreensBrand** na lista suspensa e **Definir Referência da Área** para **ScreensValue**.
 
    1. Clique em **Salvar e fechar**.
 
       >[!NOTE]
+      >
       Use o ContextHub e o caminho Segmentos, onde você salvou inicialmente as configurações e os segmentos do seu hub de contexto.
 
-      ![imagem](/help/user-guide/assets/context-hub/context-hub20.png)
+      ![imagem](/help/user-guide/assets/context-hub/context-hub20New.png)
 
    1. Navegue e selecione o **TargetChannel** canal e clique em **Editar** na barra de ações.
 
       >[!NOTE]
+      >
       Se você configurou tudo corretamente, verá **Direcionamento** no menu suspenso do editor, como mostrado na figura abaixo.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub21.png)
