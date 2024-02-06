@@ -4,9 +4,9 @@ description: Siga esta página para obter informações sobre o Pacote de recurs
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: e172d2a4a3d2c1f3b555edc8f8ea41b663fc0a30
+source-git-commit: bdc8ff6c1291b7f0dc749e4a9f3a4c1d21678303
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '232'
 ht-degree: 3%
 
 ---
@@ -53,7 +53,3 @@ Esta versão inclui somente correções de segurança.
 * Problema XSS em `libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.openLink.js`. (SCRNS-3459)
 
 * Botões Fixed, Missing Recurrence Schedule e Add Schedule: A Problem Discovered in Channel Scheduling. (Correção, Ausência de agendamento de recorrência e Adicionar agendamento: Um problema foi descoberto no agendamento do canal.) (SCRNS-2739)
-
-#### Downloads do AEM Screens Player  {#aem-screens-player-downloads}
-
-Para baixar o reprodutor AEM Screens mais recente, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

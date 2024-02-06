@@ -8,9 +8,9 @@ user-guide-description: Saiba como usar uma Solução de sinalização digital q
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: f20cdc76eb599000b4da4b2c654b3c191d963ed6
+source-git-commit: 5f67d469bb6e562e0bc91f098e1941aeea923c9e
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '516'
 ht-degree: 11%
 
 ---
@@ -117,7 +117,8 @@ ht-degree: 11%
    + [Solução de problemas do Centro de controle de dispositivos](monitoring-screens.md)
    + [Configuração de reprodução de vídeo](troubleshoot-videos.md)
 + Notas de versão {#release-notes}
-   + [Notas de versão do Pacote de recursos 20240166](release-notes-fp-20240116.md)
+   + [Notas de versão do Pacote de recursos 202401](release-notes-fp-202401.md)
+   + [Notas de versão do Pacote de recursos 20240116](release-notes-fp-20240116.md)
    + [Notas de versão do Pacote de recursos 202204](release-notes-fp-202204.md)
    + [Notas de versão do Pacote de recursos 202203](release-notes-fp-202203.md)
    + [Notas de versão do Pacote de recursos 202112](release-notes-fp-202112.md)
