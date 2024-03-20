@@ -76,9 +76,11 @@ Com base no tipo de instância AEM, selecione um dos guias a seguir para ativar 
 
 >[!NOTE]
 >
-## Descontinuação de aplicativos do Chrome pelo Google
-1. Aplicativos Chrome no hardware do Chrome OS: a Google tem descontinuado ativamente os aplicativos Chrome em favor dos aplicativos PWA, com uma migração planejada até janeiro de 2025. Consequentemente, o aplicativo AEM Screens Player no Chrome OS deixará de funcionar com base na linha do tempo compartilhada. Recomendamos que nossos clientes que atualmente usam o Chrome Player em produção planejem a transição para o Screens Cloud Player.
-2. Chrome Extension Player no Mac, Windows e Linux: devido ao processo de desativação do Google, a partir do Google Chrome versão 114, o Screens Chrome Extension Player não é mais compatível. Recomendamos a transição para nosso Screens Cloud Player para todos os seus requisitos de desenvolvimento e teste.
+>## Descontinuação de aplicativos do Chrome pelo Google
+>1. Aplicativos Chrome no hardware do Chrome OS: 
+>a Google tem descontinuado ativamente os aplicativos Chrome em favor dos aplicativos PWA, com uma migração planejada até janeiro de 2025. Consequentemente, o aplicativo AEM Screens Player no Chrome OS deixará de funcionar com base na linha do tempo compartilhada. Recomendamos que nossos clientes que atualmente usam o Chrome Player em produção planejem a transição para o Screens Cloud Player.
+>2. Chrome Extension Player no Mac, Windows e Linux: 
+>devido ao processo de desativação do Google, a partir do Google Chrome versão 114, o Screens Chrome Extension Player não é mais compatível. Recomendamos a transição para nosso Screens Cloud Player para todos os seus requisitos de desenvolvimento e teste.
 
 ## Suporte off-line para recuperação de conteúdo externo {#offline-support}
 
