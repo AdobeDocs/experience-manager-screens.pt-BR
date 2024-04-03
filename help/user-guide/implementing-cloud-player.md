@@ -12,7 +12,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 214da80530b472b67a30b575eb8ab11486d44692
+source-git-commit: 5b64ab8eea274aa85c61311d34b1ce065a5ba601
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 0%
@@ -22,10 +22,12 @@ ht-degree: 0%
 # Implementação do Cloud Player  {#implementing-cloud-player}
 
 Tradicionalmente, a AEM Screens oferece aplicativos de player nativos distintos para várias plataformas, incluindo ChromeOS, Windows, Android e Tizen. No entanto, em resposta às necessidades crescentes de nossos usuários, introduzimos uma solução inovadora: o AEM Screens Cloud Player.
-O Cloud Player representa uma diferença significativa de nossos aplicativos nativos anteriores. É um aplicativo web progressivo (PWA) hospedado em um servidor. Essa abordagem transformadora capacita nossos clientes com um player independente de plataforma executado diretamente em um navegador da Web.
-Acessar o Cloud Player é tão simples quanto visitar https://player.adobescreens.com. Os usuários podem instalá-lo em seus dispositivos, independentemente da plataforma, e aproveitar experiências de sinalização digital perfeitas. A compatibilidade do Cloud Player depende da presença de um navegador moderno com suporte para PWA, garantindo desempenho consistente em vários dispositivos. Diga adeus às atualizações manuais e olá para um reprodutor que fornece correções e recursos automaticamente, garantindo que você sempre tenha os recursos mais recentes ao seu alcance. Essa mudança para um Cloud Player baseado em PWA marca uma evolução emocionante em nossas ofertas de sinalização digital, tornando-o mais acessível, versátil e fácil de usar do que nunca.
-Esta seção descreve como implementar o Cloud Player.
 
+O Cloud Player representa uma diferença significativa de nossos aplicativos nativos anteriores. É um aplicativo web progressivo (PWA) hospedado em um servidor. Essa abordagem transformadora capacita nossos clientes com um player independente de plataforma executado diretamente em um navegador da Web.
+
+Acessar o Cloud Player é tão simples quanto visitar https://player.adobescreens.com. Os usuários podem instalá-lo em seus dispositivos, independentemente da plataforma, e aproveitar experiências de sinalização digital perfeitas. A compatibilidade do Cloud Player depende da presença de um navegador moderno com suporte para PWA, garantindo desempenho consistente em vários dispositivos. Diga adeus às atualizações manuais e olá para um reprodutor que fornece correções e recursos automaticamente, garantindo que você sempre tenha os recursos mais recentes ao seu alcance. Essa mudança para um Cloud Player baseado em PWA marca uma evolução emocionante em nossas ofertas de sinalização digital, tornando-o mais acessível, versátil e fácil de usar do que nunca.
+
+Esta seção descreve como implementar o Cloud Player.
 
 >[!NOTE]
 >
@@ -48,9 +50,11 @@ A instalação do Cloud Player pode variar em plataformas diferentes. Em geral, 
 >
 1. A opção de instalação de um PWA também é conhecida como &quot;Adicionar à tela inicial&quot; ou recurso A2HS.  O suporte para a instalação de PWA na Web varia de acordo com o navegador e a plataforma.
 1. Cada navegador tem critérios diferentes para verificar se o aplicativo PWA é instalável ou não. Geralmente, o navegador verifica estes (mais detalhes aqui):
+>
 * Se o aplicativo tiver um arquivo JSON de manifesto com as chaves mínimas necessárias para instalar o aplicativo na plataforma, ou seja, nome, ícones, start_url, exibição
 * Se o aplicativo tiver um arquivo do service worker com um ouvinte de eventos de busca.
 * O aplicativo deve ser distribuído por https.
+>
 1. A opção Instalar pode estar visível em locais diferentes em navegadores e tipos de dispositivo diferentes. Alguns navegadores podem ocultar o ícone de instalação na barra de menu de opções.
 
 ## Cloud Player de provisionamento em massa {#bulk-provisioning}
@@ -59,6 +63,7 @@ Para fazer o provisionamento em massa do Cloud Player em vários dispositivos:
 
 1. Escolha uma solução MDM que suporte a execução de um navegador com um URL no modo Quiosque.
 1. Você pode aplicar as mesmas configurações a todos os dispositivos seguindo estas etapas:
+
    1. Hospede config.json em um servidor de modo que seja acessível como: https://&lt;config_server_host>/config.json
    1. Para instalar o Cloud Player e aplicar as configurações hospedadas, use o URL do Cloud Player, como: https://player.adobescreens.com?playerConfigAddress=https://&lt;config_server_host>
    1. O aplicativo Cloud Player procura config.json na raiz do &lt;config_server_host>, analise o config.json para obter as configurações personalizadas e aplicá-las.
@@ -76,15 +81,20 @@ Com base no tipo de instância AEM, selecione um dos guias a seguir para ativar 
 
 >[!NOTE]
 >
->## Descontinuação de aplicativos do Chrome pelo Google
->1. Aplicativos Chrome no hardware do Chrome OS: 
->a Google tem descontinuado ativamente os aplicativos Chrome em favor dos aplicativos PWA, com uma migração planejada até janeiro de 2025. Consequentemente, o aplicativo AEM Screens Player no Chrome OS deixará de funcionar com base na linha do tempo compartilhada. Recomendamos que nossos clientes que atualmente usam o Chrome Player em produção planejem a transição para o Screens Cloud Player.
->2. Chrome Extension Player no Mac, Windows e Linux: 
->devido ao processo de desativação do Google, a partir do Google Chrome versão 114, o Screens Chrome Extension Player não é mais compatível. Recomendamos a transição para nosso Screens Cloud Player para todos os seus requisitos de desenvolvimento e teste.
+## Descontinuação de aplicativos do Chrome pelo Google
+>
+1. Aplicativos Chrome no hardware do Chrome OS:
+>
+A Google tem descontinuado ativamente os aplicativos do Chrome em favor dos aplicativos PWA, com uma migração planejada até janeiro de 2025. Consequentemente, o aplicativo AEM Screens Player no Chrome OS deixará de funcionar com base na linha do tempo compartilhada. Recomendamos que nossos clientes que atualmente usam o Chrome Player em produção planejem a transição para o Screens Cloud Player.
+>
+1. Player de extensão do Chrome no Mac, Windows e Linux:
+>
+Devido ao processo de desativação do Google, a partir do Google Chrome versão 114, o reprodutor de extensão do Screens Chrome não é mais compatível. Recomendamos a transição para nosso Screens Cloud Player para todos os seus requisitos de desenvolvimento e teste.
 
 ## Suporte off-line para recuperação de conteúdo externo {#offline-support}
 
 Em vários cenários de uso, os canais podem exigir a recuperação de conteúdo de uma fonte externa (por exemplo, widgets meteorológicos ou Aplicativos de página única integrados ao Commerce) que não podem inerentemente fornecer suporte offline. Para ativar a funcionalidade offline para esses casos de uso específicos, o Cloud Player oferece suporte para cabeçalho personalizado.
+
 O Cloud Player emprega uma estratégia de cache Network First, o que significa que ele tenta buscar conteúdo da rede (em seguida, atualizar o cache com o mais recente), retornando ao conteúdo em cache, se disponível. Para implementar o suporte offline para essa recuperação de conteúdo, o cabeçalho personalizado deve ser incluído na solicitação. Posteriormente, a solicitação com o cabeçalho personalizado será armazenada em cache no reprodutor, facilitando o acesso offline ao conteúdo e mantendo a estratégia de cache Rede primeiro.
 
 ```
