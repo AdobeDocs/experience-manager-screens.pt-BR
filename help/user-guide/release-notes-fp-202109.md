@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: b56844c66bfa980013b610523842c7ac0c30f44d
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 2%
+source-wordcount: '908'
+ht-degree: 1%
 
 ---
 
@@ -31,42 +31,43 @@ A data de lançamento do Pacote de recursos do AEM Screens 202109 é 23 de setem
 
 * **Suporte a miniaturas para vídeos**
 
-   O Suporte a miniaturas para vídeos agora é compatível com o AEM Screens. Um autor de conteúdo pode definir uma miniatura de vídeos para que a imagem possa ser usada como um espaço reservado e testar corretamente a reprodução e o direcionamento do conteúdo, enquanto o vídeo real está sendo finalizado pela equipe apropriada. A imagem também pode ser usada caso a reprodução do vídeo falhe.
+  O Suporte a miniaturas para vídeos agora é compatível com o AEM Screens. Um autor de conteúdo pode definir uma miniatura de vídeos para que a imagem possa ser usada como um espaço reservado e testar corretamente a reprodução e o direcionamento do conteúdo, enquanto o vídeo real está sendo finalizado pela equipe apropriada. A imagem também pode ser usada caso a reprodução do vídeo falhe.
 Consulte [Suporte a miniaturas para vídeos](/help/user-guide/thumbnail-support.md) para obter mais detalhes.
 
 * **Monitoramento básico de reprodução**
 
-   O AEM Screens agora é compatível com o monitoramento básico de reprodução. O player agora relatará várias métricas de reprodução a cada ping (o padrão é 30 segundos). Com base nas métricas, ele fornece a capacidade de detectar vários casos de borda (experiência travada, tela em branco, problema de agendamento etc.). Esse recurso permite que a equipe monitore remotamente se um player está reproduzindo conteúdo corretamente, melhora a reatividade para telas em branco ou experiências com falha no campo e diminui o risco de mostrar uma experiência com falha para o usuário final.
+  O AEM Screens agora é compatível com o monitoramento básico de reprodução. O player agora relatará várias métricas de reprodução a cada ping (o padrão é 30 segundos). Com base nas métricas, ele fornece a capacidade de detectar vários casos de borda (experiência travada, tela em branco, problema de agendamento etc.). Esse recurso permite que a equipe monitore remotamente se um player está reproduzindo conteúdo corretamente, melhora a reatividade para telas em branco ou experiências com falha no campo e diminui o risco de mostrar uma experiência com falha para o usuário final.
 Consulte [Monitoramento básico de reprodução](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) para obter mais detalhes.
 
 * **Atualizações no Relatório de atribuição de conteúdo**
 
-   O Relatório de atribuição de conteúdo agora está otimizado e aprimorado com experiência aprimorada do usuário. O relatório baixável exibe entidades relacionadas ao player aprimoradas, como locais, exibições e dispositivos em uma guia da planilha e as informações do provedor de conteúdo, como canais e ativos em outra guia.
+  O Relatório de atribuição de conteúdo agora está otimizado e aprimorado com experiência aprimorada do usuário. O relatório baixável exibe entidades relacionadas ao player aprimoradas, como locais, exibições e dispositivos em uma guia da planilha e as informações do provedor de conteúdo, como canais e ativos em outra guia.
 Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assignment-report.md) para obter mais detalhes.
 
 * **Representações adaptáveis**
 
-   As representações adaptáveis permitem que os dispositivos selecionem automaticamente a melhor representação para um dispositivo com base em regras definidas pelo cliente.
+  As representações adaptáveis permitem que os dispositivos selecionem automaticamente a melhor representação para um dispositivo com base em regras definidas pelo cliente.
 
-   Como um Desenvolvedor do AEM Screens, agora você pode configurar representações de ativos específicas do dispositivo para serem baixadas e reproduzidas automaticamente sem precisar criar todas as variações de conteúdo manualmente. Consulte [Representações adaptáveis: visão geral e configurações da arquitetura](/help/user-guide/adaptive-renditions.md) para obter mais detalhes.
+  Como um Desenvolvedor do AEM Screens, agora você pode configurar representações de ativos específicas do dispositivo para serem baixadas e reproduzidas automaticamente sem precisar criar todas as variações de conteúdo manualmente. Consulte [Representações adaptáveis: visão geral e configurações da arquitetura](/help/user-guide/adaptive-renditions.md) para obter mais detalhes.
 
-   Além disso, como um Autor de conteúdo do AEM Screens, você pode configurar seus ativos para usar Representações adaptáveis e também migrar seus dispositivos para redes grandes para aproveitar esse recurso em seus canais do AEM Screens. Consulte [Uso de representações adaptáveis no AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obter mais detalhes.
+  Além disso, como um Autor de conteúdo do AEM Screens, você pode configurar seus ativos para usar Representações adaptáveis e também migrar seus dispositivos para redes grandes para aproveitar esse recurso em seus canais do AEM Screens. Consulte [Uso de representações adaptáveis no AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obter mais detalhes.
 
 * **Suporte para manifestos V3**
 
-   Agora você pode configurar o Dispatcher para a Versão de manifesto v3. Para ativar o Manifesto v3, é necessário:
+  Agora você pode configurar o Dispatcher para a Versão de manifesto v3. Para ativar o Manifesto v3, é necessário:
 
    * Limpar todos os trabalhos de conteúdo offline pendentes no autor e na publicação
 
       * Navegue até crx/de no autor e na publicação
 
-      * Clique em Ferramentas —> Consulta
+      * Clique em Ferramentas > Consulta
 
       * No query use `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
 
       * Isso listará todos os trabalhos de conteúdo offline que estão atualmente em execução ou pendentes na fila
 
       * Aguarde até que não haja mais trabalhos de conteúdo offline retornados da consulta
+
    * Desativar ContentSync em `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
 
    * Ativar SmartSync no `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
@@ -78,7 +79,6 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
 
    * Consulte [Configuração do Dispatcher para Versão de Manifesto v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) para obter mais detalhes.
    * Se você estiver usando componentes personalizados como parte dos manifestos v3, consulte [Modelo para manipuladores personalizados](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
-
 
 
 ### Correções de erros {#bug-fixes}

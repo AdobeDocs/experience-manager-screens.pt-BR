@@ -14,9 +14,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '761'
 ht-degree: 1%
 
 ---
@@ -39,9 +39,7 @@ O processo de registro de dispositivos é feito em duas máquinas separadas:
 >1. Pressione e segure no canto superior esquerdo para abrir o painel de administração.
 >1. Navegue até **Configuração** no menu de ações à esquerda e insira o endereço do local da instância do AEM em **Servidor** e clique em **Salvar**.
 >1. Clique no link **Registro** no menu de ação esquerdo e nas etapas abaixo para concluir o processo de registro do dispositivo.
-
 >
-
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
 
@@ -126,7 +124,7 @@ Se você não atribuiu o dispositivo a uma exibição, siga as etapas abaixo par
 
 Depois de registrar os dispositivos no reprodutor, você pode exibi-los na interface do usuário do Gerenciador de dispositivos.
 
-1. Acesse a interface do usuário do Gerenciador de dispositivos a partir de seu projeto do AEM Screens, por exemplo, **DemoScreens** —> **Dispositivos**.
+1. Acesse a interface do usuário do Gerenciador de dispositivos a partir de seu projeto do AEM Screens, por exemplo, **DemoScreens** > **Dispositivos**.
 
 1. Selecione o **Dispositivos** e clique em **Gerenciador de dispositivos** na barra de ações.
 
@@ -149,8 +147,8 @@ Depois de registrar os dispositivos no reprodutor, você pode exibi-los na inter
 
 * O usuário poderá pesquisar qualquer palavra existente no *ID do dispositivo* ou *Nome do dispositivo*.
 
-   >[!NOTE]
-   >É recomendável criar os nomes dos dispositivos em várias palavras, como *Lobby da Boston Store* em vez de um único *BostonStoreLobby*.
+  >[!NOTE]
+  >É recomendável criar os nomes dos dispositivos em várias palavras, como *Lobby da Boston Store* em vez de um único *BostonStoreLobby*.
 
 * Se você criar nomes de dispositivos como *Lobby da Boston Store*, permite pesquisar qualquer palavra *boston*, *loja* ou *lobby* mas se o nome do dispositivo for chamado de *BostonStoreLobby* pesquisando *boston* não mostrará os resultados.
 

@@ -14,9 +14,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1510'
 ht-degree: 0%
 
 ---
@@ -137,10 +137,10 @@ Consulte uma [Exemplo de política JSON](#example-json) bem como uma tabela que 
 
 A tabela a seguir resume os atributos da política com um exemplo de JSON de política para referência:
 
-| **Nome da política** | **Propósito** |
+| **Nome da política** | **Finalidade** |
 |---|---|
-| *servidor* | O URL para o servidor do Adobe Experience Manager. |
-| *resolução* | A resolução do dispositivo. |
+| *server* | O URL para o servidor do Adobe Experience Manager. |
+| *resolution* | A resolução do dispositivo. |
 | *rebootSchedule* | O cronograma para reinicializar se aplica a todas as plataformas. |
 | *enableAdminUI* | Habilite a interface do Administrador para configurar o dispositivo no site. Defina como *false* depois que estiver totalmente configurado e em produção. |
 | *enableOSD* | Habilite a interface do alternador de canal para que os usuários alternem canais no dispositivo. Considere configurar como *false* depois que estiver totalmente configurado e em produção. |
@@ -176,7 +176,7 @@ A tabela a seguir resume os atributos da política com um exemplo de JSON de pol
 
 ## Provisionamento em massa do Android Player usando o Enterprise Mobility Management {#bulk-provisioning}
 
-Ao implantar o reprodutor Android em massa, é entediante registrar manualmente cada um dos reprodutores com AEM. É altamente recomendável usar uma solução EMM (Enterprise Mobility Management), como VMWare Airwatch, MobileIron ou Samsung Knox, para provisionar e gerenciar remotamente sua implantação. O AEM Screens Android Player oferece suporte ao EMM AppConfig padrão do setor para permitir o provisionamento remoto.
+Ao implantar o reprodutor Android em massa, é entediante registrar manualmente cada um dos reprodutores com AEM. É altamente recomendável usar uma solução EMM (Enterprise Mobility Management), como VMWare Airwatch, MobileIron ou Samsung Knox, para provisionar e gerenciar remotamente sua implantação. O AEM Screens Android Player é compatível com o EMM AppConfig padrão do setor para permitir o provisionamento remoto.
 
 ## Nomeação do reprodutor Android {#name-android}
 
@@ -187,7 +187,7 @@ Você pode atribuir um nome de dispositivo amigável ao seu reprodutor Android, 
 
 Siga as etapas abaixo para configurar o nome no reprodutor Android:
 
-1. Navegue até **configurações** —> **Sobre o dispositivo**
+1. Navegue até **configurações** > **Sobre o dispositivo**
 1. Edite e defina o nome do dispositivo para nomear o player do Android
 
 ### Implementação do provisionamento em massa do Android Player usando o Gerenciamento de mobilidade empresarial {#implementation}

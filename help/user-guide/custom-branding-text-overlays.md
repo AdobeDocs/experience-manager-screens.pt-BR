@@ -8,9 +8,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Siga as etapas abaixo para criar marca e estilo personalizados para sobreposiç�
    >[!NOTE]
    >Para saber como adicionar uma sobreposição de texto ao seu ativo em um editor de canal, consulte [Sobreposição de texto](/help/user-guide/text-overlay.md).
 
-1. Navegue até o CRXDE Lite a partir da instância do AEM —> ferramentas —> **CRXDE Lite**.
+1. Navegue até o CRXDE Lite na instância AEM > ferramentas > **CRXDE Lite**.
 
 1. Você precisa criar um design personalizado no `/apps/settings/wcm/designs/<your-project>/`, por exemplo, nesse caso, navegue até `/apps/settings/wcm/designs/customstyle/`
 
@@ -110,7 +110,7 @@ Depois de concluir as etapas anteriores, você poderá atualizar *stat.css* arqu
 
 Siga as etapas abaixo para exibir o design atualizado para a sobreposição de texto:
 
-1. Navegue até o projeto do AEM Screens intitulado como **customstyle** —> **Canais** —> **DemoBrand**. Selecione o canal e clique em **Editar** na barra de ações para abrir o editor.
+1. Navegue até o projeto do AEM Screens intitulado como **customstyle** > **Canais** > **DemoBrand**. Selecione o canal e clique em **Editar** na barra de ações para abrir o editor.
 
 1. Como você adicionou o design ao seu **Designs** como mencionado acima, clique em **Visualizar** para exibir o estilo atual na imagem com sobreposição de texto.
 

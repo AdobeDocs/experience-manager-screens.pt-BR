@@ -4,9 +4,9 @@ description: Siga esta página para obter informações sobre como configurar os
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: 93bbffa2d752bfbd92702487802d40e7e8e287b8
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '498'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Esta página descreve como configurar os Agentes de replicação do Screens.
 O Agente de replicação do Screens é responsável por trazer dados de comandos como, *usuário*, *senha*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* e muitos mais desses valores de publicar para autor. É essencial configurá-lo para que o autor possa mostrar o ping do dispositivo.
 
 >[!NOTE]
->Para saber mais sobre os Agentes de replicação do Screens, consulte [Comandos e agentes de replicação do Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
+>Para saber mais sobre os Agentes de replicação do Screens, consulte [Agentes e comandos de replicação do Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
 
 Você deve concluir ambas as seções para concluir a configuração do Agente de replicação do Screens:
 
@@ -34,9 +34,9 @@ Siga as etapas abaixo para habilitar usuários e atualizar a senha para screens-
 >[!NOTE]
 >Por motivos de segurança, é recomendável evitar o uso da senha do administrador para screens-receiver-user.
 
-1. Navegue até a instância do AEM Author.
+1. Navegue até a instância do autor do AEM.
 
-1. Clique nas ferramentas —> **Segurança** —> **Usuários**.
+1. Clique nas ferramentas > **Segurança** > **Usuários**.
 
    ![imagem](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
@@ -97,7 +97,7 @@ Siga a seção abaixo para atualizar as configurações no agente de replicaçã
 
 1. Navegue até a instância do AEM.
 
-1. Clique nas ferramentas —> **Implantação** —> **Replicação**.
+1. Clique nas ferramentas > **Implantação** > **Replicação**.
 
    ![imagem](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 

@@ -14,9 +14,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1145'
 ht-degree: 1%
 
 ---
@@ -77,8 +77,8 @@ Você pode atribuir um nome de dispositivo amigável ao seu reprodutor do Window
 
 Siga as etapas abaixo para configurar o nome no reprodutor do Windows:
 
-1. Clique em **start** —> **executar**
-1. Insira `system.cpl`
+1. Clique em **start** > **executar**
+1. Enter `system.cpl`
 1. Use a guia Nome do computador para definir o nome de host do computador
 
 ## Alterando as opções padrão no Windows Installer {#changing-default-options}
@@ -121,7 +121,7 @@ Siga as etapas abaixo para configurar o Windows 10 Player:
 A tabela a seguir resume os atributos da política com um exemplo de JSON de política para referência:
 
 
-| **Nome da política** | **Propósito** |
+| **Nome da política** | **Finalidade** |
 |---|---|
 | servidor | O URL para o servidor Adobe Experience Manager (AEM). |
 | registrationKey | Usado para registro em massa de dispositivos usando chave pré-compartilhada. |

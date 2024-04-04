@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 3%
+source-wordcount: '1119'
+ht-degree: 2%
 
 ---
 
@@ -57,7 +57,7 @@ Antes de usar o recurso de reconhecimento de voz, verifique se você tem um proj
 
    ![imagem](assets/voice-recognition/vr-emb-1.png)
 
-1. Navegue até cada canal e adicione o conteúdo. Por exemplo, navegue até **VoiceDemo** —> **Canais** —> **Principal** e selecione o canal. Clique em **Editar** na barra de ações para abrir o editor e adicionar conteúdo (imagens/vídeos) de acordo com sua necessidade. Da mesma forma, adicione conteúdo a ambos **ColdDrinks** e a variável **HotDrinks** canal.
+1. Navegue até cada canal e adicione o conteúdo. Por exemplo, navegue até **VoiceDemo** > **Canais** > **Principal** e selecione o canal. Clique em **Editar** na barra de ações para abrir o editor e adicionar conteúdo (imagens/vídeos) de acordo com sua necessidade. Da mesma forma, adicione conteúdo a ambos **ColdDrinks** e a variável **HotDrinks** canal.
 
    Os canais agora contêm ativos (imagens), como mostrado nas figuras abaixo.
 
@@ -83,7 +83,7 @@ Após adicionar o conteúdo aos canais, é necessário navegar até cada um dele
 
 Siga as etapas abaixo para adicionar tags ao seu canal:
 
-1. Navegue até cada canal e adicione o conteúdo. Por exemplo, navegue até **VoiceDemo** —> **Canais** —> **Principal** e selecione o canal.
+1. Navegue até cada canal e adicione o conteúdo. Por exemplo, navegue até **VoiceDemo** > **Canais** > **Principal** e selecione o canal.
 
 1. Clique em **Propriedades** na barra de ações.
 
@@ -116,10 +116,10 @@ Siga as etapas abaixo para criar tags:
 
 1. Navegue até a instância do AEM.
 
-1. Clique no ícone de ferramentas —> **Marcação**.
+1. Clique no ícone Ferramentas > **Marcação**.
    ![imagem](assets/voice-recognition/vr-7.png)
 
-1. Clique em **Criar** —> **Criar namespace**.
+1. Clique em **Criar** > **Criar namespace**.
    ![imagem](assets/voice-recognition/vr-tag3.png)
 
 1. Insira o nome do projeto, por exemplo, **VoiceDemo** e clique em **Criar**.

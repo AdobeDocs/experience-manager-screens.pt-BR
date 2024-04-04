@@ -2,10 +2,10 @@
 title: Visão geral e configurações da arquitetura de representações adaptáveis
 description: Esta página descreve a Visão geral da arquitetura e as configurações no CRXDE Lite para representações adaptáveis no AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 3%
+source-wordcount: '645'
+ht-degree: 2%
 
 ---
 
@@ -59,7 +59,7 @@ Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
 
 1. Navegar até este caminho `/conf/screens/sling:configs/rendition-mapping` de **CRXDE Lite**.
 
-1. Criar um nó em **mapeamento de representação**. Clique com o botão direito do mouse em **mapeamento de representação** e clique em **Criar** —> **Criar nó**, conforme mostrado na figura abaixo.
+1. Criar um nó em **mapeamento de representação**. Clique com o botão direito do mouse em **mapeamento de representação** e clique em **Criar** > **Criar nó**, conforme mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 

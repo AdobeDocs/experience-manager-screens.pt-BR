@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 1%
+source-wordcount: '1247'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ Você pode atribuir um nome de dispositivo amigável ao seu reprodutor de Tizen,
 Siga as etapas abaixo para configurar o nome no reprodutor Tizen:
 
 1. Clique no botão de menu no seu controle remoto.
-1. Navegue até **rede** —> **Nome do dispositivo** para atribuir um nome ao reprodutor.
+1. Navegue até **rede** > **Nome do dispositivo** para atribuir um nome ao reprodutor.
 
 ### Configurando atualizações no dispositivo Samsung {#config-updates}
 
@@ -97,7 +97,7 @@ O provisionamento remoto do Tizen Player permite implantar centenas e milhares d
 
 Esse recurso permite configurar remotamente o Tizen player e também atualizar essas configurações centralmente, se necessário. Tudo o que você precisa é a `HTTP` servidor usado para hospedar o aplicativo Tizen `(wgt and xml file)` e um editor de texto para salvar a `config.json` com os parâmetros adequados.
 
-Certifique-se de ter configurado o endereço do iniciador de URL no Dispositivo de digitalização, ou seja, Botão inicial —> Configurações do iniciador de URL.
+Certifique-se de ter configurado o endereço do iniciador de URL no Dispositivo de digitalização, ou seja, Botão inicial > Configurações do iniciador de URL.
 No `HTTP` servidor que hospeda o aplicativo Tizen, coloque o arquivo `config.json` no mesmo local da variável `wgt` arquivo. O nome do arquivo deve ser `config.json`.
 O Tizen player será instalado e, na inicialização (e a cada reinicialização), verificará e aplicará as configurações no `config.json` arquivo.
 
@@ -120,7 +120,7 @@ A tabela a seguir resume as políticas com suas funções.
 >[!NOTE]
 >As configurações de política são estritamente aplicadas e não são substituídas manualmente na interface do administrador do reprodutor. Para permitir a configuração manual do player para uma política específica, não especifique a política na configuração de política. Por exemplo, se você quiser permitir a configuração manual para a programação de reinicialização, não especifique a chave `rebootSchedule` na configuração de política. As Configurações de política são lidas sempre que o reprodutor é recarregado.
 
-| **Nome da política** | **Propósito** |
+| **Nome da política** | **Finalidade** |
 |---|---|
 | servidor | O URL para o servidor Adobe Experience Manager (AEM). |
 | registrationKey | Usado para registro em massa de dispositivos usando chave pré-compartilhada. |

@@ -8,9 +8,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '927'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Siga as etapas abaixo para criar um Layout Left20-LandscapeHD3Zone para um proje
 
    ![imagem](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. Navegue até **CRXDE Lite** da instância do AEM —> Ferramentas —> **CRXDE Lite**.
+1. Navegue até **CRXDE Lite** da instância do AEM > Ferramentas > **CRXDE Lite**.
 
 1. Criar uma pasta em **aplicativos** intitulado como **customtemplate**. Da mesma forma, crie outra pasta intitulada como **modelo** em **customtemplate**, conforme mostrado na figura abaixo.
 

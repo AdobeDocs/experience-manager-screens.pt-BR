@@ -6,10 +6,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1467'
-ht-degree: 3%
+source-wordcount: '1476'
+ht-degree: 2%
 
 ---
 
@@ -102,7 +102,7 @@ Consulte [Registro do dispositivo](device-registration.md) para saber como regis
 
 Você visualizará a seguinte saída ao escolher um reprodutor:
 
-![new1](assets/channel-assignment/channel-assign-output.gif)
+![novo1](assets/channel-assignment/channel-assign-output.gif)
 
 ## Exibição da linha do tempo {#timeline-view}
 
@@ -165,13 +165,13 @@ Selecione uma das seguintes opções que estão disponíveis para definir o mét
 * **Imediatamente**: sempre que a programação for ativada ou uma atualização for recebida, você poderá interromper a reprodução e atualizar ou reproduzir o novo conteúdo imediatamente
 * **No fim do item atual**: quando um novo agendamento é ativado ou uma atualização é recebida, você tem a opção de esperar até que o item atual na sequência termine a reprodução e, somente depois disso, atualizar ou reproduzir o novo conteúdo
 
-   >[!NOTE]
-   >Essa opção é selecionada por padrão.
+  >[!NOTE]
+  >Essa opção é selecionada por padrão.
 
 * **No final da sequência**: quando um novo agendamento é ativado ou uma atualização é recebida, você tem a opção de esperar até que toda a sequência atinja seu fim e, logo antes da sequência desejada, você volta para o primeiro elemento, atualiza ou reproduz o novo conteúdo
 
-   >[!NOTE]
-   >Usar a segunda ou terceira opção pode fazer com que os tempos de agendamento definidos na atribuição sejam ligeiramente adiados, pois o reprodutor aguardará o final do item ou da sequência (após o tempo especificado) antes de atualizar. O atraso dependerá da duração da reprodução do item.
+  >[!NOTE]
+  >Usar a segunda ou terceira opção pode fazer com que os tempos de agendamento definidos na atribuição sejam ligeiramente adiados, pois o reprodutor aguardará o final do item ou da sequência (após o tempo especificado) antes de atualizar. O atraso dependerá da duração da reprodução do item.
 
 As seguintes propriedades são definidas no **Agendar** opção no **Atribuição de canal** caixa de diálogo.
 
@@ -212,13 +212,13 @@ Aqui, dividiremos cada dia em diferentes intervalos de tempo, para que o conteú
 
 | **Nome** | **Repetições** | **Início** | **Fim** |
 |---|---|---|---|
-| Café da manhã | Diariamente | 18h AM | 11:00 h |
+| Café da manhã | Diariamente | 6h AM | 11:00 h |
 | Almoço | Diariamente | 11:00 h | 15:00 h |
 | Jantar | Diariamente | 15:00 h | 20:00 h |
 
 #### Reproduzir conteúdo em um dia da semana específico {#playing-content-on-a-particular-day-of-the-week}
 
-Este exemplo mostra o DayParting implementado em um cassino em que o evento ao vivo ocorre todos os finais de semana das 20h às 22h e os especiais estão disponíveis para o menu de jantar após as 22h até às 13h.
+Este exemplo mostra o DayParting implementado em um cassino em que o evento ao vivo ocorre todos os finais de semana das 20h às 22h e os especiais estão disponíveis para o menu de jantar após as 22h até às 13h
 
 | **Nome** | **Repetições** | **Início** | **Fim** |
 |---|---|---|---|

@@ -7,10 +7,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 43ac19cf7ef63ec17611cf19ca357f791dca6e87
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 2%
+source-wordcount: '779'
+ht-degree: 0%
 
 ---
 
@@ -92,7 +92,7 @@ Antes de usar o recurso de sincronização de comando, verifique se você tem um
 
 ### Configurar um principal {#setting-up-primary}
 
-1. Navegue até o painel de exibição em **CommandSyncDemo** —> **Localizações**  —> **Lobby** —> **ExibiçãoLobby** e clique em **Painel** na barra de ações.
+1. Navegue até o painel de exibição em **CommandSyncDemo** > **Localizações**  > **Lobby** > **ExibiçãoLobby** e clique em **Painel** na barra de ações.
 Você verá os dois dispositivos (chrome e windows player) em **DISPOSITIVOS** como mostrado na figura abaixo.
    ![image1](assets/command-sync/command-sync10-1.png)
 
@@ -117,7 +117,7 @@ Selecione o outro dispositivo (nesse caso, windows player) na **DISPOSITIVOS** e
 
 1. Selecione o dispositivo na lista e clique em **Salvar**.
 
-   >[OBSERVAÇÃO:]
+   >[NOTA:]
    > A variável **Sincronizar com o dispositivo principal** A caixa de diálogo mostrará a lista de dispositivos principais. Você pode selecionar a opção desejada de sua preferência.
 
 1. Depois que o dispositivo (Windows player) for sincronizado com o principal (Chrome player), você verá o dispositivo sincronizado na **DISPOSITIVOS** painel.
@@ -142,5 +142,5 @@ Para remover a sincronização do dispositivo principal, siga as etapas abaixo:
 
 1. Clique em **Confirmar o** para dessincronizar o dispositivo selecionado do dispositivo principal.
 
-   >[OBSERVAÇÃO:]
+   >[NOTA:]
    > Se você selecionar o dispositivo principal e usar a opção de dessincronização, todos os dispositivos conectados ao principal serão dessincronizados em uma etapa.

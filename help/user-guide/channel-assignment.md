@@ -6,9 +6,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1233'
 ht-degree: 3%
 
 ---
@@ -84,12 +84,12 @@ Selecione uma das seguintes opções que estão disponíveis para definir o mét
 
 * **Imediatamente**: sempre que a programação for ativada ou uma atualização for recebida, você poderá interromper a reprodução e atualizar ou reproduzir o novo conteúdo imediatamente
 * **No fim do item atual**: quando um novo agendamento é ativado ou uma atualização é recebida, você tem a opção de esperar até que o item atual na sequência termine a reprodução e, somente depois disso, atualizar ou reproduzir o novo conteúdo
-   >[!NOTE]
-   >Essa opção é selecionada por padrão.
+  >[!NOTE]
+  >Essa opção é selecionada por padrão.
 * **No final da sequência**: quando um novo agendamento é ativado ou uma atualização é recebida, você tem a opção de esperar até que toda a sequência atinja seu fim e, logo antes da sequência desejada, você volta para o primeiro elemento, atualiza ou reproduz o novo conteúdo
 
-   >[!NOTE]
-   >Usar a segunda ou terceira opção pode fazer com que os tempos de agendamento definidos na atribuição sejam ligeiramente adiados, pois o reprodutor aguardará o final do item ou da sequência (após o tempo especificado) antes de atualizar. O atraso dependerá da duração da reprodução do item.
+  >[!NOTE]
+  >Usar a segunda ou terceira opção pode fazer com que os tempos de agendamento definidos na atribuição sejam ligeiramente adiados, pois o reprodutor aguardará o final do item ou da sequência (após o tempo especificado) antes de atualizar. O atraso dependerá da duração da reprodução do item.
 
 ### Programação {#schedule-channel}
 
@@ -113,7 +113,7 @@ Este exemplo mostra como um restaurante usa a faixa horária para exibir seu men
 
 Aqui, dividiremos cada dia em três períodos diferentes, para que o conteúdo do canal seja reproduzido de acordo com o horário especificado do dia:
 
-| **Canal** | **Função** | **Prioridade** | **Programação** |
+| **Canal** | **Função** | **Prioridade** | **Agendar** |
 |---|---|---|---|
 | Menu_A | Café da manhã |  | após 6:00 e antes de 11:00 |
 | Menu_B | Almoço |  | após 11:00 e antes de 15:00 |
@@ -121,7 +121,7 @@ Aqui, dividiremos cada dia em três períodos diferentes, para que o conteúdo d
 
 #### Reproduzir conteúdo em um dia da semana específico {#playing-content-on-a-particular-day-of-the-week}
 
-Este exemplo mostra o dayParting realizado em um cassino onde o evento ao vivo ocorre todos os finais de semana das 20h às 22h e os especiais estão disponíveis para o menu de jantar após as 22h até às 13h.
+Este exemplo mostra o dayParting realizado em um cassino onde o evento ao vivo ocorre todos os finais de semana das 20h às 22h e os especiais estão disponíveis para o menu de jantar após as 22h até às 13h
 
 <table>
  <tbody>
@@ -152,7 +152,7 @@ Este exemplo mostra o DayParting para uma loja que exibe sua coleção de verão
 
 Aqui, você criará a divisão de dia por meses, para que o conteúdo do canal seja reproduzido de acordo com os meses do ano especificados.
 
-| **Canal** | **Função** | **Prioridade** | **Programação** |
+| **Canal** | **Função** | **Prioridade** | **Agendar** |
 |---|---|---|---|
 | ColeçãoDeVerão | Verão |  | 1 de junho de 2017 - 31 de agosto de 2017 |
 | FallCollection | Outono |  | 1 de setembro de 2017 - 30 de outubro de 2017 |
@@ -165,7 +165,7 @@ Aqui, você criará a divisão de dia por meses, para que o conteúdo do canal s
 
 Este exemplo mostra o DayParting de uma loja que exibe sua coleção de inverno com o mesmo agendamento no mês de dezembro. Mas como o Canal B tem prioridade definida como 2, durante essa semana; o canal B reproduz seu conteúdo em vez do Canal A.
 
-| **Canal** | **Função** | **Prioridade** | **Programação** |
+| **Canal** | **Função** | **Prioridade** | **Agendar** |
 |---|---|---|---|
 | A | Inverno | 1 | 1 de dezembro de 2017 - 31 de dezembro de 2017 |
 | B | Natal | 2 | 24 de dezembro de 2017 - 31 de dezembro de 2017 |
@@ -177,4 +177,3 @@ Este exemplo mostra o DayParting de uma loja que exibe sua coleção de inverno 
 >
 >* [Lidar com a recorrência em ativos](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Lidar com a recorrência de ativos em um canal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
-
