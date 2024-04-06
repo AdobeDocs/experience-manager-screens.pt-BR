@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 7%
+source-wordcount: '1450'
+ht-degree: 5%
 
 ---
 
@@ -35,7 +35,7 @@ Sempre que criar um projeto AEM Screens, você verá uma lista de componentes pa
 
 Para exibir os componentes padrão do seu projeto do Screens, siga as etapas abaixo:
 
-1. Selecione o canal. Por exemplo, **We.Retail Na Loja** —> **Canais** —> **Canal ocioso**.
+1. Selecione o canal. Por exemplo, **We.Retail Na Loja** > **Canais** > **Canal ocioso**.
 
 1. Clique em **Editar** na barra de ações para abrir o editor de AEM.
 1. Clique em **+** ícone na barra lateral para abrir os componentes.
@@ -49,7 +49,7 @@ O AEM fornece vários outros componentes. Você sempre pode adicionar outros com
 
 O exemplo a seguir mostra a adição de um componente Livefyre a um projeto AEM Screens:
 
-1. Selecione o canal no qual deseja adicionar um novo componente. Por exemplo, **We.Retail Na Loja** —> **Canais** —> **Canal ocioso**.
+1. Selecione o canal no qual deseja adicionar um novo componente. Por exemplo, **We.Retail Na Loja** > **Canais** > **Canal ocioso**.
 
 1. Clique em **Editar** na barra de ações para abrir o editor.
 1. Selecionar **Design** modo.
@@ -209,7 +209,7 @@ Para saber mais sobre como criar um fragmento de experiência e aproveitá-lo em
 | ***Fragmento de experiência*** | Selecione o fragmento de experiência. |
 | ***Duração*** | Selecione toda a duração do fragmento de experiência reproduzido no canal. |
 | **Configuração offline** |
-| ***Bibliotecas do lado do cliente*** | Arquivos JavaScript e CSS. |
+| ***Bibliotecas do cliente*** | Arquivos JavaScript e CSS. |
 | ***Arquivos estáticos*** | Arquivos estáticos que você pode adicionar como configurações offline ao fragmento de experiência. |
 
 >[!NOTE]

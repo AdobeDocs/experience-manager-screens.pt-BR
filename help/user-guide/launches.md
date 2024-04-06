@@ -14,9 +14,9 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: 2cc613454d0d20a42871858e3d754e1b0e161dc3
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Esta seção demonstra como implementar o Screens Launch em seu projeto do AEM S
 
 Siga as etapas abaixo para implementar a funcionalidade Screens Launch no seu projeto do AEM Screens:
 
-1. Crie um canal de sequência em seu projeto do AEM Screens, por exemplo **LaunchesDemo** —> **Canais** —> **Lançamento futuro**, conforme mostrado abaixo.
+1. Crie um canal de sequência em seu projeto do AEM Screens, por exemplo **LaunchesDemo** > **Canais** > **Lançamento futuro**, conforme mostrado abaixo.
 
    >[!CAUTION]
    >
@@ -141,9 +141,9 @@ Siga as etapas abaixo para implementar a funcionalidade Screens Launch no seu pr
    * **Promover páginas modificadas**: somente os recursos de inicialização modificados serão promovidos. É recomendável usar essa opção quando a revisão do lançamento não for necessária.
    * **Promover páginas aprovadas**: essa opção requer que o fluxo de trabalho de aprovação de inicialização seja executado nos canais de inicialização. Somente as páginas aprovadas serão promovidas na data de ativação definida.
 
-      >[!CAUTION]
-      >
-      >A data de lançamento respeita o fuso horário do player/dispositivo em vez do servidor.
+     >[!CAUTION]
+     >
+     >A data de lançamento respeita o fuso horário do player/dispositivo em vez do servidor.
 
 1. Você verá que o seu lançamento foi criado. Você pode clicar em **Abertura** para exibir as páginas no editor ou clique em **Concluído** para navegar de volta ao seu projeto.
 

@@ -1,25 +1,23 @@
 ---
 title: Caso de uso de transições de MultiZone para SingleZone
-description: Siga esta página para saber mais sobre o caso de uso de Transições de MultiZone para SingleZone.
-seo-description: MultiZone to SingleZone Transitions use case.
+description: Siga esta página para que você possa saber mais sobre o caso de uso de transições de MultiZone para SingleZone.
 contentOwner: Jyotika Syal
 feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 3%
+source-wordcount: '401'
+ht-degree: 1%
 
 ---
 
 # Transição de várias regiões para uma única região {#multizone-to-singlezone-use-case}
 
-
 ## Descrição do caso de uso {#use-case-description}
 
-Esta seção descreve um exemplo de caso de uso que enfatiza como configurar um canal de layout de várias zonas que se alterna com um canal de layout de uma única zona. O canal de várias zonas tem ativos de imagem/vídeo de sequenciamento e mostra como você pode configurar projetos que se alternam de várias zonas para uma única zona e vice-versa.
+Esta seção descreve um exemplo de caso de uso que enfatiza como configurar um canal de layout de várias zonas que se alterna com um canal de layout de zona única. O canal multizona tem ativos de imagem/vídeo de sequenciamento e mostra como você pode configurar um projeto que se alterna de multizona para zona única e vice-versa.
 
 ### Pré-condições {#preconditions}
 
@@ -45,9 +43,9 @@ Siga as etapas abaixo para configurar um projeto:
 
 1. **Criação de um canal de telas de várias zonas**
 
-   1. Selecione o **Canais** e clique em **Criar** na barra de ações para abrir o assistente e criar um canal.
+   1. Selecione o **Canais** e clique em **Criar** na barra de ações e abrindo o assistente para criar um canal.
    1. Selecionar **Canal de tela dividida em barra à esquerda** do assistente e crie o canal chamado de **MultiZoneLayout**.
-   1. Adicione conteúdo ao canal. Arraste e solte os ativos em cada uma das zonas. O exemplo a seguir mostra uma **MultiZoneLayout** canal composto por um vídeo, uma imagem e um banner de texto (em uma sequência incorporada), conforme mostrado abaixo.
+   1. Adicione conteúdo ao canal. Arraste e solte os ativos em cada uma das zonas. O exemplo a seguir mostra uma **MultiZoneLayout** canal que inclui um vídeo, uma imagem e um banner de texto (em uma sequência incorporada), conforme mostrado abaixo.
 
    ![ativo](assets/mz-to-sz2.png)
 
@@ -60,7 +58,7 @@ Siga as etapas abaixo para configurar um projeto:
 
    ![ativo](assets/mz-to-sz3.png)
 
-1. Clique em **Editar** na barra de ações para adicionar conteúdo a este canal. Adicionar um **Canal** e um ativo de imagem para o qual você deseja alternar, para esse canal, como mostrado na figura abaixo:
+1. Clique em **Editar** na barra de ações para que você possa adicionar conteúdo a este canal. Adicionar um **Canal** e um ativo de imagem que você deseja alternar para esse canal, como mostrado na figura abaixo:
 
    ![ativo](assets/mz-to-sz4.png)
 
@@ -68,22 +66,22 @@ Siga as etapas abaixo para configurar um projeto:
 
    ![ativo](assets/mz-to-sz5.png)
 
-1. Defina a duração a partir de **Sequência** campo para **10000 ms**.
+1. Defina a duração a partir de **Sequência** campo para **10000 milissegundos**.
 
    ![ativo](assets/mz-to-sz6.png)
 
-1. Da mesma forma, abra as configurações para a Imagem (ativo adicionado) e defina sua duração no **Sequência** campo para **3000 ms**.
+1. Da mesma forma, abra as configurações para a Imagem (ativo adicionado) e defina sua duração no **Sequência** campo para **3000 milissegundos**.
 
    ![ativo](assets/mz-to-sz7.png)
 
 ## Verificação da visualização {#checking-the-preview}
 
-Você pode visualizar a saída desejada do reprodutor ou apenas clicando no ícone **Visualizar** do editor.
+Você pode visualizar a saída desejada do reprodutor ou apenas selecionando **Visualizar** do editor.
 
-A saída demonstrará como um layout de várias zonas é reproduzido para *10000 ms* e alterna para o layout de zona única com duração de reprodução de *3000 ms* e, em seguida, volta para o layout multizona.
+A saída demonstra como um layout de várias zonas é reproduzido para *10000 milissegundos* e alterna para o layout de zona única com duração de reprodução de *3000 milissegundos* e, em seguida, volta para o layout multizona.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30366)
 
 >[!NOTE]
 >
->Você pode personalizar a transição de canal (do layout de várias zonas para uma única zona ou vice-versa), de acordo com seus requisitos.
+>Você pode personalizar a transição de canal (do layout de várias zonas para uma única zona ou vice-versa), de acordo com suas necessidades.

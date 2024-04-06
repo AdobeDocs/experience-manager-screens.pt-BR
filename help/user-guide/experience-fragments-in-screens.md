@@ -1,22 +1,18 @@
 ---
 title: Uso de Fragmentos de experiência
-seo-title: Using Experience Fragments
-description: Siga esta página para saber mais sobre como usar Fragmentos de experiência no AEM Screens.
-seo-description: Follow this page to learn about using Experience Fragments in AEM Screens.
-uuid: 6ee16a94-3c53-43e0-99d5-c35cb9e01120
+description: Saiba como usar Fragmentos de experiência no AEM Screens.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1093'
 ht-degree: 1%
 
 ---
@@ -31,15 +27,15 @@ Esta página abrange os seguintes tópicos:
 
 ## Visão geral {#overview}
 
-Um ***Fragmento de experiência*** é um grupo de um ou mais componentes, incluindo conteúdo e layout que podem ser referenciados nas páginas. Os fragmentos de experiência podem conter qualquer componente, como um ou vários componentes que podem conter qualquer item em um sistema de parágrafo, que será referenciado na experiência completa ou solicitado por um terceiro endpoint.
+Um ***Fragmento de experiência*** é um grupo de um ou mais componentes, incluindo conteúdo e layout que podem ser referenciados nas páginas. Os fragmentos de experiência podem conter qualquer componente, como um ou vários componentes que podem conter qualquer item em um sistema de parágrafo referenciado na experiência completa ou solicitado por um terceiro endpoint.
 
 
 ## Uso de fragmentos de experiência no AEM Screens {#using-experience-fragments-in-aem-screens}
 
 >[!NOTE]
->O exemplo a seguir usa **We.Retail** como um projeto de demonstração em que o Fragmento de experiência é aproveitado de um **Sites** para um projeto do AEM Screens.
+>O exemplo a seguir usa **`We.Retail`** como um projeto de demonstração em que o Fragmento de experiência é aplicado de um **Sites** para um projeto do AEM Screens.
 
-Como exemplo, o fluxo de trabalho a seguir demonstra o uso de fragmentos de experiência do We.Retail no Sites. Você pode escolher uma página da Web e aproveitar esse conteúdo no seu canal do AEM Screens em um de seus projetos.
+Como exemplo, o fluxo de trabalho a seguir demonstra o uso de fragmentos de experiência do `We.Retail` no Sites. Você pode escolher uma página da Web e usar esse conteúdo no canal do AEM Screens em um de seus projetos.
 
 ### Pré-requisitos {#pre-requisites}
 
@@ -47,43 +43,43 @@ Como exemplo, o fluxo de trabalho a seguir demonstra o uso de fragmentos de expe
 
 ***Criação de um projeto***
 
-1. Clique em **Criar projeto do Screens** para criar um novo projeto.
+1. Para criar um projeto, selecione **Criar projeto do Screens**.
 1. Insira o Título como **DemoProject**.
-1. Clique em **Salvar**.
+1. Selecione **Salvar**.
 
-A **DemoProject** serão adicionados à sua AEM Screens.
+A **DemoProject** é adicionado à sua AEM Screens.
 
 ***Criação de um canal***
 
 1. Navegue até a **DemoProject** você criou e selecione a variável **Canais** pasta.
 
-1. Clique em **Criar** na barra de ações para abrir o assistente.
-1. Escolha o **Canal de sequência** do assistente e clique em **Próxima**.
+1. Selecionar **Criar** na barra de ações para que você possa abrir o assistente.
+1. Escolha o **Canal de sequência** do assistente e selecione **Próxima**.
 
-1. Insira o **Título** as **TestChannel** e clique em **Criar**.
+1. Insira o **Título** as **TestChannel** e selecione **Criar**.
 
-A **TestChannel** será adicionado ao seu **DemoProject**.\
+A **TestChannel** é adicionado ao seu **DemoProject**.\
 ![screen_shot_2019-07-29at105101am](assets/screen_shot_2019-07-29at105101am.png)
 
 
 ### Criação de um fragmento de experiência {#creating-an-experience-fragment}
 
-Siga as etapas abaixo para aproveitar o conteúdo de **We.Retail** ao seu **TestChannel** in **DemoProject**.
+Siga as etapas abaixo para aplicar o conteúdo de **`We.Retail`** ao seu **TestChannel** in **DemoProject**.
 
 1. **Navegue até a página Sites no We.Retail**
 
-   1. Navegue até Sites e selecione **We.Retail** -> **Estados Unidos** -> **Inglês** -> **Equipamento** e selecione esta página para usá-la como um fragmento de experiência para o canal do Screens.
+   1. Navegue até Sites e selecione **`We.Retail`** > **Estados Unidos** > **Inglês** > **Equipamento** e selecione esta página para que você possa usá-la como um Fragmento de experiência para seu canal do Screens.
 
-   1. Clique em **Editar** na barra de ações para abrir a página que deseja usar como fragmento de experiência para o canal do Screens.
+   1. Selecionar **Editar** na barra de ação para que você possa abrir a página que deseja usar como fragmento de experiência para o canal do Screens.
 
 1. **Reutilizar o conteúdo**
 
    1. Selecione o fragmento que deseja incluir no canal.
-   1. Clique no último ícone à direita para abrir a **Converter em fragmento de experiência** caixa de diálogo.
+   1. Selecione o último ícone à direita para poder abrir o **Converter em fragmento de experiência** caixa de diálogo.
 
    ![screen_shot_2019-07-29at105314am](assets/screen_shot_2019-07-29at105314am.png)
 
-1. **Criação do fragmento de experiência**
+1. **Criação de um fragmento de experiência**
 
    1. Escolha o **Ação** as **Criar um novo fragmento de experiência**.
 
@@ -92,11 +88,11 @@ Siga as etapas abaixo para aproveitar o conteúdo de **We.Retail** ao seu **Test
 
    1. Insira o **Título do fragmento** as **FragmentoTelas**.
 
-   1. Clique na marca de seleção para concluir a criação de um novo fragmento de experiência.
+   1. Para concluir a criação de um novo Fragmento de experiência, marque a marca de seleção.
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
-   Observação: para facilitar a seleção de uma opção, clique na marca de seleção à direita dos campos para abrir a caixa de diálogo de seleção.
+   Observação: para selecionar uma opção mais fácil, marque a marca de seleção à direita do campo para abrir a caixa de diálogo de seleção.
 
 1. **Criação de Live Copy do Fragmento de experiência**
 
@@ -109,9 +105,9 @@ Siga as etapas abaixo para aproveitar o conteúdo de **We.Retail** ao seu **Test
 
    d. Insira o **Título** e **Nome** as **Screens**.
 
-   e. Clique em **Criar** para criar a Live Copy.
+   e. Selecionar **Criar** para criar a Live Copy.
 
-   f. Clique em **Concluído** para voltar para **FragmentoTelas** página.
+   f. Selecionar **Concluído** para que você possa voltar para **FragmentoTelas** página.
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
@@ -125,9 +121,9 @@ Siga as etapas abaixo para aproveitar o conteúdo de **We.Retail** ao seu **Test
 
    1. Selecione o **Configuração offline** conforme mostrado na figura abaixo.
 
-   Você pode adicionar o **Bibliotecas do cliente** (java e css) e **Arquivos estáticos** ao seu fragmento de experiência.
+   Você pode adicionar o **Bibliotecas do cliente** (Java™ e css) e **Arquivos estáticos** ao seu Fragmento de experiência.
 
-   O exemplo a seguir mostra a adição de bibliotecas do lado do cliente e das fontes como parte dos arquivos estáticos ao fragmento de experiência.  ![fragmento](assets/fragment.gif)
+   O exemplo a seguir mostra a adição de bibliotecas do lado do cliente e das fontes como parte dos arquivos estáticos ao seu Fragmento de experiência.  ![fragmento](assets/fragment.gif)
 
 1. **Uso do fragmento de experiência como um componente no canal do Screens**
 
@@ -139,7 +135,7 @@ Siga as etapas abaixo para aproveitar o conteúdo de **We.Retail** ao seu **Test
 
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
-   e. Selecione a **Fragmento de experiência** e selecione o ícone superior esquerdo (chave inglesa) para abrir o **Fragmento de experiência** caixa de diálogo.
+   e. Selecione a **Fragmento de experiência** e selecione o ícone superior esquerdo (chave inglesa) para poder abrir o **Fragmento de experiência** caixa de diálogo.
 
    f. Selecione o **Screens** live copy do fragmento que você criou no *Etapa 3* in **Caminho**.
 
@@ -151,37 +147,37 @@ Siga as etapas abaixo para aproveitar o conteúdo de **We.Retail** ao seu **Test
 
    h. Insira os milissegundos em **Duração**.
 
-   i. Selecione a **Configuração offline** do **Fragmentos de experiência** para definir as bibliotecas do lado do cliente e os arquivos estáticos.
+   i. Selecione a **Configuração offline** do **Fragmentos de experiência** para que você possa definir as bibliotecas do lado do cliente e os arquivos estáticos.
 
    >[!NOTE]
    >
-   >Se você quiser adicionar bibliotecas do lado do cliente ou os arquivos estáticos além do que você configurou na etapa (4), é possível adicionar do **Configuração offline** na guia **Fragmento de experiência** caixa de diálogo.
+   >Para adicionar bibliotecas do lado do cliente ou os arquivos estáticos, além do que você configurou na etapa (4), é possível adicionar do **Configuração offline** na guia **Fragmento de experiência** caixa de diálogo.
 
    ![screen_shot_2019-07-26at82844pm](assets/screen_shot_2019-07-26at82844pm.png)
 
-   j. Clique na marca de seleção para concluir o processo.
+   j. Selecione a marca de seleção para concluir o processo.
 
 ### Validar o resultado {#validating-the-result}
 
-Após a conclusão das etapas anteriores, você pode validar o fragmento de experiência no **ChannelOne** por:
+Após a conclusão das etapas anteriores, você pode validar seu fragmento de experiência no **ChannelOne** por:
 
 1. Navegar até o **TestChannel**.
 1. Selecionar o **Visualizar** na barra de ações.
 
-Você visualizará o conteúdo do **Sites** (live-copy do fragmento de experiência) no seu canal, conforme mostrado na figura abaixo:\
+Exibir o conteúdo do **Sites** (Live Copy do Fragmento de experiência) no seu canal, conforme mostrado na figura abaixo:\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
 ## Propagando Alterações na Página {#propagating-changes-from-the-master-page}
 
 ***Live Copy*** refere-se à cópia (da origem) mantida pelas ações de sincronização, conforme definido pelas configurações de implantação.
 
-Como o fragmento de experiência, criamos uma Live Copy do **Sites** páginas, portanto, se você fizer alterações nesse fragmento específico na página principal, visualizará as alterações no canal ou no destino em que usou o Fragmento de experiência.
+Como o fragmento de experiência que você criou é uma live copy do **Sites** e alterar esse fragmento específico da página principal, visualize as alterações no canal. Ou visualize o destino em que você usou o Fragmento de experiência.
 
 >[!NOTE]
 >
 >Para obter mais informações sobre a Live Copy, consulte Reutilizar conteúdo: gerenciador de vários sites e Live Copy.
 
-Siga as etapas abaixo para propagar as alterações do canal principal para o canal de destino:
+Siga as etapas abaixo para propagar alterações do canal principal para o canal de destino:
 
 1. Selecione o Fragmento de experiência na **Sites** (principal) e clique no ícone de lápis para editar os itens no Fragmento de experiência.
 
@@ -199,13 +195,13 @@ Siga as etapas abaixo para propagar as alterações do canal principal para o ca
 
    ![screen_shot_2018-06-08at25608pm](assets/screen_shot_2018-06-08at25608pm.png)
 
-1. Selecione o Fragmento de experiência e clique no ícone Implantação para propagar alterações no fragmento usado no canal.
+1. Selecione o Fragmento de experiência e clique no ícone Implantação para que você possa propagar alterações no fragmento usado no canal.
 
    ![screen_shot_2018-06-08at31352pm](assets/screen_shot_2018-06-08at31352pm.png)
 
-1. Clique em Implantação para confirmar as alterações.
+1. Selecione Implantação.
 
-   Você verá que as alterações são implementadas.
+   Observe que as alterações são implementadas.
 
    ![screen_shot_2018-06-08at32148pm](assets/screen_shot_2018-06-08at32148pm.png)
 
@@ -213,9 +209,9 @@ Siga as etapas abaixo para propagar as alterações do canal principal para o ca
 
 Siga as etapas abaixo para confirmar as alterações no canal:
 
-1. Navegue até a **Screens** -> **Canais** -> **TestChannel**.
+1. Navegue até a **Screens** > **Canais** > **TestChannel**.
 
-1. Clique em **Visualizar** na barra de ações para confirmar as alterações.
+1. Clique em **Visualizar** na barra de ações.
 
 A imagem a seguir ilustra as alterações no **TestChannel**:\
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)

@@ -13,10 +13,10 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 1%
+source-wordcount: '983'
+ht-degree: 0%
 
 ---
 
@@ -73,7 +73,7 @@ O diagrama a seguir ilustra o processo de replicação:
 >
 >Um agente de replicação precisa ser criado para cada instância de publicação no farm de publicação.
 
-### Comandos e agentes de replicação do Screens  {#screens-replication-agents-and-commands}
+### Agentes e comandos de replicação do Screens  {#screens-replication-agents-and-commands}
 
 Agentes de replicação específicos do Telas personalizadas são criados para enviar comandos da instância do Autor para o dispositivo AEM Screens. As instâncias de publicação do AEM servem como um intermediário para encaminhar esses comandos para o dispositivo.
 

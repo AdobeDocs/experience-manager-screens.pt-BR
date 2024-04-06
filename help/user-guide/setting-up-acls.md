@@ -1,21 +1,17 @@
 ---
 title: Configurando ACLs
-seo-title: Setting up ACLs
-description: Siga esta página para saber como segregar projetos usando ACLs, para que cada indivíduo ou equipe lide com seu próprio projeto.
-seo-description: Follow this page to learn how to segregate projects using ACLs so that each individual or team handles their own project.
-uuid: d5609bd9-3f13-4f11-ad4f-23c2ac3aa8fc
+description: Saiba como segregar projetos usando ACLs para que cada indivíduo ou equipe lide com seu próprio projeto.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
-discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '519'
 ht-degree: 2%
 
 ---
@@ -24,7 +20,7 @@ ht-degree: 2%
 
 A seção a seguir explica como segregar projetos usando ACLs para que cada indivíduo ou equipe lide com seu próprio projeto.
 
-Como administrador do AEM, você deve garantir que os membros da equipe de um projeto não interfiram em outros projetos e que cada um dos usuários receba funções específicas de acordo com os requisitos do projeto.
+Como administrador do AEM, você deseja garantir que os membros da equipe de um projeto não interfiram em outros projetos e que cada um dos usuários receba funções específicas de acordo com os requisitos do projeto.
 
 ## Configuração de permissões {#setting-up-permissions}
 
@@ -38,7 +34,7 @@ As etapas a seguir resumem o procedimento para configurar ACLs para um projeto:
 
    Como alternativa, use este link, `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
-   Posteriormente, clique em **Salvar**.
+   Em seguida, selecione **Salvar**.
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
@@ -54,7 +50,7 @@ As etapas a seguir resumem o procedimento para configurar ACLs para um projeto:
    >
    >Se você quiser que os membros da equipe do projeto registrem players (o que envolve criar um usuário para cada player), localize os administradores de usuários do grupo e adicione o grupo ACME aos administradores de usuários
 
-1. Adicione todos os usuários que trabalharão no **Acme** Projeto para o **Acme** grupo.
+1. Adicione todos os usuários que estão trabalhando no **Acme** Projeto para o **Acme** grupo.
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
@@ -70,20 +66,20 @@ A tabela a seguir resume o caminho com as permissões no nível do projeto:
 
 | **Caminho** | **Permissão** | **Descrição** |
 |---|---|---|
-| `/apps/<project>` | LER | Fornece acesso aos arquivos do projeto (se aplicável) |
-| `/content/dam/<project>` | TODAS | Fornece acesso para armazenar os ativos do projeto, como imagens ou vídeo no DAM |
-| `/content/screens/<project>` | TODAS | Remove o acesso a todos os outros projetos em /content/screens |
-| `/content/screens/svc` | LER | Fornece acesso ao serviço de registro |
-| `/libs/screens` | LER | Fornece acesso ao DCC |
-| `/var/contentsync/content/screens/` | TODAS | Permite atualizar o conteúdo offline para o projeto |
+| `/apps/<project>` | LER | Fornece acesso aos arquivos do projeto, se aplicável. |
+| `/content/dam/<project>` | TODAS | Fornece acesso para armazenar os ativos do projeto, como imagens ou vídeo em DAM. |
+| `/content/screens/<project>` | TODAS | Remove o acesso a todos os outros projetos em /content/screens. |
+| `/content/screens/svc` | LER | Fornece acesso ao serviço de registro. |
+| `/libs/screens` | LER | Fornece acesso ao DCC. |
+| `/var/contentsync/content/screens/` | TODAS | Permite atualizar o conteúdo offline do projeto. |
 
 >[!NOTE]
 >
->Em alguns casos, você pode separar as funções do autor (como gerenciar ativos e criar canais) das funções de administrador (como registrar players). Nesse cenário, crie dois grupos e adicione o grupo de autores aos colaboradores e o grupo de administradores aos colaboradores e administradores de usuários.
+>Às vezes, você pode separar as funções do autor (como gerenciar ativos e criar canais) das funções de administrador (como registrar players). Nesse cenário, crie dois grupos e adicione o grupo de autores aos colaboradores e o grupo de administradores aos colaboradores e administradores de usuários.
 
 ### Criação de grupos {#creating-groups}
 
-A criação de um novo projeto também deve criar grupos de usuários padrão com um conjunto básico de permissões atribuídas. Você deve estender as permissões para as funções típicas que temos para o AEM Screens.
+A criação de um projeto também deve criar grupos de usuários padrão com um conjunto básico de permissões atribuídas. Estenda as permissões para as funções típicas definidas no AEM Screens.
 
 Por exemplo, você pode criar os seguintes grupos específicos de projeto:
 
@@ -115,7 +111,7 @@ A tabela a seguir resume os grupos com descrição e permissões para um projeto
   </tr>
   <tr>
    <td>Usuários do Screens<br /> <em>screens-users</em></td>
-   <td>Criar e atualizar canais e agendamentos e atribuir à localização no AEM Screens</td>
+   <td>Criar e atualizar canais e agendamentos e atribuir a locais na AEM Screens</td>
    <td>
     <ul>
      <li>Membro de contribuidores</li>

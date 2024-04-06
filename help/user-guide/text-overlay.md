@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 2%
+source-wordcount: '796'
+ht-degree: 1%
 
 ---
 
@@ -62,7 +62,7 @@ A imagem a seguir mostra o **DemonstraçãoDeSobreposiçãoDeTexto** projeto com
 
 Siga as etapas abaixo para usar a sobreposição de texto em um canal do AEM Screens:
 
-1. Navegue até **DemonstraçãoDeSobreposiçãoDeTexto** —> **Canais** —> **TextSample** e clique em **Editar** na barra de ações para abrir o editor.
+1. Navegue até **DemonstraçãoDeSobreposiçãoDeTexto** > **Canais** > **TextSample** e clique em **Editar** na barra de ações para abrir o editor.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -102,7 +102,7 @@ Para saber como configurar e gerenciar alterações de ativos orientadas por dad
 
 Depois de definir as configurações necessárias para o seu projeto, siga as etapas abaixo para usar valores das planilhas do google:
 
-1. Navegue até **DemonstraçãoDeSobreposiçãoDeTexto** —> **Canais** —> **TextSample** e clique em **Propriedades** na barra de ações.
+1. Navegue até **DemonstraçãoDeSobreposiçãoDeTexto** > **Canais** > **TextSample** e clique em **Propriedades** na barra de ações.
 
 1. Selecione o **Personalização** para definir as configurações do ContextHub.
 
@@ -118,7 +118,7 @@ Depois de definir as configurações necessárias para o seu projeto, siga as et
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navegue até **DemonstraçãoDeSobreposiçãoDeTexto** —> **Canais** —> **TextSample** e clique em **Editar** na barra de ações para abrir o editor.
+1. Navegue até **DemonstraçãoDeSobreposiçãoDeTexto** > **Canais** > **TextSample** e clique em **Editar** na barra de ações para abrir o editor.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
@@ -142,7 +142,7 @@ Depois de definir as configurações necessárias para o seu projeto, siga as et
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay6.png)
 
-1. Volte para a **Sobreposição de texto** na caixa de diálogo Imagem e adicione o texto *Temperatura Atual {Value}*, conforme mostrado na figura abaixo.
+1. Volte para a **Sobreposição de texto** na caixa de diálogo Imagem e adicione o texto *Temperatura atual {Value}*, conforme mostrado na figura abaixo.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 

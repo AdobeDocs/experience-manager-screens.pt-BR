@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de temperatur
 
    >[!CAUTION]
    >
-   >Você deveria ter configurado seu **ContextHub** **Configurações** uso do canal **Propriedades** —> **Personalização** guia.
+   >Você deveria ter configurado seu **ContextHub** **Configurações** uso do canal **Propriedades** > **Personalização** guia.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -90,4 +90,5 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de temperatur
 
    1. Clique em **Visualizar.** Além disso, abra a Planilha do Google e atualize o valor.
    1. Altere o valor para menos de 50, você deverá ser capaz de visualizar uma imagem das bebidas de verão. Se o valor na Planilha do Google for 50 ou maior do que o deveria ser capaz de visualizar uma imagem de bebida quente.
-   ![result3](assets/result3.gif)
+
+   ![resultado3](assets/result3.gif)

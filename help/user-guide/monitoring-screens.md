@@ -14,10 +14,10 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 2%
+source-wordcount: '775'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Você pode monitorar e solucionar problemas de desempenho da atividade do reprod
 
 Siga as etapas abaixo para navegar até o painel do dispositivo:
 
-1. Navegue até o painel do dispositivo em seu projeto, por exemplo, ***Testar projeto*** —> ***Dispositivos***.
+1. Navegue até o painel do dispositivo em seu projeto, por exemplo, ***Testar projeto*** > ***Dispositivos***.
 
    Selecionar **Dispositivos** e **Gerenciador de dispositivos** na barra de ações.
 
@@ -110,7 +110,7 @@ Além disso, clique em **Configurações** no canto superior direito para atuali
 
 * **URL do servidor**
 * **Resolução**
-* **Reinicializar agendamento**
+* **Reinicializar programação**
 * **Nº máx. de arquivos de log a serem mantidos**
 * **Nível de registro**
 
@@ -123,7 +123,6 @@ Além disso, clique em **Configurações** no canto superior direito para atuali
 >* **Informações**
 >* **Aviso**
 >* **Erro**
-
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 

@@ -6,7 +6,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 2%
@@ -61,7 +61,7 @@ Siga as etapas abaixo para configurar um projeto e um canal:
 
 Quando a configuração do projeto for concluída, você deve atribuir o canal a uma exibição para visualizar o conteúdo.
 
-1. Navegue até a exibição necessária, por exemplo, **DemoScreens** —> **Localizações** —> **San Jose** —> **Lobby**.
+1. Navegue até a exibição necessária, por exemplo, **DemoScreens** > **Localizações** > **San Jose** > **Lobby**.
 
 1. Toque/clique **Atribuir canal** na barra de ações.
 
@@ -110,7 +110,7 @@ Depois de atribuir um canal a uma exibição e configurar um cronograma recorren
 
 Siga as etapas abaixo para navegar até a exibição da linha do tempo:
 
-1. Navegue até a exibição necessária, por exemplo, **DemoScreens** —> **Localizações** —> **San Jose** —> **Lobby**.
+1. Navegue até a exibição necessária, por exemplo, **DemoScreens** > **Localizações** > **San Jose** > **Lobby**.
 
 1. Toque/clique **Atribuir canal** na barra de ações.
 

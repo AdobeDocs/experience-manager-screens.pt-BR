@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,11 @@ Siga as etapas abaixo para criar e usar o workflow:
 
 Siga as etapas abaixo para criar um fluxo de trabalho para seu vídeo:
 
-1. Navegue até a instância do AEM e clique em ferramentas no painel lateral. Selecionar **Fluxo de trabalho** —> **Modelos** para criar um novo modelo.
+1. Navegue até a instância do AEM e clique em ferramentas no painel lateral. Selecionar **Fluxo de trabalho** > **Modelos** para criar um novo modelo.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Clique em **Modelos** —> **Criar** —> **Criar modelo**. Insira o **Título** (como **RepresentaçãoDeVídeo**) e **Nome** no **Adicionar modelo de fluxo de trabalho**. Clique em **Concluído** para adicionar o modelo de workflow.
+1. Clique em **Modelos** > **Criar** > **Criar modelo**. Insira o **Título** (como **RepresentaçãoDeVídeo**) e **Nome** no **Adicionar modelo de fluxo de trabalho**. Clique em **Concluído** para adicionar o modelo de workflow.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -83,7 +83,7 @@ Siga as etapas abaixo para criar um fluxo de trabalho para seu vídeo:
 
 1. Selecione o **Argumentos** para inserir os campos no campo **Linha de comando - Propriedades da etapa** caixa de diálogo.
 
-   Insira o formato nas **Tipos de Mime** (como ***video/mp4***) e o comando como (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4**) para iniciar o fluxo de trabalho no **Comandos** campo.
+   Insira o formato nas **Tipos de Mime** (como ***video/mp4***) e o comando como (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***) para iniciar o fluxo de trabalho na **Comandos** campo.
 
    Consulte os detalhes em **Tipos de Mime** e **Comandos** na nota abaixo.
 
@@ -101,7 +101,7 @@ Siga as etapas abaixo para criar um fluxo de trabalho para seu vídeo:
 
 Siga as etapas abaixo para usar o fluxo de trabalho em seu projeto do AEM Screens:
 
-1. Navegar até um projeto do AEM Screens (**TestarRepresentaçãoDeVídeo** —> **Canais** —>**RepresentaçãoDeVídeo**).
+1. Navegar até um projeto do AEM Screens (**TestarRepresentaçãoDeVídeo** > **Canais** >**RepresentaçãoDeVídeo**).
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 

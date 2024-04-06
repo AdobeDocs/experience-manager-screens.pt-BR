@@ -13,10 +13,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '2515'
-ht-degree: 2%
+source-wordcount: '2526'
+ht-degree: 1%
 
 ---
 
@@ -94,7 +94,6 @@ Você pode baixar os seguintes recursos (imagens e adicioná-los aos ativos) e u
 >* **[Gerenciamento de um canal](managing-channels.md)**
 >
 
-
 A implementação da Sequência dinâmica inserida em um projeto AEM Screens envolve três tarefas principais:
 
 1. **Configurando a taxonomia do projeto incluindo canais, locais e exibições**
@@ -124,7 +123,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 1. **Crie dois Locais e um Canal em cada pasta de local.**
 
-   1. Navegue até **Demonstração** —> **Localizações** —> **Região A**.
+   1. Navegue até **Demonstração** > **Localizações** > **Região A**.
    1. Selecionar **Região A** e clique em **+ Criar** na barra de ações.
    1. Selecionar **Localização** do assistente com **Título** as **Loja 1**. Da mesma forma, crie outro local no assistente chamado como **Loja 2** com **Título** as **Loja 2**. Você pode deixar a variável **Nome** campo vazio ao criar **Loja 1** e **Loja 2**.
    1. Repita a etapa (b) e agora selecione **Canal de sequência** do assistente. Insira o **Título** as **Região A** e **Nome** as **região** para este canal.
@@ -145,7 +144,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 1. **Crie exibição e canal em cada local.**
 
-   1. Navegue até **Demonstração** —> **Localizações** —> **Região A** —> **Loja 1**.
+   1. Navegue até **Demonstração** > **Localizações** > **Região A** > **Loja 1**.
    1. Selecionar **Loja 1** e clique em **+ Criar** na barra de ações.
    1. Selecionar **Exibir** do assistente e criar **Exibição da loja 1.**
    1. Repita a etapa (b) e, desta vez, selecione **Canal de sequência** do assistente. Insira o **Título** as **Armazenar1Canal** e a variável **Nome** as **loja**.
@@ -176,20 +175,20 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 1. **Adicione conteúdo aos canais em seus respectivos locais.**
 
-   Navegue até a **Demonstração** -> **Localizações** -> **Região A** -> **Região A** e clique em **Editar** na barra de ações. Arraste e solte os ativos que deseja adicionar ao canal.
+   Navegue até a **Demonstração** > **Localizações** > **Região A** > **Região A** e clique em **Editar** na barra de ações. Arraste e solte os ativos que deseja adicionar ao canal.
 
    >[!NOTE]
    >Você pode usar o ***Resources.zip*** arquivo do **Recursos** acima, para usar as imagens como ativos para o conteúdo do canal.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
-   Da mesma forma, navegue até o **Demonstração** -> **Localizações** -> **Região B** -> **Região B** e clique em **Editar** na barra de ações, para arrastar e soltar os ativos no seu canal, conforme mostrado abaixo:
+   Da mesma forma, navegue até o **Demonstração** > **Localizações** > **Região B** > **Região B** e clique em **Editar** na barra de ações, para arrastar e soltar os ativos no seu canal, conforme mostrado abaixo:
 
    ![screen_shot_2018-09-12at13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
    Siga as etapas anteriores e os recursos para adicionar conteúdo aos seguintes canais:
 
-   * **Store1Channel**
+   * **Armazenar1Canal**
    * **Store2Channel**
    * **Store3Channel**
    * **Store4Channel**
@@ -204,10 +203,10 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 1. **Atribuir Canais a um Agendamento**
 
-   1. Navegue até **Demonstração** —> **Agendamentos** —> **AdSchedule** e clique em **Painel** na barra de ações.
+   1. Navegue até **Demonstração** > **Agendamentos** > **AdSchedule** e clique em **Painel** na barra de ações.
    1. Clique em **+ Atribuir canal** de **CANAIS ATRIBUÍDOS** painel para abrir o **Atribuição de canal** caixa de diálogo.
    1. Selecionar **Canal de referência**.. por caminho.
-   1. Selecione o **Caminho do canal** as **Demonstração** —> ***Canais*** —> ***Global***.
+   1. Selecione o **Caminho do canal** as **Demonstração** > ***Canais*** > ***Global***.
    1. Insira o **Função do canal** as **GlobalAdSegment**.
    1. Selecione o **Eventos suportados** as **Carga inicial**, **Tela inativa**, e **Interação do usuário**.
    1. Clique em **Salvar**.
@@ -250,10 +249,10 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 1. **Atribuindo programação a cada exibição**
 
-   1. Navegue até cada exibição, como **Demonstração** —> **Localizações** —> **Região A** —>**Loja 1** —>**Loja1Exibição**.
+   1. Navegue até cada exibição, como **Demonstração** > **Localizações** > **Região A** >**Loja 1** >**Loja1Exibição**.
    1. Clique em **Painel** na ação para abrir o painel de exibição.
    1. Clique em **..** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** e clique em **+Atribuir Calendário**.
-   1. Selecione o caminho para a Programação (por exemplo, aqui, **Demonstração** —> **Agendamentos** —>**AdSchedule**).
+   1. Selecione o caminho para a Programação (por exemplo, aqui, **Demonstração** > **Agendamentos** >**AdSchedule**).
    1. Clique em **Salvar**.
 
 ## Exibir os resultados {#viewing-the-results}
@@ -268,18 +267,17 @@ Após configurar os canais e concluir a exibição, inicie o reprodutor do AEM S
 >* [Trabalhar com o AEM Screens Player](working-with-screens-player.md)
 
 
-
 A saída a seguir confirma o conteúdo do canal no AEM Screens player, dependendo do caminho de exibição.
 
 **Cenário 1**:
 
-Se você atribuir o caminho de exibição como **Demonstração** —> **Localizações** —> **Região A** —> **Loja 1** —> **Loja1Exibição**, o conteúdo a seguir será exibido no AEM Screens player.
+Se você atribuir o caminho de exibição como **Demonstração** > **Localizações** > **Região A** > **Loja 1** > **Loja1Exibição**, o conteúdo a seguir será exibido no AEM Screens player.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **Cenário 1**:
 
-Se você atribuir o caminho de exibição como **Demonstração** —> **Localizações** —> **Região B** —> **Loja 3** —> **Loja3Exibir**, o conteúdo a seguir será exibido no AEM Screens player.
+Se você atribuir o caminho de exibição como **Demonstração** > **Localizações** > **Região B** > **Loja 3** > **Loja3Exibir**, o conteúdo a seguir será exibido no AEM Screens player.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -314,7 +312,7 @@ Siga as etapas abaixo para criar grupos, usuários e modificar as ACLs de acordo
 1. **Criar grupos**
 
    1. Navegue até **Adobe Experience Manager**.
-   1. Clique em **Ferramentas** —> **Segurança** —> **Grupos**.
+   1. Clique em **Ferramentas** > **Segurança** > **Grupos**.
    1. Clique em **Criar grupo** e insira **Global-Author** in **ID**.
    1. Clique em **Salvar e fechar**.
 
@@ -325,7 +323,7 @@ Siga as etapas abaixo para criar grupos, usuários e modificar as ACLs de acordo
 1. **Criar usuários e adicionar usuários aos grupos**
 
    1. Navegue até **Adobe Experience Manager**.
-   1. Clique em **Ferramentas** —> **Segurança** —> **Usuários**.
+   1. Clique em **Ferramentas** > **Segurança** > **Usuários**.
    1. Clique em **Criar usuário** e insira **Global-User** in **ID**.
    1. Enter **Senha** e confirme a senha desse usuário.
    1. Clique em **Grupos** e insira o nome do grupo em **Selecionar grupo**, por exemplo, insira **Global-Author** para adicionar **Global-User** a esse grupo específico.
@@ -341,7 +339,7 @@ Siga as etapas abaixo para criar grupos, usuários e modificar as ACLs de acordo
 1. **Adicionar todos os grupos aos contribuidores**
 
    1. Navegue até **Adobe Experience Manager**.
-   1. Clique em **Ferramentas** —> **Segurança** —> **Grupos**.
+   1. Clique em **Ferramentas** > **Segurança** > **Grupos**.
    1. Selecionar **Colaboradores** na lista e selecione **Membros** guia.
    1. Selecione o **Grupo** como **Global-Author**, **Autor da região,** e **Autor da loja** para os colaboradores.
    1. Clique em **Salvar e fechar**.

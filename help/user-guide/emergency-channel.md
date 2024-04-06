@@ -13,10 +13,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 1%
+source-wordcount: '769'
+ht-degree: 0%
 
 ---
 
@@ -118,6 +118,7 @@ Siga as etapas abaixo para configurar um canal de emergência:
       1. Clique em **Salvar**
 
       Da mesma forma, será necessário seguir as mesmas etapas novamente para atribuir a **EmergencyChannel** e defina seus **Prioridade**.
+
    >[!NOTE]
    >
    >A prioridade é usada para ordenar as atribuições caso várias correspondam aos critérios de reprodução. Aquele com o valor mais alto sempre terá precedência sobre os valores mais baixos.
@@ -143,12 +144,12 @@ Siga as etapas abaixo para configurar um canal de emergência:
 
 1. **Atribuindo programação a cada exibição**
 
-   1. Navegue até cada exibição, como **EmergencyChannel** —> **Localizações** —> **Loja** —>**StoreFront**.
+   1. Navegue até cada exibição, como **EmergencyChannel** > **Localizações** > **Loja** >**StoreFront**.
 
    1. Clique em **Painel** na ação para abrir o painel de exibição.
    1. Clique em **..** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** e clique em **+Atribuir Calendário**.
 
-   1. Selecione o caminho para a Programação (por exemplo, aqui, **EmergencyChannel** —> **Agendamentos** —>**StoreSchedule**).
+   1. Selecione o caminho para a Programação (por exemplo, aqui, **EmergencyChannel** > **Agendamentos** >**StoreSchedule**).
 
    1. Clique em **Salvar**.
 
@@ -159,13 +160,13 @@ Siga as etapas abaixo para configurar um canal de emergência:
 
    Conclua o processo de registro do dispositivo e, depois de registrar, você visualizará a seguinte saída no AEM Screens player.
 
-   ![new30](assets/new30.gif)
+   ![novo30](assets/new30.gif)
 
 ## Alternar para o canal de emergência {#switching-to-emergency-channel}
 
 No caso de uma emergência, execute as seguintes etapas:
 
-1. Navegue até **EmergencyChannel** —> **Agendamentos** —> **StoreSchedule** e selecione **Painel** na barra de ações.
+1. Navegue até **EmergencyChannel** > **Agendamentos** > **StoreSchedule** e selecione **Painel** na barra de ações.
 
    ![screen_shot_2019-02-25at101112pm](assets/screen_shot_2019-02-25at101112pm.png)
 

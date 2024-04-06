@@ -6,9 +6,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1308'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Siga as etapas abaixo para criar um projeto de amostra para o AEM Screens e publ
 
 ## Permitir Solicitações de Referenciador Vazias {#allow-empty-referrer-requests}
 
-1. Navegue até **Configuração do console da Web do Adobe Experience Manager** via instância do AEM —> ícone de martelo —> **Operações** —> **Console da Web**.
+1. Navegue até **Configuração do console da Web do Adobe Experience Manager** via instância AEM > ícone de martelo > **Operações** > **Console da Web**.
 
    ![imagem](assets/config/empty-ref1.png)
 
@@ -152,7 +152,7 @@ Depois de criar um local, é necessário criar uma nova exibição para o local.
 
 Quando a configuração do projeto for concluída, você deve atribuir o canal a uma exibição para visualizar o conteúdo.
 
-1. Navegue até a exibição necessária em **DemoScreens** —> **Localizações** —> **TestLocation** —> **ExibiçãoLobby**.
+1. Navegue até a exibição necessária em **DemoScreens** > **Localizações** > **TestLocation** > **ExibiçãoLobby**.
 
 1. Toque/clique **Atribuir canal** na barra de ações.
 
@@ -198,7 +198,6 @@ Você precisa registrar seu dispositivo usando o painel AEM.
 >1. Abra uma nova guia e clique no link **Aplicativos** no canto superior esquerdo ou navegue diretamente para ***chrome://apps***.
 >1. Clique em **AEM Screens** Plug-in para iniciar o Chrome Player. Por padrão, o reprodutor é iniciado no modo de tela cheia. Pressione **esc** para sair do modo de tela cheia.
 
-
 Assim que o reprodutor do sistema operacional Chrome estiver ativado, siga as etapas abaixo para registrar um dispositivo Chrome.
 
 1. Navegue até a **Dispositivos** pasta do seu projeto da sua instância AEM.
@@ -226,7 +225,7 @@ Assim que o reprodutor do sistema operacional Chrome estiver ativado, siga as et
 
    ![imagem](assets/kickstart/demo-register5.png)
 
-1. Selecione o caminho para a exibição como **DemoScreens** —> **Localizações** —> **TestLocation** —> **ExibiçãoLobby** e clique em **Atribuir**.
+1. Selecione o caminho para a exibição como **DemoScreens** > **Localizações** > **TestLocation** > **ExibiçãoLobby** e clique em **Atribuir**.
 
    ![imagem](assets/kickstart/demo-device6.png)
 

@@ -1,13 +1,11 @@
 ---
 title: Noções básicas de sinalização digital para [!UICONTROL AEM Screens]
-seo-title: Basics Of Digital  Signage for [!UICONTROL AEM Screens]
-description: O guia descreve as noções básicas de um projeto de sinalização digital
-seo-description: The guide describes the basics of a digital signage project
+description: Aprenda os conceitos básicos de um projeto de sinalização digital.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 2%
+source-wordcount: '406'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +27,7 @@ A definição dos principais elementos é essencial antes da implementação de 
 
    O hardware define quais componentes de hardware são ideais para a implementação do projeto de sinalização digital:
    * O dispositivo tem espaço de armazenamento suficiente para executar todas as variações das experiências off-line?
-   * Permitimos o tipo e o comprimento do cabo de vídeo? E o dispositivo suporta ambas as resoluções desejadas (HD, FullHD, 4K, etc.) e codecs de vídeo que estou planejando implantar (h.264, h.265, etc.)
+   * Você permitiu o tipo e o comprimento do cabo de vídeo? E o dispositivo suporta ambas as resoluções desejadas (alta definição, alta definição total, `4K`e assim por diante) e codecs de vídeo que estou planejando implantar (h.264, h.265 e assim por diante)
    * Utilização de fio de cobre físico
    * Tamanho das telas
    * Número de telas
@@ -41,15 +39,15 @@ A definição dos principais elementos é essencial antes da implementação de 
 
    A conectividade enfatiza as seguintes questões:
    * Em rede (celular ou wi-fi) ou independente?
-      * precisamos permitir atualizações de conteúdo USB?
-      * precisamos permitir a coleta de dados de uso?
+      * Você precisa permitir atualizações de conteúdo USB?
+      * Você deve permitir a coleta de dados de uso?
 
 1. **Instalação**
 
    A instalação inclui:
    * Exibições: paisagem ou retrato
-   * Como a tela será montada?
-      * Retrato vs. paisagem
+   * Como a tela é montada?
+      * Retrato versus paisagem
       * Alojamento completo
       * Placa de cobertura
    * Suporte a dispositivos fixos
@@ -74,7 +72,7 @@ A definição dos principais elementos é essencial antes da implementação de 
       * Pressionar o botão
       * Gesto
    * Acionamento de dados (E/S)?
-      * Enviar/receber comandos seriais (fechamento de contato, PLC, etc.)
+      * Enviando/Recebendo comandos seriais (fechamento de contato, PLC e assim por diante)
       * Os dados recebidos vão para a tela (RSS) ou acionam o conteúdo
       * RFID/NFC/Bluetooth/iBeacon
       * Serviços externos (meteorologia, tráfego)
@@ -93,8 +91,8 @@ A definição dos principais elementos é essencial antes da implementação de 
 
    Manutenção com ênfase em:
 
-   * São necessários guias de instalação/guias do usuário detalhados?
-   * Estamos configurando (programando) o dispositivo antes do envio?
-   * Precisamos capturar cada número de série para fins de rastreamento?
+   * Os guias de instalação e de usuário são obrigatórios?
+   * Você está configurando (programando) o dispositivo antes do envio?
+   * Você deve capturar cada número de série para fins de rastreamento?
    * Existem requisitos de alimentação de reserva (fonte de alimentação ininterrupta)?
    * Como as atualizações do sistema são implantadas? E como os dispositivos são monitorados remotamente? É necessária uma solução de MDM?

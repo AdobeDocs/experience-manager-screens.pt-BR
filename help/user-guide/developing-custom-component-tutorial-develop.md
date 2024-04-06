@@ -13,10 +13,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '2275'
-ht-degree: 2%
+source-wordcount: '2207'
+ht-degree: 1%
 
 ---
 
@@ -34,9 +34,9 @@ Este tutorial destina-se a desenvolvedores novos no AEM Screens. Neste tutorial,
 
 Para concluir este tutorial, é necessário o seguinte:
 
-1. [AEM 6.5](https://helpx.adobe.com/br/experience-manager/6-4/release-notes.html) ou [AEM 6.3](https://helpx.adobe.com/br/experience-manager/6-3/release-notes.html) + Pacote de recursos do Screens mais recente
+1. [AEM 6.5](https://helpx.adobe.com/experience-manager/6-4/release-notes.html) ou [AEM 6.3](https://helpx.adobe.com/br/experience-manager/6-3/release-notes.html) + Pacote de recursos do Screens mais recente
 
-1. [Player do AEM Screens](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
+1. [AEM Screens Player](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
 1. Ambiente de desenvolvimento local
 
 As etapas e capturas de tela do tutorial são executadas usando **CRXDE-Lite**. IDEs também podem ser usados para concluir o tutorial. Mais informações sobre o uso de um IDE para desenvolvimento [com AEM podem ser encontrados aqui.](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#eclipse-ide)
@@ -387,9 +387,9 @@ Uma terceira categoria de clientlibrary: `cq.screens.components.edit` pode ser u
 
 ## Criar uma página de design {#design-page}
 
-O AEM Screens usa [Modelos de página estáticos](https://helpx.adobe.com/br/experience-manager/6-5/sites/developing/using/page-templates-static.html) e [Configurações de design](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) para alterações globais. As configurações de design são usadas com frequência para configurar componentes permitidos para o Parsys em um canal. Uma prática recomendada é armazenar essas configurações de uma maneira específica do aplicativo.
+O AEM Screens usa [Modelos de página estáticos](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-static.html) e [Configurações de design](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) para alterações globais. As configurações de design são usadas com frequência para configurar componentes permitidos para o Parsys em um canal. Uma prática recomendada é armazenar essas configurações de uma maneira específica do aplicativo.
 
-Abaixo, uma página de Design de execução do We.Retail é criada e armazenará todas as configurações específicas do projeto de execução do We.Retail.
+Abaixo, uma página de design de execução do We.Retail é criada e armazenará todas as configurações específicas do projeto de execução do We.Retail.
 
 1. Entrada **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp#/apps/settings/wcm/designs` navegue até `/apps/settings/wcm/designs`
 1. Crie um novo nó abaixo da pasta de designs, chamado `we-retail-run` com um tipo de `cq:Page`.
@@ -422,6 +422,7 @@ O componente Hello World deve ser usado em um canal de sequência. Para testar o
 1. Etapa de modelo - Escolher **Canal de sequência**
 
    1. Etapa Propriedades
+
    * Guia Básica > Título = **Canal ocioso**
    * Guia Canal > verificar **Tornar o canal online**
 

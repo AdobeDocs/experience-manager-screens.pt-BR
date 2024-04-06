@@ -13,10 +13,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 1%
+source-wordcount: '1058'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ Depois de atribuir um canal a uma exibição, o AEM Screens Player exibe o conte
 
 É possível configurar as preferências para o seu dispositivo no Painel de dispositivos, acessível por meio da instância de criação do AEM.
 
-1. Navegue até o painel do dispositivo em seu projeto, por exemplo, ***Testar projeto*** —> ***Dispositivos***.
+1. Navegue até o painel do dispositivo em seu projeto, por exemplo, ***Testar projeto*** > ***Dispositivos***.
 
    Selecionar **Dispositivos** e **Gerenciador de dispositivos** na barra de ações.
 
@@ -74,9 +74,9 @@ O menu Configuração permite modificar as seguintes configurações:
 
 * Ativar ou desativar **Menu de administração**, **Alternador de canal**, e **Interface de atividade** para o reprodutor do Screens.
 
-   Se a variável **Interface de atividade** está ativado no **Configuração** , o reprodutor do AEM Screens exibe a variável *notificações de atividade do player* no canto superior direito do reprodutor, como mostrado na figura abaixo.
+  Se a variável **Interface de atividade** está ativado no **Configuração** , o reprodutor do AEM Screens exibe a variável *notificações de atividade do player* no canto superior direito do reprodutor, como mostrado na figura abaixo.
 
-   ![imagem](/help/user-guide/assets/activity_ui.png)
+  ![imagem](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ Siga estas etapas para alterar as preferências do Player:
 
 Você pode solucionar vários problemas associados ao AEM Screens Player (hardware e software):
 
-| **Problemas** | **Recomendações** |
+| **Problemas** | **Recommendations** |
 |---|---|
 | O armazenamento do player está cheio | Eliminar arquivos desnecessários |
 | O player perdeu a rede | Use o cabo Cat-5/Cat-6. Para Wi-Fi, reduza a distância do roteador até o dispositivo de reprodução |
@@ -150,7 +150,7 @@ Há dois tipos de atualizações para o AEM Screens Player:
 
 A seção a seguir fornece as diretrizes de seleção de hardware para um projeto do Screens:
 
-* Sempre origem ***Comercial*** ou ***Industrial*** Os componentes da categoria para PC player e painel de exibição ou projetor.
+* Sempre origem ***Comercial*** ou ***Industrial*** Os componentes da nota para PC player e painel de exibição ou projetor.
 
 * Sempre interaja com fornecedores que atendem ao mercado de sinalização digital.
 * Sempre considere fatores ambientais como temperatura ambiente e umidade relativa.
@@ -177,7 +177,7 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
    <td><p>4 GB de memória</p> <p>2 MB de cache</p> </td>
    <td><p>·ChromeOS 32 GB</p> <p>·Windows 128 GB</p> </td>
    <td>OnBoard</td>
-   <td>1920x1080</td>
+   <td>1920 x 1080</td>
    <td>DVI<br /> Ethernet / sem fio,<br /> 2xUSB</td>
    <td>
     <ul>

@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 1%
@@ -57,6 +57,7 @@ Siga as etapas abaixo para ativar o direcionamento em seus canais.
    1. Selecione o **Caminho de segmentos** as **conf** > **We.Retail** > **configurações** > **wcm** > **segmentos** e clique em **Selecionar**.
 
    1. Clique em **Salvar e fechar**.
+
    >[!NOTE]
    >
    >Use o ContextHub e o caminho Segmentos, onde você salvou inicialmente as configurações e os segmentos do seu hub de contexto.

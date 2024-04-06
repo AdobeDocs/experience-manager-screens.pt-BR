@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 089bf4eebe5234d77d6f02ae6fc3b8bb75ba6ea2
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -152,7 +152,7 @@ Quando o AEM Screens player é iniciado, ele faz uma solicitação para ***/cont
 
 Siga as etapas abaixo para ativar o Permanecer acordado em qualquer player Android:
 
-1. Navegue até Configurações do Android Player —> **Sobre**
+1. Navegue até Configurações do Android Player > **Sobre**
 1. Toque 7 vezes no número da build para ativar **Opções do desenvolvedor** in **Configurações**
 1. Navegue até **Opções do desenvolvedor**
 1. Ativar **Fique Acordado**
@@ -184,16 +184,16 @@ Você pode obter os detalhes da exibição e do dispositivo por meio de:
 * **uma API JS interna**
 * **um armazenamento do ContextHub**: três armazenamentos do ContextHub são definidos em `/libs/screens/clientlibs/contexthub` para expor canais, dispositivos e informações.
 
-   Siga as etapas abaixo para usar esses valores de armazenamento do ContentHub:
+  Siga as etapas abaixo para usar esses valores de armazenamento do ContentHub:
 
    * Edite as propriedades do canal e defina o caminho do ContextHub na guia de personalização para o valor (como mencionado acima)
    * No JS do canal, é possível usar:
 
-      ```shell
-         ContextHub.getStore('screens-device');
-         ContextHub.getStore('screens-display');
-         ContextHub.getStore('screens-channels');
-      ```
+     ```shell
+        ContextHub.getStore('screens-device');
+        ContextHub.getStore('screens-display');
+        ContextHub.getStore('screens-channels');
+     ```
 
 ## Dicas gerais de solução de problemas {#general-troubleshooting-tips}
 
@@ -203,7 +203,7 @@ Para desativar o Livefyre e evitar erros de log:
 
 1. ***Desative o pacote Livefyre:***
 
-   * Vá até `https://&lt;host&gt;:&lt;port&gt;/system/console/bundles`
+   * Navegue até `https://<host>:<port>/system/console/bundles`
    * Procure o pacote AEM Livefyre: `com.adobe.cq.social.cq-social-livefyre`
    * Clique em **Parar**
 
@@ -251,6 +251,6 @@ O serviço é usado para definir o nome de host público para as instâncias de 
 
 O serviço Externalizador de link CQ no Screens pode ser configurado por meio de:
 
-1. Vá até `http://localhost:4502/system/console/configMgr`
+1. Navegue até `http://localhost:4502/system/console/configMgr`
 1. Day CQ Link Externalizer
 1. Altere o nome do host para o `author/publish` entradas conforme necessário

@@ -7,10 +7,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 3%
+source-wordcount: '1305'
+ht-degree: 2%
 
 ---
 
@@ -161,7 +161,7 @@ Um ***Canal online***, mostrará o conteúdo atualizado no ambiente em tempo rea
 
 Siga as etapas abaixo para tornar o canal online:
 
-1. Navegue até o canal como **TestProject** —> **Canais** —> **TestChannel**.
+1. Navegue até o canal como **TestProject** > **Canais** > **TestChannel**.
 
    Selecione o canal.
 
@@ -244,7 +244,6 @@ As exibições associadas serão listadas no **Exibições atribuídas** como mo
 >* [Criar e Gerenciar Locais](managing-locations.md)
 >* [Criar e gerenciar exibições](managing-displays.md)
 >
-
 
 Além disso, clique na exibição no **EXIBIÇÕES ATRIBUÍDAS** para exibir as informações de exibição, conforme mostrado abaixo:
 

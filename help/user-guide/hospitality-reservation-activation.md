@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Siga as etapas abaixo para implementar o caso de uso de ativação de reserva de
 
    >[!CAUTION]
    >
-   >Você deveria ter configurado seu **ContextHub** **Configurações** uso do canal **Propriedades** —> **Personalização** guia.
+   >Você deveria ter configurado seu **ContextHub** **Configurações** uso do canal **Propriedades** > **Personalização** guia.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -86,4 +86,5 @@ Siga as etapas abaixo para implementar o caso de uso de ativação de reserva de
 
    1. Clique em **Visualizar.** Além disso, abra as Google Sheets e atualize o valor.
    1. Atualizar o valor em **Restaurante1** e **Restaurante2** colunas. Se **Restaurante1** > **Restaurante2,** você deve conseguir visualizar uma imagem de *Bife* alimentos de outro modo, *Tailandês* a imagem dos alimentos é exibida no seu ecrã.
-   ![result5](assets/result5.gif)
+
+   ![resultado5](assets/result5.gif)

@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -94,12 +94,13 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de Inventári
 
    >[!CAUTION]
    >
-   >Você deveria ter configurado seu **ContextHub** **Configurações** uso do canal **Propriedades** —> **Personalização** guia.
+   >Você deveria ter configurado seu **ContextHub** **Configurações** uso do canal **Propriedades** > **Personalização** guia.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   Você deve selecionar os dois **Marca** e a variável **Área** para que as atividades sejam listadas corretamente ao iniciar o processo de direcionamento.
+   >
+   >Você deve selecionar os dois **Marca** e a variável **Área** para que as atividades sejam listadas corretamente ao iniciar o processo de direcionamento.
 
 1. **Adição de uma imagem padrão**
 
@@ -111,7 +112,8 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de Inventári
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   Antes de começar o direcionamento, é necessário adicionar os segmentos (**For_Green**, **Para_vermelho**, e **For_Blue**) clicando em **+ Adicionar direcionamento de experiência** do painel lateral como mostrado na figura abaixo.
+   >
+   >Antes de começar o direcionamento, é necessário adicionar os segmentos (**For_Green**, **Para_vermelho**, e **For_Blue**) clicando em **+ Adicionar direcionamento de experiência** do painel lateral como mostrado na figura abaixo.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -123,4 +125,5 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de Inventári
 
    1. Clique em **Visualizar.** Além disso, abra a Planilha do Google e atualize o valor.
    1. Altere o valor de todas as três colunas diferentes e você observará as atualizações da imagem de exibição de acordo com o valor mais alto no inventário.
+
    ![retail_result](assets/retail_result.gif)

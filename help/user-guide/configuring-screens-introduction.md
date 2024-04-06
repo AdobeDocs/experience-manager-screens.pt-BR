@@ -1,22 +1,18 @@
 ---
 title: Configuração e implantação do AEM Screens
-seo-title: Configuring and Deploying Screens
-description: O AEM Screens player está disponível para Android, Chrome OS, iOS e Windows. Esta página descreve a configuração e a implantação do AEM Screens e também resume as diretrizes de seleção de hardware para o dispositivo de reprodução.
-seo-description: The AEM Screens player is available for Android, Chrome OS, iOS, and Windows. This page describes the configuration and deployment of AEM Screens and also summarizes the h/w selection guidelines for player device.
-uuid: bf730d0f-e590-4c0d-a554-e1ff914eb420
+description: O AEM Screens player está disponível para Android&trade;, Chrome OS, iOS e Windows. Saiba mais sobre a configuração e implantação do AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
-discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 0%
+source-wordcount: '681'
+ht-degree: 1%
 
 ---
 
@@ -26,9 +22,7 @@ Esta página mostra como instalar e configurar os reprodutores do Screens em seu
 
 ## Configuração do servidor {#server-configuration}
 
->[!NOTE]
->
->**Importante**:
+>[!IMPORTANT]
 >
 >O AEM Screens player não usa o token CSRF (Falsificação de solicitação entre sites). Portanto, para configurar o servidor AEM para que esteja pronto para uso no AEM Screens, ignore o filtro de referenciador, permitindo referenciadores vazios.
 
@@ -48,7 +42,7 @@ Siga as etapas abaixo para verificar se essas duas configurações vitais estão
    ![ativos](assets/health-check1.png)
 
 
-2. Clique em **Executar verificações de integridade selecionadas** para executar a validação de duas propriedades listadas acima.
+2. Selecionar **Executar verificações de integridade selecionadas** para que você possa executar a validação de duas propriedades listadas acima.
 
    Se ambos os filtros estiverem ativados, a variável **Serviço de integridade da configuração do Screens** mostra o **Resultado** as **OK** com ambas as configurações ativadas.
 
@@ -64,14 +58,13 @@ Siga as etapas abaixo para verificar se essas duas configurações vitais estão
 >* Para ativar o **Filtro referenciador do Apache Sling**, consulte [Permitir Solicitações de Referenciador Vazias](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests).
 >* Para ativar o **HTTP** serviço, consulte [Serviço HTTP baseado no Apache Felix Jetty](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
 
-
 ### Pré-requisitos {#prerequisites}
 
 Os principais pontos a seguir ajudam a configurar o e o servidor AEM para que estejam prontos para uso no AEM Screens.
 
 #### Permitir Solicitações de Referenciador Vazias {#allow-empty-referrer-requests}
 
-1. Navegue até **Configuração do console da Web do Adobe Experience Manager** via instância do AEM —> ícone de martelo —> **Operações** —> **Console da Web**.
+1. Navegue até **Configuração do console da Web do Adobe Experience Manager** via instância AEM > ícone de martelo > **Operações** > **Console da Web**.
 
    ![imagem](assets/config/empty-ref1.png)
 
@@ -88,7 +81,7 @@ Os principais pontos a seguir ajudam a configurar o e o servidor AEM para que es
 
 #### Serviço HTTP baseado no Apache Felix Jetty {#allow-apache-felix-service}
 
-1. Navegue até **Configuração do console da Web do Adobe Experience Manager** via instância do AEM —> ícone de martelo —> **Operações** —> **Console da Web**.
+1. Navegue até **Configuração do console da Web do Adobe Experience Manager** via instância AEM > ícone de martelo > **Operações** > **Console da Web**.
 
    ![imagem](assets/config/empty-ref1.png)
 
@@ -104,12 +97,12 @@ Os principais pontos a seguir ajudam a configurar o e o servidor AEM para que es
 
 #### Habilitar a interface de toque para o AEM Screens {#enable-touch-ui-for-aem-screens}
 
-O AEM Screens exige a interface TOUCH e não funcionará com a interface CLASSIC do Adobe Experience Manager (AEM).
+O AEM Screens exige a interface TOUCH e não funciona com a interface CLASSIC do Adobe Experience Manager (AEM).
 
-1. Navegue até *&lt;yourauthorinstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
+1. Navegue até `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
 1. Certifique-se de que o **Modo de interface de usuário de criação padrão** está definida como **TOQUE**, conforme mostrado na figura abaixo
 
-Como alternativa, você também pode executar a mesma configuração usando yourAuthorInstance *->* ferramentas (ícone de martelo) -> **Operações** -> **Console da Web** e pesquisar **Serviço de modo de interface do usuário de criação do WCM**.
+Como alternativa, você também pode executar a mesma configuração usando yourAuthorInstance *>* ferramentas (ícone de martelo) > **Operações** > **Console da Web** e pesquisar **Serviço de modo de interface do usuário de criação do WCM**.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -119,7 +112,7 @@ Como alternativa, você também pode executar a mesma configuração usando your
 
 #### AEM no modo de execução NOSAMPLECONTENT {#aem-in-nosamplecontent-runmode}
 
-A execução do AEM na produção usa o **NOSAMPLECONTENT** runmode. Remova o *X-Frame-Options=SAMEORIGIN* cabeçalho (na seção cabeçalho de resposta adicional) de
+A execução do AEM na produção usa o **NOSAMPLECONTENT** modo de execução. Remova o *X-Frame-Options=SAMEORIGIN* cabeçalho (na seção cabeçalho de resposta adicional) de
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -129,26 +122,26 @@ Isso é necessário para que o AEM Screens Player reproduza canais online.
 
 Com as alterações mais recentes no ***DeviceServiceImpl***, não é necessário remover as restrições de senha.
 
-Você pode configurar ***DeviceServiceImpl*** no link abaixo, para ativar a restrição de senha ao criar a senha para os usuários do dispositivo do screens:
+Você pode configurar ***DeviceServiceImpl*** no link abaixo para ativar a restrição de senha ao criar a senha para os usuários do dispositivo de tela:
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
 Siga as etapas abaixo para configurar ***DeviceServiceImpl***:
 
-1. Navegue até **Configuração do console da Web do Adobe Experience Manager** via instância do AEM —> ícone de martelo —> **Operações** —> **Console da Web**.
+1. Navegue até **Configuração do console da Web do Adobe Experience Manager** por meio da instância AEM > ícone de martelo > **Operações** > **Console da Web**.
 
-1. **Configuração do console da Web do Adobe Experience Manager** é aberto. Pesquisar por *deviceService*. Para pesquisar a propriedade, pressione **Command+F** para o macOS e **Ctrl+F** para Microsoft Windows.
+1. **Configuração do console da Web do Adobe Experience Manager** é aberto. Pesquisar por `*deviceservice*`. Para pesquisar a propriedade, pressione **Command+F** para o macOS e **Ctrl+F** para Microsoft® Windows.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
 #### Configuração do Dispatcher {#dispatcher-configuration}
 
-Para saber como configurar o dispatcher para um projeto do AEM Screens, consulte [Configuração do Dispatcher para um projeto do AEM Screens](dispatcher-configurations-aem-screens.md).
+Para saber como configurar o Dispatcher para um projeto do AEM Screens, consulte [Configuração do Dispatcher para um projeto do AEM Screens](dispatcher-configurations-aem-screens.md).
 
-#### Codificação Java {#java-encoding}
+#### Codificação Java™ {#java-encoding}
 
-Defina o ***Codificação Java*** para Unicode. Por exemplo, *Dfile.encoding=Cp1252* não funcionará.
+Defina o ***Codificação Java™*** para Unicode. Por exemplo, `*Dfile.encoding=Cp1252*` não funciona.
 
 >[!NOTE]
->**Recomendação:**
->É recomendável usar HTTPS para AEM Screens Server no uso de produção.
+>
+>Use HTTPS para o AEM Screens Server no uso de produção.
