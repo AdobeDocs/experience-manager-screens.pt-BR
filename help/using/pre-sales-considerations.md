@@ -4,10 +4,10 @@ seo-title: Considerations as Projects are Scoped
 description: A página descreve as considerações à medida que os projetos têm escopo
 seo-description: The page describes Considerations as Projects are Scoped
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 3%
+source-wordcount: '282'
+ht-degree: 0%
 
 ---
 
@@ -33,4 +33,4 @@ Os principais resultados incluem:
 >
 >Identifique os dados que serão necessários para o aplicativo e de onde eles vêm o mais rápido possível. Embora uma exploração mais profunda ocorra durante a implementação, reserve um tempo durante *Dia Zero* para descobrir quais dados o cliente pretende usar, onde esses dados estão armazenados no momento e como eles podem ser acessados pelo aplicativo que está sendo criado. Notificar a equipe de desenvolvimento antecipadamente sobre os desafios que podem surgir ajudará a tornar a implementação mais tranquila.
 
-Consulte o tutorial em vídeo sobre [Considerações quanto ao escopo dos projetos](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) para obter mais informações.
+Veja o tutorial em vídeo sobre [Considerações quanto ao escopo dos projetos](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) para obter mais informações.

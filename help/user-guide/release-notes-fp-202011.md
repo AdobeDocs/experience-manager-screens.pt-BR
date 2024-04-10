@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 6%
+source-wordcount: '285'
+ht-degree: 3%
 
 ---
 
@@ -31,23 +31,23 @@ A data de lançamento do Pacote de recursos do AEM Screens 202011 é 30 de novem
 
 * **Relatório de atribuição de conteúdo**
 
-   O recurso Relatório de atribuição de conteúdo permite que um administrador ou autor do AEM Screens exporte uma *Relatório de atribuição de conteúdo* em formato de planilha.
+  O recurso Relatório de atribuição de conteúdo permite que um administrador ou autor do AEM Screens exporte uma *Relatório de atribuição de conteúdo* em formato de planilha.
 Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assignment-report.md) para obter mais detalhes.
 
 
 * **Tizen Player**
 
-   Um novo player chamado de Tizen player foi introduzido com o pacote de recursos mais recente da versão AEM Screens 6.5.6.
+  Um novo player chamado de Tizen player foi introduzido com o pacote de recursos mais recente da versão AEM Screens 6.5.6.
 Consulte [Implementação do reprodutor de tize](/help/user-guide/tizen-player.md) para obter mais detalhes.
 
 * **Funcionalidade de pesquisa no Gerenciador de dispositivos**
 
-   Uma nova funcionalidade de pesquisa agora está disponível na interface do usuário do Gerenciador de dispositivos com o pacote de recursos mais recente da versão AEM Screens 6.5.6.
+  Uma nova funcionalidade de pesquisa agora está disponível na interface do usuário do Gerenciador de dispositivos com o pacote de recursos mais recente da versão AEM Screens 6.5.6.
 Consulte [Pesquisando um dispositivo no Gerenciador de dispositivos](/help/user-guide/device-registration.md#search-device) para obter mais detalhes.
 
 * **Intervalo de ping padrão**
 
-   O intervalo de ping padrão agora está definido como 30 segundos nesta versão.
+  O intervalo de ping padrão agora está definido como 30 segundos nesta versão.
 
 ### Players do AEM Screens lançados {#released-aem-screens-players}
 

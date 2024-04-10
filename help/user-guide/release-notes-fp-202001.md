@@ -7,10 +7,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 1d591503bc337e5677a3c4030771463f7e178e1e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 4%
+source-wordcount: '307'
+ht-degree: 2%
 
 ---
 
@@ -34,18 +34,17 @@ A data de lançamento do Pacote de recursos do AEM Screens 202001 é 31 de janei
 
 * **Sincronização de comandos para a reprodução do ativo**
 A sincronização de comandos permite a reprodução sincronizada em diferentes reprodutores. Os reprodutores podem reproduzir conteúdo diferente, mas cada ativo precisa ter a mesma duração.
-Para saber mais sobre a Sincronização de comando e como definir o principal e os clientes, consulte [Usando a sincronização de comandos](using-command-sync.md).
+Para saber mais sobre a Sincronização de comando e como definir o mestre e os clientes, consulte [Usando a sincronização de comandos](using-command-sync.md).
 
 * **Estrutura de verificação de integridade para mostrar o status de https e permitir referenciador vazio**
 A estrutura de verificação de integridade permite que o usuário verifique se duas configurações necessárias (Permitir solicitações de referenciador vazias e Serviço HTTP baseado no Apache Felix Jetty) estão configuradas antes de executar um projeto do AEM Screens.
 
-   Para saber mais sobre a Estrutura de verificação de integridade, consulte [Estrutura de verificação de integridade](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+  Para saber mais sobre a Estrutura de verificação de integridade, consulte [Estrutura de verificação de integridade](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
 * **Atualizações para Tipos de transição padrão**
-As propriedades do componente de transição, como 
-**Tipo** agora está definido como **Desaparecer** e a variável **Duração** as **1600 ms**, por padrão.
+As propriedades do componente de transição, como **Tipo** agora está definido como **Desaparecer** e a variável **Duração** as **1600 ms**, por padrão.
 
-   Consulte [Aplicar transições](/help/user-guide/applying-transitions.md) caso de uso para obter mais detalhes.
+  Consulte [Aplicar transições](/help/user-guide/applying-transitions.md) caso de uso para obter mais detalhes.
 
 
 ### Players do AEM Screens lançados {#released-aem-screens-players}

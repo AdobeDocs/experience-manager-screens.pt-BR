@@ -2,9 +2,9 @@
 title: Gerenciando o tráfego de rede
 description: A página descreve Configurações de rede padrão e como gerenciar o tráfego de rede.
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---

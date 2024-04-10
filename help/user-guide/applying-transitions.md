@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Esta seção descreve como você pode aplicar a variável **Transição** compon
 
 >[!CAUTION]
 >
->Para saber mais detalhes sobre as propriedades da **Transição** , consulte [Transições](adding-components-to-a-channel.md#transition).
+>Para saber mais detalhes sobre as propriedades da **Transição** componente, consulte [Transições](adding-components-to-a-channel.md#transition).
 
 ## Adicionar componente de transição aos ativos em um canal {#adding-transition}
 

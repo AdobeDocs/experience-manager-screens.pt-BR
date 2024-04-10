@@ -2,9 +2,9 @@
 title: Uso de representações adaptáveis no AEM Screens
 description: Esta página descreve como usar Representações adaptáveis no AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: cd26f77b9b41a5854aaa1f936abed3b410533684
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---

@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '400'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ Siga as etapas abaixo para configurar um projeto:
 
    >[!NOTE]
    >
-   >Para saber mais sobre como criar um layout de várias zonas no seu canal, consulte [Layout de várias zonas](multi-zone-layout-aem-screens.md).
+   >Para saber mais sobre como criar um layout de várias zonas no canal, consulte [Layout de várias zonas](multi-zone-layout-aem-screens.md).
 
 
 1. Crie outro canal chamado como **Canal de aquisição** ao seu **Canais** pasta.

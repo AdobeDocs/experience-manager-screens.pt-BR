@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '491'
 ht-degree: 2%
 
 ---
@@ -97,7 +97,7 @@ A tabela a seguir resume os grupos com descrição e permissões para um projeto
    <td><strong>Permissões</strong></td>
   </tr>
   <tr>
-   <td>Administradores do Screens<br /> <em>screens-admins</em></td>
+   <td>Administradores do Screens<br /> <em><code>screens-admins</code></em></td>
    <td>Acesso de nível administrativo para recursos do AEM Screens</td>
    <td>
     <ul>
@@ -110,29 +110,29 @@ A tabela a seguir resume os grupos com descrição e permissões para um projeto
     </ul> </td>
   </tr>
   <tr>
-   <td>Usuários do Screens<br /> <em>screens-users</em></td>
+   <td>Usuários do Screens<br /> <em><code>screens-users</code></em></td>
    <td>Criar e atualizar canais e agendamentos e atribuir a locais na AEM Screens</td>
    <td>
     <ul>
      <li>Membro de contribuidores</li>
-     <li>&lt;project&gt; /content/screens</li>
-     <li>&lt;project&gt; /content/dam</li>
-     <li>&lt;project&gt; /content/experience-fragments</li>
+     <li><code>&lt;project&gt; /content/screens</code></li>
+     <li><code>&lt;project&gt; /content/dam</code></li>
+     <li><code>&lt;project&gt; /content/experience-fragments</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Operadores do Screens<br /> <em>screens-operators</em></td>
+   <td>Operadores do Screens<br /> <em><code>screens-operators</code></em></td>
    <td>Criar e atualizar estrutura de localização e registrar players no AEM Screens</td>
    <td>
     <ul>
      <li>Membro de contribuidores</li>
-     <li>jcr:all /home/users/screens</li>
-     <li>jcr:all /home/groups/screens</li>
-     <li>&lt;project&gt; /content/screens</li>
+     <li><code>jcr:all /home/users/screens</code></li>
+     <li><code>jcr:all /home/groups/screens</code></li>
+     <li><code>&lt;project&gt; /content/screens</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Players do Screens<br /> <em>telas-&lt;project&gt;-devices</em></td>
+   <td>Players do Screens<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
    <td>Agrupa todos os players e todos os players/dispositivos são membros dos colaboradores automaticamente.</td>
    <td><p> Membro de contribuidores</p> </td>
   </tr>

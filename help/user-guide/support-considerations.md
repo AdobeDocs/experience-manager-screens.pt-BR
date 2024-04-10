@@ -14,9 +14,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -69,4 +69,4 @@ Siga este tutorial de conclusão para um tutorial de 5 partes abaixo que enfatiz
 
 ## Conclusão {#conclusion}
 
-Essas séries de 5 partes estão focadas em considerações importantes para garantir o sucesso do seu projeto. Consulte outras seções do Guia do Usuário do AEM Screens para obter detalhes sobre a implementação.
+Essas séries de 5 partes estão focadas em considerações importantes para garantir o sucesso do seu projeto. Consulte outras seções do Guia do usuário do AEM Screens para obter detalhes sobre a implementação.

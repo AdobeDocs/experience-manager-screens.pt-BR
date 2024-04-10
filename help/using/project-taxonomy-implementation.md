@@ -4,9 +4,9 @@ seo-title: Project Taxonomy
 description: Esta página descreve a Taxonomia do Projeto
 seo-description: The page describes Project Taxonomy
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ Para saber mais sobre esses termos, consulte [Glossário](https://experienceleag
 >
 >* banco de dados de ativos de hardware para preencher automaticamente um projeto do Screens
 >* arquivo de configuração de texto para apontar automaticamente cada player para uma instância específica de um AEM
-
 
 ## Implementação de um projeto do AEM Screens {#creating-a-project}
 

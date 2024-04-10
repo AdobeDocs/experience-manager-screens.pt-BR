@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,7 @@ A tabela a seguir resume os atributos da política com um exemplo de JSON de pol
 ```
 
 >[!NOTE]
->Todos os dispositivos Android™ têm um `*sdcard*` pasta se um real `*sdcard*` foi inserido ou não. Esse arquivo, quando implantado, estaria no mesmo nível que a pasta Downloads. Alguns MDMs, como Samsung Knox, podem se referir a isso *sdcard* local da pasta como *Armazenamento interno*.
+>Todos os dispositivos Android™ têm um `*sdcard*` pasta se um real `*sdcard*` foi inserido ou não. Esse arquivo, quando implantado, estaria no mesmo nível que a pasta Downloads. Alguns MDMs, como Samsung Knox, podem ver isso *sdcard* local da pasta como *Armazenamento interno*.
 
 ## Provisionamento em massa do Android™ Player usando o Enterprise Mobility Management {#bulk-provisioning}
 

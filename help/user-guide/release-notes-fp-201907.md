@@ -14,10 +14,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 1%
+source-wordcount: '375'
+ht-degree: 2%
 
 ---
 
@@ -45,7 +45,7 @@ Consulte [Canal de emergência](emergency-channel.md) Caso de uso para implement
 
 O direcionamento agora pode ser ativado para ativos usados no projeto do AEM Screens.
 
-Para saber mais sobre como ativar o direcionamento para ativos no projeto do AEM Screens, consulte [Configuração do ContextHub no AEM Screens](configuring-context-hub.md).
+Para saber mais sobre como habilitar o direcionamento para ativos no projeto do AEM Screens, consulte [Configuração do ContextHub no AEM Screens](configuring-context-hub.md).
 
 Depois de configurar o ContextHub para seu projeto do AEM Screens, siga diferentes casos de uso para entender como os ativos acionados por dados desempenham um papel vital em diferentes setores:
 

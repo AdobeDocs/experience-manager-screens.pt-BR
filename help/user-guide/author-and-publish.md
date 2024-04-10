@@ -2,9 +2,9 @@
 title: Configuração de instâncias de Autor e Publicação no AEM Screens
 description: Saiba como configurar uma instância do Autor e uma instância de Publicação para o AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Antes de começar a usar servidores de Autor e Publicação, você deve ter conh
 
 >[!NOTE]
 >
->Para saber mais sobre a visão geral da arquitetura do Author and Publish e como o conteúdo é criado em uma instância do Author de AEM e, em seguida, reproduzido de forma encaminhada para várias instâncias do Publish, consulte [Visão geral da arquitetura de criação e publicação](author-publish-architecture-overview.md).
+>Para saber mais sobre a visão geral da arquitetura Autor e publicação e como o conteúdo é criado em uma instância de autor do AEM e, em seguida, reproduzido de forma encaminhada para várias instâncias de Publicação, consulte [Visão geral da arquitetura de criação e publicação](author-publish-architecture-overview.md).
 
 A seção a seguir explica como configurar agentes de replicação na topologia Autor e Publicação.
 

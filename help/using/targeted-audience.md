@@ -3,10 +3,10 @@ title: Público-alvo
 seo-title: Target Audience for AEM Screens
 description: A página descreve quem são os públicos-alvo do Guia de práticas recomendadas do AEM Screens
 seo-description: The page describes who are the target audience for AEM Screens Best Practices Guide
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 5%
+source-wordcount: '495'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ Como um implementador de AEM experiente, provavelmente você já viu funções c
 
 Em um projeto AEM Screens típico, as funções são refinadas, pois cada uma serve a um propósito importante no projeto.
 
-O diagrama abaixo mostra as funções a que nos referiremos em todo o guia.
+O diagrama abaixo mostra as funções que veremos em todo o guia.
 
 ![](/help/assets/roles-used.png)
 
@@ -30,9 +30,9 @@ A seção a seguir fornece uma visão geral sobre o público-alvo:
 
 ### Adobe {#adobe-audience}
 
-O Adobe inclui recursos do Adobe Managed Services, como o CSE (Customer Success Engineer, Engenheiro especializado na fidelização de clientes) e Suporte Adobe.
+O Adobe inclui recursos do Adobe Managed Services, como o CSE (Customer Success Engineer, Engenheiro especializado na fidelização de clientes) e o Suporte Adobe.
 
-### Implementadores do AEM {#aem-implementors}
+### Implementadores de AEM {#aem-implementors}
 
 Os implementadores de AEM são responsáveis por executar tarefas de desenvolvimento e integração para desenvolver a experiência do usuário, modelos personalizados e integrações de back-end para o AEM.
 

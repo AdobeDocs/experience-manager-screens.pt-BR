@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -216,7 +216,7 @@ Desative o Livefyre para evitar erros de registro ao fazer o seguinte.
 O AEM Screens cria definições de índice para as consultas usadas pelo produto.
 Se houver *AVISOS de cruzamento de consulta* no `error.log`, crie um índice personalizado para o query. Consulte [Configurar os índices](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) para obter mais detalhes.
 
-Também é possível consultar um recurso adicional em [Documentação do Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+Você também pode ver um recurso adicional em [Documentação do Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
 ### 3. O que é necessário para configurar Manifestos v3? {#configure-v3}

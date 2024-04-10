@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Siga as etapas abaixo para criar um fluxo de trabalho para seu vídeo:
 
    Insira o formato nas **Tipos de Mime** (como ***video/mp4***) e o comando como (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***) para iniciar o fluxo de trabalho na **Comandos** campo.
 
-   Consulte os detalhes em **Tipos de Mime** e **Comandos** na nota abaixo.
+   Veja os detalhes em **Tipos de Mime** e **Comandos** na nota abaixo.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 

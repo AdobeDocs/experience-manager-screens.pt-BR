@@ -4,10 +4,10 @@ seo-title: AEM Screens Project Roles  and Responsibilities
 description: A página descreve as Funções e Responsabilidades do Projeto AEM Screens
 seo-description: The page describes AEM Screens Project Roles  and Responsibilities
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 6%
+source-wordcount: '1242'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ Como um implementador de AEM experiente, provavelmente você já viu funções c
 
 Em um projeto AEM Screens típico, as funções são refinadas, pois cada uma serve a um propósito importante no projeto.
 
-O diagrama abaixo mostra as funções a que nos referiremos em todo o guia.
+O diagrama abaixo mostra as funções que veremos em todo o guia.
 
 ![](/help/assets/project-roles-revised.png)
 
@@ -31,9 +31,9 @@ A seção a seguir fornece uma visão geral sobre o público-alvo:
 
 ### Adobe {#adobe-audience}
 
-O Adobe inclui recursos do Adobe Managed Services, como o CSE (Customer Success Engineer, Engenheiro especializado na fidelização de clientes) e Suporte Adobe.
+O Adobe inclui recursos do Adobe Managed Services, como o CSE (Customer Success Engineer, Engenheiro especializado na fidelização de clientes) e o Suporte Adobe.
 
-### Implementadores do AEM {#aem-implementors}
+### Implementadores de AEM {#aem-implementors}
 
 Os implementadores de AEM são responsáveis por executar tarefas de desenvolvimento e integração para desenvolver a experiência do usuário, modelos personalizados e integrações de back-end para o AEM.
 
@@ -61,7 +61,7 @@ Um Integrador de AV é responsável pela realização de descobertas com os clie
 
 1. Quais são os sistemas ativos de monitoramento e aviso?
 
-### Estrategistas de negócios {#business-strategist}
+### Estratégicos de negócios {#business-strategist}
 
 Os Business Strategists representam os tomadores de decisão na empresa. Essa função está altamente envolvida nos estágios de descoberta e requisitos e é o principal impulsionador do projeto.
 
@@ -158,7 +158,7 @@ A tabela a seguir resume as **Primeiro dia: implementação do projeto (disponib
 |---|---|---|---|---|
 | Solicitação e armazenamento de hardware | RA | I | I | I |
 | Agendamento de integração de varejo | I | I | C | RA |
-| Preparando Teste de Aceitação do Usuário | I | C | RA |  |
+| Preparando Teste de Aceitação do Usuário | I | C | RA |   |
 | Configuração de hardware em massa | RA | I | C | I |
 | Contrato de suporte pós-lançamento | RA | C | RA | C |
 
@@ -169,7 +169,7 @@ A tabela a seguir resume as **Primeiro dia: primeiro dia: implementação do pro
 | Acordo sobre Funções e Responsabilidades | RA | RA | RA | RA |
 | O projeto de varejo inclui operações de fiação | - | - | - | - |
 | Seleção do hardware do player | RAC | - | - | - |
-| Gerenciamento de dispositivos do principal | RA | I | - | - |
+| Gerenciamento de dispositivo do mestre | RA | I | - | - |
 | Ordenação, armazenamento e configuração do dispositivo | RA | IC | I | - |
 | Definição do processo de suporte | RA | I | RA | C |
 

@@ -4,9 +4,9 @@ seo-title: Recommended Approach in an AEM Screens Project
 description: A página descreve a abordagem recomendada em um projeto do AEM Screens
 seo-description: The page describes recommended approach in an AEM Screens project
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,15 @@ Consulte as poucas recomendações antes de desenvolver e implantar um projeto d
 
 * **Estratégia de conteúdo predefinida**: Estabeleça uma estratégia de conteúdo, incluindo metas de curto e longo prazo. Além disso, alinhe as metas da marca/KPIs com as melhorias de recursos.
 
-   >[!NOTE]
-   >
-   > Os custos iniciais geralmente são mais altos em um projeto AEM Screens devido à necessidade de investir em hardware, dispositivos e designs de site; portanto, manter as soluções de conteúdo inicial mais simples pode ajudar a gerenciar as expectativas de orçamento.
+  >[!NOTE]
+  >
+  > Os custos iniciais geralmente são mais altos em um projeto AEM Screens devido à necessidade de investir em hardware, dispositivos e designs de site; portanto, manter as soluções de conteúdo inicial mais simples pode ajudar a gerenciar as expectativas de orçamento.
 
 * **Estimativa de materiais de entrega em grande escala**: se a solução for fornecida em larga escala, é recomendável implantar os componentes do aplicativo em locais piloto escolhidos cuidadosamente para uso de avaliação. Enviar para novos locais e dispositivos à medida que o aplicativo passar na validação.
 
-   >[!NOTE]
-   >
-   > Comece a coletar análises durante o piloto para ajudar as equipes de negócios a validar o sucesso da solução em relação às métricas específicas que estão tentando alcançar. Saber como está o desempenho do piloto ajuda a equipe de negócios a determinar quais melhorias precisam ser feitas.
+  >[!NOTE]
+  >
+  > Comece a coletar análises durante o piloto para ajudar as equipes de negócios a validar o sucesso da solução em relação às métricas específicas que estão tentando alcançar. Saber como está o desempenho do piloto ajuda a equipe de negócios a determinar quais melhorias precisam ser feitas.
 
 * **Dividindo Entregáveis em tarefas mensuráveis**: dividir a entrega de recursos em tarefas mensuráveis permitirá feedback pontual, fornecerá metas mais alcançáveis e reduzirá os riscos gerais do projeto.
 

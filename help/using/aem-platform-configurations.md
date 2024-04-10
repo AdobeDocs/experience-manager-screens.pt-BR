@@ -1,75 +1,74 @@
 ---
-title: Configurações da AEM Platform
-seo-title: AEM Platform Configurations
+title: Configurações da plataforma AEM
 description: A página descreve as configurações da plataforma AEM
-seo-description: The page describes AEM Platform Configurations
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 21%
+source-wordcount: '447'
+ht-degree: 3%
 
 ---
 
-# Configurações da AEM Platform  {#platform-configurations}
+# Configurações da plataforma AEM  {#platform-configurations}
 
 >[!NOTE]
 >
 >Uma parte interessada típica dessa atividade é um Implementador de AEM.
 
-Siga as seções abaixo para definir as configurações da plataforma AEM e começar a usar o AEM Screens.
+Comece a usar o AEM Screens seguindo as seções abaixo para definir as configurações da plataforma AEM
 
 ## Configurações do servidor {#server-configurations}
 
-Para definir as configurações do servidor, consulte [Configurações do servidor](https://helpx.adobe.com/experience-manager/6-5/screens/using/configuring-screens-introduction.html#ServerConfiguration).
+Para definir as configurações do servidor, consulte [Configurações do servidor](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration).
 
 ## Autor-Publicação {#author-publish}
 
-Para configurar a publicação do autor, consulte [Configuração do Author e Publish no AEM Screens](https://helpx.adobe.com/br/experience-manager/6-5/screens/using/author-and-publish.html)
+Consulte [Configuração do Author e Publish no AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
 
 >[!NOTE]
 >
->Se houver apenas um autor e uma publicação, basta seguir as etapas em **Configuração de agentes de replicação no autor** na página [Configuração de autor e publicação no AEM Screens](https://helpx.adobe.com/br/experience-manager/6-5/screens/using/author-and-publish.html).
+>Se houver apenas um Autor e uma Publicação, siga apenas as etapas em **Configuração dos agentes de replicação no autor** in [Configuração do Author e Publish no AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) página.
 
 ## Configurações do Dispatcher {#dispatcher-configurations}
 
-O Dispatcher é a ferramenta de balanceamento de carga e/ou cache do Adobe Experience Manager. Usar o Dispatcher do AEM também ajuda a proteger seu servidor AEM contra ataques. Portanto, você pode aumentar a segurança da sua instância do AEM usando o Dispatcher em conjunto com um servidor da Web de classe empresarial.
+O Dispatcher é a ferramenta de balanceamento de carga e cache do Adobe Experience Manager. Usar o Dispatcher do AEM também ajuda a proteger seu servidor AEM contra ataques. Portanto, você pode aumentar a segurança da instância do AEM usando o Dispatcher com um servidor Web de classe empresarial.
 
-Consulte **[Configurações do Dispatcher para o AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)** que destaca as diretrizes para configurar o dispatcher para um projeto do AEM Screens.
+Consulte **[Configurações do Dispatcher para o AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)** que destaca as diretrizes para configurar o Dispatcher para um projeto do AEM Screens.
 
 ## Instalação de FFMpeg e representações de vídeo {#installing-ffmpeg}
 
 Instale o FFMpeg seguindo as etapas do sistema operacional apropriado (geralmente o RHEL):
 
 1. Se estiver instalando habilitando EPEL e RPMFusion, você pode instalar todos os codecs do gstreamer para ampliar o suporte para conversões do FFmpeg
-1. Se o codec AAC estiver marcado como experimental, as conversões ffmpeg falharão. Para evitar isso, adicione -strict -2 aos perfis de vídeo (/etc/dam/video no AEM 6.3 e movido para /libs/settings/dam/video no AEM 6.4)
+1. Se o codec AAC estiver marcado como experimental, as conversões ffmpeg falharão. Para evitar isso, adicione `-strict -2` aos perfis de vídeo (/etc/dam/video no AEM 6.3 e movido para /libs/settings/dam/video no AEM 6.4)
+
    >[!NOTE]
    >
-   > Observe que -strict -2 precisa ser os últimos parâmetros da lista de parâmetros. Além disso, no AEM 6.4, é necessário copiar os nós em */libs/settings/dam/video* para */conf/global/settings/dam/video* conforme mencionado no [Representações de vídeo](https://helpx.adobe.com/experience-manager/6-5/screens/using/generating-renditions.html).
+   >A variável `-strict -2` deve ser o último parâmetro na lista de parâmetros. Além disso, no AEM 6.4, é necessário copiar os nós em */libs/settings/dam/video* para */conf/global/settings/dam/video* conforme mencionado no [Representações de vídeo](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
 1. Verifique se as conversões de vídeo estão ocorrendo e se as representações estão sendo criadas.
 
 ## Restrições de senha {#password-restrictions}
 
-A política de senha do AEM precisa ser desativada na instância do AMS. Isso pode ser configurado alternadamente no console da Web usando o serviço de dispositivo do Screens *com.adobe.cq.screens.device.impl.DeviceService*
-Consulte **Restrições de senha** seção em[Configuração do Author e Publish no AEM Screens](https://helpx.adobe.com/br/experience-manager/6-5/screens/using/author-and-publish.html)
+A política de senha do AEM deve ser desativada na instância do AMS. Isso pode ser configurado alternadamente no console da Web usando o serviço de dispositivo do Screens *com.adobe.cq.screens.device.impl.DeviceService*
+Consulte **Restrições de senha** seção em[Configuração do Author e Publish no AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## Configuração dos ambientes {#setting-up-environments}
 
 Instale e execute as versões mais recentes dos seguintes pacotes para a sua versão do Adobe Experience Manager (AEM):
 
-* AEM Service Pack
+* Pacote de serviços do AEM
 * Pacote de recursos do Screens
-* AEM Pacote de correções cumulative
+* AEM Cumulative Fix Pack
 
 Além do que foi descrito acima, identifique todos os pacotes de desenvolvimento (por exemplo, componentes principais do WCM) ou kits de ferramentas de terceiros (por exemplo, SAP Hybris) necessários.
-Instale os mesmos pacotes de software em seus ambientes de desenvolvimento locais. Instrua seu cliente a adotar a mesma configuração em todos os servidores de controle de qualidade, Preparo e Produção. Configurações de servidor incompatíveis criarão problemas ao implantar e testar.
+Instale os mesmos pacotes de software no ambiente de desenvolvimento local. Instrua seu cliente a adotar a mesma configuração em todos os servidores de controle de qualidade, Preparo e Produção. Configurações de servidor incompatíveis criam problemas ao implantar e testar.
 
 >[!NOTE]
 >
->Para instalar o Feature Pack mais recente do AEM Screens, consulte [Notas de versão](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/release-notes.ug.js).
+>Para instalar o Feature Pack mais recente do AEM Screens, consulte [Notas de versão](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction).
 
 ## Configurando ACLs {#setting-up-acls}
 
 A configuração de ACLs explica como segregar projetos para que cada indivíduo ou equipe lide com seu próprio projeto.
 
-Consulte [Configurando ACLs](https://helpx.adobe.com/experience-manager/6-5/screens/using/setting-up-acls.html) para obter mais detalhes.
+Consulte [Configurando ACLs](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls) para obter mais detalhes.
