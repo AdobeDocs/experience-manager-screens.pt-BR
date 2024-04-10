@@ -1,33 +1,30 @@
 ---
 title: Configuração do Adobe Analytics com AEM Screens
-seo-title: Configuring Adobe Analytics with AEM Screens
-description: Siga esta seção para saber mais sobre sequenciamento e envio de eventos personalizados usando o Adobe Analytics offline
-seo-description: Follow this section to learn more about sequencing and sending custom events using Offline Adobe Analytics
-uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
+description: Saiba mais sobre sequenciamento e envio de eventos personalizados usando o Adobe Analytics offline.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 9%
+source-wordcount: '614'
+ht-degree: 10%
 
 ---
 
 # Configuração do Adobe Analytics com AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
+<!-- OBSOLETE NOTE>
 >[!CAUTION]
 >
->Essa funcionalidade do AEM Screens só estará disponível se você tiver instalado o AEM 6.4.2 Feature Pack 2 e o AEM 6.3.3 Feature Pack 4.
+>This AEM Screens functionality is only available if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
 >
->Para obter acesso a qualquer um desses Feature Packs, entre em contato com o Suporte da Adobe e solicite acesso. Depois de ter permissões, você pode baixá-las do Compartilhamento de pacotes.
+>To get access to either of these Feature Packs, you must contact Adobe Support and request access. Once you have permissions, download it from Package Share. -->
 
 Esta seção abrange os seguintes tópicos:
 
@@ -36,7 +33,7 @@ Esta seção abrange os seguintes tópicos:
 
 ## Sequenciamento no Adobe Analytics com AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-A variável ***processo de sequenciamento*** começa com o serviço de armazenamento de dados que ativa o serviço Adobe Analytics. O conteúdo do canal envia eventos do Adobe Analytics com folha de pagamento, ou seja, a captura do teste de dados para o Windows I/O e os eventos de permanência são acionados. Os eventos são salvos no banco de dados de índice e são colocados no armazenamento de objetos. Com base no agendamento, o administrador define, corta os dados do armazenamento de objetos e os transfere posteriormente no armazenamento de partes. Ele tenta enviar a quantidade máxima de dados, quando conectado.
+A variável ***processo de sequenciamento*** começa com o serviço de armazenamento de dados que ativa o serviço Adobe Analytics. O conteúdo do canal envia eventos do Adobe Analytics com folha de pagamento, ou seja, a captura do teste de dados para o Windows I/O e os eventos de permanência são acionados. Os eventos são salvos no banco de dados de índice e são colocados no armazenamento de objetos. Com base no agendamento que o administrador define, ele corta os dados do armazenamento de objetos e os transfere posteriormente no armazenamento de partes. Ele tenta enviar a quantidade máxima de dados quando conectado.
 
 ### Diagrama de Sequenciamento {#sequencing-diagram}
 
@@ -84,7 +81,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td>recomendado</td> 
    <td>string</td> 
    <td>carimbo de data e hora - UTC</td> 
-   <td>Data e hora de início do evento, se você NÃO especificar isso, a hora do evento será presumida como a hora em que foi recebida pelo servidor</td> 
+   <td>Data e hora de início do evento, se você não tiver especificado essa data, a hora do evento será considerada como a hora em que foi recebida pelo servidor</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -111,7 +108,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td>obrigatório</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Categoria principal (DESKTOP, DISPOSITIVO MÓVEL, WEB, PROCESSO, SDK, SERVIÇO, ECOSSISTEMA) - Agrupamento de tipos de evento - <strong>Enviamos o player</strong></td> 
+   <td>Categoria principal (DESKTOP, DISPOSITIVO MÓVEL, WEB, PROCESSO, SDK, SERVIÇO, ECOSSISTEMA) - Agrupamento de tipos de evento - <strong>Player enviado</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -120,7 +117,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td>recomendado</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Subcategoria - Seção de um fluxo de trabalho ou Área de uma tela etc. (Arquivos recentes, arquivos CC, criações móveis e assim por diante.)</td> 
+   <td>Subcategoria - Seção de um fluxo de trabalho, ou Área de uma tela e assim por diante. (Arquivos recentes, arquivos CC, criações móveis e assim por diante.)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -138,7 +135,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td>recomendado</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Subtipo de evento (criar, atualizar, excluir, publicar etc.) - Detalhes adicionais da ação do usuário</td> 
+   <td>Subtipo de evento (criar, atualizar, excluir, publicar etc.) - Mais detalhes da ação do usuário</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -174,7 +171,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td>opcional</td> 
    <td>string<br /> </td> 
    <td>UUID</td> 
-   <td>Identifica o GUID do dispositivo (por exemplo, ID de máquina ou hash de endereço IP + máscara de sub-rede + ID de rede + agente de usuário). Aqui, enviaremos o nome de usuário do reprodutor gerado no momento do registro.</td> 
+   <td>Identifica o GUID do dispositivo (por exemplo, ID da máquina ou hash do endereço IP + máscara de sub-rede + ID da rede + agente do usuário) - Aqui o nome de usuário do reprodutor gerado no momento do registro é enviado.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -183,7 +180,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td>opcional</td> 
    <td>número</td> 
    <td> </td> 
-   <td>Número de vezes que o evento ocorreu - Aqui enviamos a duração do vídeo</td> 
+   <td>Número de vezes que o evento ocorreu - A duração do vídeo é enviada</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -291,7 +288,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td>obrigatório</td> 
    <td>string</td> 
    <td> </td> 
-   <td>O URL para o ativo, incluindo a representação que foi realmente reproduzida</td> 
+   <td>O URL para o ativo, incluindo a representação que foi reproduzida</td> 
   </tr>
   <tr>
    <td> </td> 

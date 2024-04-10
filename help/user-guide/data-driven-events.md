@@ -1,15 +1,12 @@
 ---
 title: Eventos orientados por dados
-seo-title: Data Driven Events
 description: null
-seo-description: null
 page-status-flag: never-activated
-uuid: 138ceff2-84a2-47f2-981a-755522502c16
 contentOwner: jsyal
 discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ Na sinalização digital, os eventos orientados por dados envolvem e transmitem 
 
 ## Uso do Context Hub para eventos orientados por dados {#using-context-hub-for-data-driven-events}
 
-O AEM Screens ativa eventos orientados por dados por meio do Context Hub. Context Hub, permite usar o recurso de
+O AEM Screens ativa eventos orientados por dados por meio do Context Hub. O Context Hub permite usar o em tempo real.
 
 ### Categorização de eventos orientados por dados {#categorizing-data-driven-events}
 
@@ -38,7 +35,7 @@ Isso pode ser categorizado em Interrupção de canal e Espaço reservado.
 
 #### Dados na Apresentação {#data-in-presentation}
 
-Os dados estão sendo executados no canal temporário do e, após um acionador, o altera um ativo dentro de um canal.
+Os dados estão sendo executados no canal temporário e, após um acionador, o altera um ativo dentro de um canal.
 
 #### Saída de dados acionável {#data-out-actionable}
 

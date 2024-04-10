@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1464'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Siga as etapas abaixo:
 
 ### Método Ad-Hoc {#ad-hoc-method}
 
-O método Ad-Hoc permite instalar o Android™ Player mais recente (*.exe*). Visita [**Downloads do reprodutor AEM 6.5**](https://download.macromedia.com/screens/) página.
+O método Ad-Hoc permite instalar o Player mais recente do Android™ (*.exe*). Visita [**Downloads do reprodutor AEM 6.5**](https://download.macromedia.com/screens/) página.
 
 Depois de baixar o aplicativo, siga as etapas no reprodutor para concluir a instalação ad-hoc:
 
@@ -176,7 +176,7 @@ Ao implantar o reprodutor Android™ em massa, é entediante registrar manualmen
 
 ## Nomeação do Android™ Player {#name-android}
 
-Você pode atribuir um nome de dispositivo amigável ao seu reprodutor Android™, enviando o nome de dispositivo atribuído ao AEM (Adobe Experience Manager). Esse recurso não só permite nomear o seu reprodutor Android™ como também permite que você atribua facilmente o conteúdo apropriado.
+Você pode atribuir um nome de dispositivo amigável ao seu reprodutor Android™, enviando o nome de dispositivo atribuído ao AEM (Adobe Experience Manager). Esse recurso não só permite nomear o seu reprodutor Android™, como também permite que você atribua facilmente o conteúdo apropriado.
 
 >[!NOTE]
 >Você pode escolher o nome do Player somente antes do registro. Depois que o Player é registrado, o nome do Player não pode mais ser alterado.

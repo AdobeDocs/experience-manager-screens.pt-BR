@@ -1,18 +1,15 @@
 ---
 title: Atualização de Conteúdo como um Serviço
-seo-title: Content Update As a Service
-description: Siga esta página para saber mais sobre a Atualização de conteúdo como um serviço.
-seo-description: Follow this page to learn about Content Update As a Service.
-uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
+description: Saiba mais sobre a Atualização de conteúdo como um serviço.
 contentOwner: Jyotika syal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 1%
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
@@ -23,11 +20,12 @@ Esta seção aborda os seguintes tópicos sobre a atualização do conteúdo com
 * **Visão geral**
 * **Usando atualização off-line em massa**
 
+<!--
 >[!CAUTION]
 >
->Essa funcionalidade do AEM Screens só estará disponível se você tiver instalado o AEM 6.3 Feature Pack 3 ou o AEM 6.4 Screens Feature Pack 1.
+>This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->Para obter acesso a este Feature Pack, entre em contato com o Suporte do Adobe e solicite acesso. Depois de ter permissões, você pode baixá-las do Compartilhamento de pacotes.
+>To get access to this Feature Pack, you must contact Adobe Support and request access. When you have permission you can download it from Package Share. -->
 
 ## Visão geral {#overview}
 
@@ -71,6 +69,6 @@ Siga as etapas abaixo para usar a atualização em massa offline para um projeto
    >
    >Especifique o caminho do projeto relativo ao seu canal.
 
-   **Frequência de programação** Especifique um horário, por exemplo, 17h ou 17h, em que esse serviço deve atualizar o conteúdo offline.
+   **Frequência de programação** Especifique um horário, por exemplo, 17:00 ou 17:00 em que esse serviço deve atualizar o conteúdo offline.
 
-1. Clique em **Salvar** para salvar as configurações e o conteúdo será atualizado no horário especificado.
+1. Selecionar **Salvar** para poder salvar suas configurações. Todo o conteúdo é atualizado no horário especificado.

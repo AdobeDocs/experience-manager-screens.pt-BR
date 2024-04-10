@@ -1,20 +1,21 @@
 ---
 title: Notas de versão do Pacote de recursos do Screens 202401
-description: Siga esta página para obter informações sobre o Pacote de recursos 202401 da AEM Screens lançado em 2 de janeiro de 2024.
+description: Saiba mais sobre o Pacote de recursos do AEM Screens 202401 lançado em 2 de janeiro de 2024.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: bdc8ff6c1291b7f0dc749e4a9f3a4c1d21678303
+exl-id: 9879f339-e70f-446d-acd3-380016269f27
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 3%
+source-wordcount: '223'
+ht-degree: 4%
 
 ---
 
 # Notas de versão do Pacote de recursos 202401 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->É recomendável atualizar para a versão mais recente do Adobe Experience Manager 6.5 (AEM 6.5). Podemos obter as informações da versão mais recente de [aqui](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=en)
+>É recomendável atualizar para a versão mais recente do Adobe Experience Manager 6.5 (AEM 6.5). Você pode obter as informações da versão mais recente de [aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## Disponibilidade {#availability}
 

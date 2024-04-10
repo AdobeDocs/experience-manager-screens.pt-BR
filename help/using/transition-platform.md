@@ -1,13 +1,11 @@
 ---
 title: Transição para a plataforma
-seo-title: Transition to Platform for AEM Screens
-description: A página descreve a transição para a plataforma
-seo-description: The page describes Transition to Platform
+description: Saiba mais sobre a transição para a plataforma no AEM Screens.
 exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 3%
+source-wordcount: '179'
+ht-degree: 0%
 
 ---
 
@@ -17,22 +15,22 @@ ht-degree: 3%
 >
 >Uma parte interessada típica dessa atividade é um Implementador de AEM.
 
-Conforme nosso projeto progrediu de uma visão estratégica para uma realidade no wireframing, devemos agora começar a nos preparar para as tarefas necessárias para realmente criar um projeto do Screens no AEM que podemos implantar.
+Conforme seu projeto progrediu de uma visão estratégica para uma realidade em wireframing, você deve começar a se preparar para as tarefas necessárias para realmente criar um projeto do Screens no AEM que você pode implantar.
 
-Isso incluirá o mapeamento de configurações específicas da plataforma para requisitos definidos vagamente na fase de protótipo.
+Este projeto inclui o mapeamento de configurações específicas da plataforma para requisitos definidos vagamente na fase de protótipo.
 
-Os exemplos incluem como e quando usar:
+Os exemplos incluem como e quando usar o seguinte:
 
-* **Fragmentos de experiência** para criar agrupamentos de conteúdo
-* **Fragmentos de conteúdo** para criar variações de texto
-* **Context Hub** para criar armazenamentos de dados externos, SPA para experiências interativas
-* **Serviços OSGi** para alertas de rede
-* **Asset Link** para fornecimento de Creative Cloud
-* **Pastas de rede** para Alocação de ativos
-* **Sobreposição de texto** para dados em tempo real
-* **Agendamentos** para agrupamentos de exibição/canais
+* **Fragmentos de experiência** para criar agrupamentos de conteúdo.
+* **Fragmentos de conteúdo** para criar variações de texto.
+* **Context Hub** para criar armazenamentos de dados externos, SPA para experiências interativas.
+* **Serviços OSGi** para alertas de rede.
+* **Asset Link** para fornecimento de Creative Cloud.
+* **Pastas de rede** para Alocação de ativos.
+* **Sobreposição de texto** para dados em tempo real.
+* **Agendamentos** para agrupamentos de exibição/canais.
 * **Fluxos de trabalho** para edições de conteúdo automatizadas.
 
-Nesta fase, é importante revisar todas as tarefas e atividades necessárias que exigirão atenção e documentá-las corretamente para que as tarefas atribuídas possam ser acompanhadas corretamente na fase de implantação.
+Nesta fase, analise todas as tarefas e atividades necessárias que exigem atenção e documente-as corretamente para que as tarefas atribuídas possam ser acompanhadas corretamente na fase de implantação.
 
-Também devemos analisar todas as atividades predefinidas como possíveis candidatos para automação nessa fase.
+Além disso, analise todas as atividades predefinidas como possíveis candidatos para automação nesta fase.

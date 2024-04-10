@@ -1,23 +1,19 @@
 ---
 title: Atualização offline em massa
-seo-title: Bulk Offline Update
-description: Siga esta página para saber como atualizar todos os canais em massa.
-seo-description: Follow this page to learn how you can update all the channels in bulk.
-uuid: 9b52c5e7-aa6d-4f55-b23c-8bd923723552
+description: Saiba como atualizar todos os canais em massa.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 1%
+source-wordcount: '290'
+ht-degree: 0%
 
 ---
 
@@ -28,11 +24,12 @@ Esta seção aborda os seguintes tópicos sobre Atualização em massa offline:
 * **Visão geral**
 * **Usando atualização off-line em massa**
 
+<!-- OBSOLETE VERSIONS
 >[!CAUTION]
 >
->Essa funcionalidade do AEM Screens só estará disponível se você tiver instalado o AEM 6.3 Feature Pack 3 ou o AEM 6.4 Screens Feature Pack 1.
+>This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->Para obter acesso a este Feature Pack, entre em contato com o Suporte do Adobe e solicite acesso. Depois de ter permissões, você pode baixá-las do Compartilhamento de pacotes.
+>To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share. -->
 
 ## Visão geral {#overview}
 
@@ -53,7 +50,7 @@ Você pode usar a atualização offline em massa manualmente na interface do usu
 Siga as etapas abaixo para usar a atualização em massa offline para um projeto do AEM Screens:
 
 1. Navegue até o projeto do AEM Screens.
-1. Selecione o projeto e clique em **Atualizar conteúdo offline** na barra de ações para atualizar manualmente o conteúdo do canal.
+1. Selecione o projeto e **Atualizar conteúdo offline** na barra de ações, para que você possa atualizar manualmente o conteúdo do canal.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -76,6 +73,6 @@ Siga as etapas abaixo para usar a atualização em massa offline para um projeto
    >
    >Especifique o caminho do projeto relativo ao seu canal.
 
-   **Frequência de programação** Especifique um horário, por exemplo, 17h ou 17h, em que esse serviço deve atualizar o conteúdo offline.
+   **Frequência de programação** Especifique um horário, por exemplo, 17:00 ou 17:00 em que esse serviço deve atualizar o conteúdo offline.
 
-1. Clique em **Salvar** para salvar as configurações e o conteúdo será atualizado no horário especificado.
+1. Selecionar **Salvar** para salvar suas configurações. Seu conteúdo é atualizado no horário especificado.

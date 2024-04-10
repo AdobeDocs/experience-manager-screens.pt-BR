@@ -1,15 +1,14 @@
 ---
 title: Ativação no nível do canal - Reprodução de evento único
-seo-title: Channel Level Activation - Single Event Playback
-description: Siga este guia para entender a ativação no nível do canal usando a reprodução de evento único.
+description: Saiba mais sobre a ativação no nível do canal usando a reprodução de evento único.
 topic-tags: authoring
 feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1769'
 ht-degree: 1%
 
 ---
@@ -62,7 +61,7 @@ A imagem a seguir mostra o **Ativação em Nível de Canal** projeto com **MainA
 
 >[!NOTE]
 >
->Para obter informações adicionais sobre como criar um projeto e criar um canal de sequência, consulte os recursos abaixo:
+>Para obter informações adicionais sobre como criar um projeto e criar um canal de sequência, consulte os seguintes recursos:
 >
 >* [Criação e gerenciamento de projetos](creating-a-screens-project.md)
 >
@@ -87,7 +86,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
    >[!NOTE]
    >
-   >Para saber como criar uma localização, consulte **[Criação e Gerenciamento de Locais](managing-locations.md)**.
+   >Para saber como criar um local, consulte **[Criação e Gerenciamento de Locais](managing-locations.md)**.
 
 1. **Criar Exibição em Local**
 
@@ -103,12 +102,12 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
    1. Navegue até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião** e clique em **Atribuir canal** na barra de ações.
    1. **Atribuição de canal** é aberta.
-   1. Selecionar **Canal de referência**.. por caminho.
+   1. Selecionar **Canal de referência** por caminho.
    1. Selecione o **Caminho do canal** as **Ativação em Nível de Canal** > ***Canais*** > ***MainAdChannel***.
    1. A variável **Função do canal** é preenchido como **mainadchannel**.
    1. Selecione o **Prioridade** as **1**.
    1. Selecione o **Eventos suportados** as **Carga inicial** e **Tela inativa**.
-   1. Clique em **Salvar**.
+   1. Selecione **Salvar**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
@@ -120,31 +119,31 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
    1. Navegue até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião** e clique em **Atribuir canal** na barra de ações.
    1. **Atribuição de canal** é aberta.
-   1. Selecionar **Canal de referência**.. por caminho.
+   1. Selecionar **Canal de referência** por caminho.
    1. Selecione o **Caminho do canal** as **Ativação em Nível de Canal*** > ***Canais*** > ***TargetedSinglePlay***.
    1. A variável **Função do canal** é preenchido como **targetedsingleplay**.
    1. Defina o **Prioridade** as **2**.
-   1. Selecione o **Eventos suportados** as **Carga inicial**, **Tela inativa** e **Temporizador**, *conforme mostrado na figura abaixo.
-   1. Escolha a data em **ativo desde** em 27 de novembro de 2018 às 23:59 e em **ativo até** as 28 de novembro de 2018 12:05 am
-   1. Clique em **Salvar**.
+   1. Selecione o **Eventos suportados** as **Carga inicial**, **Tela inativa**, e **Temporizador**, conforme mostrado na figura abaixo.
+   1. Escolha a data em **ativo desde** em 27 de novembro de 2018 às 23:59 e em **ativo até** em 28 de novembro de 2018 às 12h05
+   1. Selecione **Salvar**.
 
    >[!CAUTION]
    >
-   >Você deve definir a prioridade para **TargetedSinglePlay** canal superior ao **SegmentoAnúncioPrincipal** canal.
+   >Definir a prioridade de **TargetedSinglePlay** canal superior ao **SegmentoAnúncioPrincipal** canal.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
    >[!NOTE]
    >
-   >Para escolher o mesmo dia, é necessário selecionar o dia seguinte e editar manualmente a data para o mesmo dia, mas para um horário posterior. Isso restringe o usuário de selecionar uma data passada. Consulte o exemplo abaixo:
+   >Para escolher o mesmo dia, selecione o dia seguinte e edite manualmente a data para o mesmo dia, mas para uma hora posterior. Isso restringe o usuário de selecionar uma data passada. Consulte o exemplo a seguir:
 
    ![novo1](assets/new1.gif)
 
 ## Exibir os resultados {#viewing-the-results}
 
-Após configurar os canais e concluir a exibição, inicie o reprodutor do AEM Screens para exibir o conteúdo.
+Quando a configuração dos canais e a exibição estiverem concluídas, inicie o reprodutor do AEM Screens para exibir o conteúdo.
 
-O reprodutor exibe o conteúdo de **MainAdChannel** e exatamente às 23h59 (conforme definido no cronograma), o **TargetedSinglePlay** o canal exibirá o conteúdo até as 12h05 e depois o **MainAdChannel** retomará a reprodução do conteúdo novamente.
+O reprodutor exibe o conteúdo de **MainAdChannel** e exatamente às 23h59 (conforme definido no cronograma), o **TargetedSinglePlay** O canal exibe o conteúdo até 00:05 e depois o **MainAdChannel** O reinicia a reprodução do conteúdo novamente.
 
 >[!NOTE]
 >
@@ -157,11 +156,11 @@ O reprodutor exibe o conteúdo de **MainAdChannel** e exatamente às 23h59 (conf
 
 Você pode agendar ativos em um canal para recorrência em determinados intervalos diariamente, semanalmente ou mensalmente, de acordo com sua necessidade.
 
-Suponha que você deseja exibir o conteúdo de um canal somente nas sextas-feiras de 13h até às 22h. Você pode usar o **Ativação** para definir o intervalo recorrente desejado para o ativo.
+Suponha que você deseja exibir o conteúdo de um canal somente nas sextas-feiras, de 13h até 22h. Você pode usar o **Ativação** para definir o intervalo recorrente desejado para o ativo.
 
 ### Divisão de dia {#day-parting}
 
-1. Selecione o canal e clique em **Painel** na barra de ações para abrir o painel do canal.
+1. Selecione o canal e **Painel** na barra de ações.
 
 1. Após inserir a data/hora inicial e a data/hora final da **Atribuição de canal** você pode usar uma expressão ou uma versão de texto natural para especificar o cronograma de recorrência.
 
@@ -169,7 +168,7 @@ Suponha que você deseja exibir o conteúdo de um canal somente nas sextas-feira
    >
    >Você pode ignorar ou incluir a variável **Ativo desde** e **Ativo até** e adicione a expressão ao campo Schedule, de acordo com sua necessidade.
 
-1. Insira a expressão na variável **Agendar** e seu ativo será exibido para o intervalo específico do dia e da hora.
+1. Insira a expressão na variável **Agendar** e seu ativo é exibido para o intervalo específico do dia e da hora.
 
 #### Expressões de Exemplo para Divisão de Dia {#example-one}
 
@@ -177,21 +176,21 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 | **Expressão** | **Interpretação** |
 |---|---|
-| antes das 8h | o ativo no canal é reproduzido antes das 8h todos os dias |
+| antes das 8h | o ativo no canal é reproduzido antes das 8h diariamente |
 | depois das 14h | o ativo no canal é reproduzido depois das 14h todos os dias |
-| após 12:15 e antes de 12:45 | o ativo no canal é reproduzido depois das 12h15 todos os dias por 30 minutos |
-| antes de 12:15 também depois de 12:45 | o ativo no canal é reproduzido antes das 12h15 todos os dias e também depois das 12h45 |
-| Seg,Ter,Qua ou Seg-Qua | o ativo é reproduzido no ativo no canal de segunda a quarta-feira |
-| no primeiro dia de janeiro depois das 14h também no segundo dia de janeiro também no terceiro dia de janeiro antes das 3:00 am | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua sendo reproduzido todo o dia em 2 de janeiro até as 3h de 3º de janeiro |
-| no dia 1-2 de janeiro depois das 14h também no dia 2-3 de janeiro antes das 3h | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua sendo reproduzido até 3h de 2º de janeiro e, em seguida, começa novamente em 2º de janeiro às 14h e continua sendo reproduzido até 3h de 3º de janeiro |
+| após 12:15 e antes de 12:45 | o ativo no canal é reproduzido diariamente após as 12h15 por 30 minutos |
+| antes de 12:15 também depois de 12:45 | o ativo no canal é reproduzido antes das 12h15 todos os dias e também depois das 12h45. |
+| Seg, Ter, Qua ou Seg-Qua | o ativo é reproduzido no ativo no canal de segunda a quarta-feira |
+| no primeiro dia de janeiro depois das 14h também no segundo dia de janeiro também no terceiro dia de janeiro antes das 3h. | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua sendo reproduzido todo o dia de 2 de janeiro até as 3h de 3 de janeiro |
+| nos dias 1 a 2 de janeiro depois das 14h também nos dias 2 a 3 de janeiro antes das 3h. | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua a ser reproduzido até às 3h de 2º de janeiro e, em seguida, recomeça em 2 de janeiro às 14h e continua a ser reproduzido até às 3h de 3º de janeiro |
 
 >[!NOTE]
 >
->Também é possível usar _hora militar_ notação (ou seja, 14:00) em vez de *am/pm* (ou seja, 14h).
+>Também é possível usar _hora militar_ notação (14:00) em vez de *A.M./P.M.* (14H).
 
 ### WeekParting {#week-parting}
 
-1. Selecione o canal e clique em **Painel** na barra de ações para abrir o painel do canal.
+1. Selecione o canal e **Painel** na barra de ações.
 
 1. Após inserir a data/hora inicial e a data/hora final da **Atribuição de canal** você pode usar uma expressão ou uma versão de texto natural para especificar o cronograma de recorrência.
 
@@ -199,7 +198,7 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
    >
    >Você pode ignorar ou incluir a variável **Ativo desde** e **Ativo até** e adicione a expressão ao campo Schedule, de acordo com sua necessidade.
 
-1. Insira a expressão na variável **Agendar** e seu ativo será exibido para o intervalo específico do dia e da hora.
+1. Insira a expressão na variável **Agendar** e seu ativo é exibido para o intervalo específico do dia e da hora.
 
 #### Expressões de exemplo para WeekParting {#example-two}
 
@@ -207,20 +206,20 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 | **Expressão** | **Interpretação** |
 |---|---|
-| Seg,Ter,Qua ou Seg-Qua | o ativo é reproduzido no ativo no canal de segunda a quarta-feira |
-| antes das 8h | o ativo no canal é reproduzido antes das 8h todos os dias |
+| Seg, Ter, Qua ou Seg-Qua | o ativo é reproduzido no ativo no canal de segunda a quarta-feira |
+| antes das 8h | o ativo no canal é reproduzido antes das 8h diariamente |
 | depois das 14h | o ativo no canal é reproduzido depois das 14h todos os dias |
-| após 12:15 e antes de 12:45 | o ativo no canal é reproduzido depois das 12h15 todos os dias por 30 minutos |
-| antes de 12:15 também depois de 12:45 | o canal é reproduzido antes das 12h15 todos os dias e também depois das 12h45 |
+| após 12:15 e antes de 12:45 | o ativo no canal é reproduzido diariamente após as 12h15 por 30 minutos |
+| antes de 12:15 também depois de 12:45 | o canal é reproduzido antes das 12h15 todos os dias e também depois das 12h45. |
 
 >[!NOTE]
 >
->Também é possível usar _hora militar_ notação (ou seja, 14:00) em vez de *am/pm* (ou seja, 14h).
+>Também é possível usar _hora militar_ notação (14:00) em vez de *A.M./P.M.* (14H).
 
 
 ### MonthParting {#month-parting}
 
-1. Selecione o canal e clique em **Painel** na barra de ações para abrir o painel do canal.
+1. Selecione o canal e **Painel** na barra de ações.
 
 1. Após inserir a data/hora inicial e a data/hora final da **Atribuição de canal** você pode usar uma expressão ou uma versão de texto natural para especificar o cronograma de recorrência.
 
@@ -228,7 +227,7 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
    >
    >Você pode ignorar ou incluir a variável **Ativo desde** e **Ativo até** e adicione a expressão ao campo Schedule, de acordo com sua necessidade.
 
-1. Insira a expressão na variável **Agendar** e seu ativo será exibido para o intervalo específico do dia e da hora.
+1. Insira a expressão na variável **Agendar** e seu ativo é exibido para o intervalo específico do dia e da hora.
 
 #### Expressões de exemplo para MonthParting {#example-three}
 
@@ -236,19 +235,19 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 | **Expressão** | **Interpretação** |
 |---|---|
-| de fevereiro,maio,agosto,novembro | o ativo é reproduzido no canal em fevereiro, maio, agosto e novembro |
+| de `February,May,August,November` | o ativo é reproduzido no canal em fevereiro, maio, agosto e novembro |
 
 >[!NOTE]
 >
->Ao definir dias da semana e meses, você pode usar as notações abreviada e de nome completo, como Seg/Segunda-feira e Jan/Janeiro.
+>Ao definir dias da semana e meses, você pode usar as notações abreviadas e de nome completo, como Seg/Segunda-feira e Jan/Janeiro.
 
 >[!NOTE]
 >
->Também é possível usar _hora militar_ notação (ou seja, 14:00) em vez de *am/pm* (ou seja, 14h).
+>Também é possível usar _hora militar_ notação (14:00) em vez de *A.M./P.M.* (14H).
 
 ### Combinação de Peças {#combined-parting}
 
-1. Selecione o canal e clique em **Painel** na barra de ações para abrir o painel do canal.
+1. Selecione o canal e **Painel** na barra de ações.
 
 1. Após inserir a data/hora inicial e a data/hora final da **Atribuição de canal** você pode usar uma expressão ou uma versão de texto natural para especificar o cronograma de recorrência.
 
@@ -256,7 +255,7 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
    >
    >Você pode ignorar ou incluir a variável **Ativo desde** e **Ativo até** e adicione a expressão ao campo Schedule, de acordo com sua necessidade.
 
-1. Insira a expressão na variável **Agendar** e seu ativo será exibido para o intervalo específico do dia e da hora.
+1. Insira a expressão na variável **Agendar** e seu ativo é exibido para o intervalo específico do dia e da hora.
 
 #### Expressões de Exemplo para Combinação de Parcelas {#example-four}
 
@@ -264,10 +263,10 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 | **Expressão** | **Interpretação** |
 |---|---|
-| depois de 6:00 e antes de 18:00 na segunda-feira,Qua de Jan-Mar | o ativo é reproduzido no canal entre 6h e 18h nas segundas e quartas-feiras de janeiro ao final de março |
-| no primeiro dia de janeiro depois das 14h também no segundo dia de janeiro também no terceiro dia de janeiro antes das 3:00 am | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua sendo reproduzido todo o dia em 2 de janeiro até as 3h de 3º de janeiro |
-| no dia 1-2 de janeiro depois das 14h também no dia 2-3 de janeiro antes das 3h | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua sendo reproduzido até 3h de 2º de janeiro e, em seguida, começa novamente em 2º de janeiro às 14h e continua sendo reproduzido até 3h de 3º de janeiro |
+| depois das 6:00 e antes das 18:00 na segunda-feira, quarta-feira de janeiro-mar | o ativo é reproduzido no canal entre 6h e 18h nas segundas e quartas-feiras de janeiro ao final de março |
+| no primeiro dia de janeiro depois das 14h também no segundo dia de janeiro também no terceiro dia de janeiro antes das 3h. | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua sendo reproduzido todo o dia de 2 de janeiro até as 3h de 3 de janeiro |
+| nos dias 1 a 2 de janeiro depois das 14h também nos dias 2 a 3 de janeiro antes das 3h. | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua a ser reproduzido até às 3h de 2º de janeiro e, em seguida, recomeça em 2 de janeiro às 14h e continua a ser reproduzido até às 3h de 3º de janeiro |
 
 >[!NOTE]
 >
->Ao definir dias da semana e meses, você pode usar as notações abreviada e de nome completo, como Seg/Segunda-feira e Jan/Janeiro.  Além disso, também é possível usar _hora militar_ notação (ou seja, 14:00) em vez de *am/pm* (ou seja, 14h).
+>Ao definir dias da semana e meses, você pode usar as notações abreviadas e de nome completo, como Seg/Segunda-feira e Jan/Janeiro. Além disso, também é possível usar _hora militar_ notação (14:00) em vez de *A.M./P.M.* (14H).

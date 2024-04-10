@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 **Agendamentos** no AEM Screens, permitem organizar canais em grupos reutilizáveis para que não seja necessário repetir a atribuição individualmente para cada exibição na qual deseja mostrar o conteúdo.
 
-Agendamentos quando combinados com ***DayParting***, permite definir um agendamento global com vários canais sendo executados em horários específicos do dia e reutilizar essa configuração para todas as exibições de uma só vez.
+Agendamentos, quando combinados com ***DayParting***, permite definir um agendamento global com vários canais sendo executados em horários específicos do dia e reutilizar essa configuração para todas as exibições de uma só vez.
 
 >[!NOTE]
 >

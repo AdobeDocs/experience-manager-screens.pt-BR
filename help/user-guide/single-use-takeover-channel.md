@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ A página a seguir mostra um caso de uso que enfatiza a configuração de um pro
 
 Este caso de uso explica como criar um canal que *assume o controle* do canal de reprodução normal para uma exibição ou grupo de exibições. A aquisição só ocorre uma vez e por um período específico.
 
-Por exemplo, há um único canal de TakeOver que é reproduzido de sexta-feira, das 9h às 10h. Durante esse tempo, nenhum outro canal deve ser reproduzido. Antes e depois desse tempo, o canal de aquisição de uso único não é reproduzido. O exemplo a seguir mostra a criação de um único canal de aquisição que permite que o conteúdo seja reproduzido por 2 minutos antes das 12h em 31 de dezembro até às 12h
+Por exemplo, há um único canal de TakeOver que é reproduzido de sexta-feira, das 9h às 10h. Durante esse tempo, nenhum outro canal deve ser reproduzido. Antes e depois desse tempo, o canal de aquisição de uso único não é reproduzido. O exemplo a seguir mostra a criação de um único canal de aquisição que permite que o conteúdo seja reproduzido por 2 minutos antes das 12h em 31 de dezembro até às 12h.
 
 ### Pré-condições {#preconditions}
 
@@ -94,7 +94,7 @@ Siga as etapas abaixo para configurar um projeto:
      >[!NOTE]
      >A prioridade pode ser qualquer valor maior que o valor de prioridade do canal de reprodução normal.
    * **Eventos suportados**: selecione a variável **Tela inativa** e **Temporizador**.
-   * **Agendar**: Insira o texto do agendamento para o qual você deseja que este canal execute a exibição. Por exemplo, o texto aqui permite que o conteúdo seja reproduzido 2 minutos antes das 12:00 em 31 de dezembro até 12:01 O texto no campo **Agendar** mencionado neste exemplo é *no dia 31 de dezembro depois de 23:58 e também no dia 1 de janeiro antes 00.01*.
+   * **Agendar**: Insira o texto do agendamento para o qual você deseja que este canal execute a exibição. Por exemplo, o texto aqui permite que o conteúdo seja reproduzido 2 minutos antes das 12h de 31 de dezembro até às 12h. O texto no campo **Agendar** mencionado neste exemplo é *no dia 31 de dezembro depois de 23:58 e também no dia 1 de janeiro antes 00.01*.
 
      ![ativo](assets/single-takeover8.png)
 
