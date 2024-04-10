@@ -1,12 +1,10 @@
 ---
 title: Monitoramento de suporte
-seo-title: Support Monitoring for AEM Screens
-description: A página descreve o Guia de práticas recomendadas de monitoramento de suporte do AEM Screens
-seo-description: The page describes Support Monitoring for AEM Screens Best Practices Guide
+description: Saiba mais sobre o Guia de práticas recomendadas de monitoramento de suporte do AEM Screens.
 exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -26,7 +24,7 @@ O monitoramento de conteúdo permite que você solucione problemas relacionados 
 
 1. Se um problema de tela em branco for encontrado:
 
-   * Marcar *pré-visualização* para ver se o canal está mostrando uma tela preta
+   * Marcar *pré-visualização* assim, você pode ver se o canal está mostrando uma tela preta.
    * Registrar um *reprodutor chrome local* (como extensão) no laptop para essa tela e veja se ela mostra uma tela preta.
    * Clique com o botão direito do mouse, inspecione e marque *logs aplicáveis*.
 
@@ -35,7 +33,6 @@ O monitoramento de conteúdo permite que você solucione problemas relacionados 
    * Marcar *tipo de mídia* (em uso) que pode ter problemas nesse dispositivo e também confirmar se o conteúdo foi baixado localmente com êxito (a interface do administrador limpa o cache de canal).
    * Incluir qualquer *logs do dispositivo* no tíquete para solução rápida de problemas.
    * *Coletar logs* do dispositivo do AEM.
-
 
 ## Monitoramento de dispositivo {#device-monitoring}
 

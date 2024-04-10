@@ -1,41 +1,37 @@
 ---
-title: Solução de problemas do Centro de controle de dispositivos
-seo-title: Monitoring Screens
-description: Siga esta página para monitorar e solucionar problemas de desempenho da atividade do reprodutor do Screens e do dispositivo usando o painel Dispositivo.
-seo-description: Follow this page to monitor and troubleshoot performance for your Screens player activity and device usingtheDevice dashboard.
-uuid: b6895d5d-c743-4e10-a166-de573e122335
+title: Solução de problemas do centro de controle de dispositivos
+description: Saiba como monitorar e solucionar problemas de desempenho da atividade do AEM Screens Player e do dispositivo usando o painel Dispositivo.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
-discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
 feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
 
 # Solução de problemas do Centro de controle de dispositivos {#troubleshooting-device-control-center}
 
-Você pode monitorar e solucionar problemas de desempenho da atividade do reprodutor e do dispositivo do Screens usando o painel Dispositivo. Esta página fornece informações sobre como monitorar e solucionar problemas de desempenho percebidos do reprodutor do Screens e dos dispositivos atribuídos.
+Você pode monitorar e solucionar problemas de desempenho da atividade e do dispositivo do AEM Screens Player usando o painel Dispositivo. Esta página fornece informações sobre como monitorar e solucionar problemas de desempenho percebidos do reprodutor do Screens e dos dispositivos atribuídos.
 
 ## Monitorar e solucionar problemas no Centro de controle de dispositivos {#monitor-and-troubleshoot-from-device-control-center}
 
-É possível monitorar a atividade e, portanto, solucionar problemas do reprodutor do Screens, usando o Painel de dispositivos.
+É possível monitor o atividade e, portanto, solucionar problemas com o seu AEM Screens player, usando o Painel doDevice.
 
-### Painel do dispositivo {#device-dashboard}
+### Painel Dispositivos {#device-dashboard}
 
-Siga as etapas abaixo para navegar até o painel do dispositivo:
+Siga as etapas abaixo para navegar até o dispositivo painel:
 
-1. Navegue até o painel do dispositivo em seu projeto, por exemplo, ***Testar projeto*** > ***Dispositivos***.
+1. Navegue até as dispositivo painel do seu projeto, por exemplo, ***Test Project*** > ***Devices***.
 
-   Selecionar **Dispositivos** e **Gerenciador de dispositivos** na barra de ações.
+   Selecione **Dispositivos e** Gerenciador **de dispositivos** na barra de ações.
 
    ![screen_shot_2019-09-03at13823pm](assets/screen_shot_2019-09-03at13823pm.png)
 
@@ -53,35 +49,35 @@ Siga as etapas abaixo para navegar até o painel do dispositivo:
 
 ### Monitorar atividade do dispositivo {#monitor-device-activity}
 
-A variável **Atividade** O painel mostra o último ping do reprodutor do Screens com o carimbo de data e hora. O último ping corresponde à última vez que o dispositivo entrou em contato com o servidor.
+A variável **Atividade** mostra o último ping do reprodutor AEM Screens com o carimbo de data e hora. O último ping corresponde à última vez que o dispositivo entrou em contato com o servidor.
 
 ![chlimage_1](assets/chlimage_1.png)
 
-Além disso, clique em **Coletar registros** no canto superior direito da **Atividade** para exibir os registros do reprodutor.
+Além disso, selecione **Coletar registros** do canto superior direito do **painel Atividade** para visualização os logs do seu player.
 
 ### Atualizar detalhes do dispositivo {#update-device-details}
 
-Verifique a **Detalhes do dispositivo** painel para exibir o IP do dispositivo, o uso do armazenamento, a versão do firmware e o tempo de atividade do player do seu dispositivo.
+Verifique a **Detalhes do dispositivo** para que você possa visualizar o IP do dispositivo, o uso do armazenamento, a versão do firmware e o tempo de atividade do player do seu dispositivo.
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
-Além disso, clique em **Limpar cache** e **Atualizar** para limpar o cache do dispositivo e atualizar o [firmware](screens-glossary.md) desse painel.
+Além disso, **Limpar cache** e **Atualizar** para limpar o cache do dispositivo e atualizar o [firmware](screens-glossary.md) desse painel.
 
-Além disso, clique no link **..** no canto superior direito da **Detalhes do dispositivo** painel para reiniciar ou atualizar o status do player.
+Além disso, **..** no canto superior direito da **Detalhes do dispositivo** painel para reiniciar ou atualizar o status do player.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
 ### Atualizar informações do dispositivo {#update-device-information}
 
-Verifique a **INFORMAÇÕES DO DISPOSITIVO** para exibir a atualização de configuração, o modelo do dispositivo, o SO do dispositivo e as informações do shell.
+Verifique o painel INFORMAÇÕES **DO** DISPOSITIVO. Aqui você pode visualização a atualização de configuração, o modelo dispositivo, o sistema operacional dispositivo e as informações do shell.
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-Além disso, clique no botão **..**) no canto superior direito do painel Informações do dispositivo para exibir as propriedades ou atualizar o dispositivo.
+Além disso, selecione (**...**) no canto superior direito do painel Informações do dispositivo para visualização propriedades ou atualize as dispositivo.
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
-Clique em **Propriedades** para exibir o **Propriedades do dispositivo** caixa de diálogo. Você pode editar o título do dispositivo ou escolher a opção para atualizações de configuração como **Manual** ou **Automático**.
+Selecionar **Propriedades** para que você possa visualizar o **Propriedades do dispositivo** caixa de diálogo. Você pode editar o título do dispositivo ou escolher a opção para atualizações de configuração como **Manual** ou **Automático**.
 
 >[!NOTE]
 >
@@ -102,15 +98,15 @@ Clique em (**..**) no canto superior direito do painel Captura de tela do player
 A variável **PREFERÊNCIAS** permite que o usuário altere as preferências de **Interface do administrador**, **Alternador de canal**, e **Depuração remota** para o dispositivo.
 
 >[!NOTE]
->Para saber mais sobre essas opções, consulte [AEM Screens Player](working-with-screens-player.md).
+>Para saber mais sobre essas opções, consulte [AEM Screens player](working-with-screens-player.md).
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
-Além disso, clique em **Configurações** no canto superior direito para atualizar as preferências do dispositivo. Você pode atualizar as seguintes preferências:
+Além disso, **Configurações** no canto superior direito para atualizar as preferências do dispositivo. Você pode atualizar as seguintes preferências:
 
 * **URL do servidor**
 * **Resolução**
-* **Reinicializar programação**
+* **Reinicializar agendamento**
 * **Nº máx. de arquivos de log a serem mantidos**
 * **Nível de registro**
 
@@ -126,28 +122,28 @@ Além disso, clique em **Configurações** no canto superior direito para atuali
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
-## Solução de problemas de configurações do OSGi {#troubleshoot-osgi-settings}
+## Solução de problemas do OSGi Configurações {#troubleshoot-osgi-settings}
 
-Você precisa ativar o referenciador vazio para permitir que o dispositivo publique dados no servidor. Por exemplo, se a propriedade referenciador vazia estiver desativada, o dispositivo não poderá postar uma captura de tela.
+Ative a quem indicou vazia para permitir que a dispositivo postagem dados ao servidor. Por exemplo, se a propriedade referenciador vazia estiver desativada, o dispositivo não poderá postar uma captura de tela.
 
 Atualmente, alguns desses recursos só estarão disponíveis se o *Permitir filtro de referenciador do Apache Sling vazio* está ativado na configuração do OSGi. O painel pode exibir um aviso de que as configurações de segurança podem impedir que alguns desses recursos funcionem.
 
 Siga as etapas abaixo para ativar o Apache Sling Referrer Filter Allow Empty
 
-1. Navegue até **Configuração do console da Web do Adobe Experience Manager**, ou seja, `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-1. Verifique a **allow.empty** opção.
+1. Navegue até **Adobe Experience Manager configuração** do Console da Web, isto é. `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`
+1. Marque a opção **allow.empty** .
 1. Clique em **Salvar**.
 
-![chlimage_1-3](assets/chlimage_1-3.png)
+![chlimage_1 a 3](assets/chlimage_1-3.png)
 
 ### Recomendações {#recommendations}
 
-A seção a seguir recomenda o monitoramento dos links de rede, servidor e players para entender a integridade e reagir a problemas.
+A seção a seguir recomenda monitorar os links de rede, os servidores e os players para entender a saúde e reagir aos problemas.
 
 O AEM fornece monitoramento integrado para:
 
 * *Heartbeat* a cada 5 segundos para indicar que o AEM Screens Player está em operação.
-* *Captura de tela* do reprodutor que mostra o que está sendo exibido no momento no reprodutor.
+* *Captura de tela* do reprodutor que mostra o que é exibido no reprodutor.
 * A variável *Firmware do AEM Screens Player* versão instalada no reprodutor.
 * *Espaço livre de armazenamento* no reprodutor.
 
@@ -160,6 +156,6 @@ Recommendations para monitoramento remoto com software de terceiros:
 
 É recomendável implantar o hardware e o SO do player de uma maneira que permita o logon remoto para diagnosticar problemas e reiniciar o player.
 
-#### Recursos adicionais {#additional-resources}
+#### Outros recursos {#additional-resources}
 
-Consulte [Configuração da reprodução de vídeo e solução de problemas](troubleshoot-videos.md) para depurar e solucionar problemas de vídeos reproduzidos em seu canal.
+Consulte [Vídeo Configuração e solução de problemas de reprodução](troubleshoot-videos.md) se desejar depurar e solucionar problemas de vídeos que estão sendo reproduzidos em suas canal.

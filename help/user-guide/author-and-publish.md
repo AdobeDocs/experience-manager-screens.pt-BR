@@ -2,9 +2,9 @@
 title: Configuração de instâncias de Autor e Publicação no AEM Screens
 description: Saiba como configurar uma instância do Autor e uma instância de Publicação para o AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 4b8013873be87d4d118f627d6131ff3e2fd087de
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ Para cada instância de publicação:
 1. Atualizar URLs do conector de Topologia: adicione URLs de todas as instâncias de Publicação participantes que sejam:
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
-1. **Lista de permissões do conector de topologia**: adapte-se a IPs ou sub-redes que abrangem todas as instâncias de publicação. Inclua o IP/nome de host em uma lista de permissões de todas as instâncias de publicação sem o número da porta.
+1. **Conector de topologia `Whitelist` Lista**: adapte-se a IPs ou sub-redes que abrangem todas as instâncias de publicação. Certifique-se `whitelist` o IP/nome do host de todas as instâncias Publish sem o número da porta.
 
 1. Ativar **Interrupção automática de loops locais**
 
@@ -144,7 +144,7 @@ Em qualquer uma das instâncias de Publicação, navegue até `https://:/system/
 
 #### Etapa 3: Configurar Cluster Artemis do AtiveMQ {#step-setup-activemq-artemis-cluster}
 
-Esta etapa permite criar uma senha criptografada para o cluster AtiveMQ Artemis.
+Essa etapa permite criar uma senha criptografada para o cluster AtiveMQ Artemis.
 O usuário do cluster e a senha de todas as instâncias de Publicação na topologia devem ser idênticos. A senha da configuração do AtiveMQ Artemis deve ser criptografada. Como cada instância tem sua própria chave de criptografia, é necessário usar o Suporte de criptografia para criar uma cadeia de caracteres de senha criptografada. Em seguida, a senha criptografada pode ser usada na configuração OSGi para AtiveMQ.
 
 Em cada instância de publicação:
@@ -213,7 +213,7 @@ Depois de configurar a topologia de publicação, configure as instâncias Autor
 >
 >Para começar a usar este exemplo, crie um projeto do AEM Screens e, em seguida, crie um local, exibição e canal em seu projeto. Adicione conteúdo ao canal e atribua o canal a uma exibição.
 
-#### Etapa 1: iniciar um AEM Screens Player (dispositivo) {#step-starting-an-aem-screens-player-device}
+#### Etapa 1: iniciar um AEM Screens Player (dispositivo)
 
 1. Inicie uma janela separada do navegador.
 1. Ir para o reprodutor do Screens usando o *navegador da web*, ou seja,`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` ou inicie o aplicativo AEM Screens. Ao abrir o dispositivo, observe o estado do dispositivo como não registrado.
@@ -280,7 +280,7 @@ Os pontos a seguir resumem a Lista de verificação de publicação:
 * *Agendar* - se estiver usando um agendamento, verifique se ele foi publicado
 * *Local, cronogramas e pasta de canal* - se os recursos correspondentes estiverem dentro de uma pasta.
 
-Siga as etapas abaixo para verificar o comportamento Autor/Publicação:
+Siga as etapas abaixo para verificar o comportamento de criação e publicação:
 
 1. Atualize parte do conteúdo do canal na instância do Autor.
 1. Executar **Gerenciar publicação** para publicar novas alterações em todas as instâncias de Publicação.

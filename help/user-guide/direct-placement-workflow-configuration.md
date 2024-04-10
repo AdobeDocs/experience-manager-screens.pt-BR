@@ -1,11 +1,9 @@
 ---
 title: Configuração do fluxo de trabalho de posicionamento direto
-seo-title: Direct Placement Workflow Configuration
 description: Esta página destaca a Configuração do fluxo de trabalho de posicionamento direto.
-seo-description: This page highlights Direct Placement Workflow Configuration.
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
@@ -13,7 +11,7 @@ ht-degree: 1%
 
 # Configuração do fluxo de trabalho de posicionamento direto {#direct-placement-workflow}
 
-Siga esta página para saber mais sobre como configurar um fluxo de trabalho de ativo que permite inserir programaticamente um ativo em um canal predefinido do AEM Screens.
+Siga esta página para aprender a configurar um fluxo de trabalho de ativo que permite inserir programaticamente um ativo em um canal predefinido do AEM Screens.
 
 Esta seção abrange os seguintes tópicos:
 
@@ -22,7 +20,7 @@ Esta seção abrange os seguintes tópicos:
 
 ## Visão geral {#overview}
 
-A Configuração do fluxo de trabalho de posicionamento direto mapeia um canal de projeto do AEM Screens para uma pasta específica em ativos e permite o posicionamento de qualquer ativo nessa pasta. É recomendável acionar a atualização offline em massa para concluir a publicação.
+A Configuração do fluxo de trabalho de posicionamento direto mapeia um canal de projeto do AEM Screens para uma pasta específica em ativos e permite o posicionamento de qualquer ativo nessa pasta. A Adobe recomenda acionar uma atualização offline em massa para concluir a publicação.
 
 Como alternativa, como autor de conteúdo, você pode clicar manualmente em **Atualizar conteúdo offline**.
 
@@ -34,7 +32,7 @@ Como alternativa, como autor de conteúdo, você pode clicar manualmente em **At
 
 >[!IMPORTANT]
 >
->Antes de iniciar a configuração, você deve instalar o [Pacote de demonstração](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). Depois de instalar o pacote, você poderá visualizá-lo e acessá-lo a partir da instância do AEM > Ferramentas (ícone) > **Fluxo de trabalho** > **Modelos de fluxo de trabalho**.
+>Antes de iniciar a configuração, você deve instalar o `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. Depois de instalar o pacote, você poderá visualizá-lo e acessá-lo a partir da instância do AEM > Ferramentas (ícone) > **Fluxo de trabalho** > **Modelos de fluxo de trabalho**.
 
 Siga as etapas abaixo para configurar o fluxo de trabalho de posicionamento direto:
 

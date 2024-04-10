@@ -1,23 +1,19 @@
 ---
 title: Layout de várias zonas
-seo-title: Multi-zone Layout
-description: O layout de várias zonas permite criar conteúdo de várias zonas e usar vários ativos, como vídeos, imagens e texto, que podem ser combinados em uma única tela. Siga esta página para saber mais.
-seo-description: Multi-zone Layout allows you to create multiple zone content and use a variety of assets such as videos, images and text that can be combined in a single screen. Follow this page to learn more.
-uuid: 2ad689ef-700a-4eed-b5e2-fc57f2288388
+description: Saiba como criar conteúdo com várias zonas e usar vários ativos, como vídeos, imagens e texto, que podem ser combinados em uma única tela no AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 0%
+source-wordcount: '1082'
+ht-degree: 1%
 
 ---
 
@@ -42,8 +38,8 @@ De acordo com os requisitos do projeto, às vezes você precisa de várias zonas
 
 Antes de começar a implementar essa funcionalidade, verifique se você tem o conhecimento conceitual sobre:
 
-* [Criação de um projeto do AEM Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
-* [Criação de uma exibição](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
+* [Criação de um projeto do AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [Criação de uma exibição](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [Atribuição de um Canal a uma Exibição](/help/user-guide/channel-assignment.md)
 
 ## Criação de layout de várias zonas {#creating-multi-zone-layout}
@@ -68,7 +64,7 @@ Você pode usar ativos únicos, como uma imagem ou um vídeo, em todas as zonas 
 1. **Adicionar conteúdo ao canal**
 
    1. Navegue até **Zonas** > **Canais**> **MultiZone**.
-   1. Selecione o **MultiZone** canal e clique em **Editar** na barra de ações para abrir o editor.
+   1. Selecione o **MultiZone** canal e clique em **Editar** na barra de ações.
 
 1. **Adicionar imagens ao canal**
 
@@ -91,53 +87,53 @@ Se quiser que as zonas exibam uma sequência de imagens e um vídeo nas diferent
 1. **Adição de mais dois canais à Pasta de canal**
 
    1. Navegue até **Zonas** > **Canais** > **EmbeddedChannels** e clique em **Criar** na barra de ações.
-   1. Selecionar **Canal de sequência** do **Criar** assistente para criar um canal intitulado como **Zona1**.
-   1. Selecionar **Zona1** e clique em **Editar** na barra de ações para abrir o editor.
+   1. Selecionar **Canal de sequência** do **Criar** assistente para criar um canal intitulado como **`Zone1`**.
+   1. Selecionar **`Zone1`** e clique em **Editar** na barra de ações.
    1. Arraste e solte algumas imagens neste canal.
-   1. Da mesma forma, crie outro canal de sequência chamado de **Zona2** in **EmbeddedChannels** pasta.
+   1. Da mesma forma, crie outro canal de sequência chamado de **`Zone2`** in **EmbeddedChannels** pasta.
    1. Arraste e solte um vídeo neste canal.
 
-   A figura a seguir mostra os canais **Zona1** e **Zona2**:
+   A figura a seguir mostra os canais **`Zone1`** e **`Zone2`**:
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
-   As imagens adicionadas ao editor de **Zona1** canal de sequência são mostrados abaixo:
+   As imagens adicionadas ao editor de **`Zone1`** canal de sequência são mostrados abaixo:
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   O vídeo foi adicionado ao editor do **Zona2** o canal de sequência é mostrado abaixo:
+   O vídeo foi adicionado ao editor do **`Zone2`** o canal de sequência é mostrado abaixo:
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
 1. **Adicionar sequências incorporadas (componente) ao canal principal (MultiZone)**
 
    1. Navegue até **Zonas** > **Canais** > **MultiZone**.
-   1. Clique em **Editar** na barra de ações para abrir o editor.
+   1. Clique em **Editar** na barra de ações.
    1. Arraste e solte a **Sequência incorporada** componente às duas regiões.
    1. Selecione a sequência incorporada em uma das zonas.
    1. Clique em **Configurar** (chave inglesa) para uma das sequências incorporadas no editor.
-   1. Selecione o caminho do canal como **Zonas** > **Canais** > **EmbeddedChannels** > **Zona1**, conforme mostrado na figura abaixo.
-   1. Da mesma forma, adicione a variável **Zona2** para outro componente de sequência incorporado no editor.
+   1. Selecione o caminho do canal como **Zonas** > **Canais** > **EmbeddedChannels** > **`Zone1`**, conforme mostrado na figura abaixo.
+   1. Da mesma forma, adicione a variável **`Zone2`** para outro componente de sequência incorporado no editor.
 
       ![imagem](/help/user-guide/assets/multi-zone/multizone-3.png)
 
 ### Criação de um local e uma exibição {#creating-location}
 
-Crie um local e uma exibição para exibir o conteúdo no reprodutor do Screens.
+Crie um local e uma exibição para exibir o conteúdo no reprodutor do AEM Screens.
 
 1. **Criação de um local**
 
    1. Navegue até **Zonas** > **Localizações** pasta.
-   1. Selecione o **Localizações** e clique em **Criar** na barra de ações.
-   1. Selecionar **Localização** do **Criar** e clique em **Próxima**.
-   1. Insira o **Título** as **San Jose** e clique em **Criar**.
+   1. Selecione o **Localizações** e selecione **Criar** na barra de ações.
+   1. Selecionar **Localização** do **Criar** e selecione **Próxima**.
+   1. Insira o **Título** as **San Jose** e selecione **Criar**.
 
 1. **Criação de uma exibição**
 
    1. Navegue até **Zonas** > **Localizações** pasta.
-   1. Selecione o **San Jose** e clique em **Criar** na barra de ações.
-   1. Selecionar **Exibir** do **Criar** e clique em **Próxima**.
-   1. Insira o **Título** as **Lobby** e clique em **Criar**.
+   1. Selecione o **San Jose** e selecione **Criar** na barra de ações.
+   1. Selecionar **Exibir** do **Criar** e selecione **Próxima**.
+   1. Insira o **Título** as **Lobby** e selecione **Criar**.
 
 ### Atribuição de canais à exibição {#channel-channel}
 
@@ -146,13 +142,13 @@ Atribua os canais à exibição para visualizar o conteúdo. Siga as etapas abai
 1. **Atribuição de canal à exibição**
 
    1. Navegue até **Zonas** > **Localizações** > **San Jose**> **Lobby**.
-   1. Selecione o **Lobby** e clique em **Atribuir canal** na barra de ações.
+   1. Selecione o **Lobby** exibir e selecionar **Atribuir canal** na barra de ações.
    1. Insira o caminho para o **MultiZone** entrada de canal **Caminho do canal**.
    1. Defina o **Eventos suportados** as **Carga inicial**, **Tela inativa**, e **Temporizador**.
-   1. Clique em **Salvar**.
+   1. Selecione **Salvar**.
 
       ![imagem](/help/user-guide/assets/multi-zone/multizone-img9.png)
-   1. Da mesma forma, você deve atribuir os outros dois canais incorporados (**Zona1** e **Zona2**) para essa exibição.
+   1. Da mesma forma, você deve atribuir os outros dois canais incorporados (**`Zone1`** e **`Zone2`**) para essa exibição.
    1. Depois de atribuir todos os três canais à variável **Lobby** ser capaz de visualizar os canais atribuídos a partir do painel de exibição.
 
       ![imagem](/help/user-guide/assets/multi-zone/multizone-img8.png)
@@ -160,7 +156,7 @@ Atribua os canais à exibição para visualizar o conteúdo. Siga as etapas abai
 
       >[!IMPORTANT]
       >
-      > Depois de atribuir o canal principal (neste caso, **MultiZone**) para a exibição, é obrigatório atribuir os outros dois canais incorporados **Zona1** e **Zona2** também para a mesma exibição.
+      >Depois de atribuir o canal principal (neste caso, **MultiZone**) para a exibição, é obrigatório atribuir os outros dois canais incorporados **`Zone1`** e **`Zone2`** também para a mesma exibição.
 
 ### Registrando o dispositivo {#registering-device}
 
@@ -169,24 +165,26 @@ Depois de configurar um local e uma exibição, siga as etapas abaixo para regis
 1. **Registrando o dispositivo**
 
    1. Navegue até **Zonas** > **Dispositivos** pasta.
-   1. Selecione o **Dispositivos** e clique em **Gerenciador de dispositivos** na barra de ações.
-   1. Clique em **Registro do dispositivo** e selecione o dispositivo pendente na lista.
+   1. Selecione o **Dispositivos** e selecione **Gerenciador de dispositivos** na barra de ações.
+   1. Selecionar **Registro do dispositivo** e selecione o dispositivo pendente na lista.
+
       >[!NOTE]
       > O título do dispositivo deve corresponder ao token do dispositivo (**Token** campo) exibido na **Registro do dispositivo** guia.
-   1. Se o título corresponder ao token do dispositivo, selecione o dispositivo e clique em **Registrar dispositivo** na barra de ações.
-   1. Se o código de registro corresponder ao código no reprodutor do Screens **Registro do dispositivo** clique em **Validar** na barra de ações.
+
+   1. Se o título corresponder ao token do dispositivo, selecione o dispositivo e **Registrar dispositivo** na barra de ações.
+   1. Se o código de registro corresponder ao código no reprodutor do Screens **Registro do dispositivo** selecione **Validar** na barra de ações.
       ![imagem](/help/user-guide/assets/multi-zone/multizone-img6.png)
-   1. Insira o **Título** as **Chrome-Device1** e clique em **Registrar**.
+   1. Insira o **Título** as **`Chrome-Device1`** e selecione **Registrar**.
    1. Selecionar **Atribuir exibição** e selecione o caminho para a configuração do dispositivo.
 
    >[!NOTE]
-   >Se estiver tentando exibir o conteúdo no reprodutor do Screens, clique em **Atualizar conteúdo offline** no painel do canal para cada um dos canais atribuídos à exibição.
+   >Se estiver tentando exibir o conteúdo no reprodutor do Screens, selecione **Atualizar conteúdo offline** no painel do canal para cada um dos canais atribuídos à exibição.
 
 ### Exibir o resultado {#viewing-the-result}
 
-Depois de implementar layouts de várias regiões usando as etapas anteriores, a seguinte saída é exibida.
+Quando você implementa layouts de várias regiões usando as etapas anteriores, a seguinte saída é exibida.
 
-Marque o reprodutor do Screens para exibir a saída que exibe o conteúdo em duas zonas diferentes. As zonas esquerda e direita (ambas usam uma sequência incorporada como um componente).
+Marque o reprodutor do Screens para que você possa exibir a saída que exibe o conteúdo em duas zonas diferentes. As zonas esquerda e direita (ambas usam uma sequência incorporada como um componente).
 
 A zona esquerda é um canal de sequência e a zona direita inclui um vídeo.
 

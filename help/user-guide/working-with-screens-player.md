@@ -1,32 +1,28 @@
 ---
 title: Trabalhar com o AEM Screens Player
-seo-title: Working with Screens Player
-description: Siga esta página para saber mais sobre o Player do Screens. Também explica a interface do usuário do administrador e o Switcher de canal.
-seo-description: Follow this page to learn about Screens Player. It also explains the Admin UI and the Channel Switcher.
-uuid: 93e113ea-fbef-4757-982b-b7dc52fc76a7
+description: Saiba mais sobre como trabalhar com o AEM Screens Player, a interface do administrador e o Switcher de canal.
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
 
-# Trabalhar com o AEM Screens Player {#working-with-aem-screens-player}
+# Trabalhar com o AEM Screens Player
 
 É possível gerenciar o conteúdo do canal e outras configurações no AEM Screens Player.
 
 >[!NOTE]
 >
->Pressione ***Ctrl+Cmd+F*** para sair do modo de tela cheia do OS X AEM Screens Player.
+>Pressione ***Ctrl+Cmd+F*** para que você possa sair do modo de tela cheia do OS X AEM Screens Player.
 
 Depois de atribuir um canal a uma exibição, o AEM Screens Player exibe o conteúdo. Você pode definir as configurações do seu reprodutor usando as preferências para a interface do administrador (no painel) ou a partir do próprio reprodutor.
 
@@ -52,7 +48,7 @@ Depois de atribuir um canal a uma exibição, o AEM Screens Player exibe o conte
 
 Habilitando o **Interface do administrador** no painel preferências permite que o usuário abra as configurações administrativas no Player do Screens. Além disso, se você desativar essa opção no painel do dispositivo, o usuário não poderá abrir a interface do administrador no reprodutor.
 
-Para exibir a interface do administrador no reprodutor do Screens, pressione no canto superior esquerdo para abrir o menu Administrador, no reprodutor do AEM Screens habilitado para toque ou usando um mouse. Ela mostra as informações após a conclusão do registro e o carregamento dos canais.
+Para exibir a interface do administrador no reprodutor do Screens, pressione o canto superior esquerdo para abrir o menu Administrador, no reprodutor AEM Screens habilitado para toque ou usando um mouse. As informações são exibidas após a conclusão do registro e do carregamento dos canais.
 
 >[!NOTE]
 >
@@ -62,15 +58,15 @@ Para exibir a interface do administrador no reprodutor do Screens, pressione no 
 
 #### Acessando as Opções do Menu de Configuração {#configuration-options}
 
-É possível atualizar suas configurações, se você selecionar a opção **Configuração** no menu lateral, conforme mostrado na figura abaixo:
+Você poderá atualizar suas configurações se selecionar a opção **Configuração** no menu lateral, conforme mostrado na figura abaixo:
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
-O menu Configuração permite modificar as seguintes configurações:
+O menu Configuration permite modificar as seguintes configurações:
 
 * Redefinir **Firmware**, **Preferências** ou **Para a fábrica** nesta caixa de diálogo.
 
-* Especifique o número máximo de arquivos de log a serem mantidos para um reprodutor do AEM Screens no **Nº máx. de arquivos de log a serem mantidos**.
+* Especifique o número máximo de arquivos de log que deseja manter para um player do AEM Screens no **Nº máx. de arquivos de log a serem mantidos**.
 
 * Ativar ou desativar **Menu de administração**, **Alternador de canal**, e **Interface de atividade** para o reprodutor do Screens.
 
@@ -80,7 +76,7 @@ O menu Configuração permite modificar as seguintes configurações:
 
 >[!NOTE]
 >
->A variável **Atualizar firmware** A opção só funciona no cordova, como players do Android.
+>A variável **Atualizar firmware** funciona somente no Cordova, como em reprodutores Android™.
 
 >[!NOTE]
 >
@@ -90,7 +86,7 @@ O menu Configuração permite modificar as seguintes configurações:
 
 Você pode limpar o cache de canais e aplicativos na interface do usuário do administrador no AEM Screens Player.
 
-Selecione o **Cache de conteúdo** no painel lateral para atualizar o cache.
+Selecione o **Cache de conteúdo** no painel lateral para que você possa atualizar o cache.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 
@@ -102,7 +98,7 @@ Além disso, se você desativar essa opção no painel do dispositivo, o usuári
 
 Você pode alternar e controlar as configurações do seu canal no Player do Screens.
 
-Para ver o alternador de canal do reprodutor, pressione no canto inferior esquerdo para abrir o alternador de canal que permite alternar canais e outros recursos.
+Para ver o alternador de canal do reprodutor, pressione o canto inferior esquerdo para abrir o alternador de canal que permite alternar canais e outros recursos.
 
 ![chlimage_1-69](assets/chlimage_1-69.png)
 
@@ -112,19 +108,19 @@ Para ver o alternador de canal do reprodutor, pressione no canto inferior esquer
 >
 >(Consulte *Alterar preferências do reprodutor do Screens* como mencionado na seção abaixo).
 
-### Gerenciamento de preferências no AEM Screens Player {#managing-preferences-from-the-aem-screens-player}
+### Gerenciamento de preferências no AEM Screens Player
 
 Também é possível alterar as configurações da interface do administrador e do alternador de canal no próprio reprodutor.
 
-Siga estas etapas para alterar as preferências do Player:
+Para alterar as preferências do Player:
 
-1. Pressione com o botão direito do mouse no canto superior esquerdo do canal ocioso para abrir o painel de administração.
+1. Pressione e segure no canto superior esquerdo do canal ocioso para abrir o painel de administração.
 1. Navegue até **Configuração** no menu de ação esquerdo.
 1. Ativar/desativar configuração para **Interface do administrador** ou **Alternador de canal**.
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
-## Solução de problemas do AEM Screens Player {#troubleshooting-aem-screens-player}
+## Solução de problemas do AEM Screens Player
 
 Você pode solucionar vários problemas associados ao AEM Screens Player (hardware e software):
 
@@ -137,14 +133,14 @@ Você pode solucionar vários problemas associados ao AEM Screens Player (hardwa
 | O AEM Screens Player não é iniciado automaticamente após a reinicialização/reinicialização do Player | Verifique a pasta de início do SO ou o procedimento de inicialização |
 | O AEM Screens Player mostra conteúdo incorreto/antigo | Verificar conexão de rede |
 
-### Atualizações do AEM Screens Player {#updates-for-aem-screens-player}
+### Atualizações do AEM Screens Player
 
 Há dois tipos de atualizações para o AEM Screens Player:
 
-| **Método** | **Detalhes** | **via Remoto** | **Automatizado** | **0 Tempo de inatividade** |
+| **Método** | **Detalhes** | **por meio de Remote** | **Automatizado** | **0 Tempo de inatividade** |
 |---|---|---|---|---|
-| Atualização de firmware | Aplicado em players instalados existentes via comando remoto. Após a atualização, o Player será recarregado automaticamente com o conteúdo existente. | Sim | Personalizado | Quase - 1-3 segundos |
-| Atualizações do shell do player | Este é um novo executável a ser implantado no Player. Isso requer a cópia remota de um novo binário no reprodutor, a interrupção da versão em execução no momento e o início da nova versão. Isso pode exigir o pré-download dos pacotes. | Sim (via shell remoto) | Personalizado | Não |
+| Atualização de firmware | Aplicado em players instalados existentes por meio de comando remoto. Após a atualização, o Player é recarregado automaticamente com o conteúdo existente. | Sim | Personalizado | Quase - 1-3 segundos |
+| Atualizações do shell do player | Este é um novo executável a ser implantado no Player. Isso requer a cópia remota de um novo binário no reprodutor, a interrupção da versão em execução no momento e o início da nova versão. Isso pode exigir o download do pré-carregamento dos pacotes novamente. | Sim (por meio de shell remoto) | Personalizado | Não |
 
 ## Diretrizes de seleção de hardware para o dispositivo player {#hardware-selection-guidelines-for-player-device}
 
@@ -175,10 +171,10 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
    <td>Básico</td>
    <td>Processador Intel® Atom Dual Core, i3 ou quad core básico</td>
    <td><p>4 GB de memória</p> <p>2 MB de cache</p> </td>
-   <td><p>·ChromeOS 32 GB</p> <p>·Windows 128 GB</p> </td>
+   <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI<br /> Ethernet / sem fio,<br /> 2xUSB</td>
+   <td>DVI<br /> Ethernet / sem fio<br /> 2xUSB</td>
    <td>
     <ul>
      <li>Looping de tela cheia padrão<br /> </li>
@@ -187,9 +183,9 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
   </tr>
   <tr>
    <td>Padrão</td>
-   <td>Quad Core, processador Intel® Core i5</td>
-   <td><p>8 GB de memória</p> <p>4MB de cache</p> </td>
-   <td>128 GBB</td>
+   <td>Processador Intel® Core™ i5 de 4 núcleos</td>
+   <td><p>8 GB de memória</p> <p>4 MB de cache</p> </td>
+   <td>128 GB</td>
    <td>OnBoard</td>
    <td>3840x2160 (4K)</td>
    <td>DVI, HDMI<br /> Ethernet / sem fio,<br /> 2xUSB</td>
@@ -202,7 +198,7 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
   </tr>
   <tr>
    <td>Avançado </td>
-   <td>Quad Core com hyperthreading, processador Intel® Core i7</td>
+   <td>Quad Core com hyperthreading, processador Intel® Core™ i7</td>
    <td><p>16 GB de memória</p> <p>8 MB de cache</p> </td>
    <td>256 GB</td>
    <td>GPU gráfica dedicada</td>

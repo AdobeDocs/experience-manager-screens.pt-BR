@@ -1,23 +1,19 @@
 ---
 title: Registro do dispositivo
-seo-title: Device Registration
-description: Esta página descreve o processo de registro de dispositivo em um projeto do AEM Screens.
-seo-description: This page describes the device registration process in an AEM Screens project.
-uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
+description: Saiba mais sobre o processo de registro de dispositivos em um projeto do AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: administering
-discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 1%
+source-wordcount: '745'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +34,7 @@ O processo de registro de dispositivos é feito em duas máquinas separadas:
 >
 >1. Pressione e segure no canto superior esquerdo para abrir o painel de administração.
 >1. Navegue até **Configuração** no menu de ações à esquerda e insira o endereço do local da instância do AEM em **Servidor** e clique em **Salvar**.
->1. Clique no link **Registro** no menu de ação esquerdo e nas etapas abaixo para concluir o processo de registro do dispositivo.
+>1. Selecione o **Registro** no menu de ação esquerdo e nas etapas abaixo para concluir o processo de registro do dispositivo.
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -51,7 +47,7 @@ O processo de registro de dispositivos é feito em duas máquinas separadas:
 
    >[!NOTE]
    >
-   >Para obter mais informações sobre como criar um novo projeto para o Screens no painel AEM, consulte [Criar e gerenciar projeto do Screens](creating-a-screens-project.md).
+   >Para obter mais informações sobre como criar um projeto para o Screens no painel AEM, consulte [Criar e gerenciar projeto do Screens](creating-a-screens-project.md).
 
 1. Toque/clique no **Gerenciador de dispositivos** na barra de ações.
 
@@ -88,7 +84,7 @@ O processo de registro de dispositivos é feito em duas máquinas separadas:
    >
    >A variável **Atribuir exibição** permite adicionar o dispositivo diretamente a uma exibição.
 
-   Se você clicar em **Concluir**, será necessário atribuir o dispositivo a uma exibição.
+   Se você clicar em **Concluir**, você deve atribuir o dispositivo a uma exibição.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -145,16 +141,16 @@ Depois de registrar os dispositivos no reprodutor, você pode exibi-los na inter
 
 ### Limitações da funcionalidade de pesquisa {#limitations}
 
-* O usuário poderá pesquisar qualquer palavra existente no *ID do dispositivo* ou *Nome do dispositivo*.
+* O usuário pode pesquisar qualquer palavra existente no *ID do dispositivo* ou *Nome do dispositivo*.
 
   >[!NOTE]
   >É recomendável criar os nomes dos dispositivos em várias palavras, como *Lobby da Boston Store* em vez de um único *BostonStoreLobby*.
 
-* Se você criar nomes de dispositivos como *Lobby da Boston Store*, permite pesquisar qualquer palavra *boston*, *loja* ou *lobby* mas se o nome do dispositivo for chamado de *BostonStoreLobby* pesquisando *boston* não mostrará os resultados.
+* Se você criar nomes de dispositivos como *Lobby da Boston Store*, ele pesquisa qualquer palavra *boston*, *loja* ou *lobby*. No entanto, se o nome do dispositivo for *BostonStoreLobby*, em seguida, procurando *boston* não mostra resultados.
 
-* Curinga, `*` O é compatível com a pesquisa. No caso, você deseja encontrar todos os dispositivos com nomes que começam com *boston*, você pode usar *boston**.
+* Curinga, `*` O é compatível com a pesquisa. Caso queira localizar todos os dispositivos com nomes que comecem com *boston*, você pode usar *boston**.
 
-* Se o nome do dispositivo for *BostonStoreLobby* e pesquisando *boston* não retornará o resultado usando *boston** nos critérios de pesquisa retornará o resultado.
+* Se o nome do dispositivo for *BostonStoreLobby* e pesquisando *boston* não retorna o resultado, usando *boston** nos critérios de pesquisa retorna o resultado.
 
 ## Limitações no registro de dispositivos {#limitations-on-device-registration}
 
@@ -164,7 +160,7 @@ Se a senha for restrita pelo *AuthorizableActionProvider* configuração, a cria
 
 >[!NOTE]
 >
->A senha aleatória gerada atualmente é composta por 36 caracteres ASCII, variando de 33 a 122 (inclui quase todos os caracteres especiais).
+>A senha aleatória gerada atualmente é composta de 36 caracteres ASCII, variando de 33 a 122 (inclui quase todos os caracteres especiais).
 
 ```java
 25.09.2016 16:54:03.140 *ERROR* [59.100.121.82 [1474844043109] POST /content/screens/svc/registration HTTP/1.1] com.adobe.cq.screens.device.registration.impl.RegistrationServlet Error during device registration
@@ -174,6 +170,6 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
         at org.apache.jackrabbit.oak.security.user.UserManagerImpl.onPasswordChange(UserManagerImpl.java:308)
 ```
 
-### Recursos adicionais {#additional-resources}
+### Outros recursos {#additional-resources}
 
 Para saber mais sobre o AEM Screens Player, consulte [AEM Screens Player](working-with-screens-player.md).

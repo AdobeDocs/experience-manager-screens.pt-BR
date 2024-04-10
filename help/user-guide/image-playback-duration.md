@@ -1,12 +1,10 @@
 ---
 title: Duração da reprodução da imagem
-seo-title: Image Playback Duration
-description: Siga esta página para saber mais sobre a duração da reprodução da imagem.
-seo-description: Follow this page to learn about image playback duration.
+description: Saiba mais sobre a duração da reprodução de imagem no AEM Screens.
 contentOwner: jsyal
-source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
@@ -16,16 +14,14 @@ ht-degree: 1%
 
 ## Visão geral {#overview}
 
-Depois de criar um canal de sequência e adicionar imagens a ele, por padrão, todas as imagens assumirão a duração da reprodução definida na configuração Nível de canal. Qualquer imagem individual ainda pode substituir o padrão e ter uma duração de reprodução diferente; isso é feito ao editar a duração de reprodução do componente de imagem específico.
+Após criar um canal de sequência e adicionar imagens a ele, por padrão, todas as imagens assumem a duração da reprodução definida na configuração Nível de canal. Qualquer imagem individual ainda pode substituir o padrão e ter uma duração de reprodução diferente; isso é feito ao editar a duração de reprodução do componente de imagem específico.
 
 ### Pré-requisitos {#prerequisites}
 
-Antes de começar a implementar essa funcionalidade, configure um projeto como pré-requisito para começar a implementá-la. Por exemplo,
+Antes de implementar essa funcionalidade, configure um projeto como pré-requisito para começar a implementá-la. Por exemplo,
 
 1. Criar um projeto do AEM Screens (neste exemplo, **ChannelLevelPlayback**)
-
 1. Criar um canal de sequência como **PlaybackChannel** em **Canais** pasta
-
 1. Adicionar conteúdo a **PlaybackChannel**
 
 ## Edição de atribuição da duração da reprodução da imagem no nível do canal {#editing-channel-level-image-playback-duration-assignment}
@@ -40,7 +36,7 @@ Siga as etapas abaixo para saber como atualizar a Atribuição de duração da r
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Clique em **Editar** na barra de ações para abrir o editor.
+1. Clique em **Editar** na barra de ações.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -48,7 +44,7 @@ Siga as etapas abaixo para saber como atualizar a Atribuição de duração da r
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. Selecione todas as imagens no canal e clique no ícone da chave inglesa na parte superior esquerda (como mostrado na figura abaixo) para abrir a caixa de diálogo Configurar nível de canal.
+1. Selecione todas as imagens no canal e selecione o ícone da chave inglesa no canto superior esquerdo (como mostrado na figura abaixo). A caixa de diálogo Configurar nível de canal é aberta.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -60,13 +56,13 @@ Siga as etapas abaixo para saber como atualizar a Atribuição de duração da r
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Edite o **Duração** de 8000 (ms) a 3000 (ms), ou seja, 3 segundos. Clique na marca de seleção na parte superior direita do **Página** para salvar as alterações.
+   Edite o **Duração** de 8000 (milissegundos) a 3000 (milissegundos), ou seja, 3 segundos. Clique na marca de seleção no canto superior direito da **Página** para salvar as alterações.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
 ### Exibir o resultado {#viewing-the-result}
 
-Depois de atualizar a duração da reprodução do canal (neste exemplo, todas as três imagens), você notará que as imagens serão reproduzidas por 3 segundos em vez de 8 segundos (valor padrão).
+Ao atualizar a duração da reprodução do canal (neste exemplo, todas as três imagens), observe que as imagens agora são reproduzidas por 3 segundos em vez de 8 segundos (valor padrão).
 
 ![channel_preview](assets/channel_preview.gif)
 

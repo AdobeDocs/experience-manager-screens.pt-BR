@@ -1,21 +1,17 @@
 ---
 title: Gerenciando dispositivos
-seo-title: Managing Devices
-description: Esta página descreve a atribuição de dispositivos.
-seo-description: Follow this page to learn about device assignment. The Devices console allows you to access the device manager to assign your device to a display.
-uuid: 889cc11c-60f7-4966-82b5-9ebdd082a3c5
+description: Saiba mais sobre a atribuição e o gerenciamento de dispositivos no AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '249'
 ht-degree: 1%
 
 ---
@@ -28,7 +24,7 @@ O console Dispositivos permite acessar o gerenciador de dispositivos para atribu
 
 >[!CAUTION]
 >
->Antes de atribuir seu dispositivo, é necessário registrá-lo. Para obter mais informações, consulte [Registro do dispositivo](device-registration.md).
+>Antes de atribuir seu dispositivo, você deve registrá-lo. Para obter mais informações, consulte [Registro do dispositivo](device-registration.md).
 
 ## Atribuição de dispositivo {#device-assignment}
 
@@ -67,7 +63,7 @@ Siga as etapas abaixo para atribuir um dispositivo a uma exibição:
 >
 >Toda vez que o primeiro dispositivo é adicionado a um novo projeto do Screens, um grupo de usuários é criado.
 >Por exemplo, se o nome do nó do projeto for *we-retail*, o nome do grupo de usuários será *screens-we-retail-devices*.
->Este grupo será adicionado como um membro de **Colaboradores** conforme mostrado na figura abaixo:
+>Esse grupo é adicionado como um membro da **Colaboradores** conforme mostrado na figura abaixo:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 
