@@ -5,16 +5,16 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: fb5e7f314ce8557bbee64743929dce945b35a83a
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Perguntas frequentes sobre o AEM Screens {#aem-screens-faqs}
 
-A seção a seguir fornece respostas para algumas das perguntas frequentes relacionadas a um projeto do AEM Screens.
+Este tópico fornece respostas para as perguntas frequentes relacionadas a um projeto do AEM Screens.
 
 ## Problema de tela em branco {#blank-screen}
 
