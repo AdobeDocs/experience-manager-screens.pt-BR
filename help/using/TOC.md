@@ -1,4 +1,5 @@
 ---
+cloud: Experience Cloud
 user-guide-title: Guia de práticas recomendadas para projetos do AEM Screens
 breadcrumb-title: Guia de práticas recomendadas do AEM Screens
 solution-title: AEM Screens
@@ -9,10 +10,10 @@ product: experience manager
 audience: end-user
 feature: Content
 role: User
-source-git-commit: 0286497306276c45c126b83b4c799970b145f42d
+source-git-commit: cd3c7e0766aebd0fd5cb0ae52c0bf72095308bb5
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 75%
+ht-degree: 25%
 
 ---
 
@@ -21,10 +22,10 @@ ht-degree: 75%
 
 + [Sobre este guia](about-guide.md)
 + Visão geral {#overview}
-   + [Introdução para o AEM Screens](introduction.md)
+   + [Introdução ao AEM Screens](introduction.md)
    + [Funções e responsabilidades do projeto](roles-responsibilities.md)
    + [Pré-requisitos](pre-requisites.md)
-   + [Principais elementos de um Projeto de sinalização digital](getting-started-digital-signage.md)
+   + [Principais elementos de um projeto de sinalização digital](getting-started-digital-signage.md)
    + [Abordagem recomendada](recommended-approach.md)
 + Resumo estratégico {#strategic-brief}
    + [Considerações quanto ao escopo dos projetos](pre-sales-considerations.md)
@@ -32,13 +33,13 @@ ht-degree: 75%
    + [Dependências de UX](ux-dependencies.md)
    + [Integração com o Analytics](analytics.md)
 + Resumo do design {#design-brief}
-   + [Mapa da jornada de UX](journey-map.md)
+   + [Mapa de Jornada de UX](journey-map.md)
    + [Protótipo de UX](prototypes.md)
    + [Wireframing de UX](wireframes.md)
    + [Transição para a plataforma](transition-platform.md)
    + [Dynamic Creative Optimization](dynamic-creative-optimizations.md)
 + Resumo da implantação {#deployment-brief}
-   + [Configurações da AEM Platform](aem-platform-configurations.md)
+   + [Configurações da plataforma AEM](aem-platform-configurations.md)
    + [Taxonomia e implementação do projeto](project-taxonomy-implementation.md)
    + Gerenciamento de tráfego de rede {#manage-network-traffic}
       + [Gerenciando o tráfego de rede](/help/using/managing-network-traffic.md)
