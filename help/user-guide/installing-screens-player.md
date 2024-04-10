@@ -1,16 +1,14 @@
 ---
 title: Instalar o reprodutor do Screens
-seo-title: Installing Screens Player
-description: Siga esta página para saber mais sobre a instalação do AEM Screens Player disponível.
-seo-description: Installing Screens Player
+description: Saiba como instalar corretamente um AEM Screens Player.
 contentOwner: jsyal
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
@@ -21,21 +19,21 @@ Esta página descreve como instalar o AEM Screens player.
 
 ## Player do Screens disponível {#available-players}
 
-O AEM Screens player está disponível para Android, Chrome OS e Windows.
+O AEM Screens player está disponível para Android™, Chrome OS e Windows.
 
 Para baixar **AEM Screens Player**, visite o [Downloads do reprodutor AEM 6.5](https://download.macromedia.com/screens/) página.
 
 >[!NOTE]
 >
->Depois de baixar o player mais recente (*.exe*), siga as etapas no reprodutor para concluir a instalação ad-hoc:
+>Depois de baixar o Player mais recente (*.exe*), siga as etapas no reprodutor para concluir a instalação ad-hoc:
 >
 >1. Pressione e segure no canto superior esquerdo para abrir o painel de administração.
 >1. Navegue até **Configuração** no menu de ações à esquerda e insira o endereço do local da instância do AEM em **Servidor** e clique em **Salvar**.
->1. Clique no link **Registro** no menu de ação esquerdo e nas etapas abaixo para concluir o processo de registro do dispositivo.
+>1. Clique em **Registro** no menu de ação esquerdo e nas etapas abaixo para concluir o processo de registro do dispositivo.
 
 ## Monitoramento básico de reprodução {#playback-monitoring}
 
-O reprodutor relata várias métricas de reprodução com cada `ping` que o padrão é 30 segundos. Com base nessas métricas, podemos detectar vários casos de borda, como experiência travada, tela em branco e problemas de agendamento. Isso nos permite entender e solucionar problemas no dispositivo e, portanto, agiliza uma investigação e medidas corretivas com você.
+O reprodutor relata várias métricas de reprodução com cada `ping` que o padrão é 30 segundos. Com base nessas métricas, é possível detectar vários casos de borda, como experiência travada, tela em branco e problemas de agendamento. Isso nos permite entender e solucionar problemas no dispositivo e, portanto, agiliza uma investigação e medidas corretivas com você.
 
 O monitoramento básico da reprodução em um reprodutor AEM Screens permite:
 
@@ -53,16 +51,17 @@ As seguintes propriedades estão incluídas em cada `ping`:
 |---|---|
 | id {string} | o identificador do reprodutor |
 | ativeChannel {string} | caminho de canal em execução no momento, ou nulo se nada estiver agendado |
-| ativeElements {string} | string separada por vírgulas, elementos visíveis atualmente em todos os canais de sequência de reprodução (vários no caso de um layout de várias zonas) |
+| ativeElements {string} | strings separadas por vírgulas, elementos visíveis atualmente em todos os canais de sequência de reprodução (vários no há um layout de várias zonas) |
 | isDefaultContent {boolean} | true se o canal de reprodução for considerado um canal padrão ou de fallback (ou seja, tiver prioridade 1 e nenhum agendamento) |
 | hasContentChanged {boolean} | true se o conteúdo foi alterado nos últimos 5 minutos; caso contrário, false |
 | lastContentChange {string} | carimbo de data e hora da última alteração de conteúdo |
 
 >[!NOTE]
 >Como opção, uma propriedade mais avançada pode ser ativada nas preferências do reprodutor (Ativar monitoramento de reprodução), ou seja:
->|Propriedade|Descrição|
->|—|—|
->|isContentRendering {boolean}|true se a GPU puder confirmar que está reproduzindo o conteúdo real (com base na análise de pixels)|
+>
+>| Propriedade | Descrição |
+>|---|---|
+>| isContentRendering {boolean} | true se a GPU puder confirmar que está reproduzindo o conteúdo real (com base na análise de pixels) |
 
 ### Limitações {#limitations}
 
@@ -70,17 +69,17 @@ Algumas limitações do monitoramento básico de reprodução estão listadas ab
 
 * O reprodutor relata seu próprio estado de reprodução ao servidor, portanto, requer uma conexão ativa.
 
-* A variável `isContentRendering` A propriedade que verifica se a GPU consome muitos recursos no momento para ser habilitada por padrão e requer aceitação explícita das preferências do reprodutor. É recomendável não usá-lo em conjunto com vídeos em produção.
+* A variável `isContentRendering` propriedade que verifica se a GPU consome muitos recursos para ser habilitada por padrão e requer aceitação explícita das preferências do reprodutor. A Adobe recomenda que você não o use com vídeos em produção.
 
 * Esse recurso é compatível apenas com canais de sequência e ainda não abrange o caso de uso de canais interativos (SPA).
 
-* As métricas ainda não estão totalmente expostas aos nossos clientes. Estamos trabalhando arduamente para ativar mecanismos de alerta e geração de relatórios semelhantes a painéis em um futuro próximo.
+* As métricas ainda não estão totalmente expostas aos clientes. O Adobe está trabalhando para ativar mecanismos de alerta e geração de relatórios semelhantes a painéis em breve.
 
-### Recursos adicionais {#additional-resources}
+### Outros recursos {#additional-resources}
 
 Consulte os seguintes tópicos para obter informações detalhadas:
 
-* Para baixar o Android Player, visite **Google Play**. Para saber mais sobre como implementar o Android Watchdog, consulte [Implementação do Android Player](implementing-android-player.md).
+* Para baixar o Android™ Player, visite **Google Play**. Para saber mais sobre como implementar o Android™ Watchdog, consulte [Implementação do Android™ player](implementing-android-player.md).
 
 * Para implementar o Chrome OS Player, consulte [Console de gerenciamento do Chrome](implementing-chrome-os-player.md) para obter mais informações.
 
