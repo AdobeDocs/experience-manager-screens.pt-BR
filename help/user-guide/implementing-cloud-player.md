@@ -8,7 +8,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: 10375baae631d46e9003240149a3e16d5605e7b6
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Esta seção descreve como implementar o Cloud Player.
 
 A instalação do Cloud Player pode variar em plataformas diferentes. Em geral, qualquer plataforma com um navegador moderno pode executar o aplicativo do Cloud Player seguindo estas etapas:
 
-1. Abra o navegador e insira o [URL do Cloud Player](https://player.adobescreens.com) na barra de endereços.
+1. Abra o navegador e insira o [URL do Cloud Player](https://player.adobescreens.com/content/dam/universal-player/firmware.html) na barra de endereços.
 1. O navegador verifica se o Cloud Player pode ser instalado e, em seguida, mostra um ícone de instalação na barra de endereços.
 
    ![imagem](/help/user-guide/assets/cloud-player-install.png)
@@ -67,13 +67,13 @@ Para fazer o provisionamento em massa do Cloud Player em vários dispositivos:
 
 ## Provisionamento em massa no Chrome OS {#bulk-provisioning-chrome}
 
-Saiba mais sobre o provisionamento em massa no Chrome OS, consulte [Instalar o Cloud Player no Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.page/updates/cloud-player/guides/chromeos-install-cloud-player).
+Saiba mais sobre o provisionamento em massa no Chrome OS, consulte [Instalar o Cloud Player no Chrome OS](https://www.adobe.com/go/aem_screens_cloud_player_en).
 
 ## Configuração necessária em instâncias do AEM {#bulk-provisioning-config-aem}
 
 Com base no tipo de instância AEM, selecione um dos guias a seguir para ativar o CORS b/w AEM e o Cloud Player:
-* [AEM no local/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
-* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
+* [AEM no local/AMS](https://www.adobe.com/go/aem_screens_cors_ams_en)
+* [AEM Cloud Service](https://www.adobe.com/go/aem_screens_cors_aemaacs_en)
 
 >[!NOTE]
 >
