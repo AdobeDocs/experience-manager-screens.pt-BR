@@ -1,15 +1,12 @@
 ---
 title: Aplicar transições
-seo-title: Applying Transitions
-description: Siga esta página para saber como aplicar transições aos seus projetos do Screens.
-seo-description: Follow this page to learn how to apply transitions to your Screens projects.
-uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
+description: Saiba como aplicar transições a seus projetos do AEM Screens.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -19,7 +16,6 @@ ht-degree: 0%
 # Aplicar transições {#applying-transitions}
 
 Esta seção descreve como você pode aplicar a variável **Transição** componente intermediário entre diferentes ativos (imagens e vídeos) e sequências incorporadas em um canal.
-
 
 >[!CAUTION]
 >
@@ -47,6 +43,7 @@ Siga as etapas abaixo para adicionar um componente de transição ao seu projeto
 
 
 1. Arraste e solte a **Transição** componente ao seu editor.
+
    >[!CAUTION]
    >
    >Antes de adicionar a transição aos seus ativos no canal, certifique-se de não adicionar a transição antes do primeiro ativo no canal sequencial. O primeiro item no canal deve ser um ativo e não uma transição.
@@ -55,8 +52,8 @@ Siga as etapas abaixo para adicionar um componente de transição ao seu projeto
 
    >[!NOTE]
    >
-   >Por padrão, as propriedades do componente de transição, como **Tipo** está definida como **Desaparecer** e a variável **Duração** está definida como *1600 ms*.  Além disso, não é aconselhável definir um tempo de duração de transição mais longo que o ativo ao qual está sendo aplicado.
+   >Por padrão, as propriedades do componente de transição, como **Tipo** está definida como **Desaparecer** e a variável **Duração** está definida como *1600 milissegundos*. Além disso, não é aconselhável definir um tempo de duração de transição mais longo que o ativo ao qual está sendo aplicado.
 
-1. Além disso, se você adicionar um **Sequência incorporada** (que inclui um canal de sequência) a esse editor de canal, é possível adicionar um componente de transição no final, para que o conteúdo seja reproduzido em ordem, conforme demonstrado na figura abaixo:
+1. Além disso, se você adicionar um **Sequência incorporada** (que inclui um canal de sequência) a esse editor de canal, é possível adicionar um componente de transição no final. Isso garante que o conteúdo seja reproduzido na ordem correta, conforme ilustrado na imagem a seguir:
 
    ![image3](assets/transitions5.png)
