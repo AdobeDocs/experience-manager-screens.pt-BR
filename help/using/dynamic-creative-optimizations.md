@@ -1,12 +1,10 @@
 ---
 title: Data Triggers
-seo-title: Data Triggers
-description: A página descreve acionadores de dados
-seo-description: The page describes data triggers
+description: Saiba mais sobre acionadores de dados na AEM Screens.
 exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -21,9 +19,9 @@ ht-degree: 0%
 
 Isso também é conhecido como nivelamento de conteúdo no lado do cliente.
 
-O principal motivo para fazermos isso é para que cada dispositivo de reprodução ou terminal possa usar conjuntos de dados para determinar automaticamente o melhor conteúdo a ser reproduzido com base em uma variedade de fatores diferentes.
+O motivo por trás disso é garantir que cada dispositivo de reprodução ou ponto final possa usar conjuntos de dados para determinar automaticamente o melhor conteúdo a ser reproduzido com base em vários fatores diferentes.
 
-Isso elimina a necessidade de intervenção humana constante quando se trata de criação de conteúdo, o que reduz o custo total de propriedade para operar a rede e torna as experiências digitais mais relevantes, mais contextuais e mais eficazes.
+Isso elimina a necessidade de intervenção humana constante durante a criação de conteúdo. Também ajuda a reduzir o custo total de propriedade para operar a rede e torna as experiências digitais mais relevantes, mais contextuais e mais eficazes.
 
 Os exemplos incluem:
 

@@ -3,8 +3,7 @@ title: Eventos orientados por dados
 description: null
 page-status-flag: never-activated
 contentOwner: jsyal
-discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -22,18 +21,18 @@ O AEM Screens ativa eventos orientados por dados por meio do Context Hub. O Cont
 
 ### Categorização de eventos orientados por dados {#categorizing-data-driven-events}
 
-Os eventos orientados por dados são classificados em quatro categorias diferentes:
+Os eventos orientados por dados são classificados nas quatro categorias diferentes a seguir:
 
-* Dados em Operacional
-* Dados na Apresentação
+* Dados em operação
+* Dados na apresentação
 * Saída de dados acionável
-* Apresentação de saída de dados
+* Apresentação de dados
 
-#### Dados em Operacional {#data-in-operational}
+#### Dados em operação {#data-in-operational}
 
 Isso pode ser categorizado em Interrupção de canal e Espaço reservado.
 
-#### Dados na Apresentação {#data-in-presentation}
+#### Dados na apresentação {#data-in-presentation}
 
 Os dados estão sendo executados no canal temporário e, após um acionador, o altera um ativo dentro de um canal.
 

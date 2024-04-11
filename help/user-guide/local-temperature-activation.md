@@ -1,22 +1,18 @@
 ---
 title: Ativação da temperatura do centro de viagens
-seo-title: Travel Center Temperature Activation
-description: O caso de uso a seguir demonstra o uso da ativação da temperatura local do centro de viagem com base nos valores preenchidos nas Planilhas Google.
-seo-description: The following use case demonstrates the usage of travel center local temperature activation based on the values populated in Google Sheets.
-uuid: b35286d2-79be-4c36-b72e-c40ffc1a0ca0
+description: Usando o AEM Screens, saiba como este caso de uso demonstra o uso da ativação da temperatura local do centro de viagem com base nos valores preenchidos nas Planilhas Google.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: use-case-examples
-discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -27,7 +23,7 @@ O caso de uso a seguir demonstra o uso da ativação da temperatura local do cen
 
 ## Descrição {#description}
 
-Para esse caso de uso, se suas planilhas Google tiverem um valor menor que 50, uma imagem com bebidas quentes será exibida e se o valor for maior ou igual a 50, a imagem com bebidas frias será exibida. No caso de algum outro valor ou nenhum valor, o reprodutor exibirá uma imagem padrão.
+Para este caso de uso, se o valor no Google Sheets for menor que 50, uma imagem com bebidas quentes será exibida. Se o valor for maior ou igual a 50, uma imagem com bebidas frias será exibida. Se houver algum outro valor ou nenhum valor, o reprodutor exibirá uma imagem padrão.
 
 ## Pré-condições {#preconditions}
 
@@ -42,7 +38,7 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de temperatur
 1. **Preencher as planilhas do Google**
 
    1. Navegue até a Folha de Google ContextHubDemo.
-   1. Adicionar uma coluna com **Cabeçalho1** com o valor correspondente de temperatura.
+   1. Adicionar uma coluna com **`Heading1`** com o valor correspondente de temperatura.
 
    ![screen_shot_2019-05-08at112911am](assets/screen_shot_2019-05-08at112911am.png)
 
@@ -52,7 +48,7 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de temperatur
 
    1. Selecione o **Folhas A1 1** e clique em **Editar**.
 
-   1. Selecione a propriedade de comparação e clique no ícone de configuração para editar as propriedades.
+   1. Selecione a propriedade de comparação e clique no ícone de configuração.
    1. Selecionar **googlesheets/value/1/0** no menu suspenso em **Nome da propriedade**
 
    1. Selecione o **Operador** as **maior que ou igual** no menu suspenso
@@ -61,7 +57,7 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de temperatur
 
    1. Da mesma forma, selecione o **Folhas A1 2** e clique em **Editar**.
 
-   1. Selecione o **Propriedade de comparação - Valor** e clique no ícone configurar para editar as propriedades.
+   1. Selecione o **Propriedade de comparação - Valor** e clique no ícone de configuração.
    1. Selecionar **googlesheets/value/1/0** no menu suspenso em **Nome da propriedade**
 
    1. Selecione o **Operador** as **menor que** no menu suspenso
@@ -89,6 +85,6 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de temperatur
 1. **Verificação da visualização**
 
    1. Clique em **Visualizar.** Além disso, abra a Planilha do Google e atualize o valor.
-   1. Altere o valor para menos de 50, você deverá ser capaz de visualizar uma imagem das bebidas de verão. Se o valor na Planilha do Google for 50 ou maior do que o deveria ser capaz de visualizar uma imagem de bebida quente.
+   1. Altere o valor para menos de 50. Você deve ser capaz de ver uma imagem de uma bebida fria. Se o valor no Google Sheets for 50 ou superior, você deverá ver uma imagem de uma bebida quente.
 
    ![resultado3](assets/result3.gif)
