@@ -1,15 +1,13 @@
 ---
 title: Utilização do Chrome Player como uma extensão
-seo-title: Using Chrome Player as an Extension
-description: Siga esta página para saber mais sobre como instalar o Chrome Player como uma extensão do navegador.
-seo-description: null
+description: Saiba mais sobre como instalar o Chrome Player como uma extensão de navegador do AEM Screens.
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -20,44 +18,45 @@ O ChromeOS player pode ser instalado como plug-in do navegador Chrome no modo de
 
 >[!CAUTION]
 >
-> O uso do Chrome Player como uma extensão para solução de problemas é recomendado para demonstrações rápidas, depuração e também para solucionar problemas do cliente. Esse mecanismo não deve ser usado para implantações de produção que exigiriam o modo de quiosque e o gerenciamento central.
+> O uso do Chrome Player como uma extensão para solução de problemas é recomendado para demonstrações rápidas, depuração e também para solucionar problemas do cliente. Não use esse mecanismo para implantações de produção que exigiriam o modo de quiosque e o gerenciamento central.
 
-Siga esta página para saber mais sobre como instalar o Chrome Player como uma extensão do navegador.
+Siga esta página para obter informações sobre como instalar o Chrome Player como uma extensão do navegador.
 
 1. Clique em [aqui](https://download.macromedia.com/screens/) para baixar o Chrome Player mais recente.
 
 1. Descompacte-o e salve-o no disco.
 
-1. Abra o navegador Chrome, clique no menu de 3 pontos e selecione **Mais ferramentas** de **Extensões** localizado no canto superior direito ou navegue diretamente para `chrome://extensions`.
+1. Abra o navegador Chrome, clique no menu de 3 pontos e selecione **Mais ferramentas** de **Extensões** no canto superior direito ou navegue diretamente para `chrome://extensions`.
 
 1. Ligue o **Desenvolvedor** do canto superior direito.
 
-1. Clique em **Carregar desempacotado** no canto superior esquerdo e carregue o Chrome Player descompactado.
+1. Clique em **Carregar desempacotado** no canto superior esquerdo e carregar o Chrome Player descompactado.
 
-1. Verifique se o plug-in do AEM Screens Chrome Player está disponível na lista de extensões.
+1. Verifique o plug-in do AEM Screens Chrome Player se ele estiver disponível na lista de extensões.
 
 1. Abra uma nova guia e clique no ícone Aplicativos no canto superior esquerdo ou navegue diretamente para `chrome://apps`.
 
-1. Clique em **Plug-in AEM Screens** para iniciar o Chrome Player.
+1. Clique em **Plug-in AEM Screens** para que você possa iniciar o Chrome Player.
+
    >[!NOTE]
    >
-   > Por padrão, o reprodutor é iniciado no modo de tela cheia. Pressione **esc** para sair do modo de tela cheia.
+   > Por padrão, o reprodutor é iniciado no modo de tela cheia. Pressione **Esc** para sair do modo de tela cheia.
 
 
 ## Dicas avançadas de depuração {#advanced-debugging-tips}
 
-1. Depois que o reprodutor tiver baixado o conteúdo localmente, você poderá navegar pelo conteúdo baixado localmente acessando `http://localhost:24502`.
+1. Quando o reprodutor tiver baixado o conteúdo localmente, você poderá navegar pelo conteúdo baixado localmente acessando `http://localhost:24502`.
 
    >[!NOTE]
    >
    > Se o URL mencionado acima não funcionar, significa que o reprodutor não recebeu uma exibição ou o conteúdo não foi baixado com sucesso. Verifique a guia Rede da configuração JSON do reprodutor para ver se os detalhes corretos foram obtidos pelo reprodutor e se há problemas de rede no download.
 
-1. Você pode clicar com o botão direito do mouse e inspecionar três camadas do reprodutor do chrome
+1. Clique com o botão direito do mouse e inspecione três camadas do reprodutor de cromo.
    **Depurar conteúdo**: Clique com o botão direito do mouse e inspecione o conteúdo para depurar o conteúdo em execução (deve haver um único item chamado &quot;Inspect&quot; no menu de contexto)
 
-   **Depurar firmware**: abra a interface do administrador e clique com o botão direito do mouse e inspecione para depurar o código do firmware (player) (deve haver uma opção para inspecionar e inspecionar a página de segundo plano e simular a reinicialização do navegador)
+   **Depurar firmware**: abra a interface do administrador e clique com o botão direito do mouse e inspecione para depurar o código do firmware (player). (Deve haver uma opção para inspecionar e inspecionar a página de plano de fundo e simular a reinicialização do navegador.)
 
-   **Depurar página de plano de fundo**: abra a interface do administrador e clique com o botão direito do mouse e inspecione a página de plano de fundo (para serviços em segundo plano, como o servidor http)
+   **Depurar página de plano de fundo**: abra a interface do administrador e clique com o botão direito do mouse e inspecione a página de plano de fundo (para serviços em segundo plano, como o servidor http).
 
 ## Atualização da extensão do player {#upgrading-player}
 
