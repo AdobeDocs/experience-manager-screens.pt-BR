@@ -1,13 +1,13 @@
 ---
 title: Relatório de atribuição de conteúdo
-description: Esta página descreve o download e o uso do Relatório de atribuição de conteúdo.
+description: Saiba mais sobre o download e o uso do Relatório de atribuição de conteúdo relacionado ao AEM Screens.
 feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '359'
 ht-degree: 2%
 
 ---
@@ -58,6 +58,6 @@ Siga as instruções abaixo para baixar o Relatório de atribuição de conteúd
    >[!NOTE]
    >Os dados exibidos na planilha são classificados em ordem alfabética em um formato fácil de ler.
 
-1. Você pode clicar em qualquer um dos canais no **Canais** coluna para abrir a **Conteúdo** guia que direcionará você para esse canal e também fornecerá informações sobre ativos (imagens e vídeos) associados a esse canal específico, como mostrado na figura abaixo.
+1. Clicar em qualquer um dos canais no **Canais** abre a variável **Conteúdo** guia. Por sua vez, ele navega diretamente para esse canal e fornece informações sobre ativos (imagens e vídeos) associados a esse canal específico.
 
    ![imagem](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

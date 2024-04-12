@@ -1,6 +1,6 @@
 ---
 title: Integração do Adobe Analytics com o AEM Screens
-description: Siga esta página para saber mais sobre a integração imediata do AEM Screens com o Adobe Analytics e fornecer uma prova de reprodução.
+description: Saiba mais sobre a integração imediata do AEM Screens com o Adobe Analytics e forneça uma prova de atividade.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Esta seção abrange os seguintes tópicos:
 
 ## Visão geral {#overview}
 
-***AEM Screens*** A utiliza o Adobe Analytics e, com isso, você pode alcançar algo único no mercado: o cross-channel analytics, que ajuda a correlacionar o conteúdo mostrado no local com outras fontes de dados.
+***AEM Screens*** O usa o Adobe Analytics e, com isso, você pode alcançar algo único no mercado: o cross-channel analytics, que ajuda a correlacionar o conteúdo mostrado no local com outras fontes de dados.
 
 O AEM Screens fornece uma integração imediata com o Adobe Analytics e uma prova de atividade.
 
@@ -55,7 +55,7 @@ A integração do Adobe Analytics com o AEM Screens impõe o seguinte *metas*:
 
 ## Detalhes da arquitetura {#architectural-details}
 
-Um cliente do AEM Screens deseja entender qual conteúdo foi mostrado, em que momento e por quanto tempo (agregado). Esse é um recurso comum da solução de sinalização. Em vez de criar nossa própria análise, o AEM Screens aproveitará o Adobe Analytics e, com isso, poderemos alcançar algo exclusivo no mercado: a análise entre canais, que ajuda a correlacionar o conteúdo mostrado no local com outras fontes de dados.
+Um cliente do AEM Screens deseja entender qual conteúdo foi mostrado, em que momento e por quanto tempo (agregado). Esse é um recurso comum da solução de sinalização. Em vez de criar um aplicativo de análise separado, o AEM Screens usa o Adobe Analytics. A combinação nos permite alcançar algo único no mercado: a análise entre canais, que ajuda a correlacionar o conteúdo mostrado no local com outras fontes de dados.
 
 O diagrama de arquitetura a seguir explica a integração do Adobe Analytics com o AEM Screens:
 
@@ -65,7 +65,7 @@ O diagrama de arquitetura a seguir explica a integração do Adobe Analytics com
 
 As configurações do Adobe Analytics podem ser definidas no console OSGi.
 
-Navegue até **Configuração do console da Web do Adobe Experience Manager** para configurar o Adobe Analytics para AEM Screens, conforme mostrado na figura abaixo:
+Navegue até **Configuração do console da Web do Adobe Experience Manager** para configurar o Adobe Analytics para AEM Screens.
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
@@ -121,7 +121,7 @@ A tabela a seguir destaca as propriedades e a descrição para configurar o Adob
 
 #### Utilização do serviço Adobe Analytics no AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-Esse cenário invoca a API do Analytics por meio de chamadas REST de um serviço de análise nos componentes principais do firmware e da tela do instrumento para criar e enviar eventos específicos para um caso de uso específico e, ao mesmo tempo, permitir a extensibilidade, em que qualquer mensagem personalizada pode ser enviada para o Analytics a partir de um canal desenvolvido personalizado.
+Esse cenário chama a API do Analytics por meio de chamadas REST de um serviço de análise no firmware. Ele também instrumenta componentes principais de telas AEM para criar e enviar eventos explicitamente específicos para um caso de uso específico. Tudo isso enquanto permite a extensibilidade, onde qualquer mensagem personalizada pode ser enviada para o Analytics a partir de um canal desenvolvido de forma personalizada.
 
 Os eventos do Analytics são armazenados offline no indexedDB e, posteriormente, fragmentados e enviados para a nuvem.
 

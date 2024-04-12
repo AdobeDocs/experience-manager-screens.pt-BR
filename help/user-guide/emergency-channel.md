@@ -1,21 +1,17 @@
 ---
 title: Canal de emergência
-seo-title: Emergency Channel
-description: Siga este exemplo de caso de uso para saber mais sobre como criar e gerenciar um canal de emergência que o autor de conteúdo pode trocar de um canal de sequência em caso de uma pré-condição.
-seo-description: Follow this use case example to learn about creating and managing an emergency channel that the content author can switch from a sequence channel in case of a precondition.
-uuid: 612917c9-a832-453b-970c-f4365f7b105d
+description: Saiba mais sobre como criar e gerenciar um canal de emergência que o autor de conteúdo pode alternar de um canal de sequência se houver uma pré-condição.
 content-type: example
 topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -24,7 +20,7 @@ ht-degree: 0%
 
 ## Descrição do caso de uso {#use-case-description}
 
-Esta seção descreve um exemplo de caso de uso que enfatiza a criação e o gerenciamento de um canal de emergência que o autor de conteúdo pode trocar de um canal de sequência em caso de uma pré-condição.
+Esta seção descreve um exemplo de caso de uso que enfatiza a criação e o gerenciamento de um canal de emergência que o autor de conteúdo pode alternar de um canal de sequência se houver uma pré-condição.
 
 ### Pré-condições {#preconditions}
 
@@ -52,7 +48,7 @@ Siga as etapas abaixo para configurar um canal de emergência:
 
 1. **Criação de um canal de sequência**
 
-   1. Selecione o **Canais** e clique em **Criar** para abrir o assistente e criar um canal.
+   1. Selecione o **Canais** e clique em **Criar**.
 
    1. Selecionar **Canal de sequência** do assistente e crie o canal chamado de **MainAdChannel**.
 
@@ -61,14 +57,15 @@ Siga as etapas abaixo para configurar um canal de emergência:
 1. **Adicionar conteúdo ao canal de sequência**
 
    1. Selecione o canal (**MainAdChannel**).
-   1. Clique em **Editar** na barra de ações para abrir o editor. Arraste e solte alguns ativos no seu canal.
+   1. Clique em **Editar** na barra de ações.
+   1. Arraste e solte alguns ativos no canal.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **Criação de um canal de emergência**
 
    1. Selecione o **Canais** pasta.
-   1. Clique em **Criar** para abrir o assistente e criar um canal.
+   1. Clique em **Criar**.
    1. Selecionar **Canal de sequência** do assistente e crie o canal chamado de **EmergencyChannel**.
 
    >[!NOTE]
@@ -80,7 +77,8 @@ Siga as etapas abaixo para configurar um canal de emergência:
 1. **Adicionar conteúdo ao canal de emergência**
 
    1. Selecione o canal (**Canal de emergência)**.
-   1. Clique em **Editar** na barra de ações para abrir o editor. Arraste e solte o ativo que deseja executar durante uma emergência para o seu canal.
+   1. Clique em **Editar** na barra de ações.
+   1. Arraste e solte o ativo que deseja executar durante uma emergência no seu canal.
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
 
@@ -93,14 +91,15 @@ Siga as etapas abaixo para configurar um canal de emergência:
 
 1. **Criação de exibições em seu local**
 
-   Navegue até sua localização (**Loja**) e clique em **Criar** na barra de ações. Siga o assistente para criar dois **Exibições** intitulado como **StoreFront** e **StoreRear**.
+   Navegue até sua localização (**Loja**) e clique em **Criar** na barra de ações. Após o assistente, crie dois **Exibições** intitulado como **StoreFront** e **StoreRear**.
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
 1. **Criação de uma programação**
 
    1. Navegue até o **Agendamentos** pasta.
-   1. Clique em **Criar** na barra de ações. Siga o assistente para criar um agendamento chamado como **StoreSchedule**.
+   1. Clique em **Criar** na barra de ações.
+   1. Após o assistente, crie um agendamento chamado **StoreSchedule**.
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
@@ -117,11 +116,11 @@ Siga as etapas abaixo para configurar um canal de emergência:
       1. Defina os Eventos compatíveis como **Carga inicial** e **Tela inativa**.
       1. Clique em **Salvar**
 
-      Da mesma forma, será necessário seguir as mesmas etapas novamente para atribuir a **EmergencyChannel** e defina seus **Prioridade**.
+      Da mesma forma, siga as mesmas etapas novamente para atribuir a **EmergencyChannel** e defina seus **Prioridade**.
 
    >[!NOTE]
    >
-   >A prioridade é usada para ordenar as atribuições caso várias correspondam aos critérios de reprodução. Aquele com o valor mais alto sempre terá precedência sobre os valores mais baixos.
+   >A prioridade é usada para ordenar as atribuições caso várias correspondam aos critérios de reprodução. Aquele com o valor mais alto sempre tem prioridade sobre valores mais baixos.
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
@@ -146,7 +145,7 @@ Siga as etapas abaixo para configurar um canal de emergência:
 
    1. Navegue até cada exibição, como **EmergencyChannel** > **Localizações** > **Loja** >**StoreFront**.
 
-   1. Clique em **Painel** na ação para abrir o painel de exibição.
+   1. Clique em **Painel** na barra de ações.
    1. Clique em **..** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** e clique em **+Atribuir Calendário**.
 
    1. Selecione o caminho para a Programação (por exemplo, aqui, **EmergencyChannel** > **Agendamentos** >**StoreSchedule**).
@@ -158,13 +157,13 @@ Siga as etapas abaixo para configurar um canal de emergência:
 
 1. **Registro do dispositivo**
 
-   Conclua o processo de registro do dispositivo e, depois de registrar, você visualizará a seguinte saída no AEM Screens player.
+   Conclua o processo de registro do dispositivo. Depois de se registrar, é possível exibir a seguinte saída no AEM Screens player.
 
    ![novo30](assets/new30.gif)
 
 ## Alternar para o canal de emergência {#switching-to-emergency-channel}
 
-No caso de uma emergência, execute as seguintes etapas:
+Se houver uma emergência, execute as seguintes etapas:
 
 1. Navegue até **EmergencyChannel** > **Agendamentos** > **StoreSchedule** e selecione **Painel** na barra de ações.
 
@@ -178,12 +177,12 @@ No caso de uma emergência, execute as seguintes etapas:
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. Assim que a prioridade do canal for atualizada, todo o reprodutor de AEM Screens exibirá a variável **EmergencyChannel** conteúdo, conforme mostrado abaixo.
+1. Quando a prioridade do canal é atualizada, todo o reprodutor do AEM Screens exibe o **EmergencyChannel** conteúdo.
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
 ### Conclusão {#conclusion}
 
-A variável **EmergencyChannel** O continuará a exibir seu conteúdo até que o autor de conteúdo redefina o Valor de prioridade como 1.
+A variável **EmergencyChannel** O continua a exibir seu conteúdo até que o autor de conteúdo redefina o Valor de prioridade como 1.
 
-Depois que o autor do conteúdo receber as instruções de que a emergência foi resolvida, ele deve atualizar a prioridade do **MainAdChannel** que fará com que a reprodução normal seja retomada.
+Quando o autor do conteúdo receber as instruções de que a emergência foi resolvida, ele deverá atualizar a prioridade do **MainAdChannel** o que faz com que a reprodução normal seja retomada.

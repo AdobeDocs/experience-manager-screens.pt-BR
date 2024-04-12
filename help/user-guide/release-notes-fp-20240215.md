@@ -1,12 +1,13 @@
 ---
 title: Notas de versão do Pacote de recursos do Screens 20240215
-description: Siga esta página para obter informações sobre o Pacote de recursos 20240215 da AEM Screens lançado em 15 de fevereiro de 2024.
+description: Saiba mais sobre o Pacote de recursos 20240215 do AEM Screens, lançado em 15 de fevereiro de 2024.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: d5b94814df33f00e23fcd22e85e50d6f02947d45
+exl-id: e4149f5b-42c0-43c8-b275-ecbe90104a98
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '151'
 ht-degree: 5%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 5%
 # Notas de versão do Pacote de recursos 20240215 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->É recomendável atualizar para a versão mais recente do Adobe Experience Manager 6.5 (AEM 6.5). Podemos obter as informações da versão mais recente de [aqui](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=en)
+>A Adobe recomenda que você atualize para a versão mais recente do 6.5 Adobe Experience Manager (AEM 6.5). Você pode obter as informações da versão mais recente de [aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## Disponibilidade {#availability}
 

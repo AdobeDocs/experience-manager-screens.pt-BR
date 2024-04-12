@@ -1,9 +1,9 @@
 ---
 title: Diretrizes de seleção de hardware para dispositivos reprodutores
-description: Diretrizes de seleção de hardware para dispositivos reprodutores
-source-git-commit: 7fdd812c71c995424a27db18264ef2db420d5717
+description: Saiba mais sobre as diretrizes de seleção de hardware para dispositivos AEM Screens player.
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '227'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ A seção a seguir fornece as diretrizes de seleção de hardware para um reprod
 
 ## Considerações importantes {#important-considerations}
 
-* Sempre origem ***Comercial*** ou ***Industrial*** Os componentes da categoria para PC player e painel de exibição ou projetor.
+* Sempre origem ***Comercial*** ou ***Industrial*** Os componentes da nota para PC player e painel de exibição ou projetor.
 
 * Sempre interaja com fornecedores que atendem ao mercado de sinalização digital.
 * Sempre considere fatores ambientais como temperatura ambiente e umidade relativa.
@@ -43,9 +43,9 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
    <td>Básico</td>
    <td>Processador Intel® Atom Dual Core, i3 ou quad core básico</td>
    <td><p>4 GB de memória</p> <p>2 MB de cache</p> </td>
-   <td><p>·ChromeOS 32 GB</p> <p>·Windows 128 GB</p> </td>
+   <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>OnBoard</td>
-   <td>1920x1080</td>
+   <td>1920 x 1080</td>
    <td>DVI<br /> Ethernet / sem fio,<br /> 2xUSB</td>
    <td>
     <ul>
@@ -55,11 +55,11 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
   </tr>
   <tr>
    <td>Padrão</td>
-   <td>Quad Core, processador Intel® Core i5</td>
-   <td><p>8 GB de memória</p> <p>4MB de cache</p> </td>
-   <td>128 GBB</td>
+   <td>Processador Intel® Core™ i5 de 4 núcleos</td>
+   <td><p>8 GB de memória</p> <p>4 MB de cache</p> </td>
+   <td>128 GB</td>
    <td>OnBoard</td>
-   <td>3840x2160 (4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet / sem fio,<br /> 2xUSB</td>
    <td>
     <ul>
@@ -70,11 +70,11 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
   </tr>
   <tr>
    <td>Avançado </td>
-   <td>Quad Core com hyperthreading, processador Intel® Core i7</td>
+   <td>Quad Core com hyperthreading, processador Intel® Core™ i7</td>
    <td><p>16 GB de memória</p> <p>8 MB de cache</p> </td>
    <td>256 GB</td>
    <td>GPU gráfica dedicada</td>
-   <td>3840x2160 (4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet / sem fio,<br /> 4xUSB</td>
    <td>
     <ul>

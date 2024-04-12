@@ -1,17 +1,17 @@
 ---
-title: Introdução ao [!UICONTROL AEM Screens]
-description: Esta página é uma seção de introdução ao AEM Screens
+title: Introdução ao AEM Screens
+description: Saiba mais sobre o AEM Screens e o que ele pode fazer por você.
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 58%
+source-wordcount: '660'
+ht-degree: 56%
 
 ---
 
 # Introdução ao AEM Screens {#introduction}
 
-**Telas de AEM (Adobe Experience Manager)** O é uma Solução de sinalização digital que permite criar, publicar e reproduzir experiências digitais dinâmicas e interativas. Ela envolve diferentes tipos de telas no local, em conjunto com uma estratégia abrangente de marketing digital omnicanal.
+**AEM Screens** O é uma Solução de sinalização digital que permite criar, publicar e reproduzir experiências digitais dinâmicas e interativas. Ela envolve diferentes tipos de telas no local, em conjunto com uma estratégia abrangente de marketing digital omnicanal.
 
 O AEM Screens permite criar:
 

@@ -1,21 +1,21 @@
 ---
 title: Notas de versão do Pacote de recursos 202204
-description: Siga esta página para obter informações sobre o Pacote de recursos 202204 da AEM Screens lançado em 26 de abril de 2022.
+description: Saiba mais sobre o Pacote de recursos do AEM Screens 202204, lançado em 26 de abril de 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 5fd41f3a-212d-4179-8e59-22c0a32a1e19
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 4%
+source-wordcount: '298'
+ht-degree: 3%
 
 ---
 
 # Notas de versão do Pacote de recursos 202204 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->É recomendável atualizar para a versão mais recente do Adobe Experience Manager (AEM). O Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
+>A Adobe recomenda que você atualize para a versão mais recente do Adobe Experience Manager (AEM). O AEM Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
 
 ## Disponibilidade {#availability}
 
@@ -29,7 +29,7 @@ A data de lançamento do Pacote de recursos 202204 do AEM Screens é 26 de abril
 
 ### Novidades {#what-is-new}
 
-* Um novo recurso do Controle remoto facilita o acesso à interface do usuário do Administrador, ao alternador de canal ou a outros recursos, como a limpeza do cache e a recarga. Você também pode ver a versão do firmware local e as informações do sistema no reprodutor.
+* Um novo recurso do Controle remoto facilita o acesso à interface do usuário do Administrador, ao alternador de canal ou a outros recursos, como limpar o cache e recarregar. Você também pode ver a versão do firmware local e as informações do sistema no reprodutor.
 
 ### Correções de erros {#bug-fixes}
 
@@ -47,16 +47,16 @@ A data de lançamento do Pacote de recursos 202204 do AEM Screens é 26 de abril
 
 * O Player não estava conseguindo obter a atualização mais recente por meio do gerenciamento de publicação. Isso foi corrigido.
 
-### Players do AEM Screens lançados {#released-aem-screens-players}
+### Players do AEM Screens lançados
 
 Os seguintes players de AEM Screens são lançados para AEM 6.5 Feature Pack 11:
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### Downloads do AEM Screens Player  {#aem-screens-player-downloads}
+#### Downloads do AEM Screens Player
 
 Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
