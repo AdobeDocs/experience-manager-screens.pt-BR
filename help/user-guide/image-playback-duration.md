@@ -2,7 +2,7 @@
 title: Duração da reprodução da imagem
 description: Saiba mais sobre a duração da reprodução de imagem no AEM Screens.
 contentOwner: jsyal
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -36,7 +36,7 @@ Siga as etapas abaixo para saber como atualizar a Atribuição de duração da r
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Clique em **Editar** na barra de ações.
+1. Selecionar **Editar** na barra de ações.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -56,7 +56,7 @@ Siga as etapas abaixo para saber como atualizar a Atribuição de duração da r
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Edite o **Duração** de 8000 (milissegundos) a 3000 (milissegundos), ou seja, 3 segundos. Clique na marca de seleção no canto superior direito da **Página** para salvar as alterações.
+   Edite o **Duração** de 8000 (milissegundos) a 3000 (milissegundos), ou seja, 3 segundos. Selecione a marca de seleção no canto superior direito da **Página** para salvar as alterações.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

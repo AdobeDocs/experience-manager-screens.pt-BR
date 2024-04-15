@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Siga as etapas abaixo:
 1. Defina o **Atributo SameSite para os cookies de token de logon** de **Lax** para **Nenhum**.
    ![imagem](/help/user-guide/assets/granite-updates.png)
 
-1. Clique em **Salvar**.
+1. Selecione **Salvar**.
 
 
 ### Método Ad-Hoc {#ad-hoc-method}
@@ -55,7 +55,7 @@ O método Ad-Hoc permite instalar o Player mais recente do Android™ (*.exe*). 
 Depois de baixar o aplicativo, siga as etapas no reprodutor para concluir a instalação ad-hoc:
 
 1. Pressione e segure no canto superior esquerdo para abrir o painel de administração.
-1. Navegue até **Configuração** no menu de ação esquerdo, digite o local (endereço) da instância de AEM à qual deseja se conectar e clique em **Salvar**.
+1. Navegue até **Configuração** no menu de ações à esquerda, digite o local (endereço) da instância do AEM à qual deseja se conectar e selecione **Salvar**.
 
 1. Navegue até a **Dispositivo** **Registro** no menu de ação esquerdo para que você possa verificar o status do processo de registro do dispositivo.
 

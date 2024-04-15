@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 0%
@@ -69,12 +69,12 @@ Por exemplo, a imagem a seguir mostra como é possível gerenciar e atualizar so
    >
    >
    >    1. O fluxo de trabalho não funciona se não houver alterações no projeto e nada para **Atualizar conteúdo offline**.
-   >    1. O fluxo de trabalho não funcionará se o autor não concluir o processo de replicação (o conteúdo ainda está sendo carregado na instância de publicação) após clicar no link **Publish** no fluxo de trabalho de publicação de gerenciamento.
+   >    1. O fluxo de trabalho não funcionará se o autor não concluir o processo de replicação (o conteúdo ainda está sendo carregado na instância de publicação) após selecionar a variável **Publish** no fluxo de trabalho de publicação de gerenciamento.
 
    >[!CAUTION]
-   >Se, como autor ou criador de conteúdo, você quiser ver as alterações nos dispositivos anexados à instância do autor, clique em **Atualizar conteúdo offline** no painel do canal ou selecionando o projeto. Nesse caso, a atualização do conteúdo offline é executada somente na instância do autor.
+   >Se, como autor ou criador de conteúdo, você quiser ver as alterações nos dispositivos anexados à instância do autor, selecione **Atualizar conteúdo offline** no painel do canal ou selecionando o projeto. Nesse caso, a atualização do conteúdo offline é executada somente na instância do autor.
 
-1. Navegue até o projeto e clique em **Atualizar conteúdo offline** na barra de ações. Essa ação encaminha o mesmo comando para publicar a instância, para que os zips offline também sejam criados na instância de publicação.
+1. Navegue até o projeto e selecione **Atualizar conteúdo offline** na barra de ações. Essa ação encaminha o mesmo comando para publicar a instância, para que os zips offline também sejam criados na instância de publicação.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 

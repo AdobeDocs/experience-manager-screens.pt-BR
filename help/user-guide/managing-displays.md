@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
@@ -66,9 +66,9 @@ Uma configuração de dispositivo atua como um espaço reservado para um disposi
 1. Selecione a pasta de exibição e selecione **Exibir painel** na barra de ações.
 1. Selecionar **+ Adicionar configuração do dispositivo** na parte superior direita do **Dispositivos** painel.
 
-1. Selecione o **Configuração do dispositivo** como o modelo necessário, e toque/clique em **Próxima**.
+1. Selecione o **Configuração do dispositivo** como o modelo necessário e selecione **Próxima**.
 
-1. Insira as propriedades conforme necessário e toque/clique **Criar**.
+1. Insira as propriedades conforme necessário e selecione **Criar**.
 
 A configuração do dispositivo é criada e adicionada à exibição atual (na demonstração a seguir, a nova configuração do dispositivo é *DeviceConfig*).
 
@@ -102,12 +102,12 @@ O painel de exibição fornece painéis diferentes para gerenciar dispositivos d
 
 A variável **EXIBIR INFORMAÇÕES** Panel fornece as propriedades de exibição.
 
-Clique em (**..**) no canto superior direito da janela **EXIBIR INFORMAÇÕES** para que você possa visualizar as propriedades e a exibição.
+Selecionar (**..**) no canto superior direito da janela **EXIBIR INFORMAÇÕES** para que você possa visualizar as propriedades e a exibição.
 
 
 #### Visualizando propriedades {#viewing-properties}
 
-Clique em **Propriedades** para que você possa visualizar ou alterar as propriedades de sua exibição.
+Selecionar **Propriedades** para que você possa visualizar ou alterar as propriedades de sua exibição.
 
 Além disso, é possível ajustar o valor do temporizador de evento para o canal interativo em **Tempo ocioso** propriedade em **Exibir** guia. O valor padrão está definido como *300 segundos*.
 
@@ -125,7 +125,7 @@ A variável **DISPOSITIVOS** O painel fornece informações sobre as configuraç
 
 Selecionar (**..**) no canto superior direito da janela **DISPOSITIVOS** para que você possa adicionar configurações de dispositivo e atualizar dispositivos.
 
-Além disso, clique na configuração do dispositivo para exibir as propriedades, atribuir um dispositivo ou excluí-lo completamente.
+Além disso, selecione a configuração do dispositivo para exibir propriedades, atribuir um dispositivo ou excluí-lo completamente.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 

@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 1%
@@ -91,7 +91,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
 1. **Criar Exibição em Local**
 
    1. Navegue até **Ativação em Nível de Canal** > **Localizações** > **Região**.
-   1. Selecionar **Região** e clique em **+ Criar** na barra de ações.
+   1. Selecionar **Região** e selecione **+ Criar** na barra de ações.
    1. Selecionar **Exibir** do assistente e crie uma exibição chamada de **Exibição de região.**
 
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
@@ -100,7 +100,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
    Para **MainAdChannel:**
 
-   1. Navegue até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião** e clique em **Atribuir canal** na barra de ações.
+   1. Navegue até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião** e selecione **Atribuir canal** na barra de ações.
    1. **Atribuição de canal** é aberta.
    1. Selecionar **Canal de referência** por caminho.
    1. Selecione o **Caminho do canal** as **Ativação em Nível de Canal** > ***Canais*** > ***MainAdChannel***.
@@ -113,11 +113,11 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
    >[!NOTE]
    >
-   >Você também pode atribuir um canal no painel de exibição navegando até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião** e clicando em **Painel** na barra de ações. Clique em **+ Atribuir canal** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** painel.
+   >Você também pode atribuir um canal no painel de exibição navegando até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião** e seleção **Painel** na barra de ações. Selecionar **+ Atribuir canal** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** painel.
 
    Da mesma forma, atribuir canal **TargetedSinglePlay** para exibição**:
 
-   1. Navegue até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião** e clique em **Atribuir canal** na barra de ações.
+   1. Navegue até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião** e selecione **Atribuir canal** na barra de ações.
    1. **Atribuição de canal** é aberta.
    1. Selecionar **Canal de referência** por caminho.
    1. Selecione o **Caminho do canal** as **Ativação em Nível de Canal*** > ***Canais*** > ***TargetedSinglePlay***.

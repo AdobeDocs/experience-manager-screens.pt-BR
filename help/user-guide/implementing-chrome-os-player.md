@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Esta seção descreve como implementar o Chrome OS Player usando o Console de ge
 Siga as etapas abaixo para configurar o console de gerenciamento do chrome:
 
 1. Registre-se no Console de gerenciamento do Chrome. Você deve obter uma licença para o Console de gerenciamento do Chrome. Contato [Suporte ao Google](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) Clique em Gerenciar configurações do dispositivo Chrome para obter mais informações.
-1. Inscreva seu dispositivo de sistema operacional Chrome no domínio aguarde 15 minutos para que o dispositivo seja sincronizado com o Console de gerenciamento do Chrome. Para saber mais sobre como registrar um dispositivo do Chrome, clique em [aqui](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. Inscreva seu dispositivo de sistema operacional Chrome no domínio aguarde 15 minutos para que o dispositivo seja sincronizado com o Console de gerenciamento do Chrome. Para saber mais sobre como registrar um dispositivo Chrome, selecione [aqui](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. O Chrome Player está disponível na loja da web do Chrome.
 
 >[!NOTE]
@@ -65,7 +65,7 @@ Siga as etapas abaixo para ativar o modo Quiosque:
    ![screen_shot_2017-12-08at20303pm](assets/screen_shot_2017-12-08at20303pm.png)
 
 1. Navegue até **Gerenciamento de dispositivos** > **Gerenciamento do Chrome** > **Configurações do dispositivo**.
-1. Role para baixo até **Configurações do quiosque** e clique em **Gerenciar aplicativos do quiosque**.
+1. Role para baixo até **Configurações do quiosque** e selecione **Gerenciar aplicativos do quiosque**.
 
    ![quiosque](assets/kiosk.png)
 
@@ -83,7 +83,7 @@ Siga as etapas abaixo para ativar o modo Quiosque:
 
 1. Faça logon no Console do desenvolvedor do Chrome.
 1. Navegue até **Gerenciamento de dispositivos** > **Dispositivos Chrome** e selecione o dispositivo que deseja controlar.
-1. Clique em **Atividade do sistema e solução de problemas**.
+1. Selecionar **Atividade do sistema e solução de problemas**.
 1. Verifique a **Reinicializar dispositivo** e **Captura de tela** propriedades do dispositivo. Você também pode verificar o status do dispositivo e as informações de integridade.
 
 >[!NOTE]
@@ -97,11 +97,11 @@ O AEM Screens Player é um aplicativo habilitado para quiosque que também habil
 Siga as etapas abaixo para configurar várias opções do reprodutor:
 
 1. Faça logon no Console de gerenciamento do Chrome.
-1. Clique em **Gerenciamento de dispositivos** > **Gerenciamento do Chrome** > **Gerenciamento de aplicativos**. O AEM Screens Player é exibido na lista.
-1. Clique no aplicativo **AEM Screens Player**.
-1. Clique em **Configurações do quiosque** e selecione sua organização (*se estiver usando um ambiente de teste*).
-1. Clique em **carregar arquivo de configuração** e faça upload da política de configuração (*Arquivo JSon*).
-1. Clique em **Salvar**. Reinicialize o dispositivo para sincronizar a política.
+1. Selecionar **Gerenciamento de dispositivos** > **Gerenciamento do Chrome** > **Gerenciamento de aplicativos**. O AEM Screens Player é exibido na lista.
+1. Selecione o aplicativo **AEM Screens Player**.
+1. Selecionar **Configurações do quiosque** e selecione sua organização (*se estiver usando um ambiente de teste*).
+1. Selecionar **carregar arquivo de configuração** e faça upload da política de configuração (*Arquivo JSon*).
+1. Selecionar **Salvar**. Reinicialize o dispositivo para sincronizar a política.
 
 >[!NOTE]
 >

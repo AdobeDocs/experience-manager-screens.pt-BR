@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -22,21 +22,21 @@ O ChromeOS player pode ser instalado como plug-in do navegador Chrome no modo de
 
 Siga esta página para obter informações sobre como instalar o Chrome Player como uma extensão do navegador.
 
-1. Clique em [aqui](https://download.macromedia.com/screens/) para baixar o Chrome Player mais recente.
+1. Selecionar [aqui](https://download.macromedia.com/screens/) para baixar o Chrome Player mais recente.
 
 1. Descompacte-o e salve-o no disco.
 
-1. Abra o navegador Chrome, clique no menu de 3 pontos e selecione **Mais ferramentas** de **Extensões** no canto superior direito ou navegue diretamente para `chrome://extensions`.
+1. Abra o navegador Chrome, selecione o menu de 3 pontos e selecione **Mais ferramentas** de **Extensões** no canto superior direito ou navegue diretamente para `chrome://extensions`.
 
 1. Ligue o **Desenvolvedor** do canto superior direito.
 
-1. Clique em **Carregar desempacotado** no canto superior esquerdo e carregar o Chrome Player descompactado.
+1. Selecionar **Carregar desempacotado** no canto superior esquerdo e carregar o Chrome Player descompactado.
 
 1. Verifique o plug-in do AEM Screens Chrome Player se ele estiver disponível na lista de extensões.
 
-1. Abra uma nova guia e clique no ícone Aplicativos no canto superior esquerdo ou navegue diretamente para `chrome://apps`.
+1. Abra uma nova guia e selecione o ícone Aplicativos no canto superior esquerdo ou navegue diretamente para `chrome://apps`.
 
-1. Clique em **Plug-in AEM Screens** para que você possa iniciar o Chrome Player.
+1. Selecionar **Plug-in AEM Screens** para que você possa iniciar o Chrome Player.
 
    >[!NOTE]
    >
@@ -66,4 +66,4 @@ Siga as etapas abaixo para atualizar a extensão do reprodutor se uma nova vers�
 1. Renomear a pasta antiga com arquivos do player
 1. Extraia o novo zip no mesmo local da pasta antiga
 1. Inicie o Chrome e navegue até `chrome://extensions`
-1. Verifique o ícone do reprodutor e clique no botão atualizar ou recarregar
+1. Verifique o ícone do reprodutor e selecione o botão atualizar ou recarregar

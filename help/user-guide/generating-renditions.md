@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -30,13 +30,13 @@ Você pode gerar representações manuais e automáticas de Full HD. A seção a
 
 Siga as etapas abaixo para gerar representações de alta definição total automaticamente:
 
-1. Selecione o link Adobe Experience Manager (parte superior esquerda) e clique no ícone de martelo para poder selecionar **Fluxo de trabalho**.
+1. Selecione o link Adobe Experience Manager (canto superior esquerdo) e selecione o ícone de martelo para que você possa selecionar **Fluxo de trabalho**.
 
-   Clique em **Modelos**.
+   Selecionar **Modelos**.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. No gerenciamento do modelo de fluxo de trabalho, selecione **Ativo de atualização DAM** e clique em **Editar** na barra de ações.
+1. No gerenciamento do modelo de fluxo de trabalho, selecione **Ativo de atualização DAM** e selecione **Editar** na barra de ações.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -47,15 +47,15 @@ Siga as etapas abaixo para gerar representações de alta definição total auto
 1. Selecione o **Processo** guia.
 1. Insira os perfis de alta definição total na lista em **Argumentos** como a seguir:
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
-1. Clique em **OK**.
+1. Selecionar **OK**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. Clique em **Salvar** na parte superior esquerda do **Ativo de atualização DAM** tela.
+1. Selecionar **Salvar** na parte superior esquerda do **Ativo de atualização DAM** tela.
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. Navegue até **Assets** e carregue um novo vídeo. Clique no vídeo e abra o painel lateral Representações. Observe os dois vídeos em alta definição total.
+1. Navegue até **Assets** e carregue um novo vídeo. Selecione o vídeo e abra o painel lateral Representações. Observe os dois vídeos em alta definição total.
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
@@ -71,21 +71,21 @@ Siga as etapas abaixo para gerar representações de alta definição total auto
 
 Siga as etapas abaixo para gerar representações de alta definição total manualmente:
 
-1. Selecione o link Adobe Experience Manager (parte superior esquerda) e clique no ícone de martelo para que você possa selecionar ferramentas e **Fluxo de trabalho**.
+1. Selecione o link Adobe Experience Manager (canto superior esquerdo) e selecione o ícone de martelo para que você possa selecionar ferramentas e **Fluxo de trabalho**.
 
-   Clique em **Modelos**.
+   Selecionar **Modelos**.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. Em gerenciamento de modelo de fluxo de trabalho, selecione **Ativo de atualização do Screens** e clique no link **Iniciar fluxo de trabalho** para abrir o **Executar fluxo de trabalho** caixa de diálogo.
+1. Em gerenciamento de modelo de fluxo de trabalho, selecione **Ativo de atualização do Screens** e selecione o **Iniciar fluxo de trabalho** para abrir o **Executar fluxo de trabalho** caixa de diálogo.
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Selecione o vídeo desejado na caixa **Carga** e clique em **Executar**.
+1. Selecione o vídeo desejado na caixa **Carga** e selecione **Executar**.
 
    ![etapa6_-_select_thedesejredvideo](assets/step6_-_select_thedesiredvideo.png)
 
-1. Navegue até **Assets**, faça drill-down para o ativo e clique nele.
+1. Navegue até **Assets**, faça o drill-down para o ativo e selecione-o.
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 

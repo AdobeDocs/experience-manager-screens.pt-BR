@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 2%
@@ -47,7 +47,7 @@ Siga as instruções abaixo para baixar o Relatório de atribuição de conteúd
 
 1. Navegue até o projeto do AEM Screens e selecione o projeto **DemoScreens**.
 
-1. Clique em **Relatório de atribuição de conteúdo** na barra de ações.
+1. Selecionar **Relatório de atribuição de conteúdo** na barra de ações.
 
    ![imagem](/help/user-guide/assets/content-assignment-report/can-download.png)
 
@@ -58,6 +58,6 @@ Siga as instruções abaixo para baixar o Relatório de atribuição de conteúd
    >[!NOTE]
    >Os dados exibidos na planilha são classificados em ordem alfabética em um formato fácil de ler.
 
-1. Clicar em qualquer um dos canais no **Canais** abre a variável **Conteúdo** guia. Por sua vez, ele navega diretamente para esse canal e fornece informações sobre ativos (imagens e vídeos) associados a esse canal específico.
+1. Selecionar qualquer um dos canais no **Canais** abre a variável **Conteúdo** guia. Por sua vez, ele navega diretamente para esse canal e fornece informações sobre ativos (imagens e vídeos) associados a esse canal específico.
 
    ![imagem](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

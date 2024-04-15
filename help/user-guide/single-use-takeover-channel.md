@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Siga as etapas abaixo para configurar um projeto:
 
    ![ativo](assets/single-takeover2.png)
 
-1. Selecione o **MainAdChannel** e clique em **Editar** na barra de ações. Arraste e solte alguns ativos (imagens, vídeos, sequências incorporadas) no seu canal.
+1. Selecione o **MainAdChannel** e selecione **Editar** na barra de ações. Arraste e solte alguns ativos (imagens, vídeos, sequências incorporadas) no seu canal.
 
    ![ativo](assets/single-takeover2.png)
 
@@ -62,7 +62,7 @@ Siga as etapas abaixo para configurar um projeto:
 
 1. Criar um **AssumirControle** canal que assume o conteúdo no **MainAdChannel** e é executada somente para um dia e hora específicos.
 
-1. Selecione o **AssumirControle** e clique em **Editar** na barra de ações. Arraste e solte alguns ativos no seu canal. O exemplo a seguir mostra uma única imagem de zona adicionada a esse canal.
+1. Selecione o **AssumirControle** e selecione **Editar** na barra de ações. Arraste e solte alguns ativos no seu canal. O exemplo a seguir mostra uma única imagem de zona adicionada a esse canal.
 
    ![ativo](assets/single-takeover4.png)
 
@@ -72,20 +72,20 @@ Siga as etapas abaixo para configurar um projeto:
 
 **Atribuição de Canais a uma Exibição**
 
-1. Selecionar a exibição **MainLobbyDisplay** do **Localizações** pasta. Clique em **Atribuir canal** na barra de ações.
+1. Selecionar a exibição **MainLobbyDisplay** do **Localizações** pasta. Selecionar **Atribuir canal** na barra de ações.
 
    ![ativo](assets/single-takeover6.png)
 
    >[!NOTE]
    >Para saber como atribuir um canal a uma exibição, consulte **[Atribuição de canal](channel-assignment.md)**.
 
-1. Preencha os campos (**Caminho do canal**, **Prioridade**, e **Eventos suportados**) do **Atribuição de canal** e clique em **Salvar**. Agora você atribuiu o **MainAdChannel** para sua exibição.
+1. Preencha os campos (**Caminho do canal**, **Prioridade**, e **Eventos suportados**) do **Atribuição de canal** e selecione **Salvar**. Agora você atribuiu o **MainAdChannel** para sua exibição.
 
    ![ativo](assets/single-takeover7.png)
 
-1. Selecionar a exibição **AssumirControle** do **Localizações** pasta. Clique em **Atribuir canal** na barra de ações, para que você possa atribuir o canal de aquisição de uso único.
+1. Selecionar a exibição **AssumirControle** do **Localizações** pasta. Selecionar **Atribuir canal** na barra de ações, para que você possa atribuir o canal de aquisição de uso único.
 
-1. Atribua a **AssumirControle** para exibir em um horário agendado e preencha os seguintes campos no **Atribuição de canal** e clique em **Salvar**:
+1. Atribua a **AssumirControle** para exibir em um horário agendado e preencha os seguintes campos no **Atribuição de canal** e selecione **Salvar**:
 
    * **Caminho do canal**: selecione o caminho para o canal TakeOver
    * **Prioridade**: Defina a prioridade deste canal como maior que a **MainAdChannel**. Por exemplo, a prioridade definida neste exemplo é 8.
@@ -97,7 +97,7 @@ Siga as etapas abaixo para configurar um projeto:
 
      ![ativo](assets/single-takeover8.png)
 
-     Navegar para a exibição a partir de **ControleDeUsoÚnico** > **Localizações** > **Lobby** > **MainLobbyDisplay** e clique em **Painel** na barra de ações para que você possa visualizar os canais atribuídos com suas prioridades, conforme mostrado abaixo.
+     Navegar para a exibição a partir de **ControleDeUsoÚnico** > **Localizações** > **Lobby** > **MainLobbyDisplay** e selecione **Painel** na barra de ações para que você possa visualizar os canais atribuídos com suas prioridades, conforme mostrado abaixo.
 
      >[!NOTE]
      >É obrigatório definir a prioridade do canal de aquisição como a mais alta.

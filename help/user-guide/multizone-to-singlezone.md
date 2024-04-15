@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 1%
@@ -43,7 +43,7 @@ Siga as etapas abaixo para configurar um projeto:
 
 1. **Criação de um canal de telas de várias zonas**
 
-   1. Selecione o **Canais** e clique em **Criar** na barra de ações e abrindo o assistente para criar um canal.
+   1. Selecione o **Canais** e selecione **Criar** na barra de ações e abrindo o assistente para criar um canal.
    1. Selecionar **Canal de tela dividida em barra à esquerda** do assistente e crie o canal chamado de **MultiZoneLayout**.
    1. Adicione conteúdo ao canal. Arraste e solte os ativos em cada uma das zonas. O exemplo a seguir mostra uma **MultiZoneLayout** canal que inclui um vídeo, uma imagem e um banner de texto (em uma sequência incorporada), conforme mostrado abaixo.
 
@@ -58,7 +58,7 @@ Siga as etapas abaixo para configurar um projeto:
 
    ![ativo](assets/mz-to-sz3.png)
 
-1. Clique em **Editar** na barra de ações para que você possa adicionar conteúdo a este canal. Adicionar um **Canal** e um ativo de imagem que você deseja alternar para esse canal, como mostrado na figura abaixo:
+1. Selecionar **Editar** na barra de ações para que você possa adicionar conteúdo a este canal. Adicionar um **Canal** e um ativo de imagem que você deseja alternar para esse canal, como mostrado na figura abaixo:
 
    ![ativo](assets/mz-to-sz4.png)
 

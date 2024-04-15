@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 1%
@@ -23,13 +23,13 @@ Esta seção descreve uma funcionalidade para importar em massa um conjunto de l
 
 ## Introdução {#introduction}
 
-Ao configurar um projeto do AEM Screens pela primeira vez em sua organização, crie todos os locais também. Se o seu projeto envolve muitos locais, ele resulta em uma tarefa tediosa que envolve muitos cliques e espera na interface do usuário.
+Ao configurar um projeto do AEM Screens pela primeira vez em sua organização, crie todos os locais também. Se o seu projeto envolve muitos locais, ele resulta em uma tarefa tediosa que envolve muita seleção e espera na interface do usuário.
 
 O objetivo desse recurso é reduzir o tempo necessário para configurar o projeto e, portanto, resolver problemas de orçamento.
 
 Ao permitir que o autor forneça uma planilha como um arquivo de entrada e que o sistema crie automaticamente a árvore de local no back-end, esse recurso:
 
-* *obtém um desempenho muito melhor do que clicar manualmente na interface*
+* *obtém um desempenho muito melhor do que a seleção manual por meio da interface*
 * *O permite que o cliente exporte os locais que possui de seu próprio sistema e os importe facilmente diretamente no AEM*
 
 Isso economiza tempo e dinheiro durante a configuração inicial do projeto ou ao estender o AEM Screens existente para novos locais.
@@ -107,11 +107,11 @@ Siga as etapas abaixo para importar um arquivo para uma pasta de local com campo
 
 1. A variável **Importar** será exibido. Selecione o arquivo do projeto com localizações ou selecione o arquivo (***minimal-file.xls***) que você baixou do *Pré-requisitos* seção.
 
-   Após selecionar o arquivo, clique em **Próxima**.
+   Após selecionar o arquivo, selecione **Próxima**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. Verifique o conteúdo do arquivo (locais) no assistente de Importação e clique em **Importar**.
+1. Verifique o conteúdo do arquivo (locais) no Assistente de importação e selecione **Importar**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

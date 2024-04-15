@@ -2,7 +2,7 @@
 title: Visão geral e configurações da arquitetura de representações adaptáveis
 description: Saiba mais sobre a visão geral da arquitetura e as configurações no CRXDE Lite para representações adaptáveis no AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 2%
@@ -58,11 +58,11 @@ Siga as etapas abaixo para configurar a configuração:
 Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
 
 1. Navegar até este caminho `/conf/screens/sling:configs/rendition-mapping` de **CRXDE Lite**.
-1. Criar um nó em **mapeamento de representação**. Clique com o botão direito do mouse **mapeamento de representação** e clique em **Criar** > **Criar nó**, conforme mostrado na figura abaixo.
+1. Criar um nó em **mapeamento de representação**. Clique com o botão direito do mouse **mapeamento de representação** e selecione **Criar** > **Criar nó**, conforme mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. Insira o **Nome** para sua regra de mapeamento, como **regra1** e o nó **Tipo** as **`nt:unstructured`** in **Criar nó** caixa de diálogo. Clique em **OK**.
+1. Insira o **Nome** para sua regra de mapeamento, como **regra1** e o nó **Tipo** as **`nt:unstructured`** in **Criar nó** caixa de diálogo. Selecionar **OK**.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
@@ -72,7 +72,7 @@ Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
    >[!NOTE]
    >Consulte [Uso da sintaxe de consulta de mídia](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) para saber mais.
 
-   Clique em **regra1** que você criou e insira **expressão** in **Nome** e **(orientação:paisagem)** in **Valor**, conforme mostrado abaixo. Clique em **Adicionar**.
+   Selecionar **regra1** que você criou e insira **expressão** in **Nome** e **(orientação:paisagem)** in **Valor**, conforme mostrado abaixo. Selecionar **Adicionar**.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,11 +81,11 @@ Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
    >[!NOTE]
    >O valor definido na propriedade pattern corresponde à nova representação do ativo e é selecionado se a expressão for avaliada como verdadeira.
 
-   Para adicionar a propriedade do padrão, clique em **regra1** que você criou e insira **padrão** in **Nome** e **paisagem** in **Valor**, conforme mostrado abaixo. Clique em **Adicionar**.
+   Para adicionar a propriedade do padrão, selecione **regra1** que você criou e insira **padrão** in **Nome** e **paisagem** in **Valor**, conforme mostrado abaixo. Selecionar **Adicionar**.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. Clique em **Salvar tudo** e observe as propriedades no nó criado em **mapeamento de representação**.
+1. Selecionar **Salvar tudo** e observe as propriedades no nó criado em **mapeamento de representação**.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 

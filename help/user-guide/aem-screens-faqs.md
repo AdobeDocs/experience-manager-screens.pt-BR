@@ -5,7 +5,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Ative a permissão Vazia de filtro de referência do Apache Sling. Isso é neces
 
 1. Navegue até **Configuração do console da Web do Adobe Experience Manager**
 1. Verifique a **allow.empty** opção.
-1. Clique em **Salvar**.
+1. Selecione **Salvar**.
 
 ### 3. Como solucionar problemas se, ao registrar um reprodutor AEM Screens, o dispositivo mostrar o erro FAILURE e os registros do console exibirem o erro ENAME_NOT_FOUND?
 
@@ -133,13 +133,13 @@ Para obter mais informações sobre onde é possível monitorar a atividade do d
 
 O ChromeOS player pode ser instalado como plug-in do navegador Chrome no modo de desenvolvedor, sem exigir o dispositivo real do Chrome Player. Para instalação, siga as etapas abaixo:
 
-1. Clique em [aqui](https://download.macromedia.com/screens/) para baixar o Chrome Player mais recente.
+1. Selecionar [aqui](https://download.macromedia.com/screens/) para baixar o Chrome Player mais recente.
 1. Descompacte-o e salve-o no disco.
 1. Abra o navegador Chrome e selecione **Extensões** no menu ou navegue diretamente para ***chrome://extensions***.
 1. Ligue o **Modo de desenvolvedor** do canto superior direito.
 1. Selecionar **Carregar desempacotado** no canto superior esquerdo e carregue o Chrome Player descompactado.
 1. Se disponível na lista de extensões, marque **AEM Screens Chrome Player** plug-in.
-1. Abra uma nova guia e clique no link **Aplicativos** no canto superior esquerdo ou navegue diretamente para ***chrome://apps***.
+1. Abra uma nova guia e selecione o **Aplicativos** no canto superior esquerdo ou navegue diretamente para ***chrome://apps***.
 1. Selecione o **AEM Screens** Plug-in. Por padrão, o reprodutor é iniciado no modo de tela cheia. Pressione **Esc** para sair do modo de tela cheia.
 
 ### 2. Como solucionar problemas se o reprodutor do Screens não puder se autenticar por meio da instância de publicação com o manipulador de erros personalizado?

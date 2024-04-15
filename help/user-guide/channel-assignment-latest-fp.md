@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1448'
 ht-degree: 2%
 
 ---
@@ -62,13 +62,13 @@ Quando a configuração do projeto for concluída, atribua o canal a uma exibiç
 
 1. Navegue até a exibição necessária, por exemplo, **DemoScreens** > **Localizações** > **San Jose** > **Lobby**.
 
-1. Toque/clique **Atribuir canal** na barra de ações.
+1. Selecionar **Atribuir canal** na barra de ações.
 
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Ou,
 
-   Toque/clique **Painel** na barra de ações e clique em **+Atribuir canal** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** painel.
+   Selecionar **Painel** na barra de ações e selecione **+Atribuir canal** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** painel.
 
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -91,7 +91,7 @@ Quando a configuração do projeto for concluída, atribua o canal a uma exibiç
    >
    >Para saber mais sobre as propriedades de atribuição do canal, consulte [Propriedades do canal](#channel-properties) seção.
 
-1. Clique em **Salvar** após configurar suas preferências.
+1. Selecionar **Salvar** após configurar suas preferências.
 
 ### Exibição de conteúdo no Chrome Player {#viewing-content-output}
 
@@ -111,11 +111,11 @@ Siga as etapas abaixo para navegar até a exibição da linha do tempo:
 
 1. Navegue até a exibição necessária, por exemplo, **DemoScreens** > **Localizações** > **San Jose** > **Lobby**.
 
-1. Toque/clique **Atribuir canal** na barra de ações.
+1. Selecionar **Atribuir canal** na barra de ações.
 
    Ou,
 
-   Toque/clique **Painel** e clique em **Linha do tempo** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** painel.
+   Selecionar **Painel** e selecione **Linha do tempo** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** painel.
 
    ![imagem](/help/user-guide/assets/channel-assignment/timeline-1.png)
 

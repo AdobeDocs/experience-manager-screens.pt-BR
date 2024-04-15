@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Após carregar o vídeo no canal, o AEM deve começar a criar algumas representa
 Para exibir o vídeo:
 
 1. Navegue até o vídeo, por exemplo `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. Clique no vídeo, expanda o menu superior esquerdo e clique em **Representações**.
+1. Selecione o vídeo, expanda o menu superior esquerdo e selecione **Representações**.
 
 Deve haver diferentes representações (um MP4 ou M4V).
 
@@ -39,7 +39,7 @@ Se não houver representação, verifique se o ffmpeg está instalado no SO em q
 >
 >Se não houver representação, verifique se o ffmpeg está instalado no SO em que o AEM está em execução.
 >
->Clique em [aqui](https://www.ffmpeg.org/download.html) para instalar o ffmpeg.
+>Selecionar [aqui](https://www.ffmpeg.org/download.html) para instalar o ffmpeg.
 
 ## Ativos de vídeo {#video-assets}
 
@@ -51,11 +51,11 @@ Verifique se o ffmpeg está instalado e os perfis de vídeo.
 
 ### Verificar perfil de vídeo {#checking-video-profile}
 
-1. Navegue até a **Perfil de vídeo**, ou seja, `http://localhost:4502/etc/dam/video.html` e clique em **Carregar vídeo de teste**.
+1. Navegue até a **Perfil de vídeo**, ou seja, `http://localhost:4502/etc/dam/video.html` e selecione **Carregar vídeo de teste**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. Carregue um vídeo de teste e clique em **Ok** então você pode começar a transcodificação.
+1. Carregue um vídeo de teste e selecione **Ok** então você pode começar a transcodificação.
 
    Se o vídeo transcodificado falhar, expanda a saída ffmpeg para entender quaisquer erros na saída do console do ffmpeg.
 

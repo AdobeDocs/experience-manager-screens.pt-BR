@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Você pode usar a atualização offline em massa manualmente na interface do usu
 Siga as etapas abaixo para usar a atualização em massa offline para um projeto do AEM Screens:
 
 1. Navegue até o projeto do AEM Screens.
-1. Selecione o projeto e clique em **Atualizar conteúdo offline** na barra de ações para atualizar manualmente o conteúdo do canal.
+1. Selecione o projeto e selecione **Atualizar conteúdo offline** na barra de ações para atualizar manualmente o conteúdo do canal.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -63,7 +63,7 @@ Siga as etapas abaixo para usar a atualização em massa offline para um projeto
 
    **Caminho do projeto** Especifique o caminho do projeto do AEM Screens. Normalmente, o caminho é `/content/screens/<Name of your project>`.
 
-   *Por exemplo*, `/content/screens/we-retail`. Você pode encontrar esse caminho no URL selecionando qualquer projeto no AEM Screens (não clique no ícone ).
+   *Por exemplo*, `/content/screens/we-retail`. Você pode encontrar esse caminho no URL selecionando qualquer projeto no AEM Screens (não selecione o ícone ).
 
    >[!NOTE]
    >

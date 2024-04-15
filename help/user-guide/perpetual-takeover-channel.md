@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 1%
@@ -49,7 +49,7 @@ Siga as etapas abaixo para configurar um projeto:
 
    ![ativo](assets/p_usecase2.png)
 
-1. Selecione o **MainAdChannel** e clique em **Editar** na barra de ações. Arraste e solte alguns ativos (imagens, vídeos, sequências incorporadas) no seu canal.
+1. Selecione o **MainAdChannel** e selecione **Editar** na barra de ações. Arraste e solte alguns ativos (imagens, vídeos, sequências incorporadas) no seu canal.
 
    ![ativo](assets/p_usecase3.png)
 
@@ -59,7 +59,7 @@ Siga as etapas abaixo para configurar um projeto:
 
 1. Criar um **AssumirControle** canal que assume o conteúdo no **MainAdChannel** e é executada toda quarta-feira, das 14h às 16h.
 
-1. Selecione o **AssumirControle** e clique em **Editar** na barra de ações. Arraste e solte alguns ativos no seu canal. O exemplo a seguir mostra uma única imagem de zona adicionada a esse canal.
+1. Selecione o **AssumirControle** e selecione **Editar** na barra de ações. Arraste e solte alguns ativos no seu canal. O exemplo a seguir mostra uma única imagem de zona adicionada a esse canal.
 
    ![ativo](assets/p_usecase4.png)
 
@@ -69,12 +69,12 @@ Siga as etapas abaixo para configurar um projeto:
 
 **Atribuição de Canais a uma Exibição**
 
-1. Selecionar a exibição **MainLobbyDisplay** do **Localizações** pasta. Clique em **Atribuir canal** na barra de ações, para que você possa abrir a variável **Atribuição de canal** caixa de diálogo.
+1. Selecionar a exibição **MainLobbyDisplay** do **Localizações** pasta. Selecionar **Atribuir canal** na barra de ações, para que você possa abrir a variável **Atribuição de canal** caixa de diálogo.
 
    >[!NOTE]
    >Para saber como atribuir um canal a uma exibição, consulte **[Atribuição de canal](channel-assignment.md)**.
 
-1. Preencha os campos (**Caminho do canal**, **Prioridade**, e **Eventos suportados**) do **Atribuição de canal** e clique em **Salvar** para atribuir o **MainAdChannel** para sua exibição.
+1. Preencha os campos (**Caminho do canal**, **Prioridade**, e **Eventos suportados**) do **Atribuição de canal** e selecione **Salvar** para atribuir o **MainAdChannel** para sua exibição.
 
    * **Caminho do canal**: selecione o caminho para o **MainAdChannel** channel
    * **Prioridade**: Defina a prioridade deste canal como 1.
@@ -82,9 +82,9 @@ Siga as etapas abaixo para configurar um projeto:
 
    ![ativo](assets/p_usecase6.png)
 
-1. Selecionar a exibição **AssumirControle** do **Localizações** pasta. Clique em **Atribuir canal** na barra de ações, para que seja possível atribuir o canal de tomada.
+1. Selecionar a exibição **AssumirControle** do **Localizações** pasta. Selecionar **Atribuir canal** na barra de ações, para que seja possível atribuir o canal de tomada.
 
-1. Atribuir a **AssumirControle** canal para exibir em um horário agendado e preencher os seguintes campos do **Atribuição de canal** e clicando em **Salvar**:
+1. Atribuir a **AssumirControle** canal para exibir em um horário agendado e preencher os seguintes campos do **Atribuição de canal** caixa de diálogo e seleção **Salvar**:
 
    * **Caminho do canal**: selecione o caminho para o **AssumirControle** channel
    * **Prioridade**: Defina a prioridade deste canal como maior que a **MainAdChannel**. Por exemplo, a prioridade definida neste exemplo é 8.
@@ -101,7 +101,7 @@ Siga as etapas abaixo para configurar um projeto:
 
      ![ativo](assets/p_usecase7.png)
 
-     Navegar para a exibição a partir de **AssumirControle** > **Localizações** > **LobbyPrincipal** > **MainLobbyDisplay** e clique em **Painel** na barra de ações para que você possa visualizar os canais atribuídos com suas prioridades, conforme mostrado abaixo.
+     Navegar para a exibição a partir de **AssumirControle** > **Localizações** > **LobbyPrincipal** > **MainLobbyDisplay** e selecione **Painel** na barra de ações para que você possa visualizar os canais atribuídos com suas prioridades, conforme mostrado abaixo.
 
      >[!NOTE]
      >É obrigatório definir a prioridade do canal de aquisição como a mais alta.

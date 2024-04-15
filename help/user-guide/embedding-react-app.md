@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Siga as etapas abaixo para adicionar o aplicativo REACT interativo ao AEM Screen
    >
    >Adicione o evento de interação do usuário ao atribuir o canal à exibição.
 
-1. Clique em **Editar** na barra de ações, para poder editar as propriedades do canal.
+1. Selecionar **Editar** na barra de ações, para poder editar as propriedades do canal.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
@@ -103,7 +103,7 @@ Siga as etapas abaixo para integrar o SPA ao Adobe Analytics com o recurso offli
    Consulte [Configuração do Adobe Analytics com AEM Screens](configuring-adobe-analytics-aem-screens.md) para obter mais informações sobre como executar o sequenciamento no Adobe Analytics com AEM Screens e enviar eventos personalizados usando o Adobe Analytics offline.
 
 1. Edite o aplicativo react no IDE/editor de sua escolha (especialmente o componente de texto ou outro componente que você deseja começar a emitir eventos).
-1. No evento de clique ou outro evento que você deseja capturar para o componente, adicione as informações do Analytics usando o modelo de dados padrão.
+1. No evento select ou outro evento que você deseja capturar para o componente, adicione as informações do Analytics usando o modelo de dados padrão.
 
    Consulte [Configuração do Adobe Analytics com AEM Screens](configuring-adobe-analytics-aem-screens.md) para obter mais detalhes.
 

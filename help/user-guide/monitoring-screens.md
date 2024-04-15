@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Siga as etapas abaixo para navegar até o dispositivo painel:
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. Selecione o dispositivo (**NovoDispositivoDeTeste**) e clique em **Painel** na barra de ações.
+1. Selecione o dispositivo (**NovoDispositivoDeTeste**) e selecione **Painel** na barra de ações.
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -89,7 +89,7 @@ Selecionar **Propriedades** para que você possa visualizar o **Propriedades do 
 
 Você pode exibir a captura de tela do reprodutor do dispositivo na **CAPTURA DE TELA DO REPRODUTOR** painel.
 
-Clique em (**..**) no canto superior direito do painel Captura de tela do player e selecione **Atualizar captura de tela** para ver o instantâneo do reprodutor em execução.
+Selecionar (**..**) no canto superior direito do painel Captura de tela do player e selecione **Atualizar captura de tela** para ver o instantâneo do reprodutor em execução.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -132,7 +132,7 @@ Siga as etapas abaixo para ativar o Apache Sling Referrer Filter Allow Empty
 
 1. Navegue até **Adobe Experience Manager configuração** do Console da Web, isto é. `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`
 1. Marque a opção **allow.empty** .
-1. Clique em **Salvar**.
+1. Selecione **Salvar**.
 
 ![chlimage_1 a 3](assets/chlimage_1-3.png)
 

@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 1%
@@ -73,7 +73,7 @@ A validação a seguir é o que você vê ao verificar sua conexão inserindo os
 
 1. **Navegar até o ContextHub**
 
-   Navegue até a instância do AEM e clique no ícone Ferramentas na barra lateral esquerda. Clique em **Sites** > **ContextHub**, conforme mostrado na figura abaixo.
+   Navegue até a instância do AEM e selecione o ícone Ferramentas na barra lateral esquerda. Selecionar **Sites** > **ContextHub**, conforme mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -85,7 +85,7 @@ A validação a seguir é o que você vê ao verificar sua conexão inserindo os
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. **Navegar** para **ContextHubDemo** > **Criar** **Configuração do ContentHub** e clique em **Salvar**.
+   1. **Navegar** para **ContextHubDemo** > **Criar** **Configuração do ContentHub** e selecione **Salvar**.
 
       >[!NOTE]
       > Depois de selecionar **Salvar**, você está no **Configuração do ContextHub** tela.
@@ -110,7 +110,7 @@ A validação a seguir é o que você vê ao verificar sua conexão inserindo os
    >
    >Siga estas etapas em Autor e publicação antes ou depois da atualização.
 
-   1. Insira o **Título** as **Planilhas Google**, **Nome do armazenamento** as **`googlesheets`**, e **Tipo de armazenamento** as **c`ontexthub.generic-jsonp`** e clique em **Próxima**.
+   1. Insira o **Título** as **Planilhas Google**, **Nome do armazenamento** as **`googlesheets`**, e **Tipo de armazenamento** as **c`ontexthub.generic-jsonp`** e selecione **Próxima**.
 
       >[!CAUTION]
       >Se estiver usando o Adobe Experience Manager (AEM) 6.4, insira o **Título da configuração** as **`googlesheets`** e a variável **Tipo de armazenamento** as **c`ontexthub.generic-jsonp`**.
@@ -154,7 +154,7 @@ A validação a seguir é o que você vê ao verificar sua conexão inserindo os
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub7.png)
 
-   1. Clique em **Próxima** e depois **Salvar**.
+   1. Selecionar **Próxima** e depois **Salvar**.
 
       >[!NOTE]
       >Ignore o processo de definição do json e deixe-o em branco.
@@ -166,16 +166,16 @@ A validação a seguir é o que você vê ao verificar sua conexão inserindo os
 
    1. Navegue da instância do AEM para **Personalização** > **Públicos-alvo** > **telas**.
 
-   1. Clique em **Criar** > **Criar segmento do Context Hub.** A variável **Novo segmento do ContextHub** é aberta.
+   1. Selecionar **Criar** > **Criar segmento do Context Hub.** A variável **Novo segmento do ContextHub** é aberta.
 
-   1. Insira o **Título** as `**Higherthan50**` e clique em **Criar**. Da mesma forma, crie outro segmento intitulado como `**Lowerthan50**`.
+   1. Insira o **Título** as `**Higherthan50**` e selecione **Criar**. Da mesma forma, crie outro segmento intitulado como `**Lowerthan50**`.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub11.png)
 
-   1. Selecionar o segmento `**Higherthan50**` e clique em **Propriedades** na barra de ações.
+   1. Selecionar o segmento `**Higherthan50**` e selecione **Propriedades** na barra de ações.
       ![imagem](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. Selecione o **Personalização** na guia **Propriedades do segmento**. Defina o **Caminho do ContextHub** para `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` e **Caminho de segmentos** para `/conf/screens/settings/wcm/segments` e clique em **Salvar**, conforme mostrado na figura abaixo.
+   1. Selecione o **Personalização** na guia **Propriedades do segmento**. Defina o **Caminho do ContextHub** para `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` e **Caminho de segmentos** para `/conf/screens/settings/wcm/segments` e selecione **Salvar**, conforme mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -191,9 +191,9 @@ Siga as etapas abaixo para criar uma marca em suas atividades e áreas sob a mar
 
    1. Selecionar **Criar** > **Criar marca**.
 
-   1. Selecionar **Marca** do **Criar página** e clique em **Próxima**.
+   1. Selecionar **Marca** do **Criar página** e selecione **Próxima**.
 
-   1. Insira o **Título** as **ScreensBrand** e clique em **Criar**. Sua marca agora é criada conforme mostrado abaixo.
+   1. Insira o **Título** as **ScreensBrand** e selecione **Criar**. Sua marca agora é criada conforme mostrado abaixo.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub8.png)
 
@@ -253,7 +253,7 @@ Depois de configurar um armazenamento de dados e definir sua atividade (marca e 
 
    1. Arraste e solte a **Comparação: Propriedade- Valor** ao editor.
 
-   1. Clique no ícone da chave inglesa para abrir o **Comparando uma propriedade com o valor** caixa de diálogo.
+   1. Selecione o ícone de chave inglesa para abrir a **Comparando uma propriedade com o valor** caixa de diálogo.
 
    1. Selecionar **googlesheets/value/1/0** no menu suspenso em **Nome da propriedade**.
 
@@ -291,7 +291,7 @@ Siga as etapas abaixo para ativar o direcionamento em seus canais.
 
 1. Navegue até um dos canais do AEM Screens. As etapas a seguir demonstram como habilitar o direcionamento usando **DataDrivenChannel** criado em um Canal AEM Screens.
 
-1. Selecionar o canal **TargetChannel** e clique em **Propriedades** na barra de ações.
+1. Selecionar o canal **TargetChannel** e selecione **Propriedades** na barra de ações.
 
    ![imagem](/help/user-guide/assets/context-hub/context-hub19.png)
 
@@ -300,7 +300,7 @@ Siga as etapas abaixo para ativar o direcionamento em seus canais.
    1. Defina o **Caminho do ContextHub** para `/conf/screens/settings/wcm/segments` e **Caminho de segmentos** para `/conf/screens/settings/wcm/segments`.
    1. Definir marca como **ScreensBrand** na lista suspensa e **Definir Referência da Área** para **ScreensValue**.
 
-   1. Clique em **Salvar e fechar**.
+   1. Selecionar **Salvar e fechar**.
 
       >[!NOTE]
       >
@@ -308,7 +308,7 @@ Siga as etapas abaixo para ativar o direcionamento em seus canais.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub20New.png)
 
-   1. Navegue e selecione o **TargetChannel** canal e clique em **Editar** na barra de ações.
+   1. Navegue e selecione o **TargetChannel** canal e selecione **Editar** na barra de ações.
 
       >[!NOTE]
       >

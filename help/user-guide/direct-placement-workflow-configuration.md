@@ -1,7 +1,7 @@
 ---
 title: Configuração do fluxo de trabalho de posicionamento direto
 description: Esta página destaca a Configuração do fluxo de trabalho de posicionamento direto.
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Esta seção abrange os seguintes tópicos:
 
 A Configuração do fluxo de trabalho de posicionamento direto mapeia um canal de projeto do AEM Screens para uma pasta específica em ativos e permite o posicionamento de qualquer ativo nessa pasta. A Adobe recomenda acionar uma atualização offline em massa para concluir a publicação.
 
-Como alternativa, como autor de conteúdo, você pode clicar manualmente em **Atualizar conteúdo offline**.
+Como alternativa, como autor de conteúdo, você pode selecionar manualmente **Atualizar conteúdo offline**.
 
 >[!NOTE]
 >

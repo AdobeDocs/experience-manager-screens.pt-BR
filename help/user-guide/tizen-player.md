@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
@@ -47,7 +47,7 @@ Você pode atribuir um nome de dispositivo amigável ao seu reprodutor de Tizen,
 
 Siga as etapas abaixo para configurar o nome no reprodutor Tizen:
 
-1. Clique no botão de menu no seu controle remoto.
+1. Selecione o botão de menu no seu controle remoto.
 1. Navegue até **rede** > **Nome do dispositivo** para que você possa atribuir um nome ao reprodutor.
 
 ### Configurando atualizações no dispositivo Samsung {#config-updates}
@@ -55,11 +55,11 @@ Siga as etapas abaixo para configurar o nome no reprodutor Tizen:
 Siga as etapas abaixo no dispositivo Samsung para concluir a instalação do reprodutor AEM Screens no dispositivo:
 
 1. Navegue até o dispositivo Samsung e ative-o.
-1. Clique em **MENU** do dispositivo remoto e role para baixo até **Sistema** na barra de navegação esquerda.
+1. Selecione o **MENU** do dispositivo remoto e role para baixo até **Sistema** na barra de navegação esquerda.
 1. Role para baixo e selecione o **Reproduzir via** e altere para **Iniciador de URL** opção.
    ![imagem](/help/user-guide/assets/tizen/rms-2.png)
 1. Quando o URL Launcher estiver definido, pressione a tecla **Início** do controle remoto.
-1. Navegue até a **Configurações do inicializador de URL** e digite o endereço IP do servidor de host local e clique em **Concluído**.
+1. Navegue até a **Configurações do inicializador de URL** e digite o endereço IP do servidor de host local e selecione **Concluído**.
 
    >[!NOTE]
    >O reprodutor Tizen deve ser capaz de se conectar ao servidor http.

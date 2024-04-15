@@ -10,7 +10,7 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -101,29 +101,29 @@ Siga as etapas abaixo para implementar a funcionalidade Screens Launch no seu pr
 
    ![Imagem](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. Selecionar o canal **Lançamento futuro** e clique em **Criar lançamento** na barra de ações.
+1. Selecionar o canal **Lançamento futuro** e selecione **Criar lançamento** na barra de ações.
 
    ![Imagem](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. A variável **Criar lançamento** é aberto. Selecione o canal que já está visível no assistente ou clique em **+ Adicionar canais** para adicionar o canal para o qual deseja criar a inicialização.
+1. A variável **Criar lançamento** é aberto. Você pode selecionar o canal que já está visível no assistente ou selecionar **+ Adicionar canais** para adicionar o canal para o qual deseja criar a inicialização.
 
-1. Clique em **Próxima** do **Criar lançamento** assistente. A variável **Incluir subpáginas** for selecionada por padrão.
+1. Selecionar **Próxima** do **Criar lançamento** assistente. A variável **Incluir subpáginas** for selecionada por padrão.
 
    ![imagem](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >Você pode usar **+ Adicionar canais** opção para adicionar outro canal para o qual deseja criar a inicialização.
 
-   Para usar **Adicionar canais** navegue até o canal para o qual deseja criar a inicialização e clique em **Selecionar**.
+   Para usar **Adicionar canais** navegue até o canal para o qual deseja criar a inicialização e selecione **Selecionar**.
 
    A variável **Selecionar** A opção estará desativada se você tentar selecionar vários canais ou uma pasta para adicionar o lançamento.
 
    ![imagem](/help/user-guide/assets/launches-images/launches-14.png)
 
-   Depois de selecionar o canal/canais, clique em **Próxima**.
+   Depois de selecionar o canal/canais, selecione **Próxima**.
 
 
-1. Insira o **Título da inicialização** as **SummerPromotions** e você não precisa definir a variável **Data de lançamento**, conforme mostrado na figura abaixo. Clique em **Criar**.
+1. Insira o **Título da inicialização** as **SummerPromotions** e você não precisa definir a variável **Data de lançamento**, conforme mostrado na figura abaixo. Selecione **Criar**.
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ Siga as etapas abaixo para editar as propriedades do lançamento:
 
    ![imagem](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Selecione o lançamento e clique em **Propriedades do lançamento** do **LANÇAMENTOS PENDENTES** painel.
+1. Selecione o lançamento e **Propriedades do lançamento** do **LANÇAMENTOS PENDENTES** painel.
 
    ![imagem](/help/user-guide/assets/launches-images/launches-19.png)
 

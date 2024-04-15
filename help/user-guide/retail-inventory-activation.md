@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -50,15 +50,15 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de Inventári
 
    1. Adicionar três novos segmentos **Para_vermelho**, **For_Green**, e **For_Blue**.
 
-   1. Selecionar **Para_vermelho** e clique em **Editar** na barra de ações.
+   1. Selecionar **Para_vermelho** e selecione **Editar** na barra de ações.
 
    1. Arraste e solte a variável **Comparação : Propriedade - Propriedade** ao editor.
-   1. Clique em **Configuração** ícone.
+   1. Selecione o **Configuração** ícone.
    1. Selecionar **googlesheets/value/1/2** no menu suspenso em **Nome da primeira propriedade**.
    1. Selecione o **Operador** as **maior que** no menu suspenso.
    1. Selecionar **Tipo de dados** as **número**.
    1. Selecionar **googlesheets/value/1/1** no menu suspenso em **Nome da segunda propriedade**.
-   1. Arrastar e soltar **outra Comparação : Propriedade - Propriedade** ao editor e clique no botão **Configuração** ícone.
+   1. Arrastar e soltar **outra Comparação : Propriedade - Propriedade** ao editor e selecione a variável **Configuração** ícone.
    1. Selecionar **googlesheets/value/1/2** no menu suspenso em **Nome da primeira propriedade**.
    1. Selecione o **Operador** as **maior que** no menu suspenso.
    1. Selecionar **Tipo de dados** as **número**.
@@ -79,7 +79,7 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de Inventári
    >Observe que para segmentos **For_Green** e **For_Green**, os dados não podem ser resolvidos no editor, pois somente a primeira comparação é válida a partir de agora, de acordo com os valores na Planilha do Google.
 
 1. Navegue e selecione o **DataDrivenRetail** canal (um canal de sequência).
-1. Clique em **Editar** na barra de ações.
+1. Selecionar **Editar** na barra de ações.
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
@@ -95,15 +95,15 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de Inventári
 
 1. **Adição de uma imagem padrão**
 
-   1. Adicione uma imagem padrão ao canal e clique em **Direcionamento**.
-   1. Selecionar **Marca** e a variável **Atividade** no menu suspenso e clique em **Iniciar o direcionamento**.
-   1. Clique em **Iniciar o direcionamento**.
+   1. Adicione uma imagem padrão ao canal e selecione **Direcionamento**.
+   1. Selecionar **Marca** e a variável **Atividade** no menu suspenso e selecione **Iniciar o direcionamento**.
+   1. Selecione **Iniciar o direcionamento**.
 
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
    >
-   >Antes de começar o direcionamento, adicione os segmentos (**For_Green**, **Para_vermelho**, e **For_Blue**) clicando em **+ Adicionar direcionamento de experiência** do painel lateral como mostrado na figura abaixo.
+   >Antes de começar o direcionamento, adicione os segmentos (**For_Green**, **Para_vermelho**, e **For_Blue**) selecionando **+ Adicionar direcionamento de experiência** do painel lateral como mostrado na figura abaixo.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -113,7 +113,7 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de Inventári
 
 1. **Verificação da visualização**
 
-   1. Clique em **Visualizar.** Além disso, abra a Planilha do Google e atualize o valor.
+   1. Selecionar **Visualizar.** Além disso, abra a Planilha do Google e atualize o valor.
    1. Altere o valor de todas as três colunas diferentes. Observe as atualizações de imagem de exibição de acordo com o valor mais alto no inventário.
 
    ![retail_result](assets/retail_result.gif)

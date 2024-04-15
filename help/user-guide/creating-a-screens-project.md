@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 1%
@@ -29,8 +29,8 @@ Como alternativa, você pode navegar diretamente para: `http://localhost:4502/sc
 ## Criação de um novo projeto do Screens
 
 1. Selecionar **Screens** da sua instância do AEM.
-1. Clique em **Criar projeto do Screens**.
-1. Insira o título como **TestScreens** e clique em **Salvar**.
+1. Selecionar **Criar projeto do Screens**.
+1. Insira o título como **TestScreens** e selecione **Salvar**.
 
 O projeto é criado e o traz de volta ao console Projeto do Screens. Agora você pode selecionar seu projeto.
 
@@ -51,7 +51,7 @@ Em um projeto, há cinco tipos de pastas, como mostrado na figura abaixo:
 
 ## Visualizando propriedades {#viewing-properties}
 
-Depois de criar o projeto do Screens, selecione o projeto e clique em **Propriedades** na barra de ações, para poder editar as propriedades do projeto.
+Depois de criar o projeto do Screens, selecione o projeto e **Propriedades** na barra de ações, para poder editar as propriedades do projeto.
 
 As opções a seguir permitem editar/alterar as propriedades dos **TestScreens**.
 
@@ -63,10 +63,10 @@ Você também pode criar sua própria pasta personalizada em **Agendamentos**, *
 
 Para criar uma pasta personalizada:
 
-1. Selecione o projeto e clique em **Criar** ao lado do ícone de adição na barra de ações.
+1. Selecione seu projeto e **Criar** ao lado do ícone de adição na barra de ações.
 1. A variável **Criar** será aberto e selecione a opção apropriada.
-1. Clique em **Avançar**.
-1. Insira as propriedades e clique em **Criar**.
+1. Selecione **Próximo**.
+1. Insira as propriedades e selecione **Criar**.
 
 As etapas a seguir mostram a criação de uma pasta de aplicativos em seu **Aplicativos** página principal em **TestScreens**.
 

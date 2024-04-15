@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1256'
 ht-degree: 2%
@@ -31,15 +31,15 @@ Depois de criar seu projeto para o AEM Screens, siga as etapas abaixo para criar
 
 1. Navegue até o projeto do Screens e selecione **Canais** pasta.
 
-1. Clique em **Criar** na barra de ações.
+1. Selecionar **Criar** na barra de ações.
 
    ![demchannel](assets/create-channel1.png)
 
-1. Selecione o **Canal de sequência** modelo do **Criar** e clique em **Próxima**.
+1. Selecione o **Canal de sequência** modelo do **Criar** e selecione **Próxima**.
 
    ![demchannel](assets/create-channel2.png)
 
-1. Insira o Título como **ScreensChannel** e clique em **Criar**.
+1. Insira o Título como **ScreensChannel** e selecione **Criar**.
 
    ![demchannel](assets/create-project4.png)
 
@@ -81,7 +81,7 @@ As seguintes opções de modelo estão disponíveis ao usar o assistente, como:
 Para adicionar ou editar conteúdo em um canal, siga as etapas abaixo:
 
 1. Selecione o canal que deseja editar (conforme mostrado na figura acima).
-1. Clique em **Editar** no canto superior esquerdo da barra de ação para que você possa editar as propriedades do canal. O editor é aberto e permite adicionar ativos/componentes ao canal que você deseja publicar.
+1. Selecionar **Editar** no canto superior esquerdo da barra de ação para que você possa editar as propriedades do canal. O editor é aberto e permite adicionar ativos/componentes ao canal que você deseja publicar.
 
 >[!NOTE]
 >Você pode adicionar componentes ao seu canal. Consulte **[Adicionar componentes a um canal](adding-components-to-a-channel.md)** para obter mais detalhes.
@@ -93,7 +93,7 @@ Para adicionar ou editar conteúdo em um canal, siga as etapas abaixo:
 Siga as etapas abaixo para fazer upload de vídeos para seu canal:
 
 1. Selecione o canal no qual deseja fazer upload do vídeo.
-1. Clique em **Editar** na barra de ações.
+1. Selecionar **Editar** na barra de ações.
 1. No editor, selecione **Vídeos** em Ativos e arraste e solte os vídeos necessários.
 
 >[!NOTE]
@@ -101,15 +101,15 @@ Siga as etapas abaixo para fazer upload de vídeos para seu canal:
 
 ### Visualização ou edição das propriedades de um canal {#viewing-properties}
 
-1. Clique no Canal que deseja editar.
-1. Clique em **Propriedades** na barra de ações, para exibir/editar as propriedades do canal. A guia a seguir permite alterar as opções.
+1. Selecione o Canal que deseja editar.
+1. Selecionar **Propriedades** na barra de ações, para exibir/editar as propriedades do canal. A guia a seguir permite alterar as opções.
 
 ![propriedades](assets/properties.gif)
 
 ### Visualizando painel {#viewing-dashboard}
 
 1. Selecione o canal que deseja editar.
-1. Clique em **Painel** na barra de ações.
+1. Selecionar **Painel** na barra de ações.
 
 ![painel](assets/dashboard.gif)
 
@@ -117,7 +117,7 @@ Siga as etapas abaixo para fazer upload de vídeos para seu canal:
 
 O painel Informações do canal descreve as propriedades do canal, juntamente com a pré-visualização do canal. Além disso, fornece informações sobre se o canal está offline ou online.
 
-Clique no botão **..**) do **INFORMAÇÕES DO CANAL** barra de ações para exibir propriedades, editar o conteúdo ou atualizar o cache (conteúdo offline) do canal.
+Selecione o (**..**) do **INFORMAÇÕES DO CANAL** barra de ações para exibir propriedades, editar o conteúdo ou atualizar o cache (conteúdo offline) do canal.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -133,11 +133,11 @@ Siga estas etapas para habilitar essa opção no painel de canal:
 1. **Definir o canal como offline**
    1. Selecione o canal e selecione **Propriedades** na barra de ações
    1. Navegue até **Canal** e certifique-se de desmarcar **Modo de desenvolvedor (forçar canal a ficar online)** opção
-   1. Clique em **Salvar e fechar**
+   1. Selecionar **Salvar e fechar**
 1. **Atualizar conteúdo offline**
    1. Selecione o canal e selecione **Painel** na barra de ações
-   1. Navegue até **INFORMAÇÕES DO CANAL** e clique em *..*
-   1. Clique em **Atualizar conteúdo offline**
+   1. Navegue até **INFORMAÇÕES DO CANAL** e selecione *..*
+   1. Selecionar **Atualizar conteúdo offline**
 
 Você deve ver o **Exibir manifesto** opção no **INFORMAÇÕES DO CANAL** no painel Canal.
 
@@ -161,17 +161,17 @@ Siga as etapas abaixo para tornar o canal online:
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Clique em **Painel** na barra de ações, para que seja possível visualizar o status do reprodutor. A variável **INFORMAÇÕES DO CANAL** O painel fornece informações sobre se o canal está online ou offline.
+   Selecionar **Painel** na barra de ações, para que seja possível visualizar o status do reprodutor. A variável **INFORMAÇÕES DO CANAL** O painel fornece informações sobre se o canal está online ou offline.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
-1. Clique em **Propriedades** na barra de ações e navegue até a guia **Canal** conforme mostrado abaixo:
+1. Selecionar **Propriedades** na barra de ações e navegue até a guia **Canal** conforme mostrado abaixo:
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
 1. Verifique a **Desenvolvedor** **(forçar canal a ficar online)** para tornar o canal online.
 
-   Clique em **Salvar e fechar** para salvar sua opção.
+   Selecionar **Salvar e fechar** para salvar sua opção.
 
    ![screen_shot_2019-08-01at31658pm](assets/screen_shot_2019-08-01at31658pm.png)
 
@@ -180,7 +180,7 @@ Siga as etapas abaixo para tornar o canal online:
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->Para configurar seu canal novamente como offline, desmarque a opção Developer mode na **Propriedades** (conforme mostrado na etapa 3). Em seguida, do **INFORMAÇÕES DO CANAL** clique no painel **Atualizar conteúdo offline**, conforme mostrado na figura abaixo.
+>Para configurar seu canal novamente como offline, desmarque a opção Developer mode na **Propriedades** (conforme mostrado na etapa 3). Em seguida, do **INFORMAÇÕES DO CANAL** seleção do painel **Atualizar conteúdo offline**, conforme mostrado na figura abaixo.
 
 ![dashboard2](assets/dashboard2.gif)
 
@@ -239,7 +239,7 @@ As exibições associadas estão listadas no **Exibições atribuídas** como mo
 >* [Criar e gerenciar exibições](managing-displays.md)
 >
 
-Além disso, clique na exibição no **EXIBIÇÕES ATRIBUÍDAS** para exibir as informações de exibição, conforme mostrado abaixo:
+Além disso, selecione a exibição no campo **EXIBIÇÕES ATRIBUÍDAS** para exibir as informações de exibição, conforme mostrado abaixo:
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 

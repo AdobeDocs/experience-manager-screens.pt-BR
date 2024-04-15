@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -46,17 +46,17 @@ Siga as etapas do caso de uso abaixo para implementar a ativação de reserva de
 1. **Configuração dos segmentos em Públicos-alvo de acordo com os requisitos**
 
    1. Navegue até os segmentos no seu público-alvo (Consulte ***Etapa 2: Configuração da segmentação de público*** in **[Configuração do ContextHub no AEM Screens](configuring-context-hub.md)** para obter mais detalhes).
-   1. Selecione o **Folhas A1 1** e clique em **Editar**.
-   1. Selecione a propriedade da comparação e clique no link **Configuração** ícone.
+   1. Selecione o **Folhas A1 1** e selecione **Editar**.
+   1. Selecione a propriedade de comparação e selecione o **Configuração** ícone.
    1. Selecionar **googlesheets/value/1/2** no menu suspenso em **Nome da propriedade**.
    1. Selecione o **Operador** as **igual** no menu suspenso.
    1. Insira o **Valor** as **1**.
-   1. Da mesma forma, selecione o **Folhas A1 2** e clique em **Editar**.
-   1. Selecione a propriedade da comparação e clique no link **Configuração** ícone.
+   1. Da mesma forma, selecione o **Folhas A1 2** e selecione **Editar**.
+   1. Selecione a propriedade de comparação e selecione o **Configuração** ícone.
    1. Selecionar **googlesheets/value/1/2** no menu suspenso em **Nome da propriedade**.
    1. Selecione o **Operador** as **2**.
 
-1. Navegue e selecione seu canal () e clique em **Editar** na barra de ações. No exemplo a seguir, **DataDrivenRestaurant**, um canal sequencial é usado para mostrar a funcionalidade.
+1. Navegue e selecione seu canal () e selecione **Editar** na barra de ações. No exemplo a seguir, **DataDrivenRestaurant**, um canal sequencial é usado para mostrar a funcionalidade.
 
    >[!NOTE]
    >
@@ -70,10 +70,10 @@ Siga as etapas do caso de uso abaixo para implementar a ativação de reserva de
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Selecionar **Direcionamento** no editor e selecione **Marca** e a variável **Atividade** no menu suspenso e clique em **Iniciar o direcionamento**.
+1. Selecionar **Direcionamento** no editor e selecione **Marca** e a variável **Atividade** no menu suspenso e selecione **Iniciar o direcionamento**.
 1. **Verificação da visualização**
 
-   1. Clique em **Visualizar.** Além disso, abra as Google Sheets e atualize o valor.
+   1. Selecionar **Visualizar.** Além disso, abra as Google Sheets e atualize o valor.
    1. Atualizar o valor em **`Restaurant1`** e **`Restaurant2`** colunas. Se **`Restaurant1`** > **`Restaurant2`,** você deve conseguir visualizar uma imagem de *Bife* alimentos de outro modo, *Tailandês* a imagem dos alimentos é exibida no seu ecrã.
 
    ![resultado5](assets/result5.gif)

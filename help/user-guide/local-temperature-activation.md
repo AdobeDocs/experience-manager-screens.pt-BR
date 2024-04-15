@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -46,25 +46,25 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de temperatur
 
    1. Navegue até os segmentos no seu público-alvo (Consulte ***Etapa 2: Configuração da segmentação de público*** in **[Configuração do ContextHub no AEM Screens](configuring-context-hub.md)** para obter mais detalhes).
 
-   1. Selecione o **Folhas A1 1** e clique em **Editar**.
+   1. Selecione o **Folhas A1 1** e selecione **Editar**.
 
-   1. Selecione a propriedade de comparação e clique no ícone de configuração.
+   1. Selecione a propriedade de comparação e selecione o ícone de configuração.
    1. Selecionar **googlesheets/value/1/0** no menu suspenso em **Nome da propriedade**
 
    1. Selecione o **Operador** as **maior que ou igual** no menu suspenso
 
    1. Insira o **Valor** as **50**
 
-   1. Da mesma forma, selecione o **Folhas A1 2** e clique em **Editar**.
+   1. Da mesma forma, selecione o **Folhas A1 2** e selecione **Editar**.
 
-   1. Selecione o **Propriedade de comparação - Valor** e clique no ícone de configuração.
+   1. Selecione o **Propriedade de comparação - Valor** e selecione o ícone de configuração.
    1. Selecionar **googlesheets/value/1/0** no menu suspenso em **Nome da propriedade**
 
    1. Selecione o **Operador** as **menor que** no menu suspenso
 
    1. Insira o **Valor** as **50**
 
-1. Navegue e selecione seu canal () e clique em **Editar** na barra de ações. No exemplo a seguir, **DataDrivenWeather**, um canal sequencial é usado para mostrar a funcionalidade.
+1. Navegue e selecione seu canal () e selecione **Editar** na barra de ações. No exemplo a seguir, **DataDrivenWeather**, um canal sequencial é usado para mostrar a funcionalidade.
 
    >[!NOTE]
    >
@@ -78,13 +78,13 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de temperatur
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Selecionar **Direcionamento** no editor e selecione **Marca** e a variável **Atividade** no menu suspenso e clique em **Iniciar o direcionamento**.
+1. Selecionar **Direcionamento** no editor e selecione **Marca** e a variável **Atividade** no menu suspenso e selecione **Iniciar o direcionamento**.
 
    ![new_activity3](assets/new_activity3.gif)
 
 1. **Verificação da visualização**
 
-   1. Clique em **Visualizar.** Além disso, abra a Planilha do Google e atualize o valor.
+   1. Selecionar **Visualizar.** Além disso, abra a Planilha do Google e atualize o valor.
    1. Altere o valor para menos de 50. Você deve ser capaz de ver uma imagem de uma bebida fria. Se o valor no Google Sheets for 50 ou superior, você deverá ver uma imagem de uma bebida quente.
 
    ![resultado3](assets/result3.gif)

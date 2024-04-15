@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -58,16 +58,16 @@ Siga as etapas abaixo para criar e usar o workflow:
 Siga as etapas abaixo para criar um fluxo de trabalho para seu vídeo:
 
 1. Navegue até a instância do AEM.
-1. Clique em Ferramentas no painel lateral.
+1. Selecione ferramentas no painel lateral.
 1. Selecionar **Fluxo de trabalho** > **Modelos** para que você possa criar um modelo.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Clique em **Modelos** > **Criar** > **Criar modelo**. Insira o **Título** (como **RepresentaçãoDeVídeo**) e **Nome** no **Adicionar modelo de fluxo de trabalho**. Clique em **Concluído** para adicionar o modelo de workflow.
+1. Selecionar **Modelos** > **Criar** > **Criar modelo**. Insira o **Título** (como **RepresentaçãoDeVídeo**) e **Nome** no **Adicionar modelo de fluxo de trabalho**. Selecionar **Concluído** para adicionar o modelo de workflow.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. Depois de criar o modelo de fluxo de trabalho, selecione o modelo (**RepresentaçãoDeVídeo**) e clique em **Editar** na barra de ações.
+1. Depois de criar o modelo de fluxo de trabalho, selecione o modelo (**RepresentaçãoDeVídeo**) e selecione **Editar** na barra de ações.
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
@@ -87,11 +87,11 @@ Siga as etapas abaixo para criar um fluxo de trabalho para seu vídeo:
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
 1. Selecione o workflow (**RepresentaçõesDeVídeo**).
-1. Clique em **Iniciar fluxo de trabalho** na barra de ações.
+1. Selecionar **Iniciar fluxo de trabalho** na barra de ações.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. No **Executar fluxo de trabalho** , selecione o caminho do ativo na caixa de diálogo **Carga** (como ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) e insira o **Título** as ***ExecutarVídeo*** e clique em **Executar**.
+1. No **Executar fluxo de trabalho** , selecione o caminho do ativo na caixa de diálogo **Carga** (como ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) e insira o **Título** as ***ExecutarVídeo*** e selecione **Executar**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -103,11 +103,11 @@ Siga as etapas abaixo para usar o fluxo de trabalho em seu projeto do AEM Screen
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
-1. Clique em **Editar** na barra de ações. Arraste e solte o vídeo carregado inicialmente **Assets**.
+1. Selecionar **Editar** na barra de ações. Arraste e solte o vídeo carregado inicialmente **Assets**.
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. Depois de carregar o vídeo, clique em **Visualizar** para visualizar a saída.
+1. Depois de carregar o vídeo, selecione **Visualizar** para visualizar a saída.
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 

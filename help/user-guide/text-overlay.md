@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 1%
@@ -58,11 +58,11 @@ A imagem a seguir mostra o **DemonstraçãoDeSobreposiçãoDeTexto** projeto com
 
 Siga as etapas abaixo para usar a sobreposição de texto em um canal do AEM Screens:
 
-1. Navegue até **DemonstraçãoDeSobreposiçãoDeTexto** > **Canais** > **TextSample** e clique em **Editar** na barra de ações.
+1. Navegue até **DemonstraçãoDeSobreposiçãoDeTexto** > **Canais** > **TextSample** e selecione **Editar** na barra de ações.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Selecione a imagem e clique em **Configurar** (ícone de chave inglesa) para abrir a caixa de diálogo de propriedades.
+1. Selecione a imagem e **Configurar** (ícone de chave inglesa) para abrir a caixa de diálogo de propriedades.
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
@@ -114,7 +114,7 @@ Depois de definir as configurações necessárias para o seu projeto, siga as et
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navegue até **DemonstraçãoDeSobreposiçãoDeTexto** > **Canais** > **TextSample** e clique em **Editar** na barra de ações.
+1. Navegue até **DemonstraçãoDeSobreposiçãoDeTexto** > **Canais** > **TextSample** e selecione **Editar** na barra de ações.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
@@ -129,7 +129,7 @@ Depois de definir as configurações necessárias para o seu projeto, siga as et
    >[!NOTE]
    >Se você não definiu a configuração do ContextHub, essa opção estará desativada para o seu projeto.
 
-1. Enter **Valor** no **Espaço reservado** campo. Selecione a linha na qual você deseja obter o valor da sua planilha do Google **Variável do ContextHub**. Nesse caso, o valor é recuperado da linha 2 e da coluna 1 das planilhas Google. Agora, insira o **Valor padrão** as **20**, como mostrado na figura abaixo. Quando terminar, clique na marca de seleção.
+1. Enter **Valor** no **Espaço reservado** campo. Selecione a linha na qual você deseja obter o valor da sua planilha do Google **Variável do ContextHub**. Nesse caso, o valor é recuperado da linha 2 e da coluna 1 das planilhas Google. Agora, insira o **Valor padrão** as **20**, como mostrado na figura abaixo. Quando terminar, marque a marca de seleção.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
