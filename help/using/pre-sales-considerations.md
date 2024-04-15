@@ -1,12 +1,10 @@
 ---
 title: Considerações quanto ao escopo dos projetos
-seo-title: Considerations as Projects are Scoped
-description: A página descreve as considerações à medida que os projetos têm escopo
-seo-description: The page describes Considerations as Projects are Scoped
+description: Saiba mais sobre o escopo das considerações de um projeto do AEM Screens.
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 0%
 >Uma parte interessada típica dessa atividade é um estrategista de marketing/negócios.
 
 Esse estágio inclui todas as iniciativas de pré-venda e detecção necessárias para definir totalmente o escopo do projeto. O trabalho feito durante o Dia Zero define o tom para o restante do projeto e influencia o sucesso geral do aplicativo que está sendo construído.
-Nesta fase, os principais fornecedores são identificados e reunidos para ajudar a formular o plano do projeto. Durante esse estágio, é importante que a adesão também seja estabelecida com os principais participantes do projeto na empresa cliente, como executivos de vendas, gerentes de marketing e equipes de TI, pois todos terão um papel importante a desempenhar no desenvolvimento do aplicativo e em sua manutenção contínua.
+Nesta fase, os principais fornecedores são identificados e reunidos para ajudar a formular o plano do projeto. Durante esta fase, é importante que a adesão também seja estabelecida com as principais partes interessadas do projeto na empresa cliente. Essas partes interessadas incluem executivos de vendas, gerentes de marketing e equipes de TI. Todas estas pessoas têm um papel importante a desempenhar no desenvolvimento da aplicação e na sua manutenção contínua.
 
 ## Principais resultados práticos {#key-deliverables}
 
@@ -31,6 +29,6 @@ Os principais resultados incluem:
 
 >[!NOTE]
 >
->Identifique os dados que serão necessários para o aplicativo e de onde eles vêm o mais rápido possível. Embora uma exploração mais profunda ocorra durante a implementação, reserve um tempo durante *Dia Zero* para descobrir quais dados o cliente pretende usar, onde esses dados estão armazenados no momento e como eles podem ser acessados pelo aplicativo que está sendo criado. Notificar a equipe de desenvolvimento antecipadamente sobre os desafios que podem surgir ajudará a tornar a implementação mais tranquila.
+>Identifique os dados necessários para o aplicativo e sua origem o mais rápido possível. Uma exploração mais profunda ocorre durante a implementação. No entanto, tenha certeza de que você terá tempo durante *Dia Zero* para descobrir quais dados o cliente pretende usar. Descubra onde esses dados estão armazenados atualmente e como eles podem ser acessados pelo aplicativo que está sendo criado. Notificar a equipe de desenvolvimento antes que surjam desafios ajuda a tornar uma implementação mais tranquila.
 
-Veja o tutorial em vídeo sobre [Considerações quanto ao escopo dos projetos](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) para obter mais informações.
+Consulte o tutorial em vídeo [&quot;Considerações quanto ao escopo dos projetos&quot;](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).

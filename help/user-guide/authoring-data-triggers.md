@@ -1,14 +1,13 @@
 ---
 title: Criação com acionadores de dados
-seo-title: Authoring with Data Triggers
-description: Siga esta página para saber como criar com acionadores de dados.
+description: Saiba mais sobre como criar com acionadores de dados em um canal do AEM Screens.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
@@ -50,11 +49,11 @@ Siga as etapas abaixo para ativar o direcionamento em seus canais.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Selecione o **Personalização** para definir as configurações do ContextHub e selecionar o caminho do ContextHub e Segmentos.
+1. Selecione o **Personalização** para poder definir as configurações do ContextHub e selecionar o caminho do ContextHub e dos Segmentos.
 
    1. Selecione o **Caminho do ContextHub** as **libs** > **configurações** > **cloudsettings** > **padrão** > **Configurações do ContextHub** e clique em **Selecionar**.
 
-   1. Selecione o **Caminho de segmentos** as **conf** > **We.Retail** > **configurações** > **wcm** > **segmentos** e clique em **Selecionar**.
+   1. Selecione o **Caminho de segmentos** as **conf** > **`We.Retail`** > **configurações** > **wcm** > **segmentos** e clique em **Selecionar**.
 
    1. Clique em **Salvar e fechar**.
 

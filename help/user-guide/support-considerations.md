@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -37,25 +37,25 @@ O planejamento inclui:
 * Solucionar falhas de hardware, software ou conectividade
 * Equilíbrio entre os custos de resolução de problemas e os requisitos de negócios do cliente final.
 * Identificação do melhor método para corrigir problemas na rede.
-* Alinhamento entre o Implementador AEM e o Integrador de AV no estabelecimento de planos de suporte do dia 2
+* Alinhamento entre o Implementador AEM e o Integrador de áudio/vídeo no estabelecimento dos planos de suporte do dia 2
 
 ## Resumo das principais considerações envolvidas no suporte do dia 2 {#summary-of-key-considerations-involved-in-day-support}
 
 A seguir estão algumas considerações importantes para o Suporte do segundo dia:
 
-* Para garantir alinhamento e transição suave da implementação para o suporte operacional, o Implementador do AEM trabalha com o Integrador de AV para garantir que os scripts de suporte apropriados sejam definidos como parte do plano de Suporte do Dia 2.
-* Requisitos como gerenciamento remoto de dispositivos, disponibilidade de Help Desk e suporte técnico no local são praticamente fornecidos neste estágio da evolução do setor de sinalização digital. Além dessa necessidade básica, os integradores de AV também devem explorar as variáveis de custo entre o monitoramento pró-ativo vs. reativo e os modelos de suporte.
+* Para garantir alinhamento e transição suave da implementação para o suporte operacional, o Implementador do AEM trabalha com o Integrador de áudio/vídeo para garantir que os scripts de suporte apropriados sejam definidos como parte do plano de Suporte do Dia 2.
+* Requisitos como gerenciamento remoto de dispositivos, disponibilidade de Help Desk e suporte técnico no local são praticamente fornecidos neste estágio da evolução do setor de sinalização digital. Além dessa necessidade básica, os integradores de áudio/vídeo também devem explorar as variáveis de custo entre o monitoramento pró-ativo vs. reativo e os modelos de suporte.
 
-* Requisitos como gerenciamento remoto de dispositivos, disponibilidade de Help Desk e suporte técnico no local são praticamente fornecidos neste estágio da evolução do setor de sinalização digital. Além dessa necessidade básica, os integradores de AV também devem explorar as variáveis de custo entre o monitoramento pró-ativo vs. reativo e os modelos de suporte.
-* Para se preparar para o sucesso a longo prazo, é fundamental estabelecer um Contrato de nível de suporte do Dia 2 (também chamado de &quot;S.L.A.&quot;) em parceria com o Integrador de AV. Os SLAs detalham os serviços de suporte pós-implantação e ajudam a definir as expectativas do cliente.
+* Requisitos como gerenciamento remoto de dispositivos, disponibilidade de Help Desk e suporte técnico no local são praticamente fornecidos neste estágio da evolução do setor de sinalização digital. Além dessa necessidade básica, os integradores de áudio/vídeo também devem explorar as variáveis de custo entre o monitoramento pró-ativo vs. reativo e os modelos de suporte.
+* Para se preparar para o sucesso a longo prazo, é fundamental estabelecer um Contrato de nível de suporte do Dia 2 (também chamado de &quot;S.L.A.&quot;) em parceria com o Integrador de áudio/vídeo. Os SLAs detalham os serviços de suporte pós-implantação e ajudam a definir as expectativas do cliente.
 * Um recurso-chave usado no gerenciamento bem-sucedido de várias redes é a Base de conhecimento. O SharePoint é uma plataforma popular para esse tipo de recurso. A Base de conhecimento inclui perguntas e respostas pré-programadas que os agentes NOC devem seguir, garantindo que as solicitações de resolução de problemas de entrada sejam tratadas de maneira consistente. As bases de conhecimento geralmente incluem materiais de referência para configurações de sistema e locais, incluindo folhas de material para hardware e materiais de referência para software de sistemas.
 * Os recursos de monitoramento e gerenciamento dependem muito dos sistemas operacionais do reprodutor de mídia e dos recursos de tela. Os sistemas operacionais Windows oferecem o maior nível de detalhes. Para implantações executadas em dispositivos Android™ ou iOS, é empregado o Gerenciamento de dispositivos móveis (também conhecido como MDM).
 * Alguns fabricantes de telas oferecem a capacidade de monitorar telas independentemente dos Media Players, enquanto outros precisam de um dispositivo externo.
-* Os integradores de AV usam uma combinação de tecnologias, de modo que as soluções permanecem flexíveis para atender melhor às necessidades do cliente final.
+* Os integradores de áudio/vídeo usam uma combinação de tecnologias, de modo que as soluções permanecem flexíveis para atender melhor às necessidades do cliente final.
 
 ## Parte 5: Tutorial em vídeo sobre considerações de suporte {#part-video-tutorial-on-support-considerations}
 
-Siga este tutorial de conclusão para um tutorial de 5 partes abaixo que enfatiza a garantia do alinhamento e a transição suave da implementação para o suporte operacional. Ele também explica como um Implementador de AEM deve trabalhar com o Integrador de AV para garantir scripts de suporte apropriados que são definidos como parte do plano de Suporte do Dia 2.
+Siga este tutorial de conclusão para um tutorial de 5 partes abaixo que enfatiza a garantia do alinhamento e a transição suave da implementação para o suporte operacional. Ele também explica como um Implementador de AEM deve trabalhar com o Integrador de áudio/vídeo para garantir scripts de suporte apropriados que sejam definidos como parte do plano de Suporte do Dia 2.
 
 ### Considerações sobre o projeto
 

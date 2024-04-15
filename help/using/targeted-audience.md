@@ -1,23 +1,21 @@
 ---
 title: Público-alvo
-seo-title: Target Audience for AEM Screens
-description: A página descreve quem são os públicos-alvo do Guia de práticas recomendadas do AEM Screens
-seo-description: The page describes who are the target audience for AEM Screens Best Practices Guide
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+description: Saiba mais sobre quem são os públicos-alvo do Guia de práticas recomendadas do AEM Screens.
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
 
 # Público-alvo {#target-audience}
 
-Como um implementador de AEM experiente, provavelmente você já viu funções conhecidas como *Autores*, *Desenvolvedores* e *TI/Técnicos*.
+Como um implementador de AEM experiente, provavelmente você já viu funções conhecidas como *Autores*, *Desenvolvedores*, e *TI/Técnicos*.
 
 Em um projeto AEM Screens típico, as funções são refinadas, pois cada uma serve a um propósito importante no projeto.
 
-O diagrama abaixo mostra as funções que veremos em todo o guia.
+O diagrama abaixo mostra as funções que você pode esperar ver em todo o guia.
 
 ![](/help/assets/roles-used.png)
 
@@ -38,13 +36,13 @@ Os implementadores de AEM são responsáveis por executar tarefas de desenvolvim
 
 Os recursos personalizados necessários para lidar com parâmetros UX (experiência do usuário) do cliente final também são capturados e entregues por meio desse processo.
 
-Os implementadores de AEM normalmente implantarão a funcionalidade personalizada em fases ao longo do tempo nos locais. Por exemplo, eles podem primeiro estabelecer suporte para a reprodução de vídeo em loop básico ou conteúdo gráfico estático. A próxima fase pode incluir a capacidade de suportar a reprodução de conteúdo localizado por meio de modelos dinâmicos e tags de metadados, com fases adicionais incorporando suporte para elementos interativos via telas de toque, sensores, acionadores dinâmicos e assim por diante.
+Os implementadores de AEM normalmente implantarão a funcionalidade personalizada em fases ao longo do tempo nos locais. Por exemplo, eles podem primeiro estabelecer suporte para a reprodução de vídeo em loop básico ou conteúdo gráfico estático. A próxima fase inclui a capacidade de oferecer suporte à reprodução de conteúdo localizado por meio de modelos dinâmicos e tags de metadados, com outras fases que incorporam suporte a elementos interativos via telas sensíveis ao toque, sensores, acionadores dinâmicos e assim por diante.
 
-### Integradores de AV {#av-integrators}
+### Integradores de áudio/vídeo {#av-integrators}
 
-O Integrador de A/V é o fornecedor/parceiro de hardware. Essa é a parte que lida com design de varejo e preparação de sites, incluindo aquisição, configuração e implantação de hardware. Normalmente, é um terceiro contratado que tem acesso a um NOC (Network Operations Center, centro de operações de rede). Em muitos casos, o Integrador de A/V é o proprietário do projeto devido ao seu envolvimento contínuo após o lançamento.
+O integrador de áudio/vídeo é o fornecedor/parceiro de hardware. Essa é a parte que lida com design de varejo e preparação de sites, incluindo aquisição, configuração e implantação de hardware. Normalmente, é um terceiro contratado que tem acesso a um NOC (Network Operations Center, centro de operações de rede). Muitas vezes, o Integrador de áudio/vídeo é o proprietário do projeto devido ao seu envolvimento contínuo após o lançamento.
 
-Um Integrador de AV é responsável pela realização de descobertas com os clientes finais para definir os requisitos que determinam o escopo do projeto para projetar, criar e gerenciar com eficácia implantações em torno de hardware de sinalização digital.
+Um Integrador de áudio/vídeo é responsável por conduzir a detecção com clientes finais para definir os requisitos que determinam o escopo do projeto para projetar, criar e gerenciar com eficiência implantações em torno de hardware de sinalização digital.
 
 ### Estrategista de negócios {#business-strategist}
 
@@ -64,7 +62,7 @@ O gerenciamento de criação e conteúdo pode ser um dos seguintes:
 
 ### Gerentes de projeto {#project-managers}
 
-Os gerentes de projeto normalmente gerenciam toda a implantação da sua implantação do AEM Screens. Um gerente de projeto é a pessoa certa para toda a implementação do projeto designado e executa responsabilidades importantes, como definir cronogramas, lidar com as necessidades e comunicações da equipe, enfrentar desafios e garantir que as metas sejam atingidas.
+Os gerentes de projeto normalmente gerenciam toda a implantação da sua implantação do AEM Screens. Um gerente de projeto é a pessoa responsável por toda a implementação do projeto designado. Eles executam responsabilidades importantes, como definir cronogramas, lidar com as necessidades e comunicações da equipe, enfrentar desafios e garantir que as metas sejam atendidas.
 
 >[!NOTE]
->Para saber mais detalhes sobre as diferentes funções e responsabilidades e o público-alvo de um projeto de sinalização digital, visite **[Funções e responsabilidades do projeto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Para saber mais detalhes sobre as diferentes funções e responsabilidades e o público-alvo de um projeto de sinalização digital, consulte **[Funções e responsabilidades do projeto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.

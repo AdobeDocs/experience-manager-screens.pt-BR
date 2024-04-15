@@ -1,23 +1,21 @@
 ---
 title: Funções e responsabilidades do projeto AEM Screens
-seo-title: AEM Screens Project Roles  and Responsibilities
-description: A página descreve as Funções e Responsabilidades do Projeto AEM Screens
-seo-description: The page describes AEM Screens Project Roles  and Responsibilities
+description: Saiba mais sobre as funções e responsabilidades do projeto AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 4%
+source-wordcount: '1241'
+ht-degree: 0%
 
 ---
 
 # Funções e responsabilidades do projeto {#roles-responsibilities}
 
-Como um implementador de AEM experiente, provavelmente você já viu funções conhecidas como *Autores*, *Desenvolvedores* e *TI/Técnicos*.
+Como um implementador de AEM experiente, provavelmente você já viu funções conhecidas como *Autores*, *Desenvolvedores*, e *TI/Técnicos*.
 
 Em um projeto AEM Screens típico, as funções são refinadas, pois cada uma serve a um propósito importante no projeto.
 
-O diagrama abaixo mostra as funções que veremos em todo o guia.
+O diagrama a seguir mostra as funções que você pode esperar em todo o guia.
 
 ![](/help/assets/project-roles-revised.png)
 
@@ -39,13 +37,13 @@ Os implementadores de AEM são responsáveis por executar tarefas de desenvolvim
 
 Os recursos personalizados necessários para lidar com parâmetros UX (experiência do usuário) do cliente final também são capturados e entregues por meio desse processo.
 
-Os implementadores de AEM normalmente implantarão a funcionalidade personalizada em fases ao longo do tempo nos locais. Por exemplo, eles podem primeiro estabelecer suporte para a reprodução de vídeo em loop básico ou conteúdo gráfico estático. A próxima fase pode incluir a capacidade de suportar a reprodução de conteúdo localizado por meio de modelos dinâmicos e tags de metadados, com fases adicionais incorporando suporte para elementos interativos via telas de toque, sensores, acionadores dinâmicos e assim por diante.
+Os implementadores de AEM normalmente implantarão a funcionalidade personalizada em fases ao longo do tempo nos locais. Por exemplo, eles podem primeiro estabelecer suporte para a reprodução de vídeo em loop básico ou conteúdo gráfico estático. A próxima fase inclui a capacidade de oferecer suporte à reprodução de conteúdo localizado por meio de modelos dinâmicos e tags de metadados, com outras fases que incorporam suporte a elementos interativos via telas sensíveis ao toque, sensores, acionadores dinâmicos e assim por diante.
 
-### Integradores de AV {#av-integrators}
+### Integradores de áudio/vídeo {#av-integrators}
 
-O Integrador de A/V é o fornecedor/parceiro de hardware. Essa é a parte que lida com design de varejo e preparação de sites, incluindo aquisição, configuração e implantação de hardware. Normalmente, é um terceiro contratado que tem acesso a um NOC (Network Operations Center, centro de operações de rede). Em muitos casos, o Integrador de A/V é o proprietário do projeto devido ao seu envolvimento contínuo após o lançamento.
+O integrador de áudio/vídeo é o fornecedor/parceiro de hardware. Essa é a parte que lida com design de varejo e preparação de sites, incluindo aquisição, configuração e implantação de hardware. Normalmente, é um terceiro contratado que tem acesso a um NOC (Network Operations Center, centro de operações de rede). Muitas vezes, o Integrador de áudio/vídeo é o proprietário do projeto devido ao seu envolvimento contínuo após o lançamento.
 
-Um Integrador de AV é responsável pela realização de descobertas com os clientes finais para definir os requisitos que determinam o escopo do projeto para projetar, criar e gerenciar com eficácia implantações em torno de hardware de sinalização digital.
+Um Integrador de áudio/vídeo é responsável por conduzir a detecção com os clientes finais para definir os requisitos que determinam o escopo do projeto para projetar, criar e gerenciar com eficiência as implantações em torno do hardware de sinalização digital.
 
 #### Considerar parceiro de hardware {#selecting-hardware-partner}
 
@@ -55,9 +53,9 @@ Um Integrador de AV é responsável pela realização de descobertas com os clie
 
 1. O que é cobertura global?
 
-1. É suporte 24 horas?
+1. É um suporte 24 horas?
 
-1. Como os dispositivos serão gerenciados?
+1. Como os dispositivos são gerenciados?
 
 1. Quais são os sistemas ativos de monitoramento e aviso?
 
@@ -79,26 +77,26 @@ O gerenciamento de criação e conteúdo pode ser o seguinte:
 
 ### Gerentes de projeto {#project-managers}
 
-Os gerentes de projeto normalmente gerenciam toda a implantação da sua implantação do AEM Screens. Um gerente de projeto é a pessoa certa para toda a implementação do projeto designado e executa responsabilidades importantes, como definir cronogramas, lidar com as necessidades e comunicações da equipe, enfrentar desafios e garantir que as metas sejam atingidas.
+Os gerentes de projeto normalmente gerenciam toda a implantação da sua implantação do AEM Screens. Um gerente de projeto é a pessoa responsável por toda a implementação do projeto designado. Eles executam responsabilidades importantes, como definir cronogramas, lidar com as necessidades e comunicações da equipe, enfrentar desafios e garantir que as metas sejam atendidas.
 
 >[!NOTE]
 >
->Para saber mais detalhes sobre as diferentes funções e responsabilidades e o público-alvo de um projeto de sinalização digital, visite **[Funções e responsabilidades do projeto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Para saber mais detalhes sobre as diferentes funções e responsabilidades e o público-alvo de um projeto de sinalização digital, visite **[Funções e responsabilidades do projeto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
 
 
 ## Estágios do Projeto {#project-stages}
 
-Para oferecer suporte a uma implantação de Sinalização digital bem-sucedida, é comum segmentar o projeto em 3 estágios.  Essas etapas são comumente chamadas de **Dias**. Esses não são dias literais, mas designações para cada estágio principal do projeto.
+Para oferecer suporte a uma implantação bem-sucedida da Sinalização digital, é comum segmentar o projeto em três estágios. Essas etapas são comumente chamadas de **Dias**. Esses não são dias literais, mas designações para cada estágio principal do projeto.
 
-1. A primeira fase é designada por *Dia Zero*. Esse estágio inclui todas as iniciativas de pré-venda e detecção necessárias para definir totalmente o escopo do projeto.
+1. A primeira fase é designada por *Dia Zero*. Esse estágio inclui todas as iniciativas de pré-venda e detecção necessárias para definir totalmente o escopo do projeto.
 1. A segunda fase, *Primeiro dia*, refere-se a todas as atividades incluídas no esforço de implantação.
 1. Quanto à terceira e última fase *Dia dois* refere-se a todas as operações em andamento e aos elementos de suporte como parte da solução total.
 
 >[!NOTE]
 >
->Embora este guia enfatize principalmente o *Primeiro Dia* e o *Segundo dia*, é necessário prestar atenção aos três estágios para executar um projeto bem-sucedido de sinalização digital.
+>Embora este guia enfatize principalmente *Primeiro dia* e *Dia dois* No entanto, é necessário prestar atenção aos três estágios para executar um projeto bem-sucedido de sinalização digital.
 >
->Siga um vídeo adicional em **[Gerenciamento e implantação de projetos](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** para saber mais sobre a pré-produção, o início e a progressão do projeto.
+>Para saber mais sobre a pré-produção, o início e o progresso do projeto, assista a um vídeo sobre **[Gerenciamento e implantação de projetos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
 
 ## Gráfico RACI {#raci-chart}
 
@@ -106,7 +104,7 @@ Veja a seguir um exemplo de gráfico RACI usando as definições de função.
 
 >[!NOTE]
 >
->Este gráfico não tem a intenção de ser seguido com exatidão, mas fornecer um exemplo de tarefas e considerações comuns em projetos do AEM Screens.
+>Não é necessário seguir o gráfico exatamente. Em vez disso, ele tem como objetivo fornecer um exemplo de tarefas e considerações comuns em um projeto do AEM Screens.
 
 ### Definições de RACI {#raci-definitions}
 
@@ -122,7 +120,7 @@ Este é um exemplo de gráfico RACI usando as definições de função e fornece
 
 A tabela a seguir resume as **Dia Zero: Considerações sobre pré-vendas**:
 
-| **Fase** | **Integrador de A/V** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
+| **Fase** | **Integrador de áudio/vídeo** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
 |---|---|---|---|---|
 | Formação de Equipe e Seleção de Fornecedor | I | I | RA | RA |
 | Acordo sobre Funções e Responsabilidades | RA | RA | RA | RA |
@@ -134,7 +132,7 @@ A tabela a seguir resume as **Dia Zero: Considerações sobre pré-vendas**:
 
 A tabela a seguir resume as **Primeiro dia: implementação do projeto (projeto de aplicativo)**:
 
-| **Fase** | **Integrador de A/V** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
+| **Fase** | **Integrador de áudio/vídeo** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
 |---|---|---|---|---|
 | Acordo sobre Funções e Responsabilidades | RA | RA | RA | RA |
 | Alinhamento com o plano e o agendamento do projeto | RA | RA | C | C |
@@ -154,7 +152,7 @@ A tabela a seguir resume as **Primeiro dia: implementação do projeto (projeto 
 
 A tabela a seguir resume as **Primeiro dia: implementação do projeto (disponibilidade de varejo)**:
 
-| **Fase** | **Integrador de A/V** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
+| **Fase** | **Integrador de áudio/vídeo** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
 |---|---|---|---|---|
 | Solicitação e armazenamento de hardware | RA | I | I | I |
 | Agendamento de integração de varejo | I | I | C | RA |
@@ -164,12 +162,12 @@ A tabela a seguir resume as **Primeiro dia: implementação do projeto (disponib
 
 A tabela a seguir resume as **Primeiro dia: primeiro dia: implementação do projeto (hardware)**:
 
-| **Fase** | **Integrador de A/V** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
+| **Fase** | **Integrador de áudio/vídeo** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
 |---|---|---|---|---|
 | Acordo sobre Funções e Responsabilidades | RA | RA | RA | RA |
 | O projeto de varejo inclui operações de fiação | - | - | - | - |
 | Seleção do hardware do player | RAC | - | - | - |
-| Gerenciamento de dispositivo do mestre | RA | I | - | - |
+| Gerenciamento de dispositivos do principal | RA | I | - | - |
 | Ordenação, armazenamento e configuração do dispositivo | RA | IC | I | - |
 | Definição do processo de suporte | RA | I | RA | C |
 
@@ -181,7 +179,7 @@ A tabela a seguir resume as **Primeiro dia: primeiro dia: implementação do pro
 
 * **Desenvolvedor**: normalmente um membro da equipe de implementação do AEM Screens ou uma transferência para a equipe interna de desenvolvimento
 
-* **Técnico**: contratado pelo integrador de AV ou faz parte da mesma empresa.
+* **Técnico**: contratado pelo integrador de áudio/vídeo ou faz parte da mesma empresa.
 
 A tabela a seguir resume as **Dia dois: gráfico RACI de suporte pós-lançamento**:
 
@@ -193,4 +191,4 @@ A tabela a seguir resume as **Dia dois: gráfico RACI de suporte pós-lançament
 | Suporte de nível 2 | I | C | RA |
 | Suporte de nível 3 | I | RA | C |
 | Atualização de conteúdo | RA | I | I |
-| Avaliar o sucesso do UX e identificar áreas de melhorias | RA | C | I |
+| Avaliar o sucesso do UX e identificar áreas de aprimoramento | RA | C | I |

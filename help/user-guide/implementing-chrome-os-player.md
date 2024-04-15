@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Você pode atribuir um nome de dispositivo amigável ao reprodutor do Chrome, en
 
 Siga as etapas abaixo para configurar o nome no Chrome player:
 
-1. Como opção, você pode permitir que integradores de AV ou administradores de TI definam a ID do ativo e o local como parte da inscrição da empresa.
+1. Como opção, você pode permitir que os integradores de áudio/vídeo ou administradores de TI definam a ID do ativo e o local como parte da inscrição da empresa.
 
    ![imagem](/help/user-guide/assets/chrome-device/chrome1.png)
 

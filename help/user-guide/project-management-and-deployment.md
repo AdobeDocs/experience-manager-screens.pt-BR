@@ -10,26 +10,26 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
 
 # Parte 4: Gerenciamento e implantação de projetos {#part-project-management-and-deployment}
 
-Esta página destaca a parte 4 de uma série de 5 partes projetada para abranger o gerenciamento de projetos e a preparação da implantação e definir os fatores principais que o Integrador de AV é responsável em relação ao gerenciamento de projetos e à preparação da implantação.
+Esta página destaca a parte 4 de uma série de 5 partes, criada para abordar o gerenciamento de projetos e a preparação da implantação e definir os principais fatores pelos quais o Integrador de áudio/vídeo é responsável, relacionados ao gerenciamento de projetos e à preparação da implantação.
 
 ## Visão geral {#overview}
 
 Esta página aborda a pré-produção, o início e a progressão do projeto.
 
-É importante que todas as partes interessadas entendam o que o integrador de AV é responsável, garantindo que os planos documentados sejam desenvolvidos em relação aos pontos discutidos neste episódio
+É importante que todas as partes interessadas entendam a responsabilidade do integrador de áudio/vídeo, garantindo que planos documentados sejam desenvolvidos em relação aos pontos discutidos neste episódio
 
 >[!NOTE]
 >
->Identificar um Integrador de AV com experiência em gerenciamento de projetos de implantações de Sinalização digital em escala é importante para o sucesso a longo prazo. Sugere-se que os planos de projeto entre o Integrador de AV e o Implementador de AEM sejam comparados. Isso garante o alinhamento à medida que os planos são desenvolvidos e finalizados.
+>Identificar um Integrador de áudio/vídeo com experiência no gerenciamento de projetos de implantações de Sinalização digital em escala é importante para o sucesso a longo prazo. Sugere-se que os planos de projeto entre o Integrador de áudio/vídeo e o Implementador de AEM sejam comparados. Isso garante o alinhamento à medida que os planos são desenvolvidos e finalizados.
 >
 >Os parceiros que adotam uma abordagem holística no gerenciamento das fases de &quot;pré-produção&quot;, iniciação e progressão do projeto ajudam a garantir que os clientes finais estejam posicionados para obter o máximo valor de seu investimento
 
@@ -72,11 +72,11 @@ Como uma oportunidade de vendas é transferida para um projeto, uma reunião de 
 
 A última parte de uma iniciativa do Primeiro Dia é concluir uma Transferência NOC. Se um projeto concluído incluir serviço e suporte no segundo dia, o Gerente de projetos organizará uma reunião de transferência do CON com os supervisores dessas equipes.
 
-Essa reunião consiste principalmente em representantes do Integrador de AV de Gerenciamento de contas, Operações de rede, Logística de campo, Serviços de conteúdo e Contabilidade. Representantes de gerenciamento de projetos do Adobe, do Implementador AEM e do Cliente final estão envolvidos em conjunto, com o Integrador de AV definindo cronograma, cadência e portagens. Normalmente, os gerentes de projeto são melhores para coordenar as discussões e garantir o alinhamento das partes apropriadas e desenvolver a documentação necessária para a reunião de entrega do CNO. A documentação de suporte essencial provavelmente vem da equipe de TI e/ou do departamento de AV, além dos recursos de gerenciamento de contas e vendas de todas as partes envolvidas. Para os clientes que precisam de suporte técnico de um NOC, a documentação deve ser fornecida aos supervisores de NOC para upload em uma plataforma da Knowledge base.
+Essa reunião consiste principalmente em representantes de integradores de áudio e vídeo de gerenciamento de contas, operações de rede, logística de campo, serviços de conteúdo e contabilidade. Representantes de gerenciamento de projetos do Adobe, do Implementador AEM e do Cliente final estão envolvidos em conjunto, com o Integrador de áudio/vídeo definindo a programação, a cadência e as portagens. Normalmente, os gerentes de projeto são melhores para coordenar as discussões e garantir o alinhamento das partes apropriadas e desenvolver a documentação necessária para a reunião de entrega do CNO. A documentação de suporte essencial provém provavelmente da equipe de TI e/ou de engenharia de áudio/vídeo, além dos recursos de gerenciamento de contas e vendas de todas as partes envolvidas. Para os clientes que precisam de suporte técnico de um NOC, a documentação deve ser fornecida aos supervisores de NOC para upload em uma plataforma da Knowledge base.
 
 ## Parte 4: Tutorial em vídeo sobre gerenciamento e implantação de projetos {#part-video-tutorial-on-project-management-and-deployment}
 
-Saiba mais sobre o gerenciamento de projetos e a preparação da implantação e defina os principais fatores pelos quais o Integrador de AV é responsável, relacionados ao gerenciamento de projetos e à preparação da implantação.
+Saiba mais sobre o gerenciamento de projetos e a preparação da implantação e defina os principais fatores pelos quais o Integrador de áudio/vídeo é responsável, relacionados ao gerenciamento de projetos e à preparação da implantação.
 
 ### Gerenciamento e implantação de projetos
 

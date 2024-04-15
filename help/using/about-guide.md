@@ -2,10 +2,10 @@
 title: Sobre este guia
 description: Saiba mais sobre as práticas recomendadas para projetos do AEM Screens para planejar e executar projetos, desde o resumo estratégico e de design até a implantação e após o suporte.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 34%
+source-wordcount: '255'
+ht-degree: 33%
 
 ---
 
@@ -16,7 +16,7 @@ O Guia de práticas recomendadas do AEM Screens pretende fornecer orientações 
 O público-alvo deste documento é:
 
 * *Implementadores do AEM*
-* *Integradores de AV*
+* *Integradores de áudio/vídeo*
 * *Estrategistas de negócios*
 * *Gerentes de projeto*
 * *Consultores*
