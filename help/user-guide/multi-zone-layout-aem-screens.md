@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: c440527b80a3899fd45ec2d20d8cb48ffe85f6f3
+source-git-commit: 510a621902eed9302232ed3b6c462b42c5849d79
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -150,7 +150,7 @@ Atribua os canais à exibição para visualizar o conteúdo. Siga as etapas abai
    1. Selecione **Salvar**.
 
       ![imagem](/help/user-guide/assets/multi-zone/multizone-img9.png)
-   1. Da mesma forma, você deve atribuir os outros dois canais incorporados (**`Zone1`** e **`Zone2`**) para essa exibição.
+   1. Da mesma forma, atribua os outros dois canais incorporados (**`Zone1`** e **`Zone2`**) para essa exibição.
    1. Depois de atribuir todos os três canais à variável **Lobby** ser capaz de visualizar os canais atribuídos a partir do painel de exibição.
 
       ![imagem](/help/user-guide/assets/multi-zone/multizone-img8.png)

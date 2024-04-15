@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ O processo de registro de dispositivos é feito em duas máquinas separadas:
    >
    >A variável **Atribuir exibição** permite adicionar o dispositivo diretamente a uma exibição.
 
-   Se você clicar em **Concluir**, você deve atribuir o dispositivo a uma exibição.
+   Se você clicar em **Concluir**, atribua o dispositivo a uma exibição.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -118,7 +118,7 @@ Se você não atribuiu o dispositivo a uma exibição, siga as etapas abaixo par
 
 ## Pesquisando um dispositivo no Gerenciador de dispositivos {#search-device}
 
-Depois de registrar os dispositivos no reprodutor, você pode exibi-los na interface do usuário do Gerenciador de dispositivos.
+Ao registrar dispositivos no reprodutor, você pode exibir todos os dispositivos na interface do usuário do Gerenciador de dispositivos.
 
 1. Acesse a interface do usuário do Gerenciador de dispositivos a partir de seu projeto do AEM Screens, por exemplo, **DemoScreens** > **Dispositivos**.
 

@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '373'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Esta seção destaca como ativar o direcionamento em seus canais.
 
 ## Pré-requisitos {#prereqs}
 
-Antes de seguir as etapas abaixo para ativar o direcionamento em canais, você deve saber o [Termos principais em Configuração no AEM Screens](configuring-context-hub.md) necessário para entender o ContextHub e o Targeting no AEM Screens.
+Antes de seguir as etapas abaixo para ativar o direcionamento em canais, saiba mais sobre [Termos principais em Configuração no AEM Screens](configuring-context-hub.md) necessário para entender o ContextHub e o Targeting no AEM Screens.
 
 >[!IMPORTANT]
 >

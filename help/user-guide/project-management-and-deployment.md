@@ -10,7 +10,7 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -86,6 +86,4 @@ Saiba mais sobre o gerenciamento de projetos e a preparação da implantação e
 
 ## A próxima etapa {#the-next-step}
 
-Depois de conhecer as principais considerações sobre o Gerenciamento de projetos para implantações do AEM Screens;
-
-Navegue até **[Parte 5: Considerações sobre suporte](support-considerations.md)** para que você entenda o Suporte do segundo dia e os processos envolvidos.
+Quando terminar com as principais considerações sobre o Gerenciamento de projetos para implantações do AEM Screens, acesse **[Parte 5: Considerações sobre suporte](support-considerations.md)** para que você entenda o Suporte do segundo dia e os processos envolvidos.

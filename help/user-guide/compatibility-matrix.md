@@ -1,17 +1,13 @@
 ---
 title: Matriz de compatibilidade do AEM Screens Player
-seo-title: Compatibility Matrix for AEM Screens Player
-description: Esta página lista os players da AEM Screens com sua respectiva versão do AEM Screens.
-seo-description: This page lists the AEM Screens Players with their respective AEM Screens version.
+description: Saiba mais sobre os AEM Screens Players e suas respectivas versões do AEM Screens.
 page-status-flag: de-activated
-uuid: 54fcc40f-2e8f-40b5-a5c7-2a6264342dc3
 contentOwner: jsyal
-discoiquuid: a3f0cd27-dcc4-49c5-b80b-5025344278e2
 docset: aem65
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 9%
+source-wordcount: '301'
+ht-degree: 7%
 
 ---
 
@@ -55,13 +51,13 @@ aem-screens-player-ios-3.3.0.ipa.zip
 
 [Obter arquivo](assets/aem-screens-player-ios-330ipa.zip)
 
-## Windows10 Player {#windows-player}
+## Windows 10 Player {#windows-player}
 
 <table>
  <tbody>
   <tr>
    <td><strong>Versão do servidor AEM</strong></td> 
-   <td><strong>Windows10 Player</strong></td> 
+   <td><strong>Windows 10 Player</strong></td> 
   </tr>
   <tr>
    <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 
@@ -80,15 +76,15 @@ aem-screens-player-ios-3.3.0.ipa.zip
 
 ### Link de download {#download-link-1}
 
-Clique no link de download para o Windows10 Player:
+Clique no link de download para o Windows 10 Player:
 
 aem-screens-player-windows-1.0.48-signed.exe.zip
 
 [Obter arquivo](assets/aem-screens-player-windows-1048-signedexe.zip)
 
-## Android Player {#android-player}
+## Android™ Player {#android-player}
 
-| **Versão do servidor AEM** | **Android Player** |
+| **Versão do servidor AEM** | **Android™ Player** |
 |---|---|
 | **AEM 6.3+SP1+Screens FP1(1.0.64_B002)** | **3.2.68 -** (Disponível no site do Macromedia) e na Google Play Store |
 | **AEM 6.3+SP1+Screens FP2(1.0.298)** | **3.3.0** |
@@ -96,7 +92,7 @@ aem-screens-player-windows-1.0.48-signed.exe.zip
 
 ### Link de download {#download-link-2}
 
-Clique no link de download para o Android Player:
+Clique no link de download para o Android™ Player:
 
 aem-screens-player-android-3.3.0.apk.zip
 
@@ -107,15 +103,15 @@ aem-screens-player-android-3.3.0.apk.zip
   <tr>
    <td><strong>Versão do servidor AEM</strong></td> 
    <td><strong>iOS Player</strong></td> 
-   <td><strong>Windows10 Player</strong></td> 
+   <td><strong>Windows 10 Player</strong></td> 
    <td><strong>Chrome OS Player</strong><br /> </td> 
-   <td><strong>Android Player</strong></td> 
+   <td><strong>Android™ Player</strong></td> 
   </tr>
   <tr>
    <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 
    <td><p><strong>3.2.72 - </strong>Disponível na loja da Apple</p> <p><strong>3.3.0</strong> - Não funciona</p> <p> </p> </td> 
    <td><strong>1.0.12</strong> - (Disponível no Macromedia)</td> 
-   <td><p><strong>1.0.30 -</strong> Disponível na Chrome Store.</p> <p>Não compatível com o Pacote de recursos1</p> </td> 
+   <td><p><strong>1.0.30 -</strong> Disponível na Chrome Store.</p> <p>Não compatível com o Pacote de recursos 1</p> </td> 
    <td><strong>3.2.68 -</strong> (Disponível no site do Macromedia) e na Google Play Store</td> 
   </tr>
   <tr>

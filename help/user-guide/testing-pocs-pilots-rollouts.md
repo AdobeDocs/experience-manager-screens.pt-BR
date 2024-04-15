@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -56,13 +56,13 @@ A finalidade de uma POC é obter feedback inicial sobre as principais funcionali
 
 O teste de integração de sistemas e software começa com a equipe de engenharia de TI do integrador de áudio/vídeo. Referenciando o projeto de sistema aprovado, a Equipe de engenharia de TI configura, implementa e supervisiona a instalação dos componentes de hardware em um &quot;ambiente de laboratório&quot; nas instalações do Integrador de áudio/vídeo. Isso permite uma análise e um teste minuciosos de toda a solução para controle de qualidade.
 
-Uma vez concluído o teste de controle de qualidade, a equipe de engenharia de TI cria documentação, fluxos de trabalho e treinamento para referência durante o suporte do dia 2. Os aspectos dos sistemas a testar incluem:
+Após a conclusão do teste de controle de qualidade, a equipe de engenharia de TI cria documentação, fluxos de trabalho e treinamento para referência durante o suporte do dia 2. Os aspectos do sistema a serem testados incluem:
 
-* Integrações do implementador de AEM
-* Integrações de sistemas de terceiros
-* Software
-* Hardware
-* Conectividade
+* Integrações do implementador de AEM.
+* Integrações de sistemas de terceiros.
+* Software.
+* Hardware.
+* Conectividade.
 * Workflows de implantação de conteúdo, incluindo implantações manuais, automatizadas e condicionais.
 
 ## Parte 3: Tutorial em vídeo sobre testes, POCs, pilotos e implantações {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
@@ -79,6 +79,6 @@ Considerar todos esses estágios como parte do plano geral do projeto ajuda a ge
 
 ## A próxima etapa {#the-next-step}
 
-Depois de concluir os testes, provas de conceito, programas piloto e implantações, siga o próximo tutorial que aborda detalhadamente o gerenciamento de projetos e os processos envolvidos.
+Quando terminar os testes, as Provas de conceito, os programas piloto e as implantações, siga o próximo tutorial que aborda detalhadamente o Gerenciamento de projetos e os processos envolvidos.
 
 Navegue até **[Parte 4: Gerenciamento e implantação de projetos](project-management-and-deployment.md)** para obter mais detalhes.

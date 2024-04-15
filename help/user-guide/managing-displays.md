@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Uma exibição é um agrupamento virtual de telas posicionadas uma ao lado da outra. O visor é permanente para uma instalação. Esse é o objeto com o qual os autores de conteúdo trabalham e sempre se referem como exibição lógica, em vez de suas contrapartes físicas.
 
-Depois de criar um local, é necessário criar uma exibição para o seu local.
+Ao criar um local, é necessário criar uma exibição para o seu local.
 
 Esta página mostra como criar e gerenciar exibições para o Screens.
 
@@ -54,7 +54,7 @@ Quando a exibição estiver na posição, a próxima etapa é criar uma configur
 >
 >**A próxima etapa**:
 >
->Ao criar uma exibição para sua localização, você deve atribuir um canal à exibição para usar o conteúdo.
+>Ao criar uma exibição para sua localização, atribua um canal à exibição para usar o conteúdo.
 >
 >Consulte [Atribuir canais](channel-assignment.md) para saber como atribuir um canal à exibição.
 
@@ -74,11 +74,9 @@ A configuração do dispositivo é criada e adicionada à exibição atual (na d
 
 ![deviceconfig](assets/deviceconfig.gif)
 
-Depois que uma configuração de dispositivo é definida para sua exibição no local, a próxima etapa será atribuir um canal à exibição.
-
 >[!NOTE]
 >
->Depois que uma configuração de dispositivo é definida para sua exibição no local, a próxima etapa será atribuir um canal à exibição.
+>Quando uma configuração de dispositivo é definida para sua exibição no local, a próxima etapa será atribuir um canal à exibição.
 >
 >Como mostrado na figura abaixo, se a configuração do dispositivo for exibida como não atribuída na variável **DISPOSITIVOS** se nenhum canal estiver atribuído a essa configuração de dispositivo específica.
 >

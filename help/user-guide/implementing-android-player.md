@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -122,7 +122,7 @@ Consulte uma [Exemplo de política JSON](#example-json) e uma tabela que descrev
 
 1. Use um explorador de arquivos MDM, ADB ou Android™ Studio para soltar esse arquivo JSON de política no *sdcard* no dispositivo Android™.
 
-1. Depois que o arquivo for implantado, use o MDM para instalar o aplicativo do reprodutor.
+1. Quando o arquivo for implantado, use o MDM para instalar o aplicativo do reprodutor.
 
 1. Quando o aplicativo de reprodução é iniciado, esse arquivo de configuração é lido e aponta para o servidor AEM aplicável, onde ele é registrado e, em seguida, controlado.
 

@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1452'
 ht-degree: 2%
 
 ---
@@ -58,7 +58,7 @@ Siga as etapas abaixo para configurar um projeto e um canal:
 
 ### Atribuição de canal a uma Exibição {#assigning-channel-to-display}
 
-Quando a configuração do projeto for concluída, você deverá atribuir o canal a uma exibição para visualizar o conteúdo.
+Quando a configuração do projeto for concluída, atribua o canal a uma exibição para visualizar o conteúdo.
 
 1. Navegue até a exibição necessária, por exemplo, **DemoScreens** > **Localizações** > **San Jose** > **Lobby**.
 
@@ -105,7 +105,7 @@ Você pode exibir a seguinte saída ao escolher um reprodutor:
 
 ## Exibição da linha do tempo {#timeline-view}
 
-Depois de atribuir um canal a uma exibição e configurar um cronograma recorrente, você pode visualizar a linha do tempo na **CANAIS ATRIBUÍDOS E AGENDAMENTOS** painel.
+Ao atribuir um canal a uma exibição e configurar um cronograma recorrente, é possível exibir a linha do tempo na **CANAIS ATRIBUÍDOS E AGENDAMENTOS** painel.
 
 Siga as etapas abaixo para navegar até a exibição da linha do tempo:
 

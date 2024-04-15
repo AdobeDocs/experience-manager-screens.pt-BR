@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1276'
 ht-degree: 2%
 
 ---
@@ -62,11 +62,11 @@ A primeira etapa é criar um projeto do AEM Screens.
    ![imagem](assets/kickstart/demo-1.png)
 
    >[!NOTE]
-   >Depois de criar o projeto, ele o traz de volta para a página inicial do Projeto do Screens. Agora você pode selecionar seu projeto. Em um projeto, há cinco pastas diferentes chamadas **Aplicativos**, **Canais**, **Dispositivos**, **Localizações**, e **Agendamentos**.
+   >Depois de criar o projeto, ele o traz de volta à página inicial do Projeto do AEM Screens. Agora você pode selecionar seu projeto. Em um projeto, há cinco pastas diferentes chamadas **Aplicativos**, **Canais**, **Dispositivos**, **Localizações**, e **Agendamentos**.
 
 ### Criação de um canal {#creating-channel}
 
-Depois de criar o projeto do AEM Screens, é necessário criar um canal onde você gerencia o conteúdo.
+Depois de criar o projeto do AEM Screens, crie um canal onde você gerencia o conteúdo.
 
 Siga as etapas abaixo para criar um canal para seu projeto:
 
@@ -146,7 +146,7 @@ Depois de criar um local, crie uma exibição para o seu local.
 
 ### Atribuição de um canal {#assigning-channel}
 
-Quando a configuração do projeto for concluída, você deverá atribuir o canal a uma exibição para visualizar o conteúdo.
+Quando a configuração do projeto for concluída, atribua o canal a uma exibição para visualizar o conteúdo.
 
 1. Navegue até a exibição necessária em **DemoScreens** > **Localizações** > **TestLocation** > **ExibiçãoLobby**.
 
@@ -194,7 +194,7 @@ Registre seu dispositivo usando o painel AEM.
 >1. Abra uma nova guia e clique no link **Aplicativos** no canto superior esquerdo ou navegue diretamente para ***chrome://apps***.
 >1. Clique em **AEM Screens** Plug-in para que você possa iniciar o Chrome Player. Por padrão, o reprodutor é iniciado no modo de tela cheia. Pressione **Esc** para sair do modo de tela cheia.
 
-Assim que o reprodutor do sistema operacional Chrome estiver ativado, siga as etapas abaixo para registrar um dispositivo Chrome.
+Depois que o reprodutor do Chrome OS estiver ativado, siga as etapas abaixo para registrar um dispositivo Chrome.
 
 1. Navegue até a **Dispositivos** pasta do seu projeto da sua instância AEM.
 

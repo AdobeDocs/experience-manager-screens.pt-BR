@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
@@ -58,7 +58,7 @@ Siga as etapas abaixo no dispositivo Samsung para concluir a instalação do rep
 1. Clique em **MENU** do dispositivo remoto e role para baixo até **Sistema** na barra de navegação esquerda.
 1. Role para baixo e selecione o **Reproduzir via** e altere para **Iniciador de URL** opção.
    ![imagem](/help/user-guide/assets/tizen/rms-2.png)
-1. Depois que o Iniciador de URL estiver definido, pressione a tecla **Início** do controle remoto.
+1. Quando o URL Launcher estiver definido, pressione a tecla **Início** do controle remoto.
 1. Navegue até a **Configurações do inicializador de URL** e digite o endereço IP do servidor de host local e clique em **Concluído**.
 
    >[!NOTE]

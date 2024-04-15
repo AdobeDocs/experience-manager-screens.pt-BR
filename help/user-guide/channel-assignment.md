@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1174'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >Esta seção destaca a atribuição de canais e a programação de canais para Pacotes de recursos anteriores à versão AEM 6.5.5 Screens.
 
-Depois de configurar uma exibição, você deve atribuir um canal a uma exibição para visualizar seu conteúdo.
+Ao configurar uma exibição, atribua um canal a uma exibição para visualizar seu conteúdo.
 
 Esta página mostra como atribuir um canal à exibição.
 

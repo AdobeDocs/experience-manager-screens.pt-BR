@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -108,8 +108,8 @@ Observe os dois dispositivos (chrome e windows player) em **DISPOSITIVOS** paine
 
 ### Sincronização com o Principal {#sync-up-primary}
 
-1. Depois de definir o dispositivo Chrome como principal, você pode sincronizar o outro dispositivo (nesse caso, o Windows Player) com o principal.
-Selecione o outro dispositivo (nesse caso, windows player) na **DISPOSITIVOS** e clique em **Sincronizar com o dispositivo principal**, conforme mostrado na figura abaixo.
+1. Depois de definir o dispositivo Chrome como principal, sincronize o outro dispositivo (neste caso, o Windows Player) com o principal.
+Selecione o outro dispositivo (nesse caso, windows player) na **DISPOSITIVOS** e clique em **Sincronizar com o dispositivo principal**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 

@@ -10,9 +10,9 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Com a ajuda de ***Screens Launch***, os autores podem visualizar cada canal no l
 
 Por exemplo, se o autor desejar criar versões futuras de c1, c2 (canais), uma inicialização será criada e uma data de ativação será definida (por exemplo, 10 de novembro, às 8h). Quaisquer outras atualizações no conteúdo são enviadas para revisão.
 
-Depois de aprovado e em tempo real (10 de novembro, 8h), esse lançamento reproduzirá o conteúdo nos dispositivos ou players.
+Após a aprovação e na data de ativação (10 de novembro, 8:00), esse lançamento reproduz o conteúdo nos dispositivos ou players.
 
 ## Requisitos {#requirements}
 
@@ -45,7 +45,7 @@ A execução de uma experiência na data de ativação definida no reprodutor en
 
 ### Entendendo o período de carência {#understanding-grace-period}
 
-Para que o reprodutor possa começar a reproduzir o conteúdo na data de ativação definida, você deve iniciar as atividades anteriores à data de ativação.
+Para que o reprodutor possa começar a reproduzir o conteúdo na data de ativação definida, inicie as atividades anteriores à data de ativação.
 
 Se a data de ativação for *24 de novembro, 9h* e o período de carência é *24 horas*, a sequência de ações acima será iniciada em (data de ativação - período de carência), ou seja, 23 de novembro, às 9h, horário do servidor. Isso dá 24 horas para completar todas as ações acima mencionadas para o conteúdo chegar aos reprodutores. Os players entendem que este é um conteúdo de lançamento. Dessa forma, o conteúdo não é reproduzido imediatamente, mas os players podem armazená-lo como uma versão futura e fazer com que comece a ser reproduzido exatamente na data definida de ativação no fuso horário do player.
 

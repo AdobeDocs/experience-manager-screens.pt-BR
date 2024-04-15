@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1088'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Um autor de conteúdo pode configurar uma exibição para ser ativada por voz. O
 >[!IMPORTANT]
 > O recurso de reconhecimento de voz está disponível apenas no Chrome OS e em players Windows.
 
-Para implementar o reconhecimento de voz em seu projeto do AEM Screens, você deve ativar o reconhecimento de voz para a Exibição e associar cada canal a uma tag exclusiva para acionar uma transição de canal.
+Para implementar o reconhecimento de voz em seu projeto do AEM Screens, ative o reconhecimento de voz para a Exibição e associe cada canal a uma tag exclusiva para acionar uma transição de canal.
 
 A seção a seguir descreve como ativar e usar o recurso de reconhecimento de voz em um projeto do AEM Screens.
 

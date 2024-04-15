@@ -1,9 +1,9 @@
 ---
 title: Configuração do fluxo de trabalho de posicionamento direto
 description: Esta página destaca a Configuração do fluxo de trabalho de posicionamento direto.
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Como alternativa, como autor de conteúdo, você pode clicar manualmente em **At
 
 >[!IMPORTANT]
 >
->Antes de iniciar a configuração, você deve instalar o `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. Depois de instalar o pacote, você poderá visualizá-lo e acessá-lo a partir da instância do AEM > Ferramentas (ícone) > **Fluxo de trabalho** > **Modelos de fluxo de trabalho**.
+>Antes de iniciar a configuração, instale o `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. Depois de instalar o pacote, você poderá visualizá-lo e acessá-lo a partir da instância do AEM > Ferramentas (ícone) > **Fluxo de trabalho** > **Modelos de fluxo de trabalho**.
 
 Siga as etapas abaixo para configurar o fluxo de trabalho de posicionamento direto:
 

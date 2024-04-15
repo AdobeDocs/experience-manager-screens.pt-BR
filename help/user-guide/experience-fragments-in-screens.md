@@ -10,9 +10,9 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
@@ -113,7 +113,7 @@ Siga as etapas abaixo para aplicar o conteúdo de **`We.Retail`** ao seu **TestC
 
    >[!NOTE]
    >
-   >Depois de criar o fragmento do Screens, você pode editar as propriedades do fragmento. Selecione o fragmento e clique em **Propriedades** na barra de ações.
+   >Depois de criar um fragmento do AEM Screens, você pode editar as propriedades do fragmento. Selecione o fragmento e clique em **Propriedades** na barra de ações.
 
    **Edição de propriedades de um fragmento do Screens**
 

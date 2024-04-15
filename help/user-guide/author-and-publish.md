@@ -2,9 +2,9 @@
 title: Configuração de instâncias de Autor e Publicação no AEM Screens
 description: Saiba como configurar uma instância do Autor e uma instância de Publicação para o AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,11 @@ Antes de começar a usar servidores de Autor e Publicação, você deve ter conh
 
 >[!NOTE]
 >
->Essa funcionalidade do AEM Screens só estará disponível se você tiver instalado o AEM 6.4 Screens Feature Pack 2. Para obter acesso a este Feature Pack, entre em contato com o Suporte do Adobe e solicite acesso. Depois de obter permissão, você pode baixá-lo do Compartilhamento de pacotes.
+>Essa funcionalidade do AEM Screens só estará disponível se você tiver instalado o AEM 6.4 Screens Feature Pack 2. Para obter acesso a este Feature Pack, entre em contato com o Suporte da Adobe e solicite acesso. Depois de obter permissão, você pode baixá-lo do Compartilhamento de pacotes.
 
 >[!IMPORTANT]
 >
->Se quiser usar mais de uma instância de publicação com o Dispatcher, atualize o Dispatcher. Consulte [Ativar sessões adesivas](dispatcher-configurations-aem-screens.md#enable-sticky-session) para obter mais detalhes.
+>Se quiser usar mais de uma instância de publicação com o Dispatcher, atualize o Dispatcher. Consulte [Ativar sessões adesivas](dispatcher-configurations-aem-screens.md#enable-sticky-session).
 
 ## Configuração de instâncias de Autor e Publicação {#configuring-author-and-publish-instances}
 
@@ -50,7 +50,7 @@ Você pode configurar um exemplo simples, em que você hospeda um Autor e duas i
 
 ## Configuração dos agentes de replicação no autor {#setting-replication-agents}
 
-Para criar agentes de replicação, você deve aprender a criar um agente de replicação padrão.
+Para criar agentes de replicação, saiba como criar um agente de replicação padrão.
 
 Há três agentes de replicação necessários para o Screens:
 

@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '355'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ Consulte os seguintes recursos para obter mais detalhes:
 
 ## Baixar o relatório de atribuição de conteúdo {#downloading-content-assignment-report-fp}
 
-Depois de configurar o projeto do AEM Screens e atribuir exibições a cada um dos locais como mostrado nas etapas anteriores, você estará pronto para baixar o Relatório de atribuição de conteúdo.
+Quando você tiver configurado seu projeto do AEM Screens e tiver atribuído exibições a cada um dos locais como mostrado nas etapas anteriores, baixe o Relatório de atribuição de conteúdo.
 
 >[!NOTE]
 >O recurso Relatório de atribuição de conteúdo só pode ser acessado no nível do projeto.

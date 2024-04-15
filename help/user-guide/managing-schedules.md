@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Agendamentos, quando combinados com ***DayParting***, permite definir um agendam
 
 >[!NOTE]
 >
->Essa funcionalidade do AEM Screens só estará disponível se você tiver instalado o AEM 6.3 Sites Feature Pack 1. Para obter acesso a este Feature Pack, entre em contato com o Suporte do Adobe e solicite acesso. Após ter as permissões necessárias, você pode baixá-lo do Compartilhamento de pacotes.
+>Essa funcionalidade do AEM Screens só estará disponível se você tiver instalado o AEM 6.3 Sites Feature Pack 1. Para obter acesso a este Feature Pack, entre em contato com o Suporte da Adobe e solicite acesso. Após ter as permissões necessárias, você pode baixá-lo do Compartilhamento de pacotes.
 
 ## Criação de uma programação {#creating-a-schedule}
 

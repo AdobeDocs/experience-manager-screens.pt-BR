@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '242'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ O console Dispositivos permite acessar o gerenciador de dispositivos para atribu
 
 >[!CAUTION]
 >
->Antes de atribuir seu dispositivo, você deve registrá-lo. Para obter mais informações, consulte [Registro do dispositivo](device-registration.md).
+>Antes de atribuir seu dispositivo, registre-o. Consulte [Registro do dispositivo](device-registration.md).
 
 ## Atribuição de dispositivo {#device-assignment}
 
@@ -69,6 +69,4 @@ Siga as etapas abaixo para atribuir um dispositivo a uma exibição:
 
 ### Próximas etapas {#the-next-steps}
 
-Depois de conhecer a atribuição de um canal a uma exibição, consulte os seguintes recursos:
-
-* [Monitorar e solucionar problemas](monitoring-screens.md)
+Depois de conhecer a atribuição de um canal a uma exibição, consulte t[Monitorar e solucionar problemas](monitoring-screens.md).

@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -24,7 +24,7 @@ As seções a seguir descrevem como depurar e solucionar problemas de reproduç�
 
 ## Representações DAM {#dam-renditions}
 
-Depois de carregar o vídeo no canal, o AEM deve começar a criar algumas representações para ele. Você pode ver seus vídeos em Ativos.
+Após carregar o vídeo no canal, o AEM deve começar a criar algumas representações para ele. Você pode ver seus vídeos em Ativos.
 
 Para exibir o vídeo:
 

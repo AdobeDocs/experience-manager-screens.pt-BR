@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ Em um projeto, há cinco tipos de pastas, como mostrado na figura abaixo:
 
 ## Visualizando propriedades {#viewing-properties}
 
-Depois de criar o projeto do Screens, selecione o projeto e clique em **Propriedades** na barra de ações para editar as propriedades do projeto.
+Depois de criar o projeto do Screens, selecione o projeto e clique em **Propriedades** na barra de ações, para poder editar as propriedades do projeto.
 
 As opções a seguir permitem editar/alterar as propriedades dos **TestScreens**.
 
@@ -74,4 +74,4 @@ As etapas a seguir mostram a criação de uma pasta de aplicativos em seu **Apli
 
 ### Próximas etapas {#the-next-steps}
 
-Depois de criar seu próprio projeto, consulte [Gerenciamento de canal](managing-channels.md) para criar e gerenciar o conteúdo no seu canal.
+Quando tiver criado seu próprio projeto, consulte [Gerenciamento de canal](managing-channels.md) para criar e gerenciar o conteúdo no seu canal.

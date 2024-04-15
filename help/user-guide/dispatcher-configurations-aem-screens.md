@@ -5,9 +5,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ A página a seguir fornece as diretrizes para configurar o Dispatcher para um pr
 >
 >Se não houver um Dispatcher, desative o servlet de registro na lista de componentes OSGi.
 
-Antes de configurar o Dispatcher para um projeto do AEM Screens, você deve ter conhecimento prévio do Dispatcher.
+Antes de configurar o Dispatcher para um projeto do AEM Screens, tenha conhecimento prévio do Dispatcher.
 Consulte [Configuração do Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) para obter mais detalhes.
 
 ## Configuração do Dispatcher para Versão de Manifesto v2 {#configuring-dispatcher}
@@ -94,7 +94,7 @@ Desativar o cache do Dispatcher para ***Caminho de /content/screens***.
 
 Os players do Screens usam sessões autenticadas, de modo que o Dispatcher não armazena em cache nenhuma solicitação dos players do Screens para `channels/assets`.
 
-Para habilitar o cache dos ativos de forma que os ativos sejam fornecidos pelo cache do Dispatcher, você deve:
+Para ativar o cache dos ativos para que os ativos sejam fornecidos pelo cache do Dispatcher, faça o seguinte:
 
 * Adicionar `/allowAuthorization 1` in `/cache` seção
 * Adicione as regras abaixo a `/rules` seção de `/cache`

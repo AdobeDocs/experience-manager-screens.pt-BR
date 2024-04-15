@@ -4,9 +4,9 @@ description: Saiba como configurar agentes de replicação do Screens.
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '462'
 ht-degree: 4%
 
 ---
@@ -50,7 +50,7 @@ Siga as etapas abaixo para habilitar usuários e atualizar a senha para `screens
 
    ![imagem](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
-   Após ativar o usuário, você verá a **`screens-receiver-user`** as **Ativado** no **Status** campo.
+   Quando tiver ativado o usuário, você verá a variável **`screens-receiver-user`** as **Ativado** no **Status** campo.
 
    ![imagem](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
@@ -125,7 +125,7 @@ Siga a seção abaixo para atualizar as configurações no Agente de replicaçã
 
 1. Clique em **OK**.
 
-1. Depois de concluir as etapas anteriores, você pode clicar em **Testar conexão** para verificar a conexão.
+1. Após concluir as etapas anteriores, clique em **Testar conexão** para verificar a conexão.
 
    ![imagem](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 

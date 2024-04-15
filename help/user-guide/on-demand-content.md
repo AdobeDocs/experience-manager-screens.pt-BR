@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -122,6 +122,6 @@ Siga as etapas abaixo para fornecer atualizações de conteúdo de Autor > Publi
 
 ### Reatribuição de canal e dispositivo: {#channel-and-device-re-assignment}
 
-Se tiver reatribuído um dispositivo, você deverá publicar a exibição inicial e a nova exibição, uma vez que o dispositivo tenha sido reatribuído à nova exibição.
+Se você tiver reatribuído um dispositivo, publique a exibição inicial e a nova exibição, uma vez que o dispositivo tenha sido reatribuído à nova exibição.
 
-Da mesma forma, se um canal tiver sido reatribuído, você deverá publicar a exibição inicial e a nova exibição, uma vez que o canal tenha sido reatribuído à nova exibição.
+Da mesma forma, se você tiver reatribuído um canal, publique a exibição inicial e a nova exibição depois que o canal for reatribuído à nova exibição.

@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Antes de criar um fluxo de trabalho para vídeo, conclua os seguintes pré-requi
 
 ## Criação de um fluxo de trabalho de preenchimento de vídeo {#creating-a-video-padding-workflow-1}
 
-Para criar um fluxo de trabalho de preenchimento de vídeo, você deve criar um fluxo de trabalho para o vídeo e usar o mesmo no canal de projeto do AEM Screens.
+Para criar um fluxo de trabalho de preenchimento de vídeo, crie um fluxo de trabalho para o vídeo e use o mesmo no canal de projeto do AEM Screens.
 
 Siga as etapas abaixo para criar e usar o workflow:
 

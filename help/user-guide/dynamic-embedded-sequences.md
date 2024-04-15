@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2426'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ Fazendo referência a um *Canal por função*, permite criar a versão local de 
 >
 >Uma Sequência incorporada dinâmica é semelhante a uma sequência incorporada, mas permite que o usuário siga uma hierarquia em que as alterações/atualizações feitas em um canal são propagadas para outro relacionado. Ela segue a hierarquia pai/filho e também inclui ativos como imagens ou vídeos.
 >
->***Sequências incorporadas dinâmicas*** permite exibir conteúdo específico de localização, enquanto ***Sequências incorporadas*** exibir somente a apresentação de slides geral do conteúdo. Além disso, ao configurar as Sequências Incorporadas Dinâmicas, você deve configurar o canal usando a função e o nome do canal. Consulte as etapas abaixo para obter a implementação prática.
+>***Sequências incorporadas dinâmicas*** permite exibir conteúdo específico de localização, enquanto ***Sequências incorporadas*** exibir somente a apresentação de slides geral do conteúdo. Além disso, ao configurar as Sequências Incorporadas Dinâmicas, configure o canal usando a função e o nome do canal. Consulte as etapas abaixo para obter a implementação prática.
 >
 >Para saber mais sobre como implementar sequências incorporadas, consulte [Sequências incorporadas](embedded-sequences.md) no AEM Screens.
 

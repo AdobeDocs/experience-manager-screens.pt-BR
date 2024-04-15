@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: fb5e7f314ce8557bbee64743929dce945b35a83a
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2118'
 ht-degree: 0%
 
 ---
@@ -221,7 +221,7 @@ Você também pode ver um recurso adicional em [Documentação do Oak](https://j
 
 ### 3. O que é necessário para configurar Manifestos v3? {#configure-v3}
 
-Para ativar o Manifesto v3, você deve:
+Para ativar o Manifesto v3, faça o seguinte:
 
 * Atualize o Dispatcher.
 Consulte [Configuração do Dispatcher para Versão de Manifesto v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obter mais detalhes.

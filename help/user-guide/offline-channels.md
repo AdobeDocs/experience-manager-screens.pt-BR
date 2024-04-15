@@ -1,41 +1,37 @@
 ---
 title: Canais offline
-seo-title: Offline Channels
-description: O reprodutor do AEM Screens fornece suporte offline para canais ao aproveitar a tecnologia ContentSync. Siga esta página para saber mais sobre os manipuladores de atualização e como ativar a configuração offline para um canal.
-seo-description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.
-uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
+description: Saiba mais sobre como o AEM Screens player oferece suporte offline para canais usando a tecnologia ContentSync.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 1%
+source-wordcount: '425'
+ht-degree: 0%
 
 ---
 
 # Canais offline {#offline-channels}
 
-O reprodutor do Screens fornece suporte offline para os canais ao aproveitar o ***ContentSync*** tecnologia.
+O reprodutor do Screens fornece suporte offline para os canais usando o ***ContentSync*** tecnologia.
 
 Os players usam um servidor http local para veicular o conteúdo descompactado.
 
-Quando um canal é configurado para ser executado *online*, o reprodutor serve os recursos do canal acessando o servidor AEM, mas quando o canal está configurado para ser executado *offline*, o reprodutor serve os recursos de canal de um servidor http local.
+Quando um canal é configurado para ser executado *online*, o reprodutor serve os recursos do canal acessando o servidor AEM. No entanto, quando o canal está configurado para ser executado *offline*, o reprodutor serve os recursos de canal de um servidor http local.
 
 O fluxo de trabalho do processo é o seguinte:
 
-1. Analise as páginas desejadas
-1. Coletar todos os ativos relacionados
-1. Compactar tudo em um arquivo zip
-1. Baixe o zip e extraia-o localmente
-1. Exibir cópia local do conteúdo
+1. Analise as páginas desejadas.
+1. Coletar todos os ativos relacionados.
+1. Compactar tudo em um arquivo zip.
+1. Baixe o zip e extraia-o localmente.
+1. Exibir cópia local do conteúdo.
 
 ## Manipuladores de atualização {#update-handlers}
 
@@ -55,22 +51,22 @@ A variável ***ContentSync*** O usa manipuladores de atualização para analisar
    <td><strong>Opções</strong></td> 
   </tr>
   <tr>
-   <td>canais</td> 
+   <td><code>channels</code></td> 
    <td>coleta um canal</td> 
    <td>extensão: extensão do recurso a ser coletado<br /> [pathSuffix='']: sufixo a ser adicionado ao caminho do canal<br /> </td> 
   </tr>
   <tr>
-   <td>clientlib</td> 
+   <td><code>clientlib</code></td> 
    <td>coletar a biblioteca do cliente especificada</td> 
    <td>[extension='']: pode ser css ou js, para coletar apenas o primeiro ou apenas o último</td> 
   </tr>
   <tr>
-   <td>assetrenditions</td> 
+   <td><code>assetrenditions</code></td> 
    <td>coletar as representações de ativos</td> 
    <td>[renditions=[]]: lista de representações a serem coletadas. O padrão é a representação original</td> 
   </tr>
   <tr>
-   <td>copiar</td> 
+   <td><code>copy</code></td> 
    <td>copiar a estrutura especificada do caminho</td> 
    <td> </td> 
   </tr>
@@ -98,11 +94,13 @@ Siga as etapas abaixo para habilitar a configuração offline de um canal:
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. Navegue até o painel do canal e clique em **..** no **INFORMAÇÕES DO CANAL** Painel para alterar as propriedades.
+1. Navegue até o painel do canal.
+1. Clique em **..** no **INFORMAÇÕES DO CANAL** Painel.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. Navegue até as propriedades do canal e verifique se a caixa de seleção está desativada na **Canal** guia. Clique em **Salvar e fechar**.
+1. Navegue até as propriedades do canal.
+1. Na guia (Canal), verifique se a caixa de seleção está desativada e clique em **Salvar e fechar**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 

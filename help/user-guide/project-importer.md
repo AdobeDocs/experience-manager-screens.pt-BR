@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '619'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Esta seção descreve uma funcionalidade para importar em massa um conjunto de l
 
 ## Introdução {#introduction}
 
-Ao configurar um projeto do AEM Screens pela primeira vez em sua organização, você também deve criar todos os locais. Se o seu projeto envolve muitos locais, ele resulta em uma tarefa tediosa que envolve muitos cliques e espera na interface do usuário.
+Ao configurar um projeto do AEM Screens pela primeira vez em sua organização, crie todos os locais também. Se o seu projeto envolve muitos locais, ele resulta em uma tarefa tediosa que envolve muitos cliques e espera na interface do usuário.
 
 O objetivo desse recurso é reduzir o tempo necessário para configurar o projeto e, portanto, resolver problemas de orçamento.
 
