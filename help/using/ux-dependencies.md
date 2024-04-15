@@ -1,13 +1,11 @@
 ---
-title: Dependências de UX para [!UICONTROL AEM Screens]
-seo-title: UX Dependencies for [!UICONTROL AEM Screens]
-description: O guia descreve as dependências de UX para [!UICONTROL AEM Screens]
-seo-description: The guide describes UX Dependencies for [!UICONTROL AEM Screens]
+title: Dependências de UX para o AEM Screens
+description: Saiba mais sobre dependências de UX para o AEM Screens.
 exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 1%
+source-wordcount: '137'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +31,7 @@ As seguintes perguntas devem ser consideradas durante a definição da estratég
 
 1. Como são configuradas as conexões e a fiação de rede?
 
-1. Com que frequência os computadores e a conexão estarão ligados e desligados?
+1. Com que frequência os computadores e as conexões estão ligados e desligados?
 
 1. O design de fixação suporta acessibilidade?
 

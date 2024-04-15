@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1454'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 >
 >Esta seção destaca a atribuição e a programação de canais para o Pacote de recursos do Telas AEM 6.5.5 e posteriores.
 
-Depois de configurar uma exibição, você deve atribuir um canal a uma exibição para visualizar seu conteúdo.
+Ao configurar uma exibição, atribua um canal a uma exibição para visualizar seu conteúdo.
 
 Esta página mostra como atribuir um canal à exibição, compreender as propriedades do canal e Dividir o dia.
 
@@ -95,7 +95,7 @@ Quando a configuração do projeto for concluída, você deverá atribuir o cana
 
 ### Exibição de conteúdo no Chrome Player {#viewing-content-output}
 
-Este exemplo mostra a saída em um Chrome Player. Depois de atribuir o canal ao vídeo, você deve registrar o dispositivo em um reprodutor.
+Este exemplo mostra a saída em um Chrome Player. Depois de atribuir o canal à exibição, registre o dispositivo em um reprodutor.
 
 Para saber como registrar um dispositivo em um AEM Screens player, consulte [Registro do dispositivo](device-registration.md).
 

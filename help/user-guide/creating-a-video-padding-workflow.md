@@ -1,22 +1,18 @@
 ---
 title: Criação de um fluxo de trabalho de preenchimento de vídeo
-seo-title: Creating a Video Padding Workflow
-description: Siga esta página para saber mais sobre como criar um preenchimento de vídeo no fluxo de trabalho para seus ativos.
-seo-description: Follow this page to learn about creating a video padding in the workflow for your assets.
-uuid: c0f004ca-c934-47f8-bcdc-da58ea62118e
+description: Saiba mais sobre como criar um preenchimento de vídeo no fluxo de trabalho para seus ativos.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 content-type: reference
-discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -37,7 +33,7 @@ Esta seção abrange os seguintes tópicos:
 
 O caso de uso a seguir envolve a colocação de um vídeo (por exemplo: 1280 x 720) em um canal no qual a exibição é 1920 x 1080 e o vídeo deve ser colocado em 0x0 (canto superior esquerdo). O vídeo não deve ser ampliado ou modificado de forma alguma e não use **Capa** no componente de vídeo.
 
-O vídeo será exibido como um objeto do pixel 1 ao pixel 1280 ao longo e do pixel 1 ao pixel 720 para baixo e o restante do canal será a cor padrão.
+O vídeo é exibido como um objeto do pixel 1 ao pixel 1280 e do pixel 1 ao pixel 720 para baixo, e o restante do canal é a cor padrão.
 
 ## Pré-requisitos {#prerequisites}
 
@@ -61,7 +57,9 @@ Siga as etapas abaixo para criar e usar o workflow:
 
 Siga as etapas abaixo para criar um fluxo de trabalho para seu vídeo:
 
-1. Navegue até a instância do AEM e clique em ferramentas no painel lateral. Selecionar **Fluxo de trabalho** > **Modelos** para criar um novo modelo.
+1. Navegue até a instância do AEM.
+1. Clique em Ferramentas no painel lateral.
+1. Selecionar **Fluxo de trabalho** > **Modelos** para que você possa criar um modelo.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
@@ -73,27 +71,27 @@ Siga as etapas abaixo para criar um fluxo de trabalho para seu vídeo:
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. Arraste e solte a **Linha de comando** componente ao seu fluxo de trabalho.
+1. Arraste e solte a **`Command Line`** componente ao seu fluxo de trabalho.
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
-1. Selecione o **Linha de comando** e abra a caixa de diálogo propriedades.
+1. Selecione o **`Command Line`** e abra a caixa de diálogo propriedades.
 
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
-1. Selecione o **Argumentos** para inserir os campos no campo **Linha de comando - Propriedades da etapa** caixa de diálogo.
-
-   Insira o formato nas **Tipos de Mime** (como ***video/mp4***) e o comando como (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***) para iniciar o fluxo de trabalho na **Comandos** campo.
+1. Selecione o **Argumentos** guia.
+1. No **Linha de comando - Propriedades da etapa** caixa de diálogo, insira o formato nas **Tipos de Mime** (como ***video/mp4***) e o comando como (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***). Esse comando inicia o workflow na variável **Comandos** campo.
 
    Veja os detalhes em **Tipos de Mime** e **Comandos** na nota abaixo.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
-1. Selecione o workflow (**RepresentaçõesDeVídeo**) e clique em **Iniciar fluxo de trabalho** na barra de ações para abrir a variável **Executar fluxo de trabalho** caixa de diálogo.
+1. Selecione o workflow (**RepresentaçõesDeVídeo**).
+1. Clique em **Iniciar fluxo de trabalho** na barra de ações.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. Selecione o caminho do ativo na **Carga** (como ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) e insira o **Título** as ***ExecutarVídeo*** e clique em **Executar**.
+1. No **Executar fluxo de trabalho** , selecione o caminho do ativo na caixa de diálogo **Carga** (como ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) e insira o **Título** as ***ExecutarVídeo*** e clique em **Executar**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 

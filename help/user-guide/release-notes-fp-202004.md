@@ -1,15 +1,13 @@
 ---
 title: Notas de versão do Pacote de recursos 202004
-seo-title: Release Notes for Feature Pack 202004
-description: Siga esta página para obter informações sobre o AEM Screens Feature Pack 202004 lançado em 20 de abril de 2020.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 20, 2020.
+description: Saiba mais sobre o Pacote de recursos do AEM Screens 202004, lançado em 20 de abril de 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '367'
 ht-degree: 2%
 
 ---
@@ -18,7 +16,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->É recomendável atualizar para a versão mais recente do Adobe Experience Manager (AEM). O Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
+>A Adobe recomenda que você atualize para a versão mais recente do Adobe Experience Manager (AEM). O AEM Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
 
 ## Disponibilidade {#availability}
 
@@ -34,9 +32,9 @@ A data de lançamento do Pacote de recursos do AEM Screens 202004 é 20 de abril
 
 * **Opções de estratégia de interrupção da reprodução**
 
-  Como autor de conteúdo, você deve ser capaz de especificar quando um canal é interrompido para que possa optar por cortar conteúdo não crítico, mas ter a opção de permitir que o conteúdo importante seja totalmente reproduzido antes de interromper a reprodução por causa do agendamento.
+  Como autor de conteúdo, especifique quando um canal é interrompido para que você possa optar por cortar conteúdo não crítico, mas, opcionalmente, permitir que conteúdo importante seja totalmente reproduzido antes de interromper a reprodução por causa do agendamento.
 
-  Consulte a seção **[Método de interrupção](/help/user-guide/channel-assignment.md#interruption-method-channel)** para saber mais sobre as opções disponíveis em **Atribuição de canal** para implementar esse recurso no projeto do AEM Screens.
+  Para saber mais sobre as opções disponíveis em **Atribuição de canal** para implementar esse recurso no projeto do AEM Screens, consulte a seção **[Método de interrupção](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
 
 * **Screens Launches**
 
@@ -59,7 +57,7 @@ A data de lançamento do Pacote de recursos do AEM Screens 202004 é 20 de abril
 
   Ao adicionar test à função de sobreposição de texto, o tamanho da fonte é preciso e melhorado.
 
-  Consulte **[Sobreposição de texto](text-overlay.md)** para criar uma experiência atraente em um canal de sequência fornecendo um título ou uma descrição sobreposta sobre uma imagem.
+  Para criar uma experiência atraente em um canal de sequência fornecendo um título ou uma descrição sobreposta sobre uma imagem, consulte **[Sobreposição de texto](text-overlay.md)**.
 
 * **Melhorias na sincronização de comandos**
 
@@ -67,14 +65,14 @@ A data de lançamento do Pacote de recursos do AEM Screens 202004 é 20 de abril
 
   Consulte **[Sincronização de comando](using-command-sync.md)** para obter mais detalhes.
 
-### Players do AEM Screens lançados {#released-aem-screens-players}
+### Players do AEM Screens lançados
 
 Os seguintes players do AEM Screens foram lançados para o AEM Screens lançado com AEM 6.4 Feature Pack 8 e AEM 6.5 Feature Pack 4:
 
 * ChromeOS
 * Windows
-* Android
+* Android™
 
-#### Downloads do AEM Screens Player  {#aem-screens-player-downloads}
+#### Downloads do AEM Screens Player
 
 Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/)**.

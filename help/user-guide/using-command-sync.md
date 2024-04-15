@@ -1,22 +1,20 @@
 ---
 title: Usando a sincronização de comandos
-seo-title: Using Command Sync
-description: Siga esta página para saber como usar a Sincronização de Comando.
-seo-description: Follow this page to learn about how to use Command Sync.
+description: Saiba mais sobre como usar a Sincronização de comando no AEM Screens.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
 
 # Sincronização de comando {#command-sync}
 
-A página a seguir descreve como usar a Sincronização de Comando. A sincronização de comandos permite a reprodução sincronizada em diferentes reprodutores. Os reprodutores podem reproduzir conteúdo diferente, mas cada ativo precisa ter a mesma duração.
+A página a seguir descreve como usar a Sincronização de Comando. A sincronização de comandos permite a reprodução sincronizada em diferentes reprodutores. Os reprodutores podem reproduzir conteúdo diferente, mas cada ativo deve ter a mesma duração.
 
 >[!IMPORTANT]
 >
@@ -24,7 +22,7 @@ A página a seguir descreve como usar a Sincronização de Comando. A sincroniza
 
 ## Visão geral {#overview}
 
-As soluções de sinalização digital precisam suportar paredes de vídeo e reprodução sincronizada para suportar cenários como contagens regressivas de Ano Novo ou vídeo grande fatiado para ser reproduzido em várias telas e é aqui que a sincronização de comandos entra em ação.
+As soluções de sinalização digital devem suportar paredes de vídeo e reprodução sincronizada para suportar cenários como contagens regressivas de Ano Novo ou vídeo grande fatiado para ser reproduzido em várias telas e é aqui que a Sincronização de comando entra em ação.
 
 Para usar a Sincronização de comandos, um player atua como *principal* e envia o comando e todos os outros jogadores atuam como *clientes* e executar quando receberem o comando.
 
@@ -54,7 +52,7 @@ Antes de usar o recurso de sincronização de comando, verifique se você tem um
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Criar um local **Lobby** e, subsequentemente, uma exibição intitulada como **ExibiçãoLobby** no **Localizações** conforme mostrado na figura abaixo.
+1. Criar um local **Lobby** e, em seguida, uma exibição intitulada como **ExibiçãoLobby** no **Localizações** conforme mostrado na figura abaixo.
    ![image1](assets/command-sync/command-sync3-1.png)
 
 1. Atribuir o canal, **ChannelLobby** ao seu **ExibiçãoLobby**. Agora é possível exibir o canal atribuído à exibição no painel de exibição.
@@ -64,7 +62,8 @@ Antes de usar o recurso de sincronização de comando, verifique se você tem um
    >
    >Para saber como atribuir um canal a uma exibição, consulte [Criando e Gerenciando Exibições](/help/user-guide/managing-displays.md).
 
-1. Navegue até **Dispositivos** e clique em **Gerenciador de dispositivos** na barra de ações para registrar os dispositivos.
+1. Navegue até **Dispositivos** pasta.
+1. Clique em **Gerenciador de dispositivos** na barra de ações.
 
    ![image1](assets/command-sync5.png)
 
@@ -77,23 +76,22 @@ Antes de usar o recurso de sincronização de comando, verifique se você tem um
 
 ### Atualização das configurações de canal
 
-1. Navegue até **ChannelLobby** e clique em **Editar** na barra de ações para atualizar as configurações de canal.
-
+1. Navegue até **ChannelLobby**.
+1. Clique em **Editar** na barra de ações.
 1. Selecione o canal inteiro como mostrado na figura abaixo.
    ![image1](assets/command-sync/command-sync7-1.png)
 
-1. Clique na chave inglesa para abrir a **Página** caixa de diálogo.
+1. Clique na chave inglesa.
    ![image1](assets/command-sync/command-sync8-1.png)
 
-1. Insira o *sincronizado* palavra-chave na **Estratégia** campo.
-
+1. No **Página** , insira o *sincronizado* palavra-chave na **Estratégia** campo.
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
 ### Configurar um principal {#setting-up-primary}
 
 1. Navegue até o painel de exibição em **CommandSyncDemo** > **Localizações**  > **Lobby** > **ExibiçãoLobby** e clique em **Painel** na barra de ações.
-Você verá os dois dispositivos (chrome e windows player) em **DISPOSITIVOS** como mostrado na figura abaixo.
+Observe os dois dispositivos (chrome e windows player) em **DISPOSITIVOS** painel, conforme a seguir:
    ![image1](assets/command-sync/command-sync10-1.png)
 
 1. No **DISPOSITIVOS** selecione o dispositivo que deseja definir como principal. O exemplo a seguir demonstra como configurar o dispositivo Chrome como o principal. Clique em **Definir como dispositivo principal**.
@@ -118,9 +116,9 @@ Selecione o outro dispositivo (nesse caso, windows player) na **DISPOSITIVOS** e
 1. Selecione o dispositivo na lista e clique em **Salvar**.
 
    >[NOTA:]
-   > A variável **Sincronizar com o dispositivo principal** A caixa de diálogo mostrará a lista de dispositivos principais. Você pode selecionar a opção desejada de sua preferência.
+   > A variável **Sincronizar com o dispositivo principal** mostra a lista de dispositivos primários. Selecione o preferido.
 
-1. Depois que o dispositivo (Windows player) for sincronizado com o principal (Chrome player), você verá o dispositivo sincronizado na **DISPOSITIVOS** painel.
+1. Quando o dispositivo (Windows player) é sincronizado com o principal (Chrome player), você pode ver o dispositivo sincronizado na **DISPOSITIVOS** painel.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
@@ -136,7 +134,7 @@ Para remover a sincronização do dispositivo principal, siga as etapas abaixo:
 
 1. Navegue até a **DISPOSITIVOS** e selecione o dispositivo.
 
-1. Clique em **Dessincronizar dispositivo(s)** para dessincronizar o cliente do dispositivo principal.
+1. Clique em **Dessincronizar dispositivos** para que você possa dessincronizar o cliente do dispositivo principal.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 

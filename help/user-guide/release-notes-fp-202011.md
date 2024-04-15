@@ -1,21 +1,21 @@
 ---
 title: Notas de versão do Pacote de recursos 202011
-description: "Siga esta página para obter informações sobre o AEM Screens Feature Pack 202011 lançado em 30 de novembro de 2020."
+description: Saiba mais sobre o Pacote de recursos do AEM Screens 202011, lançado em 30 de novembro de 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 3%
+source-wordcount: '284'
+ht-degree: 2%
 
 ---
 
 # Notas de versão do Pacote de recursos 202011 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->É recomendável atualizar para a versão mais recente do Adobe Experience Manager (AEM). O Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
+>A Adobe recomenda que você atualize para a versão mais recente do Adobe Experience Manager (AEM). O AEM Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
 
 ## Disponibilidade {#availability}
 
@@ -49,16 +49,16 @@ Consulte [Pesquisando um dispositivo no Gerenciador de dispositivos](/help/user-
 
   O intervalo de ping padrão agora está definido como 30 segundos nesta versão.
 
-### Players do AEM Screens lançados {#released-aem-screens-players}
+### Players do AEM Screens lançados
 
 Os seguintes players de AEM Screens são lançados para AEM 6.5 Feature Pack 6:
 
 * SO Chrome
 * Windows
-* Android
+* Android™
 * Tizen
-* Linux
+* Linux®
 
-#### Downloads do AEM Screens Player  {#aem-screens-player-downloads}
+#### Downloads do AEM Screens Player
 
 Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

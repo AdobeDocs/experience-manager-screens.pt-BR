@@ -1,13 +1,11 @@
 ---
 title: Suporte e manutenção no segundo dia
-seo-title: Day Two Support and Maintenance for AEM Screens
-description: A página descreve o Suporte e a Manutenção do Segundo Dia
-seo-description: The page describes Day Two Support and Maintenance
+description: Saiba mais sobre o suporte e a manutenção do segundo dia da AEM Screens.
 exl-id: 2b5511ff-c8f4-4ea3-8a65-f17f3a1ec39b
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 9%
+source-wordcount: '138'
+ht-degree: 0%
 
 ---
 
@@ -19,12 +17,12 @@ Siga as diretrizes como suporte e manutenção para o Segundo dia da fase de des
 
 1. Execute as versões mais recentes dos seguintes pacotes para a sua versão do Adobe Experience Manager:
 
-   * **AEM Service Pack**
+   * **Pacote de serviços do AEM**
    * **Pacote de recursos do Screens**
-   * **AEM Pacote de correções cumulative**
+   * **AEM Cumulative Fix Pack**
 
 1. Identifique todos os pacotes de desenvolvimento (por exemplo, componentes principais do WCM) ou kits de ferramentas de terceiros (por exemplo, SAP Hybris) necessários.
 
-1. Instale os mesmos pacotes de software em seus ambientes de desenvolvimento locais.
+1. Instale os mesmos pacotes de software no ambiente de desenvolvimento local.
 
-1. Instrua seu cliente a adotar a mesma configuração em todos os servidores de controle de qualidade, Preparo e Produção. Configurações de servidor incompatíveis criarão problemas ao implantar e testar.
+1. Instrua seu cliente a adotar a mesma configuração em todos os servidores de controle de qualidade, Preparo e Produção. Configurações de servidor incompatíveis criam problemas ao implantar e testar.
