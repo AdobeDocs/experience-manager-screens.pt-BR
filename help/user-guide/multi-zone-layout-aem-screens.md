@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: c440527b80a3899fd45ec2d20d8cb48ffe85f6f3
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 1%
+source-wordcount: '1126'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +33,8 @@ A página seguinte descreve o uso do layout de várias zonas e aborda os seguint
 
 De acordo com os requisitos do projeto, às vezes você precisa de várias zonas em um canal e editá-las como uma unidade abrangente. Por exemplo, uma sequência de produtos com um feed de mídia social relacionado que é executado em três zonas separadas em um único canal.
 
+>[!NOTE]
+>Em canais de várias zonas, o agendamento no nível do ativo não é recomendado devido a possíveis conflitos e comportamento não intencional. Se a programação no nível do ativo for necessária, é recomendável criar um canal de sequência separado e aplicar a lógica de programação nesse canal. Em seguida, incorpore o canal de sequência no canal de várias regiões.
 
 ### Pré-requisitos {#prerequisites}
 
