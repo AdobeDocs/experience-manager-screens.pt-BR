@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 1%
@@ -101,17 +101,17 @@ Siga as etapas abaixo para importar um arquivo para uma pasta de local com campo
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Selecione o projeto,** DemoProjectImporter **>** Criar **>** Importar locais** da barra lateral.
+1. Clique no projeto,** DemoProjectImporter **>** Criar **>** Importar locais** da barra lateral.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. A variável **Importar** será exibido. Selecione o arquivo do projeto com localizações ou selecione o arquivo (***minimal-file.xls***) que você baixou do *Pré-requisitos* seção.
+1. A variável **Importar** será exibido. Clique no arquivo do projeto com localizações ou clique no arquivo (***minimal-file.xls***) que você baixou do *Pré-requisitos* seção.
 
-   Após selecionar o arquivo, selecione **Próxima**.
+   Após selecionar o arquivo, clique em **Próxima**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. Verifique o conteúdo do arquivo (locais) no Assistente de importação e selecione **Importar**.
+1. Verifique o conteúdo do arquivo (locais) no assistente de Importação e clique em **Importar**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

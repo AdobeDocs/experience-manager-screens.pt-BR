@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Se quiser usar várias instâncias de publicação com base em um único Dispatc
  }
 ```
 
-Se você tiver uma instância de publicação com um Dispatcher, ativar a adesão no Dispatcher não ajuda, pois o balanceador de carga pode enviar cada solicitação para o Dispatcher. Nesse caso, selecione **Ativar** in **Fixação** para ativá-lo no nível do balanceador de carga, conforme mostrado na figura abaixo:
+Se você tiver uma instância de publicação com um Dispatcher, ativar a adesão no Dispatcher não ajuda, pois o balanceador de carga pode enviar cada solicitação para o Dispatcher. Nesse caso, clique em **Ativar** in **Fixação** para ativá-lo no nível do balanceador de carga, conforme mostrado na figura abaixo:
 
 ![imagem](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 

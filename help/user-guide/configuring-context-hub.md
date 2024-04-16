@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 1%
@@ -73,7 +73,7 @@ A validação a seguir é o que você vê ao verificar sua conexão inserindo os
 
 1. **Navegar até o ContextHub**
 
-   Navegue até a instância do AEM e selecione o ícone Ferramentas na barra lateral esquerda. Selecionar **Sites** > **ContextHub**, conforme mostrado na figura abaixo.
+   Navegue até a instância do AEM e clique no ícone Ferramentas na barra lateral esquerda. Clique em **Sites** > **ContextHub**, conforme mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -81,16 +81,16 @@ A validação a seguir é o que você vê ao verificar sua conexão inserindo os
 
    1. Navegue até o contêiner de configuração intitulado como **telas**.
 
-   1. Selecionar **Criar** > **Criar contêiner de configuração** e insira o título como **ContextHubDemo**.
+   1. Clique em **Criar** > **Criar contêiner de configuração** e insira o título como **ContextHubDemo**.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. **Navegar** para **ContextHubDemo** > **Criar** **Configuração do ContentHub** e selecione **Salvar**.
+   1. **Navegar** para **ContextHubDemo** > **Criar** **Configuração do ContentHub** e clique em **Salvar**.
 
       >[!NOTE]
-      > Depois de selecionar **Salvar**, você está no **Configuração do ContextHub** tela.
+      > Depois de clicar em **Salvar**, você está no **Configuração do ContextHub** tela.
 
-   1. No **Configuração do ContextHub** , selecione **Criar** > **Configuração de armazenamento do ContentHub**
+   1. No **Configuração do ContextHub** clique em **Criar** > **Configuração de armazenamento do ContentHub**
 
    ![imagem](/help/user-guide/assets/context-hub/context-hub5.png)
 
@@ -110,14 +110,14 @@ A validação a seguir é o que você vê ao verificar sua conexão inserindo os
    >
    >Siga estas etapas em Autor e publicação antes ou depois da atualização.
 
-   1. Insira o **Título** as **Planilhas Google**, **Nome do armazenamento** as **`googlesheets`**, e **Tipo de armazenamento** as **c`ontexthub.generic-jsonp`** e selecione **Próxima**.
+   1. Insira o **Título** as **Planilhas Google**, **Nome do armazenamento** as **`googlesheets`**, e **Tipo de armazenamento** as **c`ontexthub.generic-jsonp`** e clique em **Próxima**.
 
       >[!CAUTION]
       >Se estiver usando o Adobe Experience Manager (AEM) 6.4, insira o **Título da configuração** as **`googlesheets`** e a variável **Tipo de armazenamento** as **c`ontexthub.generic-jsonp`**.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub6.png)
 
-   1. Insira sua configuração json específica. Por exemplo, você pode usar o seguinte json para fins de demonstração e selecionar **Salvar**. Você verá a configuração da loja intitulada como **Planilhas Google** na configuração do ContextHub.
+   1. Insira sua configuração json específica. Por exemplo, você pode usar o seguinte json para fins de demonstração e clicar em **Salvar**. Você verá a configuração da loja intitulada como **Planilhas Google** na configuração do ContextHub.
 
       >[!IMPORTANT]
       >Substitua o código pelo seu `*<Sheet ID>*` e `*<API Key>*`, que você buscou ao configurar o Google Sheets.
@@ -154,7 +154,7 @@ A validação a seguir é o que você vê ao verificar sua conexão inserindo os
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub7.png)
 
-   1. Selecionar **Próxima** e depois **Salvar**.
+   1. Clique em **Próxima** e depois **Salvar**.
 
       >[!NOTE]
       >Ignore o processo de definição do json e deixe-o em branco.
@@ -166,16 +166,16 @@ A validação a seguir é o que você vê ao verificar sua conexão inserindo os
 
    1. Navegue da instância do AEM para **Personalização** > **Públicos-alvo** > **telas**.
 
-   1. Selecionar **Criar** > **Criar segmento do Context Hub.** A variável **Novo segmento do ContextHub** é aberta.
+   1. Clique em **Criar** > **Criar segmento do Context Hub.** A variável **Novo segmento do ContextHub** é aberta.
 
-   1. Insira o **Título** as `**Higherthan50**` e selecione **Criar**. Da mesma forma, crie outro segmento intitulado como `**Lowerthan50**`.
+   1. Insira o **Título** as `**Higherthan50**` e clique em **Criar**. Da mesma forma, crie outro segmento intitulado como `**Lowerthan50**`.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub11.png)
 
-   1. Selecionar o segmento `**Higherthan50**` e selecione **Propriedades** na barra de ações.
+   1. Clique no segmento `**Higherthan50**` e clique em **Propriedades** na barra de ações.
       ![imagem](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. Selecione o **Personalização** na guia **Propriedades do segmento**. Defina o **Caminho do ContextHub** para `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` e **Caminho de segmentos** para `/conf/screens/settings/wcm/segments` e selecione **Salvar**, conforme mostrado na figura abaixo.
+   1. Clique em **Personalização** na guia **Propriedades do segmento**. Defina o **Caminho do ContextHub** para `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` e **Caminho de segmentos** para `/conf/screens/settings/wcm/segments` e clique em **Salvar**, conforme mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -189,11 +189,11 @@ Siga as etapas abaixo para criar uma marca em suas atividades e áreas sob a mar
 
    1. Navegue da instância do AEM para **Personalização** > **Atividades**.
 
-   1. Selecionar **Criar** > **Criar marca**.
+   1. Clique em **Criar** > **Criar marca**.
 
-   1. Selecionar **Marca** do **Criar página** e selecione **Próxima**.
+   1. Clique em **Marca** do **Criar página** e clique em **Próxima**.
 
-   1. Insira o **Título** as **ScreensBrand** e selecione **Criar**. Sua marca agora é criada conforme mostrado abaixo.
+   1. Insira o **Título** as **ScreensBrand** e clique em **Criar**. Sua marca agora é criada conforme mostrado abaixo.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub8.png)
 
@@ -208,13 +208,13 @@ Siga as etapas abaixo para criar uma marca em suas atividades e áreas sob a mar
 
    Siga as etapas abaixo para criar uma área na marca:
 
-   1. Selecionar **Criar** e depois **Criar área**.
+   1. Clique em **Criar** e depois **Criar área**.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub9.png)
 
-   1. Selecionar **Área** do **Criar página** e selecione **Próxima**.
+   1. Clique em **Área** do **Criar página** e clique em **Próxima**.
 
-   1. Insira o **Título** as **ScreensValue** e selecione **Criar**.
+   1. Insira o **Título** as **ScreensValue** e clique em **Criar**.
 Uma área é criada na sua marca.
 
 ## Etapa 5: Criação de segmentos em uma atividade {#step-setting-up-audience-segmentation}
@@ -225,21 +225,21 @@ Depois de configurar um armazenamento de dados e definir sua atividade (marca e 
 
    1. Navegue da instância do AEM para **Personalização** > **Atividades** > **ScreensBrand** >**ScreensValue**.
 
-   1. Selecionar **Criar** > **Criar atividade.** A variável **Configurar o Assistente de atividade** é aberto.
+   1. Clique em **Criar** > **Criar atividade.** A variável **Configurar o Assistente de atividade** é aberto.
 
-   1. Insira o **Título** as **ValueCheck50** e **Nome** as **valuecheck50**. Selecione o **Mecanismo de direcionamento** as **ContextHub (AEM)** no menu suspenso e selecione **Próxima**.
+   1. Insira o **Título** as **ValueCheck50** e **Nome** as **valuecheck50**. Clique em **Mecanismo de direcionamento** as **ContextHub (AEM)** no menu suspenso e clique em **Próxima**.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub14.png)
 
-   1. Selecionar **Adicionar experiência** do `**Configure Activity**` assistente.
+   1. Clique em **Adicionar experiência** do `**Configure Activity**` assistente.
 
-   1. No **Públicos-alvo**, selecione o `**Higherthan50**` e selecione **Adicionar experiência** e insira o **Título** as `**higherthan50**` **Nome** as `**higherthan50**`. Selecionar **Ok**.
+   1. No **Públicos-alvo**, clique no link `**Higherthan50**` e clique em **Adicionar experiência** e insira o **Título** as `**higherthan50**` **Nome** as `**higherthan50**`. Clique em **Ok**.
 
-   1. No **Públicos-alvo**, selecione o `**Lowerthan50**` e selecione **Adicionar experiência** e insira o **Título** as `**lowerthan50**` **Nome** as `**lowerthan50**`. Selecionar **Ok**.
+   1. No **Públicos-alvo**, clique no link `**Lowerthan50**` e clique em **Adicionar experiência** e insira o **Título** as `**lowerthan50**` **Nome** as `**lowerthan50**`. Clique em **Ok**.
 
    ![imagem](/help/user-guide/assets/context-hub/context-hub15.png)
 
-   1. Selecionar **Próxima** e depois **Salvar**. `**ValueCheck50**` A atividade de foi criada e configurada.
+   1. Clique em **Próxima** e depois **Salvar**. `**ValueCheck50**` A atividade de foi criada e configurada.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub16.png)
 
@@ -249,20 +249,20 @@ Depois de configurar um armazenamento de dados e definir sua atividade (marca e 
 
    1. Navegue da instância do AEM para **Personalização** > **Públicos-alvo** > **telas**.
 
-   1. Selecionar o segmento `**Higherthan50**`e selecione **Editar** na barra de ações.
+   1. Clique no segmento `**Higherthan50**`e clique em **Editar** na barra de ações.
 
    1. Arraste e solte a **Comparação: Propriedade- Valor** ao editor.
 
-   1. Selecione o ícone de chave inglesa para abrir a **Comparando uma propriedade com o valor** caixa de diálogo.
+   1. Clique no ícone da chave inglesa para abrir o **Comparando uma propriedade com o valor** caixa de diálogo.
 
-   1. Selecionar **googlesheets/value/1/0** no menu suspenso em **Nome da propriedade**.
+   1. Clique em **googlesheets/value/1/0** no menu suspenso em **Nome da propriedade**.
 
       >[!NOTE]
       > A variável **googlesheets/value/1/0** refere-se à linha 2 e à coluna conforme preenchido em `google` folhas na figura abaixo:
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub17.png)
 
-   1. Selecione o **Operador** as **maior que** no menu suspenso.
+   1. Clique em **Operador** as **maior que** no menu suspenso.
 
    1. Insira o **Valor** as **70**.
 
@@ -276,11 +276,11 @@ Depois de configurar um armazenamento de dados e definir sua atividade (marca e 
 
    1. Arraste e solte a **Comparação: Propriedade- Valor** ao editor.
 
-   1. Selecione o ícone da chave inglesa.
+   1. Clique na chave inglesa.
 
-   1. No **Comparando uma propriedade com o valor** caixa de diálogo, selecione **googlesheets/value/1/0** no menu suspenso em **Nome da propriedade**.
+   1. No **Comparando uma propriedade com o valor** , clique em **googlesheets/value/1/0** no menu suspenso em **Nome da propriedade**.
 
-   1. Selecione o **Operador** as **menor que** no menu suspenso.
+   1. Clique em **Operador** as **menor que** no menu suspenso.
 
    1. Insira o **Valor** as **50**.
 
@@ -291,16 +291,16 @@ Siga as etapas abaixo para ativar o direcionamento em seus canais.
 
 1. Navegue até um dos canais do AEM Screens. As etapas a seguir demonstram como habilitar o direcionamento usando **DataDrivenChannel** criado em um Canal AEM Screens.
 
-1. Selecionar o canal **TargetChannel** e selecione **Propriedades** na barra de ações.
+1. Clique no canal **TargetChannel** e clique em **Propriedades** na barra de ações.
 
    ![imagem](/help/user-guide/assets/context-hub/context-hub19.png)
 
-1. Selecione o **Personalização** para poder definir as configurações do ContextHub.
+1. Clique em **Personalização** para poder definir as configurações do ContextHub.
 
    1. Defina o **Caminho do ContextHub** para `/conf/screens/settings/wcm/segments` e **Caminho de segmentos** para `/conf/screens/settings/wcm/segments`.
    1. Definir marca como **ScreensBrand** na lista suspensa e **Definir Referência da Área** para **ScreensValue**.
 
-   1. Selecionar **Salvar e fechar**.
+   1. Clique em **Salvar e fechar**.
 
       >[!NOTE]
       >
@@ -308,7 +308,7 @@ Siga as etapas abaixo para ativar o direcionamento em seus canais.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub20New.png)
 
-   1. Navegue e selecione o **TargetChannel** canal e selecione **Editar** na barra de ações.
+   1. Navegue e clique no link **TargetChannel** canal e clique em **Editar** na barra de ações.
 
       >[!NOTE]
       >

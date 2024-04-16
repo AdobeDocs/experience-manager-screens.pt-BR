@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -48,25 +48,25 @@ Siga as etapas abaixo para configurar um canal de emergência:
 
 1. **Criação de um canal de sequência**
 
-   1. Selecione o **Canais** e selecione **Criar**.
+   1. Clique em **Canais** e clique em **Criar**.
 
-   1. Selecionar **Canal de sequência** do assistente e crie o canal chamado de **MainAdChannel**.
+   1. Clique em **Canal de sequência** do assistente e crie o canal chamado de **MainAdChannel**.
 
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **Adicionar conteúdo ao canal de sequência**
 
-   1. Selecione o canal (**MainAdChannel**).
-   1. Selecionar **Editar** na barra de ações.
+   1. Clique no canal (**MainAdChannel**).
+   1. Clique em **Editar** na barra de ações.
    1. Arraste e solte alguns ativos no canal.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **Criação de um canal de emergência**
 
-   1. Selecione o **Canais** pasta.
-   1. Selecione **Criar**.
-   1. Selecionar **Canal de sequência** do assistente e crie o canal chamado de **EmergencyChannel**.
+   1. Clique em **Canais** pasta.
+   1. Clique em **Criar**.
+   1. Clique em **Canal de sequência** do assistente e crie o canal chamado de **EmergencyChannel**.
 
    >[!NOTE]
    >
@@ -76,8 +76,8 @@ Siga as etapas abaixo para configurar um canal de emergência:
 
 1. **Adicionar conteúdo ao canal de emergência**
 
-   1. Selecione o canal (**Canal de emergência)**.
-   1. Selecionar **Editar** na barra de ações.
+   1. Clique no canal (**Canal de emergência)**.
+   1. Clique em **Editar** na barra de ações.
    1. Arraste e solte o ativo que deseja executar durante uma emergência no seu canal.
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
@@ -85,36 +85,36 @@ Siga as etapas abaixo para configurar um canal de emergência:
 1. **Criação de um local**
 
    1. Navegue até **Localizações** pasta.
-   1. Selecionar **Criar** na barra de ações e crie um local chamado **Loja** do assistente.
+   1. Clique em **Criar** na barra de ações e crie um local chamado **Loja** do assistente.
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
 
 1. **Criação de exibições em seu local**
 
-   Navegue até sua localização (**Loja**) e selecione **Criar** na barra de ações. Após o assistente, crie dois **Exibições** intitulado como **StoreFront** e **StoreRear**.
+   Navegue até sua localização (**Loja**) e clique em **Criar** na barra de ações. Após o assistente, crie dois **Exibições** intitulado como **StoreFront** e **StoreRear**.
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
 1. **Criação de uma programação**
 
    1. Navegue até o **Agendamentos** pasta.
-   1. Selecionar **Criar** na barra de ações.
+   1. Clique em **Criar** na barra de ações.
    1. Após o assistente, crie um agendamento chamado **StoreSchedule**.
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
 1. Atribua as exibições ao seu cronograma e defina as prioridades
 
-   1. Selecionar a programação **(StoreSchedule)** e selecione **Painel** na barra de ações.
+   1. Clique na programação **(StoreSchedule)** e clique em **Painel** na barra de ações.
 
-   1. Selecionar **+ Atribuir canal** do **CANAIS ATRIBUÍDOS** painel.
+   1. Clique em **+ Atribuir canal** do **CANAIS ATRIBUÍDOS** painel.
 
    1. No **Atribuição de canal** caixa de diálogo:
 
-      1. Selecione o caminho para o **MainAdChannel**
+      1. Clique no caminho para a **MainAdChannel**
       1. Defina o **Prioridade** as 2
       1. Defina os Eventos compatíveis como **Carga inicial** e **Tela inativa**.
-      1. Selecionar **Salvar**
+      1. Clique em **Salvar**
 
       Da mesma forma, siga as mesmas etapas novamente para atribuir a **EmergencyChannel** e defina seus **Prioridade**.
 
@@ -124,16 +124,16 @@ Siga as etapas abaixo para configurar um canal de emergência:
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. Selecionar **+ Atribuir canal** do **CANAIS ATRIBUÍDOS** painel.
+1. Clique em **+ Atribuir canal** do **CANAIS ATRIBUÍDOS** painel.
 
 1. No **Atribuição de canal** caixa de diálogo:
 
-   1. Selecione o caminho para o **EmergencyChannel**
+   1. Clique no caminho para a **EmergencyChannel**
    1. Defina o **Prioridade** as 1
 
    1. Defina os Eventos compatíveis como **Carga inicial**, **Tela inativa**, e **Interação do usuário**
 
-   1. Selecionar **Salvar**
+   1. Clique em **Salvar**
 
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
@@ -145,12 +145,12 @@ Siga as etapas abaixo para configurar um canal de emergência:
 
    1. Navegue até cada exibição, como **EmergencyChannel** > **Localizações** > **Loja** >**StoreFront**.
 
-   1. Selecionar **Painel** na barra de ações.
-   1. Selecionar **..** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** e selecione **+Atribuir Calendário**.
+   1. Clique em **Painel** na barra de ações.
+   1. Clique em **..** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** e clique em **+Atribuir Calendário**.
 
-   1. Selecione o caminho para a Programação (por exemplo, aqui, **EmergencyChannel** > **Agendamentos** >**StoreSchedule**).
+   1. Clique no caminho para o Cronograma (por exemplo, aqui, **EmergencyChannel** > **Agendamentos** >**StoreSchedule**).
 
-   1. Selecione **Salvar**.
+   1. Clique em **Salvar**.
 
    Você pode exibir a programação atribuída à exibição na **StoreSchedule** painel.
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
@@ -165,15 +165,15 @@ Siga as etapas abaixo para configurar um canal de emergência:
 
 Se houver uma emergência, execute as seguintes etapas:
 
-1. Navegue até **EmergencyChannel** > **Agendamentos** > **StoreSchedule** e selecione **Painel** na barra de ações.
+1. Navegue até **EmergencyChannel** > **Agendamentos** > **StoreSchedule** e clique em **Painel** na barra de ações.
 
    ![screen_shot_2019-02-25at101112pm](assets/screen_shot_2019-02-25at101112pm.png)
 
-1. Selecione o **EmergencyChannel** do **StoreSchedule** e selecione **Editar atribuição**.
+1. Clique em **EmergencyChannel** do **StoreSchedule** e clique em **Editar atribuição**.
 
    ![screen_shot_2019-02-25at101239pm](assets/screen_shot_2019-02-25at101239pm.png)
 
-1. Atualize o **Prioridade** do **EmergencyChannel** para **3** do **Atribuição de canal** e selecione **Salvar**.
+1. Atualize o **Prioridade** do **EmergencyChannel** para **3** do **Atribuição de canal** e clique em **Salvar**.
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 

@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 1%
@@ -58,15 +58,15 @@ A imagem a seguir mostra o **DemonstraçãoDeSobreposiçãoDeTexto** projeto com
 
 Siga as etapas abaixo para usar a sobreposição de texto em um canal do AEM Screens:
 
-1. Navegue até **DemonstraçãoDeSobreposiçãoDeTexto** > **Canais** > **TextSample** e selecione **Editar** na barra de ações.
+1. Navegue até **DemonstraçãoDeSobreposiçãoDeTexto** > **Canais** > **TextSample** e clique em **Editar** na barra de ações.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Selecione a imagem e **Configurar** (ícone de chave inglesa) para abrir a caixa de diálogo de propriedades.
+1. Clique na imagem e clique em **Configurar** (ícone de chave inglesa) para abrir a caixa de diálogo de propriedades.
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
-1. Selecione o **Sobreposição de texto** opção na barra de navegação da caixa de diálogo, conforme mostrado na figura abaixo.
+1. Clique em **Sobreposição de texto** opção na barra de navegação da caixa de diálogo, conforme mostrado na figura abaixo.
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
@@ -98,15 +98,15 @@ Para saber como configurar e gerenciar alterações de ativos orientadas por dad
 
 Depois de definir as configurações necessárias para o seu projeto, siga as etapas abaixo para usar os valores das Planilhas Google:
 
-1. Navegue até **DemonstraçãoDeSobreposiçãoDeTexto** > **Canais** > **TextSample** e selecione **Propriedades** na barra de ações.
+1. Navegue até **DemonstraçãoDeSobreposiçãoDeTexto** > **Canais** > **TextSample** e clique em **Propriedades** na barra de ações.
 
-1. Selecione o **Personalização** para poder definir as configurações do ContextHub.
+1. Clique em **Personalização** para poder definir as configurações do ContextHub.
 
-   1. Selecione o **Caminho do ContextHub** as **libs** > **configurações** > **cloudsettings** > **padrão** > **Configurações do ContextHub** e selecione **Selecionar**.
+   1. Clique em **Caminho do ContextHub** as **libs** > **configurações** > **cloudsettings** > **padrão** > **Configurações do ContextHub** e clique em **Selecionar**.
 
-   1. Selecione o **Caminho de segmentos** as **conf** > **telas** > **configurações** > **wcm** > **segmentos** e selecione **Selecionar**.
+   1. Clique em **Caminho de segmentos** as **conf** > **telas** > **configurações** > **wcm** > **segmentos** e clique em **Selecionar**.
 
-   1. Selecionar **Salvar e fechar**.
+   1. Clique em **Salvar e fechar**.
 
       >[!NOTE]
       >
@@ -114,22 +114,22 @@ Depois de definir as configurações necessárias para o seu projeto, siga as et
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navegue até **DemonstraçãoDeSobreposiçãoDeTexto** > **Canais** > **TextSample** e selecione **Editar** na barra de ações.
+1. Navegue até **DemonstraçãoDeSobreposiçãoDeTexto** > **Canais** > **TextSample** e clique em **Editar** na barra de ações.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. Adicione um componente de sobreposição de imagem e texto à imagem, conforme descrito em [Uso de sobreposição de texto](/help/user-guide/text-overlay.md#using-text-overlay) seção desta página.
 
-1. Selecionar em **Configurar** (ícone de chave inglesa) para abrir a **Imagem** caixa de diálogo.
+1. Clique em **Configurar** (ícone de chave inglesa) para abrir a **Imagem** caixa de diálogo.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. Navegue até a **ContextHub** na guia **Imagem** caixa de diálogo. Selecionar **Adicionar**.
+1. Navegue até a **ContextHub** na guia **Imagem** caixa de diálogo. Clique em **Adicionar**.
 
    >[!NOTE]
    >Se você não definiu a configuração do ContextHub, essa opção estará desativada para o seu projeto.
 
-1. Enter **Valor** no **Espaço reservado** campo. Selecione a linha na qual você deseja obter o valor da sua planilha do Google **Variável do ContextHub**. Nesse caso, o valor é recuperado da linha 2 e da coluna 1 das planilhas Google. Agora, insira o **Valor padrão** as **20**, como mostrado na figura abaixo. Quando terminar, marque a marca de seleção.
+1. Enter **Valor** no **Espaço reservado** campo. Clique na linha em que você deseja obter o valor da sua planilha do Google no **Variável do ContextHub**. Nesse caso, o valor é recuperado da linha 2 e da coluna 1 das planilhas Google. Agora, insira o **Valor padrão** as **20**, como mostrado na figura abaixo. Quando terminar, clique na marca de seleção.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
@@ -142,6 +142,6 @@ Depois de definir as configurações necessárias para o seu projeto, siga as et
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. Selecionar **Visualizar**.
+1. Clique em **Visualizar**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)

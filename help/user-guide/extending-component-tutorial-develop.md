@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 1%
@@ -192,7 +192,7 @@ O componente de Pôster é renderizado em tela cheia no modo de visualização/p
                                    name="./jcr:description"/>
                                <position
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Position"
                                    name="./textPosition">
                                    <items jcr:primaryType="nt:unstructured">
@@ -212,7 +212,7 @@ O componente de Pôster é renderizado em tela cheia no modo de visualização/p
                                </position>
                                <color
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Color"
                                    name="./textColor">
                                    <items jcr:primaryType="nt:unstructured">
@@ -240,7 +240,7 @@ O componente de Pôster é renderizado em tela cheia no modo de visualização/p
 
    A propriedade `sling:hideChildren`= `"[linkURL,size]`&quot; é usado no `items` nó para garantir que o **linkURL** e **tamanho** os campos estão ocultos na caixa de diálogo. Não basta remover estes nós da caixa de diálogo do pôster. A propriedade `sling:hideResource="{Boolean}true"` na guia acessibilidade é usada para ocultar a guia inteira.
 
-   Dois campos selecionados são adicionados à caixa de diálogo para conceder aos autores controle sobre a posição e a cor do texto do Título e da Descrição.
+   Campos de dois cliques são adicionados à caixa de diálogo para dar aos autores controle sobre a posição do texto e a cor do Título e Descrição.
 
    ![Pôster - Estrutura final da caixa de diálogo](assets/2018-05-03_at_4_49pm.png)
 

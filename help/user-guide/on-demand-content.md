@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 0%
@@ -26,19 +26,19 @@ Você pode publicar e desfazer a publicação de conteúdo do AEM Screens. O rec
 Siga as etapas abaixo para fornecer atualizações de conteúdo do autor para a publicação no dispositivo para um projeto do AEM Screens:
 
 1. Navegue até o projeto do AEM Screens.
-1. Selecionar **Gerenciar publicação** na barra de ações para que você possa publicar o projeto na sua instância de Publicação.
+1. Clique em **Gerenciar publicação** na barra de ações para que você possa publicar o projeto na sua instância de Publicação.
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. A variável **Gerenciar publicação** é aberto. É possível selecionar a variável **Ação** e também agendar o horário de publicação para agora ou depois. Selecione **Próximo**.
+1. A variável **Gerenciar publicação** é aberto. Você pode clicar no link **Ação** e também agendar o horário de publicação para agora ou depois. Clique em **Avançar**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Marque a caixa para poder selecionar o projeto inteiro na caixa **`Manage Publication`** assistente.
+1. Marque a caixa para poder clicar em todo o projeto na caixa **`Manage Publication`** assistente.
 
    ![screen_shot_2019-02-25at22712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
-1. Selecionar **+ Incluir secundárias** na barra de ações e desmarque todas as opções para poder publicar todos os módulos no seu projeto e selecionar **Adicionar** para publicar.
+1. Clique em **+ Incluir secundárias** na barra de ações e desmarque todas as opções para poder publicar todos os módulos no seu projeto e clique em **Adicionar** para publicar.
 
    >[!NOTE]
    >
@@ -59,7 +59,7 @@ Por exemplo, a imagem a seguir mostra como é possível gerenciar e atualizar so
    1. **Incluir somente páginas já publicadas**: essa opção permite gerenciar atualizações somente nas páginas que foram publicadas antes.
 
 
-1. No **`Manage Publication wizard`**, selecione **Publish**.
+1. No **`Manage Publication wizard`**, clique em **Publish**.
 
    ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
 
@@ -72,9 +72,9 @@ Por exemplo, a imagem a seguir mostra como é possível gerenciar e atualizar so
    >    1. O fluxo de trabalho não funcionará se o autor não concluir o processo de replicação (o conteúdo ainda está sendo carregado na instância de publicação) após selecionar a variável **Publish** no fluxo de trabalho de publicação de gerenciamento.
 
    >[!CAUTION]
-   >Se, como autor ou criador de conteúdo, você quiser ver as alterações nos dispositivos anexados à instância do autor, selecione **Atualizar conteúdo offline** no painel do canal ou selecionando o projeto. Nesse caso, a atualização do conteúdo offline é executada somente na instância do autor.
+   >Se, como autor ou criador de conteúdo, você quiser ver as alterações nos dispositivos anexados à instância do autor, clique em **Atualizar conteúdo offline** no painel do canal ou selecionando o projeto. Nesse caso, a atualização do conteúdo offline é executada somente na instância do autor.
 
-1. Navegue até o projeto e selecione **Atualizar conteúdo offline** na barra de ações. Essa ação encaminha o mesmo comando para publicar a instância, para que os zips offline também sejam criados na instância de publicação.
+1. Navegue até o projeto e clique em **Atualizar conteúdo offline** na barra de ações. Essa ação encaminha o mesmo comando para publicar a instância, para que os zips offline também sejam criados na instância de publicação.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
@@ -95,16 +95,16 @@ Siga as etapas abaixo para fornecer atualizações de conteúdo de Autor > Publi
 >
 >Siga esta seção somente se houver alterações em um canal. Se um canal não tiver alterações após a atualização anterior do conteúdo offline, o fluxo de trabalho de publicação de gerenciamento para um canal individual não funcionará.
 
-1. Navegue até o projeto do AEM Screens e selecione o canal.
-1. Selecionar **Gerenciar publicação** na barra de ações para que você possa publicar o canal na sua instância de Publicação.
+1. Navegue até o projeto do AEM Screens e clique no canal.
+1. Clique em **Gerenciar publicação** na barra de ações para que você possa publicar o canal na sua instância de Publicação.
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. A variável **Gerenciar publicação** é aberto. É possível selecionar a variável **Ação** e também agendar o horário de publicação para agora ou depois. Selecione **Próximo**.
+1. A variável **Gerenciar publicação** é aberto. Você pode clicar no link **Ação** e também agendar o horário de publicação para agora ou depois. Clique em **Avançar**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Selecionar **Publish** do **`Manage Publication`** assistente.
+1. Clique em **Publish** do **`Manage Publication`** assistente.
 
    ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
 

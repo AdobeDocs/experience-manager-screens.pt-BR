@@ -10,7 +10,7 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 0%
@@ -33,8 +33,8 @@ O processo de registro de dispositivos é feito em duas máquinas separadas:
 >Depois de baixar o Windows Player mais recente (*.exe*), de [Downloads do reprodutor AEM 6.4](https://download.macromedia.com/screens/) siga as etapas no reprodutor para concluir a instalação ad-hoc:
 >
 >1. Pressione e segure no canto superior esquerdo para abrir o painel de administração.
->1. Navegue até **Configuração** no menu de ações à esquerda e insira o endereço do local da instância do AEM em **Servidor** e selecione **Salvar**.
->1. Selecione o **Registro** no menu de ação esquerdo e nas etapas abaixo para concluir o processo de registro do dispositivo.
+>1. Navegue até **Configuração** no menu de ações à esquerda e insira o endereço do local da instância do AEM em **Servidor** e clique em **Salvar**.
+>1. Clique em **Registro** no menu de ação esquerdo e nas etapas abaixo para concluir o processo de registro do dispositivo.
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -49,15 +49,15 @@ O processo de registro de dispositivos é feito em duas máquinas separadas:
    >
    >Para obter mais informações sobre como criar um projeto para o Screens no painel AEM, consulte [Criar e gerenciar projeto do Screens](creating-a-screens-project.md).
 
-1. Selecione o **Gerenciador de dispositivos** na barra de ações.
+1. Clique em **Gerenciador de dispositivos** na barra de ações.
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. Selecione o **Registro do dispositivo** no canto superior direito.
+1. Clique em **Registro do dispositivo** no canto superior direito.
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. Selecione o dispositivo desejado (o mesmo da etapa 1) e selecione **Registrar dispositivo**.
+1. Clique no dispositivo desejado (o mesmo da etapa 1) e clique em **Registrar dispositivo**.
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -69,12 +69,12 @@ O processo de registro de dispositivos é feito em duas máquinas separadas:
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Se a variável **Código de registro** é o mesmo em ambos os computadores, selecione **Validar** no AEM, conforme mostrado na etapa (6).
-1. Defina o nome desejado para o dispositivo e selecione **Registrar**.
+1. Se a variável **Código de registro** for o mesmo em ambos os computadores, clique em **Validar** no AEM, conforme mostrado na etapa (6).
+1. Defina o nome desejado para o dispositivo e clique em **Registrar**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. Selecionar **Concluir** para concluir o processo de registro.
+1. Clique em **Concluir** para concluir o processo de registro.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
@@ -84,7 +84,7 @@ O processo de registro de dispositivos é feito em duas máquinas separadas:
    >
    >A variável **Atribuir exibição** permite adicionar o dispositivo diretamente a uma exibição.
 
-   Se você selecionar **Concluir**, atribua o dispositivo a uma exibição.
+   Se você clicar em **Concluir**, atribua o dispositivo a uma exibição.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -96,19 +96,19 @@ O processo de registro de dispositivos é feito em duas máquinas separadas:
 
 Se você não atribuiu o dispositivo a uma exibição, siga as etapas abaixo para atribuir seu dispositivo a uma exibição no projeto do AEM Screens:
 
-1. Selecione o dispositivo e **Atribuir dispositivo** na barra de ações.
+1. Clique no dispositivo e clique em **Atribuir dispositivo** na barra de ações.
 
    ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. Selecione o caminho da exibição em **Caminho de configuração da tela/dispositivo**.
+1. Clique no caminho da exibição em **Caminho de configuração da tela/dispositivo**.
 
    ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. Selecionar **Atribuir** ao selecionar o caminho.
+1. Clique em **Atribuir** ao clicar no caminho.
 
    ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. Selecionar **Concluir** depois que o dispositivo for atribuído com êxito, conforme mostrado na figura abaixo.
+1. Clique em **Concluir** depois que o dispositivo for atribuído com êxito, conforme mostrado na figura abaixo.
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
@@ -122,7 +122,7 @@ Ao registrar dispositivos no reprodutor, você pode exibir todos os dispositivos
 
 1. Acesse a interface do usuário do Gerenciador de dispositivos a partir de seu projeto do AEM Screens, por exemplo, **DemoScreens** > **Dispositivos**.
 
-1. Selecione o **Dispositivos** e selecione **Gerenciador de dispositivos** na barra de ações.
+1. Clique em **Dispositivos** e clique em **Gerenciador de dispositivos** na barra de ações.
 
    ![imagem](/help/user-guide/assets/device-manager/device-manager-1.png)
 

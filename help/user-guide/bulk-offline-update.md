@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Você pode usar a atualização offline em massa manualmente na interface do usu
 Siga as etapas abaixo para usar a atualização em massa offline para um projeto do AEM Screens:
 
 1. Navegue até o projeto do AEM Screens.
-1. Selecione o projeto e **Atualizar conteúdo offline** na barra de ações, para que você possa atualizar manualmente o conteúdo do canal.
+1. Clique no projeto e depois em **Atualizar conteúdo offline** na barra de ações, para que você possa atualizar manualmente o conteúdo do canal.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -67,7 +67,7 @@ Siga as etapas abaixo para usar a atualização em massa offline para um projeto
 
    **Caminho do projeto** Especifique o caminho do projeto do AEM Screens. Normalmente, o caminho é `/content/screens/<Name of your project>`.
 
-   *Por exemplo*, `/content/screens/we-retail`. Você pode encontrar esse caminho no URL selecionando qualquer projeto no AEM Screens (não selecione o ícone ).
+   *Por exemplo*, `/content/screens/we-retail`. Você pode encontrar esse caminho no URL selecionando qualquer projeto no AEM Screens (não clique no ícone ).
 
    >[!NOTE]
    >
@@ -75,4 +75,4 @@ Siga as etapas abaixo para usar a atualização em massa offline para um projeto
 
    **Frequência de programação** Especifique um horário, por exemplo, 17:00 ou 17:00 em que esse serviço deve atualizar o conteúdo offline.
 
-1. Selecionar **Salvar** para salvar suas configurações. Seu conteúdo é atualizado no horário especificado.
+1. Clique em **Salvar** para salvar suas configurações. Seu conteúdo é atualizado no horário especificado.

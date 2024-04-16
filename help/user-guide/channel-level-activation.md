@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 1%
@@ -91,8 +91,8 @@ Siga as etapas abaixo para implementar a funcionalidade:
 1. **Criar Exibição em Local**
 
    1. Navegue até **Ativação em Nível de Canal** > **Localizações** > **Região**.
-   1. Selecionar **Região** e selecione **+ Criar** na barra de ações.
-   1. Selecionar **Exibir** do assistente e crie uma exibição chamada de **Exibição de região.**
+   1. Clique em **Região** e clique em **+ Criar** na barra de ações.
+   1. Clique em **Exibir** do assistente e crie uma exibição chamada de **Exibição de região.**
 
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
@@ -100,32 +100,32 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
    Para **MainAdChannel:**
 
-   1. Navegue até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião** e selecione **Atribuir canal** na barra de ações.
+   1. Navegue até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião** e clique em **Atribuir canal** na barra de ações.
    1. **Atribuição de canal** é aberta.
-   1. Selecionar **Canal de referência** por caminho.
-   1. Selecione o **Caminho do canal** as **Ativação em Nível de Canal** > ***Canais*** > ***MainAdChannel***.
+   1. Clique em **Canal de referência** por caminho.
+   1. Clique em **Caminho do canal** as **Ativação em Nível de Canal** > ***Canais*** > ***MainAdChannel***.
    1. A variável **Função do canal** é preenchido como **mainadchannel**.
-   1. Selecione o **Prioridade** as **1**.
-   1. Selecione o **Eventos suportados** as **Carga inicial** e **Tela inativa**.
-   1. Selecione **Salvar**.
+   1. Clique em **Prioridade** as **1**.
+   1. Clique em **Eventos suportados** as **Carga inicial** e **Tela inativa**.
+   1. Clique em **Salvar**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
-   >Você também pode atribuir um canal no painel de exibição navegando até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião** e seleção **Painel** na barra de ações. Selecionar **+ Atribuir canal** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** painel.
+   >Você também pode atribuir um canal no painel de exibição navegando até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião** e seleção **Painel** na barra de ações. Clique em **+ Atribuir canal** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** painel.
 
    Da mesma forma, atribuir canal **TargetedSinglePlay** para exibição**:
 
-   1. Navegue até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião** e selecione **Atribuir canal** na barra de ações.
+   1. Navegue até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião** e clique em **Atribuir canal** na barra de ações.
    1. **Atribuição de canal** é aberta.
-   1. Selecionar **Canal de referência** por caminho.
-   1. Selecione o **Caminho do canal** as **Ativação em Nível de Canal*** > ***Canais*** > ***TargetedSinglePlay***.
+   1. Clique em **Canal de referência** por caminho.
+   1. Clique em **Caminho do canal** as **Ativação em Nível de Canal*** > ***Canais*** > ***TargetedSinglePlay***.
    1. A variável **Função do canal** é preenchido como **targetedsingleplay**.
    1. Defina o **Prioridade** as **2**.
-   1. Selecione o **Eventos suportados** as **Carga inicial**, **Tela inativa**, e **Temporizador**, conforme mostrado na figura abaixo.
+   1. Clique em **Eventos suportados** as **Carga inicial**, **Tela inativa**, e **Temporizador**, conforme mostrado na figura abaixo.
    1. Escolha a data em **ativo desde** em 27 de novembro de 2018 às 23:59 e em **ativo até** em 28 de novembro de 2018 às 12h05
-   1. Selecione **Salvar**.
+   1. Clique em **Salvar**.
 
    >[!CAUTION]
    >
@@ -135,7 +135,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
    >[!NOTE]
    >
-   >Para escolher o mesmo dia, selecione o dia seguinte e edite manualmente a data para o mesmo dia, mas para uma hora posterior. Isso restringe o usuário de selecionar uma data passada. Consulte o exemplo a seguir:
+   >Para escolher o mesmo dia, clique no dia seguinte e edite manualmente a data para o mesmo dia, mas para uma hora posterior. Isso restringe o usuário de selecionar uma data passada. Consulte o exemplo a seguir:
 
    ![novo1](assets/new1.gif)
 
@@ -160,7 +160,7 @@ Suponha que você deseja exibir o conteúdo de um canal somente nas sextas-feira
 
 ### Divisão de dia {#day-parting}
 
-1. Selecione o canal e **Painel** na barra de ações.
+1. Clique no canal e depois em **Painel** na barra de ações.
 
 1. Após inserir a data/hora inicial e a data/hora final da **Atribuição de canal** você pode usar uma expressão ou uma versão de texto natural para especificar o cronograma de recorrência.
 
@@ -190,7 +190,7 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 ### WeekParting {#week-parting}
 
-1. Selecione o canal e **Painel** na barra de ações.
+1. Clique no canal e depois em **Painel** na barra de ações.
 
 1. Após inserir a data/hora inicial e a data/hora final da **Atribuição de canal** você pode usar uma expressão ou uma versão de texto natural para especificar o cronograma de recorrência.
 
@@ -219,7 +219,7 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 ### MonthParting {#month-parting}
 
-1. Selecione o canal e **Painel** na barra de ações.
+1. Clique no canal e depois em **Painel** na barra de ações.
 
 1. Após inserir a data/hora inicial e a data/hora final da **Atribuição de canal** você pode usar uma expressão ou uma versão de texto natural para especificar o cronograma de recorrência.
 
@@ -247,7 +247,7 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 ### Combinação de Peças {#combined-parting}
 
-1. Selecione o canal e **Painel** na barra de ações.
+1. Clique no canal e depois em **Painel** na barra de ações.
 
 1. Após inserir a data/hora inicial e a data/hora final da **Atribuição de canal** você pode usar uma expressão ou uma versão de texto natural para especificar o cronograma de recorrência.
 

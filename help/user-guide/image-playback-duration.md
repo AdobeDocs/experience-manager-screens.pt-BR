@@ -2,7 +2,7 @@
 title: Duração da reprodução da imagem
 description: Saiba mais sobre a duração da reprodução de imagem no AEM Screens.
 contentOwner: jsyal
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -36,7 +36,7 @@ Siga as etapas abaixo para saber como atualizar a Atribuição de duração da r
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Selecionar **Editar** na barra de ações.
+1. Clique em **Editar** na barra de ações.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -44,7 +44,7 @@ Siga as etapas abaixo para saber como atualizar a Atribuição de duração da r
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. Selecione todas as imagens no canal e selecione o ícone da chave inglesa no canto superior esquerdo (como mostrado na figura abaixo). A caixa de diálogo Configurar nível de canal é aberta.
+1. Clique em todas as imagens no canal e clique na chave inglesa no canto superior esquerdo (como mostrado na figura abaixo). A caixa de diálogo Configurar nível de canal é aberta.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -56,7 +56,7 @@ Siga as etapas abaixo para saber como atualizar a Atribuição de duração da r
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Edite o **Duração** de 8000 (milissegundos) a 3000 (milissegundos), ou seja, 3 segundos. Selecione a marca de seleção no canto superior direito da **Página** para salvar as alterações.
+   Edite o **Duração** de 8000 (milissegundos) a 3000 (milissegundos), ou seja, 3 segundos. Clique na marca de seleção no canto superior direito da **Página** para salvar as alterações.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

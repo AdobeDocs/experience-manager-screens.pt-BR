@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
@@ -32,11 +32,11 @@ Depois de atribuir um canal a uma exibição, o AEM Screens Player exibe o conte
 
 1. Navegue até o painel do dispositivo em seu projeto, por exemplo, ***Testar projeto*** > ***Dispositivos***.
 
-   Selecionar **Dispositivos** e **Gerenciador de dispositivos** na barra de ações.
+   Clique em **Dispositivos** e **Gerenciador de dispositivos** na barra de ações.
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. Selecione o dispositivo para poder abrir o painel de dispositivos.
+1. Clique no dispositivo para abrir o painel de dispositivos.
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -58,7 +58,7 @@ Para exibir a interface do administrador no reprodutor do Screens, pressione o c
 
 #### Acessando as Opções do Menu de Configuração {#configuration-options}
 
-Você poderá atualizar suas configurações se selecionar a opção **Configuração** no menu lateral, conforme mostrado na figura abaixo:
+Você poderá atualizar suas configurações se clicar no botão **Configuração** no menu lateral, conforme mostrado na figura abaixo:
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
@@ -86,7 +86,7 @@ O menu Configuration permite modificar as seguintes configurações:
 
 Você pode limpar o cache de canais e aplicativos na interface do usuário do administrador no AEM Screens Player.
 
-Selecione o **Cache de conteúdo** no painel lateral para que você possa atualizar o cache.
+Clique em **Cache de conteúdo** no painel lateral para que você possa atualizar o cache.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 

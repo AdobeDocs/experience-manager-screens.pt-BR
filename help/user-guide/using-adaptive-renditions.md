@@ -2,7 +2,7 @@
 title: Uso de representações adaptáveis no AEM Screens
 description: Saiba como usar representações adaptáveis no AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Introdução {#introduction}
 
-As representações adaptáveis permitem que os dispositivos selecionem automaticamente a melhor representação para um dispositivo com base em regras definidas pelo cliente. Os dispositivos baixam e reproduzem automaticamente a representação mais apropriada de um ativo com base nessas regras, permitindo que os clientes se concentrem apenas no design do *main* experiência.
+As representações adaptáveis permitem que os dispositivos cliquem automaticamente na melhor representação de um dispositivo com base em regras definidas pelo cliente. Os dispositivos baixam e reproduzem automaticamente a representação mais apropriada de um ativo com base nessas regras, permitindo que os clientes se concentrem apenas no design do *main* experiência.
 
 ## Objetivo {#objective}
 
@@ -35,12 +35,12 @@ Para aplicar representações a ativos que deseja usar no canal de telas de tour
 1. Navegue até a **Assets** pasta na instância do AEM.
 1. Crie uma versão do ativo que se ajuste melhor à exibição de sinalização, por exemplo, `seahorse.jpg`.
 1. Escolha o padrão de nomenclatura da representação, por exemplo,`landscape`, semelhante ao definido em **padrão** propriedade no **CRXDE Lite**. Consulte [Adição de regras de mapeamento de representação](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) para obter mais detalhes.
-1. Selecionar **Adicionar representação** para fazer upload da representação, conforme mostrado na figura abaixo.
+1. Clique em **Adicionar representação** para fazer upload da representação, conforme mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
 
-1. Selecione o renomeado para o arquivo de ativo. A representação que você está adicionando deve conter o padrão (definido na etapa 3), por exemplo, `seahorse-landscape.png`.
-1. Depois de adicionar o ativo, selecione-o e **Gerenciar publicação** na barra de ações para publicar o ativo.
+1. Clique em renomeado para o arquivo de ativo. A representação que você está adicionando deve conter o padrão (definido na etapa 3), por exemplo, `seahorse-landscape.png`.
+1. Depois de adicionar o ativo, clique nele e em **Gerenciar publicação** na barra de ações para publicar o ativo.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 

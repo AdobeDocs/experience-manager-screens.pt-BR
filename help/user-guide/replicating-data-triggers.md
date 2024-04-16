@@ -5,7 +5,7 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Siga as etapas abaixo para replicar os acionadores de dados para o servidor de p
 
 ### Etapa 1: Replicar configurações do ContextHub {#replicating-contexthub-configurations}
 
-1. Navegue até **Ferramentas** > **Implantação** > **Distribuição** > **Agente de publicação** e selecione o agente de publicação para poder definir suas configurações.
+1. Navegue até **Ferramentas** > **Implantação** > **Distribuição** > **Agente de publicação** e clique no agente de publicação para definir as configurações.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
@@ -38,7 +38,7 @@ Siga as etapas abaixo para replicar os acionadores de dados para o servidor de p
    >
    >Como alternativa, você pode usar o `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` para navegar diretamente para a tela e configurar a conexão.
 
-1. Selecionar **Testar conexão** na barra de ação para que você possa validar a comunicação do Autor com a instância de Publicação, conforme mostrado a seguir:
+1. Clique em **Testar conexão** na barra de ação para que você possa validar a comunicação do Autor com a instância de Publicação, conforme mostrado a seguir:
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
@@ -46,9 +46,9 @@ Siga as etapas abaixo para replicar os acionadores de dados para o servidor de p
    >
    >Se o teste falhar, corrija a configuração do agente de replicação entre a instância do Autor e de Publicação. Consulte [Solução de problemas da conexão de teste](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) para obter mais detalhes.
 
-1. Selecionar **Adicionar** do **Agente de distribuição** árvore de tela e selecione o caminho de configuração para seu projeto, por exemplo, `/conf/screens/settings/cloudsettings/configuration`.
+1. Clique em **Adicionar** do **Agente de distribuição** árvore de tela e clique no caminho de configuração do seu projeto, por exemplo, `/conf/screens/settings/cloudsettings/configuration`.
 
-1. Selecione **Enviar**.
+1. Clique em **Enviar**.
 
 ### Replicação de públicos {#replicating-audiences}
 
@@ -58,11 +58,11 @@ Siga as etapas abaixo para replicar os acionadores de dados para o servidor de p
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
-1. Selecione todos os públicos-alvo e segmentos na interface.
+1. Clique em todos os públicos-alvo e segmentos na interface do usuário do.
 
-1. Selecionar **Gerenciar publicação** na barra de ações.
+1. Clique em **Gerenciar publicação** na barra de ações.
 
-1. Selecionar **Próxima** e **Publish**.
+1. Clique em **Próxima** e **Publish**.
 
 ### Replicação de atividades  {#replicating-activities}
 
@@ -70,11 +70,11 @@ Siga as etapas abaixo para replicar os acionadores de dados para o servidor de p
 
 1. Detalhe a pasta do projeto, ou seja, `/content/campaigns/screens/…`.
 
-1. Selecione todas as atividades na interface do usuário.
+1. Clique em todas as atividades na interface do usuário.
 
-1. Selecionar **Gerenciar publicação** na barra de ações.
+1. Clique em **Gerenciar publicação** na barra de ações.
 
-1. Selecionar **Próxima** e **Publish**.
+1. Clique em **Próxima** e **Publish**.
 
 >[!IMPORTANT]
 >
@@ -94,7 +94,7 @@ Se a conexão de teste falhar ao replicar as configurações do ContextHub, siga
 
 1. Navegue até Ferramentas > **Implantação** > **Distribuição** > **Agente de publicação**.
 
-1. Selecionar **Editar** na barra de ações e verifique se o URL do endpoint no **Endpoints do importador** também aponta para o URL do servidor de publicação no Agente de distribuição.
+1. Clique em **Editar** na barra de ações e verifique se o URL do endpoint no **Endpoints do importador** também aponta para o URL do servidor de publicação no Agente de distribuição.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Se você não estiver usando as credenciais padrão de administrador, configure o agente de distribuição com um nome de usuário e senha diferentes.
@@ -110,10 +110,10 @@ Se a conexão de teste falhar ao replicar as configurações do ContextHub, siga
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
-   1. Selecionar **Salvar**
+   1. Clique em **Salvar**
    1. Uso `Cmd +F` para procurar **Apache Sling Distribution Agent - Fábrica de agentes de encaminhamento** para abrir as configurações e pesquisar **Transportar provedor do segredo**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Atualize o `(name=default)` com `(name=slingTransportSecretProvider)`.
-   1. Selecionar **Salvar** e execute a conexão de teste novamente a partir do **Agente de distribuição** da instância do AEM novamente.
+   1. Clique em **Salvar** e execute a conexão de teste novamente a partir do **Agente de distribuição** da instância do AEM novamente.

@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2135'
 ht-degree: 1%
@@ -88,7 +88,7 @@ O código-fonte de um projeto do Screens geralmente é gerenciado como um projet
 
 1. **Navegue até a AEM Screens > `We.Retail` Executar projeto:**
 
-   No menu Iniciar do AEM, selecione o ícone Telas. Verifique se `We.Retail` Executar projeto é visto.
+   No menu Iniciar do AEM, clique no ícone Screens. Verifique se `We.Retail` Executar projeto é visto.
 
    ![we-retail-run-starter](assets/we-retaiul-run-starter.png)
 
@@ -405,9 +405,9 @@ Abaixo de a `We.Retail` É criada a página Executar design que armazena todas a
 
 O componente Hello World deve ser usado em um canal de sequência. Para testar o componente, um novo Canal de sequência é criado.
 
-1. No menu Iniciar do AEM, navegue até **Screens** > **`We.Retail`Executar** > e selecione **Canais**.
+1. No menu Iniciar do AEM, navegue até **Screens** > **`We.Retail`Executar** > e clique em **Canais**.
 
-1. Selecione o **Criar** botão
+1. Clique em **Criar** botão
 
    1. Escolher **Criar entidade**
 
@@ -435,9 +435,9 @@ O componente Hello World deve ser usado em um canal de sequência. Para testar o
 
 1. Alternar o modo de página para **Design** Modo.
 
-   1. Selecione o **chave inglesa** no Parsys para que você possa configurar os componentes permitidos.
+   1. Clique em **chave inglesa** no Parsys para que você possa configurar os componentes permitidos.
 
-   1. Selecione o **Screens** e o **`We.Retail`Executar - Conteúdo** grupo.
+   1. Clique em **Screens** e o **`We.Retail`Executar - Conteúdo** grupo.
 
    ![2018-04-30_às_5_43h](assets/2018-04-30_at_5_43pm.png)
 

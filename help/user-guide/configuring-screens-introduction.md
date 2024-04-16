@@ -9,7 +9,7 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 1%
@@ -42,7 +42,7 @@ Siga as etapas abaixo para verificar se essas duas configurações vitais estão
    ![ativos](assets/health-check1.png)
 
 
-2. Selecionar **Executar verificações de integridade selecionadas** para que você possa executar a validação de duas propriedades listadas acima.
+2. Clique em **Executar verificações de integridade selecionadas** para que você possa executar a validação de duas propriedades listadas acima.
 
    Se ambos os filtros estiverem ativados, a variável **Serviço de integridade da configuração do Screens** mostra o **Resultado** as **OK** com ambas as configurações ativadas.
 
@@ -76,7 +76,7 @@ Os principais pontos a seguir ajudam a configurar o e o servidor AEM para que es
 
    ![imagem](assets/config/empty-ref2.png)
 
-1. Selecionar **Salvar** para ativar o Apache Sling Referrer Filter Allow Empty.
+1. Clique em **Salvar** para ativar o Apache Sling Referrer Filter Allow Empty.
 
 
 #### Serviço HTTP baseado no Apache Felix Jetty {#allow-apache-felix-service}
@@ -93,7 +93,7 @@ Os principais pontos a seguir ajudam a configurar o e o servidor AEM para que es
 
    ![imagem](assets/config/config-1.png)
 
-1. Selecionar **Salvar** para habilitar o *http* serviço.
+1. Clique em **Salvar** para habilitar o *http* serviço.
 
 #### Habilitar a interface de toque para o AEM Screens {#enable-touch-ui-for-aem-screens}
 

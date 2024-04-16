@@ -10,7 +10,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
@@ -37,7 +37,7 @@ A data de lançamento do Pacote de recursos 2018 da AEM Screens é 16 de janeiro
 
 * **Agendamento de vários ativos**:
 
-  O Agendamento de vários ativos permite que o usuário selecione vários ativos e aplique um agendamento de reprodução a todos os ativos selecionados. Consulte **Agendamento de vários ativos** seção em **[Agendamento de ativos](asset-level-scheduling.md)**.
+  O agendamento de vários ativos permite que o usuário clique em vários ativos e aplique um agendamento de reprodução a todos os ativos selecionados. Consulte **Agendamento de vários ativos** seção em **[Agendamento de ativos](asset-level-scheduling.md)**.
 
 * **Layout de várias zonas**:
 

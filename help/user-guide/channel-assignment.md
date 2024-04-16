@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 2%
@@ -32,11 +32,11 @@ Siga as etapas abaixo para atribuir um canal a uma exibição:
 
    ![imagem](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Selecionar **Atribuir canal** na barra de ações.
+1. Clique em **Atribuir canal** na barra de ações.
 
    ou,
 
-   Selecionar **Painel** e selecione **+Atribuir canal** do **CANAIS ATRIBUÍDOS** para que você possa abrir o **Atribuição de canal** caixa de diálogo.
+   Clique em **Painel** e clique em **+Atribuir canal** do **CANAIS ATRIBUÍDOS** para que você possa abrir o **Atribuição de canal** caixa de diálogo.
 
    ![imagem](/help/user-guide/assets/channel-assign1.png)
 
@@ -78,7 +78,7 @@ A prioridade é usada para ordenar as atribuições caso várias correspondam ao
 
 Como autor de conteúdo, especifique quando um canal é interrompido para que você possa optar por cortar conteúdo não crítico, mas, opcionalmente, permitir que conteúdo importante seja reproduzido antes de interromper sua reprodução por causa do agendamento.
 
-Selecione uma das seguintes opções que estão disponíveis para definir o método de interrupção no **Atribuição de canal** caixa de diálogo:
+Clique em uma das seguintes opções disponíveis para definir o método de interrupção no **Atribuição de canal** caixa de diálogo:
 
 * **Imediatamente** - Sempre que a programação for ativada ou uma atualização for recebida, você pode interromper a reprodução e atualizar ou reproduzir imediatamente o novo conteúdo.
 * **No fim do item atual** - Quando uma nova programação é ativada ou uma atualização é recebida, você pode aguardar até que o item atual na sequência termine a reprodução. Somente depois disso é possível atualizar ou reproduzir o novo conteúdo.

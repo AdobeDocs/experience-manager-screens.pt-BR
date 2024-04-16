@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Após carregar o vídeo no canal, o AEM deve começar a criar algumas representa
 Para exibir o vídeo:
 
 1. Navegue até o vídeo, por exemplo `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. Selecione o vídeo, expanda o menu superior esquerdo e selecione **Representações**.
+1. Clique no vídeo, expanda o menu superior esquerdo e clique em **Representações**.
 
 Deve haver diferentes representações (um MP4 ou M4V).
 
@@ -39,7 +39,7 @@ Se não houver representação, verifique se o ffmpeg está instalado no SO em q
 >
 >Se não houver representação, verifique se o ffmpeg está instalado no SO em que o AEM está em execução.
 >
->Selecionar [aqui](https://www.ffmpeg.org/download.html) para instalar o ffmpeg.
+>Clique em [aqui](https://www.ffmpeg.org/download.html) para instalar o ffmpeg.
 
 ## Ativos de vídeo {#video-assets}
 
@@ -51,11 +51,11 @@ Verifique se o ffmpeg está instalado e os perfis de vídeo.
 
 ### Verificar perfil de vídeo {#checking-video-profile}
 
-1. Navegue até a **Perfil de vídeo**, ou seja, `http://localhost:4502/etc/dam/video.html` e selecione **Carregar vídeo de teste**.
+1. Navegue até a **Perfil de vídeo**, ou seja, `http://localhost:4502/etc/dam/video.html` e clique em **Carregar vídeo de teste**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. Carregue um vídeo de teste e selecione **Ok** então você pode começar a transcodificação.
+1. Carregue um vídeo de teste e clique em **Ok** então você pode começar a transcodificação.
 
    Se o vídeo transcodificado falhar, expanda a saída ffmpeg para entender quaisquer erros na saída do console do ffmpeg.
 
@@ -73,14 +73,14 @@ Verifique se o ffmpeg está instalado e os perfis de vídeo.
 
 Verifique a lista de perfis do design da página se o componente de vídeo não estiver configurado corretamente.
 
-1. Navegue até o canal e selecione a **Design** modo.
+1. Navegue até o canal e clique no link **Design** modo.
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-1. Selecione o vídeo e abra a janela **Editar** diálogo. Abra o **Perfis** guia.
+1. Clique no vídeo e abra a **Editar** diálogo. Abra o **Perfis** guia.
 
    >[!NOTE]
-   >Selecione perfis diferentes (pelo menos o perfil &quot;H.264 de alta qualidade&quot; deve estar lá).
+   >Clique em perfis diferentes (pelo menos o perfil &quot;H.264 de alta qualidade&quot; deve estar lá).
 
 ### Verificação do vídeo no reprodutor da Web {#checking-the-video-in-the-web-player}
 
@@ -91,10 +91,10 @@ Se o vídeo não for executado no Safari, ele também não será executado no OS
 Para usar um fluxo de trabalho DAM para criar representações FullHD, faça o seguinte:
 
 1. Navegue até a *administrador do modelo de fluxo de trabalho* que é `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
-1. Selecione o **Ativo de atualização do Screens** modelo.
-1. Selecionar **Iniciar fluxo de trabalho** na barra de ações.
-1. No **Executar fluxo de trabalho** , selecione o ativo de vídeo na caixa de diálogo **Carga**.
-1. Selecionar **Executar**.
+1. Clique em **Ativo de atualização do Screens** modelo.
+1. Clique em **Iniciar fluxo de trabalho** na barra de ações.
+1. No **Executar fluxo de trabalho** clique no ativo de vídeo na caixa de diálogo **Carga**.
+1. Clique em **Executar**.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ A estratégia absoluta:
 
 Siga as etapas abaixo para configurar uma estratégia absoluta:
 
-1. Navegue até o autor do canal e selecione o componente de sequência, como mostrado na figura abaixo.
+1. Navegue até o autor do canal e clique no componente de sequência, como mostrado na figura abaixo.
 1. Abra a caixa de diálogo de configuração.
 1. Edite o **Estratégia** e adicione absoluto.
 

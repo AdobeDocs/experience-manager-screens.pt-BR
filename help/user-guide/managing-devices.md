@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 1%
@@ -36,26 +36,26 @@ Siga as etapas abaixo para atribuir um dispositivo a uma exibição:
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Selecione o **Dispositivos** e selecione **Gerenciador de dispositivos** na barra de ações. Os dispositivos atribuídos e não atribuídos são exibidos.
+1. Clique no **Dispositivos** e clique em **Gerenciador de dispositivos** na barra de ações. Os dispositivos atribuídos e não atribuídos são exibidos.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Selecione um dispositivo não atribuído na lista e selecione o **Atribuir dispositivo** na barra de ações.
+1. Clique em um dispositivo não atribuído na lista e clique no botão **Atribuir dispositivo** na barra de ações.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Selecione na lista a exibição à qual deseja atribuir o dispositivo e selecione a exibição **Atribuir**.
+1. Clique na exibição à qual deseja atribuir o dispositivo na lista e clique na guia **Atribuir**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Selecione o **Concluir** para concluir o processo de atribuição.
+1. Clique em **Concluir** para concluir o processo de atribuição.
 
 
    O painel de exibição exibe o dispositivo atribuído na variável **DISPOSITIVOS** painel.
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   Selecione o (**..**) no canto superior direito da **DISPOSITIVOS** para adicionar a configuração do dispositivo ou atualizar os dispositivos.
+   Clique no botão **..**) no canto superior direito da **DISPOSITIVOS** para adicionar a configuração do dispositivo ou atualizar os dispositivos.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 

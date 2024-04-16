@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -32,12 +32,12 @@ Você pode criar um agendamento para o seu projeto do Screens que possa gerencia
 
 Siga as etapas abaixo para criar um agendamento para seu canal:
 
-1. Selecione o link Adobe Experience Manager (canto superior esquerdo) e, em seguida, Screens. Como alternativa, você pode ir diretamente para: `http://localhost:4502/screens.html/content/screens`.
-1. Navegue até o projeto do Screens e selecione **Agendamentos**.
-1. Selecionar **Criar** na barra de ações.
-1. Selecionar **Agendar** do **Criar** e selecione **Próxima**.
+1. Clique no link Adobe Experience Manager (parte superior esquerda) e, em seguida, em Screens. Como alternativa, você pode ir diretamente para: `http://localhost:4502/screens.html/content/screens`.
+1. Navegue até o projeto do Screens e clique em **Agendamentos**.
+1. Clique em **Criar** na barra de ações.
+1. Clique em **Agendar** do **Criar** e clique em **Próxima**.
 
-1. Insira o **Nome** e **Título** e selecione **Criar**.
+1. Insira o **Nome** e **Título** e clique em **Criar**.
 
 Você pode ver uma pasta de agendamento com o nome e o título designados em seu projeto.
 
@@ -52,14 +52,14 @@ Siga as etapas abaixo para visualizar o painel de agendamento. O exemplo a segui
 
    ![chlimage_1](assets/chlimage_1.png)
 
-1. Selecionar **Painel** na barra de ações.
+1. Clique em **Painel** na barra de ações.
 
    É possível exibir três painéis diferentes, como **INFORMAÇÕES DA PROGRAMAÇÃO**, **CANAIS ATRIBUÍDOS**, e **EXIBIÇÕES ATRIBUÍDAS**.
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Painel de Informações de Agendamento** Selecione Propriedades no canto superior direito do painel INFORMAÇÕES DA PROGRAMAÇÃO para exibir/alterar as propriedades da programação.
+   **Painel de Informações de Agendamento** Clique em Propriedades no canto superior direito do Painel INFORMAÇÕES DA PROGRAMAÇÃO para exibir/alterar as propriedades da programação.
 
-   **Painel Canais atribuídos** Selecione +Atribuir canal no canto superior direito do painel CANAIS ATRIBUÍDOS para abrir a caixa de diálogo Atribuição de canal.
+   **Painel Canais atribuídos** Clique em +Atribuir canal no canto superior direito do painel CANAIS ATRIBUÍDOS para abrir a caixa de diálogo Atribuição de canal.
 
-   **Painel Exibições atribuídas** Selecione qualquer uma das exibições no painel EXIBIÇÕES ATRIBUÍDAS para abrir o painel de exibição.
+   **Painel Exibições atribuídas** Clique em qualquer uma das exibições no painel EXIBIÇÕES ATRIBUÍDAS para abrir o painel de exibição.

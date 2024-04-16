@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -45,17 +45,17 @@ Siga as etapas abaixo para ativar o direcionamento em seus canais.
 
 1. Navegue até um dos canais do AEM Screens. As etapas a seguir demonstram como habilitar o direcionamento usando **DataDrivenRetail** *(canal de sequência)* criado em um Canal AEM Screens.
 
-1. Selecionar o canal **DataDrivenRetail** e selecione **Propriedades** na barra de ações.
+1. Clique no canal **DataDrivenRetail** e clique em **Propriedades** na barra de ações.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Selecione o **Personalização** para poder definir as configurações do ContextHub e selecionar o caminho do ContextHub e dos Segmentos.
+1. Clique em **Personalização** para definir as configurações do ContextHub e clicar no caminho do ContextHub e Segmentos.
 
-   1. Selecione o **Caminho do ContextHub** as **libs** > **configurações** > **cloudsettings** > **padrão** > **Configurações do ContextHub** e selecione **Selecionar**.
+   1. Clique em **Caminho do ContextHub** as **libs** > **configurações** > **cloudsettings** > **padrão** > **Configurações do ContextHub** e clique em **Clique em**.
 
-   1. Selecione o **Caminho de segmentos** as **conf** > **`We.Retail`** > **configurações** > **wcm** > **segmentos** e selecione **Selecionar**.
+   1. Clique em **Caminho de segmentos** as **conf** > **`We.Retail`** > **configurações** > **wcm** > **segmentos** e clique em **Clique em**.
 
-   1. Selecionar **Salvar e fechar**.
+   1. Clique em **Salvar e fechar**.
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ Siga as etapas abaixo para ativar o direcionamento em seus canais.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navegue e selecione o **DataDrivenRetail** de **DataDrivenAssets** > **Canais** e selecione **Editar** na barra de ações. Arraste e solte os ativos no editor de canais.
+1. Navegue e clique no link **DataDrivenRetail** de **DataDrivenAssets** > **Canais** e clique em **Editar** na barra de ações. Arraste e solte os ativos no editor de canais.
 
    >[!NOTE]
    >
@@ -71,9 +71,9 @@ Siga as etapas abaixo para ativar o direcionamento em seus canais.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. Selecionar **Direcionamento**.
+1. Clique em **Direcionamento**.
 
-1. Selecionar **Marca** e a variável **Atividade** no menu suspenso e selecione **Iniciar o direcionamento**.
+1. Clique em **Marca** e a variável **Atividade** no menu suspenso e clique em **Iniciar o direcionamento**.
 
 ### Saiba Mais: Exemplo De Casos De Uso {#learn-more-example-use-cases}
 

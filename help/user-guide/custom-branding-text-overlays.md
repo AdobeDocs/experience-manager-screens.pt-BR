@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 1%
@@ -67,7 +67,7 @@ Siga as etapas abaixo para criar marca e estilo personalizados para sobreposiç�
 
 1. Copie o caminho para o projeto. Nesse caso, o caminho é `/apps/settings/wcm/designs/customstyle`.
 
-1. Navegue até o canal intitulado como **DemoBrand** (criado na etapa(1)) e selecione **Propriedades** na barra de ações depois de selecionar o canal.
+1. Navegue até o canal intitulado como **DemoBrand** (criado na etapa(1)) e clique em **Propriedades** na barra de ações depois de selecionar o canal.
 
 1. Navegue até a **Avançado** e verifique a **Design** campo.
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand5.png)
@@ -79,7 +79,7 @@ Siga as etapas abaixo para criar marca e estilo personalizados para sobreposiç�
 
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
-1. Selecionar **Salvar e fechar** para atualizar o caminho de design.
+1. Clique em **Salvar e fechar** para atualizar o caminho de design.
 
    >[!IMPORTANT]
    >Opcionalmente, é possível sobrepor os modelos do Screens existentes para inserir seus próprios designs por padrão ou criar seu próprio modelo completamente. Consulte as etapas abaixo para obter mais detalhes.
@@ -108,9 +108,9 @@ Quando tiver concluído as etapas anteriores, você poderá atualizar o *stat.cs
 
 Siga as etapas abaixo para exibir o design atualizado para a sobreposição de texto:
 
-1. Navegue até o projeto do AEM Screens intitulado como **`customstyle`** > **Canais** > **DemoBrand**. Selecione o canal e selecione **Editar** na barra de ações.
+1. Navegue até o projeto do AEM Screens intitulado como **`customstyle`** > **Canais** > **DemoBrand**. Clique no canal e em **Editar** na barra de ações.
 
-1. Como você adicionou o design ao seu **Designs** como mencionado acima, selecione **Visualizar** para exibir o estilo atual na imagem com sobreposição de texto.
+1. Como você adicionou o design ao seu **Designs** como mencionado acima, clique em **Visualizar** para exibir o estilo atual na imagem com sobreposição de texto.
 
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand7.png)
 

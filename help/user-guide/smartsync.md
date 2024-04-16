@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Siga as etapas abaixo para fazer a transição de ContentSync para SmartSync:
 
 1. A migração de ContentSync para SmartSync requer a limpeza do cache ContentSync antes da ativação do SmartSync.
 
-   Navegue até o console ContentSync a partir da sua instância usando o link ***https://localhost:4502/libs/cq/contentsync/content/console.html*** e selecione **Limpar cache**, conforme mostrado na figura abaixo:
+   Navegue até o console ContentSync a partir da sua instância usando o link ***https://localhost:4502/libs/cq/contentsync/content/console.html*** e clique em **Limpar cache**, conforme mostrado na figura abaixo:
 
    ![clear_contesync_cache](assets/clear_contesync_cache.png)
 
@@ -85,7 +85,7 @@ Siga as etapas abaixo para fazer a transição de ContentSync para SmartSync:
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. Selecionar **Salvar** para habilitar o **Serviços de conteúdo offline do Screens** propriedade e, portanto, usar SmartSync para AEM Screens.
-1. Quando tiver ativado o SmartSync, navegue até o projeto e selecione **Atualizar conteúdo offline** *(na barra de ações),* conforme mostrado na figura abaixo.
+1. Clique em **Salvar** para habilitar o **Serviços de conteúdo offline do Screens** propriedade e, portanto, usar SmartSync para AEM Screens.
+1. Quando tiver ativado o SmartSync, navegue até o projeto e clique em **Atualizar conteúdo offline** *(na barra de ações),* conforme mostrado na figura abaixo.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

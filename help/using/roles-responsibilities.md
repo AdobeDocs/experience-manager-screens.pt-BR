@@ -2,7 +2,7 @@
 title: Funções e responsabilidades do projeto AEM Screens
 description: Saiba mais sobre as funções e responsabilidades do projeto AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Um Integrador de áudio/vídeo é responsável por conduzir a detecção com os 
 
 #### Considerar parceiro de hardware {#selecting-hardware-partner}
 
-É fundamental selecionar o parceiro de hardware certo. Devem ser consideradas as seguintes questões:
+É fundamental clicar no parceiro de hardware correto. Devem ser consideradas as seguintes questões:
 
 1. Quais são os termos do contrato de nível de serviço?
 

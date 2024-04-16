@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 2%
@@ -57,7 +57,7 @@ Antes de usar o recurso de reconhecimento de voz, verifique se você tem um proj
 
    ![imagem](assets/voice-recognition/vr-emb-1.png)
 
-1. Navegue até cada um dos canais e adicione o conteúdo. Por exemplo, navegue até **VoiceDemo** > **Canais** > **Principal** e selecione o canal. Selecionar **Editar** na barra de ação, em seguida, adicione o conteúdo (imagens/vídeos) de acordo com sua necessidade. Da mesma forma, adicione conteúdo a ambos **ColdDrinks** e a variável **HotDrinks** canal.
+1. Navegue até cada um dos canais e adicione o conteúdo. Por exemplo, navegue até **VoiceDemo** > **Canais** > **Principal** e clique no canal. Clique em **Editar** na barra de ação, em seguida, adicione o conteúdo (imagens/vídeos) de acordo com sua necessidade. Da mesma forma, adicione conteúdo a ambos **ColdDrinks** e a variável **HotDrinks** canal.
 
    Os canais agora contêm ativos (imagens), como mostrado nas figuras abaixo.
 
@@ -83,13 +83,13 @@ Após adicionar o conteúdo aos canais, navegue até cada um deles e adicione as
 
 Siga as etapas abaixo para adicionar tags ao seu canal:
 
-1. Navegue até cada um dos canais e adicione o conteúdo. Por exemplo, navegue até **VoiceDemo** > **Canais** > **Principal** e selecione o canal.
+1. Navegue até cada um dos canais e adicione o conteúdo. Por exemplo, navegue até **VoiceDemo** > **Canais** > **Principal** e clique no canal.
 
-1. Selecionar **Propriedades** na barra de ações.
+1. Clique em **Propriedades** na barra de ações.
 
    ![imagem](assets/voice-recognition/vr-5.png)
 
-1. Navegue até a **Noções básicas** e selecione uma tag existente na guia **Tags** ou crie um.
+1. Navegue até a **Noções básicas** e clique em uma tag existente na guia **Tags** ou crie um.
 
    Você pode criar uma tag digitando um novo nome para ela e pressionando `return` conforme mostrado na figura abaixo:
 
@@ -97,7 +97,7 @@ Siga as etapas abaixo para adicionar tags ao seu canal:
 
    Ou,
 
-   Você também pode criar tags da instância do AEM antecipadamente para o seu projeto e selecioná-las. Depois de seguir as etapas explicadas em [Criação de tags](#creating-tags), você pode selecionar a tag do local e adicioná-la ao canal, conforme mostrado na figura abaixo:
+   Você também pode criar tags da instância do AEM antecipadamente para o seu projeto e clicar nelas. Depois de seguir as etapas explicadas em [Criação de tags](#creating-tags), você pode clicar na tag do local e adicioná-la ao canal, como mostrado na figura abaixo:
 
    ![imagem](assets/voice-recognition/vr-tag1.png)
 
@@ -107,7 +107,7 @@ Siga as etapas abaixo para adicionar tags ao seu canal:
 
    ![imagem](assets/voice-recognition/vr-emb-7.png)
 
-1. Selecionar **Salvar e fechar** quando terminar.
+1. Clique em **Salvar e fechar** quando terminar.
 
 
 ### Criação de tags {#creating-tags}
@@ -116,18 +116,18 @@ Siga as etapas abaixo para criar tags:
 
 1. Navegue até a instância do AEM.
 
-1. Selecionar ícone de ferramentas > **Marcação**.
+1. Clique no ícone Ferramentas > **Marcação**.
    ![imagem](assets/voice-recognition/vr-7.png)
 
-1. Selecionar **Criar** > **Criar namespace**.
+1. Clique em **Criar** > **Criar namespace**.
    ![imagem](assets/voice-recognition/vr-tag3.png)
 
-1. Insira o nome do projeto, por exemplo, **VoiceDemo** e selecione **Criar**.
+1. Insira o nome do projeto, por exemplo, **VoiceDemo** e clique em **Criar**.
 
-1. Selecione o **VoiceDemo** projeto e selecione **Criar tag** na barra de ações.
+1. Clique em **VoiceDemo** projeto e clique em **Criar tag** na barra de ações.
    ![imagem](assets/voice-recognition/vr-tag4.png)
 
-1. Insira o nome da sua tag e selecione **Enviar**.
+1. Insira o nome da tag e clique em **Enviar**.
    ![imagem](assets/voice-recognition/vr-tag5.png)
 
 Agora, você pode usar essas tags no seu projeto do AEM Screens.
@@ -159,7 +159,7 @@ Agora, você pode usar essas tags no seu projeto do AEM Screens.
    >
    >Para saber como atribuir um canal a uma exibição, consulte [Criando e Gerenciando Exibições](/help/user-guide/managing-displays.md).
 
-1. Depois de atribuir canais a uma exibição, navegue até o **ExibiçãoLobby** e selecione a exibição. Selecionar **Propriedades** na barra de ações.
+1. Depois de atribuir canais a uma exibição, navegue até o **ExibiçãoLobby** e clique na tela. Clique em **Propriedades** na barra de ações.
 
 1. Navegue até a **Exibir** e ativar **Voz habilitada** opção em **Conteúdo**.
 

@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Siga as etapas abaixo para definir as configurações de notificação por email
    >
    >Você pode inserir apenas um endereço de email. Para enviar um email em massa, crie um grupo ou lista de distribuição com os usuários relevantes.
 
-1. Selecionar **Salvar** para configurar a atividade do monitor por meio de um email para o seu dispositivo AEM Screens.
+1. Clique em **Salvar** para configurar a atividade do monitor por meio de um email para o seu dispositivo AEM Screens.
 
 ## Notificação por e-mail {#email-notification}
 

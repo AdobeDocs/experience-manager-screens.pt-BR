@@ -10,7 +10,7 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 1%
@@ -46,7 +46,7 @@ Siga as etapas abaixo:
 1. Defina o **Atributo SameSite para os cookies de token de logon** de **Lax** para **Nenhum**.
    ![imagem](/help/user-guide/assets/granite-updates.png)
 
-1. Selecione **Salvar**.
+1. Clique em **Salvar**.
 
 ### Método Ad-Hoc {#ad-hoc-method}
 
@@ -55,7 +55,7 @@ O método Ad-Hoc permite instalar o Windows Player mais recente (*.exe*). Visita
 Depois de baixar o aplicativo, siga as etapas no reprodutor para concluir a instalação ad-hoc:
 
 1. Pressione e segure no canto superior esquerdo para abrir o painel de administração.
-1. Navegue até **Configuração** no menu de ações à esquerda, digite o local (endereço) da instância do AEM à qual deseja se conectar e selecione **Salvar**.
+1. Navegue até **Configuração** no menu de ação esquerdo, digite o local (endereço) da instância de AEM à qual deseja se conectar e clique em **Salvar**.
 1. Navegue até a **Dispositivo** **Registro** no menu de ação esquerdo para que você possa verificar o status do processo de registro do dispositivo.
 
 >[!NOTE]
@@ -73,7 +73,7 @@ Você pode atribuir um nome de dispositivo amigável ao seu reprodutor do Window
 
 Siga as etapas abaixo para configurar o nome no reprodutor do Windows:
 
-1. Selecionar **start** > **executar**.
+1. Clique em **start** > **executar**.
 1. Enter `system.cpl`.
 1. Use a guia Nome do computador para definir o nome de host do computador.
 

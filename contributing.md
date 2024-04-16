@@ -1,5 +1,5 @@
 ---
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 77%
@@ -36,11 +36,11 @@ O método de escolha depende do quanto você se sente confortável em editar a d
 
 Você tem uma sugestão, uma observação sobre os documentos atuais ou alguma dúvida relacionada à maneira como algo está descrito? Em seguida, crie um problema. Tópicos são excelentes se você tiver alguma contribuição, mas não se sente confortável em editar os documentos ou criar um pull request.
 
-Com os tópicos, você pode descrever facilmente sua ideia para aprimorar os documentos, e um membro da equipe do AEM Docs pode revisá-la. Selecionar **Registrar um problema** na parte superior do painel de navegação direito em qualquer página para criar um problema.
+Com os tópicos, você pode descrever facilmente sua ideia para aprimorar os documentos, e um membro da equipe do AEM Docs pode revisá-la. Clique em **Registrar um problema** na parte superior do painel de navegação direito em qualquer página para criar um problema.
 
 ### Criação de um pull request {#create-a-pull-request}
 
-Se você vir um problema e souber exatamente como corrigi-lo, considere a criação de um pull request. Com pull requests é possível fazer edições na documentação, que depois são revisadas e incluídas por um membro da equipe do AEM Docs. Selecionar **Editar esta página** na parte superior do painel de navegação direito em qualquer página para fazer as alterações sugeridas e criar o pull request.
+Se você vir um problema e souber exatamente como corrigi-lo, considere a criação de um pull request. Com pull requests é possível fazer edições na documentação, que depois são revisadas e incluídas por um membro da equipe do AEM Docs. Clique em **Editar esta página** na parte superior do painel de navegação direito em qualquer página para fazer as alterações sugeridas e criar o pull request.
 
 Todos os pull requests devem estar acompanhados de um [contrato de licença de colaborador ou CLA assinado.](https://opensource.adobe.com/cla.html)  Dessa forma, a Adobe tem permissão de redistribuir suas contribuições como parte do projeto. É necessário enviar somente um CLA da Adobe por vez. Se já tiver enviado anteriormente, você pode prosseguir.
 

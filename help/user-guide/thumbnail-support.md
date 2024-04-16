@@ -2,7 +2,7 @@
 title: Suporte a miniaturas para vídeos no AEM Screens
 description: Saiba como adicionar Suporte a miniaturas para vídeos no AEM Screens.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 2%
@@ -32,7 +32,7 @@ Siga as etapas abaixo para usar a miniatura em vídeos:
 
 1. Navegue até um canal do AEM Screens existente ou crie um canal.
 
-1. Selecione o canal e selecione **Editar** na barra de ações.
+1. Clique no canal e em **Editar** na barra de ações.
 
    ![imagem](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -40,7 +40,7 @@ Siga as etapas abaixo para usar a miniatura em vídeos:
 
    ![imagem](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. Selecione o vídeo e selecione a *chave inglesa* ícone.
+1. Clique no vídeo e na guia *chave inglesa* ícone.
 
    ![imagem](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
@@ -48,11 +48,11 @@ Siga as etapas abaixo para usar a miniatura em vídeos:
 
    ![imagem](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. Arraste e solte uma imagem do seletor de ativos para a **Miniatura** área e selecione **Concluído**.
+1. Arraste e solte uma imagem do seletor de ativos para a **Miniatura** área designada e clique em **Concluído**.
 
    ![imagem](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
-1. Selecionar **Visualizar**.
+1. Clique em **Visualizar**.
 
 1. Se um vídeo estiver definido no componente, ele será reproduzido. Caso contrário, e a miniatura estiver definida, a miniatura será reproduzida. Caso contrário, o componente será considerado não configurado e será ignorado.
 

@@ -10,7 +10,7 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -101,29 +101,29 @@ Siga as etapas abaixo para implementar a funcionalidade Screens Launch no seu pr
 
    ![Imagem](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. Selecionar o canal **Lançamento futuro** e selecione **Criar lançamento** na barra de ações.
+1. Clique no canal **Lançamento futuro** e clique em **Criar lançamento** na barra de ações.
 
    ![Imagem](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. A variável **Criar lançamento** é aberto. Você pode selecionar o canal que já está visível no assistente ou selecionar **+ Adicionar canais** para adicionar o canal para o qual deseja criar a inicialização.
+1. A variável **Criar lançamento** é aberto. Clique no canal que já está visível no assistente ou clique em **+ Adicionar canais** para adicionar o canal para o qual deseja criar a inicialização.
 
-1. Selecionar **Próxima** do **Criar lançamento** assistente. A variável **Incluir subpáginas** for selecionada por padrão.
+1. Clique em **Próxima** do **Criar lançamento** assistente. A variável **Incluir subpáginas** for selecionada por padrão.
 
    ![imagem](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >Você pode usar **+ Adicionar canais** opção para adicionar outro canal para o qual deseja criar a inicialização.
 
-   Para usar **Adicionar canais** navegue até o canal para o qual deseja criar a inicialização e selecione **Selecionar**.
+   Para usar **Adicionar canais** navegue até o canal para o qual deseja criar a inicialização e clique em **Selecionar**.
 
-   A variável **Selecionar** A opção estará desativada se você tentar selecionar vários canais ou uma pasta para adicionar o lançamento.
+   A variável **Selecionar** A opção estará desativada se você tentar clicar em vários canais ou em uma pasta para adicionar o lançamento.
 
    ![imagem](/help/user-guide/assets/launches-images/launches-14.png)
 
-   Depois de selecionar o canal/canais, selecione **Próxima**.
+   Depois de clicar no canal/canais, clique em **Próxima**.
 
 
-1. Insira o **Título da inicialização** as **SummerPromotions** e você não precisa definir a variável **Data de lançamento**, conforme mostrado na figura abaixo. Selecione **Criar**.
+1. Insira o **Título da inicialização** as **SummerPromotions** e você não precisa definir a variável **Data de lançamento**, conforme mostrado na figura abaixo. Clique em **Criar**.
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ Siga as etapas abaixo para implementar a funcionalidade Screens Launch no seu pr
      >
      >A data de lançamento respeita o fuso horário do player/dispositivo em vez do servidor.
 
-1. Observe que o seu lançamento foi criado. Você pode selecionar **Abertura** para exibir as páginas no editor ou selecione **Concluído** para navegar de volta ao seu projeto.
+1. Observe que o seu lançamento foi criado. Você pode clicar em **Abertura** para exibir as páginas no editor ou clique em **Concluído** para navegar de volta ao seu projeto.
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
@@ -167,15 +167,15 @@ Após a criação da inicialização, é possível atualizar as propriedades, co
 
 Siga as etapas abaixo para editar as propriedades do lançamento:
 
-1. Navegar até o canal **Lançamento futuro** *(a inicialização pendente)* e selecione o canal conforme mostrado na figura abaixo.
+1. Navegar até o canal **Lançamento futuro** *(a inicialização pendente)* e clique no canal conforme mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/launches-images/launches-17.png)
 
-1. Selecionar **Painel** na barra de ações e você verá a **LANÇAMENTOS PENDENTES** no painel do canal.
+1. Clique em **Painel** na barra de ações e você verá a **LANÇAMENTOS PENDENTES** no painel do canal.
 
    ![imagem](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Selecione o lançamento e **Propriedades do lançamento** do **LANÇAMENTOS PENDENTES** painel.
+1. Clique no lançamento e em **Propriedades do lançamento** do **LANÇAMENTOS PENDENTES** painel.
 
    ![imagem](/help/user-guide/assets/launches-images/launches-19.png)
 
@@ -183,7 +183,7 @@ Siga as etapas abaixo para editar as propriedades do lançamento:
 
 Após criar a inicialização, é possível adicionar ou remover canais da inicialização existente usando **Editar lançamento** opção.
 
-Quando terminar, selecione **Salvar** para navegar de volta para **Lançamento futuro** canal.
+Quando terminar, clique em **Salvar** para navegar de volta para **Lançamento futuro** canal.
 
 ### Promover o lançamento do Screens manualmente{#promote-the-screens-launch-manually}
 
@@ -199,8 +199,8 @@ Você pode escolher os recursos que deseja promover como parte dessa promoção 
    * **Promover páginas modificadas** - Somente os recursos modificados do Launch são promovidos. Use essa opção quando a revisão da inicialização não for necessária.
    * **Promover páginas aprovadas** - Essa opção requer que o fluxo de trabalho de aprovação de inicialização seja executado nos canais de inicialização. Somente as páginas aprovadas são promovidas na data de ativação definida.
    * **Divulgar a página atual** - Essa opção exige que o fluxo de trabalho de aprovação da inicialização seja executado somente para a página atual.
-1. Selecionar **Próxima** no **Promover lançamento** assistente.
-1. Selecionar **Promover** para promover o lançamento.
+1. Clique em **Próxima** no **Promover lançamento** assistente.
+1. Clique em **Promover** para promover o lançamento.
 
 ### Excluir o lançamento do Screens
 

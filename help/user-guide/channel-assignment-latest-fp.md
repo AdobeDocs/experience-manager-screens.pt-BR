@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 2%
@@ -44,7 +44,7 @@ Siga as etapas abaixo para configurar um projeto e um canal:
 
 1. Criar um canal de sequência com o título **Cafeteria** no **Canais** pasta.
 
-1. Selecione o canal e **Editar** na barra de ações.
+1. Clique no canal e depois em **Editar** na barra de ações.
 
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
@@ -62,13 +62,13 @@ Quando a configuração do projeto for concluída, atribua o canal a uma exibiç
 
 1. Navegue até a exibição necessária, por exemplo, **DemoScreens** > **Localizações** > **San Jose** > **Lobby**.
 
-1. Selecionar **Atribuir canal** na barra de ações.
+1. Clique em **Atribuir canal** na barra de ações.
 
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Ou,
 
-   Selecionar **Painel** na barra de ações e selecione **+Atribuir canal** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** painel.
+   Clique em **Painel** na barra de ações e clique em **+Atribuir canal** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** painel.
 
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -84,14 +84,14 @@ Quando a configuração do projeto for concluída, atribua o canal a uma exibiç
    >
    >Para saber mais sobre as propriedades de atribuição do canal, consulte [Propriedades do canal](#channel-properties) seção.
 
-1. No **Agendar** selecione a opção **Janela de ativação** e **Agendamento recorrente**.
+1. No **Agendar** clique na guia **Janela de ativação** e **Agendamento recorrente**.
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
    >Para saber mais sobre as propriedades de atribuição do canal, consulte [Propriedades do canal](#channel-properties) seção.
 
-1. Selecionar **Salvar** após configurar suas preferências.
+1. Clique em **Salvar** após configurar suas preferências.
 
 ### Exibição de conteúdo no Chrome Player {#viewing-content-output}
 
@@ -111,11 +111,11 @@ Siga as etapas abaixo para navegar até a exibição da linha do tempo:
 
 1. Navegue até a exibição necessária, por exemplo, **DemoScreens** > **Localizações** > **San Jose** > **Lobby**.
 
-1. Selecionar **Atribuir canal** na barra de ações.
+1. Clique em **Atribuir canal** na barra de ações.
 
    Ou,
 
-   Selecionar **Painel** e selecione **Linha do tempo** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** painel.
+   Clique em **Painel** e clique em **Linha do tempo** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** painel.
 
    ![imagem](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
@@ -181,7 +181,7 @@ A janela Ativation permite selecionar um **Data inicial** e uma **Data final** p
 
 ### Programação de recorrência {#recurrence-schedule}
 
-O Cronograma recorrente permite que você defina um cronograma recorrente para o seu conteúdo. Selecionar **+ Adicionar programação** para adicionar uma agenda de recorrência ao seu canal.
+O Cronograma recorrente permite que você defina um cronograma recorrente para o seu conteúdo. Clique em **+ Adicionar programação** para adicionar uma agenda de recorrência ao seu canal.
 
 >[!NOTE]
 >Você pode adicionar vários agendamentos recorrentes ao seu canal.

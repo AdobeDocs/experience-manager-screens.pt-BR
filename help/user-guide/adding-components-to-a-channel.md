@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 5%
@@ -31,10 +31,10 @@ Sempre que criar um projeto AEM Screens, você verá uma lista de componentes pa
 
 Para exibir os componentes padrão do seu projeto do Screens, siga as etapas abaixo:
 
-1. Selecione o canal. Por exemplo, **`We.Retail In Store`** > **Canais** > **Canal ocioso**.
+1. Clique no canal. Por exemplo, **`We.Retail In Store`** > **Canais** > **Canal ocioso**.
 
-1. Selecionar **Editar** na barra de ações.
-1. No Editor de AEM, selecione a variável **+** ícone na barra lateral.
+1. Clique em **Editar** na barra de ações.
+1. No Editor de AEM, clique na guia **+** ícone na barra lateral.
 1. Todos os componentes incluídos por padrão em um projeto do AEM Screens são exibidos, como mostrado na figura abaixo.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
@@ -45,12 +45,12 @@ O AEM fornece vários outros componentes. Você sempre pode adicionar outros com
 
 O exemplo a seguir mostra a adição de um componente Livefyre a um projeto do AEM Screens:
 
-1. Selecione o canal ao qual deseja adicionar um componente. Por exemplo, **`We.Retail In Store`** > **Canais** > **Canal ocioso**.
+1. Clique no canal em que deseja adicionar um componente. Por exemplo, **`We.Retail In Store`** > **Canais** > **Canal ocioso**.
 
-1. Selecionar **Editar** na barra de ações.
-1. Selecionar **Design** modo.
-1. Selecione o editor de design inteiro à direita e selecione o símbolo de configurações para que você possa abrir o **Design do Parsys** caixa de diálogo.
-1. Você pode selecionar os componentes que deseja importar para o projeto do AEM Screens. O exemplo a seguir mostra a adição de **Livefyre** componente a um projeto do AEM Screens.
+1. Clique em **Editar** na barra de ações.
+1. Clique em **Design** modo.
+1. Clique no editor de design inteiro à direita e clique no símbolo de configurações para poder abrir o **Design do Parsys** caixa de diálogo.
+1. Você pode clicar nos componentes que deseja importar para o projeto do AEM Screens. O exemplo a seguir mostra a adição de **Livefyre** componente a um projeto do AEM Screens.
 
 ![add_components](assets/adding_components.gif)
 
@@ -64,7 +64,7 @@ A seção a seguir explica os componentes do AEM Screens que você pode usar no 
 
 >[!NOTE]
 >
->Para exibir as propriedades de qualquer componente, selecione o componente e selecione o ícone de martelo para abrir/exibir propriedades.
+>Para exibir as propriedades de qualquer componente, clique no componente e no ícone de martelo para abrir/exibir propriedades.
 
 ### Aplicativo {#application}
 
@@ -74,8 +74,8 @@ O componente do aplicativo tem as seguintes propriedades:
 
 | **Propriedade** | **Descrição** |
 |---|---|
-| ***Caminho do aplicativo*** | Selecione o caminho absoluto onde o aplicativo existe. |
-| ***Duração (milissegundos)*** | Selecione a duração do aplicativo. Por padrão, a duração é definida como -1, o que significa que o elemento é executado para sempre (ou seja, aplicativo de página única). Definir o valor de duração >0 mostra o elemento para a duração especificada e, em seguida, avança para o próximo. |
+| ***Caminho do aplicativo*** | Clique no caminho absoluto onde o aplicativo existe. |
+| ***Duração (milissegundos)*** | Clique na duração do aplicativo. Por padrão, a duração é definida como -1, o que significa que o elemento é executado para sempre (ou seja, aplicativo de página única). Definir o valor de duração >0 mostra o elemento para a duração especificada e, em seguida, avança para o próximo. |
 
 O exemplo a seguir mostra como incorporar um componente de aplicativo juntamente com a visualização de suas propriedades:
 
@@ -193,7 +193,7 @@ A sequência incorporada dinâmica tem as seguintes propriedades:
 
 ### Fragmento de experiência {#experience-fragment}
 
-Um Fragmento de experiência permite adicionar um Fragmento de experiência (grupo de um ou mais componentes, incluindo conteúdo e layout que podem ser referenciados nas páginas) ao seu canal do AEM Screens. Arraste e solte o componente no Editor de AEM e selecione o Fragmento de experiência.
+Um Fragmento de experiência permite adicionar um Fragmento de experiência (grupo de um ou mais componentes, incluindo conteúdo e layout que podem ser referenciados nas páginas) ao seu canal do AEM Screens. Arraste e solte o componente no Editor de AEM e clique no Fragmento de experiência.
 
 Para saber mais sobre como criar um fragmento de experiência e aplicá-lo a um projeto do AEM Screens, consulte [Uso de fragmentos de experiência](experience-fragments-in-screens.md).
 
@@ -221,7 +221,7 @@ O ativo de imagem tem três guias: **Imagem**, **Acessibilidade**, e **Sequênci
 | **Propriedade** | **Descrição** |
 |---|---|
 | **Imagem** |
-| ***Ativo de imagem*** | Selecione o ativo de imagem. |
+| ***Ativo de imagem*** | Clique no ativo de imagem. |
 | ***Título*** | Título da imagem. |
 | ***Vincular a*** | Adicione um link à imagem. |
 | ***Descrição*** | Breve descrição da imagem. |
@@ -239,7 +239,7 @@ A imagem a seguir mostra o componente de transição (adicionado via arrastar e 
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Selecione o ícone de transição e selecione o **Configurar** (ícone de chave inglesa) para abrir a **Transição** caixa de diálogo. Essa caixa de diálogo inclui três guias:
+Clique no ícone de transição e clique no botão **Configurar** (ícone de chave inglesa) para abrir a **Transição** caixa de diálogo. Essa caixa de diálogo inclui três guias:
 
 * **Transição**
 * **Sequência**
@@ -316,7 +316,7 @@ O componente de vídeo tem as seguintes propriedades:
   </tr>
   <tr>
    <td><em><strong>Ativo de vídeo </strong></em></td>
-   <td>Selecione o link para o vídeo.</td>
+   <td>Clique no link para o vídeo.</td>
   </tr>
   <tr>
    <td><em><strong>Duração</strong></em></td>

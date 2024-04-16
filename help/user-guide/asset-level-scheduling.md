@@ -5,7 +5,7 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 1%
@@ -50,7 +50,7 @@ A ativação no nível do ativo é feita configurando o **Ativação** ao acessa
 
 Siga as etapas abaixo para executar a programação no nível do ativo:
 
-1. Selecione qualquer canal, depois selecione **Editar** na barra de ações.
+1. Clique em qualquer canal e, em seguida, em **Editar** na barra de ações.
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
@@ -61,19 +61,19 @@ Siga as etapas abaixo para executar a programação no nível do ativo:
    >* Para criar um projeto, consulte [Criação de um novo projeto](creating-a-screens-project.md).
    >* Criar e adicionar conteúdo a um canal, consulte [Gerenciamento de canais](managing-channels.md).
 
-1. Selecionar **Editar** para que você possa abrir o editor de canal e selecionar um ativo ao qual deseja aplicar o agendamento.
+1. Clique em **Editar** para poder abrir o editor de canais e clicar em um ativo ao qual deseja aplicar o agendamento.
 
    ![imagem](/help/user-guide/assets/asset-activation/asset-level2.png)
 
-1. Selecione o ativo e, em seguida, selecione superior esquerdo **Configurar** (ícone de chave inglesa).
+1. Clique no ativo e, em seguida, clique em superior esquerdo **Configurar** (ícone de chave inglesa).
 
-   Selecione o **Ativação** guia.
+   Clique em **Ativação** guia.
 
    ![imagem](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. Você pode especificar a data no seletor de datas usando **Ativo desde** e **Ativo até** campos.
 
-   Se você selecionar a variável **Ativo desde** e **Ativo até** data e hora, o ativo exibe e faz loop somente entre essa data/hora inicial e a data/hora final, respectivamente.
+   Se você clicar no botão **Ativo desde** e **Ativo até** data e hora, o ativo exibe e faz loop somente entre essa data/hora inicial e a data/hora final, respectivamente.
 
    ![imagem](/help/user-guide/assets/asset-activation/asset-level3.png)
 
@@ -85,7 +85,7 @@ Suponha que você deseje exibir uma imagem somente nas sextas-feiras, das 13h à
 
 ### Divisão de dia {#day-parting}
 
-1. Selecione o ativo e selecione em **Configurar** (ícone de chave inglesa) para abrir a caixa de diálogo de propriedades.
+1. Clique no ativo e clique em **Configurar** (ícone de chave inglesa) para abrir a caixa de diálogo de propriedades.
 
 1. Depois de inserir a data/hora inicial e a data/hora final, você pode usar uma expressão ou uma versão de texto natural para especificar seu cronograma de recorrência.
 
@@ -111,7 +111,7 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 ### WeekParting {#week-parting}
 
-1. Selecione o ativo e **Configurar** (ícone de chave inglesa).
+1. Clique no ativo e depois em **Configurar** (ícone de chave inglesa).
 
 1. Depois de inserir a data/hora inicial e a data/hora final, você pode usar uma expressão ou uma versão de texto natural para especificar seu cronograma de recorrência.
 
@@ -136,7 +136,7 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 ### MonthParting {#month-parting}
 
-1. Selecione o ativo e **Configurar** (ícone de chave inglesa).
+1. Clique no ativo e depois em **Configurar** (ícone de chave inglesa).
 
 1. Depois de inserir a data/hora inicial e a data/hora final, você pode usar uma expressão ou uma versão de texto natural para especificar seu cronograma de recorrência.
 
@@ -159,7 +159,7 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 ### Combinação de Peças {#combined-parting}
 
-1. Selecione o ativo e **Configurar** (ícone de chave inglesa).
+1. Clique no ativo e depois em **Configurar** (ícone de chave inglesa).
 
 1. Depois de inserir a data/hora inicial e a data/hora final, você pode usar uma expressão ou uma versão de texto natural para especificar seu cronograma de recorrência.
 
@@ -189,7 +189,7 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 >
 >The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
 
-***Ativação de vários ativos*** permite que o usuário selecione vários ativos e aplique uma programação de reprodução a todos os ativos selecionados.
+***Ativação de vários ativos*** permite que o usuário clique em vários ativos e aplique uma programação de reprodução a todos os ativos selecionados.
 
 ### Pré-requisitos {#prerequisites}
 
@@ -200,21 +200,21 @@ Para usar a ativação em nível de vários ativos para seus ativos, crie um pro
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
-Siga as etapas abaixo para selecionar vários ativos e agendar sua exibição em um projeto do AEM Screens:
+Siga as etapas abaixo para clicar em vários ativos e agendar sua exibição em um projeto do AEM Screens:
 
-1. Selecionar **Canal de vários ativos** e selecione **Editar** na barra de ações.
+1. Clique em **Canal de vários ativos** e, em seguida, clique em **Editar** na barra de ações.
 
    ![screen_shot_2018-12-21at70313am](assets/screen_shot_2018-12-21at70313am.png)
 
-1. Selecione vários ativos no editor e selecione **Editar ativação** (ícone superior esquerdo).
+1. Clique em vários ativos no editor e clique em **Editar ativação** (ícone superior esquerdo).
 
    ![screen_shot_2018-12-21at70550am](assets/screen_shot_2018-12-21at70550am.png)
 
-1. Selecione a data e a hora em **Ativo desde** e **Ativo até** do **Ativação de componente** caixa de diálogo. Selecione o ícone de marca de seleção quando terminar de selecionar as programações.
+1. Clique na data e hora em **Ativo desde** e **Ativo até** do **Ativação de componente** caixa de diálogo. Clique no ícone de marca de seleção quando terminar de selecionar os cronogramas.
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
-1. Selecione Atualizar para verificar os ativos aos quais o agendamento de vários ativos é aplicado.
+1. Clique em atualizar para verificar os ativos aos quais a programação de vários ativos é aplicada.
 
    >[!NOTE]
    >
@@ -232,12 +232,12 @@ Isso permite que o autor de conteúdo designe a reprodução de um ativo especí
 
 A Substituição Global para Horário de Início Universal é feita configurando o **Ativação** ao acessar as propriedades de um ativo. Siga as etapas abaixo para executar uma Sobreposição Global para a programação de ativos:
 
-1. Selecione qualquer canal, depois selecione **Editar** na barra de ações para que você possa adicionar ou editar o conteúdo no seu canal.
+1. Clique em qualquer canal e, em seguida, em **Editar** na barra de ações para que você possa adicionar ou editar o conteúdo no seu canal.
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
-1. Selecione **Editar**.
-1. No editor de canal, selecione um ativo cujo agendamento você deseja aplicar a ele.
+1. Clique em **Editar**.
+1. No editor de canal, clique em um ativo cujo agendamento você deseja aplicar a ele.
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 

@@ -5,7 +5,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Um ***Canal online*** mostra o conteúdo atualizado no ambiente em tempo real, e
 
 ### 2. Como faço para criar um canal online? {#how-do-i-make-a-channel-online}
 
-Selecione o canal e navegue até as propriedades do canal na barra de ações. Marcar **Modo de desenvolvedor (forçar canal a ficar online)** em **Canal** para tornar o canal online.
+Clique no canal e navegue até as propriedades do canal na barra de ações. Marcar **Modo de desenvolvedor (forçar canal a ficar online)** em **Canal** para tornar o canal online.
 
 ### 3. Qual é o uso do campo Função do canal? {#what-is-the-use-of-the-channel-role-field}
 
@@ -70,9 +70,9 @@ Ao usar um código personalizado criado no lado do cliente `clientlib` em um can
 
 Siga as etapas abaixo no editor de canal:
 
-1. Selecione um canal e depois selecione **Editar** na barra de ações.
-1. Selecione o componente ao qual deseja adicionar o personalizado `clientlib`.
-1. Selecione o botão de configuração (o ícone de chave inglesa).
+1. Clique em um canal e em **Editar** na barra de ações.
+1. Clique no componente ao qual deseja adicionar o personalizado `clientlib`.
+1. Clique no botão de configuração (a chave inglesa ).
 1. Navegue até a **Configuração offline** e adicione o caminho à clientlib personalizada em **Bibliotecas do cliente**.
 
 ## Registro do dispositivo {#device-registration}
@@ -109,7 +109,7 @@ Ative a permissão Vazia de filtro de referência do Apache Sling. Isso é neces
 
 1. Navegue até **Configuração do console da Web do Adobe Experience Manager**
 1. Verifique a **allow.empty** opção.
-1. Selecione **Salvar**.
+1. Clique em **Salvar**.
 
 ### 3. Como solucionar problemas se, ao registrar um reprodutor AEM Screens, o dispositivo mostrar o erro FAILURE e os registros do console exibirem o erro ENAME_NOT_FOUND?
 
@@ -133,14 +133,14 @@ Para obter mais informações sobre onde é possível monitorar a atividade do d
 
 O ChromeOS player pode ser instalado como plug-in do navegador Chrome no modo de desenvolvedor, sem exigir o dispositivo real do Chrome Player. Para instalação, siga as etapas abaixo:
 
-1. Selecionar [aqui](https://download.macromedia.com/screens/) para baixar o Chrome Player mais recente.
+1. Clique em [aqui](https://download.macromedia.com/screens/) para baixar o Chrome Player mais recente.
 1. Descompacte-o e salve-o no disco.
-1. Abra o navegador Chrome e selecione **Extensões** no menu ou navegue diretamente para ***chrome://extensions***.
+1. Abra o navegador Chrome e clique **Extensões** no menu ou navegue diretamente para ***chrome://extensions***.
 1. Ligue o **Modo de desenvolvedor** do canto superior direito.
-1. Selecionar **Carregar desempacotado** no canto superior esquerdo e carregue o Chrome Player descompactado.
+1. Clique em **Carregar desempacotado** no canto superior esquerdo e carregue o Chrome Player descompactado.
 1. Se disponível na lista de extensões, marque **AEM Screens Chrome Player** plug-in.
-1. Abra uma nova guia e selecione o **Aplicativos** no canto superior esquerdo ou navegue diretamente para ***chrome://apps***.
-1. Selecione o **AEM Screens** Plug-in. Por padrão, o reprodutor é iniciado no modo de tela cheia. Pressione **Esc** para sair do modo de tela cheia.
+1. Abra uma nova guia e clique no link **Aplicativos** no canto superior esquerdo ou navegue diretamente para ***chrome://apps***.
+1. Clique em **AEM Screens** Plug-in. Por padrão, o reprodutor é iniciado no modo de tela cheia. Pressione **Esc** para sair do modo de tela cheia.
 
 ### 2. Como solucionar problemas se o reprodutor do Screens não puder se autenticar por meio da instância de publicação com o manipulador de erros personalizado?
 
@@ -203,7 +203,7 @@ Desative o Livefyre para evitar erros de registro ao fazer o seguinte.
 
    * Vá até `https://<host>:<port>/system/console/bundles`.
    * Procure o pacote AEM Livefyre: `com.adobe.cq.social.cq-social-livefyre`.
-   * Selecionar **Parar**.
+   * Clique em **Parar**.
 
 1. ***Desative o poller do Livefyre:***
 

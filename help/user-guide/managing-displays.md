@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 1%
@@ -38,11 +38,11 @@ Esta página mostra como criar e gerenciar exibições para o Screens.
 >Crie um local antes de criar uma exibição. Consulte [Criar e Gerenciar Locais](managing-locations.md) para obter mais informações.
 
 1. Navegue até o local apropriado, por exemplo `http://localhost:4502/screens.html/content/screens/TestProject`.
-1. Selecione a pasta de local e **Criar** que está ao lado do ícone de adição na barra de ações.
-1. Selecionar **Exibir** do **Criar** assistente e selecione **Próxima**.
+1. Clique na pasta do local e clique em **Criar** que está ao lado do ícone de adição na barra de ações.
+1. Clique em **Exibir** do **Criar** e clique em **Próxima**.
 1. Enter **Nome** e **Título** para o seu local de exibição.
 1. No **Exibir** escolha os detalhes do Layout. Escolha o desejado **Resolução**, como **Full HD**. Escolha o número de dispositivos horizontal e verticalmente.
-1. Selecione **Criar**.
+1. Clique em **Criar**.
 
 A exibição (*StoreDisplay*) é criada e adicionada ao local (*San Jose*).
 
@@ -63,12 +63,12 @@ Quando a exibição estiver na posição, a próxima etapa é criar uma configur
 Uma configuração de dispositivo atua como um espaço reservado para um dispositivo de sinalização digital real que ainda não está instalado.
 
 1. Navegue até a exibição apropriada, por exemplo, `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
-1. Selecione a pasta de exibição e selecione **Exibir painel** na barra de ações.
-1. Selecionar **+ Adicionar configuração do dispositivo** na parte superior direita do **Dispositivos** painel.
+1. Clique na pasta de exibição e clique em **Exibir painel** na barra de ações.
+1. Clique em **+ Adicionar configuração do dispositivo** na parte superior direita do **Dispositivos** painel.
 
-1. Selecione o **Configuração do dispositivo** como o modelo necessário e selecione **Próxima**.
+1. Clique em **Configuração do dispositivo** como o modelo necessário e clique em **Próxima**.
 
-1. Insira as propriedades conforme necessário e selecione **Criar**.
+1. Insira as propriedades conforme necessário e clique em **Criar**.
 
 A configuração do dispositivo é criada e adicionada à exibição atual (na demonstração a seguir, a nova configuração do dispositivo é *DeviceConfig*).
 
@@ -92,9 +92,9 @@ O painel de exibição fornece painéis diferentes para gerenciar dispositivos d
 
 >[!NOTE]
 >
->Você pode selecionar as listas de painéis e acionar ações em massa nos itens, em vez de percorrer cada item individualmente.
+>Você pode clicar nas listas de painéis e acionar ações em massa nos itens, em vez de percorrer cada item individualmente.
 >
->Por exemplo, a imagem a seguir mostra como selecionar vários canais no painel de exibição.
+>Por exemplo, a imagem a seguir mostra como é possível clicar em vários canais no painel de exibição.
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
@@ -102,12 +102,12 @@ O painel de exibição fornece painéis diferentes para gerenciar dispositivos d
 
 A variável **EXIBIR INFORMAÇÕES** Panel fornece as propriedades de exibição.
 
-Selecionar (**..**) no canto superior direito da janela **EXIBIR INFORMAÇÕES** para que você possa visualizar as propriedades e a exibição.
+Clique em (**..**) no canto superior direito da janela **EXIBIR INFORMAÇÕES** para que você possa visualizar as propriedades e a exibição.
 
 
 #### Visualizando propriedades {#viewing-properties}
 
-Selecionar **Propriedades** para que você possa visualizar ou alterar as propriedades de sua exibição.
+Clique em **Propriedades** para que você possa visualizar ou alterar as propriedades de sua exibição.
 
 Além disso, é possível ajustar o valor do temporizador de evento para o canal interativo em **Tempo ocioso** propriedade em **Exibir** guia. O valor padrão está definido como *300 segundos*.
 
@@ -123,9 +123,9 @@ A variável **CANAIS ATRIBUÍDOS** exibe os canais atribuídos a este dispositiv
 
 A variável **DISPOSITIVOS** O painel fornece informações sobre as configurações do dispositivo.
 
-Selecionar (**..**) no canto superior direito da janela **DISPOSITIVOS** para que você possa adicionar configurações de dispositivo e atualizar dispositivos.
+Clique em (**..**) no canto superior direito da janela **DISPOSITIVOS** para que você possa adicionar configurações de dispositivo e atualizar dispositivos.
 
-Além disso, selecione a configuração do dispositivo para exibir propriedades, atribuir um dispositivo ou excluí-lo completamente.
+Além disso, clique na configuração do dispositivo para exibir as propriedades, atribuir um dispositivo ou excluí-lo completamente.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 

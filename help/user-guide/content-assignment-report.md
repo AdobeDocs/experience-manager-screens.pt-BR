@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 2%
@@ -45,9 +45,9 @@ Quando você tiver configurado seu projeto do AEM Screens e tiver atribuído exi
 
 Siga as instruções abaixo para baixar o Relatório de atribuição de conteúdo:
 
-1. Navegue até o projeto do AEM Screens e selecione o projeto **DemoScreens**.
+1. Navegue até o projeto do AEM Screens e clique no projeto **DemoScreens**.
 
-1. Selecionar **Relatório de atribuição de conteúdo** na barra de ações.
+1. Clique em **Relatório de atribuição de conteúdo** na barra de ações.
 
    ![imagem](/help/user-guide/assets/content-assignment-report/can-download.png)
 

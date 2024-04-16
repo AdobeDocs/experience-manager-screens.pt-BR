@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Siga as etapas abaixo:
 1. Defina o **Atributo SameSite para os cookies de token de logon** de **Lax** para **Nenhum**.
    ![imagem](/help/user-guide/assets/granite-updates.png)
 
-1. Selecione **Salvar**.
+1. Clique em **Salvar**.
 
 
 ### Método Ad-Hoc {#ad-hoc-method}
@@ -55,7 +55,7 @@ O método Ad-Hoc permite instalar o Player mais recente do Android™ (*.exe*). 
 Depois de baixar o aplicativo, siga as etapas no reprodutor para concluir a instalação ad-hoc:
 
 1. Pressione e segure no canto superior esquerdo para abrir o painel de administração.
-1. Navegue até **Configuração** no menu de ações à esquerda, digite o local (endereço) da instância do AEM à qual deseja se conectar e selecione **Salvar**.
+1. Navegue até **Configuração** no menu de ação esquerdo, digite o local (endereço) da instância de AEM à qual deseja se conectar e clique em **Salvar**.
 
 1. Navegue até a **Dispositivo** **Registro** no menu de ação esquerdo para que você possa verificar o status do processo de registro do dispositivo.
 
@@ -193,7 +193,7 @@ Siga as etapas abaixo para permitir o provisionamento em massa no Android™ Pla
 1. Verifique se o dispositivo Android™ é compatível com os serviços da Google Play.
 1. Inscreva seus dispositivos Android™ player com sua solução EMM favorita compatível com AppConfig.
 1. Faça logon no console do EMM e extraia o aplicativo AEM Screens Player do Google Play.
-1. Selecione a configuração gerenciada ou a opção relacionada.
+1. Clique em configuração gerenciada ou opção relacionada.
 1. Agora você deve ver uma lista de opções do player que podem ser configuradas, como servidor e código de registro em massa.
 1. Configure esses parâmetros, salve e implante a política nos dispositivos.
 

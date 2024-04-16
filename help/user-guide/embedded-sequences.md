@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
@@ -42,13 +42,13 @@ Você pode adicionar uma sequência incorporada ao canal. Uma sequência incorpo
 
 Siga as etapas abaixo para adicionar uma sequência incorporada ao canal:
 
-1. Selecione o canal no qual deseja incorporar uma página. Por exemplo, **`We.Retail`Na loja** > **Canais** > **Canal ocioso**.
+1. Clique no canal em que deseja incorporar uma página. Por exemplo, **`We.Retail`Na loja** > **Canais** > **Canal ocioso**.
 
-1. Selecionar **Editar** na barra de ações.
-1. No modo de editor, selecione o ícone componentes na barra lateral esquerda para adicionar a página incorporada. Arraste e solte a **Sequência incorporada** ao editor.
+1. Clique em **Editar** na barra de ações.
+1. No modo de edição, clique no ícone componentes na barra lateral esquerda para adicionar a página incorporada. Arraste e solte a **Sequência incorporada** ao editor.
 1. Clique duas vezes no ícone **Sequência incorporada** para que possa adicionar o canal ao canal de sequência original.
-1. Selecione o **Caminho do canal** do canal.
-1. Selecione o **Duração (milissegundos)** para o canal integrado na **Sequência** guia. Por padrão, a duração é definida como **-1**, ou seja, o canal incorporado é totalmente executado. Se o usuário especificar uma duração, a subsequência será interrompida (ou seja, será cortada) no horário especificado.
+1. Clique em **Caminho do canal** do canal.
+1. Clique em **Duração (milissegundos)** para o canal integrado na **Sequência** guia. Por padrão, a duração é definida como **-1**, ou seja, o canal incorporado é totalmente executado. Se o usuário especificar uma duração, a subsequência será interrompida (ou seja, será cortada) no horário especificado.
 
 1. Defina o **Estratégia medida de reprodução** para **normal**.
 
@@ -60,15 +60,15 @@ Por padrão, é definido como **normal**. Definir o valor para **normal** (Repro
 >
 >Siga as etapas abaixo depois de adicionar uma sequência incorporada ao canal a partir das etapas anteriores:
 >
->1. Navegue até a exibição e selecione-a em **Localizações** pasta.
->1. Selecionar **Painel** na barra de ações.
->1. No painel de exibição, selecione **+ Atribuir canais** do **CANAIS ATRIBUÍDOS E PAINÉIS PROGRAMADOS** para que você possa abrir o **Caixa de diálogo Atribuição de canal**.
+>1. Navegue até a exibição e clique na exibição em **Localizações** pasta.
+>1. Clique em **Painel** na barra de ações.
+>1. No painel de exibição, clique em **+ Atribuir canais** do **CANAIS ATRIBUÍDOS E PAINÉIS PROGRAMADOS** para que você possa abrir o **Caixa de diálogo Atribuição de canal**.
 >
->1. Selecione o caminho do canal no qual você (usado na sequência incorporada) **Caminho do canal**.
+>1. Clique no caminho do canal no qual você (usado na sequência incorporada) **Caminho do canal**.
 >1. Certifique-se de que a variável **Prioridade** é inferior ao canal principal.
 >
->1. Não selecionar nenhuma **Eventos suportados**.
->1. Selecionar **Salvar** quando terminar.
+>1. Não clique em nenhum **Eventos suportados**.
+>1. Clique em **Salvar** quando terminar.
 >
 
 O exemplo a seguir mostra a adição de uma sequência incorporada (**Canal ocioso - Noite**) para um canal existente (**Canal ocioso**).
@@ -87,16 +87,16 @@ Você pode adicionar uma sequência incorporada dinâmica ao seu canal. Uma sequ
 
 Siga as etapas abaixo para adicionar uma sequência incorporada ao canal:
 
-1. Selecione o canal no qual deseja incorporar uma sequência dinâmica. Por exemplo, **`We.Retail`Na loja** > **Canais** > **Canal ocioso**.
+1. Clique no canal em que deseja incorporar uma sequência dinâmica. Por exemplo, **`We.Retail`Na loja** > **Canais** > **Canal ocioso**.
 
-1. Selecionar **Editar** na barra de ações.
-1. No modo de editor, selecione o ícone componentes na barra lateral esquerda para adicionar a sequência incorporada dinâmica. Arraste e solte a **Dinâmico** **Sequência incorporada** ao editor.
+1. Clique em **Editar** na barra de ações.
+1. No modo de edição, clique no ícone de componentes na barra lateral esquerda para adicionar a sequência incorporada dinâmica. Arraste e solte a **Dinâmico** **Sequência incorporada** ao editor.
 
 1. Clique duas vezes no ícone **Dinâmico** **Sequência incorporada** para que possa adicionar a página ao canal de sequência.
 
 1. Insira o **Função da atribuição do canal**.
 1. Defina o **Estratégia medida de reprodução** para **normal**. Por padrão, é definido como **normal**. Definir o valor para **normal** (Reproduzir todos os itens) significa que a subsequência é totalmente executada em cada ciclo da sequência principal. O outro valor possível é **Reproduzir um único item**. Esse valor mostra apenas um item da subsequência em cada execução. Por exemplo, o primeiro item no primeiro loop e o segundo item no segundo loop.
 
-1. Selecione o **Duração (milissegundos)** in **Sequência** para o canal incorporado na sequência.
+1. Clique em **Duração (milissegundos)** in **Sequência** para o canal incorporado na sequência.
 
 ![mais recente](assets/latest.gif)

@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -20,13 +20,13 @@ Registrar em massa milhares de jogadores manualmente pode se tornar complicado e
 
 Siga as etapas abaixo para implementar o registro automático de jogadores:
 
-1. Faça logon na instância do AEM, selecione o projeto do AEM Screens e selecione **Propriedades** na barra de ações.
-1. Selecione o **Avançado** para que você possa exibir a **Registro do dispositivo** seção.
+1. Faça logon na instância AEM, clique no projeto AEM Screens e clique em **Propriedades** na barra de ações.
+1. Clique em **Avançado** para que você possa exibir a **Registro do dispositivo** seção.
 
 1. Especificar um código de registro automático em **Código de registro em massa** e uma exibição padrão opcional no **Atribuição de exibição padrão** para atribuir ao reprodutor que é registrado automaticamente.
 
    >[!NOTE]
-   >Insira um código de sua escolha e selecione uma exibição padrão, se necessário.
+   >Insira um código de sua escolha e clique em uma exibição padrão, se necessário.
 
    ![imagem](/help/user-guide/assets/auto-registration/auto-register1.png)
 1. Provisione seus players com o URL do servidor e o código de registro apropriados usando um arquivo MDM ou JSON de configuração.

@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2426'
 ht-degree: 1%
@@ -118,9 +118,9 @@ Siga as etapas abaixo para implementar a funcionalidade:
 1. **Crie dois Locais e um Canal em cada pasta de local.**
 
    1. Navegue até **Demonstração** > **Localizações** > **Região A**.
-   1. Selecionar **Região A** e selecione **+ Criar** na barra de ações.
-   1. Selecionar **Localização** do assistente com **Título** as **Loja 1**. Da mesma forma, crie outro local no assistente chamado como **Loja 2** com **Título** as **Loja 2**. Você pode deixar a variável **Nome** campo vazio ao criar **Loja 1** e **Loja 2**.
-   1. Repita a etapa (b) e agora selecione **Canal de sequência** do assistente. Insira o **Título** as **Região A** e **Nome** as **região** para este canal.
+   1. Clique em **Região A** e clique em **+ Criar** na barra de ações.
+   1. Clique em **Localização** do assistente com **Título** as **Loja 1**. Da mesma forma, crie outro local no assistente chamado como **Loja 2** com **Título** as **Loja 2**. Você pode deixar a variável **Nome** campo vazio ao criar **Loja 1** e **Loja 2**.
+   1. Repita a etapa (b) e clique agora em **Canal de sequência** do assistente. Insira o **Título** as **Região A** e **Nome** as **região** para este canal.
 
    >[!CAUTION]
    >
@@ -139,9 +139,9 @@ Siga as etapas abaixo para implementar a funcionalidade:
 1. **Crie exibição e canal em cada local.**
 
    1. Navegue até **Demonstração** > **Localizações** > **Região A** > **Loja 1**.
-   1. Selecionar **Loja 1** e selecione **+ Criar** na barra de ações.
-   1. Selecionar **Exibir** do assistente e criar **`Store1Display`**.
-   1. Repita a etapa (b) e, desta vez, selecione **Canal de sequência** do assistente. Insira o **Título** as **`Store1Channel`** e a variável **Nome** as **loja**.
+   1. Clique em **Loja 1** e clique em **+ Criar** na barra de ações.
+   1. Clique em **Exibir** do assistente e criar **`Store1Display`**.
+   1. Repita a etapa (b) e desta vez clique em **Canal de sequência** do assistente. Insira o **Título** as **`Store1Channel`** e a variável **Nome** as **loja**.
 
    >[!CAUTION]
    >
@@ -169,14 +169,14 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 1. **Adicione conteúdo aos canais em seus respectivos locais.**
 
-   Navegue até a **Demonstração** > **Localizações** > **Região A** > **Região A** e selecione **Editar** na barra de ações. Arraste e solte os ativos que deseja adicionar ao canal.
+   Navegue até a **Demonstração** > **Localizações** > **Região A** > **Região A** e clique em **Editar** na barra de ações. Arraste e solte os ativos que deseja adicionar ao canal.
 
    >[!NOTE]
    >Você pode usar o ***Resources.zip*** arquivo do **Recursos** acima, para usar as imagens como ativos para o conteúdo do canal.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
-   Da mesma forma, navegue até o **Demonstração** > **Localizações** > **Região B** > **Região B** e selecione **Editar** na barra de ações, para arrastar e soltar os ativos no seu canal, conforme mostrado abaixo:
+   Da mesma forma, navegue até o **Demonstração** > **Localizações** > **Região B** > **Região B** e clique em **Editar** na barra de ações, para arrastar e soltar os ativos no seu canal, conforme mostrado abaixo:
 
    ![screen_shot_2018-09-12at13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
@@ -189,7 +189,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 1. **Criar um Cronograma**
 
-   Navegar e selecionar **Agendamentos** no seu projeto do AEM Screens. Em seguida, selecione **Criar** na barra de ações.
+   Navegue e clique em **Agendamentos** no seu projeto do AEM Screens. Clique em **Criar** na barra de ações.
 
    A imagem a seguir mostra o **AdSchedule** criado em **Demonstração** projeto.
 
@@ -197,29 +197,29 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 1. **Atribuir Canais a um Agendamento**
 
-   1. Navegue até **Demonstração** > **Agendamentos** > **AdSchedule** e selecione **Painel** na barra de ações.
-   1. Selecionar **+ Atribuir canal** de **CANAIS ATRIBUÍDOS** para que você possa abrir o **Atribuição de canal** caixa de diálogo.
-   1. Selecionar **Canal de referência** por caminho.
-   1. Selecione o **Caminho do canal** as **Demonstração** > ***Canais*** > ***Global***.
+   1. Navegue até **Demonstração** > **Agendamentos** > **AdSchedule** e clique em **Painel** na barra de ações.
+   1. Clique em **+ Atribuir canal** de **CANAIS ATRIBUÍDOS** para que você possa abrir o **Atribuição de canal** caixa de diálogo.
+   1. Clique em **Canal de referência** por caminho.
+   1. Clique em **Caminho do canal** as **Demonstração** > ***Canais*** > ***Global***.
    1. Insira o **Função do canal** as **GlobalAdSegment**.
-   1. Selecione o **Eventos suportados** as **Carga inicial**, **Tela inativa**, e **Interação do usuário**.
-   1. Selecione **Salvar**.
+   1. Clique em **Eventos suportados** as **Carga inicial**, **Tela inativa**, e **Interação do usuário**.
+   1. Clique em **Salvar**.
 
    **Atribuir canal por função para região:**
 
-   1. Selecionar **+ Atribuir canal** de **CANAIS ATRIBUÍDOS** painel.
-   1. Na caixa de diálogo Atribuição de canal, selecione **Canal de referência** por nome.
+   1. Clique em **+ Atribuir canal** de **CANAIS ATRIBUÍDOS** painel.
+   1. Na caixa de diálogo Atribuição de canal, clique em **Canal de referência** por nome.
    1. Insira o **Nome do canal** as **região***.
    1. Insira o **Função do canal** as **SegmentoAnúncioRegião**.
-   1. Selecione **Salvar**.
+   1. Clique em **Salvar**.
 
    **Atribuir canal por função para loja:**
 
-   1. Selecionar **+ Atribuir canal** de **CANAIS ATRIBUÍDOS** painel.
-   1. Na caixa de diálogo Atribuição de canal, selecione **Canal de referência** por nome.
+   1. Clique em **+ Atribuir canal** de **CANAIS ATRIBUÍDOS** painel.
+   1. Na caixa de diálogo Atribuição de canal, clique em **Canal de referência** por nome.
    1. Insira o **Nome do canal** as **loja**.
    1. Insira o **Função do canal** as **ArmazenarSegmentoAnúncio**.
-   1. Selecione **Salvar**.
+   1. Clique em **Salvar**.
 
    A imagem a seguir mostra os canais atribuídos por caminho e por função.
 
@@ -229,7 +229,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
    Navegue até a **Global** Canal criado inicialmente em **Demonstração** projeto.
 
-   Selecionar **Editar** na barra de ações.
+   Clique em **Editar** na barra de ações.
 
    ![screen_shot_2018-09-13at52754pm](assets/screen_shot_2018-09-13at52754pm.png)
 
@@ -237,17 +237,17 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
    Abra as propriedades de um dos componentes e insira o **Função da atribuição do canal** as **SegmentoAnúncioRegião**.
 
-   Da mesma forma, selecione os outros componentes e abra as propriedades para inserir o **Função da atribuição do canal** as **ArmazenarSegmentoAnúncio**.
+   Da mesma forma, clique nos outros componentes e abra as propriedades para inserir o **Função da atribuição do canal** as **ArmazenarSegmentoAnúncio**.
 
    ![channeldisplay4](assets/channeldisplay4.gif)
 
 1. **Atribuindo programação a cada exibição**
 
    1. Navegue até cada exibição, como **Demonstração** > **Localizações** > **Região A** >**Loja 1** >**`Store1Display`**.
-   1. Selecionar **Painel** na barra de ações.
-   1. No painel, selecione **..** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** e selecione **+Atribuir Calendário**.
-   1. Selecione o caminho para a Programação (por exemplo, aqui, **Demonstração** > **Agendamentos** > **AdSchedule**).
-   1. Selecione **Salvar**.
+   1. Clique em **Painel** na barra de ações.
+   1. No painel, clique em **..** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** e clique em **+Atribuir Calendário**.
+   1. Clique no caminho para o Cronograma (por exemplo, aqui, **Demonstração** > **Agendamentos** > **AdSchedule**).
+   1. Clique em **Salvar**.
 
 ## Exibir os resultados {#viewing-the-results}
 
@@ -306,9 +306,9 @@ Siga as etapas abaixo para criar grupos, usuários e modificar as ACLs de acordo
 1. **Criar grupos**
 
    1. Navegue até **Adobe Experience Manager**.
-   1. Selecionar **Ferramentas** > **Segurança** > **Grupos**.
-   1. Selecionar **Criar grupo** e insira **Global-Author** in **ID**.
-   1. Selecionar **Salvar e fechar**.
+   1. Clique em **Ferramentas** > **Segurança** > **Grupos**.
+   1. Clique em **Criar grupo** e insira **Global-Author** in **ID**.
+   1. Clique em **Salvar e fechar**.
 
    Da mesma forma, crie dois outros grupos, como **Região-Autor** e **Autor da loja**.
 
@@ -317,11 +317,11 @@ Siga as etapas abaixo para criar grupos, usuários e modificar as ACLs de acordo
 1. **Criar usuários e adicionar usuários aos grupos**
 
    1. Navegue até **Adobe Experience Manager**.
-   1. Selecionar **Ferramentas** > **Segurança** > **Usuários**.
-   1. Selecionar **Criar usuário** e insira **Global-User** in **ID**.
+   1. Clique em **Ferramentas** > **Segurança** > **Usuários**.
+   1. Clique em **Criar usuário** e insira **Global-User** in **ID**.
    1. Enter **Senha** e confirme a senha desse usuário.
-   1. Selecione o **Grupos** e insira o nome do grupo em **Selecionar grupo**, por exemplo, insira **Global-Author** para adicionar **Global-User** a esse grupo específico.
-   1. Selecionar **Salvar e fechar**.
+   1. Clique em **Grupos** e insira o nome do grupo em **Clique em Grupo**, por exemplo, insira **Global-Author** para adicionar **Global-User** a esse grupo específico.
+   1. Clique em **Salvar e fechar**.
 
    Da mesma forma, crie dois outros usuários, como **Região-Usuário** e **Usuário da loja** e adicione-os a **Região-Autor** e **Autor da loja** respectivamente.
 
@@ -333,15 +333,15 @@ Siga as etapas abaixo para criar grupos, usuários e modificar as ACLs de acordo
 1. **Adicionar todos os grupos aos contribuidores**
 
    1. Navegue até **Adobe Experience Manager**.
-   1. Selecionar **Ferramentas** > **Segurança** > **Grupos**.
-   1. Selecionar **Colaboradores** na lista e selecione **Membros** guia.
-   1. Selecione o **Grupo** como **Global-Author**, **Autor da região,** e **Autor da loja** para os colaboradores.
-   1. Selecionar **Salvar e fechar**.
+   1. Clique em **Ferramentas** > **Segurança** > **Grupos**.
+   1. Clique em **Colaboradores** na lista e clique em **Membros** guia.
+   1. Clique em **Grupo** como **Global-Author**, **Autor da região,** e **Autor da loja** para os colaboradores.
+   1. Clique em **Salvar e fechar**.
 
 1. **Acessando permissões para cada grupo**
 
    1. Navegue até a *Useradmin* e use essa interface para modificar as permissões para grupos diferentes.
-   1. Pesquisar por **Global-Author** e selecione **Permissões** conforme mostrado na figura abaixo.
+   1. Pesquisar por **Global-Author** e clique em **Permissões** conforme mostrado na figura abaixo.
    1. Da mesma forma, você pode acessar as permissões para **Região-Autor** e **Autor da loja**.
 
    ![screen_shot_2018-09-18at73523am](assets/screen_shot_2018-09-18at73523am.png)

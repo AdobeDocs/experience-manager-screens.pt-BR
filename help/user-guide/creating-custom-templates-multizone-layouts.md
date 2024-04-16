@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 1%
@@ -71,7 +71,7 @@ Siga as etapas abaixo para criar um `Left20-LandscapeHD3Zone` Layout de um proje
    ![imagem](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >Selecionar **Salvar tudo** na barra de ações do CRXDE Lite, sempre que você criar, editar ou copiar conteúdo para qualquer um dos nós. Caso contrário, não será possível confirmar as atualizações.
+   >Clique em **Salvar tudo** na barra de ações do CRXDE Lite, sempre que você criar, editar ou copiar conteúdo para qualquer um dos nós. Caso contrário, não será possível confirmar as atualizações.
 
 1. Copiar o modelo em barra à esquerda de `/libs/screens/core/templates/splitscreenchannel/lbar-left` para `/apps/customtemplate/template`.
 
@@ -140,11 +140,11 @@ Siga as etapas abaixo para criar um `Left20-LandscapeHD3Zone` Layout de um proje
 
 Siga as etapas abaixo para usar o modelo personalizado acima em seu projeto do AEM Screens:
 
-1. Navegue até o projeto do Screens criado na etapa (1) e selecione o **Canais** pasta.
+1. Navegue até o projeto do Screens que você criou na etapa (1) e clique no botão **Canais** pasta.
 
    ![imagem](/help/user-guide/assets/custom-multizone/custom-template8.png)
 
-1. Selecionar **Criar** na barra de ações e selecione o modelo **`Left20-LandscapeHD3Zone`** do **Criar** assistente.
+1. Clique em **Criar** na barra de ações e clique no modelo **`Left20-LandscapeHD3Zone`** do **Criar** assistente.
 
    ![imagem](/help/user-guide/assets/custom-multizone/custom-template9.png)
 

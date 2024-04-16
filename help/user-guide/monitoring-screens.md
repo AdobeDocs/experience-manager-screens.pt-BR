@@ -1,5 +1,5 @@
 ---
-title: Solução de problemas do centro de controle de dispositivos
+title: Solução de problemas do Centro de controle de dispositivos
 description: Saiba como monitorar e solucionar problemas de desempenho da atividade do AEM Screens Player e do dispositivo usando o painel Dispositivo.
 contentOwner: Jyotika Syal
 content-type: reference
@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -23,15 +23,15 @@ Você pode monitorar e solucionar problemas de desempenho da atividade e do disp
 
 ## Monitorar e solucionar problemas no Centro de controle de dispositivos {#monitor-and-troubleshoot-from-device-control-center}
 
-É possível monitor o atividade e, portanto, solucionar problemas com o seu AEM Screens player, usando o Painel doDevice.
+É possível monitorar a atividade e, portanto, solucionar problemas do reprodutor AEM Screens usando o Painel de dispositivos.
 
-### Painel Dispositivos {#device-dashboard}
+### Painel do dispositivo {#device-dashboard}
 
-Siga as etapas abaixo para navegar até o dispositivo painel:
+Siga as etapas abaixo para navegar até o painel do dispositivo:
 
-1. Navegue até as dispositivo painel do seu projeto, por exemplo, ***Test Project*** > ***Devices***.
+1. Navegue até o painel do dispositivo em seu projeto, por exemplo, ***Testar projeto*** > ***Dispositivos***.
 
-   Selecione **Dispositivos e** Gerenciador **de dispositivos** na barra de ações.
+   Clique em **Dispositivos** e **Gerenciador de dispositivos** na barra de ações.
 
    ![screen_shot_2019-09-03at13823pm](assets/screen_shot_2019-09-03at13823pm.png)
 
@@ -39,7 +39,7 @@ Siga as etapas abaixo para navegar até o dispositivo painel:
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. Selecione o dispositivo (**NovoDispositivoDeTeste**) e selecione **Painel** na barra de ações.
+1. Clique no dispositivo (**NovoDispositivoDeTeste**) e clique em **Painel** na barra de ações.
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -53,7 +53,7 @@ A variável **Atividade** mostra o último ping do reprodutor AEM Screens com o 
 
 ![chlimage_1](assets/chlimage_1.png)
 
-Além disso, selecione **Coletar registros** do canto superior direito do **painel Atividade** para visualização os logs do seu player.
+Além disso, clique **Coletar registros** no canto superior direito da **Atividade** para exibir os registros do reprodutor.
 
 ### Atualizar detalhes do dispositivo {#update-device-details}
 
@@ -61,23 +61,23 @@ Verifique a **Detalhes do dispositivo** para que você possa visualizar o IP do 
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
-Além disso, **Limpar cache** e **Atualizar** para limpar o cache do dispositivo e atualizar o [firmware](screens-glossary.md) desse painel.
+Além disso, clique **Limpar cache** e **Atualizar** para limpar o cache do dispositivo e atualizar o [firmware](screens-glossary.md) desse painel.
 
-Além disso, **..** no canto superior direito da **Detalhes do dispositivo** painel para reiniciar ou atualizar o status do player.
+Além disso, clique **..** no canto superior direito da **Detalhes do dispositivo** painel para reiniciar ou atualizar o status do player.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
 ### Atualizar informações do dispositivo {#update-device-information}
 
-Verifique o painel INFORMAÇÕES **DO** DISPOSITIVO. Aqui você pode visualização a atualização de configuração, o modelo dispositivo, o sistema operacional dispositivo e as informações do shell.
+Verifique a **INFORMAÇÕES DO DISPOSITIVO** painel. Aqui você pode ver a atualização de configuração, o modelo do dispositivo, o SO do dispositivo e as informações do shell.
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-Além disso, selecione (**...**) no canto superior direito do painel Informações do dispositivo para visualização propriedades ou atualize as dispositivo.
+Clique também em (**..**) no canto superior direito do painel Informações do dispositivo para exibir as propriedades ou atualizar o dispositivo.
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
-Selecionar **Propriedades** para que você possa visualizar o **Propriedades do dispositivo** caixa de diálogo. Você pode editar o título do dispositivo ou escolher a opção para atualizações de configuração como **Manual** ou **Automático**.
+Clique em **Propriedades** para que você possa visualizar o **Propriedades do dispositivo** caixa de diálogo. Você pode editar o título do dispositivo ou escolher a opção para atualizações de configuração como **Manual** ou **Automático**.
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ Selecionar **Propriedades** para que você possa visualizar o **Propriedades do 
 
 Você pode exibir a captura de tela do reprodutor do dispositivo na **CAPTURA DE TELA DO REPRODUTOR** painel.
 
-Selecionar (**..**) no canto superior direito do painel Captura de tela do player e selecione **Atualizar captura de tela** para ver o instantâneo do reprodutor em execução.
+Clique em (**..**) no canto superior direito do painel Captura de tela do player e clique em **Atualizar captura de tela** para ver o instantâneo do reprodutor em execução.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -98,22 +98,22 @@ Selecionar (**..**) no canto superior direito do painel Captura de tela do playe
 A variável **PREFERÊNCIAS** permite que o usuário altere as preferências de **Interface do administrador**, **Alternador de canal**, e **Depuração remota** para o dispositivo.
 
 >[!NOTE]
->Para saber mais sobre essas opções, consulte [AEM Screens player](working-with-screens-player.md).
+>Para saber mais sobre essas opções, consulte [AEM Screens Player](working-with-screens-player.md).
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
-Além disso, **Configurações** no canto superior direito para atualizar as preferências do dispositivo. Você pode atualizar as seguintes preferências:
+Além disso, clique **Configurações** no canto superior direito para atualizar as preferências do dispositivo. Você pode atualizar as seguintes preferências:
 
 * **URL do servidor**
 * **Resolução**
-* **Reinicializar agendamento**
+* **Reinicializar programação**
 * **Nº máx. de arquivos de log a serem mantidos**
 * **Nível de registro**
 
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
 
 >[!NOTE]
->Você pode selecionar qualquer um dos seguintes níveis de Log:
+>Você pode clicar em qualquer um dos seguintes níveis de Log:
 >* **Desativar**
 >* **Depurar**
 >* **Informações**
@@ -122,23 +122,23 @@ Além disso, **Configurações** no canto superior direito para atualizar as pre
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
-## Solução de problemas do OSGi Configurações {#troubleshoot-osgi-settings}
+## Solução de problemas de configurações do OSGi {#troubleshoot-osgi-settings}
 
-Ative a quem indicou vazia para permitir que a dispositivo postagem dados ao servidor. Por exemplo, se a propriedade referenciador vazia estiver desativada, o dispositivo não poderá postar uma captura de tela.
+Ative o referenciador vazio para permitir que o dispositivo publique dados no servidor. Por exemplo, se a propriedade referenciador vazia estiver desativada, o dispositivo não poderá postar uma captura de tela.
 
 Atualmente, alguns desses recursos só estarão disponíveis se o *Permitir filtro de referenciador do Apache Sling vazio* está ativado na configuração do OSGi. O painel pode exibir um aviso de que as configurações de segurança podem impedir que alguns desses recursos funcionem.
 
 Siga as etapas abaixo para ativar o Apache Sling Referrer Filter Allow Empty
 
-1. Navegue até **Adobe Experience Manager configuração** do Console da Web, isto é. `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`
-1. Marque a opção **allow.empty** .
-1. Selecione **Salvar**.
+1. Navegue até **Configuração do console da Web do Adobe Experience Manager**, ou seja, `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
+1. Verifique a **allow.empty** opção.
+1. Clique em **Salvar**.
 
-![chlimage_1 a 3](assets/chlimage_1-3.png)
+![chlimage_1-3](assets/chlimage_1-3.png)
 
 ### Recomendações {#recommendations}
 
-A seção a seguir recomenda monitorar os links de rede, os servidores e os players para entender a saúde e reagir aos problemas.
+A seção a seguir recomenda monitorar os links de rede, servidores e players para entender a integridade e reagir a problemas.
 
 O AEM fornece monitoramento integrado para:
 
@@ -158,4 +158,4 @@ Recommendations para monitoramento remoto com software de terceiros:
 
 #### Outros recursos {#additional-resources}
 
-Consulte [Vídeo Configuração e solução de problemas de reprodução](troubleshoot-videos.md) se desejar depurar e solucionar problemas de vídeos que estão sendo reproduzidos em suas canal.
+Consulte [Configuração da reprodução de vídeo e solução de problemas](troubleshoot-videos.md) se quiser depurar e solucionar problemas de vídeos reproduzidos no seu canal.
