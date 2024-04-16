@@ -4,14 +4,14 @@ product: experience manager
 audience: end-user
 user-guide-title: Ajuda do Adobe Experience Manager Screens
 breadcrumb-title: Guia do AEM Screens
-user-guide-description: Saiba como usar uma Solução de sinalização digital que permite publicar experiências e interações digitais dinâmicas e interativas.
+user-guide-description: Saiba como usar uma solução de sinalização digital que permite publicar experiências e interações digitais dinâmicas e interativas.
 feature-set: Experience Manager Screens
 feature: Content
 role: User
 source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 
