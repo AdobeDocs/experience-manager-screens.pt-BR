@@ -2,9 +2,9 @@
 title: Teste e garantia da qualidade
 description: Saiba mais sobre testes e controle de qualidade para o AEM Screens no Guia de práticas recomendadas.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---

@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '2426'
 ht-degree: 1%
@@ -251,27 +251,27 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 ## Exibir os resultados {#viewing-the-results}
 
-Quando a configuração dos canais e a exibição estiverem concluídas, inicie o reprodutor do AEM Screens para exibir o conteúdo.
+Quando a configuração dos canais e a exibição estiverem concluídas, inicie o AEM Screens Player para visualizar o conteúdo.
 
 >[!NOTE]
 >
 >Para saber mais sobre o AEM Screens Player, consulte os seguintes recursos:
 >
->* [Baixar o reprodutor do AEM Screens](https://download.macromedia.com/screens/)
+>* [Baixar o AEM Screens Player](https://download.macromedia.com/screens/)
 >* [Trabalhar com o AEM Screens Player](working-with-screens-player.md)
 
 
-A saída a seguir confirma o conteúdo do canal no AEM Screens player, dependendo do caminho de exibição.
+A saída a seguir confirma o conteúdo do canal no AEM Screens Player, dependendo do caminho de exibição.
 
 **Cenário 1**:
 
-Se você atribuir o caminho de exibição como **Demonstração** > **Localizações** > **Região A** > **Loja 1** > **`Store1Display`**, o conteúdo a seguir é exibido no AEM Screens player.
+Se você atribuir o caminho de exibição como **Demonstração** > **Localizações** > **Região A** > **Loja 1** > **`Store1Display`**, o conteúdo a seguir é exibido no AEM Screens Player.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **Cenário 1**:
 
-Se você atribuir o caminho de exibição como **Demonstração** > **Localizações** > **Região B** > **Loja 3** > **`Store3Display`**, o conteúdo a seguir é exibido no AEM Screens player.
+Se você atribuir o caminho de exibição como **Demonstração** > **Localizações** > **Região B** > **Loja 3** > **`Store3Display`**, o conteúdo a seguir é exibido no AEM Screens Player.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 

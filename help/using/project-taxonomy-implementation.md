@@ -2,7 +2,7 @@
 title: Taxonomia do projeto
 description: Saiba mais sobre a taxonomia de projetos relacionada ao AEM Screens.
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Um autor normalmente inicia um projeto do AEM Screens por:
 * [criação de exibições](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [atribuição de canais às exibições](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
 
-* [exibição de conteúdo em um AEM Screens player](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
+* [exibição de conteúdo em um AEM Screens Player](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
 
 >[!NOTE]
 >Você também pode importar um conjunto de locais em massa de uma planilha CSV/XLS para o seu projeto do AEM Screens. Consulte [Novo importador de projeto do arquivo](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer).

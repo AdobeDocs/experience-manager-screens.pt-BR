@@ -8,7 +8,7 @@ user-guide-description: Saiba como usar uma solução de sinalização digital q
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 11%
@@ -21,7 +21,7 @@ ht-degree: 11%
 + [Introdução ao Screens](aem-screens-introduction.md)
 + Visão geral e Guia de início rápido {#overview}
    + [Guia de início rápido](kickstart-for-aem-screens.md)
-   + [Guia de práticas recomendadas do Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
+   + [Guia de práticas recomendadas do Screens](https://experienceleague.adobe.com/br/docs/experience-manager-screens/using/about-guide)
    + [Termos principais](screens-glossary.md)
 + Noções básicas de rede de sinalização digital {#digital-signage-network}
    + [Parte 1: Funções e Responsabilidades do Projeto](project-roles-responsibilities.md)
@@ -56,7 +56,7 @@ ht-degree: 11%
    + Integração do Analytics com o AEM Screens {#analytics-integration}
       + [Integração do Adobe Analytics](adobe-analytics-integration-aem-screens.md)
       + [Configuração do Adobe Analytics com AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Criação e exemplos de caso de uso {#authoring}
++ Exemplos de autoria e caso de uso {#authoring}
    + Configuração de um projeto do Screens {#setting-up-projects}
       + [Criação e gerenciamento de projetos](creating-a-screens-project.md)
       + [Criação e gerenciamento de canais](managing-channels.md)

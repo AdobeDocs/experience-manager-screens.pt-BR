@@ -1,6 +1,6 @@
 ---
 title: Canal de emergência
-description: Saiba mais sobre como criar e gerenciar um canal de emergência que o autor de conteúdo pode alternar de um canal de sequência se houver uma pré-condição.
+description: Saiba mais sobre como criar e gerenciar um canal de emergência que o Autor de conteúdo pode alternar de um canal de sequência se houver uma pré-condição.
 content-type: example
 topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Descrição do caso de uso {#use-case-description}
 
-Esta seção descreve um exemplo de caso de uso que enfatiza a criação e o gerenciamento de um canal de emergência que o autor de conteúdo pode alternar de um canal de sequência se houver uma pré-condição.
+Esta seção descreve um exemplo de caso de uso que enfatiza a criação e o gerenciamento de um canal de emergência que o Autor de conteúdo pode alternar de um canal de sequência se houver uma pré-condição.
 
 ### Pré-condições {#preconditions}
 
@@ -157,7 +157,7 @@ Siga as etapas abaixo para configurar um canal de emergência:
 
 1. **Registro do dispositivo**
 
-   Conclua o processo de registro do dispositivo. Depois de se registrar, é possível exibir a seguinte saída no AEM Screens player.
+   Conclua o processo de registro do dispositivo. Depois de se registrar, é possível exibir a seguinte saída no AEM Screens Player.
 
    ![novo30](assets/new30.gif)
 
@@ -177,12 +177,12 @@ Se houver uma emergência, execute as seguintes etapas:
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. Quando a prioridade do canal é atualizada, todo o reprodutor do AEM Screens exibe o **EmergencyChannel** conteúdo.
+1. Quando a prioridade do canal é atualizada, todo o AEM Screens Player exibe a variável **EmergencyChannel** conteúdo.
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
 ### Conclusão {#conclusion}
 
-A variável **EmergencyChannel** O continua a exibir seu conteúdo até que o autor de conteúdo redefina o Valor de prioridade como 1.
+A variável **EmergencyChannel** O continua a exibir seu conteúdo até que o Autor de conteúdo redefina o Valor de prioridade como 1.
 
-Quando o autor do conteúdo receber as instruções de que a emergência foi resolvida, ele deverá atualizar a prioridade do **MainAdChannel** o que faz com que a reprodução normal seja retomada.
+Quando o Autor de conteúdo receber as instruções de que a emergência foi resolvida, ele deverá atualizar a prioridade do **MainAdChannel** o que faz com que a reprodução normal seja retomada.

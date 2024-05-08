@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 2%
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 O recurso de reconhecimento de voz permite a alteração de conteúdo em um canal do AEM Screens orientado por interação de voz.
 
-Um autor de conteúdo pode configurar uma exibição para ser ativada por voz. O objetivo desse recurso é permitir que os clientes usem a fala como um método de interação com suas telas. Alguns casos de uso semelhantes incluem encontrar recomendações de produtos em lojas, solicitar itens de menu em lanchonetes e restaurantes. Esse recurso aumenta a acessibilidade para os usuários e pode melhorar muito a experiência do cliente.
+Um Autor de conteúdo pode configurar uma exibição para ser ativada por voz. O objetivo desse recurso é permitir que os clientes usem a fala como um método de interação com suas telas. Alguns casos de uso semelhantes incluem encontrar recomendações de produtos em lojas, solicitar itens de menu em lanchonetes e restaurantes. Esse recurso aumenta a acessibilidade para os usuários e pode melhorar muito a experiência do cliente.
 
 >[!NOTE]
 >O hardware do player deve suportar entrada de voz, como um microfone.

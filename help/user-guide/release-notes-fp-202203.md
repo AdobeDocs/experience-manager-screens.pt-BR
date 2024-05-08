@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '274'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 O AEM Screens lançou o AEM 6.5 Feature Pack 11.
 
-Baixe o pacote de recursos mais recente do AEM Screens 6.5.11 versão no [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até **Adobe Experience Manager** e pesquisar **Screens** para obter o pacote de recursos mais recente intitulado como **AEM 6.5 Screens FP11**.
+Você pode baixar o Feature Pack mais recente para a versão AEM Screens 6.5.11 da [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente denominado como **AEM 6.5 Screens FP11**.
 
 ## Data de lançamento {#release-date}
 
@@ -33,19 +33,19 @@ Esta versão inclui somente correções de erros.
 
 ### Correções de erros {#bug-fixes}
 
-* O direcionamento/personalização não estava funcionando. Isso foi corrigido.
+* O direcionamento/personalização não estava funcionando. Esse erro foi corrigido.
 
-* O email de monitoramento do Screens não funcionava após o FP10. Isso foi corrigido.
+* O email de monitoramento do Screens não funcionava após o FP10. Esse erro foi corrigido.
 
-* O Windows player travava ao capturar a tela no modo retrato. Isso foi corrigido.
+* O Windows Player travava ao capturar a tela no modo retrato. Esse erro foi corrigido.
 
-* O canal SPA do Screens estava causando uma tela branca com o Windows Player. Isso foi corrigido.
+* O canal SPA do Screens estava causando uma tela branca com o Windows Player. Esse erro foi corrigido.
 
 * A variável *wcmmode* O parâmetro foi removido de todas as solicitações do Screens na instância de publicação.
 
 * A interface de atividade do player agora funciona conforme esperado.
 
-* O Player não estava conseguindo obter a atualização mais recente por meio do gerenciamento de publicação. Isso foi corrigido.
+* O Player não estava conseguindo obter a atualização mais recente por meio do gerenciamento de publicação. Esse erro foi corrigido.
 
 ### Players do AEM Screens lançados
 
@@ -60,4 +60,4 @@ Os seguintes players de AEM Screens são lançados para AEM 6.5 Feature Pack 11:
 
 #### Downloads do AEM Screens Player
 
-Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Para baixar o AEM Screens Player mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

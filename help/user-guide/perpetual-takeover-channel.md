@@ -1,12 +1,12 @@
 ---
 title: Canal de aquisição permanente
-description: Siga este caso de uso para criar um canal de aquisição permanente.
+description: Siga este caso de uso para criar um Canal de TakeOver Permanente.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 1%
@@ -19,7 +19,7 @@ A página a seguir mostra um caso de uso que enfatiza a configuração de um pro
 
 ## Descrição do caso de uso {#use-case-description}
 
-Este caso de uso explica como criar um canal que *assume o controle* do canal de reprodução normal para uma exibição ou grupo de exibições. A tomada de controle ocorre para um dia e hora específicos perpetuamente.
+Esse caso de uso explica como criar um canal que *assume o controle* do canal de reprodução normal para uma exibição ou grupo de exibições. A tomada de controle ocorre para um dia e hora específicos perpetuamente.
 Por exemplo, há um canal de TakeOver Permanente que é reproduzido todas as sextas-feiras, das 9h às 10h. Durante esse tempo, nenhum outro canal deve ser reproduzido. O exemplo a seguir mostra a criação de um canal de aquisição permanente que é reproduzido, permitindo que o conteúdo seja reproduzido todas as quartas-feiras por duas horas, das 14h às 16h.
 
 ### Pré-condições {#preconditions}

@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '286'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ A data de lançamento do Pacote de recursos do AEM Screens 201909 é 7 de outubr
 
 * **Atualizações aprimoradas na interface do usuário para Criar projeto do Screens**
 
-  A interface do usuário atualizada para criar um projeto do AEM Screens agora está disponível. Você pode criar um projeto do Screens com alguns cliques simples. Além disso, a guia Propriedades de cada projeto agora tem uma interface mais intuitiva.
+  Uma interface atualizada para criar um projeto do AEM Screens está disponível. Você pode criar um projeto do Screens com alguns cliques simples. Além disso, a guia Propriedades de cada projeto agora tem uma interface mais intuitiva.
 
   Consulte [Criação de um novo projeto do Screens](creating-a-screens-project.md) para obter mais detalhes.
 
@@ -57,4 +57,4 @@ Os seguintes players de AEM Screens são lançados para AEM 6.4.6 Feature Pack 6
 
 #### Downloads do AEM Screens Player
 
-Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte [**Downloads do AEM Screens Player**](https://download.macromedia.com/screens/).
+Para baixar o AEM Screens Player mais recente e saber mais sobre as correções de erros, consulte [**Downloads do AEM Screens Player**](https://download.macromedia.com/screens/).

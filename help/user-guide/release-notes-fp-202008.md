@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '342'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 O AEM Screens lançou o AEM 6.5 Feature Pack 5.
 
-Baixe o pacote de recursos mais recente do AEM Screens 6.5.5 na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até **Adobe Experience Manager** e pesquisar **Screens** para obter o pacote de recursos mais recente.
+Baixe o Feature Pack mais recente do AEM Screens 6.5.5 versão na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente.
 
 ## Data de lançamento {#release-date}
 
@@ -38,7 +38,7 @@ A data de lançamento do Pacote de recursos do AEM Screens 202008 é 3 de setemb
 
 * **Agendamento recorrente**
 
-  O Cronograma recorrente permite que você defina um cronograma recorrente para seu canal. Você configura vários agendamentos de recorrência para um canal.
+  O Cronograma recorrente permite que você defina um cronograma recorrente para seu canal. Você pode configurar vários agendamentos de recorrência para um canal.
 
   Consulte [Agendamento recorrente](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obter mais detalhes.
 
@@ -46,7 +46,7 @@ A data de lançamento do Pacote de recursos do AEM Screens 202008 é 3 de setemb
 
   O recurso de Reconhecimento de voz permite a alteração de conteúdo em um canal do AEM Screens orientado por interação de voz.
 
-  Um autor de conteúdo pode configurar uma exibição para ser ativada por voz. O objetivo desse recurso é permitir que os clientes usem a fala como método de interação com suas telas.
+  Um Autor de conteúdo pode configurar uma exibição para ser ativada por voz. O objetivo desse recurso é permitir que os clientes usem a fala como um método de interação com suas telas.
 
   Consulte [Reconhecimento de voz](voice-recognition.md) para obter mais detalhes.
 
@@ -70,4 +70,4 @@ Os seguintes AEM Screens Players foram lançados para o AEM Screens lançado com
 
 #### Downloads do AEM Screens Player
 
-Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Para baixar o AEM Screens Player mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 9879f339-e70f-446d-acd3-380016269f27
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fe4f7d593ccea91f6109a0c759aea3faa37ae471
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '221'
 ht-degree: 4%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 4%
 # Notas de versão do Pacote de recursos 202401 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->A Adobe recomenda que você atualize para a versão mais recente do 6.5 Adobe Experience Manager (AEM 6.5). Obter as informações da versão mais recente do [aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/release-notes/release-notes)
+>A Adobe recomenda que você atualize para a versão mais recente do 6.5 Adobe Experience Manager (AEM 6.5). Obter as informações da versão mais recente do [aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/release-notes/release-notes).
 
 ## Disponibilidade {#availability}
 
 O AEM Screens lançou o AEM 6.5 Feature Pack 11.1.
 
-Baixe o pacote de recursos mais recente do AEM Screens 6.5.11.1 versão no [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até **Adobe Experience Manager** e pesquisar **Screens** para obter o pacote de recursos mais recente intitulado como **Telas AEM 6.5 FP11.1**.
+Baixe o Feature Pack mais recente do AEM Screens 6.5.11.1 versão na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente denominado como **Telas AEM 6.5 FP11.1**.
 
 ## Data de lançamento {#release-date}
 

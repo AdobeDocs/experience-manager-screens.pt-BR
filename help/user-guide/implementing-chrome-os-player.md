@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 0%
@@ -34,12 +34,12 @@ Siga as etapas abaixo para configurar o console de gerenciamento do chrome:
 
 ## Nomeação do reprodutor de SO Chrome {#name-chrome}
 
-Você pode atribuir um nome de dispositivo amigável ao reprodutor do Chrome, enviando o nome de dispositivo atribuído ao Adobe Experience Manager (AEM). Esse recurso não só permite nomear o reprodutor do Chrome, como também permite atribuir facilmente o conteúdo apropriado.
+Você pode atribuir um nome de dispositivo amigável ao Chrome Player, enviando o nome de dispositivo atribuído ao Adobe Experience Manager (AEM). Esse recurso não só permite nomear o Chrome Player, como também permite atribuir facilmente o conteúdo apropriado.
 
 >[!NOTE]
 >Você pode escolher o nome do Player somente antes do registro. Depois que o Player é registrado, o nome do Player não pode mais ser alterado.
 
-Siga as etapas abaixo para configurar o nome no Chrome player:
+Siga as etapas abaixo para configurar o nome no Chrome Player:
 
 1. Como opção, você pode permitir que os integradores de áudio/vídeo ou administradores de TI definam a ID do ativo e o local como parte da inscrição da empresa.
 
@@ -54,7 +54,7 @@ Siga as etapas abaixo para configurar o nome no Chrome player:
    ![imagem](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >Os players do Chrome devem ser inscritos na inscrição corporativa e o player do Chrome deve ser implantado por meio do Console de gerenciamento do Chrome, caso contrário, a ID do ativo retorna em branco (por exemplo, chrome como uma extensão). O nome do dispositivo só é registrado no momento do registro. As mudanças futuras não são percebidas pelo Adobe Experience Manager (AEM).
+   >Os players do Chrome devem ser inscritos na inscrição corporativa e o player do Chrome deve ser implantado por meio do console de gerenciamento do Chrome, caso contrário, a ID do ativo retorna em branco (por exemplo, chrome como uma extensão). O nome do dispositivo só é registrado no momento do registro. As mudanças futuras não são percebidas pelo Adobe Experience Manager (AEM).
 
 ### Ativar modo de quiosque {#enabling-kiosk-mode}
 
@@ -145,7 +145,7 @@ A tabela a seguir resume as políticas com suas funções.
 | enableAdminUI | Habilite a interface do Administrador para configurar o dispositivo no site. Defina como false depois que estiver totalmente configurado e em produção. |
 | enableOSD | Habilite a interface do alternador de canal para que os usuários alternem canais no dispositivo. Considere definir como false depois que estiver totalmente configurado e em produção. |
 | enableActivityUI | Habilite para que você possa mostrar o progresso de atividades como download e sincronização. Ative para solução de problemas e desative depois que estiver totalmente configurado e em produção. |
-| cloudMode | Defina como verdadeiro se desejar que o reprodutor do Chrome se conecte ao Screens as a Cloud Service. Defina como falso para se conectar ao AMS ou AEM no local. |
+| cloudMode | Defina como verdadeiro se desejar que o Chrome Player se conecte ao Screens as a Cloud Service. Defina como falso para se conectar ao AMS ou AEM no local. |
 | cloudToken | Token de registro para se registrar no Screens as a Cloud Service. |
 
 >[!NOTE]

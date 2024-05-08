@@ -2,7 +2,7 @@
 title: Rede móvel direta
 description: Saiba mais sobre a configuração de rede móvel direta no AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Como acompanhamento, o pacote de dados necessário deve ser pelo menos:
 >Para o upload inicial de arquivos de mídia, por exemplo, ao integrar novos players, uma quantidade maior de dados e um tempo de download maior devem ser esperados e refletidos nas suposições acima. Uma rede 4G com *bom* cobertura e *ilimitado* Os dados devem corresponder às instalações mais comuns nesta Configuração de rede.
 
 >[!NOTE]
->Um plano 3G mínimo com boa cobertura de rede deve levar a um desempenho de download aceitável para um reprodutor do AEM Screens. Se houver apenas uma cobertura razoável disponível em um local específico, considere alternar a Configuração de rede geral para [Rede Móvel com Roteador de Dados Móvel e Componentes de Rede Ativos](/help/using/mobile-network-router.md).
+>Um plano 3G mínimo com boa cobertura de rede deve levar a um desempenho de download aceitável para um AEM Screens Player. Se houver apenas uma cobertura razoável disponível em um local específico, considere alternar a Configuração de rede geral para [Rede Móvel com Roteador de Dados Móvel e Componentes de Rede Ativos](/help/using/mobile-network-router.md).
 
 
 ### Rede local {#lan-connection}

@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -23,9 +23,9 @@ O caso de uso a seguir demonstra três imagens diferentes com base nos valores n
 
 ## Descrição {#description}
 
-Este caso de uso mostra o estoque de inventário de varejo para três camisetas coloridas diferentes. Dependendo do número de camisetas disponíveis em estoque gravadas no Google Sheets, a imagem (camiseta vermelha, verde ou azul) com o número mais alto é exibida na tela.
+Este caso de uso mostra o estoque de estoque de estoque de varejo para três camisetas coloridas diferentes. Dependendo do número de camisetas disponíveis em estoque gravadas no Google Sheets, a imagem (camiseta vermelha, verde ou azul) com o número mais alto é exibida na tela.
 
-Para este caso de uso, o suéter vermelho, verde ou azul é exibido em sua tela com base no valor mais alto do número de suéteres disponíveis.
+Para esse caso de uso, o suéter Vermelho, Verde ou Azul é exibido em sua tela com base no valor mais alto do número de suéteres disponíveis.
 
 ## Pré-condições {#preconditions}
 

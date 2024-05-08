@@ -1,30 +1,30 @@
 ---
 title: Guia de início rápido
-description: Saiba como criar um projeto de demonstração do AEM Screens. Ele ajuda a criar uma experiência de sinalização digital começando pela instalação e configuração de um novo projeto para visualizar seu conteúdo no AEM Screens player.
+description: Saiba como criar um projeto de demonstração do AEM Screens. Ele ajuda a criar uma experiência de sinalização digital começando pela instalação e configuração de um novo projeto para visualizar seu conteúdo no AEM Screens Player.
 feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1282'
 ht-degree: 2%
 
 ---
 
 # Guia de início rápido {#kickstart-guide}
 
-O início rápido do AEM Screens demonstra como configurar e executar um projeto do AEM Screens. Ele orienta você na configuração de uma experiência básica de sinalização digital e na adição de conteúdo, como ativos e/ou vídeos, a cada canal e na publicação adicional do conteúdo em um reprodutor do AEM Screens.
+O início rápido do AEM Screens demonstra como configurar e executar um projeto do AEM Screens. Ele orienta você na configuração de uma experiência básica de sinalização digital e na adição de conteúdo, como ativos e/ou vídeos, a cada canal e na publicação adicional do conteúdo em um AEM Screens Player.
 
 >[!NOTE]
->Antes de trabalhar nos detalhes do projeto, verifique se você instalou o Pacote de recursos mais recente do AEM Screens. Você pode baixar o pacote de recursos mais recente da [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID.
+>Antes de trabalhar nos detalhes do projeto, verifique se você instalou o Pacote de recursos mais recente do AEM Screens. Você pode baixar o Feature Pack mais recente em [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID.
 
 ## Pré-requisitos {#prerequisites}
 
 Siga as etapas abaixo para criar um projeto de amostra para o AEM Screens e publicar mais conteúdo no reprodutor do Screens.
 
 >[!NOTE]
->O tutorial a seguir mostra como reproduzir o conteúdo do seu canal no Chrome OS player.
+>O tutorial a seguir mostra a reprodução do conteúdo do seu canal em um reprodutor do sistema operacional Chrome.
 
 >[!IMPORTANT]
 >**Configurações do OSGi**
@@ -87,7 +87,7 @@ Siga as etapas abaixo para criar um canal para seu projeto:
 
 ### Adicionar conteúdo a um canal {#adding-content}
 
-Quando tiver seu canal em vigor, adicione ao seu canal o conteúdo que o AEM Screens player pode exibir.
+Quando tiver seu canal em vigor, adicione ao seu canal o conteúdo que o AEM Screens Player pode exibir.
 
 Siga as etapas abaixo para adicionar conteúdo ao canal (**TestChannel**) no seu projeto:
 
@@ -162,18 +162,18 @@ Quando a configuração do projeto for concluída, atribua o canal a uma exibiç
 
 1. A variável **Atribuição de canal** é aberta.
 
-1. No **Configurações** escolha o canal **por caminho**  e **Eventos suportados** as **Carga inicial** e **Tela inativa**.
+1. No **Configurações** escolha o canal **por caminho** e **Eventos suportados** como **Carga inicial** e **Tela inativa**.
 
    >[!NOTE]
    >
-   >A variável **Função do canal**, **Prioridade**, e **Métodos de interrupção** são preenchidos por padrão. Consulte [Propriedades do canal](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) para obter mais informações sobre as propriedades de atribuição do canal.
+   >A variável **Função do canal**, **Prioridade**, e **Métodos de interrupção** são preenchidos por padrão. Consulte a [Propriedades do canal](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) para obter mais informações sobre as propriedades de atribuição do canal.
 
    ![imagem](assets/kickstart/demo-assign3.png)
 
    Além disso, você pode clicar no link **Janela de ativação** e **Agendamento recorrente**.
 
    >[!NOTE]
-   >A variável *Agendamento recorrente* permite definir uma programação recorrente para seu canal. Você configura vários agendamentos de recorrência para um canal.
+   >A variável *Agendamento recorrente* permite definir uma programação recorrente para seu canal. Você pode configurar vários agendamentos de recorrência para um canal.
    >Consulte [Agendamento recorrente](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obter mais detalhes.
 
 1. Clique em **Salvar** após configurar suas preferências.
@@ -183,13 +183,13 @@ Quando a configuração do projeto for concluída, atribua o canal a uma exibiç
 Registre seu dispositivo usando o painel AEM.
 
 >[!IMPORTANT]
->O Chrome OS player pode ser instalado como plug-in do navegador Chrome no modo de desenvolvedor, sem precisar de um dispositivo Chrome player real. Para instalação, siga as etapas abaixo:
+>O Chrome OS player pode ser instalado como um plug-in do navegador Chrome no modo de desenvolvedor, sem exigir um dispositivo Chrome Player real. Para instalação, siga as etapas abaixo:
 >
 >1. Clique em [aqui](https://download.macromedia.com/screens/) para baixar o Chrome Player mais recente.
 >1. Descompacte-o e salve-o no disco.
->1. Abra o navegador Chrome e clique **Extensões** no menu ou navegue diretamente para ***chrome://extensions***.
->1. Ligue o **Modo de desenvolvedor** do canto superior direito.
->1. Clique em **Carregar desempacotado** no canto superior esquerdo e carregar o Chrome Player descompactado.
+>1. Abra o navegador Chrome e clique em **Extensões** no menu ou navegue diretamente para ***chrome://extensions***.
+>1. Ligue o **Modo de desenvolvedor** no canto superior direito.
+>1. Clique em **Carregar desempacotado** no canto superior esquerdo e carregue o Chrome Player descompactado.
 >1. Marcar **AEM Screens Chrome Player** se estiver disponível na lista de extensões.
 >1. Abra uma nova guia e clique no link **Aplicativos** no canto superior esquerdo ou navegue diretamente para ***chrome://apps***.
 >1. Clique em **AEM Screens** Plug-in para que você possa iniciar o Chrome Player. Por padrão, o reprodutor é iniciado no modo de tela cheia. Pressione **Esc** para sair do modo de tela cheia.

@@ -1,6 +1,6 @@
 ---
 title: Configuração e implantação do AEM Screens
-description: O AEM Screens player está disponível para Android&trade;, Chrome OS, iOS e Windows. Saiba mais sobre a configuração e implantação do AEM Screens.
+description: O AEM Screens Player está disponível para Android&trade;, Chrome OS, iOS e Windows. Saiba mais sobre a configuração e implantação do AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,9 +9,9 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '682'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Esta página mostra como instalar e configurar os reprodutores do Screens em seu
 
 >[!IMPORTANT]
 >
->O AEM Screens player não usa o token CSRF (Falsificação de solicitação entre sites). Portanto, para configurar o servidor AEM para que esteja pronto para uso no AEM Screens, ignore o filtro de referenciador, permitindo referenciadores vazios.
+>O AEM Screens Player não usa o token CSRF (Falsificação de solicitação entre sites). Portanto, para configurar o servidor AEM para que esteja pronto para uso no AEM Screens, ignore o filtro de referenciador, permitindo referenciadores vazios.
 
 ## Estrutura de verificação de integridade {#health-check-framework}
 
@@ -42,7 +42,7 @@ Siga as etapas abaixo para verificar se essas duas configurações vitais estão
    ![ativos](assets/health-check1.png)
 
 
-2. Clique em **Executar verificações de integridade selecionadas** para que você possa executar a validação de duas propriedades listadas acima.
+2. Clique em **Executar as verificações de integridade selecionadas** para que você possa executar a validação de duas propriedades listadas acima.
 
    Se ambos os filtros estiverem ativados, a variável **Serviço de integridade da configuração do Screens** mostra o **Resultado** as **OK** com ambas as configurações ativadas.
 
@@ -93,11 +93,11 @@ Os principais pontos a seguir ajudam a configurar o e o servidor AEM para que es
 
    ![imagem](assets/config/config-1.png)
 
-1. Clique em **Salvar** para habilitar o *http* serviço.
+1. Clique em **Salvar** para habilitar o *Http* serviço.
 
 #### Habilitar a interface de toque para o AEM Screens {#enable-touch-ui-for-aem-screens}
 
-O AEM Screens exige a interface TOUCH e não funciona com a interface CLASSIC do Adobe Experience Manager (AEM).
+O AEM Screens exige a interface TOUCH e não funciona com a interface clássica do Adobe Experience Manager (AEM).
 
 1. Navegue até `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
 1. Certifique-se de que o **Modo de interface de usuário de criação padrão** está definida como **TOQUE**, conforme mostrado na figura abaixo
@@ -116,7 +116,7 @@ A execução do AEM na produção usa o **NOSAMPLECONTENT** modo de execução. 
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
-Isso é necessário para que o AEM Screens Player reproduza canais online.
+Essa remoção é necessária para que o AEM Screens Player reproduza canais online.
 
 #### Restrições de senha {#password-restrictions}
 

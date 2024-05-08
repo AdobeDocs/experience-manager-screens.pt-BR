@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -25,7 +25,7 @@ A página a seguir fornece as diretrizes para configurar o Dispatcher para um pr
 >Se não houver um Dispatcher, desative o servlet de registro na lista de componentes OSGi.
 
 Antes de configurar o Dispatcher para um projeto do AEM Screens, tenha conhecimento prévio do Dispatcher.
-Consulte [Configuração do Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) para obter mais detalhes.
+Consulte [Configuração do Dispatcher](https://experienceleague.adobe.com/br/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) para obter mais detalhes.
 
 ## Configuração do Dispatcher para Versão de Manifesto v2 {#configuring-dispatcher}
 
@@ -231,7 +231,7 @@ Isso permite o armazenamento em cache de até dez níveis do docroot do cache e 
 
 ### Adicionar regra de invalidação para segments.js {#invalidsegmentjs}
 
-Se você estiver usando campanhas direcionadas com o AEM Screens, a variável `segments.js file` distribuído pelo Dispatcher deve ser invalidado, à medida que você adiciona e publica novos segmentos no AEM. Sem essa regra de invalidação, as novas campanhas direcionadas não funcionam no reprodutor do AEM Screens (em vez disso, ele mostra o conteúdo padrão).
+Se você estiver usando campanhas direcionadas com o AEM Screens, a variável `segments.js file` distribuído pelo Dispatcher deve ser invalidado, à medida que você adiciona e publica novos segmentos no AEM. Sem essa regra de invalidação, as novas campanhas direcionadas não funcionarão no AEM Screens Player (ele mostra o conteúdo padrão).
 
 * Adicionar uma regra de invalidação a `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Esta é a regra a ser adicionada:
 

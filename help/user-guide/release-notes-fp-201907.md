@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
@@ -33,9 +33,10 @@ A data de lançamento do Pacote de recursos 2019 do AEM Screens é 31 de julho d
 
 * **O acionador de dados direciona a alteração de ativos em um canal do AEM Screens**
 
-O reprodutor muda para um canal mostrando as informações de emergência ao receber um evento acionado pelo sistema de emergência. O canal é reproduzido exclusivamente até que a situação de emergência acabe.
+O reprodutor muda para um canal que mostra informações de emergência. O sistema de emergência envia essas informações quando recebe um evento. O canal é reproduzido exclusivamente até que a situação de emergência acabe.
 
-Consulte [Canal de emergência](emergency-channel.md) Caso de uso para implementação.
+
+Consulte [Canal de emergência](emergency-channel.md) caso de uso para implementação.
 
 * **Direcionamento ativado para componentes assíncronos
 
@@ -74,4 +75,4 @@ Os seguintes players do AEM Screens são lançados para AEM 6.4.5 Feature Pack 5
 
 #### Downloads do AEM Screens Player
 
-Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte [Downloads do AEM Screens Player](https://download.macromedia.com/screens/).
+Para baixar o AEM Screens Player mais recente e saber mais sobre as correções de erros, consulte [Downloads do AEM Screens Player](https://download.macromedia.com/screens/).

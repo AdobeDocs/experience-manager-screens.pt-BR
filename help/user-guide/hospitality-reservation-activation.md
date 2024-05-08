@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -23,7 +23,7 @@ O caso de uso a seguir demonstra o uso da ativação de reservas hospitalares co
 
 ## Descrição {#description}
 
-Para este caso de uso, a folha do Google é preenchida com porcentagem de reservas em dois restaurantes **`Restaurant1`** e **`Restaurant2`**. Uma fórmula é aplicada com base em valores de `Restaurant1` e `Restaurant2` e com base na fórmula, o valor 1 ou 2 é atribuído ao **AdTarget** Coluna.
+Para este caso de uso, a Folha do Google é preenchida com porcentagem de reservas em dois restaurantes **`Restaurant1`** e **`Restaurant2`**. Uma fórmula é aplicada com base em valores de `Restaurant1` e `Restaurant2` e com base na fórmula, o valor 1 ou 2 é atribuído ao **AdTarget** Coluna.
 
 Se o valor de **`Restaurant1`** > **`Restaurant2`**, depois **AdTarget** é valor atribuído **1** caso contrário **AdTarget** é valor atribuído **2**. O valor 1 gera *Comida de bife* opção e o Valor dois resultam na exibição de *Comida tailandesa* na tela.
 

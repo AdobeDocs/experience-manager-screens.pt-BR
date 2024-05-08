@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Configuração da reprodução de vídeo e solução de problemas {#video-playback-configuration-and-troubleshooting}
 
-Ao carregar um vídeo no DAM e adicioná-lo ao seu canal, você pode encontrar problemas em que o vídeo pode não ser reproduzido no reprodutor do AEM Screens.
+Ao carregar um vídeo no DAM e adicioná-lo ao seu canal, você pode encontrar problemas em que o vídeo pode não ser reproduzido no AEM Screens Player.
 
 As seções a seguir descrevem como depurar e solucionar problemas de reprodução de vídeo no seu canal.
 
@@ -102,7 +102,7 @@ Para usar um fluxo de trabalho DAM para criar representações FullHD, faça o s
 
 #### Troubleshooting do Sinalizador de Política de Reprodução Automática {#troubleshooting-autoplay-policy-flag}
 
-Caso o reprodutor do AEM Screens pegue o vídeo, mas não o exiba, solucione o problema no sinalizador de Política de reprodução automática.
+Caso o AEM Screens Player pegue o vídeo, mas não o exiba, solucione o problema do sinalizador de Política de reprodução automática.
 
 Siga as etapas abaixo para solucionar o problema do sinalizador de política de reprodução automática do Google:
 

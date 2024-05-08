@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '389'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 O AEM Screens lançou o AEM 6.5 Feature Pack 7.
 
-Baixe o pacote de recursos mais recente do AEM Screens 6.5.7 na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até **Adobe Experience Manager** e pesquisar **Screens** para obter o pacote de recursos mais recente intitulado como **AEM 6.5 Screens FP7**.
+Baixe o Feature Pack mais recente do AEM Screens 6.5.7 na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente denominado como **AEM 6.5 Screens FP7**.
 
 ## Data de lançamento {#release-date}
 
@@ -38,7 +38,7 @@ A data de lançamento do Pacote de recursos do AEM Screens 202103 é 5 de março
 
 * **Provisionamento em massa do Android™ Player usando o Enterprise Mobility Management**
 
-  Ao implantar o reprodutor Android™ em massa, é entediante registrar manualmente cada reprodutor com AEM. É altamente recomendável usar uma solução de EMM (Enterprise Mobility Management, Gerenciamento de mobilidade corporativa) como `VMWare Airwatch`, `MobileIron`ou `Samsung Knox` para provisionar e gerenciar remotamente a implantação. O AEM Screens Android™ player oferece suporte ao EMM AppConfig padrão do setor para permitir o provisionamento remoto.
+  Ao implantar o Android™ player em massa, é entediante registrar cada player manualmente com AEM. É altamente recomendável usar uma solução de EMM (Enterprise Mobility Management, Gerenciamento de mobilidade corporativa) como `VMWare Airwatch`, `MobileIron`ou `Samsung Knox` para provisionar e gerenciar a implantação remotamente. O AEM Screens Android™ player oferece suporte ao EMM AppConfig padrão do setor para permitir o provisionamento remoto.
 
   Consulte [Provisionamento em massa do Android™ Player usando o Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) para obter mais detalhes.
 
@@ -57,9 +57,9 @@ A data de lançamento do Pacote de recursos do AEM Screens 202103 é 5 de março
 
 * A atualização do conteúdo offline falhava com exceções de consulta.
 
-* O atraso entre as transições durante a interação na experiência interativa agora é corrigido.
+* O atraso entre as transições durante a interação em uma experiência interativa agora é corrigido.
 
-* Falha na solicitação de atualização de configuração, causando a tela em branco.
+* Uma solicitação de atualização de configuração com falha causou telas em branco.
 
 ### Players do AEM Screens lançados
 
@@ -71,4 +71,4 @@ Os seguintes players de AEM Screens são lançados para AEM 6.5 Feature Pack 7:
 
 #### Downloads do AEM Screens Player
 
-Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Para baixar o AEM Screens Player mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

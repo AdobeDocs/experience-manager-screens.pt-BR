@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '912'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 O AEM Screens lançou o AEM 6.5 Feature Pack 9.
 
-Baixe o pacote de recursos mais recente do AEM Screens 6.5.9 na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até **Adobe Experience Manager** e pesquisar **Screens** para obter o pacote de recursos mais recente intitulado como **AEM 6.5 Screens FP9**.
+Baixe o Feature Pack mais recente do AEM Screens 6.5.9 na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente denominado como **AEM 6.5 Screens FP9**.
 
 ## Data de lançamento {#release-date}
 
@@ -31,7 +31,7 @@ A data de lançamento do Pacote de recursos do AEM Screens 202109 é 23 de setem
 
 * **Suporte a miniaturas para vídeos**
 
-  O Suporte a miniaturas para vídeos agora é compatível com o AEM Screens. Um autor de conteúdo define uma miniatura de vídeos para que a imagem seja usada como um espaço reservado. Eles também testam adequadamente a reprodução e o direcionamento do conteúdo, enquanto o vídeo real é finalizado pela equipe apropriada. A imagem também pode ser usada caso a reprodução do vídeo falhe.
+  O Suporte a miniaturas para vídeos agora é compatível com o AEM Screens. Um Autor de conteúdo define uma miniatura de vídeos para que a imagem seja usada como um espaço reservado. Eles também testam adequadamente a reprodução e o direcionamento do conteúdo, enquanto a equipe apropriada finaliza o vídeo real. A imagem também pode ser usada caso a reprodução do vídeo falhe.
 Consulte [Suporte a miniaturas para vídeos](/help/user-guide/thumbnail-support.md) para obter mais detalhes.
 
 * **Monitoramento básico de reprodução**
@@ -41,12 +41,12 @@ Consulte [Monitoramento básico de reprodução](https://experienceleague.adobe.
 
 * **Atualizações no Relatório de atribuição de conteúdo**
 
-  O Relatório de atribuição de conteúdo agora está otimizado e aprimorado com experiência aprimorada do usuário. O relatório baixável exibe entidades aprimoradas relacionadas ao player, como locais, exibições e dispositivos em uma guia da planilha, e as informações do provedor de conteúdo, como canais e ativos em outra guia.
+  O Relatório de atribuição de conteúdo agora está otimizado e aprimorado com uma experiência aprimorada do usuário. O relatório baixável exibe entidades melhoradas relacionadas ao player. Essas entidades incluem locais, exibições e dispositivos em uma guia da planilha. Também inclui as informações do provedor de conteúdo, como canais e ativos em outra guia.
 Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assignment-report.md) para obter mais detalhes.
 
 * **Representações adaptáveis**
 
-  As representações adaptáveis permitem que os dispositivos cliquem automaticamente na melhor representação de um dispositivo com base em regras definidas pelo cliente.
+  As representações adaptáveis permitem que o dispositivo clique na melhor representação automaticamente para um dispositivo com base em regras definidas pelo cliente.
 
   Como um Desenvolvedor do AEM Screens, agora você pode configurar representações de ativos específicas do dispositivo para serem baixadas e reproduzidas automaticamente sem precisar criar todas as variações de conteúdo manualmente. Consulte [Representações adaptáveis: visão geral e configurações da arquitetura](/help/user-guide/adaptive-renditions.md) para obter mais detalhes.
 
@@ -74,7 +74,7 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
 
    * Atualize o Dispatcher.
 
-   * Atualizar componente personalizado.
+   * Atualize o componente personalizado.
 
 
    * Consulte [Configuração do Dispatcher para Versão de Manifesto v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obter mais detalhes.
@@ -97,7 +97,7 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
 
 * Transformou o mapeamento em uma lista de chaves de representação.
 
-* Remoção do acesso ao `cmd.exe` e `reg.exe` no windows player.
+* Remoção do acesso ao `cmd.exe` e `reg.exe` no Windows Player.
 
 * Um reprodutor deve relatar seu último evento de reprodução bem-sucedido.
 
@@ -109,7 +109,7 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
 
 * A remoção da atribuição de canal da exibição não é refletida no reprodutor.
 
-* Se o player for recarregado enquanto a atualização do canal estiver sendo baixada, o player ignorará a atualização.
+* Se o reprodutor for recarregado enquanto a atualização do canal estiver sendo baixada, o reprodutor ignorará a atualização.
 
 * O componente de Página incorporado agora respeita o evento de toque.
 
@@ -124,15 +124,15 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
 
 * Modo de visualização mostrando em branco para canal de tela dividida.
 
-* As miniaturas de vídeo são renderizadas em branco com representações adaptáveis ativadas.
+* As miniaturas de vídeo são renderizadas em branco com as representações adaptáveis ativadas.
 
 * Atualizar automaticamente o manifesto do canal se a página referenciada for publicada.
 
 * Os dispositivos excluídos agora não bloqueiam a fila de replicação do Screens.
 
-* O manifesto não continha conteúdo direcionado nem páginas inseridas do Sites. Isso já foi corrigido.
+* O manifesto não continha conteúdo direcionado ou páginas inseridas do Sites. Esse erro foi corrigido.
 
-* O novo componente de imagem principal agora é adicionado ao manifesto do canal.
+* Um novo componente de imagem principal agora é adicionado ao manifesto do canal.
 
 * O download de representações otimizadas via SmartSync agora é suportado.
 
@@ -140,13 +140,13 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
 
 * Adição de suporte para vários tipos de provedor de conteúdo
 
-* A Estratégia de reprodução de sequência inserida foi interrompida e isso foi corrigido.
+* A Estratégia de reprodução de sequência integrada foi interrompida e esse erro foi corrigido.
 
 * Manifesto offline usando o parâmetro de solicitação `wcmmode` para entrada html, tornando-a não armazenável em cache.
 
 * Sequência incorporada dinâmica vazia às vezes causava tela em branco.
 
-* O player agora relata seu status de reprodução.
+* O reprodutor agora relata seu status de reprodução.
 
 * O vídeo estava sendo reproduzido em `Tiny mode` e não será reproduzido como vídeo em tela cheia no dispositivo, e o problema será corrigido agora.
 
@@ -162,4 +162,4 @@ Os seguintes players de AEM Screens são lançados para AEM 6.5 Feature Pack 9:
 
 #### Downloads do AEM Screens Player
 
-Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Para baixar o AEM Screens Player mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

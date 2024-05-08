@@ -1,25 +1,25 @@
 ---
 title: Instalar o reprodutor do Screens
-description: Saiba como instalar corretamente um AEM Screens Player.
+description: Saiba como instalar um AEM Screens Player corretamente.
 contentOwner: jsyal
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
 
 # Instalação do AEM Screens Player {#installing-player}
 
-Esta página descreve como instalar o AEM Screens player.
+Esta página descreve como instalar o AEM Screens Player.
 
 ## Player do Screens disponível {#available-players}
 
-O AEM Screens player está disponível para Android™, Chrome OS e Windows.
+O AEM Screens Player está disponível para Android™, Chrome OS e Windows.
 
 Para baixar **AEM Screens Player**, visite o [Downloads do reprodutor AEM 6.5](https://download.macromedia.com/screens/) página.
 
@@ -33,9 +33,9 @@ Para baixar **AEM Screens Player**, visite o [Downloads do reprodutor AEM 6.5](h
 
 ## Monitoramento básico de reprodução {#playback-monitoring}
 
-O reprodutor relata várias métricas de reprodução com cada `ping` que o padrão é 30 segundos. Com base nessas métricas, é possível detectar vários casos de borda, como experiência travada, tela em branco e problemas de agendamento. Isso nos permite entender e solucionar problemas no dispositivo e, portanto, agiliza uma investigação e medidas corretivas com você.
+O reprodutor relata várias métricas de reprodução com cada `ping` que o padrão é 30 segundos. Com base nessas métricas, é possível detectar vários casos de borda, como experiência travada, tela em branco e problemas de agendamento. Ele nos permite compreender e solucionar problemas no dispositivo e, portanto, agiliza uma investigação e medidas corretivas para você.
 
-O monitoramento básico da reprodução em um reprodutor AEM Screens permite:
+O monitoramento básico de reprodução em um AEM Screens Player permite que você:
 
 * Monitorar remotamente se um player estiver reproduzindo conteúdo corretamente.
 
@@ -65,15 +65,15 @@ As seguintes propriedades estão incluídas em cada `ping`:
 
 ### Limitações {#limitations}
 
-Algumas limitações do monitoramento básico de reprodução estão listadas abaixo:
+Algumas limitações para o monitoramento básico da reprodução estão listadas abaixo:
 
 * O reprodutor relata seu próprio estado de reprodução ao servidor, portanto, requer uma conexão ativa.
 
-* A variável `isContentRendering` propriedade que verifica se a GPU consome muitos recursos para ser habilitada por padrão e requer aceitação explícita das preferências do reprodutor. A Adobe recomenda que você não o use com vídeos em produção.
+* A variável `isContentRendering` que verifica se a GPU consome muito mais recursos para ser habilitada por padrão e requer a aceitação explícita das preferências do reprodutor. A Adobe recomenda que você não o use com vídeos em produção.
 
 * Esse recurso é compatível apenas com canais de sequência e ainda não abrange o caso de uso de canais interativos (SPA).
 
-* As métricas ainda não estão totalmente expostas aos clientes. O Adobe está trabalhando para ativar mecanismos de alerta e geração de relatórios semelhantes a painéis em breve.
+* As métricas ainda não estão totalmente expostas aos clientes, mas o Adobe está trabalhando para ativar mecanismos de geração de relatórios e alerta semelhantes a painéis em breve.
 
 ### Outros recursos {#additional-resources}
 

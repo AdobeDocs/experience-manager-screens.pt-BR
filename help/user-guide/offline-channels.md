@@ -1,6 +1,6 @@
 ---
 title: Canais offline
-description: Saiba mais sobre como o AEM Screens player oferece suporte offline para canais usando a tecnologia ContentSync.
+description: Saiba mais sobre como o AEM Screens Player fornece suporte offline para canais usando a tecnologia ContentSync.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%

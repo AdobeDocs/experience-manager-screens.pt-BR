@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '326'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 A AEM Screens lançou o AEM 6.5 Feature Pack 10.
 
-Baixe o pacote de recursos mais recente do AEM Screens 6.5.10 na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até **Adobe Experience Manager** e pesquisar **Screens** para obter o pacote de recursos mais recente intitulado como **AEM 6.5 Screens FP10**.
+Você pode baixar o Feature Pack mais recente para a versão AEM Screens 6.5.10 da [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente denominado como **AEM 6.5 Screens FP10**.
 
 ## Data de lançamento {#release-date}
 
@@ -37,7 +37,7 @@ A data de lançamento do Pacote de recursos do AEM Screens 202112 é 12 de janei
 
 * Corrigir erros de download simultâneos no SmartSync
 
-* Como desenvolvedor, visualize as representações de ativos que você deseja listar somente como entradas de representação em ativos correspondentes no manifesto para garantir a extensibilidade, a clareza e a facilidade de manipulação do manifesto.
+* Como desenvolvedor, visualize as representações de ativos que você deseja listar somente como entradas de representação nos ativos correspondentes no manifesto. Isso garante a extensibilidade, a clareza e a facilidade do manuseio do manifesto.
 
 ### Correções de erros {#bug-fixes}
 
@@ -45,11 +45,11 @@ A data de lançamento do Pacote de recursos do AEM Screens 202112 é 12 de janei
 
 * Coletar registros do player no local e analisá-los em relação à tela preta.
 
-* O reprodutor que exibe tela em branco com canal de tela dividida agora está corrigido
+* O reprodutor que exibe uma tela em branco com um canal de tela dividida agora está corrigido
 
-* Corrigidos os documentos do manipulador personalizado ao adicionar o pacote principal no Maven público.
+* Corrigidos os documentos do manipulador personalizado ao adicionar um pacote principal no Maven público.
 
-* O player não estava atualizando a versão do firmware após a atualização. Isso foi corrigido.
+* O player não estava atualizando a versão do firmware após a atualização. Esse erro foi corrigido.
 
 * A visualização da exibição está paralisada na configuração anterior do reprodutor.
 
@@ -69,4 +69,4 @@ Os seguintes players de AEM Screens são lançados para AEM 6.5 Feature Pack 10:
 
 #### Downloads do AEM Screens Player
 
-Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Para baixar o AEM Screens Player mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

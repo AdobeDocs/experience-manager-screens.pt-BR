@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Antes de começar com servidores de criação e servidores de publicação, voc�
 
 A arquitetura do AEM Screens se assemelha a uma arquitetura AEM Sites tradicional. O conteúdo é criado em uma instância de autor do AEM e, em seguida, replicado para várias instâncias de publicação. Os dispositivos no AEM Screens agora podem se conectar a um farm de publicação AEM por meio do balanceador de carga. Várias instâncias de publicação do AEM podem ser adicionadas para continuar a dimensionar o farm de publicação.
 
-*Por exemplo*, um autor de conteúdo do AEM Screens emite um comando no sistema de criação para um dispositivo específico. Esse dispositivo é configurado para interagir com um farm de publicação ou um autor de conteúdo do AEM Screens que obtém informações sobre dispositivos configurados para interagir com farms de publicação.
+*Por exemplo*, um Autor de conteúdo do AEM Screens emite um comando no sistema de criação para um dispositivo específico. Esse dispositivo é configurado para interagir com um farm de publicação ou um Autor de conteúdo do AEM Screens que obtém informações sobre dispositivos configurados para interagir com farms de publicação.
 
 O diagrama a seguir ilustra o ambiente de criação e o ambiente de publicação.
 

@@ -2,7 +2,7 @@
 title: Configuração de instâncias de Autor e Publicação no AEM Screens
 description: Saiba como configurar uma instância do Autor e uma instância de Publicação para o AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1923'
 ht-degree: 0%
@@ -220,7 +220,7 @@ Depois de configurar a topologia de publicação, configure as instâncias Autor
 
 >[!NOTE]
 >
->É possível abrir um reprodutor do AEM Screens usando o aplicativo AEM Screens baixado ou o navegador da Web.
+>É possível abrir um AEM Screens Player usando o aplicativo AEM Screens baixado ou o navegador da Web.
 
 #### Etapa 2: Registrar um dispositivo no autor {#step-registering-a-device-on-author}
 
@@ -264,7 +264,7 @@ Você também pode ativar o dispositivo no Console de Gerenciamento de Dispositi
 
 >[!NOTE]
 >
->Como alternativa, após ativar o dispositivo, você também pode editar ou atualizar o URL do servidor. Clique em **Editar URL do servidor** na barra de ação, como mostrado na figura abaixo, suas alterações se propagam para o AEM Screens player.
+>Como alternativa, após ativar o dispositivo, você também pode editar ou atualizar o URL do servidor. Clique em **Editar URL do servidor** na barra de ação, como mostrado na figura abaixo, suas alterações se propagam para o AEM Screens Player.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -286,23 +286,23 @@ Siga as etapas abaixo para verificar o comportamento de criação e publicação
 1. Executar **Gerenciar publicação** para publicar novas alterações em todas as instâncias de Publicação.
 1. Pressione **Ativar** para ativar o dispositivo de **Gerenciador de dispositivos**.
 1. **Editar URL** do URL da instância do autor para um dos URL das instâncias de publicação.
-1. Verifique se o conteúdo do canal atualizado é exibido no reprodutor do AEM Screens.
+1. Verifique se o conteúdo do canal atualizado é exibido no AEM Screens Player.
 1. Repita essas etapas usando uma instância de publicação diferente.
 
 
 #### Etapa 5: apontar a instância do dispositivo para publicar no Painel de administração {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. Exiba a interface do administrador no reprodutor do Screens e pressione por muito tempo o canto superior esquerdo para abrir o menu Administrador, no reprodutor do AEM Screens habilitado para toque ou usando o mouse.
+1. Exiba a interface do administrador no reprodutor do Screens e pressione por muito tempo o canto superior esquerdo para abrir o menu Administrador, no AEM Screens Player habilitado para toque ou usando o mouse.
 1. Clique em **Configuração** no painel lateral.
 1. Alterar instância do autor para Publicar instância no **Servidor**.
 
-Visualize as alterações no seu reprodutor do AEM Screens.
+Visualizar as alterações no AEM Screens Player.
 
 Como alternativa, você também pode atualizar/editar o URL do servidor no console de gerenciamento de dispositivos usando as seguintes etapas:
 
 1. Navegue até o projeto do AEM Screens e clique no **Dispositivos** pasta.
 1. Clique em **Gerenciador de dispositivos** na barra de ações.
-1. Clique no dispositivo e clique em **Editar URL do servidor** na barra de ação, como mostrado na figura abaixo, e suas alterações serão propagadas para o reprodutor do AEM Screens.
+1. Clique no dispositivo e clique em **Editar URL do servidor** na barra de ação, como mostrado na figura abaixo, e suas alterações serão propagadas para o AEM Screens Player.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 

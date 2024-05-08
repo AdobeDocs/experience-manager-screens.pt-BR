@@ -2,9 +2,9 @@
 title: Visão geral e configurações da arquitetura de representações adaptáveis
 description: Saiba mais sobre a visão geral da arquitetura e as configurações no CRXDE Lite para representações adaptáveis no AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '620'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 ## Introdução {#introduction}
 
-As representações adaptáveis permitem que os dispositivos cliquem automaticamente na melhor representação de um dispositivo com base em regras definidas pelo cliente. Os dispositivos baixam e reproduzem automaticamente a representação mais apropriada de um ativo com base nessas regras, permitindo que os clientes se concentrem apenas no design do *main* experiência.
+As representações adaptáveis permitem que os dispositivos cliquem na melhor representação automaticamente para um dispositivo com base em regras definidas pelo cliente. Os dispositivos baixam e reproduzem automaticamente a representação mais apropriada de um ativo com base nessas regras, permitindo que os clientes se concentrem em projetar a *main* somente experiência.
 
 ## Objetivo {#objective}
 
@@ -41,7 +41,7 @@ Siga as etapas abaixo para configurar a configuração:
    >![imagem](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Se você instalou o Feature Pack 202109 mais recente, **mapeamento de representação** estrutura de nó pré-preenchida em `/conf/screens/sling:configs/rendition-mapping` em CRXDE Lite. Consulte [Notas de versão do Pacote de recursos 202109](/help/user-guide/release-notes-fp-202109.md) para obter detalhes sobre o pacote de recursos mais recente.
+   >Se você instalou o Feature Pack 202109 mais recente, **mapeamento de representação** estrutura de nó pré-preenchida em `/conf/screens/sling:configs/rendition-mapping` em CRXDE Lite. Consulte [Notas de versão do Pacote de recursos 202109](/help/user-guide/release-notes-fp-202109.md) para obter detalhes sobre o Feature Pack mais recente.
    >Para projetos existentes, verifique se o projeto do Screens tem a **mapeamento de representação** configuração associada. Consulte [Adicionar mapeamento de representação a um projeto existente](#rendition-mapping-existing) para obter mais informações.
 
 ### Adicionar a propriedade de mapeamento de representação a um projeto existente {#rendition-mapping-existing}
@@ -72,7 +72,7 @@ Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
    >[!NOTE]
    >Consulte [Uso da sintaxe de consulta de mídia](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) para saber mais.
 
-   Clique em **regra1** que você criou e insira **expressão** in **Nome** e **(orientação:paisagem)** in **Valor**, conforme mostrado abaixo. Clique em **Adicionar**.
+   Clique em **regra1** que você criou e insira o **expressão** in **Nome** e **(orientação:paisagem)** in **Valor**, conforme mostrado abaixo. Clique em **Adicionar**.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,7 +81,7 @@ Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
    >[!NOTE]
    >O valor definido na propriedade pattern corresponde à nova representação do ativo e é selecionado se a expressão for avaliada como verdadeira.
 
-   Para adicionar a propriedade do padrão, clique em **regra1** que você criou e insira **padrão** in **Nome** e **paisagem** in **Valor**, conforme mostrado abaixo. Clique em **Adicionar**.
+   Para adicionar a propriedade do padrão, clique em **regra1** que você criou e insira o **padrão** in **Nome** e **paisagem** in **Valor**, conforme mostrado abaixo. Clique em **Adicionar**.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
@@ -91,4 +91,4 @@ Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
 
 ## Próximas etapas {#next-steps}
 
-Depois de adicionar propriedades e regras de mapeamento de representação, como um Autor de conteúdo, você pode configurar os ativos. Para fazer isso, use as representações adaptáveis e migre seus dispositivos para redes grandes para usar esse recurso em seus canais do AEM Screens. Consulte [Uso de representações adaptáveis no AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obter mais informações.
+Depois de adicionar propriedades e regras de mapeamento de representação, como um Autor de conteúdo, você pode configurar os ativos. Você pode usar Representações adaptáveis e também migrar seus dispositivos para redes grandes para usar esse recurso em seus canais do AEM Screens. Consulte [Uso de representações adaptáveis no AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obter mais informações.

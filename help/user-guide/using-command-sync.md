@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -91,7 +91,7 @@ Antes de usar o recurso de sincronização de comando, verifique se você tem um
 ### Configurar um principal {#setting-up-primary}
 
 1. Navegue até o painel de exibição em **CommandSyncDemo** > **Localizações**  > **Lobby** > **ExibiçãoLobby** e clique em **Painel** na barra de ações.
-Observe os dois dispositivos (chrome e windows player) em **DISPOSITIVOS** painel, conforme a seguir:
+Observe os dois dispositivos (Chrome e Windows Player) em **DISPOSITIVOS** painel, conforme a seguir:
    ![image1](assets/command-sync/command-sync10-1.png)
 
 1. No **DISPOSITIVOS** clique no dispositivo que deseja definir como principal. O exemplo a seguir demonstra como configurar o dispositivo Chrome como o principal. Clique em **Definir como dispositivo principal**.
@@ -109,7 +109,7 @@ Observe os dois dispositivos (chrome e windows player) em **DISPOSITIVOS** paine
 ### Sincronização com o Principal {#sync-up-primary}
 
 1. Depois de definir o dispositivo Chrome como principal, sincronize o outro dispositivo (neste caso, o Windows Player) com o principal.
-Clique no outro dispositivo (nesse caso, windows player) na **DISPOSITIVOS** e clique em **Sincronizar com o dispositivo principal**.
+Clique no outro dispositivo (neste caso, Windows Player) na **DISPOSITIVOS** e clique em **Sincronizar com o dispositivo principal**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
@@ -118,7 +118,7 @@ Clique no outro dispositivo (nesse caso, windows player) na **DISPOSITIVOS** e c
    >[NOTA:]
    > A variável **Sincronizar com o dispositivo principal** mostra a lista de dispositivos primários. Selecione o preferido.
 
-1. Quando o dispositivo (Windows player) é sincronizado com o principal (Chrome player), você pode ver o dispositivo sincronizado na **DISPOSITIVOS** painel.
+1. Quando o dispositivo (Windows Player) está sincronizado com o principal (Chrome Player), você pode ver o dispositivo sincronizado na **DISPOSITIVOS** painel.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 

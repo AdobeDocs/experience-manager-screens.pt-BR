@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '287'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 O AEM Screens lançou o AEM 6.5 Feature Pack 6.
 
-Baixe o pacote de recursos mais recente do AEM Screens 6.5.6 na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até **Adobe Experience Manager** e pesquisar **Screens** para obter o pacote de recursos mais recente intitulado como **AEM 6.5 Screens FP6**.
+Baixe o Feature Pack mais recente do AEM Screens 6.5.6 na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente denominado como **AEM 6.5 Screens FP6**.
 
 ## Data de lançamento {#release-date}
 
@@ -37,12 +37,12 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
 
 * **Tizen Player**
 
-  Um novo player chamado de Tizen player foi introduzido com o pacote de recursos mais recente da versão AEM Screens 6.5.6.
+  Um novo player chamado de Tizen player foi introduzido com o Pacote de recursos mais recente da versão AEM Screens 6.5.6.
 Consulte [Implementação do reprodutor de tize](/help/user-guide/tizen-player.md) para obter mais detalhes.
 
 * **Funcionalidade de pesquisa no Gerenciador de dispositivos**
 
-  Uma nova funcionalidade de pesquisa agora está disponível na interface do usuário do Gerenciador de dispositivos com o pacote de recursos mais recente da versão AEM Screens 6.5.6.
+  Uma nova funcionalidade de pesquisa agora está disponível na interface do usuário do Gerenciador de dispositivos com o Pacote de recursos mais recente da versão AEM Screens 6.5.6.
 Consulte [Pesquisando um dispositivo no Gerenciador de dispositivos](/help/user-guide/device-registration.md#search-device) para obter mais detalhes.
 
 * **Intervalo de ping padrão**
@@ -61,4 +61,4 @@ Os seguintes players de AEM Screens são lançados para AEM 6.5 Feature Pack 6:
 
 #### Downloads do AEM Screens Player
 
-Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Para baixar o AEM Screens Player mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

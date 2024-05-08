@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '400'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 O AEM Screens lançou o AEM 6.5 Feature Pack 8.
 
-Baixe o pacote de recursos mais recente do AEM Screens 6.5.8 na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até **Adobe Experience Manager** e pesquisar **Screens** para obter o pacote de recursos mais recente intitulado como **AEM 6.5 Screens FP8**.
+Baixe o Feature Pack mais recente do AEM Screens versão 6.5.8 em [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente denominado como **AEM 6.5 Screens FP8**.
 
 >[!IMPORTANT]
 >Instale a versão mínima do AEM 6.5 Feature Pack 8 para o conector AMS para funcionar após instalar os pacotes `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16`, e o `screens core bundles`.
@@ -34,7 +34,7 @@ A data de lançamento do Pacote de recursos 202105 do AEM Screens é 4 de junho 
 
 * **Bloquear página em um canal do AEM Screens**
 
-  O AEM Screens agora oferece suporte *Bloquear uma página*, já implementado no AEM Sites. O Adobe Experience Manager (AEM) permite bloquear uma página, de modo que ninguém mais possa modificar o conteúdo. Isso é útil quando você está fazendo várias edições em uma página específica ou quando precisa congelar uma página por pouco tempo.
+  O AEM Screens agora oferece suporte *Bloquear uma página*, já implementado no AEM Sites. O Adobe Experience Manager (AEM) permite bloquear uma página, de modo que ninguém mais possa editar o conteúdo. Esse recurso é útil ao fazer várias edições em uma página específica ou quando é necessário congelar uma página por pouco tempo.
 
 * **Nomeação do dispositivo AEM Screens Player**
 
@@ -54,8 +54,8 @@ Por padrão, quando o registro em massa é usado para registrar um dispositivo, 
 
 ### Correções de erros {#bug-fixes}
 
-* O player exibia uma tela preta ao alternar para um canal que contém a sequência incorporada dinâmica.
-* Os reprodutores do Screens agora bloqueiam a alternância para qualquer canal corrompido que evita ainda mais o erro 404 ou uma página com uma mensagem de erro.
+* O reprodutor exibia uma tela preta ao alternar para um canal contendo uma sequência incorporada dinâmica.
+* Os reprodutores do Screens agora bloqueiam a alternância para qualquer canal corrompido que evita ainda mais um erro 404 ou uma página com uma mensagem de erro.
 
 ### Players do AEM Screens lançados
 
@@ -69,4 +69,4 @@ Os seguintes players de AEM Screens são lançados para AEM 6.5 Feature Pack 8:
 
 #### Downloads do AEM Screens Player
 
-Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Para baixar o AEM Screens Player mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

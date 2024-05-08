@@ -5,7 +5,7 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 1%
@@ -224,11 +224,11 @@ Siga as etapas abaixo para clicar em vários ativos e agendar sua exibição em 
 
 ## Substituição Global Para Hora De Início Universal {#global-override-scheduling}
 
-***Substituição global para hora de início universal***, é uma configuração que permite que o autor de conteúdo defina a reprodução de uma imagem ou de um ativo de vídeo com base em um momento específico. A configuração de hora/fuso horário de qualquer player individual não é usada.
+***Substituição global para hora de início universal***, é uma configuração que permite ao Autor de conteúdo definir a reprodução de uma imagem ou de um ativo de vídeo com base em um momento específico. A configuração de hora/fuso horário de qualquer player individual não é usada.
 
 Normalmente, a reprodução é determinada pela hora local de qualquer player, mas com a substituição global, uma hora de início específica e universal pode ser usada para iniciar a reprodução do ativo.
 
-Isso permite que o autor de conteúdo designe a reprodução de um ativo específico como ocorrendo em uma data/hora específica, independentemente do relógio local em todos os players com o conteúdo atribuído.
+Isso permite que o Autor de conteúdo designe a reprodução de um ativo específico como ocorrendo em uma data/hora específica, independentemente do relógio local em todos os players com o conteúdo atribuído.
 
 A Substituição Global para Horário de Início Universal é feita configurando o **Ativação** ao acessar as propriedades de um ativo. Siga as etapas abaixo para executar uma Sobreposição Global para a programação de ativos:
 

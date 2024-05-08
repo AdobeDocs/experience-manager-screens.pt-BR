@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 2%
@@ -76,7 +76,7 @@ A prioridade é usada para ordenar as atribuições caso várias correspondam ao
 >
 > Essa opção só está disponível com <!--AEM 6.4 Feature Pack 8 or -->Pacote de recursos 4 do AEM 6.5.
 
-Como autor de conteúdo, especifique quando um canal é interrompido para que você possa optar por cortar conteúdo não crítico, mas, opcionalmente, permitir que conteúdo importante seja reproduzido antes de interromper sua reprodução por causa do agendamento.
+Como um Autor de conteúdo, especifique quando um canal é interrompido para que você possa optar por cortar conteúdo não crítico, mas, opcionalmente, permitir que conteúdo importante seja reproduzido antes de interromper sua reprodução por causa do agendamento.
 
 Clique em uma das seguintes opções disponíveis para definir o método de interrupção no **Atribuição de canal** caixa de diálogo:
 

@@ -1,7 +1,7 @@
 ---
 title: Diretrizes de seleção de hardware para dispositivos reprodutores
-description: Saiba mais sobre as diretrizes de seleção de hardware para dispositivos AEM Screens player.
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+description: Saiba mais sobre as diretrizes de seleção de hardware para dispositivos AEM Screens Player.
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 3%
@@ -11,7 +11,7 @@ ht-degree: 3%
 
 # Diretrizes de seleção de hardware para o dispositivo player {#hardware-selection}
 
-A seção a seguir fornece as diretrizes de seleção de hardware para um reprodutor do AEM Screens.
+A seção a seguir fornece as diretrizes de seleção de hardware para um AEM Screens Player.
 
 ## Considerações importantes {#important-considerations}
 

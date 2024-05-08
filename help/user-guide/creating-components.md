@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 4d673039-4963-458a-89e9-023a993dd354
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 3%
@@ -26,7 +26,7 @@ Os componentes do AEM são usados para reter, formatar e renderizar o conteúdo 
 
 ## Criação de canais {#authoring-channels}
 
-O canal é o objeto central do conteúdo entregue a um conjunto de exibições. Portanto, um autor de conteúdo normalmente abriria um canal no editor para adicionar ou modificar conteúdo. Porque o Canal é um ***`cq:Page`***, segue o mesmo padrão de UX tradicional para adicionar e alterar componentes no canal.
+O canal é o objeto central do conteúdo entregue a um conjunto de exibições. Portanto, um Autor de conteúdo normalmente abriria um canal no editor para adicionar ou modificar conteúdo. Porque o Canal é um ***`cq:Page`***, segue o mesmo padrão de UX tradicional para adicionar e alterar componentes no canal.
 
 No entanto, como os componentes em um canal normalmente são renderizados em tela cheia, a experiência de criação é afetada ao tentar editar componentes únicos ou compor novos pedidos. Portanto, o canal depende de seletores para renderizar diferentes visualizações dos componentes. O ambiente de criação usa o seletor de edição para ativar a renderização do canal personalizado.
 

@@ -9,9 +9,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '250'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ A data de lançamento do Pacote de recursos 2018 da AEM Screens é 1º de outubr
 * **Atualização em massa de conteúdo off-line**: permite atualizar todos os canais em massa e evita o incômodo de navegar até um canal específico e atualizar o conteúdo. Consulte [Atualização offline em massa](bulk-offline-update.md) para saber mais.
 
 * **Publicar canais em massa em todas as instâncias de publicação**
-* **Mecanismo aprimorado de registro do player**: é possível especificar o número máximo de arquivos de log para um reprodutor do AEM Screens. Consulte [Trabalhar com um reprodutor do AEM Screens](working-with-screens-player.md) para obter mais detalhes.
+* **Mecanismo aprimorado de registro do player**: é possível especificar o número máximo de arquivos de log para um AEM Screens Player. Consulte [Trabalhar com um reprodutor do AEM Screens](working-with-screens-player.md) para obter mais detalhes.
 
 * **Implantação de autor/publicação (fortalecimento)**
 
@@ -52,4 +52,4 @@ Os seguintes players do AEM Screens são lançados para AEM 6.4.2 Feature Pack 2
 
 #### Downloads do AEM Screens Player
 
-Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte [Downloads do AEM Screens Player](https://download.macromedia.com/screens/).
+Para baixar o AEM Screens Player mais recente e saber mais sobre as correções de erros, consulte [Downloads do AEM Screens Player](https://download.macromedia.com/screens/).

@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -23,7 +23,7 @@ O caso de uso a seguir demonstra o uso da ativação da temperatura local do cen
 
 ## Descrição {#description}
 
-Para este caso de uso, se o valor no Google Sheets for menor que 50, uma imagem com bebidas quentes será exibida. Se o valor for maior ou igual a 50, uma imagem com bebidas frias será exibida. Se houver algum outro valor ou nenhum valor, o reprodutor exibirá uma imagem padrão.
+Para esse caso de uso, se o valor no Google Sheets for menor que 50, uma imagem com bebidas quentes será exibida. Se o valor for maior ou igual a 50, uma imagem com bebidas frias será exibida. Se houver algum outro valor ou nenhum valor, o reprodutor exibirá uma imagem padrão.
 
 ## Pré-condições {#preconditions}
 

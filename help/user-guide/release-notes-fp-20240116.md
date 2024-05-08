@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b26ed2de-2e47-4dd5-be1c-4c46971e9f6d
-source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '154'
 ht-degree: 5%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 5%
 # Notas de versão do Pacote de recursos 20240116 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->A Adobe recomenda que você atualize para a versão mais recente do 6.5 Adobe Experience Manager (AEM 6.5). Você pode obter as informações da versão mais recente de [aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/release-notes/release-notes)
+>A Adobe recomenda que você atualize para a versão mais recente do 6.5 Adobe Experience Manager (AEM 6.5). Você pode obter as informações da versão mais recente de [aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/release-notes/release-notes).
 
 ## Disponibilidade {#availability}
 
 O AEM Screens lançou o AEM 6.5 Feature Pack 11.2.
 
-Baixe o pacote de recursos mais recente do AEM Screens 6.5.11.2 na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até **Adobe Experience Manager** e pesquisar **Screens** para obter o pacote de recursos mais recente intitulado como **AEM 6.5 Screens FP11.2**.
+Baixe o Feature Pack mais recente do AEM Screens 6.5.11.2 na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente denominado como **AEM 6.5 Screens FP11.2**.
 
 ## Data de lançamento {#release-date}
 
@@ -39,4 +39,4 @@ Esta versão inclui somente correções de segurança.
 
 #### Downloads do AEM Screens Player
 
-Para baixar o reprodutor AEM Screens mais recente, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Para baixar o AEM Screens Player mais recente, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

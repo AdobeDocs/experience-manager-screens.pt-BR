@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '375'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 A AEM Screens lançou o AEM 6.4 Feature Pack 8 e o AEM 6.5 Feature Pack 4.
 
-Baixe o pacote de recursos mais recente do AEM Screens 6.4.8 ou do AEM Screens 6.5.4 na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até **Adobe Experience Manager** e pesquisar **Screens** para obter o pacote de recursos mais recente.
+Baixe o Feature Pack mais recente do AEM Screens 6.4.8 ou do AEM Screens 6.5.4 na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente.
 
 ## Data de lançamento {#release-date}
 
@@ -32,13 +32,13 @@ A data de lançamento do Pacote de recursos do AEM Screens 202004 é 20 de abril
 
 * **Opções de estratégia de interrupção da reprodução**
 
-  Como autor de conteúdo, especifique quando um canal é interrompido para que você possa optar por cortar conteúdo não crítico, mas, opcionalmente, permitir que conteúdo importante seja totalmente reproduzido antes de interromper a reprodução por causa do agendamento.
+  Como um Autor de conteúdo, especifique quando um canal é interrompido. Essa ação ajuda para que você possa optar por cortar conteúdo não crítico, mas, opcionalmente, permitir que conteúdo importante seja totalmente reproduzido antes de interromper a reprodução por causa do agendamento.
 
-  Para saber mais sobre as opções disponíveis em **Atribuição de canal** para implementar esse recurso no projeto do AEM Screens, consulte a seção **[Método de interrupção](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
+  Para saber mais sobre as opções disponíveis na **Atribuição de canal** para implementar esse recurso no projeto do AEM Screens, consulte a seção **[Método de interrupção](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
 
 * **Screens Launches**
 
-  O fluxo de experiência do usuário do autor de conteúdo foi aprimorado e reduziu o número de cliques para usar a publicação futura.
+  O fluxo de experiência do usuário do Autor de conteúdo foi aprimorado e reduziu o número de cliques para usar em publicações futuras.
 
   Consulte **[Atualização de conteúdo usando o Screens Launch](launches.md)** para obter mais detalhes.
 
@@ -61,7 +61,7 @@ A data de lançamento do Pacote de recursos do AEM Screens 202004 é 20 de abril
 
 * **Melhorias na sincronização de comandos**
 
-  Com esta versão do pacote de recursos, as melhorias no atraso de sincronização de comandos entre as alterações de ativos são refletidas.
+  Com esta versão do Pacote de recursos, as melhorias no atraso de sincronização de comandos entre as alterações de ativos são refletidas.
 
   Consulte **[Sincronização de comando](using-command-sync.md)** para obter mais detalhes.
 
@@ -75,4 +75,4 @@ Os seguintes players do AEM Screens foram lançados para o AEM Screens lançado 
 
 #### Downloads do AEM Screens Player
 
-Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/)**.
+Para baixar o AEM Screens Player mais recente e saber mais sobre as correções de erros, consulte **[Downloads do AEM Screens Player](https://download.macromedia.com/screens/)**.

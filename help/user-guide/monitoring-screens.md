@@ -1,6 +1,6 @@
 ---
 title: Solução de problemas do Centro de controle de dispositivos
-description: Saiba como monitorar e solucionar problemas de desempenho da atividade do AEM Screens Player e do dispositivo usando o painel Dispositivo.
+description: Saiba como monitorar e solucionar problemas de desempenho da atividade e do dispositivo do AEM Screens Player usando o painel Dispositivo.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Você pode monitorar e solucionar problemas de desempenho da atividade e do disp
 
 ## Monitorar e solucionar problemas no Centro de controle de dispositivos {#monitor-and-troubleshoot-from-device-control-center}
 
-É possível monitorar a atividade e, portanto, solucionar problemas do reprodutor AEM Screens usando o Painel de dispositivos.
+É possível monitorar a atividade e, portanto, solucionar problemas do AEM Screens Player, usando o Painel de dispositivos.
 
 ### Painel do dispositivo {#device-dashboard}
 
@@ -49,7 +49,7 @@ Siga as etapas abaixo para navegar até o painel do dispositivo:
 
 ### Monitorar atividade do dispositivo {#monitor-device-activity}
 
-A variável **Atividade** mostra o último ping do reprodutor AEM Screens com o carimbo de data e hora. O último ping corresponde à última vez que o dispositivo entrou em contato com o servidor.
+A variável **Atividade** mostra o último ping do AEM Screens Player com o carimbo de data e hora. O último ping corresponde à última vez que o dispositivo entrou em contato com o servidor.
 
 ![chlimage_1](assets/chlimage_1.png)
 

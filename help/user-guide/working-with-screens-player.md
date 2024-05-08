@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Depois de atribuir um canal a uma exibição, o AEM Screens Player exibe o conte
 
 Habilitando o **Interface do administrador** no painel preferências permite que o usuário abra as configurações administrativas no Player do Screens. Além disso, se você desativar essa opção no painel do dispositivo, o usuário não poderá abrir a interface do administrador no reprodutor.
 
-Para exibir a interface do administrador no reprodutor do Screens, pressione o canto superior esquerdo para abrir o menu Administrador, no reprodutor AEM Screens habilitado para toque ou usando um mouse. As informações são exibidas após a conclusão do registro e do carregamento dos canais.
+Para exibir a interface do administrador no reprodutor do Screens, pressione o canto superior esquerdo para abrir o menu Admin, no AEM Screens Player habilitado para toque ou usando um mouse. As informações são exibidas após a conclusão do registro e do carregamento dos canais.
 
 >[!NOTE]
 >
@@ -66,11 +66,11 @@ O menu Configuration permite modificar as seguintes configurações:
 
 * Redefinir **Firmware**, **Preferências** ou **Para a fábrica** nesta caixa de diálogo.
 
-* Especifique o número máximo de arquivos de log que deseja manter para um player do AEM Screens no **Nº máx. de arquivos de log a serem mantidos**.
+* Especifique o número máximo de arquivos de log que deseja manter para um AEM Screens Player no **Nº máx. de arquivos de log a serem mantidos**.
 
 * Ativar ou desativar **Menu de administração**, **Alternador de canal**, e **Interface de atividade** para o reprodutor do Screens.
 
-  Se a variável **Interface de atividade** está ativado no **Configuração** , o reprodutor do AEM Screens exibe a variável *notificações de atividade do player* no canto superior direito do reprodutor, como mostrado na figura abaixo.
+  Se a variável **Interface de atividade** está ativado no **Configuração** , o AEM Screens Player exibe a variável *notificações de atividade do player* no canto superior direito do reprodutor, como mostrado na figura abaixo.
 
   ![imagem](/help/user-guide/assets/activity_ui.png)
 
@@ -84,7 +84,7 @@ O menu Configuration permite modificar as seguintes configurações:
 
 #### Acessando as Opções de Menu do Cache de Conteúdo {#content-cache-options}
 
-Você pode limpar o cache de canais e aplicativos na interface do usuário do administrador no AEM Screens Player.
+Você pode limpar o cache de canais e aplicativos na interface do usuário do Administrador no AEM Screens Player.
 
 Clique em **Cache de conteúdo** no painel lateral para que você possa atualizar o cache.
 

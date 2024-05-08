@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 2%
@@ -97,7 +97,7 @@ Quando a configuração do projeto for concluída, atribua o canal a uma exibiç
 
 Este exemplo mostra a saída em um Chrome Player. Depois de atribuir o canal à exibição, registre o dispositivo em um reprodutor.
 
-Para saber como registrar um dispositivo em um AEM Screens player, consulte [Registro do dispositivo](device-registration.md).
+Para saber como registrar um dispositivo em um AEM Screens Player, consulte [Registro do dispositivo](device-registration.md).
 
 Você pode exibir a seguinte saída ao escolher um reprodutor:
 
@@ -156,7 +156,7 @@ A prioridade é usada para ordenar as atribuições caso várias correspondam ao
 >[!IMPORTANT]
 > Essa opção só está disponível com <!--AEM 6.4 Feature Pack 8 or-->Pacote de recursos 4 do AEM 6.5.
 
-Como autor de conteúdo, você pode especificar quando um canal é interrompido. Com isso, você pode optar por cortar conteúdo não crítico. Mas também oferece a opção de permitir que conteúdo importante seja totalmente reproduzido antes de ser cortado por causa do agendamento.
+Como um Autor de conteúdo, você pode especificar quando um canal é interrompido. Com isso, você pode optar por cortar conteúdo não crítico. Mas também oferece a opção de permitir que conteúdo importante seja totalmente reproduzido antes de ser cortado por causa do agendamento.
 
 Selecione uma das seguintes opções que estão disponíveis para definir o método de interrupção no **Atribuição de canal** caixa de diálogo:
 

@@ -1,6 +1,6 @@
 ---
 title: Integração do Adobe Analytics com o AEM Screens
-description: Saiba mais sobre a integração imediata do AEM Screens com o Adobe Analytics e forneça uma prova de atividade.
+description: Saiba mais sobre a integração pronta para uso do AEM Screens com o Adobe Analytics e forneça uma prova de reprodução.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Essa funcionalidade do AEM Screens só estará disponível se você tiver instalado a versão mínima do AEM 6.4.2 Feature Pack 2 ou AEM 6.3.3 Feature Pack 4. Para clientes do AEM Screens Cloud Service, entre em contato com o Gerente de relacionamento de Adobe para ativar o Adobe Analytics na Screens Cloud.
+>Essa funcionalidade do AEM Screens só estará disponível se você tiver instalado a versão mínima do AEM 6.4.2 Feature Pack 2 ou AEM 6.3.3 Feature Pack 4. Para clientes do serviço da AEM Screens Cloud, entre em contato com o Gerente de relacionamento de Adobe para ativar o Adobe Analytics na Screens Cloud.
 
 >[!NOTE]
 >
->Para obter acesso a qualquer um desses Feature Packs, entre em contato com o Suporte do Adobe e solicite acesso. Você pode baixar o pacote de recursos mais recente para o AEM Screens na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID.
+>Para obter acesso a qualquer um desses Feature Packs, entre em contato com o Suporte do Adobe e solicite acesso. Você pode baixar o Feature Pack mais recente para o AEM Screens na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID.
 
 Esta seção abrange os seguintes tópicos:
 
@@ -45,8 +45,8 @@ Esta seção descreve a seguinte funcionalidade envolvida na conexão de um proj
 * Permite relatórios de prova de reprodução por ativo
 * Garante que todos os eventos do player sejam capturados e carimbados com data e hora
 * Garante que todos os eventos do player sejam armazenados localmente se a reprodução não estiver conectada a uma rede
-* Permite a criação de loops de comentários que rastreiam eventos de reprodução ao longo do tempo
-* Permite que o sistema modifique o conteúdo e os layouts com base nos critérios de sucesso definidos pelo autor de conteúdo
+* É possível criar loops de feedback que rastreiam eventos de reprodução ao longo do tempo
+* Permite que o sistema edite conteúdo e layouts com base nos critérios de sucesso definidos pelo Autor de conteúdo
 
 A integração do Adobe Analytics com o AEM Screens impõe o seguinte *metas*:
 
@@ -55,7 +55,7 @@ A integração do Adobe Analytics com o AEM Screens impõe o seguinte *metas*:
 
 ## Detalhes da arquitetura {#architectural-details}
 
-Um cliente do AEM Screens deseja entender qual conteúdo foi mostrado, em que momento e por quanto tempo (agregado). Esse é um recurso comum da solução de sinalização. Em vez de criar um aplicativo de análise separado, o AEM Screens usa o Adobe Analytics. A combinação nos permite alcançar algo único no mercado: a análise entre canais, que ajuda a correlacionar o conteúdo mostrado no local com outras fontes de dados.
+Um cliente do AEM Screens deseja entender qual conteúdo foi mostrado, em que momento e por quanto tempo (agregado). Essa necessidade é um recurso comum de uma solução de sinalização. Em vez de criar um aplicativo de análise separado, o AEM Screens usa o Adobe Analytics. A combinação nos permite alcançar algo único no mercado: a análise entre canais, que ajuda a correlacionar o conteúdo mostrado no local com outras fontes de dados.
 
 O diagrama de arquitetura a seguir explica a integração do Adobe Analytics com o AEM Screens:
 
@@ -119,7 +119,7 @@ A tabela a seguir destaca as propriedades e a descrição para configurar o Adob
 
 #### Utilização do serviço Adobe Analytics no AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-Esse cenário chama a API do Analytics por meio de chamadas REST de um serviço de análise no firmware. Ele também instrumenta componentes principais de telas AEM para criar e enviar eventos explicitamente específicos para um caso de uso específico. Tudo isso enquanto permite a extensibilidade, onde qualquer mensagem personalizada pode ser enviada para o Analytics a partir de um canal desenvolvido de forma personalizada.
+Esse cenário chama a API do Analytics por meio de chamadas REST de um serviço de análise no firmware. Ele também instrumenta componentes principais de telas AEM para criar e enviar eventos específicos para um caso de uso específico. Toda essa funcionalidade enquanto permite a extensibilidade, onde qualquer mensagem personalizada pode ser enviada para o Analytics a partir de um canal desenvolvido de forma personalizada.
 
 Os eventos do Analytics são armazenados offline no indexedDB e, posteriormente, fragmentados e enviados para a nuvem.
 

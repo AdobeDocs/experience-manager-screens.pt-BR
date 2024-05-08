@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '307'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 O AEM Screens lançou o AEM 6.5 Feature Pack 3.
 
-Baixe o pacote de recursos mais recente do AEM Screens 6.5.3 versão no [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até **Adobe Experience Manager** e pesquisar **Screens** para obter o pacote de recursos mais recente intitulado como **AEM 6.5 Screens FP3**.
+Você pode baixar o Feature Pack mais recente para o AEM Screens 6.5.3 versão em [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente denominado como **AEM 6.5 Screens FP3**.
 
 ## Data de lançamento {#release-date}
 
@@ -57,4 +57,4 @@ Os seguintes players de AEM Screens são lançados para AEM 6.4 Feature Pack 7 e
 
 #### Downloads do AEM Screens Player
 
-Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte [**Downloads do AEM Screens Player**](https://download.macromedia.com/screens/).
+Para baixar o AEM Screens Player mais recente e saber mais sobre as correções de erros, consulte [**Downloads do AEM Screens Player**](https://download.macromedia.com/screens/).

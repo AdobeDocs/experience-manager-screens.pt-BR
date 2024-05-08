@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ Este tópico fornece respostas para as perguntas frequentes relacionadas a um pr
 ## Problema de tela em branco {#blank-screen}
 
 >[!NOTE]
->As verificações obrigatórias listadas devem ser tentadas pelo suporte principal ou pelo suporte do cliente antes de levantar um problema.
+>As verificações obrigatórias listadas que o suporte principal ou o suporte do cliente deve tentar antes de levantar um problema.
 
 ### 1. Quais devem ser as etapas da solução de problemas de primeiros socorros para qualquer cliente que esteja diante de uma tela preta ou sem reprodução? {#troubleshooting-blank-screen}
 
 * Verifique se a visualização do canal está funcionando.
 * Verificar se a visualização está funcionando
-* Tente registrar o reprodutor como uma extensão de navegador no sistema para a mesma exibição e verifique se está funcionando.
+* Tente registrar o reprodutor como uma extensão de navegador no sistema para a mesma exibição e verifique se ele está funcionando.
 * Com o reprodutor em execução no sistema, navegue até `http://localhost:24502`. Verifique se todo o conteúdo foi baixado corretamente.
 * Verifique os ativos para garantir que as representações apropriadas sejam criadas e que a representação correta esteja sendo reproduzida.
 * Verifique se há conteúdo agendado e se os horários estão corretos. Verifique se a hora configurada no reprodutor está correta.
@@ -33,7 +33,7 @@ Este tópico fornece respostas para as perguntas frequentes relacionadas a um pr
 
 ### 2. Como resolver problemas de tela cinza no AEM Screens ao criar um canal ou agendamento padrão?
 
-Para evitar as telas em branco ou cinza no campo, crie um canal global ou agendamento padrão, atribuído a cada exibição com menos prioridade 1. Caso algo dê errado com as atualizações de conteúdo (devido a rede, reprodutor, servidor ou replicação), já que os reprodutores têm esse conteúdo em cache no disco que deve ser reproduzido corretamente e evitar as telas cinza.
+Para evitar as telas em branco ou cinza no campo, crie um canal global ou agendamento padrão, atribuído a cada exibição com menos prioridade 1. Caso algo dê errado com as atualizações de conteúdo porque os reprodutores já têm esse conteúdo em cache no disco. Ele deve ser reproduzido perfeitamente e evitar as telas cinzas.
 
 Todo o restante do conteúdo, como canais ou agendamentos, tem prioridade maior que 1, de modo que o outro conteúdo tem prioridade e o conteúdo global do canal ou agendamento (com prioridade 1) é reproduzido apenas como uma opção de fallback.
 
@@ -62,11 +62,11 @@ Para *referências dinâmicas*, a resolução ocorre quando o canal é atribuíd
 1. O local principal da exibição tem um nó secundário que corresponde ao nome do canal referenciado
 1. O local de exibição principal tem um nó secundário que corresponde ao nome do canal referenciado
 
-E assim por diante, até chegar à pasta de locais e parar lá no momento (assim, você não pode referenciar um canal que estaria na pasta de canais por exemplo, apenas canais na subárvore de locais).
+E assim por diante, até chegar à pasta de locais. Pare aí no momento (para que você não possa referenciar um canal que estaria na pasta de canais por exemplo, somente canais na subárvore de local).
 
 ### 5. Como definir a configuração personalizada clientlib offline no canal do AEM Screens?
 
-Ao usar um código personalizado criado no lado do cliente `clientlib` em um canal do AEM Screens, as seguintes etapas são necessárias para garantir que o `clientlib` os arquivos foram carregados com sucesso no canal (`manifest.json`) e contém o caminho do `clientlib`.
+Ao usar um código personalizado criado no lado do cliente `clientlib` em um canal do AEM Screens, as seguintes etapas são necessárias. As etapas garantem que a variável `clientlib` os arquivos foram carregados com sucesso no canal (`manifest.json`) e contém o caminho do `clientlib`.
 
 Siga as etapas abaixo no editor de canal:
 
@@ -77,11 +77,11 @@ Siga as etapas abaixo no editor de canal:
 
 ## Registro do dispositivo {#device-registration}
 
-### 1. Se eu descobrir endpoints como solicitações de integração e registro de dispositivos, poderei criar scripts para vários dispositivos e registrá-los. Além de bloquear em uma ramificação Wi-Fi, é possível proteger essas solicitações? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
+### 1. Se eu descobrir endpoints como solicitações de integração e registro de dispositivos, poderei criar scripts para vários dispositivos e registrá-los. Além de bloqueá-lo em uma ramificação Wi-Fi, é possível proteger essas solicitações? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
 Atualmente, o registro só é possível na instância do autor. Embora o serviço de registro não seja autenticado, ele cria apenas um dispositivo pendente no AEM e não registra o dispositivo nem atribui nenhuma exibição.
 
-Para registrar um dispositivo (criando um usuário para o dispositivo no AEM), autentique no AEM e, no momento, siga manualmente o assistente de registro para concluir o registro. Teoricamente, um usuário mal-intencionado pode criar vários dispositivos pendentes, mas não pode registrar nenhum sem um login no AEM.
+Para registrar um dispositivo (criando um usuário para o dispositivo no AEM), autentique no AEM e siga manualmente o assistente de registro para concluir o registro. Teoricamente, um usuário mal-intencionado pode criar vários dispositivos pendentes, mas não pode registrar nenhum se não tiver um logon AEM.
 
 ### 2. Há alguma maneira de transformar solicitações HTTP GET em HTTP POST com alguma forma de autenticação? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
@@ -95,23 +95,23 @@ Você não pode recusar as solicitações de registro. Em vez disso, as solicita
 
 ## Relatórios de Integridade e Monitoramento de Dispositivos {#device-monitoring-and-health-reports}
 
-### 1. Como solucionar problemas se o AEM Screens player mostrar tela em branco?
+### 1. Como solucionar problemas se o AEM Screens Player mostrar uma tela em branco?
 
 Verifique as seguintes possibilidades para solucionar o problema de tela em branco:
 
 * O AEM não consegue enviar o conteúdo off-line
 * O canal não tem conteúdo
-* Nenhum dos ativos está agendado para exibição no momento
+* Nenhum dos ativos está agendado para exibição no momento atual
 
-### 2. O que devo fazer se o AEM Screens player não puder se registrar e seu estado for exibido como Failure?
+### 2. O que devo fazer se o AEM Screens Player não puder se registrar e seu estado for exibido como Failure?
 
-Ative a permissão Vazia de filtro de referência do Apache Sling. Isso é necessário para a operação ideal do protocolo de controle entre o AEM Screens Player e o servidor do AEM Screens.
+Ative a permissão Vazia de filtro de referência do Apache Sling. Necessário para a operação ideal do protocolo de controle entre o AEM Screens Player e o servidor do AEM Screens.
 
 1. Navegue até **Configuração do console da Web do Adobe Experience Manager**
 1. Verifique a **allow.empty** opção.
 1. Clique em **Salvar**.
 
-### 3. Como solucionar problemas se, ao registrar um reprodutor AEM Screens, o dispositivo mostrar o erro FAILURE e os registros do console exibirem o erro ENAME_NOT_FOUND?
+### 3. Como solucionar problemas se, ao registrar um AEM Screens Player, o dispositivo mostrar FAILURE e os registros do console exibirem um erro ENAME_NOT_FOUND?
 
 Esse problema pode ocorrer se o reprodutor não conseguir encontrar o DNS do servidor do AEM Screens. Tente usar o endereço IP para se conectar. Para obter o IP do servidor, use: *arp &lt;server_dns_name>*.
 
@@ -129,22 +129,22 @@ Para obter mais informações sobre onde é possível monitorar a atividade do d
 
 ## Player do AEM Screens
 
-### 1. Como instalar o ChromeOS player como o plug-in do navegador Chrome? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
+### 1. Como instalar o ChromeOS player como plug-in do navegador Chrome? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
 
-O ChromeOS player pode ser instalado como plug-in do navegador Chrome no modo de desenvolvedor, sem exigir o dispositivo real do Chrome Player. Para instalação, siga as etapas abaixo:
+O ChromeOS player pode ser instalado como um plug-in do navegador Chrome no modo de desenvolvedor, sem exigir um dispositivo Chrome Player real. Para instalação, siga as etapas abaixo:
 
 1. Clique em [aqui](https://download.macromedia.com/screens/) para baixar o Chrome Player mais recente.
 1. Descompacte-o e salve-o no disco.
-1. Abra o navegador Chrome e clique **Extensões** no menu ou navegue diretamente para ***chrome://extensions***.
-1. Ligue o **Modo de desenvolvedor** do canto superior direito.
+1. Abra o navegador Chrome e clique em **Extensões** no menu ou navegue diretamente para ***chrome://extensions***.
+1. Ligue o **Modo de desenvolvedor** no canto superior direito.
 1. Clique em **Carregar desempacotado** no canto superior esquerdo e carregue o Chrome Player descompactado.
-1. Se disponível na lista de extensões, marque **AEM Screens Chrome Player** plug-in.
+1. Se disponível na lista de extensões, verifique a **AEM Screens Chrome Player** plug-in.
 1. Abra uma nova guia e clique no link **Aplicativos** no canto superior esquerdo ou navegue diretamente para ***chrome://apps***.
 1. Clique em **AEM Screens** Plug-in. Por padrão, o reprodutor é iniciado no modo de tela cheia. Pressione **Esc** para sair do modo de tela cheia.
 
-### 2. Como solucionar problemas se o reprodutor do Screens não puder se autenticar por meio da instância de publicação com o manipulador de erros personalizado?
+### 2. Como solucionar problemas se o reprodutor do Screens não puder se autenticar por meio da instância de publicação com um manipulador de erros personalizado?
 
-Quando o AEM Screens player é iniciado, ele faz uma solicitação para ***/content/screens/svc.ping.json***, quando o reprodutor recebe um erro 404. O reprodutor inicia uma solicitação de autenticação para autenticar na instância de publicação. Se houver um manipulador de erros personalizado na instância de publicação, retorne o código de status 404 para usuário anônimo em ***/content/screens/svc.ping.json***.
+Quando o AEM Screens Player é iniciado, ele faz uma solicitação para ***/content/screens/svc.ping.json***, quando o reprodutor recebe um erro 404. O reprodutor inicia uma solicitação de autenticação para autenticar na instância de publicação. Se houver um manipulador de erros personalizado na instância de publicação, retorne o código de status 404 de um usuário anônimo em ***/content/screens/svc.ping.json***.
 
 ### 3. Como definir a tela do dispositivo permanecer em um Android™ Player? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
@@ -157,13 +157,13 @@ Siga as etapas abaixo para ativar a função Permanecer acordado em qualquer pla
 
 ### 4. Como ativar o modo de janela para o Windows Player?{#enable-player}
 
-Não há modo de janela no Windows Player. É sempre o modo de tela cheia.
+Não há modo de janela no Windows Player. Está sempre no modo de tela cheia.
 
-### 5. Como solucionar problemas se um reprodutor do AEM Screens envia solicitações de logon continuamente?
+### 5. Como solucionar problemas se um AEM Screens Player envia solicitações de logon continuamente?
 
-Siga as etapas abaixo para solucionar problemas de um reprodutor do AEM Screens que envia solicitações continuamente para o `/content/screens/svc.json` e `/libs/granite/core/content/login.validate/j_security_check`:
+Siga as etapas abaixo para solucionar problemas com um AEM Screens Player que envia solicitações continuamente para o `/content/screens/svc.json` e `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. Quando o AEM Screens player é iniciado, ele solicita que `/content/screens/svc.json`. Quando o reprodutor recebe um código de status 404 na resposta, ele inicia uma solicitação de autenticação usando `/libs/granite/core/content/login.validate/j_security_check` contra a *publicar* instância. Se houver um manipulador de erros personalizado no *publicar* exemplo, certifique-se de retornar o código de status 404 para usuário anônimo em `/content/screens/svc.json` ou `/content/screens/svc.ping.json`.
+1. Quando o AEM Screens Player é iniciado, ele solicita que `/content/screens/svc.json`. Quando o reprodutor recebe um código de status 404 na resposta, ele inicia uma solicitação de autenticação usando `/libs/granite/core/content/login.validate/j_security_check` contra a *publicar* instância. Se houver um manipulador de erros personalizado no *publicar* exemplo, certifique-se de retornar o código de status 404 para usuário anônimo em `/content/screens/svc.json` ou `/content/screens/svc.ping.json`.
 
 1. Verifique se a configuração do Dispatcher permite essas solicitações na variável `/filters`.
 
@@ -209,7 +209,7 @@ Desative o Livefyre para evitar erros de registro ao fazer o seguinte.
 
    * No CRXDE Lite, navegue até `/etc/importers/polling/livefyre-poller/jcr:content`.
    * Adicionar uma propriedade do *habilitado* type *Booleano*.
-   * Definir **propriedade ativada** para **false**.
+   * Definir **Propriedade ativada** para ser **false**.
 
 ### 2. Como adicionar informações do índice Oak? {#add-oak-index-info}
 
@@ -241,7 +241,7 @@ Consulte [Modelo para manipuladores personalizados](https://experienceleague.ado
 
 ### 4. O que você deve fazer se, após o pacote screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 e os pacotes principais de telas estiverem instalados, mas não ativos?
 
-Instale uma versão mínima do AEM 6.5 Feature Pack 8 para que o conector AMS funcione. Consulte [Disponibilidade](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) assim, você pode obter a versão mínima do pacote de recursos do AEM Screens.
+Instale uma versão mínima do AEM 6.5 Feature Pack 8 para que o conector AMS funcione. Consulte [Disponibilidade](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) assim, você pode obter a versão mínima do Pacote de recursos do AEM Screens.
 
 ### 5. Como configurar o serviço Externalizador de link CQ no Screens?
 

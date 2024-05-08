@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '244'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ A data de lançamento do Pacote de recursos 2018 da AEM Screens é 16 de janeiro
 
 * **Sobreposição de texto em ativos no canal**:
 
-  A Sobreposição de texto é um recurso disponível no AEM Screens que permite criar uma experiência atraente em um canal de sequência fornecendo um título ou uma descrição sobreposta sobre uma imagem. Consulte [**Sobreposição de texto**](text-overlay.md).
+  A Sobreposição de texto é um recurso disponível no AEM Screens. Ele permite criar uma experiência atraente em um canal de sequência ao fornecer um título ou uma descrição sobreposta sobre uma imagem. Consulte [**Sobreposição de texto**](text-overlay.md).
 
 * **Agendamento de vários ativos**:
 
@@ -57,4 +57,4 @@ Os seguintes players de AEM Screens são lançados para AEM 6.3 Feature Pack 5 e
 
 #### Downloads do AEM Screens Player
 
-Para baixar o reprodutor AEM Screens mais recente e saber mais sobre as correções de erros, consulte [**Downloads do AEM Screens Player**](https://download.macromedia.com/screens/).
+Para baixar o AEM Screens Player mais recente e saber mais sobre as correções de erros, consulte [**Downloads do AEM Screens Player**](https://download.macromedia.com/screens/).
