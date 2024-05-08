@@ -2,7 +2,7 @@
 title: Abordagem recomendada
 description: Saiba mais sobre a abordagem recomendada em um projeto do AEM Screens.
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Consulte as poucas recomendações antes de desenvolver e implantar um projeto d
 
 * **Definição de pilotos, implantações e POCs**: desenvolva uma Prova de conceito (POCs) e adapte-a conforme necessário por meio de um piloto e uma implantação.
 
-* **Estratégia de conteúdo predefinida**: Estabeleça uma estratégia de conteúdo, incluindo metas de curto e longo prazo. Além disso, alinhe as metas da marca/KPIs com as melhorias de recursos.
+* **Pré-definindo a estratégia de conteúdo**: Estabeleça uma estratégia de conteúdo, incluindo metas de curto e longo prazo. Além disso, alinhe as metas da marca/KPIs com as melhorias de recursos.
 
   >[!NOTE]
   >

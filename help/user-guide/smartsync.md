@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Siga as etapas abaixo para fazer a transição de ContentSync para SmartSync:
    >
    >Todo o cache de conteúdo deve ser limpo antes da primeira utilização do SmartSync.
 
-1. Navegue até **Configuração do console da Web do Adobe Experience Manager** via instância AEM > ícone de martelo > **Operações** > **Console da Web**.
+1. Navegue até **Configuração do console da Web do Adobe Experience Manager** por meio da instância AEM > ícone de martelo > **Operações** > **Console da Web**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 

@@ -2,7 +2,7 @@
 title: Rede móvel direta
 description: Saiba mais sobre a configuração de rede móvel direta no AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%

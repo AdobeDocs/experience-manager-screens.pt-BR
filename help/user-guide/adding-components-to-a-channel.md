@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1404'
 ht-degree: 5%
 
 ---
@@ -235,7 +235,7 @@ O ativo de imagem tem três guias: **Imagem**, **Acessibilidade**, e **Sequênci
 
 O componente de Transição permite que você adicione uma transição ao seu projeto do Screens.
 
-A imagem a seguir mostra o componente de transição (adicionado via arrastar e soltar) ao editor.
+A imagem a seguir mostra o componente de transição (adicionado por meio de arrastar e soltar) para o editor.
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 

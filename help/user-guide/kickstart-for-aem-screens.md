@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1284'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ Siga as etapas abaixo para criar um projeto de amostra para o AEM Screens e publ
 
 ## Permitir Solicitações de Referenciador Vazias {#allow-empty-referrer-requests}
 
-1. Navegue até **Configuração do console da Web do Adobe Experience Manager** via instância AEM > ícone de martelo > **Operações** > **Console da Web**.
+1. Navegue até **Configuração do console da Web do Adobe Experience Manager** por meio da instância AEM > ícone de martelo > **Operações** > **Console da Web**.
 
    ![imagem](assets/config/empty-ref1.png)
 

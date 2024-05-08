@@ -3,9 +3,9 @@ title: Eventos orientados por dados
 description: null
 page-status-flag: never-activated
 contentOwner: jsyal
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Os eventos orientados por dados são classificados nas quatro categorias diferen
 
 #### Dados em operação {#data-in-operational}
 
-Isso pode ser categorizado em Interrupção de canal e Espaço reservado.
+Esse evento pode ser categorizado em Interrupção de canal e Espaço reservado.
 
 #### Dados na apresentação {#data-in-presentation}
 
@@ -42,4 +42,4 @@ Quando um comando é enviado à tela de LCD para ligar e desligar a tela. Exempl
 
 #### Apresentação de dados {#data-out-presentational}
 
-Gráfico agregando as informações no loop de comentários. Ele usa o Analytics para avaliar e observar eventos.
+O gráfico que agrega as informações no loop de comentários. Ele usa o Analytics para avaliar e observar eventos.

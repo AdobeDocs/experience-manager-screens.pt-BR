@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Depois de atribuir um canal a uma exibição, o AEM Screens Player exibe o conte
 
 ## Uso do painel de dispositivos {#using-the-device-dashboard}
 
-É possível configurar as preferências para o seu dispositivo no Painel de dispositivos, acessível por meio da instância de criação do AEM.
+Você pode configurar as preferências para o seu dispositivo no Painel de dispositivos, acessível por meio da instância de criação do AEM.
 
 1. Navegue até o painel do dispositivo em seu projeto, por exemplo, ***Testar projeto*** > ***Dispositivos***.
 

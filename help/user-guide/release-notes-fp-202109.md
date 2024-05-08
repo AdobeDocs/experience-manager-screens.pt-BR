@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '916'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
 
 * Nomes/funções de canal numérico causaram tela em branco.
 
-* Baixar representações otimizadas via SmartSync.
+* Baixe representações otimizadas por meio do SmartSync.
 
 * Transformou o mapeamento em uma lista de chaves de representação.
 
@@ -134,7 +134,7 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
 
 * Um novo componente de imagem principal agora é adicionado ao manifesto do canal.
 
-* O download de representações otimizadas via SmartSync agora é suportado.
+* O download de representações otimizadas por meio do SmartSync agora é compatível.
 
 * Reproduzir representação otimizada para todos os ativos.
 

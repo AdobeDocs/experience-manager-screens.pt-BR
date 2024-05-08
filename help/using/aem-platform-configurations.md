@@ -2,9 +2,9 @@
 title: Configurações da plataforma AEM
 description: A página descreve as configurações da plataforma AEM
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '446'
 ht-degree: 3%
 
 ---
@@ -65,7 +65,7 @@ Instale os mesmos pacotes de software no ambiente de desenvolvimento local. Inst
 
 >[!NOTE]
 >
->Para instalar o Feature Pack mais recente do AEM Screens, consulte [Notas de versão](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction).
+>Para instalar o Feature Pack mais recente do AEM Screens, consulte [Notas de versão](https://experienceleague.adobe.com/br/docs/experience-manager-screens/user-guide/aem-screens-introduction).
 
 ## Configurando ACLs {#setting-up-acls}
 

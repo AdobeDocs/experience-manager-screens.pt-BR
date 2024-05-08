@@ -2,9 +2,9 @@
 title: Data Triggers
 description: Saiba mais sobre acionadores de dados na AEM Screens.
 exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -15,26 +15,26 @@ ht-degree: 0%
 >
 >Uma parte interessada típica dessa atividade é um Implementador de AEM.
 
-**Dynamic Creative Optimization** ou DCO, é usado para criar experiências de sinalização digital que refletem as circunstâncias exclusivas de qualquer local em um determinado momento e para qualquer usuário.
+**Dynamic Creative Optimization**, ou DCO, é usado para criar experiências de sinalização digital que refletem as circunstâncias exclusivas de qualquer local em um determinado momento e para qualquer usuário.
 
-Isso também é conhecido como nivelamento de conteúdo no lado do cliente.
+Esse uso também é conhecido como nivelamento de conteúdo no lado do cliente.
 
-O motivo por trás disso é garantir que cada dispositivo de reprodução ou ponto final possa usar conjuntos de dados para determinar automaticamente o melhor conteúdo a ser reproduzido com base em vários fatores diferentes.
+O raciocínio é garantir que cada dispositivo de reprodução ou ponto final possa usar conjuntos de dados para determinar o melhor conteúdo a ser reproduzido automaticamente com base em vários fatores diferentes.
 
-Isso elimina a necessidade de intervenção humana constante durante a criação de conteúdo. Também ajuda a reduzir o custo total de propriedade para operar a rede e torna as experiências digitais mais relevantes, mais contextuais e mais eficazes.
+Essa funcionalidade elimina a necessidade de intervenção humana constante durante a criação de conteúdo. Também ajuda a reduzir o custo total de propriedade para operar a rede e torna as experiências digitais mais relevantes, mais contextuais e mais eficazes.
 
 Os exemplos incluem:
 
-* usando o nível de inventário atual de produtos de recursos
+* usando o nível de inventário atual dos produtos de recursos
 * temperatura exterior ou tempo
 * a presença de uma campanha publicitária em mídia local
 * tráfego da web e até eventos locais, como quando um cliente pega um produto para examiná-lo
 
-Tudo isso e muito mais pode ser usado para fornecer um nível mais alto de contexto e personalização.
+Todos esses exemplos e muito mais podem ser usados para fornecer um nível mais alto de contexto e personalização.
 
 Ter uma estratégia de merchandising visual que inclui DCO pode aumentar drasticamente a audiência na rede.
 
 Há dois tipos principais de acionadores de dados:
 
-* **Acionadores de dados locais**: esses acionadores de dados são locais no dispositivo. Por exemplo, se você tocou a tela, um sensor é ativado que aciona o ativo de dados local ou a troca de canal.
+* **Acionadores de dados locais**: esses acionadores de dados são locais no dispositivo. Por exemplo, se você tocou a tela, é ativado um sensor que aciona um ativo de dados local ou um switch de canal.
 * **Acionadores de dados remotos**: isso envolveu uma troca de canal ou uma troca de ativo acionada por dados com base nos valores retornados por uma API de serviço da Web.

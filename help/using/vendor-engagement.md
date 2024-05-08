@@ -2,9 +2,9 @@
 title: Envolvimento do fornecedor
 description: Saiba mais sobre o Envolvimento do fornecedor para o Guia de práticas recomendadas da AEM Screens.
 exl-id: b1b1cd4b-f0a8-47d4-b8b8-dc7e42464230
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,6 @@ Nesta atividade, é importante identificar todos os principais fornecedores nece
 
 * Definir recursos e tarefas para cada fornecedor em relação à categoria de produto à qual ele oferece suporte.
 
-* Confirmar delivery *lead times* para todos os materiais de entrega e criar um plano de implantação que acomode para todos os lead times que funcionam de forma retroativa a partir de uma ou mais datas de instalação desejadas das primeiras instalações necessárias.
+* Confirmar delivery *lead times* para todos os materiais de entrega. Crie um plano de implantação que acomode para todos os lead times que funcionam retroativamente a partir de uma ou mais datas de instalação desejadas das primeiras instalações necessárias.
 
-Ao concluir todas as etapas anteriores, você deve ter uma *Dia 1* Plano de implantação pronto para execução.
+Ao concluir todas as etapas anteriores, você deve ter uma *Dia 1* plano de implantação pronto para execução.

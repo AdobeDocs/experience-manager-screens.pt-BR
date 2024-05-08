@@ -2,9 +2,9 @@
 title: Wireframes
 description: Saiba mais sobre como usar Wireframes em um projeto do AEM Screens.
 exl-id: 7aa16e3b-9ab6-4687-b897-8b1be4c2825d
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Esse processo é aplicado a:
 
 Isso ajuda a aproximar o projeto da fase de protótipo da fase de implantação real.
 
-De um **Exibição do nível do ativo**, você deve criar wireframes que definem várias opções de layout de conteúdo e agrupamentos de conteúdo. Isso ajuda a definir como vários conteúdos podem parecer quando montados em grupo.
+De um **Exibição do nível do ativo**, você deve criar wireframes que definem várias opções de layout de conteúdo e agrupamentos de conteúdo. Esse trabalho ajuda a definir como vários conteúdos podem parecer quando montados em grupo.
 Normalmente, você usaria gráficos, imagens e vídeos prontos para produção real nessa atividade.
 
 De um **Exibição em nível de canal**, você deve criar wireframes para mostrar como os canais de conteúdo são vinculados na experiência geral, incluindo estratégias de reprodução para canais incorporados. Você também pode revisar transições de canal que podem ocorrer conforme os acionadores de dados são envolvidos.
 
 Em um **Nível do projeto**, você pode começar a modelar como várias telas ou experiências podem trabalhar juntas em um espaço físico para fornecer uma jornada completa de usuários com vários pontos de contato.
 
-Isso deve estar alinhado com o mapa de Jornada de UX criado anteriormente.
+Essas estratégias devem estar alinhadas com o mapa de Jornada de UX criado anteriormente.

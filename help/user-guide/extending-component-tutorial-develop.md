@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1698'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ O código-fonte de um projeto do Screens geralmente é gerenciado como um projet
 
 ## Criar o componente de cartaz {#poster-cmp}
 
-O componente de Pôster estende o componente de imagem pronto para uso do AEM Screens. Um mecanismo de Sling, `sling:resourceSuperType`, é usado para herdar a funcionalidade principal do componente de Imagem sem precisar copiar e colar. Mais informações sobre as noções básicas do [O processamento de solicitações do Sling pode ser encontrado aqui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
+O componente de Pôster estende o componente de imagem pronto para uso do AEM Screens. Um mecanismo de Sling, `sling:resourceSuperType`, é usado para herdar a funcionalidade principal do componente de Imagem sem precisar copiar e colar. Mais informações sobre as noções básicas do [O processamento de solicitações do Sling pode ser encontrado aqui.](https://experienceleague.adobe.com/br/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
 
 O componente de Pôster é renderizado em tela cheia no modo de visualização/produção. No modo de edição, é importante renderizar o componente de forma diferente para facilitar a criação do canal de sequência.
 
@@ -339,7 +339,7 @@ Os componentes do AEM Screens são renderizados de forma diferente no modo Edita
 
    A variável `categories` propriedade é uma string que identifica a biblioteca do cliente. A variável `cq.screens.components` A categoria é usada nos modos Editar e Visualizar/Produção. Portanto, qualquer CSS/JS definido no `shared` clientlib é carregado em todos os modos.
 
-   É uma prática recomendada nunca expor nenhum caminho diretamente para /apps em um ambiente de produção. A variável `allowProxy` garante que o CSS e o JS da biblioteca do cliente sejam referenciados por meio de um prefixo `/etc.clientlibs`. Mais informações sobre o [A propriedade allowProxy pode ser encontrada aqui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   É uma prática recomendada nunca expor nenhum caminho diretamente para /apps em um ambiente de produção. A variável `allowProxy` garante que o CSS e o JS da biblioteca do cliente sejam referenciados por meio de um prefixo de `/etc.clientlibs`. Mais informações sobre o [A propriedade allowProxy pode ser encontrada aqui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Criar arquivo chamado `css.txt` abaixo da pasta compartilhada.
 

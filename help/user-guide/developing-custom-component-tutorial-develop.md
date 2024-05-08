@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2139'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ O código-fonte de um projeto do Screens geralmente é gerenciado como um projet
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
 
-   ![Screens We.Retail Executar pacotes Ui.Apps e Ui.Content instalados via Gerenciador de pacotes do CRX](assets/crx-packages.png)
+   ![Telas We.Retail Executar pacotes Ui.Apps e Ui.Content instalados por meio do Gerenciador de pacotes do CRX](assets/crx-packages.png)
 
    Screens `We.Retail` Executar `Ui.Apps` e `Ui.Content` pacotes instalados por meio do Gerenciador de pacotes do CRX.
 

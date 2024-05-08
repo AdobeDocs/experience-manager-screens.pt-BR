@@ -9,9 +9,9 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '686'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Os principais pontos a seguir ajudam a configurar o e o servidor AEM para que es
 
 #### Permitir Solicitações de Referenciador Vazias {#allow-empty-referrer-requests}
 
-1. Navegue até **Configuração do console da Web do Adobe Experience Manager** via instância AEM > ícone de martelo > **Operações** > **Console da Web**.
+1. Navegue até **Configuração do console da Web do Adobe Experience Manager** por meio da instância AEM > ícone de martelo > **Operações** > **Console da Web**.
 
    ![imagem](assets/config/empty-ref1.png)
 
@@ -81,7 +81,7 @@ Os principais pontos a seguir ajudam a configurar o e o servidor AEM para que es
 
 #### Serviço HTTP baseado no Apache Felix Jetty {#allow-apache-felix-service}
 
-1. Navegue até **Configuração do console da Web do Adobe Experience Manager** via instância AEM > ícone de martelo > **Operações** > **Console da Web**.
+1. Navegue até **Configuração do console da Web do Adobe Experience Manager** por meio da instância AEM > ícone de martelo > **Operações** > **Console da Web**.
 
    ![imagem](assets/config/empty-ref1.png)
 

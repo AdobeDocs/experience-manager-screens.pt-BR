@@ -2,9 +2,9 @@
 title: Teste e garantia da qualidade
 description: Saiba mais sobre testes e controle de qualidade para o AEM Screens no Guia de práticas recomendadas.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Uma lista de verificação deve ser criada para identificar todos os KPIs defini
 
 >[!NOTE]
 >
->Essa fase também deve ser usada como uma ferramenta para criar um guia de instalação e usuário que pode ser enviado posteriormente com o equipamento e mantido no local para referência futura.
+>Esta fase também deve ser usada como uma ferramenta para criar uma instalação e um guia do usuário. Ambos podem ser enviados posteriormente com o equipamento e mantidos no local para referência futura.
 
 Devem ser considerados os seguintes elementos:
 
@@ -58,11 +58,11 @@ Esse módulo permite:
 1. Gerenciar downloads de conteúdo
 1. Gerenciar problemas de reinicialização do aplicativo
 
-Para saber mais detalhes sobre ***Centro de controle de dispositivos***, consulte [Solução de problemas do Centro de controle de dispositivos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **Guia do usuário do AEM Screens**.
+Para saber mais detalhes sobre o ***Centro de controle de dispositivos***, consulte [Solução de problemas do Centro de controle de dispositivos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **Guia do usuário do AEM Screens**.
 
 >[!CAUTION]
 >
->Não use o Centro de Controle do Dispositivo para:
+>Não use o Centro de controle de dispositivos para:
 >
 >* Instalar novas versões do aplicativo de reprodução
 >* Monitorar recursos no nível do sistema
