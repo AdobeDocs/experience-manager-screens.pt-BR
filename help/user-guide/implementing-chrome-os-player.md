@@ -9,23 +9,23 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
 
-# Implementação do Chrome OS Player  {#implementing-chrome-os-player}
+# Implementação do Chrome OS Player {#implementing-chrome-os-player}
 
 Esta seção descreve como implementar o Chrome OS Player usando o Console de gerenciamento do Chrome.
 
 ## Utilização do console de gerenciamento do Chrome {#using-chrome-management-console}
 
-Siga as etapas abaixo para configurar o console de gerenciamento do chrome:
+Siga as etapas abaixo para configurar o console de gerenciamento do Chrome:
 
 1. Registre-se no Console de gerenciamento do Chrome. Você deve obter uma licença para o Console de gerenciamento do Chrome. Contato [Suporte ao Google](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) Clique em Gerenciar configurações do dispositivo Chrome para obter mais informações.
-1. Inscreva seu dispositivo de sistema operacional Chrome no domínio aguarde 15 minutos para que o dispositivo seja sincronizado com o Console de gerenciamento do Chrome. Para saber mais sobre como registrar um dispositivo do Chrome, clique em [aqui](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. Inscreva seu dispositivo do sistema operacional Chrome no domínio e aguarde 15 minutos para que o dispositivo seja sincronizado com o Console de gerenciamento do Chrome. Para saber mais sobre como registrar um dispositivo do Chrome, clique em [aqui](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. O Chrome Player está disponível na loja da web do Chrome.
 
 >[!NOTE]
@@ -49,12 +49,12 @@ Siga as etapas abaixo para configurar o nome no Chrome Player:
 
    ![imagem](/help/user-guide/assets/chrome-device/chrome2.jpg)
 
-1. Você pode definir a ID de ativo como parte da inscrição corporativa e no console de gerenciamento do Chrome.
+1. Você pode definir a ID do ativo como parte da inscrição corporativa e no Console de gerenciamento do Chrome.
 
    ![imagem](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >Os players do Chrome devem ser inscritos na inscrição corporativa e o player do Chrome deve ser implantado por meio do console de gerenciamento do Chrome, caso contrário, a ID do ativo retorna em branco (por exemplo, chrome como uma extensão). O nome do dispositivo só é registrado no momento do registro. As mudanças futuras não são percebidas pelo Adobe Experience Manager (AEM).
+   >Os players do Chrome devem ser inscritos na inscrição corporativa e o player do Chrome deve ser implantado por meio do console de gerenciamento do Chrome. Caso contrário, a ID do ativo retorna em branco (por exemplo, chrome como uma extensão). O nome do dispositivo só é registrado no momento do registro. As mudanças futuras não são percebidas pelo Adobe Experience Manager (AEM).
 
 ### Ativar modo de quiosque {#enabling-kiosk-mode}
 
@@ -94,7 +94,7 @@ Siga as etapas abaixo para ativar o modo Quiosque:
 
 O AEM Screens Player é um aplicativo habilitado para quiosque que também habilita a Configuração de política remota para players de SO do Chrome.
 
-Siga as etapas abaixo para configurar várias opções do reprodutor:
+Siga as etapas abaixo para configurar as várias opções do reprodutor:
 
 1. Faça logon no Console de gerenciamento do Chrome.
 1. Clique em **Gerenciamento de dispositivos** > **Gerenciamento do Chrome** > **Gerenciamento de aplicativos**. O AEM Screens Player é exibido na lista.
@@ -143,14 +143,14 @@ A tabela a seguir resume as políticas com suas funções.
 | resolução | A resolução do dispositivo. |
 | rebootSchedule | O cronograma para reinicializar o reprodutor. |
 | enableAdminUI | Habilite a interface do Administrador para configurar o dispositivo no site. Defina como false depois que estiver totalmente configurado e em produção. |
-| enableOSD | Habilite a interface do alternador de canal para que os usuários alternem canais no dispositivo. Considere definir como false depois que estiver totalmente configurado e em produção. |
+| enableOSD | Habilite a interface do usuário do alternador de canais para que os usuários alternem canais no dispositivo. Considere definir como false depois que estiver totalmente configurado e em produção. |
 | enableActivityUI | Habilite para que você possa mostrar o progresso de atividades como download e sincronização. Ative para solução de problemas e desative depois que estiver totalmente configurado e em produção. |
 | cloudMode | Defina como verdadeiro se desejar que o Chrome Player se conecte ao Screens as a Cloud Service. Defina como falso para se conectar ao AMS ou AEM no local. |
 | cloudToken | Token de registro para se registrar no Screens as a Cloud Service. |
 
 >[!NOTE]
 >
->As configurações de política são estritamente aplicadas e não são substituídas manualmente na interface do administrador do reprodutor. Para permitir a configuração manual do reprodutor para uma política específica, não especifique a política no ***configuração de política***. Por exemplo, se você quiser permitir a configuração manual para a programação de reinicialização, não especifique a chave ***rebootSchedule*** na configuração de política.
+>As configurações de política são estritamente aplicadas e a interface do administrador do player não é substituída manualmente. Para permitir a configuração manual do reprodutor para uma política específica, não especifique a política no ***configuração de política***. Por exemplo, se você quiser permitir a configuração manual para a programação de reinicialização, não especifique a chave ***rebootSchedule*** na configuração de política.
 
 ### Uso do controle remoto do Screens {#using-remote-control}
 

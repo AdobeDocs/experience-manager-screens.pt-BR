@@ -9,16 +9,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
-# Uso do controle remoto do Screens  {#implementing-remote-control}
+# Uso do controle remoto do Screens {#implementing-remote-control}
 
-O recurso de controle remoto facilita o acesso à interface do Administrador, ao alternador de canal ou a recursos como Limpar cache e recarregar. Além disso, fornece um método para ver a versão do firmware local e as informações do sistema no reprodutor. Isso é especialmente útil porque pode ser difícil conectar um mouse e operar em dispositivos de produção que estão fora de alcance e ainda mais se o reprodutor tiver perdido a conexão com o AEM. Isso também é útil ao usar o Samsung RMS, pois a diferença de resolução pode dificultar a localização e a abertura da interface do usuário do Administrador usando um mouse.
+O recurso de controle remoto facilita o acesso à interface do Administrador, ao alternador de canal ou a recursos como Limpar cache e recarregar. Além disso, fornece um método para ver a versão do firmware local e as informações do sistema no reprodutor. Essa capacidade é especialmente útil porque pode ser difícil conectar um mouse. Ou opere em dispositivos de produção que estão fora de alcance e ainda mais se o reprodutor tiver perdido a conexão com o AEM. Também é útil ao usar o Samsung RMS, pois a diferença de resolução pode dificultar a localização e a abertura da interface do usuário do Administrador usando um mouse.
 
 ## Combinações de teclas comuns do controle remoto {#using-common-remote-control}
 
@@ -47,7 +47,7 @@ O diagrama a seguir ilustra o uso de chaves em um remoto Samsung:
 ![imagem](assets/tizen/remote.png)
 
 >[!NOTE]
->Se você definir os valores de configuração de dispositivo de enableAdminUI e/ou enableOSD como false, o remoto não alterna a interface do administrador e o alternador de canal. Não é possível usar as teclas de seta para navegar pela interface ou pelos canais do administrador. No entanto, ainda é possível limpar o cache e recarregar o reprodutor. Você pode desativar o recurso de controle remoto se qualquer uma das combinações de teclado entrar em conflito com seu conteúdo interativo usando este código:
+>Se você definir os valores de configuração de dispositivo de enableAdminUI e/ou enableOSD como false, o remoto não alterna a interface do usuário do administrador e o alternador de canal. Não é possível usar as teclas de seta para navegar pela interface do usuário ou pelos canais do Administrador. No entanto, ainda é possível limpar o cache e recarregar o reprodutor. Você pode desativar o recurso de controle remoto se qualquer uma das combinações de teclado entrar em conflito com seu conteúdo interativo usando este código:
 
 ```
 require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 

@@ -1,6 +1,6 @@
 ---
-title: Implementação do Android&trade; Player
-description: Saiba mais sobre a implementação do Android&trade; Watchdog, uma solução que permite recuperar falhas no Android&trade; player.
+title: Implementação do Android Player
+description: Saiba mais sobre a implementação do Android Watchdog, uma solução que permite recuperar falhas no Android Player.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,18 +10,18 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
 
 # Implementação do Android™ Player {#implementing-android-player}
 
-Esta seção descreve a configuração do Android™ player. Ele fornece informações do arquivo de configuração e as opções disponíveis, além de recomendações sobre quais configurações usar para desenvolvimento e teste.
+Esta seção descreve a configuração do reprodutor Android™. Ele fornece informações do arquivo de configuração e as opções disponíveis, além de recomendações sobre quais configurações usar para desenvolvimento e teste.
 
-Além disso, **Watchdog** O é uma solução para recuperar o reprodutor de falhas. Um aplicativo deve se registrar no serviço de vigia e enviar periodicamente mensagens ao serviço informando que ele está ativo. Caso o serviço de vigia não receba uma mensagem de manutenção de atividade em um tempo estipulado, o serviço tentará reinicializar o dispositivo para uma recuperação limpa (se ele tiver privilégios suficientes) ou reiniciar o aplicativo.
+Além disso, **Watchdog** O é uma solução para recuperar o reprodutor de falhas. Um aplicativo deve se registrar no serviço de vigia e enviar periodicamente mensagens ao serviço informando que ele está ativo. Caso o serviço de vigia não receba uma mensagem de manutenção de atividade em um tempo estipulado, o serviço tentará reinicializar o dispositivo. Isso é feito para uma recuperação limpa (se tiver privilégios suficientes) ou reinicia o aplicativo.
 
 ## Instalação do Android™ Player {#installing-android-player}
 
@@ -32,7 +32,7 @@ Visite o [**Downloads do reprodutor AEM 6.5**](https://download.macromedia.com/s
 ### Configuração do ambiente para o AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
->Configure um ambiente para o Android™ Player se estiver usando o AEM Screens 6.5.5 Service Pack.
+>Configure um ambiente para o reprodutor Android™ se estiver usando o AEM Screens 6.5.5 Service Pack.
 
 Defina o **Atributo SameSite para os cookies de token de logon** de **Lax** para **Nenhum** de **Configuração do console da Web do Adobe Experience Manager** em todas as instâncias de autor e publicação do AEM.
 
@@ -50,7 +50,7 @@ Siga as etapas abaixo:
 
 ### Método Ad-Hoc {#ad-hoc-method}
 
-O método Ad-Hoc permite instalar o Player mais recente do Android™ (*.exe*). Visita [**Downloads do reprodutor AEM 6.5**](https://download.macromedia.com/screens/) página.
+O método Ad-Hoc permite instalar o Player mais recente do Android™ (*.exe*). Visite o [**Downloads do reprodutor AEM 6.5**](https://download.macromedia.com/screens/) página.
 
 Depois de baixar o aplicativo, siga as etapas no reprodutor para concluir a instalação ad-hoc:
 
@@ -67,7 +67,7 @@ Depois de baixar o aplicativo, siga as etapas no reprodutor para concluir a inst
 
 ## Implementação do Watchdog do Android™ {#implementing-android-watchdog}
 
-Devido à arquitetura do Android™, a reinicialização do dispositivo requer que o aplicativo tenha privilégios de sistema. Para fazer isso, assine o apk usando as chaves de assinatura do fabricante, caso contrário, o watchdog reinicia o aplicativo de reprodução e não reinicializa o dispositivo.
+Devido à arquitetura do Android™, a reinicialização do dispositivo requer que o aplicativo tenha privilégios de sistema. Assine o apk usando as chaves de assinatura do fabricante, caso contrário, o watchdog pode reiniciar o aplicativo de reprodução e não reinicializar o dispositivo.
 
 ### Sinalização do Android™ `apks` uso de Chaves do Fabricante {#signage-of-android-apks-using-manufacturer-keys}
 
@@ -84,9 +84,9 @@ Siga as etapas abaixo para assinar o aplicativo Android™ usando as chaves do f
 1. Baixe o aplicativo da Google Play ou do [Downloads do AEM Screens Player](https://download.macromedia.com/screens/) página
 1. Obtenha as chaves de plataforma do fabricante para obter uma *pk8* e uma *pem* arquivo
 
-1. Localize o `apksigner` ferramenta no Android™ sdk usando localizar `~/Library/Android/sdk/build-tools -name "apksigner"`
+1. Localize o `apksigner` ferramenta no Android™ SDK usando localizar `~/Library/Android/sdk/build-tools -name "apksigner"`
 1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
-1. Encontre o caminho para a ferramenta de alinhamento do zip no Android™ sdk
+1. Encontre o caminho para a ferramenta de alinhamento do zip no Android™ SDK
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
 1. Instalar ***aemscreensaligned.apk*** usando adb install para o dispositivo
 
@@ -94,7 +94,7 @@ Siga as etapas abaixo para assinar o aplicativo Android™ usando as chaves do f
 
 O serviço de watchdog entre Android é implementado como um plug-in Cordova usando *GerenciadorDeAlarmes*.
 
-O diagrama a seguir mostra a implementação do serviço de vigia do:
+O diagrama a seguir mostra a implementação do serviço de vigia:
 
 ![chlimage_1-31](assets/chlimage_1-31.png)
 
@@ -110,7 +110,7 @@ O diagrama a seguir mostra a implementação do serviço de vigia do:
 
 ## Provisionamento em massa do Android™ Player {#bulk-provision-android-player}
 
-Ao implantar o reprodutor Android™ em massa, é necessário provisionar o reprodutor para apontar para uma instância de AEM e configurar outras propriedades sem inserir manualmente essas propriedades na interface do administrador.
+Ao implantar o reprodutor Android™ em massa, é necessário provisionar o reprodutor para apontar para uma instância do AEM e configurar outras propriedades sem inseri-las manualmente na interface do usuário do administrador.
 
 >[!NOTE]
 >Esse recurso está disponível no Android™ player 42.0.372.
@@ -139,7 +139,7 @@ A tabela a seguir resume os atributos da política com um exemplo de JSON de pol
 | *resolution* | A resolução do dispositivo. |
 | *rebootSchedule* | O cronograma para reinicializar se aplica a todas as plataformas. |
 | *enableAdminUI* | Habilite a interface do Administrador para configurar o dispositivo no site. Defina como *false* depois que estiver totalmente configurado e em produção. |
-| *enableOSD* | Habilite a interface do alternador de canal para que os usuários alternem canais no dispositivo. Considere configurar como *false* depois que estiver totalmente configurado e em produção. |
+| *enableOSD* | Habilite a interface do usuário do alternador de canais para que os usuários alternem canais no dispositivo. Considere configurá-la para *false* depois que estiver totalmente configurado e em produção. |
 | *enableActivityUI* | Ative se quiser mostrar o progresso de atividades como download e sincronização. Ative para solução de problemas e desative depois que estiver totalmente configurado e em produção. |
 | *enableNativeVideo* | Ative se quiser usar aceleração de hardware nativa para reprodução de vídeo (somente Android™). |
 
@@ -172,16 +172,16 @@ A tabela a seguir resume os atributos da política com um exemplo de JSON de pol
 
 ## Provisionamento em massa do Android™ Player usando o Enterprise Mobility Management {#bulk-provisioning}
 
-Ao implantar o reprodutor Android™ em massa, é entediante registrar manualmente cada reprodutor com AEM. É altamente recomendável usar uma solução de EMM (Enterprise Mobility Management, Gerenciamento de mobilidade corporativa) como [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron ou Samsung Knox para provisionar e gerenciar remotamente sua implantação. O AEM Screens Android™ player oferece suporte ao EMM AppConfig padrão do setor para permitir o provisionamento remoto.
+Ao implantar o Android™ player em massa, é entediante registrar cada player manualmente com AEM. Use uma solução EMM (Enterprise Mobility Management, Gerenciamento de mobilidade corporativa) como [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron ou Samsung Knox para que você possa provisionar e gerenciar remotamente sua implantação. O AEM Screens Android™ player oferece suporte ao EMM AppConfig padrão do setor para permitir o provisionamento remoto.
 
 ## Nomeação do Android™ Player {#name-android}
 
-Você pode atribuir um nome de dispositivo amigável ao seu reprodutor Android™, enviando o nome de dispositivo atribuído ao AEM (Adobe Experience Manager). Esse recurso não só permite nomear o seu reprodutor Android™, como também permite que você atribua facilmente o conteúdo apropriado.
+Você pode atribuir um nome de dispositivo amigável ao seu reprodutor Android™, enviando o nome de dispositivo atribuído ao AEM (Adobe Experience Manager). Esse recurso não só permite nomear o seu reprodutor Android™, como também permite atribuir facilmente o conteúdo apropriado.
 
 >[!NOTE]
 >Você pode escolher o nome do Player somente antes do registro. Depois que o Player é registrado, o nome do Player não pode mais ser alterado.
 
-Siga as etapas abaixo para configurar o nome no Android™ player:
+Siga as etapas abaixo para configurar o nome no reprodutor Android™:
 
 1. Navegue até **configurações** > **Sobre o dispositivo**
 1. Edite e defina o nome do dispositivo para nomear o seu reprodutor Android™
@@ -193,12 +193,12 @@ Siga as etapas abaixo para permitir o provisionamento em massa no Android™ Pla
 1. Verifique se o dispositivo Android™ é compatível com os serviços da Google Play.
 1. Inscreva seus dispositivos Android™ player com sua solução EMM favorita compatível com AppConfig.
 1. Faça logon no console do EMM e extraia o aplicativo AEM Screens Player do Google Play.
-1. Clique em configuração gerenciada ou opção relacionada.
+1. Clique na configuração gerenciada ou na opção relacionada.
 1. Agora você deve ver uma lista de opções do player que podem ser configuradas, como servidor e código de registro em massa.
 1. Configure esses parâmetros, salve e implante a política nos dispositivos.
 
    >[!NOTE]
-   >Os dispositivos devem receber o aplicativo junto com a configuração e apontar para o servidor AEM correto com a configuração selecionada. Se você optar por configurar o código de registro em massa e mantê-lo conforme configurado no AEM, o reprodutor deverá ser capaz de se registrar automaticamente. Se você tiver configurado uma exibição padrão, ela também poderá baixar e mostrar algum conteúdo padrão (que poderá ser alterado posteriormente de acordo com sua conveniência).
+   >Os dispositivos devem receber o aplicativo junto com a configuração. Ele deve apontar para o servidor AEM correto com a configuração selecionada. Se você optar por configurar o código de registro em massa e mantê-lo conforme configurado no AEM, o reprodutor deverá ser capaz de se registrar automaticamente. Se você tiver configurado uma exibição padrão, ela também poderá baixar e mostrar algum conteúdo padrão (que poderá ser alterado posteriormente de acordo com sua conveniência).
 
 Além disso, verifique com o fornecedor de EMM o suporte ao AppConfig. Os mais populares, como [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [`Mobile Iron`](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [`SOTI`](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [`BlackBerry&reg; UEM`](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [`IBM&reg; Maas360`](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm), e [`Samsung Knox`](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) entre outros, suportam esse padrão do setor.
 

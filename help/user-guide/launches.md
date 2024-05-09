@@ -10,16 +10,16 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
 
 # Atualização de conteúdo usando o Screens Launch {#launches}
 
-Os autores de conteúdo podem criar versões futuras dos canais, conhecidas como **Screens Launch** e defina ainda mais a data de ativação para este lançamento. Isso permite que o conteúdo fique ativo em dispositivos ou players na data de ativação especificada.
+Os autores de conteúdo podem criar uma versão futura dos canais e definir ainda mais a data de ativação para esse lançamento. Essa capacidade permite que o conteúdo fique ativo em dispositivos ou players na data de ativação especificada.
 
 Com a ajuda de ***Screens Launch***, os autores podem visualizar cada canal no lançamento e devem ser capazes de iniciar uma solicitação de revisão. O grupo de aprovadores recebe uma notificação e pode aprovar ou rejeitar a solicitação. Quando a data de ativação é atingida, o conteúdo é reproduzido nos dispositivos.
 
@@ -37,7 +37,7 @@ A execução de uma experiência na data de ativação definida no reprodutor en
 
 * A publicação dos recursos para publicar instâncias (geralmente leva alguns minutos, depende do tamanho dos canais ou ativos que devem ser publicados).
 
-* Tempo necessário para concluir a atualização do conteúdo offline (normalmente, alguns minutos).
+* Tempo necessário para a conclusão da atualização do conteúdo offline (normalmente, leva alguns minutos).
 
 * O tempo gasto pelos reprodutores para baixar o conteúdo da instância de publicação (normalmente leva minutos, dependendo da largura de banda e do tamanho dos ativos que devem ser baixados).
 
@@ -47,26 +47,26 @@ A execução de uma experiência na data de ativação definida no reprodutor en
 
 Para que o reprodutor possa começar a reproduzir o conteúdo na data de ativação definida, inicie as atividades anteriores à data de ativação.
 
-Se a data de ativação for *24 de novembro, 9h* e o período de carência é *24 horas*, a sequência de ações acima será iniciada em (data de ativação - período de carência), ou seja, 23 de novembro, às 9h, horário do servidor. Isso dá 24 horas para completar todas as ações acima mencionadas para o conteúdo chegar aos reprodutores. Os players entendem que este é um conteúdo de lançamento. Dessa forma, o conteúdo não é reproduzido imediatamente, mas os players podem armazená-lo como uma versão futura e fazer com que comece a ser reproduzido exatamente na data definida de ativação no fuso horário do player.
+Se a data de ativação for *24 de novembro, 9h* e *24 horas* é o período de carência, então a sequência acima de ações começa em (data de ativação - período de carência), ou seja, 23 de novembro, 9h, horário do servidor. Essa configuração de 24 horas para concluir todas as ações mencionadas acima para que o conteúdo chegue aos reprodutores. Os jogadores entendem que esse período é um conteúdo de lançamento. Dessa forma, o conteúdo não é reproduzido imediatamente, mas os players podem armazená-lo como uma versão futura e fazer com que comece a ser reproduzido exatamente na data definida de ativação no fuso horário do player.
 
-Por exemplo, o servidor está em PST e os dispositivos estão em EST. A diferença máxima de tempo é de três horas nesse caso e presume que a promoção leva 1 minuto e a publicação do autor para a publicação leva 10 minutos, e o player pode baixar os recursos normalmente de 10 a 15 minutos. Em seguida, o período de carência = diferença de tempo (três horas):
+Por exemplo, o servidor está em PST e os dispositivos estão em EST. A diferença máxima de tempo é de três horas. Ele pressupõe que a promoção leva 1 minuto e a publicação do autor para a publicação leva 10 minutos, e o reprodutor pode baixar os recursos normalmente em 10 a 15 minutos. Em seguida, o período de carência = diferença de tempo (três horas):
 
 * Mais tempo para promover o lançamento (1 minuto)
 * Mais tempo para publicar o lançamento (10 minutos)
 * Mais tempo para baixar no player (10-15 minutos)
 * Mais buffer (30 minutos)
 
-Igual a 3 horas e 56 minutos (14160 segundos).
+Portanto, 3 horas e 56 minutos (14.160 segundos).
 
-Assim, sempre que você agendar qualquer lançamento em tempo real, a promoção começará antecipadamente por esse deslocamento. Na equação acima, a maioria dos itens não leva muito tempo. Você pode usar uma estimativa decente para esse deslocamento quando souber a diferença de tempo máxima entre o servidor e qualquer jogador.
+Assim, sempre que você agendar qualquer lançamento em tempo real, a promoção começará antecipadamente levando em conta esse deslocamento. Na equação acima, a maioria dos itens não leva muito tempo. Você pode usar uma estimativa decente para esse deslocamento quando souber a diferença de tempo máxima entre o servidor e qualquer jogador.
 
 >[!NOTE]
 >
->Pronto para uso, o período de carência do Screens Launch é definido como 24 horas. Isso significa que, ao definir a data de ativação para qualquer lançamento dos recursos em */content/screens*, a promoção começa com esse deslocamento.
+>Pronto para uso, o período de carência do Screens Launch é definido como 24 horas. Isso significa que ao definir uma data de ativação para qualquer lançamento dos recursos em */content/screens*, a promoção começa com esse deslocamento.
 
-### Atualizando Período de Carência pronto para uso {#updating-out-of-the-box-grace-period}
+### Atualização do período de carência predefinido {#updating-out-of-the-box-grace-period}
 
-Esta seção explica como você pode atualizar um período de carência predefinido para 10 minutos.
+Esta seção explica como atualizar um período de carência predefinido para 10 minutos.
 
 1. Navegue até o CRXDE Lite e, em seguida, até `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 1. Clique com o botão direito e copie o arquivo.
@@ -81,9 +81,9 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
    ]
 ```
 
-Como você definiu o Período de carência como 10 minutos no exemplo anterior, ao definir a data de ativação para qualquer inicialização dos recursos em */content/screens*, a promoção começa com esse deslocamento.
+Você definiu o período de carência como 10 minutos no exemplo anterior. Portanto, ao definir uma data de ativação para qualquer lançamento dos recursos em */content/screens*, a promoção começa com esse deslocamento.
 
-Por exemplo, se a data de ativação estiver definida como 24 de novembro, 9h e o período de carência for de 600 segundos, o trabalho de promoção iniciará em 24 de novembro às 8h50.
+Por exemplo, se a data de ativação estiver definida como 24 de novembro, às 9h e o período de carência for de 600 segundos, o trabalho de promoção iniciará em 24 de novembro às 8h50.
 
 ## Utilização do Screens Launch {#using-launches}
 
@@ -112,9 +112,9 @@ Siga as etapas abaixo para implementar a funcionalidade Screens Launch no seu pr
    ![imagem](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
-   >Você pode usar **+ Adicionar canais** opção para adicionar outro canal para o qual deseja criar a inicialização.
+   >Você pode usar o **+ Adicionar canais** opção para adicionar outro canal para o qual deseja criar a inicialização.
 
-   Para usar **Adicionar canais** navegue até o canal para o qual deseja criar a inicialização e clique em **Selecionar**.
+   Para usar o **Adicionar canais** navegue até o canal para o qual deseja criar a inicialização e clique em **Selecionar**.
 
    A variável **Selecionar** A opção estará desativada se você tentar clicar em vários canais ou em uma pasta para adicionar o lançamento.
 
@@ -146,7 +146,7 @@ Siga as etapas abaixo para implementar a funcionalidade Screens Launch no seu pr
 
      >[!CAUTION]
      >
-     >A data de lançamento respeita o fuso horário do player/dispositivo em vez do servidor.
+     >A data de inicialização respeita o fuso horário do player/dispositivo em vez dos servidores.
 
 1. Observe que o seu lançamento foi criado. Você pode clicar em **Abertura** para exibir as páginas no editor ou clique em **Concluído** para navegar de volta ao seu projeto.
 
@@ -162,7 +162,7 @@ Siga as etapas abaixo para implementar a funcionalidade Screens Launch no seu pr
 Após a criação da inicialização, é possível atualizar as propriedades, como data de ativação, título da inicialização e escopo da promoção, usando **Propriedades do lançamento**.
 
 * **Data de lançamento** - A data em tempo real, ou seja, a data ou hora em que o conteúdo é reproduzido no reprodutor do Screens de acordo com o fuso horário do reprodutor.
-* **Pronto para produção** - Permite que os canais sejam publicados após promovê-los, isso é ativado para pronta utilização, portanto, não é necessário alterá-lo.
+* **Pronto para produção** - Após a promoção, permite que os canais sejam publicados e o pronto para uso é ativado, então não é necessário alterá-lo.
 * **Escopo** - Decide quais canais são promovidos durante a promoção do lançamento.
 
 Siga as etapas abaixo para editar as propriedades do lançamento:
@@ -179,11 +179,11 @@ Siga as etapas abaixo para editar as propriedades do lançamento:
 
    ![imagem](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Editar o lançamento do Screens para adicionar ou remover canais  {#editing-the-screens-launch-to-add-or-remove-channels}
+### Editar o lançamento do Screens para adicionar ou remover canais {#editing-the-screens-launch-to-add-or-remove-channels}
 
-Após criar a inicialização, é possível adicionar ou remover canais da inicialização existente usando **Editar lançamento** opção.
+Após criar a inicialização, é possível adicionar ou remover canais da inicialização existente usando o **Editar lançamento** opção.
 
-Quando terminar, clique em **Salvar** para navegar de volta para **Lançamento futuro** canal.
+Quando terminar, clique em **Salvar** para voltar para a **Lançamento futuro** canal.
 
 ### Promover o lançamento do Screens manualmente{#promote-the-screens-launch-manually}
 
@@ -204,7 +204,7 @@ Você pode escolher os recursos que deseja promover como parte dessa promoção 
 
 ### Excluir o lançamento do Screens
 
-É possível excluir o lançamento usando **Excluir lançamento** opção no **LANÇAMENTOS PENDENTES** painel.
+É possível excluir o lançamento usando a variável **Excluir lançamento** opção no **LANÇAMENTOS PENDENTES** painel.
 
 >[!CAUTION]
 >

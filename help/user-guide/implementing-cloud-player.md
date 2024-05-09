@@ -8,14 +8,14 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
 
-# Implementação do Cloud Player  {#implementing-cloud-player}
+# Implementação do Cloud Player {#implementing-cloud-player}
 
 Tradicionalmente, a AEM Screens oferece aplicativos de player nativos distintos para várias plataformas, incluindo ChromeOS, Windows, Android™ e `Tizen`. No entanto, em resposta às necessidades crescentes dos usuários, o Adobe apresentou uma solução inovadora: o AEM Screens Cloud Player.
 
@@ -34,7 +34,7 @@ Esta seção descreve como implementar o Cloud Player.
 A instalação do Cloud Player pode variar em plataformas diferentes. Em geral, qualquer plataforma com um navegador moderno pode executar o aplicativo do Cloud Player seguindo estas etapas:
 
 1. Abra o navegador e insira o [URL do Cloud Player](https://player.adobescreens.com/content/dam/universal-player/firmware.html) na barra de endereços.
-1. O navegador verifica se o Cloud Player pode ser instalado e, em seguida, mostra um ícone de instalação na barra de endereços.
+1. O navegador verifica se o Cloud Player pode ser instalado e mostra um ícone de instalação na barra de endereços.
 
    ![imagem](/help/user-guide/assets/cloud-player-install.png)
 
@@ -45,13 +45,13 @@ A instalação do Cloud Player pode variar em plataformas diferentes. Em geral, 
 >### Opção de instalação do Cloud Player {#cloud-player-install-option}
 >
 1. A opção de instalação de um PWA também é conhecida como &quot;Adicionar à tela inicial&quot; ou recurso A2HS. O suporte para a instalação de PWA na Web varia de acordo com o navegador e a plataforma.
-1. Cada navegador tem critérios diferentes para verificar se o aplicativo PWA é instalável ou não. Geralmente, o navegador verifica estes (mais detalhes aqui):
+1. Cada navegador tem critérios diferentes para verificar se o aplicativo PWA é instalável ou não. Geralmente, o navegador pode verificar (mais detalhes aqui):
 >
-* Se o aplicativo tiver um arquivo JSON de manifesto com o mínimo de chaves necessárias para instalar o aplicativo na plataforma, ou seja, nome, ícones, start_url, exibição
+* Se o aplicativo tiver um arquivo manifest json com o mínimo de chaves necessárias para instalar o aplicativo na plataforma, ou seja, nome, ícones, start_url, exibição
 * Se o aplicativo tiver um arquivo do service worker com um ouvinte de eventos de busca
 * O aplicativo deve ser distribuído via https
 >
-1. A opção Instalar pode estar visível em locais diferentes em navegadores e tipos de dispositivos diferentes. Alguns navegadores podem ocultar o ícone de instalação na barra de menu de opções.
+1. A opção de instalação pode estar visível em locais diferentes em navegadores e tipos de dispositivos diferentes. Alguns navegadores podem ocultar o ícone de instalação na barra de menu de opções.
 
 ## Cloud Player de provisionamento em massa {#bulk-provisioning}
 
@@ -62,18 +62,21 @@ Para fazer o provisionamento em massa do Cloud Player em vários dispositivos:
 
    1. Hospede config.json em um servidor de modo que seja acessível como: `https://<config_server_host>/config.json`
    1. Para instalar o Cloud Player e aplicar as configurações hospedadas, use o URL do Cloud Player, como: `https://player.adobescreens.com?playerConfigAddress=https://<config_server_host>`
-   1. O aplicativo Cloud Player procura config.json na raiz do &lt;config_server_host>, analise o config.json para obter as configurações personalizadas e aplicá-las.
+   1. O aplicativo Cloud Player procura config.json na raiz do &lt;config_server_host>, em seguida, analisa config.json para obter as configurações personalizadas e aplicá-las.
    1. Essas configurações são aplicadas a cada recarregamento do reprodutor.
 
 ## Provisionamento em massa no Chrome OS {#bulk-provisioning-chrome}
 
-Saiba mais sobre o provisionamento em massa no Chrome OS, consulte [Instalar o Cloud Player no Chrome OS](https://www.adobe.com/go/aem_screens_cloud_player_en).
+Saiba mais sobre o provisionamento em massa no Chrome OS. Consulte [Instalar o Cloud Player no Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). &lt;!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` >
 
 ## Configuração necessária em instâncias do AEM {#bulk-provisioning-config-aem}
 
-Com base no tipo de instância AEM, clique em um dos guias a seguir para habilitar o CORS b/w AEM e o cloud player:
-* [AEM no local/AMS](https://www.adobe.com/go/aem_screens_cors_ams_en)
-* [AEM Cloud Service](https://www.adobe.com/go/aem_screens_cors_aemaacs_en)
+Com base no tipo de ocorrência de AEM, clique em um dos guias a seguir para ativar o CORS b/w AEM e o Cloud Player:
+
+* [AEM no local/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
+
+* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
+
 
 >[!NOTE]
 >
@@ -89,7 +92,7 @@ Devido ao processo de desativação do Google, a partir do Google Chrome versão
 
 ## Suporte off-line para recuperação de conteúdo externo {#offline-support}
 
-Em vários cenários de uso, os canais podem exigir a recuperação de conteúdo de uma fonte externa (por exemplo, widgets meteorológicos ou Aplicativos de página única integrados ao Commerce) que não podem inerentemente fornecer suporte offline. Para ativar a funcionalidade offline para esses casos de uso específicos, o Cloud Player oferece suporte para cabeçalho personalizado.
+Em vários cenários de uso, os canais podem exigir a recuperação de conteúdo de uma fonte externa (por exemplo, widgets meteorológicos ou Aplicativos de página única integrados à Commerce) que não podem inerentemente fornecer suporte offline. Para ativar a funcionalidade offline para esses casos de uso específicos, o Cloud Player oferece suporte para cabeçalho personalizado.
 
 O Cloud Player emprega uma estratégia de cache Network First, o que significa que ele tenta buscar conteúdo da rede (em seguida, atualizar o cache com o mais recente), retornando ao conteúdo em cache, se disponível. Para implementar o suporte offline para essa recuperação de conteúdo, o cabeçalho personalizado deve ser incluído na solicitação. Em seguida, a solicitação com o cabeçalho personalizado é armazenada em cache no reprodutor, facilitando o acesso offline ao conteúdo e mantendo a estratégia de cache Rede primeiro.
 

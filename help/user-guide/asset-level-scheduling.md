@@ -1,13 +1,13 @@
 ---
 title: Ativação em nível de ativo
-description: Saiba como ativar um ativo específico em um canal para um período agendado no fuso horário local do reprodutor.
+description: Saiba como ativar um ativo específico em um canal para um período agendado, tudo no fuso horário local do reprodutor.
 feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1477'
 ht-degree: 1%
 
 ---
@@ -38,11 +38,11 @@ Os seguintes tópicos são abordados nesta seção:
 
 ## Visão geral {#overview}
 
-***Ativação em nível de ativo*** permite ativar um ativo específico em um canal para um período agendado no fuso horário local do reprodutor. Ele está disponível para imagens, vídeos, transições, páginas e canais incorporados (dinâmico ou estático).
+***Ativação em nível de ativo*** permite ativar um ativo específico em um canal para um intervalo de tempo agendado, tudo dentro do fuso horário local do reprodutor. Essa capacidade está disponível para imagens, vídeos, transições, páginas e canais incorporados (dinâmico ou estático).
 
 *Por exemplo*, você deseja que uma promoção especial seja exibida somente durante o happy hour (das 14h às 17h) nas segundas e quartas-feiras.
 
-Com esse recurso, é possível especificar não apenas a data e a hora de início e término, mas também um padrão de recorrência.
+Com esse recurso, é possível especificar uma data e hora de início e término, além de um padrão de recorrência.
 
 ## Janela de ativação {#single-event-playback}
 
@@ -58,8 +58,8 @@ Siga as etapas abaixo para executar a programação no nível do ativo:
    >
    >Para saber mais detalhes sobre como
    >
-   >* Para criar um projeto, consulte [Criação de um novo projeto](creating-a-screens-project.md).
-   >* Criar e adicionar conteúdo a um canal, consulte [Gerenciamento de canais](managing-channels.md).
+   >* Crie um projeto. Consulte [Criação de um novo projeto](creating-a-screens-project.md).
+   >* Criar e adicionar conteúdo a um canal. Consulte [Gerenciamento de canais](managing-channels.md).
 
 1. Clique em **Editar** para poder abrir o editor de canais e clicar em um ativo ao qual deseja aplicar o agendamento.
 
@@ -174,7 +174,7 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 | **Expressão** | **Interpretação** |
 |---|---|
-| `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | o ativo é reproduzido no canal entre 6h e 18h nas segundas e quartas-feiras de janeiro ao final de março |
+| `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | o ativo é reproduzido no canal entre 6h e 18h, nas segundas e quartas-feiras de janeiro até o final de março |
 | `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua sendo reproduzido todo o dia de 2 de janeiro até as 3h de 3 de janeiro |
 | `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua a ser reproduzido até às 3h de 2º de janeiro e, em seguida, recomeça em 2 de janeiro às 14h e continua a ser reproduzido até às 3h de 3º de janeiro |
 
@@ -214,7 +214,7 @@ Siga as etapas abaixo para clicar em vários ativos e agendar sua exibição em 
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
-1. Clique em atualizar para verificar os ativos aos quais a programação de vários ativos é aplicada.
+1. Clique em atualizar para verificar os ativos aos quais o agendamento de vários ativos é aplicado.
 
    >[!NOTE]
    >
@@ -226,11 +226,11 @@ Siga as etapas abaixo para clicar em vários ativos e agendar sua exibição em 
 
 ***Substituição global para hora de início universal***, é uma configuração que permite ao Autor de conteúdo definir a reprodução de uma imagem ou de um ativo de vídeo com base em um momento específico. A configuração de hora/fuso horário de qualquer player individual não é usada.
 
-Normalmente, a reprodução é determinada pela hora local de qualquer player, mas com a substituição global, uma hora de início específica e universal pode ser usada para iniciar a reprodução do ativo.
+Normalmente, a hora local de qualquer player determina a reprodução. Mas com a substituição global, uma hora de início específica e universal pode ser usada para iniciar a reprodução do ativo.
 
-Isso permite que o Autor de conteúdo designe a reprodução de um ativo específico como ocorrendo em uma data/hora específica, independentemente do relógio local em todos os players com o conteúdo atribuído.
+Dessa forma, o Autor de conteúdo pode designar a reprodução de um ativo específico. Eles podem fazer com que isso ocorra em uma data/hora específica, independentemente do relógio local em qualquer player que tenha o conteúdo atribuído.
 
-A Substituição Global para Horário de Início Universal é feita configurando o **Ativação** ao acessar as propriedades de um ativo. Siga as etapas abaixo para executar uma Sobreposição Global para a programação de ativos:
+***Substituição global para hora de início universal*** é feito configurando o **Ativação** ao acessar as propriedades de um ativo. Siga as etapas abaixo para executar uma Sobreposição Global para a programação de ativos:
 
 1. Clique em qualquer canal e, em seguida, em **Editar** na barra de ações para que você possa adicionar ou editar o conteúdo no seu canal.
 
@@ -241,6 +241,6 @@ A Substituição Global para Horário de Início Universal é feita configurando
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
-1. Para uma Sobreposição Global, informe o horário de ativação na **Substituição de fuso horário** para o ativo. Se você não inserir nada nesta área, o fuso horário aplicado será o fuso horário do reprodutor.
+1. Para uma sobreposição global, informe o horário de ativação no campo **Substituição de fuso horário** para o ativo. Se você não inserir nada nesta área, o fuso horário aplicado será o fuso horário do reprodutor.
 
 

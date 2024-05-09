@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2135'
 ht-degree: 0%
 
 ---
@@ -247,7 +247,7 @@ Instale uma versão mínima do AEM 6.5 Feature Pack 8 para que o conector AMS fu
 
 O serviço é usado para definir o nome de host público para as instâncias de autor e publicação, e os valores são usados para atualizar os URLs do servidor do dispositivo e também para o direcionamento do ContextHub.
 
-O serviço Externalizador de link CQ no Screens pode ser configurado por meio de:
+O serviço Externalizador de link CQ no Screens pode ser configurado da seguinte maneira:
 
 1. Navegue até `http://localhost:4502/system/console/configMgr`
 1. Day CQ Link Externalizer
