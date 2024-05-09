@@ -2,9 +2,9 @@
 title: Rede Corporativa Fechada
 description: Rede Corporativa Fechada
 exl-id: b8c52e72-86da-4089-ba02-0c643862419f
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Siga as etapas abaixo para garantir a conexão correta dos reprodutores de tela 
 
 1. Verifique se a Configuração do Adaptador de Rede corresponde às Configurações do Roteador e se o número máximo de endereços IP disponíveis na rede não foi atingido.
 
-1. Verifique se o roteador está conectado corretamente à rede de longa distância ISP (Internet Link). Isso também pode ser identificado usando um LED de sinal nos roteadores padrão.
+1. Verifique se o roteador está conectado corretamente à rede de longa distância ISP (Internet Link). Essa conexão também pode ser identificada com o uso de um LED de sinal nos roteadores padrão.
 1. Caso a chamada de URL seja bem-sucedida, você pode continuar instalando o AEM Screens e se registrar. Inicie o AEM Screens.
 
    >[!NOTE]
@@ -50,7 +50,7 @@ A Configuração de Rede Corporativa Incluída pode ser separada logicamente em 
 ### Rede de longa distância {#wan-connection}
 
 O desempenho da conexão com a Internet, além da acessibilidade da rede, tem de fornecer largura de banda suficiente para operar atualizações de conteúdo do AEM Screens sem problemas.
-*Largura de banda suficiente* depende do número de telas AEM conectadas e do uso de outros consumidores na rede, como smartphones, tablets, caixas, computadores ou redes Wi-Fi guest.
+*Largura de banda suficiente* depende do número de AEM Screens conectados. Também depende do uso de outros consumidores na rede, como smartphones, tablets, caixas, computadores ou redes Wi-Fi guest.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Por exemplo, os componentes de rede devem corresponder pelo menos ao padrão de 
 As redes corporativas têm vários dispositivos conectados, são separadas em várias sub-redes e têm conexões de Internet redundantes ou multiplexadas para fornecer desempenho suficiente para milhares de acessos simultâneos.
 Esse esquema é simplificado e se adapta à maioria dos casos aos ambientes disponíveis para o cliente.
 
-No caso de se prever uma solução Wi-Fi para ligar o Screens à ligação Internet, recomenda-se a utilização de normas Wi-Fi modernas, como `IEEE 802.11g` no mínimo. Este padrão suporta conexões de até 54 Mbps. Qualquer *mais recente* Padrões como `802.11h-n` são de melhor qualidade. Se um repetidor Wi-Fi for necessário, o Adobe recomenda tecnologias de ponto de acesso Wi-Fi em malha, como Google Nest Mesh Wi-Fi ou semelhante.
+No caso de se prever uma solução Wi-Fi para ligar o AEM Screens à ligação Internet, recomenda-se a utilização de normas Wi-Fi modernas, como `IEEE 802.11g` no mínimo. Este padrão suporta conexões de até 54 Mbps. Qualquer *mais recente* Padrões como `802.11h-n` são de melhor qualidade. Se um repetidor Wi-Fi for necessário, o Adobe recomenda tecnologias de ponto de acesso Wi-Fi em malha, como Google Nest Mesh Wi-Fi ou semelhante.
 Outras tecnologias repetitivas Wi-Fi causam uma perda maciça de largura de banda na rede como um todo.
 
 ## Download de mídia e ativos {#download}
@@ -83,6 +83,6 @@ Para cenários onde há mais interações com sensores ou acionadores e conteúd
 A tabela a seguir fornece uma visão geral dos dados principais de conectividade de rede.
 
 >[!NOTE]
->As informações permitem visualizar o consumo de cada dispositivo na rede que solicita e faz o download de uma origem na Internet. Cada uma dessas solicitações adiciona e estende o Tempo de download.
+>As informações permitem visualizar o consumo de cada dispositivo na rede, solicitando e baixando uma fonte da Internet. Cada uma dessas solicitações adiciona e estende o Tempo de download.
 
 ![](/help/using/assets/enclosed-network-download.png)

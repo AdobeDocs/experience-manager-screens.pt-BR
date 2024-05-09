@@ -2,9 +2,9 @@
 title: Rede móvel direta
 description: Saiba mais sobre a configuração de rede móvel direta no AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ Os players da AEM Screens também podem ser conectados usando redes móveis ou c
 
 No AEM Screens, o conteúdo necessário é baixado fisicamente para o controlador do player ou computador e armazenado corretamente no sistema operacional subjacente. Portanto, a largura de banda fornecida afeta apenas os tempos de download iniciais e as atualizações de conteúdo, e não influencia o desempenho da reprodução regular de exibições.
 
-A vantagem de conectar os players de AEM Screens pela rede celular 3/4/5G ao seu provedor de dados de serviço móvel é que o roteador móvel pode ser colocado em um ponto otimizado para garantir a melhor cobertura de rede disponível. Esta é geralmente em uma posição elevada e aberta, com o menor número possível de estruturas de concreto ou metal circundantes.
+A vantagem de conectar os players de AEM Screens sobre celular 3/4/5G ao seu provedor de dados de serviço móvel é que o roteador móvel pode ser colocado em um ponto otimizado. Isso garante a melhor cobertura de rede disponível. Esta localização é geralmente em uma posição elevada e aberta, com o menor número possível de estruturas de concreto ou metal circundantes.
 
-Essa configuração permite que os usuários da tela AEM tenham uma grande flexibilidade, pois não é necessária uma conexão fixa para se conectar ao AEM Screens. Isso é interessante para configurações efêmeras ou móveis.
+Essa configuração permite que os usuários da tela AEM tenham grande flexibilidade porque não é necessária uma conexão fixa para se conectar ao AEM Screens. Esta disposição é interessante para configurações efêmeras ou móveis.
 
-O diagrama a seguir mostra a Configuração de rede móvel direta e consiste em um segmento único de conexão de rede e a conexão de cada player à rede de dados móveis ou celulares.
+O diagrama a seguir mostra a Configuração direta da rede móvel. Consiste em um segmento único de conexão de rede e a conexão de cada player à rede de dados móvel ou celular.
 
 ![](/help/using/assets/direct-mobile-1.png)
 
@@ -34,7 +34,7 @@ Siga as etapas abaixo para garantir a conexão correta dos reprodutores de tela 
    >[!NOTE]
    >Se você receber uma mensagem de erro, verifique as configurações de rede e verifique se há um link de rede suficiente. Verifique também se o firewall do sistema operacional está configurado para permitir o acesso à rede ao usar as portas de comunicação configuradas da AEM Screens.
 
-1. Caso a chamada de URL seja bem-sucedida, você pode continuar instalando o AEM Screens e se registrar. Inicie o AEM Screens.
+1. Se a chamada de URL for bem-sucedida, você poderá continuar instalando o AEM Screens e se registrar. Inicie o AEM Screens.
 
 ## Configurando a rede móvel direta {#requirements-direct}
 
@@ -68,7 +68,7 @@ Como acompanhamento, o pacote de dados necessário deve ser pelo menos:
 
 
 >[!IMPORTANT]
->Para o upload inicial de arquivos de mídia, por exemplo, ao integrar novos players, uma quantidade maior de dados e um tempo de download maior devem ser esperados e refletidos nas suposições acima. Uma rede 4G com *bom* cobertura e *ilimitado* Os dados devem corresponder às instalações mais comuns nesta Configuração de rede.
+>Para o upload inicial de arquivos de mídia ao integrar novos players, uma quantidade maior de dados e um tempo de download maior devem ser esperados; isso se reflete nas suposições acima. Uma rede 4G com *bom* cobertura e *ilimitado* Os dados devem corresponder às instalações mais comuns nesta Configuração de rede.
 
 >[!NOTE]
 >Um plano 3G mínimo com boa cobertura de rede deve levar a um desempenho de download aceitável para um AEM Screens Player. Se houver apenas uma cobertura razoável disponível em um local específico, considere alternar a Configuração de rede geral para [Rede Móvel com Roteador de Dados Móvel e Componentes de Rede Ativos](/help/using/mobile-network-router.md).

@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '775'
 ht-degree: 1%
 
 ---
@@ -32,11 +32,11 @@ Esta seção abrange os seguintes tópicos:
 
 ## Visão geral {#overview}
 
-A Sobreposição de texto é um recurso disponível no AEM Screens que permite criar uma experiência atraente em um canal de sequência fornecendo um título ou uma descrição sobreposta sobre uma imagem.
+A Sobreposição de texto é um recurso disponível no AEM Screens. Ele permite criar uma experiência atraente em um canal de sequência ao fornecer um título ou uma descrição sobreposta sobre uma imagem.
 
 Para saber como criar seu próprio componente personalizado, consulte **Extensão de um componente do AEM Screens**.
 
-Esta seção mostra apenas como usar e aplicar o componente de pôster em um projeto do AEM Screens e usá-lo como sobreposição de texto em um de seus canais de sequência.
+Esta seção mostra apenas como usar e aplicar o componente de pôster em um projeto do AEM Screens. Ele também mostra sua utilização como uma sobreposição de texto em um dos canais de sequência.
 
 ## Uso de sobreposição de texto {#using-text-overlay}
 
@@ -48,11 +48,11 @@ Antes de implementar essa funcionalidade, configure um projeto como pré-requisi
 
 * Criar um projeto do AEM Screens (neste exemplo, **DemonstraçãoDeSobreposiçãoDeTexto**)
 
-* Criar um canal de sequência com o título **TextSample** em **Canais** pasta
+* Criar um canal de sequência com o título **TextSample** no **Canais** pasta
 
 * Adicionar conteúdo ao seu **TextSample** Canal
 
-A imagem a seguir mostra o **DemonstraçãoDeSobreposiçãoDeTexto** projeto com **TextSample** entrada de canal **Canais** pasta.
+A imagem a seguir mostra o **DemonstraçãoDeSobreposiçãoDeTexto** projeto com o **TextSample** canal no **Canais** pasta.
 
 ![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
 
@@ -84,11 +84,11 @@ Usando as propriedades de Sobreposição de texto, é possível adicionar texto 
 
 >[!NOTE]
 >
->Para usar ferramentas otimizadas corretamente, identifique a posição correta em pixels usando (px) como sufixo, por exemplo, 200 px. O resultado dessa expressão é 200 pixels a partir do ponto inicial.
+>Ao usar ferramentas refinadas, identifique a posição correta em pixels usando (px) como sufixo, por exemplo, 200 px. O resultado dessa expressão é 200 pixels a partir do ponto inicial.
 
 ## Utilização de valores do ContextHub na sobreposição de texto {#using-text-overlay-context-hub}
 
-A seção a seguir descreve o uso de valores de um armazenamento de dados, por exemplo, google sheets em componente de sobreposição de texto.
+A seção a seguir descreve o uso de valores de um armazenamento de dados, por exemplo, google sheets no componente de sobreposição de texto.
 
 **Pré-requisitos**
 
@@ -118,7 +118,7 @@ Depois de definir as configurações necessárias para o seu projeto, siga as et
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
-1. Adicione um componente de sobreposição de imagem e texto à imagem, conforme descrito em [Uso de sobreposição de texto](/help/user-guide/text-overlay.md#using-text-overlay) seção desta página.
+1. Adicione um componente de sobreposição de imagem e texto à imagem, conforme descrito na [Uso de sobreposição de texto](/help/user-guide/text-overlay.md#using-text-overlay) seção desta página.
 
 1. Clique em **Configurar** (ícone de chave inglesa) para abrir a **Imagem** caixa de diálogo.
 

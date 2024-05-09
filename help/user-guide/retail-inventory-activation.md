@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ O caso de uso a seguir demonstra três imagens diferentes com base nos valores n
 
 ## Descrição {#description}
 
-Este caso de uso mostra o estoque de estoque de estoque de varejo para três camisetas coloridas diferentes. Dependendo do número de camisetas disponíveis em estoque gravadas no Google Sheets, a imagem (camiseta vermelha, verde ou azul) com o número mais alto é exibida na tela.
+Este caso de uso mostra o estoque de estoque de estoque de varejo para três camisetas coloridas diferentes. Dependendo do número de camisetas disponíveis em estoque gravadas no Google Sheets, a imagem (camiseta vermelha, verde ou azul) com o número mais alto será exibida.
 
-Para esse caso de uso, o suéter Vermelho, Verde ou Azul é exibido em sua tela com base no valor mais alto do número de suéteres disponíveis.
+O suéter Vermelho, Verde ou Azul é exibido com base no valor mais alto do número de suéteres disponíveis.
 
 ## Pré-condições {#preconditions}
 
@@ -55,22 +55,22 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de Inventári
    1. Arraste e solte a variável **Comparação : Propriedade - Propriedade** ao editor.
    1. Clique em **Configuração** ícone.
    1. Clique em **googlesheets/value/1/2** no menu suspenso em **Nome da primeira propriedade**.
-   1. Clique em **Operador** as **maior que** no menu suspenso.
-   1. Clique em **Tipo de dados** as **número**.
+   1. Clique em **Operador** e como **maior que** no menu suspenso.
+   1. Clique em **Tipo de dados** e como **número**.
    1. Clique em **googlesheets/value/1/1** no menu suspenso em **Nome da segunda propriedade**.
    1. Arrastar e soltar **outra Comparação : Propriedade - Propriedade** ao editor e clique no botão **Configuração** ícone.
    1. Clique em **googlesheets/value/1/2** no menu suspenso em **Nome da primeira propriedade**.
-   1. Clique em **Operador** as **maior que** no menu suspenso.
-   1. Clique em **Tipo de dados** as **número**.
+   1. Clique em **Operador** e como **maior que** no menu suspenso.
+   1. Clique em **Tipo de dados** e como **número**.
    1. Clique em **googlesheets/value/1/0** no menu suspenso em **Nome da segunda propriedade**.
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
-   Da mesma forma, edite e adicione regras de propriedade de comparação a **For_Blue** conforme mostrado na figura abaixo:
+   Da mesma forma, edite e adicione regras de propriedade de comparação à **For_Blue** conforme mostrado na figura abaixo:
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
-   Da mesma forma, edite e adicione regras de propriedade de comparação a **For_Green** conforme mostrado na figura abaixo:
+   Da mesma forma, edite e adicione regras de propriedade de comparação à **For_Green** conforme mostrado na figura abaixo:
 
    ![screen_shot_2019-05-06at103418am](assets/screen_shot_2019-05-06at103418am.png)
 
@@ -85,7 +85,7 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de Inventári
 
    >[!CAUTION]
    >
-   >Você deveria ter configurado seu **ContextHub** **Configurações** uso do canal **Propriedades** > **Personalização** guia.
+   >É necessário que você já tenha configurado as **ContextHub** **Configurações** uso do canal **Propriedades** > **Personalização** guia.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 

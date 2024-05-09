@@ -9,16 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
 
 # Criando e Gerenciando Exibições {#creating-and-managing-displays}
 
-Uma exibição é um agrupamento virtual de telas posicionadas uma ao lado da outra. O visor é permanente para uma instalação. Esse é o objeto com o qual os autores de conteúdo trabalham e sempre se referem como exibição lógica, em vez de suas contrapartes físicas.
+Uma exibição é um agrupamento virtual de telas posicionadas uma ao lado da outra. O visor é permanente para uma instalação. É o objeto com o qual os autores de conteúdo trabalham e sempre se referem como exibição lógica, em vez de suas contrapartes físicas.
 
 Ao criar um local, é necessário criar uma exibição para o seu local.
 
@@ -40,7 +40,7 @@ Esta página mostra como criar e gerenciar exibições para o Screens.
 1. Navegue até o local apropriado, por exemplo `http://localhost:4502/screens.html/content/screens/TestProject`.
 1. Clique na pasta do local e clique em **Criar** que está ao lado do ícone de adição na barra de ações.
 1. Clique em **Exibir** do **Criar** e clique em **Próxima**.
-1. Enter **Nome** e **Título** para o seu local de exibição.
+1. Insira seu **Nome** e **Título** para o seu local de exibição.
 1. No **Exibir** escolha os detalhes do Layout. Escolha o desejado **Resolução**, como **Full HD**. Escolha o número de dispositivos horizontal e verticalmente.
 1. Clique em **Criar**.
 
@@ -48,7 +48,7 @@ A exibição (*StoreDisplay*) é criada e adicionada ao local (*San Jose*).
 
 ![exibição](assets/display.gif)
 
-Quando a exibição estiver na posição, a próxima etapa é criar uma configuração de dispositivo para essa exibição específica.
+Quando você tem uma exibição na posição, a próxima etapa é criar uma configuração de dispositivo para essa exibição específica.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Quando a exibição estiver na posição, a próxima etapa é criar uma configur
 >
 >Ao criar uma exibição para sua localização, atribua um canal à exibição para usar o conteúdo.
 >
->Consulte [Atribuir canais](channel-assignment.md) para saber como atribuir um canal à exibição.
+>Consulte a [Atribuir canais](channel-assignment.md) para saber como atribuir um canal à exibição.
 
 ## Criando uma nova configuração de dispositivo {#creating-a-new-device-config}
 
@@ -80,13 +80,13 @@ A configuração do dispositivo é criada e adicionada à exibição atual (na d
 >
 >Como mostrado na figura abaixo, se a configuração do dispositivo for exibida como não atribuída na variável **DISPOSITIVOS** se nenhum canal estiver atribuído a essa configuração de dispositivo específica.
 >
->Você deve ter conhecimento prévio sobre a criação e o gerenciamento de canais. Consulte [Criar e gerenciar canais](managing-channels.md) para obter mais detalhes.
+>Você deve ter uma compreensão prévia da criação e do gerenciamento de canais. Consulte [Criar e gerenciar canais](managing-channels.md) para obter mais detalhes.
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
 ## Exibir painel {#display-dashboard}
 
-O painel de exibição fornece painéis diferentes para gerenciar dispositivos de exibição e configurações de dispositivo para seu dispositivo.
+O painel de exibição fornece painéis diferentes para gerenciar dispositivos de exibição. Ela também permite configurar seu dispositivo.
 
 ![screen_shot_2018-08-23at42810pm](assets/screen_shot_2018-08-23at42810pm.png)
 
@@ -109,9 +109,9 @@ Clique em (**..**) no canto superior direito da janela **EXIBIR INFORMAÇÕES** 
 
 Clique em **Propriedades** para que você possa visualizar ou alterar as propriedades de sua exibição.
 
-Além disso, é possível ajustar o valor do temporizador de evento para o canal interativo em **Tempo ocioso** propriedade em **Exibir** guia. O valor padrão está definido como *300 segundos*.
+Além disso, é possível ajustar o valor do temporizador de evento para o canal interativo na **Exibir** guia. O valor padrão está definido como *300 segundos*.
 
-Uso **CRXDE Lite**, para acessar o **idleTimeout** propriedade, ou seja, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
+Uso **CRXDE Lite**, para acessar o **idleTimeout** propriedade, ou seja, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
 ### Painel Canais atribuídos {#assigned-channels-panel}

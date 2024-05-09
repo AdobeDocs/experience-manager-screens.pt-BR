@@ -1,31 +1,31 @@
 ---
 title: Aplicação de marca e estilo personalizados a sobreposições de texto
-description: Saiba como aplicar a marca e o estilo personalizados às Sobreposições de texto aplicadas aos ativos em um canal do AEM Screens.
+description: Saiba como aplicar marca e estilo personalizados a sobreposições de texto aplicadas a ativos em um canal do AEM Screens.
 contentOwner: Jyotika Syal
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
 
 # Marca e estilo personalizados para sobreposições de texto {#creating-custom-branding-styling}
 
-Saiba como aplicar marca e estilo personalizados a Sobreposições de texto aplicadas aos seus ativos em um canal do AEM Screens.
+Saiba como aplicar marca e estilo personalizados a sobreposições de texto aplicadas aos seus ativos em um canal do AEM Screens.
 
 ## Criação de marca e estilo personalizados para sobreposições de texto {#steps-custom-branding}
 
 Siga as etapas abaixo para criar marca e estilo personalizados para sobreposições de texto:
 
-1. Crie um projeto do AEM Screens. Este exemplo mostra a funcionalidade criando um projeto chamado **`customstyle`** e um canal intitulado **DemoBrand** , conforme mostrado na figura abaixo.
+1. Crie um projeto do AEM Screens. Este exemplo mostra a funcionalidade criando um projeto chamado **`customstyle`** e um canal intitulado **DemoBrand**, conforme mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
-1. No editor, arraste e solte uma imagem e adicione sobreposição de texto ao ativo.
+1. No editor, arraste e solte uma imagem e adicione uma sobreposição de texto ao ativo.
 
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
@@ -38,7 +38,7 @@ Siga as etapas abaixo para criar marca e estilo personalizados para sobreposiç�
 
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Criar *static.css* e defina as seguintes regras de css. Também é mostrado como exemplo na figura abaixo das regras de css.
+1. Criar um *static.css* e defina as seguintes regras de css. Também é mostrado como exemplo na figura abaixo das regras de css.
 
    ```shell
     //global styles
@@ -96,7 +96,7 @@ Siga as etapas abaixo para criar marca e estilo personalizados para sobreposiç�
 
 ### Atualizando ACLs {#updating-acls}
 
-Atualize as ACLs desses designs para que possam ser baixadas pelo reprodutor.
+Atualize as ACLs desses designs para que o reprodutor possa baixá-los.
 
 1. Navegue até administrador de usuários e escolha a `screens-<project>-devices group` e conceda permissão de leitura ao caminho de design personalizado.
 

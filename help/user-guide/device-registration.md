@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ O processo de registro de dispositivos é feito em duas máquinas separadas:
 
 >[!NOTE]
 >
->Depois de baixar o Windows Player mais recente (*.exe*), de [Downloads do reprodutor AEM 6.4](https://download.macromedia.com/screens/) siga as etapas no reprodutor para concluir a instalação ad-hoc:
+>Depois de baixar o Windows Player mais recente (*.exe*), do [Downloads do reprodutor AEM 6.4](https://download.macromedia.com/screens/) siga as etapas no reprodutor para concluir a instalação ad-hoc:
 >
 >1. Pressione e segure no canto superior esquerdo para abrir o painel de administração.
 >1. Navegue até **Configuração** no menu de ações à esquerda e insira o endereço do local da instância do AEM em **Servidor** e clique em **Salvar**.
@@ -69,7 +69,7 @@ O processo de registro de dispositivos é feito em duas máquinas separadas:
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Se a variável **Código de registro** for o mesmo em ambos os computadores, clique em **Validar** no AEM, conforme mostrado na etapa (6).
+1. Se a variável **Código de registro** for o mesmo em ambos os computadores, clique no link **Validar** no AEM, conforme mostrado na etapa (6).
 1. Defina o nome desejado para o dispositivo e clique em **Registrar**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
@@ -112,7 +112,7 @@ Se você não atribuiu o dispositivo a uma exibição, siga as etapas abaixo par
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Além disso, é possível exibir o painel de exibição ao selecionar **Concluir**.
+   Além disso, é possível exibir o painel de exibição selecionando **Concluir**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -144,19 +144,19 @@ Ao registrar dispositivos no reprodutor, você pode exibir todos os dispositivos
 * O usuário pode pesquisar qualquer palavra existente no *ID do dispositivo* ou *Nome do dispositivo*.
 
   >[!NOTE]
-  >É recomendável criar os nomes dos dispositivos em várias palavras, como *Lobby da Boston Store* em vez de um único *BostonStoreLobby*.
+  >É recomendável criar os nomes dos dispositivos em várias palavras, como *`Boston Store Lobby`* em vez de um único *`BostonStoreLobby`*.
 
-* Se você criar nomes de dispositivos como *Lobby da Boston Store*, ele pesquisa qualquer palavra *boston*, *loja* ou *lobby*. No entanto, se o nome do dispositivo for *BostonStoreLobby*, em seguida, procurando *boston* não mostra resultados.
+* Se você criou nomes de dispositivos como *`Boston Store Lobby`*, ele pesquisa qualquer palavra *`boston`*, *`store`* ou *`lobby`*. No entanto, se o nome do dispositivo for *`BostonStoreLobby`*, em seguida, procurando *`boston`* não mostra resultados.
 
-* Curinga, `*` O é compatível com a pesquisa. Caso queira localizar todos os dispositivos com nomes que comecem com *boston*, você pode usar *boston**.
+* Curinga, `*` O é compatível com a pesquisa. Caso queira localizar todos os dispositivos com nomes que comecem com *`boston`*, você pode usar *`boston`**.
 
-* Se o nome do dispositivo for *BostonStoreLobby* e pesquisando *boston* não retorna o resultado, usando *boston** nos critérios de pesquisa retorna o resultado.
+* Se o nome do dispositivo for *`BostonStoreLobby`* e pesquisando *`boston`* não retorna o resultado, usando *`boston`** nos critérios de pesquisa retorna o resultado.
 
 ## Limitações no registro de dispositivos {#limitations-on-device-registration}
 
 As restrições de senha de usuário em todo o sistema podem causar falha no registro do dispositivo. O registro do dispositivo usa uma senha gerada aleatoriamente para criar o usuário do dispositivo.
 
-Se a senha for restrita pelo *AuthorizableActionProvider* configuração, a criação do usuário do dispositivo pode falhar.
+Se a variável *AuthorizableActionProvider* restringe a senha, a criação do usuário do dispositivo pode falhar.
 
 >[!NOTE]
 >
