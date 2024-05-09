@@ -2,9 +2,9 @@
 title: Especificações do dispositivo
 description: Saiba mais sobre as especificações do dispositivo relacionadas ao AEM Screens.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Uma parte interessada típica dessa atividade é um Integrador de áudio/vídeo.
+>Uma parte interessada típica dessa atividade é um Integrador de áudio e vídeo.
 
 Com base nas informações coletadas durante *Dia Zero*, confirme as seguintes informações antes de iniciar o desenvolvimento:
 

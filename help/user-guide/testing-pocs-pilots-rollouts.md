@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,11 @@ A seção a seguir fornece uma visão geral dos principais termos envolvidos em 
 
 ### Prova de conceito (POC) {#proof-of-concept-poc}
 
-A finalidade de uma POC é obter feedback inicial sobre as principais funcionalidades de uma solução. Ele também oferece ao cliente final e ao Integrador de áudio/vídeo uma oportunidade de identificar áreas para aprimoramento e preparar suposições em relação às necessidades de mão de obra e demandas de recursos. Uma POC também permite que ambas as partes avaliem o desempenho da solução, que normalmente é medido por meio de:
+A finalidade de uma POC é obter feedback inicial sobre as principais funcionalidades de uma solução. Ele também oferece ao cliente final e ao Integrador de áudio e vídeo uma oportunidade de identificar áreas para aprimoramento e preparar suposições em relação às necessidades de mão de obra e demandas de recursos. Uma POC também permite que ambas as partes avaliem o desempenho da solução, que normalmente é medido por meio de:
 
 ### Controle de qualidade {#quality-control}
 
-O teste de integração de sistemas e software começa com a equipe de engenharia de TI do integrador de áudio/vídeo. Referenciando o projeto de sistema aprovado, a Equipe de engenharia de TI configura, implementa e supervisiona a instalação dos componentes de hardware em um &quot;ambiente de laboratório&quot; nas instalações do Integrador de áudio/vídeo. Isso permite uma análise e um teste minuciosos de toda a solução para controle de qualidade.
+O teste de integração de sistemas e software começa com a equipe de engenharia de TI do integrador de áudio-vídeo. Referenciando o projeto de sistema aprovado, a Equipe de engenharia de TI configura, implementa e supervisiona a instalação dos componentes de hardware em um &quot;ambiente de laboratório&quot; nas instalações do Integrador de áudio e vídeo. Isso permite uma análise e um teste minuciosos de toda a solução para controle de qualidade.
 
 Após a conclusão do teste de controle de qualidade, a equipe de engenharia de TI cria documentação, fluxos de trabalho e treinamento para referência durante o suporte do dia 2. Os aspectos do sistema a serem testados incluem:
 

@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Os componentes principais de um programa de sinalização digital necessários p
 * Estratégia de conteúdo
 * Requisitos de operações comerciais
 * Detecção de ambientes de TI e de rede
-* Requisitos de áudio/vídeo
+* Requisitos de áudio e vídeo
 * Especificação do equipamento
 * Disponibilidade do site
 
@@ -67,7 +67,7 @@ A inscrição de estratégias de Day-Part pode permitir que os clientes finais s
 
 As operações de negócios também são importantes para definir em conversas de estratégia de conteúdo. A formalização dos requisitos de suporte dos clientes finais pode ajudar a gerenciar as expectativas após a implantação, garantindo que os esforços de suporte sejam medidos adequadamente.
 
-### Requisitos de áudio/vídeo {#a-v-requirements}
+### Requisitos de áudio e vídeo {#a-v-requirements}
 
 Cenários de montagem também precisam de definição, assim como considerações em torno do acesso do dispositivo para manutenção do equipamento. Isso afeta não apenas o trabalho de instalação inicial e as recomendações de equipamento, mas também determina os requisitos contínuos de serviço e suporte.
 

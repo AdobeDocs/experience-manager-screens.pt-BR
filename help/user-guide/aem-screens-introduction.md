@@ -5,26 +5,26 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
 
 # O que é o Adobe Experience Manager Screens?{#what-is-aem-screens}
 
-**Experience Manager Screens** - uma Solução de sinalização digital que permite a publicação de experiências e interações digitais dinâmicas e interativas que envolvem diferentes tipos de telas, tudo em uma plataforma de marketing digital abrangente.
+**Experience Manager Screens** - uma solução de sinalização digital que permite a publicação de experiências e interações digitais dinâmicas e interativas que envolvem diferentes tipos de telas, tudo em uma plataforma de marketing digital abrangente.
 
 Comece a usar uma experiência de sinalização digital simples usando [Kickstart para o AEM Screens](kickstart-for-aem-screens.md).
 
-Para saber como configurar e criar um projeto Experience Manager Screens no Experience Manager as a Cloud Service, consulte [aqui](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide).
+Para saber como configurar e criar um projeto Experience Manager Screens no Experience Manager as a Cloud Service, consulte [aqui](https://experienceleague.adobe.com/br/docs/experience-manager-screens/using/about-guide).
 
 ## Visão geral {#overview}
 
-**Experience Manager Screens** é construído sobre a base sólida de ***Experience Manager Sites***. Ele permite que profissionais de marketing e equipe de TI criem e gerenciem experiências em várias telas digitais que afetam as metas na loja/no local para criar marca e impulsionar a demanda. A integração do Experience Manager Screens com o Sites permite reutilizar o conteúdo existente e fornecer com eficiência uma solução coerente e consistente para o cliente. Isso fornece um fluxo de trabalho simplificado para criar experiências digitais dedicadas que são altamente econômicas e utilizáveis. Além disso, ajuda a influenciar a percepção da marca e as decisões de impacto que levam ao aumento da compra e do engajamento.
+**Experience Manager Screens** é construído sobre a base sólida de ***Experience Manager Sites***. Ele permite que profissionais de marketing e equipe de TI criem e gerenciem experiências em várias telas digitais que afetam as metas na loja/no local para criar a marca e impulsionar a demanda. A integração do Experience Manager Screens com o Sites permite reutilizar o conteúdo existente e fornecer com eficiência uma solução coerente e consistente para o cliente. Esse fluxo de trabalho é simplificado para criar experiências digitais dedicadas que são altamente econômicas e utilizáveis. Além disso, ajuda a influenciar a percepção da marca e as decisões de impacto que levam ao aumento da compra e do engajamento.
 
-O Experience Manager Screens é uma solução poderosa baseada na Web que permite criar placas de menu digitais dedicadas, recomendações de produtos e imagens de estilo de vida em segundo plano para expandir a interação com o cliente. Ele ajuda você a fornecer experiências de marca unificadas e úteis em locais físicos, como lojas, hotéis, bancos, instituições de saúde e educacionais e muito mais, a partir da mesma plataforma Experience Manager. O Screens fornece vários aplicativos exclusivos, como exibições interativas, descoberta de estilo, marca e adição de ambiente ao seu ambiente para clientes e funcionários com base no domínio em que são implantados.
+O Experience Manager Screens é uma solução poderosa baseada na Web que permite criar placas de menu digitais dedicadas, recomendações de produtos e imagens de estilo de vida em segundo plano para expandir a interação com o cliente. Ele ajuda você a fornecer experiências de marca unificadas e úteis em locais físicos, como lojas, hotéis, bancos, instituições de saúde e educacionais e muito mais, a partir da mesma plataforma Experience Manager. O Screens fornece muitos aplicativos exclusivos. Por exemplo, exibições interativas, descoberta de modos, marcas e adição de ambiência ao ambiente para clientes e funcionários com base no domínio em que são implantados.
 
 Criar e gerenciar um aplicativo usando o Experience Manager Screens é simples e intuitivo. Um *aplicativo* O hospeda páginas da Web criadas para Experience Manager Screens por clientes ou parceiros de implementação. *Localizações* gerenciar hierarquias predefinidas e conter *exibições*. Cada exibição tem um painel que mostra diferentes dispositivos e telas conectados. O conteúdo dos Experience Manager Screens é gerenciado em *canais*. O Experience Manager Screens Player renderiza o conteúdo presente nos canais em exibições.
 
@@ -61,7 +61,7 @@ A figura a seguir define os perfis e suas funções para os Experience Manager S
 
 * **Guia de práticas recomendadas para projetos do Experience Manager Screens**
 
-  Seguir **[Guia de práticas recomendadas para projetos do Experience Manager Screens](/help/using/about-guide.md)** que foi projetado para identificar armadilhas comuns na implementação de um projeto Experience Manager Screens. O material se concentra principalmente em Funções e Responsabilidades do Projeto, Gráfico RACI para Diferentes Funções, Configurações da Plataforma Experience Manager e Suporte e Monitoramento.
+  Siga as **[Guia de práticas recomendadas para projetos do Experience Manager Screens](/help/using/about-guide.md)** que foi projetado para identificar armadilhas comuns na implementação de um projeto Experience Manager Screens. O material se concentra principalmente em Funções e Responsabilidades do Projeto. Ele se concentra no gráfico RACI para diferentes funções, configurações de plataforma de Experience Manager, suporte e monitoramento.
 
 <!-- DEAD LINK * **New Adobe Customer Support Experience**
 

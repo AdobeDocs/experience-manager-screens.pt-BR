@@ -2,10 +2,10 @@
 title: Sobre este guia
 description: Saiba mais sobre as práticas recomendadas para projetos do AEM Screens para planejar e executar projetos, desde o resumo estratégico e de design até a implantação e após o suporte.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 33%
+source-wordcount: '254'
+ht-degree: 45%
 
 ---
 
@@ -16,7 +16,7 @@ O Guia de práticas recomendadas do AEM Screens pretende fornecer orientações 
 O público-alvo deste documento é:
 
 * *Implementadores do AEM*
-* *Integradores de áudio/vídeo*
+* *Integradores de áudio e vídeo*
 * *Estrategistas de negócios*
 * *Gerentes de projeto*
 * *Consultores*
@@ -25,7 +25,7 @@ No entanto, deve-se salientar que muitas outras funções também podem se benef
 
 O AEM Screens é uma nova extensão do Adobe Experience Manager (AEM). Como as ferramentas são novas e suas possíveis aplicações variam, é essencial identificar considerações importantes e fatores de risco comuns envolvidos no desenvolvimento e na implantação do AEM Screens.
 
-Este guia fornece um insight abrangente e conselhos práticos para imaginar, projetar e proporcionar uma experiência do cliente consciente na implementação da sua sinalização digital. Ele também mostra como criar um impacto positivo na sua empresa usando algumas das práticas recomendadas seguidas ao implantar um projeto de sinalização digital no AEM Screens.
+Este guia fornece um insight abrangente e conselhos práticos para imaginar, projetar e proporcionar uma experiência do cliente consciente na implementação da sua sinalização digital. Ele também mostra como gerar um impacto positivo na sua empresa usando algumas das práticas recomendadas para implantação de um projeto de sinalização digital no AEM Screens.
 
 >[!IMPORTANT]
 >

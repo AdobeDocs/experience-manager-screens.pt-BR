@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '625'
 ht-degree: 10%
 
 ---
@@ -33,7 +33,7 @@ Esta seção abrange os seguintes tópicos:
 
 ## Sequenciamento no Adobe Analytics com AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-A variável ***processo de sequenciamento*** começa com o serviço de armazenamento de dados que ativa o serviço Adobe Analytics. O conteúdo do canal envia eventos do Adobe Analytics com folha de pagamento, ou seja, a captura do teste de dados para o Windows I/O e os eventos de permanência são acionados. Os eventos são salvos no banco de dados de índice e são colocados no armazenamento de objetos. Com base no agendamento que o administrador define, ele corta os dados do armazenamento de objetos e os transfere posteriormente no armazenamento de partes. Ele tenta enviar a quantidade máxima de dados quando conectado.
+A variável ***processo de sequenciamento*** O começa com um serviço de armazenamento de dados que ativa o serviço do Adobe Analytics. O conteúdo do canal envia eventos do Adobe Analytics com folha de pagamento, ou seja, a captura do teste de dados para o Windows I/O e os eventos de permanência são acionados. Os eventos são salvos no banco de dados de índice e são colocados no armazenamento de objetos. Com base no agendamento que o administrador define, ele corta os dados do armazenamento de objetos e os transfere posteriormente no armazenamento de partes. Ele tenta enviar a quantidade máxima de dados quando conectado.
 
 ### Diagrama de Sequenciamento {#sequencing-diagram}
 
@@ -63,7 +63,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td>recomendado</td> 
    <td>string</td> 
    <td>UUID</td> 
-   <td>Identificador exclusivo que identifica a instância de um evento</td> 
+   <td>Identificador exclusivo que identifica uma instância de um evento</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -81,7 +81,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td>recomendado</td> 
    <td>string</td> 
    <td>carimbo de data e hora - UTC</td> 
-   <td>Data e hora de início do evento, se você não tiver especificado essa data, a hora do evento será considerada como a hora em que foi recebida pelo servidor</td> 
+   <td>Data e hora de início do evento, se você não tiver especificado essa hora, a hora do evento será considerada como a hora pelo servidor quando ele foi recebido.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -207,7 +207,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td>opcional</td> 
    <td>string</td> 
    <td> </td> 
-   <td>URL da propriedade da web ou esquema móvel - deve incluir URL totalmente qualificado</td> 
+   <td>URL da propriedade da web ou esquema móvel - deve incluir um URL totalmente qualificado</td> 
   </tr>
   <tr>
    <td> </td> 

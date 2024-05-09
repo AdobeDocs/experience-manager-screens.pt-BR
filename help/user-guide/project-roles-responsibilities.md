@@ -1,29 +1,29 @@
 ---
 title: "Parte 1: Funções e responsabilidades do projeto"
-description: Neste tutorial, saiba como entender melhor as funções, responsabilidades e linhas do tempo necessárias durante os ciclos de vida de vendas e projetos para um projeto de sinalização digital.
+description: Neste tutorial, entenda as funções, responsabilidades e linhas do tempo necessárias durante os ciclos de vida de vendas e projetos para um projeto de sinalização digital.
 feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
 
 # Parte 1: Funções e Responsabilidades do Projeto {#part-project-roles-and-responsibilities}
 
-Esta página destaca a parte 1 de uma série de 5 partes, criada para ajudar os membros da equipe a entender melhor as funções, as responsabilidades e os cronogramas necessários durante o ciclo de vida de vendas e projetos de um projeto de sinalização digital.
+Esta página destaca a parte 1 de uma série de 5 partes. Ele foi projetado para ajudar os membros da equipe a entender melhor as funções, responsabilidades e cronogramas necessários durante o ciclo de vida de vendas e projetos para um projeto de sinalização digital.
 
 ## Visão geral {#overview}
 
-O tutorial a seguir aborda as Funções e responsabilidades do projeto para o Adobe, Implementadores de AEM e Integradores áudio/visuais em alto nível. Navegue até os episódios subsequentes para obter uma visão geral abrangente sobre como desenvolver oportunidades no AEM Screens com sucesso e posicionar implantações para obter sucesso a longo prazo.
+O tutorial a seguir aborda as funções e responsabilidades do projeto para o Adobe, implementadores de AEM e integradores áudio/visuais em alto nível. Navegue até os episódios subsequentes para obter uma visão geral abrangente sobre como desenvolver oportunidades no AEM Screens com sucesso e posicionar implantações para obter sucesso a longo prazo.
 
 Há três grupos principais envolvidos pelo processo de delivery dentro do seguinte:
 
 * Adobe
-* Integrador de áudio/vídeo
+* Integrador de áudio e vídeo
 * Equipe de implementação do AEM
 
 >[!NOTE]
@@ -32,7 +32,7 @@ Há três grupos principais envolvidos pelo processo de delivery dentro do segui
 
 ## Resumo das funções envolvidas em um projeto de sinalização digital {#summary-of-roles-involved-in-a-digital-signage-project}
 
-A definição de parâmetros de caso de uso de aplicativos em parceria com o Adobe, o Implementador AEM e o Integrador áudio/visual direciona o escopo do desenvolvimento de software. Esse processo garante que uma abordagem em fases seja estabelecida com benchmarks de desempenho e métricas de sucesso, todas identificadas no projeto.
+A definição de parâmetros de caso de uso de aplicativos em parceria com o Adobe, o Implementador AEM e o Integrador áudio/visual direciona o escopo de desenvolvimento de software. Esse processo garante que uma abordagem em fases seja estabelecida com benchmarks de desempenho e métricas de sucesso, todas identificadas no projeto.
 
 ### Adobe {#adobe}
 
@@ -44,11 +44,11 @@ Um **Implementador de AEM** O é responsável pela execução de tarefas de dese
 
 Os recursos personalizados necessários para lidar com parâmetros UX (experiência do usuário) do cliente final também são capturados e entregues por meio desse processo.
 
-Os implementadores de AEM normalmente implantam a funcionalidade personalizada em fases ao longo do tempo nos locais. Por exemplo, eles podem primeiro estabelecer suporte para a reprodução de vídeo em loop básico ou conteúdo gráfico estático. A próxima fase inclui a capacidade de oferecer suporte à reprodução de conteúdo localizado por meio de modelos dinâmicos e tags de metadados, com outras fases que incorporam suporte a elementos interativos por meio de telas sensíveis ao toque, sensores, acionadores dinâmicos e assim por diante.
+Os implementadores de AEM normalmente implantam a funcionalidade personalizada em fases ao longo do tempo nos locais. Por exemplo, eles podem primeiro estabelecer suporte para a reprodução de vídeo em loop básico ou conteúdo gráfico estático. A próxima fase inclui a habilitação da reprodução de conteúdo localizado por meio de modelos dinâmicos e tags de metadados. Inclui outras fases que incorporam suporte para elementos interativos por meio de telas sensíveis ao toque, sensores, acionadores dinâmicos e assim por diante.
 
-#### Integradores de áudio/vídeo {#av-integrators}
+#### Integradores de áudio e vídeo {#av-integrators}
 
-Um **Integrador de áudio/vídeo** O é responsável pela realização de descobertas com os clientes finais para definir os requisitos que determinam o escopo do projeto para projetar, criar e gerenciar com eficiência implantações em torno de hardware de sinalização digital.
+Um **Integrador de áudio e vídeo** O é responsável pela realização de descobertas com os clientes finais para definir os requisitos, determinando o escopo do projeto para projetar, criar e gerenciar com eficiência implantações em torno de hardware de sinalização digital.
 
 ## Parte 1: Tutorial em vídeo sobre funções e responsabilidades do projeto {#part-video-tutorial-on-project-roles-and-responsibilities}
 

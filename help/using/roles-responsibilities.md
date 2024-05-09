@@ -2,9 +2,9 @@
 title: Funções e responsabilidades do projeto AEM Screens
 description: Saiba mais sobre as funções e responsabilidades do projeto AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ Os recursos personalizados necessários para lidar com parâmetros UX (experiên
 
 Os implementadores de AEM normalmente implantarão a funcionalidade personalizada em fases ao longo do tempo nos locais. Por exemplo, eles podem primeiro estabelecer suporte para a reprodução de vídeo em loop básico ou conteúdo gráfico estático. A próxima fase inclui a capacidade de oferecer suporte à reprodução de conteúdo localizado por meio de modelos dinâmicos e tags de metadados, com outras fases que incorporam suporte a elementos interativos por meio de telas sensíveis ao toque, sensores, acionadores dinâmicos e assim por diante.
 
-### Integradores de áudio/vídeo {#av-integrators}
+### Integradores de áudio e vídeo {#av-integrators}
 
-O integrador de áudio/vídeo é o fornecedor/parceiro de hardware. Essa é a parte que lida com design de varejo e preparação de sites, incluindo aquisição, configuração e implantação de hardware. Normalmente, é um terceiro contratado que tem acesso a um NOC (Network Operations Center, centro de operações de rede). Muitas vezes, o Integrador de áudio/vídeo é o proprietário do projeto devido ao seu envolvimento contínuo após o lançamento.
+O integrador de áudio-vídeo é o fornecedor/parceiro de hardware. Essa é a parte que lida com design de varejo e preparação de sites, incluindo aquisição, configuração e implantação de hardware. Normalmente, é um terceiro contratado que tem acesso a um NOC (Network Operations Center, centro de operações de rede). Muitas vezes, o Integrador de áudio e vídeo é o proprietário do projeto devido ao seu envolvimento contínuo após o lançamento.
 
-Um Integrador de áudio/vídeo é responsável por conduzir a detecção com os clientes finais para definir os requisitos que determinam o escopo do projeto para projetar, criar e gerenciar com eficiência as implantações em torno do hardware de sinalização digital.
+Um Integrador de áudio e vídeo é responsável por conduzir a detecção com clientes finais para definir os requisitos que determinam o escopo do projeto para projetar, criar e gerenciar com eficiência implantações em torno de hardware de sinalização digital.
 
 #### Considerar parceiro de hardware {#selecting-hardware-partner}
 
@@ -120,7 +120,7 @@ Este é um exemplo de gráfico RACI usando as definições de função e fornece
 
 A tabela a seguir resume as **Dia Zero: Considerações sobre pré-vendas**:
 
-| **Fase** | **Integrador de áudio/vídeo** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
+| **Fase** | **Integrador de áudio e vídeo** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
 |---|---|---|---|---|
 | Formação de Equipe e Seleção de Fornecedor | I | I | RA | RA |
 | Acordo sobre Funções e Responsabilidades | RA | RA | RA | RA |
@@ -132,7 +132,7 @@ A tabela a seguir resume as **Dia Zero: Considerações sobre pré-vendas**:
 
 A tabela a seguir resume as **Primeiro dia: implementação do projeto (projeto de aplicativo)**:
 
-| **Fase** | **Integrador de áudio/vídeo** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
+| **Fase** | **Integrador de áudio e vídeo** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
 |---|---|---|---|---|
 | Acordo sobre Funções e Responsabilidades | RA | RA | RA | RA |
 | Alinhamento com o plano e o agendamento do projeto | RA | RA | C | C |
@@ -152,7 +152,7 @@ A tabela a seguir resume as **Primeiro dia: implementação do projeto (projeto 
 
 A tabela a seguir resume as **Primeiro dia: implementação do projeto (disponibilidade de varejo)**:
 
-| **Fase** | **Integrador de áudio/vídeo** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
+| **Fase** | **Integrador de áudio e vídeo** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
 |---|---|---|---|---|
 | Solicitação e armazenamento de hardware | RA | I | I | I |
 | Agendamento de integração de varejo | I | I | C | RA |
@@ -162,7 +162,7 @@ A tabela a seguir resume as **Primeiro dia: implementação do projeto (disponib
 
 A tabela a seguir resume as **Primeiro dia: primeiro dia: implementação do projeto (hardware)**:
 
-| **Fase** | **Integrador de áudio/vídeo** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
+| **Fase** | **Integrador de áudio e vídeo** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
 |---|---|---|---|---|
 | Acordo sobre Funções e Responsabilidades | RA | RA | RA | RA |
 | O projeto de varejo inclui operações de fiação | - | - | - | - |
@@ -179,7 +179,7 @@ A tabela a seguir resume as **Primeiro dia: primeiro dia: implementação do pro
 
 * **Desenvolvedor**: normalmente um membro da equipe de implementação do AEM Screens ou uma transferência para a equipe interna de desenvolvimento
 
-* **Técnico**: contratado pelo integrador de áudio/vídeo ou faz parte da mesma empresa.
+* **Técnico**: contratado pelo integrador de áudio-vídeo ou faz parte da mesma empresa.
 
 A tabela a seguir resume as **Dia dois: gráfico RACI de suporte pós-lançamento**:
 
