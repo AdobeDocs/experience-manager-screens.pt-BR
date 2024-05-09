@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '2426'
+source-wordcount: '2451'
 ht-degree: 1%
 
 ---
@@ -27,23 +27,23 @@ O uso de Sequências incorporadas dinâmicas abrange os seguintes tópicos:
 
 ## Visão geral {#overview}
 
-***Sequências incorporadas dinâmicas*** são criados para projetos grandes que seguem a hierarquia pai-filho, em que o filho é referenciado em uma pasta de local e não em uma pasta de canal. Ele permite que o usuário incorpore uma sequência em um canal ao ***Função do canal***. Ele permite que o usuário defina espaços reservados específicos de localização para diferentes escritórios usando uma sequência incorporada dentro de um canal principal.
+***Sequências incorporadas dinâmicas*** são criados para projetos grandes que seguem uma hierarquia pai-filho, em que o filho é referenciado em uma pasta de local e não em uma pasta de canal. Ele permite que o usuário incorpore uma sequência em um canal ao ***Função do canal***. Ele permite que o usuário defina espaços reservados específicos de localização para diferentes escritórios usando uma sequência incorporada dentro de um canal principal.
 
-Ao atribuir um canal a uma exibição, você tem a opção de especificar o caminho da exibição ou a função do canal que é resolvido para um canal real por contexto.
+Ao atribuir um canal a uma exibição, você tem a opção de especificar o caminho da exibição. Ou você pode especificar a função do canal que é resolvido para um canal real por contexto.
 
-Para usar a Sequência Incorporada Dinâmica, atribua um canal por ***Função do canal***. A Função do canal define o contexto da exibição. A função é direcionada por várias ações e é independente do canal real que desempenha a função. Esta seção descreve um caso de uso que define canais por função e como você pode aplicar esse conteúdo a um canal global. Você também pode considerar a função como um identificador para a atribuição, ou um alias para o canal no contexto do.
+Para usar a Sequência Incorporada Dinâmica, atribua um canal por ***Função do canal***. A Função do canal define o contexto da exibição. A função é direcionada a várias ações e é independente do canal real que cumpre a função. Esta seção descreve um caso de uso que define canais por função e como você pode aplicar esse conteúdo a um canal global. Você também pode considerar a função como um identificador para a atribuição, ou um alias para o canal no contexto do.
 
 ### Benefícios do uso de sequências incorporadas dinâmicas {#benefits-of-using-dynamic-embedded-sequences}
 
-O principal benefício de colocar um canal de sequência dentro de um local, em vez da pasta de canais, é permitir que autores locais ou regionais editem conteúdo relevante para eles. Tudo isso, enquanto estiver sendo impedido de editar canais em posições mais altas na hierarquia.
+Colocar um canal de sequência dentro de um local, em vez da pasta de canais, permite que autores locais ou regionais editem o conteúdo relevante para eles. Também permite que ele seja restrito a editar canais em posições mais altas na hierarquia.
 
-Fazendo referência a um *Canal por função*, permite criar a versão local de um canal para resolver dinamicamente o conteúdo específico do local e também permite criar um canal global que usa o conteúdo dos canais específicos do local.
+Fazendo referência a um *Canal por função*, permite criar uma versão local de um canal. Isso resolve dinamicamente o conteúdo específico do local e também permite criar um canal global que usa o conteúdo dos canais específicos do local.
 
 >[!NOTE]
 >
 >**Sequências incorporadas versus Sequências incorporadas dinâmicas**
 >
->Uma Sequência incorporada dinâmica é semelhante a uma sequência incorporada, mas permite que o usuário siga uma hierarquia em que as alterações/atualizações feitas em um canal são propagadas para outro relacionado. Ela segue a hierarquia pai/filho e também inclui ativos como imagens ou vídeos.
+>Uma Sequência Incorporada Dinâmica é semelhante a uma sequência incorporada, mas permite que o usuário siga uma hierarquia em que as alterações e as atualizações feitas em um canal são propagadas para outro relacionado. Ela segue uma hierarquia pai-filho e também inclui ativos como imagens ou vídeos.
 >
 >***Sequências incorporadas dinâmicas*** permite exibir conteúdo específico de localização, enquanto ***Sequências incorporadas*** exibir somente a apresentação de slides geral do conteúdo. Além disso, ao configurar as Sequências Incorporadas Dinâmicas, configure o canal usando a função e o nome do canal. Consulte as etapas abaixo para obter a implementação prática.
 >
@@ -68,15 +68,15 @@ A seção a seguir explica a criação de uma Sequência incorporada dinâmica e
 Antes de começar a implementar essa funcionalidade, verifique se você tem os seguintes pré-requisitos prontos para começar a implementar sequências incorporadas dinâmicas:
 
 * Criar um projeto do AEM Screens (neste exemplo, **Demonstração**).
-* Criar um canal como **Global** em **Canais** pasta.
+* Criar um **Global** canal no menu **Canais** pasta.
 * Adicionar conteúdo ao seu **Global** Canal (*Marcar **Resources.zip**para ativos relevantes*).
 
-A imagem a seguir mostra o **Demonstração** projeto com **Global** entrada de canal **Canais** pasta.
+A imagem a seguir mostra o **Demonstração** projeto com **Global** canal no **Canais** pasta.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
 
 ### Recursos {#resources}
 
-Você pode baixar os seguintes recursos (imagens e adicioná-los aos ativos) e usá-los como conteúdo de canal para fins de demonstração.
+Você pode baixar os seguintes recursos (imagens e adicioná-los a ativos) e usá-los como conteúdo de canal para fins de demonstração.
 
 [Obter arquivo](assets/resources.zip)
 
@@ -108,7 +108,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
    >
    >Ao criar o **Região A** pasta de local, certifique-se de inserir a variável **Título** as **Região A** e você pode deixar a variável **Nome** campo vazio, então automaticamente **region-a** o nome foi selecionado.
    >
-   >Semelhante é o caso para criar a pasta de local **Região B**, conforme mostrado abaixo:
+   >É o caso semelhante para criar a pasta de local **Região B**, conforme mostrado abaixo:
 
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
@@ -119,12 +119,12 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
    1. Navegue até **Demonstração** > **Localizações** > **Região A**.
    1. Clique em **Região A** e clique em **+ Criar** na barra de ações.
-   1. Clique em **Localização** do assistente com **Título** as **Loja 1**. Da mesma forma, crie outro local no assistente chamado como **Loja 2** com **Título** as **Loja 2**. Você pode deixar a variável **Nome** campo vazio ao criar **Loja 1** e **Loja 2**.
-   1. Repita a etapa (b) e clique agora em **Canal de sequência** do assistente. Insira o **Título** as **Região A** e **Nome** as **região** para este canal.
+   1. Clique em **Localização** do assistente com **Título** as **Loja 1**. Da mesma forma, crie outro local no assistente chamado como **Loja 2** com o **Título** as **Loja 2**. Você pode deixar a variável **Nome** campo vazio ao criar **Loja 1** e **Loja 2**.
+   1. Repita a etapa (b) e clique agora em **Canal de sequência** do assistente. Insira o **Título** as **Região A** e **Nome** como o **região** para este canal.
 
    >[!CAUTION]
    >
-   >Ao criar um canal, verifique se **Região A**, insira o **Título** as **Região A** e a variável **Nome** as **região**.
+   >Ao criar um canal, verifique se **Região A**, insira o **Título** as **Região A** e a variável **Nome** as a **região**.
 
    ![screen_shot_2018-09-13at22857pm](assets/screen_shot_2018-09-13at22857pm.png)
 
@@ -189,25 +189,25 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 1. **Criar um Cronograma**
 
-   Navegue e clique em **Agendamentos** no seu projeto do AEM Screens. Clique em **Criar** na barra de ações.
+   Navegue e clique no link **Agendamentos** no seu projeto do AEM Screens. Clique em **Criar** na barra de ações.
 
-   A imagem a seguir mostra o **AdSchedule** criado em **Demonstração** projeto.
+   A imagem a seguir mostra o **AdSchedule** criado na **Demonstração** projeto.
 
    ![screen_shot_2018-09-13at33307pm](assets/screen_shot_2018-09-13at33307pm.png)
 
 1. **Atribuir Canais a um Agendamento**
 
    1. Navegue até **Demonstração** > **Agendamentos** > **AdSchedule** e clique em **Painel** na barra de ações.
-   1. Clique em **+ Atribuir canal** de **CANAIS ATRIBUÍDOS** para que você possa abrir o **Atribuição de canal** caixa de diálogo.
+   1. Clique em **+ Atribuir canal** do **CANAIS ATRIBUÍDOS** para que você possa abrir o **Atribuição de canal** caixa de diálogo.
    1. Clique em **Canal de referência** por caminho.
-   1. Clique em **Caminho do canal** as **Demonstração** > ***Canais*** > ***Global***.
-   1. Insira o **Função do canal** as **GlobalAdSegment**.
-   1. Clique em **Eventos suportados** as **Carga inicial**, **Tela inativa**, e **Interação do usuário**.
+   1. Clique em **Caminho do canal**, assim como **Demonstração** > ***Canais*** > ***Global***.
+   1. Insira o **Função do canal**, assim como **GlobalAdSegment**.
+   1. Clique em **Eventos suportados**, assim como **Carga inicial**, **Tela inativa**, e **Interação do usuário**.
    1. Clique em **Salvar**.
 
    **Atribuir canal por função para região:**
 
-   1. Clique em **+ Atribuir canal** de **CANAIS ATRIBUÍDOS** painel.
+   1. Clique em **+ Atribuir canal** do **CANAIS ATRIBUÍDOS** painel.
    1. Na caixa de diálogo Atribuição de canal, clique em **Canal de referência** por nome.
    1. Insira o **Nome do canal** as **região***.
    1. Insira o **Função do canal** as **SegmentoAnúncioRegião**.
@@ -215,7 +215,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
    **Atribuir canal por função para loja:**
 
-   1. Clique em **+ Atribuir canal** de **CANAIS ATRIBUÍDOS** painel.
+   1. Clique em **+ Atribuir canal** do **CANAIS ATRIBUÍDOS** painel.
    1. Na caixa de diálogo Atribuição de canal, clique em **Canal de referência** por nome.
    1. Insira o **Nome do canal** as **loja**.
    1. Insira o **Função do canal** as **ArmazenarSegmentoAnúncio**.
@@ -227,7 +227,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 1. **Configuração da sequência dinâmica inserida no canal global.**
 
-   Navegue até a **Global** Canal criado inicialmente em **Demonstração** projeto.
+   Navegue até a **Global** Canal criado inicialmente na **Demonstração** projeto.
 
    Clique em **Editar** na barra de ações.
 
@@ -323,7 +323,7 @@ Siga as etapas abaixo para criar grupos, usuários e modificar as ACLs de acordo
    1. Clique em **Grupos** e insira o nome do grupo em **Clique em Grupo**, por exemplo, insira **Global-Author** para adicionar **Global-User** a esse grupo específico.
    1. Clique em **Salvar e fechar**.
 
-   Da mesma forma, crie dois outros usuários, como **Região-Usuário** e **Usuário da loja** e adicione-os a **Região-Autor** e **Autor da loja** respectivamente.
+   Da mesma forma, crie dois outros usuários, como **Região-Usuário** e **Usuário da loja** e adicioná-los a **Região-Autor** e **Autor da loja** respectivamente.
 
    >[!NOTE]
    >É uma prática recomendada adicionar usuários em um grupo e, em seguida, atribuir permissões a cada grupo específico de usuários.
@@ -334,14 +334,14 @@ Siga as etapas abaixo para criar grupos, usuários e modificar as ACLs de acordo
 
    1. Navegue até **Adobe Experience Manager**.
    1. Clique em **Ferramentas** > **Segurança** > **Grupos**.
-   1. Clique em **Colaboradores** na lista e clique em **Membros** guia.
+   1. Clique em **Colaboradores** na lista e clique no botão **Membros** guia.
    1. Clique em **Grupo** como **Global-Author**, **Autor da região,** e **Autor da loja** para os colaboradores.
    1. Clique em **Salvar e fechar**.
 
 1. **Acessando permissões para cada grupo**
 
-   1. Navegue até a *Useradmin* e use essa interface para modificar as permissões para grupos diferentes.
-   1. Pesquisar por **Global-Author** e clique em **Permissões** conforme mostrado na figura abaixo.
+   1. Navegue até a *Administrador de usuários* e use essa interface para modificar as permissões para grupos diferentes.
+   1. Pesquisar por **Global-Author** e clique no link **Permissões** conforme mostrado na figura abaixo.
    1. Da mesma forma, você pode acessar as permissões para **Região-Autor** e **Autor da loja**.
 
    ![screen_shot_2018-09-18at73523am](assets/screen_shot_2018-09-18at73523am.png)
@@ -358,7 +358,7 @@ Siga as etapas abaixo para criar grupos, usuários e modificar as ACLs de acordo
    Consulte a figura a seguir para entender as etapas:
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
-   O que se segue mostra que a **Global-User** tem acesso à **Canal global**, e ambos **Região A** e **Região B** com todas as quatro lojas especificamente **Loja 1**, **Loja 2**, **Loja 3**, e **Loja 4**.
+   O que se segue mostra que a **Global-User** tem acesso à **Canal global**. E, o acesso a ambos **Região A** e **Região B** com todas as quatro lojas especificamente **Loja 1**, **Loja 2**, **Loja 3**, e **Loja 4**.
 
    ![global](assets/global.gif)
 
@@ -374,7 +374,7 @@ Siga as etapas abaixo para criar grupos, usuários e modificar as ACLs de acordo
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
 
-   A seguir, é mostrado que o usuário da região tem acesso a **Região A** e **Região B**, com as quatro lojas, ou seja **Loja 1**, **Loja 2**, **Loja 3**, e **Loja 4**, mas não acessa o **Global** Canal.
+   A seguir, é mostrado que o usuário da região tem acesso a **Região A** e **Região B**. E, acesso às quatro lojas, ou seja, **Loja 1**, **Loja 2**, **Loja 3**, e **Loja 4**, mas não acessa o **Global** Canal.
 
    ![região](assets/region.gif)
 
@@ -391,7 +391,7 @@ Siga as etapas abaixo para criar grupos, usuários e modificar as ACLs de acordo
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   O que se segue mostra que a **Usuário da loja** tem acesso somente a **Loja 1**, **Loja 2**, **Loja 3**, e **Loja 4**, mas não tem permissões para acessar o **Global** ou região (**Região A** e **Região B**) canais.
+   O que se segue mostra que a **Usuário da loja** tem acesso somente a **Loja 1**, **Loja 2**, **Loja 3**, e **Loja 4**. No entanto, ele não tem permissões para acessar o **Global** ou região (**Região A** e **Região B**) canais.
 
    ![loja](assets/store.gif)
 

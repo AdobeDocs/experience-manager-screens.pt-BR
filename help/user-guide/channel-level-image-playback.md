@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '340'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## Visão geral {#overview}
 
-Ao criar um canal de sequência e adicionar imagens a ele, por padrão, todas as imagens assumem a duração da reprodução definida na configuração Nível de canal. Qualquer imagem individual ainda pode substituir o padrão e ter uma duração de reprodução diferente; isso é feito ao editar a duração de reprodução do componente de imagem específico.
+Ao criar um canal de sequência e adicionar imagens a ele, por padrão, todas as imagens assumem a duração da reprodução definida na configuração Nível de canal. Qualquer imagem individual ainda pode substituir o padrão e ter uma duração de reprodução diferente. Essa capacidade é alcançada ao editar a duração de reprodução do componente de imagem específico.
 
 ### Pré-requisitos {#prerequisites}
 
@@ -29,7 +29,7 @@ Antes de começar a implementar essa funcionalidade, verifique se você configur
 
 1. Criar um exemplo de projeto do AEM Screens, **ChannelLevelPlayback**.
 
-1. Criar um canal de sequência como **PlaybackChannel** em **Canais** pasta.
+1. Criar um canal de sequência como **PlaybackChannel** no **Canais** pasta.
 
 1. Adicionar conteúdo a **PlaybackChannel**.
 
@@ -53,7 +53,7 @@ Siga as etapas abaixo para saber como atualizar a Atribuição de duração da r
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. Clique em todas as imagens no canal e clique no ícone da chave inglesa no canto superior esquerdo (como mostrado na figura abaixo) para que você possa abrir a caixa de diálogo Configurar nível de canal.
+1. Clique em todas as imagens no canal e clique no ícone da chave inglesa no canto superior esquerdo (como mostrado na figura abaixo) para abrir a caixa de diálogo Configurar nível de canal.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -70,6 +70,6 @@ Siga as etapas abaixo para saber como atualizar a Atribuição de duração da r
 
 ### Exibir o resultado {#viewing-the-result}
 
-Depois de atualizar a duração da reprodução do canal (neste exemplo, todas as três imagens), observe que as imagens agora são reproduzidas por 3 segundos em vez de 8 segundos (valor padrão).
+Depois de atualizar a duração da reprodução do canal (neste exemplo, todas as três imagens), observe que as imagens agora são reproduzidas por 3 segundos em vez de 8 segundos (o valor padrão).
 
 ![channel_preview](assets/channel_preview.gif)

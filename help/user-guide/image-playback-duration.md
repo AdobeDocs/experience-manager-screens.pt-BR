@@ -2,9 +2,9 @@
 title: Duração da reprodução da imagem
 description: Saiba mais sobre a duração da reprodução de imagem no AEM Screens.
 contentOwner: jsyal
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '322'
 ht-degree: 1%
 
 ---
@@ -14,14 +14,14 @@ ht-degree: 1%
 
 ## Visão geral {#overview}
 
-Após criar um canal de sequência e adicionar imagens a ele, por padrão, todas as imagens assumem a duração da reprodução definida na configuração Nível de canal. Qualquer imagem individual ainda pode substituir o padrão e ter uma duração de reprodução diferente; isso é feito ao editar a duração de reprodução do componente de imagem específico.
+Após criar um canal de sequência e adicionar imagens a ele, por padrão, todas as imagens assumem a duração da reprodução definida na configuração Nível de canal. Qualquer imagem individual ainda pode substituir o padrão e ter uma duração de reprodução diferente. Essa capacidade é alcançada ao editar a duração de reprodução do componente de imagem específico.
 
 ### Pré-requisitos {#prerequisites}
 
 Antes de implementar essa funcionalidade, configure um projeto como pré-requisito para começar a implementá-la. Por exemplo,
 
 1. Criar um projeto do AEM Screens (neste exemplo, **ChannelLevelPlayback**)
-1. Criar um canal de sequência como **PlaybackChannel** em **Canais** pasta
+1. Criar um canal de sequência como **PlaybackChannel** no **Canais** pasta
 1. Adicionar conteúdo a **PlaybackChannel**
 
 ## Edição de atribuição da duração da reprodução da imagem no nível do canal {#editing-channel-level-image-playback-duration-assignment}
@@ -48,7 +48,7 @@ Siga as etapas abaixo para saber como atualizar a Atribuição de duração da r
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Página** é aberta.
+1. A variável **Página** é aberta.
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ Siga as etapas abaixo para saber como atualizar a Atribuição de duração da r
 
 ### Exibir o resultado {#viewing-the-result}
 
-Ao atualizar a duração da reprodução do canal (neste exemplo, todas as três imagens), observe que as imagens agora são reproduzidas por 3 segundos em vez de 8 segundos (valor padrão).
+Ao atualizar a duração da reprodução do canal (neste exemplo, todas as três imagens), observe que as imagens agora são reproduzidas por 3 segundos em vez de 8 segundos (o valor padrão).
 
 ![channel_preview](assets/channel_preview.gif)
 

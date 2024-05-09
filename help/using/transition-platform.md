@@ -2,9 +2,9 @@
 title: Transição para a plataforma
 description: Saiba mais sobre a transição para a plataforma no AEM Screens.
 exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Uma parte interessada típica dessa atividade é um Implementador de AEM.
 
-Conforme seu projeto progrediu de uma visão estratégica para uma realidade em wireframing, você deve começar a se preparar para as tarefas necessárias para realmente criar um projeto do Screens no AEM que você pode implantar.
+Conforme seu projeto progrediu de uma visão estratégica para uma realidade com wireframing, você deve se preparar para a criação real de um projeto do Screens no AEM que você pode implantar.
 
 Este projeto inclui o mapeamento de configurações específicas da plataforma para requisitos definidos vagamente na fase de protótipo.
 
