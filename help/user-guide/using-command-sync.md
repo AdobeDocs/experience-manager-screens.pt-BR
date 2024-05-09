@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ A página a seguir descreve como usar a Sincronização de Comando. A sincroniza
 
 ## Visão geral {#overview}
 
-As soluções de sinalização digital devem suportar paredes de vídeo e reprodução sincronizada para suportar cenários como contagens regressivas de Ano Novo ou vídeo grande fatiado para ser reproduzido em várias telas e é aqui que a Sincronização de comando entra em ação.
+As soluções de sinalização digital devem suportar paredes de vídeo e reprodução sincronizada. Este cenário é verdadeiro se você estiver tentando suportar cenários como contagens regressivas de Ano Novo ou grandes vídeos fatiados para serem reproduzidos em várias telas. Esses cenários são onde a sincronização de comandos entra em ação.
 
 Para usar a Sincronização de comandos, um player atua como *principal* e envia o comando e todos os outros jogadores atuam como *clientes* e executar quando receberem o comando.
 
-A variável *principal* envia um comando a todos os clientes registrados quando está prestes a iniciar a reprodução de um item. A carga útil pode ser o índice do item a ser reproduzido e/ou o html externo do elemento a ser reproduzido.
+A variável *principal* envia um comando a todos os clientes registrados quando está prestes a iniciar a reprodução de um item. A carga útil dessa ação pode ser o índice do item a ser reproduzido, o html externo do elemento a ser reproduzido ou ambos.
 
 ## Implementando a sincronização de comandos {#using-command-sync}
 
@@ -38,7 +38,7 @@ A seção a seguir descreve como você pode usar a sincronização de comandos e
 
 ### Configuração do projeto {#setting-up}
 
-Antes de usar o recurso de sincronização de comando, verifique se você tem um projeto e um canal com conteúdo configurado para o seu projeto.
+Antes de usar o recurso de sincronização de comandos, verifique se você tem um projeto e um canal com conteúdo configurado para o seu projeto.
 
 1. O exemplo a seguir mostra um projeto de demonstração chamado **CommandSyncDemo** e um canal de sequência **ChannelLobby**.
 
@@ -62,7 +62,7 @@ Antes de usar o recurso de sincronização de comando, verifique se você tem um
    >
    >Para saber como atribuir um canal a uma exibição, consulte [Criando e Gerenciando Exibições](/help/user-guide/managing-displays.md).
 
-1. Navegue até **Dispositivos** pasta.
+1. Navegue até a **Dispositivos** pasta.
 1. Clique em **Gerenciador de dispositivos** na barra de ações.
 
    ![image1](assets/command-sync5.png)
@@ -90,11 +90,11 @@ Antes de usar o recurso de sincronização de comando, verifique se você tem um
 
 ### Configurar um principal {#setting-up-primary}
 
-1. Navegue até o painel de exibição em **CommandSyncDemo** > **Localizações**  > **Lobby** > **ExibiçãoLobby** e clique em **Painel** na barra de ações.
+1. Navegue até o painel de exibição em **CommandSyncDemo** > **Localizações**  > **Lobby** > **ExibiçãoLobby**. Clique em **Painel** na barra de ações.
 Observe os dois dispositivos (Chrome e Windows Player) em **DISPOSITIVOS** painel, conforme a seguir:
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. No **DISPOSITIVOS** clique no dispositivo que deseja definir como principal. O exemplo a seguir demonstra como configurar o dispositivo Chrome como o principal. Clique em **Definir como dispositivo principal**.
+1. No **DISPOSITIVOS** clique no dispositivo que deseja definir como principal. O exemplo a seguir demonstra como configurar o dispositivo Chrome como o dispositivo principal. Clique em **Definir como dispositivo principal**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
@@ -104,11 +104,11 @@ Observe os dois dispositivos (Chrome e Windows Player) em **DISPOSITIVOS** paine
 
 >[!NOTE]
 >
->Você pode configurar vários dispositivos como primários.
+>Você pode configurar vários dispositivos como dispositivos primários.
 
 ### Sincronização com o Principal {#sync-up-primary}
 
-1. Depois de definir o dispositivo Chrome como principal, sincronize o outro dispositivo (neste caso, o Windows Player) com o principal.
+1. Depois de definir o dispositivo Chrome como o principal, sincronize o outro dispositivo (neste caso, o Windows Player) com o principal.
 Clique no outro dispositivo (neste caso, Windows Player) na **DISPOSITIVOS** e clique em **Sincronizar com o dispositivo principal**.
 
    ![image1](assets/command-sync/command-sync13-1.png)

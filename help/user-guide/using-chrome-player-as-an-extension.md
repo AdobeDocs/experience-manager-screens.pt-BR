@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Siga esta página para obter informações sobre como instalar o reprodutor do C
 
 Siga as etapas abaixo para atualizar a extensão do reprodutor se uma nova versão do reprodutor for lançada. Você também pode seguir as instruções abaixo para testar cenários de atualização:
 
-1. Fechar todas as instâncias do Chrome e do player em execução
+1. Feche todas as instâncias do Chrome e do player em execução
 1. Renomear a pasta antiga com arquivos do player
 1. Extraia o novo zip no mesmo local da pasta antiga
 1. Inicie o Chrome e navegue até `chrome://extensions`

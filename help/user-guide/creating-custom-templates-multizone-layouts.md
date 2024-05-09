@@ -6,9 +6,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '862'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ Esta página mostra como criar um modelo personalizado para um layout de várias
 
 ## Considerações importantes {#considerations}
 
-Há duas considerações importantes que você deve estar ciente antes de criar um modelo personalizado no layout de várias zonas:
+Há duas considerações importantes que você deve estar ciente antes de criar um modelo personalizado em um layout de várias zonas:
 
 1. **Tamanho de pixel fixo ou porcentagens**:
 
@@ -30,11 +30,11 @@ Há duas considerações importantes que você deve estar ciente antes de criar 
 
 1. **Convenção de nomeação**:
 
-   Antes de entender como criar modelos de várias zonas personalizados para usar em um projeto do AEM Screens, entenda a explicação dos modelos que deseja criar.
+   Ajuda a entender como criar modelos de várias zonas personalizados para usar em um projeto do AEM Screens. Mas primeiro, você deve entender a terminologia dos modelos que deseja criar.
 
    | **Nome do layout** | **Descrição** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | Um layout de paisagem de três zonas que permite criar três zonas:<br>* Zona 1 como 20% da tela horizontal e vertical da esquerda<br>* Zona 2: 80 % do ecrã horizontal e 20 % do ecrã vertical justificado à direita<br>* Zona 3: 100 % horizontal e 80 % vertical com uma proporção de 16:9 |
+   | `Left20-LandscapeHD3Zone` | Um layout de paisagem de três zonas que permite criar três zonas:<br>* Zona 1 como 20% da tela horizontal e vertical da esquerda<br>* Zona 2 como 80% da tela horizontal e 20% da tela vertical justificada à direita<br>* Zona 3 como 100% da horizontal e 80% da tela vertical. A taxa de proporção é de 16:9 |
    | `Upper20-PortraitHD2Zone` | Um modelo em forma de retrato de duas zonas, que cobre 20% da tela a partir da parte superior, com uma proporção de 16:9 |
    | `Right20-LandscapeSD3Zone` | Um modelo de três zonas que cobre 20% da tela à direita, com uma proporção de 4:3 |
 
@@ -90,11 +90,11 @@ Siga as etapas abaixo para criar um `Left20-LandscapeHD3Zone` Layout de um proje
 
    ![imagem](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
-1. Referindo-se à etapa (4) na qual você copiou o modelo de barra à esquerda, é possível visualizar três grades responsivas em `my-custom-layout/jcr:content`. Adicione a classe css personalizada a cada uma das grades responsivas na *`cq:cssClass`* propriedade, por exemplo, *my-custom-layout—top-left* para *r1c1* nó.
+1. Referindo-se à etapa (4) na qual você copiou o modelo de barra à esquerda, é possível visualizar três grades responsivas em `my-custom-layout/jcr:content`. Adicione a classe css personalizada a cada uma das grades responsivas na *`cq:cssClass`* propriedade, por exemplo, *my-custom-layout-top-left* para *r1c1* nó.
 
    ![imagem](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
-   Da mesma forma, adicione *my-custom-layout—top-right* para *r1c2*  e, *my-custom-layout—bottom* para *r2c1* nó.
+   Da mesma forma, adicione *my-custom-layout-top-right* para *r1c2* e *my-custom-layout-bottom* para *r2c1* nó.
 
    >[!NOTE]
    >Essas classes personalizadas são usadas no css para definir a largura/altura dessas grades responsivas.
@@ -152,13 +152,13 @@ Siga as etapas abaixo para usar o modelo personalizado acima em seu projeto do A
 
    ![imagem](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## Inserir uma imagem como a Camada de Plano de Fundo  {#inserting-image}
+## Inserir uma imagem como a Camada de Plano de Fundo {#inserting-image}
 
 É possível inserir uma imagem como camada de plano de fundo no layout:
 
 Você pode ajustar a regra CSS para usar &quot;data-uri&quot; e embutir diretamente a imagem (`Base64` codificado) no arquivo CSS que você criou no (etapa 13), *static.css*.
 
-Isso é feito da seguinte maneira:
+Essa organização é feita da seguinte maneira:
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 Ou você pode seguir as etapas abaixo:

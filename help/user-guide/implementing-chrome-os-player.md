@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Esta seção descreve como implementar o Chrome OS Player usando o Console de ge
 Siga as etapas abaixo para configurar o console de gerenciamento do Chrome:
 
 1. Registre-se no Console de gerenciamento do Chrome. Você deve obter uma licença para o Console de gerenciamento do Chrome. Contato [Suporte ao Google](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) Clique em Gerenciar configurações do dispositivo Chrome para obter mais informações.
-1. Inscreva seu dispositivo do sistema operacional Chrome no domínio e aguarde 15 minutos para que o dispositivo seja sincronizado com o Console de gerenciamento do Chrome. Para saber mais sobre como registrar um dispositivo do Chrome, clique em [aqui](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. Inscreva seu dispositivo do sistema operacional Chrome no domínio e aguarde 15 minutos para que o dispositivo seja sincronizado com o Console de gerenciamento do Chrome. Para saber mais sobre como registrar um dispositivo Chrome, clique em [aqui](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. O Chrome Player está disponível na loja da web do Chrome.
 
 >[!NOTE]
@@ -54,7 +54,7 @@ Siga as etapas abaixo para configurar o nome no Chrome Player:
    ![imagem](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >Os players do Chrome devem ser inscritos na inscrição corporativa e o player do Chrome deve ser implantado por meio do console de gerenciamento do Chrome. Caso contrário, a ID do ativo retorna em branco (por exemplo, chrome como uma extensão). O nome do dispositivo só é registrado no momento do registro. As mudanças futuras não são percebidas pelo Adobe Experience Manager (AEM).
+   >Os Chrome Players devem estar inscritos na inscrição corporativa e o Chrome Player deve ser implantado por meio do Console de gerenciamento do Chrome. Caso contrário, a ID do ativo retorna em branco (por exemplo, o Chrome como extensão). O nome do dispositivo só é registrado no momento do registro. As mudanças futuras não são percebidas pelo Adobe Experience Manager (AEM).
 
 ### Ativar modo de quiosque {#enabling-kiosk-mode}
 
