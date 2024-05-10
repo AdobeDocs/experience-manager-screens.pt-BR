@@ -2,9 +2,9 @@
 title: Configuração de instâncias de Autor e Publicação no AEM Screens
 description: Saiba como configurar uma instância do Autor e uma instância de Publicação para o AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '1923'
+source-wordcount: '1940'
 ht-degree: 0%
 
 ---
@@ -101,15 +101,15 @@ Siga as etapas abaixo para criar um agente de replicação padrão:
    >Você também pode copiar e renomear um agente de replicação padrão existente.
 
 
-#### Criação de agentes de replicação padrão  {#creating-standard-replication-agents}
+#### Criação de agentes de replicação padrão {#creating-standard-replication-agents}
 
-1. Criar agente de replicação padrão para pub1 (o agente padrão pronto para uso já deve estar configurado). Por exemplo, *`https://<hostname>:4503/bin/receive?sling:authRequestLogin=1`*
-1. Criar agente de replicação padrão para pub2. Você pode copiar o agente de replicação para pub1 e atualizar o transporte a ser usado para pub2 alterando a porta na configuração de transporte. Por exemplo, *`https://<hostname>:4504/bin/receive?sling:authRequestLogin=1`*.
+1. Crie um agente de replicação padrão para pub1 (um agente padrão pronto para uso já deve estar configurado). Por exemplo, *`https://<hostname>:4503/bin/receive?sling:authRequestLogin=1`*
+1. Crie um agente de replicação padrão para pub2. Você pode copiar o agente de replicação para pub1 e atualizar o transporte a ser usado para pub2 alterando a porta na configuração de transporte. Por exemplo, *`https://<hostname>:4504/bin/receive?sling:authRequestLogin=1`*.
 
 #### Criação de agentes de replicação do Screens {#creating-screens-replication-agents}
 
-1. Crie um agente de replicação AEM Screens para pub1. Pronto para uso, há um agente de replicação do Screens chamado que aponta para a porta 4503. Ative-o.
-1. Crie um agente de replicação AEM Screens para pub2. Copie o Agente de replicação do Screens para pub1 e altere a porta para apontar para 4504 para pub2.
+1. Crie um agente de replicação AEM Screens para pub1. Pronto para uso, há um agente de replicação chamado Screens que aponta para a porta 4503. Ative-o.
+1. Crie um agente de replicação AEM Screens para pub2. Copie o agente de replicação do Screens para pub1 e altere a porta para apontar para 4504 para pub2.
 
    >[!NOTE]
    >Para saber como configurar agentes de replicação do Screens, consulte [Configuração do agente de replicação do Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
@@ -152,7 +152,7 @@ Em cada instância de publicação:
 1. No console OSGi, navegue até **MAIN** > **Suporte a criptografia** (`https://<host>:<port>/system/console/crypto`).
 1. Digite a senha de texto sem formatação desejada (a mesma para todas as instâncias) em **Texto sem formatação**
 1. Clique em **Protect**.
-1. Copiar o valor **Texto protegido** no bloco de notas ou no editor de texto. Esse valor pode ser usado na configuração do OSGi para AtiveMQ.
+1. Copiar o valor **Texto protegido** para um bloco de notas ou editor de texto. Esse valor pode ser usado na configuração do OSGi para AtiveMQ.
 
 Como cada instância de Publicação, por padrão, tem chaves de criptografia exclusivas, execute essa etapa em cada instância de pub e salve a chave exclusiva para a próxima configuração.
 
@@ -169,7 +169,7 @@ Em cada instância de publicação:
 1. Clique em **Provedor JMS Apache AtiveMQ Artemis** Configuração
 1. Atualize o seguinte:
 
-   * ***Senha do cluster***: usar valor criptografado da etapa anterior por respectiva instância
+   * ***Senha do cluster***: use o valor criptografado da etapa anterior por respectiva instância
    * ***Temas***: `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
 #### Verificar Cluster Artemis do AtiveMQ {#verify-activemq-artemis-cluster}
@@ -187,7 +187,7 @@ Siga as etapas abaixo em cada instância de publicação:
 
 >[!NOTE]
 >
->A navegação para o console OSGi pode levar alguns segundos após salvar a configuração na etapa anterior. Você também pode verificar o error.log para obter mais detalhes.
+>A navegação para o Console OSGi pode levar alguns segundos após salvar a configuração na etapa anterior. Você também pode verificar o error.log para obter mais detalhes.
 
 Como exemplo, a imagem a seguir é exibida na configuração bem-sucedida do Servidor AtiveMQ Artemis.
 
@@ -252,7 +252,7 @@ Siga as etapas abaixo para replicar o usuário do dispositivo:
 
 >[!CAUTION]
 >
->Não ative author-publish-screens-service, pois ele é um usuário do sistema usado pela Tarefa do Autor.
+>Não ative o author-publish-screens-service, pois ele é um usuário do sistema usado pela Tarefa do Autor.
 
 Você também pode ativar o dispositivo no Console de Gerenciamento de Dispositivos. Siga as etapas abaixo:
 
@@ -264,7 +264,7 @@ Você também pode ativar o dispositivo no Console de Gerenciamento de Dispositi
 
 >[!NOTE]
 >
->Como alternativa, após ativar o dispositivo, você também pode editar ou atualizar o URL do servidor. Clique em **Editar URL do servidor** na barra de ação, como mostrado na figura abaixo, suas alterações se propagam para o AEM Screens Player.
+>Como alternativa, após ativar o dispositivo, você também pode editar ou atualizar o URL do servidor. Na barra de ações, clique em **Editar URL do servidor**, conforme mostrado na figura abaixo. Suas alterações se propagam para o AEM Screens Player.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -272,27 +272,27 @@ Você também pode ativar o dispositivo no Console de Gerenciamento de Dispositi
 
 Os pontos a seguir resumem a Lista de verificação de publicação:
 
-* *Usuário de dispositivo do Screens* - É armazenado como um usuário do AEM e ativado no **Ferramentas** > **Segurança** > **Usuários**. O usuário recebe o prefixo &quot;screens&quot; com uma longa sequência serializada.
+* *Usuário de dispositivo do Screens* - Essa informação é armazenada como um usuário AEM e pode ser ativada no **Ferramentas** > **Segurança** > **Usuários**. O usuário recebe o prefixo &quot;screens&quot; com uma longa sequência serializada.
 
 * *Projeto* - O projeto AEM Screens.
 * *Localização* - Local ao qual o dispositivo está conectado.
-* *Canais* - um ou mais canais que estão sendo exibidos no local
-* *Agendar* - se estiver usando um agendamento, verifique se ele foi publicado
-* *Local, cronogramas e pasta de canal* - se os recursos correspondentes estiverem dentro de uma pasta.
+* *Canais* - Um ou mais canais sendo exibidos no local.
+* *Agendar* - Se estiver usando uma programação, verifique se ela foi publicada.
+* *Local, cronogramas e pasta de canal* - Se os recursos correspondentes estiverem dentro de uma pasta.
 
 Siga as etapas abaixo para verificar o comportamento de criação e publicação:
 
 1. Atualize parte do conteúdo do canal na instância do Autor.
 1. Executar **Gerenciar publicação** para publicar novas alterações em todas as instâncias de Publicação.
 1. Pressione **Ativar** para ativar o dispositivo de **Gerenciador de dispositivos**.
-1. **Editar URL** do URL da instância do autor para um dos URL das instâncias de publicação.
+1. Selecionar **Editar URL** do URL da instância do Autor para um dos URL das instâncias de Publicação.
 1. Verifique se o conteúdo do canal atualizado é exibido no AEM Screens Player.
 1. Repita essas etapas usando uma instância de publicação diferente.
 
 
 #### Etapa 5: apontar a instância do dispositivo para publicar no Painel de administração {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. Exiba a interface do administrador no reprodutor do Screens e pressione por muito tempo o canto superior esquerdo para abrir o menu Administrador, no AEM Screens Player habilitado para toque ou usando o mouse.
+1. Exiba a interface do administrador no reprodutor do Screens e pressione o canto superior esquerdo para abrir o menu Administrador, no AEM Screens Player habilitado para toque ou usando o mouse.
 1. Clique em **Configuração** no painel lateral.
 1. Alterar instância do autor para Publicar instância no **Servidor**.
 
@@ -302,7 +302,7 @@ Como alternativa, você também pode atualizar/editar o URL do servidor no conso
 
 1. Navegue até o projeto do AEM Screens e clique no **Dispositivos** pasta.
 1. Clique em **Gerenciador de dispositivos** na barra de ações.
-1. Clique no dispositivo e clique em **Editar URL do servidor** na barra de ação, como mostrado na figura abaixo, e suas alterações serão propagadas para o AEM Screens Player.
+1. Clique no dispositivo e, na barra de ações, clique em **Editar URL do servidor**, conforme mostrado na figura abaixo. Suas alterações se propagam para o AEM Screens Player.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
@@ -310,7 +310,7 @@ A variável **Gerenciar publicação** O recurso permite que você forneça atua
 
 ## Dicas de solução de problemas {#troubleshoot-tips}
 
-Siga a seção abaixo para obter respostas a perguntas frequentes relacionadas à configuração do Author/Publish.
+Siga a seção abaixo para obter respostas a perguntas frequentes relacionadas à configuração Autor/Publicação.
 
 ### Como adicionar um redirecionamento de https para http após o registro e a atribuição iniciais? {#add-redirect}
 
@@ -325,4 +325,4 @@ Conceder permissões de leitura para o usuário em massa offline-update-screens-
 ### Como resolver erros do Agente de replicação do Screens? {#replication-agent}
 
 **Solução**
-Verifique se você não marcou a opção Use for reverse replication (Usar para replicação reversa) na configuração do agente. O Agente de replicação do Screens não pode ser usado como um agente de replicação reversa e o escopo desse recurso é encaminhar comandos do dispositivo do Autor para a Publicação.
+Verifique se você não marcou a opção Use for reverse replication (Usar para replicação reversa) na configuração do agente. O agente de replicação do Screens não pode ser usado como um agente de replicação reversa, e o escopo desse recurso é encaminhar comandos do dispositivo do Autor para a Publicação.

@@ -2,7 +2,7 @@
 title: Suporte a miniaturas para vídeos no AEM Screens
 description: Saiba como adicionar Suporte a miniaturas para vídeos no AEM Screens.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 2%
@@ -13,12 +13,12 @@ ht-degree: 2%
 
 ## Introdução {#introduction}
 
-Um Autor de conteúdo pode definir uma miniatura de vídeos para que a imagem seja usada como um espaço reservado e testar corretamente a reprodução e o direcionamento do conteúdo, enquanto o vídeo real está sendo finalizado pela equipe apropriada. A imagem também pode ser usada caso a reprodução do vídeo falhe.
+Um Autor de conteúdo pode definir uma miniatura de vídeos para que a imagem seja usada como um espaço reservado. Ele pode testar adequadamente a reprodução e o direcionamento do conteúdo, enquanto a equipe apropriada finaliza o vídeo real. A imagem também pode ser usada caso a reprodução do vídeo falhe.
 
 A adição de suporte para uma imagem em miniatura no componente de vídeo permite que o cliente adicione corretamente um componente válido no canal, com conteúdo real, e execute qualquer configuração de direcionamento antes da entrega do vídeo.
 
 >[!NOTE]
->A imagem em miniatura, se definida no componente de vídeo, é reproduzida se houver falha de reprodução no reprodutor de vídeo. Isso permite enviar a mensagem desejada para o público-alvo (reproduzindo o conteúdo) em vez de ignorá-la completamente.
+>A imagem em miniatura, se definida no componente de vídeo, é reproduzida se houver falha de reprodução no reprodutor de vídeo. Esse fallback permite enviar a mensagem desejada para o público-alvo (reproduzindo o conteúdo) em vez de ignorá-la completamente.
 
 O suporte a miniaturas permite:
 
@@ -28,7 +28,7 @@ O suporte a miniaturas permite:
 
 ## Utilização de miniaturas em vídeos {#using-thumbnails}
 
-Siga as etapas abaixo para usar a miniatura em vídeos:
+Siga as etapas abaixo para usar uma miniatura em vídeos:
 
 1. Navegue até um canal do AEM Screens existente ou crie um canal.
 

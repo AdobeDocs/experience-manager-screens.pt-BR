@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -26,21 +26,21 @@ O SmartSync é o mecanismo mais recente usado pelo AEM Screens. Ele serve como u
 
 Ele é executado no lado do servidor e no lado do cliente.
 
-**No lado do servidor**:
+**No lado do servidor**
 
 * O conteúdo dos canais, incluindo ativos, é armazenado em cache em *`/var/contentsync`*.
 * O cache é exposto aos players por meio de um manifesto que descreve o conteúdo disponível para uma exibição.
 
-**No lado do cliente**:
+**No lado do cliente**
 
-* O player atualiza o conteúdo com base no manifesto gerado acima.
+* O reprodutor atualiza o conteúdo com base no manifesto gerado acima.
 
 ### Benefícios do uso do SmartSync {#benefits-of-using-smartsync}
 
 O recurso SmartSync fornece vários benefícios para o seu projeto AEM Screens, como os seguintes:
 
 * Redução drástica dos requisitos de tráfego de rede e armazenamento no lado do servidor.
-* O player baixa ativos de forma inteligente somente se o ativo estiver ausente ou for alterado.
+* O reprodutor baixa ativos de forma inteligente somente se o ativo estiver ausente ou tiver sido alterado.
 * Otimizações de armazenamento do lado do servidor e do lado do cliente.
 
 >[!NOTE]

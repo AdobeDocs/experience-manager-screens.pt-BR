@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '324'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Como alternativa, você pode navegar diretamente para: `http://localhost:4502/sc
 
 >[!NOTE]
 >**Dica de navegação:**
->Você também pode usar as teclas de cursor para navegar por diferentes pastas no AEM. Além disso, depois de clicar em uma entidade específica, pressione a barra de espaço para editar ou exibir as propriedades dessa pasta específica.
+>Você também pode usar as teclas de cursor para navegar por diferentes pastas no AEM. Além disso, depois de clicar em uma entidade específica, pressione a barra de espaço para editar ou exibir propriedades dessa pasta específica.
 
 ## Criação de um novo projeto do Screens
 
@@ -46,7 +46,7 @@ Em um projeto, há cinco tipos de pastas, como mostrado na figura abaixo:
 
 >[!NOTE]
 >
->Por padrão, a estrutura inicial contém a variável **Agendamentos**, **Localizações**, **Aplicativos**, **Canais**, e **Dispositivos** páginas principais, mas pode ser ajustado manualmente se necessário. Você pode remover as opções se as disponíveis não forem relevantes para o seu projeto.
+>Por padrão, a estrutura inicial contém a variável **Agendamentos**, **Localizações**, **Aplicativos**, **Canais**, e **Dispositivos** páginas principais, mas essa estrutura pode ser ajustada manualmente se necessário. Você pode remover as opções se as disponíveis não forem relevantes para o seu projeto.
 
 
 ## Visualizando propriedades {#viewing-properties}
@@ -59,7 +59,7 @@ As opções a seguir permitem editar/alterar as propriedades dos **TestScreens**
 
 ## Criação de uma pasta personalizada {#creating-a-custom-folder}
 
-Você também pode criar sua própria pasta personalizada em **Agendamentos**, **Localizações**, **Aplicativos**, **Canais**, e **Dispositivos** páginas principais disponíveis no seu projeto.
+Você também pode criar sua própria pasta personalizada no **Agendamentos**, **Localizações**, **Aplicativos**, **Canais**, e **Dispositivos** páginas principais que estão disponíveis em seu projeto.
 
 Para criar uma pasta personalizada:
 
