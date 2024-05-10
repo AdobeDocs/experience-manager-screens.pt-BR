@@ -2,9 +2,9 @@
 title: Suporte e manutenção no segundo dia
 description: Saiba mais sobre o suporte e a manutenção do segundo dia da AEM Screens.
 exl-id: 2b5511ff-c8f4-4ea3-8a65-f17f3a1ec39b
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 O AEM Screens requer vários pacotes para que os projetos funcionem. Todos os ambientes devem estar executando a mesma versão do Adobe Experience Manager.
 
-Siga as diretrizes como suporte e manutenção para o Segundo dia da fase de desenvolvimento do projeto:
+Siga as diretrizes de suporte e manutenção para o Segundo dia da fase de desenvolvimento do projeto:
 
 1. Execute as versões mais recentes dos seguintes pacotes para a sua versão do Adobe Experience Manager:
 

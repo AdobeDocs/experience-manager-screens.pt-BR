@@ -1,6 +1,6 @@
 ---
-title: Implementação do Android Player
-description: Saiba mais sobre a implementação do Android Watchdog, uma solução que permite recuperar falhas no Android Player.
+title: Implementação do Android&trade; Player
+description: Saiba mais sobre a implementação do Android&trade; Watchdog, uma solução que permite recuperar falhas no Android&trade; player.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---

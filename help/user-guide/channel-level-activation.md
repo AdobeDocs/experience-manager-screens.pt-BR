@@ -6,9 +6,9 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1791'
 ht-degree: 1%
 
 ---
@@ -47,15 +47,15 @@ A seção a seguir explica a criação de uma única reprodução de evento em u
 
 Antes de começar a implementar essa funcionalidade, verifique se você tem os seguintes pré-requisitos prontos para começar a implementar a ativação no nível do canal:
 
-* Crie um projeto do AEM Screens, neste exemplo, **Ativação em Nível de Canal**
+* Crie um projeto do AEM Screens, neste exemplo, **Ativação em Nível de Canal**.
 
-* Criar um canal como **MainAdChannel** em **Canais** pasta
+* Criar um canal como **MainAdChannel** no **Canais** pasta.
 
-* Criar outro canal como **TargetedSinglePlay** em **Canais** pasta
+* Criar outro canal como **TargetedSinglePlay** no **Canais** pasta.
 
-* Adicionar ativos relevantes a ambos os canais
+* Adicione ativos relevantes a ambos os canais.
 
-A imagem a seguir mostra o **Ativação em Nível de Canal** projeto com **MainAdChannel** e **TargetedSinglePlay** canais em **Canais** pasta.
+A imagem a seguir mostra o **Ativação em Nível de Canal** projeto com **MainAdChannel** e **TargetedSinglePlay** canais na **Canais** pasta.
 
 ![screen_shot_2018-11-27at104500am](assets/screen_shot_2018-11-27at104500am.png)
 
@@ -101,35 +101,33 @@ Siga as etapas abaixo para implementar a funcionalidade:
    Para **MainAdChannel:**
 
    1. Navegue até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião** e clique em **Atribuir canal** na barra de ações.
-   1. **Atribuição de canal** é aberta.
-   1. Clique em **Canal de referência** por caminho.
-   1. Clique em **Caminho do canal** as **Ativação em Nível de Canal** > ***Canais*** > ***MainAdChannel***.
+   1. No **Atribuição de canal** caixa de diálogo, Clique **Canal de referência** por caminho.
+   1. Clique em **Caminho do canal** e, em seguida, clique em **Ativação em Nível de Canal** > ***Canais*** > ***MainAdChannel***.
    1. A variável **Função do canal** é preenchido como **mainadchannel**.
-   1. Clique em **Prioridade** as **1**.
-   1. Clique em **Eventos suportados** as **Carga inicial** e **Tela inativa**.
+   1. Clique em **Prioridade** e definida como **1**.
+   1. Clique em **Eventos suportados** como **Carga inicial** e **Tela inativa**.
    1. Clique em **Salvar**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
-   >Você também pode atribuir um canal no painel de exibição navegando até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião** e seleção **Painel** na barra de ações. Clique em **+ Atribuir canal** do **CANAIS ATRIBUÍDOS E AGENDAMENTOS** painel.
+   >Você também pode atribuir o canal no painel de exibição. Navegue até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião**. Na barra de ações, selecione **Painel**. No **CANAIS ATRIBUÍDOS E AGENDAMENTOS** clique em **+ Atribuir canal**.
 
    Da mesma forma, atribuir canal **TargetedSinglePlay** para exibição**:
 
    1. Navegue até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião** e clique em **Atribuir canal** na barra de ações.
-   1. **Atribuição de canal** é aberta.
-   1. Clique em **Canal de referência** por caminho.
-   1. Clique em **Caminho do canal** as **Ativação em Nível de Canal*** > ***Canais*** > ***TargetedSinglePlay***.
+   1. No **Atribuição de canal** , clique em **Canal de referência** por caminho.
+   1. Clique em **Caminho do canal** e, em seguida, clique em **Ativação em Nível de Canal** > ***Canais*** > ***TargetedSinglePlay***.
    1. A variável **Função do canal** é preenchido como **targetedsingleplay**.
-   1. Defina o **Prioridade** as **2**.
-   1. Clique em **Eventos suportados** as **Carga inicial**, **Tela inativa**, e **Temporizador**, conforme mostrado na figura abaixo.
-   1. Escolha a data em **ativo desde** em 27 de novembro de 2018 às 23:59 e em **ativo até** em 28 de novembro de 2018 às 12h05
+   1. Defina o **Prioridade** para **2**.
+   1. Clique em **Eventos suportados** e defina **Carga inicial**, **Tela inativa**, e **Temporizador**, conforme mostrado na figura abaixo.
+   1. Entrada **ativo desde**, definido como 27 de novembro de 2018 às 23h59, e em **ativo até**, definido como 28 de novembro de 2018, 00:05
    1. Clique em **Salvar**.
 
    >[!CAUTION]
    >
-   >Definir a prioridade de **TargetedSinglePlay** canal superior ao **SegmentoAnúncioPrincipal** canal.
+   >Defina a prioridade para o **TargetedSinglePlay** canal superior ao **SegmentoAnúncioPrincipal** canal.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
@@ -181,7 +179,7 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 | após 12:15 e antes de 12:45 | o ativo no canal é reproduzido diariamente após as 12h15 por 30 minutos |
 | antes de 12:15 também depois de 12:45 | o ativo no canal é reproduzido antes das 12h15 todos os dias e também depois das 12h45. |
 | Seg, Ter, Qua ou Seg-Qua | o ativo é reproduzido no ativo no canal de segunda a quarta-feira |
-| no primeiro dia de janeiro depois das 14h também no segundo dia de janeiro também no terceiro dia de janeiro antes das 3h. | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua sendo reproduzido todo o dia de 2 de janeiro até as 3h de 3 de janeiro |
+| no primeiro dia de janeiro depois das 14h, também no segundo dia de janeiro e também no terceiro dia de janeiro antes das 3h. | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua sendo reproduzido todo o dia de 2 de janeiro até as 3h de 3 de janeiro |
 | nos dias 1 a 2 de janeiro depois das 14h também nos dias 2 a 3 de janeiro antes das 3h. | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua a ser reproduzido até às 3h de 2º de janeiro e, em seguida, recomeça em 2 de janeiro às 14h e continua a ser reproduzido até às 3h de 3º de janeiro |
 
 >[!NOTE]
@@ -263,8 +261,8 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 | **Expressão** | **Interpretação** |
 |---|---|
-| depois das 6:00 e antes das 18:00 na segunda-feira, quarta-feira de janeiro-mar | o ativo é reproduzido no canal entre 6h e 18h nas segundas e quartas-feiras de janeiro ao final de março |
-| no primeiro dia de janeiro depois das 14h também no segundo dia de janeiro também no terceiro dia de janeiro antes das 3h. | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua sendo reproduzido todo o dia de 2 de janeiro até as 3h de 3 de janeiro |
+| depois das 6:00 e antes das 18:00 na segunda-feira, quarta-feira de janeiro-mar | o ativo é reproduzido no canal entre 6h e 18h, nas segundas e quartas-feiras de janeiro até o final de março |
+| no primeiro dia de janeiro depois das 14h, também no segundo dia de janeiro e também no terceiro dia de janeiro antes das 3h. | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua sendo reproduzido todo o dia de 2 de janeiro até as 3h de 3 de janeiro |
 | nos dias 1 a 2 de janeiro depois das 14h também nos dias 2 a 3 de janeiro antes das 3h. | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua a ser reproduzido até às 3h de 2º de janeiro e, em seguida, recomeça em 2 de janeiro às 14h e continua a ser reproduzido até às 3h de 3º de janeiro |
 
 >[!NOTE]

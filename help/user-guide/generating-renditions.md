@@ -9,22 +9,22 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # Representações de vídeo {#video-renditions}
 
-Você pode gerar representações manuais e automáticas de Full HD. A seção a seguir descreve o fluxo de trabalho para adicionar representações aos seus ativos.
+Você pode gerar representações manuais e automáticas em alta definição total. A seção a seguir descreve o fluxo de trabalho para adicionar representações aos seus ativos.
 
-## Gerando representações de alta definição total automaticamente  {#automatically-generating-full-hd-renditions}
+## Gerando representações de alta definição total automaticamente {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->Se as representações de vídeo do AEM Screens não forem executadas de forma ideal no dispositivo, entre em contato com o fornecedor do hardware para obter as especificações do vídeo. Isso ajuda a obter o melhor desempenho no dispositivo e, portanto, cria seu próprio perfil de vídeo personalizado, onde você fornece os parâmetros apropriados para o FFMPEG gerar sua representação. Em seguida, siga as etapas abaixo para adicionar seu perfil de vídeo personalizado à lista de perfis.
+>Se as representações de vídeo do AEM Screens não forem executadas de forma ideal no dispositivo, entre em contato com o fornecedor do hardware para obter as especificações do vídeo. Isso o ajuda a obter o melhor desempenho do dispositivo. Ele ajuda a criar seu próprio perfil de vídeo personalizado, onde você fornece os parâmetros apropriados para que o FFMPEG gere sua representação. Em seguida, siga as etapas abaixo para adicionar seu perfil de vídeo personalizado à lista de perfis.
 >
 >Consulte também [Vídeos de solução de problemas](troubleshoot-videos.md) para depurar e solucionar problemas de reprodução de vídeo no seu canal.
 

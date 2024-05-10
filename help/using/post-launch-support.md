@@ -1,16 +1,15 @@
 ---
 title: Suporte pós-lançamento
 description: Saiba mais sobre o suporte pós-lançamento para o AEM Screens no Guia de práticas recomendadas.
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '370'
 ht-degree: 4%
 
 ---
 
 
 # Suporte pós-lançamento {#post-launch-support}
-
 
 Não ignore o suporte pós-lançamento no estágio inicial.
 
@@ -28,31 +27,31 @@ Além disso, para se preparar para o sucesso a longo prazo, é fundamental estab
 >
 >Defina parâmetros operacionais antecipadamente incluídos nos orçamentos operacionais e alinhe as responsabilidades com o implementador de AEM e o Integrador de áudio e vídeo.
 >
->* A implantação é uma rede de publicidade com muitas partes interessadas vinculadas a uma rede monetizada? Isso pode ditar intervalos de tempo de resolução mais curtos em comparação a uma rede de comunicações corporativas.
+>* A implantação é uma rede de publicidade com muitas partes interessadas vinculadas a uma rede monetizada? Essa situação pode ditar intervalos de tempo de resolução mais curtos em comparação a uma rede de comunicações corporativas.
 >* O aplicativo é altamente visível para a liderança executiva do cliente final? Sites com alta visibilidade podem merecer tratamentos diferentes.
 >* O aplicativo é essencial para operações de negócios, como placas de menu em cadeias de fast-food? Nesses casos, o cliente final pode exigir resoluções no local com tempos de resposta curtos e redundância no hardware de reprodução.
 
 ## Considerações e consultas pós-inicialização {#considerations-queries}
 
-Estas são algumas considerações e perguntas que ajudam a definir o suporte pós-lançamento:
+Algumas considerações e perguntas que ajudam a definir o suporte pós-lançamento:
 
-1. A implantação é uma rede de publicidade com muitas partes interessadas vinculadas a uma rede monetizada? Isso pode ditar intervalos de tempo de resolução mais curtos em comparação a uma rede de comunicações corporativas.
+1. A implantação é uma rede de publicidade com muitas partes interessadas vinculadas a uma rede monetizada? Essa situação pode ditar intervalos de tempo de resolução mais curtos em comparação a uma rede de comunicações corporativas.
  
    >[!NOTE]
    >
-   > Isso determina intervalos de tempo de resolução mais curtos em comparação a uma rede de comunicações corporativas.
+   >Determina intervalos de tempo de resolução mais curtos em comparação a uma rede de comunicações corporativas.
 
 1. O aplicativo é altamente visível para a liderança executiva do cliente final?
 
    >[!NOTE]
    >
-   > Isso determina intervalos de tempo de resolução mais curtos em comparação a uma rede de comunicações corporativas. Sites com alta visibilidade podem merecer tratamentos diferentes.
+   >Determina intervalos de tempo de resolução mais curtos em comparação a uma rede de comunicações corporativas. Sites com alta visibilidade podem merecer tratamentos diferentes.
 
 1. O aplicativo é essencial para operações de negócios, como placas de menu em cadeias de fast-food?
 
    >[!NOTE]
    >
-   > Nesses casos, o cliente final pode exigir resoluções no local com tempos de resposta curtos e redundância no hardware de reprodução.
+   >Nesses casos, o cliente final pode exigir resoluções no local com tempos de resposta curtos e redundância no hardware de reprodução.
 
 1. Quem é o principal ponto de contato para obter suporte?
 

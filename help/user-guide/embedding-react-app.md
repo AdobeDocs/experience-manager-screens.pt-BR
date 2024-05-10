@@ -10,16 +10,16 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
 
 # Incorporação de um aplicativo REACT usando o Editor SPA AEM e Integração com o AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-É possível incorporar um aplicativo interativo de página única usando o REACT (ou Angular). Você faz isso usando o editor SPA AEM que é configurado por profissionais de negócios no AEM. Você também pode aprender a integrar seu aplicativo interativo com o Adobe Analytics offline.
+É possível incorporar um aplicativo interativo de página única usando o REACT (ou Angular). Você faz isso usando o editor SPA AEM que os profissionais de negócios no AEM configuram. Você também pode aprender a integrar seu aplicativo interativo com o Adobe Analytics offline.
 
 ## AEM Utilização do editor SPA {#using-the-aem-spa-editor}
 
@@ -56,7 +56,7 @@ Siga as etapas abaixo para usar o Editor de SPA AEM:
 Para editar o conteúdo no aplicativo REACT:
 
 1. Navegue até `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` (substitua o nome do host, a porta e o nome do projeto, conforme aplicável).
-1. Você deve ser capaz de editar o texto que está sendo exibido no aplicativo Hello world.
+1. Ser capaz de editar o texto que está sendo exibido no aplicativo Hello World.
 
 ### Adição do aplicativo REACT interativo ao AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
 
@@ -81,7 +81,7 @@ Siga as etapas abaixo para adicionar o aplicativo REACT interativo ao AEM Screen
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Arraste e solte a **Página incorporada** componente ou reutilize o componente existente em um canal de aplicativo, e clique na página inicial no aplicativo mysamplespa, por exemplo, ***/content/mysamplespa/en/home***.
+1. Arraste e solte a **Página incorporada** ou reutilize o componente existente em um canal de aplicativo, e clique na página inicial no aplicativo mysamplespa, por exemplo, ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -90,7 +90,7 @@ Siga as etapas abaixo para adicionar o aplicativo REACT interativo ao AEM Screen
    >[!NOTE]
    >Adicione o evento de interação do usuário ao atribuir o canal à exibição.
 
-1. Registrar um reprodutor neste projeto e atribuí-lo à exibição. Agora é possível ver seu aplicativo interativo em execução no AEM Screens.
+1. Registrar um reprodutor neste projeto e atribuí-lo à exibição. Agora você pode ver seu aplicativo interativo em execução no AEM Screens.
 
    Consulte [Registro do dispositivo](device-registration.md) para obter mais informações sobre como registrar um dispositivo.
 

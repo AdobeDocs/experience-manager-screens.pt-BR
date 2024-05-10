@@ -2,16 +2,16 @@
 title: Funções e responsabilidades do projeto AEM Screens
 description: Saiba mais sobre as funções e responsabilidades do projeto AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1241'
 ht-degree: 0%
 
 ---
 
 # Funções e responsabilidades do projeto {#roles-responsibilities}
 
-Como um implementador de AEM experiente, provavelmente você já viu funções conhecidas como *Autores*, *Desenvolvedores*, e *TI/Técnicos*.
+Como um implementador de AEM experiente, provavelmente você já viu funções conhecidas como *Autores*, *Desenvolvedores*, e *Técnicos de TI*.
 
 Em um projeto AEM Screens típico, as funções são refinadas, pois cada uma serve a um propósito importante no projeto.
 
@@ -25,7 +25,7 @@ O diagrama a seguir mostra as funções que você pode esperar em todo o guia.
 
 ## Definição de Funções {#roles}
 
-A seção a seguir fornece uma visão geral sobre o público-alvo:
+A seção a seguir fornece uma visão geral do público-alvo:
 
 ### Adobe {#adobe-audience}
 
@@ -37,13 +37,13 @@ Os implementadores de AEM são responsáveis por executar tarefas de desenvolvim
 
 Os recursos personalizados necessários para lidar com parâmetros UX (experiência do usuário) do cliente final também são capturados e entregues por meio desse processo.
 
-Os implementadores de AEM normalmente implantarão a funcionalidade personalizada em fases ao longo do tempo nos locais. Por exemplo, eles podem primeiro estabelecer suporte para a reprodução de vídeo em loop básico ou conteúdo gráfico estático. A próxima fase inclui a capacidade de oferecer suporte à reprodução de conteúdo localizado por meio de modelos dinâmicos e tags de metadados, com outras fases que incorporam suporte a elementos interativos por meio de telas sensíveis ao toque, sensores, acionadores dinâmicos e assim por diante.
+Os implementadores de AEM normalmente implantarão a funcionalidade personalizada em fases ao longo do tempo nos locais. Por exemplo, eles podem primeiro estabelecer suporte para a reprodução de vídeo em loop básico ou conteúdo gráfico estático. A próxima fase inclui a capacidade de oferecer suporte à reprodução de conteúdo localizado por meio de modelos dinâmicos e tags de metadados. Outras fases incorporam suporte a elementos interativos por meio de telas sensíveis ao toque, sensores, acionadores dinâmicos etc.
 
 ### Integradores de áudio e vídeo {#av-integrators}
 
-O integrador de áudio-vídeo é o fornecedor/parceiro de hardware. Essa é a parte que lida com design de varejo e preparação de sites, incluindo aquisição, configuração e implantação de hardware. Normalmente, é um terceiro contratado que tem acesso a um NOC (Network Operations Center, centro de operações de rede). Muitas vezes, o Integrador de áudio e vídeo é o proprietário do projeto devido ao seu envolvimento contínuo após o lançamento.
+O integrador de áudio-vídeo é o fornecedor-parceiro de hardware. Eles são a parte que lida com design de varejo e preparação de sites, incluindo aquisição, configuração e implantação de hardware. Normalmente, é um terceiro contratado que tem acesso a um NOC (Network Operations Center, centro de operações de rede). Muitas vezes, o Integrador de áudio e vídeo é o proprietário do projeto devido ao seu envolvimento contínuo após o lançamento.
 
-Um Integrador de áudio e vídeo é responsável por conduzir a detecção com clientes finais para definir os requisitos que determinam o escopo do projeto para projetar, criar e gerenciar com eficiência implantações em torno de hardware de sinalização digital.
+Um Integrador de áudio e vídeo é responsável por realizar a detecção com os clientes finais para definir os requisitos, determinando o escopo do projeto para projetar, criar e gerenciar com eficácia as implantações em torno do hardware de sinalização digital.
 
 #### Considerar parceiro de hardware {#selecting-hardware-partner}
 
@@ -77,7 +77,7 @@ O gerenciamento de criação e conteúdo pode ser o seguinte:
 
 ### Gerentes de projeto {#project-managers}
 
-Os gerentes de projeto normalmente gerenciam toda a implantação da sua implantação do AEM Screens. Um gerente de projeto é a pessoa responsável por toda a implementação do projeto designado. Eles executam responsabilidades importantes, como definir cronogramas, lidar com as necessidades e comunicações da equipe, enfrentar desafios e garantir que as metas sejam atendidas.
+Os gerentes de projeto normalmente gerenciam toda a implantação da sua implantação do AEM Screens. Um gerente de projeto é a pessoa responsável por toda a implementação do projeto designado. Eles executam responsabilidades importantes, como definir cronogramas e lidar com as necessidades da equipe. Elas também afetam as comunicações, enfrentando desafios e garantindo que as metas sejam atingidas.
 
 >[!NOTE]
 >
@@ -86,11 +86,11 @@ Os gerentes de projeto normalmente gerenciam toda a implantação da sua implant
 
 ## Estágios do Projeto {#project-stages}
 
-Para oferecer suporte a uma implantação bem-sucedida da Sinalização digital, é comum segmentar o projeto em três estágios. Essas etapas são comumente chamadas de **Dias**. Esses não são dias literais, mas designações para cada estágio principal do projeto.
+Para oferecer suporte a uma implantação bem-sucedida da sinalização digital, é comum segmentar o projeto em três estágios. Essas etapas são comumente chamadas de **Dias**. Não são dias literais, mas designações para cada fase importante do projeto.
 
-1. A primeira fase é designada por *Dia Zero*. Esse estágio inclui todas as iniciativas de pré-venda e detecção necessárias para definir totalmente o escopo do projeto.
+1. A primeira fase é designada por *Dia Zero*. Este estágio inclui todos os esforços de pré-vendas e detecção necessários para definir o escopo do projeto.
 1. A segunda fase, *Primeiro dia*, refere-se a todas as atividades incluídas no esforço de implantação.
-1. Quanto à terceira e última fase *Dia dois* refere-se a todas as operações em andamento e aos elementos de suporte como parte da solução total.
+1. A terceira e última fase é *Dia dois*. Refere-se a todas as operações em andamento e aos elementos de suporte como parte da solução total.
 
 >[!NOTE]
 >
@@ -177,9 +177,9 @@ A tabela a seguir resume as **Primeiro dia: primeiro dia: implementação do pro
 
 * **Autor**: Gestão de conteúdo + estratégia
 
-* **Desenvolvedor**: normalmente um membro da equipe de implementação do AEM Screens ou uma transferência para a equipe interna de desenvolvimento
+* **Desenvolvedor**: normalmente um membro da equipe de implementação do AEM Screens ou uma entrega para uma equipe interna de desenvolvimento
 
-* **Técnico**: contratado pelo integrador de áudio-vídeo ou faz parte da mesma empresa.
+* **Técnico**: Contratado pelo Integrador de áudio-vídeo ou é parte da mesma empresa.
 
 A tabela a seguir resume as **Dia dois: gráfico RACI de suporte pós-lançamento**:
 

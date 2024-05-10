@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1250'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Depois de criar seu projeto para o AEM Screens, siga as etapas abaixo para criar
 
 1. Clique no link Adobe Experience Manager (parte superior esquerda) e, em seguida, em Screens. Como alternativa, você pode navegar diretamente para `https://localhost:4502/screens.html/content/screens`.
 
-1. Navegue até o projeto do Screens e clique em **Canais** pasta.
+1. Navegue até o projeto do Screens e clique no **Canais** pasta.
 
 1. Clique em **Criar** na barra de ações.
 
@@ -51,15 +51,15 @@ As seguintes opções de modelo estão disponíveis ao usar o assistente, como:
 
 | **Opção de modelo** | **Descrição** |
 |---|---|
-| Pasta de canais | Permite criar uma pasta para armazenar a coleção de canais. |
-| Canal de sequência | Permite criar um canal que reproduz os componentes sequencialmente (um por um em uma apresentação de slides). |
-| Canal do aplicativo | Permite exibir o aplicativo web personalizado no reprodutor do Screens. |
-| Canal de tela dividida 1x1 | Permite exibir um componente em uma única zona. |
-| Canal de tela dividida 1x2 | Permite exibir os ativos em duas zonas (divididas horizontalmente). |
-| Canal De Tela Dividida 2X1 | Permite exibir os ativos em duas zonas (divididas verticalmente). |
-| Canal de tela dividida 2x2 | Permite a visualização dos ativos em quatro zonas (divididas horizontal e verticalmente em uma matriz). |
-| Canal de 2 a 3 telas divididas | Permite exibir os ativos em duas zonas (divididas horizontalmente) com uma das zonas maior que a outra. |
-| Canal de tela dividida em L à esquerda ou à direita | Permite que os autores de conteúdo visualizem diferentes tipos de ativos em zonas de tamanho adequado. |
+| Pasta de canais | Crie uma pasta para armazenar uma coleção de canais. |
+| Canal de sequência | Crie um canal que reproduza os componentes sequencialmente (um por um em uma apresentação de slides). |
+| Canal do aplicativo | Mostre seu aplicativo web personalizado no reprodutor do Screens. |
+| Canal de tela dividida 1x1 | Visualização de um componente em uma única região. |
+| Canal de tela dividida 1x2 | Visualize os ativos em duas zonas (divididas horizontalmente). |
+| Canal De Tela Dividida 2X1 | Visualize os ativos em duas zonas (divididas verticalmente). |
+| Canal de tela dividida 2x2 | Visualizar os ativos em quatro zonas (divididas horizontal e verticalmente em uma matriz). |
+| Canal de 2 a 3 telas divididas | Visualize os ativos em duas zonas (divididas horizontalmente) com uma das zonas sendo maior que a outra. |
+| Canal de tela dividida em L à esquerda ou à direita | Os autores de conteúdo podem visualizar diferentes tipos de ativos em zonas de tamanho adequado. |
 
 >[!NOTE]
 >
@@ -132,11 +132,11 @@ Siga estas etapas para habilitar essa opção no painel de canal:
 
 1. **Definir o canal como offline**
    1. Clique no canal e em **Propriedades** na barra de ações
-   1. Navegue até **Canal** e certifique-se de desmarcar **Modo de desenvolvedor (forçar canal a ficar online)** opção
+   1. Navegue até a **Canal** e certifique-se de desmarcar **Modo de desenvolvedor (forçar canal a ficar online)** opção
    1. Clique em **Salvar e fechar**
 1. **Atualizar conteúdo offline**
    1. Clique no canal e em **Painel** na barra de ações
-   1. Navegue até **INFORMAÇÕES DO CANAL** e clique em *..*
+   1. Navegue até a **INFORMAÇÕES DO CANAL** e clique em *..*
    1. Clique em **Atualizar conteúdo offline**
 
 Você deve ver o **Exibir manifesto** opção no **INFORMAÇÕES DO CANAL** no painel Canal.
@@ -169,7 +169,7 @@ Siga as etapas abaixo para tornar o canal online:
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. Verifique a **Desenvolvedor** **(forçar canal a ficar online)** para tornar o canal online.
+1. Verifique a **Desenvolvedor** **(forçar o canal a ficar online)** para tornar o canal online.
 
    Clique em **Salvar e fechar** para salvar sua opção.
 
@@ -197,7 +197,7 @@ A tabela a seguir resume os eventos associados às atualizações automáticas e
   </tr>
   <tr>
    <td>Alteração no canal online</td>
-   <td>Conteúdo atualizado automaticamente</td>
+   <td>O conteúdo é atualizado automaticamente</td>
    <td><p>Conteúdo atualizado em "Dispositivo: configuração por push"</p> <p>Ou,</p> <p>Conteúdo atualizado em <strong><i>Device: Restart</i></strong></p> </td>
   </tr>
   <tr>
@@ -207,7 +207,7 @@ A tabela a seguir resume os eventos associados às atualizações automáticas e
   </tr>
   <tr>
    <td>A alteração no canal offline e no canal "Conteúdo push" é acionada (novo pacote offline)</td>
-   <td>Conteúdo atualizado automaticamente</td>
+   <td>O conteúdo é atualizado automaticamente</td>
    <td><p>Conteúdo atualizado em <strong><i>Device: configuração de push</i></strong></p> <p>Ou,</p> <p>Conteúdo atualizado em <strong><i>Device: Restart</i></strong></p> </td>
   </tr>
   <tr>
@@ -218,8 +218,8 @@ A tabela a seguir resume os eventos associados às atualizações automáticas e
      <li>Atribuições de canal (novo canal, canal removido)</li>
      <li>Atribuição de canal (função, evento, agendamento)</li>
     </ul> </td>
-   <td>Configuração atualizada automaticamente</td>
-   <td><p>Configuração atualizada em <strong><i>Device: configuração de push</i></strong></p> <p>Ou,</p> <p>Configuração atualizada em <strong><i>Device: Restart</i></strong></p> </td>
+   <td>A configuração é atualizada automaticamente</td>
+   <td><p>A configuração é atualizada em <strong><i>Device: configuração de push</i></strong></p> <p>Ou,</p> <p>Configuração atualizada em <strong><i>Device: Restart</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
