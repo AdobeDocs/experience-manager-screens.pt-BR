@@ -1,14 +1,14 @@
 ---
 title: Canal de aquisição permanente
-description: Siga este caso de uso para criar um Canal de TakeOver Permanente.
+description: Saiba como criar um canal de Controle Permanente.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '871'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ A página a seguir mostra um caso de uso que enfatiza a configuração de um pro
 ## Descrição do caso de uso {#use-case-description}
 
 Esse caso de uso explica como criar um canal que *assume o controle* do canal de reprodução normal para uma exibição ou grupo de exibições. A tomada de controle ocorre para um dia e hora específicos perpetuamente.
-Por exemplo, há um canal de TakeOver Permanente que é reproduzido todas as sextas-feiras, das 9h às 10h. Durante esse tempo, nenhum outro canal deve ser reproduzido. O exemplo a seguir mostra a criação de um canal de aquisição permanente que é reproduzido, permitindo que o conteúdo seja reproduzido todas as quartas-feiras por duas horas, das 14h às 16h.
+Por exemplo, há um canal de TakeOver Permanente que é reproduzido todas as sextas-feiras, das 9h às 10h. Durante esse tempo, nenhum outro canal deve ser reproduzido. O exemplo a seguir mostra a criação de um canal de aquisição permanente que permite que o conteúdo seja reproduzido todas as quartas-feiras por duas horas, das 14h às 16h.
 
 ### Pré-condições {#preconditions}
 
@@ -84,12 +84,12 @@ Siga as etapas abaixo para configurar um projeto:
 
 1. Clique na exibição **AssumirControle** do **Localizações** pasta. Clique em **Atribuir canal** na barra de ações, para que seja possível atribuir o canal de tomada.
 
-1. Atribuir a **AssumirControle** canal para exibir em um horário agendado e preencher os seguintes campos do **Atribuição de canal** caixa de diálogo e seleção **Salvar**:
+1. Atribuir a **AssumirControle** canal para exibir em um horário agendado. Em seguida, preencha os seguintes campos a partir do **Atribuição de canal** caixa de diálogo e seleção **Salvar**:
 
    * **Caminho do canal**: Clique no caminho para a **AssumirControle** channel
    * **Prioridade**: Defina a prioridade deste canal como maior que a **MainAdChannel**. Por exemplo, a prioridade definida neste exemplo é 8.
    * **Eventos suportados**: Clique no botão **Tela inativa** e **Temporizador**.
-   * **Agendar**: Insira o texto do agendamento para o qual você deseja que este canal execute a exibição. O texto no campo **Agendar** mencionado neste exemplo é *na quarta-feira depois das 14:00 e antes das 16:00*.
+   * **Agendar**: Insira o texto do agendamento que deseja que este canal execute na exibição. O texto no campo **Agendar** mencionado neste exemplo é *na quarta-feira depois das 14:00 e antes das 16:00*.
 
      >[!NOTE]
      >Para saber mais sobre as expressões que podem ser adicionadas à variável **Agendar**, consulte o [Expressões de exemplo](#example-expressions) abaixo.
@@ -101,7 +101,7 @@ Siga as etapas abaixo para configurar um projeto:
 
      ![ativo](assets/p_usecase7.png)
 
-     Navegar para a exibição a partir de **AssumirControle** > **Localizações** > **LobbyPrincipal** > **MainLobbyDisplay** e clique em **Painel** na barra de ações para que você possa visualizar os canais atribuídos com suas prioridades, conforme mostrado abaixo.
+     Navegar para a exibição a partir de **AssumirControle** > **Localizações** > **LobbyPrincipal** > **MainLobbyDisplay**, Em seguida, clique em **Painel** na barra de ações para que você possa visualizar os canais atribuídos com suas prioridades, conforme mostrado abaixo.
 
      >[!NOTE]
      >É obrigatório definir a prioridade do canal de aquisição como a mais alta.
@@ -119,8 +119,8 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 | depois das 14h | o canal é reproduzido depois das 14h todos os dias |
 | após 12:15 e antes de 12:45 | o canal é reproduzido diariamente após as 12h15 por 30 minutos |
 | antes de 12:15 também depois de 12:45 | o canal é reproduzido antes das 12h15 todos os dias e também depois das 12h45. |
-| no primeiro dia de janeiro depois das 14h também no segundo dia de janeiro também no terceiro dia de janeiro antes das 3h. | o canal começa a tocar depois das 14h de 1º de janeiro, continua tocando o dia todo em 2 de janeiro até as 3h de 3 de janeiro |
-| nos dias 1 a 2 de janeiro depois das 14h também nos dias 2 a 3 de janeiro antes das 3h. | o canal inicia o player depois das 14h em 1º de janeiro, continua jogando até as 3h em 2 de janeiro, depois começa novamente em 2 de janeiro às 14h e continua tocando até as 3h em 3 de janeiro |
+| no primeiro dia de janeiro depois das 14h, também no segundo dia de janeiro e também no terceiro dia de janeiro antes das 3h. | o canal começa a tocar depois das 14h de 01 de janeiro, continua tocando o dia inteiro em 02 de janeiro até as 3h de 03 de janeiro |
+| nos dias 1 a 2 de janeiro depois das 14h também nos dias 2 a 3 de janeiro antes das 3h. | o canal começa a ser reproduzido depois das 14h de 1 de janeiro, continua a ser reproduzido até às 3h de 2 de janeiro e, em seguida, recomeça em 2 de janeiro às 14h e continua a ser reproduzido até às 3h de 3 de janeiro |
 
 >[!NOTE]
 >

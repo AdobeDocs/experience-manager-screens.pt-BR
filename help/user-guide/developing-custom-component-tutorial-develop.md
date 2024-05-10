@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 8c3221e17401d6ff792c61bf75275cc72e885432
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '2154'
+source-wordcount: '2161'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ O código-fonte de um projeto do Screens geralmente é gerenciado como um projet
 [Obter arquivo](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Obter arquivo](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
-   **Opcionalmente** se trabalhar com o Eclipse ou outro IDE, faça o download do pacote de código-fonte abaixo. Implante o projeto em uma instância AEM local usando o comando Maven:
+   **Opcionalmente** Se estiver trabalhando com o Eclipse ou outro IDE, baixe o pacote de código-fonte abaixo. Implante o projeto em uma instância AEM local usando o comando Maven:
 
    **`mvn -PautoInstallPackage clean install`**
 
@@ -84,7 +84,7 @@ O código-fonte de um projeto do Screens geralmente é gerenciado como um projet
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   Este pacote contém o conteúdo inicial e a estrutura de configuração necessária para o projeto. **`/conf/we-retail-run`** contém todas as configurações para o `We.Retail` Executar projeto. **`/content/dam/we-retail-run`** inclui a inicialização de ativos digitais para o projeto. **`/content/screens/we-retail-run`** contém a estrutura de conteúdo do Screens. O conteúdo sob todos esses caminhos é atualizado principalmente no AEM. Para promover a consistência entre ambientes (local, desenvolvimento, preparo, produção), geralmente uma estrutura de conteúdo básica é salva no controle de origem.
+   Este pacote contém o conteúdo inicial e a estrutura de configuração necessária para o projeto. **`/conf/we-retail-run`** contém todas as configurações para o `We.Retail` Executar projeto. **`/content/dam/we-retail-run`** inclui a inicialização de ativos digitais para o projeto. **`/content/screens/we-retail-run`** contém a estrutura de conteúdo do Screens. O conteúdo de todos esses caminhos é atualizado principalmente no AEM. Para promover a consistência entre ambientes (local, desenvolvimento, preparo, produção), geralmente uma estrutura de conteúdo básica é salva no controle de origem.
 
 1. **Navegue até a AEM Screens > `We.Retail` Executar projeto:**
 
@@ -116,7 +116,7 @@ O AEM Screens tem algumas restrições interessantes que não são necessariamen
 
    Propriedades de /apps/weretail-run/components/content/helloworld
 
-   A variável **Olá, mundo** O componente estende a **foundation/components/parbase** para que possa ser usado corretamente dentro de um canal de sequência.
+   A variável **Olá, mundo** O componente estende a **foundation, componentes, parbase** para que possa ser usado corretamente em um canal de Sequência.
 
 1. Criar um arquivo abaixo de `/apps/weretail-run/components/content/helloworld` nomeado `helloworld.html.`
 
@@ -158,7 +158,7 @@ O AEM Screens tem algumas restrições interessantes que não são necessariamen
    </div>
    ```
 
-   O item acima é a marcação de produção do componente Hello World. A `data-duration` O atributo é incluído porque o componente é usado em um canal de Sequência. A variável `data-duration` O atributo é usado pelo canal de sequência para saber por quanto tempo um item de sequência deve ser exibido.
+   O conteúdo acima é a marcação de produção do componente Hello World. A `data-duration` O atributo é incluído porque o componente é usado em um canal de Sequência. A variável `data-duration` O atributo é usado pelo canal Sequência para saber por quanto tempo um item da sequência deve ser exibido.
 
    O componente renderiza um `div` e uma `h1` com texto. `${properties.message}` é uma parte do script HTL que gera o conteúdo de uma propriedade JCR chamada `message`. Uma caixa de diálogo será criada posteriormente permitindo que um usuário insira um valor para a variável `message` texto da propriedade.
 
@@ -189,9 +189,9 @@ O AEM Screens tem algumas restrições interessantes que não são necessariamen
    </div>
    ```
 
-   A imagem acima é a marcação editada para o componente Hello World. O primeiro bloco exibe uma versão editada do componente se a mensagem de diálogo tiver sido preenchida.
+   A tabela acima é a marcação editada para o componente Hello World. O primeiro bloco exibe uma versão editada do componente se a mensagem de diálogo tiver sido preenchida.
 
-   O segundo bloco é renderizado se nenhuma mensagem de diálogo for inserida. A variável `cq-placeholder` e `data-emptytext` renderizar o rótulo ***Olá, mundo*** nesse caso, como titular. A string do rótulo pode ser internacionalizada usando i18n para oferecer suporte à criação em vários locais.
+   O segundo bloco é renderizado se nenhuma mensagem de caixa de diálogo for inserida. A variável `cq-placeholder` e `data-emptytext` renderizar o rótulo ***Olá, mundo*** nesse caso, como titular. A string do rótulo pode ser internacionalizada usando i18n para oferecer suporte à criação em vários locais.
 
 1. **A caixa de diálogo Copiar imagem do Screens a ser usada para o componente Olá, mundo.**
 
@@ -202,7 +202,7 @@ O AEM Screens tem algumas restrições interessantes que não são necessariamen
 
    ![copy-image-dialog](assets/copy-image-dialog.gif)
 
-1. **Atualize a caixa de diálogo Olá, mundo para incluir uma guia para a mensagem.**
+1. **Atualize a caixa de diálogo Olá, mundo para incluir uma guia para mensagem.**
 
    Atualize a caixa de diálogo para que corresponda ao seguinte. A estrutura do nó JCR da caixa de diálogo final é apresentada abaixo em XML:
 
@@ -272,7 +272,7 @@ O AEM Screens tem algumas restrições interessantes que não são necessariamen
 
 As bibliotecas do lado do cliente fornecem um mecanismo para organizar e gerenciar arquivos CSS e JavaScript necessários para uma implementação do AEM.
 
-Os componentes do AEM Screens são renderizados de forma diferente no modo Editar versus no modo Pré-visualização/Produção. Duas bibliotecas de clientes são criadas: uma para o modo Editar e a segunda para Pré-visualização/Produção.
+Os componentes do AEM Screens são renderizados de forma diferente no modo de Edição vs. no modo de Pré-visualização-Produção. Duas bibliotecas de clientes são criadas: uma para o modo Editar e a segunda para o modo Pré-visualização-Produção.
 
 1. Crie uma pasta para bibliotecas do lado do cliente para o componente Hello World.
 
@@ -294,9 +294,9 @@ Os componentes do AEM Screens são renderizados de forma diferente no modo Edita
 
    Propriedades de /apps/weretail-run/components/content/helloworld/clientlibs/shared
 
-   A propriedade categories é uma string que identifica a biblioteca do cliente. A categoria cq.screens.components é usada nos modos Editar e Visualizar/Produção. Portanto, qualquer CSS/JS definido no sharedclientlib é carregado em todos os modos.
+   A propriedade categories é uma string que identifica a biblioteca do cliente. A categoria cq.screens.components é usada nos modos Editar e Visualizar produção. Portanto, qualquer CSS ou JS definido em sharedclientlib é carregado em todos os modos.
 
-   É uma prática recomendada nunca expor nenhum caminho diretamente para /apps em um ambiente de produção. A propriedade allowProxy garante que o CSS e o JS da biblioteca do cliente sejam referenciados por meio de um prefixo of/etc.clientlibs.
+   Como prática recomendada, qualquer caminho diretamente para `/apps` em um ambiente de produção nunca deve ser exposto. A propriedade allowProxy garante que o CSS e o JS da biblioteca do cliente sejam referenciados por meio de um prefixo de `/etc.clientlibs`.
 
 1. Criar arquivo chamado `css.txt` abaixo da pasta compartilhada.
 
@@ -342,7 +342,7 @@ Os componentes do AEM Screens são renderizados de forma diferente no modo Edita
 
 1. Atualize o `categories` propriedade da biblioteca do cliente de produção a ser `cq.screens.components.production.`
 
-   Isso garante que os estilos sejam carregados somente no modo de Pré-visualização/Produção.
+   Isso garante que os estilos só sejam carregados quando estiverem no modo de Pré-visualização-produção.
 
    ![Propriedades de /apps/weretail-run/components/content/helloworld/clientlibs/production](assets/2018-04-30_at_5_04pm.png)
 
@@ -394,7 +394,7 @@ Abaixo de a `We.Retail` É criada a página Executar design que armazena todas a
    | Nome | Tipo | Valor |
    |---|---|---|
    | `jcr:title` | String | `We.Retail` Executar |
-   | `sling:resourceType` | String | wcm/core/components/designer |
+   | `sling:resourceType` | String | `wcm`, `core`, `components`, `designer` |
    | `cq:doctype` | String | html_5 |
 
    ![Página de design em /apps/settings/wcm/designs/we-retail-run](assets/2018-05-07_at_1219pm.png)
@@ -403,7 +403,7 @@ Abaixo de a `We.Retail` É criada a página Executar design que armazena todas a
 
 ## Criar um canal de sequência {#create-sequence-channel}
 
-O componente Hello World deve ser usado em um canal de sequência. Para testar o componente, um novo Canal de sequência é criado.
+O componente Hello World é para uso em um canal de sequência. Para testar o componente, um novo canal de sequência é criado.
 
 1. No menu Iniciar do AEM, navegue até **Screens** > **`We.Retail`Executar** > e clique em **Canais**.
 
@@ -441,7 +441,7 @@ O componente Hello World deve ser usado em um canal de sequência. Para testar o
 
    ![2018-04-30_às_5_43h](assets/2018-04-30_at_5_43pm.png)
 
-1. Alternar o modo de página para **Editar**. O componente Hello World agora pode ser adicionado à página e combinado com outros componentes de canal de sequência.
+1. Alternar o modo de página para **Editar**. O componente Olá, mundo agora pode ser adicionado à página e combinado com outros componentes do canal de sequência.
 
    ![2018-04-30_às_5_53h](assets/2018-04-30_at_5_53pm.png)
 
@@ -453,11 +453,11 @@ O componente Hello World deve ser usado em um canal de sequência. Para testar o
 
 ## Modelo para manipuladores personalizados {#custom-handlers}
 
-Se o componente personalizado usar recursos externos, como ativos (imagens, vídeos, fontes e ícones), representações de ativos específicas ou bibliotecas do lado do cliente (css e js), eles não serão adicionados automaticamente à configuração offline. O motivo é porque somente a marcação HTML é agrupada por padrão.
+Se o componente personalizado usar recursos externos, como ativos (imagens, vídeos, fontes e ícones), representações de ativos específicas ou bibliotecas do lado do cliente (css e js), esses recursos não serão adicionados automaticamente à configuração offline. O motivo é porque somente a marcação HTML é agrupada por padrão.
 
-Para permitir que você personalize e otimize os ativos exatos que são baixados no reprodutor, o Adobe oferece um mecanismo de extensão para que os componentes personalizados exponham suas dependências à lógica de armazenamento em cache offline no AEM Screens.
+Para permitir personalizar e otimizar os ativos exatos que são baixados para o reprodutor, o Adobe oferece um mecanismo de extensão. Esse mecanismo permite que os componentes personalizados exponham suas dependências à lógica de cache offline no AEM Screens.
 
-A seção abaixo mostra o modelo para manipuladores de recursos offline personalizados e os requisitos mínimos na `pom.xml` para esse projeto específico.
+A seção abaixo mostra o modelo para manipuladores de recursos offline personalizados. Apresenta igualmente os requisitos mínimos `pom.xml` para esse projeto específico.
 
 ```java
 package …;
@@ -546,7 +546,7 @@ O código a seguir fornece os requisitos mínimos nas `pom.xml` para esse projet
       </dependencies>
 ```
 
-**NOTA** : no caso do AEMaaCS, use a dependência abaixo no `pom.xml` para esse projeto específico.
+**NOTA** : Se houver AEM as a Cloud Service, use a dependência abaixo no `pom.xml` para esse projeto específico.
 
 ```css
    <dependencies>
@@ -574,7 +574,7 @@ Se o objetivo do componente personalizado for incluir outras páginas ou Fragmen
 1. Em vez de estender diretamente `foundation/components/parbase`, você teria que estender `screens/core/components/content/page` ou `screens/core/components/content/experiencefragment`
 2. O nome da propriedade usada para fazer referência ao conteúdo incorporado deve ser `pagePath`.
 
-O uso desses dois componentes principais do Screens também vem com o benefício adicional de que eles podem cuidar do agrupamento de algumas dependências que você precisa (bibliotecas do lado do cliente, fontes e assim por diante). Eles fazem isso por meio das opções de configuração offline na caixa de diálogo do componente, o que reduz a responsabilidade de qualquer manipulador offline personalizado que você teria que usar para isso. Às vezes, pode até mesmo eliminar completamente a necessidade de usar um em primeiro lugar.
+O uso desses dois componentes principais do Screens também vem com o benefício adicional de que eles podem cuidar do agrupamento de algumas dependências que você precisa (bibliotecas do lado do cliente, fontes e assim por diante). Essa funcionalidade é feita por meio das opções de configuração offline na caixa de diálogo do componente. Em seguida, reduz a responsabilidade de qualquer manipulador off-line personalizado que você teria que usar para ele. Às vezes, pode até mesmo eliminar completamente a necessidade de usar um em primeiro lugar.
 
 ## Código concluído {#finished-code}
 

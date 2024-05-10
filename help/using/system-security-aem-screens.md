@@ -1,9 +1,9 @@
 ---
 title: Lista de verificação de segurança do AEM Screens
 description: Saiba mais sobre a lista de verificação de segurança do AEM Screens.
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # Considerações sobre a segurança do sistema para o AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
->Este é um recurso interno do Git.
+>Um recurso interno do Git.
 
 Esta página destaca as Considerações de segurança do sistema para o AEM Screens.
 
@@ -24,7 +24,7 @@ Esta seção descreve o white paper. (Anexo em white paper pendente)
 
 ## Perguntas frequentes sobre a segurança do AEM Screens {#faqs-screens}
 
-As perguntas frequentes a seguir pressupõem uma arquitetura de player autenticada e registrada que usa HTTPS como o protocolo de comunicação entre o player e o servidor AEM.
+As perguntas frequentes a seguir pressupõem uma arquitetura de player autenticada e registrada. Ele usa HTTPS como o protocolo de comunicação entre o reprodutor e o servidor AEM.
 
 ### Perguntas frequentes 1 {#faq1}
 
@@ -41,7 +41,7 @@ Devo usar HTTP ou HTTPs?
 
 **Resposta**
 
-Use HTTPs. Isso é obrigatório se você estiver preocupado com a segurança. Com HTTPs, a comunicação é criptografada entre o reprodutor e o servidor, e é impossível interceptar ou modificar o conteúdo.
+Use HTTPs. Esse protocolo é obrigatório se você estiver preocupado com a segurança. Com HTTPs, a comunicação é criptografada entre o reprodutor e o servidor, e é impossível interceptar ou modificar o conteúdo.
 
 
 ### Perguntas frequentes 3 {#faq3}
@@ -50,7 +50,7 @@ Em um download de conteúdo, há algum tipo de assinatura do conteúdo ou hash?
 
 **Resposta**
 
-Cada ativo é assinado (SHA) pelo servidor e depois validado pelo reprodutor para o mesmo hash para garantir a integridade.
+Todos os ativos são assinados (SHA) pelo servidor. O reprodutor o valida para o mesmo hash a fim de garantir a integridade.
 Se o hash não corresponder, o software tentará revalidar três vezes. Após três tentativas, o comando de download é considerado inválido.
 
 
@@ -73,7 +73,7 @@ Um player fisicamente comprometido pode teoricamente ser manipulado para reprodu
 
 Coloque os dispositivos fora de alcance, de preferência em um contêiner seguro, com o cabeamento preso também. Desative também as portas remotas IR.
 
-Se o SO do dispositivo não for atualizado regularmente, o SO pode ser deixado exposto a brechas de segurança e permitir ataques remotos pela rede.
+Se o SO do dispositivo não for atualizado regularmente, o SO pode ficar exposto a brechas de segurança e permitir ataques remotos pela rede.
 
 >[!NOTE]
 >

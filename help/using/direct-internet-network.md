@@ -2,9 +2,9 @@
 title: Acesso Direto à Internet
 description: Acesso Direto à Internet
 exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -38,15 +38,15 @@ Siga as etapas abaixo para garantir a conexão correta dos reprodutores de tela 
    >* DHCP
    >* Configuração de IP Manual
 
-1. Verifique se a Configuração do Adaptador de Rede corresponde às Configurações do Roteador; verifique se o número máximo de endereços IP disponíveis na rede não foi atingido.
-1. Verifique se o roteador está conectado corretamente à rede de longa distância ISP (Internet Link). Isso também pode ser identificado usando um LED de sinal nos roteadores padrão.
+1. Verifique se a configuração do adaptador de rede corresponde às configurações do roteador; verifique se o número máximo de endereços IP disponíveis na rede não foi atingido.
+1. Verifique se o roteador está conectado corretamente à Rede de longa distância ISP (Internet Link). Ou também pode ser identificado usando um LED de sinal nos roteadores padrão.
 1. Caso a chamada de URL seja bem-sucedida, você pode continuar instalando o AEM Screens e se registrar. Inicie o AEM Screens.
 
    >[!NOTE]
    >**Dica de solução de problemas**
    >Se o AEM Screens não se conectar corretamente e o conteúdo esperado não for exibido:
    >
-   >1. Verifique o firewall do roteador de Internet se houver restrições relacionadas a `TCP/IP Port 80/443`.
+   >1. Verifique no firewall do roteador de Internet se houver restrições relacionadas a `TCP/IP Port 80/443`.
    >1. Verifique se todas as portas necessárias são permitidas.
 
 ## Configurando a rede de Internet direta {#requirements-direct}
@@ -59,9 +59,9 @@ A Direct Internet Network é separada logicamente em dois blocos:
 
 ### Rede de longa distância {#wan-connection}
 
-O desempenho da conexão com a Internet além da acessibilidade da rede é fornecer largura de banda suficiente para operar o AEM Screens.
+O desempenho da conexão com a Internet, além da acessibilidade da rede, é fornecer largura de banda suficiente para operar o AEM Screens.
 
-*Suficiente* depende do número de telas AEM conectadas e do uso de outros consumidores na rede, como smartphones, tablets, caixas, computadores ou redes Wi-Fi guest.
+*Suficiente* depende do número de AEM Screens conectados. Também depende do uso de outros consumidores na rede, como smartphones, tablets, caixas, computadores ou redes Wi-Fi de convidado.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ O desempenho da conexão com a Internet além da acessibilidade da rede é forne
 
 ### Rede local {#lan-connection}
 
-O desempenho da Rede Local (LAN), além da acessibilidade da rede, fornece largura de banda suficiente para operar o AEM Screens.
+O desempenho da LAN (Local Area Network), além da acessibilidade da rede, é fornecer largura de banda suficiente para operar o AEM Screens.
 
 A rede LAN geralmente corresponde pelo menos a uma rede de 100 Mbps, de modo que haja largura de banda suficiente para conectar vários dispositivos com bom desempenho ao sistema.
 No caso de se prever uma solução Wi-Fi para ligar o AEM Screens à ligação Internet, recomenda-se a utilização de normas Wi-Fi modernas, como `IEEE 802.11g` no mínimo. Este padrão suporta conexões de até 54 Mbps. Qualquer *mais recente* Padrões como `802.11h-n` são de melhor qualidade.
@@ -90,6 +90,6 @@ A tabela a seguir fornece uma visão geral dos dados principais de conectividade
 
 >[!NOTE]
 >
->As informações permitem visualizar o consumo de cada dispositivo na rede que solicita e faz o download de uma origem na Internet. Cada uma dessas solicitações adiciona e estende o Tempo de download.
+>As informações permitem visualizar o consumo de cada dispositivo na rede, solicitando e baixando uma fonte da Internet. Cada uma dessas solicitações adiciona e estende o Tempo de download.
 
 ![](/help/assets/download-times-direct.png)

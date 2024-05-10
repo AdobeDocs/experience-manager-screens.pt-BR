@@ -2,14 +2,14 @@
 title: Configurações da plataforma AEM
 description: A página descreve as configurações da plataforma AEM
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 3%
 
 ---
 
-# Configurações da plataforma AEM  {#platform-configurations}
+# Configurações da plataforma AEM {#platform-configurations}
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Consulte [Configuração do Author e Publish no AEM Screens](https://experiencel
 
 >[!NOTE]
 >
->Se houver apenas um Autor e uma Publicação, siga apenas as etapas em **Configuração dos agentes de replicação no autor** in [Configuração do Author e Publish no AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) página.
+>Se houver apenas um Autor e uma Publicação, você só poderá seguir as etapas em **Configuração dos agentes de replicação no autor** in [Configuração do Author e Publish no AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) página.
 
 ## Configurações do Dispatcher {#dispatcher-configurations}
 
@@ -49,7 +49,7 @@ Instale o FFMpeg seguindo as etapas do sistema operacional apropriado (geralment
 
 ## Restrições de senha {#password-restrictions}
 
-A política de senha do AEM deve ser desativada na instância do AMS. Isso pode ser configurado alternadamente no console da Web usando o serviço de dispositivo do Screens *com.adobe.cq.screens.device.impl.DeviceService*
+A política de senha do AEM deve ser desativada na instância do AMS. Ele também pode ser configurado alternadamente no console da Web usando o serviço de dispositivo do Screens *com.adobe.cq.screens.device.impl.DeviceService*
 Consulte **Restrições de senha** seção em[Configuração do Author e Publish no AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## Configuração dos ambientes {#setting-up-environments}
