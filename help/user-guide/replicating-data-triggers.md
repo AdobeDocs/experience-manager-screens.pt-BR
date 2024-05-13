@@ -5,20 +5,20 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '523'
 ht-degree: 1%
 
 ---
 
 # Replicação dos acionadores de dados para os servidores de publicação {#replicating-data-triggers}
 
-Ao usar o ContextHub e o mecanismo de direcionamento AEM para personalizar o conteúdo com base em acionadores de dados em uma configuração de criação/publicação, todas as configurações relacionadas ao ContextHub e à Personalização não são replicadas automaticamente com os canais quando são publicadas.
+Ao usar o ContextHub e o mecanismo de direcionamento AEM para personalizar o conteúdo com base em acionadores de dados em uma configuração de criação/publicação, todas as configurações relacionadas ao ContextHub e à Personalização não são replicadas automaticamente com os canais quando publicadas.
 
 Esta página ajuda você a saber as etapas manuais necessárias para publicar essas configurações separadamente.
 
-Isso se resume basicamente à publicação manual:
+Esse processo se resume basicamente à publicação manual do seguinte:
 
 1. Configurações dos módulos de armazenamento e interface do ContextHub
 1. Personalização de públicos-alvo
@@ -64,7 +64,7 @@ Siga as etapas abaixo para replicar os acionadores de dados para o servidor de p
 
 1. Clique em **Próxima** e **Publish**.
 
-### Replicação de atividades  {#replicating-activities}
+### Replicação de atividades {#replicating-activities}
 
 1. Navegue até sua instância do AEM > **Personalização** > **Atividades** ou use `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` para navegar diretamente.
 
@@ -92,12 +92,12 @@ Se a replicação for bem-sucedida, você deverá exibir a seguinte estrutura na
 
 Se a conexão de teste falhar ao replicar as configurações do ContextHub, siga a seção abaixo para solucionar o problema:
 
-1. Navegue até Ferramentas > **Implantação** > **Distribuição** > **Agente de publicação**.
+1. Navegue até **Ferramentas** > **Implantação** > **Distribuição** > **Agente de publicação**.
 
 1. Clique em **Editar** na barra de ações e verifique se o URL do endpoint no **Endpoints do importador** também aponta para o URL do servidor de publicação no Agente de distribuição.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
-1. Se você não estiver usando as credenciais padrão de administrador, configure o agente de distribuição com um nome de usuário e senha diferentes.
+1. Se você não estiver usando as credenciais padrão de administrador, configure o Agente de Distribuição com um nome de usuário e senha diferentes.
 
    Siga as etapas abaixo:
 

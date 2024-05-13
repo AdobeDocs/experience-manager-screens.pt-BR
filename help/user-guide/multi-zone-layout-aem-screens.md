@@ -1,6 +1,6 @@
 ---
 title: Layout de várias zonas
-description: Saiba como criar conteúdo com várias zonas e usar vários ativos, como vídeos, imagens e texto, que podem ser combinados em uma única tela no AEM Screens.
+description: Saiba como criar conteúdo com várias zonas e usar vários ativos, como vídeos, imagens e texto, que se combinam em uma única tela no AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ A página seguinte descreve o uso do layout de várias zonas e aborda os seguint
 De acordo com os requisitos do projeto, às vezes você precisa de várias zonas em um canal e editá-las como uma unidade abrangente. Por exemplo, uma sequência de produtos com um feed de mídia social relacionado que é executado em três zonas separadas em um único canal.
 
 >[!NOTE]
->Em canais de várias zonas, o agendamento no nível do ativo não é recomendado devido a possíveis conflitos e comportamento não intencional. Se a programação no nível do ativo for necessária, é recomendável criar um canal de sequência separado e aplicar a lógica de programação nesse canal. Em seguida, incorpore o canal de sequência no canal de várias regiões.
+>Em canais de várias zonas, o agendamento no nível do ativo não é recomendado devido a possíveis conflitos e comportamento não intencional. Se a programação no nível do ativo for necessária, crie um canal de sequência separado e aplique a lógica de programação nesse canal. Em seguida, incorpore o canal de sequência no canal de várias regiões.
 
 ### Pré-requisitos {#prerequisites}
 
@@ -46,12 +46,12 @@ Antes de começar a implementar essa funcionalidade, verifique se você tem o co
 
 ## Criação de layout de várias zonas {#creating-multi-zone-layout}
 
-Ao criar um canal, é possível usar diferentes modelos para criar zonas no canal. Você pode adicionar uma única imagem, vídeo ou um canal incorporado que permite que vários ativos sejam exibidos em uma sequência.
+Ao criar um canal, é possível usar diferentes modelos para criar zonas no canal. É possível adicionar uma única imagem, vídeo ou canal incorporado que permita a exibição de vários ativos em uma sequência.
 
 **Criação de um canal**
 
 1. Clique no link Adobe Experience Manager (canto superior esquerdo) e **Screens**. Como alternativa, você pode ir diretamente para: `http://localhost:4502/screens.html/content/screens`.
-1. Navegue até **Canais** e clique em **Criar** na barra de ações.
+1. Navegue até a **Canais** e clique em **Criar** na barra de ações.
 
 1. Clique em **Canal de tela dividida 1x2** do **Criar** assistente.
 
@@ -125,14 +125,14 @@ Crie um local e uma exibição para exibir o conteúdo no AEM Screens Player.
 
 1. **Criação de um local**
 
-   1. Navegue até **Zonas** > **Localizações** pasta.
+   1. Navegue até a **Zonas** > **Localizações** pasta.
    1. Clique em **Localizações** e clique em **Criar** na barra de ações.
    1. Clique em **Localização** do **Criar** e clique em **Próxima**.
    1. Insira o **Título** as **San Jose** e clique em **Criar**.
 
 1. **Criação de uma exibição**
 
-   1. Navegue até **Zonas** > **Localizações** pasta.
+   1. Navegue até a **Zonas** > **Localizações** pasta.
    1. Clique em **San Jose** e clique em **Criar** na barra de ações.
    1. Clique em **Exibir** do **Criar** e clique em **Próxima**.
    1. Insira o **Título** as **Lobby** e clique em **Criar**.
@@ -166,7 +166,7 @@ Depois de configurar um local e uma exibição, siga as etapas abaixo para regis
 
 1. **Registrando o dispositivo**
 
-   1. Navegue até **Zonas** > **Dispositivos** pasta.
+   1. Navegue até a **Zonas** > **Dispositivos** pasta.
    1. Clique em **Dispositivos** e clique em **Gerenciador de dispositivos** na barra de ações.
    1. Clique em **Registro do dispositivo** e clique no dispositivo pendente na lista.
 

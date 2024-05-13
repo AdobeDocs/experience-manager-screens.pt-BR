@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 A seção a seguir explica como segregar projetos usando ACLs para que cada indivíduo ou equipe lide com seu próprio projeto.
 
-Como administrador do AEM, você deseja garantir que os membros da equipe de um projeto não interfiram em outros projetos e que cada um dos usuários receba funções específicas de acordo com os requisitos do projeto.
+Como administrador do AEM, você deseja garantir que os membros da equipe de um projeto não interfiram em outros projetos. Cada usuário recebe funções específicas de acordo com os requisitos do projeto.
 
 ## Configuração de permissões {#setting-up-permissions}
 
@@ -66,12 +66,12 @@ A tabela a seguir resume o caminho com as permissões no nível do projeto:
 
 | **Caminho** | **Permissão** | **Descrição** |
 |---|---|---|
-| `/apps/<project>` | LER | Fornece acesso aos arquivos do projeto, se aplicável. |
-| `/content/dam/<project>` | TODAS | Fornece acesso para armazenar os ativos do projeto, como imagens ou vídeo em DAM. |
+| `/apps/<project>` | LER | Fornecer acesso aos arquivos do projeto, se aplicável. |
+| `/content/dam/<project>` | TODAS | Forneça acesso para armazenar os ativos do projeto, como imagens ou vídeos, no DAM. |
 | `/content/screens/<project>` | TODAS | Remove o acesso a todos os outros projetos em /content/screens. |
-| `/content/screens/svc` | LER | Fornece acesso ao serviço de registro. |
-| `/libs/screens` | LER | Fornece acesso ao DCC. |
-| `/var/contentsync/content/screens/` | TODAS | Permite atualizar o conteúdo offline do projeto. |
+| `/content/screens/svc` | LER | Forneça acesso ao serviço de registro. |
+| `/libs/screens` | LER | Forneça acesso ao DCC. |
+| `/var/contentsync/content/screens/` | TODAS | Ajuda a atualizar o conteúdo offline do projeto. |
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ A tabela a seguir resume os grupos com descrição e permissões para um projeto
   </tr>
   <tr>
    <td>Players do Screens<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
-   <td>Agrupa todos os players e todos os players/dispositivos são membros dos colaboradores automaticamente.</td>
+   <td>Todos os players e todos os players/dispositivos são membros dos colaboradores automaticamente.</td>
    <td><p> Membro de contribuidores</p> </td>
   </tr>
  </tbody>

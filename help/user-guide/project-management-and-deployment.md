@@ -10,7 +10,7 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Esta página destaca a parte 4 de uma série de 5 partes, criada para abordar o 
 
 Esta página aborda a pré-produção, o início e a progressão do projeto.
 
-É importante que todas as partes interessadas entendam a responsabilidade do integrador de áudio e vídeo, garantindo que os planos documentados sejam desenvolvidos em relação aos pontos discutidos neste episódio
+É importante que todas as partes interessadas entendam a responsabilidade do Integrador de áudio e vídeo, garantindo que os planos documentados sejam desenvolvidos em relação aos pontos discutidos neste episódio.
 
 >[!NOTE]
 >
@@ -39,16 +39,16 @@ Para oferecer suporte a uma implantação bem-sucedida da Sinalização digital,
 
 ### Atividades do dia zero {#day-zero-activities}
 
-A primeira fase é designada por ***Dia Zero***. Esse estágio inclui todas as iniciativas de pré-vendas e detecção necessárias para definir totalmente o escopo dos projetos. O segundo estágio, Dia um, se refere a todas as atividades incluídas no esforço de implantação. Por fim, o segundo dia refere-se a todas as operações em andamento e aos elementos de suporte como parte da solução total.
+O primeiro estágio é chamado de ***Dia Zero***. Esse estágio inclui todas as iniciativas de pré-venda e detecção necessárias ao definir o escopo de um projeto. A segunda fase, ***Primeiro dia***, refere-se a todas as atividades incluídas no esforço de implantação. Por último, ***Dia dois*** refere-se a todas as operações em andamento e aos elementos de suporte como parte da solução total.
 
-As atividades do dia zero envolvem pré-vendas, detecção de clientes, análise de necessidades de aplicativos e definição do escopo do projeto. Essa etapa também pode incluir o envolvimento inicial e a definição dos requisitos do projeto para o Gerenciamento de projetos, como preparação para a Implantação.
+As atividades do dia zero envolvem pré-vendas, detecção de clientes, análise de necessidades de aplicativos e definição do escopo do projeto. Essa etapa também pode incluir o envolvimento inicial e a definição dos requisitos do projeto para o gerenciamento de projetos, como preparação para a implantação.
 
 O Dia Zero consiste em oito etapas principais que abrangem todos os aspectos do aumento do gerenciamento de projetos:
 
 * Definição do escopo do trabalho
 * Definição do cronograma do projeto
 * Definir o fornecedor e o trabalho interno
-* Adquirir chapas cortadas de equipamentos
+* Adquirir equipamentos para cortar chapas
 * Licenças de planejamento e aquisição de local
 * Planejamento para acesso ao site
 * Considerando a energia e a conectividade
@@ -70,9 +70,9 @@ Como uma oportunidade de vendas é transferida para um projeto, uma reunião de 
 
 ### Atividades do segundo dia {#day-two-activities}
 
-A última parte de uma iniciativa do Primeiro Dia é concluir uma Transferência NOC. Se um projeto concluído incluir serviço e suporte no segundo dia, o Gerente de projetos organizará uma reunião de transferência do CON com os supervisores dessas equipes.
+A última parte de uma iniciativa do Primeiro Dia é concluir uma Transferência NOC. Se um projeto concluído incluir serviço e suporte para o Segundo dia, o Gerente de projetos organizará uma Reunião de Transferência de NOC com os supervisores dessas equipes.
 
-Essa reunião consiste principalmente em representantes do Integrador de áudio e vídeo de gerenciamento de contas, operações de rede, logística de campo, serviços de conteúdo e contabilidade. Representantes de gerenciamento de projetos do Adobe, do Implementador AEM e do Cliente final estão envolvidos em conjunto, com o Integrador de áudio e vídeo definindo a programação, a cadência e as portagens. Normalmente, os gerentes de projeto são melhores para coordenar as discussões e garantir o alinhamento das partes apropriadas e desenvolver a documentação necessária para a reunião de entrega do CNO. A documentação de suporte essencial provém provavelmente da equipe de TI e/ou de engenharia de áudio e vídeo, além dos recursos de gerenciamento de contas e vendas de todas as partes envolvidas. Para os clientes que precisam de suporte técnico de um NOC, a documentação deve ser fornecida aos supervisores de NOC para upload em uma plataforma da Knowledge base.
+Essa reunião consiste principalmente em representantes do Integrador de áudio e vídeo de gerenciamento de contas, operações de rede, logística de campo, serviços de conteúdo e contabilidade. Representantes de gerenciamento de projetos do Adobe, do Implementador AEM e do Cliente final estão envolvidos em conjunto, com o Integrador de áudio e vídeo definindo a programação, a cadência e as portagens. Normalmente, os gerentes de projeto são melhores para coordenar as discussões e garantir o alinhamento das partes apropriadas e o desenvolvimento da documentação necessária para a Reunião de Transferência NOC. A documentação de suporte essencial provém provavelmente da equipe de TI e/ou de engenharia de áudio e vídeo, além dos recursos de gerenciamento de contas e vendas de todas as partes envolvidas. Para os clientes que precisam de suporte técnico de um NOC, a documentação deve ser fornecida aos supervisores de NOC para upload em uma plataforma da Knowledge base.
 
 ## Parte 4: Tutorial em vídeo sobre gerenciamento e implantação de projetos {#part-video-tutorial-on-project-management-and-deployment}
 
@@ -86,4 +86,4 @@ Saiba mais sobre o gerenciamento de projetos e a preparação de implantação e
 
 ## A próxima etapa {#the-next-step}
 
-Quando terminar com as principais considerações sobre o Gerenciamento de projetos para implantações do AEM Screens, acesse **[Parte 5: Considerações sobre suporte](support-considerations.md)** para que você entenda o Suporte do segundo dia e os processos envolvidos.
+Quando terminar com as principais considerações sobre o gerenciamento de projetos para implantações do AEM Screens, acesse **[Parte 5: Considerações sobre suporte](support-considerations.md)** para que você entenda o Suporte do segundo dia e os processos envolvidos.

@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Siga as etapas abaixo para fornecer atualizações de conteúdo do autor para a 
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. A variável **Gerenciar publicação** é aberto. Você pode clicar no link **Ação** e também agendar o horário de publicação para agora ou depois. Clique em **Avançar**.
+1. A variável **Gerenciar publicação** O assistente é aberto. Você pode clicar no link **Ação** e também agendar o horário de publicação para agora ou depois. Clique em **Avançar**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
@@ -42,7 +42,7 @@ Siga as etapas abaixo para fornecer atualizações de conteúdo do autor para a 
 
    >[!NOTE]
    >
-   >Por padrão, todas as caixas são marcadas e você precisa desmarcar manualmente as caixas para publicar todos os módulos no seu projeto.
+   >Por padrão, todas as caixas são marcadas e você deve desmarcar manualmente as caixas para publicar todos os módulos no projeto.
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
 
@@ -72,9 +72,9 @@ Por exemplo, a imagem a seguir mostra como é possível gerenciar e atualizar so
    >    1. O fluxo de trabalho não funcionará se o autor não concluir o processo de replicação (o conteúdo ainda está sendo carregado na instância de publicação) após selecionar a variável **Publish** no fluxo de trabalho de publicação de gerenciamento.
 
    >[!CAUTION]
-   >Se, como autor ou criador de conteúdo, você quiser ver as alterações nos dispositivos anexados à instância do autor, clique em **Atualizar conteúdo offline** no painel do canal ou selecionando o projeto. Nesse caso, a atualização do conteúdo offline é executada somente na instância do autor.
+   >Como criador de conteúdo, se quiser ver as alterações nos dispositivos anexados à instância do autor, clique em **Atualizar conteúdo offline** no painel do canal ou selecionando o projeto. Nesse caso, a atualização do conteúdo offline é executada somente na instância do autor.
 
-1. Navegue até o projeto e clique em **Atualizar conteúdo offline** na barra de ações. Essa ação encaminha o mesmo comando para publicar a instância, para que os zips offline também sejam criados na instância de publicação.
+1. Navegue até o projeto e clique em **Atualizar conteúdo offline** na barra de ações. Essa ação encaminha o mesmo comando para a instância de publicação, para que os zips offline também sejam criados na instância de publicação.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
@@ -85,7 +85,7 @@ Por exemplo, a imagem a seguir mostra como é possível gerenciar e atualizar so
 
    >[!CAUTION]
    >
-   >Acione a atualização do conteúdo offline na instância do autor, se você tiver um reprodutor registrado no servidor do autor. A atualização do conteúdo offline não é necessária para o reprodutor registrado na instância de publicação.
+   >Acione a atualização do conteúdo offline na instância do autor, se você tiver um reprodutor registrado no servidor do autor. A atualização de conteúdo offline não é necessária para o reprodutor registrado na instância de publicação.
 
 ### Gerenciamento da publicação de um canal {#managing-publication-for-a-channel}
 
@@ -100,7 +100,7 @@ Siga as etapas abaixo para fornecer atualizações de conteúdo de Autor > Publi
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. A variável **Gerenciar publicação** é aberto. Você pode clicar no link **Ação** e também agendar o horário de publicação para agora ou depois. Clique em **Avançar**.
+1. A variável **Gerenciar publicação** O assistente é aberto. Você pode clicar no link **Ação** e também agendar o horário de publicação para agora ou depois. Clique em **Avançar**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 

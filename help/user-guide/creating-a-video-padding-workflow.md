@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ Esta seção abrange os seguintes tópicos:
 
 O caso de uso a seguir envolve a colocação de um vídeo (por exemplo: 1280 x 720) em um canal no qual a exibição é 1920 x 1080 e o vídeo deve ser colocado em 0x0 (canto superior esquerdo). O vídeo não deve ser ampliado ou modificado de forma alguma e não use **Capa** no componente de vídeo.
 
-O vídeo é exibido como um objeto do pixel 1 ao pixel 1280 e do pixel 1 ao pixel 720 para baixo, e o restante do canal é a cor padrão.
+O vídeo é exibido como um objeto do pixel 1 ao pixel 1280 e do pixel 1 ao pixel 720 para baixo. O restante do canal é a cor padrão.
 
 ## Pré-requisitos {#prerequisites}
 
 Antes de criar um fluxo de trabalho para vídeo, conclua os seguintes pré-requisitos:
 
-1. Carregar um vídeo no **Assets** pasta na sua instância do AEM
+1. Carregue um vídeo no **Assets** pasta na sua instância do AEM
 1. Criar um projeto do AEM Screens (por exemplo, **TestarRepresentaçãoDeVídeo**) e um canal chamado (**RenderizaçãoDeVídeo**), conforme mostrado na figura abaixo:
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
@@ -58,7 +58,7 @@ Siga as etapas abaixo para criar e usar o workflow:
 Siga as etapas abaixo para criar um fluxo de trabalho para seu vídeo:
 
 1. Navegue até a instância do AEM.
-1. Clique em Ferramentas no painel lateral.
+1. Clique nas ferramentas no painel lateral.
 1. Clique em **Fluxo de trabalho** > **Modelos** para que você possa criar um modelo.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)

@@ -4,9 +4,9 @@ description: Saiba como configurar agentes de replicação do Screens.
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '465'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ Esta página descreve como configurar os Agentes de replicação do Screens.
 
 ## Objetivo {#objective}
 
-O Agente de replicação do Screens é responsável por trazer dados de comandos como, *usuário*, *senha*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* e muitos mais desses valores de publicar para autor. É essencial configurá-lo para que o autor possa mostrar o ping do dispositivo.
+O Agente de replicação do Screens é responsável por trazer dados de comandos, como *usuário*, *senha*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* e muitos mais desses valores de publicar para autor. É essencial configurar esse agente para que o autor possa mostrar o ping do dispositivo.
 
 >[!NOTE]
 >Para saber mais sobre os Agentes de replicação do Screens, consulte [Agentes e comandos de replicação do Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
@@ -93,7 +93,7 @@ Siga as etapas abaixo para habilitar usuários e atualizar a senha para `screens
 Siga a seção abaixo para atualizar as configurações no Agente de replicação do AEM Screens:
 
 >[!IMPORTANT]
->Complete as etapas a seguir em TODOS os agentes de replicação existentes do AEM Screens.
+>Conclua as etapas a seguir em TODOS os agentes de replicação do AEM Screens existentes.
 
 1. Navegue até a instância do AEM.
 1. Clique em Ferramentas > **Implantação** > **Replicação**.
@@ -104,10 +104,10 @@ Siga a seção abaixo para atualizar as configurações no Agente de replicaçã
 
    ![imagem](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Procure por todos os agentes de replicação do AEM Screens no autor e clique no link, conforme mostrado na figura abaixo.
+1. Pesquise por todos os agentes de replicação do AEM Screens no autor e clique no link, conforme mostrado na figura abaixo.
 
    >[!NOTE]
-   >Procure todos os agentes de replicação do AEM Screens. O nome do Agente de replicação do Screens inclui a carta **S** no título.
+   >Procure todos os agentes de replicação da AEM Screens. O nome do Agente de replicação do Screens inclui a carta **S** no título.
 
    ![imagem](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 

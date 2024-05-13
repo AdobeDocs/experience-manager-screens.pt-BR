@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 1%
+source-wordcount: '704'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Esta página descreve a criação e o gerenciamento de Live Copies de canais.
 
 A ***Live Copy*** é uma cópia do conteúdo específico do site para o qual é mantido um relacionamento dinâmico com a origem original. Esse relacionamento dinâmico permite que a live copy herde conteúdo e propriedades de página da origem.
 
-Esta página descreve a criação e a propagação de uma live copy de um canal, a exibição de propriedades, a verificação de status e a propagação de alterações de um canal para sua live copy.
+Esta página descreve a criação de uma live copy de um canal, a exibição de propriedades, a verificação de status e a propagação de alterações de um canal para sua live copy.
 
 
 ## Criação de uma Live Copy {#creating-a-live-copy}
@@ -47,11 +47,11 @@ O exemplo a seguir mostra a criação de uma live copy (***IdleLiveCopy***) para
 
 ## Exibição de conteúdo do canal da Live Copy {#viewing-content-of-the-live-copy-channel}
 
-Uma Live Copy é uma cópia de um canal que existe.
+Uma live copy é uma cópia de um canal que existe.
 
 Para exibir o conteúdo da live copy, consulte as etapas abaixo:
 
-1. Navegue até o projeto do Screens e clique no local em que você criou originalmente a live copy, como mostrado na seção acima. (Aqui, a localização foi escolhida como **Canais** pasta)
+1. Navegue até o projeto do Screens e clique no local em que você criou originalmente uma live copy, como mostrado na seção acima. (Aqui, a localização foi escolhida como a **Canais** pasta)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
@@ -79,7 +79,7 @@ Além disso, é possível visualizar as propriedades do canal da live copy.
 
 O modo **Status da Live Copy**, como mostrado na figura abaixo, permite visualizar o status do relacionamento de todos os ativos no canal.
 
-1. Clique em **Editar** para que você possa escolher o **Status da Live Copy** e visualizam a associação do conteúdo do canal ao canal original (do qual a live copy é gerada).
+1. Clique em **Editar** para que você possa escolher o **Status da Live Copy**. Você também pode exibir a associação do conteúdo do canal ao canal original do qual a live copy é gerada.
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -99,7 +99,7 @@ O exemplo a seguir mostra que você clica na imagem no modo de edição e clica 
 
 ### Propagação de alterações no canal da Live Copy {#propagating-changes-to-the-live-copy-channel}
 
-Se você fizer alterações ou atualizações no canal original, propague essas alterações no canal da Live Copy também.
+Se você fizer alterações ou atualizações no canal original, propague essas alterações também no canal da live copy.
 
 Siga as etapas abaixo para garantir que suas alterações sejam propagadas do canal original para o canal de live copy:
 
