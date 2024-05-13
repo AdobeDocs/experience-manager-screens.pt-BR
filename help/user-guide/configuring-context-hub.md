@@ -1,6 +1,6 @@
 ---
 title: Configuração do ContextHub no AEM Screens
-description: Saiba mais sobre o ContextHub no mecanismo de direcionamento para que você possa definir o armazenamento de dados para a alteração de conteúdo do acionador de dados.
+description: Saiba mais sobre o ContextHub no mecanismo de direcionamento para que você possa definir um armazenamento de dados para a alteração de conteúdo do acionador de dados.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1450'
 ht-degree: 1%
 
 ---
@@ -33,15 +33,15 @@ Antes de entrar nos detalhes de criação e gerenciamento de canais orientados p
 
 **Público** - Define a regra.
 
-**Segmento** - A versão do ativo a ser reproduzido para a regra especificada. Por exemplo, se a temperatura estiver abaixo de 50 graus Fahrenheit, a tela exibe uma imagem de uma bebida quente, caso contrário, uma bebida fria.
+**Segmento** - A versão de um ativo para reproduzir para a regra especificada. Por exemplo, se a temperatura estiver abaixo de 50 graus Fahrenheit, a tela exibe uma imagem de uma bebida quente, caso contrário, uma bebida fria.
 
-O diagrama a seguir fornece uma representação visual de como as Configurações do ContextHub coincidem com a Atividade, o Público-alvo e os Canais.
+O diagrama a seguir fornece uma representação visual de como as configurações do ContextHub coincidem com a Atividade, o Público-alvo e os Canais.
 
 ![screen_shot_2019-05-29at53729pm](assets/screen_shot_2019-05-29at53729pm.png)
 
 ## Pré-condições {#preconditions}
 
-Antes de começar a configurar as Configurações do Context Hub para um projeto do AEM Screens, configure o Google Sheets (para fins de demonstração).
+Antes de começar a definir as configurações do ContextHub para um projeto do AEM Screens, configure o Google Sheets (para fins de demonstração).
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ Antes de começar a configurar as Configurações do Context Hub para um projeto
 
 Você pode configurar o armazenamento de dados como um evento de E/S local ou como um evento de banco de dados local.
 
-O exemplo de acionadores de dados a seguir mostra um evento de banco de dados local que configura um armazenamento de dados, como uma planilha do Excel que permite usar as configurações do ContextHub e o caminho de segmentos para o canal do AEM Screens.
+O exemplo de acionadores de dados a seguir mostra um evento de banco de dados local. O evento configura um armazenamento de dados, como uma planilha do Excel que permite usar as configurações do ContextHub e o caminho dos segmentos para o canal do AEM Screens.
 
 Depois de configurar o `google` planilha corretamente, conforme mostrado no exemplo abaixo:
 
@@ -67,13 +67,13 @@ A validação a seguir é o que você vê ao verificar sua conexão inserindo os
 
 >[!NOTE]
 >
->O exemplo específico abaixo mostra as google sheets como um armazenamento de dados que aciona uma alteração de ativo se o valor for maior que 100 ou menor que 50.
+>O exemplo específico abaixo mostra as Google Sheets como um armazenamento de dados que aciona uma alteração de ativo se o valor for maior que 100 ou menor que 50.
 
 ## Etapa 2: definição das configurações de armazenamento {#step-setting-store-configurations}
 
 1. **Navegar até o ContextHub**
 
-   Navegue até a instância do AEM e clique no ícone Ferramentas na barra lateral esquerda. Clique em **Sites** > **ContextHub**, conforme mostrado na figura abaixo.
+   Navegue até a instância do AEM e clique no ícone de ferramentas na barra lateral esquerda. Clique em **Sites** > **ContextHub**, conforme mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -146,7 +146,7 @@ A validação a seguir é o que você vê ao verificar sua conexão inserindo os
 
       >[!CAUTION]
       >
-      >Se você criar as configurações de armazenamento do Google Sheets fora da pasta global (por exemplo, em sua própria pasta de projeto), o direcionamento não funcionará imediatamente.
+      >Se você criar suas Planilhas do Google para armazenar configurações fora da pasta global (por exemplo, em sua própria pasta de projeto), o direcionamento não funcionará imediatamente.
 
 1. **Configurar a segmentação de loja**
 
@@ -166,7 +166,7 @@ A validação a seguir é o que você vê ao verificar sua conexão inserindo os
 
    1. Navegue da instância do AEM para **Personalização** > **Públicos-alvo** > **telas**.
 
-   1. Clique em **Criar** > **Criar segmento do Context Hub.** A variável **Novo segmento do ContextHub** é aberta.
+   1. Clique em **Criar** > **Criar segmento do ContextHub.** A variável **Novo segmento do ContextHub** é aberta.
 
    1. Insira o **Título** as `**Higherthan50**` e clique em **Criar**. Da mesma forma, crie outro segmento intitulado como `**Lowerthan50**`.
 
@@ -289,7 +289,7 @@ Depois de configurar um armazenamento de dados e definir sua atividade (marca e 
 
 Siga as etapas abaixo para ativar o direcionamento em seus canais.
 
-1. Navegue até um dos canais do AEM Screens. As etapas a seguir demonstram como habilitar o direcionamento usando **DataDrivenChannel** criado em um Canal AEM Screens.
+1. Navegue até um dos canais do AEM Screens. As etapas a seguir demonstram como habilitar o direcionamento usando **DataDrivenChannel** criado em um canal do AEM Screens.
 
 1. Clique no canal **TargetChannel** e clique em **Propriedades** na barra de ações.
 
@@ -304,7 +304,7 @@ Siga as etapas abaixo para ativar o direcionamento em seus canais.
 
       >[!NOTE]
       >
-      >Use o ContextHub e o caminho Segmentos, onde você salvou inicialmente as configurações e os segmentos do seu hub de contexto.
+      >Use o ContextHub e o caminho Segmentos, onde você salvou inicialmente as configurações e os segmentos do ContextHub.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub20New.png)
 
@@ -312,7 +312,7 @@ Siga as etapas abaixo para ativar o direcionamento em seus canais.
 
       >[!NOTE]
       >
-      >Se você configurou tudo corretamente, verá **Direcionamento** no menu suspenso do editor, como mostrado na figura abaixo.
+      >Se você configurou tudo corretamente, verá a **Direcionamento** no menu suspenso do editor, como mostrado na figura abaixo.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub21.png)
 

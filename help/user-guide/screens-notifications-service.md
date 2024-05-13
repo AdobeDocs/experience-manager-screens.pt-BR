@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Siga as etapas abaixo para definir as configurações de notificação por email
 
    **Frequência de programação** - Especifique uma hora (por exemplo, 17:00 ou 17:00) ou frequência em horas (por exemplo, 1) em que esse monitor deve enviar emails.
 
-   **Tempo limite de ping** - Especifica o intervalo em minutos após o qual um dispositivo deve ser considerado inacessível.
+   **Tempo limite de ping** - Este campo especifica o intervalo em minutos após o qual um dispositivo deve ser considerado inacessível.
 
    **Servidor SMTP** - Especifica o servidor SMTP usado para enviar emails.
 
@@ -91,11 +91,14 @@ Após definir a configuração das notificações por email, você receberá uma
 
 O acesso a esse link o direciona diretamente para o painel do dispositivo.
 
-Os emails só são enviados se houver pelo menos um dispositivo que não tenha executado ping para o tempo limite de ping fornecido e ainda não esteja executando ping no momento da geração do email.
+Os emails só serão enviados se:
+
+* há pelo menos um dispositivo que não executou ping para o tempo limite de ping determinado e
+* O ainda não está fazendo ping no momento da geração do email.
 
 ### Exemplo de casos de uso {#example-use-cases}
 
-O exemplo a seguir descreve alguns cenários de referência para configurar as propriedades do Serviço de monitoramento de email do dispositivo do Screens.
+O exemplo a seguir descreve alguns cenários para referência, para configurar as propriedades do Serviço de monitoramento de email do dispositivo do Screens.
 
 **Cenário 1**
 
@@ -103,4 +106,4 @@ Você define a frequência de agendamento como 1:00 e o tempo limite de ping com
 
 **Cenário 2**
 
-Você define a frequência de agendamento como 1 e o tempo limite de ping como 60. Em seguida, se o seu dispositivo AEM Screens não executar ping entre uma vez em nenhum momento específico do dia, você receberá uma notificação por email que confirma a inatividade do dispositivo.
+Você define a frequência de agendamento como 1 e o tempo limite de ping como 60. Em seguida, se o dispositivo AEM Screens não executar ping de uma vez em nenhum momento específico do dia, você receberá uma notificação por email que confirma a inatividade do dispositivo.

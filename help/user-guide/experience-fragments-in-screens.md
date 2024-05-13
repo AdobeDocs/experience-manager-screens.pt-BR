@@ -10,9 +10,9 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1102'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Esta página abrange os seguintes tópicos:
 
 ## Visão geral {#overview}
 
-Um ***Fragmento de experiência*** é um grupo de um ou mais componentes, incluindo conteúdo e layout que podem ser referenciados nas páginas. Os fragmentos de experiência podem conter qualquer componente, como um ou vários componentes que podem conter qualquer item em um sistema de parágrafo referenciado na experiência completa ou solicitado por um terceiro endpoint.
+Um ***Fragmento de experiência*** é um grupo de um ou mais componentes, incluindo conteúdo e layout que podem ser referenciados nas páginas. Os Fragmentos de experiência podem conter qualquer componente. Por exemplo, ela pode conter um ou vários componentes que podem conter qualquer item em um sistema de parágrafo referenciado na experiência completa ou solicitado por um terceiro endpoint.
 
 
 ## Uso de fragmentos de experiência no AEM Screens {#using-experience-fragments-in-aem-screens}
@@ -35,7 +35,7 @@ Um ***Fragmento de experiência*** é um grupo de um ou mais componentes, inclui
 >[!NOTE]
 >O exemplo a seguir usa **`We.Retail`** como um projeto de demonstração em que o Fragmento de experiência é aplicado de um **Sites** para um projeto do AEM Screens.
 
-Como exemplo, o fluxo de trabalho a seguir demonstra o uso de fragmentos de experiência do `We.Retail` no Sites. Você pode escolher uma página da Web e usar esse conteúdo no canal do AEM Screens em um de seus projetos.
+Como exemplo, o fluxo de trabalho a seguir demonstra o uso de Fragmentos de experiência de `We.Retail` no Sites. Você pode escolher uma página da Web e usar esse conteúdo no canal do AEM Screens em um de seus projetos.
 
 ### Pré-requisitos {#pre-requisites}
 
@@ -92,7 +92,7 @@ Siga as etapas abaixo para aplicar o conteúdo de **`We.Retail`** ao seu **TestC
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
-   Observação: para clicar em uma opção mais fácil, clique na marca de seleção à direita do campo para abrir a caixa de diálogo de seleção.
+   Para selecionar uma opção mais fácil, clique na marca de seleção à direita do campo para abrir a caixa de diálogo de seleção.
 
 1. **Criação de Live Copy do Fragmento de experiência**
 
@@ -101,13 +101,13 @@ Siga as etapas abaixo para aplicar o conteúdo de **`We.Retail`** ao seu **TestC
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Clique no link **FragmentoTelas** de **Criar Live Copy** e clique em **Próxima**.
+   c. Clique no link **FragmentoTelas** do **Criar Live Copy** e clique em **Próxima**.
 
    d. Insira o **Título** e **Nome** as **Screens**.
 
    e. Clique em **Criar** para criar a Live Copy.
 
-   f. Clique em **Concluído** para que você possa voltar para **FragmentoTelas** página.
+   f. Clique em **Concluído** para que você possa voltar para o **FragmentoTelas** página.
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
@@ -121,7 +121,7 @@ Siga as etapas abaixo para aplicar o conteúdo de **`We.Retail`** ao seu **TestC
 
    1. Clique em **Configuração offline** conforme mostrado na figura abaixo.
 
-   Você pode adicionar o **Bibliotecas do cliente** (Java™ e css) e **Arquivos estáticos** ao seu Fragmento de experiência.
+   Você pode adicionar o **Bibliotecas do cliente** (Java™ e CSS) e **Arquivos estáticos** ao seu Fragmento de experiência.
 
    O exemplo a seguir mostra a adição de bibliotecas do lado do cliente e das fontes como parte dos arquivos estáticos ao seu Fragmento de experiência.  ![fragmento](assets/fragment.gif)
 
@@ -137,11 +137,11 @@ Siga as etapas abaixo para aplicar o conteúdo de **`We.Retail`** ao seu **TestC
 
    e. Clique no botão **Fragmento de experiência** e clique no ícone superior esquerdo (chave inglesa) para abrir a **Fragmento de experiência** caixa de diálogo.
 
-   f. Clique no botão **Screens** live copy do fragmento que você criou no *Etapa 3* in **Caminho**.
+   f. Clique no botão **Screens** Live Copy do fragmento que você criou no *Etapa 3* in **Caminho**.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. Clique no botão **Screens** live copy do fragmento que você criou no *Etapa 3* no **Fragmento de experiência**.
+   f. Clique no botão **Screens** Live Copy do fragmento que você criou no *Etapa 3* no **Fragmento de experiência**.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
@@ -159,7 +159,7 @@ Siga as etapas abaixo para aplicar o conteúdo de **`We.Retail`** ao seu **TestC
 
 ### Validar o resultado {#validating-the-result}
 
-Após a conclusão das etapas anteriores, você pode validar seu fragmento de experiência no **ChannelOne** por:
+Após concluir as etapas anteriores, você pode validar o fragmento de experiência no **ChannelOne** por:
 
 1. Navegar até o **TestChannel**.
 1. Selecionar o **Visualizar** na barra de ações.
@@ -171,7 +171,7 @@ Exibir o conteúdo do **Sites** (Live Copy do Fragmento de experiência) no seu 
 
 ***Live Copy*** refere-se à cópia (da origem) mantida pelas ações de sincronização, conforme definido pelas configurações de implantação.
 
-Como o fragmento de experiência que você criou é uma live copy do **Sites** e alterar esse fragmento específico da página principal, visualize as alterações no canal. Ou visualize o destino em que você usou o Fragmento de experiência.
+Como o fragmento de experiência que você criou é uma Live Copy do **Sites** e alterar esse fragmento específico da página principal, visualize as alterações no canal. Ou visualize o destino em que você usou o Fragmento de experiência.
 
 >[!NOTE]
 >

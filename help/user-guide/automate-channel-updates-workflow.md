@@ -1,5 +1,5 @@
 ---
-title: Usar o fluxo de trabalho para automatizar atualizações de ativos em um canal do AEM Screens
+title: Usar um fluxo de trabalho para automatizar atualizações de ativos para um canal do AEM Screens
 description: Saiba como criar um fluxo de trabalho para processar automaticamente ativos carregados no Adobe Experience Manager e atribuí-los dinamicamente a um canal do Screens.
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -7,17 +7,17 @@ topic-tags: developing
 feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '403'
 ht-degree: 1%
 
 ---
 
 
-# Usar o fluxo de trabalho para automatizar atualizações de ativos em um canal do AEM Screens {#automate-channel-updates-workflow}
+# Usar um fluxo de trabalho para automatizar atualizações de ativos para um canal do AEM Screens {#automate-channel-updates-workflow}
 
-Saiba como criar um fluxo de trabalho para processar automaticamente ativos carregados no Adobe Experience Manager e atribuí-los dinamicamente a um canal do Screens. Neste exemplo, quando uma imagem é adicionada a uma pasta específica, um fluxo de trabalho é acionado, aplicando uma sobreposição de texto dinâmica (processo de marca d&#39;água) e atribuindo a imagem a um canal do Screens. As lições aprendidas com este exemplo podem ser aplicadas a uma grande variedade de cenários de automação.
+Saiba como criar um fluxo de trabalho para processar automaticamente ativos carregados no Adobe Experience Manager e atribuí-los dinamicamente a um canal do Screens. Neste exemplo, um fluxo de trabalho é acionado quando uma imagem é adicionada a uma pasta específica. O fluxo de trabalho aplica uma sobreposição de texto dinâmica (processo de marca d&#39;água) e atribui a imagem a um canal do Screens. As lições aprendidas com este exemplo podem ser aplicadas a uma grande variedade de cenários de automação.
 
 ## Pré-requisitos {#prerequisites}
 
@@ -38,7 +38,7 @@ O vídeo abaixo ilustra como instalar um pacote de código de amostra que introd
 
 ## Modelo de fluxo de trabalho {#workflow-model}
 
-Um esquema de metadados de pasta personalizado foi criado para capturar o canal do Screens de destino ao qual as imagens devem ser adicionadas. Dois modelos de fluxo de trabalho são usados para automatizar o processamento de ativos. A variável **Ativo de atualização DAM** o workflow foi modificado para chamar um workflow personalizado, **Processamento de ativos de demonstração do Screens** que inspeciona a pasta que contém o ativo para determinar o canal do Screens de destino. A variável **Processamento de ativos de demonstração do Screens** O workflow também é responsável pela aplicação da marca d&#39;água à imagem.
+Um esquema de metadados de pasta personalizado foi criado para capturar o canal do Screens de destino ao qual as imagens devem ser adicionadas. Dois modelos de fluxo de trabalho são usados para automatizar o processamento de ativos. A variável **Ativo de atualização DAM** O fluxo de trabalho é editado para chamar um fluxo de trabalho personalizado, **Processamento de ativos de demonstração do Screens, que inspeciona a pasta que contém o ativo para determinar o canal do Screens de destino. A variável **Processamento de ativos de demonstração do Screens** O workflow também é responsável pela aplicação da marca d&#39;água à imagem.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333175/?quality=12&learn=on)
 

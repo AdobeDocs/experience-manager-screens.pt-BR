@@ -2,9 +2,9 @@
 title: Analytics com AEM Screens
 description: Saiba mais sobre o Adobe Analytics com o Adobe Experience Manager Screens.
 exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >As partes interessadas típicas dessa atividade são os Estrategistas de marketing/negócios.
 
-O AEM Screens oferece a capacidade de capturar localmente todos os eventos rastreáveis que cada dispositivo de reprodução executa. Esses dados são armazenados localmente até que possam ser carregados na nuvem para processamento. Além de todos os dados do evento, um deviceID e um carimbo de data e hora também são adicionados. Isso garante que os dados de um player sejam distinguíveis de outro e que os dados executados em momentos diferentes do dia possam ser avaliados separadamente, se desejado.
+O AEM Screens pode capturar localmente todos os eventos rastreáveis que cada dispositivo de reprodução executa. Esses dados são armazenados localmente até que possam ser carregados na nuvem para processamento. Além de todos os dados do evento, um deviceID e um carimbo de data e hora também são adicionados. Essa funcionalidade garante que os dados de um player sejam distinguíveis de outro. Além disso, os dados executados em momentos diferentes do dia podem ser avaliados separadamente, se desejado.
 
 Há dois motivos fundamentais pelos quais você pode desejar capturar esses dados.
 

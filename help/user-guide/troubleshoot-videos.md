@@ -9,9 +9,9 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -33,19 +33,19 @@ Para exibir o vídeo:
 
 Deve haver diferentes representações (um MP4 ou M4V).
 
-Se não houver representação, verifique se o ffmpeg está instalado no SO em que o AEM está em execução.
+Se não houver representação, verifique se o FFMPEG está instalado no SO em que o AEM está sendo executado.
 
 >[!CAUTION]
 >
->Se não houver representação, verifique se o ffmpeg está instalado no SO em que o AEM está em execução.
+>Se não houver representação, verifique se o FFMPEG está instalado no SO em que o AEM está sendo executado.
 >
->Clique em [aqui](https://www.ffmpeg.org/download.html) para instalar o ffmpeg.
+>Clique em [aqui](https://www.ffmpeg.org/download.html) para instalar o FFMPEG.
 
 ## Ativos de vídeo {#video-assets}
 
 Se você não vir um atributo de origem em vídeo, pode ser que o vídeo não tenha sido transcodificado. Se o vídeo for transcodificado corretamente, ele aparecerá no painel, conforme mostrado a seguir:
 
-Verifique se o ffmpeg está instalado e os perfis de vídeo.
+Verifique se o FFMPEG está instalado e os perfis de vídeo.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
@@ -57,7 +57,7 @@ Verifique se o ffmpeg está instalado e os perfis de vídeo.
 
 1. Carregue um vídeo de teste e clique em **Ok** então você pode começar a transcodificação.
 
-   Se o vídeo transcodificado falhar, expanda a saída ffmpeg para entender quaisquer erros na saída do console do ffmpeg.
+   Se o vídeo transcodificado falhar, expanda a saída FFMPEG para entender quaisquer erros na saída do console de FFMPEG.
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
@@ -86,7 +86,7 @@ Verifique a lista de perfis do design da página se o componente de vídeo não 
 
 Use o **Web Player** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` para validar a reprodução em navegadores (Chrome e Safari). O Chrome é usado em dispositivos Android™, enquanto o Safari é o navegador OS X e iOS.
 
-Se o vídeo não for executado no Safari, ele também não será executado no OS X e nos players do iOS. Isso provavelmente é um problema de codificação e o vídeo deve ser codificado novamente.
+Se o vídeo não for executado no Safari, ele também não será executado no OS X e nos players do iOS. Esse problema provavelmente está relacionado à codificação e o vídeo deve ser codificado novamente.
 
 Para usar um fluxo de trabalho DAM para criar representações FullHD, faça o seguinte:
 
@@ -109,11 +109,11 @@ Siga as etapas abaixo para solucionar o problema do sinalizador de política de 
 1. Navegue até ***chrome://flags/#autoplay-policy***
 1. Alterar **Política de reprodução automática** de **Padrão** para **nenhum gesto do usuário é necessário**
 
-1. Inicie novamente seu navegador da Web e atualize o reprodutor
+1. Inicie novamente seu navegador da Web e atualize o player
 
 >[!NOTE]
 >
->Para saber mais sobre as práticas recomendadas para boas experiências do usuário com as novas políticas de reprodução automática no Chrome, consulte a documentação do *Alterações na política de reprodução automática* em `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>Para saber mais sobre as práticas recomendadas para boas experiências do usuário com as novas políticas de reprodução automática no Chrome. Consulte *Alterações na política de reprodução automática* em `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
 
 ### Sincronização de vídeo em vários players {#syncing-video-across-multiple-players}
 

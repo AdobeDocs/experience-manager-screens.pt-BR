@@ -2,9 +2,9 @@
 title: Noções básicas de sinalização digital para [!UICONTROL AEM Screens]
 description: Aprenda os conceitos básicos de um projeto de sinalização digital.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Antes de mergulhar nas práticas recomendadas de implementação do AEM Screens, é importante considerar o projeto como um projeto de sinalização digital, em vez de um desenvolvimento de software tradicional.
 
-Esta seção fornece recomendações sobre os principais elementos essenciais antes de uma implementação do projeto do AEM Screens.
+Esta seção fornece recomendações sobre os principais elementos essenciais para uma implementação de projeto do AEM Screens.
 
 ## Principais elementos em sinalização digital {#key-elements}
 
@@ -40,14 +40,14 @@ A definição dos principais elementos é essencial antes da implementação de 
    A conectividade enfatiza as seguintes questões:
    * Em rede (celular ou wi-fi) ou independente?
       * Você precisa permitir atualizações de conteúdo USB?
-      * Você deve permitir a coleta de dados de uso?
+      * Você precisa permitir o uso da coleção de dados?
 
 1. **Instalação**
 
    A instalação inclui:
    * Exibições: paisagem ou retrato
    * Como a tela é montada?
-      * Retrato versus paisagem
+      * Orientação retrato versus orientação paisagem
       * Alojamento completo
       * Placa de cobertura
    * Suporte a dispositivos fixos

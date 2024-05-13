@@ -2,18 +2,18 @@
 title: Abordagem recomendada
 description: Saiba mais sobre a abordagem recomendada em um projeto do AEM Screens.
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
 
 # Abordagem recomendada {#recommended-approach}
 
-É uma prática recomendada considerar qualquer projeto AEM Screens de nível empresarial como um empreendimento de longo prazo. É provável que o projeto tenha uma duração de um ou mais anos, especialmente se a solução permitir uma interação complexa do usuário ou for implantada em vários dispositivos e locais.
+A prática recomendada é considerar qualquer projeto AEM Screens de nível empresarial como um empreendimento de longo prazo. É provável que o projeto tenha uma duração de um ou mais anos, especialmente se a solução permitir uma interação complexa do usuário ou for implantada em vários dispositivos e locais.
 
-## Diretrizes antes de desenvolver uma estratégia de sinalização digital {#signage-strategy}
+## Diretrizes para o desenvolvimento de uma estratégia de sinalização digital {#signage-strategy}
 
 Consulte as poucas recomendações antes de desenvolver e implantar um projeto de sinalização digital:
 
@@ -33,7 +33,7 @@ Consulte as poucas recomendações antes de desenvolver e implantar um projeto d
   >
   > Os custos iniciais geralmente são mais altos em um projeto AEM Screens devido à necessidade de investir em hardware, dispositivos fixos e designs de site. Portanto, manter as soluções de conteúdo inicial mais simples pode ajudar a gerenciar as expectativas de orçamento.
 
-* **Estimativa de materiais de entrega em grande escala**: se a solução for fornecida em larga escala, é recomendável implantar os componentes do aplicativo em locais piloto selecionados cuidadosamente para uso de avaliação. Enviar para novos locais e dispositivos à medida que o aplicativo passar na validação.
+* **Estimativa de materiais de entrega em grande escala**: se a solução for fornecida em grande escala, implante os componentes do aplicativo em locais piloto selecionados cuidadosamente para uso de avaliação. Enviar para novos locais e dispositivos à medida que o aplicativo passar na validação.
 
   >[!NOTE]
   >
@@ -43,4 +43,4 @@ Consulte as poucas recomendações antes de desenvolver e implantar um projeto d
 
 * **Desenvolver um roteiro**: se o cliente quiser um produto com muitos recursos, forneça uma parte da funcionalidade planejada no início do projeto e programe outros recursos para as fases futuras. Um primeiro produto com muitos recursos traz mais riscos e é mais difícil de validar com o cliente.
 
-* **Noções básicas sobre o escopo de integrações personalizadas**: componentes interativos com interação na tela de toque, sensor de movimento ou RFID exigem um desenvolvimento personalizado significativo no método de implementação. Uma apresentação de slides, anúncio de vídeo ou menu estático pode ser fornecido como conteúdo gráfico ou HTML em um canal do Screens.
+* **Noções básicas sobre o escopo das integrações personalizadas**: componentes interativos com interação na tela de toque, sensor de movimento ou RFID exigem um desenvolvimento personalizado significativo no método de implementação. Uma apresentação de slides, anúncio de vídeo ou menu estático pode ser fornecido como conteúdo gráfico ou HTML em um canal do Screens.

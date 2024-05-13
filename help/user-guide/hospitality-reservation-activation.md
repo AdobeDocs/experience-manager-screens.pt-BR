@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ O caso de uso a seguir demonstra o uso da ativação de reservas hospitalares co
 
 ## Descrição {#description}
 
-Para este caso de uso, a Folha do Google é preenchida com porcentagem de reservas em dois restaurantes **`Restaurant1`** e **`Restaurant2`**. Uma fórmula é aplicada com base em valores de `Restaurant1` e `Restaurant2` e com base na fórmula, o valor 1 ou 2 é atribuído ao **AdTarget** Coluna.
+Para este caso de uso, a Folha do Google é preenchida com porcentagem de reservas em dois restaurantes **`Restaurant1`** e **`Restaurant2`**. Uma fórmula é aplicada com base em valores de `Restaurant1` e `Restaurant2` e, com base na fórmula, o valor 1 ou 2 é atribuído ao **AdTarget** Coluna.
 
-Se o valor de **`Restaurant1`** > **`Restaurant2`**, depois **AdTarget** é valor atribuído **1** caso contrário **AdTarget** é valor atribuído **2**. O valor 1 gera *Comida de bife* opção e o Valor dois resultam na exibição de *Comida tailandesa* na tela.
+Se o valor de **`Restaurant1`** > **`Restaurant2`**, depois **AdTarget** é valor atribuído **1** caso contrário **AdTarget** é valor atribuído **2**. O valor 1 gera um *Comida de bife* opção e Valor dois resultam em uma exibição de *Comida tailandesa* na tela.
 
 ## Pré-condições {#preconditions}
 
@@ -66,7 +66,7 @@ Siga as etapas do caso de uso abaixo para implementar a ativação de reserva de
 
    >[!CAUTION]
    >
-   >Você deveria ter configurado seu **ContextHub** **Configurações** uso do canal **Propriedades** > **Personalização** guia.
+   >Seu **ContextHub** **Configurações** uso do canal **Propriedades** > **Personalização** já deveria ter sido configurada neste ponto.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

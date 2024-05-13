@@ -2,9 +2,9 @@
 title: Estratégia de conteúdo comercial para o AEM Screens
 description: Saiba mais sobre a estratégia de marketing e conteúdo comercial relacionada ao AEM Screens.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 >
 >Uma parte interessada típica dessa atividade é um estrategista de marketing/negócios.
 
-O conteúdo é um fator importante na promoção do engajamento. Na fase de pré-vendas, é importante definir uma estratégia de conteúdo de negócios que considere como o aplicativo usa hardware, software e recursos de conectividade para oferecer o valor desejado aos clientes.
+O conteúdo é um fator importante na promoção do engajamento. Na fase de pré-venda, é importante definir uma estratégia de conteúdo comercial. Essa estratégia considera como o aplicativo usa hardware, software e recursos de conectividade para oferecer o valor pretendido aos clientes.
 
-Uma estratégia bem definida de conteúdo comercial define um caminho para criar, distribuir e rastrear o uso de conteúdo em relação à jornada do comprador e aos pontos de contato de marketing no funil de vendas. Receber a mensagem certa no momento certo é fundamental.
+Uma estratégia bem definida de conteúdo comercial define um caminho para criar, distribuir e controlar o uso de conteúdo em relação à jornada do comprador. Ele também considera os pontos de contato de marketing no funil de vendas. Receber a mensagem certa no momento certo é fundamental.
 
-Considere como o aplicativo Screens pode ajudar a fazer isso e determine KPIs para ajudar a medir o sucesso do aplicativo no fornecimento desse conteúdo.
+Considere como o aplicativo Screens pode ajudar a obter essa estratégia e determine KPIs para ajudar a medir o sucesso do aplicativo no fornecimento desse conteúdo.
 
 >[!NOTE]
 >

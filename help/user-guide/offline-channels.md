@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ O fluxo de trabalho do processo é o seguinte:
 1. Coletar todos os ativos relacionados.
 1. Compactar tudo em um arquivo zip.
 1. Baixe o zip e extraia-o localmente.
-1. Exibir cópia local do conteúdo.
+1. Exiba uma cópia local do conteúdo.
 
 ## Manipuladores de atualização {#update-handlers}
 
@@ -77,14 +77,14 @@ A variável ***ContentSync*** O usa manipuladores de atualização para analisar
 
 Siga as etapas abaixo para testar a configuração do ContentSync:
 
-1. Abertura `https://localhost:4502/libs/cq/contentsync/content/console.html`
-1. Clique em sua configuração na lista
-1. Clique em Limpar cache
-1. Clique em Atualizar cache
-1. Clique em Baixar completo
-1. Extraia o arquivo zip
-1. Iniciar um servidor local na pasta extraída
-1. Abra a página inicial e verifique o status do aplicativo
+1. Abertura `https://localhost:4502/libs/cq/contentsync/content/console.html`.
+1. Clique em sua configuração na lista.
+1. Clique em **Limpar cache**.
+1. Clique em **Atualizar cache**.
+1. Clique em **Download completo**.
+1. Extraia o arquivo zip.
+1. Iniciar um servidor local na pasta extraída.
+1. Abra a página inicial e verifique o status do aplicativo.
 
 ## Ativação da configuração offline para um canal {#enabling-offline-config-for-a-channel}
 
@@ -118,4 +118,4 @@ Siga as etapas abaixo para habilitar a configuração offline de um canal:
 
 >[!NOTE]
 >
->Para saber mais sobre o modelo para manipuladores de recursos offline personalizados e os requisitos mínimos na `pom.xml` para esse projeto específico, consulte [Modelo para manipuladores personalizados](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Desenvolvimento de um componente personalizado para o AEM Screens**.
+>Saiba mais sobre o modelo para manipuladores de recursos offline personalizados. E saiba mais sobre os requisitos mínimos no `pom.xml` para o projeto. Consulte [Modelo para manipuladores personalizados](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Desenvolvimento de um componente personalizado para o AEM Screens**.

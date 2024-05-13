@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 5b5d5251-90bf-4ef0-8300-76093f725291
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 **Dispositivo** - Um dispositivo pode executar o software do reprodutor para produzir uma saída visual. Ele é capaz de controlar a exibição de uma parte cortada, dimensionada e traduzida do conteúdo ou da experiência comum. A configuração da tela é vinculada a um monitor, mas pode ser substituída caso ocorra um defeito técnico.
 
-**Exibir** - Uma exibição é um agrupamento virtual de telas posicionadas uma ao lado da outra. O visor é permanente para uma instalação. Esse é o objeto com o qual os autores de conteúdo trabalham e sempre se referem como exibição lógica, em vez de suas contrapartes físicas.
+**Exibir** - Uma exibição é um agrupamento virtual de telas posicionadas uma ao lado da outra. O visor é permanente para uma instalação. Esse objeto é com o que os autores de conteúdo trabalham e sempre fazem referência como uma exibição lógica em vez de suas contrapartes físicas.
 
 **Firmware** - Firmware é o termo dado ao software que é executado no dispositivo dentro do aplicativo player em uma visualização da Web. É uma camada JavaScript que executa o conteúdo contido em um canal dentro de iFrames e fornece acesso a recursos nativos por meio de plug-ins. O firmware pode ser atualizado sem atualizar o aplicativo do reprodutor.
 
-**Live Copy** - Uma Live Copy é uma cópia do conteúdo específico do site para o qual é mantido um relacionamento dinâmico com a origem original. Esse relacionamento dinâmico permite que a live copy herde conteúdo e propriedades de página da origem.
+**Live Copy** - Uma Live Copy é uma cópia do conteúdo específico do site para o qual é mantido um relacionamento dinâmico com a origem original. Esse relacionamento dinâmico permite que a Live Copy herde conteúdo e propriedades de página da origem.
 
-**Pasta de local/local** - Os locais ou locais dentro da pasta de local hospedam a configuração das exibições de acordo com onde as várias telas estão.
+**Pasta de local/local** - Locais ou locais dentro da pasta de local hospedam a configuração das exibições de acordo com onde as várias telas estão.
 
 **Software do reprodutor** - O reprodutor é o aplicativo de software em execução em um dispositivo que permite mostrar um canal em uma tela.
 
