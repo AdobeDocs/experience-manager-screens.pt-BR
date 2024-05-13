@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '354'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Siga as instruções abaixo para baixar o Relatório de atribuição de conteúd
 
    ![imagem](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. A planilha baixada consiste em duas guias, como **Localizações** e **Conteúdo**. A guia Local exibe quatro colunas, como **Localizações**, **Exibições**, **Canais**, e **Dispositivos** que pode ser usado para investigar mais detalhadamente essas quatro entidades pertencentes ao seu projeto do AEM Screens.
+1. A planilha baixada consiste em duas guias, como **Localizações** e **Conteúdo**. A guia Local exibe quatro colunas, como **Localizações**, **Exibições**, **Canais**, e **Dispositivos** que pode ser usado para investigar essas quatro entidades pertencentes ao seu projeto do AEM Screens.
 
    ![imagem](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 

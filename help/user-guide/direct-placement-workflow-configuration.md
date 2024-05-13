@@ -1,9 +1,9 @@
 ---
 title: Configuração do fluxo de trabalho de posicionamento direto
 description: Esta página destaca a Configuração do fluxo de trabalho de posicionamento direto.
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '189'
 ht-degree: 1%
 
 ---
@@ -38,5 +38,5 @@ Siga as etapas abaixo para configurar o fluxo de trabalho de posicionamento dire
 
 1. Navegue até o AEM Screens a partir da sua instância AEM e crie um projeto do Screens intitulado como **Fluxo de trabalho do ativo**.
 
-1. Crie um canal chamado como **Fluxo de trabalho - Ativos** em **Canais** pasta.
+1. Crie um canal chamado como **Fluxo de trabalho - Ativos** no **Canais** pasta.
 

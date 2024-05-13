@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1447'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Esta seção destaca a atribuição e a programação de canais para o Pacote de recursos do Telas AEM 6.5.5 e posteriores.
+>Esta seção destaca a Atribuição de canal e a programação de canais para o Pacote de recursos do Telas AEM 6.5.5 e posteriores.
 
 Ao configurar uma exibição, atribua um canal a uma exibição para visualizar seu conteúdo.
 
@@ -35,7 +35,7 @@ Siga as seções abaixo para criar um projeto do AEM Screens e atribuir um canal
 
 Siga as etapas abaixo para configurar um projeto e um canal:
 
-1. Crie um projeto do AEM Screens intitulado como **DemoScreens**.
+1. Crie um projeto do AEM Screens com o título **DemoScreens**.
 
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
@@ -82,14 +82,14 @@ Quando a configuração do projeto for concluída, atribua o canal a uma exibiç
 
    >[!NOTE]
    >
-   >Para saber mais sobre as propriedades de atribuição do canal, consulte [Propriedades do canal](#channel-properties) seção.
+   >Para saber mais sobre as propriedades de Atribuição de canal, consulte [Propriedades do canal](#channel-properties) seção.
 
 1. No **Agendar** clique na guia **Janela de ativação** e **Agendamento recorrente**.
    ![imagem](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Para saber mais sobre as propriedades de atribuição do canal, consulte [Propriedades do canal](#channel-properties) seção.
+   >Para saber mais sobre as propriedades de Atribuição de canal, consulte [Propriedades do canal](#channel-properties) seção.
 
 1. Clique em **Salvar** após configurar suas preferências.
 
@@ -105,7 +105,7 @@ Você pode exibir a seguinte saída ao escolher um reprodutor:
 
 ## Exibição da linha do tempo {#timeline-view}
 
-Ao atribuir um canal a uma exibição e configurar um cronograma recorrente, é possível exibir a linha do tempo na **CANAIS ATRIBUÍDOS E AGENDAMENTOS** painel.
+Ao atribuir um canal a uma exibição e configurar um Cronograma recorrente, você pode visualizar a linha do tempo na **CANAIS ATRIBUÍDOS E AGENDAMENTOS** painel.
 
 Siga as etapas abaixo para navegar até a exibição da linha do tempo:
 
@@ -134,7 +134,7 @@ A seleção de um canal permite fornecer uma referência ao canal desejado, por 
 
 ### Função do canal {#role-channel}
 
-A função do canal define o contexto da exibição. A função é direcionada por várias ações e é independente do canal real que desempenha a função.
+A função do canal define o contexto da exibição. Várias ações direcionam a função. É independente do canal real que desempenha a função.
 
 ### Prioridade {#priority-channel}
 
@@ -181,15 +181,15 @@ A janela Ativation permite selecionar um **Data inicial** e uma **Data final** p
 
 ### Programação de recorrência {#recurrence-schedule}
 
-O Cronograma recorrente permite que você defina um cronograma recorrente para o seu conteúdo. Clique em **+ Adicionar programação** para adicionar uma agenda de recorrência ao seu canal.
+O Cronograma recorrente permite que você defina um cronograma recorrente para o seu conteúdo. Clique em **+ Adicionar programação** para adicionar um Cronograma recorrente ao seu canal.
 
 >[!NOTE]
 >Você pode adicionar vários agendamentos recorrentes ao seu canal.
->Os Cronogramas de recorrência apresentam *DayParting* que permite definir uma programação global com vários canais sendo executados em horários específicos do dia e reutilizar essa configuração para todas as exibições de uma só vez.
+>Os Cronogramas de recorrência apresentam *DayParting*. Você define um agendamento global com vários canais sendo executados em horários específicos do dia e reutiliza esse agendamento configurado para todas as suas exibições de uma só vez.
 
 É possível definir as seguintes opções:
 
-* **Nome** - Título do cronograma recorrente.
+* **Nome** - Título do seu Cronograma Recorrente.
 * **Repetir** - Escolha se a programação é executada **Diariamente**, **Semanalmente**, **Mensal** ou **Anual**.
 * **Início** - A hora de início da sua programação.
 * **Fim** - A hora de término de sua agenda. Você pode defini-lo por tempo ou duração.

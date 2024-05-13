@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Você também pode agendar essa atividade para um horário de tráfego de rede m
 
 ## Usando atualização off-line em massa {#using-bulk-offline-update}
 
-Você pode usar a atualização offline em massa manualmente na interface do usuário ou agendar a atualização em massa dos serviços OSGi.
+Você pode usar a Atualização offline em massa manualmente na interface do usuário (UI) ou agendar a atualização em massa dos serviços OSGi.
 
 ### Utilização da interface do usuário do AEM Screens {#using-aem-screens-user-interface}
 
@@ -59,7 +59,7 @@ Siga as etapas abaixo para usar a atualização em massa offline para um projeto
 Siga as etapas abaixo para usar a atualização em massa offline para um projeto do AEM Screens:
 
 1. Configuração do console da Web do Adobe Experience Manager.
-1. Procurar serviços de atualização offline em massa.
+1. Procurar Serviços de atualização offline em massa.
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 
