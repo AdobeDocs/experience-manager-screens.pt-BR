@@ -1,6 +1,6 @@
 ---
 title: Criação e Gerenciamento de Agendamentos
-description: Saiba mais sobre os Cronogramas que permitem organizar canais em grupos reutilizáveis para que você não precise repetir a atribuição individualmente para cada exibição na qual deseja mostrar o conteúdo.
+description: Conheça os Cronogramas que permitem organizar canais em grupos reutilizáveis para que você não precise repetir a atribuição individualmente.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,16 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
 # Criação e Gerenciamento de Agendamentos {#creating-and-managing-schedules}
 
-**Agendamentos** no AEM Screens, permitem organizar canais em grupos reutilizáveis para que não seja necessário repetir a atribuição individualmente para cada exibição na qual deseja mostrar o conteúdo.
+**Agendamentos** no AEM Screens permitem organizar canais em grupos reutilizáveis. Isso significa que não é necessário repetir a atribuição individualmente para cada exibição na qual deseja mostrar o conteúdo.
 
 Agendamentos, quando combinados com ***DayParting***, permite definir um agendamento global com vários canais sendo executados em horários específicos do dia e reutilizar essa configuração para todas as exibições de uma só vez.
 
@@ -44,7 +44,7 @@ Você pode ver uma pasta de agendamento com o nome e o título designados em seu
 
 ## Visualizando painel {#viewing-dashboard}
 
-Depois de criar a pasta de agendamentos no projeto, você pode exibir os detalhes no painel de agendamentos.
+Depois de criar uma pasta de agendamentos no projeto, você pode exibir os detalhes no painel de agendamentos.
 
 Siga as etapas abaixo para visualizar o painel de agendamento. O exemplo a seguir mostra o painel do `We.Retail` projeto:
 

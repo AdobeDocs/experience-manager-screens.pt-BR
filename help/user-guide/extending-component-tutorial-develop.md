@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1700'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Este tutorial destina-se a desenvolvedores novos no AEM Screens. Neste tutorial,
 
 ![Componente de cartaz personalizado](assets/2018-05-07_at_4_09pm.png)
 
-O componente de Poster personalizado é criado estendendo o componente de Imagem.
+A `Custom Poster` é criado estendendo o componente de Imagem.
 
 ## Pré-requisitos {#prerequisites}
 
@@ -240,7 +240,7 @@ O componente de Pôster é renderizado em tela cheia no modo de visualização/p
 
    A propriedade `sling:hideChildren`= `"[linkURL,size]`&quot; é usado no `items` nó para garantir que o **linkURL** e **tamanho** os campos estão ocultos na caixa de diálogo. Não basta remover estes nós da caixa de diálogo do pôster. A propriedade `sling:hideResource="{Boolean}true"` na guia acessibilidade é usada para ocultar a guia inteira.
 
-   Campos de dois cliques são adicionados à caixa de diálogo para dar aos autores controle sobre a posição do texto e a cor do Título e Descrição.
+   Campos de dois cliques são adicionados à caixa de diálogo Posição do texto e Cor do texto para dar aos autores controle sobre a posição do texto e a cor do Título e Descrição.
 
    ![Pôster - Estrutura final da caixa de diálogo](assets/2018-05-03_at_4_49pm.png)
 
@@ -280,7 +280,7 @@ O componente de Pôster é renderizado em tela cheia no modo de visualização/p
 
    `The h1` As tags h2 e são adicionadas exibem o Título e a Descrição com base nas propriedades do componente: `${properties.jcr:title}` e `${properties.jcr:description}`.
 
-   Ao redor do `h1` e `h2` tags é um wrapper div com três classes CSS com variações de &quot; `cmp-poster__text`&quot;. O valor para a variável `textPosition` e `textColor` As propriedades são usadas para alterar a classe CSS renderizada com base na seleção da caixa de diálogo do autor. Na próxima seção, o CSS das bibliotecas de clientes é escrito para ativar essas alterações na exibição.
+   Ao redor do `h1` e `h2` tags é um wrapper div com três classes CSS com variações de &quot;`cmp-poster__text`.&quot; O valor para a variável `textPosition` e `textColor` As propriedades são usadas para alterar a classe CSS renderizada com base na seleção da caixa de diálogo do autor. Na próxima seção, o CSS das bibliotecas de clientes é escrito para ativar essas alterações na exibição.
 
    Um logotipo também é incluído como uma sobreposição no componente. Neste exemplo, o caminho para a variável` We.Retail` O logotipo da é codificado permanentemente no DAM. Dependendo do caso de uso, pode fazer mais sentido criar um campo de diálogo para tornar o caminho do logotipo um valor preenchido dinamicamente.
 
@@ -308,7 +308,7 @@ O componente de Pôster é renderizado em tela cheia no modo de visualização/p
    </div>
    ```
 
-   A variável **editar** a marcação do componente de Pôster é vista diretamente acima. O script HTL substitui `/libs/screens/core/components/content/image/edit.html`. A marcação é semelhante ao `production.html` e exibe o título e a descrição na parte superior da imagem.
+   A variável **editar** a marcação para o componente de Pôster é vista diretamente acima. O script HTL substitui `/libs/screens/core/components/content/image/edit.html`. A marcação é semelhante ao `production.html` e exibe o título e a descrição na parte superior da imagem.
 
    A variável `aem-Screens-editWrapper`é adicionado para que o componente não seja renderizado em tela cheia no editor. A variável `data-emptytext` O atributo garante que um espaço reservado seja exibido quando nenhuma imagem ou conteúdo for preenchido.
 
@@ -339,7 +339,7 @@ Os componentes do AEM Screens são renderizados de forma diferente no modo Edita
 
    A variável `categories` propriedade é uma string que identifica a biblioteca do cliente. A variável `cq.screens.components` A categoria é usada nos modos Editar e Visualizar/Produção. Portanto, qualquer CSS/JS definido no `shared` clientlib é carregado em todos os modos.
 
-   É uma prática recomendada nunca expor nenhum caminho diretamente para /apps em um ambiente de produção. A variável `allowProxy` garante que o CSS e o JS da biblioteca do cliente sejam referenciados por meio de um prefixo de `/etc.clientlibs`. Mais informações sobre o [A propriedade allowProxy pode ser encontrada aqui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   Como prática recomendada, nunca exponha nenhum caminho diretamente para `/apps` em um ambiente de produção. A variável `allowProxy` garante que o CSS e o JS da biblioteca do cliente sejam referenciados por meio de um prefixo de `/etc.clientlibs`. Mais informações sobre o [A propriedade allowProxy pode ser encontrada aqui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Criar arquivo chamado `css.txt` abaixo da pasta compartilhada.
 
@@ -362,7 +362,7 @@ Os componentes do AEM Screens são renderizados de forma diferente no modo Edita
    ```css
    /*
     /apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less
-    Poster Component - Shared Style
+    Poster component - Shared Style
    */
    
    @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:400i');
@@ -431,7 +431,7 @@ Os componentes do AEM Screens são renderizados de forma diferente no modo Edita
    ```css
    /*
     /apps/weretail-run/components/content/poster/clientlibs/production/css/styles.less
-    Poster Component - Production Style
+    Poster component - Production Style
    */
    
    .cmp-poster {
@@ -489,7 +489,7 @@ Uma terceira categoria de bibliotecas de clientes: `cq.screens.components.edit` 
 | `cq.screens.components.edit` | Estilos e scripts que são usados somente no modo de edição |
 | `cq.screens.components.production` | Estilos e scripts que são usados somente no modo de produção |
 
-## Adicionar componente de cartaz a um canal de sequência {#add-sequence-channel}
+## Adicionar componente de Pôster a um canal de sequência {#add-sequence-channel}
 
 O componente de Pôster é usado em um canal de sequência. O pacote inicial deste tutorial incluía um canal ocioso. O canal ocioso é pré-configurado para permitir componentes do grupo **`We.Retail Run - Content`**. O grupo do componente Cartaz está definido como `We.Retail Run - Content` e está disponível para ser adicionado ao canal.
 
@@ -508,7 +508,7 @@ O componente de Pôster é usado em um canal de sequência. O pacote inicial des
 
 ## Tudo junto na prática {#putting-it-all-together}
 
-O vídeo abaixo mostra o componente concluído e como ele pode ser adicionado a um canal de sequência. O Canal é então adicionado a uma exibição de Localização e, por fim, atribuído a um reprodutor do Screens.
+O vídeo abaixo mostra o componente concluído e como ele pode ser adicionado a um canal de sequência. O canal é então adicionado a uma exibição de Localização e, por fim, atribuído a um reprodutor do Screens.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
 

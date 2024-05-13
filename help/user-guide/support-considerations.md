@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -41,17 +41,16 @@ O planejamento inclui:
 
 ## Resumo das principais considerações envolvidas no suporte do dia 2 {#summary-of-key-considerations-involved-in-day-support}
 
-A seguir estão algumas considerações importantes para o Suporte do segundo dia:
+Estas são algumas das principais considerações para o Suporte do segundo dia:
 
-* Para garantir alinhamento e transição suave da implementação para o suporte operacional, o Implementador do AEM trabalha com o Integrador de áudio e vídeo para garantir que os scripts de suporte apropriados sejam definidos como parte do plano de Suporte do Dia 2.
+* Para garantir alinhamento e transição suave da implementação para o suporte operacional, o Implementador AEM funciona com o Integrador de áudio e vídeo. Juntos, eles garantem que os scripts de suporte apropriados sejam definidos como parte do plano de suporte do dia 2.
 * Requisitos como gerenciamento remoto de dispositivos, disponibilidade de Help Desk e suporte técnico no local são praticamente fornecidos neste estágio da evolução do setor de sinalização digital. Além dessa necessidade básica, os integradores de áudio e vídeo também devem explorar as variáveis de custo entre o monitoramento pró-ativo vs. reativo e os modelos de suporte.
-
 * Requisitos como gerenciamento remoto de dispositivos, disponibilidade de Help Desk e suporte técnico no local são praticamente fornecidos neste estágio da evolução do setor de sinalização digital. Além dessa necessidade básica, os integradores de áudio e vídeo também devem explorar as variáveis de custo entre o monitoramento pró-ativo vs. reativo e os modelos de suporte.
 * Para se preparar para o sucesso a longo prazo, é fundamental estabelecer um Contrato de nível de suporte do Dia 2 (também chamado de &quot;S.L.A.&quot;) em parceria com o Integrador de áudio e vídeo. Os SLAs detalham os serviços de suporte pós-implantação e ajudam a definir as expectativas do cliente.
-* Um recurso-chave usado no gerenciamento bem-sucedido de várias redes é a Base de conhecimento. O SharePoint é uma plataforma popular para esse tipo de recurso. A Base de conhecimento inclui perguntas e respostas pré-programadas que os agentes NOC devem seguir, garantindo que as solicitações de resolução de problemas de entrada sejam tratadas de maneira consistente. As bases de conhecimento geralmente incluem materiais de referência para configurações de sistema e locais, incluindo folhas de material para hardware e materiais de referência para software de sistemas.
+* Um recurso-chave usado no gerenciamento bem-sucedido de várias redes é a Base de conhecimento. O SharePoint é uma plataforma popular para esse tipo de recurso. A Base de conhecimento inclui perguntas e respostas pré-programadas que os agentes NOC devem seguir, garantindo que as solicitações de resolução de problemas de entrada sejam tratadas de maneira consistente. As bases de conhecimento geralmente incluem materiais de referência para configurações de sistema e locais. A Base de conhecimento pode, às vezes, incluir especificações de hardware e materiais de referência para software de sistemas.
 * Os recursos de monitoramento e gerenciamento dependem muito dos sistemas operacionais do reprodutor de mídia e dos recursos de tela. Os sistemas operacionais Windows oferecem o maior nível de detalhes. Para implantações executadas em dispositivos Android™ ou iOS, é empregado o Gerenciamento de dispositivos móveis (também conhecido como MDM).
 * Alguns fabricantes de telas oferecem a capacidade de monitorar telas independentemente dos Media Players, enquanto outros precisam de um dispositivo externo.
-* Os integradores de áudio-vídeo usam uma combinação de tecnologias, de modo que as soluções permanecem flexíveis para atender melhor às necessidades do cliente final.
+* Os integradores de áudio-vídeo usam uma combinação de tecnologias, garantindo que as soluções permaneçam flexíveis para atender melhor às necessidades do cliente final.
 
 ## Parte 5: Tutorial em vídeo sobre considerações de suporte {#part-video-tutorial-on-support-considerations}
 

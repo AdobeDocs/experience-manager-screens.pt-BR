@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '374'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Após concluir as etapas anteriores, você estará pronto para ativar o direcion
 
 Siga as etapas abaixo para ativar o direcionamento em seus canais.
 
-1. Navegue até um dos canais do AEM Screens. As etapas a seguir demonstram como habilitar o direcionamento usando **DataDrivenRetail** *(canal de sequência)* criado em um Canal AEM Screens.
+1. Navegue até um dos canais do AEM Screens. As etapas a seguir demonstram como habilitar o direcionamento usando **DataDrivenRetail** *(canal de sequência)* criado em um canal do AEM Screens.
 
 1. Clique no canal **DataDrivenRetail** e clique em **Propriedades** na barra de ações.
 
@@ -67,7 +67,7 @@ Siga as etapas abaixo para ativar o direcionamento em seus canais.
 
    >[!NOTE]
    >
-   >Se você configurou tudo corretamente, verá **Direcionamento** no menu suspenso do editor, como mostrado na figura abaixo.
+   >Se você configurou tudo corretamente, verá a **Direcionamento** no menu suspenso do editor, como mostrado na figura abaixo.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 

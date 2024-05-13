@@ -1,12 +1,12 @@
 ---
 title: Canal de tomada a cargo de uso único
-description: Siga este caso de uso para criar um Canal de controle de uso único.
+description: Siga este caso de uso para criar um canal de aquisição de uso único.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Siga as etapas abaixo para configurar um projeto:
 
    ![ativo](assets/single-takeover4.png)
 
-1. Configure um local e uma exibição para seus canais. Por exemplo, o seguinte **Lobby** localização e  **MainLobbyDisplay** são configuradas para este projeto.
+1. Configure um local e uma exibição para seus canais. Por exemplo, o seguinte **Lobby** localização e **MainLobbyDisplay** são configuradas para este projeto.
 
    ![ativo](assets/single-takeover5.png)
 
@@ -93,11 +93,11 @@ Siga as etapas abaixo para configurar um projeto:
      >[!NOTE]
      >A prioridade pode ser qualquer valor maior que o valor de prioridade do canal de reprodução normal.
    * **Eventos suportados**: Clique no botão **Tela inativa** e **Temporizador**.
-   * **Agendar**: Insira o texto do agendamento para o qual você deseja que este canal execute a exibição. Por exemplo, o texto aqui permite que o conteúdo seja reproduzido 2 minutos antes das 12h de 31 de dezembro até às 12h. O texto no campo **Agendar** mencionado neste exemplo é *no dia 31 de dezembro depois de 23:58 e também no dia 1 de janeiro antes 00.01*.
+   * **Agendar**: Insira o texto do agendamento que deseja que este canal execute na exibição. Por exemplo, o texto aqui permite que o conteúdo seja reproduzido 2 minutos antes das 12h de 31 de dezembro até às 12h. O texto no campo **Agendar** mencionado neste exemplo é *no dia 31 de dezembro depois de 23:58 e também no dia 1 de janeiro antes 00.01*.
 
      ![ativo](assets/single-takeover8.png)
 
-     Navegar para a exibição a partir de **ControleDeUsoÚnico** > **Localizações** > **Lobby** > **MainLobbyDisplay** e clique em **Painel** na barra de ações para que você possa visualizar os canais atribuídos com suas prioridades, conforme mostrado abaixo.
+     Navegar para a exibição a partir de **ControleDeUsoÚnico** > **Localizações** > **Lobby** > **MainLobbyDisplay**. Clique em **Painel** na barra de ações para que você possa visualizar os canais atribuídos com suas prioridades, conforme mostrado abaixo.
 
      >[!NOTE]
      >É obrigatório definir a prioridade do canal de aquisição como a mais alta.

@@ -10,9 +10,9 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -144,12 +144,12 @@ O AEM fornece monitoramento integrado para:
 
 * *Heartbeat* a cada 5 segundos para indicar que o AEM Screens Player está em operação.
 * *Captura de tela* do reprodutor que mostra o que é exibido no reprodutor.
-* A variável *Firmware do AEM Screens Player* versão instalada no reprodutor.
+* A variável *Firmware do AEM Screens Player* está instalada no Player.
 * *Espaço livre de armazenamento* no reprodutor.
 
 Recommendations para monitoramento remoto com software de terceiros:
 
-* Uso da CPU em players.
+* Uso da CPU em Players.
 * Verifique se o processo do AEM Screens Player está em execução.
 * Reinicialização/reinicialização remota do Player.
 * Notificações em tempo real.

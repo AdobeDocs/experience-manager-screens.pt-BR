@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de temperatur
 
    >[!CAUTION]
    >
-   >Você deveria ter configurado seu **ContextHub** **Configurações** uso do canal **Propriedades** > **Personalização** guia.
+   >Seu **ContextHub** **Configurações** uso do canal **Propriedades** > **Personalização** já deve estar configurada.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -85,6 +85,6 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de temperatur
 1. **Verificação da visualização**
 
    1. Clique em **Visualizar.** Além disso, abra a Planilha do Google e atualize o valor.
-   1. Altere o valor para menos de 50. Você deve ser capaz de ver uma imagem de uma bebida fria. Se o valor no Google Sheets for 50 ou superior, você deverá ver uma imagem de uma bebida quente.
+   1. Altere o valor para menos de 50. Você pode ver uma imagem de uma bebida fria. Se o valor no Google Sheets for 50 ou superior, você deverá ver uma imagem de uma bebida quente.
 
    ![resultado3](assets/result3.gif)
