@@ -8,9 +8,9 @@ user-guide-description: Saiba como usar uma solução de sinalização digital q
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '522'
 ht-degree: 11%
 
 ---
@@ -84,6 +84,7 @@ ht-degree: 11%
       + [Duração da reprodução de imagem em massa no nível do canal](channel-level-image-playback.md)
       + [Sincronização de comando](using-command-sync.md)
       + [Criação com acionadores de dados](authoring-data-triggers.md)
+      + [Uso de tags](tagging.md)
       + [Reconhecimento de voz](voice-recognition.md)
       + [Relatório de atribuição de conteúdo](content-assignment-report.md)
       + [Suporte a miniaturas para vídeos](thumbnail-support.md)
