@@ -3,9 +3,9 @@ title: Marcação na Screens Cloud
 description: Esta página descreve como as tags podem ser criadas, gerenciadas e usadas na Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 6c59d86d7c2224994686320381632b9150287fca
+source-git-commit: 62036fb6149d4babfeba69261af0bc4904ae0e82
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ O usuário pode criar tags na Screens Cloud e usá-las para classificar exibiç�
 
 ## Criar e gerenciar tags {#create-and-manage-tags}
 
-![Criar tag de VÍDEO](assets/tagging/create-tag.mp4).
+![criar tag](assets/tagging/create-tag.gif).
 
 Use o mesmo menu de ação para renomear ou excluir uma tag.
 
@@ -35,13 +35,13 @@ Use o mesmo menu de ação para renomear ou excluir uma tag.
 
 Use tags criadas em Exibições e players. Você pode marcar um com no máximo 30 tags.
 
-![Atribuições de tags de gerenciamento de VÍDEO](assets/tagging/assign-tags-to-players.mp4).
+![gerenciar atribuições de tags](assets/tagging/assign-tags-to-players.gif).
 
 ## Filtrar por tags {#filter-by-tags}
 
 Selecione tags para filtrar a lista de exibições ou players.
 
-![Filtrar VÍDEO por tags](assets/tagging/filter-by-tags.mp4).
+![filtrar por tags](assets/tagging/filter-by-tags.gif).
 
 >[!NOTE]
 > 
