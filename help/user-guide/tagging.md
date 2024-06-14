@@ -3,9 +3,9 @@ title: Marcação na Screens Cloud
 description: Esta página descreve como as tags podem ser criadas, gerenciadas e usadas na Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 62036fb6149d4babfeba69261af0bc4904ae0e82
+source-git-commit: 43971621ae34a433cb5af3cd84b0e6f074af0c30
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -28,14 +28,18 @@ Use o mesmo menu de ação para renomear ou excluir uma tag.
 
 >[!NOTE]
 > 
-> O nome da tag só pode conter letras, números, barras e sublinhados. O nome deve começar e terminar apenas com letras ou números.
 > Um total de 500 tags são permitidas para um locatário
 
 ## Gerenciar atribuições de tags {#manage-tags-assignments}
 
-Use tags criadas em Exibições e players. Você pode marcar um com no máximo 30 tags.
+Use tags criadas em Exibições e players.
 
 ![gerenciar atribuições de tags](assets/tagging/assign-tags-to-players.gif).
+
+>[!NOTE]
+> 
+> Uma exibição ou um reprodutor pode ter no máximo 100 tags.
+> No máximo, 30 itens podem ser marcados de uma só vez.
 
 ## Filtrar por tags {#filter-by-tags}
 
