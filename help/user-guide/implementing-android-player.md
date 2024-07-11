@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Implementação do Android™ Player {#implementing-android-player}
 
-Esta seção descreve a configuração do reprodutor Android™. Ele fornece informações do arquivo de configuração e as opções disponíveis, além de recomendações sobre quais configurações usar para desenvolvimento e teste.
+Esta seção descreve a configuração do Android™ player. Ele fornece informações do arquivo de configuração e as opções disponíveis, além de recomendações sobre quais configurações usar para desenvolvimento e teste.
 
 Além disso, **Watchdog** O é uma solução para recuperar o reprodutor de falhas. Um aplicativo deve se registrar no serviço de vigia e enviar periodicamente mensagens ao serviço informando que ele está ativo. Caso o serviço de vigia não receba uma mensagem de manutenção de atividade em um tempo estipulado, o serviço tentará reinicializar o dispositivo. Isso é feito para uma recuperação limpa (se tiver privilégios suficientes) ou reinicia o aplicativo.
 
@@ -50,7 +50,7 @@ Siga as etapas abaixo:
 
 ### Método Ad-Hoc {#ad-hoc-method}
 
-O método Ad-Hoc permite instalar o Player mais recente do Android™ (*.exe*). Visite o [**Downloads do reprodutor AEM 6.5**](https://download.macromedia.com/screens/) página.
+O método ad-hoc permite instalar o Player mais recente da Android™ (*.exe*). Visite o [**Downloads do reprodutor AEM 6.5**](https://download.macromedia.com/screens/) página.
 
 Depois de baixar o aplicativo, siga as etapas no reprodutor para concluir a instalação ad-hoc:
 
@@ -65,9 +65,9 @@ Depois de baixar o aplicativo, siga as etapas no reprodutor para concluir a inst
 >
 >Se a variável **Estado** é **NÃO REGISTRADO**, você pode usar o **Token** para registrar o dispositivo.
 
-## Implementação do Watchdog do Android™ {#implementing-android-watchdog}
+## Implementação do Watchdog da Android™ {#implementing-android-watchdog}
 
-Devido à arquitetura do Android™, a reinicialização do dispositivo requer que o aplicativo tenha privilégios de sistema. Assine o apk usando as chaves de assinatura do fabricante, caso contrário, o watchdog pode reiniciar o aplicativo de reprodução e não reinicializar o dispositivo.
+Devido à arquitetura da Android™, a reinicialização do dispositivo exige que o aplicativo tenha privilégios de sistema. Assine o apk usando as chaves de assinatura do fabricante, caso contrário, o watchdog pode reiniciar o aplicativo de reprodução e não reinicializar o dispositivo.
 
 ### Sinalização do Android™ `apks` uso de Chaves do Fabricante {#signage-of-android-apks-using-manufacturer-keys}
 
@@ -86,13 +86,13 @@ Siga as etapas abaixo para assinar o aplicativo Android™ usando as chaves do f
 
 1. Localize o `apksigner` ferramenta no Android™ SDK usando localizar `~/Library/Android/sdk/build-tools -name "apksigner"`
 1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
-1. Encontre o caminho para a ferramenta de alinhamento do zip no Android™ SDK
+1. Encontre o caminho para a ferramenta de alinhamento do zip no SDK da Android™
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
 1. Instalar ***aemscreensaligned.apk*** usando adb install para o dispositivo
 
-## Noções básicas sobre os serviços de vigia do Android™ {#android-watchdog-services}
+## Noções básicas sobre os serviços de vigia da Android™ {#android-watchdog-services}
 
-O serviço de watchdog entre Android é implementado como um plug-in Cordova usando *GerenciadorDeAlarmes*.
+O serviço de vigia cross-Android™ é implementado como um plug-in Cordova usando *GerenciadorDeAlarmes*.
 
 O diagrama a seguir mostra a implementação do serviço de vigia:
 
@@ -110,7 +110,7 @@ O diagrama a seguir mostra a implementação do serviço de vigia:
 
 ## Provisionamento em massa do Android™ Player {#bulk-provision-android-player}
 
-Ao implantar o reprodutor Android™ em massa, é necessário provisionar o reprodutor para apontar para uma instância do AEM e configurar outras propriedades sem inseri-las manualmente na interface do usuário do administrador.
+Ao implantar o reprodutor Android™ em massa, é necessário provisionar o reprodutor para apontar para uma instância AEM e configurar outras propriedades sem inseri-las manualmente na interface do administrador.
 
 >[!NOTE]
 >Esse recurso está disponível no Android™ player 42.0.372.
@@ -168,7 +168,7 @@ A tabela a seguir resume os atributos da política com um exemplo de JSON de pol
 ```
 
 >[!NOTE]
->Todos os dispositivos Android™ têm um `*sdcard*` pasta se um real `*sdcard*` foi inserido ou não. Esse arquivo, quando implantado, estaria no mesmo nível que a pasta Downloads. Alguns MDMs, como Samsung Knox, podem ver isso *sdcard* local da pasta como *Armazenamento interno*.
+>Todos os dispositivos Android™ têm uma `*sdcard*` pasta se um real `*sdcard*` foi inserido ou não. Esse arquivo, quando implantado, estaria no mesmo nível que a pasta Downloads. Alguns MDMs, como Samsung Knox, podem ver isso *sdcard* local da pasta como *Armazenamento interno*.
 
 ## Provisionamento em massa do Android™ Player usando o Enterprise Mobility Management {#bulk-provisioning}
 
@@ -176,7 +176,7 @@ Ao implantar o Android™ player em massa, é entediante registrar cada player m
 
 ## Nomeação do Android™ Player {#name-android}
 
-Você pode atribuir um nome de dispositivo amigável ao seu reprodutor Android™, enviando o nome de dispositivo atribuído ao AEM (Adobe Experience Manager). Esse recurso não só permite nomear o seu reprodutor Android™, como também permite atribuir facilmente o conteúdo apropriado.
+Você pode atribuir um nome de dispositivo amigável ao seu reprodutor Android™, enviando o nome de dispositivo atribuído ao AEM (Adobe Experience Manager). Esse recurso não apenas permite que você dê um nome ao seu reprodutor Android™, mas também permite que você atribua facilmente o conteúdo apropriado.
 
 >[!NOTE]
 >Você pode escolher o nome do Player somente antes do registro. Depois que o Player é registrado, o nome do Player não pode mais ser alterado.
@@ -184,14 +184,14 @@ Você pode atribuir um nome de dispositivo amigável ao seu reprodutor Android�
 Siga as etapas abaixo para configurar o nome no reprodutor Android™:
 
 1. Navegue até **configurações** > **Sobre o dispositivo**
-1. Edite e defina o nome do dispositivo para nomear o seu reprodutor Android™
+1. Edite e defina o nome do dispositivo para dar um nome ao seu reprodutor Android™
 
 ### Implementação do provisionamento em massa do Android™ Player usando o Gerenciamento de mobilidade empresarial {#implementation}
 
 Siga as etapas abaixo para permitir o provisionamento em massa no Android™ Player:
 
 1. Verifique se o dispositivo Android™ é compatível com os serviços da Google Play.
-1. Inscreva seus dispositivos Android™ player com sua solução EMM favorita compatível com AppConfig.
+1. Inscreva seus dispositivos Android™ Player com sua solução EMM favorita compatível com AppConfig.
 1. Faça logon no console do EMM e extraia o aplicativo AEM Screens Player do Google Play.
 1. Clique na configuração gerenciada ou na opção relacionada.
 1. Agora você deve ver uma lista de opções do player que podem ser configuradas, como servidor e código de registro em massa.
@@ -202,6 +202,6 @@ Siga as etapas abaixo para permitir o provisionamento em massa no Android™ Pla
 
 Além disso, verifique com o fornecedor de EMM o suporte ao AppConfig. Os mais populares, como [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [`Mobile Iron`](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [`SOTI`](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [`BlackBerry&reg; UEM`](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [`IBM&reg; Maas360`](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm), e [`Samsung Knox`](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) entre outros, suportam esse padrão do setor.
 
-### Uso do controle remoto do Screens {#using-remote-control}
+### Usar o controle remoto do Screens {#using-remote-control}
 
-O AEM Screens oferece a funcionalidade de Controle remoto. Saiba mais sobre esse recurso aqui: [Controle remoto do Screens](implementing-remote-control.md)
+O AEM Screens oferece a funcionalidade de Controle remoto. Saiba mais sobre esse recurso aqui: [Controle remoto Screens](implementing-remote-control.md)
