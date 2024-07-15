@@ -27,9 +27,9 @@ Ao criar um canal de sequência e adicionar imagens a ele, por padrão, todas as
 
 Antes de começar a implementar essa funcionalidade, verifique se você configurou um projeto como pré-requisito para começar a implementá-la. Por exemplo,
 
-1. Criar um exemplo de projeto do AEM Screens, **ChannelLevelPlayback**.
+1. Crie um exemplo de projeto do AEM Screens, **ChannelLevelPlayback**.
 
-1. Criar um canal de sequência como **PlaybackChannel** no **Canais** pasta.
+1. Crie um canal de sequência como **PlaybackChannel** na pasta **Channels**.
 
 1. Adicionar conteúdo a **PlaybackChannel**.
 
@@ -41,7 +41,7 @@ A seção abaixo explica como editar a duração da reprodução do conteúdo em
 
 Siga as etapas abaixo para saber como atualizar a Atribuição de duração da reprodução da imagem no nível do canal:
 
-1. Navegar até o canal de sequência **PlaybackChannel**.
+1. Navegue até o canal de sequência **PlaybackChannel**.
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
@@ -57,14 +57,14 @@ Siga as etapas abaixo para saber como atualizar a Atribuição de duração da r
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. A variável **Página** é aberta.
+1. A caixa de diálogo **Página** é aberta.
 
    >[!NOTE]
    >Por padrão, as imagens em um canal são definidas com uma duração de reprodução de 8 segundos.
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Edite o **Duração** de 8000 (milissegundos) a 3000 (milissegundos), ou seja, 3 segundos. Clique na marca de seleção na parte superior direita do **Página** para salvar as alterações.
+   Edite a **Duração** de 8000 (milissegundos) para 3000 (milissegundos), ou seja, 3 segundos. Clique na marca de seleção na parte superior direita da caixa de diálogo **Página** para salvar suas alterações.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
@@ -72,4 +72,4 @@ Siga as etapas abaixo para saber como atualizar a Atribuição de duração da r
 
 Depois de atualizar a duração da reprodução do canal (neste exemplo, todas as três imagens), observe que as imagens agora são reproduzidas por 3 segundos em vez de 8 segundos (o valor padrão).
 
-![channel_preview](assets/channel_preview.gif)
+![visualização_do_canal](assets/channel_preview.gif)

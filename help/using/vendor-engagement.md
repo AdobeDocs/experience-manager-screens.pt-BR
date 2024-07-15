@@ -20,6 +20,6 @@ Nesta atividade, é importante identificar todos os principais fornecedores nece
 
 * Definir recursos e tarefas para cada fornecedor em relação à categoria de produto à qual ele oferece suporte.
 
-* Confirmar delivery *lead times* para todos os materiais de entrega. Crie um plano de implantação que acomode para todos os lead times que funcionam retroativamente a partir de uma ou mais datas de instalação desejadas das primeiras instalações necessárias.
+* Confirme a entrega *prazos de entrega* para todos os produtos. Crie um plano de implantação que acomode para todos os lead times que funcionam retroativamente a partir de uma ou mais datas de instalação desejadas das primeiras instalações necessárias.
 
-Ao concluir todas as etapas anteriores, você deve ter uma *Dia 1* plano de implantação pronto para execução.
+Ao concluir todas as etapas anteriores, você deve ter um plano de implantação *Dia 1* abrangente pronto para execução.

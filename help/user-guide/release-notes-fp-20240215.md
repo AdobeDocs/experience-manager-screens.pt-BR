@@ -21,7 +21,7 @@ ht-degree: 5%
 
 O AEM Screens lançou o AEM 6.5 Feature Pack 11.3.
 
-Baixe o Feature Pack mais recente do AEM Screens 6.5.11.3 versão no [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente denominado como **AEM 6.5 Screens FP11.3**.
+Você pode baixar o Feature Pack mais recente para a versão AEM Screens 6.5.11.3 do [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o Pacote de Recursos mais recente denominado **AEM 6.5 Screens FP11.3**.
 
 ## Data de lançamento {#release-date}
 
@@ -35,4 +35,4 @@ Esta versão inclui somente correções de segurança.
 
 * Remoção da verificação de alternância da correção fornecida anteriormente no FP11.1 para XSS em `libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.openLink.js`. (SCRNS-3459)
 
-* Problema XSS em `libs/screens/dcc/components/clientlibs/columnviewnavigatorshim.js`. (SCRNS-3973)
+* Problema de XSS em `libs/screens/dcc/components/clientlibs/columnviewnavigatorshim.js`. (SCRNS-3973)

@@ -35,21 +35,21 @@ A data de lançamento do Pacote de recursos do AEM Screens 201905 é 16 de maio 
 
 O Importador de projetos é um recurso disponível no AEM Screens que permite importar em massa um conjunto de locais de uma planilha CSV/XLS para o seu projeto do AEM Screens.
 
-Consulte **[Novo importador de projeto do arquivo](project-importer.md)** para obter mais detalhes.
+Consulte **[Novo Importador de Projeto do Arquivo](project-importer.md)** para obter mais detalhes.
 
-* **Transição do ContentSync para o SmartSync**
+* **Transição de ContentSync para SmartSync**
 
 O SmartSync minimiza a carga/o armazenamento de dados do servidor e o tráfego de rede para reduzir os custos.
 
-Consulte **[Transição do ContentSync para o SmartSync](smartsync.md)** para obter mais detalhes.
+Consulte **[Transição de ContentSync para SmartSync](smartsync.md)** para obter mais detalhes.
 
 * **Canal de emergência**
 
 Esse exemplo de caso de uso enfatiza a criação e o gerenciamento de um canal de emergência que o Autor de conteúdo pode trocar de um canal de sequência se houver uma pré-condição.
 
-Consulte **[Canal de emergência](emergency-channel.md)** caso de uso para obter mais detalhes.
+Consulte o caso de uso **[Canal de emergência](emergency-channel.md)** para obter mais detalhes.
 
-* **Incorporação de um aplicativo REACT usando o Editor SPA AEM e Integração com o AEM Screens Analytics**
+* **Incorporando um aplicativo REACT usando o Editor SPA AEM e Integrando com o AEM Screens Analytics**
 
 Esta seção descreve como incorporar um aplicativo interativo de página única usando o REACT (ou Angular) usando o editor SPA do AEM. Profissionais de negócios em AEM podem configurar o editor. Ele também descreve como integrar seu aplicativo interativo com o Adobe Analytics offline.
 

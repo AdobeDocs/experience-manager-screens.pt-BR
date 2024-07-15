@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Ambientes {#environments}
 
-Determine com antecedência quais ambientes AEM o cliente tem e espera que você use, tanto para *desenvolvimento* e *implantação*.
+Determine com antecedência quais ambientes AEM o cliente tem e espera que você use, para *desenvolvimento* e *implantação*.
 
 >[!NOTE]
 >
@@ -21,9 +21,9 @@ Siga as diretrizes abaixo para configurar o ambiente para seu projeto do AEM Scr
 
 1. Execute as versões mais recentes dos seguintes pacotes para a sua versão do Adobe Experience Manager:
 
-   * **Pacote de serviços do AEM**
+   * **Service Pack do AEM**
    * **Pacote de recursos do Screens**
-   * **AEM Cumulative Fix Pack**
+   * **Pacote de correções cumulative do AEM**
 
 1. Identifique todos os pacotes de desenvolvimento (por exemplo, componentes principais do WCM) ou kits de ferramentas de terceiros (por exemplo, SAP Hybris) necessários.
 

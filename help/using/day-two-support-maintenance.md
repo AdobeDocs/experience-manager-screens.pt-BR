@@ -17,9 +17,9 @@ Siga as diretrizes de suporte e manutenção para o Segundo dia da fase de desen
 
 1. Execute as versões mais recentes dos seguintes pacotes para a sua versão do Adobe Experience Manager:
 
-   * **Pacote de serviços do AEM**
+   * **Service Pack do AEM**
    * **Pacote de recursos do Screens**
-   * **AEM Cumulative Fix Pack**
+   * **Pacote de correções cumulative do AEM**
 
 1. Identifique todos os pacotes de desenvolvimento (por exemplo, componentes principais do WCM) ou kits de ferramentas de terceiros (por exemplo, SAP Hybris) necessários.
 

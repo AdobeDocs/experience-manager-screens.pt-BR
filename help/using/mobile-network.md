@@ -68,10 +68,10 @@ Como acompanhamento, o pacote de dados necessário deve ser pelo menos:
 
 
 >[!IMPORTANT]
->Para o upload inicial de arquivos de mídia ao integrar novos players, uma quantidade maior de dados e um tempo de download maior devem ser esperados; isso se reflete nas suposições acima. Uma rede 4G com *bom* cobertura e *ilimitado* Os dados devem corresponder às instalações mais comuns nesta Configuração de rede.
+>Para o upload inicial de arquivos de mídia ao integrar novos players, uma quantidade maior de dados e um tempo de download maior devem ser esperados; isso se reflete nas suposições acima. Uma rede 4G com *boa* cobertura e *ilimitada* dados deve corresponder às instalações mais comuns nesta Configuração de Rede.
 
 >[!NOTE]
->Um plano 3G mínimo com boa cobertura de rede deve levar a um desempenho de download aceitável para um AEM Screens Player. Se houver apenas uma cobertura razoável disponível em um local específico, considere alternar a Configuração de rede geral para [Rede Móvel com Roteador de Dados Móvel e Componentes de Rede Ativos](/help/using/mobile-network-router.md).
+>Um plano 3G mínimo com boa cobertura de rede deve levar a um desempenho de download aceitável para um AEM Screens Player. Se houver apenas cobertura adequada disponível em um local específico, considere alternar a Configuração de Rede geral para [Rede Móvel com Roteador de Dados Móveis e Componentes de Rede Ativos](/help/using/mobile-network-router.md).
 
 
 ### Rede local {#lan-connection}
@@ -80,7 +80,7 @@ As preocupações com o desempenho da LAN (Local Area Network), além da acessib
 
 Ao usar outros componentes de rede ativos, é obrigatório que todos eles correspondam aos requisitos de largura de banda da rede. Por exemplo, os componentes de rede devem corresponder pelo menos ao padrão de 100 Mbps e corresponder à largura de banda fornecida pelo acesso à Internet ou pela especificação do roteador. Caso contrário, a largura de banda total será limitada pelo link mais fraco na cadeia de rede.
 
-## Download de mídia e ativos {#download}
+## Download de mídia e Assets {#download}
 
 O AEM Screens oferece uma vantagem significativa aos usuários de sinalização digital. Ele baixa e salva localmente todos os arquivos de mídia necessários, como imagens e vídeos. A maior parte do tráfego de rede ocorre quando há conteúdo novo a ser exibido em uma exibição específica.
 

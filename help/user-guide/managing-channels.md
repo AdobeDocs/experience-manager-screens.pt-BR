@@ -27,23 +27,23 @@ Esta página mostra como criar e gerenciar canais para o AEM Screens.
 
 Depois de criar seu projeto para o AEM Screens, siga as etapas abaixo para criar um Canal para seu projeto:
 
-1. Clique no link Adobe Experience Manager (parte superior esquerda) e, em seguida, em Screens. Como alternativa, você pode navegar diretamente para `https://localhost:4502/screens.html/content/screens`.
+1. Clique no link Adobe Experience Manager (canto superior esquerdo) e, em seguida, em Screens. Como alternativa, você pode navegar diretamente para `https://localhost:4502/screens.html/content/screens`.
 
-1. Navegue até o projeto do Screens e clique no **Canais** pasta.
+1. Navegue até o projeto do Screens e clique na pasta **Canais**.
 
 1. Clique em **Criar** na barra de ações.
 
-   ![demchannel](assets/create-channel1.png)
+   ![demochannel](assets/create-channel1.png)
 
-1. Clique em **Canal de sequência** modelo do **Criar** e clique em **Próxima**.
+1. Clique no modelo **Canal de Sequência** do assistente **Criar** e clique em **Avançar**.
 
-   ![demchannel](assets/create-channel2.png)
+   ![demochannel](assets/create-channel2.png)
 
 1. Insira o Título como **ScreensChannel** e clique em **Criar**.
 
-   ![demchannel](assets/create-project4.png)
+   ![demochannel](assets/create-project4.png)
 
-1. Um canal de sequência agora é adicionado ao **Canais** pasta.
+1. Um canal de Sequência foi adicionado à sua pasta **Canais**.
 
 ### Tipos de canal {#channel-types}
 
@@ -81,28 +81,28 @@ As seguintes opções de modelo estão disponíveis ao usar o assistente, como:
 Para adicionar ou editar conteúdo em um canal, siga as etapas abaixo:
 
 1. Clique no canal que deseja editar (como mostrado na figura acima).
-1. Clique em **Editar** no canto superior esquerdo da barra de ação para que você possa editar as propriedades do canal. O editor é aberto e permite adicionar ativos/componentes ao canal que você deseja publicar.
+1. Clique em **Editar** no canto superior esquerdo da barra de ações para poder editar as propriedades do canal. O editor é aberto e permite adicionar ativos/componentes ao canal que você deseja publicar.
 
 >[!NOTE]
->Você pode adicionar componentes ao seu canal. Consulte **[Adicionar componentes a um canal](adding-components-to-a-channel.md)** para obter mais detalhes.
+>Você pode adicionar componentes ao seu canal. Consulte **[Adicionando componentes a um canal](adding-components-to-a-channel.md)** para obter mais detalhes.
 
 ![demochannel1](assets/demochannel1.gif)
 
-**Carregamento de vídeos para o canal**
+**Carregando Vídeos para o Canal**
 
 Siga as etapas abaixo para fazer upload de vídeos para seu canal:
 
 1. Clique no canal no qual deseja fazer upload do vídeo.
 1. Clique em **Editar** na barra de ações.
-1. No editor, clique em **Vídeos** em Ativos e arraste e solte os vídeos necessários.
+1. No editor, clique em **Vídeos** em Assets e arraste e solte os vídeos necessários.
 
 >[!NOTE]
->Se tiver problemas ao carregar vídeos no seu canal, consulte [Vídeos de solução de problemas](troubleshoot-videos.md).
+>Se você tiver problemas ao carregar vídeos no seu canal, consulte [Vídeos de solução de problemas](troubleshoot-videos.md).
 
 ### Visualização ou edição das propriedades de um canal {#viewing-properties}
 
 1. Clique no Canal que deseja editar.
-1. Clique em **Propriedades** na barra de ações, para exibir/editar as propriedades do canal. A guia a seguir permite alterar as opções.
+1. Clique em **Propriedades** na barra de ações para exibir/editar as propriedades do canal. A guia a seguir permite alterar as opções.
 
 ![propriedades](assets/properties.gif)
 
@@ -117,7 +117,7 @@ Siga as etapas abaixo para fazer upload de vídeos para seu canal:
 
 O painel Informações do canal descreve as propriedades do canal, juntamente com a pré-visualização do canal. Além disso, fornece informações sobre se o canal está offline ou online.
 
-Clique no botão **..**) do **INFORMAÇÕES DO CANAL** barra de ações para exibir propriedades, editar o conteúdo ou atualizar o cache (conteúdo offline) do canal.
+Clique em (**...**) na barra de ação **INFORMAÇÕES DO CANAL** para exibir propriedades, editar o conteúdo ou atualizar o cache (conteúdo offline) do canal.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -130,18 +130,18 @@ Clique no botão **..**) do **INFORMAÇÕES DO CANAL** barra de ações para exi
 
 Siga estas etapas para habilitar essa opção no painel de canal:
 
-1. **Definir o canal como offline**
+1. **Definir o Canal como Offline**
    1. Clique no canal e em **Propriedades** na barra de ações
-   1. Navegue até a **Canal** e certifique-se de desmarcar **Modo de desenvolvedor (forçar canal a ficar online)** opção
+   1. Navegue até a guia **Canal** e desmarque a opção **Modo de Desenvolvedor (forçar canal a ficar online)**
    1. Clique em **Salvar e fechar**
-1. **Atualizar conteúdo offline**
+1. **Atualizar Conteúdo Offline**
    1. Clique no canal e em **Painel** na barra de ações
-   1. Navegue até a **INFORMAÇÕES DO CANAL** e clique em *..*
-   1. Clique em **Atualizar conteúdo offline**
+   1. Navegue até o painel **INFORMAÇÕES DO CANAL** e clique em *...*
+   1. Clique em **Atualizar Conteúdo Offline**
 
-Você deve ver o **Exibir manifesto** opção no **INFORMAÇÕES DO CANAL** no painel Canal.
+Você deve ver a opção **Exibir manifesto** do painel **INFORMAÇÕES DO CANAL** no painel Canal.
 
-![image1](assets/channel-one.png)
+![imagem1](assets/channel-one.png)
 
 
 ### Canais online e offline {#online-and-offline-channels}
@@ -151,38 +151,38 @@ Você deve ver o **Exibir manifesto** opção no **INFORMAÇÕES DO CANAL** no p
 
 Ao criar um canal, ele pode ser definido como online ou offline.
 
-Um ***Canal online*** mostra o conteúdo atualizado no ambiente em tempo real, enquanto uma ***Canal offline*** mostra o conteúdo em cache.
+Um ***Canal Online*** mostra o conteúdo atualizado no ambiente em tempo real, enquanto um ***Canal Offline*** mostra o conteúdo em cache.
 
 Siga as etapas abaixo para tornar o canal online:
 
-1. Navegue até o canal como **TestProject** > **Canais** > **TestChannel**.
+1. Navegue até o canal como **TestProject** > **Channels** > **TestChannel**.
 
    Clique no canal.
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Clique em **Painel** na barra de ações, para que seja possível visualizar o status do reprodutor. A variável **INFORMAÇÕES DO CANAL** O painel fornece informações sobre se o canal está online ou offline.
+   Clique em **Painel** na barra de ações para que você possa exibir o status do reprodutor. O painel **INFORMAÇÕES DO CANAL** fornece informações sobre se o canal está online ou offline.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
-1. Clique em **Propriedades** na barra de ações e navegue até a guia **Canal** conforme mostrado abaixo:
+1. Clique em **Propriedades** na barra de ações e navegue até a guia **Canal**, conforme mostrado abaixo:
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. Verifique a **Desenvolvedor** **(forçar o canal a ficar online)** para tornar o canal online.
+1. Verifique o **modo** do **do {Developer (forçar o canal a ficar online)** para tornar o canal online.
 
    Clique em **Salvar e fechar** para salvar sua opção.
 
    ![screen_shot_2019-08-01at31658pm](assets/screen_shot_2019-08-01at31658pm.png)
 
-   Volte para o painel do canal e agora o **INFORMAÇÕES DO CANAL** mostra o status online do reprodutor.
+   Volte para o painel do canal e agora o painel **INFORMAÇÕES DO CANAL** mostra o status online do reprodutor.
 
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->Para configurar seu canal novamente como offline, desmarque a opção Developer mode na **Propriedades** (conforme mostrado na etapa 3). Em seguida, do **INFORMAÇÕES DO CANAL** clique no painel **Atualizar conteúdo offline**, conforme mostrado na figura abaixo.
+>Para configurar seu canal novamente como offline, desmarque a opção Modo de desenvolvedor na guia **Propriedades** (conforme mostrado na etapa (3)). Em seguida, no painel **INFORMAÇÕES DO CANAL**, clique em **Atualizar Conteúdo Offline**, conforme mostrado na figura abaixo.
 
-![dashboard2](assets/dashboard2.gif)
+![painel2](assets/dashboard2.gif)
 
 #### Atualizações automáticas e manuais no painel de dispositivos {#automatic-versus-manual-updates-from-the-device-dashboard}
 
@@ -198,7 +198,7 @@ A tabela a seguir resume os eventos associados às atualizações automáticas e
   <tr>
    <td>Alteração no canal online</td>
    <td>O conteúdo é atualizado automaticamente</td>
-   <td><p>Conteúdo atualizado em "Dispositivo: configuração por push"</p> <p>Ou,</p> <p>Conteúdo atualizado em <strong><i>Device: Restart</i></strong></p> </td>
+   <td><p>Conteúdo atualizado em "Dispositivo: configuração por push"</p> <p>Ou,</p> <p>Conteúdo atualizado em <strong><i>Dispositivo: Reiniciar</i></strong></p> </td>
   </tr>
   <tr>
    <td>Alteração no canal offline, mas o canal "Conteúdo push" NÃO é acionado (nenhuma recriação de pacote offline)</td>
@@ -208,7 +208,7 @@ A tabela a seguir resume os eventos associados às atualizações automáticas e
   <tr>
    <td>A alteração no canal offline e no canal "Conteúdo push" é acionada (novo pacote offline)</td>
    <td>O conteúdo é atualizado automaticamente</td>
-   <td><p>Conteúdo atualizado em <strong><i>Device: configuração de push</i></strong></p> <p>Ou,</p> <p>Conteúdo atualizado em <strong><i>Device: Restart</i></strong></p> </td>
+   <td><p>Conteúdo atualizado em <strong><i>Dispositivo: Configuração de push</i></strong></p> <p>Ou,</p> <p>Conteúdo atualizado em <strong><i>Dispositivo: Reiniciar</i></strong></p> </td>
   </tr>
   <tr>
    <td><p>Alteração na configuração</p>
@@ -219,16 +219,16 @@ A tabela a seguir resume os eventos associados às atualizações automáticas e
      <li>Atribuição de canal (função, evento, agendamento)</li>
     </ul> </td>
    <td>A configuração é atualizada automaticamente</td>
-   <td><p>A configuração é atualizada em <strong><i>Device: configuração de push</i></strong></p> <p>Ou,</p> <p>Configuração atualizada em <strong><i>Device: Restart</i></strong></p> </td>
+   <td><p>A configuração foi atualizada em <strong><i>Dispositivo: Configuração por Push</i></strong></p> <p>Ou,</p> <p>Configuração atualizada em <strong><i>Dispositivo: Reiniciar</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
 
 ### Exibições atribuídas {#assigned-displays}
 
-A variável **Exibições atribuídas** mostra a exibição associada ao canal. Ele fornece um instantâneo da exibição atribuída junto com a resolução.
+O painel **Exibições atribuídas** mostra a exibição associada ao canal. Ele fornece um instantâneo da exibição atribuída junto com a resolução.
 
-As exibições associadas estão listadas no **Exibições atribuídas** como mostrado abaixo:
+As exibições associadas são listadas no painel **Exibições atribuídas**, conforme mostrado abaixo:
 
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
@@ -236,10 +236,10 @@ As exibições associadas estão listadas no **Exibições atribuídas** como mo
 >Para saber mais sobre como criar uma exibição em um local, consulte:
 >
 >* [Criar e Gerenciar Locais](managing-locations.md)
->* [Criar e gerenciar exibições](managing-displays.md)
+>* [Criar e Gerenciar Exibições](managing-displays.md)
 >
 
-Além disso, clique na exibição no **EXIBIÇÕES ATRIBUÍDAS** para exibir as informações de exibição, conforme mostrado abaixo:
+Além disso, clique na exibição no painel **EXIBIÇÕES ATRIBUÍDAS** para exibir as informações de exibição, conforme mostrado abaixo:
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 

@@ -19,7 +19,7 @@ A página a seguir mostra um caso de uso que enfatiza a configuração de um pro
 
 ## Descrição do caso de uso {#use-case-description}
 
-Esse caso de uso explica como criar um canal que *assume o controle* do canal de reprodução normal para uma exibição ou grupo de exibições. A aquisição só ocorre uma vez e por um período específico.
+Este caso de uso explica como criar um canal que *assume* do canal de reprodução normal para uma exibição ou grupo de exibições. A aquisição só ocorre uma vez e por um período específico.
 
 Por exemplo, há um único canal de TakeOver que é reproduzido de sexta-feira, das 9h às 10h. Durante esse tempo, nenhum outro canal deve ser reproduzido. Antes e depois desse tempo, o canal de aquisição de uso único não é reproduzido. O exemplo a seguir mostra a criação de um único canal de aquisição que permite que o conteúdo seja reproduzido por 2 minutos antes das 12h em 31 de dezembro até às 12h.
 
@@ -27,9 +27,9 @@ Por exemplo, há um único canal de TakeOver que é reproduzido de sexta-feira, 
 
 Antes de iniciar este caso de uso, verifique se você sabe como:
 
-* **[Criar e gerenciar canais](managing-channels.md)**
+* **[Criar e Gerenciar Canais](managing-channels.md)**
 * **[Criar e Gerenciar Locais](managing-locations.md)**
-* **[Criar e gerenciar cronogramas](managing-schedules.md)**
+* **[Criar e Gerenciar Agendamentos](managing-schedules.md)**
 * **[Registro do dispositivo](device-registration.md)**
 
 ### Atores principais {#primary-actors}
@@ -40,64 +40,65 @@ Autores de conteúdo
 
 Siga as etapas abaixo para configurar um projeto:
 
-**Configuração de canais e exibição**
+**Configurando os Canais e a Exibição**
 
-1. Crie um projeto do AEM Screens intitulado como **ControleDeUsoÚnico**, conforme mostrado abaixo.
+1. Crie um projeto do AEM Screens intitulado como **SingleUseTakeOver**, conforme mostrado abaixo.
 
    ![ativo](assets/single-takeover1.png)
 
-1. Criar um **MainAdChannel** no **Canais** pasta.
+1. Crie um **MainAdChannel** na pasta **Channels**.
 
    ![ativo](assets/single-takeover2.png)
 
-1. Clique em **MainAdChannel** e clique em **Editar** na barra de ações. Arraste e solte alguns ativos (imagens, vídeos, sequências incorporadas) no seu canal.
+1. Clique em **MainAdChannel** e em **Editar** na barra de ações. Arraste e solte alguns ativos (imagens, vídeos, sequências incorporadas) no seu canal.
 
    ![ativo](assets/single-takeover2.png)
 
 
    >[!NOTE]
-   >A variável **MainAdChannel** neste exemplo, demonstra um canal de sequência que reproduz conteúdo continuamente.
+   >O **MainAdChannel** deste exemplo demonstra um canal de sequência que reproduz o conteúdo continuamente.
 
    ![ativo](assets/single-takeover3.png)
 
-1. Criar um **AssumirControle** canal que assume o conteúdo no **MainAdChannel** e é executada somente para um dia e hora específicos.
+1. Crie um canal **TakeOver** que controle o conteúdo no **MainAdChannel** e seja reproduzido apenas para um dia e hora específicos.
 
-1. Clique em **AssumirControle** e clique em **Editar** na barra de ações. Arraste e solte alguns ativos no seu canal. O exemplo a seguir mostra uma única imagem de zona adicionada a esse canal.
+1. Clique em **Assumir controle** e em **Editar** na barra de ações. Arraste e solte alguns ativos no seu canal. O exemplo a seguir mostra uma única imagem de zona adicionada a esse canal.
 
    ![ativo](assets/single-takeover4.png)
 
-1. Configure um local e uma exibição para seus canais. Por exemplo, o seguinte **Lobby** localização e **MainLobbyDisplay** são configuradas para este projeto.
+1. Configure um local e uma exibição para seus canais. Por exemplo, o seguinte local **Lobby** e exibição **MainLobbyDisplay** estão configurados para este projeto.
 
    ![ativo](assets/single-takeover5.png)
 
-**Atribuição de Canais a uma Exibição**
+**Atribuindo Canais a uma Exibição**
 
-1. Clique na exibição **MainLobbyDisplay** do **Localizações** pasta. Clique em **Atribuir canal** na barra de ações.
+1. Clique na exibição **MainLobbyDisplay** da pasta **Locations**. Clique em **Atribuir canal** na barra de ações.
 
    ![ativo](assets/single-takeover6.png)
 
    >[!NOTE]
    >Para saber como atribuir um canal a uma exibição, consulte **[Atribuição de canal](channel-assignment.md)**.
 
-1. Preencha os campos (**Caminho do canal**, **Prioridade**, e **Eventos suportados**) do **Atribuição de canal** e clique em **Salvar**. Agora você atribuiu o **MainAdChannel** para sua exibição.
+1. Preencha os campos (**Caminho do Canal**, **Prioridade** e **Eventos com Suporte**) da caixa de diálogo **Atribuição de Canal** e clique em **Salvar**. Você atribuiu o **MainAdChannel** à sua exibição.
 
    ![ativo](assets/single-takeover7.png)
 
-1. Clique na exibição **AssumirControle** do **Localizações** pasta. Clique em **Atribuir canal** na barra de ações, para que você possa atribuir o canal de aquisição de uso único.
+1. Clique na exibição **TakeOver** da pasta **Locations**. Clique em **Atribuir canal** na barra de ações para que você possa atribuir o canal de tomada de uso único.
 
-1. Atribua a **AssumirControle** para exibir em um horário agendado e preencha os seguintes campos no **Atribuição de canal** e clique em **Salvar**:
+1. Atribua o canal **TakeOver** a sua exibição em um horário agendado e preencha os seguintes campos a partir da caixa de diálogo **Atribuição de canal** e clique em **Salvar**:
 
-   * **Caminho do canal**: Clique no caminho para o canal TakeOver.
-   * **Prioridade**: Defina a prioridade deste canal como maior que a **MainAdChannel**. Por exemplo, a prioridade definida neste exemplo é 8.
+   * **Caminho do canal**: clique no caminho para o canal TakeOver
+   * **Prioridade**: defina a prioridade deste canal como maior que **MainAdChannel**. Por exemplo, a prioridade definida neste exemplo é 8.
 
      >[!NOTE]
      >A prioridade pode ser qualquer valor maior que o valor de prioridade do canal de reprodução normal.
-   * **Eventos suportados**: Clique no botão **Tela inativa** e **Temporizador**.
-   * **Agendar**: Insira o texto do agendamento que deseja que este canal execute na exibição. Por exemplo, o texto aqui permite que o conteúdo seja reproduzido 2 minutos antes das 12h de 31 de dezembro até às 12h. O texto no campo **Agendar** mencionado neste exemplo é *no dia 31 de dezembro depois de 23:58 e também no dia 1 de janeiro antes 00.01*.
+   * **Eventos com Suporte**: Clique em **Tela Inativa** e **Timer**.
+   * **Agendar**: digite o texto do agendamento que você deseja que este canal execute na exibição. Por exemplo, o texto aqui permite que o conteúdo seja reproduzido 2 minutos antes das 12h de 31 de dezembro até às 12h.
+O texto na **Agenda** mencionada neste exemplo é *no dia 31 de dezembro após 23:58 e também no dia 1 de janeiro antes de 00.01*.
 
      ![ativo](assets/single-takeover8.png)
 
-     Navegar para a exibição a partir de **ControleDeUsoÚnico** > **Localizações** > **Lobby** > **MainLobbyDisplay**. Clique em **Painel** na barra de ações para que você possa visualizar os canais atribuídos com suas prioridades, conforme mostrado abaixo.
+     Navegue até a exibição de **SingleUseTakeOver** > **Locations** > **Lobby** > **MainLobbyDisplay**. Clique em **Painel** na barra de ações para que você possa visualizar os canais atribuídos com suas prioridades, conforme mostrado abaixo.
 
      >[!NOTE]
      >É obrigatório definir a prioridade do canal de aquisição como a mais alta.

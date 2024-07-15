@@ -48,9 +48,9 @@ As seguintes considerações de software são recomendadas:
 
 ## 3. Considerações sobre o gerenciamento de dispositivos {#device-management-considerations}
 
-O AEM Screens inclui um módulo do Centro de controle de dispositivos que permite o gerenciamento de pontos de extremidade do aplicativo do reprodutor do Screens.
+O AEM Screens inclui um módulo do Centro de controle de dispositivos que permite o gerenciamento de endpoints de aplicativos do Screens Player.
 
-Refere-se a qualquer *reprodutor* dispositivo de hardware que tem o aplicativo reprodutor do Screens instalado e está registrado em uma instância de AEM.
+Refere-se a qualquer dispositivo de hardware *player* que tenha o aplicativo Screens player instalado e esteja registrado para uma instância do AEM.
 Esse módulo permite:
 
 1. Monitorar logs de erros de aplicativos de reprodução
@@ -58,7 +58,7 @@ Esse módulo permite:
 1. Gerenciar downloads de conteúdo
 1. Gerenciar problemas de reinicialização do aplicativo
 
-Para saber mais detalhes sobre o ***Centro de controle de dispositivos***, consulte [Solução de problemas do Centro de controle de dispositivos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **Guia do usuário do AEM Screens**.
+Para saber mais detalhes sobre o ***Centro de Controle de Dispositivo***, consulte o [Centro de Controle de Dispositivo](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) no **Guia do Usuário do AEM Screens**.
 
 >[!CAUTION]
 >
@@ -74,7 +74,7 @@ Para saber mais detalhes sobre o ***Centro de controle de dispositivos***, consu
 >
 > A Adobe recomenda que plataformas dedicadas de gerenciamento de dispositivos de terceiros sejam usadas para todas as implantações.
 
-A plataforma específica escolhida depende de vários fatores, incluindo o ***sistema operacional de destino***, ***requisitos do projeto***, e ***número de pontos finais***.
+A plataforma específica escolhida depende de vários fatores, incluindo o ***sistema operacional de destino***, os ***requisitos do projeto*** e o ***número de pontos de extremidade***.
 
 Veja a seguir alguns exemplos:
 

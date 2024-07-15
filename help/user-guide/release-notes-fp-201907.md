@@ -36,34 +36,34 @@ A data de lançamento do Pacote de recursos 2019 do AEM Screens é 31 de julho d
 O reprodutor muda para um canal que mostra informações de emergência. O sistema de emergência envia essas informações quando recebe um evento. O canal é reproduzido exclusivamente até que a situação de emergência acabe.
 
 
-Consulte [Canal de emergência](emergency-channel.md) caso de uso para implementação.
+Consulte o caso de uso [Canal de emergência](emergency-channel.md) para implementação.
 
 * **Direcionamento ativado para componentes assíncronos
 
 O direcionamento agora pode ser ativado para ativos usados no projeto do AEM Screens.
 
-Para saber mais sobre como habilitar o direcionamento para ativos no projeto do AEM Screens, consulte [Configuração do ContextHub no AEM Screens](configuring-context-hub.md).
+Para saber mais sobre como habilitar o direcionamento de ativos no projeto do AEM Screens, consulte [Configuração do ContextHub no AEM Screens](configuring-context-hub.md).
 
 Depois de configurar o ContextHub para seu projeto do AEM Screens, siga diferentes casos de uso para entender como os ativos acionados por dados desempenham um papel vital em diferentes setores:
 
-**[Ativação Direcionada de Estoque de Varejo](retail-inventory-activation.md)**
+**[Ativação Direcionada para Estoque de Varejo](retail-inventory-activation.md)**
 
 **[Ativação da temperatura do centro de viagens](local-temperature-activation.md)**
 
 **[Ativação de Reserva de Hospitalidade](hospitality-reservation-activation.md)**
 
-* **Melhorias nos Manipuladores de atualização**
+* **Melhorias nos Manipuladores de Atualização**
 
 O manipulador de atualização agora analisa os fragmentos de experiência e coleta qualquer imagem, vídeo ou produto associado a ele.
 
 * **Lançamentos**
 
 Os lançamentos permitem que os autores de conteúdo criem versões futuras dos canais. Com a ajuda de Lançamentos, os autores podem visualizar cada canal no lançamento e devem poder iniciar uma solicitação de revisão. O grupo de aprovadores recebe uma notificação e pode aprovar ou rejeitar a solicitação. Quando a data de ativação é atingida, o conteúdo é reproduzido nos dispositivos.
-Consulte [Lançamentos](launches.md) para obter mais detalhes.
+Consulte [Inicializações](launches.md) para obter mais detalhes.
 
 * **Configurações offline em Fragmentos de experiência**
 
-Agora é possível adicionar configurações offline (bibliotecas do lado do cliente e arquivos estáticos) ao configurar o Fragmento de experiência do Screens. Consulte [Uso de fragmentos de experiência](experience-fragments-in-screens.md) para obter mais detalhes.
+Agora é possível adicionar configurações offline (bibliotecas do lado do cliente e arquivos estáticos) ao configurar o Screens Experience Fragment. Consulte [Uso de fragmentos de experiência](experience-fragments-in-screens.md) para obter mais detalhes.
 
 ### Players do AEM Screens lançados
 

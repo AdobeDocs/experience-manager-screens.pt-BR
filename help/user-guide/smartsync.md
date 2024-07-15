@@ -28,7 +28,7 @@ Ele é executado no lado do servidor e no lado do cliente.
 
 **No lado do servidor**
 
-* O conteúdo dos canais, incluindo ativos, é armazenado em cache em *`/var/contentsync`*.
+* Os conteúdos dos canais, incluindo ativos, são armazenados em cache em *`/var/contentsync`*.
 * O cache é exposto aos players por meio de um manifesto que descreve o conteúdo disponível para uma exibição.
 
 **No lado do cliente**
@@ -53,21 +53,21 @@ O recurso SmartSync fornece vários benefícios para o seu projeto AEM Screens, 
 >
 >Se você já instalou o Pacote de recursos 5 do AEM 6.3 e o Pacote de recursos 3 do AEM 6.4, é possível habilitar o SmartSync para ativos a fim de melhorar o uso do espaço em disco. Para habilitar o SmartSync, siga a seção abaixo para fazer a transição de ContentSync para SmartSync, habilitando o SmartSync.
 >
->O SmartSync está disponível para o Screens Player com servidores compatíveis AEM 6.4.3 FP3.
+>O SmartSync está disponível para o Screens Player com servidores compatíveis com AEM 6.4.3 FP3.
 >
->Consulte a [Downloads do AEM Screens Player](https://download.macromedia.com/screens/) para baixar o player mais recente. A tabela a seguir descreve a versão mínima do player necessária para cada plataforma:
+>Consulte os [Downloads do AEM Screens Player](https://download.macromedia.com/screens/) para baixar o player mais recente. A tabela a seguir descreve a versão mínima do player necessária para cada plataforma:
 
-| **Platform** | **Versão mínima suportada do reprodutor** |
+| **Plataforma** | **Versão Mínima com Suporte do Player** |
 |---|---|
 | Android™ | 3.3.72 |
-| SO Chrome | 1.0.136 |
+| SO CHROME | 1.0.136 |
 | Windows | 1.0.136 |
 
 Siga as etapas abaixo para fazer a transição de ContentSync para SmartSync:
 
 1. A migração de ContentSync para SmartSync requer a limpeza do cache ContentSync antes da ativação do SmartSync.
 
-   Navegue até o console ContentSync a partir da sua instância usando o link ***https://localhost:4502/libs/cq/contentsync/content/console.html*** e clique em **Limpar cache**, conforme mostrado na figura abaixo:
+   Navegue até o console ContentSync de sua instância usando o link ***https://localhost:4502/libs/cq/contentsync/content/console.html*** e clique em **Limpar Cache**, como mostrado na figura abaixo:
 
    ![clear_contesync_cache](assets/clear_contesync_cache.png)
 
@@ -75,17 +75,17 @@ Siga as etapas abaixo para fazer a transição de ContentSync para SmartSync:
    >
    >Todo o cache de conteúdo deve ser limpo antes da primeira utilização do SmartSync.
 
-1. Navegue até **Configuração do console da Web do Adobe Experience Manager** por meio da instância AEM > ícone de martelo > **Operações** > **Console da Web**.
+1. Navegue até **Configuração do Console Web do Adobe Experience Manager** por meio da instância AEM > ícone de martelo > **Operações** > **Console Web**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **Configuração do console da Web do Adobe Experience Manager** é aberto. Pesquisar por *offlinecontentservice*.
+1. **A Configuração do Console da Web do Adobe Experience Manager** é aberta. Pesquise por *offlinecontentservice*.
 
-   Para pesquisar o **Serviço de conteúdo offline do Screens** propriedade, pressione **Command+F** para **Mac**, e **Ctrl+F** para **Windows**.
+   Para pesquisar a propriedade **Serviço de Conteúdo Offline do Screens**, pressione **Command+F** para o **Mac** e **Control+F** para o **Windows**.
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. Clique em **Salvar** para habilitar o **Serviços de conteúdo offline do Screens** propriedade e, portanto, usar SmartSync para AEM Screens.
-1. Quando tiver ativado o SmartSync, navegue até o projeto e clique em **Atualizar conteúdo offline** *(na barra de ações),* conforme mostrado na figura abaixo.
+1. Clique em **Salvar** para habilitar a propriedade **Screens Offline Content Services** e, portanto, usar SmartSync para AEM Screens.
+1. Quando você tiver ativado o SmartSync, navegue até o seu projeto e clique em **Atualizar Conteúdo Offline** *(na barra de ações),* conforme mostrado na figura abaixo.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

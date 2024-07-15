@@ -75,10 +75,10 @@ Considerar todos esses estágios como parte do plano geral do projeto ajuda a ge
 
 >[!VIDEO](https://video.tv.adobe.com/v/28405)
 
-*Saiba mais sobre os principais termos envolvidos em um plano de projeto geral, como ciclo de projeto, ações relacionadas a testes de hardware, Prova de conceito, pilotos e implantações.*
+*Saiba mais sobre os termos principais envolvidos em um plano de projeto geral, como ciclo de projeto, ações relacionadas a testes de hardware, Prova de Conceito, pilotos e implantações.*
 
 ## A próxima etapa {#the-next-step}
 
 Quando terminar os testes, as Provas de conceito, os programas piloto e as implantações, siga o próximo tutorial que aborda detalhadamente o Gerenciamento de projetos e os processos envolvidos.
 
-Navegue até **[Parte 4: Gerenciamento e implantação de projetos](project-management-and-deployment.md)** para obter mais detalhes.
+Navegue até **[Parte 4: Gerenciamento e Implantação de Projetos](project-management-and-deployment.md)** para obter mais detalhes.

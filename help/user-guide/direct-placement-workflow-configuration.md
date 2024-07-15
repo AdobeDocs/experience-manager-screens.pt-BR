@@ -22,7 +22,7 @@ Esta seção abrange os seguintes tópicos:
 
 A Configuração do fluxo de trabalho de posicionamento direto mapeia um canal de projeto do AEM Screens para uma pasta específica em ativos e permite o posicionamento de qualquer ativo nessa pasta. A Adobe recomenda acionar uma atualização offline em massa para concluir a publicação.
 
-Como alternativa, como um Autor de conteúdo, você pode clicar manualmente em **Atualizar conteúdo offline**.
+Como alternativa, como um Autor de Conteúdo, você pode clicar manualmente em **Atualizar Conteúdo Offline**.
 
 >[!NOTE]
 >
@@ -32,11 +32,11 @@ Como alternativa, como um Autor de conteúdo, você pode clicar manualmente em *
 
 >[!IMPORTANT]
 >
->Antes de iniciar a configuração, instale o `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. Depois de instalar o pacote, você poderá visualizá-lo e acessá-lo a partir da instância do AEM > Ferramentas (ícone) > **Fluxo de trabalho** > **Modelos de fluxo de trabalho**.
+>Antes de iniciar a configuração, instale o `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. Depois de instalar o pacote, você poderá exibi-lo e acessá-lo a partir da instância do AEM > Ferramentas (ícone) > **Fluxo de trabalho** > **Modelos de fluxo de trabalho**.
 
 Siga as etapas abaixo para configurar o fluxo de trabalho de posicionamento direto:
 
 1. Navegue até o AEM Screens a partir da sua instância AEM e crie um projeto do Screens intitulado como **Fluxo de trabalho do ativo**.
 
-1. Crie um canal chamado como **Fluxo de trabalho - Ativos** no **Canais** pasta.
+1. Crie um canal intitulado como **Workflow-Assets** na pasta **Channels**.
 

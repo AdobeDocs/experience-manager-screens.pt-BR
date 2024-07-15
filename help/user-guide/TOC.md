@@ -33,13 +33,13 @@ ht-degree: 11%
    + [Configurar o servidor do Screens](configuring-screens-introduction.md)
    + [Definição das configurações do Dispatcher](dispatcher-configurations-aem-screens.md)
    + [Instalar o reprodutor do Screens](installing-screens-player.md)
-   + [Conectar o reprodutor do Screens](working-with-screens-player.md)
+   + [Conectar o Screens Player](working-with-screens-player.md)
    + [Registro do dispositivo](device-registration.md)
    + [Configurando ACLs](setting-up-acls.md)
    + [Lista de verificação de segurança do AEM Screens](security-checklist.md)
    + [Transição do ContentSync para o SmartSync](smartsync.md)
    + [Novo importador de projeto do arquivo](project-importer.md)
-   + [Replicação dos acionadores de dados para os servidores de publicação](replicating-data-triggers.md)
+   + [Replicação de acionadores de dados para servidores do Publish](replicating-data-triggers.md)
    + [Configuração de agentes de replicação no Screens](configure-screens-replication.md)
    + Considerações específicas do cliente {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
@@ -50,21 +50,21 @@ ht-degree: 11%
       + [Cloud Player](implementing-cloud-player.md)
       + [Registro automático de players](auto-registration-players.md)
       + [Usar o controle remoto](implementing-remote-control.md)
-   + Publicação do autor {#author-publish}
-      + [Autor - Publicar visão geral da arquitetura](author-publish-architecture-overview.md)
-      + [Configuração do Author e Publish](author-and-publish.md)
+   + Publish do autor {#author-publish}
+      + [Autor - Visão geral da arquitetura do Publish](author-publish-architecture-overview.md)
+      + [Configuração do Author e do Publish](author-and-publish.md)
    + Integração do Analytics com o AEM Screens {#analytics-integration}
       + [Integração do Adobe Analytics](adobe-analytics-integration-aem-screens.md)
       + [Configuração do Adobe Analytics com AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Exemplos de autoria e caso de uso {#authoring}
-   + Configuração de um projeto do Screens {#setting-up-projects}
++ Criação e exemplos de uso Exemplos {#authoring}
+   + Configurando um projeto do Screens {#setting-up-projects}
       + [Criação e gerenciamento de projetos](creating-a-screens-project.md)
       + [Criação e gerenciamento de canais](managing-channels.md)
       + [Criando e Gerenciando Exibições](managing-displays.md)
       + [Criação e Gerenciamento de Locais](managing-locations.md)
       + [Criação e Gerenciamento de Agendamentos](managing-schedules.md)
       + [Gerenciando dispositivos](managing-devices.md)
-      + Atribuição de canais {#assigning-channels}
+      + Atribuindo Canais {#assigning-channels}
          + [Atribuição de canal](channel-assignment-latest-fp.md)
          + [Atribuição de canal: pacotes de recursos AEM Screens mais antigos](channel-assignment.md)
    + Uso dos recursos principais do produto {#product-features}
@@ -80,7 +80,7 @@ ht-degree: 11%
       + [Sequências incorporadas](embedded-sequences.md)
       + [Layout de várias zonas](multi-zone-layout-aem-screens.md)
       + [Representações de vídeo](generating-renditions.md)
-      + [Sequência incorporada dinâmica](dynamic-embedded-sequences.md)
+      + [Sequência Incorporada Dinâmica](dynamic-embedded-sequences.md)
       + [Duração da reprodução de imagem em massa no nível do canal](channel-level-image-playback.md)
       + [Sincronização de comando](using-command-sync.md)
       + [Criação com acionadores de dados](authoring-data-triggers.md)
@@ -89,7 +89,7 @@ ht-degree: 11%
       + [Relatório de atribuição de conteúdo](content-assignment-report.md)
       + [Suporte a miniaturas para vídeos](thumbnail-support.md)
       + [Uso de representações adaptáveis no AEM Screens](using-adaptive-renditions.md)
-   + Gerenciamento de atualizações de conteúdo {#content-updates}
+   + Gerenciando Atualizações de Conteúdo {#content-updates}
       + [Atualização de conteúdo sob demanda](on-demand-content.md)
       + [Atualização de conteúdo como serviço](content-update-as-a-service.md)
       + [Atualização de conteúdo usando o Screens Launch](launches.md)
@@ -102,7 +102,7 @@ ht-degree: 11%
       + [Transições de várias zonas para uma única zona](multizone-to-singlezone.md)
       + [Canal de tomada a cargo de uso único](single-use-takeover-channel.md)
       + [Uso permanente do canal de tomada a cargo](perpetual-takeover-channel.md)
-+ Recursos do desenvolvedor e da API {#developing}
++ Desenvolvedor e Recursos da API {#developing}
    + [APIs REST](rest-api.md)
    + [Desenvolvimento de um componente personalizado para o AEM Screens](developing-custom-component-tutorial-develop.md)
    + [Canais offline](offline-channels.md)
@@ -124,7 +124,7 @@ ht-degree: 11%
    + [Notas de versão do Pacote de recursos 202204](release-notes-fp-202204.md)
    + [Notas de versão do Pacote de recursos 202203](release-notes-fp-202203.md)
    + [Notas de versão do Pacote de recursos 202112](release-notes-fp-202112.md)
-   + [Notas de versão do Pacote de recursos 202109](release-notes-fp-202109.md)
+   + [Notas de Versão do Pacote de Recursos 202109](release-notes-fp-202109.md)
    + [Notas de versão do Pacote de recursos 202105](release-notes-fp-202105.md)
    + [Notas de versão do Pacote de recursos 202103](release-notes-fp-202103.md)
    + [Notas de versão do Pacote de recursos 202011](release-notes-fp-202011.md)

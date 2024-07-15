@@ -22,7 +22,7 @@ ht-degree: 2%
 
 O AEM Screens lançou o AEM 6.5 Feature Pack 3.
 
-Você pode baixar o Feature Pack mais recente para o AEM Screens 6.5.3 versão em [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente denominado como **AEM 6.5 Screens FP3**.
+Você pode baixar o Feature Pack mais recente para a versão AEM Screens 6.5.3 do [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o Pacote de Recursos mais recente denominado **AEM 6.5 Screens FP3**.
 
 ## Data de lançamento {#release-date}
 
@@ -30,21 +30,21 @@ A data de lançamento do Pacote de recursos do AEM Screens 202001 é 31 de janei
 
 ### Novidades {#what-s-new}
 
-* **Sincronização de comandos para a reprodução do ativo**
+* **Sincronização de comando para reprodução do ativo**
 
 A sincronização de comandos permite a reprodução sincronizada em diferentes reprodutores. Os reprodutores podem reproduzir conteúdo diferente, mas cada ativo deve ter a mesma duração.
-Para saber mais sobre a Sincronização de comando e como definir o cliente principal e o cliente, consulte [Usando a sincronização de comandos](using-command-sync.md).
+Para saber mais sobre a Sincronização de Comando e como definir o cliente principal e o cliente, consulte [Usando a Sincronização de Comando](using-command-sync.md).
 
-* **Estrutura de verificação de integridade para mostrar o status de https e permitir referenciador vazio**
+* **Estrutura de Verificação de Integridade para mostrar o status de https e permitir referenciador vazio**
 
 A estrutura de verificação de integridade permite que o usuário verifique se duas configurações necessárias (Permitir solicitações de referenciador vazias e Serviço HTTP baseado em Apache Felix Jetty) estão configuradas antes de executar um projeto do AEM Screens.
 
-Para saber mais sobre a Estrutura de verificação de integridade, consulte [Estrutura de verificação de integridade](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+Para saber mais sobre a Estrutura de Verificação de Integridade, consulte [Estrutura de Verificação de Integridade](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
-* **Atualizações para Tipos de transição padrão**
-As propriedades do componente de transição, como **Tipo** agora está definido como **Desaparecer** e a variável **Duração** as **1600 milissegundos**, por padrão.
+* **Atualizações para Tipos de Transição Padrão**
+As propriedades do componente de transição, como **Type**, agora estão definidas como **Fade** e **Duration** como **1600 milissegundos**, por padrão.
 
-  Consulte [Aplicar transições](/help/user-guide/applying-transitions.md) caso de uso para obter mais detalhes.
+  Consulte [Aplicando transições](/help/user-guide/applying-transitions.md) caso de uso para obter mais detalhes.
 
 
 ### Players do AEM Screens lançados

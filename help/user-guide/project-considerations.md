@@ -48,7 +48,7 @@ A E/S direciona a reprodução condicional de conteúdo com base na proximidade 
 
 ### Tipos de ativos de conteúdo {#content-asset-types}
 
-Para ajudar você a entender a intenção do cliente final em relação aos ativos de conteúdo, considere os seguintes pontos:
+Para ajudar você a entender a intenção do cliente final em relação ao Assets de conteúdo, considere os seguintes pontos:
 
 * Se o conteúdo é redefinido de campanhas impressas, de TV ou da Web?
 * O conteúdo consiste em imagens estáticas ou modelos que incorporam componentes alimentados dinamicamente?
@@ -61,7 +61,7 @@ Para ajudar você a entender a intenção do cliente final em relação aos ativ
 
 ### Segmentação de público-alvo, partes do dia {#audience-segmentation-day-parts}
 
-A inscrição de estratégias de Day-Part pode permitir que os clientes finais segmentem seu conteúdo. Ele pode ajudar a direcionar as mensagens para o público-alvo certo na hora certa. Essa capacidade é especialmente eficaz para redes de Publicidade ou Varejo, em que muitos contribuidores de conteúdo compõem toda uma lista de reprodução.
+A inscrição de estratégias de Day-Part pode permitir que os clientes finais segmentem seu conteúdo. Ele pode ajudar a direcionar as mensagens para o público-alvo certo na hora certa. Essa capacidade é especialmente eficaz para redes Advertising ou de Varejo, em que muitos contribuidores de conteúdo compõem toda uma lista de reprodução.
 
 ### Requisitos de operações de negócios {#business-operations-requirements}
 
@@ -83,10 +83,10 @@ Siga o tutorial abaixo para saber mais sobre a estratégia de conteúdo, camadas
 
 >[!VIDEO](https://video.tv.adobe.com/v/28380)
 
-*Saiba mais sobre a estratégia de conteúdo, as camadas de E/S, os tipos de ativos e a segmentação de público-alvo. Leia sobre peças do dia, requisitos de operações de negócios e considerações sobre prontidão do local.*
+*Saiba mais sobre a estratégia de conteúdo, as camadas de E/S, os tipos de ativos e a segmentação de público. Leia sobre partes do dia, requisitos de operações comerciais e considerações de prontidão do site.*
 
 ## A próxima etapa {#the-next-step}
 
 Entenda os elementos identificados durante a descoberta do projeto, juntamente com as contribuições das partes interessadas para avaliar o projeto e preparar um design apropriado. Saiba mais sobre os termos principais envolvidos em um plano geral do projeto. Esses termos incluem ciclo do projeto, ações relacionadas a testes de hardware, Prova de conceito, pilotos e implantações.
 
-Navegue até **[Testes, POCs, pilotos e implantações](testing-pocs-pilots-rollouts.md)** para obter mais detalhes.
+Navegue até **[Testes, POCs, Pilotos e implantações](testing-pocs-pilots-rollouts.md)** para obter mais detalhes.

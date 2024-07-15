@@ -22,7 +22,7 @@ ht-degree: 2%
 
 A AEM Screens lançou o AEM 6.4 Feature Pack 8 e o AEM 6.5 Feature Pack 4.
 
-Baixe o Feature Pack mais recente do AEM Screens 6.4.8 ou do AEM Screens 6.5.4 na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente.
+Você pode baixar o Feature Pack mais recente para o AEM Screens 6.4.8 ou o AEM Screens 6.5.4 Release no [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o Pacote de Recursos mais recente.
 
 ## Data de lançamento {#release-date}
 
@@ -34,9 +34,9 @@ A data de lançamento do Pacote de recursos do AEM Screens 202004 é 20 de abril
 
   Como um Autor de conteúdo, especifique quando um canal é interrompido. Essa ação ajuda para que você possa optar por cortar conteúdo não crítico, mas, opcionalmente, permitir que conteúdo importante seja totalmente reproduzido antes de interromper a reprodução por causa do agendamento.
 
-  Para saber mais sobre as opções disponíveis na **Atribuição de canal** para implementar esse recurso no projeto do AEM Screens, consulte a seção **[Método de interrupção](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
+  Para saber mais sobre as opções disponíveis na caixa de diálogo **Atribuição de canal** para implementar este recurso no seu projeto do AEM Screens, consulte a seção **[Método de interrupção](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
 
-* **Screens Launches**
+* **Inicializações do Screens**
 
   O fluxo de experiência do usuário do Autor de conteúdo foi aprimorado e reduziu o número de cliques para usar em publicações futuras.
 
@@ -44,26 +44,26 @@ A data de lançamento do Pacote de recursos do AEM Screens 202004 é 20 de abril
 
 * **Painel do canal**
 
-  Reflete atualizações nas instruções no painel do canal no **INFORMAÇÕES DO CANAL** painel.
+  Reflete atualizações nas instruções no painel do canal no painel **INFORMAÇÕES DO CANAL**.
 
 
 * **Exibir manifesto**
 
   Agora é possível exibir o arquivo de manifesto no painel do canal.
 
-  Consulte **[Exibição do manifesto](/help/user-guide/managing-channels.md#view-manifest)**.
+  Consulte **[Exibindo o Manifesto](/help/user-guide/managing-channels.md#view-manifest)**.
 
-* **Sobreposição de texto**
+* **Sobreposição de Texto**
 
   Ao adicionar test à função de sobreposição de texto, o tamanho da fonte é preciso e melhorado.
 
   Para criar uma experiência atraente em um canal de sequência fornecendo um título ou uma descrição sobreposta sobre uma imagem, consulte **[Sobreposição de texto](text-overlay.md)**.
 
-* **Melhorias na sincronização de comandos**
+* **Melhorias na sincronização de comando**
 
   Com esta versão do Pacote de recursos, as melhorias no atraso de sincronização de comandos entre as alterações de ativos são refletidas.
 
-  Consulte **[Sincronização de comando](using-command-sync.md)** para obter mais detalhes.
+  Consulte **[Sincronização de Comando](using-command-sync.md)** para obter mais detalhes.
 
 ### Players do AEM Screens lançados
 

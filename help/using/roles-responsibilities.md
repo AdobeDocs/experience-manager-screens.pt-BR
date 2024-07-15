@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Funções e responsabilidades do projeto {#roles-responsibilities}
 
-Como um implementador de AEM experiente, provavelmente você já viu funções conhecidas como *Autores*, *Desenvolvedores*, e *Técnicos de TI*.
+Como um implementador de AEM experiente, provavelmente você já viu funções conhecidas como *Autores*, *Desenvolvedores* e *Técnicos de TI*.
 
 Em um projeto AEM Screens típico, as funções são refinadas, pois cada uma serve a um propósito importante no projeto.
 
@@ -86,17 +86,17 @@ Os gerentes de projeto normalmente gerenciam toda a implantação da sua implant
 
 ## Estágios do Projeto {#project-stages}
 
-Para oferecer suporte a uma implantação bem-sucedida da sinalização digital, é comum segmentar o projeto em três estágios. Essas etapas são comumente chamadas de **Dias**. Não são dias literais, mas designações para cada fase importante do projeto.
+Para oferecer suporte a uma implantação bem-sucedida da sinalização digital, é comum segmentar o projeto em três estágios. Esses estágios geralmente são chamados de **Dias**. Não são dias literais, mas designações para cada fase importante do projeto.
 
-1. A primeira fase é designada por *Dia Zero*. Este estágio inclui todos os esforços de pré-vendas e detecção necessários para definir o escopo do projeto.
-1. A segunda fase, *Primeiro dia*, refere-se a todas as atividades incluídas no esforço de implantação.
-1. A terceira e última fase é *Dia dois*. Refere-se a todas as operações em andamento e aos elementos de suporte como parte da solução total.
+1. O primeiro estágio é chamado de *Dia Zero*. Este estágio inclui todos os esforços de pré-vendas e detecção necessários para definir o escopo do projeto.
+1. O segundo estágio, *Primeiro Dia*, se refere a todas as atividades incluídas no esforço de implantação.
+1. O terceiro e último estágio é *Dia Dois*. Refere-se a todas as operações em andamento e aos elementos de suporte como parte da solução total.
 
 >[!NOTE]
 >
->Embora este guia enfatize principalmente *Primeiro dia* e *Dia dois* No entanto, é necessário prestar atenção aos três estágios para executar um projeto bem-sucedido de sinalização digital.
+>Embora este guia enfatize principalmente o *Primeiro Dia* e o *Segundo Dia*, é necessário prestar atenção aos três estágios para executar um projeto de sinalização digital bem-sucedido.
 >
->Para saber mais sobre a pré-produção, o início e o progresso do projeto, assista a um vídeo sobre **[Gerenciamento e implantação de projetos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
+>Para saber mais sobre a pré-produção, a iniciação e a progressão do projeto, assista a um vídeo sobre **[Gerenciamento e Implantação de Projetos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
 
 ## Gráfico RACI {#raci-chart}
 
@@ -110,17 +110,17 @@ Veja a seguir um exemplo de gráfico RACI usando as definições de função.
 
 * **Responsável**: faz o trabalho para concluir a tarefa.
 
-* **Responsável**: Delega o trabalho e é a última parte a revisar a tarefa antes que ela seja concluída.
+* **Responsável**: os representantes trabalham e são os últimos a revisar a tarefa antes que ela seja concluída.
 
-* **Consultado**: analisa a tarefa ou o produto para fornecer entrada.
+* **Consultado**: analisa a tarefa ou a entrega para fornecer entrada.
 
-* **Informado**: informado sobre o progresso da tarefa, mas não está envolvido nos detalhes do produto.
+* **Informado**: mantido informado sobre o progresso da tarefa, mas não está envolvido nos detalhes da entrega.
 
 Este é um exemplo de gráfico RACI usando as definições de função e fornece um exemplo de tarefas e considerações comuns em um projeto AEM Screens.
 
-A tabela a seguir resume as **Dia Zero: Considerações sobre pré-vendas**:
+A tabela a seguir resume o **Dia Zero: Considerações sobre Pré-vendas**:
 
-| **Fase** | **Integrador de áudio e vídeo** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
+| **Fase** | **Integrador de áudio e vídeo** | **Implementador AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
 |---|---|---|---|---|
 | Formação de Equipe e Seleção de Fornecedor | I | I | RA | RA |
 | Acordo sobre Funções e Responsabilidades | RA | RA | RA | RA |
@@ -130,9 +130,9 @@ A tabela a seguir resume as **Dia Zero: Considerações sobre pré-vendas**:
 | Definição do processo de suporte | C | I | RA | I |
 | Definir Escopo do Trabalho e Plano de Projeto | RA | RA | C | C |
 
-A tabela a seguir resume as **Primeiro dia: implementação do projeto (projeto de aplicativo)**:
+A tabela a seguir resume o **Primeiro Dia: Implementação de Projeto (Design de Aplicativo)**:
 
-| **Fase** | **Integrador de áudio e vídeo** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
+| **Fase** | **Integrador de áudio e vídeo** | **Implementador AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
 |---|---|---|---|---|
 | Acordo sobre Funções e Responsabilidades | RA | RA | RA | RA |
 | Alinhamento com o plano e o agendamento do projeto | RA | RA | C | C |
@@ -150,19 +150,19 @@ A tabela a seguir resume as **Primeiro dia: implementação do projeto (projeto 
 | Plano de transição do piloto para a produção | RA | RA | I | I |
 | Transferência de conhecimento | RA | RA | I | I |
 
-A tabela a seguir resume as **Primeiro dia: implementação do projeto (disponibilidade de varejo)**:
+A tabela a seguir resume o **Primeiro Dia: Implementação do Projeto (Disponibilidade do Retail)**:
 
-| **Fase** | **Integrador de áudio e vídeo** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
+| **Fase** | **Integrador de áudio e vídeo** | **Implementador AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
 |---|---|---|---|---|
 | Solicitação e armazenamento de hardware | RA | I | I | I |
 | Agendamento de integração de varejo | I | I | C | RA |
 | Preparando Teste de Aceitação do Usuário | I | C | RA |   |
 | Configuração de hardware em massa | RA | I | C | I |
-| Contrato de suporte pós-lançamento | RA | C | RA | C |
+| Contrato de suporte ao Post Launch | RA | C | RA | C |
 
-A tabela a seguir resume as **Primeiro dia: primeiro dia: implementação do projeto (hardware)**:
+A tabela a seguir resume o **Primeiro Dia: Primeiro Dia: Implementação de Projeto (Hardware)**:
 
-| **Fase** | **Integrador de áudio e vídeo** | **Implementador de AEM** | **Estratégia de negócios** | **Gestão de conteúdo** |
+| **Fase** | **Integrador de áudio e vídeo** | **Implementador AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
 |---|---|---|---|---|
 | Acordo sobre Funções e Responsabilidades | RA | RA | RA | RA |
 | O projeto de varejo inclui operações de fiação | - | - | - | - |
@@ -173,19 +173,19 @@ A tabela a seguir resume as **Primeiro dia: primeiro dia: implementação do pro
 
 >[!NOTE]
 >
->As funções são alteradas durante o segundo dia (suporte pós-inicialização).
+>As funções são alteradas durante o Segundo dia (Suporte ao Post Launch).
 
-* **Autor**: Gestão de conteúdo + estratégia
+* **Autor**: Gerenciamento de Conteúdo + Estratégia
 
-* **Desenvolvedor**: normalmente um membro da equipe de implementação do AEM Screens ou uma entrega para uma equipe interna de desenvolvimento
+* **Desenvolvedor**: normalmente é um membro da equipe de implementação do AEM Screens ou é transferido para uma equipe interna de desenvolvimento
 
-* **Técnico**: Contratado pelo Integrador de áudio-vídeo ou é parte da mesma empresa.
+* **Técnico**: contratado pelo Integrador de Áudio-Vídeo ou faz parte da mesma empresa.
 
-A tabela a seguir resume as **Dia dois: gráfico RACI de suporte pós-lançamento**:
+A tabela a seguir resume o **Segundo Dia: Gráfico RACI de Suporte do Post Launch**:
 
 | **Fase** | **Autor** | **Desenvolvedor** | **Técnico** |
 |---|---|---|---|
-| *Dia dois: suporte pós-lançamento* |
+| *Segundo Dia: Suporte Ao Post Launch* |
 | Acordo sobre Funções e Responsabilidades | RA | RA | RA |
 | Suporte de nível 1 | I | I | RA |
 | Suporte de nível 2 | I | C | RA |

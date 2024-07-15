@@ -15,7 +15,7 @@ A seção a seguir fornece as diretrizes de seleção de hardware para um AEM Sc
 
 ## Considerações importantes {#important-considerations}
 
-* Sempre origem ***Comercial*** ou ***Industrial*** Os componentes da nota para PC player e painel de exibição ou projetor.
+* Sempre adquira componentes de nível ***Comercial*** ou ***Industrial*** para PC Player e Painel de Vídeo ou Projetor.
 
 * Sempre interaja com fornecedores que atendem ao mercado de sinalização digital.
 * Sempre considere fatores ambientais como temperatura ambiente e umidade relativa.
@@ -46,10 +46,10 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
    <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI<br /> Ethernet / sem fio,<br /> 2xUSB</td>
+   <td>Ethernet/sem fio DVI<br />,<br /> 2xUSB</td>
    <td>
     <ul>
-     <li>Looping de tela cheia padrão<br /> </li>
+     <li>Looping de Tela Inteira Padrão<br /> </li>
      <li>Divisão de dia</li>
     </ul> </td>
   </tr>
@@ -60,10 +60,10 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
    <td>128 GB</td>
    <td>OnBoard</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI, HDMI<br /> Ethernet / sem fio,<br /> 2xUSB</td>
+   <td>DVI, HDMI<br /> Ethernet / wireless,<br /> 2 x USB</td>
    <td>
     <ul>
-     <li>Conteúdo dinâmico de origem única</li>
+     <li>Conteúdo dinâmico único do Source</li>
      <li>Interativo simples</li>
      <li>1-3 Layouts de zona</li>
     </ul> </td>
@@ -75,12 +75,12 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
    <td>256 GB</td>
    <td>GPU gráfica dedicada</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI, HDMI<br /> Ethernet / sem fio,<br /> 4xUSB</td>
+   <td>DVI, HDMI<br /> Ethernet / wireless,<br /> 4xUSB</td>
    <td>
     <ul>
      <li>4 ou mais zonas de conteúdo, reprodução de vídeo simultânea</li>
      <li>Interativo de várias páginas</li>
-     <li>Acionadores de dados de várias origens</li>
+     <li>Acionadores de dados de várias Source</li>
     </ul> </td>
   </tr>
  </tbody>

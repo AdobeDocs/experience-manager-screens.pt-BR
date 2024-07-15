@@ -17,23 +17,23 @@ ht-degree: 1%
 
 Esta página descreve como instalar o AEM Screens Player.
 
-## Player do Screens disponível {#available-players}
+## Screens Player disponível {#available-players}
 
 O AEM Screens Player está disponível para Android™, Chrome OS e Windows.
 
-Para baixar **AEM Screens Player**, visite o [Downloads do reprodutor AEM 6.5](https://download.macromedia.com/screens/) página.
+Para baixar o **AEM Screens AEM Player**, visite a página [Downloads do Player do {6.5}.](https://download.macromedia.com/screens/)
 
 >[!NOTE]
 >
->Depois de baixar o Player mais recente (*.exe*), siga as etapas no reprodutor para concluir a instalação ad-hoc:
+>Depois de baixar o Player mais recente (*.exe*), siga as etapas no player para concluir a instalação ad-hoc:
 >
 >1. Pressione e segure no canto superior esquerdo para abrir o painel de administração.
->1. Navegue até **Configuração** no menu de ações à esquerda e insira o endereço do local da instância do AEM em **Servidor** e clique em **Salvar**.
->1. Clique em **Registro** no menu de ação esquerdo e nas etapas abaixo para concluir o processo de registro do dispositivo.
+>1. Navegue até **Configuração** no menu de ação esquerdo e digite o endereço do local da instância do AEM no **Servidor** e clique em **Salvar**.
+>1. Clique no link **Registro** no menu de ação esquerdo e nas etapas abaixo para concluir o processo de registro do dispositivo.
 
 ## Monitoramento básico de reprodução {#playback-monitoring}
 
-O reprodutor relata várias métricas de reprodução com cada `ping` que o padrão é 30 segundos. Com base nessas métricas, é possível detectar vários casos de borda, como experiência travada, tela em branco e problemas de agendamento. Ele nos permite compreender e solucionar problemas no dispositivo e, portanto, agiliza uma investigação e medidas corretivas para você.
+O player relata várias métricas de reprodução a cada `ping` que assume o padrão de 30 segundos. Com base nessas métricas, é possível detectar vários casos de borda, como experiência travada, tela em branco e problemas de agendamento. Ele nos permite compreender e solucionar problemas no dispositivo e, portanto, agiliza uma investigação e medidas corretivas para você.
 
 O monitoramento básico de reprodução em um AEM Screens Player permite que você:
 
@@ -69,7 +69,7 @@ Algumas limitações para o monitoramento básico da reprodução estão listada
 
 * O reprodutor relata seu próprio estado de reprodução ao servidor, portanto, requer uma conexão ativa.
 
-* A variável `isContentRendering` que verifica se a GPU consome muito mais recursos para ser habilitada por padrão e requer a aceitação explícita das preferências do reprodutor. A Adobe recomenda que você não o use com vídeos em produção.
+* A propriedade `isContentRendering` que verifica a GPU consome muito mais recursos para ser habilitada por padrão e requer aceitação explícita das preferências do reprodutor. A Adobe recomenda que você não o use com vídeos em produção.
 
 * Esse recurso é compatível apenas com canais de sequência e ainda não abrange o caso de uso de canais interativos (SPA).
 
@@ -79,8 +79,8 @@ Algumas limitações para o monitoramento básico da reprodução estão listada
 
 Consulte os seguintes tópicos para obter informações detalhadas:
 
-* Para baixar o Android™ Player, visite **Google Play**. Para saber mais sobre como implementar o Android™ Watchdog, consulte [Implementação do Android™ player](implementing-android-player.md).
+* Para baixar o Android™ Player, visite **Google Play**. Para saber mais sobre como implementar o Android™ Watchdog, consulte [Implementação do Android™ Player](implementing-android-player.md).
 
-* Para implementar o Chrome OS Player, consulte [Console de gerenciamento do Chrome](implementing-chrome-os-player.md) para obter mais informações.
+* Para implementar o Chrome OS Player, consulte [Console de Gerenciamento do Chrome](implementing-chrome-os-player.md) para obter mais informações.
 
 * Para configurar o AEM Screens Windows Player, consulte [Implementação do Windows Player](implementing-windows-player.md).

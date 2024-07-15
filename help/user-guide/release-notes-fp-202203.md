@@ -21,7 +21,7 @@ ht-degree: 4%
 
 O AEM Screens lançou o AEM 6.5 Feature Pack 11.
 
-Você pode baixar o Feature Pack mais recente para a versão AEM Screens 6.5.11 da [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente denominado como **AEM 6.5 Screens FP11**.
+Você pode baixar o Feature Pack mais recente para a versão AEM Screens 6.5.11 do [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o Pacote de Recursos mais recente denominado **AEM 6.5 Screens FP11**.
 
 ## Data de lançamento {#release-date}
 
@@ -41,7 +41,7 @@ Esta versão inclui somente correções de erros.
 
 * O canal SPA do Screens estava causando uma tela branca com o Windows Player. Esse erro foi corrigido.
 
-* A variável *wcmmode* O parâmetro foi removido de todas as solicitações do Screens na instância de publicação.
+* O parâmetro *wcmmode* foi removido de todas as solicitações do Screens na instância de publicação.
 
 * A interface de atividade do player agora funciona conforme esperado.
 

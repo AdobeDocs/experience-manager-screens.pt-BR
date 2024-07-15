@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Introdução {#introduction}
 
-As representações adaptáveis permitem que os dispositivos cliquem na melhor representação automaticamente para um dispositivo com base em regras definidas pelo cliente. Os dispositivos baixam e reproduzem automaticamente a representação mais apropriada de um ativo com base nessas regras. Ele permite que os clientes se concentrem em projetar a *main* experiência.
+As representações adaptáveis permitem que os dispositivos cliquem na melhor representação automaticamente para um dispositivo com base em regras definidas pelo cliente. Os dispositivos baixam e reproduzem automaticamente a representação mais apropriada de um ativo com base nessas regras. Ele permite que os clientes se concentrem em criar a experiência *principal*.
 
 ## Objetivo {#objective}
 
@@ -26,16 +26,16 @@ Depois que um Desenvolvedor adicionar as propriedades e regras do mapeamento de 
 ## Uso de representações adaptáveis em canais {#using-adaptive-renditions}
 
 >[!NOTE]
->Depois de ter adicionado a variável [propriedade de mapeamento de representação para o projeto do Screens](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) e [regras de mapeamento de representação](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), como um Autor de conteúdo, agora você está pronto para aplicar as representações aos seus ativos.
+>Depois de adicionar a [propriedade de mapeamento de representação ao Projeto do Screens](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) e as [regras de mapeamento de representação](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), como Autor de Conteúdo, você está pronto para aplicar as representações aos seus ativos.
 
-### Aplicação de representações a ativos {#apply-renditions-assets}
+### Aplicação de representações ao Assets {#apply-renditions-assets}
 
-Para aplicar representações a ativos que você deseja usar no canal do Tour Screens, faça o seguinte.
+Para aplicar representações a ativos que você deseja usar no canal Tour Screens, faça o seguinte.
 
-1. Navegue até a **Assets** pasta na instância do AEM.
+1. Navegue até a pasta **Assets** na instância do AEM.
 1. Crie uma versão do ativo que se ajuste melhor à exibição da sinalização, por exemplo, `seahorse.jpg`.
-1. Escolha o padrão de nomenclatura da representação, por exemplo,`landscape`, semelhante ao definido em **padrão** propriedade no **CRXDE Lite**. Consulte [Adição de regras de mapeamento de representação](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) para obter mais detalhes.
-1. Clique em **Adicionar representação** para fazer upload da representação, conforme mostrado na figura abaixo.
+1. Escolha o padrão de nomenclatura da representação, por exemplo, `landscape`, semelhante ao que foi definido na propriedade **pattern** em **CRXDE Lite**. Consulte [Adicionar regras de mapeamento de representação](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) para obter mais detalhes.
+1. Clique em **Adicionar representação** para carregar a representação, conforme mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
 
@@ -45,12 +45,12 @@ Para aplicar representações a ativos que você deseja usar no canal do Tour Sc
    ![imagem](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Consulte [Atualização de conteúdo sob demanda](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) para saber mais sobre como gerenciar a publicação e fornecer atualizações de conteúdo de Autor para Publicar no dispositivo.
+   >Consulte [Atualização de conteúdo sob demanda](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) para saber mais sobre como gerenciar a publicação e fornecer atualizações de conteúdo do Autor para o Publish para o dispositivo.
 
 ## Estratégia de migração {#migration-strategy}
 
 >[!IMPORTANT]
->Para grandes redes, a Adobe recomenda que a migração seja feita gradualmente para reduzir os riscos. O motivo é que o recurso pode introduzir alterações no formato de armazenamento de manifesto e arquivo. Adicionar o `sling:configRef` para todo o projeto envolve a atualização de todos os players para o Feature Pack 6.5.9. Caso tenha atualizado alguns dos reprodutores, adicione o `sling:configRef` somente para exibições, locais ou pastas de canal que têm todos os players atualizados para o Feature Pack 6.5.9.
+>Para grandes redes, a Adobe recomenda que a migração seja feita gradualmente para reduzir os riscos. O motivo é que o recurso pode introduzir alterações no formato de armazenamento de manifesto e arquivo. Adicionar o `sling:configRef` ao projeto inteiro envolve atualizar todos os players para o Feature Pack 6.5.9. Caso tenha atualizado alguns players, adicione o `sling:configRef` somente às exibições, locais ou pastas de canal que têm todos os players atualizados para o Feature Pack 6.5.9.
 
 O diagrama a seguir descreve a estratégia de migração para redes grandes:
 
@@ -58,7 +58,7 @@ O diagrama a seguir descreve a estratégia de migração para redes grandes:
 
 Para ativar o recurso, adicione pelo menos uma regra de mapeamento e verifique se a configuração do mapeamento de representação pode ser resolvida no contexto de exibições e canais. Siga as etapas abaixo para migrar:
 
-1. Adicionar [Regras de mapeamento de representação](/help/user-guide/adaptive-renditions.md).
+1. Adicionar [Regras de Mapeamento de Representação](/help/user-guide/adaptive-renditions.md).
 1. Crie uma pasta para novos canais e adicione uma referência apontando para a configuração do mapeamento de representação.
 1. Crie canais que substituem os antigos e faça upload de representações.
 1. Reatribuir exibições para os novos canais.

@@ -23,9 +23,9 @@ Esta seção descreve um exemplo de caso de uso que enfatiza como configurar um 
 
 Antes de iniciar este caso de uso, verifique se você sabe como:
 
-* **[Criar e gerenciar canais](managing-channels.md)**
+* **[Criar e Gerenciar Canais](managing-channels.md)**
 * **[Criar e Gerenciar Locais](managing-locations.md)**
-* **[Criar e gerenciar cronogramas](managing-schedules.md)**
+* **[Criar e Gerenciar Agendamentos](managing-schedules.md)**
 * **[Registro do dispositivo](device-registration.md)**
 
 ### Atores principais {#primary-actors}
@@ -36,49 +36,49 @@ Autores de conteúdo
 
 Siga as etapas abaixo para configurar um projeto:
 
-1. Crie um projeto do AEM Screens chamado como **LoopTomada**, conforme mostrado abaixo.
+1. Crie um projeto do AEM Screens chamado **TakeoverLoop**, conforme mostrado abaixo.
 
    ![ativo](assets/mz-to-sz1.png)
 
 
-1. **Criação de um canal de telas de várias zonas**
+1. **Criando um Canal do Screens de Várias Zonas**
 
-   1. Clique em **Canais** e clique em **Criar** na barra de ações e abrindo o assistente para criar um canal.
-   1. Clique em **Canal de tela dividida em barra à esquerda** do assistente e crie o canal chamado de **MultiZoneLayout**.
-   1. Adicione conteúdo ao canal. Arraste e solte os ativos em cada uma das zonas. O exemplo a seguir mostra uma **MultiZoneLayout** canal que inclui um vídeo, uma imagem e um banner de texto (em uma sequência incorporada), conforme mostrado abaixo.
+   1. Clique na pasta **Canais**, clique em **Criar** na barra de ações e abra o assistente para que você possa criar um canal.
+   1. Clique em **Canal de tela dividida em L à esquerda** no assistente e crie o canal intitulado como **MultiZoneLayout**.
+   1. Adicione conteúdo ao canal. Arraste e solte os ativos em cada uma das zonas. O exemplo a seguir mostra um canal **MultiZoneLayout** composto por um vídeo, uma imagem e um banner de texto (em uma sequência incorporada), como mostrado abaixo.
 
    ![ativo](assets/mz-to-sz2.png)
 
    >[!NOTE]
    >
-   >Para saber mais sobre como criar um layout de várias zonas no canal, consulte [Layout de várias zonas](multi-zone-layout-aem-screens.md).
+   >Para saber mais sobre como criar um layout de várias zonas no seu canal, consulte [Layout de várias zonas](multi-zone-layout-aem-screens.md).
 
 
-1. Crie outro canal chamado como **Canal de aquisição** ao seu **Canais** pasta.
+1. Crie outro canal chamado **TakeoverChannel** para sua pasta **Channels**.
 
    ![ativo](assets/mz-to-sz3.png)
 
-1. Clique em **Editar** na barra de ações para que você possa adicionar conteúdo a este canal. Adicionar um **Canal** e um ativo de imagem que você deseja alternar para esse canal, como mostrado na figura abaixo:
+1. Clique em **Editar** na barra de ações para poder adicionar conteúdo a este canal. Adicione um componente **Canal** e um ativo de imagem que você deseja alternar para este canal, como mostrado na figura abaixo:
 
    ![ativo](assets/mz-to-sz4.png)
 
-1. Abra as configurações do componente Canal e aponte para **MultiZoneLayout** canal que você criou em *etapa 2*.
+1. Abra as configurações do componente Canal e aponte-o para o canal **MultiZoneLayout** criado na *etapa 2*.
 
    ![ativo](assets/mz-to-sz5.png)
 
-1. Defina a duração a partir de **Sequência** campo para **10000 milissegundos**.
+1. Defina a duração do campo **Sequência** para **10000 milissegundos**.
 
    ![ativo](assets/mz-to-sz6.png)
 
-1. Da mesma forma, abra as configurações para a Imagem (ativo adicionado) e defina sua duração no **Sequência** campo para **3000 milissegundos**.
+1. Da mesma forma, abra as configurações da Imagem (ativo adicionado) e defina sua duração do campo **Sequência** para **3000 milissegundos**.
 
    ![ativo](assets/mz-to-sz7.png)
 
 ## Verificação da visualização {#checking-the-preview}
 
-Você pode visualizar a saída desejada do reprodutor ou apenas selecionando **Visualizar** do editor.
+Você pode exibir a saída desejada do reprodutor ou simplesmente selecionando **Visualizar** no editor.
 
-A saída demonstra como um layout de várias zonas é reproduzido para *10000 milissegundos*. Em seguida, ele muda para um layout de zona única com duração de reprodução de *3000 milissegundos*. E finalmente, ele muda de volta para o layout multizona.
+A saída demonstra como um layout de várias zonas é reproduzido por *10000 milissegundos*. Em seguida, ele muda para um layout de zona única com duração de reprodução de *3000 milissegundos*. E finalmente, ele muda de volta para o layout multizona.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30366)
 

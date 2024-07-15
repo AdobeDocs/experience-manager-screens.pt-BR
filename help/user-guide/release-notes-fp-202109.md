@@ -21,7 +21,7 @@ ht-degree: 1%
 
 O AEM Screens lançou o AEM 6.5 Feature Pack 9.
 
-Baixe o Feature Pack mais recente do AEM Screens 6.5.9 na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente denominado como **AEM 6.5 Screens FP9**.
+Você pode baixar a Versão mais recente do Feature Pack para o AEM Screens 6.5.9 no [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o Pacote de Recursos mais recente denominado **AEM 6.5 Screens FP9**.
 
 ## Data de lançamento {#release-date}
 
@@ -39,7 +39,7 @@ Consulte [Suporte a miniaturas para vídeos](/help/user-guide/thumbnail-support.
   O AEM Screens agora é compatível com o monitoramento básico de reprodução. O player agora relata várias métricas de reprodução a cada ping (o padrão é 30 segundos). Com base nas métricas, ele detecta vários casos de borda (experiência travada, tela em branco, problema de agendamento e assim por diante). Esse recurso permite que a equipe monitore remotamente se um player está reproduzindo conteúdo corretamente e melhora a reatividade para telas em branco ou experiências com falha no campo. Ele também diminui o risco de mostrar uma experiência quebrada ao usuário final.
 Consulte [Monitoramento básico de reprodução](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) para obter mais detalhes.
 
-* **Atualizações no Relatório de atribuição de conteúdo**
+* **Atualizações ao Relatório de atribuição de conteúdo**
 
   O Relatório de atribuição de conteúdo agora está otimizado e aprimorado com uma experiência aprimorada do usuário. O relatório baixável exibe entidades melhoradas relacionadas ao player. Essas entidades incluem locais, exibições e dispositivos em uma guia da planilha. Também inclui as informações do provedor de conteúdo, como canais e ativos em outra guia.
 Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assignment-report.md) para obter mais detalhes.
@@ -48,37 +48,37 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
 
   As representações adaptáveis permitem que o dispositivo clique na melhor representação automaticamente para um dispositivo com base em regras definidas pelo cliente.
 
-  Como um Desenvolvedor do AEM Screens, agora você pode configurar representações de ativos específicas do dispositivo para serem baixadas e reproduzidas automaticamente sem precisar criar todas as variações de conteúdo manualmente. Consulte [Representações adaptáveis: visão geral e configurações da arquitetura](/help/user-guide/adaptive-renditions.md) para obter mais detalhes.
+  Como um Desenvolvedor do AEM Screens, agora você pode configurar representações de ativos específicas do dispositivo para serem baixadas e reproduzidas automaticamente sem precisar criar todas as variações de conteúdo manualmente. Consulte [Representações adaptáveis: visão geral da arquitetura e configurações](/help/user-guide/adaptive-renditions.md) para obter mais detalhes.
 
   Além disso, como um Autor de conteúdo do AEM Screens, você pode configurar seus ativos para usar Representações adaptáveis. Você também pode migrar seus dispositivos para redes grandes para usar esse recurso em seus canais da AEM Screens. Consulte [Uso de representações adaptáveis no AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obter mais detalhes.
 
-* **Suporte para manifestos V3**
+* **Suporte para Manifestos V3**
 
   Agora você pode configurar o Dispatcher para a Versão de manifesto v3. Para ativar o Manifesto v3, faça o seguinte:
 
    * Limpe todos os trabalhos de conteúdo offline pendentes no autor e na publicação.
 
-      * Navegue até o CRXDE Lite em Autor e Publicação.
+      * Navegue até o CRXDE Lite no Author e no Publish.
 
       * Clique em Ferramentas > Consulta.
 
-      * No query, use `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
+      * Na consulta, use `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 
       * Isso lista todos os trabalhos de conteúdo offline que estão atualmente em execução ou pendentes na fila.
 
       * Aguarde até que não haja mais trabalhos de conteúdo offline retornados da consulta.
 
-   * Desativar ContentSync em `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
+   * Desabilitar ContentSync em `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
-   * Ativar SmartSync no `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
+   * Habilitar SmartSync em `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
 
    * Atualize o Dispatcher.
 
    * Atualize o componente personalizado.
 
 
-   * Consulte [Configuração do Dispatcher para Versão de Manifesto v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obter mais detalhes.
-   * Se você estiver usando componentes personalizados como parte dos manifestos v3, consulte [Modelo para manipuladores personalizados](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
+   * Consulte [Configuração do Dispatcher para a Versão de Manifesto v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obter mais detalhes.
+   * Se você estiver usando componentes personalizados como parte dos manifestos v3, consulte [Modelo para Manipuladores Personalizados](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 
 ### Correções de erros {#bug-fixes}
@@ -97,13 +97,13 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
 
 * Transformou o mapeamento em uma lista de chaves de representação.
 
-* Remoção do acesso ao `cmd.exe` e `reg.exe` no Windows Player.
+* Remoção do acesso a `cmd.exe` e `reg.exe` no Windows Player.
 
 * Um reprodutor deve relatar seu último evento de reprodução bem-sucedido.
 
 * Um reprodutor deve relatar seu status de reprodução.
 
-* O reprodutor não baixa ativos novamente quando `ALL` O cache é limpo.
+* O Player não baixará novamente o Assets quando o Cache `ALL` for limpo.
 
 * Como Administrador do player, agora você pode escolher um nome de player.
 
@@ -142,13 +142,13 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
 
 * A Estratégia de reprodução de sequência integrada foi interrompida e esse erro foi corrigido.
 
-* Manifesto offline usando o parâmetro de solicitação `wcmmode` para entrada html, tornando-a não armazenável em cache.
+* Manifesto offline usando o parâmetro de solicitação `wcmmode` para entrada html, tornando-o não armazenável em cache.
 
 * Sequência incorporada dinâmica vazia às vezes causava tela em branco.
 
 * O reprodutor agora relata seu status de reprodução.
 
-* O vídeo estava sendo reproduzido em `Tiny mode` e não será reproduzido como vídeo em tela cheia no dispositivo, e o problema será corrigido agora.
+* O vídeo estava sendo reproduzido em `Tiny mode` e não foi reproduzido como vídeo em tela inteira no dispositivo, e o problema foi corrigido agora.
 
 ### Players do AEM Screens lançados
 

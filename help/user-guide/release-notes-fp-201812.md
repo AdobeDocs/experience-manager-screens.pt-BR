@@ -31,20 +31,20 @@ A data de lançamento do Pacote de recursos 2018 da AEM Screens é 16 de janeiro
 
 ### Novidades {#what-s-new}
 
-* **Sobreposição de texto em ativos no canal**:
+* **Sobreposição de Texto no Assets no Canal**:
 
-  A Sobreposição de texto é um recurso disponível no AEM Screens. Ele permite criar uma experiência atraente em um canal de sequência ao fornecer um título ou uma descrição sobreposta sobre uma imagem. Consulte [**Sobreposição de texto**](text-overlay.md).
+  A Sobreposição de texto é um recurso disponível no AEM Screens. Ele permite criar uma experiência atraente em um canal de sequência ao fornecer um título ou uma descrição sobreposta sobre uma imagem. Consulte [**Sobreposição De Texto**](text-overlay.md).
 
 * **Agendamento de vários ativos**:
 
-  O agendamento de vários ativos permite que o usuário clique em vários ativos e aplique um agendamento de reprodução a todos os ativos selecionados. Consulte **Agendamento de vários ativos** seção em **[Agendamento de ativos](asset-level-scheduling.md)**.
+  O agendamento de vários ativos permite que o usuário clique em vários ativos e aplique um agendamento de reprodução a todos os ativos selecionados. Consulte a seção **Agendamento de vários ativos** em **[Agendamento de ativos](asset-level-scheduling.md)**.
 
 * **Layout de várias zonas**:
 
   O layout de várias zonas permite criar conteúdo de várias zonas e usar vários ativos, como vídeos, imagens e texto, que podem ser combinados em uma única tela. Consulte **[Layout de várias zonas](multi-zone-layout-aem-screens.md)**.
 
-* **Sincronização inteligente de ativos com players**
-* **Implantação de Autor/Publicação (Fortalecimento)**
+* **Sincronização inteligente do Assets com players**
+* **Implantação do Author/Publish (Fortalecimento)**
 
 ### Players do AEM Screens lançados
 

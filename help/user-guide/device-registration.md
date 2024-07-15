@@ -30,11 +30,11 @@ O processo de registro de dispositivos é feito em duas máquinas separadas:
 
 >[!NOTE]
 >
->Depois de baixar o Windows Player mais recente (*.exe*), do [Downloads do reprodutor AEM 6.4](https://download.macromedia.com/screens/) siga as etapas no reprodutor para concluir a instalação ad-hoc:
+>Depois de baixar o Windows Player (*.exe*) mais recente na página [Downloads do AEM 6.4 Player](https://download.macromedia.com/screens/), siga as etapas no reprodutor para concluir a instalação ad-hoc:
 >
 >1. Pressione e segure no canto superior esquerdo para abrir o painel de administração.
->1. Navegue até **Configuração** no menu de ações à esquerda e insira o endereço do local da instância do AEM em **Servidor** e clique em **Salvar**.
->1. Clique em **Registro** no menu de ação esquerdo e nas etapas abaixo para concluir o processo de registro do dispositivo.
+>1. Navegue até **Configuração** no menu de ação esquerdo e digite o endereço do local da instância do AEM no **Servidor** e clique em **Salvar**.
+>1. Clique no link **Registro** no menu de ação esquerdo e nas etapas abaixo para concluir o processo de registro do dispositivo.
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -43,21 +43,21 @@ O processo de registro de dispositivos é feito em duas máquinas separadas:
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
-1. No AEM, navegue até o **Dispositivos** pasta do seu projeto.
+1. No AEM, navegue até a pasta **Dispositivos** do seu projeto.
 
    >[!NOTE]
    >
    >Para obter mais informações sobre como criar um projeto para o Screens no painel AEM, consulte [Criar e gerenciar projeto do Screens](creating-a-screens-project.md).
 
-1. Clique em **Gerenciador de dispositivos** na barra de ações.
+1. Clique no botão **Gerenciador de dispositivos** na barra de ações.
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. Clique em **Registro do dispositivo** no canto superior direito.
+1. Clique no botão **Device Registration** na parte superior direita.
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. Clique no dispositivo desejado (o mesmo da etapa 1) e clique em **Registrar dispositivo**.
+1. Clique no dispositivo necessário (o mesmo da etapa 1) e clique em **Registrar dispositivo**.
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -65,11 +65,11 @@ O processo de registro de dispositivos é feito em duas máquinas separadas:
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
-1. Em seu dispositivo, verifique a **Código de registro**.
+1. Em seu dispositivo, verifique o **Código de Registro**.
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Se a variável **Código de registro** for o mesmo em ambos os computadores, clique no link **Validar** no AEM, conforme mostrado na etapa (6).
+1. Se o **Código de Registro** for o mesmo em ambos os computadores, clique no botão **Validar** no AEM, conforme mostrado na etapa (6).
 1. Defina o nome desejado para o dispositivo e clique em **Registrar**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
@@ -80,9 +80,9 @@ O processo de registro de dispositivos é feito em duas máquinas separadas:
 
    >[!NOTE]
    >
-   >A variável **Novo registro** permite registrar um novo dispositivo.
+   >O **Registrar Novo** permite registrar um novo dispositivo.
    >
-   >A variável **Atribuir exibição** permite adicionar o dispositivo diretamente a uma exibição.
+   >A **Atribuir exibição** permite que você adicione o dispositivo diretamente a uma exibição.
 
    Se você clicar em **Concluir**, atribua o dispositivo a uma exibição.
 
@@ -90,7 +90,7 @@ O processo de registro de dispositivos é feito em duas máquinas separadas:
 
    >[!NOTE]
    >
-   >Para saber mais sobre como criar e gerenciar uma exibição para o seu projeto do Screens, consulte [Criando e Gerenciando Exibições](managing-displays.md).
+   >Para saber mais sobre como criar e gerenciar uma exibição para o seu projeto do Screens, consulte [Criação e gerenciamento de exibições](managing-displays.md).
 
 ### Atribuição de dispositivo a uma exibição {#assigning-device-to-a-display}
 
@@ -100,7 +100,7 @@ Se você não atribuiu o dispositivo a uma exibição, siga as etapas abaixo par
 
    ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. Clique no caminho da exibição em **Caminho de configuração da tela/dispositivo**.
+1. Clique no caminho da exibição em **Caminho de Configuração de Exibição/Dispositivo**.
 
    ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
@@ -112,7 +112,7 @@ Se você não atribuiu o dispositivo a uma exibição, siga as etapas abaixo par
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Além disso, é possível exibir o painel de exibição selecionando **Concluir**.
+   Você também pode exibir o painel de exibição selecionando **Concluir**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -120,9 +120,9 @@ Se você não atribuiu o dispositivo a uma exibição, siga as etapas abaixo par
 
 Ao registrar dispositivos no reprodutor, você pode exibir todos os dispositivos na interface do usuário do Gerenciador de dispositivos.
 
-1. Acesse a interface do usuário do Gerenciador de dispositivos a partir de seu projeto do AEM Screens, por exemplo, **DemoScreens** > **Dispositivos**.
+1. Acesse a interface do usuário do Gerenciador de dispositivos a partir do seu projeto do AEM Screens, por exemplo, **DemoScreens** > **Dispositivos**.
 
-1. Clique em **Dispositivos** e clique em **Gerenciador de dispositivos** na barra de ações.
+1. Clique na pasta **Dispositivos** e clique em **Gerenciador de Dispositivos** na barra de ações.
 
    ![imagem](/help/user-guide/assets/device-manager/device-manager-1.png)
 
@@ -134,29 +134,29 @@ Ao registrar dispositivos no reprodutor, você pode exibir todos os dispositivos
 
    Ou,
 
-   Selecionar `/` (barra) para invocar a funcionalidade de pesquisa.
+   Selecione `/` (barra) para invocar a funcionalidade de pesquisa.
 
    ![imagem](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
 ### Limitações da funcionalidade de pesquisa {#limitations}
 
-* O usuário pode pesquisar qualquer palavra existente no *ID do dispositivo* ou *Nome do dispositivo*.
+* O usuário pode pesquisar qualquer palavra existente na *ID do dispositivo* ou no *Nome do dispositivo*.
 
   >[!NOTE]
-  >É recomendável criar os nomes dos dispositivos em várias palavras, como *`Boston Store Lobby`* em vez de um único *`BostonStoreLobby`*.
+  >É recomendável criar os nomes de dispositivos em várias palavras, como *`Boston Store Lobby`*, em vez de um único *`BostonStoreLobby`*.
 
-* Se você criou nomes de dispositivos como *`Boston Store Lobby`*, ele pesquisa qualquer palavra *`boston`*, *`store`* ou *`lobby`*. No entanto, se o nome do dispositivo for *`BostonStoreLobby`*, em seguida, procurando *`boston`* não mostra resultados.
+* Se você criou nomes de dispositivos como *`Boston Store Lobby`*, ele procura qualquer palavra *`boston`*, *`store`* ou *`lobby`*. No entanto, se o nome do dispositivo for *`BostonStoreLobby`*, a pesquisa por *`boston`* não mostrará resultados.
 
-* Curinga, `*` O é compatível com a pesquisa. Caso queira localizar todos os dispositivos com nomes que comecem com *`boston`*, você pode usar *`boston`**.
+* Curinga, `*` tem suporte para pesquisa. Caso queira localizar todos os dispositivos com nomes que começam com *`boston`*, você poderá usar *`boston`**.
 
-* Se o nome do dispositivo for *`BostonStoreLobby`* e pesquisando *`boston`* não retorna o resultado, usando *`boston`** nos critérios de pesquisa retorna o resultado.
+* Se o nome do dispositivo for *`BostonStoreLobby`* e a pesquisa por *`boston`* não retornar o resultado, o uso de *`boston`** nos critérios de pesquisa retornará o resultado.
 
 ## Limitações no registro de dispositivos {#limitations-on-device-registration}
 
 As restrições de senha de usuário em todo o sistema podem causar falha no registro do dispositivo. O registro do dispositivo usa uma senha gerada aleatoriamente para criar o usuário do dispositivo.
 
-Se a variável *AuthorizableActionProvider* restringe a senha, a criação do usuário do dispositivo pode falhar.
+Se a configuração *AuthorizableActionProvider* restringir a senha, a criação do usuário do dispositivo poderá falhar.
 
 >[!NOTE]
 >

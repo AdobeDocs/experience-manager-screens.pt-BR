@@ -11,7 +11,7 @@ ht-degree: 52%
 
 # Introdução ao AEM Screens {#introduction}
 
-**AEM Screens** O é uma Solução de sinalização digital que permite criar, publicar e reproduzir experiências digitais dinâmicas e interativas. Ela envolve diferentes tipos de telas no local, em conjunto com uma estratégia abrangente de marketing digital omnicanal.
+O **AEM Screens** é uma Solução de Sinalização Digital que permite criar, publicar e reproduzir experiências digitais dinâmicas e interativas. Ela envolve diferentes tipos de telas no local, em conjunto com uma estratégia abrangente de marketing digital omnicanal.
 
 O AEM Screens permite criar:
 
@@ -19,18 +19,18 @@ O AEM Screens permite criar:
 * **recomendações de produto**
 * **imagens de fundo do estilo de vida**
 
-Além disso, o Screens fornece várias aplicações exclusivas para clientes e funcionários com base no domínio em que as aplicações são implantadas, como:
+Além disso, a Screens fornece muitos aplicativos exclusivos para clientes e funcionários com base no domínio em que os aplicativos são implantados, como:
 
 * **exibições interativas**
 * **wayfinding**
 * **marcas**
 * **adicionar ambiência ao ambiente**
 
-Criar e gerenciar uma rede de sinalização digital usando o AEM Screens é simples e intuitivo. Um aplicativo de reprodução hospeda os canais de conteúdo criados para o AEM Screens por clientes ou parceiros de implementação. *Localizações* gerenciar uma hierarquia de localização predefinida e conter exibições. Cada *exibição* tem um painel que mostra diferentes dispositivos e telas conectados. O conteúdo do AEM Screens é gerenciado em *canais*. O *AEM Screens Player* renderiza o conteúdo presente nos canais em exibições.
+Criar e gerenciar uma rede de sinalização digital usando o AEM Screens é simples e intuitivo. Um aplicativo de reprodução hospeda os canais de conteúdo criados para o AEM Screens por clientes ou parceiros de implementação. *Os locais* gerenciam uma hierarquia de localização predefinida e contêm exibições. Cada *exibição* tem um painel que mostra diferentes dispositivos e telas conectados. O conteúdo do AEM Screens é gerenciado em *canais*. O *AEM Screens Player* renderiza o conteúdo presente nos canais em exibições.
 
 >[!NOTE]
 >
->Para saber mais detalhes sobre os diferentes recursos no desenvolvimento e gerenciamento de um projeto do AEM Screens, consulte **[Guia do usuário do AEM Screens](https://experienceleague.adobe.com/br/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
+>Para saber mais detalhes sobre os diferentes recursos no desenvolvimento e gerenciamento de um projeto do AEM Screens, consulte o **[Guia do Usuário do AEM Screens](https://experienceleague.adobe.com/br/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
 
 ## AEM Sites versus AEM Screens {#aem-sites-screens}
 
@@ -42,11 +42,11 @@ O AEM Screens fornece uma plataforma unificada de criação/reprodução para im
 
 * **Tempo de permanência**: normalmente, as páginas da Web são criadas para fornecer uma grande variedade de informações que podem ser consumidas por um tempo relativamente mais longo. Por outro lado, as experiências digitais no local devem antecipar as necessidades do visualizador e fornecer orientações claras e concisas sobre como e por que o usuário deve se envolver. Essa atenção resulta em experiências mais direcionadas, com curadoria e contextuais.
 
-* **Distância de exibição**: as distâncias de exibição são maiores ou mais distantes do que a distância de exibição típica que os usuários experimentam em um site. Como resultado, o tamanho do texto normalmente deve ser maior e o espaçamento entre o texto, as imagens e outros conteúdos complementares deve ser testado com base no tamanho e no posicionamento previstos da tela no espaço físico.
+* **Distância de Exibição**: as distâncias de exibição são maiores ou mais distantes do que a distância de exibição típica que os usuários experimentam em um site. Como resultado, o tamanho do texto normalmente deve ser maior e o espaçamento entre o texto, as imagens e outros conteúdos complementares deve ser testado com base no tamanho e no posicionamento previstos da tela no espaço físico.
 
-* **Persistência**: o estado conectado do dispositivo de reprodução nunca deve influenciar se as experiências digitais são entregues ao usuário. O dispositivo de reprodução deve ser criado de modo que uma ou mais experiências sempre persistam e possam ser entregues, independentemente do estado conectado do dispositivo de reprodução.
+* **Persistência**: o estado conectado do dispositivo de reprodução nunca deve influenciar se as experiências digitais serão entregues ao usuário. O dispositivo de reprodução deve ser criado de modo que uma ou mais experiências sempre persistam e possam ser entregues, independentemente do estado conectado do dispositivo de reprodução.
 
-* **Segmentação do loop de mídia**: configurar cada dispositivo de reprodução para ter seu próprio segmento de loop garante que o conteúdo localizado possa ser facilmente criado, publicado e reproduzido dentro da experiência digital geral. Os ativos de mídia contidos nos canais de sequência incorporados são adicionados ao segmento de loop anterior e oferecem a oportunidade de direcionar um segmento de loop de mídia para cada agrupamento de local.
+* **Segmentação do Loop de Mídia**: configurar cada dispositivo de reprodução para ter seu próprio segmento de loop garante que o conteúdo localizado possa ser facilmente criado, publicado e reproduzido dentro da experiência digital geral. Os ativos de mídia contidos nos canais de sequência incorporados são adicionados ao segmento de loop anterior e oferecem a oportunidade de direcionar um segmento de loop de mídia para cada agrupamento de local.
 
 * **Experiências interativas**: um aplicativo de quiosque habilitado para toque pode ser criado e entregue em um canal do Screens usando AEM e o editor SPA. É uma prática recomendada aplicar propriedades consistentes de design omnicanal, um temporizador de inatividade para redefinir a experiência e um call to action claro para quais tarefas o aplicativo pode executar. A página de aterrissagem deve consistir em elementos digitais principais, criados para transmitir valor, atrair o usuário para a tela e solicitar que o usuário se envolva.
 

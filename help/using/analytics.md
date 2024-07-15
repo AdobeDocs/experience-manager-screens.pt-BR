@@ -19,9 +19,9 @@ O AEM Screens pode capturar localmente todos os eventos rastreáveis que cada di
 
 Há dois motivos fundamentais pelos quais você pode desejar capturar esses dados.
 
-O primeiro envolve **loops de feedback e aprendizado de máquina** enquanto o segundo envolve a **criação de gráficos, painéis e relatórios** destinados ao consumo humano.
+O primeiro envolve **loops de comentários e aprendizado de máquina**, enquanto o segundo envolve **criação de gráficos, painéis e relatórios** destinados ao consumo humano.
 
-No caso de uso de loop de comentários, não é necessário se preocupar com relatórios visuais ou painéis, mas, em vez disso, você deseja definir regras nas quais o AEM pode ser executado para modificação de conteúdo. Consumindo e processando todos os dados do evento do reprodutor do Screens de um determinado período, você pode definir uma regra que avalie a eficácia da image1 versus image2. Ao combinar dados de vendas com dados de reprodução, o AEM pode determinar que a image1 tem um maior impacto nas vendas e instrui automaticamente todos os players a usar a image1.
+No caso de uso de loop de comentários, não é necessário se preocupar com relatórios visuais ou painéis, mas, em vez disso, você deseja definir regras nas quais o AEM pode ser executado para modificação de conteúdo. Ao consumir e processar todos os dados do evento do Screens player de um determinado período, você pode definir uma regra que avalia a eficácia da image1 versus image2. Ao combinar dados de vendas com dados de reprodução, o AEM pode determinar que a image1 tem um maior impacto nas vendas e instrui automaticamente todos os players a usar a image1.
 
 O segundo caso de uso que usa o Analytics é para processar eventos de reprodução e dados de uso para consumo humano por meio de relatórios e painéis.
 Você pode usar esses dados para criar um mapa de calor de uma experiência interativa para determinar o mapa de jornadas preferido por meio do aplicativo. Você também pode optar por criar um painel que forneça uma interpretação gráfica de quantas vezes os consumidores interagem com o aplicativo.

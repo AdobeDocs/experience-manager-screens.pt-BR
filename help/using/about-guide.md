@@ -41,4 +41,4 @@ Este guia fornece um insight abrangente e conselhos práticos para imaginar, pro
 > Termos usados neste Guia (no contexto do AEM Screens):
 >
 > * **UX** refere-se às experiências de sinalização digital oferecidas aos clientes finais.
-> * **IU** é considerada a interface do usuário que permite criar e gerenciar os projetos no Screens.
+> * **Interface** refere-se à interface do usuário que permite criar e gerenciar seus projetos no Screens.

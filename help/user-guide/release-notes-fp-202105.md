@@ -21,10 +21,10 @@ ht-degree: 3%
 
 O AEM Screens lançou o AEM 6.5 Feature Pack 8.
 
-Baixe o Feature Pack mais recente do AEM Screens versão 6.5.8 em [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente denominado como **AEM 6.5 Screens FP8**.
+Você pode baixar o Feature Pack mais recente para a versão AEM Screens 6.5.8 do [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o Pacote de Recursos mais recente denominado **AEM 6.5 Screens FP8**.
 
 >[!IMPORTANT]
->Instale a versão mínima do AEM 6.5 Feature Pack 8 para o conector AMS para funcionar após instalar os pacotes `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16`, e o `screens core bundles`.
+>Instale a versão mínima do AEM 6.5 Feature Pack 8 para o conector AMS para funcionar após instalar os pacotes `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` e `screens core bundles`.
 
 ## Data de lançamento {#release-date}
 
@@ -32,11 +32,11 @@ A data de lançamento do Pacote de recursos 202105 do AEM Screens é 4 de junho 
 
 ### Novidades {#what-is-new}
 
-* **Bloquear página em um canal do AEM Screens**
+* **Bloqueando página em um canal do AEM Screens**
 
-  O AEM Screens agora oferece suporte *Bloquear uma página*, já implementado no AEM Sites. O Adobe Experience Manager (AEM) permite bloquear uma página, de modo que ninguém mais possa editar o conteúdo. Esse recurso é útil ao fazer várias edições em uma página específica ou quando é necessário congelar uma página por pouco tempo.
+  O AEM Screens agora oferece suporte ao *Bloqueio de Página*, conforme já implementado no AEM Sites. O Adobe Experience Manager (AEM) permite bloquear uma página, de modo que ninguém mais possa editar o conteúdo. Esse recurso é útil ao fazer várias edições em uma página específica ou quando é necessário congelar uma página por pouco tempo.
 
-* **Nomeação do dispositivo AEM Screens Player**
+* **Nomeando Dispositivo AEM Screens Player**
 
   Os players do AEM Screens agora incluem a capacidade de enviar um nome de dispositivo para o Adobe Experience Manager (AEM).
 Por padrão, quando o registro em massa é usado para registrar um dispositivo, um nome de usuário gerado pelo sistema é inserido no campo de título. Como alternativa, um cliente pode usar uma tag de ativo ou outro nome amigável para que seja visível no AEM e mais fácil atribuir o conteúdo apropriado.
@@ -46,7 +46,7 @@ Por padrão, quando o registro em massa é usado para registrar um dispositivo, 
    * [Android](/help/user-guide/implementing-android-player.md#name-android)
    * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
    * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [SO Chrome](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+   * [SO CHROME](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
 * **Geração de manifesto**
 
@@ -55,7 +55,7 @@ Por padrão, quando o registro em massa é usado para registrar um dispositivo, 
 ### Correções de erros {#bug-fixes}
 
 * O reprodutor exibia uma tela preta ao alternar para um canal contendo uma sequência incorporada dinâmica.
-* Os reprodutores do Screens agora bloqueiam a alternância para qualquer canal corrompido que evita ainda mais um erro 404 ou uma página com uma mensagem de erro.
+* Os players do Screens agora bloqueiam a alternância para qualquer canal com falha que evita um erro 404 ou uma página com uma mensagem de erro.
 
 ### Players do AEM Screens lançados
 

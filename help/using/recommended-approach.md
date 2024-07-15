@@ -17,30 +17,40 @@ A prática recomendada é considerar qualquer projeto AEM Screens de nível empr
 
 Consulte as poucas recomendações antes de desenvolver e implantar um projeto de sinalização digital:
 
-* **Controle do escopo**: se a solução desejada for ambiciosa, é recomendável dividir os resultados em fases distintas para controlar o escopo do projeto.
+* **Controle de Escopo**:
+Se a solução desejada for ambiciosa, é recomendável dividir os resultados em fases distintas para controlar o escopo do projeto.
 
-* **Casos de uso definidos**: as fases do projeto devem fornecer casos de uso bem definidos com critérios de sucesso claramente identificados.
+* **Casos de uso definidos**:
+As fases do projeto devem fornecer casos de uso bem definidos com critérios de sucesso claramente identificados.
 
-* **Entregáveis incrementais**: Concentre-se em fornecer recursos de forma incremental.
+* **Entregas Incrementais**:
+Concentre-se em fornecer recursos de forma incremental.
 
-* **Estimativa do resultado desejado**: comece com recursos prontos para uso do AEM Screens antes de criar componentes e integrações personalizados. Sempre faça um brainstorming se o resultado desejado puder ser atingido usando os componentes e recursos que acompanham o AEM Screens por padrão.
+* **Estimando o resultado desejado**:
+Comece com os recursos prontos para uso do AEM Screens antes de criar componentes e integrações personalizados. Sempre faça um brainstorming se o resultado desejado puder ser atingido usando os componentes e recursos que acompanham o AEM Screens por padrão.
 
-* **Definição de pilotos, implantações e POCs**: desenvolva uma Prova de conceito (POCs) e adapte-a conforme necessário por meio de um piloto e uma implantação.
+* **Definindo pilotos, implantações e POCs**:
+Desenvolva uma Prova de Conceito (POCs) e adapte-a conforme necessário por meio de um piloto e uma implantação.
 
-* **Pré-definindo a estratégia de conteúdo**: Estabeleça uma estratégia de conteúdo, incluindo metas de curto e longo prazo. Além disso, alinhe as metas da marca/KPIs com as melhorias de recursos.
+* **Estratégia predefinindo conteúdo**:
+Estabelecer uma estratégia de conteúdo, incluindo metas de curto e longo prazo. Além disso, alinhe as metas da marca/KPIs com as melhorias de recursos.
 
   >[!NOTE]
   >
   > Os custos iniciais geralmente são mais altos em um projeto AEM Screens devido à necessidade de investir em hardware, dispositivos fixos e designs de site. Portanto, manter as soluções de conteúdo inicial mais simples pode ajudar a gerenciar as expectativas de orçamento.
 
-* **Estimativa de materiais de entrega em grande escala**: se a solução for fornecida em grande escala, implante os componentes do aplicativo em locais piloto selecionados cuidadosamente para uso de avaliação. Enviar para novos locais e dispositivos à medida que o aplicativo passar na validação.
+* **Estimativa de Entregas em Larga Escala**:
+Se a solução for fornecida em grande escala, implante os componentes do aplicativo em locais piloto selecionados cuidadosamente para uso de avaliação. Enviar para novos locais e dispositivos à medida que o aplicativo passar na validação.
 
   >[!NOTE]
   >
   > Comece a coletar análises durante o piloto para que as equipes de negócios possam validar o sucesso da solução em relação às métricas específicas que estão tentando alcançar. Conhecer o desempenho do piloto ajuda a equipe de negócios a determinar as melhorias que devem ser feitas.
 
-* **Dividindo Entregáveis em tarefas mensuráveis**: dividir a entrega de recursos em tarefas mensuráveis permite feedback, fornece metas mais alcançáveis e reduz os riscos gerais do projeto.
+* **Dividindo Entregas em tarefas mensuráveis**:
+Dividir a entrega de recursos em tarefas mensuráveis permite feedback, fornece metas mais alcançáveis e reduz os riscos gerais do projeto.
 
-* **Desenvolver um roteiro**: se o cliente quiser um produto com muitos recursos, forneça uma parte da funcionalidade planejada no início do projeto e programe outros recursos para as fases futuras. Um primeiro produto com muitos recursos traz mais riscos e é mais difícil de validar com o cliente.
+* **Desenvolvendo um roteiro**:
+Se o seu cliente quiser um produto rico em recursos, forneça uma parte da funcionalidade planejada no início do projeto e programe outros recursos para as fases futuras. Um primeiro produto com muitos recursos traz mais riscos e é mais difícil de validar com o cliente.
 
-* **Noções básicas sobre o escopo das integrações personalizadas**: componentes interativos com interação na tela de toque, sensor de movimento ou RFID exigem um desenvolvimento personalizado significativo no método de implementação. Uma apresentação de slides, anúncio de vídeo ou menu estático pode ser fornecido como conteúdo gráfico ou HTML em um canal do Screens.
+* **Noções básicas sobre o escopo das integrações personalizadas**:
+Componentes interativos com interação na tela sensível ao toque, sensor de movimento ou RFID exigem um desenvolvimento personalizado significativo no método de implementação. Uma apresentação de slides, anúncio de vídeo ou menu estático pode ser fornecido como conteúdo gráfico ou HTML em um canal do Screens.

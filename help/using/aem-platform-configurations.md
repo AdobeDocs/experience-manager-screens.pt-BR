@@ -19,21 +19,21 @@ Comece a usar o AEM Screens seguindo as seções abaixo para definir as configur
 
 ## Configurações do servidor {#server-configurations}
 
-Para definir as configurações do servidor, consulte [Configurações do servidor](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration).
+Para definir as configurações do servidor, consulte [Configurações do Servidor](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration).
 
-## Autor-Publicação {#author-publish}
+## Autor-Publish {#author-publish}
 
-Consulte [Configuração do Author e Publish no AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
+Consulte [Configurando o Author e o Publish no AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
 
 >[!NOTE]
 >
->Se houver apenas um Autor e uma Publicação, você só poderá seguir as etapas em **Configuração dos agentes de replicação no autor** in [Configuração do Author e Publish no AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) página.
+>Se houver apenas um Autor e uma Publish, você só poderá seguir as etapas em **Configuração de Agentes de Replicação no Autor** na [Configuração de Autor e Publish na página AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
 
 ## Configurações do Dispatcher {#dispatcher-configurations}
 
-O Dispatcher é a ferramenta de balanceamento de carga e cache do Adobe Experience Manager. Usar o Dispatcher do AEM também ajuda a proteger seu servidor AEM contra ataques. Portanto, você pode aumentar a segurança da instância do AEM usando o Dispatcher com um servidor Web de classe empresarial.
+O Dispatcher é a ferramenta de balanceamento de carga e cache do Adobe Experience Manager. Usar o Dispatcher do AEM também ajuda a proteger seu servidor AEM contra ataques. Portanto, você pode aumentar a segurança da sua instância do AEM usando o Dispatcher com um servidor da Web de classe empresarial.
 
-Consulte **[Configurações do Dispatcher para o AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)** que destaca as diretrizes para configurar o Dispatcher para um projeto do AEM Screens.
+Consulte **[Configurações do Dispatcher para AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)**, que destaca as diretrizes para configurar o Dispatcher para um projeto do AEM Screens.
 
 ## Instalação de FFMpeg e representações de vídeo {#installing-ffmpeg}
 
@@ -44,13 +44,13 @@ Instale o FFMpeg seguindo as etapas do sistema operacional apropriado (geralment
 
    >[!NOTE]
    >
-   >A variável `-strict -2` deve ser o último parâmetro na lista de parâmetros. Além disso, no AEM 6.4, copie os nós em */libs/settings/dam/video* para */conf/global/settings/dam/video* conforme mencionado no [Representações de vídeo](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
+   >O `-strict -2` deve ser o último parâmetro da lista de parâmetros. Além disso, no AEM 6.4, copie os nós em */libs/settings/dam/video* para */conf/global/settings/dam/video* como mencionado em [Representações de vídeo](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
 1. Verifique se as conversões de vídeo estão ocorrendo e se as representações estão sendo criadas.
 
 ## Restrições de senha {#password-restrictions}
 
 A política de senha do AEM deve ser desativada na instância do AMS. Ele também pode ser configurado alternadamente no console da Web usando o serviço de dispositivo do Screens *com.adobe.cq.screens.device.impl.DeviceService*
-Consulte **Restrições de senha** seção em[Configuração do Author e Publish no AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
+Consulte a seção **Restrições de senha** em[Configurando o Author e o Publish no AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## Configuração dos ambientes {#setting-up-environments}
 
@@ -60,12 +60,13 @@ Instale e execute as versões mais recentes dos seguintes pacotes para a sua ver
 * Pacote de recursos do Screens
 * AEM Cumulative Fix Pack
 
-Além do que foi descrito acima, identifique todos os pacotes de desenvolvimento (por exemplo, componentes principais do WCM) ou kits de ferramentas de terceiros (por exemplo, SAP Hybris) necessários.
+Além do exposto acima, identifique quaisquer pacotes de desenvolvimento (por exemplo, WCM Core
+componentes) ou kits de ferramentas de terceiros (por exemplo, SAP Hybris) necessários.
 Instale os mesmos pacotes de software no ambiente de desenvolvimento local. Instrua seu cliente a adotar a mesma configuração em todos os servidores de controle de qualidade, Preparo e Produção. Configurações de servidor incompatíveis criam problemas ao implantar e testar.
 
 >[!NOTE]
 >
->Para instalar o Feature Pack mais recente do AEM Screens, consulte [Notas de versão](https://experienceleague.adobe.com/br/docs/experience-manager-screens/user-guide/aem-screens-introduction).
+>Para instalar o Feature Pack mais recente do AEM Screens, consulte as [Notas de Versão](https://experienceleague.adobe.com/br/docs/experience-manager-screens/user-guide/aem-screens-introduction).
 
 ## Configurando ACLs {#setting-up-acls}
 

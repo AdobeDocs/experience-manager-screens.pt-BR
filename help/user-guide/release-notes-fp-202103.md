@@ -21,7 +21,7 @@ ht-degree: 2%
 
 O AEM Screens lançou o AEM 6.5 Feature Pack 7.
 
-Baixe o Feature Pack mais recente do AEM Screens 6.5.7 na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente denominado como **AEM 6.5 Screens FP7**.
+Você pode baixar o Feature Pack mais recente para a versão AEM Screens 6.5.7 do [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o Pacote de Recursos mais recente denominado **AEM 6.5 Screens FP7**.
 
 ## Data de lançamento {#release-date}
 
@@ -38,7 +38,7 @@ A data de lançamento do Pacote de recursos do AEM Screens 202103 é 5 de março
 
 * **Provisionamento em massa do Android™ Player usando o Enterprise Mobility Management**
 
-  Ao implantar o Android™ player em massa, é entediante registrar cada player manualmente com AEM. É altamente recomendável usar uma solução de EMM (Enterprise Mobility Management, Gerenciamento de mobilidade corporativa) como `VMWare Airwatch`, `MobileIron`ou `Samsung Knox` para provisionar e gerenciar a implantação remotamente. O AEM Screens Android™ player oferece suporte ao EMM AppConfig padrão do setor para permitir o provisionamento remoto.
+  Ao implantar o Android™ player em massa, é entediante registrar cada player manualmente com AEM. É altamente recomendável usar uma solução de EMM (Enterprise Mobility Management), como o `VMWare Airwatch`, `MobileIron` ou `Samsung Knox`, para provisionar e gerenciar a implantação remotamente. O AEM Screens Android™ player oferece suporte ao EMM AppConfig padrão do setor para permitir o provisionamento remoto.
 
   Consulte [Provisionamento em massa do Android™ Player usando o Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) para obter mais detalhes.
 
@@ -49,11 +49,11 @@ A data de lançamento do Pacote de recursos do AEM Screens 202103 é 5 de março
 
 * A migração SmartSync causaria uma falha no reprodutor se o cache não fosse invalidado.
 
-* Caches offline não foram criados, se a Atribuição tivesse *OfflineConfig*.
+* Os caches offline não foram criados, se a Atribuição tivesse *OfflineConfig*.
 
-* Atualizações para `Tizen` player que foi interrompido porque não há suporte para política de referenciador de origem estrita quando origem cruzada.
+* Atualizações para o player `Tizen` que falharam porque não há suporte para política de referenciador strict-origin-when-cross-origin.
 
-* Alteração da programação do canal atribuído *Repetições* estava quebrando a interface do usuário.
+* A alteração do campo de programação *Repetições* do canal atribuído estava quebrando a interface do usuário.
 
 * A atualização do conteúdo offline falhava com exceções de consulta.
 
@@ -65,7 +65,7 @@ A data de lançamento do Pacote de recursos do AEM Screens 202103 é 5 de março
 
 Os seguintes players de AEM Screens são lançados para AEM 6.5 Feature Pack 7:
 
-* SO Chrome
+* SO CHROME
 * Windows
 * Linux®
 

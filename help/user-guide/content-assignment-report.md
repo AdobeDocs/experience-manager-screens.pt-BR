@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # Relatório de atribuição de conteúdo {#content-assignment-report}
 
-O recurso Relatório de atribuição de conteúdo permite que um administrador ou autor do AEM Screens exporte uma *Relatório de atribuição de conteúdo* em formato de planilha.
+O recurso Relatório de atribuição de conteúdo permite que um administrador ou autor do AEM Screens exporte um *Relatório de atribuição de conteúdo* em formato de planilha.
 
 ## Uso do relatório de atribuição de conteúdo {#using-content-assignment-report}
 
 O Relatório de atribuição de conteúdo permite que um autor do AEM Screens ou um administrador baixe o relatório que contém todos os ativos, como imagens, vídeos em todos os canais criados em um projeto do AEM Screens. Além disso, inclui as informações de todos os canais atribuídos a todas as exibições designadas e, de agora em diante, todos os dispositivos atribuídos a suas exibições designadas.
 
-O Relatório de atribuição de conteúdo não só permite uma pré-visualização de todos os canais, ativos, exibições e dispositivos no projeto AEM Screens selecionado, como também fornece uma estrutura de alto nível do seu projeto.
+O Relatório de atribuição de conteúdo não só permite uma pré-visualização de todos os canais, Assets, exibições e dispositivos no projeto AEM Screens selecionado, como também fornece uma estrutura de alto nível do seu projeto.
 
 
 ### Pré-requisitos {#pre-reqs}
@@ -51,13 +51,13 @@ Siga as instruções abaixo para baixar o Relatório de atribuição de conteúd
 
    ![imagem](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. A planilha baixada consiste em duas guias, como **Localizações** e **Conteúdo**. A guia Local exibe quatro colunas, como **Localizações**, **Exibições**, **Canais**, e **Dispositivos** que pode ser usado para investigar essas quatro entidades pertencentes ao seu projeto do AEM Screens.
+1. A planilha baixada consiste em duas guias, como **Locais** e **Conteúdo**. A guia Local exibe quatro colunas, como **Locais**, **Exibições**, **Canais** e **Dispositivos**, que podem ser usadas para investigar essas quatro entidades pertencentes ao seu projeto do AEM Screens.
 
    ![imagem](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 
    >[!NOTE]
    >Os dados exibidos na planilha são classificados em ordem alfabética em um formato fácil de ler.
 
-1. Selecionar qualquer um dos canais no **Canais** abre a variável **Conteúdo** guia. Por sua vez, ele navega diretamente para esse canal e fornece informações sobre ativos (imagens e vídeos) associados a esse canal específico.
+1. Selecionar qualquer um dos canais na coluna **Canais** abre a guia **Conteúdo**. Por sua vez, ele navega diretamente para esse canal e fornece informações sobre ativos (imagens e vídeos) associados a esse canal específico.
 
    ![imagem](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

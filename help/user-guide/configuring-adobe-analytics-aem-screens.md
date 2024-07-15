@@ -28,12 +28,12 @@ ht-degree: 10%
 
 Esta seção abrange os seguintes tópicos:
 
-* **Sequenciamento no Adobe Analytics com AEM Screens**
-* **Envio De Eventos Personalizados Usando Adobe Analytics Offline**
+* **Sequenciamento no Adobe Analytics com o AEM Screens**
+* **Enviando Eventos Personalizados Usando Adobe Analytics Offline**
 
 ## Sequenciamento no Adobe Analytics com AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-A variável ***processo de sequenciamento*** O começa com um serviço de armazenamento de dados que ativa o serviço do Adobe Analytics. O conteúdo do canal envia eventos do Adobe Analytics com folha de pagamento, ou seja, a captura do teste de dados para o Windows I/O e os eventos de permanência são acionados. Os eventos são salvos no banco de dados de índice e são colocados no armazenamento de objetos. Com base no agendamento que o administrador define, ele corta os dados do armazenamento de objetos e os transfere posteriormente no armazenamento de partes. Ele tenta enviar a quantidade máxima de dados quando conectado.
+O ***processo de sequenciamento*** começa com um serviço de armazenamento de dados que ativa o serviço Adobe Analytics. O conteúdo do canal envia eventos do Adobe Analytics com folha de pagamento, ou seja, a captura do teste de dados para o Windows I/O e os eventos de permanência são acionados. Os eventos são salvos no banco de dados de índice e são colocados no armazenamento de objetos. Com base no agendamento que o administrador define, ele corta os dados do armazenamento de objetos e os transfere posteriormente no armazenamento de partes. Ele tenta enviar a quantidade máxima de dados quando conectado.
 
 ### Diagrama de Sequenciamento {#sequencing-diagram}
 
@@ -99,7 +99,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td>recomendado</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Nome do fluxo de trabalho (Telas)</td> 
+   <td>Nome do fluxo de trabalho (Screens)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -108,7 +108,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td>obrigatório</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Categoria principal (DESKTOP, DISPOSITIVO MÓVEL, WEB, PROCESSO, SDK, SERVIÇO, ECOSSISTEMA) - Agrupamento de tipos de evento - <strong>Player enviado</strong></td> 
+   <td>Categoria Principal (DESKTOP, DISPOSITIVO MÓVEL, WEB, PROCESSO, SDK, SERVIÇO, ECOSSISTEMA) - Agrupamento de tipos de evento - <strong>Player enviado</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -169,7 +169,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td>GUID do dispositivo</td> 
    <td>event.device_guid</td> 
    <td>opcional</td> 
-   <td>string<br /> </td> 
+   <td>cadeia de caracteres<br /> </td> 
    <td>UUID</td> 
    <td>Identifica o GUID do dispositivo (por exemplo, ID da máquina ou hash do endereço IP + máscara de sub-rede + ID da rede + agente do usuário) - Aqui o nome de usuário do reprodutor gerado no momento do registro é enviado.</td> 
   </tr>
@@ -234,10 +234,10 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td> </td> 
    <td>string</td> 
    <td> </td> 
-   <td>Descrição da falha<br /> </td> 
+   <td>Descrição da Falha<br /> </td> 
   </tr>
   <tr>
-   <td><strong><em>Origem/Produto originário</em></strong></td> 
+   <td><strong><em>Source/Produto originário</em></strong></td> 
    <td>Nome</td> 
    <td>source.name</td> 
    <td>obrigatório</td> 

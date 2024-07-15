@@ -20,13 +20,13 @@ ht-degree: 0%
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
-***Serviço de notificações do AEM Screens*** descreve a atividade do dispositivo de monitor.
+O ***Serviço de Notificações do AEM Screens*** descreve a atividade do dispositivo de monitoramento.
 
 Esta seção abrange os seguintes tópicos:
 
 * **Visão geral**
-* **Definição das configurações de email**
-* **Notificação por e-mail**
+* **Definindo Configurações de Email**
+* **Notificação por email**
 * **Exemplo de caso de uso**
 
 <!-- OBSOLETE NOTE>
@@ -38,7 +38,7 @@ Esta seção abrange os seguintes tópicos:
 
 ## Visão geral {#overview}
 
-***Serviço de notificações do AEM Screens*** O permite que os administradores recebam um email se um AEM Screens Player não executar ping por um tempo configurável.
+O ***Serviço de Notificações do AEM Screens*** permite que os administradores recebam um email se um AEM Screens Player não executar ping por um tempo configurável.
 
 Esse serviço pode ser configurado no console da Web do OSGi.
 
@@ -46,14 +46,14 @@ Esse serviço pode ser configurado no console da Web do OSGi.
 
 Siga as etapas abaixo para definir as configurações de notificação por email:
 
-1. Abertura **Configuração do console da Web do Adobe Experience Manager**.
-1. Abertura **Serviço de monitoramento de email do dispositivo do Screens**.
+1. Abra A **Configuração Do Console Da Web Do Adobe Experience Manager**.
+1. Abra o **Serviço de Monitoramento de Email de Dispositivo do Screens**.
 
    ![screen_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
 
 1. Defina os seguintes campos para poder definir as configurações do email:
 
-   **Caminho dos dispositivos** Insira o caminho para os projetos do Screens que você deseja monitorar. Normalmente, o caminho é `/home/users/screens/<Name of your project>`.
+   **Caminho dos Dispositivos** Insira o caminho para os Projetos Screens que você deseja monitorar. Normalmente, o caminho é `/home/users/screens/<Name of your project>`.
 
    Por exemplo, se o seu projeto for **`We.Retail`**, use o caminho do projeto como ***/home/users/screens/we-retail***.
 
@@ -61,13 +61,13 @@ Siga as etapas abaixo para definir as configurações de notificação por email
    >
    >Especifique o caminho do projeto, onde os usuários do dispositivo estão localizados.
 
-   **Frequência de programação** - Especifique uma hora (por exemplo, 17:00 ou 17:00) ou frequência em horas (por exemplo, 1) em que esse monitor deve enviar emails.
+   **Frequência de Agendamento** - Especifique uma hora (por exemplo, 17:00 ou 17:00) ou a frequência em horas (por exemplo, 1) em que esse monitor deve enviar emails.
 
    **Tempo limite de ping** - Este campo especifica o intervalo em minutos após o qual um dispositivo deve ser considerado inacessível.
 
-   **Servidor SMTP** - Especifica o servidor SMTP usado para enviar emails.
+   **Servidor SMTP** - Especifica o Servidor SMTP que é usado para enviar emails.
 
-   **Porta SMTP** - Insira a porta SMTP.
+   **Porta SMTP** - Insira a Porta SMTP.
 
    **Usar TLS** - O protocolo TLS permite usar uma comunicação segura com o servidor SMTP.
 
@@ -77,13 +77,13 @@ Siga as etapas abaixo para definir as configurações de notificação por email
 
    **senha** - Especifique a senha para enviar emails.
 
-   **Recipient** - Especifique o endereço de email do recipient.
+   **Destinatário** - Especifique o endereço de email do destinatário.
 
    >[!NOTE]
    >
    >Você pode inserir apenas um endereço de email. Para enviar um email em massa, crie um grupo ou lista de distribuição com os usuários relevantes.
 
-1. Clique em **Salvar** para configurar a atividade do monitor por meio de um email para o seu dispositivo AEM Screens.
+1. Clique em **Salvar** para configurar a atividade de monitor por meio de um email para o seu dispositivo AEM Screens.
 
 ## Notificação por e-mail {#email-notification}
 
@@ -98,7 +98,7 @@ Os emails só serão enviados se:
 
 ### Exemplo de casos de uso {#example-use-cases}
 
-O exemplo a seguir descreve alguns cenários para referência, para configurar as propriedades do Serviço de monitoramento de email do dispositivo do Screens.
+O exemplo a seguir descreve alguns cenários para referência, para configurar as propriedades do Serviço de monitoramento de email de dispositivo do Screens.
 
 **Cenário 1**
 

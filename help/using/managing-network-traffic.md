@@ -16,8 +16,8 @@ Uma Configuração de rede pode ter várias estruturas. Esta seção descreve as
 Este guia destaca uma introdução aos servidores proxy, seguida pelas várias estruturas de rede configuradas em diferentes organizações.
 
 >[!NOTE]
->**Requisitos de rede da AEM Screens**
->O AEM Screens se comunica diretamente com o AEM as a Cloud Service, portanto, é necessário estabelecer uma conexão estável entre os dois nós. Os firewalls são obrigatórios para o acesso comercial à Internet. Como cliente, compreenda quais portas de comunicação devem ser abertas nesses firewalls e outros componentes de rede relacionados à segurança da TI.
+>**Requisitos de Rede da AEM Screens**
+>O AEM Screens se comunica diretamente com a AEM as a Cloud Service, portanto, é necessário estabelecer uma conexão estável entre os dois nós. Os firewalls são obrigatórios para o acesso comercial à Internet. Como cliente, compreenda quais portas de comunicação devem ser abertas nesses firewalls e outros componentes de rede relacionados à segurança da TI.
 
 ## Visão geral para servidores proxy {#proxy-servers}
 
@@ -35,14 +35,14 @@ Este guia destaca quatro tipos diferentes de configurações de rede em uma orga
 
 * **[Rede de Internet Direta (Com Fio/Sem Fio)](/help/using/direct-internet-network.md)**
 * **[Rede móvel direta](/help/using/mobile-network.md)**
-* **[Rede Móvel com Roteador de Dados Móvel e Componentes de Rede Ativos](/help/using/mobile-network-router.md)**
-* **[Rede corporativa fechada (com fio/wireless)](/help/using/enclosed-corporate-network.md)**
+* **[Rede Móvel com Roteador de Dados Móveis e Componentes de Rede Ativos](/help/using/mobile-network-router.md)**
+* **[Rede Corporativa Fechada (Com Fio/Sem Fio)](/help/using/enclosed-corporate-network.md)**
 
 A tabela a seguir descreve os diferentes tipos de configurações de rede com vantagens e desvantagens:
 
 | Configuração de rede | Vantagens | Desvantagens |
 |--- |--- |--- |
-| **Rede de Internet Direta (Com Fio/Sem Fio)** | Fácil e direto para a configuração<br>Boa opção para instalações de médio porte ou maiores<br>A rede dedicada pode ser encapsulada<br>Alguns pontos de falha<br>Relativamente barato<br>Boa escalabilidade | Plano de dados de Internet obrigatório |
-| **Rede móvel direta** | Fácil de configurar<br>Boa escolha para instalações de médio ou grande porte<br>Boa escalabilidade<br>Telas encapsuladas | Conexão obrigatória com a Internet |
-| **Rede Móvel com Roteador de Dados Móvel e Componentes de Rede Ativos** | Fácil de configurar<br>Boa escolha para instalações de médio ou grande porte<br>A rede dedicada pode ser encapsulada<br>Alguns pontos de falha<br>Relativamente barato<br>Boa escalabilidade | Plano de dados de Internet obrigatório |
-| **Rede corporativa fechada (com fio/wireless)** | Alta flexibilidade e escalabilidade<br>Altamente seguro devido a diferentes linhas de defesa<br>Redes encapsuladas<br>Fácil de monitorar e manter<br>Confiável | Complicado e caro<br>Recomendado para especialistas em rede ou integradores de sistemas |
+| **Rede de Internet Direta (Com Fio/Sem Fio)** | Fácil e direto para configurar<br>Boa opção para instalações de médio porte ou maiores<br>A rede dedicada pode ser encapsulada<br>Alguns pontos de falha<br>Relativamente barato<br>Boa escalabilidade | Plano de dados de Internet obrigatório |
+| **Rede móvel direta** | Fácil de configurar<br>Boa opção para instalações de médio ou grande porte<br>Boa escalabilidade<br>Encapsulated Screens | Conexão obrigatória com a Internet |
+| **Rede Móvel com Roteador de Dados Móveis e Componentes de Rede Ativos** | Fácil de configurar<br>Boa opção para instalações de médio ou grande porte<br>A rede dedicada pode ser encapsulada<br>Alguns pontos de falha<br>Relativamente barato<br>Boa escalabilidade | Plano de dados de Internet obrigatório |
+| **Rede Corporativa Fechada (Com Fio/Sem Fio)** | Alta flexibilidade e escalabilidade<br>Altamente Seguro devido a Diferentes Linhas de Defesa<br>Redes Encapsuladas<br>Fácil de Monitorar e Manter<br>Confiável | Complicado e caro<br>Recomendado para especialistas em rede ou integradores de sistemas |

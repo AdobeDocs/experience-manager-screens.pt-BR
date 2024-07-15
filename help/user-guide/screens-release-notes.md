@@ -30,16 +30,16 @@ A data de lançamento do Pacote de recursos 2018 da AEM Screens é 1º de outubr
 
 ### Novidades {#what-s-new}
 
-* **Relatórios de prova de atividade do Adobe Analytics**: Consulte [Integração do Adobe Analytics com o AEM Screens](adobe-analytics-integration-aem-screens.md) para saber mais.
+* **Relatórios de Prova de Reprodução do Adobe Analytics**: Consulte [Integração do Adobe Analytics com o AEM Screens](adobe-analytics-integration-aem-screens.md) para saber mais.
 
-* **Adobe Analytics permite que os players armazenem em cache e enviem `playback` eventos para o Adobe Analytics**: Consulte [Configuração do Adobe Analytics com AEM Screens](configuring-adobe-analytics-aem-screens.md) para saber mais.
+* **Adobe Analytics Habilite os players a armazenar em cache e enviar `playback` eventos para o Adobe Analytics**: consulte [Configurar o Adobe Analytics com o AEM Screens](configuring-adobe-analytics-aem-screens.md) para saber mais.
 
-* **Atualização em massa de conteúdo off-line**: permite atualizar todos os canais em massa e evita o incômodo de navegar até um canal específico e atualizar o conteúdo. Consulte [Atualização offline em massa](bulk-offline-update.md) para saber mais.
+* **Atualização em massa do conteúdo offline**: permite atualizar todos os canais em massa e evita o incômodo de navegar até um canal específico e atualizar o conteúdo. Consulte [Atualização offline em massa](bulk-offline-update.md) para saber mais.
 
-* **Publicar canais em massa em todas as instâncias de publicação**
-* **Mecanismo aprimorado de registro do player**: é possível especificar o número máximo de arquivos de log para um AEM Screens Player. Consulte [Trabalhar com um reprodutor do AEM Screens](working-with-screens-player.md) para obter mais detalhes.
+* **Canais do Publish em massa para todas as instâncias de publicação**
+* **Mecanismo aprimorado de registro do player**: você pode especificar o número máximo de arquivos de log para um AEM Screens Player. Consulte [Trabalhando com um AEM Screens Player](working-with-screens-player.md) para obter mais detalhes.
 
-* **Implantação de autor/publicação (fortalecimento)**
+* **Implantação do Author / Publish (Hardging)**
 
 ### Players do AEM Screens lançados
 

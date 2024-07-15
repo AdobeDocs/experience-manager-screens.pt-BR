@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Siga as etapas abaixo para usar o Editor de SPA AEM:
 
-1. AEM Clonar o repositório do Editor SPA em [https://github.com/adobe/aem-spa-project-archetype.](https://github.com/adobe/aem-spa-project-archetype)
+1. AEM Clonar o repositório do Editor de SPA em [https://github.com/adobe/aem-spa-project-archetype.](https://github.com/adobe/aem-spa-project-archetype)
 
    >[!NOTE]
    >
@@ -46,10 +46,10 @@ Siga as etapas abaixo para usar o Editor de SPA AEM:
 
    >[!NOTE]
    >
-   >Esta documentação usa o **GroupId** as ***com.adobe.aem.screens*** e a variável **ArtifactId** as ***Meu SPA de Exemplo*** (que são os padrões). Você pode escolher o seu próprio conforme necessário.
+   >Esta documentação usa o **GroupId** como ***com.adobe.aem.screens*** e o **ArtifactId** como ***Meu SPA de Exemplo*** (que são os padrões). Você pode escolher o seu próprio conforme necessário.
 
 1. Depois que o projeto for criado, use um IDE ou editor de sua escolha e importe o projeto Maven gerado.
-1. Implante na instância local do AEM usando o comando ***mvn clean install - PautoInstallPackage***.
+1. Implante na instância de AEM local usando o comando ***mvn clean install -PautoInstallPackage***.
 
 ### Edição de conteúdo no aplicativo REACT {#editing-content-in-the-react-app}
 
@@ -63,25 +63,25 @@ Para editar o conteúdo no aplicativo REACT:
 Siga as etapas abaixo para adicionar o aplicativo REACT interativo ao AEM Screens:
 
 1. Crie um projeto do AEM Screens. Consulte [Criação e gerenciamento de projetos](creating-a-screens-project.md) para obter mais detalhes.
-1. Criar um **Canal do aplicativo** (de preferência) (ou modelo 1x1 ou canal de várias zonas) no **Canais** pasta do seu projeto do AEM Screens.
+1. Crie um **Canal de Aplicativo** (de preferência) (ou um modelo 1x1 ou um canal de várias zonas) na pasta **Canais** do seu projeto do AEM Screens.
 
    >[!NOTE]
-   >**Canais de sequência** não são incentivados neste caso de uso porque eles vêm, por natureza, com uma lógica de apresentação de slides que entra em conflito com a natureza interativa da experiência.
+   >**Canais de sequência** não são incentivados neste caso de uso porque eles inerentemente vêm com uma lógica de apresentação de slides que entra em conflito com a natureza interativa da experiência.
    >Consulte [Criação e gerenciamento de canais](managing-channels.md) para obter mais detalhes.
 
 1. Edite qualquer canal de sequência e arraste e solte um componente de página incorporado.
 
-   Consulte [Adicionar componentes a um canal](adding-components-to-a-channel.md) para obter mais detalhes.
+   Consulte [Adicionando componentes a um canal](adding-components-to-a-channel.md) para obter mais detalhes.
 
    >[!NOTE]
    >
    >Adicione o evento de interação do usuário ao atribuir o canal à exibição.
 
-1. Clique em **Editar** na barra de ações, para poder editar as propriedades do canal.
+1. Clique em **Editar** na barra de ações para poder editar as propriedades do canal.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Arraste e solte a **Página incorporada** ou reutilize o componente existente em um canal de aplicativo, e clique na página inicial no aplicativo mysamplespa, por exemplo, ***/content/mysamplespa/en/home***.
+1. Arraste e solte o componente **Página Incorporada** ou reutilize o componente existente em um canal de aplicativo e clique na página inicial no aplicativo mysamplespa, por exemplo, ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -92,7 +92,7 @@ Siga as etapas abaixo para adicionar o aplicativo REACT interativo ao AEM Screen
 
 1. Registrar um reprodutor neste projeto e atribuí-lo à exibição. Agora você pode ver seu aplicativo interativo em execução no AEM Screens.
 
-   Consulte [Registro do dispositivo](device-registration.md) para obter mais informações sobre como registrar um dispositivo.
+   Consulte [Device Registration](device-registration.md) para obter mais informações sobre como registrar um dispositivo.
 
 ## Integração do SPA ao Adobe Analytics com recurso offline por meio do AEM Screens {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 

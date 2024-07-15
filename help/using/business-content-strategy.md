@@ -19,7 +19,7 @@ O conteúdo é um fator importante na promoção do engajamento. Na fase de pré
 
 Uma estratégia bem definida de conteúdo comercial define um caminho para criar, distribuir e controlar o uso de conteúdo em relação à jornada do comprador. Ele também considera os pontos de contato de marketing no funil de vendas. Receber a mensagem certa no momento certo é fundamental.
 
-Considere como o aplicativo Screens pode ajudar a obter essa estratégia e determine KPIs para ajudar a medir o sucesso do aplicativo no fornecimento desse conteúdo.
+Considere como o aplicativo do Screens pode ajudar a alcançar essa estratégia e determine KPIs para ajudar a medir o sucesso do aplicativo no fornecimento desse conteúdo.
 
 >[!NOTE]
 >

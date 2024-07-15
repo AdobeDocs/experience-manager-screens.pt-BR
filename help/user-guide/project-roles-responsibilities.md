@@ -40,7 +40,7 @@ O Adobe inclui recursos do Adobe Managed Services, como o CSE (Customer Success 
 
 #### Implementadores de AEM {#aem-implementors}
 
-Um **Implementador de AEM** O é responsável pela execução de tarefas de desenvolvimento e integração para desenvolver a experiência do usuário, modelos personalizados e integrações de back-end para AEM.
+Um **Implementador de AEM** é responsável por executar tarefas de desenvolvimento e integração para desenvolver a experiência do usuário, modelos personalizados e integrações de back-end para AEM.
 
 Os recursos personalizados necessários para lidar com parâmetros UX (experiência do usuário) do cliente final também são capturados e entregues por meio desse processo.
 
@@ -48,7 +48,7 @@ Os implementadores de AEM normalmente implantam a funcionalidade personalizada e
 
 #### Integradores de áudio e vídeo {#av-integrators}
 
-Um **Integrador de áudio e vídeo** O é responsável pela realização de descobertas com os clientes finais para definir os requisitos, determinando o escopo do projeto para projetar, criar e gerenciar com eficiência implantações em torno de hardware de sinalização digital.
+Um **Integrador de Áudio-Vídeo** é responsável por realizar a descoberta com clientes finais para definir requisitos, determinar o escopo do projeto para projetar, compilar e gerenciar com eficácia implantações em torno de hardware de sinalização digital.
 
 ## Parte 1: Tutorial em vídeo sobre funções e responsabilidades do projeto {#part-video-tutorial-on-project-roles-and-responsibilities}
 
@@ -58,10 +58,10 @@ Siga o tutorial abaixo para entender exatamente como cada parte faz parte da imp
 
 >[!VIDEO](https://video.tv.adobe.com/v/28375)
 
-*Saiba mais sobre as funções e responsabilidades do Adobe, dos Integradores áudio/visuais e dos Implementadores de AEM.*
+*Saiba mais sobre as funções e responsabilidades do Adobe, dos Integradores Áudio/Visuais e dos Implementadores de AEM.*
 
 ## A próxima etapa {#the-next-step}
 
 Quando você entender as funções e responsabilidades do projeto ao implementar um projeto de sinalização digital, siga o próximo tutorial. Ele se aprofunda em tópicos como testes e considerações pré-vendas, à medida que o projeto é dimensionado ao desenvolver oportunidades para o AEM Screens.
 
-Navegue até **[Parte 2: Considerações quanto ao escopo dos projetos](project-considerations.md)** para obter mais detalhes.
+Navegue até **[Parte 2: Considerações sobre o Escopo dos Projetos](project-considerations.md)** para obter mais detalhes.

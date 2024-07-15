@@ -21,7 +21,7 @@ ht-degree: 3%
 
 A AEM Screens lançou o AEM 6.5 Feature Pack 10.
 
-Você pode baixar o Feature Pack mais recente para a versão AEM Screens 6.5.10 da [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente denominado como **AEM 6.5 Screens FP10**.
+Você pode baixar a Versão mais recente do Feature Pack para AEM Screens 6.5.10 do [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o Pacote de Recursos mais recente denominado **AEM 6.5 Screens FP10**.
 
 ## Data de lançamento {#release-date}
 
@@ -29,7 +29,7 @@ A data de lançamento do Pacote de recursos do AEM Screens 202112 é 12 de janei
 
 ### Novidades {#what-is-new}
 
-* As atualizações de aplicativos do Android™ agora direcionam o Android™ 11 (API nível 30). Atualmente, o Android™ player está no nível 29 da API de destino.
+* As atualizações de aplicativos Android™ agora têm como alvo o Android™ 11 (API nível 30). Atualmente, o reprodutor Android™ está na API de destino nível 29.
 
 * A visualização da exibição está paralisada na configuração anterior do reprodutor
 

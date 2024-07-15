@@ -20,28 +20,28 @@ ht-degree: 1%
 
 Os locais hospedam a configuração das exibições de acordo com o local em que as várias telas estão.
 
-Esta página mostra a criação e o gerenciamento de locais para o Screens.
+Esta página mostra como criar e gerenciar locais para o Screens.
 
 **Pré-requisitos**:
 
 * [Configuração e implantação do Screens](configuring-screens-introduction.md)
-* [Criação e gerenciamento do projeto do Screens](creating-a-screens-project.md)
+* [Criação e gerenciamento de projetos do Screens](creating-a-screens-project.md)
 * [Criação e gerenciamento de canais](managing-channels.md)
 
 ## Criar um novo local {#creating-a-new-location}
 
-Depois de criar o projeto para o Screens, siga as etapas abaixo para criar um Local para um projeto do Screens:
+Depois de criar seu projeto para o Screens, siga as etapas abaixo para criar um Local para um projeto do Screens:
 
-1. Clique no link Adobe Experience Manager (parte superior esquerda) e, em seguida, em Screens. Como alternativa, você pode navegar diretamente para: `http://localhost:4502/screens.html/content/screens`.
-1. Navegue até o projeto do Screens e clique em **Localizações**.
+1. Clique no link Adobe Experience Manager (canto superior esquerdo) e, em seguida, em Screens. Como alternativa, você pode navegar diretamente para: `http://localhost:4502/screens.html/content/screens`.
+1. Navegue até o projeto do Screens e clique em **Locais**.
 1. Clique em **Criar** ao lado do ícone de adição na barra de ações.
-1. Clique no modelo **Localização** no assistente e clique em **Próxima**.
-1. Insira as propriedades de **Título e tags**, **Mais títulos e descrições**, **Horário ligado/desligado**, e **Vanity URL**.
-1. Clique em **Criar** e o local é criado e adicionado à pasta locais.
+1. Clique no modelo **Local** no assistente e clique em **Avançar**.
+1. Insira as propriedades para **Título e Marcas**, **Mais Títulos e Descrição**, **Horário Ligado/Desligado** e **URL Personalizada**.
+1. Clique em **Criar** e o local será criado e adicionado à pasta de locais.
 
-Consulte as etapas abaixo para entender a criação de um local para um projeto do AEM Screens. Para fins de demonstração, o novo local (San Jose) é criado em *DemoProject*.
+Consulte as etapas abaixo para entender a criação de um local para um projeto do AEM Screens. Para fins de demonstração, o novo local (SanJose) é criado em *DemoProject*.
 
-![player2](assets/player2.gif)
+![reprodutor2](assets/player2.gif)
 
 Depois de criar um local, crie uma exibição para o seu local.
 
@@ -58,4 +58,4 @@ Para editar/acessar as propriedades de um local:
 
 Depois de criar um local, crie uma exibição para o seu local.
 
-Consulte [Criando e Gerenciando Exibições](managing-displays.md).
+Consulte [Criação e gerenciamento de exibições](managing-displays.md).

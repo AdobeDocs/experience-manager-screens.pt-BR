@@ -19,13 +19,13 @@ Antes de criar um projeto do AEM Screens, compreenda e estrategize todos os comp
 
 Considere os seguintes elementos antes de implementar sua solução de sinalização digital da AEM Screens:
 
-* **Localizações**
+* **Locais**
 * **MediaZones**
 * **Exibições**
 * **Programação**
-* **Pré-visualização do conteúdo**
+* **Visualizando o conteúdo**
 
-Para saber mais sobre esses termos, consulte a [Glossário](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
+Para saber mais sobre estes termos, consulte o [Glossário](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
 
 >[!NOTE]
 >
@@ -44,15 +44,15 @@ Um autor do AEM Screens é responsável por criar e gerenciar uma experiência d
 
 Um autor normalmente inicia um projeto do AEM Screens por:
 
-* [criação de um projeto do AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [criação de canais](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
-* [adicionar componentes e ativos ao canal](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
-* [criação de agendamentos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
-* [criação de locais](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
-* [criação de exibições](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
-* [atribuição de canais às exibições](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
+* [criando um projeto do AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [criando canais](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
+* [adicionando componentes e ativos ao canal](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
+* [criando agendas](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
+* [criando locais](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
+* [criando exibições](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [atribuindo canais às exibições](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
 
-* [exibição de conteúdo em um AEM Screens Player](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
+* [exibindo conteúdo em um AEM Screens Player](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
 
 >[!NOTE]
->Você também pode importar um conjunto de locais em massa de uma planilha CSV/XLS para o seu projeto do AEM Screens. Consulte [Novo importador de projeto do arquivo](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer).
+>Você também pode importar um conjunto de locais em massa de uma planilha CSV/XLS para o seu projeto do AEM Screens. Consulte [Novo Importador de Projeto do Arquivo](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer).

@@ -41,7 +41,7 @@ ht-degree: 25%
 + Resumo da implantação {#deployment-brief}
    + [Configurações da plataforma AEM](aem-platform-configurations.md)
    + [Taxonomia e implementação do projeto](project-taxonomy-implementation.md)
-   + Gerenciamento de tráfego de rede {#manage-network-traffic}
+   + Gerenciamento de Tráfego de Rede {#manage-network-traffic}
       + [Gerenciando o tráfego de rede](/help/using/managing-network-traffic.md)
       + [Rede de Internet Direta (Com Fio/Sem Fio)](/help/using/direct-internet-network.md)
       + [Rede móvel direta](/help/using/mobile-network.md)

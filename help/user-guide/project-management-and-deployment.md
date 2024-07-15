@@ -35,11 +35,11 @@ Esta página aborda a pré-produção, o início e a progressão do projeto.
 
 ## Resumo de todas as três fases no gerenciamento de projetos {#summary-of-all-three-phases-in-project-management}
 
-Para oferecer suporte a uma implantação bem-sucedida da Sinalização digital, é comum segmentar o projeto em três estágios. Essas etapas são comumente chamadas de ***dias***.
+Para oferecer suporte a uma implantação bem-sucedida da Sinalização digital, é comum segmentar o projeto em três estágios. Esses estágios geralmente são chamados de ***dias***.
 
 ### Atividades do dia zero {#day-zero-activities}
 
-O primeiro estágio é chamado de ***Dia Zero***. Esse estágio inclui todas as iniciativas de pré-venda e detecção necessárias ao definir o escopo de um projeto. A segunda fase, ***Primeiro dia***, refere-se a todas as atividades incluídas no esforço de implantação. Por último, ***Dia dois*** refere-se a todas as operações em andamento e aos elementos de suporte como parte da solução total.
+O primeiro estágio é chamado ***Dia Zero***. Esse estágio inclui todas as iniciativas de pré-venda e detecção necessárias ao definir o escopo de um projeto. O segundo estágio, ***Primeiro Dia***, se refere a todas as atividades incluídas no esforço de implantação. Finalmente, ***Dia Dois*** refere-se a todas as operações em andamento e aos elementos de suporte como parte da solução total.
 
 As atividades do dia zero envolvem pré-vendas, detecção de clientes, análise de necessidades de aplicativos e definição do escopo do projeto. Essa etapa também pode incluir o envolvimento inicial e a definição dos requisitos do projeto para o gerenciamento de projetos, como preparação para a implantação.
 
@@ -56,7 +56,7 @@ O Dia Zero consiste em oito etapas principais que abrangem todos os aspectos do 
 
 ### Atividades do primeiro dia {#day-one-activities}
 
-A segunda fase, ***Primeiro dia***, refere-se a todas as atividades incluídas no esforço de implantação. Outro documento técnico importante para um projeto bem-sucedido é a implantação do Diagrama de Gantt.
+O segundo estágio, ***Primeiro Dia***, se refere a todas as atividades incluídas no esforço de implantação. Outro documento técnico importante para um projeto bem-sucedido é a implantação do Diagrama de Gantt.
 
 Como uma oportunidade de vendas é transferida para um projeto, uma reunião de início é agendada para confirmar:
 
@@ -82,8 +82,8 @@ Saiba mais sobre o gerenciamento de projetos e a preparação de implantação e
 
 >[!VIDEO](https://video.tv.adobe.com/v/28408)
 
-*Saiba mais sobre o gerenciamento de projetos e a preparação de implantação (pré-produção do projeto, início do projeto, progressão do projeto).*
+*Saiba mais sobre o gerenciamento de projeto e a preparação de implantação (pré-produção de projeto, iniciação de projeto, progressão de projeto).*
 
 ## A próxima etapa {#the-next-step}
 
-Quando terminar com as principais considerações sobre o gerenciamento de projetos para implantações do AEM Screens, acesse **[Parte 5: Considerações sobre suporte](support-considerations.md)** para que você entenda o Suporte do segundo dia e os processos envolvidos.
+Quando terminar com as principais considerações em relação ao gerenciamento de projetos para implantações do AEM Screens, acesse a **[Parte 5: Considerações de suporte](support-considerations.md)** para entender o Suporte do dia 2 e os processos envolvidos.

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Público-alvo {#target-audience}
 
-Como um implementador de AEM experiente, provavelmente você já viu funções conhecidas como *Autores*, *Desenvolvedores*, e *Técnicos de TI*.
+Como um implementador de AEM experiente, provavelmente você já viu funções conhecidas como *Autores*, *Desenvolvedores* e *Técnicos de TI*.
 
 Em um projeto AEM Screens típico, as funções são refinadas, pois cada uma serve a um propósito importante no projeto.
 

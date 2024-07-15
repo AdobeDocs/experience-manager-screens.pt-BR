@@ -21,7 +21,7 @@ ht-degree: 5%
 
 O AEM Screens lançou o AEM 6.5 Feature Pack 11.2.
 
-Baixe o Feature Pack mais recente do AEM Screens 6.5.11.2 na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente denominado como **AEM 6.5 Screens FP11.2**.
+Você pode baixar o Feature Pack mais recente para a versão AEM Screens 6.5.11.2 do [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o Pacote de Recursos mais recente denominado **AEM 6.5 Screens FP11.2**.
 
 ## Data de lançamento {#release-date}
 
@@ -33,9 +33,9 @@ Esta versão inclui somente correções de segurança.
 
 ### Correções de erros {#bug-fixes}
 
-* Problema XSS em `libs/screens/dcc/components/clientlibs/validation/resourcetypevalidation.js`. (SCRNS-3764)
+* Problema de XSS em `libs/screens/dcc/components/clientlibs/validation/resourcetypevalidation.js`. (SCRNS-3764)
 
-* Problema XSS em `libs/screens/dcc/components/fileuploaddrop/clientlibs/js/dropzone.js`. (SCRNS-3906)
+* Problema de XSS em `libs/screens/dcc/components/fileuploaddrop/clientlibs/js/dropzone.js`. (SCRNS-3906)
 
 #### Downloads do AEM Screens Player
 

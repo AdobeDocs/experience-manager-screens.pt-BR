@@ -38,13 +38,13 @@ Esta página mostra como criar e gerenciar exibições para o Screens.
 >Crie um local antes de criar uma exibição. Consulte [Criar e Gerenciar Locais](managing-locations.md) para obter mais informações.
 
 1. Navegue até o local apropriado, por exemplo `http://localhost:4502/screens.html/content/screens/TestProject`.
-1. Clique na pasta do local e clique em **Criar** que está ao lado do ícone de adição na barra de ações.
-1. Clique em **Exibir** do **Criar** e clique em **Próxima**.
-1. Insira seu **Nome** e **Título** para o seu local de exibição.
-1. No **Exibir** escolha os detalhes do Layout. Escolha o desejado **Resolução**, como **Full HD**. Escolha o número de dispositivos horizontal e verticalmente.
+1. Clique na pasta de seu local e em **Criar**, que está ao lado do ícone de adição na barra de ações.
+1. Clique em **Exibir** do assistente **Criar** e em **Avançar**.
+1. Digite seu **Nome** e **Título** para o seu local de exibição.
+1. Na guia **Exibir**, escolha os detalhes do Layout. Escolha a **Resolução** desejada, como **Full HD**. Escolha o número de dispositivos horizontal e verticalmente.
 1. Clique em **Criar**.
 
-A exibição (*StoreDisplay*) é criada e adicionada ao local (*San Jose*).
+A exibição (*StoreDisplay*) foi criada e adicionada ao local (*SanJose*).
 
 ![exibição](assets/display.gif)
 
@@ -52,21 +52,21 @@ Quando você tem uma exibição na posição, a próxima etapa é criar uma conf
 
 >[!NOTE]
 >
->**A próxima etapa**:
+>**A Próxima Etapa**:
 >
 >Ao criar uma exibição para sua localização, atribua um canal à exibição para usar o conteúdo.
 >
->Consulte a [Atribuir canais](channel-assignment.md) para saber como atribuir um canal à exibição.
+>Consulte a seção [Atribuir Canais](channel-assignment.md) para saber como atribuir um canal à exibição.
 
 ## Criando uma nova configuração de dispositivo {#creating-a-new-device-config}
 
 Uma configuração de dispositivo atua como um espaço reservado para um dispositivo de sinalização digital real que ainda não está instalado.
 
 1. Navegue até a exibição apropriada, por exemplo, `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
-1. Clique na pasta de exibição e clique em **Exibir painel** na barra de ações.
-1. Clique em **+ Adicionar configuração do dispositivo** na parte superior direita do **Dispositivos** painel.
+1. Clique na pasta de exibição e em **Exibir Painel** na barra de ações.
+1. Clique em **+ Adicionar configuração de dispositivo** na parte superior direita do painel **Dispositivos**.
 
-1. Clique em **Configuração do dispositivo** como o modelo necessário e clique em **Próxima**.
+1. Clique em **Configuração do dispositivo** como o modelo necessário e clique em **Avançar**.
 
 1. Insira as propriedades conforme necessário e clique em **Criar**.
 
@@ -78,7 +78,7 @@ A configuração do dispositivo é criada e adicionada à exibição atual (na d
 >
 >Quando uma configuração de dispositivo é definida para sua exibição no local, a próxima etapa será atribuir um canal à exibição.
 >
->Como mostrado na figura abaixo, se a configuração do dispositivo for exibida como não atribuída na variável **DISPOSITIVOS** se nenhum canal estiver atribuído a essa configuração de dispositivo específica.
+>Como mostrado na figura abaixo, se a configuração do dispositivo for exibida como não atribuída no painel **DISPOSITIVOS**, se nenhum canal for atribuído a essa configuração de dispositivo específica.
 >
 >Você deve ter uma compreensão prévia da criação e do gerenciamento de canais. Consulte [Criar e gerenciar canais](managing-channels.md) para obter mais detalhes.
 
@@ -100,30 +100,30 @@ O painel de exibição fornece painéis diferentes para gerenciar dispositivos d
 
 ### Exibir painel de informações {#display-information-panel}
 
-A variável **EXIBIR INFORMAÇÕES** Panel fornece as propriedades de exibição.
+O Painel **INFORMAÇÕES DE EXIBIÇÃO** fornece as propriedades de exibição.
 
-Clique em (**..**) no canto superior direito da janela **EXIBIR INFORMAÇÕES** para que você possa visualizar as propriedades e a exibição.
+Clique em (**...**) no canto superior direito do painel **INFORMAÇÕES SOBRE A EXIBIÇÃO** para que você possa exibir as propriedades e visualizar a exibição.
 
 
 #### Visualizando propriedades {#viewing-properties}
 
-Clique em **Propriedades** para que você possa visualizar ou alterar as propriedades de sua exibição.
+Clique em **Propriedades** para exibir ou alterar as propriedades da exibição.
 
-Além disso, é possível ajustar o valor do temporizador de evento para o canal interativo na **Exibir** guia. O valor padrão está definido como *300 segundos*.
+Além disso, é possível ajustar o valor do temporizador de evento para o canal interativo na guia **Exibir**. O valor padrão está definido como *300 segundos*.
 
-Uso **CRXDE Lite**, para acessar o **idleTimeout** propriedade, ou seja, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
+Use **CRXDE Lite** para acessar a propriedade **idleTimeout**, ou seja, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
 ### Painel Canais atribuídos {#assigned-channels-panel}
 
-A variável **CANAIS ATRIBUÍDOS** exibe os canais atribuídos a este dispositivo.
+O painel **CANAIS ATRIBUÍDOS** exibe os canais atribuídos a este dispositivo.
 
 
 ### Painel Dispositivos {#devices-panel}
 
-A variável **DISPOSITIVOS** O painel fornece informações sobre as configurações do dispositivo.
+O painel **DISPOSITIVOS** fornece informações sobre as configurações do dispositivo.
 
-Clique em (**..**) no canto superior direito da janela **DISPOSITIVOS** para que você possa adicionar configurações de dispositivo e atualizar dispositivos.
+Clique em (**...**) no canto superior direito do painel **DISPOSITIVOS** para que você possa adicionar configurações de dispositivo e atualizar dispositivos.
 
 Além disso, clique na configuração do dispositivo para exibir as propriedades, atribuir um dispositivo ou excluí-lo completamente.
 

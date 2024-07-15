@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Usar um fluxo de trabalho para automatizar atualizações de ativos para um canal do AEM Screens {#automate-channel-updates-workflow}
 
-Saiba como criar um fluxo de trabalho para processar automaticamente ativos carregados no Adobe Experience Manager e atribuí-los dinamicamente a um canal do Screens. Neste exemplo, um fluxo de trabalho é acionado quando uma imagem é adicionada a uma pasta específica. O fluxo de trabalho aplica uma sobreposição de texto dinâmica (processo de marca d&#39;água) e atribui a imagem a um canal do Screens. As lições aprendidas com este exemplo podem ser aplicadas a uma grande variedade de cenários de automação.
+Saiba como criar um fluxo de trabalho para processar automaticamente ativos carregados no Adobe Experience Manager e atribuí-los dinamicamente a um canal do Screens. Neste exemplo, um fluxo de trabalho é acionado quando uma imagem é adicionada a uma pasta específica. O fluxo de trabalho aplica uma sobreposição de texto dinâmica (processo de marca d&#39;água) e atribui a imagem a um canal Screens. As lições aprendidas com este exemplo podem ser aplicadas a uma grande variedade de cenários de automação.
 
 ## Pré-requisitos {#prerequisites}
 
@@ -38,19 +38,19 @@ O vídeo abaixo ilustra como instalar um pacote de código de amostra que introd
 
 ## Modelo de fluxo de trabalho {#workflow-model}
 
-Um esquema de metadados de pasta personalizado foi criado para capturar o canal do Screens de destino ao qual as imagens devem ser adicionadas. Dois modelos de fluxo de trabalho são usados para automatizar o processamento de ativos. A variável **Ativo de atualização DAM** O fluxo de trabalho é editado para chamar um fluxo de trabalho personalizado, **Processamento de ativos de demonstração do Screens, que inspeciona a pasta que contém o ativo para determinar o canal do Screens de destino. A variável **Processamento de ativos de demonstração do Screens** O workflow também é responsável pela aplicação da marca d&#39;água à imagem.
+Um esquema de metadados de pasta personalizado foi criado para capturar o canal de Screens de destino ao qual as imagens devem ser adicionadas. Dois modelos de fluxo de trabalho são usados para automatizar o processamento de ativos. O fluxo de trabalho **Ativo de atualização do DAM** é editado para chamar um fluxo de trabalho personalizado, **Processamento de ativos de demonstração do Screens que inspeciona a pasta que contém o ativo para determinar o canal de destino do Screens. O fluxo de trabalho **Processamento de ativos de demonstração do Screens** também é responsável pela aplicação da marca d&#39;água à imagem.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333175/?quality=12&learn=on)
 
 ## Etapas personalizadas do processo de fluxo de trabalho {#workflow-process-step}
 
-Duas etapas personalizadas do processo de fluxo de trabalho do Inspect usadas como parte da **Processamento de ativos de demonstração do Screens** fluxo de trabalho.
+Duas etapas personalizadas do processo de fluxo de trabalho do Inspect usadas como parte do fluxo de trabalho **Processamento de ativos de demonstração do Screens**.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333179/?quality=12&learn=on)
 
-A variável `AssetProcessingCheck.java` fluxo de trabalho personalizado é um processo que executa uma verificação na carga do fluxo de trabalho. Ele determina se a carga é um ativo e se a pasta que contém os dados está configurada para apontar para um canal do AEM Screens. Se os requisitos forem atendidos, a etapa do processo manterá duas propriedades, `screen-channel` e `asset-path`, aos metadados do fluxo de trabalho.
+O fluxo de trabalho personalizado `AssetProcessingCheck.java` é um processo que executa uma verificação na carga do fluxo de trabalho. Ele determina se a carga é um ativo e se a pasta que contém os dados está configurada para apontar para um canal do AEM Screens. Se os requisitos forem atendidos, a etapa do processo manterá duas propriedades, `screen-channel` e `asset-path`, nos metadados do fluxo de trabalho.
 
-A variável `AddAssetToChannel.java` o fluxo de trabalho personalizado é uma etapa do processo que inspeciona os metadados do fluxo de trabalho e atualiza o canal do AEM Screens para fazer referência à imagem.
+O fluxo de trabalho personalizado do `AddAssetToChannel.java` é uma etapa do processo que inspeciona os metadados do fluxo de trabalho e atualiza o canal do AEM Screens para fazer referência à imagem.
 
-1. Baixe o código-fonte: **[screens-demo-main.zip](./assets/screens-demo-main.zip)**
+1. Baixe o código fonte: **[screens-demo-main.zip](./assets/screens-demo-main.zip)**
 1. Descompacte e visualize o código usando seu IDE favorito.

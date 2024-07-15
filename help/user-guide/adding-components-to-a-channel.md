@@ -23,7 +23,7 @@ Os componentes são os elementos fundamentais da experiência com o AEM (Adobe E
 
 ## Componentes no AEM Screens {#components-in-aem-screens}
 
-O AEM Screens fornece diferentes componentes do AEM que podem ser usados em um projeto do Screens.
+O AEM Screens fornece diferentes componentes de AEM que podem ser usados em um projeto do Screens.
 
 ### Visualização de componentes do AEM Screens {#viewing-aem-screens-components}
 
@@ -31,10 +31,10 @@ Sempre que criar um projeto AEM Screens, você verá uma lista de componentes pa
 
 Para exibir os componentes padrão do seu projeto do Screens, siga as etapas abaixo:
 
-1. Clique no canal. Por exemplo, **`We.Retail In Store`** > **Canais** > **Canal ocioso**.
+1. Clique no canal. Por exemplo, **`We.Retail In Store`** > **Canais** > **Canal Ocioso**.
 
 1. Clique em **Editar** na barra de ações.
-1. No Editor de AEM, clique na guia **+** ícone na barra lateral.
+1. No Editor de AEM, clique no ícone **+** na barra lateral.
 1. Todos os componentes incluídos por padrão em um projeto do AEM Screens são exibidos, como mostrado na figura abaixo.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
@@ -45,14 +45,14 @@ O AEM fornece vários outros componentes. Você sempre pode adicionar outros com
 
 O exemplo a seguir mostra a adição de um componente Livefyre a um projeto do AEM Screens:
 
-1. Clique no canal em que deseja adicionar um componente. Por exemplo, **`We.Retail In Store`** > **Canais** > **Canal ocioso**.
+1. Clique no canal em que deseja adicionar um componente. Por exemplo, **`We.Retail In Store`** > **Canais** > **Canal Ocioso**.
 
 1. Clique em **Editar** na barra de ações.
-1. Clique em **Design** modo.
-1. Clique no editor de design inteiro à direita e clique no símbolo de configurações para poder abrir o **Design do Parsys** caixa de diálogo.
-1. Você pode clicar nos componentes que deseja importar para o projeto do AEM Screens. O exemplo a seguir mostra a adição de **Livefyre** componente a um projeto do AEM Screens.
+1. Clique no modo **Design**.
+1. Clique no editor de design inteiro à direita e clique no símbolo de configurações para que você possa abrir a caixa de diálogo **Parsys Design**.
+1. Você pode clicar nos componentes que deseja importar para o projeto do AEM Screens. O exemplo a seguir mostra a adição do componente **Livefyre** a um projeto do AEM Screens.
 
-![add_components](assets/adding_components.gif)
+![adicionando_componentes](assets/adding_components.gif)
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ A seção a seguir explica os componentes do AEM Screens que você pode usar no 
 
 ### Aplicativo {#application}
 
-A variável **Aplicativo** permite adicionar um aplicativo ao canal.
+O componente **Aplicativo** permite que você adicione um aplicativo ao seu canal.
 
 O componente do aplicativo tem as seguintes propriedades:
 
@@ -79,7 +79,7 @@ O componente do aplicativo tem as seguintes propriedades:
 
 O exemplo a seguir mostra como incorporar um componente de aplicativo juntamente com a visualização de suas propriedades:
 
-![adding_componentsapplication](assets/adding_componentsapplication.gif)
+![adicionando_componentsapplication](assets/adding_componentsapplication.gif)
 
 >[!NOTE]
 >
@@ -87,7 +87,7 @@ O exemplo a seguir mostra como incorporar um componente de aplicativo juntamente
 
 ### Canal {#channel}
 
-A variável **Canal** permite adicionar um canal inteiro ao projeto.
+O componente **Canal** permite que você adicione um canal inteiro ao seu projeto.
 
 O componente Canal tem as seguintes propriedades:
 
@@ -99,7 +99,7 @@ O componente Canal tem as seguintes propriedades:
   </tr>
   <tr>
    <td><strong><em>Caminho do canal</em></strong></td>
-   <td>Selecione esse caminho absoluto onde o aplicativo existe.<br /> </td>
+   <td>Selecione este caminho absoluto onde o aplicativo existe.<br /> </td>
   </tr>
   <tr>
    <td><strong><em>Duração (milissegundos)</em></strong></td>
@@ -110,7 +110,7 @@ O componente Canal tem as seguintes propriedades:
 
 ### Página incorporada {#embedded-page}
 
-Um **Página incorporada** permite adicionar uma página incorporada ao projeto. Por exemplo, pode ser um aplicativo web ou um catálogo de produtos.
+Uma **Página Incorporada** permite que você adicione uma página incorporada ao seu projeto. Por exemplo, pode ser um aplicativo web ou um catálogo de produtos.
 
 A página Incorporada tem as seguintes propriedades:
 
@@ -122,7 +122,7 @@ A página Incorporada tem as seguintes propriedades:
   </tr>
   <tr>
    <td><strong><em>Caminho da página<br /> </em></strong></td>
-   <td>Selecione esse caminho absoluto onde o canal existe.<br /> </td>
+   <td>Selecione este caminho absoluto onde o canal existe.<br /> </td>
   </tr>
   <tr>
    <td><strong><em>Duração (milissegundos)</em></strong></td>
@@ -135,7 +135,7 @@ A página Incorporada tem as seguintes propriedades:
 
 >[!NOTE]
 >
->Para saber mais detalhes sobre sequências incorporadas, consulte [Sequências incorporadas](embedded-sequences.md) na seção Telas de criação.
+>Para saber mais detalhes sobre sequências inseridas, consulte [Sequências inseridas](embedded-sequences.md) na seção Criação de Screens.
 
 Uma sequência inserida permite adicionar um canal de sequência inserida dentro do canal existente (com outros ativos).
 
@@ -157,7 +157,7 @@ A Sequência incorporada tem as seguintes propriedades de página:
   </tr>
   <tr>
    <td><strong><em>Estratégia</em></strong></td>
-   <td>Defina-o como <strong>original</strong> ou <strong>solteiro</strong>. Definir o valor para o <strong>original</strong> significa que a subsequência é executada totalmente em cada ciclo da sequência principal. O outro valor possível é <strong>solteiro</strong>. Esse valor mostra apenas um item da subsequência em cada execução. Por exemplo, o primeiro item no primeiro loop e o segundo item no segundo loop.</td>
+   <td>Defina como <strong>original</strong> ou <strong>único</strong>. Definir o valor como <strong>original</strong> significa que a subsequência é totalmente executada em cada ciclo da sequência pai. O outro valor possível é <strong>single</strong>. Esse valor mostra apenas um item da subsequência em cada execução. Por exemplo, o primeiro item no primeiro loop e o segundo item no segundo loop.</td>
   </tr>
  </tbody>
 </table>
@@ -166,7 +166,7 @@ A Sequência incorporada tem as seguintes propriedades de página:
 
 Uma Sequência incorporada dinâmica permite adicionar uma sequência semelhante à mencionada acima, exceto por função de canal.
 
-Para saber mais sobre sequências incorporadas, consulte [Sequências incorporadas](embedded-sequences.md) na seção Telas de criação.
+Para saber mais sobre sequências inseridas, consulte [Sequências inseridas](embedded-sequences.md) na seção Criação de Screens.
 
 A sequência incorporada dinâmica tem as seguintes propriedades:
 
@@ -177,7 +177,7 @@ A sequência incorporada dinâmica tem as seguintes propriedades:
    <td><strong>Descrição</strong></td>
   </tr>
   <tr>
-   <td><strong><em>Função da atribuição do canal</em></strong><br /> </td>
+   <td><strong><em>Função de atribuição do canal</em></strong><br /> </td>
    <td>Insira a função do canal.<br /> </td>
   </tr>
   <tr>
@@ -186,7 +186,7 @@ A sequência incorporada dinâmica tem as seguintes propriedades:
   </tr>
   <tr>
    <td><strong><em>Estratégia</em></strong></td>
-   <td>Defina-o como <strong>original</strong> ou <strong>solteiro</strong>. Definir o valor para o <strong>original</strong> significa que a subsequência é executada totalmente em cada ciclo da sequência principal. O outro valor possível é <strong>solteiro</strong>. Esse valor mostraria apenas um item da subsequência em cada execução. Por exemplo, o primeiro item no primeiro loop e o segundo item no segundo loop.</td>
+   <td>Defina como <strong>original</strong> ou <strong>único</strong>. Definir o valor como <strong>original</strong> significa que a subsequência é totalmente executada em cada ciclo da sequência pai. O outro valor possível é <strong>single</strong>. Esse valor mostraria apenas um item da subsequência em cada execução. Por exemplo, o primeiro item no primeiro loop e o segundo item no segundo loop.</td>
   </tr>
  </tbody>
 </table>
@@ -204,19 +204,19 @@ Para saber mais sobre como criar um fragmento de experiência e aplicá-lo a um 
 | **Fragmento de experiência** |
 | ***Fragmento de experiência*** | Selecione o Fragmento de experiência. |
 | ***Duração*** | Selecione toda a duração do Fragmento de experiência que é reproduzido no canal. |
-| **Configuração offline** |
-| ***Bibliotecas do cliente*** | Arquivos JavaScript e CSS. |
+| **Configuração Offline** |
+| ***Bibliotecas do lado do cliente*** | Arquivos JavaScript e CSS. |
 | ***Arquivos estáticos*** | Arquivos estáticos que você pode adicionar como configurações offline ao seu Fragmento de experiência. |
 
 >[!NOTE]
 >
->A variável **Bibliotecas do cliente** e a variável **Arquivos estáticos** que você adiciona a partir deste componente estão além dos já configurados **Bibliotecas do cliente** e os Arquivos estáticos adicionados do do fragmento de experiência **Propriedades**.
+>As **Bibliotecas do lado do cliente** e os **Arquivos estáticos** adicionados deste componente são uma adição às **Bibliotecas do lado do cliente** já configuradas e aos Arquivos estáticos adicionados das **Propriedades** do Fragmento de experiência.
 
 ### Imagem {#image}
 
 Uma imagem permite adicionar uma imagem ao seu canal.
 
-O ativo de imagem tem três guias: **Imagem**, **Acessibilidade**, e **Sequência**:
+O ativo de imagem tem três guias: **Imagem**, **Acessibilidade** e **Sequência**:
 
 | **Propriedade** | **Descrição** |
 |---|---|
@@ -229,17 +229,17 @@ O ativo de imagem tem três guias: **Imagem**, **Acessibilidade**, e **Sequênci
 | **Acessibilidade** |
 | ***Texto alternativo*** | Texto alternativo para a imagem. |
 | **Sequência** |
-| ***Duração*** | Por padrão, a duração está definida como *8000 milissegundos*. Se quiser alterar a duração da reprodução da imagem, atualize o **Duração** campo. |
+| ***Duração*** | Por padrão, a duração está definida como *8000 milissegundos*. Se quiser alterar a duração da reprodução da imagem, atualize o campo **Duration**. |
 
 ### Transição {#transition}
 
-O componente de Transição permite que você adicione uma transição ao seu projeto do Screens.
+O componente de Transição permite adicionar uma transição ao projeto do Screens.
 
 A imagem a seguir mostra o componente de transição (adicionado por meio de arrastar e soltar) para o editor.
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Clique no ícone de transição e clique no botão **Configurar** (ícone de chave inglesa) para abrir a **Transição** caixa de diálogo. Essa caixa de diálogo inclui três guias:
+Clique no ícone de transição e no ícone de chave inglesa **Configurar** para abrir a caixa de diálogo **Transição**. Essa caixa de diálogo inclui três guias:
 
 * **Transição**
 * **Sequência**
@@ -247,7 +247,7 @@ Clique no ícone de transição e clique no botão **Configurar** (ícone de cha
 
 >[!NOTE]
 >
->Por padrão, a sequência é definida como 600 milissegundos. É possível atualizar a sequência de transição para outros valores usando o **Sequência** guia.
+>Por padrão, a sequência é definida como 600 milissegundos. Você pode atualizar a sequência de transição para outros valores usando a guia **Sequência**.
 
 ![transição](assets/transition.gif)
 
@@ -265,7 +265,7 @@ O componente de transição tem as seguintes propriedades:
   </tr>
   <tr>
    <td><strong><em>Tipo</em></strong></td>
-   <td><p>O tipo de transição entre o elemento anterior e o posterior. A transição <strong>Tipo</strong> O inclui as seguintes opções:</p>
+   <td><p>O tipo de transição entre o elemento anterior e o posterior. A transição <strong>Type</strong> inclui as seguintes opções:</p>
     <ul>
      <li><strong>Normal</strong></li>
      <li><strong>Esmaecer</strong></li>
@@ -289,7 +289,7 @@ O componente de transição tem as seguintes propriedades:
   </tr>
   <tr>
    <td><strong><em>Ativo desde</em></strong></td>
-   <td>Carimbo de data e hora que descreve quando a transição pode estar ativa.<br /> </td>
+   <td>Carimbo de data/hora que descreve quando a transição pode estar ativa.<br /> </td>
   </tr>
   <tr>
    <td><strong><em>Ativo até</em></strong></td>
@@ -304,7 +304,7 @@ O componente de transição tem as seguintes propriedades:
 
 ### Vídeo {#video}
 
-O componente de Vídeo permite que você adicione um vídeo ao seu projeto do Screens.
+O componente de Vídeo permite adicionar um vídeo ao projeto do Screens.
 
 O componente de vídeo tem as seguintes propriedades:
 
@@ -320,11 +320,11 @@ O componente de vídeo tem as seguintes propriedades:
   </tr>
   <tr>
    <td><em><strong>Duração</strong></em></td>
-   <td>Selecione a duração do vídeo. Por padrão, a duração é definida como -1, o que significa que o elemento é executado para sempre. Definir o valor de duração &gt;0 mostra o elemento para a duração especificada e, em seguida, avança para o próximo.<br /> </td>
+   <td>Selecione a duração do vídeo. Por padrão, a duração é definida como -1, o que significa que o elemento é executado para sempre. Definindo o valor de duração &gt;0, mostra o elemento para a duração especificada e, em seguida, passa para o próximo.<br /> </td>
   </tr>
   <tr>
    <td><em><strong>Renderização</strong></em></td>
-   <td><p>Se a taxa de proporção do vídeo não couber na tela, é possível ajustar a renderização para <strong>contain</strong> ou <strong>capa</strong>.</p> <p><em>Contain</em> significa que o vídeo completo é exibido e as áreas ausentes são preenchidas com uma borda preta.</p> <p><em>Capa</em> significa que o vídeo cobre toda a janela de visualização, mas algumas partes que transbordam nas laterais ficam ocultas.</p> </td>
+   <td><p>Se a taxa de proporção do vídeo não couber na tela, você poderá ajustar a renderização para <strong>conter</strong> ou <strong>capa</strong>.</p> <p><em>Contém</em> significa que o vídeo completo é exibido e as áreas ausentes são preenchidas com uma borda preta.</p> <p><em>Capa</em> significa que o vídeo cobre a janela de visualização inteira, mas algumas partes que transbordam nas laterais ficam ocultas.</p> </td>
   </tr>
   <tr>
    <td><em><strong>Tamanho</strong></em></td>

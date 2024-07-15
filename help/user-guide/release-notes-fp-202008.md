@@ -22,7 +22,7 @@ ht-degree: 2%
 
 O AEM Screens lançou o AEM 6.5 Feature Pack 5.
 
-Baixe o Feature Pack mais recente do AEM Screens 6.5.5 versão na [Portal de distribuição de software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a **Adobe Experience Manager** e pesquisar **Screens** para obter o Feature Pack mais recente.
+Você pode baixar o Feature Pack mais recente para a versão AEM Screens 6.5.5 do [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o Pacote de Recursos mais recente.
 
 ## Data de lançamento {#release-date}
 
@@ -30,33 +30,34 @@ A data de lançamento do Pacote de recursos do AEM Screens 202008 é 3 de setemb
 
 ### Novidades {#what-is-new}
 
-* **Exibição da linha do tempo no painel de agendamento**
+* **Modo de Exibição de Linha do Tempo no Painel de Agendamento**
 
   A Exibição da linha do tempo permite que o usuário visualize os agendamentos atribuídos ao canal no painel de exibição.
 
   Consulte [Exibição da linha do tempo](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) para obter mais detalhes.
 
-* **Agendamento recorrente**
+* **Agenda de Recorrência**
 
   O Cronograma recorrente permite que você defina um cronograma recorrente para seu canal. Você pode configurar vários agendamentos de recorrência para um canal.
 
-  Consulte [Agendamento recorrente](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obter mais detalhes.
+  Consulte [Agendamento de recorrência](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obter mais detalhes.
 
-* **Recursos de reconhecimento de voz para o AEM Screens**
+* **Recursos de Reconhecimento de Voz para o AEM Screens**
 
   O recurso de Reconhecimento de voz permite a alteração de conteúdo em um canal do AEM Screens orientado por interação de voz.
 
   Um Autor de conteúdo pode configurar uma exibição para ser ativada por voz. O objetivo desse recurso é permitir que os clientes usem a fala como um método de interação com suas telas.
 
-  Consulte [Reconhecimento de voz](voice-recognition.md) para obter mais detalhes.
+  Consulte [Reconhecimento de Voz](voice-recognition.md) para obter mais detalhes.
 
 ### Problemas conhecidos e correções {#known-issues}
 
 Configure um ambiente para o Windows ou Android™ player, se você estiver usando o AEM Screens 6.5.5 Service Pack.
 
-Defina o **Atributo SameSite para os cookies de token de logon** de **Lax** para **Nenhum** de **Configuração do console da Web do Adobe Experience Manager** em todas as instâncias de autor e publicação do AEM.
+Defina o atributo **SameSite para os cookies de token de logon** do **Lax** para **None** no **Console da Web do Adobe Experience Manager
+Configuração** em todas as instâncias de autor e publicação do AEM.
 
-* Consulte [Implementação do Windows 10 Player](implementing-windows-player.md#fp-environment-setup) para obter mais detalhes.
+* Consulte [Implementando o Windows 10 Player](implementing-windows-player.md#fp-environment-setup) para obter mais detalhes.
 
 * Consulte [Implementação do Android™ Player](implementing-android-player.md#fp-environment-setup) para obter mais detalhes.
 
@@ -64,7 +65,7 @@ Defina o **Atributo SameSite para os cookies de token de logon** de **Lax** para
 
 Os seguintes AEM Screens Players foram lançados para o AEM Screens lançado com AEM 6.5 Feature Pack 5.
 
-* SO Chrome
+* SO CHROME
 * Windows
 * Android™
 

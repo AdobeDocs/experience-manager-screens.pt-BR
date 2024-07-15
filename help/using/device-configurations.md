@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Uma parte interessada típica dessa atividade é um Integrador de áudio e vídeo.
 
-Com base nas informações coletadas durante *Dia Zero*, confirme as seguintes informações antes de iniciar o desenvolvimento:
+Com base nas informações coletadas durante o *Dia Zero*, confirme as seguintes informações antes de iniciar o desenvolvimento:
 
 * Qual é a orientação, as dimensões e a resolução das telas usadas?
 

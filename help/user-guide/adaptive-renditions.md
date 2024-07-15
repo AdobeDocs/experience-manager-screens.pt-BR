@@ -13,7 +13,7 @@ ht-degree: 2%
 
 ## Introdução {#introduction}
 
-As representações adaptáveis permitem que os dispositivos cliquem na melhor representação automaticamente para um dispositivo com base em regras definidas pelo cliente. Os dispositivos baixam e reproduzem automaticamente a representação mais apropriada de um ativo com base nessas regras, permitindo que os clientes se concentrem em projetar a *main* somente experiência.
+As representações adaptáveis permitem que os dispositivos cliquem na melhor representação automaticamente para um dispositivo com base em regras definidas pelo cliente. Os dispositivos baixam e reproduzem automaticamente a representação mais apropriada de um ativo com base nessas regras, permitindo que os clientes se concentrem em projetar somente a experiência *principal*.
 
 ## Objetivo {#objective}
 
@@ -27,28 +27,28 @@ A capacidade de ter um padrão de nomenclatura de representação associado defi
 
 ![imagem](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
-## Adicionar a propriedade de mapeamento de representação ao projeto do Telas {#rendition-mapping-new}
+## Adicionar a propriedade de mapeamento de representação ao projeto do Screens {#rendition-mapping-new}
 
 Para ativar o recurso Representações adaptáveis, as seguintes regras de mapeamento devem estar presentes e a Configuração sensível ao contexto (CA) deve ser resolvida para canais e exibições.
 
 >[!NOTE]
->Para saber mais sobre Configurações sensíveis a conteúdo, consulte [aqui](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html).
+>Para saber mais sobre as Configurações sensíveis a conteúdo, consulte [aqui](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html).
 
 Siga as etapas abaixo para configurar a configuração:
 
-1. Navegue até **CRXDE Lite**. Verifique se a variável **mapeamento de representação** a configuração existe em `/conf/screens/sling:configs/rendition-mapping`, conforme mostrado na figura abaixo.
+1. Navegue até **CRXDE Lite**. Verifique se a configuração **rendition-mapping** existe em `/conf/screens/sling:configs/rendition-mapping`, como mostrado na figura abaixo.
 
    >![imagem](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Se você instalou o Feature Pack 202109 mais recente, **mapeamento de representação** estrutura de nó pré-preenchida em `/conf/screens/sling:configs/rendition-mapping` em CRXDE Lite. Consulte [Notas de versão do Pacote de recursos 202109](/help/user-guide/release-notes-fp-202109.md) para obter detalhes sobre o Feature Pack mais recente.
-   >Para projetos existentes, verifique se o projeto do Screens tem a **mapeamento de representação** configuração associada. Consulte [Adicionar mapeamento de representação a um projeto existente](#rendition-mapping-existing) para obter mais informações.
+   >Se você instalou o Feature Pack 202109 mais recente, verá a estrutura do nó **rendition-mapping** pré-preenchida em `/conf/screens/sling:configs/rendition-mapping` no CRXDE Lite. Consulte as [Notas de Versão do Pacote de Recursos 202109](/help/user-guide/release-notes-fp-202109.md) para obter detalhes sobre o Pacote de Recursos mais recente.
+   >Para projetos existentes, verifique se o projeto Screens tem a configuração **rendition-mapping** associada. Consulte a seção [Adicionando o mapeamento de representação a um projeto existente](#rendition-mapping-existing) para obter mais informações.
 
 ### Adicionar a propriedade de mapeamento de representação a um projeto existente {#rendition-mapping-existing}
 
 1. Navegue até **CRXDE Lite**.
 
-1. Definir explicitamente a associação de mapeamento de representação adicionando `sling:configRef` propriedade apontando para `/conf/screens` ao nó de conteúdo do projeto, conforme mostrado na figura abaixo.
+1. Defina explicitamente a associação de mapeamento de representação adicionando a propriedade `sling:configRef` que aponta para `/conf/screens` ao nó de conteúdo do projeto, como mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
@@ -57,12 +57,12 @@ Siga as etapas abaixo para configurar a configuração:
 
 Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
 
-1. Navegar até este caminho `/conf/screens/sling:configs/rendition-mapping` de **CRXDE Lite**.
-1. Criar um nó em **mapeamento de representação**. Clique com o botão direito do mouse **mapeamento de representação** e clique em **Criar** > **Criar nó**, conforme mostrado na figura abaixo.
+1. Navegue até este caminho `/conf/screens/sling:configs/rendition-mapping` de **CRXDE Lite**.
+1. Crie um nó em **rendition-mapping**. Clique com o botão direito do mouse em **rendition-mapping** e clique em **Criar** > **Criar nó**, conforme mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. Insira o **Nome** para sua regra de mapeamento, como **regra1** e o nó **Tipo** as **`nt:unstructured`** in **Criar nó** caixa de diálogo. Clique em **OK**.
+1. Insira o **Nome** para sua regra de mapeamento, como **regra1** e o nó **Tipo** como **`nt:unstructured`** na caixa de diálogo **Criar Nó**. Clique em **OK**.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
@@ -70,9 +70,9 @@ Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
 1. Adicione a propriedade de expressão com o valor contendo a expressão de consulta.
 
    >[!NOTE]
-   >Consulte [Uso da sintaxe de consulta de mídia](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) para saber mais.
+   >Consulte [Usando a Sintaxe de Consulta de Mídia](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) para saber mais.
 
-   Clique em **regra1** que você criou e insira o **expressão** in **Nome** e **(orientação:paisagem)** in **Valor**, conforme mostrado abaixo. Clique em **Adicionar**.
+   Clique em **regra1** que você criou e insira a **expressão** em **Nome** e **(orientação:paisagem)** em **Valor**, como mostrado abaixo. Clique em **Adicionar**.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,11 +81,11 @@ Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
    >[!NOTE]
    >O valor definido na propriedade pattern corresponde à nova representação do ativo e é selecionado se a expressão for avaliada como verdadeira.
 
-   Para adicionar a propriedade do padrão, clique em **regra1** que você criou e insira o **padrão** in **Nome** e **paisagem** in **Valor**, conforme mostrado abaixo. Clique em **Adicionar**.
+   Para adicionar a propriedade do padrão, clique em **regra1** que você criou e insira o **padrão** em **Nome** e **paisagem** em **Valor**, conforme mostrado abaixo. Clique em **Adicionar**.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. Clique em **Salvar tudo** e observe as propriedades no nó criado em **mapeamento de representação**.
+1. Clique em **Salvar tudo** e observe as propriedades no nó criado em **rendition-mapping**.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 

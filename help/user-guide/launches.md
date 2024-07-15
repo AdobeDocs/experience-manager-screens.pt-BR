@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Os autores de conteúdo podem criar uma versão futura dos canais e definir ainda mais a data de ativação para esse lançamento. Essa capacidade permite que o conteúdo fique ativo em dispositivos ou players na data de ativação especificada.
 
-Com a ajuda de ***Screens Launch***, os autores podem visualizar cada canal no lançamento e devem ser capazes de iniciar uma solicitação de revisão. O grupo de aprovadores recebe uma notificação e pode aprovar ou rejeitar a solicitação. Quando a data de ativação é atingida, o conteúdo é reproduzido nos dispositivos.
+Com a ajuda do ***Screens Launch***, os autores podem visualizar cada canal no lançamento e devem poder iniciar uma solicitação de revisão. O grupo de aprovadores recebe uma notificação e pode aprovar ou rejeitar a solicitação. Quando a data de ativação é atingida, o conteúdo é reproduzido nos dispositivos.
 
 Por exemplo, se o autor desejar criar versões futuras de c1, c2 (canais), uma inicialização será criada e uma data de ativação será definida (por exemplo, 10 de novembro, às 8h). Quaisquer outras atualizações no conteúdo são enviadas para revisão.
 
@@ -29,7 +29,7 @@ Após a aprovação e na data de ativação (10 de novembro, 8:00), esse lançam
 
 ## Requisitos {#requirements}
 
-Antes de começar a usar *Screens Launch* em um projeto do AEM Screens, compreenda o conceito de período de carência e sua relevância.
+Antes de começar a usar o *Screens Launch* em um projeto do AEM Screens, compreenda o conceito de período de carência e sua relevância.
 
 A execução de uma experiência na data de ativação definida no reprodutor envolve:
 
@@ -47,7 +47,7 @@ A execução de uma experiência na data de ativação definida no reprodutor en
 
 Para que o reprodutor possa começar a reproduzir o conteúdo na data de ativação definida, inicie as atividades anteriores à data de ativação.
 
-Se a data de ativação for *24 de novembro, 9h* e *24 horas* é o período de carência, então a sequência acima de ações começa em (data de ativação - período de carência), ou seja, 23 de novembro, 9h, horário do servidor. Essa configuração de 24 horas para concluir todas as ações mencionadas acima para que o conteúdo chegue aos reprodutores. Os jogadores entendem que esse período é um conteúdo de lançamento. Dessa forma, o conteúdo não é reproduzido imediatamente, mas os players podem armazená-lo como uma versão futura e fazer com que comece a ser reproduzido exatamente na data definida de ativação no fuso horário do player.
+Se a data de ativação for *24 de novembro, 9h* e *24 horas* for o período de carência, a sequência de ações acima iniciará em (data de ativação - período de carência), ou seja, 23 de novembro, 9h horário do servidor. Essa configuração de 24 horas para concluir todas as ações mencionadas acima para que o conteúdo chegue aos reprodutores. Os jogadores entendem que esse período é um conteúdo de lançamento. Dessa forma, o conteúdo não é reproduzido imediatamente, mas os players podem armazená-lo como uma versão futura e fazer com que comece a ser reproduzido exatamente na data definida de ativação no fuso horário do player.
 
 Por exemplo, o servidor está em PST e os dispositivos estão em EST. A diferença máxima de tempo é de três horas. Ele pressupõe que a promoção leva 1 minuto e a publicação do autor para a publicação leva 10 minutos, e o reprodutor pode baixar os recursos normalmente em 10 a 15 minutos. Em seguida, o período de carência = diferença de tempo (três horas):
 
@@ -62,7 +62,7 @@ Assim, sempre que você agendar qualquer lançamento em tempo real, a promoção
 
 >[!NOTE]
 >
->Pronto para uso, o período de carência do Screens Launch é definido como 24 horas. Isso significa que ao definir uma data de ativação para qualquer lançamento dos recursos em */content/screens*, a promoção começa com esse deslocamento.
+>Pronto para uso, o período de carência do Screens Launch é definido para 24 horas. Isso significa que quando você define uma data de ativação para qualquer inicialização dos recursos em */content/screens*, a promoção começa com este deslocamento.
 
 ### Atualização do período de carência predefinido {#updating-out-of-the-box-grace-period}
 
@@ -71,7 +71,7 @@ Esta seção explica como atualizar um período de carência predefinido para 10
 1. Navegue até o CRXDE Lite e, em seguida, até `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 1. Clique com o botão direito e copie o arquivo.
 1. Navegue até `/apps/system/config` e clique com o botão direito do mouse e cole.
-1. Clique duas vezes `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` para que você possa abrir o arquivo no editor no CRXDE Lite. Deve mostrar o período de carência do caminho */content/screens/* as **86400**. Alterar esse valor para **600**.
+1. Clique duas vezes em `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` para abrir o arquivo no editor no CRXDE Lite. Deve mostrar o período de carência para o caminho */content/screens/* como **86400**. Altere esse valor para **600**.
 
 Agora, o conteúdo no arquivo de texto deve ser semelhante a:
 
@@ -81,19 +81,19 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
    ]
 ```
 
-Você definiu o período de carência como 10 minutos no exemplo anterior. Portanto, ao definir uma data de ativação para qualquer lançamento dos recursos em */content/screens*, a promoção começa com esse deslocamento.
+Você definiu o período de carência como 10 minutos no exemplo anterior. Portanto, ao definir uma data de ativação para qualquer inicialização dos recursos em */content/screens*, a promoção começa com este deslocamento.
 
 Por exemplo, se a data de ativação estiver definida como 24 de novembro, às 9h e o período de carência for de 600 segundos, o trabalho de promoção iniciará em 24 de novembro às 8h50.
 
-## Utilização do Screens Launch {#using-launches}
+## Uso do Screens Launch {#using-launches}
 
 Esta seção demonstra como implementar o Screens Launch em seu projeto do AEM Screens.
 
 ### Criação de uma inicialização do Screens {#creating-a-launch}
 
-Siga as etapas abaixo para implementar a funcionalidade Screens Launch no seu projeto do AEM Screens:
+Siga as etapas abaixo para implementar a funcionalidade do Screens Launch no seu projeto do AEM Screens:
 
-1. Crie um canal de sequência em seu projeto do AEM Screens, por exemplo **LaunchesDemo** > **Canais** > **Lançamento futuro**, conforme mostrado abaixo.
+1. Crie um canal de sequência em seu projeto do AEM Screens, por exemplo **LaunchesDemo** > **Channels** > **FutureLaunch**, como mostrado abaixo.
 
    >[!CAUTION]
    >
@@ -101,36 +101,36 @@ Siga as etapas abaixo para implementar a funcionalidade Screens Launch no seu pr
 
    ![Imagem](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. Clique no canal **Lançamento futuro** e clique em **Criar lançamento** na barra de ações.
+1. Clique no canal **FutureLaunch** e clique em **Criar inicialização** na barra de ações.
 
    ![Imagem](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. A variável **Criar lançamento** é aberto. Clique no canal que já está visível no assistente ou clique em **+ Adicionar canais** para adicionar o canal para o qual deseja criar a inicialização.
+1. O assistente **Criar inicialização** é aberto. Você pode clicar no canal que já está visível no assistente ou clicar em **+ Adicionar Canais** para adicionar o canal para o qual deseja criar a inicialização.
 
-1. Clique em **Próxima** do **Criar lançamento** assistente. A variável **Incluir subpáginas** for selecionada por padrão.
+1. Clique em **Avançar** no assistente **Criar inicialização**. A opção **Incluir subpáginas** está selecionada por padrão.
 
    ![imagem](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
-   >Você pode usar o **+ Adicionar canais** opção para adicionar outro canal para o qual deseja criar a inicialização.
+   >Você pode usar a opção **+ Adicionar Canais** para adicionar outro canal para o qual deseja criar a inicialização.
 
-   Para usar o **Adicionar canais** navegue até o canal para o qual deseja criar a inicialização e clique em **Selecionar**.
+   Para usar a opção **Adicionar Canais**, navegue até o canal para o qual deseja criar a inicialização e clique em **Selecionar**.
 
-   A variável **Selecionar** A opção estará desativada se você tentar clicar em vários canais ou em uma pasta para adicionar o lançamento.
+   A opção **Selecionar** será desabilitada se você tentar clicar em vários canais ou em uma pasta para adicionar a inicialização.
 
    ![imagem](/help/user-guide/assets/launches-images/launches-14.png)
 
-   Depois de clicar no canal/canais, clique em **Próxima**.
+   Depois de clicar no canal/canais, clique em **Avançar**.
 
 
-1. Insira o **Título da inicialização** as **SummerPromotions** e você não precisa definir a variável **Data de lançamento**, conforme mostrado na figura abaixo. Clique em **Criar**.
+1. Insira o **Título da Inicialização** como **SummerPromotions** e não será necessário definir a **Data da Inicialização**, como mostrado na figura abaixo. Clique em **Criar**.
 
    >[!NOTE]
    >
-   >*Ativando ou verificando* a opção **Herdar dados online da página de origem** permite que os canais sejam criados como live copies no lançamento. Se alguma alteração for feita no canal original, ela será aplicada automaticamente aos canais de inicialização.
+   >*Habilitar ou verificar* a opção **Herdar dados online da página de origem** permite que os canais sejam criados como cópias online na inicialização. Se alguma alteração for feita no canal original, ela será aplicada automaticamente aos canais de inicialização.
    >
    >
-   >*Desativando ou desmarcando* **Herdar dados online da página de origem** permite que os canais sejam copiados sem qualquer relação dinâmica na inicialização. Portanto, se alguma alteração for feita no canal original, essas alterações não serão aplicadas aos canais de inicialização.
+   >*Desabilitar ou desmarcar* **Herdar dados online da página de origem** permite que os canais sejam copiados sem qualquer relação dinâmica na inicialização. Portanto, se alguma alteração for feita no canal original, essas alterações não serão aplicadas aos canais de inicialização.
 
    ![Imagem](/help/user-guide/assets/launches-images/launches-c.png)
 
@@ -138,73 +138,73 @@ Siga as etapas abaixo para implementar a funcionalidade Screens Launch no seu pr
    >
    >Você pode definir a data de inicialização em tempo real nesta etapa ou pode configurá-la posteriormente, ao editar as propriedades da inicialização, uma vez que ela já tenha sido criada.
 
-   **Noções básicas sobre o escopo de promoção do lançamento**
+   **Noções básicas sobre o escopo de promoção de lançamento**
 
    * **Promover lançamento completo** - Todos os canais do lançamento são promovidos na data de ativação definida.
-   * **Promover páginas modificadas** - Somente os recursos modificados do Launch são promovidos. Use essa opção quando a revisão da inicialização não for necessária.
-   * **Promover páginas aprovadas** - Essa opção requer que o fluxo de trabalho de aprovação de inicialização seja executado nos canais de inicialização. Somente as páginas aprovadas são promovidas na data de ativação definida.
+   * **Promover páginas modificadas** - Somente os recursos de inicialização modificados são promovidos. Use essa opção quando a revisão da inicialização não for necessária.
+   * **Promover páginas aprovadas** - Essa opção requer que o fluxo de trabalho de aprovação da inicialização seja executado nos canais de inicialização. Somente as páginas aprovadas são promovidas na data de ativação definida.
 
      >[!CAUTION]
      >
      >A data de inicialização respeita o fuso horário do player/dispositivo em vez dos servidores.
 
-1. Observe que o seu lançamento foi criado. Você pode clicar em **Abertura** para exibir as páginas no editor ou clique em **Concluído** para navegar de volta ao seu projeto.
+1. Observe que o seu lançamento foi criado. Você pode clicar em **Abrir** para exibir as páginas no editor ou clicar em **Concluído** para navegar de volta para o seu projeto.
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
-   Selecionar **Concluído** permitem navegar de volta para o **Lançamento futuro** canal.
+   Selecionar **Concluído** permite navegar de volta para o canal do **FutureLaunch**.
 
    ![Imagem](/help/user-guide/assets/launches-images/launches-16.png)
 
 
 ### Editar as propriedades do Launch para definir a data de ativação e o escopo {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
-Após a criação da inicialização, é possível atualizar as propriedades, como data de ativação, título da inicialização e escopo da promoção, usando **Propriedades do lançamento**.
+Após a criação da inicialização, você pode atualizar as propriedades, como data de ativação, título da inicialização e escopo da promoção, usando **Propriedades da inicialização**.
 
-* **Data de lançamento** - A data em tempo real, ou seja, a data ou hora em que o conteúdo é reproduzido no reprodutor do Screens de acordo com o fuso horário do reprodutor.
-* **Pronto para produção** - Após a promoção, permite que os canais sejam publicados e o pronto para uso é ativado, então não é necessário alterá-lo.
-* **Escopo** - Decide quais canais são promovidos durante a promoção do lançamento.
+* **Data de inicialização** - A data de ativação, ou seja, a data ou a hora em que o conteúdo é reproduzido no Screens Player de acordo com o fuso horário do player.
+* **Pronto para produção** - Após a promoção, permite que os canais sejam publicados e o recurso predefinido está habilitado, portanto, não é necessário alterá-lo.
+* **Escopo** - Decide quais canais são promovidos durante a promoção de inicialização.
 
 Siga as etapas abaixo para editar as propriedades do lançamento:
 
-1. Navegar até o canal **Lançamento futuro** *(a inicialização pendente)* e clique no canal conforme mostrado na figura abaixo.
+1. Navegue até o canal **FutureLaunch** *(a inicialização pendente)* e clique no canal conforme mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/launches-images/launches-17.png)
 
-1. Clique em **Painel** na barra de ações e você verá a **LANÇAMENTOS PENDENTES** no painel do canal.
+1. Clique em **Painel** na barra de ações e você verá o painel **INICIALIZAÇÕES PENDENTES** no painel do canal.
 
    ![imagem](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Clique no lançamento e em **Propriedades do lançamento** do **LANÇAMENTOS PENDENTES** painel.
+1. Clique na inicialização e em **Propriedades da inicialização** no painel **INICIALIZAÇÕES PENDENTES**.
 
    ![imagem](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Editar o lançamento do Screens para adicionar ou remover canais {#editing-the-screens-launch-to-add-or-remove-channels}
+### Edição do Screens Launch para adicionar ou remover canais {#editing-the-screens-launch-to-add-or-remove-channels}
 
-Após criar a inicialização, é possível adicionar ou remover canais da inicialização existente usando o **Editar lançamento** opção.
+Após criar a inicialização, você pode adicionar ou remover canais para a inicialização existente usando a opção **Editar Inicialização**.
 
-Quando terminar, clique em **Salvar** para voltar para a **Lançamento futuro** canal.
+Quando terminar, clique em **Salvar** para voltar para o canal **FutureLaunch**.
 
-### Promover o lançamento do Screens manualmente{#promote-the-screens-launch-manually}
+### Promover o Screens Launch manualmente{#promote-the-screens-launch-manually}
 
-É possível promover o lançamento manualmente usando o **`Promote Launch`** opção no **LANÇAMENTOS PENDENTES** painel.
+Você pode promover a inicialização manualmente usando a opção **`Promote Launch`** do painel **LANÇAMENTOS PENDENTES**.
 
-Você pode escolher os recursos que deseja promover como parte dessa promoção manual na **Iniciar assistente de promoção**.
+Você pode escolher os recursos que deseja promover como parte desta promoção manual no **Assistente de Promoção do Launch**.
 
 ![imagem](/help/user-guide/assets/launches-images/launches-e.png)
 
 1. Você pode ativar ou desativar a opção para excluir o lançamento após a produção.
-1. Você pode definir a variável **Escopo** do lançamento com as seguintes opções:
+1. Você pode definir o **Escopo** da inicialização com as seguintes opções:
    * **Promover lançamento completo** - Todos os canais do lançamento são promovidos na data de ativação definida.
-   * **Promover páginas modificadas** - Somente os recursos modificados do Launch são promovidos. Use essa opção quando a revisão da inicialização não for necessária.
-   * **Promover páginas aprovadas** - Essa opção requer que o fluxo de trabalho de aprovação de inicialização seja executado nos canais de inicialização. Somente as páginas aprovadas são promovidas na data de ativação definida.
-   * **Divulgar a página atual** - Essa opção exige que o fluxo de trabalho de aprovação da inicialização seja executado somente para a página atual.
-1. Clique em **Próxima** no **Promover lançamento** assistente.
-1. Clique em **Promover** para promover o lançamento.
+   * **Promover páginas modificadas** - Somente os recursos de inicialização modificados são promovidos. Use essa opção quando a revisão da inicialização não for necessária.
+   * **Promover páginas aprovadas** - Essa opção requer que o fluxo de trabalho de aprovação da inicialização seja executado nos canais de inicialização. Somente as páginas aprovadas são promovidas na data de ativação definida.
+   * **Promover página atual** - Esta opção requer que o fluxo de trabalho de aprovação da inicialização seja executado somente para a página atual.
+1. Clique em **Avançar** no assistente **Promover inicialização**.
+1. Clique em **Promover** para promover a inicialização.
 
-### Excluir o lançamento do Screens
+### Exclusão do Screens Launch
 
-É possível excluir o lançamento usando a variável **Excluir lançamento** opção no **LANÇAMENTOS PENDENTES** painel.
+Você pode excluir o lançamento usando a opção **Excluir Lançamento** do painel **LANÇAMENTOS PENDENTES**.
 
 >[!CAUTION]
 >

@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->A Adobe recomenda que você atualize para a versão mais recente do Adobe Experience Manager (AEM). O AEM Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
+>A Adobe recomenda que você atualize para a versão mais recente do Adobe Experience Manager (AEM). A AEM Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
 
 O AEM Screens lançou o AEM 6.4.6 Feature Pack 6 e o AEM 6.5.2 Feature Pack 2 com os seguintes detalhes.
 
@@ -28,15 +28,15 @@ A data de lançamento do Pacote de recursos do AEM Screens 201909 é 7 de outubr
 
 * **Atualizações aprimoradas na interface do usuário para Criar projeto do Screens**
 
-  Uma interface atualizada para criar um projeto do AEM Screens está disponível. Você pode criar um projeto do Screens com alguns cliques simples. Além disso, a guia Propriedades de cada projeto agora tem uma interface mais intuitiva.
+  Uma interface atualizada para criar um projeto do AEM Screens está disponível. Você pode criar um projeto do Screens com apenas alguns cliques. Além disso, a guia Propriedades de cada projeto agora tem uma interface mais intuitiva.
 
-  Consulte [Criação de um novo projeto do Screens](creating-a-screens-project.md) para obter mais detalhes.
+  Consulte [Criando um novo projeto do Screens](creating-a-screens-project.md) para obter mais detalhes.
 
-* **Painel de dispositivos aprimorado**
+* **Painel de Dispositivos Aprimorado**
 
   O painel de dispositivos mostra as informações do dispositivo, o status, as capturas de tela, os logs, as preferências e os detalhes do dispositivo que permitem monitorar as atividades e funções do dispositivo. Os painéis foram atualizados.
 
-  Consulte [Solução de problemas do Centro de controle de dispositivos](monitoring-screens.md) para obter mais detalhes.
+  Consulte [Centro de Controle de Dispositivo de Solução de Problemas](monitoring-screens.md) para obter mais detalhes.
 
 * **Tempo limite habilitado para permitir a interação com o teclado**
 
@@ -44,7 +44,7 @@ A data de lançamento do Pacote de recursos do AEM Screens 201909 é 7 de outubr
 
 * **Configurações offline em Fragmentos de experiência**
 
-  Agora é possível adicionar configurações offline (bibliotecas do lado do cliente e arquivos estáticos) ao configurar o Fragmento de experiência do Screens.
+  Agora é possível adicionar configurações offline (bibliotecas do lado do cliente e arquivos estáticos) ao configurar o Screens Experience Fragment.
 Consulte [Uso de fragmentos de experiência](experience-fragments-in-screens.md) para obter mais detalhes.
 
 ### Players do AEM Screens lançados

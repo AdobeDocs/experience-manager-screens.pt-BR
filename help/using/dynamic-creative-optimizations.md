@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Uma parte interessada típica dessa atividade é um Implementador de AEM.
 
-**Dynamic Creative Optimization**, ou DCO, é usado para criar experiências de sinalização digital que refletem as circunstâncias exclusivas de qualquer local em um determinado momento e para qualquer usuário.
+O **Dynamic Creative Optimization**, ou DCO, é usado para criar experiências de sinalização digital que refletem as circunstâncias exclusivas de qualquer local em um determinado momento e para qualquer usuário.
 
 Esse uso também é conhecido como nivelamento de conteúdo no lado do cliente.
 
@@ -36,5 +36,5 @@ Ter uma estratégia de merchandising visual que inclui DCO pode aumentar drastic
 
 Há dois tipos principais de acionadores de dados:
 
-* **Acionadores de dados locais**: esses acionadores de dados são locais no dispositivo. Por exemplo, se você tocou a tela, é ativado um sensor que aciona um ativo de dados local ou um switch de canal.
-* **Acionadores de dados remotos**: isso envolveu uma troca de canal ou uma troca de ativo acionada por dados com base nos valores retornados por uma API de serviço da Web.
+* **Acionadores de Dados Locais**: esses acionadores de dados são locais no dispositivo. Por exemplo, se você tocou a tela, é ativado um sensor que aciona um ativo de dados local ou um switch de canal.
+* **Acionadores de Dados Remotos**: envolviam uma troca de canal ou uma troca de ativo acionada por dados com base em valores retornados por uma API de Serviço Web.

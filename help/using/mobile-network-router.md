@@ -42,7 +42,7 @@ A configuração aloca um acesso à Internet para cada Controlador AEM Screens a
 1. Caso a chamada de URL seja bem-sucedida, você pode continuar instalando o AEM Screens e se registrar. Inicie o AEM Screens.
 
    >[!TIP]
-   >Você pode descobrir que a conexão do AEM Screens não está funcionando corretamente. O conteúdo esperado não é exibido. Nesses casos, verifique o firewall do roteador de Internet se houver restrições relacionadas `TCP/IP Port 80/443`.
+   >Você pode descobrir que a conexão do AEM Screens não está funcionando corretamente. O conteúdo esperado não é exibido. Nesses casos, verifique o firewall do roteador de Internet se houver restrições relacionadas a `TCP/IP Port 80/443`.
 
 
 ## Configurando a rede móvel com o roteador de dados móveis e os componentes de rede ativos {#requirements-direct}
@@ -59,7 +59,7 @@ O desempenho da conexão com a Internet, além da acessibilidade de rede já des
 
 *Suficiente* depende do número de dispositivos AEM Screens conectados. Também depende do uso de outros consumidores na rede, como Smartphones, Tablets, Caixas, Computadores ou redes Wi-Fi Guest.
 Lembre-se de que todos os dispositivos têm acesso simultâneo à conexão com a Internet e a largura de banda está diminuindo linearmente enquanto acrescenta mais consumidores/computadores à rede.
-Além da conexão de rede teórica específica, é necessário garantir que a cobertura do roteador móvel seja pelo menos *bom*. Além disso, o plano mensal subjacente deve cobrir capacidade de dados suficiente e largura de banda suficiente para atender a todos os clientes conectados na LAN conectada.
+Além da conexão de rede teórica específica, é necessário garantir que a cobertura do roteador móvel seja de pelo menos *boa*. Além disso, o plano mensal subjacente deve cobrir capacidade de dados suficiente e largura de banda suficiente para atender a todos os clientes conectados na LAN conectada.
 
 A tabela a seguir destaca as redes de dados com sua largura de banda padrão:
 
@@ -82,7 +82,7 @@ Ao considerar qual rede de dados deve ser usada, a Adobe recomenda que você res
 
 >[!IMPORTANT]
 >
->Para o upload inicial de arquivos de mídia durante a integração de novos players, é necessário esperar uma quantidade maior de dados e um maior tempo de download. Isso também se reflete nas suposições acima. Uma rede 4G com *bom* A cobertura e os dados ilimitados devem corresponder às instalações mais comuns nesta Configuração de rede.
+>Para o upload inicial de arquivos de mídia durante a integração de novos players, é necessário esperar uma quantidade maior de dados e um maior tempo de download. Isso também se reflete nas suposições acima. Uma rede 4G com *boa* cobertura e dados ilimitados deve corresponder às instalações mais comuns nesta Configuração de Rede.
 
 
 ### Rede local {#lan-connection}
@@ -91,9 +91,9 @@ O desempenho da LAN, além da acessibilidade de rede já descrita, tem de fornec
 
 Por exemplo, os componentes de rede devem corresponder pelo menos ao padrão de 100 Mbps e corresponder à largura de banda fornecida pela especificação de acesso à Internet/roteador.
 
-Caso uma solução Wi-Fi esteja planejada para conectar a tela ao link da Internet, é recomendável usar padrões Wi-Fi modernos, como IEEE `802.11g` no mínimo. Este padrão suporta conexões de até 54 Mbps. Qualquer *mais recente* Padrões como `802.11h-n` são de melhor qualidade. Se um repetidor Wi-Fi for necessário, o Adobe recomenda tecnologias de ponto de acesso Wi-Fi em malha, como Google Nest Mesh Wi-Fi ou semelhante.
+Caso uma solução Wi-Fi esteja planejada para conectar a tela ao Link de Internet, é recomendável usar no mínimo padrões Wi-Fi modernos, como IEEE `802.11g`. Este padrão suporta conexões de até 54 Mbps. Quaisquer *padrões mais recentes*, como `802.11h-n`, são de melhor qualidade. Se um repetidor Wi-Fi for necessário, o Adobe recomenda tecnologias de ponto de acesso Wi-Fi em malha, como Google Nest Mesh Wi-Fi ou semelhante.
 
-## Download de mídia e ativos {#download}
+## Download de mídia e Assets {#download}
 
 O AEM Screens oferece uma vantagem significativa aos usuários de sinalização digital. Ele baixa e salva localmente todos os arquivos de mídia necessários, como Imagens e Vídeo. Devido a esse conceito, o maior tráfego de rede está ocorrendo no caso de haver novo conteúdo a ser exibido em uma tela específica.
 Para operação normal, tendo uma lista de reprodução definida que não é atualizada frequentemente, ele oferece operação quase independente de rede quando todos os arquivos são salvos no reprodutor.

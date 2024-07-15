@@ -33,7 +33,7 @@ Esta seção descreve como implementar o Cloud Player.
 
 A instalação do Cloud Player pode variar em plataformas diferentes. Em geral, qualquer plataforma com um navegador moderno pode executar o aplicativo do Cloud Player seguindo estas etapas:
 
-1. Abra o navegador e insira o [URL do Cloud Player](https://player.adobescreens.com/content/dam/universal-player/firmware.html) na barra de endereços.
+1. Abra o navegador e insira a [URL do Cloud Player](https://player.adobescreens.com/content/dam/universal-player/firmware.html) na barra de endereços.
 1. O navegador verifica se o Cloud Player pode ser instalado e mostra um ícone de instalação na barra de endereços.
 
    ![imagem](/help/user-guide/assets/cloud-player-install.png)
@@ -60,35 +60,35 @@ Para fazer o provisionamento em massa do Cloud Player em vários dispositivos:
 1. Escolha uma solução MDM que suporte a execução de um navegador com um URL no modo Quiosque.
 1. Você pode aplicar as mesmas configurações a todos os dispositivos seguindo estas etapas:
 
-   1. Hospede config.json em um servidor de modo que seja acessível como: `https://<config_server_host>/config.json`
-   1. Para instalar o Cloud Player e aplicar as configurações hospedadas, use o URL do Cloud Player, como: `https://player.adobescreens.com?playerConfigAddress=https://<config_server_host>`
-   1. O aplicativo Cloud Player procura config.json na raiz do &lt;config_server_host>, em seguida, analisa config.json para obter as configurações personalizadas e aplicá-las.
+   1. Hospede config.json em um servidor de forma que seja acessível como: `https://<config_server_host>/config.json`
+   1. Para instalar o Cloud Player e aplicar as configurações hospedadas, use a URL do Cloud Player, como: `https://player.adobescreens.com?playerConfigAddress=https://<config_server_host>`
+   1. O aplicativo Cloud Player procura por config.json na raiz do &lt;config_server_host> e analisa o config.json para obter as configurações personalizadas e aplicá-las.
    1. Essas configurações são aplicadas a cada recarregamento do reprodutor.
 
-## Provisionamento em massa no Chrome OS {#bulk-provisioning-chrome}
+## Provisionamento em massa no sistema operacional Chrome {#bulk-provisioning-chrome}
 
-Saiba mais sobre o provisionamento em massa no Chrome OS. Consulte [Instalar o Cloud Player no Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). &lt;!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` >
+Saiba mais sobre o provisionamento em massa no sistema operacional Chrome. Consulte [Instalar o Cloud Player no sistema operacional Chrome](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). &lt;!— `https://www.adobe.com/go/aem_screens_cloud_player_en` >
 
 ## Configuração necessária em instâncias do AEM {#bulk-provisioning-config-aem}
 
 Com base no tipo de ocorrência de AEM, clique em um dos guias a seguir para ativar o CORS b/w AEM e o Cloud Player:
 
-* [AEM no local/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
+* [AEM No Local/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
 
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
 
 
 >[!NOTE]
 >
-## Descontinuação de aplicativos do Chrome pelo Google
+## Descontinuação de aplicativos Chrome pelo Google
 >
-1. Aplicativos Chrome no hardware do Chrome OS:
+1. Aplicativos Chrome no hardware do sistema operacional Chrome:
 >
-A Google tem descontinuado ativamente os aplicativos do Chrome em favor dos aplicativos PWA, com uma migração planejada até janeiro de 2025. Portanto, o aplicativo AEM Screens Player no Chrome OS deixa de funcionar com base na linha do tempo compartilhada. O Adobe solicita que os usuários que atualmente usam o Chrome Player em produção planejem a transição para o Screens Cloud Player.
+A Google tem descontinuado ativamente os aplicativos Chrome em favor dos aplicativos PWA, com uma migração planejada para janeiro de 2025. Portanto, o aplicativo AEM Screens Player no Chrome OS deixa de funcionar com base na linha do tempo compartilhada. O Adobe solicita que os usuários que atualmente usam o Chrome Player em produção planejem a transição para o Screens Cloud Player.
 >
-1. Player de extensão do Chrome no Mac, Windows e Linux®:
+1. Chrome Extension Player no Mac, Windows e Linux®:
 >
-Devido ao processo de desativação do Google, a partir do Google Chrome versão 114, o reprodutor de extensão do Screens Chrome não é mais compatível. O Adobe aconselha a transição para o Screens Cloud Player de todos os seus requisitos de desenvolvimento e teste.
+Devido ao processo de desativação da Google, a partir do Google Chrome versão 114, o Screens Chrome Extension Player não é mais suportado. O Adobe aconselha a transição para o Screens Cloud Player deles para todos os seus requisitos de desenvolvimento e teste.
 
 ## Suporte off-line para recuperação de conteúdo externo {#offline-support}
 

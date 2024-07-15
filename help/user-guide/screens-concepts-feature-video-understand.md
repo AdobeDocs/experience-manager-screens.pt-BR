@@ -26,19 +26,19 @@ ht-degree: 0%
 
 Para acompanhar os vídeos, você precisa do seguinte:
 
-1. **AEM 6.4** ou **AEM 6.3*+ **Pacote de recursos 1 do Screens**
+1. **AEM 6.4** ou **AEM 6.3*+ **Pacote de Recursos Screens 1**
 
 1. Um reprodutor do Screens
 
-Para baixar o AEM Screens Player, clique em [aqui](https://download.macromedia.com/screens/). Além disso, o AEM Screens está disponível na Google Play Store. <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
+Para baixar o AEM Screens Player, clique [aqui](https://download.macromedia.com/screens/). Além disso, o AEM Screens está disponível na Google Play Store. <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
 
-O vídeo abaixo detalha a criação de um novo canal, a criação de novo conteúdo e a adição de um canal a uma programação reutilizável. Segue-se vagamente a primeira metade do [Guia de início rápido do Screens](kickstart-for-aem-screens.md).
+O vídeo abaixo detalha a criação de um novo canal, a criação de novo conteúdo e a adição de um canal a uma programação reutilizável. Ela segue vagamente a primeira metade do [Guia de Kickstart do Screens](kickstart-for-aem-screens.md).
 
 >[!VIDEO](https://video.tv.adobe.com/v/21387?quality=9)
 
 ## Atribuições de vídeo e Registro de dispositivo - Parte 2 {#display-and-device-pt2}
 
-O vídeo abaixo mostra a criação de um local, exibição e configuração de dispositivo. O vídeo também mostra as etapas para registrar um dispositivo e atribuir o dispositivo a uma exibição. Segue-se vagamente a segunda metade do [Guia de início rápido do Screens](kickstart-for-aem-screens.md).
+O vídeo abaixo mostra a criação de um local, exibição e configuração de dispositivo. O vídeo também mostra as etapas para registrar um dispositivo e atribuir o dispositivo a uma exibição. Ela segue vagamente a segunda metade do [Guia de Kickstart do Screens](kickstart-for-aem-screens.md).
 
 >[!VIDEO](https://video.tv.adobe.com/v/21411?quality=9)
 

@@ -22,7 +22,7 @@ Os seguintes tópicos são abordados nesta seção:
 * Visão geral
 * Janela de ativação
 * Utilização da Ativação no nível do canal como uma reprodução de evento único
-* Lidar com a recorrência de ativos em um canal
+* Manipulação de recorrência do Assets em um canal
    * DayParting
    * WeekParting
    * MonthParting
@@ -31,13 +31,13 @@ Os seguintes tópicos são abordados nesta seção:
 
 ## Visão geral {#overview}
 
-***Ativação em Nível de Canal*** permite que os canais mudem após um cronograma definido específico. O canal de evento único substitui o canal principal após um agendamento definido e é reproduzido por um tempo específico, até que o canal principal reproduza seu conteúdo novamente.
+A ***Ativação no Nível de Canal*** permite que os canais alternem após um cronograma definido específico. O canal de evento único substitui o canal principal após um agendamento definido e é reproduzido por um tempo específico, até que o canal principal reproduza seu conteúdo novamente.
 
 O exemplo a seguir fornece uma solução com foco nos seguintes termos principais:
 
-* a ***canal da sequência principal*** para a sequência global
-* a ***canal de evento único*** que é executado apenas uma vez em um horário definido
-* a ***definir cronograma e prioridade*** para o evento de reprodução única que ocorre dentro do canal da sequência principal
+* um ***canal de sequência principal*** para a sequência global
+* um ***único canal de evento*** que é executado apenas uma vez em um horário definido
+* um ***definir agenda e prioridade*** para o evento de reprodução único que ocorre dentro do canal da sequência principal
 
 ## Janela de ativação {#using-channel-level-activation}
 
@@ -47,15 +47,15 @@ A seção a seguir explica a criação de uma única reprodução de evento em u
 
 Antes de começar a implementar essa funcionalidade, verifique se você tem os seguintes pré-requisitos prontos para começar a implementar a ativação no nível do canal:
 
-* Crie um projeto do AEM Screens, neste exemplo, **Ativação em Nível de Canal**.
+* Crie um projeto AEM Screens, neste exemplo, **Ativação no Nível de Canal**.
 
-* Criar um canal como **MainAdChannel** no **Canais** pasta.
+* Crie um canal como **MainAdChannel** na pasta **Channels**.
 
-* Criar outro canal como **TargetedSinglePlay** no **Canais** pasta.
+* Crie outro canal como **TargetedSinglePlay** na pasta **Channels**.
 
 * Adicione ativos relevantes a ambos os canais.
 
-A imagem a seguir mostra o **Ativação em Nível de Canal** projeto com **MainAdChannel** e **TargetedSinglePlay** canais na **Canais** pasta.
+A imagem a seguir mostra o projeto **Ativação no Nível de Canal** com os canais **MainAdChannel** e **TargetedSinglePlay** na pasta **Channels**.
 
 ![screen_shot_2018-11-27at104500am](assets/screen_shot_2018-11-27at104500am.png)
 
@@ -65,22 +65,22 @@ A imagem a seguir mostra o **Ativação em Nível de Canal** projeto com **MainA
 >
 >* [Criação e gerenciamento de projetos](creating-a-screens-project.md)
 >
->* [Gerenciamento de um canal](managing-channels.md)
+>* [Gerenciando um Canal](managing-channels.md)
 >
 
 ### Implementação {#implementation}
 
 A implementação da Ativação no nível do canal em um projeto do AEM Screens envolve três tarefas principais:
 
-1. **Configurando a taxonomia do projeto incluindo canais, locais e exibições**
-1. **Atribuição de canais para exibição**
-1. **Configurando um Cronograma e Prioridade**
+1. **Configurando a taxonomia do projeto, incluindo Canais, Locais e Exibições**
+1. **Atribuindo canais para exibição**
+1. **Configurando um Agendamento e uma Prioridade**
 
 Siga as etapas abaixo para implementar a funcionalidade:
 
-1. **Criar um local**
+1. **Criar um Local**
 
-   Navegue até o **Localizações** pasta no projeto do AEM Screens e criar um local como **Região**.
+   Navegue até a pasta **Locais** do projeto do AEM Screens e crie um local como **Região**.
 
    ![screen_shot_2018-11-27at112112am](assets/screen_shot_2018-11-27at112112am.png)
 
@@ -88,11 +88,11 @@ Siga as etapas abaixo para implementar a funcionalidade:
    >
    >Para saber como criar um local, consulte **[Criação e Gerenciamento de Locais](managing-locations.md)**.
 
-1. **Criar Exibição em Local**
+1. **Criar Exibição no Local**
 
-   1. Navegue até **Ativação em Nível de Canal** > **Localizações** > **Região**.
-   1. Clique em **Região** e clique em **+ Criar** na barra de ações.
-   1. Clique em **Exibir** do assistente e crie uma exibição chamada de **Exibição de região.**
+   1. Navegue até **Ativação no Nível de Canal** > **Locais** > **Região**.
+   1. Clique em **Região** e em **+ Criar** na barra de ações.
+   1. Clique em **Exibir** no assistente e crie uma exibição chamada **RegionDisplay.**
 
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
@@ -100,34 +100,34 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
    Para **MainAdChannel:**
 
-   1. Navegue até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião** e clique em **Atribuir canal** na barra de ações.
-   1. No **Atribuição de canal** caixa de diálogo, Clique **Canal de referência** por caminho.
-   1. Clique em **Caminho do canal** e, em seguida, clique em **Ativação em Nível de Canal** > ***Canais*** > ***MainAdChannel***.
-   1. A variável **Função do canal** é preenchido como **mainadchannel**.
-   1. Clique em **Prioridade** e definida como **1**.
-   1. Clique em **Eventos suportados** como **Carga inicial** e **Tela inativa**.
+   1. Navegue até **Ativação no Nível de Canal** > **Locais** > **Região** > **RegionDisplay** e clique em **Atribuir Canal** na barra de ações.
+   1. Na caixa de diálogo **Atribuição de canal**, clique em **Canal de Referência** por caminho.
+   1. Clique no **Caminho do Canal** e em **Ativação no Nível do Canal** > ***Canais*** > ***MainAdChannel***.
+   1. A **Função de Canal** está populada como **mainadchannel**.
+   1. Clique em **Prioridade** e defina como **1**.
+   1. Clique nos **Eventos com Suporte**, como **Carregamento Inicial** e **Tela Ociosa**.
    1. Clique em **Salvar**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
-   >Você também pode atribuir o canal no painel de exibição. Navegue até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião**. Na barra de ações, selecione **Painel**. No **CANAIS ATRIBUÍDOS E AGENDAMENTOS** clique em **+ Atribuir canal**.
+   >Você também pode atribuir o canal no painel de exibição. Navegue até **Ativação no Nível de Canal** > **Locais** > **Região** > **RegionDisplay**. Na barra de ações, selecione **Painel**. No painel **CANAIS ATRIBUÍDOS E AGENDAMENTOS**, clique em **+ Atribuir canal**.
 
-   Da mesma forma, atribuir canal **TargetedSinglePlay** para exibição**:
+   Da mesma forma, atribua o canal **TargetedSinglePlay** para exibição**:
 
-   1. Navegue até **Ativação em Nível de Canal** > **Localizações** > **Região** > **ExibiçãoRegião** e clique em **Atribuir canal** na barra de ações.
-   1. No **Atribuição de canal** , clique em **Canal de referência** por caminho.
-   1. Clique em **Caminho do canal** e, em seguida, clique em **Ativação em Nível de Canal** > ***Canais*** > ***TargetedSinglePlay***.
-   1. A variável **Função do canal** é preenchido como **targetedsingleplay**.
-   1. Defina o **Prioridade** para **2**.
-   1. Clique em **Eventos suportados** e defina **Carga inicial**, **Tela inativa**, e **Temporizador**, conforme mostrado na figura abaixo.
-   1. Entrada **ativo desde**, definido como 27 de novembro de 2018 às 23h59, e em **ativo até**, definido como 28 de novembro de 2018, 00:05
+   1. Navegue até **Ativação no Nível de Canal** > **Locais** > **Região** > **RegionDisplay** e clique em **Atribuir Canal** na barra de ações.
+   1. Na caixa de diálogo **Atribuição de canal**, clique em **Canal de Referência** por caminho.
+   1. Clique no **Caminho do Canal** e em **Ativação no Nível do Canal** > ***Canais*** > ***TargetedSinglePlay***.
+   1. A **Função de Canal** está preenchida como **targetedsingleplay**.
+   1. Defina a **Prioridade** como **2**.
+   1. Clique em **Eventos com Suporte** e defina **Carregamento Inicial**, **Tela Inativa** e **Timer**, conforme mostrado na figura abaixo.
+   1. No **ativo de**, definido como 27 de novembro de 2018, às 23h59, e no **ativo até**, definido como 28 de novembro de 2018, às 12h05.
    1. Clique em **Salvar**.
 
    >[!CAUTION]
    >
-   >Defina a prioridade para o **TargetedSinglePlay** canal superior ao **SegmentoAnúncioPrincipal** canal.
+   >Defina a prioridade do canal **TargetedSinglePlay** como superior ao canal **MainAdSegment**.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
@@ -141,32 +141,32 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 Quando a configuração dos canais e a exibição estiverem concluídas, inicie o AEM Screens Player para visualizar o conteúdo.
 
-O reprodutor exibe o conteúdo de **MainAdChannel** e exatamente às 23h59 (conforme definido no cronograma), o **TargetedSinglePlay** O canal exibe o conteúdo até 00:05 e depois o **MainAdChannel** O reinicia a reprodução do conteúdo novamente.
+O player exibe o conteúdo do **MainAdChannel** e exatamente às 23h59 (conforme definido no agendamento), o canal **TargetedSinglePlay** exibe seu conteúdo até às 12h05 e, em seguida, o **MainAdChannel** retoma a reprodução do conteúdo novamente.
 
 >[!NOTE]
 >
 >Para saber mais sobre o reprodutor de tela AEM, consulte os seguintes recursos:
 >[Downloads do AEM Screens Player](https://download.macromedia.com/screens/)
->[Trabalhar com o AEM Screens Player](working-with-screens-player.md)
+>[Trabalhando com o AEM Screens Player](working-with-screens-player.md)
 
 
-## Lidar com a recorrência de ativos em um canal {#handling-recurrence-in-assets}
+## Manipulação de recorrência do Assets em um canal {#handling-recurrence-in-assets}
 
 Você pode agendar ativos em um canal para recorrência em determinados intervalos diariamente, semanalmente ou mensalmente, de acordo com sua necessidade.
 
-Suponha que você deseja exibir o conteúdo de um canal somente nas sextas-feiras, de 13h até 22h. Você pode usar o **Ativação** para definir o intervalo recorrente desejado para o ativo.
+Suponha que você deseja exibir o conteúdo de um canal somente nas sextas-feiras, de 13h até 22h. Você pode usar a guia **Ativação** para definir o intervalo recorrente desejado para seu ativo.
 
 ### Divisão de dia {#day-parting}
 
-1. Clique no canal e depois em **Painel** na barra de ações.
+1. Clique no canal e, em seguida, clique em **Painel** na barra de ações.
 
-1. Após inserir a data/hora inicial e a data/hora final da **Atribuição de canal** você pode usar uma expressão ou uma versão de texto natural para especificar o cronograma de recorrência.
+1. Depois de inserir a data/hora inicial e a data/hora final na caixa de diálogo **Atribuição de canal**, você pode usar uma expressão ou uma versão de texto natural para especificar seu cronograma de recorrência.
 
    >[!NOTE]
    >
-   >Você pode ignorar ou incluir a variável **Ativo desde** e **Ativo até** e adicione a expressão ao campo Schedule, de acordo com sua necessidade.
+   >Você pode ignorar ou incluir os campos **Ativo de** e **Ativo até** e adicionar a expressão ao campo Agendamentos, de acordo com sua necessidade.
 
-1. Insira a expressão na variável **Agendar** e seu ativo é exibido para o intervalo específico do dia e da hora.
+1. Insira a expressão no **Agendamento** e seu ativo será exibido para o intervalo específico de dia e hora.
 
 #### Expressões de Exemplo para Divisão de Dia {#example-one}
 
@@ -184,19 +184,19 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 >[!NOTE]
 >
->Também é possível usar _hora militar_ notação (14:00) em vez de *A.M./P.M.* (14H).
+>Você também pode usar a notação _tempo militar_ (14:00) em vez de *A.M./P.M.* (14:00).
 
 ### WeekParting {#week-parting}
 
-1. Clique no canal e depois em **Painel** na barra de ações.
+1. Clique no canal e, em seguida, clique em **Painel** na barra de ações.
 
-1. Após inserir a data/hora inicial e a data/hora final da **Atribuição de canal** você pode usar uma expressão ou uma versão de texto natural para especificar o cronograma de recorrência.
+1. Depois de inserir a data/hora inicial e a data/hora final na caixa de diálogo **Atribuição de canal**, você pode usar uma expressão ou uma versão de texto natural para especificar seu cronograma de recorrência.
 
    >[!NOTE]
    >
-   >Você pode ignorar ou incluir a variável **Ativo desde** e **Ativo até** e adicione a expressão ao campo Schedule, de acordo com sua necessidade.
+   >Você pode ignorar ou incluir os campos **Ativo de** e **Ativo até** e adicionar a expressão ao campo Agendamentos, de acordo com sua necessidade.
 
-1. Insira a expressão na variável **Agendar** e seu ativo é exibido para o intervalo específico do dia e da hora.
+1. Insira a expressão no **Agendamento** e seu ativo será exibido para o intervalo específico de dia e hora.
 
 #### Expressões de exemplo para WeekParting {#example-two}
 
@@ -212,20 +212,20 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 >[!NOTE]
 >
->Também é possível usar _hora militar_ notação (14:00) em vez de *A.M./P.M.* (14H).
+>Você também pode usar a notação _tempo militar_ (14:00) em vez de *A.M./P.M.* (14:00).
 
 
 ### MonthParting {#month-parting}
 
-1. Clique no canal e depois em **Painel** na barra de ações.
+1. Clique no canal e, em seguida, clique em **Painel** na barra de ações.
 
-1. Após inserir a data/hora inicial e a data/hora final da **Atribuição de canal** você pode usar uma expressão ou uma versão de texto natural para especificar o cronograma de recorrência.
+1. Depois de inserir a data/hora inicial e a data/hora final na caixa de diálogo **Atribuição de canal**, você pode usar uma expressão ou uma versão de texto natural para especificar seu cronograma de recorrência.
 
    >[!NOTE]
    >
-   >Você pode ignorar ou incluir a variável **Ativo desde** e **Ativo até** e adicione a expressão ao campo Schedule, de acordo com sua necessidade.
+   >Você pode ignorar ou incluir os campos **Ativo de** e **Ativo até** e adicionar a expressão ao campo Agendamentos, de acordo com sua necessidade.
 
-1. Insira a expressão na variável **Agendar** e seu ativo é exibido para o intervalo específico do dia e da hora.
+1. Insira a expressão no **Agendamento** e seu ativo será exibido para o intervalo específico de dia e hora.
 
 #### Expressões de exemplo para MonthParting {#example-three}
 
@@ -241,19 +241,19 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 >[!NOTE]
 >
->Também é possível usar _hora militar_ notação (14:00) em vez de *A.M./P.M.* (14H).
+>Você também pode usar a notação _tempo militar_ (14:00) em vez de *A.M./P.M.* (14:00).
 
 ### Combinação de Peças {#combined-parting}
 
-1. Clique no canal e depois em **Painel** na barra de ações.
+1. Clique no canal e, em seguida, clique em **Painel** na barra de ações.
 
-1. Após inserir a data/hora inicial e a data/hora final da **Atribuição de canal** você pode usar uma expressão ou uma versão de texto natural para especificar o cronograma de recorrência.
+1. Depois de inserir a data/hora inicial e a data/hora final na caixa de diálogo **Atribuição de canal**, você pode usar uma expressão ou uma versão de texto natural para especificar seu cronograma de recorrência.
 
    >[!NOTE]
    >
-   >Você pode ignorar ou incluir a variável **Ativo desde** e **Ativo até** e adicione a expressão ao campo Schedule, de acordo com sua necessidade.
+   >Você pode ignorar ou incluir os campos **Ativo de** e **Ativo até** e adicionar a expressão ao campo Agendamentos, de acordo com sua necessidade.
 
-1. Insira a expressão na variável **Agendar** e seu ativo é exibido para o intervalo específico do dia e da hora.
+1. Insira a expressão no **Agendamento** e seu ativo será exibido para o intervalo específico de dia e hora.
 
 #### Expressões de Exemplo para Combinação de Parcelas {#example-four}
 
@@ -267,4 +267,4 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 >[!NOTE]
 >
->Ao definir dias da semana e meses, você pode usar as notações abreviadas e de nome completo, como Seg/Segunda-feira e Jan/Janeiro. Além disso, também é possível usar _hora militar_ notação (14:00) em vez de *A.M./P.M.* (14H).
+>Ao definir dias da semana e meses, você pode usar as notações abreviadas e de nome completo, como Seg/Segunda-feira e Jan/Janeiro. Além disso, você também pode usar a notação _tempo militar_ (14:00) em vez de *A.M./P.M.* (14:00).

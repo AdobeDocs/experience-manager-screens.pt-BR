@@ -34,10 +34,10 @@ Siga as etapas abaixo para garantir a conexão correta dos reprodutores de tela 
 1. Caso a chamada de URL seja bem-sucedida, você pode continuar instalando o AEM Screens e se registrar. Inicie o AEM Screens.
 
    >[!NOTE]
-   >**Dica de solução de problemas**
+   >**Dica de Solução de Problemas**
    >Se o AEM Screens não se conectar corretamente e o conteúdo esperado não for exibido:
    >
-   >1. Verifique o firewall do roteador de Internet se houver restrições relacionadas a `TCP/IP Port 80/443`.
+   >1. Verifique o firewall do seu Roteador de Internet se houver alguma restrição relacionada a `TCP/IP Port 80/443`.
    >1. Verifique se todas as portas necessárias são permitidas.
 
 ## Configurando Redes Corporativas Fechadas {#requirements-enclosed-networks}
@@ -69,10 +69,10 @@ Por exemplo, os componentes de rede devem corresponder pelo menos ao padrão de 
 As redes corporativas têm vários dispositivos conectados, são separadas em várias sub-redes e têm conexões de Internet redundantes ou multiplexadas para fornecer desempenho suficiente para milhares de acessos simultâneos.
 Esse esquema é simplificado e se adapta à maioria dos casos aos ambientes disponíveis para o cliente.
 
-No caso de se prever uma solução Wi-Fi para ligar o AEM Screens à ligação Internet, recomenda-se a utilização de normas Wi-Fi modernas, como `IEEE 802.11g` no mínimo. Este padrão suporta conexões de até 54 Mbps. Qualquer *mais recente* Padrões como `802.11h-n` são de melhor qualidade. Se um repetidor Wi-Fi for necessário, o Adobe recomenda tecnologias de ponto de acesso Wi-Fi em malha, como Google Nest Mesh Wi-Fi ou semelhante.
+Caso uma solução Wi-Fi esteja planejada para conectar o AEM Screens ao Link da Internet, é recomendável usar padrões Wi-Fi modernos como `IEEE 802.11g`, no mínimo. Este padrão suporta conexões de até 54 Mbps. Quaisquer *padrões mais recentes*, como `802.11h-n`, são de melhor qualidade. Se um repetidor Wi-Fi for necessário, o Adobe recomenda tecnologias de ponto de acesso Wi-Fi em malha, como Google Nest Mesh Wi-Fi ou semelhante.
 Outras tecnologias repetitivas Wi-Fi causam uma perda maciça de largura de banda na rede como um todo.
 
-## Download de mídia e ativos {#download}
+## Download de mídia e Assets {#download}
 
 O AEM Screens oferece uma vantagem significativa aos usuários de sinalização digital. Ele baixa e salva localmente todos os arquivos de mídia necessários, como imagens e vídeos. A maior parte do tráfego de rede ocorre quando há conteúdo novo a ser exibido em uma exibição específica.
 

@@ -24,7 +24,7 @@ O console Dispositivos permite acessar o gerenciador de dispositivos para atribu
 
 >[!CAUTION]
 >
->Antes de atribuir seu dispositivo, registre-o. Consulte [Registro do dispositivo](device-registration.md).
+>Antes de atribuir seu dispositivo, registre-o. Consulte [Registro de Dispositivo](device-registration.md).
 
 ## Atribuição de dispositivo {#device-assignment}
 
@@ -36,26 +36,26 @@ Siga as etapas abaixo para atribuir um dispositivo a uma exibição:
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Clique no **Dispositivos** e clique em **Gerenciador de dispositivos** na barra de ações. Os dispositivos atribuídos e não atribuídos são exibidos.
+1. Clique na pasta **Dispositivos** e clique em **Gerenciador de Dispositivos** na barra de ações. Os dispositivos atribuídos e não atribuídos são exibidos.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Clique em um dispositivo não atribuído na lista e clique no botão **Atribuir dispositivo** na barra de ações.
+1. Clique em um dispositivo não atribuído na lista e clique em **Atribuir dispositivo** na barra de ações.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Clique na exibição à qual deseja atribuir o dispositivo na lista e clique na guia **Atribuir**.
+1. Clique na exibição à qual você deseja atribuir o dispositivo na lista e clique em **Atribuir**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
 1. Clique em **Concluir** para concluir o processo de atribuição.
 
 
-   O painel de exibição exibe o dispositivo atribuído na variável **DISPOSITIVOS** painel.
+   O painel de exibição exibe o dispositivo atribuído no painel **DISPOSITIVOS**.
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   Clique no botão **..**) no canto superior direito da **DISPOSITIVOS** para adicionar a configuração do dispositivo ou atualizar os dispositivos.
+   Clique em (**...**) no canto superior direito do painel **DISPOSITIVOS** para adicionar a configuração do dispositivo ou atualizar os dispositivos.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 
@@ -63,10 +63,10 @@ Siga as etapas abaixo para atribuir um dispositivo a uma exibição:
 >
 >Toda vez que o primeiro dispositivo é adicionado a um novo projeto do Screens, um grupo de usuários é criado.
 >Por exemplo, se o nome do nó do projeto for *we-retail*, o nome do grupo de usuários será *screens-we-retail-devices*.
->Esse grupo é adicionado como um membro da **Colaboradores** conforme mostrado na figura abaixo:
+>Este grupo é adicionado como membro do grupo **Contribuidores**, conforme mostrado na figura abaixo:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 
 ### Próximas etapas {#the-next-steps}
 
-Depois de conhecer a atribuição de um canal a uma exibição, consulte t[Monitorar e solucionar problemas](monitoring-screens.md).
+Depois de conhecer a atribuição de canal a uma exibição, consulte t[Monitorar e solucionar problemas](monitoring-screens.md).

@@ -29,8 +29,8 @@ O objetivo desse recurso é reduzir o tempo necessário para configurar o projet
 
 Ao permitir que o autor forneça uma planilha como um arquivo de entrada e que o sistema crie automaticamente a árvore de local no back-end, esse recurso:
 
-* *obtém um desempenho muito melhor do que a seleção manual por meio da interface*
-* *O permite que o cliente exporte os locais que possui de seu próprio sistema e os importe facilmente diretamente no AEM*
+* *atinge um desempenho muito melhor do que selecionar manualmente por meio da interface*
+* *permite que o cliente exporte os locais que possui de seu próprio sistema e os importe facilmente diretamente no AEM*
 
 Esse processo economiza tempo e dinheiro durante a configuração inicial do projeto ou ao estender o AEM Screens existente para novos locais.
 
@@ -57,13 +57,13 @@ O modelo de dados para o Importador de projetos é descrito abaixo:
 
 O arquivo de planilha (CSV/XLS) requer, portanto, as seguintes colunas:
 
-* **caminho {string}** - O caminho para o local a ser importado, onde a raiz do caminho é a pasta do local do projeto (ou seja, *`/foo`* é importado para *`/content/screens/<project>/locations/foo`*)
-* **modelo {string}** - O modelo a ser usado para o novo local; por enquanto, o único valor permitido é &quot;local&quot;, mas esse valor é estendido para todos os modelos do Screens no futuro (`display`, `sequencechannel`e assim por diante)
+* **caminho {string}** - O caminho do local a ser importado, onde a raiz do caminho é a pasta do local do projeto (ou seja, *`/foo`* é importado para *`/content/screens/<project>/locations/foo`*)
+* **modelo {string}** - O modelo a ser usado para o novo local; por enquanto, o único valor permitido é &quot;local&quot;, mas esse valor será estendido para todos os modelos do Screens no futuro (`display`, `sequencechannel` e assim por diante)
 * **[./*] {string}** - Qualquer propriedade opcional a ser definida no local (ou seja, `./jcr:title`, `./jcr:description`, `./foo, ./bar`). A versão atual não permite filtragem.
 
 >[!NOTE]
 >
->Qualquer coluna que não corresponda às condições acima será ignorada. Por exemplo, se você tiver qualquer outra coluna definida no arquivo de planilha (CSV/XLS) diferente de **caminho**, **modelo**, **título**, e **descrição** no arquivo, esses campos são ignorados. E, **Importador de projetos** O não valida esses campos adicionais para importar seu projeto para o projeto do AEM Screens.
+>Qualquer coluna que não corresponda às condições acima será ignorada. Por exemplo, se você tiver qualquer outra coluna definida no arquivo de planilha (CSV/XLS) diferente de **caminho**, **modelo**, **título** e **descrição** no arquivo, esses campos serão ignorados. E o **Importador de Projetos** não valida esses campos adicionais para importar seu projeto para o projeto do AEM Screens.
 
 ## Usando o importador de projeto {#using-project-importer}
 
@@ -79,7 +79,7 @@ A seção a seguir descreve como o Importador de projeto é usado em um projeto 
 
 ### Pré-requisitos {#prerequisites}
 
-* Criar um projeto intitulado como **DemoProjectImport**
+* Crie um projeto intitulado como **DemoProjectImport**
 
 * Use um arquivo CSV ou Excel de amostra que você deve importar.
 
@@ -105,9 +105,9 @@ Siga as etapas abaixo para importar um arquivo para uma pasta de local com os ca
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. A variável **Importar** será exibido. Clique no arquivo do projeto com localizações ou clique no arquivo (***minimal-file.xls***) que você baixou do *Pré-requisitos* seção.
+1. O assistente **Import** é exibido. Clique no arquivo do seu projeto com locais ou clique no arquivo (***minimal-file.xls***) que você baixou da seção *Pré-requisitos*.
 
-   Após selecionar o arquivo, clique em **Próxima**.
+   Após selecionar o arquivo, clique em **Avançar**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 

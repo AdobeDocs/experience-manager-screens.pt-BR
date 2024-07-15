@@ -40,15 +40,15 @@ Siga as etapas abaixo para usar uma miniatura em vídeos:
 
    ![imagem](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. Clique no vídeo e na guia *chave inglesa* ícone.
+1. Clique no vídeo e clique na *chave inglesa*.
 
    ![imagem](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
-1. A variável **Vídeo** é aberta, onde você pode exibir a **Miniatura** área de lançamento.
+1. A caixa de diálogo **Vídeo** é aberta, onde você pode exibir a zona de destino **Miniatura**.
 
    ![imagem](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. Arraste e solte uma imagem do seletor de ativos para a **Miniatura** área designada e clique em **Concluído**.
+1. Arraste e solte uma imagem do seletor de ativos na zona de destino **Miniatura** e clique em **Concluído**.
 
    ![imagem](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 

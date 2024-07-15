@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->A variável **Marcação** O recurso só estará disponível se estiver habilitado para o locatário. Entre em contato com o departamento de engenharia da AEM Screens para ativá-lo.
+>O recurso **Marcação** só estará disponível se estiver habilitado para o locatário. Entre em contato com o departamento de engenharia da AEM Screens para ativá-lo.
 
 ## Introdução {#introduction}
 
@@ -22,7 +22,7 @@ O usuário pode criar tags na Screens Cloud e usá-las para classificar exibiç�
 
 ## Criar e gerenciar tags {#create-and-manage-tags}
 
-![criar tag](assets/tagging/create-tag.gif).
+![criar marca](assets/tagging/create-tag.gif).
 
 Use o mesmo menu de ação para renomear ou excluir uma tag.
 
@@ -45,7 +45,7 @@ Use tags criadas em Exibições e players.
 
 Selecione tags para filtrar a lista de exibições ou players.
 
-![filtrar por tags](assets/tagging/filter-by-tags.gif).
+![filtrar por marcas](assets/tagging/filter-by-tags.gif).
 
 >[!NOTE]
 > 

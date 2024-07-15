@@ -17,7 +17,7 @@ Esta seção fornece recomendações sobre os principais elementos essenciais pa
 
 ## Principais elementos em sinalização digital {#key-elements}
 
-A variável *Elementos principais* em um projeto de sinalização digital são:
+Os *Elementos principais* em um projeto de sinalização digital são:
 
 ![](/help/assets/Elements-Revised.png)
 
@@ -27,7 +27,7 @@ A definição dos principais elementos é essencial antes da implementação de 
 
    O hardware define quais componentes de hardware são ideais para a implementação do projeto de sinalização digital:
    * O dispositivo tem espaço de armazenamento suficiente para executar todas as variações das experiências off-line?
-   * Você permitiu o tipo e o comprimento do cabo de vídeo? E o dispositivo suporta ambas as resoluções desejadas (alta definição, alta definição total, `4K`e assim por diante) e codecs de vídeo que estou planejando implantar (h.264, h.265 e assim por diante)
+   * Você permitiu o tipo e o comprimento do cabo de vídeo? O dispositivo também oferece suporte às resoluções desejadas (HD, FullHD, `4K` e assim por diante) e aos codecs de vídeo que estou planejando implantar (h.264, h.265 e assim por diante)?
    * Utilização de fio de cobre físico
    * Tamanho das telas
    * Número de telas

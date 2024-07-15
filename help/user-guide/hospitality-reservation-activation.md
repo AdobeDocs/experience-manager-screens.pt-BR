@@ -23,57 +23,57 @@ O caso de uso a seguir demonstra o uso da ativação de reservas hospitalares co
 
 ## Descrição {#description}
 
-Para este caso de uso, a Folha do Google é preenchida com porcentagem de reservas em dois restaurantes **`Restaurant1`** e **`Restaurant2`**. Uma fórmula é aplicada com base em valores de `Restaurant1` e `Restaurant2` e, com base na fórmula, o valor 1 ou 2 é atribuído ao **AdTarget** Coluna.
+Para este caso de uso, a Planilha do Google é preenchida com porcentagem de reservas em dois restaurantes **`Restaurant1`** e **`Restaurant2`**. Uma fórmula é aplicada com base nos valores de `Restaurant1` e `Restaurant2` e, com base na fórmula, o valor 1 ou 2 é atribuído à Coluna **AdTarget**.
 
-Se o valor de **`Restaurant1`** > **`Restaurant2`**, depois **AdTarget** é valor atribuído **1** caso contrário **AdTarget** é valor atribuído **2**. O valor 1 gera um *Comida de bife* opção e Valor dois resultam em uma exibição de *Comida tailandesa* na tela.
+Se o valor de **`Restaurant1`** > **`Restaurant2`**, então **AdTarget** recebe o valor **1**, caso contrário **AdTarget** recebe o valor **2**. O valor 1 gera uma opção *Steak food* e o valor dois resulta em uma exibição da opção *Thai food* na tela de exibição.
 
 ## Pré-condições {#preconditions}
 
-Antes de começar a implementar a ativação de reserva, saiba como configurar ***Armazenamento de dados***, ***Segmentação de público*** e ***Ativar o direcionamento para canais*** em um projeto do AEM Screens.
+Antes de começar a implementar a ativação de reserva, saiba como configurar o ***Armazenamento de dados***, a ***Segmentação de público-alvo*** e a ***Habilitar o direcionamento para Canais*** em um projeto do AEM Screens.
 
-Consulte [Configuração do ContextHub no AEM Screens](configuring-context-hub.md) para obter informações detalhadas.
+Consulte [Configurando o ContextHub no AEM Screens](configuring-context-hub.md) para obter informações detalhadas.
 
 ## Fluxo básico {#basic-flow}
 
 Siga as etapas do caso de uso abaixo para implementar a ativação de reserva de hospitalidade para seu projeto do AEM Screens:
 
-1. **Preencher as Google Sheets e adicionar a fórmula**.
+1. **Preenchendo as Planilhas Google e adicionando a fórmula**.
 
    Por exemplo, aplique a fórmula à terceira coluna **AdTarget**, conforme mostrado na figura abaixo.
 
    ![screen_shot_2019-04-29at94132am](assets/screen_shot_2019-04-29at94132am.png)
 
-1. **Configuração dos segmentos em Públicos-alvo de acordo com os requisitos**
+1. **Configurando os segmentos em Públicos de acordo com os requisitos**
 
-   1. Navegue até os segmentos no seu público-alvo (Consulte ***Etapa 2: Configuração da segmentação de público*** in **[Configuração do ContextHub no AEM Screens](configuring-context-hub.md)** para obter mais detalhes).
-   1. Clique em **Folhas A1 1** e clique em **Editar**.
-   1. Clique na propriedade de comparação e clique no link **Configuração** ícone.
+   1. Navegue até os segmentos no seu público-alvo (Consulte ***Etapa 2: Configuração da segmentação de público-alvo*** na página **[Configuração do ContextHub no AEM Screens](configuring-context-hub.md)** para obter mais detalhes).
+   1. Clique em **Folhas A1 1** e em **Editar**.
+   1. Clique na propriedade de comparação e no ícone **Configuração**.
    1. Clique em **googlesheets/value/1/2** no menu suspenso em **Nome da propriedade**.
-   1. Clique em **Operador** as **igual** no menu suspenso.
-   1. Insira o **Valor** as **1**.
-   1. Da mesma forma, clique no link **Folhas A1 2** e clique em **Editar**.
-   1. Clique na propriedade de comparação e clique no link **Configuração** ícone.
+   1. Clique no **Operador** como **igual** no menu suspenso.
+   1. Insira o **Valor** como **1**.
+   1. Da mesma forma, clique em **Folhas A1 2** e em **Editar**.
+   1. Clique na propriedade de comparação e no ícone **Configuração**.
    1. Clique em **googlesheets/value/1/2** no menu suspenso em **Nome da propriedade**.
-   1. Clique em **Operador** as **2**.
+   1. Clique no **Operador** como **2**.
 
-1. Navegue e clique no canal () e clique em **Editar** na barra de ações. No exemplo a seguir, **DataDrivenRestaurant**, um canal sequencial é usado para mostrar a funcionalidade.
+1. Navegue e clique no seu canal () e clique em **Editar** na barra de ações. No exemplo a seguir, **DataDrivenRestaurant**, um canal sequencial é usado para mostrar a funcionalidade.
 
    >[!NOTE]
    >
-   >Seu canal já deve ter uma imagem padrão e os Públicos-alvo devem ser pré-configurados conforme descrito em [Configuração do ContextHub no AEM Screens](configuring-context-hub.md).
+   >Seu canal já deve ter uma imagem padrão e os Públicos-alvo devem ser pré-configurados conforme descrito em [Configurando o ContextHub no AEM Screens](configuring-context-hub.md).
 
    ![screen_shot_2019-05-08at14652pm](assets/screen_shot_2019-05-08at14652pm.png)
 
    >[!CAUTION]
    >
-   >Seu **ContextHub** **Configurações** uso do canal **Propriedades** > **Personalização** já deveria ter sido configurada neste ponto.
+   >Suas **Configurações do** ContextHub **** usando a guia do canal **Propriedades** > **Personalization** já devem ter sido configuradas neste momento.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Clique em **Direcionamento** no editor e clique em **Marca** e a variável **Atividade** no menu suspenso e clique em **Iniciar o direcionamento**.
-1. **Verificação da visualização**
+1. Clique em **Direcionamento** no editor e em **Marca** e **Atividade** no menu suspenso e clique em **Iniciar Direcionamento**.
+1. **Verificando a Visualização**
 
-   1. Clique em **Visualizar.** Além disso, abra as Google Sheets e atualize o valor.
-   1. Atualizar o valor em **`Restaurant1`** e **`Restaurant2`** colunas. Se **`Restaurant1`** > **`Restaurant2`,** você deve conseguir visualizar uma imagem de *Bife* alimentos de outro modo, *Tailandês* a imagem dos alimentos é exibida no seu ecrã.
+   1. Clique em **Visualizar.** Além disso, abra suas Planilhas Google e atualize seu valor.
+   1. Atualize o valor em **`Restaurant1`** e **`Restaurant2`** colunas. Se **`Restaurant1`** > **`Restaurant2`,** você poderá ver uma imagem de comida *Bife* do contrário, a imagem de comida *Tailandesa* será exibida em sua tela.
 
    ![resultado5](assets/result5.gif)

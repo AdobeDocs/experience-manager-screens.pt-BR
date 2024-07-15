@@ -24,14 +24,14 @@ O monitoramento de conteúdo permite que você solucione problemas relacionados 
 
 1. Se um problema de tela em branco for encontrado:
 
-   * Verifique a *pré-visualização* assim, você pode ver se o canal está mostrando uma tela preta.
-   * Registrar um *reprodutor local do Chrome* (como extensão) no laptop para essa tela e veja se ela mostra uma tela preta.
-   * Clique com o botão direito do mouse, inspecione e verifique a *logs aplicáveis*.
+   * Verifique a *visualização* para ver se o canal está mostrando uma tela preta.
+   * Registre um *Chrome player local* (como uma extensão) em seu laptop para essa exibição e veja se ele exibe uma tela preta.
+   * Clique com o botão direito do mouse, inspecione e verifique os *logs aplicáveis*.
 
    Além disso, se o problema não estiver acontecendo no reprodutor local, mas somente no dispositivo:
 
-   * Verifique a *tipo de mídia* (em uso) que pode ter problemas nesse dispositivo e também confirmar se o conteúdo foi baixado localmente com êxito (a interface do administrador limpa o cache de canal).
-   * Incluir qualquer *logs do dispositivo* no tíquete para solução rápida de problemas.
+   * Verifique o *tipo de mídia* (em uso) que pode ter problemas nesse dispositivo e também confirme se o conteúdo foi baixado localmente com êxito (a interface do administrador limpa o cache de canal).
+   * Inclua quaisquer *logs de dispositivo* no tíquete para resolução rápida de problemas.
    * *Coletar logs* do dispositivo do AEM.
 
 ## Monitoramento de dispositivo {#device-monitoring}
@@ -40,6 +40,6 @@ Monitoramento de dispositivo relacionado ao monitoramento do dispositivo físico
 
 1. Se um problema de tela em branco for encontrado:
 
-   * Verifique se *exibição* está ligado.
-   * Verifique se *computador* está ligado e está enviando um sinal.
-   * Clique com o botão direito do mouse, inspecione e marque *logs aplicáveis*.
+   * Verifique se a *exibição* está ativada.
+   * Verifique se o *computador* está ligado e enviando um sinal.
+   * Clique com o botão direito do mouse, inspecione e verifique *logs aplicáveis*.
