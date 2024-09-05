@@ -2,9 +2,9 @@
 title: Funções e responsabilidades do projeto AEM Screens
 description: Saiba mais sobre as funções e responsabilidades do projeto AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: 7eae5038cb836219447d900bacf8af2faab51a43
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,10 @@ Os implementadores de AEM normalmente implantarão a funcionalidade personalizad
 O integrador de áudio-vídeo é o fornecedor-parceiro de hardware. Eles são a parte que lida com design de varejo e preparação de sites, incluindo aquisição, configuração e implantação de hardware. Normalmente, é um terceiro contratado que tem acesso a um NOC (Network Operations Center, centro de operações de rede). Muitas vezes, o Integrador de áudio e vídeo é o proprietário do projeto devido ao seu envolvimento contínuo após o lançamento.
 
 Um Integrador de áudio e vídeo é responsável por realizar a detecção com os clientes finais para definir os requisitos, determinando o escopo do projeto para projetar, criar e gerenciar com eficácia as implantações em torno do hardware de sinalização digital.
+
+>[!NOTE]
+>
+> Você deve ter um Integrador de áudio e vídeo como parte de sua implantação do AEM Screens.
 
 #### Considerar parceiro de hardware {#selecting-hardware-partner}
 
@@ -158,7 +162,7 @@ A tabela a seguir resume o **Primeiro Dia: Implementação do Projeto (Disponibi
 | Agendamento de integração de varejo | I | I | C | RA |
 | Preparando Teste de Aceitação do Usuário | I | C | RA |   |
 | Configuração de hardware em massa | RA | I | C | I |
-| Contrato de suporte ao Post Launch | RA | C | RA | C |
+| Contrato de suporte pós-lançamento | RA | C | RA | C |
 
 A tabela a seguir resume o **Primeiro Dia: Primeiro Dia: Implementação de Projeto (Hardware)**:
 
@@ -173,7 +177,7 @@ A tabela a seguir resume o **Primeiro Dia: Primeiro Dia: Implementação de Proj
 
 >[!NOTE]
 >
->As funções são alteradas durante o Segundo dia (Suporte ao Post Launch).
+>As funções são alteradas durante o segundo dia (suporte pós-inicialização).
 
 * **Autor**: Gerenciamento de Conteúdo + Estratégia
 
@@ -181,11 +185,11 @@ A tabela a seguir resume o **Primeiro Dia: Primeiro Dia: Implementação de Proj
 
 * **Técnico**: contratado pelo Integrador de Áudio-Vídeo ou faz parte da mesma empresa.
 
-A tabela a seguir resume o **Segundo Dia: Gráfico RACI de Suporte do Post Launch**:
+A tabela a seguir resume o **Gráfico RACI de Suporte de Pós-Inicialização**:
 
 | **Fase** | **Autor** | **Desenvolvedor** | **Técnico** |
 |---|---|---|---|
-| *Segundo Dia: Suporte Ao Post Launch* |
+| *Segundo Dia: Suporte Pós-Inicialização* |
 | Acordo sobre Funções e Responsabilidades | RA | RA | RA |
 | Suporte de nível 1 | I | I | RA |
 | Suporte de nível 2 | I | C | RA |
