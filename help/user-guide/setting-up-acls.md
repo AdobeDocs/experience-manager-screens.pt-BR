@@ -1,6 +1,6 @@
 ---
 title: Configurando ACLs
-description: Saiba como segregar projetos usando ACLs para que cada indivíduo ou equipe lide com seu próprio projeto.
+description: Saiba como segregar projetos usando Listas de controle de acesso (ACLs) para que cada indivíduo ou equipe lide com seu próprio projeto.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,16 +9,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '497'
 ht-degree: 2%
 
 ---
 
-# Configurando ACLs {#setting-up-acls}
+# Configurando Listas de Controle de Acesso (ACLs) {#setting-up-acls}
 
-A seção a seguir explica como segregar projetos usando ACLs para que cada indivíduo ou equipe lide com seu próprio projeto.
+A seção a seguir explica como segregar projetos usando Listas de controle de acesso (ACLs), para que cada indivíduo ou equipe lide com seu próprio projeto.
 
 Como administrador do AEM, você deseja garantir que os membros da equipe de um projeto não interfiram em outros projetos. Cada usuário recebe funções específicas de acordo com os requisitos do projeto.
 
