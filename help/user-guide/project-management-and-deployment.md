@@ -1,5 +1,5 @@
 ---
-title: "Parte 4: Gerenciamento e implantação de projetos"
+title: 'Parte 4: Gerenciamento e implantação de projetos'
 description: Saiba mais sobre o gerenciamento de projetos e a preparação de implantação (pré-produção do projeto, início do projeto, progressão do projeto) para o AEM Screens.
 contentOwner: jsyal
 content-type: reference

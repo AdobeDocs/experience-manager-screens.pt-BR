@@ -1,6 +1,6 @@
 ---
-title: "Parte 5: Considerações sobre suporte"
-description: Saiba como problemas de hardware, software e conectividade são tratados. Explore estimativas de custos e estruturas para suporte no local. Além disso, saiba como os parâmetros de SLA, os orçamentos operacionais e as transferências de NOC são gerenciados.
+title: 'Parte 5: Considerações sobre suporte'
+description: Saiba como problemas de hardware, software e conectividade são tratados. Explore estimativas de custos e estruturas para suporte no local. Além disso, saiba como os parâmetros do SLA, os orçamentos operacionais e as transferências de NOC são gerenciados.
 contentOwner: jsyal
 content-type: reference
 topic-tags: digital-signage-networks-basics
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Parte 5: Considerações sobre suporte {#part-support-considerations}
 
-Esta página destaca a parte final de uma série de cinco partes, projetada para ajudar os membros da equipe a saber como os problemas de hardware, software e conectividade são tratados. Essa fase explora estimativas de custos e estruturas para suporte no local. Além disso, explica como os parâmetros de SLA, os orçamentos operacionais e as transferências de NOC são gerenciados.
+Esta página destaca a parte final de uma série de cinco partes, projetada para ajudar os membros da equipe a saber como os problemas de hardware, software e conectividade são tratados. Essa fase explora estimativas de custos e estruturas para suporte no local. Além disso, explica como os parâmetros do SLA, os orçamentos operacionais e as transferências de NOC são gerenciados.
 
 ## Visão geral {#overview}
 

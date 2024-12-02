@@ -1,5 +1,5 @@
 ---
-title: "Parte 2: Considerações quanto ao escopo dos projetos"
+title: 'Parte 2: Considerações quanto ao escopo dos projetos'
 description: Saiba mais sobre a estratégia de conteúdo, as camadas de E/S, os tipos de ativos e a segmentação de público no AEM Screens. Leia sobre peças do dia, requisitos de operações de negócios e considerações sobre prontidão do local.
 contentOwner: jsyal
 content-type: reference

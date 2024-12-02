@@ -1,5 +1,5 @@
 ---
-title: "Parte 3: testes, POCs, pilotos e implantações"
+title: 'Parte 3: Testes, POCs, pilotos e implantações'
 description: Saiba mais sobre os principais termos envolvidos em um plano de projeto geral, como ciclo de projeto, ações relacionadas a testes de hardware, Prova de conceito, pilotos e implantações.
 contentOwner: jsyal
 content-type: reference
