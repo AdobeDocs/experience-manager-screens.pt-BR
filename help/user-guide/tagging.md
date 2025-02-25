@@ -3,9 +3,9 @@ title: Marcação na Screens Cloud
 description: Esta página descreve como as tags podem ser criadas, gerenciadas e usadas na Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
+source-git-commit: 17e864ed69d44da159343fe95990076ac702bbb4
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,8 @@ Use tags criadas em Exibições e players.
 ![gerenciar atribuições de tags](assets/tagging/assign-tags-to-players.gif).
 
 >[!NOTE]
-> 
-> Uma exibição ou um reprodutor pode ter no máximo 100 tags.
-> No máximo 30 itens podem ser marcados de uma só vez.
+>  
+>No máximo 30 itens podem ser marcados de uma só vez.
 
 ## Filtrar por tags {#filter-by-tags}
 
@@ -49,5 +48,5 @@ Selecione tags para filtrar a lista de exibições ou players.
 
 >[!NOTE]
 > 
-> As tags definidas na Screens Cloud não estão relacionadas/sincronizadas com as tags definidas no AEM.
+> As tags definidas na Screens Cloud não estão relacionadas/sincronizadas com as tags definidas na AEM.
 > 
