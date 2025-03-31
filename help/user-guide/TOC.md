@@ -8,9 +8,9 @@ user-guide-description: Saiba como usar uma solução de sinalização digital q
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 25a89400d2def07026c79cfedcd6418750c1de7d
+source-git-commit: c040c88c70ad6519f05edc3fc35628b61894e391
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '532'
 ht-degree: 11%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 11%
 + [Introdução ao Screens](aem-screens-introduction.md)
 + Visão geral e Guia de início rápido {#overview}
    + [Guia de início rápido](kickstart-for-aem-screens.md)
-   + [Guia de práticas recomendadas do Screens](https://experienceleague.adobe.com/br/docs/experience-manager-screens/using/about-guide)
+   + [Guia de práticas recomendadas do Screens](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/using/about-guide)
    + [Termos principais](screens-glossary.md)
    + [Terminologia e conceitos do Screens](screens-concepts-feature-video-understand.md)
 + Noções básicas de rede de sinalização digital {#digital-signage-network}
@@ -40,7 +40,7 @@ ht-degree: 11%
    + [Lista de verificação de segurança do AEM Screens](security-checklist.md)
    + [Transição do ContentSync para o SmartSync](smartsync.md)
    + [Novo importador de projeto do arquivo](project-importer.md)
-   + [Replicação de acionadores de dados para servidores do Publish](replicating-data-triggers.md)
+   + [Replicação dos acionadores de dados para os servidores de publicação](replicating-data-triggers.md)
    + [Configuração de agentes de replicação no Screens](configure-screens-replication.md)
    + Considerações específicas do cliente {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
@@ -51,9 +51,9 @@ ht-degree: 11%
       + [Cloud Player](implementing-cloud-player.md)
       + [Registro automático de players](auto-registration-players.md)
       + [Usar o controle remoto](implementing-remote-control.md)
-   + Publish do autor {#author-publish}
-      + [Autor - Visão geral da arquitetura do Publish](author-publish-architecture-overview.md)
-      + [Configuração do Author e do Publish](author-and-publish.md)
+   + Publicação do autor {#author-publish}
+      + [Autor - Publicar visão geral da arquitetura](author-publish-architecture-overview.md)
+      + [Configuração do Author e Publish](author-and-publish.md)
    + Integração do Analytics com o AEM Screens {#analytics-integration}
       + [Integração do Adobe Analytics](adobe-analytics-integration-aem-screens.md)
       + [Configuração do Adobe Analytics com AEM Screens](configuring-adobe-analytics-aem-screens.md)
@@ -109,7 +109,7 @@ ht-degree: 11%
    + [Canais offline](offline-channels.md)
    + [Extensão de um componente do AEM Screens](extending-component-tutorial-develop.md)
    + [Criar componentes](creating-components.md)
-   + [Incorporação de um aplicativo REACT usando o editor SPA AEM e integração com o AEM Screens Analytics](embedding-react-app.md)
+   + [Incorporação de um aplicativo REACT usando o Editor SPA do AEM e integração com o AEM Screens Analytics](embedding-react-app.md)
    + [Configuração do ContextHub no AEM Screens](configuring-context-hub.md)
    + [Criação de modelos personalizados para layouts de várias zonas](creating-custom-templates-multizone-layouts.md)
    + [Aplicação de marca e estilo personalizados a sobreposições de texto](custom-branding-text-overlays.md)
@@ -119,6 +119,7 @@ ht-degree: 11%
    + [Solução de problemas do Centro de controle de dispositivos](monitoring-screens.md)
    + [Configuração de reprodução de vídeo](troubleshoot-videos.md)
 + Notas de versão {#release-notes}
+   + [Notas de versão do Pacote de recursos 202401](release-notes-fp-20250215.md)
    + [Notas de versão do Pacote de recursos 202401](release-notes-fp-202401.md)
    + [Notas de versão do Pacote de recursos 20240116](release-notes-fp-20240116.md)
    + [Notas de versão do Pacote de recursos 20240215](release-notes-fp-20240215.md)
