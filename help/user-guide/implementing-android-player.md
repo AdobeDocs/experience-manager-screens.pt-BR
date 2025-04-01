@@ -10,14 +10,17 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
+source-git-commit: 45b9fce303989e2c090775131dd6188053053fc8
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
 
 # Implementação do Android™ Player {#implementing-android-player}
+
+>[!CAUTION]
+>A Adobe recomenda atualizar para a versão mais recente do 6.5 Adobe Experience Manager (AEM 6.5). Você pode obter as informações da versão mais recente de [aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/release-notes/release-notes).
 
 Esta seção descreve a configuração do Android™ player. Ele fornece informações do arquivo de configuração e as opções disponíveis, além de recomendações sobre quais configurações usar para desenvolvimento e teste.
 
@@ -27,7 +30,7 @@ Além disso, o **Watchdog** é uma solução para recuperar o reprodutor de falh
 
 Para implementar o Android™ Player para AEM Screens, instale o Android™ Player para AEM Screens.
 
-Visite a página [**Downloads de reprodutores do AEM 6.5**](https://download.macromedia.com/screens/).
+Visite a página [**Downloads do AEM 6.5 Player**](https://download.macromedia.com/screens/).
 
 ### Configuração do ambiente para o AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
@@ -40,7 +43,7 @@ Siga as etapas abaixo:
 
 1. Navegue até **Configuração do Adobe Experience Manager Web Console** usando `http://localhost:4502/system/console/configMgr`.
 
-1. Procure por *Manipulador de autenticação de token do Adobe Granite*.
+1. Pesquise por *Manipulador de autenticação de token do Adobe Granite*.
 
 1. Defina o atributo **SameSite para os cookies de token de logon** do **Lax** para **None**.
    ![imagem](/help/user-guide/assets/granite-updates.png)
@@ -50,12 +53,12 @@ Siga as etapas abaixo:
 
 ### Método Ad-Hoc {#ad-hoc-method}
 
-O método Ad-Hoc permite instalar o Player mais recente da Android™ (*.exe*). Visite a página [**Downloads de reprodutores do AEM 6.5**](https://download.macromedia.com/screens/).
+O método Ad-Hoc permite instalar o Player mais recente da Android™ (*.exe*). Visite a página [**Downloads do AEM 6.5 Player**](https://download.macromedia.com/screens/).
 
 Depois de baixar o aplicativo, siga as etapas no reprodutor para concluir a instalação ad-hoc:
 
 1. Pressione e segure no canto superior esquerdo para abrir o painel de administração.
-1. Navegue até **Configuração** no menu de ação esquerdo e digite o local (endereço) da instância de AEM à qual você deseja se conectar e clique em **Salvar**.
+1. Navegue até **Configuração** no menu de ação esquerdo e digite o local (endereço) da instância do AEM à qual você deseja se conectar e clique em **Salvar**.
 
 1. Navegue até o link **Dispositivo** **Registro** no menu de ação esquerdo para verificar o status do processo de registro do dispositivo.
 
@@ -86,7 +89,7 @@ Siga as etapas abaixo para assinar o aplicativo Android™ usando as chaves do f
 
 1. Localize a ferramenta `apksigner` no Android™ SDK usando a opção localizar `~/Library/Android/sdk/build-tools -name "apksigner"`
 1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
-1. Encontre o caminho para a ferramenta de alinhamento do zip no SDK da Android™
+1. Encontre o caminho para a ferramenta de alinhamento do zip no Android™ SDK
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
 1. Instale o ***aemscreensaligned.apk*** usando a instalação adb no dispositivo
 
@@ -110,7 +113,7 @@ O diagrama a seguir mostra a implementação do serviço de vigia:
 
 ## Provisionamento em massa do Android™ Player {#bulk-provision-android-player}
 
-Ao implantar o reprodutor Android™ em massa, é necessário provisionar o reprodutor para apontar para uma instância AEM e configurar outras propriedades sem inseri-las manualmente na interface do administrador.
+Ao implantar o reprodutor da Android™ em massa, é necessário provisionar o reprodutor para apontar para uma instância do AEM e configurar outras propriedades sem inseri-las manualmente na interface do administrador.
 
 >[!NOTE]
 >Esse recurso está disponível no Android™ player 42.0.372.
@@ -124,7 +127,7 @@ Consulte um [Exemplo de Política JSON](#example-json) e uma tabela que descreve
 
 1. Quando o arquivo for implantado, use o MDM para instalar o aplicativo do reprodutor.
 
-1. Quando o aplicativo de reprodução é iniciado, esse arquivo de configuração é lido e aponta para o servidor AEM aplicável, onde ele é registrado e, em seguida, controlado.
+1. Quando o aplicativo do reprodutor é iniciado, esse arquivo de configuração é lido e aponta para o servidor do AEM aplicável, onde ele é registrado e, em seguida, controlado.
 
    >[!NOTE]
    >Este arquivo é *somente leitura* na primeira vez que o aplicativo é iniciado e não pode ser usado para configurações subsequentes. Se o reprodutor for iniciado antes que o arquivo de configuração seja descartado, basta desinstalar e reinstalar o aplicativo no dispositivo.
@@ -172,7 +175,7 @@ A tabela a seguir resume os atributos da política com um exemplo de JSON de pol
 
 ## Provisionamento em massa do Android™ Player usando o Enterprise Mobility Management {#bulk-provisioning}
 
-Ao implantar o Android™ player em massa, é entediante registrar cada player manualmente com AEM. Use uma solução EMM (Enterprise Mobility Management), como o [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron ou Samsung Knox, para que você possa provisionar e gerenciar remotamente sua implantação. O AEM Screens Android™ player oferece suporte ao EMM AppConfig padrão do setor para permitir o provisionamento remoto.
+Ao implantar o Android™ player em massa, é entediante registrar cada player manualmente com o AEM. Use uma solução EMM (Enterprise Mobility Management), como o [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron ou Samsung Knox, para que você possa provisionar e gerenciar remotamente sua implantação. O AEM Screens Android™ player oferece suporte ao EMM AppConfig padrão do setor para permitir o provisionamento remoto.
 
 ## Nomeação do Android™ Player {#name-android}
 
