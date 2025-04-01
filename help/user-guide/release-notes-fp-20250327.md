@@ -4,9 +4,10 @@ description: Saiba mais sobre o Pacote de recursos 20250327 do AEM Screens, lan�
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 9934df069cf7625b55d82cef58ee8fea08b585a1
+exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
+source-git-commit: 658acac989ed06f33dae10a6145ada31ff57811d
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '227'
 ht-degree: 3%
 
 ---
@@ -39,7 +40,4 @@ A data de lançamento do Pacote de recursos do AEM Screens 20250327 é 27 de mar
 
 ### Correções de erros {#bug-fixes}
 
-* Conflito de pacote com o Service Pack 21 e o Pacote de recursos do Screens. (SCRNS-4638)
-
 * O Screens Dashboard não está funcionando. (SCRNS-4749)
-
