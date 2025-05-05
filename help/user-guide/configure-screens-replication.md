@@ -20,7 +20,7 @@ Esta página descreve como configurar os Agentes de Replicação do Screens.
 O Agente de Replicação do Screens é responsável por trazer dados de comandos como *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*, e muitos outros valores desse tipo, de publicação para autor. É essencial configurar esse agente para que o autor possa mostrar o ping do dispositivo.
 
 >[!NOTE]
->Para saber mais sobre os Agentes de Replicação do Screens, consulte [Comandos e Agentes de Replicação do Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
+>Para saber mais sobre os Agentes de Replicação do Screens, consulte [Comandos e Agentes de Replicação do Screens](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
 
 Conclua ambas as seções se desejar concluir a configuração do Screens Replication Agent:
 

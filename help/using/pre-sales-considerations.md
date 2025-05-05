@@ -31,4 +31,4 @@ Os principais resultados incluem:
 >
 >Identifique os dados necessários para o aplicativo e sua origem o mais rápido possível. Uma exploração mais profunda ocorre durante a implementação. No entanto, reserve um tempo durante o *Dia Zero* para descobrir quais dados o cliente pretende usar. Descubra onde esses dados estão armazenados atualmente e como o aplicativo que está sendo criado pode acessá-los. Notificar a equipe de desenvolvimento antes que surjam desafios ajuda a tornar uma implementação mais tranquila.
 
-Assista ao vídeo [Considerações quanto ao Escopo dos Projetos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).
+Assista ao vídeo [Considerações quanto ao Escopo dos Projetos](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).

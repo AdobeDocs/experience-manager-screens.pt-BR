@@ -58,7 +58,7 @@ Esse módulo permite:
 1. Gerenciar downloads de conteúdo
 1. Gerenciar problemas de reinicialização do aplicativo
 
-Para saber mais detalhes sobre o ***Centro de Controle de Dispositivo***, consulte o [Centro de Controle de Dispositivo](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) no **Guia do Usuário do AEM Screens**.
+Para saber mais detalhes sobre o ***Centro de Controle de Dispositivo***, consulte o [Centro de Controle de Dispositivo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) no **Guia do Usuário do AEM Screens**.
 
 >[!CAUTION]
 >

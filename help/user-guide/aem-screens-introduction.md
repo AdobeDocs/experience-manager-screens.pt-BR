@@ -57,7 +57,7 @@ A figura a seguir define os perfis e suas funções para os Experience Manager S
 
 * **Fundamentos da implementação guiada**
 
-  Siga o caminho de aprendizado guiado **[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/?launch=AEM-7a)** que abrange recursos essenciais e avançados compatíveis com o Experience Manager Screens.
+  Siga o caminho de aprendizado guiado **[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/pt-br?launch=AEM-7a)** que abrange recursos essenciais e avançados compatíveis com o Experience Manager Screens.
 
 * **Guia de práticas recomendadas para projetos do Experience Manager Screens**
 

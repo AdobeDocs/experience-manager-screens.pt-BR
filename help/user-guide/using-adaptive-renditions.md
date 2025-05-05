@@ -45,7 +45,7 @@ Para aplicar representações a ativos que você deseja usar no canal Tour Scree
    ![imagem](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Consulte [Atualização de conteúdo sob demanda](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) para saber mais sobre como gerenciar a publicação e fornecer atualizações de conteúdo do Autor para o Publish para o dispositivo.
+   >Consulte [Atualização de conteúdo sob demanda](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) para saber mais sobre como gerenciar a publicação e fornecer atualizações de conteúdo do Autor para o Publish para o dispositivo.
 
 ## Estratégia de migração {#migration-strategy}
 

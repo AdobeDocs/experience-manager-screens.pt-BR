@@ -32,15 +32,15 @@ Para concluir este tutorial, é necessário o seguinte:
 
 1. [AEM 6.5](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/release-notes/release-notes) e Pacote de Recursos mais recente do Screens.
 
-1. [AEM Screens Player](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction)
+1. [AEM Screens Player](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction)
 1. Ambiente de desenvolvimento local
 
-As etapas e capturas de tela do tutorial são executadas usando o **CRXDE-Lite**. IDEs também podem ser usados para concluir o tutorial. Mais informações sobre o uso de um IDE para desenvolver [com AEM podem ser encontradas aqui.](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)
+As etapas e capturas de tela do tutorial são executadas usando o **CRXDE-Lite**. IDEs também podem ser usados para concluir o tutorial. Mais informações sobre o uso de um IDE para desenvolver [com AEM podem ser encontradas aqui.](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)
 
 
 ## Configuração do projeto {#project-setup}
 
-O código-fonte de um projeto Screens geralmente é gerenciado como um projeto Maven de vários módulos. Para acelerar o tutorial, um projeto foi pré-gerado usando o [Arquétipo de Projeto AEM 13](https://github.com/adobe/aem-project-archetype). Mais detalhes sobre [a criação de um projeto com o Arquétipo de Projeto Maven AEM podem ser encontrados aqui](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+O código-fonte de um projeto Screens geralmente é gerenciado como um projeto Maven de vários módulos. Para acelerar o tutorial, um projeto foi pré-gerado usando o [Arquétipo de Projeto AEM 13](https://github.com/adobe/aem-project-archetype). Mais detalhes sobre [a criação de um projeto com o Arquétipo de Projeto Maven AEM podem ser encontrados aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 1. Baixe e instale os seguintes pacotes usando o [Gerenciador de Pacotes do CRX](http://localhost:4502/crx/packmgr/index.jsp):
 
@@ -136,7 +136,7 @@ O AEM Screens tem algumas restrições interessantes que não são necessariamen
    <sly data-sly-test="${!production}" data-sly-include="edit.html" />
    ```
 
-   Os componentes do Screens exigem duas renderizações diferentes, dependendo de qual [modo de criação](https://experienceleague.adobe.com/en/docs/experience-manager-64/authoring/authoring/author-environment-tools) está sendo usado:
+   Os componentes do Screens exigem duas renderizações diferentes, dependendo de qual [modo de criação](https://experienceleague.adobe.com/pt-br/docs/experience-manager-64/authoring/authoring/author-environment-tools) está sendo usado:
 
    1. **Produção**: modo de visualização ou Publish (wcmmode=disabled)
    1. **Editar**: usado para todos os outros modos de criação, como editar, criar, andaime, desenvolvedor...
@@ -383,7 +383,7 @@ Uma terceira categoria de biblioteca cliente: `cq.screens.components.edit` pode 
 
 ## Criar uma página de design {#design-page}
 
-O AEM Screens usa [Modelos de página estáticos](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/page-templates-static) e [Configurações de design](https://experienceleague.adobe.com/en/docs/experience-manager-64/authoring/siteandpage/default-components-designmode) para alterações globais. As configurações de design são usadas com frequência para configurar componentes permitidos para o Parsys em um canal. Uma prática recomendada é armazenar essas configurações de uma maneira específica do aplicativo.
+O AEM Screens usa [Modelos de página estáticos](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/platform/templates/page-templates-static) e [Configurações de design](https://experienceleague.adobe.com/pt-br/docs/experience-manager-64/authoring/siteandpage/default-components-designmode) para alterações globais. As configurações de design são usadas com frequência para configurar componentes permitidos para o Parsys em um canal. Uma prática recomendada é armazenar essas configurações de uma maneira específica do aplicativo.
 
 Abaixo de uma página de Design de Execução `We.Retail`, criada, que armazena todas as configurações específicas do projeto de Execução `We.Retail`.
 

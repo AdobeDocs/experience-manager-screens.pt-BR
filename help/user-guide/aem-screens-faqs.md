@@ -167,7 +167,7 @@ Siga as etapas abaixo para solucionar problemas com um AEM Screens Player que en
 
 1. Verifique se a configuração do Dispatcher permite essas solicitações no `/filters`.
 
-   Consulte [Configurando Filtros do Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters) para obter mais detalhes.
+   Consulte [Configurando Filtros do Screens](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters) para obter mais detalhes.
 
 1. Verifique se as regras de regravação do Dispatcher estão regravando qualquer um dos caminhos da tela em um caminho diferente.
 
@@ -214,7 +214,7 @@ Desative o Livefyre para evitar erros de registro ao fazer o seguinte.
 ### 2. Como adicionar informações do índice Oak? {#add-oak-index-info}
 
 O AEM Screens cria definições de índice para as consultas usadas pelo produto.
-Se houver *AVISOS de Travessia de Consulta* em `error.log`, crie um índice personalizado para sua consulta. Consulte [Configurando os Índices](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) para obter mais detalhes.
+Se houver *AVISOS de Travessia de Consulta* em `error.log`, crie um índice personalizado para sua consulta. Consulte [Configurando os Índices](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) para obter mais detalhes.
 
 Você também pode ver um recurso adicional em [Documentação do Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
@@ -224,10 +224,10 @@ Você também pode ver um recurso adicional em [Documentação do Oak](https://j
 Para ativar o Manifesto v3, faça o seguinte:
 
 * Atualize o Dispatcher.
-Consulte [Configuração do Dispatcher para a Versão de Manifesto v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obter mais detalhes.
+Consulte [Configuração do Dispatcher para a Versão de Manifesto v3](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obter mais detalhes.
 
 * Atualizar componente personalizado.
-Consulte [Modelo para manipuladores personalizados](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers) para obter mais detalhes.
+Consulte [Modelo para manipuladores personalizados](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers) para obter mais detalhes.
 
 * Desabilitar ContentSync em `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
@@ -241,7 +241,7 @@ Consulte [Modelo para manipuladores personalizados](https://experienceleague.ado
 
 ### 4. O que você deve fazer se, após o pacote screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 e os pacotes principais de telas estiverem instalados, mas não ativos?
 
-Instale uma versão mínima do AEM 6.5 Feature Pack 8 para que o conector AMS funcione. Consulte [Disponibilidade](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) para obter a versão mínima do Pacote de Recursos do AEM Screens.
+Instale uma versão mínima do AEM 6.5 Feature Pack 8 para que o conector AMS funcione. Consulte [Disponibilidade](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) para obter a versão mínima do Pacote de Recursos do AEM Screens.
 
 ### 5. Como configurar o serviço Externalizador de links CQ no Screens?
 
