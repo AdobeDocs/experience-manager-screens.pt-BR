@@ -73,7 +73,7 @@ Considerar todos esses estágios como parte do plano geral do projeto ajuda a ge
 
 ### Testes, POCs, pilotos e implantações
 
->[!VIDEO](https://video.tv.adobe.com/v/28405)
+>[!VIDEO](https://video.tv.adobe.com/v/32816?captions=por_br)
 
 *Saiba mais sobre os termos principais envolvidos em um plano de projeto geral, como ciclo de projeto, ações relacionadas a testes de hardware, Prova de Conceito, pilotos e implantações.*
 

@@ -56,7 +56,7 @@ Siga o tutorial abaixo para entender exatamente como cada parte faz parte da imp
 
 ### Parte 1: Funções e Responsabilidades do Projeto
 
->[!VIDEO](https://video.tv.adobe.com/v/28375)
+>[!VIDEO](https://video.tv.adobe.com/v/32834?captions=por_br)
 
 *Saiba mais sobre as funções e responsabilidades do Adobe, dos Integradores Áudio/Visuais e dos Implementadores de AEM.*
 
