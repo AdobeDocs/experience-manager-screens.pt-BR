@@ -173,6 +173,7 @@ A validação a seguir é o que você vê ao verificar sua conexão inserindo os
       ![imagem](/help/user-guide/assets/context-hub/context-hub11.png)
 
    1. Clique no segmento `**Higherthan50**` e clique em **Propriedades** na barra de ações.
+
       ![imagem](/help/user-guide/assets/context-hub/context-hub12.png)
 
    1. Clique na guia **Personalization** em **Propriedades do segmento**. Defina o **Caminho do ContextHub** como `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` e **Caminho de Segmentos** como `/conf/screens/settings/wcm/segments` e clique em **Salvar**, conforme mostrado na figura abaixo.

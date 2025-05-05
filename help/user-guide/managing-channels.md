@@ -169,7 +169,7 @@ Siga as etapas abaixo para tornar o canal online:
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. Verifique o **modo** do **do {Developer (forçar o canal a ficar online)** para tornar o canal online.
+1. Verifique o **modo** do **do &lbrace;Developer (forçar o canal a ficar online)** para tornar o canal online.
 
    Clique em **Salvar e fechar** para salvar sua opção.
 

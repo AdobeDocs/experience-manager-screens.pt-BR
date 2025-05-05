@@ -85,7 +85,7 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de Inventári
 
    >[!CAUTION]
    >
-   >Você já deve ter configurado suas **Configurações do** ContextHub **** usando a guia **Propriedades** > **Personalization** do canal.
+   >Você já deve ter configurado suas **Configurações do** ContextHub **&#x200B;**&#x200B;usando a guia **Propriedades** > **Personalization** do canal.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 

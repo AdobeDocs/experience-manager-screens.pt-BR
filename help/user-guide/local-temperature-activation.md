@@ -74,7 +74,7 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de temperatur
 
    >[!CAUTION]
    >
-   >Suas **Configurações do** ContextHub **** usando a guia de canal **Propriedades** > **Personalization** já devem estar configuradas.
+   >Suas **Configurações do** ContextHub **&#x200B;**&#x200B;usando a guia de canal **Propriedades** > **Personalization** já devem estar configuradas.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

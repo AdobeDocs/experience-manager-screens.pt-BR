@@ -175,6 +175,7 @@ Depois de configurar um local e uma exibição, siga as etapas abaixo para regis
 
    1. Se o título corresponder ao token do dispositivo, clique no dispositivo e em **Registrar Dispositivo** na barra de ações.
    1. Se o código de registro corresponder ao código na guia **Registro de Dispositivo** do Screens player, clique em **Validar** na barra de ações.
+
       ![imagem](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. Insira o **Título** como **`Chrome-Device1`** e clique em **Registrar**.
    1. Clique em **Atribuir exibição** e clique no caminho para a configuração do dispositivo.

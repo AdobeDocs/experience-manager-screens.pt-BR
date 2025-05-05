@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Para acompanhar os vídeos, você precisa do seguinte:
 
-1. **AEM 6.4** ou **AEM 6.3*+ **Pacote de Recursos Screens 1**
+1. **AEM 6.4** ou **AEM 6.3*+ &#x200B;** Pacote de Recursos Screens 1**
 
 1. Um reprodutor do Screens
 

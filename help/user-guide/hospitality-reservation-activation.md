@@ -66,7 +66,7 @@ Siga as etapas do caso de uso abaixo para implementar a ativação de reserva de
 
    >[!CAUTION]
    >
-   >Suas **Configurações do** ContextHub **** usando a guia do canal **Propriedades** > **Personalization** já devem ter sido configuradas neste momento.
+   >Suas **Configurações do** ContextHub **&#x200B;**&#x200B;usando a guia do canal **Propriedades** > **Personalization** já devem ter sido configuradas neste momento.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

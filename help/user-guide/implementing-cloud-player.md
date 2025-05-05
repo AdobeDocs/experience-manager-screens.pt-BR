@@ -44,14 +44,14 @@ A instalação do Cloud Player pode variar em plataformas diferentes. Em geral, 
 >
 >### Opção de instalação do Cloud Player {#cloud-player-install-option}
 >
-1. A opção de instalação de um PWA também é conhecida como &quot;Adicionar à tela inicial&quot; ou recurso A2HS. O suporte para a instalação de PWA na Web varia de acordo com o navegador e a plataforma.
-1. Cada navegador tem critérios diferentes para verificar se o aplicativo PWA é instalável ou não. Geralmente, o navegador pode verificar (mais detalhes aqui):
+>1. A opção de instalação de um PWA também é conhecida como &quot;Adicionar à tela inicial&quot; ou recurso A2HS. O suporte para a instalação de PWA na Web varia de acordo com o navegador e a plataforma.
+>1. Cada navegador tem critérios diferentes para verificar se o aplicativo PWA é instalável ou não. Geralmente, o navegador pode verificar (mais detalhes aqui):
 >
-* Se o aplicativo tiver um arquivo manifest json com o mínimo de chaves necessárias para instalar o aplicativo na plataforma, ou seja, nome, ícones, start_url, exibição
-* Se o aplicativo tiver um arquivo do service worker com um ouvinte de eventos de busca
-* O aplicativo deve ser distribuído via https
+>* Se o aplicativo tiver um arquivo manifest json com o mínimo de chaves necessárias para instalar o aplicativo na plataforma, ou seja, nome, ícones, start_url, exibição
+>* Se o aplicativo tiver um arquivo do service worker com um ouvinte de eventos de busca
+>* O aplicativo deve ser distribuído via https
 >
-1. A opção de instalação pode estar visível em locais diferentes em navegadores e tipos de dispositivos diferentes. Alguns navegadores podem ocultar o ícone de instalação na barra de menu de opções.
+>1. A opção de instalação pode estar visível em locais diferentes em navegadores e tipos de dispositivos diferentes. Alguns navegadores podem ocultar o ícone de instalação na barra de menu de opções.
 
 ## Cloud Player de provisionamento em massa {#bulk-provisioning}
 
@@ -80,15 +80,15 @@ Com base no tipo de ocorrência de AEM, clique em um dos guias a seguir para ati
 
 >[!NOTE]
 >
-## Descontinuação de aplicativos Chrome pelo Google
+>## Descontinuação de aplicativos Chrome pelo Google
 >
-1. Aplicativos Chrome no hardware do sistema operacional Chrome:
+>1. Aplicativos Chrome no hardware do sistema operacional Chrome:
 >
-A Google tem descontinuado ativamente os aplicativos Chrome em favor dos aplicativos PWA, com uma migração planejada para janeiro de 2025. Portanto, o aplicativo AEM Screens Player no Chrome OS deixa de funcionar com base na linha do tempo compartilhada. O Adobe solicita que os usuários que atualmente usam o Chrome Player em produção planejem a transição para o Screens Cloud Player.
+>A Google tem descontinuado ativamente os aplicativos Chrome em favor dos aplicativos PWA, com uma migração planejada para janeiro de 2025. Portanto, o aplicativo AEM Screens Player no Chrome OS deixa de funcionar com base na linha do tempo compartilhada. O Adobe solicita que os usuários que atualmente usam o Chrome Player em produção planejem a transição para o Screens Cloud Player.
 >
-1. Chrome Extension Player no Mac, Windows e Linux®:
+>1. Chrome Extension Player no Mac, Windows e Linux®:
 >
-Devido ao processo de desativação da Google, a partir do Google Chrome versão 114, o Screens Chrome Extension Player não é mais suportado. O Adobe aconselha a transição para o Screens Cloud Player deles para todos os seus requisitos de desenvolvimento e teste.
+>Devido ao processo de desativação da Google, a partir do Google Chrome versão 114, o Screens Chrome Extension Player não é mais suportado. O Adobe aconselha a transição para o Screens Cloud Player deles para todos os seus requisitos de desenvolvimento e teste.
 
 ## Suporte off-line para recuperação de conteúdo externo {#offline-support}
 

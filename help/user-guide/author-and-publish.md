@@ -54,7 +54,7 @@ Para criar agentes de replicação, saiba como criar um agente de replicação p
 
 Há três agentes de replicação necessários para o Screens:
 
-1. **Agente de Replicação Padrão ***(especificado como*** Agente de Replicação Padrão**)
+1. **Agente de Replicação Padrão &#x200B;***(especificado como&#x200B;*** Agente de Replicação Padrão**)
 1. **Agente de replicação da Screens**
 1. **Agente de Replicação Reversa**
 
