@@ -67,15 +67,15 @@ Para fazer o provisionamento em massa do Cloud Player em vários dispositivos:
 
 ## Provisionamento em massa no sistema operacional Chrome {#bulk-provisioning-chrome}
 
-Saiba mais sobre o provisionamento em massa no sistema operacional Chrome. Consulte [Instalar o Cloud Player no sistema operacional Chrome](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). <!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` -->
+Saiba mais sobre o provisionamento em massa no sistema operacional Chrome. Consulte [Instalar o Cloud Player no sistema operacional Chrome](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). <!-- `https://www.adobe.com/go/aem_screens_cloud_player_br` -->
 
 ## Configuração necessária em instâncias do AEM {#bulk-provisioning-config-aem}
 
 Com base no tipo de instância do AEM, clique em um dos seguintes guias para ativar o CORS b/w AEM e o Cloud Player:
 
-* [AEM No Local/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
+* [AEM No Local/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_br` -->
 
-* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
+* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_br` -->
 
 
 >[!NOTE]
