@@ -146,8 +146,8 @@ O player exibe o conteúdo do **MainAdChannel** e exatamente às 23h59 (conforme
 >[!NOTE]
 >
 >Para saber mais sobre o AEM Screen Player, consulte os seguintes recursos:
->>[Downloads do AEM Screens Player](https://download.macromedia.com/screens/)
->>[Trabalhando com o AEM Screens Player](working-with-screens-player.md)
+>&#x200B;>[Downloads do AEM Screens Player](https://download.macromedia.com/screens/)
+>&#x200B;>[Trabalhando com o AEM Screens Player](working-with-screens-player.md)
 
 
 ## Manipulação de recorrência do Assets em um canal {#handling-recurrence-in-assets}

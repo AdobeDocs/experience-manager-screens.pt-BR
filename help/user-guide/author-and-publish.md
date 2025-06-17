@@ -54,7 +54,7 @@ Para criar agentes de replicação, saiba como criar um agente de replicação p
 
 Há três agentes de replicação necessários para o Screens:
 
-1. **Agente de Replicação Padrão ***(especificado como*** Agente de Replicação Padrão**)
+1. **Agente de Replicação Padrão &#x200B;***(especificado como&#x200B;*** Agente de Replicação Padrão**)
 1. **Agente de replicação da Screens**
 1. **Agente de Replicação Reversa**
 
@@ -159,7 +159,7 @@ Como cada instância de publicação, por padrão, tem chaves de criptografia ex
 >[!NOTE]
 >
 >A senha deve começar e terminar com chaves. Por exemplo:
->>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>&#x200B;>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Etapa 4: Ativar Cluster Artemis AtiveMQ {#step-activate-activemq-artemis-cluster}
 

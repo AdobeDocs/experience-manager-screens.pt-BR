@@ -62,8 +62,8 @@ Siga as etapas abaixo para atribuir um dispositivo a uma exibição:
 >[!NOTE]
 >
 >Toda vez que o primeiro dispositivo é adicionado a um novo projeto do Screens, um grupo de usuários é criado.
->>Por exemplo, se o nome do nó do projeto for *we-retail*, o nome do grupo de usuários será *screens-we-retail-devices*.
->>Este grupo é adicionado como membro do grupo **Contribuidores**, conforme mostrado na figura abaixo:
+>&#x200B;>Por exemplo, se o nome do nó do projeto for *we-retail*, o nome do grupo de usuários será *screens-we-retail-devices*.
+>&#x200B;>Este grupo é adicionado como membro do grupo **Contribuidores**, conforme mostrado na figura abaixo:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

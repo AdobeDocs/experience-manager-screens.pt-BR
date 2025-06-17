@@ -39,7 +39,7 @@ Use tags criadas em Exibições e players.
 >[!NOTE]
 >
 > Uma exibição ou um reprodutor pode ter no máximo 30 tags atribuídas.
-> > No máximo 30 itens podem ser marcados de uma só vez.
+> &#x200B;> No máximo 30 itens podem ser marcados de uma só vez.
 
 ## Filtrar por tags {#filter-by-tags}
 

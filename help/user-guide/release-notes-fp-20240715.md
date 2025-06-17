@@ -16,7 +16,7 @@ ht-degree: 6%
 
 >[!CAUTION]
 >A Adobe recomenda atualizar para a versão mais recente do 6.5 Adobe Experience Manager (AEM 6.5). Você pode obter as informações da versão mais recente de [aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/release-notes/release-notes).
->>O FeaturePack (FP) versão 11.4 é compatível com o ServicePack (SP) até a versão 20.
+>&#x200B;>O FeaturePack (FP) versão 11.4 é compatível com o ServicePack (SP) até a versão 20.
 
 
 ## Disponibilidade {#availability}

@@ -28,8 +28,8 @@ Siga as etapas abaixo para criar um projeto de amostra para o AEM Screens e publ
 
 >[!IMPORTANT]
 >**Configurações OSGi**
->>Você deve ativar o referenciador vazio para permitir que o dispositivo publique dados no servidor. Por exemplo, se a propriedade referenciador vazia estiver desativada, o dispositivo não poderá postar uma captura de tela. Atualmente, alguns desses recursos só estarão disponíveis se a opção `Apache Sling` Permitir Filtro de Referenciador Vazio estiver habilitada na Configuração OSGi. O painel pode exibir um aviso de que as configurações de segurança podem impedir que alguns desses recursos funcionem.
->>Siga as etapas abaixo para habilitar a ***Permissão de Filtro Referenciador Apache Sling***:
+>&#x200B;>Você deve ativar o referenciador vazio para permitir que o dispositivo publique dados no servidor. Por exemplo, se a propriedade referenciador vazia estiver desativada, o dispositivo não poderá postar uma captura de tela. Atualmente, alguns desses recursos só estarão disponíveis se a opção `Apache Sling` Permitir Filtro de Referenciador Vazio estiver habilitada na Configuração OSGi. O painel pode exibir um aviso de que as configurações de segurança podem impedir que alguns desses recursos funcionem.
+>&#x200B;>Siga as etapas abaixo para habilitar a ***Permissão de Filtro Referenciador Apache Sling***:
 
 
 ## Permitir Solicitações de Referenciador Vazias {#allow-empty-referrer-requests}

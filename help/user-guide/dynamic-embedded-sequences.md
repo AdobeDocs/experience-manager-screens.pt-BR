@@ -53,7 +53,7 @@ O exemplo a seguir fornece uma solução com foco nos seguintes termos principai
 
 * um ***canal de sequência principal*** para a sequência global.
 * ***sequência dinâmica inserida*** componentes para cada parte personalizável localmente da sequência.
-* ***canais de sequência individuais*** nos respectivos locais com uma *função* na exibição que corresponde à *função*** do componente de sequência dinâmica inserido.**
+* ***canais de sequência individuais*** nos respectivos locais com uma *função* na exibição que corresponde à *função&#x200B;*** do componente de sequência dinâmica inserido.**
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Antes de começar a implementar essa funcionalidade, verifique se você tem os s
 
 * Crie um projeto do AEM Screens (neste exemplo, **Demonstração**).
 * Crie um canal **Global** na pasta **Channels**.
-* Adicione conteúdo ao seu Canal **Global** (*Verifique **Resources.zip**para ativos relevantes*).
+* Adicione conteúdo ao seu Canal **Global** (*Verifique **Resources.zip**&#x200B;para ativos relevantes*).
 
 A imagem a seguir mostra o projeto **Demo** com o canal **Global** na pasta **Canais**.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
