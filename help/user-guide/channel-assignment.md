@@ -174,5 +174,5 @@ Este exemplo mostra o DayParting para uma loja que exibe sua coleção de invern
 >
 > Para saber mais sobre DayParting, consulte as seções abaixo:
 >
->* [Manipulando recorrência no Assets](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [Manipulando a recorrência da Assets em um canal](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [Manipulando recorrência no Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [Manipulando a recorrência da Assets em um canal](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
