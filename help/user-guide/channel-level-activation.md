@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '1791'
 ht-degree: 1%
@@ -105,7 +105,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
    1. Clique no **Caminho do Canal** e em **Ativação no Nível do Canal** > ***Canais*** > ***MainAdChannel***.
    1. A **Função de Canal** está populada como **mainadchannel**.
    1. Clique em **Prioridade** e defina como **1**.
-   1. Clique nos **Eventos com Suporte**, como **Carregamento Inicial** e **Tela Ociosa**.
+   1. Clique nos **Eventos com Suporte**, como **Carregamento Inicial** e **Tela Inativa**.
    1. Clique em **Salvar**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
@@ -145,9 +145,9 @@ O player exibe o conteúdo do **MainAdChannel** e exatamente às 23h59 (conforme
 
 >[!NOTE]
 >
->Para saber mais sobre o reprodutor de tela AEM, consulte os seguintes recursos:
->[Downloads do AEM Screens Player](https://download.macromedia.com/screens/)
->[Trabalhando com o AEM Screens Player](working-with-screens-player.md)
+>Para saber mais sobre o AEM Screen Player, consulte os seguintes recursos:
+>>[Downloads do AEM Screens Player](https://download.macromedia.com/screens/)
+>>[Trabalhando com o AEM Screens Player](working-with-screens-player.md)
 
 
 ## Manipulação de recorrência do Assets em um canal {#handling-recurrence-in-assets}

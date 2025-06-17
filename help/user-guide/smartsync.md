@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -45,15 +45,15 @@ O recurso SmartSync fornece vários benefícios para o seu projeto AEM Screens, 
 
 >[!NOTE]
 >
->A Adobe recomenda o uso do SmartSync em projetos AEM Screens.
+>A Adobe recomenda que você use o SmartSync para projetos AEM Screens.
 
 ## Migração de ContentSync para SmartSync {#migrating-from-contentsync-to-smartsync}
 
 >[!NOTE]
 >
->Se você já instalou o Pacote de recursos 5 do AEM 6.3 e o Pacote de recursos 3 do AEM 6.4, é possível habilitar o SmartSync para ativos a fim de melhorar o uso do espaço em disco. Para habilitar o SmartSync, siga a seção abaixo para fazer a transição de ContentSync para SmartSync, habilitando o SmartSync.
+>Se você já tiver instalado o AEM 6.3 Feature Pack 5 e o AEM 6.4 Feature Pack 3, poderá ativar o SmartSync para ativos a fim de melhorar o uso do espaço em disco. Para habilitar o SmartSync, siga a seção abaixo para fazer a transição de ContentSync para SmartSync, habilitando o SmartSync.
 >
->O SmartSync está disponível para o Screens Player com servidores compatíveis com AEM 6.4.3 FP3.
+>O SmartSync está disponível para o Screens Player com servidores compatíveis com o AEM 6.4.3 FP3.
 >
 >Consulte os [Downloads do AEM Screens Player](https://download.macromedia.com/screens/) para baixar o player mais recente. A tabela a seguir descreve a versão mínima do player necessária para cada plataforma:
 
@@ -75,7 +75,7 @@ Siga as etapas abaixo para fazer a transição de ContentSync para SmartSync:
    >
    >Todo o cache de conteúdo deve ser limpo antes da primeira utilização do SmartSync.
 
-1. Navegue até **Configuração do Console Web do Adobe Experience Manager** por meio da instância AEM > ícone de martelo > **Operações** > **Console Web**.
+1. Navegue até **Configuração do Console Web do Adobe Experience Manager** por meio da instância do AEM > ícone de martelo > **Operações** > **Console Web**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 

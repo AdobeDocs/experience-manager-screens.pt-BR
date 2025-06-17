@@ -1,5 +1,5 @@
 ---
-title: Atualização de conteúdo usando o Screens Launch
+title: Atualizações de conteúdo usando o Screens Launch
 description: Saiba como criar uma versão futura dos canais, conhecida como Launch, e definir uma data de lançamento para tornar o conteúdo ativo em dispositivos ou players.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1568'
 ht-degree: 0%
 
 ---
 
-# Atualização de conteúdo usando o Screens Launch {#launches}
+# Atualizações de conteúdo usando o Screens Launch {#launches}
 
 Os autores de conteúdo podem criar uma versão futura dos canais e definir ainda mais a data de ativação para esse lançamento. Essa capacidade permite que o conteúdo fique ativo em dispositivos ou players na data de ativação especificada.
 
@@ -58,7 +58,7 @@ Por exemplo, o servidor está em PST e os dispositivos estão em EST. A diferen�
 
 Portanto, 3 horas e 56 minutos (14.160 segundos).
 
-Assim, sempre que você agendar qualquer lançamento em tempo real, a promoção começará antecipadamente levando em conta esse deslocamento. Na equação acima, a maioria dos itens não leva muito tempo. Você pode usar uma estimativa decente para esse deslocamento quando souber a diferença de tempo máxima entre o servidor e qualquer jogador.
+Assim, sempre que você agendar qualquer lançamento em tempo real, a promoção começará antecipadamente levando em conta esse deslocamento. Na equação acima, a maioria dos itens não leva muito tempo. Você pode usar uma estimativa decente para este deslocamento quando você sabe a diferença máxima de tempo entre o servidor e qualquer jogador.
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ Assim, sempre que você agendar qualquer lançamento em tempo real, a promoção
 
 Esta seção explica como atualizar um período de carência predefinido para 10 minutos.
 
-1. Navegue até o CRXDE Lite e, em seguida, até `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
+1. Navegue até CRXDE Lite e, em seguida, até `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 1. Clique com o botão direito e copie o arquivo.
 1. Navegue até `/apps/system/config` e clique com o botão direito do mouse e cole.
 1. Clique duas vezes em `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` para abrir o arquivo no editor no CRXDE Lite. Deve mostrar o período de carência para o caminho */content/screens/* como **86400**. Altere esse valor para **600**.

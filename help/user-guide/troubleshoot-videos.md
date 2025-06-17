@@ -9,9 +9,9 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ Para exibir o vídeo:
 
 Deve haver diferentes representações (um MP4 ou M4V).
 
-Se não houver representação, verifique se o FFMPEG está instalado no SO em que o AEM está sendo executado.
+Se não houver representação, verifique se o FFMPEG está instalado no SO em que o AEM está em execução.
 
 >[!CAUTION]
 >
->Se não houver representação, verifique se o FFMPEG está instalado no SO em que o AEM está sendo executado.
+>Se não houver representação, verifique se o FFMPEG está instalado no SO em que o AEM está em execução.
 >
 >Clique [aqui](https://www.ffmpeg.org/download.html) para instalar o FFMPEG.
 
@@ -148,7 +148,7 @@ Siga as etapas abaixo para configurar uma estratégia absoluta:
 
 1. Abrir preferências de **Data e hora** em cada caixa do OS X
 1. Verificar **Definir data e hora automaticamente**
-1. Cole o valor 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com na lista suspensa ou simplesmente execute o *sudo ntpdate -u -v 0.pool.ntp.org*
+1. Cole o valor 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com na lista suspensa ou simplesmente execute o *`sudo ntpdate -u -v 0.pool.ntp.org`*
 1. Iniciar os 2+ players
 
 Pode levar algum tempo até que os jogadores iniciem uma nova sequência alinhada.

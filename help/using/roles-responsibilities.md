@@ -2,9 +2,9 @@
 title: Funções e responsabilidades do projeto AEM Screens
 description: Saiba mais sobre as funções e responsabilidades do projeto AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 7eae5038cb836219447d900bacf8af2faab51a43
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1254'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,15 @@ A seção a seguir fornece uma visão geral do público-alvo:
 
 ### Adobe {#adobe-audience}
 
-O Adobe inclui recursos do Adobe Managed Services, como o CSE (Customer Success Engineer, Engenheiro especializado na fidelização de clientes) e o Suporte Adobe.
+A Adobe inclui recursos da Adobe Managed Services, como o CSE (Customer Success Engineer, Engenheiro especializado na fidelização de clientes) e o Suporte da Adobe.
 
-### Implementadores de AEM {#aem-implementors}
+### Implementadores do AEM {#aem-implementors}
 
-Os implementadores de AEM são responsáveis por executar tarefas de desenvolvimento e integração para desenvolver a experiência do usuário, modelos personalizados e integrações de back-end para o AEM.
+Os implementadores do AEM são responsáveis por executar tarefas de desenvolvimento e integração para desenvolver a experiência do usuário, modelos personalizados e integrações de back-end para o AEM.
 
 Os recursos personalizados necessários para lidar com parâmetros UX (experiência do usuário) do cliente final também são capturados e entregues por meio desse processo.
 
-Os implementadores de AEM normalmente implantarão a funcionalidade personalizada em fases ao longo do tempo nos locais. Por exemplo, eles podem primeiro estabelecer suporte para a reprodução de vídeo em loop básico ou conteúdo gráfico estático. A próxima fase inclui a capacidade de oferecer suporte à reprodução de conteúdo localizado por meio de modelos dinâmicos e tags de metadados. Outras fases incorporam suporte a elementos interativos por meio de telas sensíveis ao toque, sensores, acionadores dinâmicos etc.
+Os implementadores da AEM normalmente implantarão a funcionalidade personalizada em fases ao longo do tempo nos locais. Por exemplo, eles podem primeiro estabelecer suporte para a reprodução de vídeo em loop básico ou conteúdo gráfico estático. A próxima fase inclui a capacidade de oferecer suporte à reprodução de conteúdo localizado por meio de modelos dinâmicos e tags de metadados. Outras fases incorporam suporte a elementos interativos por meio de telas sensíveis ao toque, sensores, acionadores dinâmicos etc.
 
 ### Integradores de áudio e vídeo {#av-integrators}
 
@@ -53,7 +53,7 @@ Um Integrador de áudio e vídeo é responsável por realizar a detecção com o
 
 É fundamental clicar no parceiro de hardware correto. Devem ser consideradas as seguintes questões:
 
-1. Quais são os termos do contrato de nível de serviço?
+1. Quais são os termos do Service level agreement?
 
 1. O que é cobertura global?
 
@@ -76,7 +76,7 @@ A equipe de Criação e Gerenciamento de conteúdo trabalha em conjunto com a eq
 
 O gerenciamento de criação e conteúdo pode ser o seguinte:
 
-* Agência de criação ou,
+* Agência Creative ou,
 * Gerente de marca
 
 ### Gerentes de projeto {#project-managers}
@@ -85,7 +85,7 @@ Os gerentes de projeto normalmente gerenciam toda a implantação da sua implant
 
 >[!NOTE]
 >
->Para saber mais detalhes sobre as diferentes funções e responsabilidades e o público-alvo de um projeto de sinalização digital, visite **[Funções e responsabilidades do projeto](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Para saber mais detalhes sobre as diferentes funções e responsabilidades e o público-alvo de um projeto de sinalização digital, visite **[Funções e responsabilidades do projeto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
 
 
 ## Estágios do Projeto {#project-stages}
@@ -100,7 +100,7 @@ Para oferecer suporte a uma implantação bem-sucedida da sinalização digital,
 >
 >Embora este guia enfatize principalmente o *Primeiro Dia* e o *Segundo Dia*, é necessário prestar atenção aos três estágios para executar um projeto de sinalização digital bem-sucedido.
 >
->Para saber mais sobre a pré-produção, a iniciação e a progressão do projeto, assista a um vídeo sobre **[Gerenciamento e Implantação de Projetos](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
+>Para saber mais sobre a pré-produção, a iniciação e a progressão do projeto, assista a um vídeo sobre **[Gerenciamento e Implantação de Projetos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
 
 ## Gráfico RACI {#raci-chart}
 
@@ -124,19 +124,19 @@ Este é um exemplo de gráfico RACI usando as definições de função e fornece
 
 A tabela a seguir resume o **Dia Zero: Considerações sobre Pré-vendas**:
 
-| **Fase** | **Integrador de áudio e vídeo** | **Implementador AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
+| **Fase** | **Integrador de áudio e vídeo** | **Implementador do AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
 |---|---|---|---|---|
 | Formação de Equipe e Seleção de Fornecedor | I | I | RA | RA |
 | Acordo sobre Funções e Responsabilidades | RA | RA | RA | RA |
 | Alinhamento em metas estratégicas | IC | I | RA | RA |
 | Necessidades de relatórios e identificação do ROI | I | C | RA | C |
-| Visita ao site e requisitos de hardware | RA | I | C | C |
+| Visitas ao site e requisitos de hardware | RA | I | C | C |
 | Definição do processo de suporte | C | I | RA | I |
 | Definir Escopo do Trabalho e Plano de Projeto | RA | RA | C | C |
 
 A tabela a seguir resume o **Primeiro Dia: Implementação de Projeto (Design de Aplicativo)**:
 
-| **Fase** | **Integrador de áudio e vídeo** | **Implementador AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
+| **Fase** | **Integrador de áudio e vídeo** | **Implementador do AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
 |---|---|---|---|---|
 | Acordo sobre Funções e Responsabilidades | RA | RA | RA | RA |
 | Alinhamento com o plano e o agendamento do projeto | RA | RA | C | C |
@@ -156,7 +156,7 @@ A tabela a seguir resume o **Primeiro Dia: Implementação de Projeto (Design de
 
 A tabela a seguir resume o **Primeiro Dia: Implementação do Projeto (Disponibilidade do Retail)**:
 
-| **Fase** | **Integrador de áudio e vídeo** | **Implementador AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
+| **Fase** | **Integrador de áudio e vídeo** | **Implementador do AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
 |---|---|---|---|---|
 | Solicitação e armazenamento de hardware | RA | I | I | I |
 | Agendamento de integração de varejo | I | I | C | RA |
@@ -166,7 +166,7 @@ A tabela a seguir resume o **Primeiro Dia: Implementação do Projeto (Disponibi
 
 A tabela a seguir resume o **Primeiro Dia: Primeiro Dia: Implementação de Projeto (Hardware)**:
 
-| **Fase** | **Integrador de áudio e vídeo** | **Implementador AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
+| **Fase** | **Integrador de áudio e vídeo** | **Implementador do AEM** | **Estratégia comercial** | **Gerenciamento de conteúdo** |
 |---|---|---|---|---|
 | Acordo sobre Funções e Responsabilidades | RA | RA | RA | RA |
 | O projeto de varejo inclui operações de fiação | - | - | - | - |

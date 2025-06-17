@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '619'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ O objetivo desse recurso é reduzir o tempo necessário para configurar o projet
 Ao permitir que o autor forneça uma planilha como um arquivo de entrada e que o sistema crie automaticamente a árvore de local no back-end, esse recurso:
 
 * *atinge um desempenho muito melhor do que selecionar manualmente por meio da interface*
-* *permite que o cliente exporte os locais que possui de seu próprio sistema e os importe facilmente diretamente no AEM*
+* O *permite que o cliente exporte os locais que possui de seu próprio sistema e os importe facilmente diretamente do AEM*
 
 Esse processo economiza tempo e dinheiro durante a configuração inicial do projeto ou ao estender o AEM Screens existente para novos locais.
 
@@ -57,8 +57,8 @@ O modelo de dados para o Importador de projetos é descrito abaixo:
 
 O arquivo de planilha (CSV/XLS) requer, portanto, as seguintes colunas:
 
-* **caminho {string}** - O caminho do local a ser importado, onde a raiz do caminho é a pasta do local do projeto (ou seja, *`/foo`* é importado para *`/content/screens/<project>/locations/foo`*)
-* **modelo {string}** - O modelo a ser usado para o novo local; por enquanto, o único valor permitido é &quot;local&quot;, mas esse valor será estendido para todos os modelos do Screens no futuro (`display`, `sequencechannel` e assim por diante)
+* **caminho{string}** - O caminho do local a ser importado, onde a raiz do caminho é a pasta do local do projeto (ou seja, *`/foo`* é importado para *`/content/screens/<project>/locations/foo`*)
+* **modelo{string}** - O modelo a ser usado para o novo local; por enquanto, o único valor permitido é &quot;local&quot;, mas esse valor será estendido para todos os `Screens` modelos no futuro (`display`, `sequencechannel` e assim por diante)
 * **[./*] {string}** - Qualquer propriedade opcional a ser definida no local (ou seja, `./jcr:title`, `./jcr:description`, `./foo, ./bar`). A versão atual não permite filtragem.
 
 >[!NOTE]
@@ -101,7 +101,7 @@ Siga as etapas abaixo para importar um arquivo para uma pasta de local com os ca
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Clique no projeto,**&#x200B; DemoProjectImporter &#x200B;**>**&#x200B; Criar &#x200B;**>**&#x200B; Importar locais** da barra lateral.
+1. Clique no projeto,** DemoProjectImporter **>** Criar **>** Importar locais** da barra lateral.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

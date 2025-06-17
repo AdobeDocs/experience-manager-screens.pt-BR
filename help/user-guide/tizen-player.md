@@ -5,9 +5,9 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1218'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Siga as etapas abaixo:
 
 ### Nomeação do reprodutor Tizen {#name-tizen}
 
-Você pode atribuir um nome de dispositivo amigável ao seu reprodutor de Tizen, enviando o nome de dispositivo atribuído ao Adobe Experience Manager (AEM). Esse recurso não só permite nomear o player de dimensionamento, como também permite atribuir facilmente o conteúdo apropriado.
+Você pode atribuir um nome de dispositivo amigável ao seu reprodutor de tamanho, enviando o nome de dispositivo atribuído ao Adobe Experience Manager (AEM). Esse recurso não só permite nomear o player de dimensionamento, como também permite atribuir facilmente o conteúdo apropriado.
 
 >[!NOTE]
 >Você pode escolher o nome do Player somente antes do registro. Depois que o Player é registrado, o nome do Player não pode mais ser alterado.
@@ -73,15 +73,15 @@ Siga as etapas abaixo no dispositivo Samsung para concluir a instalação do AEM
 ## Isenção de agentes do usuário com o problema de cookie SameSite {#exempting-user-agents}
 
 >[!IMPORTANT]
->**Esta seção se aplica ao Adobe Experience Manager (AEM) 6.5.5 ao AEM 6.5.7**
+>**Esta seção se aplica ao Adobe Experience Manager (AEM) 6.5.5 a AEM 6.5.7**
 >
->Há alguns mecanismos de navegador incompatíveis com o atributo *`SameSite=None`* usado no token de logon emitido pelo AEM 6.5.5 para o AEM 6.5.7. Normalmente, o problema pode ser resolvido atualizando o navegador para a versão mais recente disponível. Às vezes, essas atualizações podem não ser possíveis, como com vídeos inteligentes, decodificadores de sinais ou outros dispositivos com mecanismos de navegação incorporados.
+>Alguns mecanismos de navegador são incompatíveis com o atributo *`SameSite=None`* usado no token de logon emitido pelo AEM 6.5.5 para o AEM 6.5.7. Normalmente, o problema pode ser resolvido atualizando o navegador para a versão mais recente disponível. Às vezes, essas atualizações podem não ser possíveis, como com vídeos inteligentes, decodificadores de sinais ou outros dispositivos com mecanismos de navegação incorporados.
 
 Siga as etapas abaixo para isentar esses clientes incompatíveis ao usar *SameSite=None*:
 
 1. Atualize para o Adobe Experience Manager (AEM) Service Pack 6.5.7.
 
-1. Depois que o AEM for reiniciado, vá para `/system/console/configMgr` e pesquise por **Manipulador de Autenticação de Token do Adobe Granite**. Defina o valor de **SameSite** como **None**.
+1. Depois que o AEM for reiniciado, vá para `/system/console/configMgr` e procure por **Manipulador de autenticação de token do Adobe Granite**. Defina o valor de **SameSite** como **None**.
 
 1. Você deve ver uma nova opção *`User agents to be exempted from samesite attribute`*. Preencha esta opção com um regex correspondente ao agente do usuário que é(são) incompatível(is) com o atributo *SameSite=None*.
 
@@ -89,7 +89,7 @@ Siga as etapas abaixo para isentar esses clientes incompatíveis ao usar *SameSi
    >
    >Consulte [SameSite=None: Clientes Incompatíveis Conhecidos](https://www.chromium.org/updates/same-site/incompatible-clients) para obter mais detalhes. Para o reprodutor Tizen, use o regex: `(.*)Tizen(.*)`.
 
-1. Registre o reprodutor Tizen no AEM instância 6.5.5 e superior e ele deve registrar e mostrar o conteúdo normalmente.
+1. Registre o reprodutor Tizen na instância do AEM 6.5.5 e superior e ele deve registrar e mostrar o conteúdo normalmente.
 
 ## Provisionamento remoto do reprodutor de tamanho {#remote-provisioning}
 
@@ -119,18 +119,18 @@ A tabela a seguir resume as políticas com suas funções.
 
 >[!NOTE]
 >As configurações de política da interface do administrador do reprodutor são estritamente aplicadas e não são substituídas manualmente. Para permitir a configuração manual do player para uma política específica, não especifique a política na configuração de política.
->Por exemplo, se você deseja permitir a configuração manual para o agendamento de reinicialização, não especifique a chave `rebootSchedule` na configuração de política. As Configurações de política são lidas sempre que o reprodutor é recarregado.
+>>Por exemplo, se você deseja permitir a configuração manual para o agendamento de reinicialização, não especifique a chave `rebootSchedule` na configuração de política. As Configurações de política são lidas sempre que o reprodutor é recarregado.
 
 | **Nome da Política** | **Finalidade** |
 |---|---|
-| servidor | O URL para o servidor Adobe Experience Manager (AEM). |
+| servidor | O URL para o servidor do Adobe Experience Manager (AEM). |
 | registrationKey | Usado para registro em massa de dispositivos usando chave pré-compartilhada. |
 | resolução | A resolução do dispositivo. |
 | rebootSchedule | O cronograma para reinicializar o reprodutor. |
 | enableAdminUI | Habilite a interface do Administrador para configurar o dispositivo no site. Defina como false depois que estiver totalmente configurado e em produção. |
-| enableOSD | Habilite a interface do usuário do alternador de canais para que os usuários alternem canais no dispositivo. Considere definir como false depois que estiver totalmente configurado e em produção. |
-| enableActivityUI | Habilite para que você possa mostrar o progresso de atividades como download e sincronização. Ative para solução de problemas e desative depois que estiver totalmente configurado e em produção. |
-| cloudMode | Defina como verdadeiro se desejar que o reprodutor Tizen se conecte ao Screens as a Cloud Service. Defina como falso para se conectar ao AMS ou AEM no local. |
+| enableOSD | Habilite a interface do usuário do alternador de canais para que os usuários alternem canais no dispositivo. Considere configurá-lo como falso depois que estiver totalmente configurado e em produção. |
+| enableActivityUI | Ative para que possa mostrar o progresso de atividades, como download e sincronização. Ative para solução de problemas e desative depois que estiver totalmente configurado e em produção. |
+| cloudMode | Defina como verdadeiro se desejar que o reprodutor Tizen se conecte ao Screens as a Cloud Service. Defina como falso para se conectar ao AMS ou à AEM no local. |
 | cloudToken | Token de registro para se registrar no Screens as a Cloud Service. |
 
 

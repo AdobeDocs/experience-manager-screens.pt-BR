@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1698'
 ht-degree: 1%
 
 ---
@@ -40,18 +40,18 @@ Para concluir este tutorial, você precisa do seguinte:
 1. [Player do AEM Screens](/help/user-guide/aem-screens-introduction.md)
 1. Ambiente de desenvolvimento local
 
-As etapas e capturas de tela do tutorial são executadas usando o CRXDE-Lite. Os IDEs [Eclipse](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) ou [IntelliJ](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) também podem ser usados para concluir o tutorial. Mais informações sobre como usar um IDE para [desenvolver com AEM podem ser encontradas aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+As etapas e capturas de tela do tutorial são executadas usando o CRXDE-Lite. Os IDEs [Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) ou [IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) também podem ser usados para concluir o tutorial. Mais informações sobre como usar um IDE para [desenvolver com o AEM podem ser encontradas aqui](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 ## Configuração do projeto {#project-setup}
 
-O código-fonte de um projeto Screens geralmente é gerenciado como um projeto Maven de vários módulos. Para acelerar o tutorial, um projeto foi pré-gerado usando o [Arquétipo de Projeto AEM 13](https://github.com/adobe/aem-project-archetype). Mais detalhes sobre [a criação de um projeto com o Arquétipo de Projeto Maven AEM podem ser encontrados aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+O código-fonte de um projeto Screens geralmente é gerenciado como um projeto Maven de vários módulos. Para acelerar o tutorial, um projeto foi pré-gerado usando o [Arquétipo de Projetos AEM 13](https://github.com/adobe/aem-project-archetype). Mais detalhes sobre [a criação de um projeto com o Maven AEM Project Archetype podem ser encontrados aqui](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 1. Baixe e instale os seguintes pacotes usando o **gerenciamento de pacotes do CRX** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
 [Obter arquivo](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Obter arquivo](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
-   **Opcionalmente,** se estiver trabalhando com o Eclipse ou outro IDE, baixe o pacote de origem abaixo. Implante o projeto em uma instância AEM local usando o comando Maven:
+   **Opcionalmente,** se estiver trabalhando com o Eclipse ou outro IDE, baixe o pacote de origem abaixo. Implante o projeto em uma instância local do AEM usando o comando Maven:
 
    **`mvn -PautoInstallPackage clean install`**
 
@@ -70,7 +70,7 @@ O código-fonte de um projeto Screens geralmente é gerenciado como um projeto M
 
 ## Criar o componente de cartaz {#poster-cmp}
 
-O componente de Pôster estende o componente de imagem pronto para uso do AEM Screens. Um mecanismo de Sling, `sling:resourceSuperType`, é usado para herdar a funcionalidade principal do componente de Imagem sem precisar copiar e colar. Mais informações sobre as noções básicas do [Processamento de Solicitação do Sling podem ser encontradas aqui.](https://experienceleague.adobe.com/br/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
+O componente de Pôster estende o componente de imagem pronto para uso do AEM Screens. Um mecanismo de Sling, `sling:resourceSuperType`, é usado para herdar a funcionalidade principal do componente de Imagem sem precisar copiar e colar. Mais informações sobre as noções básicas do [Processamento de Solicitação do Sling podem ser encontradas aqui.](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
 
 O componente de Pôster é renderizado em tela cheia no modo de visualização/produção. No modo de edição, é importante renderizar o componente de forma diferente para facilitar a criação do canal de sequência.
 
@@ -133,7 +133,7 @@ O componente de Pôster é renderizado em tela cheia no modo de visualização/p
 
    Caixa de diálogo copiada de `/libs/wcm/foundation/components/image/cq:dialog` para `/apps/weretail-run/components/content/poster`
 
-   O componente `image` do AEM Screens é supertipado para o componente `image` do WCM Foundation. Portanto, o componente `poster` herda a funcionalidade de ambos. A caixa de diálogo do componente de pôster é composta por uma combinação das caixas de diálogo do Screens e do Foundation. Os recursos do **Sling Resource Merger** são usados para ocultar campos de diálogo e guias irrelevantes herdados dos componentes de supertipo.
+   O componente `image` do AEM Screens é supertipado para o componente `image` do WCM Foundation. Portanto, o componente `poster` herda a funcionalidade de ambos. A caixa de diálogo do componente de pôster é composta por uma combinação das caixas de diálogo do Screens e do Foundation. Os recursos do **`Sling Resource Merger`** são usados para ocultar campos de caixas de diálogo e guias irrelevantes herdados dos componentes de supertipo.
 
 1. Atualize o `cq:dialog` abaixo de `/apps/weretail-run/components/content/poster` com as seguintes alterações representadas em XML:
 
@@ -308,13 +308,13 @@ O componente de Pôster é renderizado em tela cheia no modo de visualização/p
    </div>
    ```
 
-   A marcação **edit** do componente Pôster é vista diretamente acima. O script HTL substitui `/libs/screens/core/components/content/image/edit.html`. A marcação é semelhante à marcação `production.html` e exibe o título e a descrição na parte superior da imagem.
+   A marcação **editada** para o componente Pôster é vista diretamente acima. O script HTL substitui `/libs/screens/core/components/content/image/edit.html`. A marcação é semelhante à marcação `production.html` e exibe o título e a descrição na parte superior da imagem.
 
    O `aem-Screens-editWrapper` é adicionado para que o componente não seja renderizado em tela inteira no editor. O atributo `data-emptytext` garante que um espaço reservado seja exibido quando nenhuma imagem ou conteúdo for preenchido.
 
 ## Criar bibliotecas do lado do cliente {#clientlibs}
 
-As bibliotecas do lado do cliente fornecem um mecanismo para organizar e gerenciar arquivos CSS e JavaScript necessários para uma implementação AEM. Mais informações sobre o uso de [Bibliotecas do Lado do Cliente podem ser encontradas aqui.](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+As bibliotecas do lado do cliente fornecem um mecanismo para organizar e gerenciar arquivos CSS e JavaScript necessários para uma implementação do AEM. Mais informações sobre o uso de [Bibliotecas do Lado do Cliente podem ser encontradas aqui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 Os componentes do AEM Screens são renderizados de forma diferente no modo Editar versus no modo Pré-visualização/Produção. Dois conjuntos de bibliotecas de clientes são criados, um para o modo Editar e um segundo para Pré-visualização/Produção.
 
@@ -339,7 +339,7 @@ Os componentes do AEM Screens são renderizados de forma diferente no modo Edita
 
    A propriedade `categories` é uma cadeia de caracteres que identifica a biblioteca do cliente. A categoria `cq.screens.components` é usada nos modos Editar e Visualizar/Produção. Portanto, qualquer CSS/JS definido no clientlib `shared` é carregado em todos os modos.
 
-   Como prática recomendada, nunca exponha nenhum caminho diretamente a `/apps` em um ambiente de produção. A propriedade `allowProxy` garante que o CSS e o JS da biblioteca do cliente sejam referenciados por meio de um prefixo `/etc.clientlibs`. Mais informações sobre a propriedade [allowProxy podem ser encontradas aqui.](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   Como prática recomendada, nunca exponha nenhum caminho diretamente a `/apps` em um ambiente de produção. A propriedade `allowProxy` garante que o CSS e o JS da biblioteca do cliente sejam referenciados por meio de um prefixo `/etc.clientlibs`. Mais informações sobre a propriedade [allowProxy podem ser encontradas aqui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Crie o arquivo chamado `css.txt` abaixo da pasta compartilhada.
 
@@ -355,7 +355,7 @@ Os componentes do AEM Screens são renderizados de forma diferente no modo Edita
 
    ![05-05-2018_às_1057h](assets/2018-05-03_at_1057pm.png)
 
-   Em vez de escrever CSS diretamente, este tutorial usa MENOS. [LESS](https://lesscss.org/) é um pré-compilador de CSS popular que oferece suporte a variáveis, mixins e funções de CSS. Bibliotecas de clientes AEM nativamente oferecem suporte à compilação LESS. Sass ou outros pré-compiladores podem ser usados, mas devem ser compilados fora do AEM.
+   Em vez de escrever CSS diretamente, este tutorial usa MENOS. [LESS](https://lesscss.org/) é um pré-compilador de CSS popular que oferece suporte a variáveis, mixins e funções de CSS. As bibliotecas de clientes do AEM oferecem suporte nativo à compilação LESS. Você pode usar o Sass ou outros pré-compiladores, mas deve compilá-los fora do AEM.
 
 1. Popular `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` com o seguinte:
 
@@ -412,7 +412,7 @@ Os componentes do AEM Screens são renderizados de forma diferente no modo Edita
 
    >[!NOTE]
    >
-   >As Web Fonts do Google são usadas para as famílias de fontes. O Web Fonts requer conectividade com a Internet e nem todas as implementações do AEM Screens têm uma conexão confiável. O planejamento para o modo offline é uma consideração importante para implantações do AEM Screens.
+   >Google Web Fonts são usados para as famílias de fontes. O Web Fonts exige conectividade com a Internet e nem todas as implementações do AEM Screens têm uma conexão confiável. O planejamento para o modo offline é uma consideração importante para implantações do AEM Screens.
 
 1. Copie a pasta da biblioteca do cliente `shared`. Cole-o como irmão e renomeie-o como `production`.
 
@@ -514,7 +514,7 @@ O vídeo abaixo mostra o componente concluído e como ele pode ser adicionado a 
 
 ## Código concluído {#finished-code}
 
-Abaixo está o código concluído do tutorial. Os **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** e **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** são os pacotes AEM compilados. O **SRC-screens-weretail-run-0.0.1.zip** é o código-fonte não compilado que pode ser implantado usando Maven.
+Abaixo está o código concluído do tutorial. Os **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** e **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** são os pacotes compilados do AEM. O **SRC-screens-weretail-run-0.0.1.zip** é o código-fonte não compilado que pode ser implantado usando Maven.
 
 [Obter arquivo](assets/final-poster-screens-weretail-runuiapps-001-snapshot.zip)
 

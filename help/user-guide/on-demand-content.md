@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -17,16 +17,16 @@ ht-degree: 0%
 
 Esta seção descreve conteúdo sob demanda para gerenciar publicações.
 
-## Gerenciamento de publicação: entregar atualizações de conteúdo do autor para o Publish para o dispositivo {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
+## Gerenciar publicação: entregar atualizações de conteúdo do autor para a publicação no dispositivo {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
-Você pode publicar e desfazer a publicação de conteúdo do AEM Screens. O recurso Gerenciar publicação permite entregar atualizações de conteúdo do autor para a publicação no dispositivo. Você pode publicar/desfazer a publicação de conteúdo para todo o projeto do AEM Screens ou apenas para um de seus canais, locais, dispositivos, aplicativos ou um agendamento.
+Você pode publicar e desfazer a publicação de conteúdo do AEM Screens. **Gerenciar publicação** permite que você forneça atualizações de conteúdo do autor para a publicação no dispositivo. Você pode publicar/desfazer a publicação de conteúdo para todo o projeto do AEM Screens ou apenas para um de seus canais, locais, dispositivos, aplicativos ou um agendamento.
 
 ### Gerenciar publicação de um projeto do AEM Screens {#managing-publication-for-an-aem-screens-project}
 
 Siga as etapas abaixo para fornecer atualizações de conteúdo do autor para a publicação no dispositivo para um projeto do AEM Screens:
 
 1. Navegue até o projeto do AEM Screens.
-1. Clique em **Gerenciar publicação** na barra de ações para poder publicar o projeto na sua instância do Publish.
+1. Clique em **Gerenciar publicação** na barra de ações para poder publicar o projeto na sua instância de Publicação.
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
@@ -46,7 +46,7 @@ Siga as etapas abaixo para fornecer atualizações de conteúdo do autor para a 
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
 
-   **Caixa de diálogo Entender Incluir Filhos**
+   **Entender a caixa de diálogo Incluir Filhos**
 
    As etapas mencionadas acima mostram como você pode publicar todo o conteúdo. Caso deseje usar as outras três alternativas disponíveis, é necessário marcar essa opção específica.
 Por exemplo, a imagem a seguir mostra como é possível gerenciar e atualizar somente as páginas modificadas no seu projeto:
@@ -62,7 +62,7 @@ Essa opção permite gerenciar atualizações somente nas páginas modificadas d
 Essa opção permite gerenciar atualizações somente nas páginas que foram publicadas antes.
 
 
-1. No **`Manage Publication wizard`**, clique em **Publish**.
+1. No **`Manage Publication wizard`**, clique em **Publicar**.
 
    ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
 
@@ -72,12 +72,12 @@ Essa opção permite gerenciar atualizações somente nas páginas que foram pub
    >
    >
    >    1. O fluxo de trabalho não funcionará se não houver alterações no projeto e nada em **Atualizar Conteúdo Offline**.
-   >    1. O fluxo de trabalho não funcionará se o autor não concluir o processo de replicação (o conteúdo ainda está sendo carregado na instância de publicação) após selecionar o botão **Publish** no fluxo de trabalho de publicação de gerenciamento.
+   >    1. O fluxo de trabalho não funcionará se o autor não concluir o processo de replicação (o conteúdo está sendo carregado na instância de publicação) após selecionar o botão **Publicar** no fluxo de trabalho de publicação de gerenciamento.
 
    >[!CAUTION]
    >Como criador de conteúdo, se quiser ver as alterações nos dispositivos anexados à instância do autor, clique em **Atualizar conteúdo offline** no painel do canal ou selecione o projeto. Nesse caso, a atualização do conteúdo offline é executada somente na instância do autor.
 
-1. Navegue até o projeto e clique em **Atualizar Conteúdo Offline** na barra de ações. Essa ação encaminha o mesmo comando para a instância de publicação, para que os zips offline também sejam criados na instância do Publish.
+1. Navegue até o projeto e clique em **Atualizar Conteúdo Offline** na barra de ações. Essa ação encaminha o mesmo comando para a instância de publicação, para que os zips offline também sejam criados na instância de publicação.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
@@ -90,16 +90,16 @@ Essa opção permite gerenciar atualizações somente nas páginas que foram pub
    >
    >Acione a atualização do conteúdo offline na instância do autor, se você tiver um reprodutor registrado no servidor do autor. A atualização de conteúdo offline não é necessária para o reprodutor registrado na instância de publicação.
 
-### Gerenciamento da publicação de um canal {#managing-publication-for-a-channel}
+### Gerenciar publicação de um canal {#managing-publication-for-a-channel}
 
-Siga as etapas abaixo para fornecer atualizações de conteúdo de Autor > Publish > dispositivo para um Canal em um projeto do AEM Screens:
+Siga as etapas abaixo para fornecer atualizações de conteúdo de Autor > Publicar > dispositivo para um Canal em um projeto do AEM Screens:
 
 >[!NOTE]
 >
 >Siga esta seção somente se houver alterações em um canal. Se um canal não tiver alterações após a atualização anterior do conteúdo offline, o fluxo de trabalho de publicação de gerenciamento para um canal individual não funcionará.
 
 1. Navegue até o projeto do AEM Screens e clique no canal.
-1. Clique em **Gerenciar publicação** na barra de ações para poder publicar o canal na sua instância do Publish.
+1. Clique em **Gerenciar publicação** na barra de ações para poder publicar o canal na sua instância de Publicação.
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
@@ -107,7 +107,7 @@ Siga as etapas abaixo para fornecer atualizações de conteúdo de Autor > Publi
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Clique em **Publish** no assistente **`Manage Publication`**.
+1. Clique em **Publicar** no assistente **`Manage Publication`**.
 
    ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
 
@@ -115,13 +115,13 @@ Siga as etapas abaixo para fornecer atualizações de conteúdo de Autor > Publi
    >
    >Aguarde alguns segundos/minutos para que o conteúdo atinja a instância de publicação.
 
-1. O acionamento do **Atualizar Conteúdo Offline** no painel de canal apenas envia o conteúdo offline para a instância de Autor, mas não para a instância de Publicação. As etapas 1 a 4 são para enviar conteúdo offline para a instância do Publish.
+1. O acionamento do **Atualizar Conteúdo Offline** no painel de canal apenas envia o conteúdo offline para a instância de Autor, mas não para a instância de Publicação. As etapas 1 a 4 são para enviar conteúdo offline para a instância de publicação.
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 
    >[!CAUTION]
    >
-   >Publish primeiro e, em seguida, acione a atualização do conteúdo offline conforme resumido nas etapas anteriores.
+   >Publique primeiro e acione a atualização do conteúdo offline conforme resumido nas etapas anteriores.
 
 ### Reatribuição de canal e dispositivo: {#channel-and-device-re-assignment}
 

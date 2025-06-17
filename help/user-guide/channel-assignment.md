@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1180'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 # Atribuição de canal {#channel-assignment}
 
 >[!IMPORTANT]
->Esta seção destaca a Atribuição de canais e a programação de canais para pacotes de recursos anteriores à versão AEM 6.5.5 do Screens.
+>Esta seção destaca a Atribuição de canal e a programação de canais para pacotes de recursos anteriores à versão AEM 6.5.5 Screens.
 
 Ao configurar uma exibição, atribua um canal a uma exibição para visualizar seu conteúdo.
 
@@ -74,7 +74,7 @@ A prioridade é usada para ordenar as atribuições caso várias correspondam ao
 
 >[!IMPORTANT]
 >
-> Esta opção só está disponível com o <!--AEM 6.4 Feature Pack 8 or -->AEM 6.5 Feature Pack 4.
+> Esta opção só está disponível com o <!--AEM 6.4 Feature Pack 8 or -->Pacote de Recursos 4 do AEM 6.5.
 
 Como um Autor de conteúdo, especifique quando um canal é interrompido. Isso permite cortar conteúdo não crítico se desejado, mas, opcionalmente, permitir a reprodução de conteúdo importante antes de interromper a reprodução por causa do agendamento.
 
@@ -102,7 +102,7 @@ Mostrar dica de ferramenta de atração define se a dica de ferramenta de atraç
 
 O agendamento, quando combinado com **DayParting**, permite que você defina um agendamento global com vários canais em execução em horários específicos do dia e reutilize essa configuração para todas as suas exibições de uma só vez.
 
-DayParting refere-se à divisão de um dia em intervalos de tempo e especificação de qual conteúdo é reproduzido no horário desejado. O AEM Screens permite agendar canais em termos de Divisão de dia em um dia, semana ou mês, de acordo com o requisito.
+DayParting é conhecido como dividir um dia em intervalos de tempo e especificar qual conteúdo é reproduzido na hora desejada. O AEM Screens permite agendar canais em termos de Divisão de dia em um dia, semana ou mês, de acordo com o requisito.
 
 Os exemplos a seguir explicam a divisão de dia em canais em três cenários diferentes:
 
@@ -174,5 +174,5 @@ Este exemplo mostra o DayParting para uma loja que exibe sua coleção de invern
 >
 > Para saber mais sobre DayParting, consulte as seções abaixo:
 >
->* [Manipulando recorrência no Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [Manipulando a recorrência da Assets em um canal](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [Manipulando recorrência no Assets](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [Manipulando a recorrência da Assets em um canal](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

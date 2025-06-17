@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 1%
@@ -15,11 +15,11 @@ ht-degree: 1%
 # Notas de versão do Pacote de recursos 202109 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->A Adobe recomenda que você atualize para a versão mais recente do Adobe Experience Manager (AEM). O AEM Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
+>A Adobe recomenda atualizar para a versão mais recente do Adobe Experience Manager (AEM). A AEM Screens fornece suporte de manutenção para a plataforma Screens do AEM 6.3.
 
 ## Disponibilidade {#availability}
 
-O AEM Screens lançou o AEM 6.5 Feature Pack 9.
+A AEM Screens lançou o Pacote de recursos 9 do AEM 6.5.
 
 Você pode baixar a Versão mais recente do Feature Pack para o AEM Screens 6.5.9 no [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o Pacote de Recursos mais recente denominado **AEM 6.5 Screens FP9**.
 
@@ -37,7 +37,7 @@ Consulte [Suporte a miniaturas para vídeos](/help/user-guide/thumbnail-support.
 * **Monitoramento básico de reprodução**
 
   O AEM Screens agora é compatível com o monitoramento básico de reprodução. O player agora relata várias métricas de reprodução a cada ping (o padrão é 30 segundos). Com base nas métricas, ele detecta vários casos de borda (experiência travada, tela em branco, problema de agendamento e assim por diante). Esse recurso permite que a equipe monitore remotamente se um player está reproduzindo conteúdo corretamente e melhora a reatividade para telas em branco ou experiências com falha no campo. Ele também diminui o risco de mostrar uma experiência quebrada ao usuário final.
-Consulte [Monitoramento básico de reprodução](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) para obter mais detalhes.
+Consulte [Monitoramento básico de reprodução](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) para obter mais detalhes.
 
 * **Atualizações ao Relatório de atribuição de conteúdo**
 
@@ -58,7 +58,7 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
 
    * Limpe todos os trabalhos de conteúdo offline pendentes no autor e na publicação.
 
-      * Navegue até o CRXDE Lite no Author e no Publish.
+      * Navegue até o CRXDE Lite em Autor e Publicação.
 
       * Clique em Ferramentas > Consulta.
 
@@ -77,8 +77,8 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
    * Atualize o componente personalizado.
 
 
-   * Consulte [Configuração do Dispatcher para a Versão de Manifesto v3](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obter mais detalhes.
-   * Se você estiver usando componentes personalizados como parte dos manifestos v3, consulte [Modelo para Manipuladores Personalizados](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
+   * Consulte [Configuração do Dispatcher para a Versão de Manifesto v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obter mais detalhes.
+   * Se você estiver usando componentes personalizados como parte dos manifestos v3, consulte [Modelo para Manipuladores Personalizados](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 
 ### Correções de erros {#bug-fixes}
@@ -152,7 +152,7 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
 
 ### Players do AEM Screens lançados
 
-Os seguintes players de AEM Screens são lançados para AEM 6.5 Feature Pack 9:
+Os seguintes players de AEM Screens foram lançados para o Feature Pack 9 do AEM 6.5:
 
 * ChromeOS
 * Windows

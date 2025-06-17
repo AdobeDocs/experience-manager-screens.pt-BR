@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ O vídeo é exibido como um objeto do pixel 1 ao pixel 1280 e do pixel 1 ao pixe
 
 Antes de criar um fluxo de trabalho para vídeo, conclua os seguintes pré-requisitos:
 
-1. Carregue um vídeo na pasta **Assets** da instância do AEM
+1. Carregue um vídeo na pasta **Assets** da sua instância do AEM
 1. Crie um projeto do AEM Screens (por exemplo, **TestVideoRendering**) e um canal chamado (**VideoRendering**), conforme mostrado na figura abaixo:
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
@@ -80,7 +80,7 @@ Siga as etapas abaixo para criar um fluxo de trabalho para seu vídeo:
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
 1. Clique na guia **Argumentos**.
-1. Na caixa de diálogo **Linha de Comando - Propriedades da Etapa**, insira o formato nos **Tipos MIME** (como ***video/mp4***) e o comando como (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4**). Este comando inicia o fluxo de trabalho no campo **Comandos**.
+1. Na caixa de diálogo **Linha de Comando - Propriedades da Etapa**, insira o formato em **Tipos MIME** (como ***video/mp4***) e o comando como (***`/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4`***). Este comando inicia o fluxo de trabalho no campo **Comandos**.
 
    Consulte os detalhes em **Tipos MIME** e **Comandos** na observação abaixo.
 
@@ -116,6 +116,6 @@ Siga as etapas abaixo para usar o fluxo de trabalho em seu projeto do AEM Screen
 Você pode validar sua saída ao:
 
 * Verificar pré-visualização do vídeo no canal
-* Navegue até ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** em CRXDE Lite, conforme mostrado na figura abaixo:
+* Navegue até ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** no CRXDE Lite, conforme mostrado na figura abaixo:
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)

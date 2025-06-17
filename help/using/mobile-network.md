@@ -2,9 +2,9 @@
 title: Rede móvel direta
 description: Saiba mais sobre a configuração de rede móvel direta no AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ No AEM Screens, o conteúdo necessário é baixado fisicamente para o controlado
 
 A vantagem de conectar os players de AEM Screens sobre celular 3/4/5G ao seu provedor de dados de serviço móvel é que o roteador móvel pode ser colocado em um ponto otimizado. Isso garante a melhor cobertura de rede disponível. Esta localização é geralmente em uma posição elevada e aberta, com o menor número possível de estruturas de concreto ou metal circundantes.
 
-Essa configuração permite que os usuários da tela AEM tenham grande flexibilidade porque não é necessária uma conexão fixa para se conectar ao AEM Screens. Esta disposição é interessante para configurações efêmeras ou móveis.
+Essa configuração permite que os usuários do AEM Screen tenham grande flexibilidade porque não é necessária uma conexão de telefone fixo para se conectarem ao AEM Screens. Esta disposição é interessante para configurações efêmeras ou móveis.
 
 O diagrama a seguir mostra a Configuração direta da rede móvel. Consiste em um segmento único de conexão de rede e a conexão de cada player à rede de dados móvel ou celular.
 
@@ -25,9 +25,9 @@ O diagrama a seguir mostra a Configuração direta da rede móvel. Consiste em u
 
 ## Conexão do AEM Screens Player à rede móvel direta
 
-Siga as etapas abaixo para garantir a conexão correta dos reprodutores de tela AEM nesta configuração:
+Siga as etapas abaixo para garantir a conexão adequada dos reprodutores de tela do AEM nesta configuração:
 
-1. Verifique se cada um dos reprodutores de tela AEM está conectado à rede do roteador.
+1. Verifique se cada um dos reprodutores de tela do AEM está conectado à rede do roteador.
 
 1. Teste a conexão com a Internet chamando um URL no navegador do sistema.
 

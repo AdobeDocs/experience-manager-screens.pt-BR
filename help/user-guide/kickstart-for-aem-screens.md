@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1282'
 ht-degree: 2%
 
 ---
@@ -28,13 +28,13 @@ Siga as etapas abaixo para criar um projeto de amostra para o AEM Screens e publ
 
 >[!IMPORTANT]
 >**Configurações OSGi**
->Você deve ativar o referenciador vazio para permitir que o dispositivo publique dados no servidor. Por exemplo, se a propriedade referenciador vazia estiver desativada, o dispositivo não poderá postar uma captura de tela. Atualmente, alguns desses recursos só estarão disponíveis se a opção Permitir vazio de filtro do referenciador do Apache Sling estiver ativada na configuração do OSGi. O painel pode exibir um aviso de que as configurações de segurança podem impedir que alguns desses recursos funcionem.
->Siga as etapas abaixo para habilitar a ***Permissão de Filtro Referenciador Apache Sling***:
+>>Você deve ativar o referenciador vazio para permitir que o dispositivo publique dados no servidor. Por exemplo, se a propriedade referenciador vazia estiver desativada, o dispositivo não poderá postar uma captura de tela. Atualmente, alguns desses recursos só estarão disponíveis se a opção `Apache Sling` Permitir Filtro de Referenciador Vazio estiver habilitada na Configuração OSGi. O painel pode exibir um aviso de que as configurações de segurança podem impedir que alguns desses recursos funcionem.
+>>Siga as etapas abaixo para habilitar a ***Permissão de Filtro Referenciador Apache Sling***:
 
 
 ## Permitir Solicitações de Referenciador Vazias {#allow-empty-referrer-requests}
 
-1. Navegue até **Configuração do Console Web do Adobe Experience Manager** por meio da instância AEM > ícone de martelo > **Operações** > **Console Web**.
+1. Navegue até **Configuração do Console Web do Adobe Experience Manager** por meio da instância do AEM > ícone de martelo > **Operações** > **Console Web**.
 
    ![imagem](assets/config/empty-ref1.png)
 
@@ -180,7 +180,7 @@ Quando a configuração do projeto for concluída, atribua o canal a uma exibiç
 
 ### Registrando um dispositivo e atribuindo um dispositivo a uma exibição {#registering-device}
 
-Registre seu dispositivo usando o painel AEM.
+Registre seu dispositivo usando o painel do AEM.
 
 >[!IMPORTANT]
 >O Chrome OS player pode ser instalado como um plug-in de navegador Chrome no modo de desenvolvedor, sem exigir um dispositivo Chrome Player real. Para instalação, siga as etapas abaixo:

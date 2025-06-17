@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -93,7 +93,7 @@ O modo **Status da Live Copy**, como mostrado na figura abaixo, permite exibir o
 
 Você também pode cancelar a herança da live copy, para que o conteúdo se torne independente da ramificação original.
 
-O exemplo a seguir mostra que você clica na imagem no modo de edição e clica no símbolo de herança de cancelamento na parte superior direita.
+O exemplo a seguir mostra que você clica na imagem no modo de edição e clica no ícone **Cancelar Herança** na parte superior direita.
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 
@@ -117,7 +117,7 @@ Siga as etapas abaixo para garantir que suas alterações sejam propagadas do ca
 
    ![chlimage_1-27](assets/chlimage_1-27.png)
 
-1. Para propagar alterações no canal de live copy, navegue até o painel AEM, clique no canal de live copy e clique em **Propriedades** na barra de ações.
+1. Para propagar alterações para o canal de live copy, navegue até o painel do AEM, clique no canal de live copy e clique em **Propriedades** na barra de ações.
 
    ![chlimage_1-28](assets/chlimage_1-28.png)
 
@@ -125,7 +125,7 @@ Siga as etapas abaixo para garantir que suas alterações sejam propagadas do ca
 
    ![chlimage_1-29](assets/chlimage_1-29.png)
 
-1. Clique em **Sincronizar** e em **Salvar e fechar** para voltar para o painel AEM.
+1. Clique em **Sincronizar** e em **Salvar e fechar** para voltar para o painel do AEM.
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 

@@ -1,5 +1,5 @@
 ---
-title: Gerenciando dispositivos
+title: Gerenciar dispositivos
 description: Saiba mais sobre a atribuição e o gerenciamento de dispositivos no AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
@@ -9,14 +9,14 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 1%
 
 ---
 
-# Gerenciando dispositivos {#managing-devices}
+# Gerenciar dispositivos {#managing-devices}
 
 Esta página descreve a atribuição do dispositivo.
 
@@ -40,7 +40,7 @@ Siga as etapas abaixo para atribuir um dispositivo a uma exibição:
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Clique em um dispositivo não atribuído na lista e clique em **Atribuir dispositivo** na barra de ações.
+1. Clique em um dispositivo não atribuído na lista e, na barra de ações, clique em **Atribuir dispositivo**.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
@@ -62,8 +62,8 @@ Siga as etapas abaixo para atribuir um dispositivo a uma exibição:
 >[!NOTE]
 >
 >Toda vez que o primeiro dispositivo é adicionado a um novo projeto do Screens, um grupo de usuários é criado.
->Por exemplo, se o nome do nó do projeto for *we-retail*, o nome do grupo de usuários será *screens-we-retail-devices*.
->Este grupo é adicionado como membro do grupo **Contribuidores**, conforme mostrado na figura abaixo:
+>>Por exemplo, se o nome do nó do projeto for *we-retail*, o nome do grupo de usuários será *screens-we-retail-devices*.
+>>Este grupo é adicionado como membro do grupo **Contribuidores**, conforme mostrado na figura abaixo:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

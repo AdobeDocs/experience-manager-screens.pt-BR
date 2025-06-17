@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Siga as etapas abaixo para criar marca e estilo personalizados para sobreposiç�
    >[!NOTE]
    >Para saber como adicionar uma sobreposição de texto ao seu ativo em um editor de canal, consulte [Sobreposição de texto](/help/user-guide/text-overlay.md).
 
-1. Navegue até CRXDE Lite da instância AEM > ferramentas > **CRXDE Lite**.
+1. Navegue até o CRXDE Lite na instância do AEM > ferramentas > **CRXDE Lite**.
 
 1. Crie um design personalizado em `/apps/settings/wcm/designs/<your-project>/`. Por exemplo, neste caso, navegue até `/apps/settings/wcm/designs/customstyle/`
 
@@ -104,7 +104,7 @@ Atualize as ACLs desses designs para que o reprodutor possa baixá-los.
 
 ## Exibir o resultado {#viewing-the-result}
 
-Ao concluir as etapas anteriores, você pode atualizar o arquivo *statatis.css* de **CRXDE Lite** e, portanto, exibir a atualização da sobreposição de texto que já foi adicionada ao ativo.
+Quando você tiver concluído as etapas anteriores, poderá atualizar seu arquivo *statatis.css* do **CRXDE Lite** e, portanto, exibir a atualização para sua sobreposição de texto que já foi adicionada ao ativo.
 
 Siga as etapas abaixo para exibir o design atualizado para a sobreposição de texto:
 
@@ -114,7 +114,7 @@ Siga as etapas abaixo para exibir o design atualizado para a sobreposição de t
 
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Navegue até o arquivo *static.css* no CRXDE Lite e adicione a fonte como, `font-family: "Lucida Console", Courier, monospace;` a esse arquivo, conforme mostrado abaixo.
+1. Navegue até o arquivo *static.css* no CRXDE Lite e adicione a fonte, como `font-family: "Lucida Console", Courier, monospace;`, a esse arquivo, conforme mostrado abaixo.
 
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand8.png)
 

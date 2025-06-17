@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 2%
@@ -75,7 +75,7 @@ A tabela a seguir resume o caminho com as permissões no nível do projeto:
 
 >[!NOTE]
 >
->Às vezes, você pode separar as funções do autor (como gerenciar ativos e criar canais) das funções de administrador (como registrar players). Nesse cenário, crie dois grupos e adicione o grupo de autores aos colaboradores e o grupo de administradores aos colaboradores e administradores de usuários.
+>Às vezes, você pode separar as funções do autor (como gerenciar ativos e criar canais) das funções de administrador (como registrar players). Nesse cenário, crie dois grupos e adicione o grupo do autor aos colaboradores e o grupo de administradores aos colaboradores e administradores de usuários.
 
 ### Criação de grupos {#creating-groups}
 

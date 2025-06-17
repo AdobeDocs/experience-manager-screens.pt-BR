@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Esta página aborda a pré-produção, o início e a progressão do projeto.
 
 >[!NOTE]
 >
->Identificar um Integrador de áudio-vídeo com experiência em gerenciamento de projetos de implantações de Sinalização digital em escala é importante para o sucesso a longo prazo. Sugere-se que os planos de projeto entre o Integrador de áudio-vídeo e o Implementador de AEM sejam comparados. Isso garante o alinhamento à medida que os planos são desenvolvidos e finalizados.
+>Identificar um Integrador de áudio-vídeo com experiência em gerenciamento de projetos de implantações de Sinalização digital em escala é importante para o sucesso a longo prazo. Sugere-se que os planos de projeto entre o Integrador de áudio-vídeo e o Implementador do AEM sejam comparados. Isso garante o alinhamento à medida que os planos são desenvolvidos e finalizados.
 >
 >Os parceiros que adotam uma abordagem holística no gerenciamento das fases de &quot;pré-produção&quot;, iniciação e progressão do projeto ajudam a garantir que os clientes finais estejam posicionados para obter o máximo valor de seu investimento
 
@@ -41,9 +41,9 @@ Para oferecer suporte a uma implantação bem-sucedida da Sinalização digital,
 
 O primeiro estágio é chamado ***Dia Zero***. Esse estágio inclui todas as iniciativas de pré-venda e detecção necessárias ao definir o escopo de um projeto. O segundo estágio, ***Primeiro Dia***, se refere a todas as atividades incluídas no esforço de implantação. Finalmente, ***Dia Dois*** refere-se a todas as operações em andamento e aos elementos de suporte como parte da solução total.
 
-As atividades do dia zero envolvem pré-vendas, detecção de clientes, análise de necessidades de aplicativos e definição do escopo do projeto. Essa etapa também pode incluir o envolvimento inicial e a definição dos requisitos do projeto para o gerenciamento de projetos, como preparação para a implantação.
+Atividades de ***Dia zero*** envolvem pré-vendas, descoberta de clientes, análise de necessidades de aplicativos e definição de escopo do projeto. Essa etapa também pode incluir o envolvimento inicial e a definição dos requisitos do projeto para o gerenciamento de projetos, como preparação para a implantação.
 
-O Dia Zero consiste em oito etapas principais que abrangem todos os aspectos do aumento do gerenciamento de projetos:
+Todos os ***Dias zero*** consistem em oito etapas principais que cobrem todos os aspectos do aumento do gerenciamento de projetos:
 
 * Definição do escopo do trabalho
 * Definição do cronograma do projeto
@@ -72,7 +72,7 @@ Como uma oportunidade de vendas é transferida para um projeto, uma reunião de 
 
 A última parte de uma iniciativa do Primeiro Dia é concluir uma Transferência NOC. Se um projeto concluído incluir serviço e suporte para o Segundo dia, o Gerente de projetos organizará uma Reunião de Transferência de NOC com os supervisores dessas equipes.
 
-Essa reunião consiste principalmente em representantes do Integrador de áudio e vídeo de gerenciamento de contas, operações de rede, logística de campo, serviços de conteúdo e contabilidade. Representantes de gerenciamento de projetos do Adobe, do Implementador AEM e do Cliente final estão envolvidos em conjunto, com o Integrador de áudio e vídeo definindo a programação, a cadência e as portagens. Normalmente, os gerentes de projeto são melhores para coordenar as discussões e garantir o alinhamento das partes apropriadas e o desenvolvimento da documentação necessária para a Reunião de Transferência NOC. A documentação de suporte essencial provém provavelmente da equipe de TI e/ou de engenharia de áudio e vídeo, além dos recursos de gerenciamento de contas e vendas de todas as partes envolvidas. Para os clientes que precisam de suporte técnico de um NOC, a documentação deve ser fornecida aos supervisores de NOC para upload em uma plataforma da Knowledge base.
+Essa reunião consiste principalmente em representantes do Integrador de áudio e vídeo de gerenciamento de contas, operações de rede, logística de campo, serviços de conteúdo e contabilidade. Representantes de gerenciamento de projetos da Adobe, do Implementador da AEM e do Cliente final estão envolvidos em conjunto, com o Integrador de áudio e vídeo definindo a programação, a cadência e as portagens. Normalmente, os gerentes de projeto são melhores para coordenar as discussões e garantir o alinhamento das partes apropriadas e o desenvolvimento da documentação necessária para a Reunião de Transferência NOC. A documentação de suporte essencial provém provavelmente da equipe de TI e/ou de engenharia de áudio e vídeo, além dos recursos de gerenciamento de contas e vendas de todas as partes envolvidas. Para os clientes que precisam de suporte técnico de um NOC, a documentação deve ser fornecida aos supervisores de NOC para upload em uma plataforma da Knowledge base.
 
 ## Parte 4: Tutorial em vídeo sobre gerenciamento e implantação de projetos {#part-video-tutorial-on-project-management-and-deployment}
 
@@ -80,7 +80,7 @@ Saiba mais sobre o gerenciamento de projetos e a preparação de implantação e
 
 ### Gerenciamento e implantação de projetos
 
->[!VIDEO](https://video.tv.adobe.com/v/32798?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/28408)
 
 *Saiba mais sobre o gerenciamento de projeto e a preparação de implantação (pré-produção de projeto, iniciação de projeto, progressão de projeto).*
 

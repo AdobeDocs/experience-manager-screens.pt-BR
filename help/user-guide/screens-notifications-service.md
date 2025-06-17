@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Siga as etapas abaixo para definir as configurações de notificação por email
 
 1. Defina os seguintes campos para poder definir as configurações do email:
 
-   **Caminho dos Dispositivos** Insira o caminho para os Projetos Screens que você deseja monitorar. Normalmente, o caminho é `/home/users/screens/<Name of your project>`.
+   **Caminho dos Dispositivos** - Insira o caminho para os Projetos Screens que você deseja monitorar. Normalmente, o caminho é `/home/users/screens/<Name of your project>`.
 
    Por exemplo, se o seu projeto for **`We.Retail`**, use o caminho do projeto como ***/home/users/screens/we-retail***.
 

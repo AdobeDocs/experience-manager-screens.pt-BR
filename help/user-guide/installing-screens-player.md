@@ -6,9 +6,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 33c469477fc38e79e0364411378c9a3a30a1eda3
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -21,14 +21,14 @@ Esta página descreve como instalar o AEM Screens Player.
 
 O AEM Screens Player está disponível para Android™, Chrome OS e Windows.
 
-Para baixar o **AEM Screens AEM Player**, visite a página [Downloads do Player do {6.5}.](https://download.macromedia.com/screens/)
+Para baixar o **AEM Screens Player**, visite a página [Downloads do AEM 6.5 Player](https://download.macromedia.com/screens/).
 
 >[!NOTE]
 >
 >Depois de baixar o Player mais recente (*.exe*), siga as etapas no player para concluir a instalação ad-hoc:
 >
 >1. Pressione e segure no canto superior esquerdo para abrir o painel de administração.
->1. Navegue até **Configuração** no menu de ação esquerdo e digite o endereço do local da instância do AEM no **Servidor** e clique em **Salvar**.
+>1. Navegue até **Configuração** no menu de ações esquerdo e digite o endereço do local da instância do AEM no **Servidor** e clique em **Salvar**.
 >1. Clique no link **Registro** no menu de ação esquerdo e nas etapas abaixo para concluir o processo de registro do dispositivo.
 
 ## Monitoramento básico de reprodução {#playback-monitoring}
@@ -74,7 +74,7 @@ Algumas limitações para o monitoramento básico da reprodução estão listada
 
 * Esse recurso é compatível apenas com canais de sequência e ainda não abrange o caso de uso de canais interativos (SPA).
 
-* As métricas ainda não estão totalmente expostas aos clientes, mas o Adobe está trabalhando para ativar mecanismos de geração de relatórios e alerta semelhantes a painéis em breve.
+* As métricas ainda não estão totalmente expostas aos clientes, mas a Adobe está trabalhando para ativar mecanismos de alerta e geração de relatórios semelhantes a painéis em breve.
 
 ### Outros recursos {#additional-resources}
 

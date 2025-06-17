@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '2451'
 ht-degree: 1%
@@ -53,7 +53,7 @@ O exemplo a seguir fornece uma solução com foco nos seguintes termos principai
 
 * um ***canal de sequência principal*** para a sequência global.
 * ***sequência dinâmica inserida*** componentes para cada parte personalizável localmente da sequência.
-* ***canais de sequência individuais*** nos respectivos locais com uma *função* na exibição que corresponde à *função&#x200B;*** do componente de sequência dinâmica inserido.**
+* ***canais de sequência individuais*** nos respectivos locais com uma *função* na exibição que corresponde à *função*** do componente de sequência dinâmica inserido.**
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Antes de começar a implementar essa funcionalidade, verifique se você tem os s
 
 * Crie um projeto do AEM Screens (neste exemplo, **Demonstração**).
 * Crie um canal **Global** na pasta **Channels**.
-* Adicione conteúdo ao seu Canal **Global** (*Verifique **Resources.zip**&#x200B;para ativos relevantes*).
+* Adicione conteúdo ao seu Canal **Global** (*Verifique **Resources.zip**para ativos relevantes*).
 
 A imagem a seguir mostra o projeto **Demo** com o canal **Global** na pasta **Canais**.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
@@ -318,7 +318,7 @@ Siga as etapas abaixo para criar grupos, usuários e modificar as ACLs de acordo
 
    1. Navegue até **Adobe Experience Manager**.
    1. Clique em **Ferramentas** > **Segurança** > **Usuários**.
-   1. Clique em **Criar Usuário** e digite **Global-User** em **ID**.
+   1. Clique em **Criar Usuário**, em **ID**, digite **Global-User**.
    1. Digite **Password** e confirme a senha para este usuário.
    1. Clique na guia **Grupos** e digite o nome do grupo em **Clique em Grupo**, por exemplo, digite **Global-Author** para adicionar **Global-User** a esse grupo específico.
    1. Clique em **Salvar e fechar**.

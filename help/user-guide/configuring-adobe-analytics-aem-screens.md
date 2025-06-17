@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '626'
 ht-degree: 10%
 
 ---
@@ -198,7 +198,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
    <td>obrigatório para AA</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Suporte do Adobe Analytics para Nome de página personalizado</td> 
+   <td>Suporte para nome de página personalizado no Adobe Analytics</td> 
   </tr>
   <tr>
    <td> </td> 

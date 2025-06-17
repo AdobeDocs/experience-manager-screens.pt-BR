@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 7410e2d8fd7fe1e8b795a35f3a76df4ea882117e
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 # Implementação do Android™ Player {#implementing-android-player}
 
 >[!CAUTION]
->O AEM Screens Player baseado em Android foi oficialmente descontinuado. Os usuários são aconselhados a migrar para outro sistema operacional que esteja sendo suportado pela AEM Screens.
+>O AEM Screens Player baseado em Android foi oficialmente descontinuado. Os usuários são aconselhados a migrar para outro sistema operacional compatível com o AEM Screens.
 
 Esta seção descreve a configuração do Android™ player. Ele fornece informações do arquivo de configuração e as opções disponíveis, além de recomendações sobre quais configurações usar para desenvolvimento e teste.
 
@@ -143,7 +143,7 @@ A tabela a seguir resume os atributos da política com um exemplo de JSON de pol
 | *rebootSchedule* | O cronograma para reinicializar se aplica a todas as plataformas. |
 | *enableAdminUI* | Habilite a interface do Administrador para configurar o dispositivo no site. Defina como *false* depois que estiver totalmente configurado e em produção. |
 | *enableOSD* | Habilite a interface do usuário do alternador de canais para que os usuários alternem canais no dispositivo. Considere configurá-la como *false* depois que ela estiver totalmente configurada e em produção. |
-| *enableActivityUI* | Ative se quiser mostrar o progresso de atividades como download e sincronização. Ative para solução de problemas e desative depois que estiver totalmente configurado e em produção. |
+| *enableActivityUI* | Ative se quiser mostrar o progresso de atividades, como download e sincronização. Ative para solução de problemas e desative depois que estiver totalmente configurado e em produção. |
 | *enableNativeVideo* | Ative se quiser usar aceleração de hardware nativa para reprodução de vídeo (somente Android™). |
 
 ### Exemplo de política JSON {#example-json}

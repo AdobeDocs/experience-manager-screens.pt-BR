@@ -10,20 +10,20 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1416'
 ht-degree: 5%
 
 ---
 
 # Adicionar componentes a um canal{#adding-components-to-a-channel}
 
-Os componentes são os elementos fundamentais da experiência com o AEM (Adobe Experience Manager). Você pode usar vários componentes e adicioná-los ao canal em um projeto do AEM Screens.
+Os componentes são os elementos fundamentais da experiência do AEM (Adobe Experience Manager). Você pode usar vários componentes e adicioná-los ao canal em um projeto do AEM Screens.
 
 ## Componentes no AEM Screens {#components-in-aem-screens}
 
-O AEM Screens fornece diferentes componentes de AEM que podem ser usados em um projeto do Screens.
+O AEM Screens fornece diferentes componentes do AEM que podem ser usados em um projeto do Screens.
 
 ### Visualização de componentes do AEM Screens {#viewing-aem-screens-components}
 
@@ -34,7 +34,7 @@ Para exibir os componentes padrão do seu projeto do Screens, siga as etapas aba
 1. Clique no canal. Por exemplo, **`We.Retail In Store`** > **Canais** > **Canal Ocioso**.
 
 1. Clique em **Editar** na barra de ações.
-1. No Editor de AEM, clique no ícone **+** na barra lateral.
+1. No Editor do AEM, clique no ícone **+** na barra lateral.
 1. Todos os componentes incluídos por padrão em um projeto do AEM Screens são exibidos, como mostrado na figura abaixo.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
@@ -58,7 +58,7 @@ O exemplo a seguir mostra a adição de um componente Livefyre a um projeto do A
 >
 >Da mesma forma, você pode adicionar qualquer número de outros novos componentes compatíveis com o AEM Screens ao seu projeto.
 
-## Compreender os componentes da tela AEM {#understanding-aem-screen-components}
+## Compreensão dos componentes de tela do AEM {#understanding-aem-screen-components}
 
 A seção a seguir explica os componentes do AEM Screens que você pode usar no projeto.
 

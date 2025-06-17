@@ -10,9 +10,9 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -114,6 +114,7 @@ Além disso, clique em **Configurações** no canto superior direito para atuali
 
 >[!NOTE]
 >Você pode clicar em qualquer um dos seguintes níveis de Log:
+>
 >* **Desabilitar**
 >* **Depuração**
 >* **Informações**
@@ -126,7 +127,7 @@ Além disso, clique em **Configurações** no canto superior direito para atuali
 
 Ative o referenciador vazio para permitir que o dispositivo publique dados no servidor. Por exemplo, se a propriedade referenciador vazia estiver desativada, o dispositivo não poderá postar uma captura de tela.
 
-Atualmente, alguns desses recursos só estarão disponíveis se a *Permissão de filtro do referenciador do Apache Sling* estiver habilitada na configuração do OSGi. O painel pode exibir um aviso de que as configurações de segurança podem impedir que alguns desses recursos funcionem.
+Atualmente, alguns desses recursos só estarão disponíveis se o *`Apache Sling Referrer Filter Allow Empty`* estiver habilitado na configuração OSGi. O painel pode exibir um aviso de que as configurações de segurança podem impedir que alguns desses recursos funcionem.
 
 Siga as etapas abaixo para ativar o Apache Sling Referrer Filter Allow Empty
 
@@ -147,9 +148,9 @@ O AEM fornece monitoramento integrado para:
 * A versão *Firmware do AEM Screens Player* está instalada no Player.
 * *Espaço de armazenamento livre* no Player.
 
-Recommendations para monitoramento remoto com software de terceiros:
+Recomendações para monitoramento remoto com software de terceiros:
 
-* Uso da CPU em Players.
+* Uso do CPU em players.
 * Verifique se o processo do AEM Screens Player está em execução.
 * Reinicialização/reinicialização remota do Player.
 * Notificações em tempo real.

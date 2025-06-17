@@ -2,9 +2,9 @@
 title: Rede Corporativa Fechada
 description: Rede Corporativa Fechada
 exl-id: b8c52e72-86da-4089-ba02-0c643862419f
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ A Configuração de Rede Corporativa Fechada é aplicável a empresas menores, m
 
 ## Conexão do AEM Screens Player ao Direct Internet Access
 
-Siga as etapas abaixo para garantir a conexão correta dos reprodutores de tela AEM nesta configuração:
+Siga as etapas abaixo para garantir a conexão adequada dos reprodutores de tela do AEM nesta configuração:
 
-1. Verifique se cada um dos reprodutores de tela AEM está conectado à rede de roteadores.
+1. Verifique se cada um dos reprodutores de tela do AEM está conectado à rede de roteadores.
 1. Teste a conexão com a Internet chamando um URL no navegador do sistema.
 
    >[!NOTE]
@@ -69,7 +69,7 @@ Por exemplo, os componentes de rede devem corresponder pelo menos ao padrão de 
 As redes corporativas têm vários dispositivos conectados, são separadas em várias sub-redes e têm conexões de Internet redundantes ou multiplexadas para fornecer desempenho suficiente para milhares de acessos simultâneos.
 Esse esquema é simplificado e se adapta à maioria dos casos aos ambientes disponíveis para o cliente.
 
-Caso uma solução Wi-Fi esteja planejada para conectar o AEM Screens ao Link da Internet, é recomendável usar padrões Wi-Fi modernos como `IEEE 802.11g`, no mínimo. Este padrão suporta conexões de até 54 Mbps. Quaisquer *padrões mais recentes*, como `802.11h-n`, são de melhor qualidade. Se um repetidor Wi-Fi for necessário, o Adobe recomenda tecnologias de ponto de acesso Wi-Fi em malha, como Google Nest Mesh Wi-Fi ou semelhante.
+Caso uma solução Wi-Fi esteja planejada para conectar o AEM Screens ao Link da Internet, é recomendável usar padrões Wi-Fi modernos como `IEEE 802.11g`, no mínimo. Este padrão suporta conexões de até 54 Mbps. Quaisquer *padrões mais recentes*, como `802.11h-n`, são de melhor qualidade. Se um repetidor Wi-Fi for necessário, a Adobe recomenda tecnologias de ponto de acesso Wi-Fi Mesh como Google Nest Mesh Wi-Fi ou similares.
 Outras tecnologias repetitivas Wi-Fi causam uma perda maciça de largura de banda na rede como um todo.
 
 ## Download de mídia e Assets {#download}

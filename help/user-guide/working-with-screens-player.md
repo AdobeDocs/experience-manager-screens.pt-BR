@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Depois de atribuir um canal a uma exibição, o AEM Screens Player exibe o conte
 
 ## Uso do painel de dispositivos {#using-the-device-dashboard}
 
-Você pode configurar as preferências para o seu dispositivo no painel Dispositivo, acessível por meio da instância de criação do AEM.
+É possível configurar as preferências do seu dispositivo no painel Dispositivo, acessível por meio da instância de criação do AEM.
 
 1. Navegue até o painel do dispositivo no seu projeto, por exemplo, ***Testar projeto*** > ***Dispositivos***.
 
@@ -124,12 +124,12 @@ Para alterar as preferências do Player:
 
 Você pode solucionar vários problemas associados ao AEM Screens Player (hardware e software):
 
-| **Problemas** | **Recommendations** |
+| **Problemas** | **Recomendações** |
 |---|---|
 | O armazenamento do player está cheio | Eliminar arquivos desnecessários |
 | O player perdeu a rede | Use o cabo Cat-5 ou Cat-6. Para Wi-Fi, reduza a distância do roteador até o dispositivo de reprodução |
 | Falha no AEM Screens Player | É recomendável ter um aplicativo de vigia que garanta que o AEM Screens Player sempre seja executado |
-| O AEM Screens Player perdeu as configurações | Verificar conexão com o servidor AEM |
+| O AEM Screens Player perdeu as configurações | Verificar conexão com o servidor do AEM |
 | O AEM Screens Player não é iniciado automaticamente após a reinicialização ou reinicialização do Player | Verifique a pasta de início do SO ou o procedimento de inicialização |
 | O AEM Screens Player mostra conteúdo incorreto ou antigo | Verificar conexão de rede |
 
@@ -149,7 +149,7 @@ A seção a seguir fornece as diretrizes de seleção de hardware para um projet
 * Sempre adquira componentes de nível ***Comercial*** ou ***Industrial*** para PC Player e Painel de Vídeo ou Projetor.
 
 * Sempre interaja com fornecedores que atendem ao mercado de sinalização digital.
-* Sempre considere fatores ambientais como temperatura ambiente e umidade relativa.
+* Sempre considere os fatores ambientais, como temperatura ambiente e umidade relativa.
 * Sempre analise os requisitos de energia e o condicionamento de energia.
 * Analise cuidadosamente as necessidades de desempenho e as portas de E/S necessárias para o aplicativo.
 

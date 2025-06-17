@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ A página a seguir descreve o processo de registro de dispositivo em um projeto 
 O processo de registro de dispositivos é feito em duas máquinas separadas:
 
 * O dispositivo real a ser registrado, por exemplo, sua Exibição de cartazes
-* O servidor AEM usado para registrar seu dispositivo
+* O servidor do AEM usado para registrar seu dispositivo
 
 >[!NOTE]
 >
->Depois de baixar o Windows Player (*.exe*) mais recente na página [Downloads do AEM 6.4 Player](https://download.macromedia.com/screens/), siga as etapas no reprodutor para concluir a instalação ad-hoc:
+>Depois de baixar o Windows Player (*.exe*) mais recente na página [Downloads do AEM 6.4 Player](https://download.macromedia.com/screens/), siga as etapas no player para concluir a instalação ad-hoc:
 >
 >1. Pressione e segure no canto superior esquerdo para abrir o painel de administração.
->1. Navegue até **Configuração** no menu de ação esquerdo e digite o endereço do local da instância do AEM no **Servidor** e clique em **Salvar**.
+>1. Navegue até **Configuração** no menu de ações esquerdo e digite o endereço do local da instância do AEM no **Servidor** e clique em **Salvar**.
 >1. Clique no link **Registro** no menu de ação esquerdo e nas etapas abaixo para concluir o processo de registro do dispositivo.
 >
 
@@ -47,7 +47,7 @@ O processo de registro de dispositivos é feito em duas máquinas separadas:
 
    >[!NOTE]
    >
-   >Para obter mais informações sobre como criar um projeto para o Screens no painel AEM, consulte [Criar e gerenciar projeto do Screens](creating-a-screens-project.md).
+   >Para obter mais informações sobre como criar um projeto para o Screens no painel do AEM, consulte [Criar e gerenciar projeto do Screens](creating-a-screens-project.md).
 
 1. Clique no botão **Gerenciador de dispositivos** na barra de ações.
 
@@ -82,7 +82,7 @@ O processo de registro de dispositivos é feito em duas máquinas separadas:
    >
    >O **Registrar Novo** permite registrar um novo dispositivo.
    >
-   >A **Atribuir exibição** permite que você adicione o dispositivo diretamente a uma exibição.
+   >**Atribuir exibição** permite que você adicione o dispositivo diretamente a uma exibição.
 
    Se você clicar em **Concluir**, atribua o dispositivo a uma exibição.
 
