@@ -4,10 +4,9 @@ description: Saiba mais informações sobre o Pacote de recursos 20251007 do AEM
 feature: Feature Pack
 role: Developer
 level: Intermediate
-exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
-source-git-commit: 7ade4e2c50ecf4585bc11b25b0c2ac56597497cb
+source-git-commit: b7ce4b726e9e9a2d70d852f40af3b9681c96bbd1
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '178'
 ht-degree: 5%
 
 ---
@@ -15,8 +14,8 @@ ht-degree: 5%
 # Notas de versão do Pacote de recursos 20251007 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->A Adobe recomenda atualizar para a versão mais recente do 6.5 Adobe Experience Manager (AEM 6.5). Você pode obter as informações da versão mais recente de [aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/release-notes/release-notes).
->&#x200B;>Use o FP11.7 com SP (servicepack) versão 22 ou superior.
+>A Adobe recomenda atualizar para a versão mais recente do Adobe Experience Manager (AEM 6.5). Você pode obter as informações da versão mais recente de [aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/release-notes/release-notes).
+>>Use o FP11.7 com SP (servicepack) versão 22 ou superior.
 
 ## Disponibilidade {#availability}
 
