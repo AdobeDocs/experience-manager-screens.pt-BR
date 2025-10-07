@@ -8,10 +8,10 @@ user-guide-description: Saiba como usar uma solução de sinalização digital q
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: d8392b015c65e6bba35ba4c923d4f663e1121e0c
+source-git-commit: 6a1ecea5d54da483c3033d0be0555b2d0dc71c83
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 11%
+source-wordcount: '556'
+ht-degree: 10%
 
 ---
 
@@ -57,15 +57,15 @@ ht-degree: 11%
    + Integração do Analytics com o AEM Screens {#analytics-integration}
       + [Integração do Adobe Analytics](adobe-analytics-integration-aem-screens.md)
       + [Configuração do Adobe Analytics com AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Criação e exemplos de uso Exemplos {#authoring}
-   + Configurando um projeto do Screens {#setting-up-projects}
++ Exemplos de autoria e caso de uso {#authoring}
+   + Configuração de um projeto do Screens {#setting-up-projects}
       + [Criação e gerenciamento de projetos](creating-a-screens-project.md)
       + [Criação e gerenciamento de canais](managing-channels.md)
       + [Criando e Gerenciando Exibições](managing-displays.md)
       + [Criação e Gerenciamento de Locais](managing-locations.md)
       + [Criação e Gerenciamento de Agendamentos](managing-schedules.md)
       + [Gerenciando dispositivos](managing-devices.md)
-      + Atribuindo Canais {#assigning-channels}
+      + Atribuição de canais {#assigning-channels}
          + [Atribuição de canal](channel-assignment-latest-fp.md)
          + [Atribuição de canal: pacotes de recursos AEM Screens mais antigos](channel-assignment.md)
    + Uso dos recursos principais do produto {#product-features}
@@ -90,7 +90,7 @@ ht-degree: 11%
       + [Relatório de atribuição de conteúdo](content-assignment-report.md)
       + [Suporte a miniaturas para vídeos](thumbnail-support.md)
       + [Uso de representações adaptáveis no AEM Screens](using-adaptive-renditions.md)
-   + Gerenciando Atualizações de Conteúdo {#content-updates}
+   + Gerenciamento de atualizações de conteúdo {#content-updates}
       + [Atualização de conteúdo sob demanda](on-demand-content.md)
       + [Atualização de conteúdo como serviço](content-update-as-a-service.md)
       + [Atualização de conteúdo usando o Screens Launch](launches.md)
@@ -103,7 +103,7 @@ ht-degree: 11%
       + [Transições de várias zonas para uma única zona](multizone-to-singlezone.md)
       + [Canal de tomada a cargo de uso único](single-use-takeover-channel.md)
       + [Uso permanente do canal de tomada a cargo](perpetual-takeover-channel.md)
-+ Desenvolvedor e Recursos da API {#developing}
++ Recursos do desenvolvedor e da API {#developing}
    + [APIs REST](rest-api.md)
    + [Desenvolvimento de um componente personalizado para o AEM Screens](developing-custom-component-tutorial-develop.md)
    + [Canais offline](offline-channels.md)
@@ -119,6 +119,7 @@ ht-degree: 11%
    + [Solução de problemas do Centro de controle de dispositivos](monitoring-screens.md)
    + [Configuração de reprodução de vídeo](troubleshoot-videos.md)
 + Notas de versão {#release-notes}
+   + [Notas de versão do Pacote de recursos 20251007](release-notes-fp-20251007.md)
    + [Notas de versão do Pacote de recursos 20250327](release-notes-fp-20250327.md)
    + [Notas de versão do Pacote de recursos 20250224](release-notes-fp-20250224.md)
    + [Notas de versão do Pacote de recursos 20240715](release-notes-fp-20240715.md)
