@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: 107e296237a98b7d69744b5ec4b87142d7de61cd
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -144,6 +144,10 @@ Há dois tipos de atualizações para o AEM Screens Player:
 
 ## Diretrizes de seleção de hardware para o dispositivo player {#hardware-selection-guidelines-for-player-device}
 
+>[!NOTE]
+>
+>**OBSOLETO:** Esta orientação de seleção de hardware está obsoleta e não deve ser usada para novas implantações. As especificações e recomendações de hardware devem ser fornecidas por um integrador de AV qualificado, com base em seus requisitos específicos de implantação e casos de uso.
+
 A seção a seguir fornece as diretrizes de seleção de hardware para um projeto do Screens:
 
 * Sempre adquira componentes de nível ***Comercial*** ou ***Industrial*** para PC Player e Painel de Vídeo ou Projetor.
@@ -197,7 +201,7 @@ A tabela a seguir resume as configurações de hardware com casos de uso típico
     </ul> </td>
   </tr>
   <tr>
-   <td>Avançado </td>
+   <td>Avançado</td>
    <td>Quad Core com hyperthreading, processador Intel® Core™ i7</td>
    <td><p>16 GB de memória</p> <p>8 MB de cache</p> </td>
    <td>256 GB</td>
