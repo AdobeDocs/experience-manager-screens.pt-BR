@@ -2,9 +2,9 @@
 title: Uso de representações adaptáveis no AEM Screens
 description: Saiba como usar representações adaptáveis no AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: f1ddcf5e5ee9691e436e139ce0084f2c39f9c9dd
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -13,15 +13,18 @@ ht-degree: 0%
 
 ## Introdução {#introduction}
 
+>[!CAUTION]
+>Esse recurso é compatível somente com o AEM no local (AEM 6.x). Não é compatível com o AEM as a Cloud Service.
+
 As representações adaptáveis permitem que os dispositivos cliquem na melhor representação automaticamente para um dispositivo com base em regras definidas pelo cliente. Os dispositivos baixam e reproduzem automaticamente a representação mais apropriada de um ativo com base nessas regras. Ele permite que os clientes se concentrem em criar a experiência *principal*.
 
 ## Objetivo {#objective}
 
-Como um autor de conteúdo AEM Schressen, agora é possível configurar representações de ativos específicas do dispositivo para serem baixadas e reproduzidas automaticamente sem precisar criar todas as variações de conteúdo manualmente.
+Como um Autor de conteúdo do AEM Screens, agora você pode configurar representações de ativos específicas do dispositivo para serem baixadas e reproduzidas automaticamente sem precisar criar todas as variações de conteúdo manualmente.
 Depois que um Desenvolvedor adicionar as propriedades e regras do mapeamento de representação, você estará pronto para aplicar o mapeamento de representação aos ativos e incluí-los em um canal do AEM Screens.
 
 >[!IMPORTANT]
->Antes de começar a usar as representações adaptáveis em um canal do AEM Screens, a Adobe recomenda que você saiba mais sobre a Visão geral e a configuração da arquitetura desse recurso. Consulte [Representações adaptáveis: visão geral e configurações da arquitetura](/help/user-guide/adaptive-renditions.md).
+>Antes de começar a usar Representações adaptáveis em um canal do AEM Screens, a Adobe recomenda que você saiba mais sobre a Visão geral e a configuração da arquitetura desse recurso. Consulte [Representações adaptáveis: visão geral e configurações da arquitetura](/help/user-guide/adaptive-renditions.md).
 
 ## Uso de representações adaptáveis em canais {#using-adaptive-renditions}
 
@@ -32,7 +35,7 @@ Depois que um Desenvolvedor adicionar as propriedades e regras do mapeamento de 
 
 Para aplicar representações a ativos que você deseja usar no canal Tour Screens, faça o seguinte.
 
-1. Navegue até a pasta **Assets** na instância do AEM.
+1. Navegue até a pasta **Assets** na sua instância do AEM.
 1. Crie uma versão do ativo que se ajuste melhor à exibição da sinalização, por exemplo, `seahorse.jpg`.
 1. Escolha o padrão de nomenclatura da representação, por exemplo, `landscape`, semelhante ao que foi definido na propriedade **pattern** em **CRXDE Lite**. Consulte [Adicionar regras de mapeamento de representação](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) para obter mais detalhes.
 1. Clique em **Adicionar representação** para carregar a representação, conforme mostrado na figura abaixo.
@@ -45,7 +48,7 @@ Para aplicar representações a ativos que você deseja usar no canal Tour Scree
    ![imagem](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Consulte [Atualização de conteúdo sob demanda](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) para saber mais sobre como gerenciar a publicação e fornecer atualizações de conteúdo do Autor para o Publish para o dispositivo.
+   >Consulte [Atualização de conteúdo sob demanda](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) para saber mais sobre como gerenciar a publicação e fornecer atualizações de conteúdo do Autor para a Publicação no dispositivo.
 
 ## Estratégia de migração {#migration-strategy}
 
