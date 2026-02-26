@@ -2,9 +2,9 @@
 title: Visão geral e configurações da arquitetura de representações adaptáveis
 description: Saiba mais sobre a visão geral da arquitetura e as configurações no CRXDE Lite para representações adaptáveis no AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 053df80bfd6fe39be93c0fe4c800fe775740dc7e
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '639'
 ht-degree: 2%
 
 ---
@@ -12,6 +12,9 @@ ht-degree: 2%
 # Representações adaptáveis: visão geral e configurações da arquitetura {#adaptive-renditions}
 
 ## Introdução {#introduction}
+
+>[!CAUTION]
+>Esse recurso é compatível somente com o AEM no local (AEM 6.5). Não é compatível com o AEM as a Cloud Service.
 
 As representações adaptáveis permitem que os dispositivos cliquem na melhor representação automaticamente para um dispositivo com base em regras definidas pelo cliente. Os dispositivos baixam e reproduzem automaticamente a representação mais apropriada de um ativo com base nessas regras, permitindo que os clientes se concentrem em projetar somente a experiência *principal*.
 
@@ -57,7 +60,7 @@ Siga as etapas abaixo para configurar a configuração:
 
 Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
 
-1. Navegue até este caminho `/conf/screens/sling:configs/rendition-mapping` de **CRXDE Lite**.
+1. Navegue até este caminho `/conf/screens/sling:configs/rendition-mapping` em **CRXDE Lite**.
 1. Crie um nó em **rendition-mapping**. Clique com o botão direito do mouse em **rendition-mapping** e clique em **Criar** > **Criar nó**, conforme mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/add-node1.png)
@@ -72,7 +75,7 @@ Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
    >[!NOTE]
    >Consulte [Usando a Sintaxe de Consulta de Mídia](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) para saber mais.
 
-   Clique em **regra1** que você criou e insira a **expressão** em **Nome** e **(orientação:paisagem)** em **Valor**, como mostrado abaixo. Clique em **Adicionar**.
+   Clique em **regra1** que você criou e insira a **expressão** em **Nome** e **(orientação:landscape)** em **Valor**, como mostrado abaixo. Clique em **Adicionar**.
 
    ![imagem](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
