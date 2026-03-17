@@ -80,7 +80,7 @@ Saiba mais sobre o gerenciamento de projetos e a preparação de implantação e
 
 ### Gerenciamento e implantação de projetos
 
->[!VIDEO](https://video.tv.adobe.com/v/28408)
+>[!VIDEO](https://video.tv.adobe.com/v/32798?captions=por_br)
 
 *Saiba mais sobre o gerenciamento de projeto e a preparação de implantação (pré-produção de projeto, iniciação de projeto, progressão de projeto).*
 
