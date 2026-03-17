@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,8 @@ Clique no outro dispositivo (neste caso, Windows Player) no painel **DISPOSITIVO
 
 1. Clique no dispositivo na lista e clique em **Salvar**.
 
-   >[OBSERVAÇÃO:]
+   >[!NOTE]
+   >
    > A caixa de diálogo **Sincronizar com o dispositivo primário** mostra a lista de dispositivos primários. Selecione o preferido.
 
 1. Quando o dispositivo (Windows Player) é sincronizado com o dispositivo principal (Chrome Player), você pode ver o dispositivo sincronizado no painel **DISPOSITIVOS**.
@@ -140,5 +141,6 @@ Para remover a sincronização do dispositivo principal, siga as etapas abaixo:
 
 1. Clique em **Confirmar** para cancelar a sincronização do dispositivo selecionado no dispositivo principal.
 
-   >[OBSERVAÇÃO:]
+   >[!NOTE]
+   >
    > Se você clicar no dispositivo principal e usar a opção de dessincronização, todos os dispositivos conectados ao principal serão dessincronizados em uma etapa.

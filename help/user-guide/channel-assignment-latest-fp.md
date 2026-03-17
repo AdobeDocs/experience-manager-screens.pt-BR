@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1448'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Esta seção destaca a Atribuição de canal e a programação de canais para o Pacote de recursos do Screens AEM 6.5.5 e posterior.
+>Esta seção destaca a Atribuição de canal e a programação de canais para o Pacote de recursos do AEM 6.5.5 Screens e posteriores.
 
 Ao configurar uma exibição, atribua um canal a uma exibição para visualizar seu conteúdo.
 
@@ -154,7 +154,7 @@ A prioridade é usada para ordenar as atribuições caso várias correspondam ao
 ### Método de interrupção {#interruption-method-channel}
 
 >[!IMPORTANT]
-> Esta opção só está disponível com o <!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4.
+> Esta opção só está disponível com o <!--AEM 6.4 Feature Pack 8 or-->Pacote de Recursos 4 do AEM 6.5.
 
 Como um Autor de conteúdo, você pode especificar quando um canal é interrompido. Com isso, você pode optar por cortar conteúdo não crítico. Mas também oferece a opção de permitir que conteúdo importante seja totalmente reproduzido antes de ser cortado por causa do agendamento.
 
@@ -210,18 +210,18 @@ Aqui, cada dia é dividido em diferentes intervalos de tempo, para que o conteú
 
 | **Nome** | **Repetições** | **Início** | **Fim** |
 |---|---|---|---|
-| Café da manhã | Diariamente | 6:00 | 11:00 |
-| Almoço | Diariamente | 11:00 | 15H |
-| Jantar | Diariamente | 15H | 20:00 |
+| Café da manhã | Diariamente | 6:00 DA MANHÃ | 11:00 |
+| Almoço | Diariamente | 11:00 | 15:00 |
+| Jantar | Diariamente | 15:00 | 20:00 |
 
 #### Reproduzir conteúdo em um dia da semana específico {#playing-content-on-a-particular-day-of-the-week}
 
-Este exemplo mostra o DayParting implementado em um cassino em que o evento ao vivo ocorre todos os finais de semana das 20:00 às 22:00, e os especiais estão disponíveis para o menu de jantar entre as 22:00 e as 1:00.
+Este exemplo mostra o DayParting implementado em um cassino em que o evento ao vivo ocorre todos os finais de semana das 20h00 às 22h00 e os especiais estão disponíveis para o menu de jantar após as 22h00 até as 1:00.:00:00:00
 
 | **Nome** | **Repetições** | **Início** | **Fim** |
 |---|---|---|---|
-| Fim de semana | Semanalmente: sábado e domingo | 20:00 | 22:00 |
-| Especiais | Diariamente: de segunda a sexta-feira | 22:00 | 1:00 |
+| Fim de semana | Semanalmente: sábado e domingo | 20:00 | 22H:00 |
+| Especiais | Diariamente: de segunda a sexta-feira | 22H:00 | 1:00 DA MANHÃ |
 
 >[!NOTE]
 >

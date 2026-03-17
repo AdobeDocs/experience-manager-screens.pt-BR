@@ -2,9 +2,9 @@
 title: Funções e responsabilidades do projeto AEM Screens
 description: Saiba mais sobre as funções e responsabilidades do projeto AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: 2bab8e3ff6eb722b710f6e565be06d3061439d82
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Os gerentes de projeto normalmente gerenciam toda a implantação da sua implant
 
 >[!NOTE]
 >
->Para saber mais detalhes sobre as diferentes funções e responsabilidades e o público-alvo de um projeto de sinalização digital, visite **[Funções e responsabilidades do projeto](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Para saber mais detalhes sobre as diferentes funções e responsabilidades e o público-alvo de um projeto de sinalização digital, visite **[Funções e responsabilidades do projeto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
 
 
 ## Estágios do Projeto {#project-stages}
@@ -100,7 +100,7 @@ Para oferecer suporte a uma implantação bem-sucedida da sinalização digital,
 >
 >Embora este guia enfatize principalmente o *Primeiro Dia* e o *Segundo Dia*, é necessário prestar atenção aos três estágios para executar um projeto de sinalização digital bem-sucedido.
 >
->Para saber mais sobre a pré-produção, a iniciação e a progressão do projeto, assista a um vídeo sobre **[Gerenciamento e Implantação de Projetos](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
+>Para saber mais sobre a pré-produção, a iniciação e a progressão do projeto, assista a um vídeo sobre **[Gerenciamento e Implantação de Projetos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
 
 ## Gráfico RACI {#raci-chart}
 
@@ -189,7 +189,7 @@ A tabela a seguir resume o **Gráfico RACI de Suporte de Pós-Inicialização**:
 
 | **Fase** | **Autor** | **Desenvolvedor** | **Técnico** |
 |---|---|---|---|
-| *Segundo Dia: Suporte Pós-Inicialização* |
+| *Segundo Dia: Suporte Pós-Inicialização* | | | |
 | Acordo sobre Funções e Responsabilidades | RA | RA | RA |
 | Suporte de nível 1 | I | I | RA |
 | Suporte de nível 2 | I | C | RA |

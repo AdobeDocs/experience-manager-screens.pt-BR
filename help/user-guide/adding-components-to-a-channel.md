@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1420'
 ht-degree: 5%
 
 ---
@@ -201,10 +201,10 @@ Para saber mais sobre como criar um fragmento de experiência e aplicá-lo a um 
 
 | **Propriedade** | **Descrição** |
 |---|---|
-| **Fragmento de experiência** |
+| **Fragmento de experiência** | |
 | ***Fragmento de experiência*** | Selecione o Fragmento de experiência. |
 | ***Duração*** | Selecione toda a duração do Fragmento de experiência que é reproduzido no canal. |
-| **Configuração Offline** |
+| **Configuração Offline** |  |
 | ***Bibliotecas do lado do cliente*** | Arquivos JavaScript e CSS. |
 | ***Arquivos estáticos*** | Arquivos estáticos que você pode adicionar como configurações offline ao seu Fragmento de experiência. |
 
@@ -220,15 +220,15 @@ O ativo de imagem tem três guias: **Imagem**, **Acessibilidade** e **Sequência
 
 | **Propriedade** | **Descrição** |
 |---|---|
-| **Imagem** |
+| **Imagem** |  |
 | ***Ativo de imagem*** | Clique no ativo de imagem. |
 | ***Título*** | Título da imagem. |
 | ***Vincular a*** | Adicione um link à imagem. |
 | ***Descrição*** | Breve descrição da imagem. |
 | ***Tamanho*** | Tamanho da imagem. |
-| **Acessibilidade** |
+| **Acessibilidade** |  |
 | ***Texto alternativo*** | Texto alternativo para a imagem. |
-| **Sequência** |
+| **Sequência** |  |
 | ***Duração*** | Por padrão, a duração está definida como *8000 milissegundos*. Se quiser alterar a duração da reprodução da imagem, atualize o campo **Duration**. |
 
 ### Transição {#transition}
@@ -315,7 +315,7 @@ O componente de vídeo tem as seguintes propriedades:
    <td><strong>Descrição</strong></td>
   </tr>
   <tr>
-   <td><em><strong>Ativo de vídeo </strong></em></td>
+   <td><em><strong>Ativo de vídeo</strong></em></td>
    <td>Clique no link para o vídeo.</td>
   </tr>
   <tr>

@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -29,12 +29,14 @@ Esta seção abrange os seguintes tópicos:
 * **Notificação por email**
 * **Exemplo de caso de uso**
 
-<!-- OBSOLETE NOTE>
+<!-- 
+OBSOLETE NOTE>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3.2 Feature Pack 3 or AEM 6.4.1 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. 
+-->
 
 ## Visão geral {#overview}
 
@@ -102,7 +104,7 @@ O exemplo a seguir descreve alguns cenários para referência, para configurar a
 
 **Cenário 1**
 
-Você define a frequência de agendamento como 1:00 e o tempo limite de ping como 60. Em seguida, se o dispositivo AEM Screens não executar ping entre as 12h e as 13h, você receberá uma notificação por email confirmando a inatividade do dispositivo.
+Você definiu a frequência de agendamento como 1:00 A.M. e o tempo limite de ping como 60. Em seguida, se o dispositivo AEM Screens não executar ping entre 12h00 e 11h00, você receberá uma notificação por email confirmando a inatividade do dispositivo.:00:00
 
 **Cenário 2**
 

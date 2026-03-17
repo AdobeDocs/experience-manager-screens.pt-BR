@@ -10,21 +10,23 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '631'
 ht-degree: 10%
 
 ---
 
 # Configuração do Adobe Analytics com AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
-<!-- OBSOLETE NOTE>
+<!--
+OBSOLETE NOTE>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
 >
->To get access to either of these Feature Packs, contact Adobe Support and request access. When you have permissions, download it from Package Share. -->
+>To get access to either of these Feature Packs, contact Adobe Support and request access. When you have permissions, download it from Package Share. 
+-->
 
 Esta seção abrange os seguintes tópicos:
 
@@ -265,7 +267,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
   </tr>
   <tr>
    <td> </td> 
-   <td>Device</td> 
+   <td>Dispositivo</td> 
    <td>source.device</td> 
    <td>obrigatório com exceções</td> 
    <td>string</td> 
@@ -320,7 +322,7 @@ A tabela a seguir resume o modelo de dados padrão para eventos. Ele lista todos
   <tr>
    <td> </td> 
    <td>Quantidade</td> 
-   <td>trn.quantity</td> 
+   <td>quantidade.trn</td> 
    <td>obrigatório</td> 
    <td>string</td> 
    <td> </td> 

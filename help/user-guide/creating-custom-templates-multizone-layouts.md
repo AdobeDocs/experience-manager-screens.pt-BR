@@ -6,9 +6,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '893'
 ht-degree: 1%
 
 ---
@@ -34,8 +34,8 @@ Há duas considerações importantes que você deve estar ciente antes de criar 
 
    | **Nome do layout** | **Descrição** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | Um layout de paisagem de três zonas que permite criar três zonas: <br>* Zona 1 como 20% da tela horizontal e vertical da esquerda<br>* Zona 2 como 80% da tela horizontal e 20% da tela vertical justificada à direita<br>* Zona 3 como 100% da tela horizontal e 80% da tela vertical. A taxa de proporção é de 16:9 |
-   | `Upper20-PortraitHD2Zone` | Um modelo em forma de retrato de duas zonas, que cobre 20% da tela a partir da parte superior, com uma proporção de 16:9 |
+   | `Left20-LandscapeHD3Zone` | Um layout de paisagem de três zonas que permite criar três zonas: <br>* Zona 1 como 20% da tela horizontal e vertical da esquerda<br>* Zona 2 como 80% da tela horizontal e 20% da tela vertical justificada à direita<br>* Zona 3 como 100% da tela horizontal e 80% da tela vertical. A taxa de proporção é 16:9 |
+   | `Upper20-PortraitHD2Zone` | Um modelo de retrato de duas zonas que cobre 20% da tela a partir da parte superior, com uma proporção de 16:9 |
    | `Right20-LandscapeSD3Zone` | Um modelo de três zonas que cobre 20% da tela à direita, com uma proporção de 4:3 |
 
    >[!IMPORTANT]
@@ -47,7 +47,7 @@ Siga a seção abaixo para criar um modelo personalizado *`Left20-LandscapeHD3Zo
 
 * **`Left20`** - A zona superior à esquerda cobrindo 20% do tamanho da tela horizontal e vertical.
 * **`Landscape`** - Orientação da tela.
-* **`HD`** - Taxa de proporção como 16:9.
+* **`HD`** - A taxa de proporção era 16:9.
 * **`3Zone`** - Três zonas da exibição.
 
 ## Representação visual do layout de várias zonas {#multi-layout-visual-one}
@@ -64,7 +64,7 @@ Siga as etapas abaixo para criar um Layout `Left20-LandscapeHD3Zone` para um pro
 
    ![imagem](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. Navegue até **CRXDE Lite** da instância AEM > Ferramentas > **CRXDE Lite**.
+1. Navegue até **CRXDE Lite** a partir de sua instância do AEM > Ferramentas > **CRXDE Lite**.
 
 1. Crie uma pasta em **aplicativos** com o título **`customtemplate`**. Da mesma forma, crie outra pasta denominada **modelo** em **`customtemplate`**, conforme mostrado na figura abaixo.
 

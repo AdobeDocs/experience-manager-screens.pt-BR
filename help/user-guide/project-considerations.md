@@ -7,12 +7,12 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 docset: aem65
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Para ajudar você a entender a intenção do cliente final em relação ao Asset
 * As animações são reproduzidas como programas de vídeo ou HTML?
 * Existem integrações de terceiros dos serviços de assinatura de conteúdo, mídia social, serviços de agregação RSS ou chamadas de API?
 * Quais são os requisitos de resolução da imagem?
-* As taxas de proporção padrão de 16:9 das telas são personalizadas? Retrato ou paisagem?
+* As taxas de proporção padrão de telas 16:9 ou personalizadas? Retrato ou paisagem?
 * São necessárias paredes de vídeo com várias telas? Em caso afirmativo, quais são as configurações?
 * O conteúdo está vinculado a receitas operacionais ou publicitárias que exigem estratégias de failover para evitar o tempo de inatividade?
 

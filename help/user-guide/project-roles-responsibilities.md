@@ -2,12 +2,12 @@
 title: 'Parte 1: Funções e Responsabilidades do Projeto'
 description: Neste tutorial, entenda as funções, responsabilidades e linhas do tempo necessárias durante os ciclos de vida de vendas e projetos para um projeto de sinalização digital.
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Esta página destaca a parte 1 de uma série de 5 partes. Ele foi projetado para
 
 ## Visão geral {#overview}
 
-O tutorial a seguir aborda as funções e responsabilidades do projeto para o Adobe, implementadores de AEM e integradores áudio/visuais em alto nível. Navegue até os episódios subsequentes para obter uma visão geral abrangente sobre como desenvolver oportunidades no AEM Screens com sucesso e posicionar implantações para obter sucesso a longo prazo.
+O tutorial a seguir aborda as funções e responsabilidades do projeto para o Adobe, os implementadores do AEM e os integradores de áudio/visual em alto nível. Navegue até os episódios subsequentes para obter uma visão geral abrangente sobre como desenvolver oportunidades no AEM Screens com sucesso e posicionar implantações para obter sucesso a longo prazo.
 
 Há três grupos principais envolvidos pelo processo de delivery dentro do seguinte:
 
@@ -32,19 +32,19 @@ Há três grupos principais envolvidos pelo processo de delivery dentro do segui
 
 ## Resumo das funções envolvidas em um projeto de sinalização digital {#summary-of-roles-involved-in-a-digital-signage-project}
 
-A definição de parâmetros de caso de uso de aplicativos em parceria com o Adobe, o Implementador AEM e o Integrador áudio/visual direciona o escopo de desenvolvimento de software. Esse processo garante que uma abordagem em fases seja estabelecida com benchmarks de desempenho e métricas de sucesso, todas identificadas no projeto.
+A definição de parâmetros de caso de uso de aplicativos em parceria com a Adobe, o AEM Implementor e o Audio/Visual Integrator orienta o escopo de desenvolvimento de software. Esse processo garante que uma abordagem em fases seja estabelecida com benchmarks de desempenho e métricas de sucesso, todas identificadas no projeto.
 
 ### Adobe {#adobe}
 
-O Adobe inclui recursos do Adobe Managed Services, como o CSE (Customer Success Engineer, Engenheiro especializado na fidelização de clientes) e o Suporte Adobe.
+A Adobe inclui recursos da Adobe Managed Services, como o CSE (Customer Success Engineer, Engenheiro especializado na fidelização de clientes) e o Suporte da Adobe.
 
-#### Implementadores de AEM {#aem-implementors}
+#### Implementadores do AEM {#aem-implementors}
 
-Um **Implementador de AEM** é responsável por executar tarefas de desenvolvimento e integração para desenvolver a experiência do usuário, modelos personalizados e integrações de back-end para AEM.
+Um **Implementador do AEM** é responsável por executar tarefas de desenvolvimento e integração para desenvolver a experiência do usuário, modelos personalizados e integrações de back-end para o AEM.
 
 Os recursos personalizados necessários para lidar com parâmetros UX (experiência do usuário) do cliente final também são capturados e entregues por meio desse processo.
 
-Os implementadores de AEM normalmente implantam a funcionalidade personalizada em fases ao longo do tempo nos locais. Por exemplo, eles podem primeiro estabelecer suporte para a reprodução de vídeo em loop básico ou conteúdo gráfico estático. A próxima fase inclui a habilitação da reprodução de conteúdo localizado por meio de modelos dinâmicos e tags de metadados. Inclui outras fases que incorporam suporte para elementos interativos por meio de telas sensíveis ao toque, sensores, acionadores dinâmicos e assim por diante.
+Os implementadores da AEM normalmente implantam a funcionalidade personalizada em fases ao longo do tempo nos locais. Por exemplo, eles podem primeiro estabelecer suporte para a reprodução de vídeo em loop básico ou conteúdo gráfico estático. A próxima fase inclui a habilitação da reprodução de conteúdo localizado por meio de modelos dinâmicos e tags de metadados. Inclui outras fases que incorporam suporte para elementos interativos por meio de telas sensíveis ao toque, sensores, acionadores dinâmicos e assim por diante.
 
 #### Integradores de áudio e vídeo {#av-integrators}
 
@@ -56,9 +56,9 @@ Siga o tutorial abaixo para entender exatamente como cada parte faz parte da imp
 
 ### Parte 1: Funções e Responsabilidades do Projeto
 
->[!VIDEO](https://video.tv.adobe.com/v/32834?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/28375)
 
-*Saiba mais sobre as funções e responsabilidades do Adobe, dos Integradores Áudio/Visuais e dos Implementadores de AEM.*
+*Saiba mais sobre as funções e responsabilidades da Adobe, dos Integradores Áudio/Visual e dos Implementadores do AEM.*
 
 ## A próxima etapa {#the-next-step}
 

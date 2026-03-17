@@ -7,12 +7,12 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 docset: aem65
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ O teste de integração de sistemas e software começa com a equipe de engenhari
 
 Após a conclusão do teste de controle de qualidade, a equipe de engenharia de TI cria documentação, fluxos de trabalho e treinamento para referência durante o suporte do dia 2. Os aspectos do sistema a serem testados incluem:
 
-* Integrações do implementador de AEM.
+* Integrações do implementador do AEM.
 * Integrações de sistemas de terceiros.
 * Software.
 * Hardware.
@@ -73,7 +73,7 @@ Considerar todos esses estágios como parte do plano geral do projeto ajuda a ge
 
 ### Testes, POCs, pilotos e implantações
 
->[!VIDEO](https://video.tv.adobe.com/v/32816?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/28405)
 
 *Saiba mais sobre os termos principais envolvidos em um plano de projeto geral, como ciclo de projeto, ações relacionadas a testes de hardware, Prova de Conceito, pilotos e implantações.*
 

@@ -5,10 +5,10 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 1%
+source-wordcount: '1490'
+ht-degree: 0%
 
 ---
 
@@ -29,12 +29,14 @@ Os seguintes tópicos são abordados nesta seção:
 * Ativação de vários ativos
 * Substituição Global Para Hora De Início Universal
 
-<!-- REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
+<!--
+REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. 
+-->
 
 ## Visão geral {#overview}
 
@@ -81,7 +83,7 @@ Siga as etapas abaixo para executar a programação no nível do ativo:
 
 Você pode programar ativos para recorrência em determinados intervalos diariamente, semanalmente ou mensalmente, de acordo com sua necessidade.
 
-Suponha que você deseje exibir uma imagem somente nas sextas-feiras, das 13h às 22h. Você pode usar a guia **Ativação** para definir o intervalo recorrente desejado para seu ativo.
+Suponha que você deseja exibir uma imagem somente às sextas-feiras, das 22h00 às 22h10. Você pode usar a guia **Ativação** para definir o intervalo recorrente desejado para o ativo.:00:00
 
 ### Divisão de dia {#day-parting}
 
@@ -100,14 +102,14 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 | **Expressão** | **Interpretação** |
 |---|---|
-| antes das 8h | o ativo no canal é reproduzido antes das 8h diariamente |
-| depois das 14h | o ativo no canal é reproduzido depois das 14h todos os dias |
-| após 12:15 e antes de 12:45 | o ativo no canal é reproduzido diariamente após as 12h15 por 30 minutos |
-| antes de 12:15 também depois de 12:45 | o ativo no canal é reproduzido antes das 12h15 todos os dias e também depois das 12h45. |
+| antes das 8:00 | o ativo no canal é reproduzido antes das 8:00 da manhã todos os dias |
+| depois das 2:00 P.M. | o ativo no canal é reproduzido depois das 2:00 da tarde todos os dias |
+| após 12:15 e antes de 12:45 | o ativo no canal é reproduzido depois das 12h todos os dias por 30 minutos:15 |
+| antes de 12:15 também depois de 12:45 | o ativo no canal é reproduzido antes das 12h00 todos os dias e também depois das 12h10.:15:45 |
 
 >[!NOTE]
 >
->Você também pode usar a notação _tempo militar_ (14:00) em vez de *A.M./P.M.* (14:00).
+>Você também pode usar a notação _tempo militar_ (14:00) em vez de *A.M./P.M.* (2:00 P.M.).
 
 ### WeekParting {#week-parting}
 
@@ -175,11 +177,11 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 | **Expressão** | **Interpretação** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | o ativo é reproduzido no canal entre 6h e 18h, nas segundas e quartas-feiras de janeiro até o final de março |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua sendo reproduzido todo o dia de 2 de janeiro até as 3h de 3 de janeiro |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua a ser reproduzido até às 3h de 2º de janeiro e, em seguida, recomeça em 2 de janeiro às 14h e continua a ser reproduzido até às 3h de 3º de janeiro |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | o ativo no canal começa a ser reproduzido depois das 2:00 P.M. em 1º de janeiro, continua sendo reproduzido durante todo o dia em 2 de janeiro até as 3:00 A.M. em 3 de janeiro |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | o ativo no canal inicia o player depois das 2:00 P.M. em 1º de janeiro, continua sendo reproduzido até as 3:00 A.M. em 2 de janeiro, em seguida, começa novamente em 2 de janeiro às 2:00 P.M. e continua sendo reproduzido até as 3:00 A.M. em 3 de janeiro |
 
 >[!NOTE]
->Ao definir dias da semana e meses, você pode usar as notações abreviadas e de nome completo, como Seg/Segunda-feira e Jan/Janeiro. Além disso, você também pode usar a notação (14:00) _tempo militar_ em vez de *A.M./P.M.*(2:00 P.M.).
+>Ao definir dias da semana e meses, você pode usar as notações abreviadas e de nome completo, como Seg/Segunda-feira e Jan/Janeiro. Além disso, você também pode usar a notação (14:00) de _tempo militar_ em vez de *A.M./P.M.*(2:00 P.M.).
 
 
 ## Ativação de vários ativos {#multi-asset-scheduling}
@@ -187,7 +189,8 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 <!--
 >[!CAUTION]
 >
->The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
+>The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. 
+-->
 
 A ***Ativação de vários ativos*** permite que o usuário clique em vários ativos e aplique uma agenda de reprodução a todos os ativos selecionados.
 
