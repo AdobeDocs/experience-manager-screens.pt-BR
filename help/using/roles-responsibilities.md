@@ -85,7 +85,7 @@ Os gerentes de projeto normalmente gerenciam toda a implantação da sua implant
 
 >[!NOTE]
 >
->Para saber mais detalhes sobre as diferentes funções e responsabilidades e o público-alvo de um projeto de sinalização digital, visite **[Funções e responsabilidades do projeto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Para saber mais detalhes sobre as diferentes funções e responsabilidades e o público-alvo de um projeto de sinalização digital, visite **[Funções e responsabilidades do projeto](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
 
 
 ## Estágios do Projeto {#project-stages}
@@ -100,7 +100,7 @@ Para oferecer suporte a uma implantação bem-sucedida da sinalização digital,
 >
 >Embora este guia enfatize principalmente o *Primeiro Dia* e o *Segundo Dia*, é necessário prestar atenção aos três estágios para executar um projeto de sinalização digital bem-sucedido.
 >
->Para saber mais sobre a pré-produção, a iniciação e a progressão do projeto, assista a um vídeo sobre **[Gerenciamento e Implantação de Projetos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
+>Para saber mais sobre a pré-produção, a iniciação e a progressão do projeto, assista a um vídeo sobre **[Gerenciamento e Implantação de Projetos](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
 
 ## Gráfico RACI {#raci-chart}
 
