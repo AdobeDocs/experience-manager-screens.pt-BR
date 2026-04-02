@@ -8,10 +8,10 @@ user-guide-description: Saiba como usar uma solução de sinalização digital q
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 6a1ecea5d54da483c3033d0be0555b2d0dc71c83
+source-git-commit: 8d86b0ac2038cec2da89d66920728de8636b33aa
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 10%
+source-wordcount: '581'
+ht-degree: 11%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 10%
    + Considerações específicas do cliente {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Utilização do Chrome Player como uma extensão para solução de problemas](using-chrome-player-as-an-extension.md)
-      + [Android](implementing-android-player.md)
+      + [Android™ Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
       + [Cloud Player](implementing-cloud-player.md)
@@ -119,6 +119,7 @@ ht-degree: 10%
    + [Solução de problemas do Centro de controle de dispositivos](monitoring-screens.md)
    + [Configuração de reprodução de vídeo](troubleshoot-videos.md)
 + Notas de versão {#release-notes}
+   + [Notas de versão do Pacote de recursos 20260318](release-notes-fp-20260318.md)
    + [Notas de versão do Pacote de recursos 20251007](release-notes-fp-20251007.md)
    + [Notas de versão do Pacote de recursos 20250327](release-notes-fp-20250327.md)
    + [Notas de versão do Pacote de recursos 20250224](release-notes-fp-20250224.md)
