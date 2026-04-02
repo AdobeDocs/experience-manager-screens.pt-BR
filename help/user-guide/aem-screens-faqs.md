@@ -5,10 +5,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: 5cd1dcf62fa97e3183fb0c7f3395dcb1b91a3945
 workflow-type: tm+mt
-source-wordcount: '2135'
-ht-degree: 0%
+source-wordcount: '2241'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Este tópico fornece respostas para as perguntas frequentes relacionadas a um pr
 >[!NOTE]
 >As verificações obrigatórias listadas que o suporte principal ou o suporte do cliente deve tentar antes de levantar um problema.
 
-### &#x200B;1. Quais devem ser as etapas da solução de problemas de primeiros socorros para qualquer cliente que esteja diante de uma tela preta ou sem reprodução? {#troubleshooting-blank-screen}
+### &#x200B;1. Quais devem ser as etapas da solução de problemas de primeiros socorros para qualquer cliente que esteja diante de uma tela preta ou que não esteja reproduzindo conteúdo? {#troubleshooting-blank-screen}
 
 * Verifique se a visualização do canal está funcionando.
 * Verificar se a visualização está funcionando
@@ -29,7 +29,7 @@ Este tópico fornece respostas para as perguntas frequentes relacionadas a um pr
 * Com o reprodutor em execução no seu sistema, navegue até `http://localhost:24502`. Verifique se todo o conteúdo foi baixado corretamente.
 * Verifique os ativos para garantir que as representações apropriadas sejam criadas e que a representação correta esteja sendo reproduzida.
 * Verifique se há conteúdo agendado e se os horários estão corretos. Verifique se a hora configurada no reprodutor está correta.
-* Inspecione os registros do console do reprodutor e verifique se há erros. Clique com o botão direito do mouse e inspecione para ver os logs do console. Se você estiver usando o Windows Player, pressione `CTRL + ALT +I` para ativar o console de desenvolvimento para exibir os logs.
+* Inspecione os registros do console do reprodutor e verifique se há erros. Clique com o botão direito do mouse e inspecione para ver os logs do console. Se você estiver usando o Windows Player, pressione `CTRL + ALT +I` para exibir os arquivos de log e abrir o console de desenvolvimento.
 
 ### &#x200B;2. Como resolver problemas de tela cinza no AEM Screens ao criar um canal ou agendamento padrão?
 
@@ -39,7 +39,7 @@ Todo o restante do conteúdo, como canais ou agendamentos, tem prioridade maior 
 
 ## Gerenciamento de canal {#channel-management}
 
-### &#x200B;1. Qual é a diferença entre um canal online e um offline? {#what-is-the-difference-between-an-online-and-an-offline-channel}
+### &#x200B;1. Qual é a diferença entre um canal online e um canal offline? {#what-is-the-difference-between-an-online-and-an-offline-channel}
 
 Um ***Canal Online*** mostra o conteúdo atualizado no ambiente em tempo real, enquanto um ***Canal Offline*** mostra o conteúdo em cache.
 
@@ -77,7 +77,7 @@ Siga as etapas abaixo no editor de canal:
 
 ## Registro do dispositivo {#device-registration}
 
-### &#x200B;1. Se eu descobrir endpoints como solicitações de integração e registro de dispositivos, poderei criar scripts para vários dispositivos e registrá-los. Além de bloqueá-lo em uma ramificação Wi-Fi, é possível proteger essas solicitações? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
+### &#x200B;1. Se eu descobrir pontos de extremidade, como solicitações de integração e registro de dispositivos, poderei criar scripts para vários dispositivos e registrá-los. Além de bloqueá-lo em uma ramificação Wi-Fi, é possível proteger essas solicitações? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
 Atualmente, o registro só é possível na instância do autor. Embora o serviço de registro não seja autenticado, ele só cria um dispositivo pendente no AEM e não registra o dispositivo ou atribui nenhuma exibição.
 
@@ -89,7 +89,7 @@ A solicitação de registro é uma solicitação POST.
 
 É recomendável obter a ID do dispositivo da sessão em vez de ser passada como parâmetro. Isso limparia os logs do servidor, o cache do navegador e assim por diante. Não é um problema de segurança. Semanticamente. O GET é usado quando não há alteração de estado no servidor e o POST é usado quando há uma alteração de estado.
 
-### &#x200B;3. Há alguma maneira de recusar uma solicitação de registro de dispositivo? {#is-there-a-way-to-decline-a-device-registration-request}
+### &#x200B;3. Há uma maneira de recusar uma solicitação de registro de dispositivo? {#is-there-a-way-to-decline-a-device-registration-request}
 
 Você não pode recusar as solicitações de registro. Em vez disso, as solicitações de registro devem expirar após um tempo limite configurado em `Adobe Experience Manager Web Console`. Por padrão, esse valor é definido como um dia e armazenado em um cache de memória.
 
@@ -111,9 +111,9 @@ Ative a permissão Vazia de filtro de referência do Apache Sling. Necessário p
 1. Verifique a opção **allow.empty**.
 1. Clique em **Salvar**.
 
-### &#x200B;3. Como solucionar problemas se, ao registrar um AEM Screens Player, o dispositivo mostrar FAILURE e os registros do console exibirem um erro ENAME_NOT_FOUND?
+### &#x200B;3. Como solucionar problemas se, durante o registro de um AEM Screens Player, o dispositivo mostrar FAILURE e os registros do console exibirem um erro ENAME_NOT_FOUND?
 
-Esse problema pode ocorrer se o reprodutor não conseguir encontrar o DNS do servidor do AEM Screens. Tente usar o endereço IP para se conectar. Para obter o IP do servidor, use: *arp &lt;nome_dns_servidor>*.
+Esse problema pode ocorrer se o reprodutor não conseguir encontrar o DNS do servidor do AEM Screens. Tente usar o endereço IP para se conectar. Para obter o IP do servidor, use: *arp &lt;server_dns_name>*.
 
 ### &#x200B;4. O AMS recomenda implementar um Watchdog Android™ em todos os dispositivos? O plug-in Watchdog (Cordova) está incluído como parte do APK? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
@@ -121,7 +121,7 @@ Um vigilante de várias plataformas da Android™ usando APIs puras da Android�
 
 Para obter mais informações sobre como implementar o Android™ Player, consulte [**Implementação do Android™ Player**](implementing-android-player.md).
 
-### &#x200B;5. Quais ferramentas (software) remotas de monitoramento e alerta de terceiros o Adobe/AMS recomenda para monitorar cada dispositivo? {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
+### &#x200B;5. Quais ferramentas (software) remotas de monitoramento e alerta de terceiros a Adobe/AMS recomenda para monitorar cada dispositivo? {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 Dependendo do que você desejar do monitoramento e dos alertas, um novo recurso do serviço de Notificações da AEM Screens notifica se um dispositivo não executou ping por algum tempo. As ferramentas de terceiros dependem do sistema operacional (SO), dos recursos e das necessidades específicas do cliente.
 
@@ -129,7 +129,7 @@ Para obter mais informações sobre onde é possível monitorar a atividade do d
 
 ## Player do AEM Screens
 
-### &#x200B;1. Como instalar o ChromeOS player como plug-in do navegador do Chrome? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
+### &#x200B;1. Como instalar o ChromeOS player como plug-in do navegador Chrome? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
 
 O ChromeOS player pode ser instalado como um plug-in do navegador Chrome no modo de desenvolvedor, sem exigir um dispositivo Chrome Player real. Para instalação, siga as etapas abaixo:
 
@@ -146,7 +146,7 @@ O ChromeOS player pode ser instalado como um plug-in do navegador Chrome no modo
 
 Quando o AEM Screens Player é iniciado, ele faz uma solicitação para ***/content/screens/svc.ping.json***, quando o player recebe um erro 404. O reprodutor inicia uma solicitação de autenticação para autenticar na instância de publicação. Se houver um manipulador de erros personalizado na instância de publicação, retorne o código de status 404 para um usuário anônimo em ***/content/screens/svc.ping.json***.
 
-### &#x200B;3. Como definir a permanência da tela do dispositivo em um Android™ Player? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
+### &#x200B;3. Como definir a tela do dispositivo para permanecer ativado em um Android™ Player? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
 Siga as etapas abaixo para ativar a opção Permanecer acordado em qualquer Android™ player:
 
@@ -167,7 +167,7 @@ Siga as etapas abaixo para solucionar problemas com um AEM Screens Player que en
 
 1. Verifique se a configuração do Dispatcher permite essas solicitações no `/filters`.
 
-   Consulte [Configurando Filtros do Screens](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters) para obter mais detalhes.
+   Consulte [Configurando Filtros do Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters) para obter mais detalhes.
 
 1. Verifique se as regras de regravação do Dispatcher estão regravando qualquer um dos caminhos da tela em um caminho diferente.
 
@@ -211,23 +211,23 @@ Desative o Livefyre para evitar erros de registro ao fazer o seguinte.
    * Adicione uma propriedade *enabled* tipo *Boolean*.
    * Defina a propriedade **Enabled** como **false**.
 
-### &#x200B;2. Como adicionar informações do índice Oak? {#add-oak-index-info}
+### &#x200B;2. Como adicionar informações de índice do Oak? {#add-oak-index-info}
 
 O AEM Screens cria definições de índice para as consultas usadas pelo produto.
-Se houver *AVISOS de Travessia de Consulta* em `error.log`, crie um índice personalizado para sua consulta. Consulte [Configurando os Índices](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) para obter mais detalhes.
+Se houver *AVISOS de Travessia de Consulta* em `error.log`, crie um índice personalizado para sua consulta. Consulte [Configurando os Índices](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) para obter mais detalhes.
 
 Você também pode ver um recurso adicional em [Documentação do Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
-### &#x200B;3. O que é necessário para configurar Manifestos v3? {#configure-v3}
+### &#x200B;3. O que é necessário para configurar os Manifestos v3? {#configure-v3}
 
 Para ativar o Manifesto v3, faça o seguinte:
 
 * Atualize o Dispatcher.
-Consulte [Configuração do Dispatcher para a Versão de Manifesto v3](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obter mais detalhes.
+Consulte [Configuração do Dispatcher para a Versão de Manifesto v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obter mais detalhes.
 
 * Atualizar componente personalizado.
-Consulte [Modelo para manipuladores personalizados](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers) para obter mais detalhes.
+Consulte [Modelo para manipuladores personalizados](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers) para obter mais detalhes.
 
 * Desabilitar ContentSync em `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
@@ -239,11 +239,11 @@ Consulte [Modelo para manipuladores personalizados](https://experienceleague.ado
 
 * Insira `clientlibs ` e pastas para arquivos estáticos que devem ser adicionados ao manifesto.
 
-### &#x200B;4. O que você deve fazer se, após o pacote screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 e os pacotes principais de telas estiverem instalados, mas não ativos?
+### &#x200B;4. O que você deve fazer se, após o pacote screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 e os pacotes principais do screens estiverem instalados, mas não ativos?
 
-Instale uma versão mínima do AEM 6.5 Feature Pack 8 para que o conector AMS funcione. Consulte [Disponibilidade](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) para obter a versão mínima do Pacote de Recursos do AEM Screens.
+Instale uma versão mínima do AEM 6.5 Feature Pack 8 para que o conector AMS funcione. Consulte [Disponibilidade](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) para obter a versão mínima do Pacote de Recursos do AEM Screens.
 
-### &#x200B;5. Como configurar o serviço Externalizador de links CQ no Screens?
+### &#x200B;5. Como configurar o serviço CQ Link Externalizer no Screens?
 
 O serviço é usado para definir o nome de host público para as instâncias de autor e publicação, e os valores são usados para atualizar os URLs do servidor do dispositivo e também para o direcionamento do ContextHub.
 
