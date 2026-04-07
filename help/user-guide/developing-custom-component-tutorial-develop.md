@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
 source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '2163'
-ht-degree: 1%
+source-wordcount: '2364'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Para concluir este tutorial, é necessário o seguinte:
 
 1. [AEM 6.5](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/release-notes/release-notes) e Pacote de Recursos mais recente do Screens.
 
-1. [AEM Screens Player](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction)
+1. [Player do AEM Screens](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction)
 1. Ambiente de desenvolvimento local
 
 As etapas e capturas de tela do tutorial são executadas usando o **CRXDE-Lite**. IDEs também podem ser usados para concluir o tutorial. Mais informações sobre o uso de um IDE para desenvolver [com o AEM podem ser encontradas aqui.](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)
@@ -44,7 +44,7 @@ O código-fonte de um projeto Screens geralmente é gerenciado como um projeto M
 
 1. Baixe e instale os seguintes pacotes usando o [Gerenciador de Pacotes do CRX](http://localhost:4502/crx/packmgr/index.jsp):
 
-[Obter arquivo](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
+   [Obter arquivo](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Obter arquivo](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
    **Opcionalmente** Se estiver trabalhando com o Eclipse ou outro IDE, baixe o pacote de origem abaixo. Implante o projeto em uma instância local do AEM usando o comando Maven:
@@ -53,7 +53,7 @@ O código-fonte de um projeto Screens geralmente é gerenciado como um projeto M
 
    Inicie o projeto de execução `We.Retail` do HelloWorld SRC Screens.
 
-[Obter arquivo](assets/src-screens-weretail-run.zip)
+   [Obter arquivo](assets/src-screens-weretail-run.zip)
 
 1. No [Gerenciador de Pacotes do CRX](http://localhost:4502/crx/packmgr/index.jsp), verifique se os dois pacotes a seguir estão instalados:
 
@@ -84,7 +84,7 @@ O código-fonte de um projeto Screens geralmente é gerenciado como um projeto M
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   Este pacote contém o conteúdo inicial e a estrutura de configuração necessária para o projeto. **`/conf/we-retail-run`** contém todas as configurações para o projeto de execução `We.Retail`. **`/content/dam/we-retail-run`** inclui iniciar ativos digitais para o projeto. **`/content/screens/we-retail-run`** contém a estrutura de conteúdo do Screens. O conteúdo de todos esses caminhos é atualizado principalmente no AEM. Para promover a consistência entre ambientes (local, desenvolvimento, preparo, produção), geralmente uma estrutura de conteúdo básica é salva no controle de origem.
+   Este pacote contém o conteúdo inicial e a estrutura de configuração necessária para o projeto. **`/conf/we-retail-run`** contém todas as configurações para o projeto de Execução `We.Retail`. **`/content/dam/we-retail-run`** inclui a inicialização de ativos digitais para o projeto. **`/content/screens/we-retail-run`** contém a estrutura de conteúdo do Screens. O conteúdo de todos esses caminhos é atualizado principalmente no AEM. Para promover a consistência entre ambientes (local, desenvolvimento, preparo, produção), geralmente uma estrutura de conteúdo básica é salva no controle de origem.
 
 1. **Navegue até AEM Screens > `We.Retail` Executar projeto:**
 
@@ -124,14 +124,14 @@ O AEM Screens tem algumas restrições interessantes que não são necessariamen
 
    ```xml
    <!--/*
-   
+
     /apps/weretail-run/components/content/helloworld/helloworld.html
-   
+
    */-->
-   
+
    <!--/* production: preview authoring mode + unspecified mode (i.e. on publish) */-->
    <sly data-sly-test.production="${wcmmode.preview || wcmmode.disabled}" data-sly-include="production.html" />
-   
+
    <!--/* edit: any other authoring mode, i.e. edit, design, scaffolding, etc. */-->
    <sly data-sly-test="${!production}" data-sly-include="edit.html" />
    ```
@@ -150,9 +150,9 @@ O AEM Screens tem algumas restrições interessantes que não são necessariamen
    ```xml
    <!--/*
     /apps/weretail-run/components/content/helloworld/production.html
-   
+
    */-->
-   
+
    <div data-duration="${properties.duration}" class="cmp-hello-world">
     <h1 class="cmp-hello-world__message">${properties.message}</h1>
    </div>
@@ -160,7 +160,7 @@ O AEM Screens tem algumas restrições interessantes que não são necessariamen
 
    O conteúdo acima é a marcação de produção do componente Hello World. Um atributo `data-duration` foi incluído, pois o componente é usado em um canal de Sequência. O atributo `data-duration` é usado pelo canal Sequência para saber por quanto tempo um item de sequência deve ser exibido.
 
-   O componente renderiza uma marca `div` e uma marca `h1` com texto. `${properties.message}` é uma parte do script HTL que gera o conteúdo de uma propriedade JCR chamada `message`. Uma caixa de diálogo será criada posteriormente permitindo que um usuário insira um valor para o texto de propriedade `message`.
+   O componente renderiza uma marca `div` e uma marca `h1` com texto. `${properties.message}` é uma parte do script HTL que produz o conteúdo de uma propriedade JCR chamada `message`. Uma caixa de diálogo será criada posteriormente permitindo que um usuário insira um valor para o texto de propriedade `message`.
 
    Observe também que a notação BEM (Block Element Modifier) é usada com o componente. BEM é uma convenção de codificação CSS que facilita a criação de componentes reutilizáveis. BEM é a notação usada pelos [Componentes principais do AEM](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
@@ -169,19 +169,20 @@ O AEM Screens tem algumas restrições interessantes que não são necessariamen
    Preencha o arquivo com o seguinte:
 
    ```xml
+
    <!--/*
-   
+
     /apps/weretail-run/components/content/helloworld/edit.html
-   
+
    */-->
-   
+
    <!--/* if message populated */-->
    <div
     data-sly-test.message="${properties.message}"
     class="aem-Screens-editWrapper cmp-hello-world">
     <p class="cmp-hello-world__message">${message}</p>
    </div>
-   
+
    <!--/* empty place holder */-->
    <div data-sly-test="${!message}"
         class="aem-Screens-editWrapper cq-placeholder cmp-hello-world"

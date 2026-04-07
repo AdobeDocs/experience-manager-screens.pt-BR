@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
 source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 1%
+source-wordcount: '1846'
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ Para concluir este tutorial, você precisa do seguinte:
 1. [Player do AEM Screens](/help/user-guide/aem-screens-introduction.md)
 1. Ambiente de desenvolvimento local
 
-As etapas e capturas de tela do tutorial são executadas usando o CRXDE-Lite. Os IDEs [Eclipse](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) ou [IntelliJ](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) também podem ser usados para concluir o tutorial. Mais informações sobre como usar um IDE para [desenvolver com o AEM podem ser encontradas aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+As etapas e capturas de tela do tutorial são executadas usando o CRXDE-Lite. [Os IDEs Eclipse](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) ou [IntelliJ](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) também podem ser usados para concluir o tutorial. Mais informações sobre como usar um IDE para [desenvolver com o AEM podem ser encontradas aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 ## Configuração do projeto {#project-setup}
 
@@ -48,7 +48,7 @@ O código-fonte de um projeto Screens geralmente é gerenciado como um projeto M
 
 1. Baixe e instale os seguintes pacotes usando o **gerenciamento de pacotes do CRX** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
-[Obter arquivo](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
+   [Obter arquivo](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Obter arquivo](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    **Opcionalmente,** se estiver trabalhando com o Eclipse ou outro IDE, baixe o pacote de origem abaixo. Implante o projeto em uma instância local do AEM usando o comando Maven:
@@ -57,7 +57,7 @@ O código-fonte de um projeto Screens geralmente é gerenciado como um projeto M
 
    SRC Iniciar Screens `We.Retail` Executar Projeto
 
-[Obter arquivo](assets/start-poster-screens-weretail-run.zip)
+   [Obter arquivo](assets/start-poster-screens-weretail-run.zip)
 
 1. No **Gerenciador de Pacotes do CRX** `http://localhost:4502/crx/packmgr/index.jsp`, os dois pacotes a seguir estão instalados:
 
@@ -258,9 +258,9 @@ O componente de Pôster é renderizado em tela cheia no modo de visualização/p
 
    ```xml
    <!--/*
-   
+
        /apps/weretail-run/components/content/poster/production.html
-   
+
    */-->
    <div data-sly-use.image="image.js"
         data-duration="${properties.duration}"
@@ -292,11 +292,11 @@ O componente de Pôster é renderizado em tela cheia no modo de visualização/p
 
    ```xml
    <!--/*
-   
+
        /apps/weretail-run/components/content/poster/edit.html
-   
+
    */-->
-   
+
    <div class="aem-Screens-editWrapper ${image.cssClass} cmp-poster" data-sly-use.image="image.js" data-emptytext="${'Poster' @ i18n, locale=request.locale}">
        <img class="cmp-poster__image" src="${request.contextPath}${image.src @ context='uri'}" width="100%" />
        <div class="cmp-poster__text
@@ -314,7 +314,7 @@ O componente de Pôster é renderizado em tela cheia no modo de visualização/p
 
 ## Criar bibliotecas do lado do cliente {#clientlibs}
 
-As bibliotecas do lado do cliente fornecem um mecanismo para organizar e gerenciar arquivos CSS e JavaScript necessários para uma implementação do AEM. Mais informações sobre o uso de [Bibliotecas do Lado do Cliente podem ser encontradas aqui.](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+As bibliotecas do lado do cliente fornecem um mecanismo para organizar e gerenciar arquivos CSS e JavaScript necessários para uma implementação do AEM. Mais informações sobre o uso de [bibliotecas do lado do cliente podem ser encontradas aqui.](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 Os componentes do AEM Screens são renderizados de forma diferente no modo Editar versus no modo Pré-visualização/Produção. Dois conjuntos de bibliotecas de clientes são criados, um para o modo Editar e um segundo para Pré-visualização/Produção.
 
