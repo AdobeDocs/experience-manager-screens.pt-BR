@@ -258,9 +258,9 @@ O componente de Pôster é renderizado em tela cheia no modo de visualização/p
 
    ```xml
    <!--/*
-   
+
        /apps/weretail-run/components/content/poster/production.html
-   
+
    */-->
    <div data-sly-use.image="image.js"
         data-duration="${properties.duration}"
@@ -292,11 +292,11 @@ O componente de Pôster é renderizado em tela cheia no modo de visualização/p
 
    ```xml
    <!--/*
-   
+
        /apps/weretail-run/components/content/poster/edit.html
-   
+
    */-->
-   
+
    <div class="aem-Screens-editWrapper ${image.cssClass} cmp-poster" data-sly-use.image="image.js" data-emptytext="${'Poster' @ i18n, locale=request.locale}">
        <img class="cmp-poster__image" src="${request.contextPath}${image.src @ context='uri'}" width="100%" />
        <div class="cmp-poster__text
