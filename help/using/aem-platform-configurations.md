@@ -2,10 +2,14 @@
 title: Configurações da plataforma AEM
 description: A página descreve as configurações da plataforma AEM
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/qsJ-vj45WoTXXdBU5zsNQYoB7g4HnNTLwwfFSBL-wwI
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 3%
+source-wordcount: 545
+ht-degree: 4%
 
 ---
 
@@ -19,21 +23,21 @@ Comece a usar o AEM Screens seguindo as seções abaixo para definir as configur
 
 ## Configurações do servidor {#server-configurations}
 
-Para definir as configurações do servidor, consulte [Configurações do Servidor](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration).
+Para definir as configurações do servidor, consulte [Configurações do Servidor](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration).
 
 ## Autor-Publicação {#author-publish}
 
-Consulte [Configurando Autor e Publicação no AEM Screens](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
+Consulte [Configurando Autor e Publicação no AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
 
 >[!NOTE]
 >
->Se houver apenas um Autor e uma Publicação, você só poderá seguir as etapas em **Configuração de Agentes de Replicação no Autor** na [Configuração de Autor e Publicação na página do AEM Screens](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
+>Se houver apenas um Autor e uma Publicação, você só poderá seguir as etapas em **Configuração de Agentes de Replicação no Autor** na [Configuração de Autor e Publicação na página do AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
 
 ## Configurações do Dispatcher {#dispatcher-configurations}
 
 O Dispatcher é a ferramenta de balanceamento de carga e cache do Adobe Experience Manager. Usar o Dispatcher do AEM também ajuda a proteger seu servidor AEM contra ataques. Portanto, você pode aumentar a segurança da sua instância do AEM usando o Dispatcher com um servidor Web de classe empresarial.
 
-Consulte **[Configurações do Dispatcher para AEM Screens](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)**, que destaca as diretrizes para configurar o Dispatcher para um projeto do AEM Screens.
+Consulte **[Configurações do Dispatcher para AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)**, que destaca as diretrizes para configurar o Dispatcher para um projeto do AEM Screens.
 
 ## Instalação de FFMpeg e representações de vídeo {#installing-ffmpeg}
 
@@ -44,13 +48,13 @@ Instale o FFMpeg seguindo as etapas do sistema operacional apropriado (geralment
 
    >[!NOTE]
    >
-   >O `-strict -2` deve ser o último parâmetro da lista de parâmetros. Além disso, no AEM 6.4, copie os nós em */libs/settings/dam/video* para */conf/global/settings/dam/video* como mencionado em [Representações de vídeo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
+   >O `-strict -2` deve ser o último parâmetro da lista de parâmetros. Além disso, no AEM 6.4, copie os nós em */libs/settings/dam/video* para */conf/global/settings/dam/video* como mencionado em [Representações de vídeo](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
 1. Verifique se as conversões de vídeo estão ocorrendo e se as representações estão sendo criadas.
 
 ## Restrições de senha {#password-restrictions}
 
 A política de senha do AEM deve ser desativada na instância do AMS. Ele também pode ser configurado alternadamente no console da Web usando o serviço de dispositivo do Screens *com.adobe.cq.screens.device.impl.DeviceService*
-Consulte a seção **Restrições de Senha** em[Configurando Autor e Publicação no AEM Screens](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
+Consulte a seção **Restrições de Senha** em[Configurando Autor e Publicação no AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## Configuração dos ambientes {#setting-up-environments}
 
@@ -72,4 +76,4 @@ Instale os mesmos pacotes de software no ambiente de desenvolvimento local. Inst
 
 A configuração de ACLs explica como segregar projetos para que cada indivíduo ou equipe lide com seu próprio projeto.
 
-Consulte [Configurando ACLs](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/setting-up-acls) para obter mais detalhes.
+Consulte [Configurando ACLs](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls) para obter mais detalhes.

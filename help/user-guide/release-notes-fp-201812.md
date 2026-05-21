@@ -10,9 +10,13 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/q9YVg4tWFAjPgKDfObgzgVItzxybnW66fKVjLYnnqig
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: 257
 ht-degree: 2%
 
 ---
@@ -21,9 +25,9 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->A Adobe recomenda que você atualize para a versão mais recente do Adobe Experience Manager (AEM). O AEM Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
+>A Adobe recomenda atualizar para a versão mais recente do Adobe Experience Manager (AEM). A AEM Screens fornece suporte de manutenção para a plataforma Screens do AEM 6.3.
 
-O AEM Screens lançou o AEM 6.3 Feature Pack 5 e o AEM 6.4 Feature Pack 3 com os seguintes detalhes.
+A AEM Screens lançou o AEM 6.3 Feature Pack 5 e o AEM 6.4 Feature Pack 3 com os seguintes detalhes.
 
 ## Data de lançamento {#release-date}
 
@@ -44,11 +48,11 @@ A data de lançamento do Pacote de recursos 2018 da AEM Screens é 16 de janeiro
   O layout de várias zonas permite criar conteúdo de várias zonas e usar vários ativos, como vídeos, imagens e texto, que podem ser combinados em uma única tela. Consulte **[Layout de várias zonas](multi-zone-layout-aem-screens.md)**.
 
 * **Sincronização inteligente do Assets com players**
-* **Implantação do Author/Publish (Fortalecimento)**
+* **Implantação de Autor/Publicação (Fortalecimento)**
 
 ### Players do AEM Screens lançados
 
-Os seguintes players de AEM Screens são lançados para AEM 6.3 Feature Pack 5 e AEM 6.4 Feature Pack 3:
+Os seguintes players do AEM Screens foram lançados para o Pacote de recursos 5 do AEM 6.3 e Pacote de recursos 3 do AEM 6.4:
 
 * ChromeOS
 * Windows

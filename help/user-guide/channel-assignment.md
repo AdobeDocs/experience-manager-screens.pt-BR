@@ -5,9 +5,15 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/3KiJEdVpZNlcvEo9PBzkyYJqIsQfBgXQY7-HlZZVxVE
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: d4878390-3838-4e80-8cb3-33bc1a01ea16id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: 1239
 ht-degree: 2%
 
 ---
@@ -114,13 +120,13 @@ Aqui, você divide cada dia em três intervalos de tempo diferentes para que o c
 
 | **Canal** | **Função** | **Prioridade** | **Agenda** |
 |---|---|---|---|
-| Menu_A | Café da manhã |  | Depois das 6:00 e antes das 11:00 |
-| Menu_B | Almoço |  | Depois das 11:00 e antes das 15:00 |
-| Menu_C | Jantar |  | Depois das 15:00 e antes das 20:00 |
+| Menu_A | Café da manhã |  | Depois de 6:00 e antes de 11:00 |
+| Menu_B | Almoço |  | Depois de 11:00 e antes de 15:00 |
+| Menu_C | Jantar |  | Depois de 15:00 e antes de 20:00 |
 
 #### Reproduzir conteúdo em um dia da semana específico {#playing-content-on-a-particular-day-of-the-week}
 
-Este exemplo mostra o dayParting realizado em um cassino onde o evento ao vivo ocorre todos os finais de semana das 20:00 às 22:00 e os especiais estão disponíveis para o menu de jantar após as 22:00 até às 13:00.
+Este exemplo mostra o dayParting obtido em um cassino em que o evento ao vivo ocorre todos os finais de semana das 20h00 às 22h00 e os especiais estão disponíveis para o menu de jantar após as 22h00 até as 1:00.:00:00:00
 
 <table>
  <tbody>
@@ -174,5 +180,5 @@ Este exemplo mostra o DayParting para uma loja que exibe sua coleção de invern
 >
 > Para saber mais sobre DayParting, consulte as seções abaixo:
 >
->* [Manipulando recorrência no Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [Manipulando a recorrência da Assets em um canal](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [Manipulando recorrência no Assets](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [Manipulando a recorrência da Assets em um canal](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

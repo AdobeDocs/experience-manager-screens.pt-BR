@@ -2,10 +2,13 @@
 title: Visão geral e configurações da arquitetura de representações adaptáveis
 description: Saiba mais sobre a visão geral da arquitetura e as configurações no CRXDE Lite para representações adaptáveis no AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 053df80bfd6fe39be93c0fe4c800fe775740dc7e
+TQID: https://experienceleague.adobe.com/6kL7RJWr-AJQsQdBqE-GI8lI-6QQXTNiRXP4maEdmzA
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 2%
+source-wordcount: 672
+ht-degree: 4%
 
 ---
 

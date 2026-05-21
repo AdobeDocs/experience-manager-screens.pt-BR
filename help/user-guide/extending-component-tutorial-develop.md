@@ -9,10 +9,16 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/9n3Ft3gu3r1fN0FutW-6E3oiX6L2R1kK7D3oyVrn1M4
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 3%
+source-wordcount: 1846
+ht-degree: 2%
 
 ---
 
@@ -40,11 +46,11 @@ Para concluir este tutorial, você precisa do seguinte:
 1. [Player do AEM Screens](/help/user-guide/aem-screens-introduction.md)
 1. Ambiente de desenvolvimento local
 
-As etapas e capturas de tela do tutorial são executadas usando o CRXDE-Lite. [Os IDEs Eclipse](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) ou [IntelliJ](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) também podem ser usados para concluir o tutorial. Mais informações sobre como usar um IDE para [desenvolver com o AEM podem ser encontradas aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+As etapas e capturas de tela do tutorial são executadas usando o CRXDE-Lite. Os IDEs [Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) ou [IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) também podem ser usados para concluir o tutorial. Mais informações sobre como usar um IDE para [desenvolver com o AEM podem ser encontradas aqui](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 ## Configuração do projeto {#project-setup}
 
-O código-fonte de um projeto Screens geralmente é gerenciado como um projeto Maven de vários módulos. Para acelerar o tutorial, um projeto foi pré-gerado usando o [Arquétipo de Projetos AEM 13](https://github.com/adobe/aem-project-archetype). Mais detalhes sobre [a criação de um projeto com o Maven AEM Project Archetype podem ser encontrados aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+O código-fonte de um projeto Screens geralmente é gerenciado como um projeto Maven de vários módulos. Para acelerar o tutorial, um projeto foi pré-gerado usando o [Arquétipo de Projetos AEM 13](https://github.com/adobe/aem-project-archetype). Mais detalhes sobre [a criação de um projeto com o Maven AEM Project Archetype podem ser encontrados aqui](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 1. Baixe e instale os seguintes pacotes usando o **gerenciamento de pacotes do CRX** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
@@ -258,9 +264,9 @@ O componente de Pôster é renderizado em tela cheia no modo de visualização/p
 
    ```xml
    <!--/*
-
+   
        /apps/weretail-run/components/content/poster/production.html
-
+   
    */-->
    <div data-sly-use.image="image.js"
         data-duration="${properties.duration}"
@@ -292,11 +298,11 @@ O componente de Pôster é renderizado em tela cheia no modo de visualização/p
 
    ```xml
    <!--/*
-
+   
        /apps/weretail-run/components/content/poster/edit.html
-
+   
    */-->
-
+   
    <div class="aem-Screens-editWrapper ${image.cssClass} cmp-poster" data-sly-use.image="image.js" data-emptytext="${'Poster' @ i18n, locale=request.locale}">
        <img class="cmp-poster__image" src="${request.contextPath}${image.src @ context='uri'}" width="100%" />
        <div class="cmp-poster__text
@@ -314,7 +320,7 @@ O componente de Pôster é renderizado em tela cheia no modo de visualização/p
 
 ## Criar bibliotecas do lado do cliente {#clientlibs}
 
-As bibliotecas do lado do cliente fornecem um mecanismo para organizar e gerenciar arquivos CSS e JavaScript necessários para uma implementação do AEM. Mais informações sobre o uso de [bibliotecas do lado do cliente podem ser encontradas aqui.](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+As bibliotecas do lado do cliente fornecem um mecanismo para organizar e gerenciar arquivos CSS e JavaScript necessários para uma implementação do AEM. Mais informações sobre o uso de [bibliotecas do lado do cliente podem ser encontradas aqui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 Os componentes do AEM Screens são renderizados de forma diferente no modo Editar versus no modo Pré-visualização/Produção. Dois conjuntos de bibliotecas de clientes são criados, um para o modo Editar e um segundo para Pré-visualização/Produção.
 
@@ -331,7 +337,7 @@ Os componentes do AEM Screens são renderizados de forma diferente no modo Edita
 1. Adicione as seguintes propriedades à biblioteca de cliente compartilhada:
 
    * `allowProxy` | Booleano | `true`
-   * `categories` | Cadeia de caracteres[] | `cq.screens.components`
+   * `categories` | Sequência de caracteres[] | `cq.screens.components`
 
    ![Propriedades de /apps/weretail-run/components/content/poster/clientlibs/shared](assets/2018-05-03_at_1026pm-1.png)
 
@@ -339,7 +345,7 @@ Os componentes do AEM Screens são renderizados de forma diferente no modo Edita
 
    A propriedade `categories` é uma cadeia de caracteres que identifica a biblioteca do cliente. A categoria `cq.screens.components` é usada nos modos Editar e Visualizar/Produção. Portanto, qualquer CSS/JS definido no clientlib `shared` é carregado em todos os modos.
 
-   Como prática recomendada, nunca exponha nenhum caminho diretamente a `/apps` em um ambiente de produção. A propriedade `allowProxy` garante que o CSS e o JS da biblioteca do cliente sejam referenciados por meio de um prefixo `/etc.clientlibs`. Mais informações sobre a propriedade [allowProxy podem ser encontradas aqui.](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   Como prática recomendada, nunca exponha nenhum caminho diretamente a `/apps` em um ambiente de produção. A propriedade `allowProxy` garante que o CSS e o JS da biblioteca do cliente sejam referenciados por meio de um prefixo `/etc.clientlibs`. Mais informações sobre a propriedade [allowProxy podem ser encontradas aqui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Crie o arquivo chamado `css.txt` abaixo da pasta compartilhada.
 

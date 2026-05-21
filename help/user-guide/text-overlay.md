@@ -10,9 +10,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+TQID: https://experienceleague.adobe.com/Vf9FDFJ9XI-vMFniqvL4jtq9afwXRRwNFnKyYjk-dBg
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aedid: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: 788
 ht-degree: 1%
 
 ---
@@ -28,7 +35,7 @@ Esta seção abrange os seguintes tópicos:
 
 >[!CAUTION]
 >
->O recurso **Sobreposição de Texto** só estará disponível se você tiver instalado o AEM 6.3 Feature Pack 5 ou o AEM 6.4 Feature Pack 3.
+>O recurso **Sobreposição de Texto** só estará disponível se você tiver instalado o Feature Pack 5 do AEM 6.3 ou o Feature Pack 3 do AEM 6.4.
 
 ## Visão geral {#overview}
 
@@ -94,7 +101,7 @@ A seção a seguir descreve o uso de valores de um armazenamento de dados, por e
 
 Defina as configurações do ContextHub para o seu projeto do AEM Screens.
 
-Para saber como configurar e gerenciar alterações de ativos orientados por dados usando um armazenamento de dados, consulte [Configuração do ContextHub no AEM Screens](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
+Para saber como configurar e gerenciar alterações de ativos orientados por dados usando um armazenamento de dados, consulte [Configuração do ContextHub no AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
 
 Depois de definir as configurações necessárias para o seu projeto, siga as etapas abaixo para usar os valores das Planilhas Google:
 
@@ -138,7 +145,7 @@ Depois de definir as configurações necessárias para o seu projeto, siga as et
 
    ![imagem1](/help/user-guide/assets/text-overlay/text-overlay6.png)
 
-1. Volte para a guia **Sobreposição de Texto** da caixa de diálogo Imagem e adicione o texto *Temperatura Atual {Value}*, conforme mostrado na figura abaixo.
+1. Volte para a guia **Sobreposição de Texto** na caixa de diálogo Imagem e adicione o texto *Temperatura Atual{Value}*, como mostrado na figura abaixo.
 
    ![imagem1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 

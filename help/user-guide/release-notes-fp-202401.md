@@ -5,23 +5,28 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 9879f339-e70f-446d-acd3-380016269f27
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+TQID: https://experienceleague.adobe.com/b6ZM04Vl6ozehx8E-y9iV1KAo-FI7DZSpDcHvhudkMI
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 4%
+source-wordcount: 248
+ht-degree: 10%
 
 ---
 
 # Notas de versão do Pacote de recursos 202401 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->A Adobe recomenda que você atualize para a versão mais recente do 6.5 Adobe Experience Manager (AEM 6.5). Obtenha as informações da última versão de [aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/release-notes/release-notes).
+>A Adobe recomenda atualizar para a versão mais recente do 6.5 Adobe Experience Manager (AEM 6.5). Obtenha as informações da última versão de [aqui](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/release-notes/release-notes).
 
 ## Disponibilidade {#availability}
 
-O AEM Screens lançou o AEM 6.5 Feature Pack 11.1.
+A AEM Screens lançou o Pacote de recursos 11.1 do AEM 6.5.
 
-Você pode baixar o Feature Pack mais recente para a versão AEM Screens 6.5.11.1 do [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o Pacote de Recursos mais recente denominado **AEM 6.5 Screens FP11.1**.
+Você pode baixar o Feature Pack mais recente para a Versão 6.5.11.1 do AEM Screens no [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o Pacote de Recursos mais recente denominado **AEM 6.5 Screens FP11.1**.
 
 ## Data de lançamento {#release-date}
 

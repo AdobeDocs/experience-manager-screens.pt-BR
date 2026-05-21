@@ -5,26 +5,30 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/lm2FhBZ2X-GzGoCRrsUuAKmC7vPfyaPXwYXSTxxOBJg
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 3%
+source-wordcount: 415
+ht-degree: 5%
 
 ---
 
 # Notas de versão do Pacote de recursos 202105 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->A Adobe recomenda que você atualize para a versão mais recente do Adobe Experience Manager (AEM). O AEM Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
+>A Adobe recomenda atualizar para a versão mais recente do Adobe Experience Manager (AEM). A AEM Screens fornece suporte de manutenção para a plataforma Screens do AEM 6.3.
 
 ## Disponibilidade {#availability}
 
-O AEM Screens lançou o AEM 6.5 Feature Pack 8.
+A AEM Screens lançou o Pacote de recursos 8 do AEM 6.5.
 
 Você pode baixar o Feature Pack mais recente para a versão AEM Screens 6.5.8 do [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o Pacote de Recursos mais recente denominado **AEM 6.5 Screens FP8**.
 
 >[!IMPORTANT]
->Instale a versão mínima do AEM 6.5 Feature Pack 8 para o conector AMS para funcionar após instalar os pacotes `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` e `screens core bundles`.
+>Instale a versão mínima do AEM 6.5 Feature Pack 8 para que o conector AMS funcione após a instalação dos pacotes `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` e `screens core bundles`.
 
 ## Data de lançamento {#release-date}
 
@@ -39,11 +43,11 @@ A data de lançamento do Pacote de recursos 202105 do AEM Screens é 4 de junho 
 * **Nomeando Dispositivo AEM Screens Player**
 
   Os players do AEM Screens agora incluem a capacidade de enviar um nome de dispositivo para o Adobe Experience Manager (AEM).
-Por padrão, quando o registro em massa é usado para registrar um dispositivo, um nome de usuário gerado pelo sistema é inserido no campo de título. Como alternativa, um cliente pode usar uma tag de ativo ou outro nome amigável para que seja visível no AEM e mais fácil atribuir o conteúdo apropriado.
+Por padrão, quando o registro em massa é usado para registrar um dispositivo, um nome de usuário gerado pelo sistema é inserido no campo de título. Como alternativa, um cliente pode usar uma tag de ativo ou outro nome amigável para que fique visível no AEM e seja mais fácil atribuir o conteúdo apropriado.
 
   Consulte a documentação a seguir para obter informações sobre como configurar o nome em cada sistema operacional suportado:
 
-   * [Android](/help/user-guide/implementing-android-player.md#name-android)
+   * [Android™](/help/user-guide/implementing-android-player.md#name-android)
    * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
    * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
    * [SO CHROME](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
@@ -59,7 +63,7 @@ Por padrão, quando o registro em massa é usado para registrar um dispositivo, 
 
 ### Players do AEM Screens lançados
 
-Os seguintes players de AEM Screens são lançados para AEM 6.5 Feature Pack 8:
+Os seguintes players de AEM Screens foram lançados para o Pacote de recursos 8 do AEM 6.5:
 
 * ChromeOS
 * Windows

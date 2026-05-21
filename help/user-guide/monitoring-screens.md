@@ -10,9 +10,14 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/mb21H-Ky-ySuMvkF75Vhm8Zxzc4zRB65RBVu8hUrFHA
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: 781
 ht-degree: 0%
 
 ---
@@ -73,7 +78,7 @@ Verifique o painel **INFORMAÇÕES DO DISPOSITIVO**. Aqui você pode ver a atual
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-Além disso, clique em (**...**) no canto superior direito do painel Informações do Dispositivo para exibir as propriedades ou atualizar o dispositivo.
+Clique também em (**...**) no canto superior direito do painel Informações do dispositivo para exibir as propriedades ou atualizar o dispositivo.
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
@@ -89,7 +94,7 @@ Clique em **Propriedades** para exibir a caixa de diálogo **Propriedades do Dis
 
 Você pode exibir a captura de tela do reprodutor do dispositivo no painel **CAPTURA DE TELA DO REPRODUTOR**.
 
-Clique em (**...**) no canto superior direito do painel Captura de tela do player e clique em **Atualizar captura de tela** para exibir o instantâneo do player em execução.
+Clique em (**...**) no canto superior direito do painel Captura de tela do player, e clique em **Atualizar captura de tela** para exibir o instantâneo do player em execução.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 

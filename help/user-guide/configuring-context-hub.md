@@ -10,10 +10,16 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/aLtguYZ6JwUbzmMP1S3UvOJ2b0RoFimlPvSE7AJ5Csg
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 1%
+source-wordcount: 1476
+ht-degree: 2%
 
 ---
 
@@ -73,7 +79,7 @@ A validação a seguir é o que você vê ao verificar sua conexão inserindo os
 
 1. **Navegando até o ContextHub**
 
-   Navegue até a instância do AEM e clique no ícone de ferramentas na barra lateral esquerda. Clique em **Sites** > **ContextHub**, conforme mostrado na figura abaixo.
+   Navegue até a instância do AEM e clique no ícone Ferramentas na barra lateral esquerda. Clique em **Sites** > **ContextHub**, conforme mostrado na figura abaixo.
 
    ![imagem](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -96,11 +102,11 @@ A validação a seguir é o que você vê ao verificar sua conexão inserindo os
 
    >[!CAUTION]
    >
-   >Como parte do AEM 6.5 Feature Pack 4 ou AEM 6.4 Feature Pack 8, os clientes devem atualizar o `/conf/screens/settings/cloudsettings` para `sling:Folder`.
+   >Como parte do Pacote de Recursos 4 do AEM 6.5 ou do Pacote de Recursos 8 do AEM 6.4, os clientes devem atualizar o `/conf/screens/settings/cloudsettings` para o `sling:Folder`.
    >
    >Siga as etapas abaixo:
    >
-   >1. Navegue até o CRXDE Lite e, em seguida, até `/conf/screens/settings/cloudsettings`.
+   >1. Navegue até CRXDE Lite e, em seguida, até `/conf/screens/settings/cloudsettings`.
    >1. Verifique se `cloudsettings jcr:primaryType` está em `sling:Folder`. Se o `jcr:primaryType` não estiver em `sling:folder`, continue com as próximas etapas.
    >1. Clique com o botão direito do mouse em `/conf/screens/settings`, crie um nó com *name* como **`cloudsettings1`** e *Type* como **`sling:Folder`** e salve as alterações.
    >1. Mover todos os nós em `/conf/screens/settings/cloudsettings` para `cloudsettings1`.
@@ -108,7 +114,7 @@ A validação a seguir é o que você vê ao verificar sua conexão inserindo os
    >1. Renomeie `cloudsettings1` como `cloudsettings` e salve.
    >1. Observe que `/conf/screens/settings/cloudsettings` tem `jcr:primaryType` como `sling:Folder`.
    >
-   >Siga estas etapas em Autor e Publish antes ou depois da atualização.
+   >Siga estas etapas em Autor e publicação antes ou depois da atualização.
 
    1. Insira o **Título** como **Google Sheets**, **Nome do Repositório** como **`googlesheets`** e **Tipo de Repositório** como **c`ontexthub.generic-jsonp`** e clique em **Avançar**.
 
@@ -173,7 +179,6 @@ A validação a seguir é o que você vê ao verificar sua conexão inserindo os
       ![imagem](/help/user-guide/assets/context-hub/context-hub11.png)
 
    1. Clique no segmento `**Higherthan50**` e clique em **Propriedades** na barra de ações.
-
       ![imagem](/help/user-guide/assets/context-hub/context-hub12.png)
 
    1. Clique na guia **Personalization** em **Propriedades do segmento**. Defina o **Caminho do ContextHub** como `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` e **Caminho de Segmentos** como `/conf/screens/settings/wcm/segments` e clique em **Salvar**, conforme mostrado na figura abaixo.
@@ -226,7 +231,7 @@ Depois de configurar um armazenamento de dados e definir sua atividade (marca e 
 
    1. Navegue da sua instância do AEM para **Personalization** > **Atividades** > **ScreensBrand** >**ScreensValue**.
 
-   1. Clique em **Criar** > **Criar Atividade.** O **Assistente para Configurar Atividade** é aberto.
+   1. Clique em **Criar** > **Criar atividade.** O **Assistente para Configurar Atividade** é aberto.
 
    1. Insira o **Título** como **ValueCheck50** e **Nome** como **valuecheck50**. Clique no **Mecanismo de direcionamento** como **ContextHub (AEM)** no menu suspenso e clique em **Avançar**.
 
@@ -269,7 +274,7 @@ Depois de configurar um armazenamento de dados e definir sua atividade (marca e 
 
       >[!NOTE]
       >
-      >O AEM valida seus dados da Planilha do Google mostrando seu segmento como verde.
+      >O AEM valida os dados da Planilha do Google mostrando o segmento como verde.
 
       ![imagem](/help/user-guide/assets/context-hub/context-hub18.png)
 

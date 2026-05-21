@@ -6,10 +6,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
+TQID: https://experienceleague.adobe.com/AyMWJhLtyup9EIMpvM-xl4jg9CRYqN-jwEbH4CtJzvw
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 1%
+source-wordcount: 875
+ht-degree: 0%
 
 ---
 
@@ -20,7 +26,7 @@ A página a seguir mostra um caso de uso que enfatiza a configuração de um pro
 ## Descrição do caso de uso {#use-case-description}
 
 Este caso de uso explica como criar um canal que *assume* do canal de reprodução normal para uma exibição ou grupo de exibições. A tomada de controle ocorre para um dia e hora específicos perpetuamente.
-Por exemplo, há um canal de TakeOver Permanente que é reproduzido todas as sextas-feiras, das 9h às 10h. Durante esse tempo, nenhum outro canal deve ser reproduzido. O exemplo a seguir mostra a criação de um canal de aquisição permanente que permite que o conteúdo seja reproduzido todas as quartas-feiras por duas horas, das 14h às 16h.
+Por exemplo, há um canal de TakeOver Permanente que é reproduzido todas as sextas-feiras, das 9h00 às 10h10. Durante esse tempo, nenhum outro canal deve ser reproduzido. :00:00O exemplo a seguir mostra a criação de um canal de aquisição permanente que permite que o conteúdo seja reproduzido todas as quartas-feiras, por duas horas, das 2:00 às 16:00.
 
 ### Pré-condições {#preconditions}
 
@@ -57,7 +63,7 @@ Siga as etapas abaixo para configurar um projeto:
    >[!NOTE]
    >O **MainAdChannel** deste exemplo demonstra um canal de sequência que reproduz o conteúdo continuamente.
 
-1. Crie um canal **TakeOver** que controle o conteúdo no **MainAdChannel** e seja reproduzido toda quarta-feira das 14h às 16h.
+1. Crie um canal **TakeOver** que controle o conteúdo no **MainAdChannel** e seja reproduzido toda quarta-feira das 2:00 às 16:00.
 
 1. Clique em **Assumir controle** e em **Editar** na barra de ações. Arraste e solte alguns ativos no seu canal. O exemplo a seguir mostra uma única imagem de zona adicionada a esse canal.
 
@@ -89,14 +95,14 @@ Siga as etapas abaixo para configurar um projeto:
    * **Caminho do canal**: clique no caminho para o canal **TakeOver**
    * **Prioridade**: defina a prioridade deste canal como maior que **MainAdChannel**. Por exemplo, a prioridade definida neste exemplo é 8.
    * **Eventos com Suporte**: Clique em **Tela Inativa** e **Timer**.
-   * **Agendar**: digite o texto do agendamento que você deseja que este canal execute na exibição. O texto na **Agenda** mencionada neste exemplo é *na quarta-feira depois das 14:00 e antes das 16:00*.
+   * **Agendar**: digite o texto do agendamento que você deseja que este canal execute na exibição. O texto na **Agenda** mencionada neste exemplo é *na quarta-feira depois de 14:00 e antes de 16:00*.
 
      >[!NOTE]
      >Para saber mais sobre as expressões que você pode adicionar ao **Cronograma**, consulte a seção [Expressões de Exemplo](#example-expressions) abaixo.
    * **ativo de**: data e hora de início.
    * **ativo até**: data e hora final.
 
-     Por exemplo, o texto em **Agenda** e **ativa de** e **ativa até** data e hora aqui permite que o conteúdo seja reproduzido toda quarta-feira das 14h até às 16h.
+     Por exemplo, o texto em **Agenda** e **ativa de** e **ativa até** data e hora aqui permite que o conteúdo seja reproduzido toda quarta-feira das 2:00 P.M. até as 4:00 P.M.
 
 
      ![ativo](assets/p_usecase7.png)
@@ -107,7 +113,7 @@ Siga as etapas abaixo para configurar um projeto:
      >É obrigatório definir a prioridade do canal de aquisição como a mais alta.
 
      ![ativo](assets/p_usecase8.png)
-Agora, o canal **TakeOver** assume o **MainAdChannel** às 14h, por duas horas até as 16h, todas as quartas-feiras, e reproduz o conteúdo de 9 de janeiro de 2020 a 31 de janeiro de 2020.
+Agora, o canal **TakeOver** assume o **MainAdChannel** às 2:00 P.M. por duas horas até as 4:00 P.M. de quarta-feira e reproduz o conteúdo de 9 de janeiro de 2020 até 31 de janeiro de 2020.
 
 ## Expressões de exemplo {#example-expressions}
 
@@ -115,13 +121,13 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 | **Expressão** | **Interpretação** |
 |---|---|
-| antes das 8h | o canal é reproduzido diariamente antes das 8h |
-| depois das 14h | o canal é reproduzido depois das 14h todos os dias |
-| após 12:15 e antes de 12:45 | o canal é reproduzido diariamente após as 12h15 por 30 minutos |
-| antes de 12:15 também depois de 12:45 | o canal é reproduzido antes das 12h15 todos os dias e também depois das 12h45. |
-| no primeiro dia de janeiro depois das 14h, também no segundo dia de janeiro e também no terceiro dia de janeiro antes das 3h. | o canal começa a tocar depois das 14h de 01 de janeiro, continua tocando o dia inteiro em 02 de janeiro até as 3h de 03 de janeiro |
-| nos dias 1 a 2 de janeiro depois das 14h também nos dias 2 a 3 de janeiro antes das 3h. | o canal começa a ser reproduzido depois das 14h de 1 de janeiro, continua a ser reproduzido até às 3h de 2 de janeiro e, em seguida, recomeça em 2 de janeiro às 14h e continua a ser reproduzido até às 3h de 3 de janeiro |
+| antes das 8:00 | o canal é reproduzido antes das 8:00 da manhã todos os dias |
+| depois das 2:00 P.M. | o canal é reproduzido depois das 2:00 da tarde todos os dias |
+| após 12:15 e antes de 12:45 | o canal é reproduzido diariamente após as 12h00 por 30 minutos:15 |
+| antes de 12:15 também depois de 12:45 | o canal é reproduzido antes das 12h00 todos os dias e também depois das 12h10.:15:45 |
+| no primeiro dia de janeiro após as 2:00 P.M., também no segundo dia de janeiro e também no terceiro dia de janeiro antes das 3:00 A.M. | o canal começa a ser reproduzido depois das 2:00 P.M. de 01 de janeiro, continua a ser reproduzido durante todo o dia de 02 de janeiro até às 3:00 A.M. de 03 de janeiro |
+| nos dias 1-2 de janeiro após as 2:00 P.M. também nos dias 2-3 de janeiro antes das 3:00 a.m. | o canal inicia o player após as 2:00 P.M. em 01 de janeiro, continua a jogar até as 3:00 A.M. em 02 de janeiro, em seguida, começa novamente em 02 de janeiro às 2:00 P.M. e continua a jogar até as 3:00 A.M. em 03 de janeiro |
 
 >[!NOTE]
 >
->Você também pode usar a notação _tempo militar_ (14:00) em vez de *A.M./P.M.* (14:00).
+>Você também pode usar a notação _tempo militar_ (14:00) em vez de *A.M./P.M.* (2:00 P.M.).

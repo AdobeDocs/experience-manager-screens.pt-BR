@@ -10,9 +10,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+TQID: https://experienceleague.adobe.com/RVv6pOsJlK-uDu7AfobsDvpYlKQJ6nj4Q0cKSbTlBv4
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aedid: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: 590
 ht-degree: 0%
 
 ---
@@ -85,7 +92,7 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de Inventári
 
    >[!CAUTION]
    >
-   >Você já deve ter configurado suas **Configurações do** ContextHub **&#x200B;**&#x200B;usando a guia **Propriedades** > **Personalization** do canal.
+   >Você já deve ter configurado suas **Configurações do** ContextHub **** usando a guia **Propriedades** > **Personalization** do canal.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
@@ -113,7 +120,7 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de Inventári
 
 1. **Verificando a Visualização**
 
-   1. Clique em **Visualizar.** Além disso, abra sua Planilha do Google e atualize seu valor.
+   1. Clique em **Visualizar.** Além disso, abra a Planilha do Google e atualize o valor.
    1. Altere o valor de todas as três colunas diferentes. Observe as atualizações de imagem de exibição de acordo com o valor mais alto no inventário.
 
    ![resultado_varejo](assets/retail_result.gif)

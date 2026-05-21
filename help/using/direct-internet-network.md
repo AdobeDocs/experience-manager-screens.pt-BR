@@ -2,16 +2,20 @@
 title: Acesso Direto à Internet
 description: Acesso Direto à Internet
 exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
-source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
+TQID: https://experienceleague.adobe.com/IM35QvUEU9ZfJAF5abHAIj4gNs88VE6PGz-TBT8ZAGI
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: 706
 ht-degree: 0%
 
 ---
 
 # Rede de Internet Direta (Com Fio/Sem Fio) {#direct-internet-access}
 
-A Direct Internet Network contém um ponto de acesso de entrada para acesso à Internet para alcançar o AEM Cloud Service que o AEM Screens deve ter para se conectar.
+A Direct Internet Network contém um ponto de acesso de entrada para acesso à Internet para acessar os Serviços em Nuvem da AEM aos quais a AEM Screens deve se conectar.
 
 As portas padrão para comunicação do AEM Screens são:
 
@@ -20,7 +24,7 @@ As portas padrão para comunicação do AEM Screens são:
 
 * `http (TCP Port 80)`, se o seu caso de uso específico não exigir esse nível de segurança.
 
-As portas podem variar devido à configuração do AEM dedicado. Nessa Configuração, todos os dispositivos são conectados diretamente ao roteador de Internet, conforme mostrado na figura abaixo.
+As portas podem variar devido à configuração da sua configuração dedicada do AEM. Nessa Configuração, todos os dispositivos são conectados diretamente ao roteador de Internet, conforme mostrado na figura abaixo.
 
 ![](/help/assets/direct-access-2.png)
 
@@ -28,9 +32,9 @@ A configuração também inclui um acesso à Internet por qualquer provedor de s
 
 ## Conexão do AEM Screens Player ao Direct Internet Access
 
-Siga as etapas abaixo para garantir a conexão correta dos reprodutores de tela AEM nesta configuração:
+Siga as etapas abaixo para garantir a conexão adequada dos reprodutores de tela do AEM nesta configuração:
 
-1. Verifique se cada um dos reprodutores de tela AEM está conectado à rede do roteador.
+1. Verifique se cada um dos reprodutores de tela do AEM está conectado à rede do roteador.
 1. Teste a conexão com a Internet chamando um URL no navegador do sistema.
 
    >[!NOTE]
@@ -76,7 +80,7 @@ Caso uma solução Wi-Fi esteja planejada para conectar o AEM Screens ao Link da
 
 >[!NOTE]
 >
->Se um repetidor Wi-Fi for necessário, o Adobe recomenda um ponto de acesso Wi-Fi em malha, como o Google Nest Mesh Wi-Fi ou similar. Outras tecnologias repetitivas Wi-Fi causam uma perda maciça de largura de banda na rede como um todo.
+>Se um repetidor Wi-Fi for necessário, a Adobe recomenda um ponto de acesso Wi-Fi em malha, como o Google Nest Mesh Wi-Fi ou similar. Outras tecnologias repetitivas Wi-Fi causam uma perda maciça de largura de banda na rede como um todo.
 
 ## Download de mídia e Assets {#download}
 

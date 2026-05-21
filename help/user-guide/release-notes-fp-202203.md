@@ -5,21 +5,27 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/m0rJPL5kmeDseNjbTxl0hScACf7C7QQ9BaMrvzb55wI
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 4%
+source-wordcount: 287
+ht-degree: 6%
 
 ---
 
 # Notas de versão do Pacote de recursos 202112 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->A Adobe recomenda que você atualize para a versão mais recente do Adobe Experience Manager (AEM). O AEM Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
+>A Adobe recomenda atualizar para a versão mais recente do Adobe Experience Manager (AEM). A AEM Screens fornece suporte de manutenção para a plataforma Screens do AEM 6.3.
 
 ## Disponibilidade {#availability}
 
-O AEM Screens lançou o AEM 6.5 Feature Pack 11.
+A AEM Screens lançou o Pacote de recursos 11 do AEM 6.5.
 
 Você pode baixar o Feature Pack mais recente para a versão AEM Screens 6.5.11 do [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o Pacote de Recursos mais recente denominado **AEM 6.5 Screens FP11**.
 
@@ -39,7 +45,7 @@ Esta versão inclui somente correções de erros.
 
 * O Windows Player travava ao capturar a tela no modo retrato. Esse erro foi corrigido.
 
-* O canal SPA do Screens estava causando uma tela branca com o Windows Player. Esse erro foi corrigido.
+* O canal Screens SPA estava causando uma tela branca com o Windows Player. Esse erro foi corrigido.
 
 * O parâmetro *wcmmode* foi removido de todas as solicitações do Screens na instância de publicação.
 
@@ -49,7 +55,7 @@ Esta versão inclui somente correções de erros.
 
 ### Players do AEM Screens lançados
 
-Os seguintes players de AEM Screens são lançados para AEM 6.5 Feature Pack 11:
+Os seguintes players de AEM Screens foram lançados para o Pacote de recursos 11 do AEM 6.5:
 
 * ChromeOS
 * Windows

@@ -6,10 +6,17 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/2AALuBZHZkc0HhlqvmSKvBTVEr-MRlwqNs15ETiA8Lk
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1791'
-ht-degree: 1%
+source-wordcount: 1808
+ht-degree: 0%
 
 ---
 
@@ -122,7 +129,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
    1. A **Função de Canal** está preenchida como **targetedsingleplay**.
    1. Defina a **Prioridade** como **2**.
    1. Clique em **Eventos com Suporte** e defina **Carregamento Inicial**, **Tela Inativa** e **Timer**, conforme mostrado na figura abaixo.
-   1. No **ativo de**, definido como 27 de novembro de 2018, às 23h59, e no **ativo até**, definido como 28 de novembro de 2018, às 12h05.
+   1. No **ativo de**, definido como 27 de novembro de 2018, 23h:59 e no **ativo até**, definido como 28 de novembro de 2018, 12h:05.
    1. Clique em **Salvar**.
 
    >[!CAUTION]
@@ -141,20 +148,19 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
 Quando a configuração dos canais e a exibição estiverem concluídas, inicie o AEM Screens Player para visualizar o conteúdo.
 
-O player exibe o conteúdo do **MainAdChannel** e exatamente às 23h59 (conforme definido no agendamento), o canal **TargetedSinglePlay** exibe seu conteúdo até às 12h05 e, em seguida, o **MainAdChannel** retoma a reprodução do conteúdo novamente.
+O player exibe o conteúdo do **MainAdChannel** e exatamente às 23:59 (conforme definido no agendamento), o canal **TargetedSinglePlay** exibe seu conteúdo até às 12:05 da manhã e, em seguida, o **MainAdChannel** retoma a reprodução do conteúdo novamente.
 
 >[!NOTE]
 >
->Para saber mais sobre o AEM Screen Player, consulte os seguintes recursos:
->&#x200B;>[Downloads do AEM Screens Player](https://download.macromedia.com/screens/)
->&#x200B;>[Trabalhando com o AEM Screens Player](working-with-screens-player.md)
+>Para saber mais sobre o AEM Screen Player, consulte os seguintes recursos:>[Downloads do AEM Screens Player](https://download.macromedia.com/screens/)
+>[Trabalhando com o AEM Screens Player](working-with-screens-player.md)
 
 
 ## Manipulação de recorrência do Assets em um canal {#handling-recurrence-in-assets}
 
 Você pode agendar ativos em um canal para recorrência em determinados intervalos diariamente, semanalmente ou mensalmente, de acordo com sua necessidade.
 
-Suponha que você deseja exibir o conteúdo de um canal somente nas sextas-feiras, de 13h até 22h. Você pode usar a guia **Ativação** para definir o intervalo recorrente desejado para seu ativo.
+Suponha que você deseja exibir o conteúdo de um canal somente nas Sextas-feiras, das 22h00 às 22h10. Você pode usar a guia **Ativação** para definir o intervalo recorrente desejado para o ativo.:00:00
 
 ### Divisão de dia {#day-parting}
 
@@ -174,17 +180,17 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 | **Expressão** | **Interpretação** |
 |---|---|
-| antes das 8h | o ativo no canal é reproduzido antes das 8h diariamente |
-| depois das 14h | o ativo no canal é reproduzido depois das 14h todos os dias |
-| após 12:15 e antes de 12:45 | o ativo no canal é reproduzido diariamente após as 12h15 por 30 minutos |
-| antes de 12:15 também depois de 12:45 | o ativo no canal é reproduzido antes das 12h15 todos os dias e também depois das 12h45. |
+| antes das 8:00 | o ativo no canal é reproduzido antes das 8:00 da manhã todos os dias |
+| depois das 2:00 P.M. | o ativo no canal é reproduzido depois das 2:00 da tarde todos os dias |
+| após 12:15 e antes de 12:45 | o ativo no canal é reproduzido depois das 12h todos os dias por 30 minutos:15 |
+| antes de 12:15 também depois de 12:45 | o ativo no canal é reproduzido antes das 12h00 todos os dias e também depois das 12h10.:15:45 |
 | Seg, Ter, Qua ou Seg-Qua | o ativo é reproduzido no ativo no canal de segunda a quarta-feira |
-| no primeiro dia de janeiro depois das 14h, também no segundo dia de janeiro e também no terceiro dia de janeiro antes das 3h. | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua sendo reproduzido todo o dia de 2 de janeiro até as 3h de 3 de janeiro |
-| nos dias 1 a 2 de janeiro depois das 14h também nos dias 2 a 3 de janeiro antes das 3h. | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua a ser reproduzido até às 3h de 2º de janeiro e, em seguida, recomeça em 2 de janeiro às 14h e continua a ser reproduzido até às 3h de 3º de janeiro |
+| no primeiro dia de janeiro após as 2:00 P.M., também no segundo dia de janeiro e também no terceiro dia de janeiro antes das 3:00 A.M. | o ativo no canal começa a ser reproduzido depois das 2:00 P.M. em 1º de janeiro, continua sendo reproduzido durante todo o dia em 2 de janeiro até as 3:00 A.M. em 3 de janeiro |
+| no dia 1-2 de janeiro após as 2:00 da tarde também nos dias 2-3 de janeiro antes das 3:00 da manhã. | o ativo no canal inicia o player depois das 2:00 P.M. em 1º de janeiro, continua sendo reproduzido até as 3:00 A.M. em 2 de janeiro, em seguida, começa novamente em 2 de janeiro às 2:00 P.M. e continua sendo reproduzido até as 3:00 A.M. em 3 de janeiro |
 
 >[!NOTE]
 >
->Você também pode usar a notação _tempo militar_ (14:00) em vez de *A.M./P.M.* (14:00).
+>Você também pode usar a notação _tempo militar_ (14:00) em vez de *A.M./P.M.* (2:00 P.M.).
 
 ### WeekParting {#week-parting}
 
@@ -205,14 +211,14 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 | **Expressão** | **Interpretação** |
 |---|---|
 | Seg, Ter, Qua ou Seg-Qua | o ativo é reproduzido no ativo no canal de segunda a quarta-feira |
-| antes das 8h | o ativo no canal é reproduzido antes das 8h diariamente |
-| depois das 14h | o ativo no canal é reproduzido depois das 14h todos os dias |
-| após 12:15 e antes de 12:45 | o ativo no canal é reproduzido diariamente após as 12h15 por 30 minutos |
-| antes de 12:15 também depois de 12:45 | o canal é reproduzido antes das 12h15 todos os dias e também depois das 12h45. |
+| antes das 8:00 | o ativo no canal é reproduzido antes das 8:00 da manhã todos os dias |
+| depois das 2:00 P.M. | o ativo no canal é reproduzido depois das 2:00 da tarde todos os dias |
+| após 12:15 e antes de 12:45 | o ativo no canal é reproduzido depois das 12h todos os dias por 30 minutos:15 |
+| antes de 12:15 também depois de 12:45 | o canal é reproduzido antes das 12h00 todos os dias e também depois das 12h10.:15:45 |
 
 >[!NOTE]
 >
->Você também pode usar a notação _tempo militar_ (14:00) em vez de *A.M./P.M.* (14:00).
+>Você também pode usar a notação _tempo militar_ (14:00) em vez de *A.M./P.M.* (2:00 P.M.).
 
 
 ### MonthParting {#month-parting}
@@ -241,7 +247,7 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 >[!NOTE]
 >
->Você também pode usar a notação _tempo militar_ (14:00) em vez de *A.M./P.M.* (14:00).
+>Você também pode usar a notação _tempo militar_ (14:00) em vez de *A.M./P.M.* (2:00 P.M.).
 
 ### Combinação de Peças {#combined-parting}
 
@@ -261,10 +267,10 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 | **Expressão** | **Interpretação** |
 |---|---|
-| depois das 6:00 e antes das 18:00 na segunda-feira, quarta-feira de janeiro-mar | o ativo é reproduzido no canal entre 6h e 18h, nas segundas e quartas-feiras de janeiro até o final de março |
-| no primeiro dia de janeiro depois das 14h, também no segundo dia de janeiro e também no terceiro dia de janeiro antes das 3h. | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua sendo reproduzido todo o dia de 2 de janeiro até as 3h de 3 de janeiro |
-| nos dias 1 a 2 de janeiro depois das 14h também nos dias 2 a 3 de janeiro antes das 3h. | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua a ser reproduzido até às 3h de 2º de janeiro e, em seguida, recomeça em 2 de janeiro às 14h e continua a ser reproduzido até às 3h de 3º de janeiro |
+| depois de 6:00 e antes de 18:00 de Seg, Qua de Jan-Mar | o ativo é reproduzido no canal entre 6h e 18h, nas segundas e quartas-feiras de janeiro até o final de março |
+| no primeiro dia de janeiro após as 2:00 P.M., também no segundo dia de janeiro e também no terceiro dia de janeiro antes das 3:00 A.M. | o ativo no canal começa a ser reproduzido depois das 2:00 P.M. em 1º de janeiro, continua sendo reproduzido durante todo o dia em 2 de janeiro até as 3:00 A.M. em 3 de janeiro |
+| no dia 1-2 de janeiro após as 2:00 da tarde também nos dias 2-3 de janeiro antes das 3:00 da manhã. | o ativo no canal inicia o player depois das 2:00 P.M. em 1º de janeiro, continua sendo reproduzido até as 3:00 A.M. em 2 de janeiro, em seguida, começa novamente em 2 de janeiro às 2:00 P.M. e continua sendo reproduzido até as 3:00 A.M. em 3 de janeiro |
 
 >[!NOTE]
 >
->Ao definir dias da semana e meses, você pode usar as notações abreviadas e de nome completo, como Seg/Segunda-feira e Jan/Janeiro. Além disso, você também pode usar a notação _tempo militar_ (14:00) em vez de *A.M./P.M.* (14:00).
+>Ao definir dias da semana e meses, você pode usar as notações abreviadas e de nome completo, como Seg/Segunda-feira e Jan/Janeiro. Além disso, você também pode usar a notação _tempo militar_ (14:00) em vez de *A.M./P.M.* (2:00 P.M.).

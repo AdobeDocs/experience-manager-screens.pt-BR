@@ -10,9 +10,14 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/fbTrzAj52dW2JuRe-6InIkh-dT52Au9pGgoAEjR7WW8
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: 378
 ht-degree: 1%
 
 ---
@@ -21,9 +26,9 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->A Adobe recomenda que você atualize para a versão mais recente do Adobe Experience Manager (AEM). O AEM Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
+>A Adobe recomenda atualizar para a versão mais recente do Adobe Experience Manager (AEM). A AEM Screens fornece suporte de manutenção para a plataforma Screens do AEM 6.3.
 
-O AEM Screens lançou o AEM 6.4.5 Feature Pack 5 e o AEM 6.5.1 Feature Pack 1 com os seguintes detalhes.
+A AEM Screens lançou o AEM 6.4.5 Feature Pack 5 e o AEM 6.5.1 Feature Pack 1 com os seguintes detalhes.
 
 ## Data de lançamento {#release-date}
 
@@ -67,7 +72,7 @@ Agora é possível adicionar configurações offline (bibliotecas do lado do cli
 
 ### Players do AEM Screens lançados
 
-Os seguintes players do AEM Screens são lançados para AEM 6.4.5 Feature Pack 5 e AEM 6.5.1 Feature Pack 1:
+Os seguintes players do AEM Screens foram lançados para o Pacote de recursos 5 do AEM 6.4.5 e Pacote de recursos 1 do AEM 6.5.1:
 
 * ChromeOS
 * Windows

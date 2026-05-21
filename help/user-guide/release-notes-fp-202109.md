@@ -5,9 +5,13 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/INOW-DVlJkMChau5JzHRlHL-Sv1XglwVoCFMVDX2LLs
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: 977
 ht-degree: 1%
 
 ---
@@ -37,7 +41,7 @@ Consulte [Suporte a miniaturas para vídeos](/help/user-guide/thumbnail-support.
 * **Monitoramento básico de reprodução**
 
   O AEM Screens agora é compatível com o monitoramento básico de reprodução. O player agora relata várias métricas de reprodução a cada ping (o padrão é 30 segundos). Com base nas métricas, ele detecta vários casos de borda (experiência travada, tela em branco, problema de agendamento e assim por diante). Esse recurso permite que a equipe monitore remotamente se um player está reproduzindo conteúdo corretamente e melhora a reatividade para telas em branco ou experiências com falha no campo. Ele também diminui o risco de mostrar uma experiência quebrada ao usuário final.
-Consulte [Monitoramento básico de reprodução](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) para obter mais detalhes.
+Consulte [Monitoramento básico de reprodução](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) para obter mais detalhes.
 
 * **Atualizações ao Relatório de atribuição de conteúdo**
 
@@ -77,8 +81,8 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
    * Atualize o componente personalizado.
 
 
-   * Consulte [Configuração do Dispatcher para a Versão de Manifesto v3](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obter mais detalhes.
-   * Se você estiver usando componentes personalizados como parte dos manifestos v3, consulte [Modelo para Manipuladores Personalizados](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
+   * Consulte [Configuração do Dispatcher para a Versão de Manifesto v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obter mais detalhes.
+   * Se você estiver usando componentes personalizados como parte dos manifestos v3, consulte [Modelo para Manipuladores Personalizados](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 
 ### Correções de erros {#bug-fixes}

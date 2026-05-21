@@ -5,10 +5,15 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+TQID: https://experienceleague.adobe.com/qKfWLBvyu49vxRvNfsV1oliOGVgxyEum5wmjbIdSEeI
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: ce44533e-8ec8-4e11-a9e9-78b0fe561832id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 0%
+source-wordcount: 662
+ht-degree: 2%
 
 ---
 
@@ -25,7 +30,7 @@ A página a seguir fornece as diretrizes para configurar uma Dispatcher para um 
 >Se não houver Dispatcher, desative o servlet de registro na lista de componentes OSGi.
 
 Antes de configurar o Dispatcher para um projeto do AEM Screens, tenha conhecimento prévio do Dispatcher.
-Consulte [Configurando o Dispatcher](https://experienceleague.adobe.com/br/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) para obter mais detalhes.
+Consulte [Configurando o Dispatcher](https://experienceleague.adobe.com/pt-br/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) para obter mais detalhes.
 
 ## Configuração do Dispatcher para a versão de manifesto v2 {#configuring-dispatcher}
 

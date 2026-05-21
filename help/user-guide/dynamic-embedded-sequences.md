@@ -9,9 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/A7x3G1fogotd69IsY1bgOMLJ7107v0aHpS7C90evJOU
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '2451'
+source-wordcount: 2489
 ht-degree: 1%
 
 ---
@@ -53,7 +60,7 @@ O exemplo a seguir fornece uma solução com foco nos seguintes termos principai
 
 * um ***canal de sequência principal*** para a sequência global.
 * ***sequência dinâmica inserida*** componentes para cada parte personalizável localmente da sequência.
-* ***canais de sequência individuais*** nos respectivos locais com uma *função* na exibição que corresponde à *função&#x200B;*** do componente de sequência dinâmica inserido.**
+* ***canais de sequência individuais*** nos respectivos locais com uma *função* na exibição que corresponde à *função*** do componente de sequência dinâmica inserido.**
 
 >[!NOTE]
 >
@@ -69,7 +76,7 @@ Antes de começar a implementar essa funcionalidade, verifique se você tem os s
 
 * Crie um projeto do AEM Screens (neste exemplo, **Demonstração**).
 * Crie um canal **Global** na pasta **Channels**.
-* Adicione conteúdo ao seu Canal **Global** (*Verifique **Resources.zip**&#x200B;para ativos relevantes*).
+* Adicione conteúdo ao seu Canal **Global** (*Verifique **Resources.zip**para ativos relevantes*).
 
 A imagem a seguir mostra o projeto **Demo** com o canal **Global** na pasta **Canais**.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
@@ -157,7 +164,7 @@ Siga as etapas abaixo para implementar a funcionalidade:
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
 
-   Siga as etapas anteriores para criar um canal e exibição em **`Store 3`** e **`Store 4`** na **Região B**. Novamente, certifique-se de usar o mesmo **Nome** que **repositório** ao criar os canais **`Store3Channel`** e **`Store4Channel`**, respectivamente.
+   Siga as etapas anteriores para criar um canal e exibição em **`Store 3`** e **`Store 4`** na **Região B**. Novamente, certifique-se de usar o mesmo **Nome** que **armazenamento** ao criar os canais **`Store3Channel`** e **`Store4Channel`**, respectivamente.
 
    A imagem a seguir mostra a exibição e o canal em **`Store 3`**.
 
@@ -374,7 +381,7 @@ Siga as etapas abaixo para criar grupos, usuários e modificar as ACLs de acordo
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
 
-   O código a seguir mostra que o Region-User tem acesso à **Região A** e à **Região B**. E, acesso a todos os quatro armazenamentos, ou seja, **Loja 1**, **Loja 2**, **Loja 3** e **Loja 4**, mas não acessa o Canal **Global**.
+   O código a seguir mostra que o Region-User tem acesso à **Região A** e à **Região B**. E, o acesso a todas as quatro lojas, ou seja, **Loja 1**, **Loja 2**, **Loja 3** e **Loja 4**, mas não acessa o Canal **Global**.
 
    ![região](assets/region.gif)
 

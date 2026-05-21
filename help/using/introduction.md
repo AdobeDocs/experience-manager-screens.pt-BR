@@ -2,10 +2,14 @@
 title: Introdução ao AEM Screens
 description: Saiba mais sobre o AEM Screens e o que ele pode fazer por você.
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/UticeR0hdyxXrG1P5qrwzrJLhZ3h5BRCfjamUzzu-XE
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 52%
+source-wordcount: 690
+ht-degree: 53%
 
 ---
 
@@ -30,7 +34,7 @@ Criar e gerenciar uma rede de sinalização digital usando o AEM Screens é simp
 
 >[!NOTE]
 >
->Para saber mais detalhes sobre os diferentes recursos no desenvolvimento e gerenciamento de um projeto do AEM Screens, consulte o **[Guia do Usuário do AEM Screens](https://experienceleague.adobe.com/br/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
+>Para saber mais detalhes sobre os diferentes recursos no desenvolvimento e gerenciamento de um projeto do AEM Screens, consulte o **[Guia do Usuário do AEM Screens](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
 
 ## AEM Sites versus AEM Screens {#aem-sites-screens}
 
@@ -48,11 +52,11 @@ O AEM Screens fornece uma plataforma unificada de criação/reprodução para im
 
 * **Segmentação do Loop de Mídia**: configurar cada dispositivo de reprodução para ter seu próprio segmento de loop garante que o conteúdo localizado possa ser facilmente criado, publicado e reproduzido dentro da experiência digital geral. Os ativos de mídia contidos nos canais de sequência incorporados são adicionados ao segmento de loop anterior e oferecem a oportunidade de direcionar um segmento de loop de mídia para cada agrupamento de local.
 
-* **Experiências interativas**: um aplicativo de quiosque habilitado para toque pode ser criado e entregue em um canal do Screens usando AEM e o editor SPA. É uma prática recomendada aplicar propriedades consistentes de design omnicanal, um temporizador de inatividade para redefinir a experiência e um call to action claro para quais tarefas o aplicativo pode executar. A página de aterrissagem deve consistir em elementos digitais principais, criados para transmitir valor, atrair o usuário para a tela e solicitar que o usuário se envolva.
+* **Experiências interativas**: um aplicativo de quiosque habilitado para toque pode ser criado e entregue em um canal do Screens usando o AEM e o editor SPA. É uma prática recomendada aplicar propriedades consistentes de design omnicanal, um temporizador de inatividade para redefinir a experiência e um call to action claro para quais tarefas o aplicativo pode executar. A página de destino deve consistir em elementos digitais principais, criados para transmitir valor, atrair o usuário para a tela e solicitar que o usuário se envolva.
 
 O AEM Screens fornece uma estrutura para implantar conteúdo em dispositivos físicos. O conteúdo é atribuído a Canais no Screens, que podem conter conteúdo de mídia ou aplicativos de tela sensível ao toque. Dentro dessa estrutura, um aplicativo do AEM Sites pode ser fornecido como conteúdo por meio de um Canal.
 
-Um site AEM deve ser formatado para uso nas dimensões do dispositivo de exibição ao qual se destina. Isso deve ser feito antes de ser lançado em um Canal no Screens.
+Um site do AEM deve ser formatado para uso nas dimensões do dispositivo de exibição para o qual se destina. Isso deve ser feito antes de ser lançado em um Canal no Screens.
 
 >[!NOTE]
 >Muitos componentes do AEM Sites não são compatíveis com o AEM Screens. O AEM Screens é fornecido com muitos de seus próprios componentes prontos para uso, permitindo criar experiências digitais sem a necessidade de personalização. Se os requisitos do projeto permitirem, use a funcionalidade integrada do AEM Screens, quando possível.

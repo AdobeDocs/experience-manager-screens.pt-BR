@@ -10,9 +10,15 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/hsBfnZKyaM96INkVmC94M2t39u-TzUIDPgdmHjjCHRc
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: 1109
 ht-degree: 1%
 
 ---
@@ -101,13 +107,13 @@ Siga as etapas abaixo para aplicar o conteúdo de **`We.Retail`** ao seu **TestC
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Clique no **FragmentoTelas** do assistente **Criar Live Copy** e clique em **Avançar**.
+   c) Clique no **ScreensFragment** do assistente **Criar Live Copy** e clique em **Avançar**.
 
-   d. Insira o **Título** e o **Nome** como **Screens**.
+   d) Insira o **Título** e o **Nome** como **Screens**.
 
    e. Clique em **Criar** para criar a Live Copy.
 
-   f. Clique em **Concluído** para voltar à página **FragmentosDeTelas**.
+   f) Clique em **Concluído** para voltar à página **FragmentosDeTelas**.
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
@@ -137,17 +143,17 @@ Siga as etapas abaixo para aplicar o conteúdo de **`We.Retail`** ao seu **TestC
 
    e. Clique no componente **Fragmento de experiência** e clique no ícone superior esquerdo (chave inglesa) para abrir a caixa de diálogo **Fragmento de experiência**.
 
-   f. Clique na Live Copy do **Screens** do fragmento criado na *Etapa 3* do **Caminho**.
+   f) Clique na Live Copy do **Screens** do fragmento criado na *Etapa 3* do **Caminho**.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. Clique na Live Copy do **Screens** do fragmento criado na *Etapa 3* no **Fragmento de experiência**.
+   f) Clique na Live Copy do **Screens** do fragmento criado na *Etapa 3* no **Fragmento de experiência**.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
-   h. Insira os milissegundos em **Duração**.
+   h) Insira os milissegundos em **Duração**.
 
-   i. Clique em **Configuração offline** na caixa de diálogo **Fragmentos de experiência** para definir as bibliotecas do lado do cliente e os arquivos estáticos.
+   i) Clique na **Configuração Offline** da caixa de diálogo **Fragmentos de experiência** para definir as bibliotecas do lado do cliente e os arquivos estáticos.
 
    >[!NOTE]
    >
@@ -155,7 +161,7 @@ Siga as etapas abaixo para aplicar o conteúdo de **`We.Retail`** ao seu **TestC
 
    ![screen_shot_2019-07-26at82844pm](assets/screen_shot_2019-07-26at82844pm.png)
 
-   j. Clique na marca de seleção para concluir o processo.
+   j) Clique na marca de seleção para concluir o processo.
 
 ### Validar o resultado {#validating-the-result}
 
