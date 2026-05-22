@@ -6,9 +6,22 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/iK5EH0E-vKteNer-Dr0mDRaJke4OTmJr9JQfwTaqAt4
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: 626
 ht-degree: 0%
 
 ---
@@ -21,7 +34,7 @@ A página a seguir mostra um caso de uso que enfatiza a configuração de um pro
 
 Este caso de uso explica como criar um canal que *assume* do canal de reprodução normal para uma exibição ou grupo de exibições. A aquisição só ocorre uma vez e por um período específico.
 
-Por exemplo, há um único canal de TakeOver que é reproduzido de sexta-feira, das 9h às 10h. Durante esse tempo, nenhum outro canal deve ser reproduzido. Antes e depois desse tempo, o canal de aquisição de uso único não é reproduzido. O exemplo a seguir mostra a criação de um único canal de aquisição que permite que o conteúdo seja reproduzido por 2 minutos antes das 12h em 31 de dezembro até às 12h.
+Por exemplo, há um único canal de TakeOver que é reproduzido de sexta-feira, das 9h00 às 10h10. Durante esse tempo, nenhum outro canal deve ser reproduzido. :00:00Antes e depois desse tempo, o canal de aquisição de uso único não é reproduzido. O exemplo a seguir mostra a criação de um único canal de aquisição que permite a reprodução do conteúdo por 2 minutos antes das 12h00 em 31 de dezembro até as 12h10.:00:01
 
 ### Pré-condições {#preconditions}
 
@@ -93,7 +106,7 @@ Siga as etapas abaixo para configurar um projeto:
      >[!NOTE]
      >A prioridade pode ser qualquer valor maior que o valor de prioridade do canal de reprodução normal.
    * **Eventos com Suporte**: Clique em **Tela Inativa** e **Timer**.
-   * **Agendar**: digite o texto do agendamento que você deseja que este canal execute na exibição. Por exemplo, o texto aqui permite que o conteúdo seja reproduzido 2 minutos antes das 12h de 31 de dezembro até às 12h.
+   * **Agendar**: digite o texto do agendamento que você deseja que este canal execute na exibição. Por exemplo, o texto aqui permite que o conteúdo seja reproduzido 2 minutos antes das 12:00 da manhã, em 31 de dezembro, até as 12:01 da manhã.
 O texto na **Agenda** mencionada neste exemplo é *no dia 31 de dezembro após 23:58 e também no dia 1 de janeiro antes de 00.01*.
 
      ![ativo](assets/single-takeover8.png)

@@ -9,9 +9,23 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/orHLShhCxLB8T9Dm8Vvihvy7GNGrmJQZt8toCPs5c3k
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: d8e42837-75d7-4e4e-accd-d0cdd8efe1f4
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: 664
 ht-degree: 1%
 
 ---
@@ -102,7 +116,7 @@ O painel de exibição fornece painéis diferentes para gerenciar dispositivos d
 
 O Painel **INFORMAÇÕES DE EXIBIÇÃO** fornece as propriedades de exibição.
 
-Clique em (**...**) no canto superior direito do painel **INFORMAÇÕES SOBRE A EXIBIÇÃO** para que você possa exibir as propriedades e visualizar a exibição.
+Clique em (**...**) no canto superior direito do painel **INFORMAÇÕES SOBRE A EXIBIÇÃO**, para que você possa exibir as propriedades e pré-visualizar a exibição.
 
 
 #### Visualizando propriedades {#viewing-properties}
@@ -123,7 +137,7 @@ O painel **CANAIS ATRIBUÍDOS** exibe os canais atribuídos a este dispositivo.
 
 O painel **DISPOSITIVOS** fornece informações sobre as configurações do dispositivo.
 
-Clique em (**...**) no canto superior direito do painel **DISPOSITIVOS** para que você possa adicionar configurações de dispositivo e atualizar dispositivos.
+Clique em (**...**) no canto superior direito do painel **DISPOSITIVOS**, para que você possa adicionar configurações de dispositivo e atualizar dispositivos.
 
 Além disso, clique na configuração do dispositivo para exibir as propriedades, atribuir um dispositivo ou excluí-lo completamente.
 

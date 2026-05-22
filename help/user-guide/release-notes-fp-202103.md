@@ -5,23 +5,33 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/x7dgY8u-SdWo2JRK1W2uqRWtHy2wtXdAnIcS0gRoxiY
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 2%
+source-wordcount: 407
+ht-degree: 4%
 
 ---
 
 # Notas de versão do Pacote de recursos 202103 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->A Adobe recomenda que você atualize para a versão mais recente do Adobe Experience Manager (AEM). O AEM Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
+>A Adobe recomenda atualizar para a versão mais recente do Adobe Experience Manager (AEM). A AEM Screens fornece suporte de manutenção para a plataforma Screens do AEM 6.3.
 
 ## Disponibilidade {#availability}
 
-O AEM Screens lançou o AEM 6.5 Feature Pack 7.
+A AEM Screens lançou o Pacote de recursos 7 do AEM 6.5.
 
-Você pode baixar o Feature Pack mais recente para a versão AEM Screens 6.5.7 do [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o Pacote de Recursos mais recente denominado **AEM 6.5 Screens FP7**.
+Você pode baixar o Feature Pack mais recente para a versão AEM Screens 6.5.7 do [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure **Screens** para obter o Feature Pack mais recente denominado **AEM 6.5 Screens FP7**.
 
 ## Data de lançamento {#release-date}
 
@@ -38,7 +48,7 @@ A data de lançamento do Pacote de recursos do AEM Screens 202103 é 5 de março
 
 * **Provisionamento em massa do Android™ Player usando o Enterprise Mobility Management**
 
-  Ao implantar o Android™ player em massa, é entediante registrar cada player manualmente com AEM. É altamente recomendável usar uma solução de EMM (Enterprise Mobility Management), como o `VMWare Airwatch`, `MobileIron` ou `Samsung Knox`, para provisionar e gerenciar a implantação remotamente. O AEM Screens Android™ player oferece suporte ao EMM AppConfig padrão do setor para permitir o provisionamento remoto.
+  Ao implantar o Android™ player em massa, é entediante registrar cada player manualmente com o AEM. É altamente recomendável usar uma solução de EMM (Enterprise Mobility Management), como o `VMWare Airwatch`, `MobileIron` ou `Samsung Knox`, para provisionar e gerenciar a implantação remotamente. O AEM Screens Android™ player oferece suporte ao EMM AppConfig padrão do setor para permitir o provisionamento remoto.
 
   Consulte [Provisionamento em massa do Android™ Player usando o Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) para obter mais detalhes.
 
@@ -63,7 +73,7 @@ A data de lançamento do Pacote de recursos do AEM Screens 202103 é 5 de março
 
 ### Players do AEM Screens lançados
 
-Os seguintes players de AEM Screens são lançados para AEM 6.5 Feature Pack 7:
+Os seguintes players de AEM Screens foram lançados para o Feature Pack 7 do AEM 6.5:
 
 * SO CHROME
 * Windows

@@ -9,9 +9,17 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+TQID: https://experienceleague.adobe.com/Vtg1Wvu3G7YZN4vLHCC79s28SxABDyIzFwIDG-rTvII
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: 697
 ht-degree: 1%
 
 ---
@@ -24,7 +32,7 @@ Esta página mostra como instalar e configurar os reprodutores do Screens em seu
 
 >[!IMPORTANT]
 >
->O AEM Screens Player não usa o token CSRF (Falsificação de solicitação entre sites). Portanto, para configurar o servidor AEM para que esteja pronto para uso no AEM Screens, ignore o filtro de referenciador, permitindo referenciadores vazios.
+>O AEM Screens Player não usa o token CSRF (Falsificação de solicitação entre sites). Portanto, para configurar o servidor do AEM para estar pronto para uso no AEM Screens, ignore o filtro de referenciador, permitindo referenciadores vazios.
 
 ## Estrutura de verificação de integridade {#health-check-framework}
 
@@ -37,7 +45,7 @@ Ela permite que o usuário verifique as duas verificações de configuração a 
 
 Siga as etapas abaixo para verificar se essas duas configurações vitais estão habilitadas para o AEM Screens:
 
-1. Navegue até [Verificação de integridade do Sling no console da Web do Adobe Experience Manager](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=).
+1. Navegue até [Verificação de integridade do Sling no console da Web do Adobe Experience Manager](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=).
 
    ![ativos](assets/health-check1.png)
 
@@ -60,11 +68,11 @@ Siga as etapas abaixo para verificar se essas duas configurações vitais estão
 
 ### Pré-requisitos {#prerequisites}
 
-Os principais pontos a seguir ajudam a configurar o e o servidor AEM para que estejam prontos para uso no AEM Screens.
+Os principais pontos a seguir ajudam a configurar o e o servidor do AEM para que estejam prontos para uso no AEM Screens.
 
 #### Permitir Solicitações de Referenciador Vazias {#allow-empty-referrer-requests}
 
-1. Navegue até **Configuração do Console Web do Adobe Experience Manager** por meio da instância AEM > ícone de martelo > **Operações** > **Console Web**.
+1. Navegue até **Configuração do Console Web do Adobe Experience Manager** por meio da instância do AEM > ícone de martelo > **Operações** > **Console Web**.
 
    ![imagem](assets/config/empty-ref1.png)
 
@@ -81,7 +89,7 @@ Os principais pontos a seguir ajudam a configurar o e o servidor AEM para que es
 
 #### Serviço HTTP baseado no Apache Felix Jetty {#allow-apache-felix-service}
 
-1. Navegue até **Configuração do Console Web do Adobe Experience Manager** por meio da instância AEM > ícone de martelo > **Operações** > **Console Web**.
+1. Navegue até **Configuração do Console Web do Adobe Experience Manager** por meio da instância do AEM > ícone de martelo > **Operações** > **Console Web**.
 
    ![imagem](assets/config/empty-ref1.png)
 
@@ -128,7 +136,7 @@ Você pode configurar ***DeviceServiceImpl*** no link abaixo para habilitar a re
 
 Siga as etapas abaixo para configurar o ***DeviceServiceImpl***:
 
-1. Navegue até **Configuração do Adobe Experience Manager Web Console** por meio da instância AEM > ícone de martelo > **Operações** > **Console da Web**.
+1. Navegue até **Configuração do Console Web do Adobe Experience Manager** por meio da instância do AEM > ícone de martelo > **Operações** > **Console Web**.
 
 1. **A Configuração do Console da Web do Adobe Experience Manager** é aberta. Pesquisar por `*deviceservice*`. Para pesquisar a propriedade, pressione **Command+F** para macOS e **Control+F** para Microsoft® Windows.
 

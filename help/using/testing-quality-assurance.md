@@ -1,15 +1,23 @@
 ---
-title: Teste e garantia da qualidade
+title: Assurance de teste e qualidade
 description: Saiba mais sobre testes e controle de qualidade para o AEM Screens no Guia de práticas recomendadas.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+TQID: https://experienceleague.adobe.com/So83gHv7n21zhdoCdWHVf0yswyQuSr1hLWmCA7uHSiE
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: 346
 ht-degree: 0%
 
 ---
 
-# Teste e garantia da qualidade {#testing-quality}
+# Assurance de teste e qualidade {#testing-quality}
 
 >[!NOTE]
 >Uma parte interessada típica dessa atividade é um Integrador de áudio e vídeo.
@@ -25,7 +33,7 @@ Uma lista de verificação deve ser criada para identificar todos os KPIs defini
 
 Devem ser considerados os seguintes elementos:
 
-## 1. Considerações mecânicas {#mechanical-considerations}
+## &#x200B;1. Considerações mecânicas {#mechanical-considerations}
 
 Recomendam-se as seguintes considerações mecânicas:
 
@@ -36,7 +44,7 @@ Recomendam-se as seguintes considerações mecânicas:
 * gerenciamento de cabos
 * rede do dispositivo
 
-## 2. Considerações sobre software {#software-considerations}
+## &#x200B;2. Considerações sobre software {#software-considerations}
 
 As seguintes considerações de software são recomendadas:
 
@@ -46,11 +54,11 @@ As seguintes considerações de software são recomendadas:
 * dependências do banco de dados (definidas anteriormente)
 
 
-## 3. Considerações sobre o gerenciamento de dispositivos {#device-management-considerations}
+## &#x200B;3. Considerações sobre o gerenciamento de dispositivos {#device-management-considerations}
 
 O AEM Screens inclui um módulo do Centro de controle de dispositivos que permite o gerenciamento de endpoints de aplicativos do Screens Player.
 
-Refere-se a qualquer dispositivo de hardware *player* que tenha o aplicativo Screens player instalado e esteja registrado para uma instância do AEM.
+Refere-se a qualquer dispositivo de hardware *player* que tenha o aplicativo Screens player instalado e esteja registrado em uma instância do AEM.
 Esse módulo permite:
 
 1. Monitorar logs de erros de aplicativos de reprodução

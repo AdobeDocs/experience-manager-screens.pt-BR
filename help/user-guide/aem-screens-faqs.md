@@ -5,9 +5,24 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 5cd1dcf62fa97e3183fb0c7f3395dcb1b91a3945
+TQID: https://experienceleague.adobe.com/7M-3FuDthc-4z4OSHp49eL7QHWvt1acjKfA7C1BGWy0
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: 2241
 ht-degree: 1%
 
 ---
@@ -87,7 +102,7 @@ Para registrar um dispositivo (criando um usuário para o dispositivo no AEM), a
 
 A solicitação de registro é uma solicitação POST.
 
-É recomendável obter a ID do dispositivo da sessão em vez de ser passada como parâmetro. Isso limparia os logs do servidor, o cache do navegador e assim por diante. Não é um problema de segurança. Semanticamente. O GET é usado quando não há alteração de estado no servidor e o POST é usado quando há uma alteração de estado.
+É recomendável obter a ID do dispositivo da sessão em vez de ser passada como parâmetro. Isso limparia os logs do servidor, o cache do navegador e assim por diante. Não é um problema de segurança. Semanticamente. GET é usado quando não há alteração de estado no servidor e POST é usado quando há uma alteração de estado.
 
 ### &#x200B;3. Há uma maneira de recusar uma solicitação de registro de dispositivo? {#is-there-a-way-to-decline-a-device-registration-request}
 
@@ -113,7 +128,7 @@ Ative a permissão Vazia de filtro de referência do Apache Sling. Necessário p
 
 ### &#x200B;3. Como solucionar problemas se, durante o registro de um AEM Screens Player, o dispositivo mostrar FAILURE e os registros do console exibirem um erro ENAME_NOT_FOUND?
 
-Esse problema pode ocorrer se o reprodutor não conseguir encontrar o DNS do servidor do AEM Screens. Tente usar o endereço IP para se conectar. Para obter o IP do servidor, use: *arp &lt;server_dns_name>*.
+Esse problema pode ocorrer se o reprodutor não conseguir encontrar o DNS do servidor do AEM Screens. Tente usar o endereço IP para se conectar. Para obter o IP do servidor, use: *arp &lt;nome_dns_servidor>*.
 
 ### &#x200B;4. O AMS recomenda implementar um Watchdog Android™ em todos os dispositivos? O plug-in Watchdog (Cordova) está incluído como parte do APK? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 

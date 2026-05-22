@@ -2,9 +2,15 @@
 title: Uso de representações adaptáveis no AEM Screens
 description: Saiba como usar representações adaptáveis no AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: f1ddcf5e5ee9691e436e139ce0084f2c39f9c9dd
+TQID: https://experienceleague.adobe.com/HZzzIXVu8Px3-aXDrbfU9xQxg-F-ZJK-Sy-BVQSH-uo
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: 584
 ht-degree: 0%
 
 ---

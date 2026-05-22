@@ -1,13 +1,19 @@
 ---
 title: Suporte pós-lançamento
 description: Saiba mais sobre o suporte pós-lançamento para o AEM Screens no Guia de práticas recomendadas.
-source-git-commit: dd91043434892817e1aa900e222fae85b8665da8
+exl-id: cd7442ed-52a4-43d2-adc7-f643f4f16581
+TQID: https://experienceleague.adobe.com/PrdfsEIOJySNyu7GvWpOptg-AkyP-HFkxrbnMbJKaho
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 4%
+source-wordcount: 390
+ht-degree: 3%
 
 ---
-
 
 # Suporte pós-lançamento {#post-launch-support}
 
@@ -21,11 +27,11 @@ Considere os seguintes requisitos durante o suporte pós-lançamento:
 * suporte técnico no local
 * gerenciamento de dispositivos (suporte à garantia e armazenamento de dispositivos sobressalentes)
 
-Além disso, para se preparar para o sucesso a longo prazo, é fundamental estabelecer um Contrato de nível de serviço (SLA) do segundo dia em parceria com o Integrador de áudio e vídeo. A SLA deve detalhar todos os serviços de suporte pós-implantação para ajudar a definir com precisão as expectativas do cliente.
+Além disso, para se preparar para o sucesso a longo prazo, é fundamental estabelecer um Service level agreement do Dia 2 (SLA) em parceria com o Integrador de áudio e vídeo. A SLA deve detalhar todos os serviços de suporte pós-implantação para ajudar a definir com precisão as expectativas do cliente.
 
 >[!NOTE]
 >
->Defina parâmetros operacionais antecipadamente incluídos nos orçamentos operacionais e alinhe as responsabilidades com o implementador de AEM e o Integrador de áudio e vídeo.
+>Defina parâmetros operacionais antecipadamente incluídos nos orçamentos operacionais e alinhe as responsabilidades com o implementador do AEM e o Integrador de áudio e vídeo.
 >
 >* A implantação é uma rede Advertising com muitas partes interessadas vinculadas a uma rede monetizada? Essa situação pode ditar intervalos de tempo de resolução mais curtos em comparação a uma rede de comunicações corporativas.
 >* O aplicativo é altamente visível para a liderança executiva do cliente final? Sites com alta visibilidade podem merecer tratamentos diferentes.

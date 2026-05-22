@@ -2,9 +2,18 @@
 title: Estratégia de conteúdo comercial para o AEM Screens
 description: Saiba mais sobre a estratégia de marketing e conteúdo comercial relacionada ao AEM Screens.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/r6DxWYdpFA9pG-d1daaSsNUdenVDbkl3eHsAzABmggQ
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: 442
 ht-degree: 0%
 
 ---
@@ -17,7 +26,7 @@ ht-degree: 0%
 
 O conteúdo é um fator importante na promoção do engajamento. Na fase de pré-venda, é importante definir uma estratégia de conteúdo comercial. Essa estratégia considera como o aplicativo usa hardware, software e recursos de conectividade para oferecer o valor pretendido aos clientes.
 
-Uma estratégia bem definida de conteúdo comercial define um caminho para criar, distribuir e controlar o uso de conteúdo em relação à jornada do comprador. Ele também considera os pontos de contato de marketing no funil de vendas. Receber a mensagem certa no momento certo é fundamental.
+Uma estratégia bem definida de conteúdo comercial define um caminho para criar, distribuir e controlar o uso de conteúdo em relação à jornada do comprador. Ele também considera os pontos de contato de marketing no funnel de vendas. Receber a mensagem certa no momento certo é fundamental.
 
 Considere como o aplicativo do Screens pode ajudar a alcançar essa estratégia e determine KPIs para ajudar a medir o sucesso do aplicativo no fornecimento desse conteúdo.
 

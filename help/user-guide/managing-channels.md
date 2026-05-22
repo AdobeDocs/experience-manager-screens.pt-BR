@@ -5,9 +5,25 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+TQID: https://experienceleague.adobe.com/tMZVrwGVdqEg0NbOKvBMO5-dKLG1k1kiNT8E8xU9msc
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: 1256
 ht-degree: 2%
 
 ---
@@ -117,7 +133,7 @@ Siga as etapas abaixo para fazer upload de vídeos para seu canal:
 
 O painel Informações do canal descreve as propriedades do canal, juntamente com a pré-visualização do canal. Além disso, fornece informações sobre se o canal está offline ou online.
 
-Clique em (**...**) na barra de ação **INFORMAÇÕES DO CANAL** para exibir propriedades, editar o conteúdo ou atualizar o cache (conteúdo offline) do canal.
+Clique em (**...**) na barra de ação **INFORMAÇÕES DO CANAL**, para que você possa exibir propriedades, editar o conteúdo ou atualizar o cache (conteúdo offline) do canal.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -126,7 +142,7 @@ Clique em (**...**) na barra de ação **INFORMAÇÕES DO CANAL** para exibir pr
 É possível exibir o manifesto no painel do canal.
 
 >[!IMPORTANT]
->Essa opção só está disponível com o Feature Pack 8 para AEM 6.4 ou AEM 6.5 Feature Pack 4.
+>Essa opção só está disponível com o Feature Pack 8 do AEM 6.4 ou o Feature Pack 4 do AEM 6.5.
 
 Siga estas etapas para habilitar essa opção no painel de canal:
 
@@ -214,7 +230,7 @@ A tabela a seguir resume os eventos associados às atualizações automáticas e
    <td><p>Alteração na configuração</p>
     <ul>
      <li>Exibição (canal forçado)</li>
-     <li>Device</li>
+     <li>Dispositivo</li>
      <li>Atribuições de canal (novo canal, canal removido)</li>
      <li>Atribuição de canal (função, evento, agendamento)</li>
     </ul> </td>

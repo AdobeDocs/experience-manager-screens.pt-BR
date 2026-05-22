@@ -2,18 +2,29 @@
 title: Data Triggers
 description: Saiba mais sobre acionadores de dados na AEM Screens.
 exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+TQID: https://experienceleague.adobe.com/oeJ7C6Rt8-Z9sFnEP1S1tn0VW4PuiKkXkeDYaz8Vd4s
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: 261
 ht-degree: 0%
 
 ---
 
-# Otimizações de criação dinâmicas {#dynamic-creative}
+# Otimizações dinâmicas do Creative {#dynamic-creative}
 
 >[!NOTE]
 >
->Uma parte interessada típica dessa atividade é um Implementador de AEM.
+>Uma parte interessada típica dessa atividade é um Implementador do AEM.
 
 O **Dynamic Creative Optimization**, ou DCO, é usado para criar experiências de sinalização digital que refletem as circunstâncias exclusivas de qualquer local em um determinado momento e para qualquer usuário.
 
@@ -23,7 +34,7 @@ O raciocínio é garantir que cada dispositivo de reprodução ou ponto final po
 
 Essa funcionalidade elimina a necessidade de intervenção humana constante durante a criação de conteúdo. Também ajuda a reduzir o custo total de propriedade para operar a rede e torna as experiências digitais mais relevantes, mais contextuais e mais eficazes.
 
-Os exemplos incluem:
+Por exemplo:
 
 * usando o nível de inventário atual dos produtos de recursos
 * temperatura exterior ou tempo

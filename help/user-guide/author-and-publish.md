@@ -2,13 +2,21 @@
 title: Configurar instâncias de criação e publicação no AEM Screens
 description: Saiba como configurar uma instância do Autor e uma instância de Publicação para o AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/U6Z-Mk467J0VAHiM7n6JnsWrMChwRM7B0FrWpm1-ZyA
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1939'
+source-wordcount: 1974
 ht-degree: 0%
 
 ---
-
 
 # Configurar instâncias de Autor e Publicação no AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
@@ -159,7 +167,7 @@ Como cada instância de publicação, por padrão, tem chaves de criptografia ex
 >[!NOTE]
 >
 >A senha deve começar e terminar com chaves. Por exemplo:
->&#x200B;>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Etapa 4: Ativar Cluster Artemis AtiveMQ {#step-activate-activemq-artemis-cluster}
 

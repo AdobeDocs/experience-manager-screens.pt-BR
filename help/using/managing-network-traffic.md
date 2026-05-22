@@ -2,9 +2,18 @@
 title: Gerenciando o tráfego de rede
 description: A página descreve Configurações de rede padrão e como gerenciar o tráfego de rede.
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/toQExjYycmdyuJ18MzNczjmqjec2SQrXbnz4gxi01Tk
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: 537
 ht-degree: 0%
 
 ---
@@ -16,7 +25,7 @@ Uma Configuração de rede pode ter várias estruturas. Esta seção descreve as
 Este guia destaca uma introdução aos servidores proxy, seguida pelas várias estruturas de rede configuradas em diferentes organizações.
 
 >[!NOTE]
->**Requisitos de Rede da AEM Screens**
+>**Requisitos de rede da AEM Screens**
 >O AEM Screens se comunica diretamente com a AEM as a Cloud Service, portanto, é necessário estabelecer uma conexão estável entre os dois nós. Os firewalls são obrigatórios para o acesso comercial à Internet. Como cliente, compreenda quais portas de comunicação devem ser abertas nesses firewalls e outros componentes de rede relacionados à segurança da TI.
 
 ## Visão geral para servidores proxy {#proxy-servers}

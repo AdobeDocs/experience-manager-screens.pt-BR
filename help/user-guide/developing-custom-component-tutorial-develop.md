@@ -9,9 +9,20 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/SSClqDvdUKva7LqeEJG9niJSXbaSwe2VMO2XssQaXLw
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: 2364
 ht-degree: 2%
 
 ---
@@ -84,7 +95,7 @@ O código-fonte de um projeto Screens geralmente é gerenciado como um projeto M
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   Este pacote contém o conteúdo inicial e a estrutura de configuração necessária para o projeto. **`/conf/we-retail-run`** contém todas as configurações para o projeto de Execução `We.Retail`. **`/content/dam/we-retail-run`** inclui a inicialização de ativos digitais para o projeto. **`/content/screens/we-retail-run`** contém a estrutura de conteúdo do Screens. O conteúdo de todos esses caminhos é atualizado principalmente no AEM. Para promover a consistência entre ambientes (local, desenvolvimento, preparo, produção), geralmente uma estrutura de conteúdo básica é salva no controle de origem.
+   Este pacote contém o conteúdo inicial e a estrutura de configuração necessária para o projeto. **`/conf/we-retail-run`** contém todas as configurações para o projeto de execução `We.Retail`. **`/content/dam/we-retail-run`** inclui iniciar ativos digitais para o projeto. **`/content/screens/we-retail-run`** contém a estrutura de conteúdo do Screens. O conteúdo de todos esses caminhos é atualizado principalmente no AEM. Para promover a consistência entre ambientes (local, desenvolvimento, preparo, produção), geralmente uma estrutura de conteúdo básica é salva no controle de origem.
 
 1. **Navegue até AEM Screens > `We.Retail` Executar projeto:**
 
@@ -128,10 +139,10 @@ O AEM Screens tem algumas restrições interessantes que não são necessariamen
     /apps/weretail-run/components/content/helloworld/helloworld.html
 
    */-->
-
+   
    <!--/* production: preview authoring mode + unspecified mode (i.e. on publish) */-->
    <sly data-sly-test.production="${wcmmode.preview || wcmmode.disabled}" data-sly-include="production.html" />
-
+   
    <!--/* edit: any other authoring mode, i.e. edit, design, scaffolding, etc. */-->
    <sly data-sly-test="${!production}" data-sly-include="edit.html" />
    ```
@@ -160,7 +171,7 @@ O AEM Screens tem algumas restrições interessantes que não são necessariamen
 
    O conteúdo acima é a marcação de produção do componente Hello World. Um atributo `data-duration` foi incluído, pois o componente é usado em um canal de Sequência. O atributo `data-duration` é usado pelo canal Sequência para saber por quanto tempo um item de sequência deve ser exibido.
 
-   O componente renderiza uma marca `div` e uma marca `h1` com texto. `${properties.message}` é uma parte do script HTL que produz o conteúdo de uma propriedade JCR chamada `message`. Uma caixa de diálogo será criada posteriormente permitindo que um usuário insira um valor para o texto de propriedade `message`.
+   O componente renderiza uma marca `div` e uma marca `h1` com texto. `${properties.message}` é uma parte do script HTL que gera o conteúdo de uma propriedade JCR chamada `message`. Uma caixa de diálogo será criada posteriormente permitindo que um usuário insira um valor para o texto de propriedade `message`.
 
    Observe também que a notação BEM (Block Element Modifier) é usada com o componente. BEM é uma convenção de codificação CSS que facilita a criação de componentes reutilizáveis. BEM é a notação usada pelos [Componentes principais do AEM](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
@@ -169,7 +180,6 @@ O AEM Screens tem algumas restrições interessantes que não são necessariamen
    Preencha o arquivo com o seguinte:
 
    ```xml
-
    <!--/*
 
     /apps/weretail-run/components/content/helloworld/edit.html

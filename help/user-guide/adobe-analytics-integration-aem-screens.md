@@ -10,10 +10,22 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/4Qdx25kNW3IszlXshNPGYGMJNE9E2QQlndLjJICDrI4
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 0%
+source-wordcount: 693
+ht-degree: 1%
 
 ---
 
@@ -21,11 +33,11 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Essa funcionalidade do AEM Screens só estará disponível se você tiver instalado a versão mínima do AEM 6.4.2 Feature Pack 2 ou AEM 6.3.3 Feature Pack 4. Para clientes do serviço da AEM Screens Cloud, entre em contato com o Gerente de relacionamento de Adobe para ativar o Adobe Analytics na Screens Cloud.
+>Essa funcionalidade do AEM Screens só estará disponível se você tiver instalado a versão mínima do Feature Pack 2 do AEM 6.4.2 ou o Feature Pack 4 do AEM 6.3.3. Para clientes do serviço da AEM Screens Cloud, entre em contato com o Gerente de relacionamento da Adobe para ativar o Adobe Analytics na Screens Cloud.
 
 >[!NOTE]
 >
->Para obter acesso a qualquer um desses Feature Packs, entre em contato com o Suporte do Adobe e solicite acesso. Você pode baixar o Feature Pack mais recente para o AEM Screens do [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID.
+>Para obter acesso a qualquer um desses Feature Packs, entre em contato com o Suporte da Adobe e solicite acesso. Você pode baixar o Feature Pack mais recente para o AEM Screens do [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID.
 
 Esta seção abrange os seguintes tópicos:
 
@@ -73,13 +85,13 @@ Navegue até **Configuração do Console da Web do Adobe Experience Manager** pa
 
 >[!CAUTION]
 >
->Antes de configurar as propriedades, entre em contato com o Gerente de Relacionamento de Adobe para criar um tíquete e obter uma **Chave de API do Analytics** e um **Projeto do Analytics** para uso com o AEM Screens.
+>Antes de configurar as propriedades, entre em contato com o Gerente de Relacionamento da Adobe para criar um tíquete e obter uma **Chave de API do Analytics** e um **Projeto do Analytics** para uso com o AEM Screens.
 
 ### Configuração das propriedades {#configuring-the-properties}
 
 >[!CAUTION]
 >
->Antes de configurar as propriedades, entre em contato com o Gerente de Relacionamento de Adobe para criar um tíquete e obter uma **Chave de API do Analytics** e um **Projeto do Analytics** para uso com o AEM Screens.
+>Antes de configurar as propriedades, entre em contato com o Gerente de Relacionamento da Adobe para criar um tíquete e obter uma **Chave de API do Analytics** e um **Projeto do Analytics** para uso com o AEM Screens.
 
 A tabela a seguir destaca as propriedades e a descrição para configurar o Adobe Analytics para AEM Screens:
 
@@ -119,7 +131,7 @@ A tabela a seguir destaca as propriedades e a descrição para configurar o Adob
 
 #### Utilização do serviço Adobe Analytics no AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-Esse cenário chama a API do Analytics por meio de chamadas REST de um serviço de análise no firmware. Ele também instrumenta componentes principais de telas AEM para criar e enviar eventos específicos para um caso de uso específico. Toda essa funcionalidade enquanto permite a extensibilidade, onde qualquer mensagem personalizada pode ser enviada para o Analytics a partir de um canal desenvolvido de forma personalizada.
+Esse cenário chama a API do Analytics por meio de chamadas REST de um serviço de análise no firmware. Ele também instrumenta os componentes principais do Screens do AEM para criar e enviar eventos específicos para um caso de uso específico. Toda essa funcionalidade enquanto permite a extensibilidade, onde qualquer mensagem personalizada pode ser enviada para o Analytics a partir de um canal desenvolvido de forma personalizada.
 
 Os eventos do Analytics são armazenados offline no indexedDB e, posteriormente, fragmentados e enviados para a nuvem.
 

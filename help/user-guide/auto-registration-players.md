@@ -5,22 +5,33 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
+TQID: https://experienceleague.adobe.com/uvCRS49L6CQbah4AKFwRdhGN-pvKnTWtNMN8CnFojIQ
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: 342
 ht-degree: 0%
 
 ---
 
 # Registro automático de players {#auto-registration}
 
-Registrar em massa milhares de jogadores manualmente pode se tornar complicado e adiciona tempo e custo. Para simplificar esse processo, o recurso de registro em massa permite especificar uma chave pré-compartilhada no AEM que pode ser provisionada em um reprodutor por meio de um arquivo de configuração ou uma solução de Gerenciamento de dispositivo móvel (MDM).
+Registrar em massa milhares de jogadores manualmente pode se tornar complicado e adiciona tempo e custo. Para simplificar esse processo, o recurso de registro em massa permite especificar uma chave pré-compartilhada no AEM que pode ser provisionada em um player por meio de um arquivo de configuração ou uma solução de Gerenciamento de dispositivo móvel (MDM).
 
 ## Implementação do registro automático de players {#bulk-registering-implementation}
 
 Siga as etapas abaixo para implementar o registro automático de jogadores:
 
-1. Faça logon na instância do AEM, clique no projeto do AEM Screens e em **Propriedades** na barra de ações.
+1. Faça logon na instância do AEM, clique no projeto do AEM Screens e clique em **Propriedades** na barra de ações.
 1. Clique na guia **Avançado** para exibir a seção **Registro do dispositivo**.
 
 1. Especifique um código de registro automático no campo **Código de registro em massa**. Em seguida, um vídeo padrão opcional na **Atribuição de exibição padrão** para atribuir ao player que é registrado automaticamente.
@@ -42,13 +53,13 @@ Siga as etapas abaixo para implementar o registro automático de jogadores:
 
 Siga a seção abaixo para considerar algumas das práticas recomendadas para segurança:
 
-* Certifique-se de que o código de registro não esteja comprometido - Configure o código no AEM logo antes de iniciar o registro em massa e, quando terminar, limpe esse campo e salve no AEM.
+* Certifique-se de que o código de registro não esteja comprometido - Configure o código no AEM antes de iniciar o registro em massa e, quando terminar, limpe esse campo e salve no AEM.
 
 * Você pode configurar o caminho `/bin/screens/registration` de forma que ele seja acessível somente a partir de intervalos IP conhecidos, se possível.
 
 * Considere usar um MDM para provisionar o reprodutor com a configuração.
 
-* Sempre use `HTTPS` e não `HTTP` para comunicação do player com AEM.
+* Sempre use `HTTPS` e não `HTTP` para a comunicação do player com o AEM.
 
   >[!NOTE]
   >Atualmente, a atribuição de exibição padrão funciona apenas para registro em massa. Isso não funciona para registro manual quando um código de registro não está disponível.

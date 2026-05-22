@@ -5,23 +5,31 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/STGb-1noku974a5PHrLjLFBJpwlJZOhhwjPO3zP-fmo
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 3%
+source-wordcount: 298
+ht-degree: 5%
 
 ---
 
 # Notas de versão do Pacote de recursos 202011 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->A Adobe recomenda que você atualize para a versão mais recente do Adobe Experience Manager (AEM). O AEM Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
+>A Adobe recomenda atualizar para a versão mais recente do Adobe Experience Manager (AEM). A AEM Screens fornece suporte de manutenção para a plataforma Screens do AEM 6.3.
 
 ## Disponibilidade {#availability}
 
-O AEM Screens lançou o AEM 6.5 Feature Pack 6.
+A AEM Screens lançou o Pacote de recursos 6 do AEM 6.5.
 
-Você pode baixar o Feature Pack mais recente para a versão AEM Screens 6.5.6 do [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure por **Screens** para obter o Pacote de Recursos mais recente denominado **AEM 6.5 Screens FP6**.
+Você pode baixar o Feature Pack mais recente para a versão AEM Screens 6.5.6 do [Portal de Distribuição de Software](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html) usando sua Adobe ID. Navegue até a guia **Adobe Experience Manager** e procure **Screens** para obter o Pacote de Recursos mais recente denominado **AEM 6.5 Screens FP6**.
 
 ## Data de lançamento {#release-date}
 
@@ -51,7 +59,7 @@ Consulte [Pesquisando um Dispositivo no Gerenciador de Dispositivos](/help/user-
 
 ### Players do AEM Screens lançados
 
-Os seguintes players de AEM Screens são lançados para AEM 6.5 Feature Pack 6:
+Os seguintes players de AEM Screens foram lançados para o Feature Pack 6 do AEM 6.5:
 
 * SO CHROME
 * Windows

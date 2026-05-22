@@ -5,9 +5,26 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
+TQID: https://experienceleague.adobe.com/3luzMMyp-cngfhPg7rJlCh6UUOxYGxwUB9YOtjjwNsM
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: 1101
 ht-degree: 2%
 
 ---
@@ -18,7 +35,7 @@ ht-degree: 2%
 >
 >**Informações importantes sobre privacidade**
 >
->Ao usar o recurso de reconhecimento de voz, siga todas as diretrizes legais e éticas aplicáveis à sua região. Essas diretrizes incluem, mas não se limitam a, fornecer um aviso visível aos usuários finais de que o reprodutor está usando reconhecimento de voz). O Adobe não recebe, armazena ou processa qualquer informação relacionada à voz. Os players do AEM Screens usam a API de fala da Web padrão incorporada ao mecanismo de navegação. Nos bastidores, essa API envia uma forma de onda de sua fala para os servidores da Google para conversão de fala em texto. O reprodutor corresponde o texto com as palavras-chave configuradas.
+>Ao usar o recurso de reconhecimento de voz, siga todas as diretrizes legais e éticas aplicáveis à sua região. Essas diretrizes incluem, mas não se limitam a, fornecer um aviso visível aos usuários finais de que o reprodutor está usando reconhecimento de voz). A Adobe não recebe, armazena ou processa nenhuma informação relacionada à voz. Os players do AEM Screens usam a API de fala da Web padrão incorporada ao mecanismo de navegação. Nos bastidores, essa API envia uma forma de onda de sua fala para os servidores da Google para conversão de fala em texto. O reprodutor corresponde o texto com as palavras-chave configuradas.
 >
 >Consulte o [White-paper de Privacidade da Google sobre a API de fala na Web](https://www.google.com/chrome/privacy/whitepaper.html#speech) para obter mais detalhes.
 

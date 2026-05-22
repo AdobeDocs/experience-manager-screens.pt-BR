@@ -5,10 +5,18 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/YLrwBzcHSxB1YdY2h8O3gCGIHsQaZs74ib8Hp624Tio
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 2%
+source-wordcount: 387
+ht-degree: 3%
 
 ---
 
@@ -16,7 +24,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->A Adobe recomenda que você atualize para a versão mais recente do Adobe Experience Manager (AEM). O AEM Screens fornece suporte de manutenção para a plataforma AEM 6.3 Screens.
+>A Adobe recomenda atualizar para a versão mais recente do Adobe Experience Manager (AEM). A AEM Screens fornece suporte de manutenção para a plataforma Screens do AEM 6.3.
 
 ## Disponibilidade {#availability}
 
@@ -67,7 +75,7 @@ A data de lançamento do Pacote de recursos do AEM Screens 202004 é 20 de abril
 
 ### Players do AEM Screens lançados
 
-Os seguintes players do AEM Screens foram lançados para o AEM Screens lançado com AEM 6.4 Feature Pack 8 e AEM 6.5 Feature Pack 4:
+Os seguintes players do AEM Screens são lançados para o Pacote de recursos 8 do AEM 6.4 lançado pela AEM Screens e Pacote de recursos 4 do AEM 6.5:
 
 * ChromeOS
 * Windows
