@@ -3,8 +3,11 @@ title: Suporte pós-lançamento
 description: Saiba mais sobre o suporte pós-lançamento para o AEM Screens no Guia de práticas recomendadas.
 exl-id: cd7442ed-52a4-43d2-adc7-f643f4f16581
 TQID: https://experienceleague.adobe.com/PrdfsEIOJySNyu7GvWpOptg-AkyP-HFkxrbnMbJKaho
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
 source-wordcount: 396
