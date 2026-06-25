@@ -10,30 +10,23 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
 TQID: https://experienceleague.adobe.com/A7x3G1fogotd69IsY1bgOMLJ7107v0aHpS7C90evJOU
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 2489
+source-wordcount: 2532
 ht-degree: 1%
 
 ---
 
 # Uso de sequência incorporada dinâmica {#using-dynamic-embedded-sequence}
+
+>[!IMPORTANT]
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 O uso de Sequências incorporadas dinâmicas abrange os seguintes tópicos:
 
@@ -70,7 +63,7 @@ O exemplo a seguir fornece uma solução com foco nos seguintes termos principai
 
 * um ***canal de sequência principal*** para a sequência global.
 * ***sequência dinâmica inserida*** componentes para cada parte personalizável localmente da sequência.
-* ***canais de sequência individuais*** nos respectivos locais com uma *função* na exibição que corresponde à *função&#x200B;*** do componente de sequência dinâmica inserido.**
+* ***canais de sequência individuais*** nos respectivos locais com uma *função* na exibição que corresponde à *função*** do componente de sequência dinâmica inserido.**
 
 >[!NOTE]
 >
@@ -86,7 +79,7 @@ Antes de começar a implementar essa funcionalidade, verifique se você tem os s
 
 * Crie um projeto do AEM Screens (neste exemplo, **Demonstração**).
 * Crie um canal **Global** na pasta **Channels**.
-* Adicione conteúdo ao seu Canal **Global** (*Verifique **Resources.zip**&#x200B;para ativos relevantes*).
+* Adicione conteúdo ao seu Canal **Global** (*Verifique **Resources.zip**para ativos relevantes*).
 
 A imagem a seguir mostra o projeto **Demo** com o canal **Global** na pasta **Canais**.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)

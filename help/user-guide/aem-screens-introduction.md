@@ -6,23 +6,21 @@ role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
 TQID: https://experienceleague.adobe.com/bbQW2pnyxEfjm8d5SveI-CGuQN5RZCVmDt35iK3Ysxs
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 579
+source-wordcount: 625
 ht-degree: 1%
 
 ---
 
 # O que é o Adobe Experience Manager Screens?{#what-is-aem-screens}
+
+>[!IMPORTANT]
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 **Experience Manager Screens** - uma solução de sinalização digital que permite a publicação de experiências e interações digitais dinâmicas e interativas que envolvem diferentes tipos de telas, tudo em uma plataforma de marketing digital abrangente.
 
@@ -67,7 +65,7 @@ A figura a seguir define os perfis e suas funções para o Experience Manager Sc
 
 * **Fundamentos da implementação guiada**
 
-  Siga o caminho de aprendizado guiado **[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/pt-br?launch=AEM-7a)** que abrange recursos básicos e avançados compatíveis com o Experience Manager Screens.
+  Siga o caminho de aprendizado guiado **[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/?launch=AEM-7a)** que abrange recursos básicos e avançados compatíveis com o Experience Manager Screens.
 
 * **Guia de práticas recomendadas para projetos do Experience Manager Screens**
 

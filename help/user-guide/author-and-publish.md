@@ -3,17 +3,12 @@ title: Configurar instâncias de criação e publicação no AEM Screens
 description: Saiba como configurar uma instância do Autor e uma instância de Publicação para o AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 TQID: https://experienceleague.adobe.com/U6Z-Mk467J0VAHiM7n6JnsWrMChwRM7B0FrWpm1-ZyA
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1974
+source-wordcount: 1959
 ht-degree: 0%
 
 ---
@@ -21,6 +16,9 @@ ht-degree: 0%
 # Configurar instâncias de Autor e Publicação no AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
 Esta página destaca os seguintes tópicos:
+
+>[!IMPORTANT]
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 * **Configurando instâncias de Autor e Publicação**
 * **Configurando a Topologia de Publicação**
@@ -62,7 +60,7 @@ Para criar agentes de replicação, saiba como criar um agente de replicação p
 
 Há três agentes de replicação necessários para o Screens:
 
-1. **Agente de Replicação Padrão &#x200B;***(especificado como&#x200B;*** Agente de Replicação Padrão**)
+1. **Agente de Replicação Padrão ***(especificado como*** Agente de Replicação Padrão**)
 1. **Agente de replicação da Screens**
 1. **Agente de Replicação Reversa**
 
@@ -120,7 +118,7 @@ Siga as etapas abaixo para criar um agente de replicação padrão:
 1. Crie um agente de replicação AEM Screens para pub2. Copie o agente de replicação do Screens para pub1 e altere a porta para apontar para 4504 para pub2.
 
    >[!NOTE]
-   >Para saber como configurar agentes de replicação Screens, consulte [Configurando o Agente de Replicação Screens](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
+   >Para saber como configurar agentes de replicação Screens, consulte [Configurando o Agente de Replicação Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
 
 #### Criar agentes de replicação reversa do Screens {#creating-screens-reverse-replication-agents}
 

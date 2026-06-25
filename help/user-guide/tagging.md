@@ -3,14 +3,17 @@ title: Marcação na Screens Cloud
 description: Esta página descreve como as tags podem ser criadas, gerenciadas e usadas na Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
 # Marcação na Screens Cloud {#tagging-on-Screens-Cloud}
+
+>[!IMPORTANT]
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!CAUTION]
 >

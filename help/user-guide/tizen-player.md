@@ -6,23 +6,21 @@ role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
 TQID: https://experienceleague.adobe.com/IpBm16TbDD5MoD6p3BU4vPcmatz5dCpkc-dStlr6hI8
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1224
+source-wordcount: 1174
 ht-degree: 1%
 
 ---
 
 # Implementação do reprodutor Tizen {#tizen-player}
+
+>[!IMPORTANT]
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 ## Instalação do reprodutor Tizen {#installing-tizen-player}
 
@@ -109,7 +107,7 @@ Esse recurso permite configurar remotamente o Tizen player e também atualizar e
 
 Verifique se você configurou o endereço do Iniciador de URL no dispositivo Tizen. Clique no botão Início > Configurações do iniciador de URL.
 No servidor `HTTP` que hospeda o aplicativo Tizen, coloque o arquivo `config.json` no mesmo local do arquivo `wgt`. O nome do arquivo deve ser `config.json`.
-O Tizen player instala e, na inicialização (e a cada reinicialização), verifica e aplica as configurações no arquivo `config.json`.
+O reprodutor Tizen instala o e, na inicialização (e a cada reinicialização), verifica e aplica as configurações no arquivo `config.json`.
 
 ### Exemplo de política JSON {#example-json}
 
@@ -129,7 +127,7 @@ A tabela a seguir resume as políticas com suas funções.
 
 >[!NOTE]
 >As configurações de política da interface do administrador do reprodutor são estritamente aplicadas e não são substituídas manualmente. Para permitir a configuração manual do player para uma política específica, não especifique a política na configuração de política.
->Por exemplo, se você deseja permitir a configuração manual para o agendamento de reinicialização, não especifique a chave `rebootSchedule` na configuração de política. As Configurações de política são lidas sempre que o reprodutor é recarregado.
+>Por exemplo, se você quiser permitir a configuração manual para o agendamento de reinicialização, não especifique a chave `rebootSchedule` na configuração de política. As Configurações de política são lidas sempre que o reprodutor é recarregado.
 
 | **Nome da Política** | **Finalidade** |
 |---|---|

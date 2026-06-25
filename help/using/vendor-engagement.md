@@ -3,19 +3,19 @@ title: Envolvimento do fornecedor
 description: Saiba mais sobre o Envolvimento do fornecedor para o Guia de práticas recomendadas da AEM Screens.
 exl-id: b1b1cd4b-f0a8-47d4-b8b8-dc7e42464230
 TQID: https://experienceleague.adobe.com/-giwSKYfpt7HB6WLQC4zuDYgr8ywFqKYfD9KqhPeYJE
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 126
+source-wordcount: 172
 ht-degree: 0%
 
 ---
 
 # Envolvimento do fornecedor {#vendor-engagement}
+
+>[!IMPORTANT]
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >Uma parte interessada típica dessa atividade é um Integrador de áudio e vídeo.

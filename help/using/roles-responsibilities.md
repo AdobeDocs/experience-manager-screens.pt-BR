@@ -3,27 +3,21 @@ title: Funções e responsabilidades do projeto AEM Screens
 description: Saiba mais sobre as funções e responsabilidades do projeto AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
 TQID: https://experienceleague.adobe.com/4E0IiB-RKjq9MrHxvZcZsCAyzSlIZmRLlGe-9eItv2c
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ae478996-b206-4712-9b0c-dc78a2644453
-  - id: f18e6c98-d21a-4444-b84b-f327ce464de4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: f18e6c98-d21a-4444-b84b-f327ce464de4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1303
+source-wordcount: 1349
 ht-degree: 0%
 
 ---
 
 # Funções e responsabilidades do projeto {#roles-responsibilities}
+
+>[!IMPORTANT]
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Como um implementador de AEM experiente, provavelmente você já viu funções conhecidas como *Autores*, *Desenvolvedores* e *Técnicos de TI*.
 
@@ -99,7 +93,7 @@ Os gerentes de projeto normalmente gerenciam toda a implantação da sua implant
 
 >[!NOTE]
 >
->Para saber mais detalhes sobre as diferentes funções e responsabilidades e o público-alvo de um projeto de sinalização digital, visite **[Funções e responsabilidades do projeto](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Para saber mais detalhes sobre as diferentes funções e responsabilidades e o público-alvo de um projeto de sinalização digital, visite **[Funções e responsabilidades do projeto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
 
 
 ## Estágios do Projeto {#project-stages}
@@ -114,7 +108,7 @@ Para oferecer suporte a uma implantação bem-sucedida da sinalização digital,
 >
 >Embora este guia enfatize principalmente o *Primeiro Dia* e o *Segundo Dia*, é necessário prestar atenção aos três estágios para executar um projeto de sinalização digital bem-sucedido.
 >
->Para saber mais sobre a pré-produção, a iniciação e a progressão do projeto, assista a um vídeo sobre **[Gerenciamento e Implantação de Projetos](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
+>Para saber mais sobre a pré-produção, a iniciação e a progressão do projeto, assista a um vídeo sobre **[Gerenciamento e Implantação de Projetos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
 
 ## Gráfico RACI {#raci-chart}
 
