@@ -16,14 +16,17 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 342
+source-wordcount: 388
 ht-degree: 0%
 
 ---
 
 # Registro automático de players {#auto-registration}
+
+>[!IMPORTANT]
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Registrar em massa milhares de jogadores manualmente pode se tornar complicado e adiciona tempo e custo. Para simplificar esse processo, o recurso de registro em massa permite especificar uma chave pré-compartilhada no AEM que pode ser provisionada em um player por meio de um arquivo de configuração ou uma solução de Gerenciamento de dispositivo móvel (MDM).
 

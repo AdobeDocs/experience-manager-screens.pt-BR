@@ -14,14 +14,17 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: 482
 ht-degree: 0%
 
 ---
 
 # Abordagem recomendada {#recommended-approach}
+
+>[!IMPORTANT]
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 A prática recomendada é considerar qualquer projeto AEM Screens de nível empresarial como um empreendimento de longo prazo. É provável que o projeto tenha uma duração de um ou mais anos, especialmente se a solução permitir uma interação complexa do usuário ou for implantada em vários dispositivos e locais.
 

@@ -19,14 +19,17 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: 498
 ht-degree: 1%
 
 ---
 
 # Transição do ContentSync para o SmartSync {#transitioning-from-contentsync-to-smartsync}
+
+>[!IMPORTANT]
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Esta seção fornece uma visão geral do recurso SmartSync e como ele minimiza a carga/armazenamento do servidor e o tráfego de rede para reduzir o custo.
 

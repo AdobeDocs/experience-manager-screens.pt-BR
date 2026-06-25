@@ -19,14 +19,17 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: 721
 ht-degree: 0%
 
 ---
 
 # Parte 4: Gerenciamento e implantação de projetos {#part-project-management-and-deployment}
+
+>[!IMPORTANT]
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Esta página destaca a parte 4 de uma série de 5 partes, criada para abordar o gerenciamento de projetos e a preparação da implantação e definir os principais fatores pelos quais o Integrador de áudio e vídeo é responsável, relacionados ao gerenciamento de projetos e à preparação da implantação.
 

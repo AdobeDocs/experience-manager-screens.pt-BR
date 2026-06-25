@@ -18,14 +18,17 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: 743
 ht-degree: 0%
 
 ---
 
 # Sincronização de comando {#command-sync}
+
+>[!IMPORTANT]
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 A página a seguir descreve como usar a Sincronização de Comando. A sincronização de comandos permite a reprodução sincronizada em diferentes reprodutores. Os reprodutores podem reproduzir conteúdo diferente, mas cada ativo deve ter a mesma duração.
 
@@ -104,7 +107,7 @@ Antes de usar o recurso de sincronização de comandos, verifique se você tem u
 ### Configurar um principal {#setting-up-primary}
 
 1. Navegue até o painel de exibição em **CommandSyncDemo** > **Locations** > **Lobby** > **LobbyDisplay**. Em seguida, clique em **Painel** na barra de ações.
-Observe os dois dispositivos (Chrome e Windows Player) no painel **DISPOSITIVOS**, como mostrado a seguir:
+Observe os dois dispositivos (Chrome e Windows Player) no painel **DISPOSITIVOS**, como visto a seguir:
    ![imagem1](assets/command-sync/command-sync10-1.png)
 
 1. No painel **DISPOSITIVOS**, clique no dispositivo que você deseja definir como principal. O exemplo a seguir demonstra como configurar o dispositivo Chrome como o dispositivo principal. Clique em **Definir como dispositivo primário**.

@@ -21,14 +21,17 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 490
+source-wordcount: 536
 ht-degree: 0%
 
 ---
 
 # Parte 1: Funções e Responsabilidades do Projeto {#part-project-roles-and-responsibilities}
+
+>[!IMPORTANT]
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Esta página destaca a parte 1 de uma série de 5 partes. Ele foi projetado para ajudar os membros da equipe a entender melhor as funções, responsabilidades e cronogramas necessários durante o ciclo de vida de vendas e projetos para um projeto de sinalização digital.
 

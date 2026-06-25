@@ -20,10 +20,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1239
-ht-degree: 2%
+source-wordcount: 1285
+ht-degree: 1%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 2%
 Ao configurar uma exibição, atribua um canal a uma exibição para visualizar seu conteúdo.
 
 Esta página mostra como atribuir um canal à exibição.
+
+Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >É possível atribuir vários canais a uma exibição.

@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1974
+source-wordcount: 1959
 ht-degree: 0%
 
 ---
@@ -21,6 +21,9 @@ ht-degree: 0%
 # Configurar instâncias de Autor e Publicação no AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
 Esta página destaca os seguintes tópicos:
+
+>[!IMPORTANT]
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 * **Configurando instâncias de Autor e Publicação**
 * **Configurando a Topologia de Publicação**

@@ -11,14 +11,17 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: 464
 ht-degree: 0%
 
 ---
 
 # Noções básicas de um projeto de sinalização digital {#basics-digital-signage}
+
+>[!IMPORTANT]
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Antes de mergulhar nas práticas recomendadas de implementação do AEM Screens, é importante considerar o projeto como um projeto de sinalização digital, em vez de um desenvolvimento de software tradicional.
 

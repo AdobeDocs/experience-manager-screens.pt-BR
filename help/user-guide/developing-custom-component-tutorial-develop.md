@@ -20,14 +20,17 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 2364
+source-wordcount: 2410
 ht-degree: 2%
 
 ---
 
 # Desenvolvimento de um componente personalizado para o AEM Screens {#developing-a-custom-component-for-aem-screens}
+
+>[!IMPORTANT]
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 O tutorial a seguir percorre as etapas para criar um componente personalizado para o AEM Screens. A AEM Screens reutiliza muitos padrões e tecnologias de design existentes de outros produtos da AEM. O tutorial destaca as diferenças e considerações especiais ao desenvolver para o AEM Screens.
 
@@ -135,9 +138,9 @@ O AEM Screens tem algumas restrições interessantes que não são necessariamen
 
    ```xml
    <!--/*
-
+   
     /apps/weretail-run/components/content/helloworld/helloworld.html
-
+   
    */-->
    
    <!--/* production: preview authoring mode + unspecified mode (i.e. on publish) */-->
@@ -161,9 +164,9 @@ O AEM Screens tem algumas restrições interessantes que não são necessariamen
    ```xml
    <!--/*
     /apps/weretail-run/components/content/helloworld/production.html
-
+   
    */-->
-
+   
    <div data-duration="${properties.duration}" class="cmp-hello-world">
     <h1 class="cmp-hello-world__message">${properties.message}</h1>
    </div>
@@ -181,18 +184,18 @@ O AEM Screens tem algumas restrições interessantes que não são necessariamen
 
    ```xml
    <!--/*
-
+   
     /apps/weretail-run/components/content/helloworld/edit.html
-
+   
    */-->
-
+   
    <!--/* if message populated */-->
    <div
     data-sly-test.message="${properties.message}"
     class="aem-Screens-editWrapper cmp-hello-world">
     <p class="cmp-hello-world__message">${message}</p>
    </div>
-
+   
    <!--/* empty place holder */-->
    <div data-sly-test="${!message}"
         class="aem-Screens-editWrapper cq-placeholder cmp-hello-world"

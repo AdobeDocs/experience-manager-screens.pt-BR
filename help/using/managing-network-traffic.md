@@ -11,21 +11,24 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: 532
 ht-degree: 0%
 
 ---
 
 # Gerenciando o tráfego de rede {#managing-network-traffic}
 
+>[!IMPORTANT]
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 Uma Configuração de rede pode ter várias estruturas. Esta seção descreve as configurações de rede mais comuns e as abordagens generalizadas seguidas em uma organização.
 
 Este guia destaca uma introdução aos servidores proxy, seguida pelas várias estruturas de rede configuradas em diferentes organizações.
 
 >[!NOTE]
->**Requisitos de rede da AEM Screens**
+>**Requisitos de Rede da AEM Screens**
 >O AEM Screens se comunica diretamente com a AEM as a Cloud Service, portanto, é necessário estabelecer uma conexão estável entre os dois nós. Os firewalls são obrigatórios para o acesso comercial à Internet. Como cliente, compreenda quais portas de comunicação devem ser abertas nesses firewalls e outros componentes de rede relacionados à segurança da TI.
 
 ## Visão geral para servidores proxy {#proxy-servers}

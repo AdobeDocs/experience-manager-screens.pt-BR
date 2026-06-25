@@ -17,14 +17,17 @@ level_v2:
 topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 662
+source-wordcount: 702
 ht-degree: 2%
 
 ---
 
 # Configurações do Dispatcher para o AEM Screens{#dispatcher-configurations-for-aem-screens}
+
+>[!IMPORTANT]
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 O Dispatcher é a ferramenta de armazenamento em cache, balanceamento de carga ou ambos do Adobe Experience Manager.
 
