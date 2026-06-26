@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 482
 ht-degree: 0%
@@ -69,3 +69,4 @@ Se o seu cliente quiser um produto rico em recursos, forneça uma parte da funci
 
 * **Noções básicas sobre o escopo das integrações personalizadas**:
 Componentes interativos com interação na tela de toque, sensor de movimento ou RFID exigem um desenvolvimento personalizado significativo no método de implementação. Uma apresentação de slides, anúncio de vídeo ou menu estático pode ser fornecido como conteúdo gráfico ou HTML em um canal do Screens.
+

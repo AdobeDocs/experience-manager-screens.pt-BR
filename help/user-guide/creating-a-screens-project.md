@@ -22,9 +22,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 336
+source-wordcount: 370
 ht-degree: 1%
 
 ---
@@ -40,8 +40,7 @@ A AEM Screens está disponível ao selecionar o link Adobe Experience Manager (p
 Como alternativa, você pode navegar diretamente para: `http://localhost:4502/screens.html/content/screens`
 
 >[!NOTE]
->**Dica de Navegação:**
->Você também pode usar as teclas de cursor para navegar por diferentes pastas no AEM. Além disso, depois de clicar em uma entidade específica, pressione a barra de espaço para editar ou exibir propriedades dessa pasta específica.
+>**Dica de Navegação:Você também pode usar as teclas de cursor para navegar por diferentes pastas no AEM. Além disso, depois de clicar em uma entidade específica, pressione a barra de espaço para editar ou exibir propriedades dessa pasta específica.
 
 ## Criação de um novo projeto do Screens
 
@@ -92,3 +91,4 @@ As etapas a seguir mostram a criação de uma pasta de aplicativos para sua pág
 ### Próximas etapas {#the-next-steps}
 
 Depois de criar seu próprio projeto, consulte [Gerenciamento de canal](managing-channels.md) para criar e gerenciar conteúdo no seu canal.
+

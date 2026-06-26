@@ -20,7 +20,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1041
 ht-degree: 0%
@@ -123,3 +123,4 @@ Depois que um dispositivo é registrado no ambiente de criação do AEM, a confi
 ### Próximas etapas {#the-next-steps}
 
 Quando você entender o design arquitetônico da configuração do autor e publicação no AEM Screens, consulte [Configurando autor e publicação para o AEM Screens](author-and-publish.md) para obter mais detalhes.
+

@@ -20,7 +20,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 322
 ht-degree: 0%
@@ -74,3 +74,4 @@ Siga as etapas abaixo para adicionar um componente de transição ao seu projeto
 1. Além disso, se você adicionar um componente de **Sequência inserida** (que inclui um canal de sequência) a esse editor de canal, será possível adicionar um componente de transição ao final. Isso garante que o conteúdo seja reproduzido na ordem correta, conforme ilustrado na imagem a seguir:
 
    ![imagem3](assets/transitions5.png)
+

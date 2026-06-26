@@ -13,7 +13,7 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 307
 ht-degree: 0%
@@ -52,3 +52,4 @@ Há dois tipos principais de acionadores de dados:
 
 * **Acionadores de Dados Locais**: esses acionadores de dados são locais no dispositivo. Por exemplo, se você tocou a tela, é ativado um sensor que aciona um ativo de dados local ou um switch de canal.
 * **Acionadores de Dados Remotos**: envolviam uma troca de canal ou uma troca de ativo acionada por dados com base em valores retornados por uma API de Serviço Web.
+

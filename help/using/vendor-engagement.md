@@ -8,7 +8,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 172
 ht-degree: 0%
@@ -32,3 +32,4 @@ Nesta atividade, é importante identificar todos os principais fornecedores nece
 * Confirme a entrega *prazos de entrega* para todos os produtos. Crie um plano de implantação que acomode todos os lead times que funcionam retroativamente a partir de uma ou mais datas de instalação desejadas das primeiras instalações necessárias.
 
 Ao concluir todas as etapas anteriores, você deve ter um plano de implantação *Dia 1* abrangente pronto para execução.
+

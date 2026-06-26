@@ -26,7 +26,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 834
 ht-degree: 1%
@@ -164,3 +164,4 @@ Depois de definir as configurações necessárias para o seu projeto, siga as et
 1. Clique em **Visualizar**.
 
    ![imagem1](/help/user-guide/assets/text-overlay/text-overlay10.png)
+

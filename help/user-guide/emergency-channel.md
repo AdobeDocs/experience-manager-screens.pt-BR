@@ -22,7 +22,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 763
 ht-degree: 0%
@@ -202,3 +202,4 @@ Se houver uma emergência, execute as seguintes etapas:
 O **EmergencyChannel** continua a exibir seu conteúdo até que o Autor de Conteúdo redefina o Valor de Prioridade para 1.
 
 Quando o Autor de Conteúdo receber as instruções de que a emergência foi resolvida, ele deverá atualizar a prioridade do **MainAdChannel**. Isso faz com que a reprodução normal seja retomada.
+

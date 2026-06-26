@@ -15,9 +15,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1249
+source-wordcount: 1343
 ht-degree: 2%
 
 ---
@@ -40,9 +40,7 @@ Siga as etapas abaixo para criar um projeto de amostra para o AEM Screens e publ
 >O tutorial a seguir mostra a reprodução do conteúdo de seu canal em um reprodutor de SO Chrome.
 
 >[!IMPORTANT]
->**Configurações OSGi**
->Você deve habilitar o referenciador vazio para permitir que o dispositivo publique dados no servidor. Por exemplo, se a propriedade referenciador vazia estiver desativada, o dispositivo não poderá postar uma captura de tela. Atualmente, alguns desses recursos só estarão disponíveis se a opção `Apache Sling` Permitir Filtro de Referenciador Vazio estiver habilitada na Configuração OSGi. O painel pode exibir um aviso de que as configurações de segurança podem impedir que alguns desses recursos funcionem.
->Siga as etapas abaixo para habilitar a ***Permissão de Filtro de Referenciador do Apache Sling***:
+>**Configurações de OSGiVocê deve ativar o referenciador vazio para permitir que o dispositivo publique dados no servidor. Por exemplo, se a propriedade referenciador vazia estiver desativada, o dispositivo não poderá postar uma captura de tela. Atualmente, alguns desses recursos só estarão disponíveis se a opção `Apache Sling` Permitir Filtro de Referenciador Vazio estiver habilitada na Configuração OSGi. O painel pode exibir um aviso de que as configurações de segurança podem impedir que alguns desses recursos funcionem.Siga as etapas abaixo para habilitar a &#x200B;***Permissão de Filtro Referenciador Apache Sling***:
 
 
 ## Permitir Solicitações de Referenciador Vazias {#allow-empty-referrer-requests}
@@ -186,8 +184,7 @@ Quando a configuração do projeto for concluída, atribua o canal a uma exibiç
    Além disso, você pode clicar na **Janela de Ativação** e **Agenda de Recorrência**.
 
    >[!NOTE]
-   >O *Cronograma de Recorrência* permite que você defina um cronograma recorrente para o seu canal. Você pode configurar vários agendamentos de recorrência para um canal.
-   >Consulte [Agendamento de recorrência](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obter mais detalhes.
+   >O *Cronograma de Recorrência* permite que você defina um cronograma recorrente para o seu canal. Você pode configurar vários agendamentos de recorrência para um canal.   >Consulte [Agendamento de recorrência](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obter mais detalhes.
 
 1. Clique em **Salvar** depois de configurar suas preferências.
 
@@ -253,3 +250,4 @@ Todos os ativos em seu canal agora estão sendo reproduzidos no reprodutor de SO
 Parabéns! Agora você está reproduzindo conteúdo em um canal do AEM Screens.
 
 ![imagem](assets/kickstart/demo-video-screens.gif)
+

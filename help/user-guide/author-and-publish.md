@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1959
+source-wordcount: 2022
 ht-degree: 0%
 
 ---
@@ -155,8 +155,7 @@ Para qualquer uma das instâncias de publicação, navegue até `https://:/syste
 
 #### Etapa 3: Configurar Cluster AtiveMQ Artemis {#step-setup-activemq-artemis-cluster}
 
-Essa etapa permite criar uma senha criptografada para o cluster AtiveMQ Artemis.
-O usuário do cluster e a senha de todas as instâncias de Publicação na topologia devem ser idênticos. A senha da configuração do AtiveMQ Artemis deve ser criptografada. Como cada instância tem sua própria chave de criptografia, é necessário usar o Suporte de criptografia para criar uma cadeia de caracteres de senha criptografada. Em seguida, a senha criptografada pode ser usada na configuração OSGi para AtiveMQ.
+Essa etapa permite criar uma senha criptografada para o cluster AtiveMQ Artemis.O usuário do cluster e a senha de todas as instâncias de Publicação na topologia devem ser idênticos. A senha da configuração do AtiveMQ Artemis deve ser criptografada. Como cada instância tem sua própria chave de criptografia, é necessário usar o Suporte de criptografia para criar uma cadeia de caracteres de senha criptografada. Em seguida, a senha criptografada pode ser usada na configuração OSGi para AtiveMQ.
 
 Em cada instância de publicação:
 
@@ -170,7 +169,6 @@ Como cada instância de publicação, por padrão, tem chaves de criptografia ex
 >[!NOTE]
 >
 >A senha deve começar e terminar com chaves. Por exemplo:
->`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Etapa 4: Ativar Cluster Artemis AtiveMQ {#step-activate-activemq-artemis-cluster}
 

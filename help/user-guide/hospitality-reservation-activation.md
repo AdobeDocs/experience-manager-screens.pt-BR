@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 499
 ht-degree: 0%
@@ -97,3 +97,4 @@ Siga as etapas do caso de uso abaixo para implementar a ativação de reserva de
    1. Atualize o valor em **`Restaurant1`** e **`Restaurant2`** colunas. Se **`Restaurant1`** > **`Restaurant2`,** você poderá ver uma imagem de comida *Bife* do contrário, a imagem de comida *Tailandesa* será exibida em sua tela.
 
    ![resultado5](assets/result5.gif)
+

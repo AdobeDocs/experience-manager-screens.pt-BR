@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 488
 ht-degree: 0%
@@ -65,3 +65,4 @@ Siga estas considerações importantes em relação aos dados de conteúdo:
 * Em que formato são os dados?
 * Os dados estão todos presentes? Em caso negativo, que dados estão em falta e onde podem ser encontrados?
 * Com que frequência os dados são adicionados ou atualizados?
+

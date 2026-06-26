@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 532
+source-wordcount: 587
 ht-degree: 0%
 
 ---
@@ -28,8 +28,7 @@ Uma Configuração de rede pode ter várias estruturas. Esta seção descreve as
 Este guia destaca uma introdução aos servidores proxy, seguida pelas várias estruturas de rede configuradas em diferentes organizações.
 
 >[!NOTE]
->**Requisitos de Rede da AEM Screens**
->O AEM Screens se comunica diretamente com a AEM as a Cloud Service, portanto, é necessário estabelecer uma conexão estável entre os dois nós. Os firewalls são obrigatórios para o acesso comercial à Internet. Como cliente, compreenda quais portas de comunicação devem ser abertas nesses firewalls e outros componentes de rede relacionados à segurança da TI.
+>**Requisitos de rede da AEM ScreensO AEM Screens se comunica diretamente com a AEM as a Cloud Service, portanto, é necessário estabelecer uma conexão estável entre os dois nós. Os firewalls são obrigatórios para o acesso comercial à Internet. Como cliente, compreenda quais portas de comunicação devem ser abertas nesses firewalls e outros componentes de rede relacionados à segurança da TI.
 
 ## Visão geral para servidores proxy {#proxy-servers}
 
@@ -58,3 +57,4 @@ A tabela a seguir descreve os diferentes tipos de configurações de rede com va
 | **Rede móvel direta** | Fácil de configurar<br>Boa opção para instalações de médio ou grande porte<br>Boa escalabilidade<br>Encapsulated Screens | Conexão obrigatória com a Internet |
 | **Rede Móvel com Roteador de Dados Móveis e Componentes de Rede Ativos** | Fácil de configurar<br>Boa opção para instalações de médio ou grande porte<br>A rede dedicada pode ser encapsulada<br>Alguns pontos de falha<br>Relativamente barato<br>Boa escalabilidade | Plano de dados de Internet obrigatório |
 | **Rede Corporativa Fechada (Com Fio/Sem Fio)** | Alta flexibilidade e escalabilidade<br>Altamente Seguro devido a Diferentes Linhas de Defesa<br>Redes Encapsuladas<br>Fácil de Monitorar e Manter<br>Confiável | Complicado e caro<br>Recomendado para especialistas em rede ou integradores de sistemas |
+

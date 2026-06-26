@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 910
 ht-degree: 0%
 
 ---
@@ -71,9 +71,7 @@ A tabela a seguir destaca as redes de dados com sua largura de banda padrão:
 
 Ao considerar qual rede de dados deve ser usada, considere o seguinte:
 
-A velocidade da rede disponível depende do plano específico do provedor de dados móveis e da cobertura disponível que é atingida no local do controlador do AEM Screens.
-Ao seguir essa configuração, considere que além da largura de banda disponível, alguns Planos do provedor de dados móveis limitam a quantidade disponível de dados que chegam através da conexão em um tempo específico. Deve-se garantir que haja capacidade suficiente nas quantidades de dados e largura de banda.
-Como acompanhamento, o pacote de dados necessário deve ser pelo menos:
+A velocidade da rede disponível depende do plano específico do provedor de dados móveis e da cobertura disponível que é atingida no local do controlador do AEM Screens.Ao seguir essa configuração, considere que além da largura de banda disponível, alguns Planos do provedor de dados móveis limitam a quantidade disponível de dados que chegam através da conexão em um tempo específico. Deve-se garantir que haja capacidade suficiente nas quantidades de dados e largura de banda.Como acompanhamento, o pacote de dados necessário deve ser pelo menos:
 
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
@@ -106,3 +104,4 @@ A tabela a seguir fornece uma visão geral dos dados principais de conectividade
 >Todas as informações se referem ao consumo de cada dispositivo na rede que solicita e faz o download de uma fonte da Internet. Cada uma dessas solicitações adiciona e estende o Tempo de download.
 
 ![](/help/using/assets/download-times-mobile.png)
+

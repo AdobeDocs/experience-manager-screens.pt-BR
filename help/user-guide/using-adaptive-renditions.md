@@ -8,9 +8,9 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 601
+source-wordcount: 630
 ht-degree: 0%
 
 ---
@@ -29,8 +29,7 @@ As representações adaptáveis permitem que os dispositivos cliquem na melhor r
 
 ## Objetivo {#objective}
 
-Como um Autor de conteúdo do AEM Screens, agora você pode configurar representações de ativos específicas do dispositivo para serem baixadas e reproduzidas automaticamente sem precisar criar todas as variações de conteúdo manualmente.
-Depois que um Desenvolvedor adicionar as propriedades e regras do mapeamento de representação, você estará pronto para aplicar o mapeamento de representação aos ativos e incluí-los em um canal do AEM Screens.
+Como um Autor de conteúdo do AEM Screens, agora você pode configurar representações de ativos específicas do dispositivo para serem baixadas e reproduzidas automaticamente sem precisar criar todas as variações de conteúdo manualmente.Depois que um Desenvolvedor adicionar as propriedades e regras do mapeamento de representação, você estará pronto para aplicar o mapeamento de representação aos ativos e incluí-los em um canal do AEM Screens.
 
 >[!IMPORTANT]
 >Antes de começar a usar Representações adaptáveis em um canal do AEM Screens, a Adobe recomenda que você saiba mais sobre a Visão geral e a configuração da arquitetura desse recurso. Consulte [Representações adaptáveis: visão geral e configurações da arquitetura](/help/user-guide/adaptive-renditions.md).
@@ -79,3 +78,4 @@ Para ativar o recurso, adicione pelo menos uma regra de mapeamento e verifique s
 
    >[!NOTE]
    >Após concluir a migração, remova todas as referências de configuração de canais, exibições e locais e adicione uma única ao nó de conteúdo do projeto.
+

@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 824
+source-wordcount: 1114
 ht-degree: 0%
 
 ---
@@ -26,8 +26,7 @@ Os Adobe AEM Screens Players também podem ser conectados usando redes móveis o
 
 No AEM Screens, o conteúdo necessário é baixado fisicamente para o controlador do player ou computador e armazenado corretamente no sistema operacional subjacente. Portanto, a largura de banda fornecida afeta apenas os tempos de download iniciais e as atualizações de conteúdo, e não influencia o desempenho da reprodução regular de Exibições.
 
-A vantagem dessa configuração é que o roteador móvel pode ser colocado em um ponto otimizado para garantir a melhor cobertura de rede disponível. Este ponto é geralmente em uma posição elevada e aberta, com o menor número possível de estruturas de concreto ou metal circundantes.
-Essa configuração oferece flexibilidade aos usuários do AEM Screen, pois não é necessário um telefone fixo para se conectar ao AEM Screens. Também é interessante para configurações efêmeras ou móveis.
+A vantagem dessa configuração é que o roteador móvel pode ser colocado em um ponto otimizado para garantir a melhor cobertura de rede disponível. Este ponto é geralmente em uma posição elevada e aberta, com o menor número possível de estruturas de concreto ou metal circundantes.Essa configuração oferece flexibilidade aos usuários do AEM Screen, pois não é necessário um telefone fixo para se conectar ao AEM Screens. Também é interessante para configurações efêmeras ou móveis.
 
 O diagrama a seguir mostra a configuração Rede móvel com o roteador de dados móveis e os componentes de rede ativos. Ele contém um acesso de Internet de qualquer uma das controladoras AEM Screens por acesso direto à Internet usando um próprio link de dados 3/4/5G.
 
@@ -68,9 +67,7 @@ A configuração de rede pode ser logicamente separada em dois blocos:
 
 O desempenho da conexão com a Internet, além da acessibilidade de rede já descrita, tem de fornecer largura de banda suficiente para fazer downloads de conteúdo do AEM Screens sem problemas.
 
-*Suficiente* depende do número de dispositivos AEM Screens conectados. Também depende do uso de outros consumidores na rede, como Smartphones, Tablets, Caixas, Computadores ou redes Wi-Fi Guest.
-Lembre-se de que todos os dispositivos têm acesso simultâneo à conexão com a Internet e a largura de banda está diminuindo linearmente enquanto acrescenta mais consumidores/computadores à rede.
-Além da conexão de rede teórica específica, é necessário garantir que a cobertura do roteador móvel seja de pelo menos *boa*. Além disso, o plano mensal subjacente deve cobrir capacidade de dados suficiente e largura de banda suficiente para atender a todos os clientes conectados na LAN conectada.
+*Suficiente* depende do número de dispositivos AEM Screens conectados. Também depende do uso de outros consumidores na rede, como Smartphones, Tablets, Caixas, Computadores ou redes Wi-Fi Guest.Lembre-se de que todos os dispositivos têm acesso simultâneo à conexão com a Internet e a largura de banda está diminuindo linearmente enquanto acrescenta mais consumidores/computadores à rede.Além da conexão de rede teórica específica, é necessário garantir que a cobertura do roteador móvel seja de pelo menos *boa*. Além disso, o plano mensal subjacente deve cobrir capacidade de dados suficiente e largura de banda suficiente para atender a todos os clientes conectados na LAN conectada.
 
 A tabela a seguir destaca as redes de dados com sua largura de banda padrão:
 
@@ -106,13 +103,11 @@ Caso uma solução Wi-Fi esteja planejada para conectar a tela ao Link de Intern
 
 ## Download de mídia e Assets {#download}
 
-O AEM Screens oferece uma vantagem significativa aos usuários de sinalização digital. Ele baixa e salva localmente todos os arquivos de mídia necessários, como Imagens e Vídeo. Devido a esse conceito, o maior tráfego de rede está ocorrendo no caso de haver novo conteúdo a ser exibido em uma tela específica.
-Para operação normal, tendo uma lista de reprodução definida que não é atualizada frequentemente, ele oferece operação quase independente de rede quando todos os arquivos são salvos no reprodutor.
-Para casos de uso em que há mais interações com Sensores ou outros Acionadores e o conteúdo é dinâmico, uma conexão de rede rápida e confiável é essencial para uma reação imediata da tela. Ele garante a melhor experiência possível do cliente.
-As tabelas a seguir oferecem uma boa visão geral do que os dados principais de conectividade de rede significam para o desempenho que pode ser esperado e os possíveis tempos de espera.
+O AEM Screens oferece uma vantagem significativa aos usuários de sinalização digital. Ele baixa e salva localmente todos os arquivos de mídia necessários, como Imagens e Vídeo. Devido a esse conceito, o maior tráfego de rede está ocorrendo no caso de haver novo conteúdo a ser exibido em uma tela específica.Para operação normal, tendo uma lista de reprodução definida que não é atualizada frequentemente, ele oferece operação quase independente de rede quando todos os arquivos são salvos no reprodutor.Para casos de uso em que há mais interações com Sensores ou outros Acionadores e o conteúdo é dinâmico, uma conexão de rede rápida e confiável é essencial para uma reação imediata da tela. Ele garante a melhor experiência possível do cliente.As tabelas a seguir oferecem uma boa visão geral do que os dados principais de conectividade de rede significam para o desempenho que pode ser esperado e os possíveis tempos de espera.
 
 >[!NOTE]
 >
 >Todas as informações se referem ao consumo de cada dispositivo na rede que solicita e faz o download de uma fonte da Internet. Cada uma dessas solicitações adiciona e estende o Tempo de download.
 
 ![](/help/using/assets/mobile-router-download.png)
+

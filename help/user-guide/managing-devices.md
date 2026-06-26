@@ -24,9 +24,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 251
+source-wordcount: 288
 ht-degree: 1%
 
 ---
@@ -79,12 +79,11 @@ Siga as etapas abaixo para atribuir um dispositivo a uma exibição:
 
 >[!NOTE]
 >
->Toda vez que o primeiro dispositivo é adicionado a um novo projeto do Screens, um grupo de usuários é criado.
->Por exemplo, se o nome do nó do projeto for *we-retail*, o nome do grupo de usuários será *screens-we-retail-devices*.
->Este grupo foi adicionado como membro do grupo **Colaboradores**, conforme mostrado na figura abaixo:
+>Toda vez que o primeiro dispositivo é adicionado a um novo projeto do Screens, um grupo de usuários é criado.Por exemplo, se o nome do nó do projeto for *we-retail*, o nome do grupo de usuários será *screens-we-retail-devices*.Este grupo é adicionado como membro do grupo **Contribuidores**, conforme mostrado na figura abaixo:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 
 ### Próximas etapas {#the-next-steps}
 
 Depois de conhecer a atribuição de canal a uma exibição, consulte t[Monitorar e solucionar problemas](monitoring-screens.md).
+

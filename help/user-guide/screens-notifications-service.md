@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 538
 ht-degree: 0%
@@ -128,3 +128,4 @@ Você definiu a frequência de agendamento como 1:00 A.M. e o tempo limite de pi
 **Cenário 2**
 
 Você define a frequência de agendamento como 1 e o tempo limite de ping como 60. Em seguida, se o dispositivo AEM Screens não executar ping de uma vez em nenhum momento específico do dia, você receberá uma notificação por email que confirma a inatividade do dispositivo.
+

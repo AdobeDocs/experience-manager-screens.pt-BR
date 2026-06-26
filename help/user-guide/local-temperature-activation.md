@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 500
 ht-degree: 0%
@@ -108,3 +108,4 @@ Siga as etapas abaixo para implementar o caso de uso de Ativação de temperatur
    1. Altere o valor para menos de 50. Você pode ver uma imagem de uma bebida fria. Se o valor no Google Sheets for 50 ou superior, você deverá ver uma imagem de uma bebida quente.
 
    ![resultado3](assets/result3.gif)
+

@@ -13,7 +13,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 488
 ht-degree: 0%
@@ -48,3 +48,4 @@ ht-degree: 0%
 **Canal de sequência** - Um Canal de sequência é uma página que você pode criar contendo componentes que mostram um por um em uma apresentação de slides.
 
 **Zonas** - As zonas são a segmentação de exibições usadas como entidades endereçáveis primárias para canais. Nos casos em que as exibições abrangem várias telas, é vantajoso definir as zonas para corresponder às dimensões da tela, especialmente se as telas mostrarem uma borda física proeminente.
+

@@ -21,7 +21,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 536
 ht-degree: 0%
@@ -84,3 +84,4 @@ Siga o tutorial abaixo para entender exatamente como cada parte faz parte da imp
 Quando você entender as funções e responsabilidades do projeto ao implementar um projeto de sinalização digital, siga o próximo tutorial. Ele se aprofunda em tópicos como testes e considerações pré-vendas, à medida que o projeto é dimensionado ao desenvolver oportunidades para o AEM Screens.
 
 Navegue até **[Parte 2: Considerações sobre o Escopo dos Projetos](project-considerations.md)** para obter mais detalhes.
+

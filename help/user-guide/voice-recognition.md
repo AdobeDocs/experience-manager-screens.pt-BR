@@ -22,9 +22,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1132
+source-wordcount: 1147
 ht-degree: 2%
 
 ---
@@ -93,8 +93,7 @@ Antes de usar um recurso de reconhecimento de voz, verifique se você tem um pro
 
    ![imagem](assets/voice-recognition/vr-2.png)
 
-   Se você adicionou o canal de Divisão do Screens ao seu projeto, navegue até **SplitScreen** e arraste e solte duas sequências inseridas. Adicione caminhos aos canais **ColdDrinks** e **HotDrinks** conforme mostrado na figura abaixo.
-   ![imagem](assets/voice-recognition/vr-emb-6.png)
+   Se você adicionou o canal de Divisão do Screens ao seu projeto, navegue até **SplitScreen** e arraste e solte duas sequências inseridas. Adicione caminhos aos canais **ColdDrinks** e **HotDrinks** conforme mostrado na figura abaixo.   ![imagem](assets/voice-recognition/vr-emb-6.png)
 
 
 ### Configuração de tags para canais {#setting-tags}
@@ -204,3 +203,4 @@ Da mesma forma, se você usar uma palavra com a palavra-chave **cold**, como *Go
 **Saída Desejada para o Canal Dividido do Screens**
 
 O canal **Principal** está reproduzindo seu conteúdo. No entanto, quando você usa palavras com a palavra-chave **hot** e **cold** juntas, como *Eu gostaria de ver o menu de bebidas quentes e frias*, o canal reproduz o conteúdo do canal **SplitScreen**. Se você retornar *ao menu principal*, ele será revertido para o canal **Principal**.
+

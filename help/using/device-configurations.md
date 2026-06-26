@@ -8,7 +8,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 258
 ht-degree: 0%
@@ -48,3 +48,4 @@ Com base nas informações coletadas durante o *Dia Zero*, confirme as seguintes
 >[!NOTE]
 >
 >Também é importante validar as especificações do hardware selecionado para garantir que ele possa dar suporte ao aplicativo que está sendo desenvolvido. Por exemplo, se o aplicativo tiver a intenção de executar cinco vídeos de alta definição ao mesmo tempo, o hardware suporta esse recurso?
+

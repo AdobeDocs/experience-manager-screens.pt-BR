@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 266
 ht-degree: 0%
@@ -54,3 +54,4 @@ Monitoramento de dispositivo relacionado ao monitoramento do dispositivo físico
    * Verifique se a *exibição* está ativada.
    * Verifique se o *computador* está ligado e enviando um sinal.
    * Clique com o botão direito do mouse, inspecione e verifique *logs aplicáveis*.
+

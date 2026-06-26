@@ -20,9 +20,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1464
+source-wordcount: 1494
 ht-degree: 2%
 
 ---
@@ -201,8 +201,7 @@ A Janela de Ativação permite selecionar uma **Data de início** e uma **Data d
 O Cronograma recorrente permite que você defina um cronograma recorrente para o seu conteúdo. Clique em **+ Adicionar Agendamento** para adicionar um Agendamento de Recorrência ao seu canal.
 
 >[!NOTE]
->Você pode adicionar vários agendamentos recorrentes ao seu canal.
->Agendamentos de Recorrência introduz *DayParting*. Você define um agendamento global com vários canais sendo executados em horários específicos do dia e reutiliza esse agendamento configurado para todas as suas exibições de uma só vez.
+>Você pode adicionar vários agendamentos recorrentes ao seu canal.Os Agendamentos de Recorrência apresentam *DayParting*. Você define um agendamento global com vários canais sendo executados em horários específicos do dia e reutiliza esse agendamento configurado para todas as suas exibições de uma só vez.
 
 É possível definir as seguintes opções:
 
@@ -243,3 +242,4 @@ Este exemplo mostra o DayParting implementado em um cassino em que o evento ao v
 >[!NOTE]
 >
 >Além disso, você pode definir a ***Prioridade*** para cada um dos canais. Por exemplo, se dois canais forem definidos para o mesmo dia e hora ou para o mesmo mês, o canal com prioridade mais alta será reproduzido primeiro. O valor mínimo de prioridade pode ser definido como 0.
+

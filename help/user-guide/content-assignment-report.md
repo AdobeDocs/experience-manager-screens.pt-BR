@@ -17,9 +17,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 397
+source-wordcount: 404
 ht-degree: 2%
 
 ---
@@ -40,8 +40,7 @@ O Relatório de atribuição de conteúdo não só permite uma pré-visualizaç�
 
 ### Pré-requisitos {#pre-reqs}
 
-Antes de baixar o Relatório de atribuição de conteúdo, configure um projeto do AEM Screens com canais, locais e dispositivos.
-Consulte os seguintes recursos para obter mais detalhes:
+Antes de baixar o Relatório de atribuição de conteúdo, configure um projeto do AEM Screens com canais, locais e dispositivos.Consulte os seguintes recursos para obter mais detalhes:
 
 1. [Criação e gerenciamento de projetos](/help/user-guide/creating-a-screens-project.md)
 1. [Criação e gerenciamento de canais](/help/user-guide/managing-channels.md)
@@ -76,3 +75,4 @@ Siga as instruções abaixo para baixar o Relatório de atribuição de conteúd
 1. Selecionar qualquer um dos canais na coluna **Canais** abre a guia **Conteúdo**. Por sua vez, ele navega diretamente para esse canal e fornece informações sobre ativos (imagens e vídeos) associados a esse canal específico.
 
    ![imagem](/help/user-guide/assets/content-assignment-report/report-sheet2.png)
+

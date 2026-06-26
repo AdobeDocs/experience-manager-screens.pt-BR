@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 703
 ht-degree: 0%
@@ -108,3 +108,4 @@ Siga o tutorial abaixo para saber mais sobre a estratégia de conteúdo, camadas
 Entenda os elementos identificados durante a descoberta do projeto, juntamente com as contribuições das partes interessadas para avaliar o projeto e preparar um design apropriado. Saiba mais sobre os termos principais envolvidos em um plano geral do projeto. Esses termos incluem ciclo do projeto, ações relacionadas a testes de hardware, Prova de conceito, pilotos e implantações.
 
 Navegue até **[Testes, POCs, Pilotos e implantações](testing-pocs-pilots-rollouts.md)** para obter mais detalhes.
+

@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 758
 ht-degree: 6%
@@ -52,3 +52,4 @@ Para saber mais sobre as noções básicas de um projeto AEM Screens, consulte o
    * *[Parte 3: Testes, POCs, Pilotos e implantações](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/digital-signage-network/testing-pocs-pilots-rollouts)*: destaca a parte 3 de uma série de 5 partes projetada para ajudar os membros da equipe a entender melhor os termos principais. Esses termos são essenciais para garantir que uma solução bem-sucedida seja desenvolvida antes de uma implantação. Aborda ações relacionadas a testes de laboratório de hardware e validação de desempenho, provas de conceito (também chamadas de POCs) e programas piloto.
    * *[Parte 4: Gerenciamento e Implantação de Projetos](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)*: destaca a parte 4 de uma série de 5 partes projetada para abranger o gerenciamento de projetos e a preparação da implantação. Ele também define os principais fatores pelos quais o Integrador de áudio e vídeo é responsável, relacionados ao gerenciamento de projetos e à preparação de implantação. Abrange a pré-produção, o início e a progressão do projeto.
    * *[Parte 5: Considerações de Suporte](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/digital-signage-network/support-considerations)*: destaca a parte de conclusão de uma série de 5 partes projetada para ajudar os membros da equipe a saber como os problemas de hardware, software e conectividade são abordados. Essa fase explora estimativas de custos e estruturas para suporte no local. Ele também explica como os parâmetros do SLA, os orçamentos operacionais e as transferências de NOC são gerenciados.
+

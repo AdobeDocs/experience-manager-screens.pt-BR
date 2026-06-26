@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 543
+source-wordcount: 592
 ht-degree: 4%
 
 ---
@@ -72,8 +72,7 @@ Instale e execute as versões mais recentes dos seguintes pacotes para a sua ver
 * AEM Cumulative Fix Pack
 
 Além do exposto acima, identifique quaisquer pacotes de desenvolvimento (por exemplo, WCM Core
-componentes) ou kits de ferramentas de terceiros (por exemplo, SAP Hybris) necessários.
-Instale os mesmos pacotes de software no ambiente de desenvolvimento local. Instrua seu cliente a adotar a mesma configuração em todos os servidores de controle de qualidade, Preparo e Produção. Configurações de servidor incompatíveis criam problemas ao implantar e testar.
+componentes) ou kits de ferramentas de terceiros (por exemplo, SAP Hybris) necessários.Instale os mesmos pacotes de software no ambiente de desenvolvimento local. Instrua seu cliente a adotar a mesma configuração em todos os servidores de controle de qualidade, Preparo e Produção. Configurações de servidor incompatíveis criam problemas ao implantar e testar.
 
 >[!NOTE]
 >
@@ -84,3 +83,4 @@ Instale os mesmos pacotes de software no ambiente de desenvolvimento local. Inst
 A configuração de ACLs explica como segregar projetos para que cada indivíduo ou equipe lide com seu próprio projeto.
 
 Consulte [Configurando ACLs](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/setting-up-acls) para obter mais detalhes.
+

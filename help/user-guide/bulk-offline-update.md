@@ -24,7 +24,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 336
 ht-degree: 0%
@@ -95,3 +95,4 @@ Siga as etapas abaixo para usar a atualização em massa offline para um projeto
    **Frequência de Agendamento** - Especifica uma hora, por exemplo, 17:00 ou 17:00 em que esse serviço deve atualizar o conteúdo offline.
 
 1. Clique em **Salvar** para salvar suas configurações. Seu conteúdo é atualizado no horário especificado.
+

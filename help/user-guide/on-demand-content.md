@@ -18,9 +18,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 835
+source-wordcount: 872
 ht-degree: 0%
 
 ---
@@ -63,9 +63,7 @@ Siga as etapas abaixo para fornecer atualizações de conteúdo do autor para a 
 
    **Entender a caixa de diálogo Incluir Filhos**
 
-   As etapas mencionadas acima mostram como você pode publicar todo o conteúdo. Caso deseje usar as outras três alternativas disponíveis, é necessário marcar essa opção específica.
-Por exemplo, a imagem a seguir mostra como é possível gerenciar e atualizar somente as páginas modificadas no seu projeto:
-   ![imagem](assets/author-publish-manage.png)
+   As etapas mencionadas acima mostram como você pode publicar todo o conteúdo. Caso deseje usar as outras três alternativas disponíveis, é necessário marcar essa opção específica.Por exemplo, a imagem a seguir mostra como é possível gerenciar e atualizar somente as páginas modificadas no seu projeto:   ![imagem](assets/author-publish-manage.png)
 
    Siga as explicações abaixo para entender as opções disponíveis:
 
@@ -143,3 +141,4 @@ Siga as etapas abaixo para fornecer atualizações de conteúdo de Autor > Publi
 Se você tiver reatribuído um dispositivo, publique a exibição inicial e a nova exibição, uma vez que o dispositivo tenha sido reatribuído à nova exibição.
 
 Da mesma forma, se você tiver reatribuído um canal, publique a exibição inicial e a nova exibição depois que o canal for reatribuído à nova exibição.
+

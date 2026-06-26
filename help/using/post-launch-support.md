@@ -8,10 +8,10 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 396
-ht-degree: 0%
+source-wordcount: 436
+ht-degree: 3%
 
 ---
 
@@ -22,8 +22,7 @@ ht-degree: 0%
 
 Não ignore o suporte pós-lançamento no estágio inicial.
 
-Garantir que os sites recebam o suporte adequado do fornecedor de hardware é fundamental para as operações comerciais. O **Integrador de Áudio-Vídeo** deve trabalhar em estreita colaboração com as partes interessadas e identificar os requisitos necessários de diferentes aspectos.
-Considere os seguintes requisitos durante o suporte pós-lançamento:
+Garantir que os sites recebam o suporte adequado do fornecedor de hardware é fundamental para as operações comerciais. O **Integrador de Áudio-Vídeo** deve trabalhar em estreita colaboração com as partes interessadas e identificar os requisitos necessários de diferentes aspectos.Considere os seguintes requisitos durante o suporte pós-lançamento:
 
 * gerenciamento remoto de dispositivos
 * disponibilidade do centro de suporte
@@ -45,7 +44,6 @@ Além disso, para se preparar para o sucesso a longo prazo, é fundamental estab
 Algumas considerações e perguntas que ajudam a definir o suporte pós-lançamento:
 
 1. A implantação é uma rede Advertising com muitas partes interessadas vinculadas a uma rede monetizada? Essa situação pode ditar intervalos de tempo de resolução mais curtos em comparação a uma rede de comunicações corporativas.
- 
    >[!NOTE]
    >
    >Determina intervalos de tempo de resolução mais curtos em comparação a uma rede de comunicações corporativas.
@@ -69,3 +67,4 @@ Algumas considerações e perguntas que ajudam a definir o suporte pós-lançame
 1. Quais de seus locais de varejo exigem monitoramento 24 horas por dia, 7 dias por semana?
 
 1. As exibições fazem parte da sua empresa? (ou seja, configuração do carro, alertas de vendas)
+

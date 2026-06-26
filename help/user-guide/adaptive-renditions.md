@@ -8,9 +8,9 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 703
+source-wordcount: 718
 ht-degree: 3%
 
 ---
@@ -53,8 +53,7 @@ Siga as etapas abaixo para configurar a configuração:
    >![imagem](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Se você instalou o Feature Pack 202109 mais recente, verá a estrutura do nó **rendition-mapping** pré-preenchida em `/conf/screens/sling:configs/rendition-mapping` no CRXDE Lite. Consulte as [Notas de versão do Pacote de recursos 202109](/help/user-guide/release-notes-fp-202109.md) para obter detalhes sobre o Pacote de recursos mais recente.
-   >Para projetos existentes, verifique se o projeto Screens tem a configuração **rendition-mapping** associada. Consulte a seção [Adicionando o mapeamento de representação a um projeto existente](#rendition-mapping-existing) para obter mais informações.
+   >Se você instalou o Feature Pack 202109 mais recente, verá a estrutura do nó **rendition-mapping** pré-preenchida em `/conf/screens/sling:configs/rendition-mapping` no CRXDE Lite. Consulte as [Notas de Versão do Pacote de Recursos 202109](/help/user-guide/release-notes-fp-202109.md) para obter detalhes sobre o Pacote de Recursos mais recente.   >Para projetos existentes, verifique se o projeto Screens tem a configuração **rendition-mapping** associada. Consulte a seção [Adicionando o mapeamento de representação a um projeto existente](#rendition-mapping-existing) para obter mais informações.
 
 ### Adicionar a propriedade de mapeamento de representação a um projeto existente {#rendition-mapping-existing}
 
@@ -104,3 +103,4 @@ Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
 ## Próximas etapas {#next-steps}
 
 Depois de adicionar propriedades e regras de mapeamento de representação, como um Autor de conteúdo, você pode configurar os ativos. Você pode usar Representações adaptáveis e também migrar seus dispositivos para redes grandes para usar esse recurso em seus canais do AEM Screens. Consulte [Uso de representações adaptáveis no AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obter mais informações.
+
