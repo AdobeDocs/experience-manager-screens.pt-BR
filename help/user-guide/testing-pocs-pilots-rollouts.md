@@ -34,7 +34,7 @@ ht-degree: 0%
 # Parte 3: Testes, POCs, pilotos e implantações {#part-testing-pocs-pilots-rollouts}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Esta página destaca a parte 3 de uma série de 5 partes, projetada para ajudar os membros da equipe a entender melhor os termos principais essenciais para garantir que uma solução bem-sucedida possa ser desenvolvida antes de uma implantação.
 

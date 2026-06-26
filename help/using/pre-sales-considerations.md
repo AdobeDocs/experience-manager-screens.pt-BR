@@ -22,7 +22,7 @@ ht-degree: 0%
 # Considerações quanto ao escopo dos projetos {#pre-sales-considerations}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >Uma parte interessada típica dessa atividade é um estrategista de marketing/negócios.
@@ -43,5 +43,5 @@ Os principais resultados incluem:
 >
 >Identifique os dados necessários para o aplicativo e sua origem o mais rápido possível. Uma exploração mais profunda ocorre durante a implementação. No entanto, reserve um tempo durante o *Dia Zero* para descobrir quais dados o cliente pretende usar. Descubra onde esses dados estão armazenados atualmente e como o aplicativo que está sendo criado pode acessá-los. Notificar a equipe de desenvolvimento antes que surjam desafios ajuda a tornar uma implementação mais tranquila.
 
-Assista ao vídeo [Considerações quanto ao Escopo dos Projetos](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).
+Assista ao vídeo [Considerações quanto ao Escopo dos Projetos](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).
 

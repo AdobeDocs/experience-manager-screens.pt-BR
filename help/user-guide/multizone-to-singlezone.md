@@ -31,7 +31,7 @@ ht-degree: 1%
 ## Descrição do caso de uso {#use-case-description}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Esta seção descreve um exemplo de caso de uso que enfatiza como configurar um canal de layout de várias zonas que se alterna com um canal de layout de zona única. O canal multizona tem ativos de imagem/vídeo de sequenciamento e mostra como você pode configurar um projeto que se alterna de multizona para zona única e vice-versa.
 

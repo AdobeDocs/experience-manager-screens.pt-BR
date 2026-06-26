@@ -36,7 +36,7 @@ Ao configurar uma exibição, atribua um canal a uma exibição para visualizar 
 
 Esta página mostra como atribuir um canal à exibição.
 
-Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >É possível atribuir vários canais a uma exibição.
@@ -191,6 +191,6 @@ Este exemplo mostra o DayParting para uma loja que exibe sua coleção de invern
 >
 > Para saber mais sobre DayParting, consulte as seções abaixo:
 >
->* [Manipulando recorrência no Assets](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [Manipulando a recorrência da Assets em um canal](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [Manipulando recorrência no Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [Manipulando a recorrência da Assets em um canal](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
 

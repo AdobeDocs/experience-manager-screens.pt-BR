@@ -35,7 +35,7 @@ ht-degree: 0%
 # Layout de várias zonas {#multi-zone-layout}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 A página seguinte descreve o uso do layout de várias zonas e aborda os seguintes tópicos:
 
@@ -58,8 +58,8 @@ De acordo com os requisitos do projeto, às vezes você precisa de várias zonas
 
 Antes de começar a implementar essa funcionalidade, verifique se você tem o conhecimento conceitual sobre:
 
-* [Criação de um projeto do AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [Criação de uma exibição](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [Criação de um projeto do AEM Screens](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [Criação de uma exibição](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [Atribuição de um Canal a uma Exibição](/help/user-guide/channel-assignment.md)
 
 ## Criação de layout de várias zonas {#creating-multi-zone-layout}
