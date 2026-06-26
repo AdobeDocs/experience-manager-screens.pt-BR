@@ -3,16 +3,12 @@ title: Rede móvel direta
 description: Saiba mais sobre a configuração de rede móvel direta no AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
 TQID: https://experienceleague.adobe.com/nesp1a9TVyKUBaWjPR8bzW6n2dGyVVme1p5469h92LA
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 910
 ht-degree: 0%
 
 ---
@@ -20,7 +16,7 @@ ht-degree: 0%
 # Rede móvel direta {#mobile-network-setup}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Os players da AEM Screens também podem ser conectados usando redes móveis ou celulares executando pelo menos uma rede 3G.
 
@@ -71,9 +67,7 @@ A tabela a seguir destaca as redes de dados com sua largura de banda padrão:
 
 Ao considerar qual rede de dados deve ser usada, considere o seguinte:
 
-A velocidade da rede disponível depende do plano específico do provedor de dados móveis e da cobertura disponível que é atingida no local do controlador do AEM Screens.
-Ao seguir essa configuração, considere que além da largura de banda disponível, alguns Planos do provedor de dados móveis limitam a quantidade disponível de dados que chegam através da conexão em um tempo específico. Deve-se garantir que haja capacidade suficiente nas quantidades de dados e largura de banda.
-Como acompanhamento, o pacote de dados necessário deve ser pelo menos:
+A velocidade da rede disponível depende do plano específico do provedor de dados móveis e da cobertura disponível que é atingida no local do controlador do AEM Screens.Ao seguir essa configuração, considere que além da largura de banda disponível, alguns Planos do provedor de dados móveis limitam a quantidade disponível de dados que chegam através da conexão em um tempo específico. Deve-se garantir que haja capacidade suficiente nas quantidades de dados e largura de banda.Como acompanhamento, o pacote de dados necessário deve ser pelo menos:
 
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
@@ -106,3 +100,4 @@ A tabela a seguir fornece uma visão geral dos dados principais de conectividade
 >Todas as informações se referem ao consumo de cada dispositivo na rede que solicita e faz o download de uma fonte da Internet. Cada uma dessas solicitações adiciona e estende o Tempo de download.
 
 ![](/help/using/assets/download-times-mobile.png)
+

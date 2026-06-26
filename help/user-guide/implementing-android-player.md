@@ -11,21 +11,14 @@ role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
 TQID: https://experienceleague.adobe.com/1vHr2YOQgczQlho8xJd9uV7k8Xh3qIu99C7IfRi6bzo
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1579
+source-wordcount: 1600
 ht-degree: 0%
 
 ---
@@ -33,7 +26,7 @@ ht-degree: 0%
 # Implementação do Android™ Player {#implementing-android-player}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!CAUTION]
 >O AEM Screens Player baseado em Android foi oficialmente descontinuado. Os usuários são aconselhados a migrar para outro sistema operacional compatível com o AEM Screens.
@@ -136,8 +129,7 @@ Ao implantar o reprodutor da Android™ em massa, é necessário provisionar o r
 
 Siga as etapas abaixo para permitir o provisionamento em massa no reprodutor Android™:
 
-1. Crie um arquivo JSON de configuração com o nome `player-config.default.json`.
-Consulte um [Exemplo de Política JSON](#example-json) e uma tabela que descreve o uso dos vários [Atributos de Política](#policy-attributes).
+1. Crie um arquivo JSON de configuração com o nome `player-config.default.json`.Consulte um [Exemplo de Política JSON](#example-json) e uma tabela que descreve o uso dos vários [Atributos de Política](#policy-attributes).
 
 1. Use um explorador de arquivos MDM, ADB ou Android™ Studio para soltar este arquivo JSON de política na pasta *sdcard* no dispositivo Android™.
 
@@ -224,3 +216,4 @@ Além disso, verifique com o fornecedor de EMM o suporte ao AppConfig. Os mais p
 ### Usar o controle remoto do Screens {#using-remote-control}
 
 O AEM Screens oferece a funcionalidade de Controle remoto. Saiba mais sobre este recurso aqui: [Controle Remoto do Screens](implementing-remote-control.md)
+

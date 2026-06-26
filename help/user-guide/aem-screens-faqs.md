@@ -6,23 +6,14 @@ role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
 TQID: https://experienceleague.adobe.com/7M-3FuDthc-4z4OSHp49eL7QHWvt1acjKfA7C1BGWy0
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 2246
+source-wordcount: 2299
 ht-degree: 1%
 
 ---
@@ -30,7 +21,7 @@ ht-degree: 1%
 # Perguntas frequentes sobre o AEM Screens {#aem-screens-faqs}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Este tópico fornece respostas para as perguntas frequentes relacionadas a um projeto do AEM Screens.
 
@@ -185,7 +176,7 @@ Siga as etapas abaixo para solucionar problemas com um AEM Screens Player que en
 
 1. Verifique se a configuração do Dispatcher permite essas solicitações no `/filters`.
 
-   Consulte [Configurando Filtros do Screens](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters) para obter mais detalhes.
+   Consulte [Configurando Filtros do Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters) para obter mais detalhes.
 
 1. Verifique se as regras de regravação do Dispatcher estão regravando qualquer um dos caminhos da tela em um caminho diferente.
 
@@ -231,8 +222,7 @@ Desative o Livefyre para evitar erros de registro ao fazer o seguinte.
 
 ### &#x200B;2. Como adicionar informações de índice do Oak? {#add-oak-index-info}
 
-O AEM Screens cria definições de índice para as consultas usadas pelo produto.
-Se houver *AVISOS de Travessia de Consulta* em `error.log`, crie um índice personalizado para sua consulta. Consulte [Configurando os Índices](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) para obter mais detalhes.
+O AEM Screens cria definições de índice para as consultas usadas pelo produto.Se houver *AVISOS de Travessia de Consulta* em `error.log`, crie um índice personalizado para sua consulta. Consulte [Configurando os Índices](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) para obter mais detalhes.
 
 Você também pode ver um recurso adicional em [Documentação do Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
@@ -241,11 +231,9 @@ Você também pode ver um recurso adicional em [Documentação do Oak](https://j
 
 Para ativar o Manifesto v3, faça o seguinte:
 
-* Atualize o Dispatcher.
-Consulte [Configuração do Dispatcher para a Versão de Manifesto v3](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obter mais detalhes.
+* Atualize o Dispatcher.Consulte [Configuração do Dispatcher para a Versão de Manifesto v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obter mais detalhes.
 
-* Atualizar componente personalizado.
-Consulte [Modelo para manipuladores personalizados](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers) para obter mais detalhes.
+* Atualizar componente personalizado.Consulte [Modelo para manipuladores personalizados](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers) para obter mais detalhes.
 
 * Desabilitar ContentSync em `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
@@ -259,7 +247,7 @@ Consulte [Modelo para manipuladores personalizados](https://experienceleague.ado
 
 ### &#x200B;4. O que você deve fazer se, após o pacote screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 e os pacotes principais do screens estiverem instalados, mas não ativos?
 
-Instale uma versão mínima do AEM 6.5 Feature Pack 8 para que o conector AMS funcione. Consulte [Disponibilidade](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) para obter a versão mínima do Pacote de Recursos do AEM Screens.
+Instale uma versão mínima do AEM 6.5 Feature Pack 8 para que o conector AMS funcione. Consulte [Disponibilidade](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) para obter a versão mínima do Pacote de Recursos do AEM Screens.
 
 ### &#x200B;5. Como configurar o serviço CQ Link Externalizer no Screens?
 

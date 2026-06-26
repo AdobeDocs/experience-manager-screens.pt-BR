@@ -11,14 +11,10 @@ role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
 TQID: https://experienceleague.adobe.com/XwcKgrrDLuCYSLfTk4VyliKQdTn5O2HH8CUvwCJr9Pc
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 669
 ht-degree: 1%
@@ -32,7 +28,7 @@ Esta seção descreve uma funcionalidade para importar em massa um conjunto de l
 ## Introdução {#introduction}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Ao configurar um projeto do AEM Screens pela primeira vez em sua organização, crie todos os locais também. Se o seu projeto envolve muitos locais, ele resulta em uma tarefa tediosa que envolve muita seleção e espera na interface do usuário.
 
@@ -112,7 +108,7 @@ Siga as etapas abaixo para importar um arquivo para uma pasta de local com os ca
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Clique no projeto,**DemoProjectImporter**>**Criar**>**&#x200B; Importar locais** da barra lateral.
+1. Clique no projeto,**DemoProjectImporter**>**Criar**>** Importar locais** da barra lateral.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
@@ -129,3 +125,4 @@ Siga as etapas abaixo para importar um arquivo para uma pasta de local com os ca
 1. Como resultado, agora é possível exibir todos os locais importados para o projeto.
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
+

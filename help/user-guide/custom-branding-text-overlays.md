@@ -7,14 +7,10 @@ role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
 TQID: https://experienceleague.adobe.com/7M6tMLxqCrYuwdLcMpep7YdQe4efLFjNGgGqVX1ewRE
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 630
 ht-degree: 1%
@@ -24,7 +20,7 @@ ht-degree: 1%
 # Marca e estilo personalizados para sobreposições de texto {#creating-custom-branding-styling}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Saiba como aplicar marca e estilo personalizados a sobreposições de texto aplicadas aos seus ativos em um canal do AEM Screens.
 
@@ -142,3 +138,4 @@ Siga as etapas abaixo para exibir o design atualizado para a sobreposição de t
    ![imagem](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
    Agora você está pronto para atualizar sua marca e estilo personalizado para sobreposições de texto adicionadas aos seus ativos.
+

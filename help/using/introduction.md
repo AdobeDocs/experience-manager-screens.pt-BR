@@ -3,14 +3,10 @@ title: Introdução ao AEM Screens
 description: Saiba mais sobre o AEM Screens e o que ele pode fazer por você.
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
 TQID: https://experienceleague.adobe.com/UticeR0hdyxXrG1P5qrwzrJLhZ3h5BRCfjamUzzu-XE
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 736
 ht-degree: 49%
@@ -20,7 +16,7 @@ ht-degree: 49%
 # Introdução ao AEM Screens {#introduction}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 O **AEM Screens** é uma Solução de Sinalização Digital que permite criar, publicar e reproduzir experiências digitais dinâmicas e interativas. Ela envolve diferentes tipos de telas no local, em conjunto com uma estratégia abrangente de marketing digital omnicanal.
 
@@ -67,3 +63,4 @@ Um site do AEM deve ser formatado para uso nas dimensões do dispositivo de exib
 
 >[!NOTE]
 >Muitos componentes do AEM Sites não são compatíveis com o AEM Screens. O AEM Screens é fornecido com muitos de seus próprios componentes prontos para uso, permitindo criar experiências digitais sem a necessidade de personalização. Se os requisitos do projeto permitirem, use a funcionalidade integrada do AEM Screens, quando possível.
+

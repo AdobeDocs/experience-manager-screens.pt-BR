@@ -11,17 +11,11 @@ role: User, Developer
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
 TQID: https://experienceleague.adobe.com/ZSU00dlWZg6UJ7vYrmjbEQngzu7YC7lZ18XUigFp4aM
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 677
 ht-degree: 0%
@@ -31,7 +25,7 @@ ht-degree: 0%
 # Parte 5: Considerações sobre suporte {#part-support-considerations}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Esta página destaca a parte final de uma série de cinco partes, projetada para ajudar os membros da equipe a saber como os problemas de hardware, software e conectividade são tratados. Essa fase explora estimativas de custos e estruturas para suporte no local. Além disso, explica como os parâmetros do SLA, os orçamentos operacionais e as transferências de NOC são gerenciados.
 
@@ -79,3 +73,4 @@ Siga este tutorial de conclusão para um tutorial de 5 partes abaixo que enfatiz
 ## Conclusão {#conclusion}
 
 Essas séries de cinco partes concentram-se em considerações importantes e essenciais para garantir o sucesso do projeto. Consulte outras seções do Guia do usuário do AEM Screens para obter detalhes sobre a implementação.
+

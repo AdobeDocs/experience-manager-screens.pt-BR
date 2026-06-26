@@ -6,18 +6,13 @@ role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
 TQID: https://experienceleague.adobe.com/ZrifVE5hQIzwTt75cQ-5Q-BNqpB0doqh2IMLuUaa82g
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1249
+source-wordcount: 1343
 ht-degree: 2%
 
 ---
@@ -25,7 +20,7 @@ ht-degree: 2%
 # Guia de início rápido {#kickstart-guide}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 O início rápido do AEM Screens demonstra como configurar e executar um projeto do AEM Screens. Ele orienta você na configuração de uma experiência básica de sinalização digital e na adição de conteúdo, como ativos e/ou vídeos, a cada canal e na publicação adicional do conteúdo em um AEM Screens Player.
 
@@ -40,9 +35,7 @@ Siga as etapas abaixo para criar um projeto de amostra para o AEM Screens e publ
 >O tutorial a seguir mostra a reprodução do conteúdo de seu canal em um reprodutor de SO Chrome.
 
 >[!IMPORTANT]
->**Configurações OSGi**
->Você deve habilitar o referenciador vazio para permitir que o dispositivo publique dados no servidor. Por exemplo, se a propriedade referenciador vazia estiver desativada, o dispositivo não poderá postar uma captura de tela. Atualmente, alguns desses recursos só estarão disponíveis se a opção `Apache Sling` Permitir Filtro de Referenciador Vazio estiver habilitada na Configuração OSGi. O painel pode exibir um aviso de que as configurações de segurança podem impedir que alguns desses recursos funcionem.
->Siga as etapas abaixo para habilitar a ***Permissão de Filtro de Referenciador do Apache Sling***:
+>**Configurações de OSGiVocê deve ativar o referenciador vazio para permitir que o dispositivo publique dados no servidor. Por exemplo, se a propriedade referenciador vazia estiver desativada, o dispositivo não poderá postar uma captura de tela. Atualmente, alguns desses recursos só estarão disponíveis se a opção `Apache Sling` Permitir Filtro de Referenciador Vazio estiver habilitada na Configuração OSGi. O painel pode exibir um aviso de que as configurações de segurança podem impedir que alguns desses recursos funcionem.Siga as etapas abaixo para habilitar a ***Permissão de Filtro Referenciador Apache Sling***:
 
 
 ## Permitir Solicitações de Referenciador Vazias {#allow-empty-referrer-requests}
@@ -186,8 +179,7 @@ Quando a configuração do projeto for concluída, atribua o canal a uma exibiç
    Além disso, você pode clicar na **Janela de Ativação** e **Agenda de Recorrência**.
 
    >[!NOTE]
-   >O *Cronograma de Recorrência* permite que você defina um cronograma recorrente para o seu canal. Você pode configurar vários agendamentos de recorrência para um canal.
-   >Consulte [Agendamento de recorrência](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obter mais detalhes.
+   >O *Cronograma de Recorrência* permite que você defina um cronograma recorrente para o seu canal. Você pode configurar vários agendamentos de recorrência para um canal.   >Consulte [Agendamento de recorrência](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) para obter mais detalhes.
 
 1. Clique em **Salvar** depois de configurar suas preferências.
 
@@ -253,3 +245,4 @@ Todos os ativos em seu canal agora estão sendo reproduzidos no reprodutor de SO
 Parabéns! Agora você está reproduzindo conteúdo em um canal do AEM Screens.
 
 ![imagem](assets/kickstart/demo-video-screens.gif)
+

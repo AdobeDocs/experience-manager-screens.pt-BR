@@ -3,17 +3,12 @@ title: Rede Corporativa Fechada
 description: Rede Corporativa Fechada
 exl-id: b8c52e72-86da-4089-ba02-0c643862419f
 TQID: https://experienceleague.adobe.com/3lU7N2840DVcH38SAQ-mthEwBcbUeQPl9Xea5Ms0L9k
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: 751
 ht-degree: 0%
 
 ---
@@ -21,7 +16,7 @@ ht-degree: 0%
 # Rede corporativa fechada (com fio/wireless) {#enclosed-corporate-networks}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 A Configuração de Rede Corporativa Fechada é aplicável a empresas menores, maiores e corporativas. Pode ser teoricamente mais complexa, e a configuração lógica é mostrada na figura abaixo.
 
@@ -46,7 +41,7 @@ Siga as etapas abaixo para garantir a conexão adequada dos reprodutores de tela
 1. Caso a chamada de URL seja bem-sucedida, você pode continuar instalando o AEM Screens e se registrar. Inicie o AEM Screens.
 
    >[!NOTE]
-   >**Dica de Solução de Problemas**
+   >**Dica de Solução de Problemas
    >Se o AEM Screens não se conectar corretamente e o conteúdo esperado não for exibido:
    >
    >1. Verifique o firewall do seu Roteador de Internet se houver alguma restrição relacionada a `TCP/IP Port 80/443`.
@@ -61,8 +56,7 @@ A Configuração de Rede Corporativa Incluída pode ser separada logicamente em 
 
 ### Rede de longa distância {#wan-connection}
 
-O desempenho da conexão com a Internet, além da acessibilidade da rede, tem de fornecer largura de banda suficiente para operar atualizações de conteúdo do AEM Screens sem problemas.
-*Largura de banda suficiente* depende do número de AEM Screens conectados. Também depende do uso de outros consumidores na rede, como smartphones, tablets, caixas, computadores ou redes Wi-Fi guest.
+O desempenho da conexão com a Internet, além da acessibilidade da rede, tem de fornecer largura de banda suficiente para operar atualizações de conteúdo do AEM Screens sem problemas.*Largura de banda suficiente* depende do número de AEM Screens conectados. Também depende do uso de outros consumidores na rede, como smartphones, tablets, caixas, computadores ou redes Wi-Fi guest.
 
 >[!NOTE]
 >
@@ -78,11 +72,9 @@ Por exemplo, os componentes de rede devem corresponder pelo menos ao padrão de 
 
 ### Outras especificações de redes corporativas {#other-networks}
 
-As redes corporativas têm vários dispositivos conectados, são separadas em várias sub-redes e têm conexões de Internet redundantes ou multiplexadas para fornecer desempenho suficiente para milhares de acessos simultâneos.
-Esse esquema é simplificado e se adapta à maioria dos casos aos ambientes disponíveis para o cliente.
+As redes corporativas têm vários dispositivos conectados, são separadas em várias sub-redes e têm conexões de Internet redundantes ou multiplexadas para fornecer desempenho suficiente para milhares de acessos simultâneos.Esse esquema é simplificado e se adapta à maioria dos casos aos ambientes disponíveis para o cliente.
 
-Caso uma solução Wi-Fi esteja planejada para conectar o AEM Screens ao Link da Internet, é recomendável usar padrões Wi-Fi modernos como `IEEE 802.11g`, no mínimo. Este padrão suporta conexões de até 54 Mbps. Quaisquer *padrões mais recentes*, como `802.11h-n`, são de melhor qualidade. Se um repetidor Wi-Fi for necessário, a Adobe recomenda tecnologias de ponto de acesso Wi-Fi Mesh como Google Nest Mesh Wi-Fi ou similares.
-Outras tecnologias repetitivas Wi-Fi causam uma perda maciça de largura de banda na rede como um todo.
+Caso uma solução Wi-Fi esteja planejada para conectar o AEM Screens ao Link da Internet, é recomendável usar padrões Wi-Fi modernos como `IEEE 802.11g`, no mínimo. Este padrão suporta conexões de até 54 Mbps. Quaisquer *padrões mais recentes*, como `802.11h-n`, são de melhor qualidade. Se um repetidor Wi-Fi for necessário, a Adobe recomenda tecnologias de ponto de acesso Wi-Fi Mesh como Google Nest Mesh Wi-Fi ou similares.Outras tecnologias repetitivas Wi-Fi causam uma perda maciça de largura de banda na rede como um todo.
 
 ## Download de mídia e Assets {#download}
 
@@ -98,3 +90,4 @@ A tabela a seguir fornece uma visão geral dos dados principais de conectividade
 >As informações permitem visualizar o consumo de cada dispositivo na rede, solicitando e baixando uma fonte da Internet. Cada uma dessas solicitações adiciona e estende o Tempo de download.
 
 ![](/help/using/assets/enclosed-network-download.png)
+

@@ -10,21 +10,14 @@ role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
 TQID: https://experienceleague.adobe.com/YXT-n3t6hQwrt8entuM0NCfRVpbMCOXPjF7Pxrreuc4
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 336
+source-wordcount: 370
 ht-degree: 1%
 
 ---
@@ -32,7 +25,7 @@ ht-degree: 1%
 # Criação e gerenciamento de projetos {#creating-and-managing-projects}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 
 A AEM Screens está disponível ao selecionar o link Adobe Experience Manager (parte superior esquerda) e, em seguida, Screens.
@@ -40,8 +33,7 @@ A AEM Screens está disponível ao selecionar o link Adobe Experience Manager (p
 Como alternativa, você pode navegar diretamente para: `http://localhost:4502/screens.html/content/screens`
 
 >[!NOTE]
->**Dica de Navegação:**
->Você também pode usar as teclas de cursor para navegar por diferentes pastas no AEM. Além disso, depois de clicar em uma entidade específica, pressione a barra de espaço para editar ou exibir propriedades dessa pasta específica.
+>**Dica de Navegação:Você também pode usar as teclas de cursor para navegar por diferentes pastas no AEM. Além disso, depois de clicar em uma entidade específica, pressione a barra de espaço para editar ou exibir propriedades dessa pasta específica.
 
 ## Criação de um novo projeto do Screens
 
@@ -92,3 +84,4 @@ As etapas a seguir mostram a criação de uma pasta de aplicativos para sua pág
 ### Próximas etapas {#the-next-steps}
 
 Depois de criar seu próprio projeto, consulte [Gerenciamento de canal](managing-channels.md) para criar e gerenciar conteúdo no seu canal.
+

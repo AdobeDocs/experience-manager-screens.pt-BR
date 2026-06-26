@@ -7,14 +7,10 @@ role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
 TQID: https://experienceleague.adobe.com/f26UFATHoXD7n8eEH9Dp-1KpC843nb21Mg4nTbRAWSE
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 939
 ht-degree: 1%
@@ -24,7 +20,7 @@ ht-degree: 1%
 # Criação de modelos personalizados para layouts de várias zonas {#creating-custom-templates-multizone}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Esta página mostra como criar um modelo personalizado para um layout de várias zonas.
 
@@ -170,7 +166,7 @@ Siga as etapas abaixo para usar o modelo personalizado acima em seu projeto do A
 Você pode ajustar a regra CSS para usar &quot;data-uri&quot; e embutir diretamente a imagem (`Base64` codificada) no arquivo CSS que você criou em (etapa 13), *static.css*.
 
 Essa organização é feita da seguinte maneira:
-`.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
+
 
 Ou você pode seguir as etapas abaixo:
 
@@ -183,3 +179,4 @@ Ou você pode seguir as etapas abaixo:
 Para alterar a cor do plano de fundo, adicione o seguinte código ao arquivo xml (etapa 13), *static.css*.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
+

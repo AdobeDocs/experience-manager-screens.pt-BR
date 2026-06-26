@@ -3,18 +3,12 @@ title: Acesso Direto à Internet
 description: Acesso Direto à Internet
 exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
 TQID: https://experienceleague.adobe.com/IM35QvUEU9ZfJAF5abHAIj4gNs88VE6PGz-TBT8ZAGI
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 706
+source-wordcount: 776
 ht-degree: 0%
 
 ---
@@ -22,7 +16,7 @@ ht-degree: 0%
 # Rede de Internet Direta (Com Fio/Sem Fio) {#direct-internet-access}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 A Direct Internet Network contém um ponto de acesso de entrada para acesso à Internet para acessar os Serviços em Nuvem da AEM aos quais a AEM Screens deve se conectar.
 
@@ -56,7 +50,7 @@ Siga as etapas abaixo para garantir a conexão adequada dos reprodutores de tela
 1. Caso a chamada de URL seja bem-sucedida, você pode continuar instalando o AEM Screens e se registrar. Inicie o AEM Screens.
 
    >[!NOTE]
-   >**Dica de Solução de Problemas**
+   >**Dica de Solução de Problemas
    >Se o AEM Screens não se conectar corretamente e o conteúdo esperado não for exibido:
    >
    >1. Verifique o firewall do seu roteador de Internet se houver alguma restrição relacionada a `TCP/IP Port 80/443`.
@@ -84,8 +78,7 @@ O desempenho da conexão com a Internet, além da acessibilidade da rede, é for
 
 O desempenho da LAN (Local Area Network), além da acessibilidade da rede, é fornecer largura de banda suficiente para operar o AEM Screens.
 
-A rede LAN geralmente corresponde pelo menos a uma rede de 100 Mbps, de modo que haja largura de banda suficiente para conectar vários dispositivos com bom desempenho ao sistema.
-Caso uma solução Wi-Fi esteja planejada para conectar o AEM Screens ao Link da Internet, é recomendável usar padrões Wi-Fi modernos como `IEEE 802.11g`, no mínimo. Este padrão suporta conexões de até 54 Mbps. Quaisquer *padrões mais recentes*, como `802.11h-n`, são de melhor qualidade.
+A rede LAN geralmente corresponde pelo menos a uma rede de 100 Mbps, de modo que haja largura de banda suficiente para conectar vários dispositivos com bom desempenho ao sistema.Caso uma solução Wi-Fi esteja planejada para conectar o AEM Screens ao Link da Internet, é recomendável usar padrões Wi-Fi modernos como `IEEE 802.11g`, no mínimo. Este padrão suporta conexões de até 54 Mbps. Quaisquer *padrões mais recentes*, como `802.11h-n`, são de melhor qualidade.
 
 >[!NOTE]
 >
@@ -106,3 +99,4 @@ A tabela a seguir fornece uma visão geral dos dados principais de conectividade
 >As informações permitem visualizar o consumo de cada dispositivo na rede, solicitando e baixando uma fonte da Internet. Cada uma dessas solicitações adiciona e estende o Tempo de download.
 
 ![](/help/assets/download-times-direct.png)
+

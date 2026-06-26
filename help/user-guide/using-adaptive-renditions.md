@@ -3,14 +3,11 @@ title: Uso de representações adaptáveis no AEM Screens
 description: Saiba como usar representações adaptáveis no AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
 TQID: https://experienceleague.adobe.com/HZzzIXVu8Px3-aXDrbfU9xQxg-F-ZJK-Sy-BVQSH-uo
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 601
+source-wordcount: 630
 ht-degree: 0%
 
 ---
@@ -20,7 +17,7 @@ ht-degree: 0%
 ## Introdução {#introduction}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!CAUTION]
 >Esse recurso é compatível somente com o AEM no local (AEM 6.x). Não é compatível com o AEM as a Cloud Service.
@@ -29,8 +26,7 @@ As representações adaptáveis permitem que os dispositivos cliquem na melhor r
 
 ## Objetivo {#objective}
 
-Como um Autor de conteúdo do AEM Screens, agora você pode configurar representações de ativos específicas do dispositivo para serem baixadas e reproduzidas automaticamente sem precisar criar todas as variações de conteúdo manualmente.
-Depois que um Desenvolvedor adicionar as propriedades e regras do mapeamento de representação, você estará pronto para aplicar o mapeamento de representação aos ativos e incluí-los em um canal do AEM Screens.
+Como um Autor de conteúdo do AEM Screens, agora você pode configurar representações de ativos específicas do dispositivo para serem baixadas e reproduzidas automaticamente sem precisar criar todas as variações de conteúdo manualmente.Depois que um Desenvolvedor adicionar as propriedades e regras do mapeamento de representação, você estará pronto para aplicar o mapeamento de representação aos ativos e incluí-los em um canal do AEM Screens.
 
 >[!IMPORTANT]
 >Antes de começar a usar Representações adaptáveis em um canal do AEM Screens, a Adobe recomenda que você saiba mais sobre a Visão geral e a configuração da arquitetura desse recurso. Consulte [Representações adaptáveis: visão geral e configurações da arquitetura](/help/user-guide/adaptive-renditions.md).
@@ -57,7 +53,7 @@ Para aplicar representações a ativos que você deseja usar no canal Tour Scree
    ![imagem](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Consulte [Atualização de conteúdo sob demanda](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) para saber mais sobre como gerenciar a publicação e fornecer atualizações de conteúdo do Autor para a Publicação no dispositivo.
+   >Consulte [Atualização de conteúdo sob demanda](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) para saber mais sobre como gerenciar a publicação e fornecer atualizações de conteúdo do Autor para a Publicação no dispositivo.
 
 ## Estratégia de migração {#migration-strategy}
 
@@ -79,3 +75,4 @@ Para ativar o recurso, adicione pelo menos uma regra de mapeamento e verifique s
 
    >[!NOTE]
    >Após concluir a migração, remova todas as referências de configuração de canais, exibições e locais e adicione uma única ao nó de conteúdo do projeto.
+

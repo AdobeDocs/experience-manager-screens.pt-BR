@@ -6,20 +6,14 @@ role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
 TQID: https://experienceleague.adobe.com/Pwq3ebRrbCufXFMk7R-FJj90xq4b7gLOcLvslch2L5o
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 397
+source-wordcount: 404
 ht-degree: 2%
 
 ---
@@ -27,7 +21,7 @@ ht-degree: 2%
 # Relatório de atribuição de conteúdo {#content-assignment-report}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 O recurso Relatório de atribuição de conteúdo permite que um administrador ou autor do AEM Screens exporte um *Relatório de atribuição de conteúdo* em formato de planilha.
 
@@ -40,8 +34,7 @@ O Relatório de atribuição de conteúdo não só permite uma pré-visualizaç�
 
 ### Pré-requisitos {#pre-reqs}
 
-Antes de baixar o Relatório de atribuição de conteúdo, configure um projeto do AEM Screens com canais, locais e dispositivos.
-Consulte os seguintes recursos para obter mais detalhes:
+Antes de baixar o Relatório de atribuição de conteúdo, configure um projeto do AEM Screens com canais, locais e dispositivos.Consulte os seguintes recursos para obter mais detalhes:
 
 1. [Criação e gerenciamento de projetos](/help/user-guide/creating-a-screens-project.md)
 1. [Criação e gerenciamento de canais](/help/user-guide/managing-channels.md)
@@ -76,3 +69,4 @@ Siga as instruções abaixo para baixar o Relatório de atribuição de conteúd
 1. Selecionar qualquer um dos canais na coluna **Canais** abre a guia **Conteúdo**. Por sua vez, ele navega diretamente para esse canal e fornece informações sobre ativos (imagens e vídeos) associados a esse canal específico.
 
    ![imagem](/help/user-guide/assets/content-assignment-report/report-sheet2.png)
+

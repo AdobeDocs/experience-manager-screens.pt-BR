@@ -3,15 +3,10 @@ title: Sobre este guia
 description: Saiba mais sobre as práticas recomendadas para projetos do AEM Screens para planejar e executar projetos, desde o resumo estratégico e de design até a implantação e após o suporte.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
 TQID: https://experienceleague.adobe.com/s4vaziHfQV-xOuOjfAr3c7anH52J43Qh4CJnVPcB4mQ
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 304
 ht-degree: 27%
@@ -21,7 +16,7 @@ ht-degree: 27%
 # Sobre este guia {#about-guide}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 O Guia de práticas recomendadas do AEM Screens pretende fornecer orientação sobre como você pode planejar e concluir com sucesso um projeto do AEM Screens.
 
@@ -54,3 +49,4 @@ Este guia fornece um insight abrangente e conselhos práticos para imaginar, pro
 >
 > * **UX** refere-se às experiências de sinalização digital oferecidas aos clientes finais.
 > * **Interface** refere-se à interface do usuário que permite criar e gerenciar seus projetos no Screens.
+

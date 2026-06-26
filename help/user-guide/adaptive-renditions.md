@@ -3,14 +3,11 @@ title: Visão geral e configurações da arquitetura de representações adaptá
 description: Saiba mais sobre a visão geral da arquitetura e as configurações no CRXDE Lite para representações adaptáveis no AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
 TQID: https://experienceleague.adobe.com/6kL7RJWr-AJQsQdBqE-GI8lI-6QQXTNiRXP4maEdmzA
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 703
+source-wordcount: 718
 ht-degree: 3%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 3%
 # Representações adaptáveis: visão geral e configurações da arquitetura {#adaptive-renditions}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 ## Introdução {#introduction}
 
@@ -53,8 +50,7 @@ Siga as etapas abaixo para configurar a configuração:
    >![imagem](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Se você instalou o Feature Pack 202109 mais recente, verá a estrutura do nó **rendition-mapping** pré-preenchida em `/conf/screens/sling:configs/rendition-mapping` no CRXDE Lite. Consulte as [Notas de versão do Pacote de recursos 202109](/help/user-guide/release-notes-fp-202109.md) para obter detalhes sobre o Pacote de recursos mais recente.
-   >Para projetos existentes, verifique se o projeto Screens tem a configuração **rendition-mapping** associada. Consulte a seção [Adicionando o mapeamento de representação a um projeto existente](#rendition-mapping-existing) para obter mais informações.
+   >Se você instalou o Feature Pack 202109 mais recente, verá a estrutura do nó **rendition-mapping** pré-preenchida em `/conf/screens/sling:configs/rendition-mapping` no CRXDE Lite. Consulte as [Notas de Versão do Pacote de Recursos 202109](/help/user-guide/release-notes-fp-202109.md) para obter detalhes sobre o Pacote de Recursos mais recente.   >Para projetos existentes, verifique se o projeto Screens tem a configuração **rendition-mapping** associada. Consulte a seção [Adicionando o mapeamento de representação a um projeto existente](#rendition-mapping-existing) para obter mais informações.
 
 ### Adicionar a propriedade de mapeamento de representação a um projeto existente {#rendition-mapping-existing}
 
@@ -104,3 +100,4 @@ Siga as etapas abaixo para adicionar um nó em Mapeamento de representação:
 ## Próximas etapas {#next-steps}
 
 Depois de adicionar propriedades e regras de mapeamento de representação, como um Autor de conteúdo, você pode configurar os ativos. Você pode usar Representações adaptáveis e também migrar seus dispositivos para redes grandes para usar esse recurso em seus canais do AEM Screens. Consulte [Uso de representações adaptáveis no AEM Screens](/help/user-guide/using-adaptive-renditions.md) para obter mais informações.
+
