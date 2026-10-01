@@ -13,29 +13,35 @@ exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
 TQID: https://experienceleague.adobe.com/IkYpLkG1zlxS5-YmCsyXLryXc7AsnZmuHj66Dh7NJSc
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Implementation
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: '1214'
 ht-degree: 0%
-
 ---
-
 # Layout de várias zonas {#multi-zone-layout}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 A página seguinte descreve o uso do layout de várias zonas e aborda os seguintes tópicos:
 
@@ -52,14 +58,15 @@ O ***Layout de várias zonas*** permite que você crie conteúdo de várias zona
 De acordo com os requisitos do projeto, às vezes você precisa de várias zonas em um canal e editá-las como uma unidade abrangente. Por exemplo, uma sequência de produtos com um feed de mídia social relacionado que é executado em três zonas separadas em um único canal.
 
 >[!NOTE]
+>
 >Em canais de várias zonas, o agendamento no nível do ativo não é recomendado devido a possíveis conflitos e comportamento não intencional. Se a programação no nível do ativo for necessária, crie um canal de sequência separado e aplique a lógica de programação nesse canal. Em seguida, incorpore o canal de sequência no canal de várias regiões.
 
 ### Pré-requisitos {#prerequisites}
 
 Antes de começar a implementar essa funcionalidade, verifique se você tem o conhecimento conceitual sobre:
 
-* [Criação de um projeto do AEM Screens](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [Criação de uma exibição](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [Criação de um projeto do AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [Criação de uma exibição](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [Atribuição de um Canal a uma Exibição](/help/user-guide/channel-assignment.md)
 
 ## Criação de layout de várias zonas {#creating-multi-zone-layout}
