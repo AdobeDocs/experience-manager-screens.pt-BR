@@ -8,25 +8,32 @@ exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
 TQID: https://experienceleague.adobe.com/-hIHgs66ksW-qvVaUp4euiJlPfbn0OGk88ASNIc4QZI
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
   - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
+    internal-label: Channel assignment
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 1494
+source-wordcount: '1508'
 ht-degree: 2%
-
 ---
-
 # Atribuição de canal {#channel-assignment}
 
 >[!IMPORTANT]
@@ -171,7 +178,8 @@ A prioridade é usada para ordenar as atribuições caso várias correspondam ao
 ### Método de interrupção {#interruption-method-channel}
 
 >[!IMPORTANT]
-> Esta opção só está disponível com o <!--AEM 6.4 Feature Pack 8 or-->Pacote de Recursos 4 do AEM 6.5.
+>
+>Esta opção só está disponível com o <!--AEM 6.4 Feature Pack 8 or-->Pacote de Recursos 4 do AEM 6.5.
 
 Como um Autor de conteúdo, você pode especificar quando um canal é interrompido. Com isso, você pode optar por cortar conteúdo não crítico. Mas também oferece a opção de permitir que conteúdo importante seja totalmente reproduzido antes de ser cortado por causa do agendamento.
 
@@ -180,13 +188,15 @@ Selecione uma das seguintes opções que estão disponíveis para definir o mét
 * **Imediatamente** - Sempre que o agendamento for ativado ou uma atualização for recebida, você pode interromper a reprodução e atualizar ou reproduzir o novo conteúdo imediatamente
 * **Fim do item atual** - Quando um novo agendamento é ativado ou uma atualização é recebida, você pode aguardar até que o item atual na sequência termine a reprodução. Em seguida, somente depois disso, será possível atualizar ou reproduzir o novo conteúdo.
 
-  >[!NOTE]
-  >Essa opção é selecionada por padrão.
+>[!NOTE]
+>
+>Essa opção é selecionada por padrão.
 
 * **No final da sequência** - Quando um novo agendamento é ativado ou uma atualização é recebida, você pode aguardar até que toda a sequência atinja seu final. Em seguida, logo antes da sequência desejada, você pode voltar para o primeiro elemento, atualizar ou reproduzir o novo conteúdo.
 
-  >[!NOTE]
-  >O uso da segunda ou da terceira opção pode fazer com que os horários de programação definidos na atribuição sejam ligeiramente adiados. O motivo é que o reprodutor aguarda o final do item ou da sequência (após o tempo especificado) antes de atualizar. O atraso depende da duração da reprodução do item.
+>[!NOTE]
+>
+>O uso da segunda ou da terceira opção pode fazer com que os horários de programação definidos na atribuição sejam ligeiramente adiados. O motivo é que o reprodutor aguarda o final do item ou da sequência (após o tempo especificado) antes de atualizar. O atraso depende da duração da reprodução do item.
 
 As seguintes propriedades são definidas na opção **Agendar** da caixa de diálogo **Atribuição de canal**.
 
@@ -201,7 +211,8 @@ A Janela de Ativação permite selecionar uma **Data de início** e uma **Data d
 O Cronograma recorrente permite que você defina um cronograma recorrente para o seu conteúdo. Clique em **+ Adicionar Agendamento** para adicionar um Agendamento de Recorrência ao seu canal.
 
 >[!NOTE]
->Você pode adicionar vários agendamentos recorrentes ao seu canal.Os Agendamentos de Recorrência apresentam *DayParting*. Você define um agendamento global com vários canais sendo executados em horários específicos do dia e reutiliza esse agendamento configurado para todas as suas exibições de uma só vez.
+>Você pode adicionar vários agendamentos recorrentes ao seu canal.
+>Os Agendamentos de Recorrência apresentam *DayParting*. Você define um agendamento global com vários canais sendo executados em horários específicos do dia e reutiliza esse agendamento configurado para todas as suas exibições de uma só vez.
 
 É possível definir as seguintes opções:
 
@@ -209,8 +220,8 @@ O Cronograma recorrente permite que você defina um cronograma recorrente para o
 * **Repetir** - Escolha se o agendamento é executado **Diariamente**, **Semanalmente**, **Mensalmente** ou **Anualmente**.
 * **Início** - A hora inicial da sua agenda.
 * **Fim** - A hora de término de seu cronograma. Você pode defini-lo por tempo ou duração.
-   * **Hora** - O agendamento termina em um horário especificado.
-   * **Duração** - O agendamento é executado para uma duração de tempo específica em horas ou minutos.
+  * **Hora** - O agendamento termina em um horário especificado.
+  * **Duração** - O agendamento é executado para uma duração de tempo específica em horas ou minutos.
 
 ### DayParting {#dayparting}
 
@@ -226,18 +237,18 @@ Aqui, cada dia é dividido em diferentes intervalos de tempo, para que o conteú
 
 | **Nome** | **Repetições** | **Início** | **Fim** |
 |---|---|---|---|
-| Café da manhã | Diariamente | 6:00 DA MANHÃ | 11:00 |
-| Almoço | Diariamente | 11:00 | 15:00 |
-| Jantar | Diariamente | 15:00 | 20:00 |
+| Café da manhã | Diariamente | 6:00 | 11:00 |
+| Almoço | Diariamente | 11:00 | 15H |
+| Jantar | Diariamente | 15H | 20:00 |
 
 #### Reproduzir conteúdo em um dia da semana específico {#playing-content-on-a-particular-day-of-the-week}
 
-Este exemplo mostra o DayParting implementado em um cassino em que o evento ao vivo ocorre todos os finais de semana das 20h00 às 22h00 e os especiais estão disponíveis para o menu de jantar após as 22h00 até as 1:00.:00:00:00
+Este exemplo mostra o DayParting implementado em um cassino em que o evento ao vivo ocorre todos os finais de semana das 20:00 às 22:00, e os especiais estão disponíveis para o menu de jantar entre as 22:00 e as 1:00.
 
 | **Nome** | **Repetições** | **Início** | **Fim** |
 |---|---|---|---|
-| Fim de semana | Semanalmente: sábado e domingo | 20:00 | 22H:00 |
-| Especiais | Diariamente: de segunda a sexta-feira | 22H:00 | 1:00 DA MANHÃ |
+| Fim de semana | Semanalmente: sábado e domingo | 20:00 | 22:00 |
+| Especiais | Diariamente: de segunda a sexta-feira | 22:00 | 1:00 |
 
 >[!NOTE]
 >

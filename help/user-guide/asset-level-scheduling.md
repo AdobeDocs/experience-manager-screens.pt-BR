@@ -8,25 +8,31 @@ exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
 TQID: https://experienceleague.adobe.com/6ZaAh-q6ZXjHFhdPDqnJi4n08TXLSd8ZNggljGoIPzA
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Implementation
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 1536
+source-wordcount: '1559'
 ht-degree: 0%
-
 ---
-
 # Ativação em nível de ativo {#asset-level-scheduling}
 
 >[!IMPORTANT]
@@ -40,10 +46,10 @@ Os seguintes tópicos são abordados nesta seção:
 * Janela de ativação
 * Reprodução de evento único
 * Como lidar com recorrências no Assets
-   * DayParting
-   * WeekParting
-   * MonthParting
-   * Combinação de Peças
+  * DayParting
+  * WeekParting
+  * MonthParting
+  * Combinação de Peças
 * Ativação de vários ativos
 * Substituição Global Para Hora De Início Universal
 
@@ -101,7 +107,7 @@ Siga as etapas abaixo para executar a programação no nível do ativo:
 
 Você pode programar ativos para recorrência em determinados intervalos diariamente, semanalmente ou mensalmente, de acordo com sua necessidade.
 
-Suponha que você deseja exibir uma imagem somente às sextas-feiras, das 22h00 às 22h10. Você pode usar a guia **Ativação** para definir o intervalo recorrente desejado para o ativo.:00:00
+Suponha que você deseje exibir uma imagem somente nas sextas-feiras, das 13h às 22h. Você pode usar a guia **Ativação** para definir o intervalo recorrente desejado para seu ativo.
 
 ### Divisão de dia {#day-parting}
 
@@ -120,14 +126,14 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 | **Expressão** | **Interpretação** |
 |---|---|
-| antes das 8:00 | o ativo no canal é reproduzido antes das 8:00 da manhã todos os dias |
-| depois das 2:00 P.M. | o ativo no canal é reproduzido depois das 2:00 da tarde todos os dias |
-| após 12:15 e antes de 12:45 | o ativo no canal é reproduzido depois das 12h todos os dias por 30 minutos:15 |
-| antes de 12:15 também depois de 12:45 | o ativo no canal é reproduzido antes das 12h00 todos os dias e também depois das 12h10.:15:45 |
+| antes das 8h | o ativo no canal é reproduzido antes das 8h diariamente |
+| depois das 14h | o ativo no canal é reproduzido depois das 14h todos os dias |
+| depois de 12:15 e antes de 12:45 | o ativo no canal é reproduzido diariamente após as 12h15 por 30 minutos |
+| antes de 12:15 também depois de 12:45 | o ativo no canal é reproduzido antes das 12h15 todos os dias e também depois das 12h45. |
 
 >[!NOTE]
 >
->Você também pode usar a notação _tempo militar_ (14:00) em vez de *A.M./P.M.* (2:00 P.M.).
+>Você também pode usar a notação _tempo militar_ (14:00) em vez de *A.M./P.M.* (14:00).
 
 ### WeekParting {#week-parting}
 
@@ -175,6 +181,7 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 | `on February-July` | o ativo é reproduzido no canal de fevereiro ao final de julho |
 
 >[!NOTE]
+>
 >Ao definir dias da semana e meses, você pode usar as notações abreviadas e de nome completo, como Seg/Segunda-feira e Jan/Janeiro.
 
 ### Combinação de Peças {#combined-parting}
@@ -183,8 +190,9 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 1. Depois de inserir a data/hora inicial e a data/hora final, você pode usar uma expressão ou uma versão de texto natural para especificar seu cronograma de recorrência.
 
-   >[!NOTE]
-   >Você pode ignorar ou incluir os campos **Ativo de** e **Ativo até** e adicionar a expressão ao campo Agendamentos, de acordo com sua necessidade.
+>[!NOTE]
+>
+>&#x200B;>Você pode ignorar ou incluir os campos **Ativo de** e **Ativo até** e adicionar a expressão ao campo Agendamentos, de acordo com sua necessidade.
 
 1. Insira a expressão no **Agendamento** e seu ativo será exibido para o intervalo específico de dia e hora.
 
@@ -195,11 +203,12 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 | **Expressão** | **Interpretação** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | o ativo é reproduzido no canal entre 6h e 18h, nas segundas e quartas-feiras de janeiro até o final de março |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | o ativo no canal começa a ser reproduzido depois das 2:00 P.M. em 1º de janeiro, continua sendo reproduzido durante todo o dia em 2 de janeiro até as 3:00 A.M. em 3 de janeiro |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | o ativo no canal inicia o player depois das 2:00 P.M. em 1º de janeiro, continua sendo reproduzido até as 3:00 A.M. em 2 de janeiro, em seguida, começa novamente em 2 de janeiro às 2:00 P.M. e continua sendo reproduzido até as 3:00 A.M. em 3 de janeiro |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua sendo reproduzido todo o dia de 2 de janeiro até as 3h de 3 de janeiro |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | o ativo no canal começa a ser reproduzido depois das 14h de 1º de janeiro, continua a ser reproduzido até às 3h de 2º de janeiro e, em seguida, recomeça em 2 de janeiro às 14h e continua a ser reproduzido até às 3h de 3º de janeiro |
 
 >[!NOTE]
->Ao definir dias da semana e meses, você pode usar as notações abreviadas e de nome completo, como Seg/Segunda-feira e Jan/Janeiro. Além disso, você também pode usar a notação (14:00) de _tempo militar_ em vez de *A.M./P.M.*(2:00 P.M.).
+>
+>Ao definir dias da semana e meses, você pode usar as notações abreviadas e de nome completo, como Seg/Segunda-feira e Jan/Janeiro. Além disso, você também pode usar a notação (14:00) _tempo militar_ em vez de *A.M./P.M.*(2:00 P.M.).
 
 
 ## Ativação de vários ativos {#multi-asset-scheduling}
@@ -263,6 +272,3 @@ A ***Substituição global para o Horário de início universal*** é feita conf
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
 1. Para uma substituição global, insira o horário de ativação na seção **Substituição de fuso horário** para o ativo. Se você não inserir nada nesta área, o fuso horário aplicado será o fuso horário do reprodutor.
-
-
-

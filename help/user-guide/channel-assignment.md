@@ -8,28 +8,36 @@ exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
 TQID: https://experienceleague.adobe.com/3KiJEdVpZNlcvEo9PBzkyYJqIsQfBgXQY7-HlZZVxVE
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
   - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
+    internal-label: Channel assignment
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 08f666494c3dd0648c6379dabeb5d60bb16d950a
 workflow-type: tm+mt
-source-wordcount: 1285
+source-wordcount: '1295'
 ht-degree: 1%
-
 ---
-
 # Atribuição de canal {#channel-assignment}
 
 >[!IMPORTANT]
+>
 >Esta seção destaca a Atribuição de canal e a programação de canais para pacotes de recursos anteriores à versão AEM 6.5.5 Screens.
 
 Ao configurar uma exibição, atribua um canal a uma exibição para visualizar seu conteúdo.
@@ -78,6 +86,7 @@ A função do canal define o contexto da exibição. A função é direcionada a
 A prioridade é usada para ordenar as atribuições caso várias correspondam aos critérios de reprodução. Aquele com o valor mais alto sempre tem prioridade sobre valores mais baixos. Por exemplo, se houver dois canais A e B. A tem uma prioridade 1 e B tem uma prioridade 2, então o canal B é exibido, pois tem uma prioridade mais alta que A.
 
 >[!NOTE]
+>
 >A prioridade de um canal é definida como um número (1 para o mínimo) na caixa de diálogo **Atribuição de canal**, conforme mencionado acima. Além disso, os canais atribuídos são classificados com base na prioridade decrescente.
 
 ### Eventos suportados {#supported-events-channel}
@@ -131,13 +140,13 @@ Aqui, você divide cada dia em três intervalos de tempo diferentes para que o c
 
 | **Canal** | **Função** | **Prioridade** | **Agenda** |
 |---|---|---|---|
-| Menu_A | Café da manhã |  | Depois de 6:00 e antes de 11:00 |
-| Menu_B | Almoço |  | Depois de 11:00 e antes de 15:00 |
-| Menu_C | Jantar |  | Depois de 15:00 e antes de 20:00 |
+| Menu_A | Café da manhã |  | Depois das 6:00 e antes das 11:00 |
+| Menu_B | Almoço |  | Depois das 11:00 e antes das 15:00 |
+| Menu_C | Jantar |  | Depois das 15:00 e antes das 20:00 |
 
 #### Reproduzir conteúdo em um dia da semana específico {#playing-content-on-a-particular-day-of-the-week}
 
-Este exemplo mostra o dayParting obtido em um cassino em que o evento ao vivo ocorre todos os finais de semana das 20h00 às 22h00 e os especiais estão disponíveis para o menu de jantar após as 22h00 até as 1:00.:00:00:00
+Este exemplo mostra o dayParting realizado em um cassino onde o evento ao vivo ocorre todos os finais de semana das 20:00 às 22:00 e os especiais estão disponíveis para o menu de jantar após as 22:00 até às 13:00.
 
 <table>
  <tbody>
