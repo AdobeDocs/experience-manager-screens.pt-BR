@@ -5,33 +5,46 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-TQID: https://experienceleague.adobe.com/ULR3Fb5MatuAz2nV4W8S8Nx0G035oB7YIachm4A3fBo
+TQID: 'https://experienceleague.adobe.com/ULR3Fb5MatuAz2nV4W8S8Nx0G035oB7YIachm4A3fBo'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: f18e6c98-d21a-4444-b84b-f327ce464de4
+    internal-label: Integrations
+  - id: b844878e-e10f-4719-b9dc-dd9b362335de
+    internal-label: Configuration and administration
+subfeature_v2:
+  - id: d60b52d2-425a-4695-8bae-976f27c4fef5
+    internal-label: Overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Customer experience
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: '536'
 ht-degree: 0%
-
 ---
-
 # Parte 1: Funções e Responsabilidades do Projeto {#part-project-roles-and-responsibilities}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Esta página destaca a parte 1 de uma série de 5 partes. Ele foi projetado para ajudar os membros da equipe a entender melhor as funções, responsabilidades e cronogramas necessários durante o ciclo de vida de vendas e projetos para um projeto de sinalização digital.
 
@@ -75,7 +88,7 @@ Siga o tutorial abaixo para entender exatamente como cada parte faz parte da imp
 
 ### Parte 1: Funções e Responsabilidades do Projeto
 
->[!VIDEO](https://video.tv.adobe.com/v/32834?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/28375)
 
 *Saiba mais sobre as funções e responsabilidades da Adobe, dos Integradores Áudio/Visual e dos Implementadores do AEM.*
 

@@ -5,21 +5,26 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-TQID: https://experienceleague.adobe.com/lm2FhBZ2X-GzGoCRrsUuAKmC7vPfyaPXwYXSTxxOBJg
+TQID: 'https://experienceleague.adobe.com/lm2FhBZ2X-GzGoCRrsUuAKmC7vPfyaPXwYXSTxxOBJg'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: '410'
 ht-degree: 5%
-
 ---
-
 # Notas de versão do Pacote de recursos 202105 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -47,14 +52,14 @@ A data de lançamento do Pacote de recursos 202105 do AEM Screens é 4 de junho 
 * **Nomeando Dispositivo AEM Screens Player**
 
   Os players do AEM Screens agora incluem a capacidade de enviar um nome de dispositivo para o Adobe Experience Manager (AEM).
-Por padrão, quando o registro em massa é usado para registrar um dispositivo, um nome de usuário gerado pelo sistema é inserido no campo de título. Como alternativa, um cliente pode usar uma tag de ativo ou outro nome amigável para que fique visível no AEM e seja mais fácil atribuir o conteúdo apropriado.
+  Por padrão, quando o registro em massa é usado para registrar um dispositivo, um nome de usuário gerado pelo sistema é inserido no campo de título. Como alternativa, um cliente pode usar uma tag de ativo ou outro nome amigável para que fique visível no AEM e seja mais fácil atribuir o conteúdo apropriado.
 
   Consulte a documentação a seguir para obter informações sobre como configurar o nome em cada sistema operacional suportado:
 
-   * [Android™](/help/user-guide/implementing-android-player.md#name-android)
-   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [SO CHROME](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+  * [Android™](/help/user-guide/implementing-android-player.md#name-android)
+  * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+  * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+  * [SO CHROME](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
 * **Geração de manifesto**
 

@@ -6,25 +6,30 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-TQID: https://experienceleague.adobe.com/f26UFATHoXD7n8eEH9Dp-1KpC843nb21Mg4nTbRAWSE
+TQID: 'https://experienceleague.adobe.com/f26UFATHoXD7n8eEH9Dp-1KpC843nb21Mg4nTbRAWSE'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 939
+source-wordcount: '943'
 ht-degree: 1%
-
 ---
-
 # Criação de modelos personalizados para layouts de várias zonas {#creating-custom-templates-multizone}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Esta página mostra como criar um modelo personalizado para um layout de várias zonas.
 
@@ -45,8 +50,8 @@ Há duas considerações importantes que você deve estar ciente antes de criar 
 
    | **Nome do layout** | **Descrição** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | Um layout de paisagem de três zonas que permite criar três zonas: <br>* Zona 1 como 20% da tela horizontal e vertical da esquerda<br>* Zona 2 como 80% da tela horizontal e 20% da tela vertical justificada à direita<br>* Zona 3 como 100% da tela horizontal e 80% da tela vertical. A taxa de proporção é 16:9 |
-   | `Upper20-PortraitHD2Zone` | Um modelo de retrato de duas zonas que cobre 20% da tela a partir da parte superior, com uma proporção de 16:9 |
+   | `Left20-LandscapeHD3Zone` | Um layout de paisagem de três zonas que permite criar três zonas: <br>* Zona 1 como 20% da tela horizontal e vertical da esquerda<br>* Zona 2 como 80% da tela horizontal e 20% da tela vertical justificada à direita<br>* Zona 3 como 100% da tela horizontal e 80% da tela vertical. A taxa de proporção é de 16:9 |
+   | `Upper20-PortraitHD2Zone` | Um modelo em forma de retrato de duas zonas, que cobre 20% da tela a partir da parte superior, com uma proporção de 16:9 |
    | `Right20-LandscapeSD3Zone` | Um modelo de três zonas que cobre 20% da tela à direita, com uma proporção de 4:3 |
 
    >[!IMPORTANT]
@@ -58,7 +63,7 @@ Siga a seção abaixo para criar um modelo personalizado *`Left20-LandscapeHD3Zo
 
 * **`Left20`** - A zona superior à esquerda cobrindo 20% do tamanho da tela horizontal e vertical.
 * **`Landscape`** - Orientação da tela.
-* **`HD`** - A taxa de proporção era 16:9.
+* **`HD`** - Taxa de proporção como 16:9.
 * **`3Zone`** - Três zonas da exibição.
 
 ## Representação visual do layout de várias zonas {#multi-layout-visual-one}
@@ -170,7 +175,7 @@ Siga as etapas abaixo para usar o modelo personalizado acima em seu projeto do A
 Você pode ajustar a regra CSS para usar &quot;data-uri&quot; e embutir diretamente a imagem (`Base64` codificada) no arquivo CSS que você criou em (etapa 13), *static.css*.
 
 Essa organização é feita da seguinte maneira:
-
+`.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 Ou você pode seguir as etapas abaixo:
 

@@ -5,21 +5,26 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-TQID: https://experienceleague.adobe.com/INOW-DVlJkMChau5JzHRlHL-Sv1XglwVoCFMVDX2LLs
+TQID: 'https://experienceleague.adobe.com/INOW-DVlJkMChau5JzHRlHL-Sv1XglwVoCFMVDX2LLs'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: '989'
 ht-degree: 1%
-
 ---
-
 # Notas de versão do Pacote de recursos 202109 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -40,17 +45,17 @@ A data de lançamento do Pacote de recursos do AEM Screens 202109 é 23 de setem
 * **Suporte a miniaturas para vídeos**
 
   O Suporte a miniaturas para vídeos agora é compatível com o AEM Screens. Um Autor de conteúdo define uma miniatura de vídeos para que a imagem seja usada como um espaço reservado. Eles também testam adequadamente a reprodução e o direcionamento do conteúdo, enquanto a equipe apropriada finaliza o vídeo real. A imagem também pode ser usada caso a reprodução do vídeo falhe.
-Consulte [Suporte a miniaturas para vídeos](/help/user-guide/thumbnail-support.md) para obter mais detalhes.
+  Consulte [Suporte a miniaturas para vídeos](/help/user-guide/thumbnail-support.md) para obter mais detalhes.
 
 * **Monitoramento básico de reprodução**
 
   O AEM Screens agora é compatível com o monitoramento básico de reprodução. O player agora relata várias métricas de reprodução a cada ping (o padrão é 30 segundos). Com base nas métricas, ele detecta vários casos de borda (experiência travada, tela em branco, problema de agendamento e assim por diante). Esse recurso permite que a equipe monitore remotamente se um player está reproduzindo conteúdo corretamente e melhora a reatividade para telas em branco ou experiências com falha no campo. Ele também diminui o risco de mostrar uma experiência quebrada ao usuário final.
-Consulte [Monitoramento básico de reprodução](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) para obter mais detalhes.
+  Consulte [Monitoramento básico de reprodução](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) para obter mais detalhes.
 
 * **Atualizações ao Relatório de atribuição de conteúdo**
 
   O Relatório de atribuição de conteúdo agora está otimizado e aprimorado com uma experiência aprimorada do usuário. O relatório baixável exibe entidades melhoradas relacionadas ao player. Essas entidades incluem locais, exibições e dispositivos em uma guia da planilha. Também inclui as informações do provedor de conteúdo, como canais e ativos em outra guia.
-Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assignment-report.md) para obter mais detalhes.
+  Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assignment-report.md) para obter mais detalhes.
 
 * **Representações adaptáveis**
 
@@ -64,29 +69,29 @@ Consulte [Relatório de atribuição de conteúdo](/help/user-guide/content-assi
 
   Agora você pode configurar o Dispatcher para a Versão de manifesto v3. Para ativar o Manifesto v3, faça o seguinte:
 
-   * Limpe todos os trabalhos de conteúdo offline pendentes no autor e na publicação.
+  * Limpe todos os trabalhos de conteúdo offline pendentes no autor e na publicação.
 
-      * Navegue até o CRXDE Lite em Autor e Publicação.
+    * Navegue até o CRXDE Lite em Autor e Publicação.
 
-      * Clique em Ferramentas > Consulta.
+    * Clique em Ferramentas > Consulta.
 
-      * Na consulta, use `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
+    * Na consulta, use `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 
-      * Isso lista todos os trabalhos de conteúdo offline que estão atualmente em execução ou pendentes na fila.
+    * Isso lista todos os trabalhos de conteúdo offline que estão atualmente em execução ou pendentes na fila.
 
-      * Aguarde até que não haja mais trabalhos de conteúdo offline retornados da consulta.
+    * Aguarde até que não haja mais trabalhos de conteúdo offline retornados da consulta.
 
-   * Desabilitar ContentSync em `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
+  * Desabilitar ContentSync em `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
-   * Habilitar SmartSync em `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
+  * Habilitar SmartSync em `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
 
-   * Atualize o Dispatcher.
+  * Atualize o Dispatcher.
 
-   * Atualize o componente personalizado.
+  * Atualize o componente personalizado.
 
 
-   * Consulte [Configuração do Dispatcher para a Versão de Manifesto v3](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obter mais detalhes.
-   * Se você estiver usando componentes personalizados como parte dos manifestos v3, consulte [Modelo para Manipuladores Personalizados](https://experienceleague.adobe.com/pt-br/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
+  * Consulte [Configuração do Dispatcher para a Versão de Manifesto v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) para obter mais detalhes.
+  * Se você estiver usando componentes personalizados como parte dos manifestos v3, consulte [Modelo para Manipuladores Personalizados](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 
 ### Correções de erros {#bug-fixes}

@@ -10,40 +10,49 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-TQID: https://experienceleague.adobe.com/Gi6VgfG8ClNwQLFG2rrxIPFCZdK6n7FpLhc4xc1eIss
+TQID: 'https://experienceleague.adobe.com/Gi6VgfG8ClNwQLFG2rrxIPFCZdK6n7FpLhc4xc1eIss'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
+  - id: 633abde6-4dea-52af-a785-d12d741851d7
+    internal-label: Launches
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
   - id: d2e10d71-5715-46fe-bd3d-cbd7df1343d6
+    internal-label: Screens Launch
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1630
+source-wordcount: '1636'
 ht-degree: 0%
-
 ---
-
 # Atualizações de conteúdo usando o Screens Launch {#launches}
 
 >[!IMPORTANT]
->Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Esse conteúdo é válido para o AEM no local/AMS (AEM 6.5LTS e AEM 6.5). Para ver o conteúdo do AEM as a Cloud Service Screens, consulte o [guia do AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Os autores de conteúdo podem criar uma versão futura dos canais e definir ainda mais a data de ativação para esse lançamento. Essa capacidade permite que o conteúdo fique ativo em dispositivos ou players na data de ativação especificada.
 
 Com a ajuda do ***Screens Launch***, os autores podem visualizar cada canal no lançamento e devem poder iniciar uma solicitação de revisão. O grupo de aprovadores recebe uma notificação e pode aprovar ou rejeitar a solicitação. Quando a data de ativação é atingida, o conteúdo é reproduzido nos dispositivos.
 
-Por exemplo, se o autor desejar criar versões futuras de c1, c2 (canais), uma inicialização será criada e uma data de ativação será definida (por exemplo, 10 de novembro de 8:00 a.M.). Quaisquer outras atualizações no conteúdo são enviadas para revisão.
+Por exemplo, se o autor desejar criar versões futuras de c1, c2 (canais), uma inicialização será criada e uma data de ativação será definida (por exemplo, 10 de novembro, às 8h). Quaisquer outras atualizações no conteúdo são enviadas para revisão.
 
-Após a aprovação e na data de ativação (10 de novembro, 8:00 AM), este lançamento reproduz o conteúdo nos dispositivos ou players.
+Após a aprovação e na data de ativação (10 de novembro, 8:00), esse lançamento reproduz o conteúdo nos dispositivos ou players.
 
 ## Requisitos {#requirements}
 
@@ -65,7 +74,7 @@ A execução de uma experiência na data de ativação definida no reprodutor en
 
 Para que o reprodutor possa começar a reproduzir o conteúdo na data de ativação definida, inicie as atividades anteriores à data de ativação.
 
-Se a data de ativação for *24 de novembro, 9:00 A.M.* e *24 horas* for o período de carência, a sequência de ações acima iniciará em (data de ativação - período de carência), ou seja, 23 de novembro, 9:00 A.M. hora do servidor. Essa configuração de 24 horas para concluir todas as ações mencionadas acima para que o conteúdo chegue aos reprodutores. Os jogadores entendem que esse período é um conteúdo de lançamento. Dessa forma, o conteúdo não é reproduzido imediatamente, mas os players podem armazená-lo como uma versão futura e fazer com que comece a ser reproduzido exatamente na data definida de ativação no fuso horário do player.
+Se a data de ativação for *24 de novembro, 9h* e *24 horas* for o período de carência, a sequência de ações acima iniciará em (data de ativação - período de carência), ou seja, 23 de novembro, 9h horário do servidor. Essa configuração de 24 horas para concluir todas as ações mencionadas acima para que o conteúdo chegue aos reprodutores. Os jogadores entendem que esse período é um conteúdo de lançamento. Dessa forma, o conteúdo não é reproduzido imediatamente, mas os players podem armazená-lo como uma versão futura e fazer com que comece a ser reproduzido exatamente na data definida de ativação no fuso horário do player.
 
 Por exemplo, o servidor está em PST e os dispositivos estão em EST. A diferença máxima de tempo é de três horas. Ele pressupõe que a promoção leva 1 minuto e a publicação do autor para a publicação leva 10 minutos, e o reprodutor pode baixar os recursos normalmente em 10 a 15 minutos. Em seguida, o período de carência = diferença de tempo (três horas):
 
@@ -101,7 +110,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 Você definiu o período de carência como 10 minutos no exemplo anterior. Portanto, ao definir uma data de ativação para qualquer inicialização dos recursos em */content/screens*, a promoção começa com este deslocamento.
 
-Por exemplo, se a data de ativação estiver definida como 24 de novembro, 9:00 A.M. e o período de carência for de 600 segundos, o trabalho de promoção iniciará em 24 de novembro às 8:50 A.M.
+Por exemplo, se a data de ativação estiver definida como 24 de novembro, às 9h e o período de carência for de 600 segundos, o trabalho de promoção iniciará em 24 de novembro às 8h50.
 
 ## Uso do Screens Launch {#using-launches}
 
