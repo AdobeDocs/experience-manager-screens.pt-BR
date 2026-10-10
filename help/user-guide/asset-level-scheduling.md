@@ -196,7 +196,7 @@ A tabela a seguir resume algumas expressões de exemplo que você pode adicionar
 
 >[!NOTE]
 >
->>Você pode ignorar ou incluir os campos **Ativo de** e **Ativo até** e adicionar a expressão ao campo Agendamentos, de acordo com sua necessidade.
+>&#x200B;>Você pode ignorar ou incluir os campos **Ativo de** e **Ativo até** e adicionar a expressão ao campo Agendamentos, de acordo com sua necessidade.
 
 1. Insira a expressão no **Agendamento** e seu ativo será exibido para o intervalo específico de dia e hora.
 

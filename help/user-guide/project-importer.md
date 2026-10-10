@@ -117,7 +117,7 @@ Siga as etapas abaixo para importar um arquivo para uma pasta de local com os ca
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Clique no projeto,**DemoProjectImporter**>**Criar**>** Importar locais** da barra lateral.
+1. Clique no projeto,**DemoProjectImporter**>**Criar**>**&#x200B; Importar locais** da barra lateral.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
