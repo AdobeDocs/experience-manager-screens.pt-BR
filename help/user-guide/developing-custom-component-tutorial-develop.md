@@ -586,7 +586,7 @@ O código a seguir fornece os requisitos mínimos em `pom.xml` para esse projeto
 
 O vídeo abaixo mostra o componente concluído e como ele pode ser adicionado a um canal de sequência. O Canal é então adicionado a uma exibição de Localização e, por fim, atribuído a um reprodutor do Screens.
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+>[!VIDEO](https://video.tv.adobe.com/v/3507026?captions=por_br&quaity=9)
 
 ## Outras considerações para componentes personalizados que incorporam outras páginas ou fragmentos {#additional-considerations}
 
