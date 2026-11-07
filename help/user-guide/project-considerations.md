@@ -111,7 +111,7 @@ Siga o tutorial abaixo para saber mais sobre a estratégia de conteúdo, camadas
 
 ### Considerações quanto ao escopo dos projetos
 
->[!VIDEO](https://video.tv.adobe.com/v/28380)
+>[!VIDEO](https://video.tv.adobe.com/v/3507217?captions=por_br)
 
 *Saiba mais sobre a estratégia de conteúdo, as camadas de E/S, os tipos de ativos e a segmentação de público. Leia sobre partes do dia, requisitos de operações comerciais e considerações de prontidão do site.*
 

@@ -82,7 +82,7 @@ Siga este tutorial de conclusão para um tutorial de 5 partes abaixo que enfatiz
 
 ### Considerações sobre o projeto
 
->[!VIDEO](https://video.tv.adobe.com/v/28383)
+>[!VIDEO](https://video.tv.adobe.com/v/3507260?captions=por_br)
 
 *Saiba como os problemas de hardware, software e conectividade são tratados. Explore estimativas de custos e estruturas para suporte no local.*
 

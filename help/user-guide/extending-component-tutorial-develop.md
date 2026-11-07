@@ -533,7 +533,7 @@ O componente de Pôster é usado em um canal de sequência. O pacote inicial des
 
 O vídeo abaixo mostra o componente concluído e como ele pode ser adicionado a um canal de sequência. O canal é então adicionado a uma exibição de Localização e, por fim, atribuído a um reprodutor do Screens.
 
->[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
+>[!VIDEO](https://video.tv.adobe.com/v/3507017?captions=por_br&quaity=9)
 
 ## Código concluído {#finished-code}
 
